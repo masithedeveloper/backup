@@ -1,0 +1,9 @@
+{
+  "header": {
+    "statuscode": "0",
+    "service": "LogoutFacade",
+    "operation": "Logout",
+    "timestamp": "2020-07-29 11:10:18.138",
+    "resultMessages": []
+  }
+}

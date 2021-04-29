@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        style="@style/ScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/stepThreeQuestionTextView"
+                style="@style/LargeTextRegularDark"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/medium_space"
+                android:text="@string/third_health_question"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <styleguide.content.BulletItemView
+                android:id="@+id/blindnessBulletItemView"
+                style="@style/LargeTextRegularDark"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/medium_space"
+                app:attribute_content="@string/blindness"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/stepThreeQuestionTextView" />
+
+            <styleguide.content.BulletItemView
+                android:id="@+id/deafnessBulletItemView"
+                style="@style/LargeTextRegularDark"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/medium_space"
+                app:attribute_content="@string/deafness"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/blindnessBulletItemView" />
+
+            <styleguide.content.BulletItemView
+                android:id="@+id/paralysisBulletItemView"
+                style="@style/LargeTextRegularDark"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/medium_space"
+                app:attribute_content="@string/paralysis"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/deafnessBulletItemView" />
+
+            <styleguide.content.BulletItemView
+                android:id="@+id/missingLimbsBulletItemView"
+                style="@style/LargeTextRegularDark"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/medium_space"
+                app:attribute_content="@string/missing_limbs"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/paralysisBulletItemView" />
+
+            <styleguide.content.BulletItemView
+                android:id="@+id/jointProblemsBulletItemView"
+                style="@style/LargeTextRegularDark"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/medium_space"
+                app:attribute_content="@string/joint_problems"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/missingLimbsBulletItemView" />
+
+            <styleguide.content.BulletItemView
+                android:id="@+id/backProblemsBulletItemView"
+                style="@style/LargeTextRegularDark"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/medium_space"
+                app:attribute_content="@string/back_problems"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/jointProblemsBulletItemView" />
+
+            <styleguide.content.BulletItemView
+                android:id="@+id/mentalIllnessBulletItemView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/medium_space"
+                app:attribute_content="@string/any_form_of_mental_illness"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/backProblemsBulletItemView" />
+
+            <styleguide.forms.RadioButtonView
+                android:id="@+id/stepThreeAnswerRadioButtonView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/mentalIllnessBulletItemView" />
+
+            <View
+                android:id="@+id/stepThreeDividerView"
+                style="@style/DividerView"
+                android:layout_width="0dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/stepThreeAnswerRadioButtonView" />
+
+            <styleguide.forms.CheckBoxView
+                android:id="@+id/stepThreeDeclarationCheckBoxView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_description="@string/ultimate_protector_declaration"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/stepThreeDividerView" />
+
+            <styleguide.buttons.Button
+                android:id="@+id/stepThreeNextButton"
+                style="@style/PrimaryButton"
+                android:enabled="false"
+                android:text="@string/next"
+                app:layout_constraintTop_toBottomOf="@+id/stepThreeDeclarationCheckBoxView"
+                app:layout_constraintVertical_bias="1"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</layout>

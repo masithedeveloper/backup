@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="money_market_fund_closure">Geldmarkfonds</string>
+    <string name="money_market_terms_and_conditions_toolbar_title">Bepalings en voorwaardes</string>
+    <string name="money_market_confirm_title">Bevestig</string>
+    <string name="money_market_next">Volgende</string>
+    <string name="money_market_continue">Gaan voort</string>
+    <string name="money_market_banner_title">Leer oor jou opsies</string>
+    <string name="money_market_banner_content">Sluiting van  Absa Geldmarkfonds</string>
+    <string name="money_market_notice_content">Absa is daartoe verbind om aan al ons kliënte die beste ervaring en finansiële produkte te verskaf. Teen die agtergrond, hersien ons gereeld ons produkte om te verseker dat dit aan ons kliënte se behoeftes en verwagtinge voldoen.\n\nAbsa fondsbestuurders het onlangs die Absa Geldmarkfonds (AGMF) hersien en vasgestel dat die meerderheid van die kleinhandelkliënte wat aan ‘n opname deelgeneem het, glo dat die fonds se kapitaal en die gepaardgaande opbrengste deur Absa Bank gewaarborg word. Die fonds is egter nie ’n bankrekening nie; dit is ’n produk vir kollektiewe beleggingskemas (ook bekend as ’n \'effektetrust\') en daarom word die kapitaal en opbrengste nie gewaarborg nie. Ons het daarom besluit om die fonds vanaf 6 Julie 2021 (die sluitingsdatum) te sluit in die beste belang van ons kliënte en gegewe ons bevindinge dat die meerderheid kleinhandelkliënte glo dat hul kapitaal en opbrengste gewaarborg word.\n\nDie sluiting is ’n likwidasieproses wat vereis dat jou belang in die fonds verkoop word en die opbrengs aan jou uitbetaal word ingevolge Artikel 102 van die Wet op die Beheer van Kollektiewe Beleggingskemas. Ons sal dus, as deel van hierdie proses, jou fondse in die AGMF voor of op die sluitingsdatum aan jou uitbetaal.\n\nAs belegger in die AGMF kan jy enige tyd oorskakel – die sperdatum vir oorskakeling is 1 Julie 2021 en die likwidasiedatum is 6 Julie 2021.\n\nDaarom het jy 90 dae vanaf die datum van hierdie brief om:\n\n-	jou fondse direk te onttrek en oor te skuif na een van jou bankrekeninge, of\n-	met ’n finansiële adviseur te gesels indien jy die geld maklik wil oorskakel na enige van ons ander finansiële produkte, of\n-	die fondse na 90 dae maklik en veilig na ’n Absa-beleggingsbankrekening in jou naam oor te dra</string>
+    <string name="money_market_notice_more_information">Meer inligting</string>
+    <string name="money_market_notice_call_center">Inbelsentrum </string>
+    <string name="money_market_notice_acknowledge">Ek het hierdie kennisgewing gelees en verstaan dit.</string>
+    <string name="money_market_choose_product_notice_past_performance">* vorige prestasie is nie ’n aanduiding van toekomstige prestasie nie</string>
+    <string name="money_market_choose_product_notice"><b>Onthou:</b> As jy nog nie op 6 Julie 2021 ’n besluit geneem het nie, moenie bekommerd wees nie! Ons sal gerieflikheidshalwe jou fondse na jou Absa Beleggingsbankrekening in jou naam skuif, met al die voordele hierbo.\n\nWil jy in ’n effektetrustbelegging bly?\nSkakel 0860 111 4565.\n\nBenodig jy inligting oor enige van ons ander finansiële produkte? Praat met een van ons finansiële adviseurs by 0860 111 4565.\n\nVind meer uit oor die AMMF-sluiting:\nSoek \'AMMF-sluiting\' op ons webwerf, skakel 0860 111 515 of besoek jou naaste tak.</string>
+    <string name="money_market_choose_product_introduction">Jy kan jou AMM-fonds maklik omskakel in ’n %s Beleggingsbankrekening wat deurgaans beter* as die AMMF presteer het, en jou rekeningnommer sal dieselfde bly. Alternatiewelik kan jy jou geld na een van jou bestaande Absa-transaksierekeninge oorplaas of ’n alternatiewe belegging oorweeg.\n\nKies asseblief ’n opsie hieronder:</string>
+    <string name="money_market_choose_product_convert_title">Skakel oor na %s Beleggingsbankrekening</string>
+    <string name="money_market_choose_product_withdraw_title">Onttrek al jou fondse</string>
+    <string name="money_market_choose_product_account_number">Jou rekeningnommer sal onveranderd bly</string>
+    <string name="money_market_choose_product_transfer_funds">Plaas jou fondse oor na een van jou bestaande Absa-transaksierekeninge</string>
+    <string name="money_market_convert_to_cash_title">Jy’s op die punt om jou Absa Geldmarkfonds-rekening in ’n %s-beleggingsrekening te omskep.</string>
+    <string name="money_market_convert_to_cash_account_number">Jy sal jou rekeningnommer %s behou.</string>
+    <string name="money_market_convert_to_cash_balance_moved">Jou rekeningsaldo van R %s sal na jou nuwe rekening oorgeplaas word.</string>
+    <string name="money_market_convert_to_cash_deposit">Deposito’s in jou nuwe rekening sal nou gewaarborg word.</string>
+    <string name="money_market_convert_to_cash_access_to_funds">Jy sal jou fondse aanlyn, in ’n Absa-tak of by enige Absa OTM kan onttrek.</string>
+    <string name="money_market_convert_to_cash_absa_card">Jy sal steeds jou bestaande Absa-kaart soos gewoonlik gebruik.</string>
+    <string name="money_market_convert_to_cash_success_title">Jou rekening is omskep!</string>
+    <string name="money_market_convert_to_cash_success_description">Jou %s-beleggingsrekening sal binnekort in jou lys van rekenings verskyn.</string>
+    <string name="money_market_terms_and_conditions_i_agree">Ek stem in tot die bepalings en voorwaardes</string>
+    <string name="money_market_withdraw_funds_description">Die saldo van R %s in jou Absa Geldmarkfonds-rekening sal oorgeplaas word.\n\nNa watter rekening wil jy dit oorplaas?</string>
+    <string name="money_market_withdraw_funds_account">Rekening</string>
+    <string name="money_market_withdraw_funds_choose_account_hints">Kies ’n rekening</string>
+    <string name="money_market_withdraw_funds_success_title">Die fondse in jou Absa Geldmarkfonds-rekening is oorgeplaas!</string>
+    <string name="money_market_withdraw_funds_success_description">Jou saldo van R %s sal binnekort in jou tjekrekening (wat eindig met %s) wys.</string>
+    <string name="money_market_withdraw_account_name">Rekening</string>
+    <string name="money_market_withdraw_account_number">Rekeningnommer</string>
+    <string name="money_market_choose_product_capital_guaranteed">Jou kapitaal sal nou deur die bank gewaarborg word</string>
+    <string name="money_market_choose_product_interest_rates">Hierdie bankrekening se rentekoerse het deurgaans beter gevaar as AMMF*</string>
+    <string name="money_market_choose_product_deposit_online">Maak onmiddellik deposito\'s of onttrekkings by enige Absa-kitsbank of in die tak</string>
+    <string name="money_market_choose_product_use_existing_card">Aangesien jy onmiddellik geld kan onttrek, kan dit ’n maklike rekening wees om jou fondse in te hou terwyl jy besluit wat jy wil doen</string>
+    <string name="money_market_absa_account">Absa</string>
+    <string name="money_market_cash_account">Kontant</string>
+    <string name="money_market_withdraw_funds_non_absa_account">Skakel asseblief 08600 8600 as jy fondse in ’n nie-Absa-rekening wil onttrek.</string>
+    <string name="money_market_withdraw_funds_closure_error">Aanvaar asseblief die kennisgewing</string>
+    <string name="money_market_withdraw_funds_terms_and_conditions_error">Aanvaar asseblief bepalings en voorwaardes</string>
+</resources>

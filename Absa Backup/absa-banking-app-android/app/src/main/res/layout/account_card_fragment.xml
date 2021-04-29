@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <styleguide.cards.AccountView
+        android:id="@+id/horizontalAccountView"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/account_card_horizontal_height" />
+</layout>

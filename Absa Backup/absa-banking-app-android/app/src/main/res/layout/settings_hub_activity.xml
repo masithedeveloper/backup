@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/header_dark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ScrollView style="@style/ScrollView">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <styleguide.content.ProfileView
+                android:id="@+id/currentProfileView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <View
+                android:id="@+id/divider1"
+                style="@style/DividerView"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginStart="@dimen/medium_space"
+                android:layout_marginEnd="@dimen/medium_space"
+                android:background="@color/silver_grey" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/languageInputView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:attribute_editable="false"
+                app:attribute_selector_type="SHORT_LIST"
+                app:attribute_title_text="@string/settings_language" />
+
+            <styleguide.bars.ToggleView
+                android:id="@+id/pushNotificationToggleView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:attribute_toggle_text="@string/settings_enable_push_notifications" />
+
+            <styleguide.bars.ToggleView
+                android:id="@+id/fingerprintLogInToggleView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:attribute_toggle_text="@string/settings_enable_use_fingerprint_log_in" />
+
+            <styleguide.bars.ToggleView
+                android:id="@+id/playSoundsToggleView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:attribute_toggle_text="@string/settings_enable_sounds" />
+
+            <styleguide.bars.ToggleView
+                android:id="@+id/takeScreenshotsToggleView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                app:attribute_toggle_text="@string/screenshot_settings_text" />
+
+            <styleguide.bars.ToggleView
+                android:id="@+id/darkModeToggleView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                app:attribute_toggle_text="@string/settings_dark_theme" />
+
+            <View
+                android:id="@+id/dividerView"
+                style="@style/DividerView"
+                android:layout_width="match_parent"
+                android:layout_marginStart="@dimen/medium_space"
+                android:layout_marginEnd="@dimen/medium_space"
+                android:visibility="gone"
+                tools:visibility="visible" />
+
+            <styleguide.buttons.OptionActionButtonView
+                android:id="@+id/customiseLoginScreenOptionActionButtonView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                app:attribute_caption="@string/customise_login_screen_title"
+                app:attribute_icon="@drawable/ic_customise_dark"
+                app:attribute_show_arrow="true"
+                tools:visibility="visible" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

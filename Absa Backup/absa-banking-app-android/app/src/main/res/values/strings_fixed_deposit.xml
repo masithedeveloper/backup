@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fixed_deposit_new_fixed_deposit">New Fixed Deposit</string>
+    <string name="fixed_deposit_fixed_deposit">Fixed Deposit</string>
+    <string name="fixed_deposit_successfully_opened_on">Fixed deposit account %1$s successfully opened on %2$s</string>
+    <string name="fixed_deposit_successfully_opened">Fixed Deposit account successfully opened</string>
+    <string name="fixed_deposit_available_message">%s available (Minimum R 1 000.00)</string>
+    <string name="fixed_deposit_account_at_another_bank">Account at another bank</string>
+
+    <string name="fixed_deposit_opened_on">Opened on</string>
+    <string name="fixed_deposit_maturity_date">Maturity date</string>
+    <string name="fixed_deposit_interest_rate_per_annum">Interest rate per annum</string>
+    <string name="fixed_deposit_profit_share_rate">Profit share rate per annum</string>
+    <string name="fixed_deposit_interest_payment_frequency">Interest payment frequency</string>
+    <string name="fixed_deposit_profit_share_payment_frequency">Profit share frequency</string>
+    <string name="fixed_deposit_interest_payment_date">Next interest payment date</string>
+    <string name="fixed_deposit_profit_share_payment_date">Next profit share payment date</string>
+    <string name="fixed_deposit_interest_payment_day">Interest payment day</string>
+    <string name="fixed_deposit_profit_share_payment_day">Profit share payment day</string>
+    <string name="fixed_deposit_pay_interest_into">Pay interest into</string>
+    <string name="fixed_deposit_pay_profit_share_into">Pay profit share into</string>
+    <string name="fixed_deposit_payment_reference">Payment reference</string>
+
+    <string name="fixed_deposit_next_payment_date">Next payment date: %s</string>
+
+    <string name="fixed_deposit_investment_term">Investment term</string>
+    <string name="fixed_deposit_months">Months</string>
+    <string name="fixed_deposit_days">Days</string>
+    <string name="fixed_deposit_month">month</string>
+    <string name="fixed_deposit_day">day</string>
+
+    <string name="fixed_deposit_banner_title">Invest in a Fixed Deposit Account from as little as R\u202F1\u202F000</string>
+    <string name="fixed_deposit_invest">Invest in a Fixed Deposit Account from as little\nas R\u202F1\u202F000</string>
+    <string name="fixed_deposit_card_title">Invest in a Fixed Deposit Account</string>
+    <string name="fixed_deposit_automatic_reinvest">Investment matured: automatic reinvestment on %s</string>
+
+    <string name="fixed_deposit_monthly">Monthly</string>
+    <string name="fixed_deposit_quarterly">Quarterly</string>
+    <string name="fixed_deposit_half_yearly">Half yearly</string>
+    <string name="fixed_deposit_yearly">Yearly</string>
+    <string name="fixed_deposit_maturity">Maturity</string>
+
+    <string name="fixed_deposit_account_name">Account name</string>
+    <string name="fixed_deposit_account_name_hint">Enter a name for the account</string>
+    <string name="fixed_deposit_investment_amount">Investment amount</string>
+    <string name="fixed_deposit_enter_reference">Enter reference</string>
+    <string name="fixed_deposit_from_account_reference">From account reference</string>
+    <string name="fixed_deposit_to_account_reference">To account reference</string>
+    <string name="fixed_deposit_minimum_amount">Minimum amount from R1000</string>
+
+    <string name="fixed_deposit_from_reference">From reference</string>
+    <string name="fixed_deposit_to_reference">To reference</string>
+
+    <string name="fixed_deposit_profile_needs_to_be_updated_title">Your Absa profile needs to be updated</string>
+    <string name="fixed_deposit_profile_needs_to_be_updated_content">Please log in to Absa online banking, or visit a branch, to update your profile information in order to proceed.</string>
+    <string name="fixed_deposit_profile_needs_to_be_updated_content_private">We require additional information to complete your application. Please contact your Banker or call 0861 000 734 for assistance.</string>
+
+    <string name="fixed_deposit_choose_payment_frequency">Choose a payment frequency</string>
+    <string name="fixed_deposit_amount_more_than_daily_transfer_limit">The amount is more than your current daily transfer limit. If you continue, we\'ll update your limit but you can always change it back later.</string>
+
+    <string name="fixed_deposit_choose_payment_day">Choose a payment day</string>
+    <string name="fixed_deposit_choose_investment_term">Choose investment term</string>
+    <string name="fixed_deposit_choose_a_maturity_date">Choose a maturity date</string>
+    <string name="fixed_deposit_maturity_disclaimer">The date at which the investment amount and any remaining interest will be made available to you</string>
+    <string name="fixed_deposit_maturity_disclaimer_islamic">The date at which the investment amount and any remaining profit share will be made available to you</string>
+    <string name="fixed_deposit_interest_into_disclaimer">The account to be credited with the interest of the new account</string>
+    <string name="fixed_deposit_profit_share_into_disclaimer">The account to be credited with the profit share of the new account</string>
+    <string name="fixed_deposit_declaration_check_box">I declare that the above accounts are mine and that I authorise the bank to debit and or credit them, on or after the date specified with the agreed amount.</string>
+    <string name="fixed_deposit_read_and_agree_personal_client_agreement">I have read and agree to the Personal Client Agreement</string>
+    <string name="fixed_deposit_personal_client_agreement">Personal Client Agreement</string>
+    <string name="fixed_deposit_call_fixed_deposit">What would you like to call this fixed deposit account?</string>
+    <string name="fixed_deposit_information">Fixed deposit information</string>
+    <string name="fixed_deposit_open_account">Open a Fixed Deposit Account</string>
+    <string name="fixed_deposit_account">Fixed Deposit Account</string>
+
+    <string name="fixed_deposit_select_payment_frequency">Select payment frequency</string>
+    <string name="fixed_deposit_interest_rate_dependent">Interest rate is dependent on the amount, interest payment frequency and investment term.</string>
+    <string name="fixed_deposit_profit_share_rate_dependent">Profit share rate is dependent on the amount, profit share payment frequency and investment term.</string>
+
+    <string name="fixed_deposit_investment_bullet_1">Capital and interest is guaranteed.</string>
+    <string name="fixed_deposit_investment_bullet_1_islamic">Capital and profit share is guaranteed.</string>
+    <string name="fixed_deposit_investment_bullet_2">Choose an investment term from 8 days to 60 months.</string>
+    <string name="fixed_deposit_investment_bullet_3">Interest can be paid monthly, quarterly, half yearly, annually or on maturity.</string>
+    <string name="fixed_deposit_investment_bullet_3_islamic">Profit share can be paid monthly, quarterly, half yearly, annually or on maturity.</string>
+    <string name="fixed_deposit_investment_bullet_4">No transaction charges.</string>
+    <string name="fixed_deposit_investment_bullet_5_islamic">Seniors, %d years and older, qualify for an additional %.1f%% interest on deposits of up to %s for 12 months or longer.</string>
+    <string name="fixed_deposit_investment_bullet_5">Seniors, %d years and older, qualify for an additional %.1f%% profit share on deposits of up to %s for 12 months or longer.</string>
+    <string name="fixed_deposit_investment_bullet_6">No monthly admin fees.</string>
+
+    <string name="fixed_deposit_investment_amount_description">Investments between %1$s-%2$s earn more interest than those between %3$s-%4$s</string>
+    <string name="fixed_deposit_investment_amount_description_islamic">Investments between %1$s-%2$s earn more profit share than those between %3$s-%4$s</string>
+    <string name="fixed_deposit_maturity_reinvest">On maturity, Absa will reinvest the funds, should no instruction be provided.</string>
+    <string name="fixed_deposit_maturity_is_the_date">Maturity is the date at which the investment amount and any remaining interest will be made available to you.</string>
+    <string name="fixed_deposit_maturity_is_the_date_islamic">Maturity is the date at which the investment amount and any remaining profit share will be made available to you.</string>
+    <string name="fixed_deposit_your_interest_rate_calculation">Your Interest Rate enquiry</string>
+    <string name="fixed_deposit_your_profit_share_rate_calculation">Your Profit Share Rate enquiry</string>
+    <string name="fixed_deposit_interest_rate_applicable">This is the interest rate applicable for each of the following periods, and expressed as a percentage per annum</string>
+    <string name="fixed_deposit_profit_share_rate_applicable">This is the profit share  rate applicable for each of the following periods, and expressed as a percentage per annum</string>
+    <string name="fixed_deposit_interest_rate_calculator">Interest rate enquiry</string>
+    <string name="fixed_deposit_profit_share_rate_calculator">Profit share rate enquiry</string>
+
+    <string name="fixed_deposit_low_digital_limits">Your Digital Limits are too low.</string>
+    <string name="fixed_deposit_investment_amount_minimum_amount">Enter amount greater than or equal to R 1 000.00</string>
+    <string name="fixed_deposit_account_name_error_message">Please enter an account name</string>
+    <string name="fixed_deposit_investment_amount_error_message">Please enter an investment amount</string>
+    <string name="fixed_deposit_from_account_reference_error_message">Please enter a reference</string>
+    <string name="fixed_deposit_to_account_reference_error_message">Please enter a reference</string>
+    <string name="fixed_deposit_select_account">Please select account</string>
+    <string name="fixed_deposit_minimum_of">Minimum of %1$s %2$s</string>
+    <string name="fixed_deposit_maximum_of">Maximum of %1$s %2$s</string>
+    <string name="fixed_deposit_max_5_sources">You can only select a maximum of 5 sources</string>
+    <string name="fixed_deposit_absa_account">Absa account</string>
+    <string name="fixed_deposit_account_another_bank">Account at another bank</string>
+    <string name="fixed_deposit_terms_and_conditions">I have read and agree to the Terms and Conditions</string>
+    <string name="fixed_deposit_terms_and_conditions_error_message">Please accept terms and conditions</string>
+
+    <string name="fixed_deposit_update_daily_transfer_limit">Update daily transfer limit?</string>
+    <string name="fixed_deposit_update_daily_transfer_limit_message">The amount is more than your current daily transfer limit. If you continue, we\'ll update your limit but you can always change it back later.</string>
+    <string name="fixed_deposit_update_daily_payment_limit">Update daily payment limit?</string>
+    <string name="fixed_deposit_update_daily_payment_limit_message">The amount is more than your current daily payment limit. If you continue, we\'ll update your limit but you can always change it back later.</string>
+    <string name="fixed_deposit_profile_update">Your Absa profile needs to be updated</string>
+
+    <string name="fixed_deposit_please_choose_payment_frequency">Please choose a payment frequency</string>
+    <string name="fixed_deposit_please_select_a_maturity_date">Please select a maturity date</string>
+    <string name="fixed_deposit_please_select_a_source_of_fund">Please select sources of funds</string>
+    <string name="fixed_deposit_please_choose_an_account_to_be_credited">Please choose an account to be credited</string>
+    <string name="fixed_deposit_please_choose_a_bank">Please choose a bank</string>
+    <string name="fixed_deposit_please_choose_a_branch">Please choose a branch</string>
+    <string name="fixed_deposit_please_choose_an_account_type">Please choose an account type</string>
+    <string name="fixed_deposit_please_enter_an_account_number">Please enter an account number</string>
+    <string name="fixed_deposit_please_enter_a_payment_reference">Please enter a payment reference</string>
+    <string name="fixed_deposit_please_agree_to_these_terms">Please agree to these terms</string>
+    <string name="fixed_deposit_maximum_of_5">Please select a maximum of 5</string>
+    <string name="fixed_deposit_select_investment_term">Please select an investment term</string>
+    <string name="choose_a_source_of_funds">Choose source of funds</string>
+    <string name="fixed_deposit_maturity_date_after">Maturity date must be after %s</string>
+    <string name="choose_one_of_my_accounts">Choose one of my accounts</string>
+    <string name="another_absa_account">Another Absa account</string>
+    <string name="please_select_account_error">Please select an account</string>
+    <string name="fixed_deposit_reselect_investment_term">Please reselect investment term</string>
+    <string name="fixed_deposit_invalid_date">Invalid date</string>
+    <string name="fixed_deposit_date_weekend_error">The selected date cannot be on a weekend or a public holiday. Please select another date.</string>
+    <string name="fixed_deposit_account_name_exists">Account with name %s already exists</string>
+    <string name="fixed_deposit_please_select_a_valid_frequency">Choose a valid frequency for your selected term</string>
+    <string name="fixed_deposit_please_select_a_valid_investment_term">Choose a valid term for your selected frequency</string>
+    <string name="fixed_deposit_business_account_error_title">We are unable to complete this application here</string>
+    <string name="fixed_deposit_business_account_error_message">Your business is as important to us as it is to you. Please contact your business banker now to continue.\n\nThank you for your time.</string>
+    <string name="fixed_deposit_select_to_account">Select Account</string>
+    <string name="fixed_deposit_account_closed">Account closed</string>
+    <string name="fixed_deposit_account_closed_sub_message">The account is closed and cannot be used further.</string>
+    <string name="fixed_deposit_interest_payout_details">Interest Payout Details</string>
+    <string name="fixed_deposit_confirm_payout_details">Confirm Payout Details</string>
+    <string name="fixed_deposit_next_payout">Next payout</string>
+    <string name="fixed_deposit_capitalisation_frequency">Capitalisation frequency</string>
+    <string name="fixed_deposit_tab_label">Account</string>
+    <string name="fixed_deposit_update_payout_details">Update payout details</string>
+    <string name="fixed_deposit_interest_rate">Interest rate</string>
+    <string name="fixed_deposit_new_investment_instruction">New investment instruction</string>
+    <string name="fixed_deposit_account_info">You will be able to top up, withdraw or reinvest when your account matures on the %1$s</string>
+    <string name="fixed_deposit_other_bank">Other bank</string>
+    <string name="fixed_deposit_enter_details_manually">Enter details manually</string>
+    <string name="fixed_deposit_update_successful">Update successful</string>
+    <string name="fixed_deposit_payout_details_success_message">All interest will be paid out into %1$s (%2$s)</string>
+    <string name="fixed_deposit_payout_details_error_message">There was a technical error updating your details. Please try again later.</string>
+    <string name="fixed_deposit_invalid_account_number">Invalid account number</string>
+    <string name="fixed_deposit_invalid_account_number_message">The account number entered does not exist. Please try again.</string>
+    <string name="fixed_deposit_payment_day_error">Please choose an interest payment day</string>
+    <string name="fixed_deposit_pay_interest_into_error">Please choose an account that will receive interest</string>
+    <string name="fixed_deposit_start_date">Start date</string>
+    <string name="fixed_deposit_confirm_instruction">Confirm Instruction</string>
+    <string name="fixed_deposit_auto_reinvest">Auto reinvest</string>
+    <string name="fixed_deposit_auto_reinvest_info">Reinvest capital, with the same investment preferences.</string>
+    <string name="fixed_deposit_custom_reinvestment">Custom reinvestment</string>
+    <string name="fixed_deposit_custom_reinvestment_info">Top up or reinvest.</string>
+    <string name="fixed_deposit_account_number">Account number</string>
+    <string name="fixed_deposit_account_type">Account type</string>
+    <string name="fixed_deposit_reinvest_instructions">New Instructions</string>
+    <string name="fixed_deposit_reinvestment_confirmed">Fixed deposit reinvestment confirmed</string>
+    <string name="fixed_deposit_reinvestment_success_message">Reinvestment instruction has been submitted and will take effect on %1$s.</string>
+    <string name="fixed_deposit_auto_reinvestment_success_message">Reinvestment instruction has been submitted.</string>
+    <string name="fixed_deposit_interest_disclaimer">The account to be credited with the interest of your investment</string>
+    <string name="fixed_deposit_cheque_account">Cheque account</string>
+    <string name="fixed_deposit_custom_instruction">Custom Instruction</string>
+    <string name="fixed_deposit_investment_start_date">Investment start date</string>
+    <string name="fixed_deposit_next_payout_day">Next payout day</string>
+    <string name="fixed_deposit_additional_funds">Additional funds required: %1$s</string>
+    <string name="fixed_deposit_interest_earned">%1$s p.a Interest earned when paid out %2$s</string>
+    <string name="fixed_deposit_reinvest_error_message">There was a technical error submitting the instruction. Please try again later.</string>
+    <string name="fixed_deposit_account_selection_error">This account has insufficient funds: %1$s</string>
+    <string name="fixed_deposit_insufficient_funds">Insufficient funds to reinvest (min R1000). Once funds have been withdrawn, the account will be closed.</string>
+</resources>

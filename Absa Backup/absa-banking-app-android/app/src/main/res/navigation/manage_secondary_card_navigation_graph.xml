@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/manage_secondary_card_navigation_graph"
+    app:startDestination="@id/secondaryCardManageFragment">
+
+    <fragment
+        android:id="@+id/secondaryCardManageFragment"
+        android:name="com.barclays.absa.banking.card.ui.secondaryCard.SecondaryCardManageFragment"
+        android:label="SecondaryCardManageFragment"
+        tools:layout="@layout/secondary_card_manage_fragment">
+        <argument
+            android:name="SECONDARY_CARD_OBJECT"
+            app:argType="com.barclays.absa.banking.express.secondaryCard.getSecondaryCardMandate.dto.GetSecondaryCardMandateResponse" />
+        <action
+            android:id="@+id/action_secondaryCardManageFragment_to_secondaryCardTermsAndConditionsFragment"
+            app:destination="@id/secondaryCardTermsAndConditionsFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+    <fragment
+        android:id="@+id/secondaryCardSummaryFragment"
+        android:name="com.barclays.absa.banking.card.ui.secondaryCard.SecondaryCardSummaryFragment"
+        android:label="SecondaryCardSummaryFragment"
+        tools:layout="@layout/secondary_card_summary_fragment">
+        <action
+            android:id="@+id/action_secondaryCardSummaryFragment_to_genericResultScreenFragment"
+            app:destination="@id/genericResultScreenFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/genericResultScreenFragment"
+        android:name="styleguide.screens.GenericResultScreenFragment"
+        android:label="GenericResultScreenFragment"
+        app:enterAnim="@anim/fadein"
+        app:exitAnim="@anim/fadeout"
+        app:popEnterAnim="@anim/fadein"
+        app:popExitAnim="@anim/fadeout"
+        tools:layout="@layout/generic_results_screen_fragment">
+        <argument
+            android:name="GenericResultScreenFragment"
+            app:argType="styleguide.screens.GenericResultScreenProperties" />
+        <argument
+            android:name="shouldOnlyAnimateOnce"
+            app:argType="boolean" />
+    </fragment>
+    <fragment
+        android:id="@+id/secondaryCardTermsAndConditionsFragment"
+        android:name="com.barclays.absa.banking.card.ui.secondaryCard.SecondaryCardTermsAndConditionsFragment"
+        android:label="SecondaryCardTermsAndConditionsFragment">
+        <action
+            android:id="@+id/action_secondaryCardTermsAndConditionsFragment_to_secondaryCardSummaryFragment"
+            app:destination="@id/secondaryCardSummaryFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+</navigation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="business_banking_account">Besigheidbankrekening</string>
+    <string name="personal_banking_account">Persoonlike bankrekening</string>
+    <string name="selected_beneficiaries_toolbar">Geselekteerde Begunstigdes</string>
+</resources>

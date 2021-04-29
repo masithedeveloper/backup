@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            style="@style/ScrollView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/small_space"
+                app:layout_constraintBottom_toTopOf="@id/nextButton"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0">
+
+                <styleguide.content.TitleAndDescriptionView
+                    android:id="@+id/contentTitleAndDescriptionView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:attribute_description="@string/new_to_bank_now_take_a_photo_of_your_ID"
+                    app:attribute_title="@string/new_to_bank_thank_you"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <styleguide.content.HeadingView
+                    android:id="@+id/radioButtonsHeadingView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:attribute_heading="@string/new_to_bank_what_kind_of_id_do_you_have"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/contentTitleAndDescriptionView" />
+
+                <styleguide.forms.RadioButtonView
+                    android:id="@+id/idOptionsRadioButtonView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/small_space"
+                    app:attribute_is_required="true"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/radioButtonsHeadingView" />
+
+                <View
+                    android:id="@+id/divider"
+                    style="@style/DividerView"
+                    android:layout_width="0dp"
+                    android:layout_marginTop="@dimen/medium_space"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/idOptionsRadioButtonView" />
+
+                <styleguide.content.HeadingView
+                    android:id="@+id/photoInstructionsHeadingView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/small_space"
+                    app:attribute_heading="@string/new_to_bank_how_to_take_this_photo"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/divider" />
+
+                <styleguide.buttons.OptionActionButtonView
+                    android:id="@+id/placeIDOptionActionButtonView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/extra_extra_large_space"
+                    app:attribute_caption="@string/new_to_bank_Place_id_flat_instruction"
+                    app:attribute_icon="@drawable/ic_tick_black_24"
+                    app:attribute_show_arrow="false"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/photoInstructionsHeadingView" />
+
+                <styleguide.buttons.OptionActionButtonView
+                    android:id="@+id/holdIDOptionActionButtonView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/extra_extra_large_space"
+                    app:attribute_caption="@string/new_to_bank_hold_your_phone_above_instruction"
+                    app:attribute_icon="@drawable/ic_tick_black_24"
+                    app:attribute_show_arrow="false"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/placeIDOptionActionButtonView" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </ScrollView>
+
+        <styleguide.buttons.Button
+            android:id="@+id/nextButton"
+            style="@style/PrimaryButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:text="@string/new_to_bank_take_photo" />
+    </LinearLayout>
+
+</layout>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        style="@style/ScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <styleguide.content.TitleAndDescriptionView
+                android:id="@+id/selectedFundTitleAndDescriptionView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_description="@string/redeem_fund_selected_fund_description"
+                app:attribute_description_size="@dimen/small_text_size"
+                app:attribute_title_size="@dimen/heading_text_size"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <styleguide.content.LineItemView
+                android:id="@+id/availableUnitsLineItemView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_label_text="@string/redeem_fund_available_units"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/selectedFundTitleAndDescriptionView" />
+
+            <styleguide.content.LineItemView
+                android:id="@+id/availableAmountLineItemView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_label_text="@string/redeem_fund_available_amount"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/availableUnitsLineItemView" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/redemptionTypeInputView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_hint_text="@string/redeem_fund_redemption_type_hint"
+                app:attribute_selector_type="LONG_LIST"
+                app:attribute_title_text="@string/redeem_fund_redemption_type"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/availableAmountLineItemView" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/sellValueInputView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                app:attribute_description_text="@string/redeem_fund_instructions_rule"
+                app:attribute_hint_text="@string/switch_enter_value"
+                app:attribute_title_text="@string/switch_value"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/redemptionTypeInputView" />
+
+            <styleguide.forms.CheckBoxView
+                android:id="@+id/cancelDebitOrderForFundCheckBox"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/medium_space"
+                android:layout_marginBottom="@dimen/small_space"
+                app:attribute_description="@string/redeem_fund_cancel_debit_order"
+                app:attribute_is_checked="false"
+                app:attribute_is_error_visible="false"
+                app:attribute_is_required="true"
+                app:layout_constraintBottom_toTopOf="@+id/nextButton"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/sellValueInputView"
+                app:layout_constraintVertical_bias="1" />
+
+            <styleguide.buttons.Button
+                android:id="@+id/nextButton"
+                style="@style/PrimaryButton"
+                android:layout_width="0dp"
+                android:text="@string/next"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintVertical_bias="1" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+</layout>

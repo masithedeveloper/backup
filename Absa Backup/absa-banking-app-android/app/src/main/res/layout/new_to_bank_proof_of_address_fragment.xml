@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:id="@+id/scrollView"
+            style="@style/ScrollView"
+            android:layout_width="match_parent"
+            android:layout_weight="1">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <styleguide.content.TitleAndDescriptionView
+                    android:id="@+id/whereYouLive"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/small_space"
+                    app:attribute_description="@string/new_to_bank_check_your_address"
+                    app:attribute_title="@string/new_to_bank_great"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <LinearLayout
+                    android:id="@+id/documentsLinearLayout"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/medium_space"
+                    android:orientation="vertical"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/whereYouLive">
+
+                </LinearLayout>
+
+                <styleguide.buttons.OptionActionButtonView
+                    android:id="@+id/showMoreOptionActionButtonView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/extra_extra_large_space"
+                    android:layout_marginTop="@dimen/medium_space"
+                    app:attribute_caption="@string/new_to_bank_show_me_more"
+                    app:attribute_icon="@drawable/ic_add_dark"
+                    app:attribute_show_arrow="false"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/documentsLinearLayout" />
+
+                <View
+                    android:id="@+id/divider"
+                    style="@style/DividerView"
+                    android:layout_width="0dp"
+                    android:layout_marginTop="@dimen/medium_space"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/showMoreOptionActionButtonView" />
+
+                <styleguide.content.HeadingView
+                    android:id="@+id/takePhotoHeadingView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:attribute_heading="@string/new_to_bank_how_to_take_this_photo"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/divider" />
+
+                <styleguide.buttons.OptionActionButtonView
+                    android:id="@+id/documentPlacementOptionActionButtonView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/extra_extra_large_space"
+                    android:clickable="false"
+                    app:attribute_caption="@string/new_to_bank_place_your_document"
+                    app:attribute_icon="@drawable/ic_tick_black_24"
+                    app:attribute_show_arrow="false"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/takePhotoHeadingView" />
+
+                <styleguide.buttons.OptionActionButtonView
+                    android:id="@+id/holdPhoneOptionActionButtonView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/extra_extra_large_space"
+                    android:clickable="false"
+                    app:attribute_caption="@string/new_to_bank_make_sure_it_fits"
+                    app:attribute_icon="@drawable/ic_tick_black_24"
+                    app:attribute_show_arrow="false"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/documentPlacementOptionActionButtonView" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </ScrollView>
+
+        <styleguide.buttons.Button
+            android:id="@+id/takePhotoButton"
+            style="@style/PrimaryButton"
+            android:text="@string/new_to_bank_take_photo"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+    </LinearLayout>
+</layout>

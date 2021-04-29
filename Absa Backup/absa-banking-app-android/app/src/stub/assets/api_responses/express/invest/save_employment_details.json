@@ -1,0 +1,27 @@
+{
+  "header": {
+    "statuscode": "0",
+    "userAgent": "PostmanRuntime/7.26.2",
+    "wfpt": null,
+    "jsessionid": "8y789dJiF-QdVT5OoO4Og_3K8pLS1rQl9e8JX04_",
+    "esessionid": null,
+    "xfpt": null,
+    "service": "SaveAndInvestCaseManagementFacade",
+    "operation": "SaveEmploymentDetailsInfo",
+    "channel": null,
+    "timestamp": "2020-08-12 13:04:13.384",
+    "sourceip": "22.242.84.146",
+    "accessAccount": null,
+    "userNumber": null,
+    "nonce": "E9cIleKzPrTejI2Amcl4K3i2GOXZcMFM_tYDHqzbvps",
+    "language": "en",
+    "organization": null,
+    "brand": null,
+    "applicationId": null,
+    "applicationKeyId": null,
+    "requestToken": null,
+    "resultMessages": [],
+    "paginationContext": null
+  },
+  "updated": true
+}

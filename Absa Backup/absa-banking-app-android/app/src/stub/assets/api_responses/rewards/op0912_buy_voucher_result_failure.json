@@ -1,0 +1,16 @@
+{
+  "successResponseModel":{
+    "payHdr":{
+      "resId":"RES0913",
+      "resCde":"00000",
+      "resMsg":"",
+      "serVer":"2.0"
+    },
+    "payData":{
+      "regisMsg":"The Rewards system is currently not responding and we cannot complete your request.  Please try again in a short while.",
+      "membershipID":"160217000114",
+      "redemptionCode":"RWTRET",
+      "regisStatus":"FAILURE"
+    }
+  }
+}

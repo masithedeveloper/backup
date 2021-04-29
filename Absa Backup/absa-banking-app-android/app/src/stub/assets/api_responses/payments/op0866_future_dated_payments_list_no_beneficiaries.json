@@ -1,0 +1,16 @@
+{
+  "successResponseModel" : {
+    "payData" : {
+      "futurePayments" : null,
+      "txnMessage" : " 050-NO FUTURE-DATED PAYMENT INSTRUCTIONS EXIST",
+      "txnStatus" : "Failure"
+    },
+    "payHdr" : {
+      "resCde" : "00000",
+      "serVer" : "2.0",
+      "expTrace" : null,
+      "resMsg" : "Success",
+      "resId" : null
+    }
+  }
+}

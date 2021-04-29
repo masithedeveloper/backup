@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rounded_account_card"
+    android:minHeight="@dimen/card_min_height"
+    tools:parentTag="androidx.constraintlayout.widget.ConstraintLayout">
+
+    <TextView
+        android:id="@+id/accountNameTextView"
+        style="@style/LargeTextMediumLight"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/normal_space"
+        android:layout_marginTop="@dimen/normal_space"
+        android:layout_marginEnd="@dimen/normal_space"
+        app:autoSizeMaxTextSize="@dimen/large_text_size"
+        app:autoSizeMinTextSize="@dimen/small_text_size"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toStartOf="@+id/alertImageView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Rewards" />
+
+    <TextView
+        android:id="@+id/cardNumberTextView"
+        style="@style/SmallTextRegularLight"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/normal_space"
+        android:layout_marginTop="@dimen/tiny_space"
+        android:layout_marginEnd="@dimen/normal_space"
+        android:layout_marginBottom="@dimen/normal_space"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/accountNameTextView"
+        tools:text="123456" />
+
+    <TextView
+        android:id="@+id/currencyTextView"
+        style="@style/HeadingTextMediumLight"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/normal_space"
+        android:layout_marginTop="@dimen/tiny_space"
+        android:layout_marginEnd="@dimen/normal_space"
+        android:layout_marginBottom="@dimen/tiny_space"
+        android:gravity="end"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/balanceLabelTextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:text="USD" />
+
+    <TextView
+        android:id="@+id/amountTextView"
+        style="@style/LargeTextMediumLight"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/normal_space"
+        android:layout_marginEnd="@dimen/normal_space"
+        android:gravity="end"
+        app:layout_constraintBottom_toBottomOf="@id/accountNameTextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/accountNameTextView"
+        tools:text="R 350 320.98" />
+
+    <TextView
+        android:id="@+id/balanceLabelTextView"
+        style="@style/SmallTextRegularLight"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/normal_space"
+        android:layout_marginEnd="@dimen/normal_space"
+        android:layout_marginBottom="@dimen/normal_space"
+        android:gravity="end"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toTopOf="@id/behaviouralTextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/cardNumberTextView"
+        app:layout_constraintVertical_bias="0"
+        tools:text="Current balance" />
+
+    <TextView
+        android:id="@+id/behaviouralTextView"
+        style="@style/SmallTextRegularDark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/small_space"
+        android:layout_marginBottom="@dimen/small_space"
+        android:background="@drawable/ic_behavioural_card_banner"
+        android:gravity="center"
+        android:paddingStart="@dimen/normal_space"
+        android:paddingTop="@dimen/small_space"
+        android:paddingEnd="@dimen/triple_normal_space"
+        android:paddingBottom="@dimen/small_space"
+        android:textColor="@color/dark_purple"
+        android:tint="@null"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:text="Claim your voucher" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/behaviouralIconImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/normal_space"
+        android:tint="@null"
+        app:layout_constraintBottom_toBottomOf="@id/behaviouralTextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1"
+        app:layout_constraintTop_toTopOf="@id/behaviouralTextView"
+        app:srcCompat="@drawable/ic_behavioural_card_banner_bell" />
+
+</merge>

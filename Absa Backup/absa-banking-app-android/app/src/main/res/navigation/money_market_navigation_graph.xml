@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/money_market_navigation_graph"
+    app:startDestination="@id/moneyMarketNoticeFragment">
+
+    <fragment
+        android:id="@+id/moneyMarketNoticeFragment"
+        android:name="com.barclays.absa.banking.moneyMarket.ui.MoneyMarketNoticeFragment"
+        android:label="MoneyMarketNoticeFragment"
+        tools:layout="@layout/money_market_notice_fragment">
+        <action
+            android:id="@+id/action_moneyMarketNoticeFragment_to_moneyMarketChooseProductFragment"
+            app:destination="@id/moneyMarketChooseProductFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+    <fragment
+        android:id="@+id/moneyMarketChooseProductFragment"
+        android:name="com.barclays.absa.banking.moneyMarket.ui.MoneyMarketChooseProductFragment"
+        android:label="MoneyMarketChooseProductFragment"
+        tools:layout="@layout/money_market_choose_product_fragment">
+        <action
+            android:id="@+id/action_moneyMarketChooseProductFragment_to_moneyMarketConvertToCashConfirmationFragment"
+            app:destination="@id/moneyMarketConvertToCashConfirmationFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <action
+            android:id="@+id/action_moneyMarketChooseProductFragment_to_moneyMarketWithdrawFundsAccountsFragment"
+            app:destination="@id/moneyMarketWithdrawFundsAccountsFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+    <fragment
+        android:id="@+id/moneyMarketConvertToCashConfirmationFragment"
+        android:name="com.barclays.absa.banking.moneyMarket.ui.MoneyMarketConvertToCashConfirmationFragment"
+        android:label="MoneyMarketConvertToCashConfirmationFragment"
+        tools:layout="@layout/money_market_convert_to_cash_confirmation_fragment">
+        <action
+            android:id="@+id/action_moneyMarketConvertToCashConfirmationFragment_to_moneyMarketTermsAndConditionsFragment"
+            app:destination="@id/moneyMarketTermsAndConditionsFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+    <fragment
+        android:id="@+id/moneyMarketTermsAndConditionsFragment"
+        android:name="com.barclays.absa.banking.moneyMarket.ui.MoneyMarketTermsAndConditionsFragment"
+        android:label="MoneyMarketTermsAndConditionsFragment"
+        tools:layout="@layout/money_market_terms_and_conditions_fragment">
+        <action
+            android:id="@+id/action_moneyMarketTermsAndConditionsFragment_to_genericResultScreenFragment2"
+            app:destination="@id/genericResultScreenFragment2"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+    <fragment
+        android:id="@+id/genericResultScreenFragment2"
+        android:name="styleguide.screens.GenericResultScreenFragment"
+        android:label="GenericResultScreenFragment"
+        tools:layout="@layout/generic_results_screen_fragment">
+        <argument
+            android:name="GenericResultScreenFragment"
+            app:argType="styleguide.screens.GenericResultScreenProperties" />
+    </fragment>
+    <fragment
+        android:id="@+id/moneyMarketWithdrawFundsAccountsFragment"
+        android:name="com.barclays.absa.banking.moneyMarket.ui.MoneyMarketWithdrawFundsAccountsFragment"
+        android:label="MoneyMarketWithdrawFundsAccountsFragment"
+        tools:layout="@layout/money_market_withdraw_funds_accounts_fragment">
+        <action
+            android:id="@+id/action_moneyMarketWithdrawFundsAccountsFragment_to_moneyMarketWithdrawFundsConfirmationFragment"
+            app:destination="@id/moneyMarketWithdrawFundsConfirmationFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+    <fragment
+        android:id="@+id/moneyMarketWithdrawFundsConfirmationFragment"
+        android:name="com.barclays.absa.banking.moneyMarket.ui.MoneyMarketWithdrawFundsConfirmationFragment"
+        android:label="MoneyMarketWithdrawFundsConfirmationFragment"
+        tools:layout="@layout/money_market_withdraw_funds_confirmation_fragment">
+        <action
+            android:id="@+id/action_moneyMarketWithdrawFundsConfirmationFragment_to_genericResultScreenFragment"
+            app:destination="@id/genericResultScreenFragment2"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+</navigation>

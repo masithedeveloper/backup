@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ScrollView
+        style="@style/ScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:animateLayoutChanges="true">
+
+            <include
+                android:id="@+id/toolbar"
+                layout="@layout/header_dark"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <styleguide.forms.LargeInputView
+                android:id="@+id/nicknameInputView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:maxLength="20"
+                android:visibility="gone"
+                app:attribute_editable="true"
+                app:attribute_selector_type="NONE"
+                app:attribute_title_text="@string/decouple_device_nickname_rebuild"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/toolbar"
+                tools:visibility="gone" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/contentConstraintLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:animateLayoutChanges="true"
+                app:layout_constraintTop_toBottomOf="@+id/toolbar">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/deviceManufacturerImageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/medium_space"
+                    android:layout_marginTop="@dimen/tiny_space"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/deviceNickname"
+                    style="@style/TitleTextBoldDark"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/medium_space"
+                    android:layout_marginStart="@dimen/medium_space"
+                    android:layout_marginTop="@dimen/tiny_space"
+                    android:gravity="center"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/deviceManufacturerImageView"
+                    tools:text="test" />
+
+                <TextView
+                    android:id="@+id/deviceModel"
+                    style="@style/NormalTextRegularDark"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/medium_space"
+                    android:layout_marginStart="@dimen/medium_space"
+                    android:layout_marginTop="@dimen/tiny_space"
+                    android:gravity="center"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/deviceNickname"
+                    tools:text="test" />
+
+                <View
+                    android:id="@+id/divider2"
+                    style="@style/DividerView"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginEnd="@dimen/medium_space"
+                    android:layout_marginStart="@dimen/medium_space"
+                    android:layout_marginTop="@dimen/medium_space"
+                    android:background="@color/silver_grey"
+                    android:visibility="visible"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/deviceModel" />
+
+                <styleguide.buttons.OptionActionButtonView
+                    android:id="@+id/primaryDeviceOptionActionView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:attribute_caption="@string/manage_device_verification_device"
+                    app:attribute_icon="@drawable/ic_device_verification"
+                    app:attribute_show_arrow="false"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/divider2" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <styleguide.buttons.Button
+                android:id="@+id/delinkDeviceButton"
+                style="@style/PrimaryButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/delink_device"
+                android:text="@string/delink_device"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintVertical_bias="1" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</layout>

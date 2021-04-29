@@ -1,0 +1,50 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0790",
+      "resCde": "00000",
+      "resMsg": "",
+      "serVer": "2.0"
+    },
+    "payData": {
+      "bankNames": [
+        "ABSA",
+        "ABSA BANK LIMITED",
+        "AFRICAN BANK",
+        "BANK WINDHOEK",
+        "BIDVEST BANK LIMITED",
+        "BNP PARIBAS SOUTH AFRICA",
+        "CAPITEC BANK LIMITED",
+        "CITIBANK",
+        "FINBOND MUTUAL BANK",
+        "FIRST NATIONAL BANK",
+        "GRINDROD BANK LIMITED",
+        "HABIB OVERSEAS BANK LIMITED",
+        "HBZ BANK LIMITED",
+        "INVESTEC BANK LIMITED",
+        "ITHALA (ABSA)",
+        "MERCANTILE BANK LTD",
+        "MTN BANKING (STANDARD BANK)",
+        "NEDBANK",
+        "NEDBANK BOND",
+        "NEDBANK LESOTHO LTD",
+        "NEDBANK LTD INC. BOE BANK",
+        "NEDBANK NAMIBIA",
+        "NEDBANK SWAZILAND LTD",
+        "PEOPLES BANK - PEP BANK",
+        "PEOPLES BANK LTD INC NBS",
+        "SA BANK OF ATHENS",
+        "SASFIN BANK",
+        "SOUTH AFRICAN POST OFFICE LTD",
+        "STANDARD BANK SA LTD",
+        "STANDARD BANK SWAZILAND LIMITE",
+        "STANDARD CHARTERED BANK SA",
+        "STANDARD LESOTHO BANK LTD",
+        "THE HONGKONG AND SHANGHAI BANK",
+        "THE ROYAL BANK OF SCOTLAND N.V",
+        "UBANK BANK LIMITED",
+        "VBS MUTUAL BANK"
+      ]
+    }
+  }
+}

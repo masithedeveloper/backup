@@ -1,0 +1,21 @@
+{
+  "successResponseModel": {
+    "payData": {
+      "identityType": null,
+      "showIFTOption": true,
+      "identityNo": null,
+      "policyNumber": null,
+      "policyType": null,
+      "emailId": null,
+      "claimTypeST": null,
+      "contactNumber": null
+    },
+    "payHdr": {
+      "resMsg": "SUCCESS",
+      "resCde": "00000",
+      "resId": "RES0852",
+      "expTrace": null,
+      "serVer": "2.0"
+    }
+  }
+}

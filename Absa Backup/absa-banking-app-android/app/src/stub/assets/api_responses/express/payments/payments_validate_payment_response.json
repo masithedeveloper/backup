@@ -1,0 +1,22 @@
+{
+  "header": {
+    "statuscode": "0",
+    "userAgent": "ANDROID - 6.20.0",
+    "jsessionid": "qKYC0_cVXlhtlBhe1tVZpdL7xF4yBSukGCLNzBu-",
+    "esessionid": "b4cf50e5-57ac-31ac-b210-923c6657aa9a",
+    "service": "RegularBeneficiaryPaymentFacade",
+    "operation": "ValidatePayment",
+    "channel": "S",
+    "timestamp": "2021-02-05 13:47:16.085",
+    "sourceip": "22.240.44.100",
+    "accessAccount": "4047510559",
+    "userNumber": "1",
+    "nonce": "z7iRcF3weVZQgccn_obdd5-xKKiuSyZF3qE_a9X_eVg",
+    "language": "en",
+    "organization": "ABSA",
+    "brand": "ABSA",
+    "resultMessages": []
+  },
+  "targetAccountNumber": "8392922",
+  "paymentToken": "VximQ0jjQLDqtxZ4--yfbSmrdgO4gkd31Q-zNvFk5lc"
+}

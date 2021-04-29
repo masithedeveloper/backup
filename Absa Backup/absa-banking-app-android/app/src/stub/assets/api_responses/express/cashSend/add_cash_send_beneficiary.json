@@ -1,0 +1,26 @@
+{
+  "header": {
+    "statuscode": "0",
+    "userAgent": "ANDROID - 6.20.0",
+    "jsessionid": "60BtZEP-XYcua_DK0wXUJWAuaKeae1re5TeX30te",
+    "esessionid": "5258c75b-0104-3ed5-ac6b-e6ef9edd84fb",
+    "service": "CashSendBeneficiaryManagementFacade",
+    "operation": "AddCashSendBeneficiary",
+    "channel": "S",
+    "timestamp": "2021-02-12 15:05:32.011",
+    "sourceip": "22.240.44.100",
+    "accessAccount": "4047995967",
+    "userNumber": "1",
+    "nonce": "Lpnxwtb_AaSis9MwTH1RZAAn6ThzUBO7-FgJTu4ItZY",
+    "language": "en",
+    "organization": "ABSA",
+    "brand": "ABSA",
+    "resultMessages": []
+  },
+  "cifKey": "THEPUS 001",
+  "tieBreaker": "0",
+  "instructionType": "CLI",
+  "beneficiaryNumber": 44,
+  "transactionDateTime": "2021-02-12",
+  "uniqueEFTNumber": "80004B7E04"
+}

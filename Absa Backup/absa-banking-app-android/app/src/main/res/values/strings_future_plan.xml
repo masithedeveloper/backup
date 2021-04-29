@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    Apply Screen-->
+    <string name="future_plan_title">Future Plan</string>
+    <string name="future_plan_apply_header">Whatever your goals are, plan and save.</string>
+    <string name="future_plan_apply_description">Let anyone contribute towards saving for your goals, plus receive a monthly bonus of 3.5% for all contributions up to R1,000.</string>
+
+    <string name="future_plan_apply_what_you_need_to_know">What you need to know:</string>
+    <string name="future_plan_apply_initial_minimum_amount">The initial minimum amount is <b>%s</b>.</string>
+    <string name="future_plan_apply_term">Choose a flexible term from %s months or longer.</string>
+    <string name="future_plan_apply_bonus">Receive an additional bonus annually.</string>
+    <string name="future_plan_apply_interest">Your interest is earned and compounded monthly.</string>
+    <string name="future_plan_apply_find_out_more">Find out more</string>
+
+<!--    Saved application options-->
+    <string name="future_plan_application">Future Plan Application</string>
+    <string name="future_plan_saved_application">Continue with saved application?</string>
+    <string name="future_plan_new_application">New Application</string>
+
+<!--    Fund Your Account screen-->
+    <string name="future_plan_minimum_initial_deposit">%s minimum initial deposit</string>
+    <string name="future_plan_minimum_recurring_deposit">%s minimum recurring deposit</string>
+    <string name="future_plan_maturity_disclaimer">If maturity falls on a public holiday, it will be released the following day.</string>
+    <string name="future_plan_choose_investment_term">Choose a term</string>
+    <string name="future_plan_monthly_contribution_details_section_title">Monthly Contribution Details</string>
+    <string name="future_plan_number_of_payments_exceeds_term_error_message">"Can't be more than your investment term"</string>
+    <string name="future_plan_number_of_payments_minimum_error_message">"A minimum of %s is required"</string>
+
+<!--    Investment Term Screen-->
+    <string name="future_plan_investment_term">Investment term</string>
+    <string name="future_plan_months">Months</string>
+    <string name="future_plan_days">Days</string>
+    <string name="future_plan_month">month</string>
+    <string name="future_plan_day">day</string>
+    <string name="future_plan_investment_term_error">Choose a minimum term of %1$s and maximum of %2$s</string>
+
+<!--    Summary Screen-->
+    <string name="future_plan_interest_account">Interest payment account</string>
+    <string name="future_plan_interest_payout_date_value">8th of the month</string>
+    <string name="future_plan_interest_payout_date">Interest payout day</string>
+    <string name="future_plan_next_payout_date_value">8th of %s</string>
+    <string name="future_plan_next_payout_date">Next payout date</string>
+    <string name="future_plan_this_future_plan_account">This FuturePlan account</string>
+
+<!--    Result Screens-->
+    <string name="future_plan_account_opened">Account successfully opened</string>
+    <string name="future_plan_account_opened_message">FuturePlan account number %1$s opened.</string>
+    <string name="future_plan_account_opened_link_profile">FuturePlan account number %1$s opened.\n\nTo view your account on app please link it to your profile.</string>
+    <string name="future_plan_account_opened_please_transfer">FuturePlan account number %1$s opened.\n\nPlease transfer at least %2$s to activate the account.</string>
+    <string name="future_plan_recurring_deposit_amount">Recurring deposit amount</string>
+    <string name="future_plan_interest_rate">Interest rate p.a.</string>
+    <string name="future_plan_maturity_date_hint">Choose a maturity date</string>
+
+</resources>

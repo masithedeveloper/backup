@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.money.randing.ui.home.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_home_to_personSearch"
+            app:destination="@id/personSearchFragment"
+            app:enterAnim="@anim/page_enter_transition"
+            app:exitAnim="@android:anim/fade_out"
+            app:popEnterAnim="@android:anim/fade_in"
+            app:popExitAnim="@anim/page_exit_transition" />
+    </fragment>
+    <fragment
+        android:id="@+id/createPersonFragment"
+        android:name="com.money.randing.ui.people.create.CreatePersonFragment"
+        android:label="fragment_create_person"
+        tools:layout="@layout/fragment_create_person">
+        <argument
+            android:name="person_id"
+            android:defaultValue="@null"
+            app:argType="string"
+            app:nullable="true" />
+        <action
+            android:id="@+id/action_createPerson_to_createMovement"
+            app:destination="@id/createMovementFragment"
+            app:enterAnim="@anim/page_enter_transition"
+            app:exitAnim="@android:anim/fade_out"
+            app:popEnterAnim="@android:anim/fade_in"
+            app:popExitAnim="@anim/page_exit_transition"
+            app:popUpTo="@id/homeFragment" />
+    </fragment>
+    <action
+        android:id="@+id/action_global_createPersonFragment"
+        app:destination="@id/createPersonFragment"
+        app:enterAnim="@anim/page_enter_transition"
+        app:exitAnim="@android:anim/fade_out"
+        app:popEnterAnim="@android:anim/fade_in"
+        app:popExitAnim="@anim/page_exit_transition" />
+    <fragment
+        android:id="@+id/createMovementFragment"
+        android:name="com.money.randing.ui.movement.create.CreateMovementFragment"
+        android:label="fragment_create_movement"
+        tools:layout="@layout/fragment_create_movement">
+        <argument
+            android:name="person_id"
+            app:argType="string" />
+        <argument
+            android:name="id"
+            android:defaultValue="@null"
+            app:argType="string"
+            app:nullable="true" />
+    </fragment>
+    <action
+        android:id="@+id/action_global_createMovementFragment"
+        app:destination="@id/createMovementFragment"
+        app:enterAnim="@anim/page_enter_transition"
+        app:exitAnim="@android:anim/fade_out"
+        app:popEnterAnim="@android:anim/fade_in"
+        app:popExitAnim="@anim/page_exit_transition" />
+    <fragment
+        android:id="@+id/personSearchFragment"
+        android:name="com.money.randing.ui.movement.person_search.PersonSearchFragment"
+        android:label="fragment_person_search"
+        tools:layout="@layout/fragment_person_search">
+        <action
+            android:id="@+id/action_personSearch_to_createMovement"
+            app:destination="@id/createMovementFragment"
+            app:enterAnim="@anim/page_enter_transition"
+            app:exitAnim="@android:anim/fade_out"
+            app:popEnterAnim="@android:anim/fade_in"
+            app:popExitAnim="@anim/page_exit_transition"
+            app:popUpTo="@id/homeFragment" />
+        <action
+            android:id="@+id/action_personSearch_to_createPerson"
+            app:destination="@id/createPersonFragment"
+            app:enterAnim="@anim/page_enter_transition"
+            app:exitAnim="@android:anim/fade_out"
+            app:popEnterAnim="@android:anim/fade_in"
+            app:popExitAnim="@anim/page_exit_transition"
+            app:popUpTo="@id/homeFragment">
+            <argument android:name="person_id" />
+        </action>
+    </fragment>
+    <fragment
+        android:id="@+id/personDetailFragment"
+        android:name="com.money.randing.ui.people.detail.PersonDetailFragment"
+        android:label="fragment_person_detail"
+        tools:layout="@layout/fragment_person_detail">
+        <argument
+            android:name="person_id"
+            app:argType="integer" />
+    </fragment>
+    <action
+        android:id="@+id/action_global_personDetail"
+        app:destination="@id/personDetailFragment"
+        app:enterAnim="@anim/page_enter_transition"
+        app:exitAnim="@android:anim/fade_out"
+        app:popEnterAnim="@android:anim/fade_in"
+        app:popExitAnim="@anim/page_exit_transition" />
+</navigation>

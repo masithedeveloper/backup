@@ -1,0 +1,31 @@
+<resources>
+    <!-- Notification method opsies -->
+    <string name="step_x_of_y">Stap %d van %d</string>
+    <string name="notification_method_none">Geen</string>
+    <string name="notification_method_email">E-pos</string>
+    <string name="notification_method_fax">Faks</string>
+
+    <string name="notification_hint_sms">Voer selfoonnommer in</string>
+    <string name="notification_hint_email">Voer e-posadres in</string>
+    <string name="notification_hint_fax">Voer faksnommer in</string>
+    <string name="done">Klaar</string>
+
+    <!--Profile -->
+    <string name="profile_image_content_description">Profielfoto</string>
+    <string name="profile_initials_content_description">Jou voorletters</string>
+
+    <!--Prepaid Electricity -->
+    <string name="talkback_add_contact_icon">Add a contact from phonebook</string>
+
+    <!-- Search -->
+    <string name="search">Soek</string>
+    <string name="right_arrow">Regspyl</string>
+
+    <string name="your_progress">Your progress</string>
+    <string name="progress_percent">%s%%</string>
+
+    <string name="button_increase_value">Verhoog waarde</string>
+    <string name="button_decrease_value">Verlaag waarde</string>
+    <string name="icon_button_view_content_description">%s icon</string>
+    <string name="alert">Waarskuwing</string>
+</resources>

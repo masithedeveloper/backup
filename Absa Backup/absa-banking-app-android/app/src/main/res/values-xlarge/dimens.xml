@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dimension">x-large</string>
+    <dimen name="profile_pager_picture_size">128dp</dimen>
+</resources>

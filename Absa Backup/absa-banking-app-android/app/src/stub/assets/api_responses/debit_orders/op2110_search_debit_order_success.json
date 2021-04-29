@@ -1,0 +1,147 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES2110",
+      "resCde": "00000",
+      "resMsg": "Success",
+      "serVer": "2.0",
+      "expTrace": null
+    },
+    "payData": {
+      "debitOrders": [
+        {
+          "actionDate": "2019-09-01",
+          "userReferance": "ABSA LIFE 6440912221",
+          "status": "A",
+          "userCode": "6147",
+          "userSeq": "0",
+          "tiebNumber": "201908011444350522477C027",
+          "instractionNo": "0",
+          "stopPaymentType": "Debit order",
+          "debitType": "E",
+          "uniqNumber": "758977102",
+          "amount": "129.49"
+        },
+        {
+          "actionDate": "2019-09-01",
+          "userReferance": "ABSA LIFE 6440912213",
+          "status": "A",
+          "userCode": "6147",
+          "userSeq": "0",
+          "tiebNumber": "201908011444350522477C026",
+          "instractionNo": "0",
+          "stopPaymentType": "Debit order",
+          "debitType": "E",
+          "uniqNumber": "758977103",
+          "amount": "129.49"
+        },
+        {
+          "actionDate": "2019-09-01",
+          "userReferance": "ABSA LIFE 6440912001",
+          "status": "A",
+          "userCode": "6147",
+          "userSeq": "0",
+          "tiebNumber": "201908011444350522477C025",
+          "instractionNo": "0",
+          "stopPaymentType": "Debit order",
+          "debitType": "E",
+          "uniqNumber": "758977104",
+          "amount": "129.49"
+        },
+        {
+          "actionDate": "2019-09-01",
+          "userReferance": "ABSA LIFE 6440911990",
+          "status": "A",
+          "userCode": "6147",
+          "userSeq": "0",
+          "tiebNumber": "201908011444350522477C024",
+          "instractionNo": "0",
+          "stopPaymentType": "Debit order",
+          "debitType": "E",
+          "uniqNumber": "758977105",
+          "amount": "129.49"
+        },
+        {
+          "actionDate": "2019-09-01",
+          "userReferance": "ABSA LIFE 6440911982",
+          "status": "A",
+          "userCode": "6147",
+          "userSeq": "0",
+          "tiebNumber": "201908011444350522477C023",
+          "instractionNo": "0",
+          "stopPaymentType": "Debit order",
+          "debitType": "E",
+          "uniqNumber": "758977106",
+          "amount": "129.49"
+        },
+        {
+          "actionDate": "2019-09-01",
+          "userReferance": "ABSA LIFE 6440911966",
+          "status": "A",
+          "userCode": "6147",
+          "userSeq": "0",
+          "tiebNumber": "201908011444350522477C022",
+          "instractionNo": "0",
+          "stopPaymentType": "Debit order",
+          "debitType": "E",
+          "uniqNumber": "758977107",
+          "amount": "129.49"
+        },
+        {
+          "actionDate": "2019-09-01",
+          "userReferance": "ABSA LIFE 6440911940",
+          "status": "A",
+          "userCode": "6147",
+          "userSeq": "0",
+          "tiebNumber": "201908011444350522477C021",
+          "instractionNo": "0",
+          "stopPaymentType": "Debit order",
+          "debitType": "E",
+          "uniqNumber": "758977108",
+          "amount": "129.49"
+        },
+        {
+          "actionDate": "2019-09-01",
+          "userReferance": "ABSA LIFE 6440911932",
+          "status": "A",
+          "userCode": "6147",
+          "userSeq": "0",
+          "tiebNumber": "201908011444350522477C020",
+          "instractionNo": "0",
+          "stopPaymentType": "Debit order",
+          "debitType": "E",
+          "uniqNumber": "758977109",
+          "amount": "129.49"
+        },
+        {
+          "actionDate": "2019-09-01",
+          "userReferance": "ABSA LIFE 6440908193",
+          "status": "A",
+          "userCode": "6147",
+          "userSeq": "0",
+          "tiebNumber": "201908011444350522477C019",
+          "instractionNo": "0",
+          "stopPaymentType": "Debit order",
+          "debitType": "E",
+          "uniqNumber": "758977110",
+          "amount": "420.52"
+        },
+        {
+          "actionDate": "2019-09-01",
+          "userReferance": "ABSA LIFE 6440896722",
+          "status": "A",
+          "userCode": "6147",
+          "userSeq": "0",
+          "tiebNumber": "201908011444350522477C018",
+          "instractionNo": "0",
+          "stopPaymentType": "Debit order",
+          "debitType": "E",
+          "uniqNumber": "758977111",
+          "amount": "175.02"
+        }
+      ],
+      "txnStatus": "Success",
+      "txnMessage": "Success"
+    }
+  }
+}

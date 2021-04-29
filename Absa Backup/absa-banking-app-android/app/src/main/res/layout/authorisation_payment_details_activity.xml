@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/header_dark" />
+
+        <ScrollView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/toolbar">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <styleguide.content.SecondaryContentAndLabelView
+                    android:id="@+id/transactionTypeView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:attribute_secondary_label="@string/transaction_type"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:attribute_secondary_content="Payment" />
+
+                <View
+                    android:id="@+id/transactionTypeDividerView"
+                    style="@style/DividerView"
+                    android:layout_width="0dp"
+                    android:layout_marginTop="@dimen/small_space"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/transactionTypeView" />
+
+                <styleguide.content.PrimaryContentAndLabelView
+                    android:id="@+id/beneficiaryNameContentView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/small_space"
+                    app:attribute_primary_label="@string/authorisaction_beneficiary"
+                    app:attribute_should_show_check_box="false"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/transactionTypeDividerView"
+                    tools:attribute_primary_content="James Dude" />
+
+                <styleguide.content.SecondaryContentAndLabelView
+                    android:id="@+id/accountNumberContentView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:attribute_secondary_label="@string/bank_acct_number"
+                    app:attribute_should_show_check_box="false"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/beneficiaryNameContentView"
+                    tools:attribute_secondary_content="4047597814" />
+
+                <styleguide.content.SecondaryContentAndLabelView
+                    android:id="@+id/branchCodeView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:attribute_secondary_label="@string/branch"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/accountNumberContentView"
+                    tools:attribute_secondary_content="63 200" />
+
+                <View
+                    android:id="@+id/accountDividerView"
+                    style="@style/DividerView"
+                    android:layout_width="0dp"
+                    android:layout_marginTop="@dimen/small_space"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/branchCodeView" />
+
+                <styleguide.content.PrimaryContentAndLabelView
+                    android:id="@+id/amountContentView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/small_space"
+                    app:attribute_primary_label="@string/amount"
+                    app:attribute_should_show_check_box="false"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/accountDividerView"
+                    tools:attribute_primary_content="R 300.00" />
+
+                <styleguide.content.SecondaryContentAndLabelView
+                    android:id="@+id/fromAccountContentView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:attribute_secondary_label="@string/from_account_new"
+                    app:attribute_should_show_check_box="false"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/amountContentView"
+                    tools:attribute_secondary_content="4047597814" />
+
+                <View
+                    android:id="@+id/amountDividerView"
+                    style="@style/DividerView"
+                    android:layout_width="0dp"
+                    android:layout_marginTop="@dimen/small_space"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/fromAccountContentView" />
+
+                <styleguide.content.SecondaryContentAndLabelView
+                    android:id="@+id/theirReferenceContentView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/small_space"
+                    app:attribute_secondary_label="@string/their_reference"
+                    app:attribute_should_show_check_box="false"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/amountDividerView"
+                    tools:attribute_secondary_content="This is the best notification" />
+
+                <styleguide.content.SecondaryContentAndLabelView
+                    android:id="@+id/myReferenceContentView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:attribute_secondary_label="@string/my_reference"
+                    app:attribute_should_show_check_box="false"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/theirReferenceContentView"
+                    tools:attribute_secondary_content="This is the best notification" />
+
+                <styleguide.content.SecondaryContentAndLabelView
+                    android:id="@+id/beneficiaryNotificationContentView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:attribute_secondary_label="@string/authorisation_beneficiary_notification"
+                    app:attribute_should_show_check_box="false"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/myReferenceContentView"
+                    tools:attribute_secondary_content="This is the best notification" />
+
+                <styleguide.content.SecondaryContentAndLabelView
+                    android:id="@+id/myNotificationContentView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:attribute_secondary_label="@string/authorisation_my_notification"
+                    app:attribute_should_show_check_box="false"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/beneficiaryNotificationContentView"
+                    tools:attribute_secondary_content="test@app.com" />
+
+                <styleguide.content.SecondaryContentAndLabelView
+                    android:id="@+id/iipReferenceContentView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:attribute_secondary_label="@string/iip_reference"
+                    app:attribute_should_show_check_box="false"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/myNotificationContentView"
+                    tools:attribute_secondary_content="someRef" />
+
+                <View
+                    android:id="@+id/notificationDividerView"
+                    style="@style/DividerView"
+                    android:layout_width="0dp"
+                    android:layout_marginTop="@dimen/small_space"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/iipReferenceContentView" />
+
+                <styleguide.content.SecondaryContentAndLabelView
+                    android:id="@+id/initiatedByContentView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/small_space"
+                    app:attribute_secondary_label="@string/initiated_by"
+                    app:attribute_should_show_check_box="false"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/notificationDividerView"
+                    tools:attribute_secondary_content="This is the best notification" />
+
+                <styleguide.content.SecondaryContentAndLabelView
+                    android:id="@+id/initiatedOnContentView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:attribute_secondary_label="@string/authorisations_initiated_on"
+                    app:attribute_should_show_check_box="false"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/initiatedByContentView"
+                    tools:attribute_secondary_content="This is the best notification" />
+
+                <styleguide.buttons.Button
+                    android:id="@+id/cancelButton"
+                    style="@style/PrimaryButton"
+                    android:layout_width="0dp"
+                    android:layout_marginTop="@dimen/medium_space"
+                    android:text="@string/cancel"
+                    android:visibility="gone"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/initiatedOnContentView"
+                    app:layout_constraintVertical_bias="1" />
+
+                <styleguide.buttons.Button
+                    android:id="@+id/rejectButton"
+                    style="@style/SecondaryButton"
+                    android:layout_width="0dp"
+                    android:text="@string/reject"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/initiatedOnContentView" />
+
+                <styleguide.buttons.Button
+                    android:id="@+id/approveButton"
+                    style="@style/PrimaryButton"
+                    android:layout_marginTop="@dimen/medium_space"
+                    android:text="@string/authorise"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/rejectButton" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </ScrollView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

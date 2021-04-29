@@ -1,0 +1,95 @@
+{
+  "header": {
+    "statuscode": "0",
+    "userAgent": "ANDROID - 6.21.0",
+    "jsessionid": "HI5wzsjsWITKUT3gPxOrqQwWT9G0nhoY-M3W5KOi",
+    "esessionid": "4d737a94-8397-3932-9be1-5abd6d73552b",
+    "service": "RegularBeneficiaryPaymentFacade",
+    "operation": "GetSourceAccounts",
+    "channel": "S",
+    "timestamp": "2021-02-18 16:18:30.078",
+    "sourceip": "22.240.44.100",
+    "accessAccount": "4047510559",
+    "userNumber": "1",
+    "nonce": "peFBVFaRKuj5SCSK1_F6nOqIRUqX1IxQCv7V2N7aYX0",
+    "language": "en",
+    "organization": "ABSA",
+    "brand": "ABSA",
+    "resultMessages": []
+  },
+  "sourceAccountList": [
+    {
+      "accountNumber": "4550276002626010",
+      "availableBalance": "0.00",
+      "balance": "0.00",
+      "accountName": "Credit card account",
+      "accountType": "CreditCard",
+      "accountNameAndNumber": "Credit card account - 4550276002626010",
+      "productCode": ""
+    },
+    {
+      "accountNumber": "4047510559",
+      "availableBalance": "907664046514.00",
+      "balance": "907664046514.00",
+      "accountName": "Current account",
+      "accountType": "Current",
+      "accountNameAndNumber": "Current account - 4047510559",
+      "productCode": "11032"
+    },
+    {
+      "accountNumber": "9050097404",
+      "availableBalance": "0.00",
+      "balance": "0.00",
+      "accountName": "Savings account",
+      "accountType": "Savings",
+      "accountNameAndNumber": "Savings account - 9050097404",
+      "productCode": ""
+    },
+    {
+      "accountNumber": "9050098719",
+      "availableBalance": "10911.97",
+      "balance": "10961.97",
+      "accountName": "Savings account",
+      "accountType": "Savings",
+      "accountNameAndNumber": "Savings account - 9050098719",
+      "productCode": "009050"
+    },
+    {
+      "accountNumber": "4550276002626028",
+      "availableBalance": "48400.08",
+      "balance": "46400.08",
+      "accountName": "Credit card account",
+      "accountType": "CreditCard",
+      "accountNameAndNumber": "Credit card account - 4550276002626028",
+      "productCode": ""
+    },
+    {
+      "accountNumber": "4550270022265016",
+      "availableBalance": "48400.08",
+      "balance": "46400.08",
+      "accountName": "Credit card account",
+      "accountType": "CreditCard",
+      "accountNameAndNumber": "Credit card account - 4550270022265016",
+      "productCode": ""
+    },
+    {
+      "accountNumber": "9050097399",
+      "availableBalance": "17607.06",
+      "balance": "17657.06",
+      "accountName": "SAVINGS ACCOUNT",
+      "accountType": "Savings",
+      "accountNameAndNumber": "SAVINGS ACCOUNT - 9050097399",
+      "productCode": "009103"
+    },
+    {
+      "accountNumber": "9051258429",
+      "availableBalance": "0.00",
+      "balance": "0.00",
+      "accountName": "FlexiT",
+      "accountType": "Savings",
+      "accountNameAndNumber": "FlexiT - 9051258429",
+      "productCode": "009040"
+    }
+  ],
+  "userName": "Mr NJ SARDINHA"
+}

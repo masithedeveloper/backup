@@ -1,0 +1,144 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0805",
+      "resCde": "00000",
+      "resMsg": "SUCCESS",
+      "serVer": "2.0"
+    },
+    "payData": {
+      "branchInfoDTOList": [
+        {
+          "branchCode": "6043",
+          "branchName": "003 LIBODE",
+          "branchAddress": "STAND 12 \u0026 13,MAIN ROAD,LIBODE,05160"
+        },
+        {
+          "branchCode": "6041",
+          "branchName": "001 LIBODE",
+          "branchAddress": "STAND 12 \u0026 13,MAIN ROAD,LIBODE,05160"
+        },
+        {
+          "branchCode": "6042",
+          "branchName": "002 LIBODE",
+          "branchAddress": "STAND 12 \u0026 13,MAIN ROAD,LIBODE,05160"
+        },
+        {
+          "branchCode": "6040",
+          "branchName": "LIBODE",
+          "branchAddress": "STAND 12 \u0026 13,MAIN ROAD,LIBODE,05160"
+        },
+        {
+          "branchCode": "136",
+          "branchName": "CPF SECURITIES",
+          "branchAddress": "SANDOWN VILLAGE OFFICE PARK,61 GWEN LANE,SANDOWN,02196"
+        },
+        {
+          "branchCode": "183",
+          "branchName": "R/SITE FOR SITE 3159 CORP GAUTENG",
+          "branchAddress": "15 ALICE LANE,SANDTON,02196"
+        },
+        {
+          "branchCode": "185",
+          "branchName": "R/SITE FOR SITE 3165 CORP P/E",
+          "branchAddress": "15 ALICE LANE,SANDTON,02196"
+        },
+        {
+          "branchCode": "186",
+          "branchName": "R/SITE FOR SITE 3167 CORP DURBAN",
+          "branchAddress": "15 ALICE LANE,SANDTON,02196"
+        },
+        {
+          "branchCode": "8503",
+          "branchName": "STRAND",
+          "branchAddress": "80 BEACH ROAD,STRAND,07140"
+        },
+        {
+          "branchCode": "6041",
+          "branchName": "TSOLO",
+          "branchAddress": "STAND 99,THURSTON STREET,TSOLO,05170"
+        },
+        {
+          "branchCode": "264",
+          "branchName": "SECURITY BRANCH PRIVATE BANK",
+          "branchAddress": "136 PLANE ROAD,SPARTAN,01619"
+        },
+        {
+          "branchCode": "265",
+          "branchName": "BOTSHABELO",
+          "branchAddress": "SHOP 17,RE A HOLA SHOPPING CENTRE,BOTSHABELO,09323"
+        },
+        {
+          "branchCode": "282",
+          "branchName": "KAMAQHEKEZA",
+          "branchAddress": "SHOP 26,KAMAQHEKEZA SHOPPING CENTRE,KAMAQHEKEZA,01340"
+        },
+        {
+          "branchCode": "316",
+          "branchName": "AW BUSINESS MANAGER - I\u0026PO",
+          "branchAddress": "187 RIVONIA ROAD,MORNINGSIDE,SANDTON,02196"
+        },
+        {
+          "branchCode": "6046",
+          "branchName": "CARLTON CENTRE",
+          "branchAddress": "COMMISSIONER STREET,JOHANNESBURG,02001"
+        },
+        {
+          "branchCode": "407",
+          "branchName": "MOGWASE",
+          "branchAddress": "MOGWASE SHOPPING CENTRE,22 RAILWAY ROAD,MOGWASE,00314"
+        },
+        {
+          "branchCode": "413",
+          "branchName": "ENGCOBO",
+          "branchAddress": "HIGH STREET,ENGCOBO,05050"
+        },
+        {
+          "branchCode": "414",
+          "branchName": "IDUTYWA",
+          "branchAddress": "SHOP 1-2,CENTRAL SQUARE,DUTYWA,05000"
+        },
+        {
+          "branchCode": "416",
+          "branchName": "LAUDIUM",
+          "branchAddress": "SHOP 5,240TANGERINE STREET,LAUDIUM,00037"
+        },
+        {
+          "branchCode": "417",
+          "branchName": "PORT ST JOHNS",
+          "branchAddress": "SHOP D 26,WESTGATE STREET,PORT ST JOHNS,05120"
+        },
+        {
+          "branchCode": "6047",
+          "branchName": "BATLHALERWA",
+          "branchAddress": "ZONAL OFFICE BATLHALERWA,TWEELAAGTE,00313"
+        },
+        {
+          "branchCode": "445",
+          "branchName": "ALLPAY GAUTENG SOUTH",
+          "branchAddress": "GROUND FLOOR ALLPAY BUILDING,24 VOORTREKKER STREET,VEREENIGING,01930"
+        },
+        {
+          "branchCode": "446",
+          "branchName": "ALLPAY WORCESTER",
+          "branchAddress": "77A RIEBEECK STREET,WORCESTER,06850"
+        },
+        {
+          "branchCode": "447",
+          "branchName": "ALLPAY PENINSULA",
+          "branchAddress": "KHULANI SPRINGBOK PATROLS BLDG,GROUND FLOOR 50LANDSDOWN ROAD,PHILLIPI,07785"
+        },
+        {
+          "branchCode": "448",
+          "branchName": "ALLPAY GEORGE",
+          "branchAddress": "HIBERNIA MALL,21HIBERNIA STREET,GEORGE,06529"
+        },
+        {
+          "branchCode": "449",
+          "branchName": "ALLPAY VREDENDAL",
+          "branchAddress": "31 CHURCH STREET,VREDENDAL,08160"
+        }
+      ]
+    }
+  }
+}

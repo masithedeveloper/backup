@@ -1,0 +1,813 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0911",
+      "resCde": "00000",
+      "resMsg": "",
+      "serVer": "2.0",
+      "expTrace": null
+    },
+    "payData": {
+      "balance": {
+        "curr": "R",
+        "amt": "13,220.08"
+      },
+      "charityType": [
+        {
+          "charityId": "19",
+          "charityName": "Nelson Mandela Children`s Hospital"
+        },
+        {
+          "charityId": "20",
+          "charityName": "World Vision Of Sa"
+        },
+        {
+          "charityId": "21",
+          "charityName": "Sesego Cares"
+        },
+        {
+          "charityId": "22",
+          "charityName": "Child Welfare Society"
+        },
+        {
+          "charityId": "24",
+          "charityName": "Red Cross Children's Hospital"
+        }
+      ],
+      "toActList": [
+        {
+          "desc": "Current account",
+          "acctNumber": "4047598551",
+          "availableBal": {
+            "curr": "R",
+            "amt": "75,610.74"
+          }
+        },
+        {
+          "desc": "Savings account",
+          "acctNumber": "9050991561",
+          "availableBal": {
+            "curr": "R",
+            "amt": "0.00"
+          }
+        },
+        {
+          "desc": "Savings account",
+          "acctNumber": "9050786742",
+          "availableBal": {
+            "curr": "R",
+            "amt": "0.00"
+          }
+        }
+      ],
+      "voucherVendor": [
+        {
+          "vendorName": "Spur eGift Card",
+          "vendorId": "144",
+          "voucherType": "Mall",
+          "voucherDisclaimer": "Visit the mall\u0027s information desk and show them your voucher code that will be sent you."
+        },
+        {
+          "vendorName": "Eastgate",
+          "vendorId": "79",
+          "voucherType": "Mall",
+          "voucherDisclaimer": "Visit the mall\u0027s information desk and show them your voucher code that will be sent you."
+        },
+        {
+          "vendorName": "Liberty Midlands Mall",
+          "vendorId": "84",
+          "voucherType": "Mall",
+          "voucherDisclaimer": "Visit the mall\u0027s information desk and show them your voucher code that will be sent you."
+        },
+        {
+          "vendorName": "Liberty Promenade",
+          "vendorId": "83",
+          "voucherType": "Mall",
+          "voucherDisclaimer": "Visit the mall\u0027s information desk and show them your voucher code that will be sent you."
+        },
+        {
+          "vendorName": "Nu Metro 2D Std",
+          "vendorId": "151",
+          "fixedAmount": {
+            "curr": "R",
+            "amt": "38.00"
+          },
+          "voucherType": "Movie",
+          "voucherDisclaimer": "You can use this mobiticket number at a Numetro self-service terminal or show it to sales agent at the ticket counter."
+        },
+        {
+          "vendorName": "Nu Metro 3D",
+          "vendorId": "152",
+          "fixedAmount": {
+            "curr": "R",
+            "amt": "49.00"
+          },
+          "voucherType": "Movie",
+          "voucherDisclaimer": "You can use this mobiticket number at a Numetro self-service terminal or show it to sales agent at the ticket counter."
+        },
+        {
+          "vendorName": "Sandton City",
+          "vendorId": "78",
+          "voucherType": "Mall",
+          "voucherDisclaimer": "Visit the mall\u0027s information desk and show them your voucher code that will be sent you."
+        },
+        {
+          "vendorName": "ShowMax 1 Month (R99)",
+          "vendorId": "153",
+          "fixedAmount": {
+            "curr": "R",
+            "amt": "94.05"
+          },
+          "voucherType": "Movie",
+          "voucherDisclaimer": "You can use the voucher on the ShowMax website"
+        },
+        {
+          "vendorName": "ShowMax 3 Month (R297)",
+          "vendorId": "154",
+          "fixedAmount": {
+            "curr": "R",
+            "amt": "7000.15"
+          },
+          "voucherType": "Movie",
+          "voucherDisclaimer": "You can use the voucher on the ShowMax website"
+        },
+        {
+          "vendorName": "ShowMax 6 Month (R594)",
+          "vendorId": "155",
+          "fixedAmount": {
+            "curr": "R",
+            "amt": "564.30"
+          },
+          "voucherType": "Movie",
+          "voucherDisclaimer": "You can use the voucher on the ShowMax website"
+        }
+      ],
+      "partner": [
+        {
+          "partnerName": "Avios Travel Rewards Programme",
+          "partnerId": "141"
+        },
+        {
+          "partnerName": "British Airways Executive Club",
+          "partnerId": "142"
+        },
+        {
+          "partnerName": "Dis-chem benefit points",
+          "partnerId": "134"
+        },
+        {
+          "partnerName": "Thank U Points",
+          "partnerId": "136"
+        }
+      ],
+      "network": [
+        {
+          "networkID": "8",
+          "voucherdtls": [
+            {
+              "id": "10",
+              "name": "CHAT CARD",
+              "faceValue": {
+                "curr": "R",
+                "amt": "35.0000"
+              },
+              "accrualCost": {
+                "curr": "R",
+                "amt": "33.25000000"
+              }
+            },
+            {
+              "id": "11",
+              "name": "CELLC R70 CHAT CARD",
+              "faceValue": {
+                "curr": "R",
+                "amt": "70.0000"
+              },
+              "accrualCost": {
+                "curr": "R",
+                "amt": "66.50000000"
+              }
+            },
+            {
+              "id": "12",
+              "name": "CELLC R150 CHAT CARD",
+              "faceValue": {
+                "curr": "R",
+                "amt": "150.0000"
+              },
+              "accrualCost": {
+                "curr": "R",
+                "amt": "142.50000000"
+              }
+            },
+            {
+              "id": "13",
+              "name": "CELLC R50 CHAT CARD",
+              "faceValue": {
+                "curr": "R",
+                "amt": "50.0000"
+              },
+              "accrualCost": {
+                "curr": "R",
+                "amt": "47.50000000"
+              }
+            },
+            {
+              "id": "14",
+              "name": "CELLC R25 CHAT CARD",
+              "faceValue": {
+                "curr": "R",
+                "amt": "25.0000"
+              },
+              "accrualCost": {
+                "curr": "R",
+                "amt": "23.75000000"
+              }
+            },
+            {
+              "id": "15",
+              "name": "CELLC R39 SMS CARD",
+              "faceValue": {
+                "curr": "R",
+                "amt": "39.0000"
+              },
+              "accrualCost": {
+                "curr": "R",
+                "amt": "37.05000000"
+              }
+            }
+          ],
+          "networkType": "Cell-C Airtime"
+        },
+        {
+          "networkID": "1",
+          "voucherdtls": [
+            {
+              "id": "1",
+              "name": "MTN R30 CALL",
+              "faceValue": {
+                "curr": "R",
+                "amt": "30.0000"
+              },
+              "accrualCost": {
+                "curr": "R",
+                "amt": "28.50000000"
+              }
+            },
+            {
+              "id": "2",
+              "name": "MTN R60 CALL",
+              "faceValue": {
+                "curr": "R",
+                "amt": "60.0000"
+              },
+              "accrualCost": {
+                "curr": "R",
+                "amt": "57.00000000"
+              }
+            },
+            {
+              "id": "3",
+              "name": "MTN R180 CALL",
+              "faceValue": {
+                "curr": "R",
+                "amt": "180.0000"
+              },
+              "accrualCost": {
+                "curr": "R",
+                "amt": "171.00000000"
+              }
+            }
+          ],
+          "networkType": "MTN Airtime"
+        },
+        {
+          "networkID": "133",
+          "voucherdtls": [
+            {
+              "id": "64",
+              "name": "NEOTEL R100",
+              "faceValue": {
+                "curr": "R",
+                "amt": "100.0000"
+              },
+              "accrualCost": {
+                "curr": "R",
+                "amt": "95.00000000"
+              }
+            },
+            {
+              "id": "65",
+              "name": "NEOTEL R25",
+              "faceValue": {
+                "curr": "R",
+                "amt": "25.0000"
+              },
+              "accrualCost": {
+                "curr": "R",
+                "amt": "23.75000000"
+              }
+            },
+            {
+              "id": "66",
+              "name": "NEOTEL R50",
+              "faceValue": {
+                "curr": "R",
+                "amt": "50.0000"
+              },
+              "accrualCost": {
+                "curr": "R",
+                "amt": "47.50000000"
+              }
+            },
+            {
+              "id": "67",
+              "name": "NEOTEL R200",
+              "faceValue": {
+                "curr": "R",
+                "amt": "200.0000"
+              },
+              "accrualCost": {
+                "curr": "R",
+                "amt": "190.00000000"
+              }
+            }
+          ],
+          "networkType": "Neotel Airtime Voucher"
+        },
+        {
+          "networkID": "3",
+          "voucherdtls": [
+            {
+              "id": "16",
+              "name": "TELKOM - R40",
+              "faceValue": {
+                "curr": "R",
+                "amt": "40.0000"
+              },
+              "accrualCost": {
+                "curr": "R",
+                "amt": "38.00000000"
+              }
+            },
+            {
+              "id": "17",
+              "name": "TELKOM - R50",
+              "faceValue": {
+                "curr": "R",
+                "amt": "50.0000"
+              },
+              "accrualCost": {
+                "curr": "R",
+                "amt": "47.50000000"
+              }
+            },
+            {
+              "id": "18",
+              "name": "TELKOM - R100",
+              "faceValue": {
+                "curr": "R",
+                "amt": "100.0000"
+              },
+              "accrualCost": {
+                "curr": "R",
+                "amt": "95.00000000"
+              }
+            },
+            {
+              "id": "19",
+              "name": "TELKOM - R200",
+              "faceValue": {
+                "curr": "R",
+                "amt": "200.0000"
+              },
+              "accrualCost": {
+                "curr": "R",
+                "amt": "190.00000000"
+              }
+            },
+            {
+              "id": "20",
+              "name": "TELKOM WORLD CALL - R50",
+              "faceValue": {
+                "curr": "R",
+                "amt": "50.0000"
+              },
+              "accrualCost": {
+                "curr": "R",
+                "amt": "47.50000000"
+              }
+            },
+            {
+              "id": "21",
+              "name": "TELKOM WORLD CALL - R100",
+              "faceValue": {
+                "curr": "R",
+                "amt": "100.0000"
+              },
+              "accrualCost": {
+                "curr": "R",
+                "amt": "95.00000000"
+              }
+            },
+            {
+              "id": "50",
+              "name": "TELKOM World Call - R200",
+              "faceValue": {
+                "curr": "R",
+                "amt": "200.0000"
+              },
+              "accrualCost": {
+                "curr": "R",
+                "amt": "190.00000000"
+              }
+            },
+            {
+              "id": "51",
+              "name": "TELKOM World Call - R10",
+              "faceValue": {
+                "curr": "R",
+                "amt": "10.0000"
+              },
+              "accrualCost": {
+                "curr": "R",
+                "amt": "9.50000000"
+              }
+            },
+            {
+              "id": "52",
+              "name": "Telkom R40 (Absa)",
+              "faceValue": {
+                "curr": "R",
+                "amt": "40.0000"
+              },
+              "accrualCost": {
+                "curr": "R",
+                "amt": "38.00000000"
+              }
+            },
+            {
+              "id": "53",
+              "name": "Telkom R60 (Absa)",
+              "faceValue": {
+                "curr": "R",
+                "amt": "60.0000"
+              },
+              "accrualCost": {
+                "curr": "R",
+                "amt": "57.00000000"
+              }
+            },
+            {
+              "id": "54",
+              "name": "Telkom R100 (Absa)",
+              "faceValue": {
+                "curr": "R",
+                "amt": "100.0000"
+              },
+              "accrualCost": {
+                "curr": "R",
+                "amt": "95.00000000"
+              }
+            },
+            {
+              "id": "55",
+              "name": "Telkom R200 (Absa)",
+              "faceValue": {
+                "curr": "R",
+                "amt": "200.0000"
+              },
+              "accrualCost": {
+                "curr": "R",
+                "amt": "190.00000000"
+              }
+            },
+            {
+              "id": "56",
+              "name": "Telkom R20 (Absa)",
+              "faceValue": {
+                "curr": "R",
+                "amt": "20.0000"
+              },
+              "accrualCost": {
+                "curr": "R",
+                "amt": "19.00000000"
+              }
+            }
+          ],
+          "networkType": "Telkom Airtime Voucher"
+        },
+        {
+          "networkID": "131",
+          "voucherdtls": [
+            {
+              "id": "29",
+              "name": "TELKOM MOBILE R5",
+              "faceValue": {
+                "curr": "R",
+                "amt": "5.0000"
+              },
+              "accrualCost": {
+                "curr": "R",
+                "amt": "4.75000000"
+              }
+            },
+            {
+              "id": "30",
+              "name": "TELKOM MOBILE R10",
+              "faceValue": {
+                "curr": "R",
+                "amt": "10.0000"
+              },
+              "accrualCost": {
+                "curr": "R",
+                "amt": "9.50000000"
+              }
+            },
+            {
+              "id": "31",
+              "name": "TELKOM MOBILE R20",
+              "faceValue": {
+                "curr": "R",
+                "amt": "20.0000"
+              },
+              "accrualCost": {
+                "curr": "R",
+                "amt": "19.00000000"
+              }
+            },
+            {
+              "id": "32",
+              "name": "TELKOM MOBILE R30",
+              "faceValue": {
+                "curr": "R",
+                "amt": "30.0000"
+              },
+              "accrualCost": {
+                "curr": "R",
+                "amt": "28.50000000"
+              }
+            },
+            {
+              "id": "33",
+              "name": "TELKOM MOBILE R50",
+              "faceValue": {
+                "curr": "R",
+                "amt": "50.0000"
+              },
+              "accrualCost": {
+                "curr": "R",
+                "amt": "47.50000000"
+              }
+            },
+            {
+              "id": "34",
+              "name": "TELKOM MOBILE R100",
+              "faceValue": {
+                "curr": "R",
+                "amt": "100.0000"
+              },
+              "accrualCost": {
+                "curr": "R",
+                "amt": "95.00000000"
+              }
+            },
+            {
+              "id": "35",
+              "name": "TELKOM MOBILE R250",
+              "faceValue": {
+                "curr": "R",
+                "amt": "250.0000"
+              },
+              "accrualCost": {
+                "curr": "R",
+                "amt": "237.50000000"
+              }
+            }
+          ],
+          "networkType": "Telkom Mobile Airtime Voucher"
+        },
+        {
+          "networkID": "132",
+          "voucherdtls": [
+            {
+              "id": "68",
+              "name": "VIRGIN R15",
+              "faceValue": {
+                "curr": "R",
+                "amt": "15.0000"
+              },
+              "accrualCost": {
+                "curr": "R",
+                "amt": "14.25000000"
+              }
+            },
+            {
+              "id": "69",
+              "name": "VIRGIN R35",
+              "faceValue": {
+                "curr": "R",
+                "amt": "35.0000"
+              },
+              "accrualCost": {
+                "curr": "R",
+                "amt": "33.25000000"
+              }
+            },
+            {
+              "id": "70",
+              "name": "VIRGIN R50",
+              "faceValue": {
+                "curr": "R",
+                "amt": "50.0000"
+              },
+              "accrualCost": {
+                "curr": "R",
+                "amt": "47.50000000"
+              }
+            },
+            {
+              "id": "71",
+              "name": "VIRGIN R80",
+              "faceValue": {
+                "curr": "R",
+                "amt": "80.0000"
+              },
+              "accrualCost": {
+                "curr": "R",
+                "amt": "76.00000000"
+              }
+            },
+            {
+              "id": "72",
+              "name": "VIRGIN R120",
+              "faceValue": {
+                "curr": "R",
+                "amt": "120.0000"
+              },
+              "accrualCost": {
+                "curr": "R",
+                "amt": "114.00000000"
+              }
+            },
+            {
+              "id": "73",
+              "name": "VIRGIN R180",
+              "faceValue": {
+                "curr": "R",
+                "amt": "180.0000"
+              },
+              "accrualCost": {
+                "curr": "R",
+                "amt": "171.00000000"
+              }
+            },
+            {
+              "id": "74",
+              "name": "VIRGIN R300",
+              "faceValue": {
+                "curr": "R",
+                "amt": "300.0000"
+              },
+              "accrualCost": {
+                "curr": "R",
+                "amt": "285.00000000"
+              }
+            },
+            {
+              "id": "75",
+              "name": "VIRGIN R500",
+              "faceValue": {
+                "curr": "R",
+                "amt": "500.0000"
+              },
+              "accrualCost": {
+                "curr": "R",
+                "amt": "475.00000000"
+              }
+            },
+            {
+              "id": "76",
+              "name": "VIRGIN R10",
+              "faceValue": {
+                "curr": "R",
+                "amt": "10.0000"
+              },
+              "accrualCost": {
+                "curr": "R",
+                "amt": "9.50000000"
+              }
+            },
+            {
+              "id": "77",
+              "name": "VIRGIN R99",
+              "faceValue": {
+                "curr": "R",
+                "amt": "99.0000"
+              },
+              "accrualCost": {
+                "curr": "R",
+                "amt": "94.05000000"
+              }
+            }
+          ],
+          "networkType": "Virgin Airtime Voucher"
+        },
+        {
+          "networkID": "4",
+          "voucherdtls": [
+            {
+              "id": "4",
+              "name": "VODACOM R29",
+              "faceValue": {
+                "curr": "R",
+                "amt": "29.0000"
+              },
+              "accrualCost": {
+                "curr": "R",
+                "amt": "27.55000000"
+              }
+            },
+            {
+              "id": "5",
+              "name": "VODACOM R55",
+              "faceValue": {
+                "curr": "R",
+                "amt": "55.0000"
+              },
+              "accrualCost": {
+                "curr": "R",
+                "amt": "52.25000000"
+              }
+            },
+            {
+              "id": "6",
+              "name": "VODACOM R110",
+              "faceValue": {
+                "curr": "R",
+                "amt": "110.0000"
+              },
+              "accrualCost": {
+                "curr": "R",
+                "amt": "104.50000000"
+              }
+            },
+            {
+              "id": "7",
+              "name": "VODACOM R275",
+              "faceValue": {
+                "curr": "R",
+                "amt": "275.0000"
+              },
+              "accrualCost": {
+                "curr": "R",
+                "amt": "261.25000000"
+              }
+            },
+            {
+              "id": "8",
+              "name": "VODACOM R1000",
+              "faceValue": {
+                "curr": "R",
+                "amt": "1000.0000"
+              },
+              "accrualCost": {
+                "curr": "R",
+                "amt": "950.00000000"
+              }
+            },
+            {
+              "id": "9",
+              "name": "VOD R49 SMS",
+              "faceValue": {
+                "curr": "R",
+                "amt": "49.0000"
+              },
+              "accrualCost": {
+                "curr": "R",
+                "amt": "46.55000000"
+              }
+            }
+          ],
+          "networkType": "Vodacom Airtime"
+        }
+      ],
+      "earningsToDate": {
+        "curr": "R",
+        "amt": "20,000.00"
+      },
+      "redeemedToDate": {
+        "curr": "R",
+        "amt": "6,779.92"
+      },
+      "earningsPerMonth": {
+        "curr": "R",
+        "amt": "2,000.00"
+      },
+      "cellNo": "0823745865",
+      "absaRewards": "160830003836",
+      "dateOpened": "2016-08-30",
+      "status": "Active"
+    }
+  }
+}

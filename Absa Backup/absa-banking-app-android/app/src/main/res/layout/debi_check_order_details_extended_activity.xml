@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/amendedDetailsNotice"
+        style="@style/NormalTextMediumDark"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/extra_extra_large_space"
+        android:layout_marginTop="@dimen/medium_space"
+        android:background="@color/baby_pink"
+        android:gravity="center_vertical"
+        android:paddingStart="@dimen/normal_space"
+        android:paddingEnd="@dimen/normal_space"
+        android:text="@string/debicheck_amended_details_notice"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:visibility="visible" />
+
+    <styleguide.content.BeneficiaryView
+        android:id="@+id/debitOrderDetailView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:attribute_is_header="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/amendedDetailsNotice" />
+
+    <styleguide.content.PrimaryContentAndLabelView
+        android:id="@+id/creditorNameContentView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:attribute_primary_label="@string/debicheck_creditors_shortened_name"
+        app:attribute_should_show_check_box="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/debitOrderDetailView"
+        tools:attribute_primary_content="MTN" />
+
+    <TextView
+        android:id="@+id/creditorNameAmendedTextView"
+        style="@style/SmallTextRegularDark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/medium_space"
+        android:background="@drawable/text_rounded_off_white"
+        android:padding="@dimen/tiny_space"
+        android:text="@string/debicheck_amended"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@id/creditorNameContentView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/creditorNameContentView"
+        tools:visibility="visible" />
+
+    <styleguide.content.SecondaryContentAndLabelView
+        android:id="@+id/contractReferenceContentView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:attribute_is_secondary_check_box_checked="true"
+        app:attribute_secondary_label="@string/debicheck_contract_reference"
+        app:attribute_should_show_check_box="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/creditorNameContentView"
+        tools:attribute_secondary_content="5409 0780 4665" />
+
+    <styleguide.content.SecondaryContentAndLabelView
+        android:id="@+id/initialAmountContentView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:attribute_is_secondary_check_box_checked="true"
+        app:attribute_secondary_label="@string/debicheck_initial_amount"
+        app:attribute_should_show_check_box="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/contractReferenceContentView"
+        tools:attribute_secondary_content="R 1 000.00 once off" />
+
+    <TextView
+        android:id="@+id/initialAmountAmendedTextView"
+        style="@style/SmallTextRegularDark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/medium_space"
+        android:background="@drawable/text_rounded_off_white"
+        android:padding="@dimen/tiny_space"
+        android:text="@string/debicheck_amended"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@id/initialAmountContentView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/initialAmountContentView"
+        tools:visibility="visible" />
+
+    <styleguide.content.SecondaryContentAndLabelView
+        android:id="@+id/installmentAmountContentView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:attribute_is_secondary_check_box_checked="true"
+        app:attribute_secondary_label="@string/debicheck_installment_amount"
+        app:attribute_should_show_check_box="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/initialAmountContentView"
+        tools:attribute_secondary_content="R 900.00 monthly" />
+
+    <TextView
+        android:id="@+id/installmentAmountAmendedTextView"
+        style="@style/SmallTextRegularDark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/medium_space"
+        android:background="@drawable/text_rounded_off_white"
+        android:padding="@dimen/tiny_space"
+        android:text="@string/debicheck_amended"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@id/installmentAmountContentView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/installmentAmountContentView"
+        tools:visibility="visible" />
+
+    <styleguide.content.SecondaryContentAndLabelView
+        android:id="@+id/firstCollectionDayContentView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:attribute_is_secondary_check_box_checked="true"
+        app:attribute_secondary_label="@string/debicheck_first_collection_date"
+        app:attribute_should_show_check_box="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/installmentAmountContentView"
+        tools:attribute_secondary_content="1 Jun 2018" />
+
+    <TextView
+        android:id="@+id/firstCollectionDayAmendedTextView"
+        style="@style/SmallTextRegularDark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/medium_space"
+        android:background="@drawable/text_rounded_off_white"
+        android:padding="@dimen/tiny_space"
+        android:text="@string/debicheck_amended"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@id/firstCollectionDayContentView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/firstCollectionDayContentView"
+        tools:visibility="visible" />
+
+    <styleguide.content.SecondaryContentAndLabelView
+        android:id="@+id/collectionDayContentView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:attribute_is_secondary_check_box_checked="true"
+        app:attribute_secondary_label="@string/debicheck_collection_day"
+        app:attribute_should_show_check_box="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/firstCollectionDayContentView"
+        tools:attribute_secondary_content="1st of every month" />
+
+    <TextView
+        android:id="@+id/collectionDayAmendedTextView"
+        style="@style/SmallTextRegularDark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/medium_space"
+        android:background="@drawable/text_rounded_off_white"
+        android:padding="@dimen/tiny_space"
+        android:text="@string/debicheck_amended"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@id/collectionDayContentView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/collectionDayContentView"
+        tools:visibility="visible" />
+
+    <styleguide.content.SecondaryContentAndLabelView
+        android:id="@+id/accountNumberContentView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:attribute_is_secondary_check_box_checked="true"
+        app:attribute_secondary_label="@string/debicheck_your_account_number"
+        app:attribute_should_show_check_box="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/collectionDayContentView"
+        tools:attribute_secondary_content="5425 632 451 5225" />
+
+    <TextView
+        android:id="@+id/accountNumberAmendedTextView"
+        style="@style/SmallTextRegularDark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/medium_space"
+        android:background="@drawable/text_rounded_off_white"
+        android:padding="@dimen/tiny_space"
+        android:text="@string/debicheck_amended"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@id/accountNumberContentView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/accountNumberContentView"
+        tools:visibility="visible" />
+
+    <View
+        android:id="@+id/dividerView"
+        style="@style/DividerView"
+        android:layout_width="0dp"
+        android:layout_marginTop="@dimen/small_space"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/accountNumberContentView" />
+
+    <ImageView
+        android:id="@+id/arrowImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/medium_space"
+        android:padding="@dimen/small_space"
+        android:rotation="180"
+        app:layout_constraintBottom_toBottomOf="@id/seeMoreTextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/seeMoreTextView"
+        app:srcCompat="@drawable/arrow_down" />
+
+    <TextView
+        android:id="@+id/pleaseNoteTextView"
+        style="@style/Text_Caption"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/debicheck_details_please_note"
+        android:textColor="@color/graphite_light_theme_item_color"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/dividerView" />
+
+    <TextView
+        android:id="@+id/seeMoreTextView"
+        style="@style/NormalTextRegularDark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/small_space"
+        android:layout_marginTop="@dimen/medium_space"
+        android:text="@string/debicheck_see_more"
+        app:layout_constraintStart_toEndOf="@+id/arrowImageView"
+        app:layout_constraintTop_toBottomOf="@id/pleaseNoteTextView" />
+
+    <styleguide.content.SecondaryContentAndLabelView
+        android:id="@+id/typeOfDebitValueContentView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/large_space"
+        app:attribute_is_secondary_check_box_checked="true"
+        app:attribute_secondary_label="@string/debicheck_type_of_debit_value"
+        app:attribute_should_show_check_box="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/arrowImageView"
+        tools:attribute_secondary_content="Fixed" />
+
+    <styleguide.content.SecondaryContentAndLabelView
+        android:id="@+id/trackingIndicatorContentView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:attribute_is_secondary_check_box_checked="true"
+        app:attribute_secondary_label="@string/debicheck_tracking_indicator"
+        app:attribute_should_show_check_box="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/typeOfDebitValueContentView"
+        tools:attribute_secondary_content="5DF H89 93C" />
+
+    <TextView
+        android:id="@+id/trackingIndicatorAmendedTextView"
+        style="@style/SmallTextRegularDark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/medium_space"
+        android:background="@drawable/text_rounded_off_white"
+        android:padding="@dimen/tiny_space"
+        android:text="@string/debicheck_amended"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@id/trackingIndicatorContentView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/trackingIndicatorContentView"
+        tools:visibility="visible" />
+
+    <styleguide.content.SecondaryContentAndLabelView
+        android:id="@+id/maxAmountContentView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:attribute_is_secondary_check_box_checked="true"
+        app:attribute_secondary_label="@string/debicheck_maximum_collection_amount"
+        app:attribute_should_show_check_box="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/trackingIndicatorContentView"
+        tools:attribute_secondary_content="R 2 000.00" />
+
+    <TextView
+        android:id="@+id/maxAmountAmendedTextView"
+        style="@style/SmallTextRegularDark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/medium_space"
+        android:background="@drawable/text_rounded_off_white"
+        android:padding="@dimen/tiny_space"
+        android:text="@string/debicheck_amended"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@id/maxAmountContentView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/maxAmountContentView"
+        tools:visibility="visible" />
+
+    <View
+        android:id="@+id/dividerTrackingView"
+        style="@style/DividerView"
+        android:layout_width="0dp"
+        android:layout_marginTop="@dimen/small_space"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/maxAmountContentView" />
+
+    <styleguide.content.SecondaryContentAndLabelView
+        android:id="@+id/adjustmentCategoryContentView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:attribute_is_secondary_check_box_checked="true"
+        app:attribute_secondary_label="@string/debicheck_adjustment_category"
+        app:attribute_should_show_check_box="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/dividerTrackingView"
+        tools:attribute_secondary_content="Never" />
+
+    <TextView
+        android:id="@+id/adjustmentCategoryAmendedTextView"
+        style="@style/SmallTextRegularDark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/medium_space"
+        android:background="@drawable/text_rounded_off_white"
+        android:padding="@dimen/tiny_space"
+        android:text="@string/debicheck_amended"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@id/adjustmentCategoryContentView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/adjustmentCategoryContentView"
+        tools:visibility="visible" />
+
+
+    <styleguide.content.SecondaryContentAndLabelView
+        android:id="@+id/adjustmentRateContentView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:attribute_is_secondary_check_box_checked="true"
+        app:attribute_secondary_label="@string/debicheck_adjustment_rate"
+        app:attribute_should_show_check_box="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/adjustmentCategoryContentView"
+        tools:attribute_secondary_content="5%" />
+
+    <TextView
+        android:id="@+id/adjustmentRateAmendedTextView"
+        style="@style/SmallTextRegularDark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/medium_space"
+        android:background="@drawable/text_rounded_off_white"
+        android:padding="@dimen/tiny_space"
+        android:text="@string/debicheck_amended"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@id/adjustmentRateContentView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/adjustmentRateContentView"
+        tools:visibility="visible" />
+
+    <styleguide.content.SecondaryContentAndLabelView
+        android:id="@+id/adjustmentAmountContentView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:attribute_is_secondary_check_box_checked="true"
+        app:attribute_secondary_label="@string/debicheck_adjustment_amount"
+        app:attribute_should_show_check_box="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/adjustmentRateContentView"
+        tools:attribute_secondary_content="Never"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/adjustmentAmountAmendedTextView"
+        style="@style/SmallTextRegularDark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/medium_space"
+        android:background="@drawable/text_rounded_off_white"
+        android:padding="@dimen/tiny_space"
+        android:text="@string/debicheck_amended"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@id/adjustmentAmountContentView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/adjustmentAmountContentView"
+        tools:visibility="visible" />
+
+    <styleguide.content.SecondaryContentAndLabelView
+        android:id="@+id/dateAdjustmentRuleIndicatorContentView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:attribute_is_secondary_check_box_checked="true"
+        app:attribute_secondary_label="@string/debicheck_date_adjustment_rule_indicator"
+        app:attribute_should_show_check_box="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/adjustmentAmountContentView"
+        tools:attribute_secondary_content="No" />
+
+    <View
+        android:id="@+id/dividerAdjustmentView"
+        style="@style/DividerView"
+        android:layout_width="0dp"
+        android:layout_marginTop="@dimen/small_space"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dateAdjustmentRuleIndicatorContentView" />
+
+    <styleguide.content.SecondaryContentAndLabelView
+        android:id="@+id/frequencyContentView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/small_space"
+        app:attribute_is_secondary_check_box_checked="true"
+        app:attribute_secondary_label="@string/debicheck_frequency"
+        app:attribute_should_show_check_box="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/dividerAdjustmentView"
+        tools:attribute_secondary_content="Monthly" />
+
+    <styleguide.buttons.Button
+        android:id="@+id/rejectButton"
+        style="@style/SecondaryButton"
+        android:layout_width="0dp"
+        android:layout_marginTop="@dimen/extra_large_space"
+        android:text="@string/reject"
+        app:layout_constraintBottom_toTopOf="@id/acceptButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/frequencyContentView"
+        app:layout_constraintVertical_bias="1"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <styleguide.buttons.Button
+        android:id="@+id/acceptButton"
+        style="@style/PrimaryButton"
+        android:layout_width="0dp"
+        android:layout_marginTop="@dimen/medium_space"
+        android:text="@string/approve"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/rejectButton" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

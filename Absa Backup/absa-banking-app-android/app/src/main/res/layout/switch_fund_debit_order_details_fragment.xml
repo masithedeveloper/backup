@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scrollView"
+    style="@style/ScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/debitAccountInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_description_text="@string/switch_withdraw_amount_description"
+            app:attribute_hint_text="@string/account_to_debit"
+            app:attribute_selector_type="LONG_LIST"
+            app:attribute_title_text="@string/buy_unit_trust_investment_method_from_which_account"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/debitDayInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_hint_text="@string/debit_day"
+            app:attribute_selector_type="LONG_LIST"
+            app:attribute_title_text="@string/debit_day"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/debitAccountInputView" />
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/debitAmountInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:maxLength="14"
+            app:attribute_hint_text="@string/switch_debit_min_amount"
+            app:attribute_selector_type="CURRENCY"
+            app:attribute_title_text="@string/amount"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/debitDayInputView" />
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/increaseDebitAmountInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_hint_text="@string/buy_unit_trust_investment_method_increase_yearly_by"
+            app:attribute_selector_type="LONG_LIST"
+            app:attribute_title_text="@string/buy_unit_trust_investment_method_increase_yearly_by"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/debitAmountInputView" />
+
+        <styleguide.buttons.Button
+            android:id="@+id/nextButton"
+            style="@style/PrimaryButton"
+            android:layout_width="0dp"
+            android:text="@string/next"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/increaseDebitAmountInputView"
+            app:layout_constraintVertical_bias="1" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

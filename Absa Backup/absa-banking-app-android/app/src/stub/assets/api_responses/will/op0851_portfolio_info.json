@@ -1,0 +1,17 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0851",
+      "resCde": "00000",
+      "resMsg": "SUCCESS",
+      "serVer": "2.0",
+      "expTrace": null
+    },
+    "payData": {
+      "queryType": "",
+      "cellNumber": "0614607223",
+      "emailId": "",
+      "referenceNumber": "14853353458212"
+    }
+  }
+}

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:background="@android:color/transparent"
+    tools:parentTag="androidx.constraintlayout.widget.ConstraintLayout">
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        style="@style/CheckBoxView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/medium_space"
+        app:layout_constraintBottom_toBottomOf="@+id/checkBoxSubTextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:layout_goneMarginBottom="@dimen/small_space" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="@dimen/lotto_image_width"
+        android:layout_height="@dimen/lotto_image_height"
+        android:layout_marginStart="@dimen/medium_space"
+        android:layout_marginTop="@dimen/small_space"
+        android:layout_marginEnd="@dimen/medium_space"
+        android:tint="@null"
+        app:layout_constraintBottom_toTopOf="@+id/checkBoxSubTextView"
+        app:layout_constraintStart_toEndOf="@+id/checkBox"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_goneMarginBottom="@dimen/small_space"
+        tools:srcCompat="@drawable/primary_button_background"
+        tools:text="CheckBox Text" />
+
+    <TextView
+        android:id="@+id/checkBoxSubTextView"
+        style="@style/SmallTextRegularDark"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/medium_space"
+        android:layout_marginTop="@dimen/tiny_space"
+        android:layout_marginEnd="@dimen/medium_space"
+        android:layout_marginBottom="@dimen/small_space"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@id/errorMessageTextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/checkBox"
+        app:layout_constraintTop_toBottomOf="@id/imageView"
+        app:layout_goneMarginBottom="@dimen/small_space"
+        tools:text="Error message"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/errorMessageTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/medium_space"
+        android:layout_marginBottom="@dimen/small_space"
+        android:textAppearance="@style/CheckBoxViewErrorTexAppearance"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/checkBox"
+        app:layout_constraintTop_toBottomOf="@+id/checkBoxSubTextView"
+        tools:text="Error message" />
+</merge>

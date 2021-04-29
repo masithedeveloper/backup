@@ -1,0 +1,53 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0861",
+      "resCde": "00000",
+      "resMsg": "Success",
+      "serVer": "2.0",
+      "expTrace": null
+    },
+    "payData": {
+      "lookups": [
+        {
+          "itemCode": "1",
+          "groupCode": "MARITAL STATUS",
+          "cmsKey": null,
+          "defaultLabel": "MARRIED"
+        },
+        {
+          "itemCode": "2",
+          "groupCode": "MARITAL STATUS",
+          "cmsKey": null,
+          "defaultLabel": "SINGLE"
+        },
+        {
+          "itemCode": "3",
+          "groupCode": "MARITAL STATUS",
+          "cmsKey": null,
+          "defaultLabel": "OTHER"
+        },
+        {
+          "itemCode": "4",
+          "groupCode": "MARITAL STATUS",
+          "cmsKey": null,
+          "defaultLabel": "DIVORCED"
+        },
+        {
+          "itemCode": "5",
+          "groupCode": "MARITAL STATUS",
+          "cmsKey": null,
+          "defaultLabel": "SEPARATED"
+        },
+        {
+          "itemCode": "6",
+          "groupCode": "MARITAL STATUS",
+          "cmsKey": null,
+          "defaultLabel": "WIDOW/ER"
+        }
+      ],
+      "txnStatus": "Success",
+      "txnMessage": "Success"
+    }
+  }
+}

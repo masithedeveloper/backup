@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/header_dark"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.core.widget.NestedScrollView
+            android:id="@+id/nestedScrollView"
+            style="@style/ScrollView"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:fitsSystemWindows="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/toolbar">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <styleguide.content.BeneficiaryView
+                    android:id="@+id/buyBeneficiaryView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scaleX="0"
+                    android:scaleY="0"
+                    app:attribute_is_header="true"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <styleguide.content.LineItemView
+                    android:id="@+id/institutionCodeLineItemView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:attribute_content_text=""
+                    app:attribute_label_text="@string/beneficiary_details_institution_code"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/buyBeneficiaryView" />
+
+                <styleguide.content.LineItemView
+                    android:id="@+id/accountHolderNameCodeLineItemView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    app:attribute_content_text=""
+                    app:attribute_label_text="@string/beneficiary_details_account_holder_name"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/institutionCodeLineItemView" />
+
+                <styleguide.content.LineItemView
+                    android:id="@+id/mobileOperatorLineItemView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:attribute_content_text=""
+                    app:attribute_label_text="@string/beneficiary_details_mobile_network_operator"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/accountHolderNameCodeLineItemView" />
+
+                <styleguide.content.LineItemView
+                    android:id="@+id/bankLineItemView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:attribute_content_text=""
+                    app:attribute_label_text="@string/beneficiary_details_bank"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/mobileOperatorLineItemView" />
+
+                <styleguide.content.LineItemView
+                    android:id="@+id/branchLineItemView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:attribute_content_text=""
+                    app:attribute_label_text="@string/beneficiary_details_branch"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/bankLineItemView" />
+
+                <styleguide.content.SecondaryContentAndLabelView
+                    android:id="@+id/customerNameForMeterSecondaryContentAndLabelView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    app:attribute_secondary_label="@string/registered_customer_name"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/branchLineItemView" />
+
+                <styleguide.content.SecondaryContentAndLabelView
+                    android:id="@+id/addressSecondaryContentAndLabelView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    app:attribute_secondary_label="@string/address"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/customerNameForMeterSecondaryContentAndLabelView" />
+
+                <styleguide.content.SecondaryContentAndLabelView
+                    android:id="@+id/utilityProviderSecondaryContentAndLabelView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    app:attribute_secondary_label="@string/utility_provider"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/addressSecondaryContentAndLabelView" />
+
+                <styleguide.content.SecondaryContentAndLabelView
+                    android:id="@+id/arrearsAmountSecondaryContentAndLabelView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    app:attribute_secondary_label="@string/prepaid_electricity_arrears_amount_warning"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/utilityProviderSecondaryContentAndLabelView" />
+
+                <styleguide.content.LineItemView
+                    android:id="@+id/theirReferenceLineItemView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:attribute_content_text=""
+                    app:attribute_label_text="@string/beneficiary_details_their_reference"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/arrearsAmountSecondaryContentAndLabelView" />
+
+                <styleguide.content.LineItemView
+                    android:id="@+id/myReferenceLineItemView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:attribute_content_text=""
+                    app:attribute_label_text="@string/beneficiary_details_my_reference"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/theirReferenceLineItemView" />
+
+                <styleguide.content.LineItemView
+                    android:id="@+id/theirNotificationLineItemView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:attribute_content_text=""
+                    app:attribute_label_text="@string/beneficiary_details_their_notification"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/myReferenceLineItemView" />
+
+                <styleguide.content.LineItemView
+                    android:id="@+id/myNotificationLineItemView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    app:attribute_content_text=""
+                    app:attribute_label_text="@string/beneficiary_details_my_notification"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/theirNotificationLineItemView" />
+
+                <View
+                    android:id="@+id/detailsDividerView"
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:layout_marginStart="@dimen/medium_space"
+                    android:layout_marginTop="@dimen/small_space"
+                    android:layout_marginEnd="@dimen/medium_space"
+                    android:background="@color/absolute"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/myNotificationLineItemView" />
+
+                <styleguide.buttons.OptionActionButtonView
+                    android:id="@+id/actionButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/small_space"
+                    app:attribute_caption="@string/beneficiary_details_pay"
+                    app:attribute_icon="@drawable/ic_pay_dark_new"
+                    app:attribute_show_arrow="false"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/detailsDividerView" />
+
+                <View
+                    android:id="@+id/payDividerView"
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:layout_marginStart="@dimen/medium_space"
+                    android:layout_marginTop="@dimen/small_space"
+                    android:layout_marginEnd="@dimen/medium_space"
+                    android:background="@color/absolute"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/actionButton" />
+
+                <styleguide.content.HeadingView
+                    android:id="@+id/recentHeadingView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:attribute_heading="@string/beneficiary_details_recent_transactions"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/payDividerView" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/transactionHistoryRecyclerView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/small_space"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/recentHeadingView"
+                    app:layout_constraintVertical_bias="0" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.core.widget.NestedScrollView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

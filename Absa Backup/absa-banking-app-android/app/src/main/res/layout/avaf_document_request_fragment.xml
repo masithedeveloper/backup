@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scrollView"
+    style="@style/ScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <styleguide.buttons.OptionActionButtonView
+            android:id="@+id/settlementQuoteOptionActionButtonView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_caption="@string/avaf_settlement_quote"
+            app:attribute_icon="@drawable/ic_document"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <styleguide.buttons.OptionActionButtonView
+            android:id="@+id/paidupLetterOptionActionButtonView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            app:attribute_caption="@string/avaf_document_request_paidup_letter"
+            app:attribute_icon="@drawable/ic_document"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <styleguide.buttons.OptionActionButtonView
+            android:id="@+id/electronicNatisOptionActionButtonView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_caption="@string/avaf_document_request_electronic_copy_of_natis"
+            app:attribute_icon="@drawable/ic_document"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/settlementQuoteOptionActionButtonView" />
+
+        <styleguide.buttons.OptionActionButtonView
+            android:id="@+id/crossborderOptionActionButtonView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_caption="@string/avaf_document_request_cross_border_letter"
+            app:attribute_icon="@drawable/ic_document"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/electronicNatisOptionActionButtonView" />
+
+        <styleguide.buttons.OptionActionButtonView
+            android:id="@+id/taxCertificateOptionActionButtonView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_caption="@string/avaf_document_request_tax_certificate_title_plural"
+            app:attribute_icon="@drawable/ic_document"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/crossborderOptionActionButtonView" />
+
+        <styleguide.buttons.OptionActionButtonView
+            android:id="@+id/amortizationOptionActionButtonView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_caption="@string/avaf_loan_amortization_schedule_hub"
+            app:attribute_icon="@drawable/ic_document"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/taxCertificateOptionActionButtonView" />
+
+        <styleguide.buttons.OptionActionButtonView
+            android:id="@+id/detailedStatementOptionActionButtonView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_caption="@string/avaf_detailed_statement_hub"
+            app:attribute_icon="@drawable/ic_document"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/amortizationOptionActionButtonView" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

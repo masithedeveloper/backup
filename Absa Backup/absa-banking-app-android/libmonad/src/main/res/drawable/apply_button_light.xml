@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" android:enterFadeDuration="300" android:exitFadeDuration="300">
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="@color/light_grey" />
+            <size android:width="@dimen/apply_button_width" android:height="@dimen/apply_button_height" />
+            <corners android:radius="@dimen/apply_button_radius" />
+        </shape>
+    </item>
+    <item android:state_enabled="true">
+        <shape>
+            <solid android:color="@android:color/white" />
+            <size android:width="@dimen/apply_button_width" android:height="@dimen/apply_button_height" />
+            <corners android:radius="@dimen/apply_button_radius" />
+        </shape>
+    </item>
+</selector>

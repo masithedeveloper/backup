@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/sureCheckDescriptionText"
+            style="@style/TitleTextBoldDark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/medium_space"
+            android:layout_marginTop="@dimen/extra_extra_large_space"
+            android:layout_marginEnd="@dimen/medium_space"
+            android:layout_marginBottom="@dimen/tiny_space"
+            android:text="@string/make_surecheck_description_text"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/changeVerificationDeviceDescriptionTextView"
+            style="@style/NormalTextRegularDark"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/medium_space"
+            android:layout_marginTop="@dimen/medium_space"
+            android:layout_marginEnd="@dimen/medium_space"
+            android:text="@string/linking_surecheck_change_primary_description"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/sureCheckDescriptionText" />
+
+        <styleguide.forms.RadioButtonView
+            android:id="@+id/changePrimaryDeviceYesNoRadioButtonView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/changeVerificationDeviceDescriptionTextView" />
+
+        <styleguide.buttons.Button
+            android:id="@+id/continueButton"
+            style="@style/PrimaryButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/continue_button"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/changePrimaryDeviceYesNoRadioButtonView"
+            app:layout_constraintVertical_bias="1" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
+

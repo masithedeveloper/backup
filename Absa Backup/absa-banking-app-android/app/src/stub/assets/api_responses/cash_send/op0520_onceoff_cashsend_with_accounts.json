@@ -1,0 +1,143 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0520",
+      "resCde": "00000",
+      "resMsg": "",
+      "serVer": "2.0"
+    },
+    "payData": {
+      "allActList": [],
+      "benOptType": "cashsend",
+      "ftFrmActLst": [
+        {
+          "favorite": "N",
+          "accessTypeBits": "1.0",
+          "isBalanceMasked": "N",
+          "viewAcctHistoryAllowed": "Y",
+          "acctAccessBits": "64255.0",
+          "actNo": "9050535844",
+          "desc": "Savings account",
+          "curBal": {
+            "curr": "R",
+            "amt": "17,317,265,814.81"
+          },
+          "avblBal": {
+            "curr": "R",
+            "amt": "17,317,265,764.81"
+          },
+          "typ": "savingsAccount",
+          "mkdActNo": "******5844",
+          "curr": "R",
+          "overDraftLimit": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "unclearedAmount": {
+            "curr": "R",
+            "amt": "0.00"
+          }
+        },
+        {
+          "favorite": "N",
+          "accessTypeBits": "1.0",
+          "isBalanceMasked": "N",
+          "viewAcctHistoryAllowed": "Y",
+          "acctAccessBits": "64255.0",
+          "actNo": "9050571541",
+          "desc": "Savings account",
+          "curBal": {
+            "curr": "R",
+            "amt": "102,288.23"
+          },
+          "avblBal": {
+            "curr": "R",
+            "amt": "102,238.23"
+          },
+          "typ": "savingsAccount",
+          "mkdActNo": "******1541",
+          "curr": "R",
+          "overDraftLimit": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "unclearedAmount": {
+            "curr": "R",
+            "amt": "0.00"
+          }
+        },
+        {
+          "favorite": "N",
+          "accessTypeBits": "2.0",
+          "isBalanceMasked": "N",
+          "viewAcctHistoryAllowed": "Y",
+          "acctAccessBits": "65535.0",
+          "actNo": "1000694254",
+          "desc": "Current account",
+          "curBal": {
+            "curr": "R",
+            "amt": "8,049,153.15"
+          },
+          "avblBal": {
+            "curr": "R",
+            "amt": "8,049,153.15"
+          },
+          "typ": "currentAccount",
+          "mkdActNo": "******4254",
+          "curr": "R",
+          "overDraftLimit": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "unclearedAmount": {
+            "curr": "R",
+            "amt": "0.00"
+          }
+        },
+        {
+          "favorite": "N",
+          "accessTypeBits": "1.0",
+          "isBalanceMasked": "N",
+          "viewAcctHistoryAllowed": "Y",
+          "acctAccessBits": "64255.0",
+          "actNo": "9050562691",
+          "desc": "Savings account",
+          "curBal": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "avblBal": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "typ": "savingsAccount",
+          "mkdActNo": "******2691",
+          "curr": "R",
+          "overDraftLimit": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "unclearedAmount": {
+            "curr": "R",
+            "amt": "0.00"
+          }
+        }
+      ],
+      "ownNotificationDTO": {
+        "emaillist": [
+          "shilpa.brahme@barclayscorp.com"
+        ],
+        "cellNolist": [
+          "******8598"
+        ],
+        "faxinfolist": [
+          {
+            "faxCode": "",
+            "faxNumber": ""
+          }
+        ],
+        "actualCellNo": "0840178598"
+      }
+    }
+  }
+}

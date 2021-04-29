@@ -1,0 +1,18 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0918",
+      "resCde": "00000",
+      "resMsg": "SUCCESS",
+      "serVer": "2.0"
+    },
+    "payData": {
+      "regisStatus": "SUCCESS",
+      "regisMsg": "Update successful",
+      "acctDesc": "",
+      "chargeFreqID": "1",
+      "orderFreqDate": "15",
+      "fromAct": "4047598551"
+    }
+  }
+}

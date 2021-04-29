@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:animateLayoutChanges="true"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/header_dark" />
+
+        <ScrollView
+            android:id="@+id/sv_credit_card_replacement_overview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <styleguide.content.HeadingView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:attribute_heading="@string/card_being_replaced" />
+
+                <styleguide.content.CardView
+                    android:id="@+id/cardInformation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <View
+                    android:id="@+id/card_divider_view"
+                    style="@style/DividerView"
+                    android:layout_width="match_parent"
+                    android:layout_marginStart="@dimen/medium_space"
+                    android:layout_marginEnd="@dimen/medium_space" />
+
+                <styleguide.forms.NormalInputView
+                    android:id="@+id/replacementReasonSelector"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:attribute_editable="false"
+                    app:attribute_hint_text="@string/hint_reason_for_replacement"
+                    app:attribute_selector_type="SHORT_LIST"
+                    app:attribute_title_text="@string/reason_for_replacement" />
+
+                <TextView
+                    android:id="@+id/offerTextView"
+                    style="@style/SmallTextRegularDark"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/medium_space"
+                    android:layout_marginTop="@dimen/small_space"
+                    android:layout_marginEnd="@dimen/medium_space"
+                    android:visibility="gone" />
+
+                <styleguide.forms.NormalInputView
+                    android:id="@+id/whenDidThisHappenDateSelector"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:attribute_editable="false"
+                    app:attribute_hint_text="@string/sel_date"
+                    app:attribute_image="@drawable/ic_calendar_dark"
+                    app:attribute_selector_type="DATE"
+                    app:attribute_title_text="@string/replacement_incident_date" />
+
+                <styleguide.forms.NormalInputView
+                    android:id="@+id/lastUsedDateSelector"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:attribute_editable="false"
+                    app:attribute_hint_text="@string/sel_date"
+                    app:attribute_image="@drawable/ic_calendar_dark"
+                    app:attribute_selector_type="DATE"
+                    app:attribute_title_text="@string/replacement_card_last_used" />
+
+                <styleguide.buttons.Button
+                    android:id="@+id/confirmButton"
+                    style="@style/PrimaryButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/continue_button" />
+
+                <TextView
+                    style="@style/LargeTextRegularDark"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/medium_space"
+                    android:layout_marginEnd="@dimen/medium_space"
+                    android:text="@string/stop_and_replace_assistance_message" />
+
+                <styleguide.content.ContactView
+                    android:id="@+id/contactLocalView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/medium_space"
+                    android:clickable="true"
+                    android:focusable="true" />
+
+                <styleguide.content.ContactView
+                    android:id="@+id/contactInternationalView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:focusable="true" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</layout>

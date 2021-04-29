@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:parentTag="androidx.constraintlayout.widget.ConstraintLayout">
+
+    <TextView
+        android:id="@+id/numberTextView"
+        style="@style/LargeTextRegularDark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/medium_space"
+        android:saveEnabled="false"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="1." />
+
+    <TextView
+        android:id="@+id/contentTextView"
+        style="@style/LargeTextRegularDark"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/tiny_space"
+        android:layout_marginEnd="@dimen/medium_space"
+        android:saveEnabled="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/numberTextView"
+        app:layout_constraintTop_toTopOf="@+id/numberTextView"
+        tools:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur a gravida nunc, nec pharetra felis. Phasellus semper, nulla et placerat mollis, ligula tellus efficitur nunc, at lobortis leo lorem vitae eros. Maecenas ipsum mauris, condimentum at convallis vel, sodales non arcu. In elit sapien, rhoncus ut semper non, vestibulum porttitor ligula. Duis non vestibulum tellus, nec ornare urna. Aliquam id dignissim diam. Mauris ac commodo lacus, pharetra suscipit dui. Ut quis ipsum semper, tincidunt sem sit amet, rhoncus dolor." />
+</merge>

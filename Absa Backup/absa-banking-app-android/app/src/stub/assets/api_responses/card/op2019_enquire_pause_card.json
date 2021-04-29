@@ -1,0 +1,25 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "expTrace": null,
+      "serVer": "2.0",
+      "resMsg": "Success",
+      "resCde": "00000",
+      "resId": "RES2019"
+    },
+    "payData": {
+      "enquirePauseCardRespDTO": {
+        "allTransactions": "N",
+        "internationalAtmTransactions": "Y",
+        "internationalPosTransactions": "N",
+        "localAtmTransactions": "Y",
+        "localPosTransactions": "N",
+        "onlinePurchases": "Y",
+        "cardNumber": "4483870000032817",
+        "digitalWallet": "y"
+      },
+      "txnMessage": "Success",
+      "txnStatus": "Success"
+    }
+  }
+}

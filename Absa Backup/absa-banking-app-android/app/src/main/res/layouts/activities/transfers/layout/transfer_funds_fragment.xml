@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        style="@style/ScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:animateLayoutChanges="true">
+
+            <TextView
+                android:id="@+id/transferDelayHeaderTextView"
+                style="@style/AlertView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/avaf_transfer_delay_header"
+                android:visibility="gone"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:visibility="visible" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/fromSelectAccountView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_editable="false"
+                app:attribute_hint_text="@string/choose_account_transfer_hint"
+                app:attribute_selector_type="LONG_LIST"
+                app:attribute_title_text="@string/transfer_from_account"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/transferDelayHeaderTextView" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/toSelectAccountView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/small_space"
+                app:attribute_editable="false"
+                app:attribute_hint_text="@string/choose_account_transfer_hint"
+                app:attribute_selector_type="LONG_LIST"
+                app:attribute_title_text="@string/transfer_to_account"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/fromSelectAccountView" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/amountInputView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/small_space"
+                android:inputType="number"
+                android:maxLength="20"
+                app:attribute_editable="true"
+                app:attribute_hint_text="@string/transfer_amount_hint"
+                app:attribute_selector_type="CURRENCY_DECIMAL"
+                app:attribute_title_text="@string/amount"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/toSelectAccountView" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/fromAccountReferenceInputView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/small_space"
+                android:inputType="text"
+                android:maxLength="20"
+                app:attribute_editable="true"
+                app:attribute_hint_text="@string/transfer_from_account_reference"
+                app:attribute_title_text="@string/transfer_from_account_reference"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/amountInputView" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/toAccountReferenceInputView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/small_space"
+                android:inputType="text"
+                android:maxLength="20"
+                app:attribute_editable="true"
+                app:attribute_hint_text="@string/transfer_to_account_reference"
+                app:attribute_title_text="@string/transfer_to_account_reference"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/fromAccountReferenceInputView" />
+
+            <styleguide.content.HeadingView
+                android:id="@+id/transferTypeHeadingView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/large_space"
+                app:attribute_heading="@string/transfer_type"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/toAccountReferenceInputView" />
+
+            <styleguide.forms.RadioButtonView
+                android:id="@+id/transferTypeRadioButtonView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_description="Future Dated Transfer"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/transferTypeHeadingView" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/transferDateView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/small_space"
+                android:focusable="true"
+                android:visibility="gone"
+                app:attribute_editable="false"
+                app:attribute_hint_text="@string/sel_date"
+                app:attribute_image="@drawable/ic_calendar_dark"
+                app:attribute_selector_type="DATE"
+                app:attribute_title_text="@string/transfer_date"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/transferTypeRadioButtonView" />
+
+            <styleguide.buttons.Button
+                android:id="@+id/continueButton"
+                style="@style/PrimaryButton"
+                android:layout_margin="@dimen/medium_space"
+                android:text="@string/next"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/transferDateView"
+                app:layout_constraintVertical_bias="1" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</layout>

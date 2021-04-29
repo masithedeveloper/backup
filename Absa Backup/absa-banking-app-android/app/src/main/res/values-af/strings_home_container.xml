@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="buy_airtime">Koop Lugtyd</string>
+    <string name="buy_electricity">Koop Elektrisiteit</string>
+    <string name="accounts">Rekeninge</string>
+    <string name="home_container_pending_authorisation">Magtig transaksies</string>
+    <string name="radio_horizontal_content_description">Horisontale rekeninglys</string>
+    <string name="radio_vertical_content_description">Vertikale rekeninglys</string>
+
+    <string name="navigation_menu_buy">Koop</string>
+    <string name="navigation_menu_cards">Kaarte</string>
+    <string name="navigation_menu_beneficiaries">Begunstigdes</string>
+    <string name="navigation_menu_debi_check">Debietorders</string>
+    <string name="navigation_menu_contact_us">Kontak ons</string>
+    <string name="navigation_menu_help">Hulp</string>
+    <string name="navigation_menu_branch_locator">OTM-en Takliggings</string>
+    <string name="navigation_menu_settings">Verstellings</string>
+    <string name="navigation_menu_app_preferences">Verstellings</string>
+    <string name="navigation_menu_security">Sekuriteit</string>
+    <string name="navigation_menu_whats_new">Wat is nuut?</string>
+    <string name="navigation_menu_feedback">Terugvoer</string>
+    <string name="navigation_menu_manage_account">Rekeningverstellings</string>
+    <string name="navigation_menu_manage_digital_limits">Digitale Limiete</string>
+    <string name="navigation_menu_manage_devices">Toestelle</string>
+    <string name="navigation_menu_security_tips">Veiligheidswenke</string>
+    <string name="navigation_menu_your_will">Jou Testament</string>
+
+    <string name="home_make_payment_content_description">Druk hier om ’n betaling te maak</string>
+    <string name="home_transfer_funds_content_description">Druk hier om fondse oor te plaas tussen jou rekeninge</string>
+    <string name="home_cash_send_content_description">Druk hier om ’n CashSend te doen</string>
+    <string name="home_cash_send_plus_content_description">Druk hier om ’n CashSend Plus te doen</string>
+    <string name="home_airtime_content_description">Druk hier om lugtyd te koop</string>
+    <string name="home_prepaid_content_description">Druk hier om voorafbetaalde elektrisiteit te koop</string>
+    <string name="home_more_options_content_description">Druk hier om aanbiedings te verken</string>
+
+    <string name="home_container_notifications_menu_item">Notifikasies</string>
+    <string name="home_container_contact_us_menu_item">Kontak ons</string>
+    <string name="home_container_messages_menu_item">Boodskappe</string>
+    <string name="home_container_more_menu_item">Keuselys</string>
+    <string name="home_container_floating_action_button_more">Meer</string>
+    <string name="home_container_more_menu_content_description">Meer opsies</string>
+    <string name="transfer_unavailable">Jy het meer as een rekening nodig om oorplasings te doen</string>
+
+    <string name="home_authorize_content_description">Druk hier vir hangende magtigins</string>
+    <string name="home_container_explore_menu_item">Verken</string>
+</resources>

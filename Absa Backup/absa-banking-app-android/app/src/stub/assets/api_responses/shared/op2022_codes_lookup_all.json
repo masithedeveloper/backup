@@ -1,0 +1,3227 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES2022",
+      "resCde": "00000",
+      "resMsg": "Success",
+      "serVer": "2.0",
+      "expTrace": null
+    },
+    "payData": {
+      "codesLookupDetailsList": [
+        {
+          "codesLookupType": "SOURCE_OF_FUNDS",
+          "itemCode": "44",
+          "engCodeDescription": "DONATIONS"
+        },
+        {
+          "codesLookupType": "SOURCE_OF_FUNDS",
+          "itemCode": "35",
+          "engCodeDescription": "TAX REBATE"
+        },
+        {
+          "codesLookupType": "SOURCE_OF_FUNDS",
+          "itemCode": "22",
+          "engCodeDescription": "BONUS"
+        },
+        {
+          "codesLookupType": "SOURCE_OF_FUNDS",
+          "itemCode": "36",
+          "engCodeDescription": "WINNING"
+        },
+        {
+          "codesLookupType": "SOURCE_OF_FUNDS",
+          "itemCode": "23",
+          "engCodeDescription": "MAINTENANCE/ ALIMONY"
+        },
+        {
+          "codesLookupType": "SOURCE_OF_FUNDS",
+          "itemCode": "33",
+          "engCodeDescription": "SALE OF VEHICLE"
+        },
+        {
+          "codesLookupType": "SOURCE_OF_FUNDS",
+          "itemCode": "24",
+          "engCodeDescription": "PENSION"
+        },
+        {
+          "codesLookupType": "SOURCE_OF_FUNDS",
+          "itemCode": "34",
+          "engCodeDescription": "SALE OF BUSINESS"
+        },
+        {
+          "codesLookupType": "SOURCE_OF_FUNDS",
+          "itemCode": "25",
+          "engCodeDescription": "INVESTMENTS"
+        },
+        {
+          "codesLookupType": "SOURCE_OF_FUNDS",
+          "itemCode": "39",
+          "engCodeDescription": "DEVELOPMENT FUNDING"
+        },
+        {
+          "codesLookupType": "SOURCE_OF_FUNDS",
+          "itemCode": "26",
+          "engCodeDescription": "INSURANCE CLAIM"
+        },
+        {
+          "codesLookupType": "SOURCE_OF_FUNDS",
+          "itemCode": "27",
+          "engCodeDescription": "ALLOWANCE"
+        },
+        {
+          "codesLookupType": "SOURCE_OF_FUNDS",
+          "itemCode": "37",
+          "engCodeDescription": "TRADING INCOME   SALES"
+        },
+        {
+          "codesLookupType": "SOURCE_OF_FUNDS",
+          "itemCode": "28",
+          "engCodeDescription": "DONATION/GIFT"
+        },
+        {
+          "codesLookupType": "SOURCE_OF_FUNDS",
+          "itemCode": "38",
+          "engCodeDescription": "TRADING INCOME   SERVICES"
+        },
+        {
+          "codesLookupType": "SOURCE_OF_FUNDS",
+          "itemCode": "29",
+          "engCodeDescription": "INHERITANCE"
+        },
+        {
+          "codesLookupType": "SOURCE_OF_FUNDS",
+          "itemCode": "21",
+          "engCodeDescription": "COMMISSION"
+        },
+        {
+          "codesLookupType": "SOURCE_OF_FUNDS",
+          "itemCode": "20",
+          "engCodeDescription": "SALARY/WAGES"
+        },
+        {
+          "codesLookupType": "SOURCE_OF_FUNDS",
+          "itemCode": "43",
+          "engCodeDescription": "GRANTS"
+        },
+        {
+          "codesLookupType": "SOURCE_OF_FUNDS",
+          "itemCode": "30",
+          "engCodeDescription": "SOCIAL GRANT"
+        },
+        {
+          "codesLookupType": "SOURCE_OF_FUNDS",
+          "itemCode": "42",
+          "engCodeDescription": "MONEY SERVICE BUSINESS"
+        },
+        {
+          "codesLookupType": "SOURCE_OF_FUNDS",
+          "itemCode": "41",
+          "engCodeDescription": "PAY DAY LENDERS"
+        },
+        {
+          "codesLookupType": "SOURCE_OF_FUNDS",
+          "itemCode": "32",
+          "engCodeDescription": "SALE OF PROPERTY"
+        },
+        {
+          "codesLookupType": "SOURCE_OF_FUNDS",
+          "itemCode": "40",
+          "engCodeDescription": "TRADE FINANCE"
+        },
+        {
+          "codesLookupType": "SOURCE_OF_FUNDS",
+          "itemCode": "31",
+          "engCodeDescription": "RETIREMENT ANNUITY"
+        },
+        {
+          "codesLookupType": "OCCUPATION_CODE",
+          "itemCode": "01",
+          "engCodeDescription": "PROFESSIONAL"
+        },
+        {
+          "codesLookupType": "OCCUPATION_CODE",
+          "itemCode": "02",
+          "engCodeDescription": "ADMINISTRATION"
+        },
+        {
+          "codesLookupType": "OCCUPATION_CODE",
+          "itemCode": "03",
+          "engCodeDescription": "CLERICAL"
+        },
+        {
+          "codesLookupType": "OCCUPATION_CODE",
+          "itemCode": "04",
+          "engCodeDescription": "SALES PERSON"
+        },
+        {
+          "codesLookupType": "OCCUPATION_CODE",
+          "itemCode": "05",
+          "engCodeDescription": "SERVICE"
+        },
+        {
+          "codesLookupType": "OCCUPATION_CODE",
+          "itemCode": "06",
+          "engCodeDescription": "FARMER"
+        },
+        {
+          "codesLookupType": "OCCUPATION_CODE",
+          "itemCode": "07",
+          "engCodeDescription": "PRODUCTION"
+        },
+        {
+          "codesLookupType": "OCCUPATION_CODE",
+          "itemCode": "08",
+          "engCodeDescription": "BIOKINETICIST"
+        },
+        {
+          "codesLookupType": "OCCUPATION_CODE",
+          "itemCode": "09",
+          "engCodeDescription": "CHARTERED ACCOUNTANT"
+        },
+        {
+          "codesLookupType": "OCCUPATION_CODE",
+          "itemCode": "10",
+          "engCodeDescription": "OTHER"
+        },
+        {
+          "codesLookupType": "OCCUPATION_CODE",
+          "itemCode": "14",
+          "engCodeDescription": "VETERINARY SURGEON"
+        },
+        {
+          "codesLookupType": "OCCUPATION_CODE",
+          "itemCode": "15",
+          "engCodeDescription": "ACCOUNTANT"
+        },
+        {
+          "codesLookupType": "OCCUPATION_CODE",
+          "itemCode": "16",
+          "engCodeDescription": "ARCHITECT"
+        },
+        {
+          "codesLookupType": "OCCUPATION_CODE",
+          "itemCode": "17",
+          "engCodeDescription": "LAWYER/ADVOCATE"
+        },
+        {
+          "codesLookupType": "OCCUPATION_CODE",
+          "itemCode": "18",
+          "engCodeDescription": "ENGINEER"
+        },
+        {
+          "codesLookupType": "OCCUPATION_CODE",
+          "itemCode": "44",
+          "engCodeDescription": "ENTREPRENEUR"
+        },
+        {
+          "codesLookupType": "OCCUPATION_CODE",
+          "itemCode": "45",
+          "engCodeDescription": "FISHERMAN"
+        },
+        {
+          "codesLookupType": "OCCUPATION_CODE",
+          "itemCode": "46",
+          "engCodeDescription": "PROFESSIONAL SPORTSMAN"
+        },
+        {
+          "codesLookupType": "OCCUPATION_CODE",
+          "itemCode": "47",
+          "engCodeDescription": "TECHNICIAN"
+        },
+        {
+          "codesLookupType": "OCCUPATION_CODE",
+          "itemCode": "48",
+          "engCodeDescription": "TRADESMAN"
+        },
+        {
+          "codesLookupType": "OCCUPATION_CODE",
+          "itemCode": "49",
+          "engCodeDescription": "RELIGIOUS"
+        },
+        {
+          "codesLookupType": "OCCUPATION_CODE",
+          "itemCode": "50",
+          "engCodeDescription": "PILOT"
+        },
+        {
+          "codesLookupType": "OCCUPATION_CODE",
+          "itemCode": "69",
+          "engCodeDescription": "ARTICLES FOR LAW"
+        },
+        {
+          "codesLookupType": "OCCUPATION_CODE",
+          "itemCode": "71",
+          "engCodeDescription": "ACTUARY"
+        },
+        {
+          "codesLookupType": "OCCUPATION_CODE",
+          "itemCode": "99",
+          "engCodeDescription": "MEDICAL"
+        },
+        {
+          "codesLookupType": "EMPLOYMENT_STATUS",
+          "itemCode": "01",
+          "engCodeDescription": "FULL TIME EMPLOYED"
+        },
+        {
+          "codesLookupType": "EMPLOYMENT_STATUS",
+          "itemCode": "02",
+          "engCodeDescription": "SELF EMPLOYED PROFESSIONAL"
+        },
+        {
+          "codesLookupType": "EMPLOYMENT_STATUS",
+          "itemCode": "03",
+          "engCodeDescription": "SELF EMPLOYED NON-PROFESSIONAL"
+        },
+        {
+          "codesLookupType": "EMPLOYMENT_STATUS",
+          "itemCode": "04",
+          "engCodeDescription": "HOUSEWIFE"
+        },
+        {
+          "codesLookupType": "EMPLOYMENT_STATUS",
+          "itemCode": "05",
+          "engCodeDescription": "STUDENT"
+        },
+        {
+          "codesLookupType": "EMPLOYMENT_STATUS",
+          "itemCode": "06",
+          "engCodeDescription": "UNEMPLOYED"
+        },
+        {
+          "codesLookupType": "EMPLOYMENT_STATUS",
+          "itemCode": "07",
+          "engCodeDescription": "PENSIONER"
+        },
+        {
+          "codesLookupType": "EMPLOYMENT_STATUS",
+          "itemCode": "08",
+          "engCodeDescription": "PART TIME/CONTRACT WORKER"
+        },
+        {
+          "codesLookupType": "EMPLOYMENT_STATUS",
+          "itemCode": "09",
+          "engCodeDescription": "TEMPORARY EMPLOYED"
+        },
+        {
+          "codesLookupType": "EMPLOYMENT_STATUS",
+          "itemCode": "10",
+          "engCodeDescription": "PRE-SCHOOL/SCHOLAR"
+        },
+        {
+          "codesLookupType": "MONTHLY_INCOME_RANGE",
+          "itemCode": "01",
+          "engCodeDescription": "R0-499"
+        },
+        {
+          "codesLookupType": "MONTHLY_INCOME_RANGE",
+          "itemCode": "02",
+          "engCodeDescription": "R500-999"
+        },
+        {
+          "codesLookupType": "MONTHLY_INCOME_RANGE",
+          "itemCode": "03",
+          "engCodeDescription": "R1000-1999"
+        },
+        {
+          "codesLookupType": "MONTHLY_INCOME_RANGE",
+          "itemCode": "04",
+          "engCodeDescription": "R2000-2999"
+        },
+        {
+          "codesLookupType": "MONTHLY_INCOME_RANGE",
+          "itemCode": "05",
+          "engCodeDescription": "R3000-3999"
+        },
+        {
+          "codesLookupType": "MONTHLY_INCOME_RANGE",
+          "itemCode": "06",
+          "engCodeDescription": "R4000-4999"
+        },
+        {
+          "codesLookupType": "MONTHLY_INCOME_RANGE",
+          "itemCode": "07",
+          "engCodeDescription": "R5000-5999"
+        },
+        {
+          "codesLookupType": "MONTHLY_INCOME_RANGE",
+          "itemCode": "08",
+          "engCodeDescription": "R6000-6999"
+        },
+        {
+          "codesLookupType": "MONTHLY_INCOME_RANGE",
+          "itemCode": "09",
+          "engCodeDescription": "R7000-7999"
+        },
+        {
+          "codesLookupType": "MONTHLY_INCOME_RANGE",
+          "itemCode": "10",
+          "engCodeDescription": "R8000-8999"
+        },
+        {
+          "codesLookupType": "MONTHLY_INCOME_RANGE",
+          "itemCode": "11",
+          "engCodeDescription": "R9000-9999"
+        },
+        {
+          "codesLookupType": "MONTHLY_INCOME_RANGE",
+          "itemCode": "12",
+          "engCodeDescription": "R10000-11999"
+        },
+        {
+          "codesLookupType": "MONTHLY_INCOME_RANGE",
+          "itemCode": "13",
+          "engCodeDescription": "R12000-14999"
+        },
+        {
+          "codesLookupType": "MONTHLY_INCOME_RANGE",
+          "itemCode": "14",
+          "engCodeDescription": "R15000-19999"
+        },
+        {
+          "codesLookupType": "MONTHLY_INCOME_RANGE",
+          "itemCode": "15",
+          "engCodeDescription": "R20000-24999"
+        },
+        {
+          "codesLookupType": "MONTHLY_INCOME_RANGE",
+          "itemCode": "16",
+          "engCodeDescription": "R25000-33999"
+        },
+        {
+          "codesLookupType": "MONTHLY_INCOME_RANGE",
+          "itemCode": "17",
+          "engCodeDescription": "R34000-41999"
+        },
+        {
+          "codesLookupType": "MONTHLY_INCOME_RANGE",
+          "itemCode": "18",
+          "engCodeDescription": "R42000-62999"
+        },
+        {
+          "codesLookupType": "MONTHLY_INCOME_RANGE",
+          "itemCode": "19",
+          "engCodeDescription": "R63000-84999"
+        },
+        {
+          "codesLookupType": "MONTHLY_INCOME_RANGE",
+          "itemCode": "20",
+          "engCodeDescription": "R85000-124999"
+        },
+        {
+          "codesLookupType": "MONTHLY_INCOME_RANGE",
+          "itemCode": "21",
+          "engCodeDescription": "R125000+"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "AFG01",
+          "engCodeDescription": "AFGHAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "ALA01",
+          "engCodeDescription": "ALANDISH"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "ALB01",
+          "engCodeDescription": "ALBANIAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "ALG01",
+          "engCodeDescription": "ALGERIAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "AME01",
+          "engCodeDescription": "AMERICAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "AME02",
+          "engCodeDescription": "AMERICAN SAMOAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "AND01",
+          "engCodeDescription": "ANDORRAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "ANG01",
+          "engCodeDescription": "ANGOLAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "ANG02",
+          "engCodeDescription": "ANGUILLAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "ANT01",
+          "engCodeDescription": "ANTIGUAN/BARBUDAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "ANT02",
+          "engCodeDescription": "ANTARCTICAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "ARG01",
+          "engCodeDescription": "ARGENTINE"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "ARM01",
+          "engCodeDescription": "ARMENIAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "ARU01",
+          "engCodeDescription": "ARUBAN/DUTCH"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "AUS01",
+          "engCodeDescription": "AUSTRALIAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "AUS02",
+          "engCodeDescription": "AUSTRIAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "AZE01",
+          "engCodeDescription": "AZERBAIJANI"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "BAH01",
+          "engCodeDescription": "BAHAMIAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "BAH02",
+          "engCodeDescription": "BAHRAINI"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "BAN01",
+          "engCodeDescription": "BANGLADESHI"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "BAR01",
+          "engCodeDescription": "BARBADIAN/BAJAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "BAR02",
+          "engCodeDescription": "BARTHELEMOIS (ES)"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "BAS01",
+          "engCodeDescription": "BASOTHO"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "BEL01",
+          "engCodeDescription": "BELARUSIAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "BEL02",
+          "engCodeDescription": "BELGIAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "BEL03",
+          "engCodeDescription": "BELIZEAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "BEN01",
+          "engCodeDescription": "BENINESE"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "BER01",
+          "engCodeDescription": "BERMUDIAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "BHU01",
+          "engCodeDescription": "BHUTANESE"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "BOL01",
+          "engCodeDescription": "BOLIVIAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "BOS01",
+          "engCodeDescription": "BOSNIAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "BRA01",
+          "engCodeDescription": "BRAZILIAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "BRI01",
+          "engCodeDescription": "BRIT VIRGIN ISLANDER"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "BRI02",
+          "engCodeDescription": "BRITISH"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "BRU01",
+          "engCodeDescription": "BRUNEIAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "BUL01",
+          "engCodeDescription": "BULGARIAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "BUR01",
+          "engCodeDescription": "BURKINABE"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "BUR02",
+          "engCodeDescription": "BURUNDI"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "CAM01",
+          "engCodeDescription": "CAMBODIAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "CAM02",
+          "engCodeDescription": "CAMEROONIAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "CAN01",
+          "engCodeDescription": "CANADIAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "CAP01",
+          "engCodeDescription": "CAPE VERDEAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "CAY01",
+          "engCodeDescription": "CAYMANIAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "CEN01",
+          "engCodeDescription": "CENTRAL AFRICAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "CHA01",
+          "engCodeDescription": "CHADIAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "CHA02",
+          "engCodeDescription": "CHANNEL ISLANDER"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "CHI01",
+          "engCodeDescription": "CHILEAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "CHI02",
+          "engCodeDescription": "CHINESE"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "CHR01",
+          "engCodeDescription": "CHRISTMAS ISLAND"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "COC01",
+          "engCodeDescription": "COCOS ISLANDER"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "COL01",
+          "engCodeDescription": "COLOMBIAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "COM01",
+          "engCodeDescription": "COMORAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "CON01",
+          "engCodeDescription": "CONGOLESE"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "COO01",
+          "engCodeDescription": "COOK ISLANDER"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "COS01",
+          "engCodeDescription": "COSTA RICAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "CRO01",
+          "engCodeDescription": "CROATIAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "CUB01",
+          "engCodeDescription": "CUBAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "CYP01",
+          "engCodeDescription": "CYPRIOT"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "CZE01",
+          "engCodeDescription": "CZECH"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "DAN01",
+          "engCodeDescription": "DANISH"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "DJI01",
+          "engCodeDescription": "DJIBOUTIAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "DOM01",
+          "engCodeDescription": "DOMINICAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "DUT01",
+          "engCodeDescription": "DUTCH"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "ECU01",
+          "engCodeDescription": "ECUADORIAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "EGY01",
+          "engCodeDescription": "EGYPTIAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "EMI01",
+          "engCodeDescription": "UNITED ARAB EMIRATI"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "EQU01",
+          "engCodeDescription": "EQUATOGUINEAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "ERI01",
+          "engCodeDescription": "ERITREAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "EST01",
+          "engCodeDescription": "ESTONIAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "ETH01",
+          "engCodeDescription": "ETHIOPIAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "FAL01",
+          "engCodeDescription": "FALKLAND ISLAND"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "FAR01",
+          "engCodeDescription": "FAROESE"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "FIJ01",
+          "engCodeDescription": "FIJIAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "FIN01",
+          "engCodeDescription": "FINNISH"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "FRE01",
+          "engCodeDescription": "FRENCH"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "FRE02",
+          "engCodeDescription": "FRENCH GUIANESE"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "FRE03",
+          "engCodeDescription": "FRENCH POLYNEASIAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "GAB01",
+          "engCodeDescription": "GABONESE"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "GAM01",
+          "engCodeDescription": "GAMBIAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "GEO01",
+          "engCodeDescription": "GEORGIAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "GER01",
+          "engCodeDescription": "GERMAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "GHA01",
+          "engCodeDescription": "GHANAIAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "GIB01",
+          "engCodeDescription": "GIBRALTAR"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "GRE01",
+          "engCodeDescription": "GREEK"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "GRE02",
+          "engCodeDescription": "GREENLANDIC"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "GRE03",
+          "engCodeDescription": "GRENADIAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "GUA01",
+          "engCodeDescription": "GUADELOUPE"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "GUA02",
+          "engCodeDescription": "GUAMANIAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "GUA03",
+          "engCodeDescription": "GUATEMALAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "GUI01",
+          "engCodeDescription": "GUINEAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "GUY01",
+          "engCodeDescription": "GUYANESE"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "HAI01",
+          "engCodeDescription": "HAITIAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "HON01",
+          "engCodeDescription": "HONDURAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "HON02",
+          "engCodeDescription": "HONGKONGER"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "HUN01",
+          "engCodeDescription": "HUNGARIAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "ICE01",
+          "engCodeDescription": "ICELANDIC"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "IKI01",
+          "engCodeDescription": "I-KIRIBATI"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "IND01",
+          "engCodeDescription": "INDIAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "IND02",
+          "engCodeDescription": "INDONESIAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "IRA01",
+          "engCodeDescription": "IRANIAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "IRA02",
+          "engCodeDescription": "IRAQI"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "IRI01",
+          "engCodeDescription": "IRISH"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "ISR01",
+          "engCodeDescription": "ISRAELI"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "ITA01",
+          "engCodeDescription": "ITALIAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "IVO01",
+          "engCodeDescription": "IVORIAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "JAM01",
+          "engCodeDescription": "JAMAICAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "JAP01",
+          "engCodeDescription": "JAPANESE"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "JOR01",
+          "engCodeDescription": "JORDANIAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "KAZ01",
+          "engCodeDescription": "KAZAKHSTANI"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "KEN01",
+          "engCodeDescription": "KENYAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "KIT01",
+          "engCodeDescription": "KITTITIAN NEVISIAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "KOR02",
+          "engCodeDescription": "NORTH KOREAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "KOR03",
+          "engCodeDescription": "SOUTH KOREAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "KUW01",
+          "engCodeDescription": "KUWAITI"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "KYR01",
+          "engCodeDescription": "KYRGYZSTANI"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "LAO01",
+          "engCodeDescription": "LAOTIAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "LAT01",
+          "engCodeDescription": "LATVIAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "LEB01",
+          "engCodeDescription": "LEBANESE"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "LIB01",
+          "engCodeDescription": "LIBERIAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "LIB02",
+          "engCodeDescription": "LIBYAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "LIE01",
+          "engCodeDescription": "LIECHTENSTEIN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "LIT01",
+          "engCodeDescription": "LITHUANIAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "LUX01",
+          "engCodeDescription": "LUXEMBOURG"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "MAC01",
+          "engCodeDescription": "MACEDONIAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "MAC02",
+          "engCodeDescription": "MACANESE"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "MAH01",
+          "engCodeDescription": "MAHORAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "MAL01",
+          "engCodeDescription": "MALAGASY"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "MAL02",
+          "engCodeDescription": "MALAWIAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "MAL03",
+          "engCodeDescription": "MALAYSIAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "MAL04",
+          "engCodeDescription": "MALDIVIAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "MAL05",
+          "engCodeDescription": "MALIAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "MAL06",
+          "engCodeDescription": "MALTESE"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "MAN01",
+          "engCodeDescription": "MANX"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "MAR01",
+          "engCodeDescription": "MARTINIQUAIS"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "MAS01",
+          "engCodeDescription": "MARSHALLESE"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "MAU01",
+          "engCodeDescription": "MAURITANIAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "MAU02",
+          "engCodeDescription": "MAURITIAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "MEX01",
+          "engCodeDescription": "MEXICAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "MIC01",
+          "engCodeDescription": "MICRONESIAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "MOL01",
+          "engCodeDescription": "MOLDOVAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "MON01",
+          "engCodeDescription": "MONACAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "MON02",
+          "engCodeDescription": "MONGOLIAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "MON03",
+          "engCodeDescription": "MONTSERRATIAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "MON04",
+          "engCodeDescription": "MONTENEGRIN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "MOR01",
+          "engCodeDescription": "MOROCCAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "MOT01",
+          "engCodeDescription": "MOTSWANA"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "MOZ01",
+          "engCodeDescription": "MOZAMBICAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "MYN01",
+          "engCodeDescription": "MYANMA"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "NAM01",
+          "engCodeDescription": "NAMIBIAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "NAU01",
+          "engCodeDescription": "NAURUAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "NEP01",
+          "engCodeDescription": "NEPALESE"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "NEW01",
+          "engCodeDescription": "NEW CALEDONIAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "NEW02",
+          "engCodeDescription": "NEW ZEALANDER"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "NIC01",
+          "engCodeDescription": "NICARAGUAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "NIG01",
+          "engCodeDescription": "NIGERIAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "NIG02",
+          "engCodeDescription": "NIGERIEN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "NIU01",
+          "engCodeDescription": "NIUEAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "NIV01",
+          "engCodeDescription": "NI-VANUATUA"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "NOR01",
+          "engCodeDescription": "NORFOLK ISLANDER"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "NOR02",
+          "engCodeDescription": "NORTH MARIANA ISLNDS"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "NOR03",
+          "engCodeDescription": "NORWEGIAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "OMA01",
+          "engCodeDescription": "OMANI"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "PAK01",
+          "engCodeDescription": "PAKISTANI"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "PAL01",
+          "engCodeDescription": "PALAUAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "PAL02",
+          "engCodeDescription": "PALESTINIAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "PAN01",
+          "engCodeDescription": "PANAMANIAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "PAP01",
+          "engCodeDescription": "PAPUA NEW GUINEAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "PAR01",
+          "engCodeDescription": "PARAGUAYAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "PER01",
+          "engCodeDescription": "PERUVIAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "PHI01",
+          "engCodeDescription": "PINOY (M.)/ PINAY (F.)"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "PIT01",
+          "engCodeDescription": "PITCAIRN ISLANDER"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "POL01",
+          "engCodeDescription": "POLISH"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "POR01",
+          "engCodeDescription": "PORTUGUESE"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "PUE01",
+          "engCodeDescription": "PUERTO RICAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "QAT01",
+          "engCodeDescription": "QATARI"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "REU01",
+          "engCodeDescription": "REUNIONESE"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "ROM01",
+          "engCodeDescription": "ROMANIAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "RUS01",
+          "engCodeDescription": "RUSSIAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "RWA01",
+          "engCodeDescription": "RWANDAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "SAH01",
+          "engCodeDescription": "SAHRAWIAN SAHRAOUIAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "SAL01",
+          "engCodeDescription": "SALVADORAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "SAM01",
+          "engCodeDescription": "SAMMARINESE"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "SAM02",
+          "engCodeDescription": "SAMOAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "SAN01",
+          "engCodeDescription": "SAINT-PIERRAIS MIQUELONNAIS"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "SAO01",
+          "engCodeDescription": "SAO TOMEAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "SAU01",
+          "engCodeDescription": "SAUDI ARABIAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "SEN01",
+          "engCodeDescription": "SENEGALESE"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "SER01",
+          "engCodeDescription": "SERBIAN MONTENEGRIN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "SEY01",
+          "engCodeDescription": "SEYCHELLOIS"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "SIE01",
+          "engCodeDescription": "SIERRA LEONEAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "SIN01",
+          "engCodeDescription": "SINGAPOREAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "SLO01",
+          "engCodeDescription": "SLOVAK"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "SLO02",
+          "engCodeDescription": "SLOVENIAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "SOL01",
+          "engCodeDescription": "SOLOMON ISLANDER"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "SOM01",
+          "engCodeDescription": "SOMALI"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "SOU01",
+          "engCodeDescription": "SOUTH AFRICAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "SPA01",
+          "engCodeDescription": "SPANISH"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "SRI01",
+          "engCodeDescription": "SRI LANKAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "STH01",
+          "engCodeDescription": "ST HELENIAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "STL01",
+          "engCodeDescription": "ST LUCIAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "STV01",
+          "engCodeDescription": "ST VINCENTIAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "SUD01",
+          "engCodeDescription": "SUDANESE"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "SUR01",
+          "engCodeDescription": "SURINAMESE"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "SWA01",
+          "engCodeDescription": "SWAZI"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "SWE01",
+          "engCodeDescription": "SWEDISH"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "SWI01",
+          "engCodeDescription": "SWISS"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "SYR01",
+          "engCodeDescription": "SYRIAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "TAI01",
+          "engCodeDescription": "TAIWANESE"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "TAJ01",
+          "engCodeDescription": "TAJIKISTANI"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "TAN01",
+          "engCodeDescription": "TANZANIAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "THA01",
+          "engCodeDescription": "THAI"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "TIM01",
+          "engCodeDescription": "TIMORESE"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "TOG01",
+          "engCodeDescription": "TOGOLESE"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "TOK01",
+          "engCodeDescription": "TOKELAUAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "TON01",
+          "engCodeDescription": "TONGAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "TRI01",
+          "engCodeDescription": "TRINIDADIAN TOBAGONIAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "TUN01",
+          "engCodeDescription": "TUNISIAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "TUR01",
+          "engCodeDescription": "TURKISH"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "TUR02",
+          "engCodeDescription": "TURKMENISTANI"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "TUR03",
+          "engCodeDescription": "TURKS AND CAICOS ISLANDER"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "TUV01",
+          "engCodeDescription": "TUVALUAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "UGA01",
+          "engCodeDescription": "UGANDAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "UKR01",
+          "engCodeDescription": "UKRAINIAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "URU01",
+          "engCodeDescription": "URUGUAYAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "UZB01",
+          "engCodeDescription": "UZBEKISTANI"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "VEN01",
+          "engCodeDescription": "VENEZUELAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "VIE01",
+          "engCodeDescription": "VIETNAMESE"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "VIR01",
+          "engCodeDescription": "VIRGIN ISLANDER"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "WAL01",
+          "engCodeDescription": "WALLISIAN FUTUNAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "YEM01",
+          "engCodeDescription": "YEMENI"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "ZAM01",
+          "engCodeDescription": "ZAMBIAN"
+        },
+        {
+          "codesLookupType": "NATIONALITY",
+          "itemCode": "ZIM01",
+          "engCodeDescription": "ZIMBABWEAN"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "AF001",
+          "engCodeDescription": "AFGHANISTAN"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "AL001",
+          "engCodeDescription": "ALBANIA"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "AL002",
+          "engCodeDescription": "ALGERIA"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "AL003",
+          "engCodeDescription": "ALAND ISLANDS"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "AM001",
+          "engCodeDescription": "AMERICAN  SAMOA"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "AN001",
+          "engCodeDescription": "ANDORRA"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "AN002",
+          "engCodeDescription": "ANGOLA"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "AN003",
+          "engCodeDescription": "ANGUILLA"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "AN004",
+          "engCodeDescription": "ANTIGUA & BARBUDA"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "AN005",
+          "engCodeDescription": "ANTARCTICA"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "AR001",
+          "engCodeDescription": "ARGENTINA"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "AR002",
+          "engCodeDescription": "ARMENIA"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "AR003",
+          "engCodeDescription": "ARUBA"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "AU001",
+          "engCodeDescription": "AUSTRALIA"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "AU002",
+          "engCodeDescription": "AUSTRIA"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "AZ001",
+          "engCodeDescription": "AZERBAIJAN"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "BA001",
+          "engCodeDescription": "BAHAMAS"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "BA002",
+          "engCodeDescription": "BAHRAIN"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "BA003",
+          "engCodeDescription": "BANGLADESH"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "BA004",
+          "engCodeDescription": "BARBADOS"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "BE001",
+          "engCodeDescription": "BELARUS"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "BE002",
+          "engCodeDescription": "BELGIUM"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "BE003",
+          "engCodeDescription": "BELIZE"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "BE004",
+          "engCodeDescription": "BENIN"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "BE005",
+          "engCodeDescription": "BERMUDA"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "BH001",
+          "engCodeDescription": "BHUTAN"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "BO001",
+          "engCodeDescription": "BOLIVIA, PLURINATIONAL STATE OF"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "BO002",
+          "engCodeDescription": "BOSNIA  &  HERZEGOVINA"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "BO003",
+          "engCodeDescription": "BOTSWANA"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "BO004",
+          "engCodeDescription": "BONAIRE, SINT EUSTATIUS & SABA"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "BO005",
+          "engCodeDescription": "BOUVET ISLAND"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "BR001",
+          "engCodeDescription": "BRAZIL"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "BR002",
+          "engCodeDescription": "VIRGIN ISLANDS, BRITISH"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "BR003",
+          "engCodeDescription": "BRUNEI DARUSSALAM"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "BR004",
+          "engCodeDescription": "BRITISH INDIAN OCEAN TERRITORY"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "BU001",
+          "engCodeDescription": "BULGARIA"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "BU002",
+          "engCodeDescription": "BURKINA FASO"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "BU003",
+          "engCodeDescription": "BURUNDI"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "BU004",
+          "engCodeDescription": "MYANMAR"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "CA001",
+          "engCodeDescription": "CAMBODIA"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "CA002",
+          "engCodeDescription": "CAMEROON"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "CA003",
+          "engCodeDescription": "CANADA"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "CA004",
+          "engCodeDescription": "CAPE  VERDE"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "CA005",
+          "engCodeDescription": "CAYMAN ISLANDS"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "CE001",
+          "engCodeDescription": "CENTRAL AFRICAN REPUBLIC"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "CH001",
+          "engCodeDescription": "CHAD"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "CH002",
+          "engCodeDescription": "CHILE"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "CH003",
+          "engCodeDescription": "CHINA"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "CH004",
+          "engCodeDescription": "CHRISTMAS  ISLAND"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "CO001",
+          "engCodeDescription": "COCOS (KEELING) ISLANDS"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "CO002",
+          "engCodeDescription": "COLOMBIA"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "CO003",
+          "engCodeDescription": "COMOROS"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "CO004",
+          "engCodeDescription": "CONGO, THE DEMOCRATIC REPUBLIC OF"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "CO005",
+          "engCodeDescription": "COOK  ISLANDS"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "CO006",
+          "engCodeDescription": "COSTA  RICA"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "CO007",
+          "engCodeDescription": "COTE  D'IVOIRE"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "CO008",
+          "engCodeDescription": "CONGO"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "CR001",
+          "engCodeDescription": "CROATIA"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "CU001",
+          "engCodeDescription": "CUBA"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "CU002",
+          "engCodeDescription": "CURACAO"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "CY001",
+          "engCodeDescription": "CYPRUS"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "CZ001",
+          "engCodeDescription": "CZECH  REPUBLIC"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "DE001",
+          "engCodeDescription": "DENMARK"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "DJ001",
+          "engCodeDescription": "DJIBOUTI"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "DO001",
+          "engCodeDescription": "DOMINICA"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "DO002",
+          "engCodeDescription": "DOMINICAN  REPUBLIC"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "EA001",
+          "engCodeDescription": "TIMOR-LESTE"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "EC001",
+          "engCodeDescription": "ECUADOR"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "EG001",
+          "engCodeDescription": "EGYPT"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "EL001",
+          "engCodeDescription": "EL  SALVADOR"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "EQ001",
+          "engCodeDescription": "EQUATORIAL  GUINEA"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "ER001",
+          "engCodeDescription": "ERITREA"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "ES001",
+          "engCodeDescription": "ESTONIA"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "ET001",
+          "engCodeDescription": "ETHIOPIA"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "FA001",
+          "engCodeDescription": "FALKLAND ISLANDS (MALVINAS)"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "FA002",
+          "engCodeDescription": "FAROE  ISLANDS"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "FI001",
+          "engCodeDescription": "FIJI"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "FI002",
+          "engCodeDescription": "FINLAND"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "FR001",
+          "engCodeDescription": "FRANCE"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "FR002",
+          "engCodeDescription": "FRENCH GUIANA"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "FR003",
+          "engCodeDescription": "FRENCH  POLYNESIA"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "FR004",
+          "engCodeDescription": "FRENCH SOUTHERN TERRITORIES"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "GA001",
+          "engCodeDescription": "GABON"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "GA002",
+          "engCodeDescription": "GAMBIA"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "GE001",
+          "engCodeDescription": "GEORGIA"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "GE002",
+          "engCodeDescription": "GERMANY"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "GH001",
+          "engCodeDescription": "GHANA"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "GI001",
+          "engCodeDescription": "GIBRALTAR"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "GR001",
+          "engCodeDescription": "GREECE"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "GR002",
+          "engCodeDescription": "GREENLAND"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "GR003",
+          "engCodeDescription": "GRENADA"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "GU001",
+          "engCodeDescription": "GUADELOUPE"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "GU002",
+          "engCodeDescription": "GUAM"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "GU003",
+          "engCodeDescription": "GUATEMALA"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "GU004",
+          "engCodeDescription": "GUERNSEY"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "GU005",
+          "engCodeDescription": "GUINEA"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "GU006",
+          "engCodeDescription": "GUINEA-BISSAU"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "GU007",
+          "engCodeDescription": "GUYANA"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "HA001",
+          "engCodeDescription": "HAITI"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "HE001",
+          "engCodeDescription": "HEARD ISLAND & MCDONALD ISLANDS"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "HO001",
+          "engCodeDescription": "HONDURAS"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "HO002",
+          "engCodeDescription": "HONG  KONG"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "HU001",
+          "engCodeDescription": "HUNGARY"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "IC001",
+          "engCodeDescription": "ICELAND"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "IN001",
+          "engCodeDescription": "INDIA"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "IN002",
+          "engCodeDescription": "INDONESIA"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "IR001",
+          "engCodeDescription": "IRAN, ISLAMIC REPUBLIC OF"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "IR002",
+          "engCodeDescription": "IRAQ"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "IR003",
+          "engCodeDescription": "IRELAND"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "IS001",
+          "engCodeDescription": "ISRAEL"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "IT001",
+          "engCodeDescription": "ITALY"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "JA001",
+          "engCodeDescription": "JAMAICA"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "JA002",
+          "engCodeDescription": "JAPAN"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "JE001",
+          "engCodeDescription": "JERSEY"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "JO001",
+          "engCodeDescription": "JORDAN"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "KA001",
+          "engCodeDescription": "KAZAKHSTAN"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "KE001",
+          "engCodeDescription": "KENYA"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "KI001",
+          "engCodeDescription": "KIRIBATI"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "KO001",
+          "engCodeDescription": "KOREA, DEMOCRATIC PEOPLE'S REPUBLIC OF"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "KO002",
+          "engCodeDescription": "KOREA, REPUBLIC OF"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "KU001",
+          "engCodeDescription": "KUWAIT"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "KY001",
+          "engCodeDescription": "KYRGYZSTAN"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "LA001",
+          "engCodeDescription": "LAO PEOPLE'S DEMOCRATIC REPUBLIC"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "LA002",
+          "engCodeDescription": "LATVIA"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "LE001",
+          "engCodeDescription": "LEBANON"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "LE002",
+          "engCodeDescription": "LESOTHO"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "LI001",
+          "engCodeDescription": "LIBERIA"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "LI002",
+          "engCodeDescription": "LIBYA"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "LI003",
+          "engCodeDescription": "LIECHTENSTEIN"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "LI004",
+          "engCodeDescription": "LITHUANIA"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "LU001",
+          "engCodeDescription": "LUXEMBOURG"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "MA001",
+          "engCodeDescription": "MACAO"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "MA002",
+          "engCodeDescription": "MACEDONIA, THE FORMER YUGOSLAV REPUBLIC OF"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "MA003",
+          "engCodeDescription": "MADAGASCAR"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "MA004",
+          "engCodeDescription": "MALAWI"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "MA005",
+          "engCodeDescription": "MALAYSIA"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "MA006",
+          "engCodeDescription": "MALDIVES"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "MA007",
+          "engCodeDescription": "MALI"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "MA008",
+          "engCodeDescription": "MALTA"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "MA009",
+          "engCodeDescription": "ISLE OF MAN"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "MA010",
+          "engCodeDescription": "MARSHALL  ISLANDS"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "MA011",
+          "engCodeDescription": "MARTINIQUE"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "MA012",
+          "engCodeDescription": "MAURITANIA"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "MA013",
+          "engCodeDescription": "MAURITIUS"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "MA014",
+          "engCodeDescription": "MAYOTTE"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "ME001",
+          "engCodeDescription": "MEXICO"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "MI001",
+          "engCodeDescription": "MICRONESIA, FEDERATED STATES OF"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "MO001",
+          "engCodeDescription": "MOLDOVA, REPUBLIC  OF"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "MO002",
+          "engCodeDescription": "MONACO"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "MO003",
+          "engCodeDescription": "MONGOLIA"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "MO004",
+          "engCodeDescription": "MONTSERRAT"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "MO005",
+          "engCodeDescription": "MOROCCO"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "MO006",
+          "engCodeDescription": "MOZAMBIQUE"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "MO007",
+          "engCodeDescription": "MONTENEGRO"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "NA001",
+          "engCodeDescription": "NAMIBIA"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "NA002",
+          "engCodeDescription": "NAURU"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "NE001",
+          "engCodeDescription": "NEPAL"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "NE002",
+          "engCodeDescription": "NETHERLANDS"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "NE004",
+          "engCodeDescription": "NEW  CALEDONIA"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "NE005",
+          "engCodeDescription": "NEW  ZEALAND"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "NI001",
+          "engCodeDescription": "NICARAGUA"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "NI002",
+          "engCodeDescription": "NIGER"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "NI003",
+          "engCodeDescription": "NIGERIA"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "NI004",
+          "engCodeDescription": "NIUE"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "NO001",
+          "engCodeDescription": "NORFOLK  ISLAND"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "NO002",
+          "engCodeDescription": "NORTHERN MARIANA ISLANDS"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "NO003",
+          "engCodeDescription": "NORWAY"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "OM001",
+          "engCodeDescription": "OMAN"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "PA001",
+          "engCodeDescription": "PAKISTAN"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "PA002",
+          "engCodeDescription": "PALAU"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "PA003",
+          "engCodeDescription": "PANAMA"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "PA004",
+          "engCodeDescription": "PAPUA  NEW  GUINEA"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "PA005",
+          "engCodeDescription": "PARAGUAY"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "PA006",
+          "engCodeDescription": "PALESTINE, STATE OF"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "PE001",
+          "engCodeDescription": "PERU"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "PH001",
+          "engCodeDescription": "PHILIPPINES"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "PI001",
+          "engCodeDescription": "PITCAIRN"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "PO001",
+          "engCodeDescription": "POLAND"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "PO002",
+          "engCodeDescription": "PORTUGAL"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "PU001",
+          "engCodeDescription": "PUERTO  RICO"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "QA001",
+          "engCodeDescription": "QATAR"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "RE001",
+          "engCodeDescription": "REUNION"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "RO001",
+          "engCodeDescription": "ROMANIA"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "RU001",
+          "engCodeDescription": "RUSSIAN FEDERATION"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "RW001",
+          "engCodeDescription": "RWANDA"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "SA001",
+          "engCodeDescription": "SAMOA"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "SA002",
+          "engCodeDescription": "SAN  MARINO"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "SA003",
+          "engCodeDescription": "SAO  TOME  &  PRINCIPE"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "SA004",
+          "engCodeDescription": "SAUDI  ARABIA"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "SE001",
+          "engCodeDescription": "SENEGAL"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "SE002",
+          "engCodeDescription": "SEYCHELLES"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "SE003",
+          "engCodeDescription": "SERBIA"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "SI001",
+          "engCodeDescription": "SIERRA  LEONE"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "SI002",
+          "engCodeDescription": "SINGAPORE"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "SI003",
+          "engCodeDescription": "SINT MARTIN (DUTCH PART)"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "SL001",
+          "engCodeDescription": "SLOVAKIA"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "SL002",
+          "engCodeDescription": "SLOVENIA"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "SO001",
+          "engCodeDescription": "SOLOMON  ISLANDS"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "SO002",
+          "engCodeDescription": "SOMALIA"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "SO003",
+          "engCodeDescription": "SOUTH  AFRICA"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "SO004",
+          "engCodeDescription": "SOUTH GEORGIA & THE SOUTH SANDWICH ISLANDS"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "SO005",
+          "engCodeDescription": "SOUTH SUDAN"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "SP001",
+          "engCodeDescription": "SPAIN"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "SR001",
+          "engCodeDescription": "SRI  LANKA"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "ST001",
+          "engCodeDescription": "SAINT HELENA, ASCENSION & TRISTAN DA CUNHA"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "ST002",
+          "engCodeDescription": "SAINT KITTS & NEVIS"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "ST003",
+          "engCodeDescription": "SAINT LUCIA"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "ST004",
+          "engCodeDescription": "SAINT PIERRE & MIQUELON"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "ST005",
+          "engCodeDescription": "SAINT VINCENT & THE GRENADINES"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "ST006",
+          "engCodeDescription": "SAINT BARTHELEMY"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "ST007",
+          "engCodeDescription": "SAINT MAARTEN (FRENCH PART)"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "SU001",
+          "engCodeDescription": "SUDAN"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "SU002",
+          "engCodeDescription": "SURINAME"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "SV001",
+          "engCodeDescription": "SVALBARD & JAN MAYEN"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "SW001",
+          "engCodeDescription": "SWAZILAND"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "SW002",
+          "engCodeDescription": "SWEDEN"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "SW003",
+          "engCodeDescription": "SWITZERLAND"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "SY001",
+          "engCodeDescription": "SYRIAN ARAB REPUBLIC"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "TA001",
+          "engCodeDescription": "TAIWAN, PROVINCE OF CHINA"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "TA002",
+          "engCodeDescription": "TAJIKISTAN"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "TA003",
+          "engCodeDescription": "TANZANIA, UNITED REPUBLIC OF"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "TH001",
+          "engCodeDescription": "THAILAND"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "TO001",
+          "engCodeDescription": "TOGO"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "TO002",
+          "engCodeDescription": "TOKELAU"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "TO003",
+          "engCodeDescription": "TONGA"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "TR001",
+          "engCodeDescription": "TRINIDAD  &  TOBAGO"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "TU001",
+          "engCodeDescription": "TUNISIA"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "TU002",
+          "engCodeDescription": "TURKEY"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "TU003",
+          "engCodeDescription": "TURKMENISTAN"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "TU004",
+          "engCodeDescription": "TURKS  &  CAICOS  ISLANDS"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "TU005",
+          "engCodeDescription": "TUVALU"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "UG001",
+          "engCodeDescription": "UGANDA"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "UK001",
+          "engCodeDescription": "UKRAINE"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "UN001",
+          "engCodeDescription": "UNITED ARAB EMIRATES"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "UN002",
+          "engCodeDescription": "UNITED  KINGDOM"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "UN003",
+          "engCodeDescription": "UNITED  STATES"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "UN004",
+          "engCodeDescription": "UNITED STATES MINOR OUTLYING ISLANDS"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "UR001",
+          "engCodeDescription": "URUGUAY"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "UZ001",
+          "engCodeDescription": "UZBEKISTAN"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "VA001",
+          "engCodeDescription": "VANUATU"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "VA002",
+          "engCodeDescription": "HOLY SEE (VATICAN CITY STATE)"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "VE001",
+          "engCodeDescription": "VENEZUELA, BOLIVARIAN REPUBLIC OF"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "VI001",
+          "engCodeDescription": "VIET NAM"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "VI002",
+          "engCodeDescription": "VIRGIN ISLANDS, U.S."
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "WA001",
+          "engCodeDescription": "WALLIS & FUTUNA"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "WE001",
+          "engCodeDescription": "WESTERN  SAHARA"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "YE001",
+          "engCodeDescription": "YEMEN"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "ZA002",
+          "engCodeDescription": "ZAMBIA"
+        },
+        {
+          "codesLookupType": "COUNTRY_OF_BIRTH",
+          "itemCode": "ZI001",
+          "engCodeDescription": "ZIMBABWE"
+        },
+        {
+          "codesLookupType": "MEDICAL_OCCUPATION",
+          "itemCode": "11",
+          "engCodeDescription": "MEDICAL DOCTOR"
+        },
+        {
+          "codesLookupType": "MEDICAL_OCCUPATION",
+          "itemCode": "12",
+          "engCodeDescription": "DENTIST"
+        },
+        {
+          "codesLookupType": "MEDICAL_OCCUPATION",
+          "itemCode": "13",
+          "engCodeDescription": "PHARMACIST"
+        },
+        {
+          "codesLookupType": "MEDICAL_OCCUPATION",
+          "itemCode": "19",
+          "engCodeDescription": "ANAESTHETIST"
+        },
+        {
+          "codesLookupType": "MEDICAL_OCCUPATION",
+          "itemCode": "20",
+          "engCodeDescription": "CARDIOLOGIST"
+        },
+        {
+          "codesLookupType": "MEDICAL_OCCUPATION",
+          "itemCode": "21",
+          "engCodeDescription": "DERMATOLOGIST"
+        },
+        {
+          "codesLookupType": "MEDICAL_OCCUPATION",
+          "itemCode": "22",
+          "engCodeDescription": "PHYSICIAN"
+        },
+        {
+          "codesLookupType": "MEDICAL_OCCUPATION",
+          "itemCode": "23",
+          "engCodeDescription": "NEUROLOGIST"
+        },
+        {
+          "codesLookupType": "MEDICAL_OCCUPATION",
+          "itemCode": "24",
+          "engCodeDescription": "NEUROSURGEON"
+        },
+        {
+          "codesLookupType": "MEDICAL_OCCUPATION",
+          "itemCode": "25",
+          "engCodeDescription": "OBSTETRICIAN AND GYNAECOLOGIST"
+        },
+        {
+          "codesLookupType": "MEDICAL_OCCUPATION",
+          "itemCode": "26",
+          "engCodeDescription": "OPHTHALMOLOGIST"
+        },
+        {
+          "codesLookupType": "MEDICAL_OCCUPATION",
+          "itemCode": "27",
+          "engCodeDescription": "ORTHOPAEDIC SURGEON"
+        },
+        {
+          "codesLookupType": "MEDICAL_OCCUPATION",
+          "itemCode": "28",
+          "engCodeDescription": "OTORHINOLARYNGOLOGIST"
+        },
+        {
+          "codesLookupType": "MEDICAL_OCCUPATION",
+          "itemCode": "29",
+          "engCodeDescription": "PAEDIATRICIAN"
+        },
+        {
+          "codesLookupType": "MEDICAL_OCCUPATION",
+          "itemCode": "30",
+          "engCodeDescription": "PATHOLOGIST"
+        },
+        {
+          "codesLookupType": "MEDICAL_OCCUPATION",
+          "itemCode": "31",
+          "engCodeDescription": "PLASTIC SURGEON"
+        },
+        {
+          "codesLookupType": "MEDICAL_OCCUPATION",
+          "itemCode": "32",
+          "engCodeDescription": "PSYCHIATRIST"
+        },
+        {
+          "codesLookupType": "MEDICAL_OCCUPATION",
+          "itemCode": "33",
+          "engCodeDescription": "RADIOLOGIST AND ELECTRO-THERAPIST"
+        },
+        {
+          "codesLookupType": "MEDICAL_OCCUPATION",
+          "itemCode": "34",
+          "engCodeDescription": "SURGEON"
+        },
+        {
+          "codesLookupType": "MEDICAL_OCCUPATION",
+          "itemCode": "35",
+          "engCodeDescription": "THORACIC SURGEON"
+        },
+        {
+          "codesLookupType": "MEDICAL_OCCUPATION",
+          "itemCode": "36",
+          "engCodeDescription": "UROLOGIST"
+        },
+        {
+          "codesLookupType": "MEDICAL_OCCUPATION",
+          "itemCode": "37",
+          "engCodeDescription": "VENERIOLOGIST"
+        },
+        {
+          "codesLookupType": "MEDICAL_OCCUPATION",
+          "itemCode": "38",
+          "engCodeDescription": "MAXILLO-FACIAL AND ORAL -SURG ( DENTAL )"
+        },
+        {
+          "codesLookupType": "MEDICAL_OCCUPATION",
+          "itemCode": "39",
+          "engCodeDescription": "ORAL MEDICINE AND PERIODONTIST"
+        },
+        {
+          "codesLookupType": "MEDICAL_OCCUPATION",
+          "itemCode": "40",
+          "engCodeDescription": "ORAL PATHOLOGIST"
+        },
+        {
+          "codesLookupType": "MEDICAL_OCCUPATION",
+          "itemCode": "41",
+          "engCodeDescription": "ORTHODONTIST"
+        },
+        {
+          "codesLookupType": "MEDICAL_OCCUPATION",
+          "itemCode": "42",
+          "engCodeDescription": "PROSTHODONTIST"
+        },
+        {
+          "codesLookupType": "MEDICAL_OCCUPATION",
+          "itemCode": "43",
+          "engCodeDescription": "MEDICAL OTHER"
+        },
+        {
+          "codesLookupType": "MEDICAL_OCCUPATION",
+          "itemCode": "51",
+          "engCodeDescription": "CHIROPRACTOR"
+        },
+        {
+          "codesLookupType": "MEDICAL_OCCUPATION",
+          "itemCode": "52",
+          "engCodeDescription": "PERIODONTIST"
+        },
+        {
+          "codesLookupType": "MEDICAL_OCCUPATION",
+          "itemCode": "53",
+          "engCodeDescription": "HOMEOPATH"
+        },
+        {
+          "codesLookupType": "MEDICAL_OCCUPATION",
+          "itemCode": "54",
+          "engCodeDescription": "GASTROENTEROLOGIST"
+        },
+        {
+          "codesLookupType": "MEDICAL_OCCUPATION",
+          "itemCode": "55",
+          "engCodeDescription": "PHYSIOTHERAPIST"
+        },
+        {
+          "codesLookupType": "MEDICAL_OCCUPATION",
+          "itemCode": "56",
+          "engCodeDescription": "PODIATRIST"
+        },
+        {
+          "codesLookupType": "MEDICAL_OCCUPATION",
+          "itemCode": "57",
+          "engCodeDescription": "DENTAL TECHNICIAN"
+        },
+        {
+          "codesLookupType": "MEDICAL_OCCUPATION",
+          "itemCode": "58",
+          "engCodeDescription": "PSYCHOLOGIST"
+        },
+        {
+          "codesLookupType": "MEDICAL_OCCUPATION",
+          "itemCode": "59",
+          "engCodeDescription": "OPTOMETRIST"
+        },
+        {
+          "codesLookupType": "MEDICAL_OCCUPATION",
+          "itemCode": "60",
+          "engCodeDescription": "PULMONOLOGIST"
+        },
+        {
+          "codesLookupType": "MEDICAL_OCCUPATION",
+          "itemCode": "61",
+          "engCodeDescription": "OCCUPATIONAL THERAPIST"
+        },
+        {
+          "codesLookupType": "MEDICAL_OCCUPATION",
+          "itemCode": "62",
+          "engCodeDescription": "NEPHROLOGIST"
+        },
+        {
+          "codesLookupType": "MEDICAL_OCCUPATION",
+          "itemCode": "63",
+          "engCodeDescription": "PAEDIATRIC CARDIOLOGIST"
+        },
+        {
+          "codesLookupType": "MEDICAL_OCCUPATION",
+          "itemCode": "64",
+          "engCodeDescription": "PAEDIATRIC SURGEON"
+        },
+        {
+          "codesLookupType": "MEDICAL_OCCUPATION",
+          "itemCode": "65",
+          "engCodeDescription": "SPORT MEDICINE"
+        },
+        {
+          "codesLookupType": "MEDICAL_OCCUPATION",
+          "itemCode": "66",
+          "engCodeDescription": "VASCULAR SURGEON"
+        },
+        {
+          "codesLookupType": "MEDICAL_OCCUPATION",
+          "itemCode": "67",
+          "engCodeDescription": "ONCOLOGIST"
+        },
+        {
+          "codesLookupType": "MEDICAL_OCCUPATION",
+          "itemCode": "68",
+          "engCodeDescription": "MEDICAL REGISTRARS"
+        },
+        {
+          "codesLookupType": "MEDICAL_OCCUPATION",
+          "itemCode": "70",
+          "engCodeDescription": "MEDICAL INTERNSHIP"
+        },
+        {
+          "codesLookupType": "RESIDENTIAL_STATUS",
+          "itemCode": "B",
+          "engCodeDescription": "BOARDER"
+        },
+        {
+          "codesLookupType": "RESIDENTIAL_STATUS",
+          "itemCode": "C",
+          "engCodeDescription": "CARAVAN"
+        },
+        {
+          "codesLookupType": "RESIDENTIAL_STATUS",
+          "itemCode": "F",
+          "engCodeDescription": "RENTED FLAT"
+        },
+        {
+          "codesLookupType": "RESIDENTIAL_STATUS",
+          "itemCode": "O",
+          "engCodeDescription": "OWNER"
+        },
+        {
+          "codesLookupType": "RESIDENTIAL_STATUS",
+          "itemCode": "P",
+          "engCodeDescription": "LIVING WITH PARENTS"
+        },
+        {
+          "codesLookupType": "RESIDENTIAL_STATUS",
+          "itemCode": "T",
+          "engCodeDescription": "TENANT"
+        },
+        {
+          "codesLookupType": "OCCUPATION_LEVEL",
+          "itemCode": "01",
+          "engCodeDescription": "SENIOR MANAGEMENT"
+        },
+        {
+          "codesLookupType": "OCCUPATION_LEVEL",
+          "itemCode": "02",
+          "engCodeDescription": "MANAGEMENT"
+        },
+        {
+          "codesLookupType": "OCCUPATION_LEVEL",
+          "itemCode": "03",
+          "engCodeDescription": "SUPERVISOR"
+        },
+        {
+          "codesLookupType": "OCCUPATION_LEVEL",
+          "itemCode": "04",
+          "engCodeDescription": "SKILLED WORKER"
+        },
+        {
+          "codesLookupType": "OCCUPATION_LEVEL",
+          "itemCode": "05",
+          "engCodeDescription": "SEMI-SKILLED WORKER"
+        },
+        {
+          "codesLookupType": "OCCUPATION_LEVEL",
+          "itemCode": "06",
+          "engCodeDescription": "UNSKILLED WORKER"
+        },
+        {
+          "codesLookupType": "OCCUPATION_LEVEL",
+          "itemCode": "07",
+          "engCodeDescription": "JUNIOR POSITION"
+        },
+        {
+          "codesLookupType": "EMPLOYMENT_SECTOR",
+          "itemCode": "01",
+          "engCodeDescription": "AGRICULTURE"
+        },
+        {
+          "codesLookupType": "EMPLOYMENT_SECTOR",
+          "itemCode": "02",
+          "engCodeDescription": "CATERING & ENTERTAINMENT"
+        },
+        {
+          "codesLookupType": "EMPLOYMENT_SECTOR",
+          "itemCode": "03",
+          "engCodeDescription": "CIVIL SERVICE"
+        },
+        {
+          "codesLookupType": "EMPLOYMENT_SECTOR",
+          "itemCode": "04",
+          "engCodeDescription": "CONSTRUCTION"
+        },
+        {
+          "codesLookupType": "EMPLOYMENT_SECTOR",
+          "itemCode": "05",
+          "engCodeDescription": "EDUCATION"
+        },
+        {
+          "codesLookupType": "EMPLOYMENT_SECTOR",
+          "itemCode": "06",
+          "engCodeDescription": "FINANCE"
+        },
+        {
+          "codesLookupType": "EMPLOYMENT_SECTOR",
+          "itemCode": "07",
+          "engCodeDescription": "HEALTH"
+        },
+        {
+          "codesLookupType": "EMPLOYMENT_SECTOR",
+          "itemCode": "08",
+          "engCodeDescription": "INDUSTRY"
+        },
+        {
+          "codesLookupType": "EMPLOYMENT_SECTOR",
+          "itemCode": "09",
+          "engCodeDescription": "LEGAL PROFESSION"
+        },
+        {
+          "codesLookupType": "EMPLOYMENT_SECTOR",
+          "itemCode": "10",
+          "engCodeDescription": "MEDIA"
+        },
+        {
+          "codesLookupType": "EMPLOYMENT_SECTOR",
+          "itemCode": "11",
+          "engCodeDescription": "NATURE RESOURCE"
+        },
+        {
+          "codesLookupType": "EMPLOYMENT_SECTOR",
+          "itemCode": "12",
+          "engCodeDescription": "ARMED FORCES"
+        },
+        {
+          "codesLookupType": "EMPLOYMENT_SECTOR",
+          "itemCode": "13",
+          "engCodeDescription": "SCIENCE/COMPUTING"
+        },
+        {
+          "codesLookupType": "EMPLOYMENT_SECTOR",
+          "itemCode": "14",
+          "engCodeDescription": "SECURITY"
+        },
+        {
+          "codesLookupType": "EMPLOYMENT_SECTOR",
+          "itemCode": "15",
+          "engCodeDescription": "SELLING"
+        },
+        {
+          "codesLookupType": "EMPLOYMENT_SECTOR",
+          "itemCode": "16",
+          "engCodeDescription": "TRANSPORTATION"
+        },
+        {
+          "codesLookupType": "EMPLOYMENT_SECTOR",
+          "itemCode": "17",
+          "engCodeDescription": "WELFARE"
+        },
+        {
+          "codesLookupType": "EMPLOYMENT_SECTOR",
+          "itemCode": "18",
+          "engCodeDescription": "OTHER"
+        },
+        {
+          "codesLookupType": "EMPLOYMENT_SECTOR",
+          "itemCode": "19",
+          "engCodeDescription": "PLATINUM MINING"
+        },
+        {
+          "codesLookupType": "EMPLOYMENT_SECTOR",
+          "itemCode": "20",
+          "engCodeDescription": "MOTOR MANUFACTURING"
+        }
+      ],
+      "txnStatus": "Success",
+      "txnMessage": "Success"
+    }
+  }
+}

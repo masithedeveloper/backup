@@ -1,0 +1,17 @@
+{
+  "successResponseModel": {
+    "payData": {
+      "msg": "ATM access PIN change successful",
+      "benId": "66",
+      "cellNo": "08378833839",
+      "cashSendPlus": false
+    },
+    "payHdr": {
+      "resCde": "00000",
+      "resMsg": "",
+      "resId": "RES0327",
+      "serVer": "2.0",
+      "expTrace": ""
+    }
+  }
+}

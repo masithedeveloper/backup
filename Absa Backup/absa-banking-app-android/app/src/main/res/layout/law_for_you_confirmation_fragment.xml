@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    style="@style/ScrollView">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <styleguide.content.PrimaryContentAndLabelView
+            android:id="@+id/totalMonthlyPremiumPrimaryContentAndLabelView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_primary_label="@string/law_for_you_total_monthly_premium"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:attribute_primary_content="R 75.00" />
+
+        <View
+            android:id="@+id/topDividerView"
+            style="@style/DividerView"
+            android:layout_width="0dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/totalMonthlyPremiumPrimaryContentAndLabelView" />
+
+        <styleguide.content.SecondaryContentAndLabelView
+            android:id="@+id/mainMemberCoverDetailsSecondaryContentAndLabelView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_secondary_content="@string/law_for_you_main_member"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/topDividerView"
+            tools:attribute_secondary_label="Essential (up to R 65,000.00 cover)" />
+
+        <styleguide.content.SecondaryContentAndLabelView
+            android:id="@+id/memberAddressSecondaryContentAndLabelView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_secondary_label="@string/address"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/mainMemberCoverDetailsSecondaryContentAndLabelView"
+            tools:attribute_secondary_content="31 Kelltone Estate, Cottage Avenue, Alberante, Germiston, 1678" />
+
+        <styleguide.content.SecondaryContentAndLabelView
+            android:id="@+id/memberContactNumberSecondaryContentAndLabelView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_secondary_label="@string/contact_number_sentence_case"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/memberAddressSecondaryContentAndLabelView"
+            tools:attribute_secondary_content="082 123 8910" />
+
+        <styleguide.content.SecondaryContentAndLabelView
+            android:id="@+id/memberEmailSecondaryContentAndLabelView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_secondary_label="@string/email_address_home"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/memberContactNumberSecondaryContentAndLabelView"
+            tools:attribute_secondary_content="bill.jones@absa.co.za" />
+
+        <styleguide.content.SecondaryContentAndLabelView
+            android:id="@+id/policyStartDateSecondaryContentAndLabelView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_secondary_label="@string/policy_start"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/memberEmailSecondaryContentAndLabelView"
+            tools:attribute_secondary_content="09 March 2020" />
+
+        <styleguide.content.SecondaryContentAndLabelView
+            android:id="@+id/debitDaySecondaryContentAndLabelView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_secondary_label="@string/day_of_debit"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/policyStartDateSecondaryContentAndLabelView"
+            tools:attribute_secondary_content="1" />
+
+        <styleguide.content.SecondaryContentAndLabelView
+            android:id="@+id/accountSecondaryContentAndLabelView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_secondary_label="@string/account_to_debited"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/debitDaySecondaryContentAndLabelView"
+            tools:attribute_secondary_content="Cheque Account - 4048898834" />
+
+        <styleguide.content.SecondaryContentAndLabelView
+            android:id="@+id/occupationStatusSecondaryContentAndLabelView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_secondary_label="@string/law_for_you_employment_status"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/accountSecondaryContentAndLabelView"
+            tools:attribute_secondary_content="Full-time" />
+
+        <styleguide.content.SecondaryContentAndLabelView
+            android:id="@+id/occupationSecondaryContentAndLabelView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            app:attribute_secondary_label="@string/law_for_you_occupation"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/occupationStatusSecondaryContentAndLabelView"
+            tools:attribute_secondary_content="Professional"
+            tools:visibility="visible" />
+
+        <styleguide.content.SecondaryContentAndLabelView
+            android:id="@+id/sourceOfFundsSecondaryContentAndLabelView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_secondary_label="@string/source_of_funds"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/occupationSecondaryContentAndLabelView"
+            tools:attribute_secondary_content="Salary/Wages" />
+
+        <TextView
+            android:id="@+id/termsAcceptanceDeclarationTextView"
+            style="@style/LargeTextRegularDark"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/medium_space"
+            android:text="@string/law_for_you_declaration_info"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/sourceOfFundsSecondaryContentAndLabelView" />
+
+        <styleguide.forms.CheckBoxView
+            android:id="@+id/iAgreePolicyDetailsCheckBox"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_description="@string/law_for_you_i_agree_to_terms"
+            app:attribute_is_required="true"
+            app:layout_constraintBottom_toTopOf="@+id/continueButton"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/termsAcceptanceDeclarationTextView"
+            app:layout_constraintVertical_bias="1" />
+
+        <styleguide.buttons.Button
+            android:id="@+id/continueButton"
+            style="@style/PrimaryButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/confirm"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/iAgreePolicyDetailsCheckBox"
+            app:layout_constraintVertical_bias="1"
+            app:layout_constraintVertical_chainStyle="packed" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

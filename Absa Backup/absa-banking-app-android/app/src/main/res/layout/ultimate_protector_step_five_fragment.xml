@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        style="@style/ScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/debitDayNormalInputView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_hint_text="@string/debit_day_title"
+                app:attribute_selector_type="GENERIC_SELECTOR"
+                app:attribute_title_text="@string/debit_day"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/accountToDebitNormalInputView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_hint_text="@string/select_account_hint"
+                app:attribute_selector_type="LONG_LIST"
+                app:attribute_title_text="@string/account_to_debit"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/debitDayNormalInputView" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/employmentStatusNormalInputView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_hint_text="@string/risk_based_approach_select_employment_status"
+                app:attribute_selector_type="LONG_LIST"
+                app:attribute_title_text="@string/risk_based_approach_employment_status"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/accountToDebitNormalInputView" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/occupationNormalInputView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_hint_text="@string/risk_based_approach_select_occupation"
+                app:attribute_selector_type="LONG_LIST"
+                app:attribute_title_text="@string/risk_based_approach_occupation"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/employmentStatusNormalInputView" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/sourceOfFundsNormalInputView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_hint_text="@string/risk_based_approach_select_source_of_funds"
+                app:attribute_selector_type="LONG_LIST"
+                app:attribute_title_text="@string/source_of_funds_title"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/occupationNormalInputView" />
+
+            <styleguide.content.HeadingView
+                android:id="@+id/beneficiaryHeadingView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/medium_space"
+                app:attribute_heading="@string/beneficiaryHeadingText"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/sourceOfFundsNormalInputView" />
+
+            <styleguide.forms.RadioButtonView
+                android:id="@+id/beneficiaryRadioButtonView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/beneficiaryHeadingView" />
+
+            <styleguide.buttons.Button
+                android:id="@+id/stepFiveNextButton"
+                style="@style/PrimaryButton"
+                android:enabled="false"
+                android:text="@string/next"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/beneficiaryRadioButtonView"
+                app:layout_constraintVertical_bias="1" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</layout>

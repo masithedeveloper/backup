@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:background="@color/graphite"
+    tools:parentTag="androidx.constraintlayout.widget.ConstraintLayout">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/offer_container_card_view"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/small_space"
+        app:cardCornerRadius="@dimen/tiny_space"
+        app:cardElevation="@dimen/tiny_space"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <styleguide.widgets.RoundedImageView
+                android:id="@+id/offer_rounded_image_view"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:tint="@null"
+                app:attribute_mask_drawable="@drawable/round_rectangle_mask"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:src="@drawable/ic_arrow_left_grey" />
+
+            <TextView
+                android:id="@+id/label_text_view"
+                style="@style/SmallTextRegularLight"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/medium_space"
+                android:layout_marginTop="@dimen/normal_space"
+                android:layout_marginEnd="@dimen/medium_space"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/offer_rounded_image_view"
+                tools:text="Label" />
+
+            <TextView
+                android:id="@+id/text_text_view"
+                style="@style/HeadingTextMediumLight"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/medium_space"
+                android:layout_marginEnd="@dimen/medium_space"
+                app:layout_constraintBottom_toBottomOf="@id/offer_rounded_image_view"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/label_text_view"
+                app:layout_constraintVertical_bias="0.05"
+                tools:text="Text" />
+
+            <TextView
+                android:id="@+id/subTextView"
+                style="@style/SmallTextMediumLight"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/medium_space"
+                android:layout_marginTop="@dimen/small_space"
+                android:layout_marginEnd="@dimen/medium_space"
+                android:visibility="gone"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/text_text_view"
+                app:layout_constraintVertical_bias="0" />
+
+            <styleguide.buttons.Button
+                android:id="@+id/applyButton"
+                style="@style/SmallTextRoundedButtonLight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/medium_space"
+                android:layout_marginEnd="@dimen/medium_space"
+                android:layout_marginBottom="@dimen/medium_space"
+                android:elevation="1dp"
+                android:textColor="@color/graphite"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="@+id/offer_rounded_image_view"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+</merge>

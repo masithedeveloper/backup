@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scrollView"
+    style="@style/ScrollView">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/parentConstraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/institutionNormalInputView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:attribute_hint_text="@string/select_institution"
+            app:attribute_is_selected="false"
+            app:attribute_selector_type="SEARCHABLE_LONG_LIST"
+            app:attribute_title_text="@string/institution_name"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/accountHolderNameNormalInputView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:digits="@string/allowed_reference_digits"
+            android:inputType="textCapWords"
+            android:maxLength="20"
+            app:attribute_hint_text="@string/enter_account_holder_name"
+            app:attribute_selector_type="NONE"
+            app:attribute_title_text="@string/account_holder"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/institutionNormalInputView" />
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/accountNumberNormalInputView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:maxLength="20"
+            app:attribute_hint_text="@string/enter_bill_account_number"
+            app:attribute_mask="AAAAAAAAAAAAAAAA"
+            app:attribute_selector_type="NONE"
+            app:attribute_title_text="@string/bill_account_number"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/accountHolderNameNormalInputView" />
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/myReferenceNormalInputView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:digits="@string/allowed_reference_digits"
+            android:inputType="text"
+            android:maxLength="20"
+            app:attribute_hint_text="@string/enter_reference_my_statement"
+            app:attribute_selector_type="NONE"
+            app:attribute_title_text="@string/reference_for_my_statement"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/accountNumberNormalInputView" />
+
+        <Button
+            android:id="@+id/nextButton"
+            style="@style/PrimaryButton"
+            android:text="@string/next"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/myReferenceNormalInputView"
+            app:layout_constraintVertical_bias="1" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,62 @@
+{
+  "payHdr": {
+    "resId": null,
+    "resCde": "00000",
+    "resMsg": "success",
+    "serVer": "2.0",
+    "expTrace": null
+  },
+  "payData": {
+    "cardPackage": {
+      "packageName": "Gold Value Bundle",
+      "minimumIncome": "4 000",
+      "monthlyFee": "109.00",
+      "description": "The Gold Value Bundle will meet more than your banking needs, at a price that suits your pocket.",
+      "packages": [
+        {
+          "package": "Better everyday banking",
+          "bulletPoints": [
+            "Bundle of transactions for a monthly fee of R109.00",
+            "Access to Absa Online, mobile and telephone banking",
+            "No data required to access the mobile app",
+            "Unlimited NotifyMe SMS or email notifications",
+            "Unlimited card swipes",
+            "Unlimited cash withdrawals at tills",
+            "Unlimited balance enquiries",
+            "Unlimited electronic account payments",
+            "Unlimited internal and external debit orders",
+            "Five Absa ATM cash withdrawals",
+            "Five Absa ATM cash deposits",
+            "Buy prepaid electricity, airtime and data via our app",
+            "24/7 access to the largest ATM network in South Africa",
+            "Up to 50% discount on your monthly fee if you maintain a balance of more than R30 000 for that month",
+            "Any unused value bundle transactions will roll over for one month",
+            "Minimum income: R4000 pm"
+          ]
+        },
+        {
+          "package": "Lifestyle benefits",
+          "bulletPoints": [
+            "Up to R100 off on a second main meal at partner restaurants Absa Dining",
+            "Join Absa Rewards and earn cash back when you swipe your debit card"
+          ]
+        },
+        {
+          "package": "Wealth and finance benefits",
+          "bulletPoints": [
+            "Make farewells a little better with a lump sum death benefit of R20 000",
+            "Option to apply for an overdraft facility (subject to credit assessment)",
+            "Option to apply for an ATM Instant Loan (subject to credit assessment)"
+          ]
+        },
+        {
+          "package": "Retrenchment and Disability Cover",
+          "bulletPoints": [
+            "Retrenchment Cover of R10 000 (R5 000 payable over two months)",
+            "Disability Cover of R10 000 (R5 000 payable over two months)"
+          ]
+        }
+      ]
+    }
+  }
+}

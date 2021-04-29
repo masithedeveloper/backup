@@ -1,0 +1,11 @@
+{
+  "failureResponseModel": {
+    "payHdr": {
+      "resId": "RES9999",
+      "resCde": "BMB99999",
+      "resMsg": "Connection error, the system is not responding.  Please try again in a short while.",
+      "serVer": "2.0",
+      "expTrace": "An error occured from backend."
+    }
+  }
+}

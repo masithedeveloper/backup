@@ -1,0 +1,713 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_manage_profile"
+    app:startDestination="@id/manageProfileHubFragment">
+
+    <fragment
+        android:id="@+id/manageProfileHubFragment"
+        android:name="com.barclays.absa.banking.manage.profile.ui.ManageProfileHubFragment"
+        android:label="ManageProfilePersonalInformationFragment"
+        tools:layout="@layout/manage_profile_hub_fragment">
+        <action
+            android:id="@+id/action_manageProfileHubFragment_to_manageProfilePersonalDetailsOverviewFragment"
+            app:destination="@id/manageProfilePersonalDetailsNavigation"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <action
+            android:id="@+id/action_manageProfileHubFragment_to_manageProfileAddressDetailsOverviewFragment"
+            app:destination="@id/manageProfileAddressDetailsOverviewFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <action
+            android:id="@+id/action_manageProfileHubFragment_to_manageProfileContactDetailsOverviewFragment"
+            app:destination="@id/manageProfileContactDetailsOverviewFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <action
+            android:id="@+id/action_manageProfileHubFragment_to_manageProfileFinancialDetailsOverviewFragment"
+            app:destination="@id/manageProfileFinancialDetailsNavigation"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <action
+            android:id="@+id/action_manageProfileHubFragment_to_manageProfileNextOfKinOverviewFragment"
+            app:destination="@id/manageProfileNextOfKinNavigation"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <action
+            android:id="@+id/action_manageProfileHubFragment_to_manageProfileMarketingConsentOverviewFragment"
+            app:destination="@id/manageProfileMarketingConsentNavigation"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <action
+            android:id="@+id/action_manageProfileHubFragment_to_manageProfileEditMarketingConsentFragment"
+            app:destination="@id/manageProfileMarketingConsentNavigation"
+            app:enterAnim="@anim/slide_in_up"
+            app:exitAnim="@anim/fade_out_slow"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_manageProfileHubFragment_to_manageProfileEducationAndEmploymentDetailsOverviewFragment"
+            app:destination="@id/manageProfileEducationAndEmploymentDetailsOverviewFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+    <fragment
+        android:id="@+id/manageProfileResultFragment"
+        android:name="styleguide.screens.GenericResultScreenFragment"
+        android:label="manageProfileResultFragment"
+        tools:layout="@layout/generic_results_screen_fragment">
+
+        <argument
+            android:name="GenericResultScreenFragment"
+            app:argType="styleguide.screens.GenericResultScreenProperties" />
+    </fragment>
+
+    <action
+        android:id="@+id/action_global_manageProfileResultFragment"
+        app:destination="@id/manageProfileResultFragment"
+        app:enterAnim="@anim/fadein"
+        app:exitAnim="@anim/fadeout"
+        app:popEnterAnim="@anim/fadein"
+        app:popExitAnim="@anim/fadeout" />
+
+    <fragment
+        android:id="@+id/manageProfilePostalCodeLookupFragment"
+        android:name="com.barclays.absa.banking.manage.profile.ui.widgets.ManageProfilePostalCodeLookupFragment"
+        android:label="ManageProfilePostalCodeLookupFragment"
+        tools:layout="@layout/manage_profile_postal_code_lookup_fragment">
+        <argument
+            android:name="isPoBox"
+            app:argType="boolean" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/manageProfileDocumentUploadIdentityInformationFragment"
+        android:name="com.barclays.absa.banking.manage.profile.ui.docHandler.ManageProfileDocumentUploadIdentityInformationFragment"
+        android:label="ManageProfileDocumentUploadIdentityInformationFragment"
+        tools:layout="@layout/manage_profile_document_upload_identity_information_fragment">
+        <action
+            android:id="@+id/action_manageProfileDocumentUploadIdentityInformationFragment_to_manageProfileSelectDocumentToUploadFragment"
+            app:destination="@id/manageProfileSelectDocumentToUploadFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:launchSingleTop="true"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout"
+            app:popUpTo="@+id/manageProfileDocumentUploadIdentityInformationFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/manageProfileSelectDocumentToUploadFragment"
+        android:name="com.barclays.absa.banking.manage.profile.ui.docHandler.ManageProfileSelectDocumentToUploadFragment"
+        android:label="ManageProfileSelectDocumentToUploadFragment"
+        tools:layout="@layout/manage_profile_select_document_to_upload_fragment">
+        <action
+            android:id="@+id/action_manageProfileSelectDocumentToUploadFragment_to_manageProfileDocumentUploadSelectDocumentTypeFragment"
+            app:destination="@id/manageProfileDocumentUploadSelectDocumentTypeFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+    <fragment
+        android:id="@+id/manageProfileDocumentUploadSelectDocumentTypeFragment"
+        android:name="com.barclays.absa.banking.manage.profile.ui.docHandler.ManageProfileDocumentUploadSelectDocumentTypeFragment"
+        android:label="ManageProfileDocumentUploadSelectDocumentTypeFragment"
+        tools:layout="@layout/manage_profile_document_upload_select_document_type_fragment">
+        <action
+            android:id="@+id/action_manageProfileDocumentUploadSelectDocumentTypeFragment_to_manageProfileResultFragment"
+            app:destination="@id/manageProfileResultFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <action
+            android:id="@+id/action_manageProfileDocumentUploadSelectDocumentTypeFragment_to_manageProfileSelectDocumentToUploadFragment"
+            app:destination="@id/manageProfileSelectDocumentToUploadFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:launchSingleTop="true"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout"
+            app:popUpTo="@+id/manageProfileDocumentUploadSelectDocumentTypeFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_manageProfileDocumentUploadSelectDocumentTypeFragment_self"
+            app:destination="@id/manageProfileDocumentUploadSelectDocumentTypeFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+    <fragment
+        android:id="@+id/manageProfileContactDetailsOverviewFragment"
+        android:name="com.barclays.absa.banking.manage.profile.ui.contactDetails.ManageProfileContactDetailsOverviewFragment"
+        android:label="ManageProfileContactDetailsOverviewFragment"
+        tools:layout="@layout/manage_profile_contact_details_overview_fragment">
+        <action
+            android:id="@+id/action_manageProfileContactDetailsOverviewFragment_to_manageProfileEditContactDetailsFragment"
+            app:destination="@id/manageProfileEditContactDetailsFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+    <fragment
+        android:id="@+id/manageProfileEditContactDetailsFragment"
+        android:name="com.barclays.absa.banking.manage.profile.ui.contactDetails.ManageProfileEditContactDetailsFragment"
+        android:label="ManageProfileEditContactDetailsFragment"
+        tools:layout="@layout/manage_profile_edit_contact_details_fragment">
+        <action
+            android:id="@+id/action_manageProfileEditContactDetailsFragment_to_manageProfileContactDetailsConfirmationFragment"
+            app:destination="@id/manageProfileContactDetailsConfirmationFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <action
+            android:id="@+id/action_manageProfileEditContactDetailsFragment_to_manageProfileGenericAddressFragment"
+            app:destination="@id/manageProfileGenericAddressFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <argument
+            android:name="addressDetails"
+            app:argType="com.barclays.absa.banking.manage.profile.ui.addressDetails.ManageProfileUpdatedAddressDetails"
+            app:nullable="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/manageProfileContactDetailsConfirmationFragment"
+        android:name="com.barclays.absa.banking.manage.profile.ui.contactDetails.ManageProfileContactDetailsConfirmationFragment"
+        android:label="ManageProfileContactDetailsConfirmationFragment"
+        tools:layout="@layout/manage_profile_contact_details_confirmation_fragment" />
+
+    <navigation
+        android:id="@+id/manageProfileFinancialDetailsNavigation"
+        app:startDestination="@id/manageProfileFinancialDetailsOverviewFragment">
+        <fragment
+            android:id="@+id/manageProfileFinancialDetailsOverviewFragment"
+            android:name="com.barclays.absa.banking.manage.profile.ui.financialDetails.ManageProfileFinancialDetailsOverviewFragment"
+            android:label="ManageProfileFinancialDetailsOverviewFragment"
+            tools:layout="@layout/manage_profile_financial_details_overview_fragment">
+            <action
+                android:id="@+id/action_manageProfileFinancialDetailsOverviewFragment_to_manageProfileRegisteredForForeignTaxFragment"
+                app:destination="@id/manageProfileRegisteredForForeignTaxFragment"
+                app:enterAnim="@anim/fadein"
+                app:exitAnim="@anim/fadeout"
+                app:popEnterAnim="@anim/fadein"
+                app:popExitAnim="@anim/fadeout" />
+            <action
+                android:id="@+id/action_manageProfileFinancialDetailsOverviewFragment_to_manageProfileIncomeDetailsFragment"
+                app:destination="@id/manageProfileIncomeDetailsFragment"
+                app:enterAnim="@anim/fadein"
+                app:exitAnim="@anim/fadeout"
+                app:popEnterAnim="@anim/fadein"
+                app:popExitAnim="@anim/fadeout" />
+            <action
+                android:id="@+id/action_manageProfileFinancialDetailsOverviewFragment_to_manageProfileOtherFinancialDetailsFragment"
+                app:destination="@id/manageProfileOtherFinancialDetailsFragment"
+                app:enterAnim="@anim/fadein"
+                app:exitAnim="@anim/fadeout"
+                app:popEnterAnim="@anim/fadein"
+                app:popExitAnim="@anim/fadeout" />
+            <action
+                android:id="@+id/action_manageProfileFinancialDetailsOverviewFragment_to_manageProfileRegisteredForLocalTaxFragment"
+                app:destination="@id/manageProfileRegisteredForLocalTaxFragment"
+                app:enterAnim="@anim/fadein"
+                app:exitAnim="@anim/fadeout"
+                app:popEnterAnim="@anim/fadein"
+                app:popExitAnim="@anim/fadeout" />
+
+            <action
+                android:id="@+id/action_manageProfileFinancialDetailsOverviewFragment_to_manageProfileHubFragment"
+                app:destination="@id/manageProfileHubFragment"
+                app:enterAnim="@anim/fadein"
+                app:exitAnim="@anim/fadeout"
+                app:popEnterAnim="@anim/fadein"
+                app:popExitAnim="@anim/fadeout" />
+        </fragment>
+        <fragment
+            android:id="@+id/manageProfileOtherFinancialDetailsFragment"
+            android:name="com.barclays.absa.banking.manage.profile.ui.financialDetails.ManageProfileEditOtherFinancialDetailsFragment"
+            android:label="ManageProfileOtherFinancialDetailsFragment"
+            tools:layout="@layout/manage_profile_other_financial_details_fragment">
+            <action
+                android:id="@+id/action_manageProfileOtherFinancialDetailsFragment_to_manageProfileOtherFinancialDetailsConfirmationFragment"
+                app:destination="@id/manageProfileOtherFinancialDetailsConfirmationFragment"
+                app:enterAnim="@anim/fadein"
+                app:exitAnim="@anim/fadeout"
+                app:popEnterAnim="@anim/fadein"
+                app:popExitAnim="@anim/fadeout" />
+        </fragment>
+        <fragment
+            android:id="@+id/manageProfileOtherFinancialDetailsConfirmationFragment"
+            android:name="com.barclays.absa.banking.manage.profile.ui.financialDetails.ManageProfileOtherFinancialDetailsConfirmationFragment"
+            android:label="ManageProfileOtherFinancialDetailsConfirmationFragment"
+            tools:layout="@layout/manage_profile_other_financial_details_confirmation_fragment" />
+        <fragment
+            android:id="@+id/manageProfileRegisteredForForeignTaxFragment"
+            android:name="com.barclays.absa.banking.manage.profile.ui.financialDetails.ManageProfileRegisteredForForeignTaxFragment"
+            android:label="manageProfileRegisteredForForeignTaxFragment"
+            tools:layout="@layout/manage_profile_registered_for_tax_fragment">
+
+            <action
+                android:id="@+id/action_manageProfileRegisteredForForeignTaxFragment_to_manageProfileEditForeignTaxDetailsFragment"
+                app:destination="@id/manageProfileEditForeignTaxDetailsFragment"
+                app:enterAnim="@anim/fadein"
+                app:exitAnim="@anim/fadeout"
+                app:popEnterAnim="@anim/fadein"
+                app:popExitAnim="@anim/fadeout" />
+            <action
+                android:id="@+id/action_manageProfileRegisteredForForeignTaxFragment_to_mangeProfileTaxDetailsConfirmationFragment2"
+                app:destination="@id/mangeProfileTaxDetailsConfirmationFragment"
+                app:enterAnim="@anim/fadein"
+                app:exitAnim="@anim/fadeout"
+                app:popEnterAnim="@anim/fadein"
+                app:popExitAnim="@anim/fadeout" />
+            <action
+                android:id="@+id/action_manageProfileRegisteredForForeignTaxFragment_to_manageProfileFinancialDetailsOverviewFragment"
+                app:destination="@id/manageProfileFinancialDetailsNavigation"
+                app:enterAnim="@anim/fadein"
+                app:exitAnim="@anim/fadeout"
+                app:popEnterAnim="@anim/fadein"
+                app:popExitAnim="@anim/fadeout" />
+        </fragment>
+        <fragment
+            android:id="@+id/manageProfileEditForeignTaxDetailsFragment"
+            android:name="com.barclays.absa.banking.manage.profile.ui.financialDetails.ManageProfileEditForeignTaxDetailsFragment"
+            android:label="ManageProfileEditForeignTaxDetailsFragment"
+            tools:layout="@layout/manage_profile_edit_foreign_tax_details_fragment">
+            <action
+                android:id="@+id/action_manageProfileEditForeignTaxDetailsFragment_to_manageProfileRegisteredForTaxFragment"
+                app:destination="@id/manageProfileFinancialDetailsNavigation"
+                app:enterAnim="@anim/fadein"
+                app:exitAnim="@anim/fadeout"
+                app:popEnterAnim="@anim/fadein"
+                app:popExitAnim="@anim/fadeout" />
+            <action
+                android:id="@+id/action_manageProfileEditForeignTaxDetailsFragment_pop"
+                app:enterAnim="@anim/fadein"
+                app:exitAnim="@anim/fadeout"
+                app:popEnterAnim="@anim/fadein"
+                app:popExitAnim="@anim/fadeout"
+                app:popUpTo="@id/manageProfileEditForeignTaxDetailsFragment"
+                app:popUpToInclusive="true" />
+            <argument
+                android:name="position"
+                app:argType="integer" />
+        </fragment>
+        <fragment
+            android:id="@+id/manageProfileRegisteredForLocalTaxFragment"
+            android:name="com.barclays.absa.banking.manage.profile.ui.financialDetails.ManageProfileRegisteredForLocalTaxFragment"
+            android:label="ManageProfileRegisteredForLocalTaxFragment"
+            tools:layout="@layout/manage_profile_registered_for_tax_fragment">
+            <action
+                android:id="@+id/action_manageProfileRegisteredForLocalTaxFragment_to_manageProfileFinancialDetailsOverviewFragment"
+                app:destination="@id/manageProfileFinancialDetailsNavigation"
+                app:enterAnim="@anim/fadein"
+                app:exitAnim="@anim/fadeout"
+                app:popEnterAnim="@anim/fadein"
+                app:popExitAnim="@anim/fadeout" />
+            <action
+                android:id="@+id/action_manageProfileRegisteredForLocalTaxFragment_to_mangeProfileTaxDetailsConfirmationFragment"
+                app:destination="@id/mangeProfileTaxDetailsConfirmationFragment"
+                app:enterAnim="@anim/fadein"
+                app:exitAnim="@anim/fadeout"
+                app:popEnterAnim="@anim/fadein"
+                app:popExitAnim="@anim/fadeout" />
+        </fragment>
+        <fragment
+            android:id="@+id/mangeProfileTaxDetailsConfirmationFragment"
+            android:name="com.barclays.absa.banking.manage.profile.ui.financialDetails.MangeProfileTaxDetailsConfirmationFragment"
+            android:label="MangeProfileTaxDetailsConfirmationFragment"
+            tools:layout="@layout/manage_profile_tax_confirmation_fragment">
+            <action
+                android:id="@+id/action_mangeProfileTaxDetailsConfirmationFragment_to_manageProfileResultFragment"
+                app:destination="@id/manageProfileResultFragment"
+                app:enterAnim="@anim/fadein"
+                app:exitAnim="@anim/fadeout"
+                app:popEnterAnim="@anim/fadein"
+                app:popExitAnim="@anim/fadeout" />
+        </fragment>
+        <fragment
+            android:id="@+id/manageProfileRegisteredForTaxFragment"
+            android:name="com.barclays.absa.banking.manage.profile.ui.financialDetails.ManageProfileRegisteredForTaxBaseFragment"
+            android:label="ManageProfileRegisteredForTaxFragment"
+            tools:layout="@layout/manage_profile_registered_for_tax_fragment">
+            <action
+                android:id="@+id/action_manageProfileRegisteredForTaxBaseFragment_to_mangeProfileTaxDetailsConfirmationFragment2"
+                app:destination="@id/manageProfileFinancialDetailsNavigation"
+                app:enterAnim="@anim/fadein"
+                app:exitAnim="@anim/fadeout"
+                app:popEnterAnim="@anim/fadein"
+                app:popExitAnim="@anim/fadeout" />
+        </fragment>
+        <fragment
+            android:id="@+id/manageProfileIncomeDetailsFragment"
+            android:name="com.barclays.absa.banking.manage.profile.ui.financialDetails.ManageProfileEditIncomeDetailsFragment"
+            android:label="ManageProfileIncomeDetailsFragment"
+            tools:layout="@layout/manage_profile_income_details_fragment">
+            <action
+                android:id="@+id/action_manageProfileIncomeDetailsFragment_to_manageProfileIncomeDetailsConfirmationFragment"
+                app:destination="@id/manageProfileIncomeDetailsConfirmationFragment"
+                app:enterAnim="@anim/fadein"
+                app:exitAnim="@anim/fadeout"
+                app:popEnterAnim="@anim/fadein"
+                app:popExitAnim="@anim/fadeout" />
+        </fragment>
+        <fragment
+            android:id="@+id/manageProfileIncomeDetailsConfirmationFragment"
+            android:name="com.barclays.absa.banking.manage.profile.ui.financialDetails.ManageProfileIncomeDetailsConfirmationFragment"
+            android:label="ManageProfileIncomeDetailsConfirmationFragment"
+            tools:layout="@layout/manage_profile_income_details_confirm_fragment" />
+    </navigation>
+    <navigation
+        android:id="@+id/manageProfilePersonalDetailsNavigation"
+        app:startDestination="@id/manageProfilePersonalDetailsOverviewFragment">
+        <fragment
+            android:id="@+id/manageProfilePersonalDetailsOverviewFragment"
+            android:name="com.barclays.absa.banking.manage.profile.ui.otherPersonalDetails.ManageProfilePersonalDetailsOverviewFragment"
+            android:label="ManageProfilePersonalDetailsOverviewFragment"
+            tools:layout="@layout/manage_profile_personal_details_overview_fragment">
+            <action
+                android:id="@+id/action_manageProfilePersonalDetailsOverviewFragment_to_manageProfileEditOtherPersonalDetailsFragment"
+                app:destination="@id/manageProfileEditOtherPersonalDetailsFragment"
+                app:enterAnim="@anim/fadein"
+                app:exitAnim="@anim/fadeout"
+                app:popEnterAnim="@anim/fadein"
+                app:popExitAnim="@anim/fadeout" />
+            <action
+                android:id="@+id/action_manageProfilePersonalDetailsOverviewFragment_to_manageProfileSelectDocumentToUploadFragment"
+                app:destination="@id/manageProfileSelectDocumentToUploadFragment"
+                app:enterAnim="@anim/fadein"
+                app:exitAnim="@anim/fadeout"
+                app:launchSingleTop="true"
+                app:popEnterAnim="@anim/fadein"
+                app:popExitAnim="@anim/fadeout"
+                app:popUpTo="@+id/manageProfilePersonalDetailsOverviewFragment"
+                app:popUpToInclusive="true" />
+
+            <action
+                android:id="@+id/action_manageProfilePersonalDetailsOverviewFragment_to_manageProfileDocumentUploadIdentityInformationFragment"
+                app:destination="@id/manageProfileDocumentUploadIdentityInformationFragment"
+                app:enterAnim="@anim/fadein"
+                app:exitAnim="@anim/fadeout"
+                app:popEnterAnim="@anim/fadein"
+                app:popExitAnim="@anim/fadeout" />
+        </fragment>
+        <fragment
+            android:id="@+id/manageProfileEditOtherPersonalDetailsFragment"
+            android:name="com.barclays.absa.banking.manage.profile.ui.otherPersonalDetails.ManageProfileEditOtherPersonalDetailsFragment"
+            android:label="ManageProfileEditOtherPersonalDetailsFragment"
+            tools:layout="@layout/manage_profile_edit_other_personal_details_fragment">
+            <action
+                android:id="@+id/action_manageProfileEditOtherPersonalDetailsFragment_to_manageProfileEditPersonalDetailsConfirmationFragment"
+                app:destination="@id/manageProfileEditPersonalDetailsConfirmationFragment"
+                app:enterAnim="@anim/fadein"
+                app:exitAnim="@anim/fadeout"
+                app:popEnterAnim="@anim/fadein"
+                app:popExitAnim="@anim/fadeout" />
+        </fragment>
+        <fragment
+            android:id="@+id/manageProfileEditPersonalDetailsConfirmationFragment"
+            android:name="com.barclays.absa.banking.manage.profile.ui.otherPersonalDetails.ManageProfileEditPersonalDetailsConfirmationFragment"
+            android:label="ManageProfileEditPersonalDetailsConfirmationFragment"
+            tools:layout="@layout/manage_profile_edit_personal_details_confirm_fragment">
+            <action
+                android:id="@+id/action_manageProfileEditPersonalDetailsConfirmationFragment_to_manageProfileResultFragment"
+                app:destination="@id/manageProfileResultFragment"
+                app:enterAnim="@anim/fadein"
+                app:exitAnim="@anim/fadeout"
+                app:popEnterAnim="@anim/fadein"
+                app:popExitAnim="@anim/fadeout" />
+        </fragment>
+    </navigation>
+    <fragment
+        android:id="@+id/manageProfileEducationAndEmploymentDetailsOverviewFragment"
+        android:name="com.barclays.absa.banking.manage.profile.ui.educationAndEmploymentDetails.ManageProfileEducationAndEmploymentDetailsOverviewFragment"
+        android:label="ManageProfileEducationAndEmploymentDetailsOverviewFragment"
+        tools:layout="@layout/manage_profile_education_and_employment_details_overview_fragment">
+        <action
+            android:id="@+id/action_manageProfileEducationAndEmploymentDetailsOverviewFragment_to_manageProfileEditEducationDetailsFragment"
+            app:destination="@id/manageProfileEditEducationDetailsFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <action
+            android:id="@+id/action_manageProfileEducationAndEmploymentDetailsOverviewFragment_to_manageProfileEditEmploymentDetailsFragment"
+            app:destination="@id/manageProfileEditEmploymentDetailsFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <action
+            android:id="@+id/action_manageProfileEducationAndEmploymentDetailsOverviewFragment_to_manageProfileEmployerDetailsConfirmationFragment"
+            app:destination="@id/manageProfileEmployerDetailsConfirmationFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+    <fragment
+        android:id="@+id/manageProfileEditEmploymentDetailsFragment"
+        android:name="com.barclays.absa.banking.manage.profile.ui.educationAndEmploymentDetails.ManageProfileEditEmploymentDetailsFragment"
+        android:label="ManageProfileEditEmploymentDetailsFragment"
+        tools:layout="@layout/manage_profile_edit_employment_details_fragment">
+        <action
+            android:id="@+id/action_manageProfileEditEmploymentDetailsFragment_to_manageProfileOccupationDetailsConfirmFragment"
+            app:destination="@id/manageProfileOccupationDetailsConfirmFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+    <fragment
+        android:id="@+id/manageProfileOccupationDetailsConfirmFragment"
+        android:name="com.barclays.absa.banking.manage.profile.ui.educationAndEmploymentDetails.ManageProfileOccupationDetailsConfirmFragment"
+        android:label="ManageProfileOccupationDetailsConfirmFragment"
+        tools:layout="@layout/manage_profile_occupation_details_confirm_fragment">
+        <action
+            android:id="@+id/action_manageProfileOccupationDetailsConfirmFragment_to_manageProfileResultFragment"
+            app:destination="@id/manageProfileResultFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+    <fragment
+        android:id="@+id/manageProfileEmployerDetailsConfirmationFragment"
+        android:name="com.barclays.absa.banking.manage.profile.ui.educationAndEmploymentDetails.ManageProfileEmployerDetailsConfirmationFragment"
+        android:label="ManageProfileEmployerDetailsConfirmationFragment"
+        tools:layout="@layout/manage_profile_edit_employer_details_fragment">
+        <action
+            android:id="@+id/action_manageProfileEmployerDetailsConfirmationFragment_to_manageProfileResultFragment"
+            app:destination="@id/manageProfileResultFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <argument
+            android:name="addressDetails"
+            app:argType="com.barclays.absa.banking.manage.profile.ui.addressDetails.ManageProfileUpdatedAddressDetails" />
+    </fragment>
+    <fragment
+        android:id="@+id/manageProfileEditEducationDetailsFragment"
+        android:name="com.barclays.absa.banking.manage.profile.ui.educationAndEmploymentDetails.ManageProfileEditEducationDetailsFragment"
+        android:label="ManageProfileEditEducationDetailsFragment"
+        tools:layout="@layout/manage_profile_edit_education_details_fragment">
+        <action
+            android:id="@+id/action_manageProfileEditEducationDetailsFragment_to_manageProfileConfirmEducationDetailsChangeFragment"
+            app:destination="@id/manageProfileConfirmEducationDetailsChangeFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+    <fragment
+        android:id="@+id/manageProfileConfirmEducationDetailsChangeFragment"
+        android:name="com.barclays.absa.banking.manage.profile.ui.educationAndEmploymentDetails.ManageProfileConfirmEducationDetailsChangeFragment"
+        android:label="ManageProfileConfirmEducationDetailsChangeFragment"
+        tools:layout="@layout/manage_profile_confirm_education_details_change_fragment">
+        <action
+            android:id="@+id/action_manageProfileConfirmEducationDetailsChangeFragment_to_manageProfileResultFragment"
+            app:destination="@id/manageProfileResultFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+    <fragment
+        android:id="@+id/manageProfileAddressDetailsOverviewFragment"
+        android:name="com.barclays.absa.banking.manage.profile.ui.addressDetails.ManageProfileAddressDetailsOverviewFragment"
+        android:label="ManageProfileAddressDetailsOverviewFragment"
+        tools:layout="@layout/manage_profile_address_details_overview_fragment">
+        <action
+            android:id="@+id/action_manageProfileAddressDetailsOverviewFragment_to_manageProfileGenericAddressFragment"
+            app:destination="@id/manageProfileGenericAddressFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <action
+            android:id="@+id/action_manageProfileAddressDetailsOverviewFragment_to_manageProfileDocumentUploadAddressInformationFragment"
+            app:destination="@id/manageProfileDocumentUploadAddressInformationFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+    <fragment
+        android:id="@+id/manageProfileConfirmPostalAddressDetailsFragment"
+        android:name="com.barclays.absa.banking.manage.profile.ui.addressDetails.ManageProfileConfirmPostalAddressDetailsFragment"
+        android:label="ManageProfileConfirmPostalAddressDetailsFragment"
+        tools:layout="@layout/manage_profile_confirm_postal_address_details_fragment">
+        <action
+            android:id="@+id/action_manageProfileConfirmPostalAddressDetailsFragment_to_manageProfileResultFragment"
+            app:destination="@id/manageProfileResultFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <argument
+            android:name="addressDetails"
+            app:argType="com.barclays.absa.banking.manage.profile.ui.addressDetails.ManageProfileUpdatedAddressDetails" />
+    </fragment>
+
+    <navigation
+        android:id="@+id/manageProfileNextOfKinNavigation"
+        app:startDestination="@id/manageProfileNextOfKinOverviewFragment">
+        <fragment
+            android:id="@+id/manageProfileNextOfKinOverviewFragment"
+            android:name="com.barclays.absa.banking.manage.profile.ui.nextOfKin.ManageProfileNextOfKinOverviewFragment"
+            android:label="ManageProfileNextOfKinOverviewFragment"
+            tools:layout="@layout/manage_profile_next_of_kin_overview_fragment">
+            <action
+                android:id="@+id/action_manageProfileNextOfKinOverviewFragment_to_manageProfileEditNextOfKinFragment"
+                app:destination="@id/manageProfileEditNextOfKinFragment"
+                app:enterAnim="@anim/fadein"
+                app:exitAnim="@anim/fadeout"
+                app:popEnterAnim="@anim/fadein"
+                app:popExitAnim="@anim/fadeout" />
+        </fragment>
+        <fragment
+            android:id="@+id/manageProfileEditNextOfKinFragment"
+            android:name="com.barclays.absa.banking.manage.profile.ui.nextOfKin.ManageProfileEditNextOfKinFragment"
+            android:label="ManageProfileEditNextOfKinFragment"
+            tools:layout="@layout/manage_profile_edit_next_of_kin_fragment">
+            <action
+                android:id="@+id/action_manageProfileEditNextOfKinFragment_to_manageProfileNextOfKinConfirmationFragment"
+                app:destination="@id/manageProfileNextOfKinConfirmationFragment"
+                app:enterAnim="@anim/fadein"
+                app:exitAnim="@anim/fadeout"
+                app:popEnterAnim="@anim/fadein"
+                app:popExitAnim="@anim/fadeout" />
+        </fragment>
+        <fragment
+            android:id="@+id/manageProfileNextOfKinConfirmationFragment"
+            android:name="com.barclays.absa.banking.manage.profile.ui.nextOfKin.ManageProfileNextOfKinConfirmationFragment"
+            android:label="ManageProfileNextOfKinConfirmationFragment"
+            tools:layout="@layout/manage_profile_next_of_kin_confirmation_fragment">
+            <action
+                android:id="@+id/action_manageProfileNextOfKinConfirmationFragment_to_manageProfileResultFragment"
+                app:destination="@id/manageProfileResultFragment"
+                app:enterAnim="@anim/fadein"
+                app:exitAnim="@anim/fadeout"
+                app:popEnterAnim="@anim/fadein"
+                app:popExitAnim="@anim/fadeout" />
+        </fragment>
+    </navigation>
+    <navigation
+        android:id="@+id/manageProfileMarketingConsentNavigation"
+        app:startDestination="@id/manageProfileMarketingConsentOverviewFragment">
+        <fragment
+            android:id="@+id/manageProfileMarketingConsentOverviewFragment"
+            android:name="com.barclays.absa.banking.manage.profile.ui.marketingConsent.ManageProfileMarketingConsentOverviewFragment"
+            android:label="ManageProfileMarketingConsentOverviewFragment"
+            tools:layout="@layout/manage_profile_marketing_consent_overview_fragment">
+            <action
+                android:id="@+id/action_manageProfileMarketingConsentOverviewFragment_to_manageProfileEditMarketingConsentFragment"
+                app:destination="@id/manageProfileEditMarketingConsentFragment"
+                app:enterAnim="@anim/fadein"
+                app:exitAnim="@anim/fadeout"
+                app:popEnterAnim="@anim/fadein"
+                app:popExitAnim="@anim/fadeout" />
+        </fragment>
+        <fragment
+            android:id="@+id/manageProfileEditMarketingConsentFragment"
+            android:name="com.barclays.absa.banking.manage.profile.ui.marketingConsent.ManageProfileEditMarketingConsentFragment"
+            android:label="ManageProfileEditMarketingConsentFragment"
+            tools:layout="@layout/manage_profile_edit_marketing_consent_fragment">
+            <action
+                android:id="@+id/action_manageProfileEditMarketingConsentFragment_to_manageProfileMarketingConsentConfirmationFragment"
+                app:destination="@id/manageProfileMarketingConsentConfirmationFragment"
+                app:enterAnim="@anim/fadein"
+                app:exitAnim="@anim/fadeout"
+                app:popEnterAnim="@anim/fadein"
+                app:popExitAnim="@anim/fadeout" />
+        </fragment>
+        <fragment
+            android:id="@+id/manageProfileMarketingConsentConfirmationFragment"
+            android:name="com.barclays.absa.banking.manage.profile.ui.marketingConsent.ManageProfileMarketingConsentConfirmationFragment"
+            android:label="ManageProfileMarketingConsentConfirmationFragment"
+            tools:layout="@layout/manage_profile_marketing_consent_confirmation_fragment">
+            <action
+                android:id="@+id/action_manageProfileMarketingConsentConfirmationFragment_to_manageProfileResultFragment"
+                app:destination="@id/manageProfileResultFragment"
+                app:enterAnim="@anim/fadein"
+                app:exitAnim="@anim/fadeout"
+                app:popEnterAnim="@anim/fadein"
+                app:popExitAnim="@anim/fadeout" />
+        </fragment>
+    </navigation>
+    <fragment
+        android:id="@+id/manageProfileGenericAddressFragment"
+        android:name="com.barclays.absa.banking.manage.profile.ui.addressDetails.ManageProfileGenericAddressFragment"
+        android:label="ManageProfileGenericAddressFragment">
+        <action
+            android:id="@+id/action_manageProfileGenericAddressFragment_pop"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout"
+            app:popUpTo="@id/manageProfileGenericAddressFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_manageProfileGenericAddressFragment_to_manageProfileEmployerDetailsConfirmationFragment"
+            app:destination="@id/manageProfileEmployerDetailsConfirmationFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <action
+            android:id="@+id/action_manageProfileGenericAddressFragment_to_manageProfileConfirmPostalAddressDetailsFragment"
+            app:destination="@id/manageProfileConfirmPostalAddressDetailsFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <action
+            android:id="@+id/action_manageProfileGenericAddressFragment_to_manageProfileEditContactDetailsFragment"
+            app:destination="@id/manageProfileEditContactDetailsFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+    <fragment
+        android:id="@+id/manageProfileDocumentUploadAddressInformationFragment"
+        android:name="com.barclays.absa.banking.manage.profile.ui.docHandler.ManageProfileDocumentUploadAddressInformationFragment"
+        android:label="ManageProfileDocumentUploadAddressInformationFragment">
+        <action
+            android:id="@+id/action_manageProfileDocumentUploadAddressInformationFragment_to_manageProfileSelectDocumentToUploadFragment"
+            app:destination="@id/manageProfileSelectDocumentToUploadFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:launchSingleTop="true"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout"
+            app:popUpTo="@+id/manageProfileDocumentUploadAddressInformationFragment"
+            app:popUpToInclusive="true" />
+        <argument
+            android:name="country"
+            app:argType="string" />
+    </fragment>
+</navigation>

@@ -1,0 +1,17 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES2084",
+      "resCde": "00000",
+      "resMsg": "Success",
+      "serVer": "2.0",
+      "expTrace": null
+    },
+    "payData": {
+      "riskRating": "H",
+      "proofOfResidenceScanRequired": false,
+      "txnStatus": "Success",
+      "txnMessage": "Unfortunately we cannot continue with your application."
+    }
+  }
+}

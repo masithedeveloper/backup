@@ -1,0 +1,40 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0889",
+      "resCde": "00000",
+      "resMsg": "Success",
+      "serVer": "2.0"
+    },
+    "payData": {
+      "iftPaymentList": [],
+      "id": "12",
+      "beneficiaryShortName": "Bhatia",
+      "beneficiaryFirstName": "Ankur",
+      "beneficiarySurname": "Bhatia",
+      "accountNo": "000000000000000000000000",
+      "accountType": "savingsAccount",
+      "status": "CURRENT",
+      "eftNumber": "80002759CC",
+      "tiebNumber": "0",
+      "cifkey": "",
+      "westernUnionDetailsDTO": {
+        "gender": "M",
+        "streetAddress": "EON IT",
+        "residingCountryDTO": {
+          "countryCode": "MX",
+          "countryDescription": "Mexico",
+          "stateName": "MEXICO",
+          "cityName": "AYOTLA"
+        }
+      },
+      "transferType": "WesternUnion",
+      "sequenceNumber": "0",
+      "subType": "MTR",
+      "nonResidentAccountIdentifier": "NON RESIDENT OTHER",
+      "foreignCurrencyWithZAR": false,
+      "txnStatus": "Success",
+      "txnMessage": "Success"
+    }
+  }
+}

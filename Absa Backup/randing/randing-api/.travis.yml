@@ -1,0 +1,18 @@
+language: java
+addons:
+  apt:
+    packages:
+      - rsync
+      - sshpass
+sudo: true
+dist: trusty
+branches:
+  only:
+    - master
+script:
+  - ./gradlew test bootJar
+  - pwd
+  - rsync --version
+after_success:  
+  - rsync -PaSHAX --rsh="sshpass -p $FTP_PWD ssh -o StrictHostKeyChecking=no -l $FTP_USER" build/libs/debty-0.0.1-SNAPSHOT.jar $FTP_ADDR:/home/travisci
+  - sh upload-backend.sh

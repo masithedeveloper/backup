@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cashSendPlusNavGraph"
+    app:startDestination="@id/cashSendPlusInformationFragment">
+
+    <fragment
+        android:id="@+id/cashSendPlusInformationFragment"
+        android:name="com.barclays.absa.banking.cashSendPlus.ui.CashSendPlusInformationFragment"
+        android:label="cashSendPlusInformationFragment"
+        tools:layout="@layout/cash_send_plus_information_fragment">
+        <action
+            android:id="@+id/action_cashSendPlusInformationFragment_to_cashSendPlusRegistrationFragment"
+            app:destination="@id/cashSendPlusRegistrationFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/cashSendPlusRegistrationFragment"
+        android:name="com.barclays.absa.banking.cashSendPlus.ui.CashSendPlusRegistrationFragment"
+        android:label="cashSendPlusRegistrationFragment"
+        tools:layout="@layout/cash_send_plus_registration_fragment">
+        <action
+            android:id="@+id/action_cashSendPlusRegistrationFragment_to_cashSendPlusRegistrationOverviewFragment"
+            app:destination="@id/cashSendPlusRegistrationOverviewFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/cashSendPlusRegistrationOverviewFragment"
+        android:name="com.barclays.absa.banking.cashSendPlus.ui.CashSendPlusRegistrationOverviewFragment"
+        android:label="cashSendPlusRegistrationOverviewFragment"
+        tools:layout="@layout/cash_send_plus_registration_overview_fragment">
+        <action
+            android:id="@+id/action_cashSendPlusRegistrationOverviewFragment_to_genericResultFragment"
+            app:destination="@id/genericResultFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/genericResultFragment"
+        android:name="styleguide.screens.GenericResultScreenFragment"
+        android:label="GenericResultScreenFragment"
+        tools:layout="@layout/generic_results_screen_fragment">
+        <argument
+            android:name="GenericResultScreenFragment"
+            app:argType="styleguide.screens.GenericResultScreenProperties" />
+    </fragment>
+</navigation>

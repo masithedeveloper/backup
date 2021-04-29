@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="manage_device_current_verification_device">Huidige toestel &amp; Verifiëringstoestel</string>
+    <string name="manage_device_current_device">Huidige toestel</string>
+    <string name="manage_device_verification_device">Verifiëringstoestel</string>
+
+    <string name="manage_device_device_list_caption">Kies \'n toetstel om jou verifikasietoestel op te stel, te ontkoppel asook om jou toestel te verstel.</string>
+    <string name="manage_device_device_list_title">Gekoppelde toestelle</string>
+
+    <string name="manage_device_make_this_your_verification_device">Maak hierdie toetstel my Verifiëringstoestel</string>
+    <string name="manage_device_device_title">Toestel</string>
+    <string name="manage_device_nickname_item_label">Noemnaam</string>
+    <string name="manage_device_device_item_label">Toestel</string>
+    <string name="manage_device_status_item_label">Toestel status</string>
+
+    <string name="manage_device_nickname_error">Vul asseblief \'n geldige noemnaam in</string>
+    <string name="manage_device_device_already_verification_device">Hierdie toetstel is alreeds jou Verifiëringstoestel</string>
+    <string name="manage_device_server_failure">Mislukking</string>
+
+    <string name="change_verification_device_response_text">probeer jy die bevestigingstoestel vir jou aanlynbankdienste verander?</string>
+
+</resources>

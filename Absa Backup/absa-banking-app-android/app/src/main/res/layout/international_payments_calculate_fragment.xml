@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        style="@style/ScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:animateLayoutChanges="true">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <styleguide.content.BeneficiaryView
+                android:id="@+id/beneficiaryView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_is_header="true"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <styleguide.forms.RoundedSelectorView
+                android:id="@+id/accountSelectorView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/small_space"
+                app:attribute_selector_type="LONG_LIST"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/beneficiaryView" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/sendCurrencyNormalInputView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:attribute_description_text="@string/western_union_send_currency_description"
+                app:attribute_selector_type="SHORT_LIST"
+                app:attribute_title_text="@string/international_payments_currency_to_send"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/accountSelectorView" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/amountToSendInputView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:maxLength="21"
+                app:attribute_hint_text="@string/international_payments_enter_amount"
+                app:attribute_selector_type="CURRENCY_DECIMAL"
+                app:attribute_title_text="@string/international_payments_amount_to_send"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/sendCurrencyNormalInputView"
+                tools:attribute_description_text="R326.78 Available" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/payoutCurrencyInputView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:attribute_description_text="@string/western_union_payout_currency_description"
+                app:attribute_selector_type="SHORT_LIST"
+                app:attribute_title_text="@string/western_union_payout_currency_title"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/amountToSendInputView" />
+
+            <TextView
+                android:id="@+id/amountDueByYouLabelTextView"
+                style="@style/SmallTextMediumDark"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/medium_space"
+                android:layout_marginTop="@dimen/double_medium_space"
+                android:layout_marginEnd="@dimen/medium_space"
+                android:text="@string/international_payments_total_amount_due_by_you"
+                android:visibility="gone"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/payoutCurrencyInputView" />
+
+            <TextView
+                android:id="@+id/totalAmountTextView"
+                style="@style/TitleTextBoldDark"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/medium_space"
+                android:layout_marginTop="@dimen/extra_large_space"
+                android:layout_marginEnd="@dimen/medium_space"
+                android:visibility="gone"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/amountDueByYouLabelTextView" />
+
+            <TextView
+                android:id="@+id/totalAmountDueTextView"
+                style="@style/SmallTextRegularDark"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/medium_space"
+                android:layout_marginTop="@dimen/small_space"
+                android:layout_marginEnd="@dimen/medium_space"
+                android:text="@string/international_payments_total_due_includes"
+                android:visibility="gone"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/totalAmountTextView" />
+
+            <styleguide.buttons.Button
+                android:id="@+id/continueButton"
+                style="@style/PrimaryButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/medium_space"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/totalAmountDueTextView"
+                app:layout_constraintVertical_bias="1"
+                tools:text="Continue" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</layout>

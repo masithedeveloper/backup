@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    style="@style/ScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <styleguide.widgets.RoundedImageView
+            android:id="@+id/customerProfilePicImageView"
+            android:layout_width="@dimen/profile_pic_hub_dimensions"
+            android:layout_height="@dimen/profile_pic_hub_dimensions"
+            android:layout_marginTop="@dimen/small_space"
+            android:tint="@null"
+            android:clickable="true"
+            android:focusable="true"
+            app:attribute_mask_drawable="@drawable/circle_mask"
+            app:layout_constraintBottom_toTopOf="@id/customerNameTextView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:srcCompat="@drawable/above_shadow" />
+
+        <TextView
+            android:id="@+id/initialsTextView"
+            style="@style/Text_RobotoBold"
+            android:layout_width="@dimen/profile_pic_hub_dimensions"
+            android:layout_height="@dimen/profile_pic_hub_dimensions"
+            android:layout_marginTop="@dimen/small_space"
+            android:layout_marginBottom="@dimen/small_space"
+            android:background="@drawable/round_beneficiary_background"
+            android:contentDescription="@string/profile_initials_content_description"
+            android:gravity="center"
+            android:textSize="@dimen/heading_text_size"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="AB"
+            tools:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/cameraIconImageView"
+            android:layout_width="@dimen/_28sdp"
+            android:layout_height="@dimen/_28sdp"
+            android:background="@drawable/circle"
+            android:scaleType="center"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="@+id/customerProfilePicImageView"
+            app:layout_constraintTop_toTopOf="@+id/customerProfilePicImageView"
+            app:srcCompat="@drawable/ic_camera_light"
+            tools:visibility="visible" />
+
+        <TextView
+            android:id="@+id/customerNameTextView"
+            style="@style/HeadingTextMediumDark"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/medium_space"
+            android:gravity="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/customerProfilePicImageView"
+            tools:text="Who This" />
+
+        <TextView
+            android:id="@+id/clientTypeTextView"
+            style="@style/SmallTextRegularDark"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/tiny_space"
+            android:gravity="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/customerNameTextView"
+            tools:text="Personal bank account" />
+
+        <View
+            android:id="@+id/contentDivider"
+            style="@style/DividerView"
+            android:layout_width="0dp"
+            android:layout_marginTop="@dimen/medium_space"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/clientTypeTextView" />
+
+        <styleguide.buttons.OptionActionButtonView
+            android:id="@+id/personalDetailsActionButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/medium_space"
+            app:attribute_caption="@string/manage_profile_hub_personal_details_title"
+            app:attribute_icon="@drawable/ic_beneficiary_dark"
+            app:attribute_show_arrow="false"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/contentDivider" />
+
+        <styleguide.buttons.OptionActionButtonView
+            android:id="@+id/addressDetailsActionButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_caption="@string/manage_profile_hub_address_details_action"
+            app:attribute_icon="@drawable/ic_accounts_dark"
+            app:attribute_show_arrow="false"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/personalDetailsActionButton" />
+
+        <styleguide.buttons.OptionActionButtonView
+            android:id="@+id/contactDetailsActionButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_caption="@string/manage_profile_hub_contact_details_tile"
+            app:attribute_icon="@drawable/ic_call_dark"
+            app:attribute_show_arrow="false"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/addressDetailsActionButton" />
+
+        <styleguide.buttons.OptionActionButtonView
+            android:id="@+id/educationActionButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_caption="@string/manage_profile_hub_education_tile"
+            app:attribute_icon="@drawable/ic_document_dark"
+            app:attribute_show_arrow="false"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/contactDetailsActionButton" />
+
+        <styleguide.buttons.OptionActionButtonView
+            android:id="@+id/financialDetailsActionButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_caption="@string/manage_profile_hub_financial_details_tile"
+            app:attribute_icon="@drawable/ic_cards_dark"
+            app:attribute_show_arrow="false"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/educationActionButton" />
+
+        <styleguide.buttons.OptionActionButtonView
+            android:id="@+id/nextOfKinActionButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            app:attribute_caption="@string/manage_profile_hub_next_of_kin_title"
+            app:attribute_icon="@drawable/ic_beneficiary_dark"
+            app:attribute_show_arrow="false"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/financialDetailsActionButton" />
+
+        <styleguide.buttons.OptionActionButtonView
+            android:id="@+id/marketingConsentActionButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_caption="@string/manage_profile_hub_marketing_consent_title"
+            app:attribute_icon="@drawable/ic_feedback_dark"
+            app:attribute_show_arrow="false"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/nextOfKinActionButton" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

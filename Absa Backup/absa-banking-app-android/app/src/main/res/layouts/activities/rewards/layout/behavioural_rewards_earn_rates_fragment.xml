@@ -1,0 +1,106 @@
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/bankEarnRatesTextView"
+            style="@style/NormalTextMediumDark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/medium_space"
+            android:text="@string/bank_earn_rates" />
+
+        <styleguide.content.LineItemView
+            android:id="@+id/bankDebitCardEarnRateLineItemView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:attribute_label_text="@string/debit_card"
+            tools:attribute_content_text="5%" />
+
+        <styleguide.content.LineItemView
+            android:id="@+id/bankCreditCardEarnRateLineItemView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:attribute_label_text="@string/credit_card"
+            tools:attribute_content_text="2%" />
+
+        <View
+            android:id="@+id/topDividerImageView"
+            style="@style/DividerView"
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/small_space" />
+
+        <TextView
+            android:id="@+id/fuelEarnRatesTextView"
+            style="@style/NormalTextMediumDark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/medium_space"
+            android:text="@string/fuel_purchase" />
+
+        <styleguide.content.LineItemView
+            android:id="@+id/fuelDebitCardEarnRateLineItemView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:attribute_label_text="@string/debit_card"
+            tools:attribute_content_text="0.7%" />
+
+        <styleguide.content.LineItemView
+            android:id="@+id/fuelCreditCardEarnRateLineItemView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:attribute_label_text="@string/credit_card"
+            tools:attribute_content_text="3%" />
+
+        <View
+            android:id="@+id/middleDividerImageView"
+            style="@style/DividerView"
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/small_space" />
+
+        <TextView
+            android:id="@+id/groceryEarnRatesTextView"
+            style="@style/NormalTextMediumDark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/medium_space"
+            android:text="@string/grocery_earn_rates_heading" />
+
+        <styleguide.content.LineItemView
+            android:id="@+id/groceryDebitCardEarnRateLineItemView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:attribute_label_text="@string/debit_card"
+            tools:attribute_content_text="0.7%" />
+
+        <styleguide.content.LineItemView
+            android:id="@+id/groceryCreditCardEarnRateLineItemView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:attribute_label_text="@string/credit_card"
+            tools:attribute_content_text="3%" />
+
+        <View
+            android:id="@+id/bottomDividerImageView"
+            style="@style/DividerView"
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/small_space" />
+
+        <TextView
+            style="@style/SmallTextRegularDark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/medium_space"
+            android:layout_marginTop="@dimen/medium_space"
+            android:layout_marginEnd="@dimen/medium_space"
+            android:layout_marginBottom="@dimen/large_space"
+            android:text="@string/rewards_earn_rates_disclaimer" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

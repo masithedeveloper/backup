@@ -1,0 +1,26 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0807",
+      "resCde": "00000",
+      "resMsg": "SUCCESS",
+      "serVer": "2.0",
+      "expTrace": null
+    },
+    "payData": {
+      "status": "FAILURE",
+      "statusMessage": null,
+      "newDebitCardNumber": null,
+      "sureCheckFlag": null,
+      "tvnFlag": null,
+      "referenceNumber": null,
+      "corelationId": null,
+      "transactionDate": null,
+      "cellnumber": null,
+      "email": null,
+      "notificationMethod": null,
+      "txnStatus": null,
+      "txnMessage": null
+    }
+  }
+}

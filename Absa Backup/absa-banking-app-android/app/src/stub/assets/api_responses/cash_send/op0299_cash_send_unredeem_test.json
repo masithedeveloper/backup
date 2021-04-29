@@ -1,0 +1,78 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0299",
+      "resCde": "00000",
+      "resMsg": "",
+      "serVer": "2.0"
+    },
+    "payData": {
+      "cashsendUnredeemedTransactionDetails": [
+        {
+          "beneficiaryAccountNumber": "9050993953",
+          "beneficiaryName": "Kenny",
+          "beneficiarySurName": "Sigauke",
+          "beneficiaryNickName": "Kenny",
+          "beneficiaryId": "0",
+          "cellPhoneNumber": "0856224555",
+          "statementTxnDesc1": "Kenny",
+          "transactionCurrencyAmount": {
+            "amt": "520.00",
+            "curr": "R"
+          },
+          "transactionTypeCode": "",
+          "virtualServerId": "",
+          "sessionKeyId": "",
+          "transactionRefNo": "1",
+          "uniqueEFT": "800024B578",
+          "transactionDateTime": "07/28/2017",
+          "beneficiaryPayment": true,
+          "cashSendPlus": true,
+          "action": ""
+        },
+        {
+          "beneficiaryAccountNumber": "9050993953",
+          "beneficiaryName": "Kenny",
+          "beneficiarySurName": "Kenny",
+          "beneficiaryNickName": "Kenny",
+          "beneficiaryId": "0",
+          "cellPhoneNumber": "0724719353",
+          "statementTxnDesc1": "Kenny",
+          "transactionCurrencyAmount": {
+            "amt": "80.00",
+            "curr": "R"
+          },
+          "transactionTypeCode": "",
+          "virtualServerId": "",
+          "sessionKeyId": "",
+          "transactionRefNo": "2",
+          "uniqueEFT": "800024B23A",
+          "transactionDateTime": "07/27/2017",
+          "beneficiaryPayment": false,
+          "cashSendPlus": false,
+          "action": ""
+        },
+        {
+          "beneficiaryAccountNumber": "9050993953",
+          "beneficiaryNickName": "saurabh",
+          "beneficiaryId": "0",
+          "cellPhoneNumber": "0616540398",
+          "amt": "200.0",
+          "transactionCurrencyAmount": {
+            "amt": "50.00",
+            "curr": "R"
+          },
+          "transactionTypeCode": "",
+          "virtualServerId": "",
+          "sessionKeyId": "",
+          "transactionRefNo": "1",
+          "uniqueEFT": "80002465C1",
+          "transactionDateTime": "07/06/2017",
+          "beneficiaryPayment": false,
+          "cashSendPlus": false,
+          "action": ""
+        }
+      ]
+    }
+  }
+}

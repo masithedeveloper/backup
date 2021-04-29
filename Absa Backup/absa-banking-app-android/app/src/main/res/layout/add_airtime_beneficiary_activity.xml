@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/header_dark"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ScrollView
+            android:id="@+id/addAirtimeBeneficiaryScrollView"
+            style="@style/ScrollView"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toTopOf="@+id/continueAirtimeBeneficiaryAddButton"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/toolbar">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/titleTextView"
+                    style="@style/NormalTextMediumDark"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/medium_space"
+                    android:layout_marginTop="@dimen/small_space"
+                    android:text="@string/enter_new_ben_details"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <styleguide.widgets.RoundedImageView
+                    android:id="@+id/roundedImageView"
+                    android:layout_width="@dimen/profile_image_size"
+                    android:layout_height="@dimen/profile_image_size"
+                    android:layout_marginTop="@dimen/medium_space"
+                    android:background="@drawable/round_beneficiary_background_red"
+                    android:contentDescription="@string/airtime_beneficiary_add_photo_description"
+                    android:scaleType="centerCrop"
+                    android:tint="@null"
+                    app:attribute_mask_drawable="@drawable/circle_mask"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/titleTextView"
+                    app:srcCompat="@drawable/camera_icon_shape" />
+
+                <styleguide.forms.NormalInputView
+                    android:id="@+id/mobileNumberInputView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="phone"
+                    app:attribute_editable="true"
+                    app:attribute_hint_text="@string/airtime_mobile_number_hint"
+                    app:attribute_image="@drawable/ic_beneficiary_dark_add"
+                    app:attribute_mask="### ### ####"
+                    app:attribute_title_text="@string/airtime_mobile_number_header"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/roundedImageView" />
+
+                <styleguide.forms.NormalInputView
+                    android:id="@+id/beneficiaryNameInputView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:attribute_editable="true"
+                    app:attribute_hint_text="@string/airtime_beneficiary_name_hint"
+                    app:attribute_title_text="@string/airtime_beneficiary_name_header"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/mobileNumberInputView">
+
+                </styleguide.forms.NormalInputView>
+
+                <styleguide.forms.NormalInputView
+                    android:id="@+id/mobileNetworkSelectionInputView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/airtime_beneficiary_select_mobile_network"
+                    app:attribute_hint_text="@string/airtime_mobile_network_operator_hint"
+                    app:attribute_selector_type="LONG_LIST"
+                    app:attribute_title_text="@string/airtime_mobile_network_operator_header"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/beneficiaryNameInputView" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </ScrollView>
+
+        <styleguide.buttons.Button
+            android:id="@+id/continueAirtimeBeneficiaryAddButton"
+            style="@style/PrimaryButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/continue_button"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

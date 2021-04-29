@@ -1,0 +1,35 @@
+{
+  "successResponseModel": {
+    "payData": {
+      "cardNumbersForReplacementRespDTOs": [
+        {
+          "reasonDescription": null,
+          "creditCardNumber": 5471206000604019,
+          "reasonCmsKey": null,
+          "reasonCode": 0
+        },
+        {
+          "reasonDescription": null,
+          "creditCardNumber": 5471239280604294,
+          "reasonCmsKey": null,
+          "reasonCode": 0
+        },
+        {
+          "reasonDescription": null,
+          "creditCardNumber": 5471234920601010,
+          "reasonCmsKey": null,
+          "reasonCode": 0
+        }
+      ],
+      "txnStatus": "Success",
+      "txnMessage": "Success"
+    },
+    "payHdr": {
+      "resCde": "00000",
+      "resMsg": "Success",
+      "resId": "RES0891",
+      "expTrace": null,
+      "serVer": "2.0"
+    }
+  }
+}

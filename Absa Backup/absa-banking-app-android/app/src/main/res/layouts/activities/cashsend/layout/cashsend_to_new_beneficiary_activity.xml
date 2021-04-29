@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/header_dark" />
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        style="@style/ScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <styleguide.forms.EditBeneficiaryInputView
+                android:id="@+id/nameEditBeneficiaryInputView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textCapSentences"
+                android:maxLength="20"
+                app:attribute_editable="true"
+                app:attribute_hint_text="@string/cash_send_enter_beneficiary_name"
+                app:attribute_title_text="@string/cash_send_beneficiary_name" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/surnameInputView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textCapSentences"
+                android:maxLength="20"
+                app:attribute_editable="true"
+                app:attribute_hint_text="@string/cash_send_enter_beneficiary_surname"
+                app:attribute_title_text="@string/cash_send_beneficiary_surname" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/numberInputView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/small_space"
+                android:digits="0123456789 "
+                android:inputType="phone"
+                app:attribute_editable="true"
+                app:attribute_hint_text="@string/cash_send_enter_beneficiary_mobile_number"
+                app:attribute_mask="### ### ####"
+                app:attribute_selector_type="CONTACT"
+                app:attribute_title_text="@string/cash_send_beneficiary_mobile_number" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/myReferenceInputView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:digits="@string/allowed_reference_digits"
+                android:maxLength="20"
+                app:attribute_editable="true"
+                app:attribute_hint_text="@string/enter_ur_ref"
+                app:attribute_title_text="@string/my_reference" />
+        </LinearLayout>
+    </ScrollView>
+
+    <styleguide.buttons.Button
+        android:id="@+id/btnContinue"
+        style="@style/PrimaryButton"
+        android:text="@string/next" />
+</LinearLayout>

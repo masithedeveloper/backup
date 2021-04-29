@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Settings landing screen -->
+    <string name="settings_push_notifications_switched_off_message">Push notifications successfully switched off</string>
+    <string name="settings_language">Language</string>
+    <string name="settings_enable_push_notifications">Enable push notifications</string>
+    <string name="settings_enable_use_fingerprint_log_in">Use fingerprint to log in</string>
+    <string name="settings_enable_sounds">Allow playing of sounds when using the app</string>
+    <string name="settings_dark_theme">Dark theme</string>
+
+    <!-- Card digitalLimits -->
+
+    <string name="card_limits_toolbar_title">Card Limits</string>
+    <string name="card_limits_edit_card_toolbar_title">Edit Card Limit</string>
+    <string name="card_limits_atm_withdrawal_limit">ATM withdrawal limit</string>
+    <string name="card_limits_point_of_sale_daily_limit">Point of sale daily limit</string>
+    <string name="card_limits_min_max_limit">Min limit %s\nMax limit %s</string>
+    <string name="card_limits_min_limit">Min limit %s\</string>
+    <string name="card_limits_max_limit">Max limit %s\</string>
+    <string name="card_limits_min_limit_rand">Min limit R %s</string>
+    <string name="card_limits_max_limit_rand">Max limit R %s</string>
+</resources>

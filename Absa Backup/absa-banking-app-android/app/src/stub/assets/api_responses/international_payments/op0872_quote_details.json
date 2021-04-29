@@ -1,0 +1,48 @@
+{
+  "successResponseModel": {
+    "payData": {
+      "paymentIFTQuoteDetails": {
+        "localCurrency": "ZAR",
+        "natureOfPaymentDTO": null,
+        "foreignCurrency": "USD",
+        "expectedPayoutAmount": "643.85",
+        "destinationCurrencyRate": "64.3852047",
+        "commissionAmountFee": "100.26",
+        "senderFirstName": "ES",
+        "receiverFirstName": "Westeen",
+        "receiverSurname": "Koregaon",
+        "usdconversionRate": "14.3233",
+        "mtcnCode": "4270646690",
+        "fromAccount": null,
+        "testQuestion": "",
+        "testAnswer": "",
+        "foreignAmount": "10",
+        "localAmount": "143.23",
+        "valueDate": null,
+        "destinationCity": "pune",
+        "destinationCountry": "IN",
+        "expectedPayoutCurrency": "INR",
+        "transactionReferenceNumber": "CBO6003309317K17",
+        "originatingCountry": null,
+        "quoteTimer": null,
+        "senderSurname": "MUZZII",
+        "vatAmount": "14.04",
+        "totalDue": "257.53"
+      },
+      "streetAddress": "KP",
+      "residingCountry": "IN",
+      "resultStatus": null,
+      "cmaIndicator": false,
+      "resultDetail": null,
+      "txnStatus": "Success",
+      "txnMessage": "Success"
+    },
+    "payHdr": {
+      "resMsg": "Success",
+      "resCde": "00000",
+      "expTrace": null,
+      "serVer": "2.0",
+      "resId": "RES0872"
+    }
+  }
+}

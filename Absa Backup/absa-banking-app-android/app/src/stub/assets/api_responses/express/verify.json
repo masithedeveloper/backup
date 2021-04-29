@@ -1,0 +1,9 @@
+{
+  "header": {
+    "statuscode": "0",
+    "service": "DeviceManagementFacade",
+    "operation": "VerifyDeviceHmacSecret",
+    "timestamp": "2020-02-10 08:34:25.222",
+    "resultMessages": []
+  }
+}

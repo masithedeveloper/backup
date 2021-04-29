@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- New To Bank-->
+    <string-array name="new_to_bank_account_feature_array" translatable="false">
+        <item>Straight forward banking</item>
+        <item>Banking with benefits</item>
+        <item>More than just banking</item>
+    </string-array>
+
+    <string-array name="new_to_bank_account_feature_description_array" translatable="false">
+        <item>Minimum banking costs to save you money</item>
+        <item>Some great lifestyle benefits at a low cost</item>
+        <item>Discounts, lifestyle benefits &amp; premium service</item>
+    </string-array>
+
+</resources>

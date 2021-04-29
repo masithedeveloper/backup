@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <styleguide.buttons.OptionActionButtonView
+            android:id="@+id/addBeneficiaryButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:attribute_caption="@string/add_beneficiary"
+            app:attribute_icon="@drawable/ic_beneficiary_dark_add"
+            app:attribute_show_arrow="false"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:id="@+id/dividerView"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="@dimen/small_space"
+            android:background="@color/silver_grey"
+            app:layout_constraintTop_toBottomOf="@+id/addBeneficiaryButton" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/beneficiaryList"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/dividerView"
+            tools:itemCount="3"
+            tools:listitem="@layout/beneficiary_list_item" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/noBeneficiaryFoundContainer"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/medium_space"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/dividerView"
+            tools:visibility="visible">
+
+            <ImageView
+                android:id="@+id/addNewBeneficiaryImageView"
+                android:layout_width="@dimen/dimen_80dp"
+                android:layout_height="@dimen/dimen_80dp"
+                android:layout_margin="@dimen/large_space"
+                android:tint="@null"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_add_beneficiary" />
+
+            <TextView
+                android:id="@+id/addNewBeneficiaryTextView"
+                style="@style/LargeTextRegularDark"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/medium_space"
+                android:gravity="center"
+                android:text="@string/no_ben_details_msg_cashsend"
+                android:textColor="@color/foil"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/addNewBeneficiaryImageView" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

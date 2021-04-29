@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="risk_based_approach_employment_status">Werkstatus</string>
+    <string name="risk_based_approach_update_personal_information">Dateer asseblief jou persoonlike besonderhede op</string>
+    <string name="risk_based_approach_employment_status_hint">Kies indiensnemingstatus</string>
+    <string name="risk_based_approach_occupation">Beroep</string>
+    <string name="risk_based_approach_occupation_hint">Kies jou beroep</string>
+    <string name="risk_based_approach_source_of_funds_hint">Kies \'n bron van fondse</string>
+    <string name="risk_based_approach_occupation_error_message">Kies jou beroep</string>
+    <string name="risk_based_approach_employment_status_error_message">Kies indiensnemingstatus</string>
+    <string name="risk_based_approach_source_of_funds_error_message">Kies \'n bron van fondse</string>
+    <string name="risk_based_approach_unable_to_continue">Jou aansoek kon ongelukkig nie in die App voltooi word nie. Besoek asseblief jou naaste tak vir meer inligting.</string>
+    <string name="risk_based_approach_select_employment_status">Kies indiensnemingstatus</string>
+    <string name="risk_based_approach_select_occupation">Kies beroep</string>
+    <string name="risk_based_approach_select_source_of_funds">Kies \'n bron van fondse</string>
+    <string name="risk_based_approach_personal_details_toolbar_title">Persoonlike besonderhede</string>
+    <string name="risk_based_approach_failure_private">Ons benodig bykomende inligting om jou aansoek te voltooi. Kontak asseblief jou Bankier of skakel 0861 000 734 vir hulp.</string>
+    <string name="risk_based_approach_failure_message">Besoek asseblief jou naaste tak met jou ID en bewys van verblyf (bv. ’n water- of elektrisiteitsrekening) van nie ouer as drie maande nie, om jou aansoek te verwerk.</string>
+    <string name="risk_based_approach_casa_failure_message">Jou Absa-profiel moet opgedateer word.\n\nBesoek asseblief ’n tak om jou profielinligting op te dateer sodat jy kan voortgaan.</string>
+    <string name="risk_based_approach_fica_failure_message">Jou Absa-profiel moet opgedateer word.\n\nTeken asseblief by Absa Online aan of besoek ’n tak om jou profielinligting op te dateer sodat jy kan voortgaan.</string>
+</resources>

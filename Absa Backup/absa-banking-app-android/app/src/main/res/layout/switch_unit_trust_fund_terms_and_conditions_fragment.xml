@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scrollView"
+    style="@style/ScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <styleguide.content.NumberedListItem
+            android:id="@+id/firstTermListItem"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/medium_space"
+            app:attribute_content="@string/buy_unit_trust_terms_of_use_1"
+            app:attribute_number="\u2022"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <styleguide.content.NumberedListItem
+            android:id="@+id/secondTermListItem"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/medium_space"
+            app:attribute_content="@string/buy_unit_trust_terms_of_use_2"
+            app:attribute_number="\u2022"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/firstTermListItem" />
+
+        <styleguide.forms.CheckBoxView
+            android:id="@+id/acceptTermsAndConditionsCheckBoxView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/medium_space"
+            android:layout_marginBottom="@dimen/small_space"
+            app:attribute_description="@string/buy_unit_trust_terms_of_use"
+            app:attribute_is_checked="false"
+            app:attribute_is_required="true"
+            app:layout_constraintBottom_toTopOf="@+id/acceptButton"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <styleguide.buttons.Button
+            android:id="@+id/acceptButton"
+            style="@style/PrimaryButton"
+            android:layout_width="0dp"
+            android:text="@string/accept"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

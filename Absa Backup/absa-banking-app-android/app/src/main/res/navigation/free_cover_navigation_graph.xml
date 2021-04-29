@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/free_cover_navigation_graph"
+    app:startDestination="@id/freeCoverApplyFragment">
+
+    <fragment
+        android:id="@+id/freeCoverApplyFragment"
+        android:name="com.barclays.absa.banking.freeCover.ui.FreeCoverApplyFragment"
+        android:label="FreeCoverApplyFragment"
+        tools:layout="@layout/free_cover_apply_fragment">
+        <action
+            android:id="@+id/action_freeCoverApplyFragment_to_freeCoverDetailsFragment"
+            app:destination="@id/freeCoverDetailsFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/freeCoverDetailsFragment"
+        android:name="com.barclays.absa.banking.freeCover.ui.FreeCoverDetailsFragment"
+        android:label="FreeCoverDetailsFragment"
+        tools:layout="@layout/free_cover_details_fragment">
+        <action
+            android:id="@+id/action_freeCoverDetailsFragment_to_freeCoverEmploymentDetailsFragment"
+            app:destination="@id/freeCoverEmploymentDetailsFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+    <fragment
+        android:id="@+id/freeCoverEmploymentDetailsFragment"
+        android:name="com.barclays.absa.banking.freeCover.ui.FreeCoverEmploymentDetailsFragment"
+        android:label="FreeCoverEmploymentDetailsFragment"
+        tools:layout="@layout/free_cover_employment_details_fragment">
+        <action
+            android:id="@+id/action_freeCoverEmploymentDetailsFragment_to_freeCoverBeneficiaryDetailsFragment"
+            app:destination="@id/freeCoverBeneficiaryDetailsFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <action
+            android:id="@+id/action_freeCoverEmploymentDetailsFragment_to_freeCoverConfirmationFragment"
+            app:destination="@id/freeCoverConfirmationFragment"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+    <fragment
+        android:id="@+id/freeCoverBeneficiaryDetailsFragment"
+        android:name="com.barclays.absa.banking.freeCover.ui.FreeCoverBeneficiaryDetailsFragment"
+        android:label="FreeCoverBeneficiaryDetailsFragment"
+        tools:layout="@layout/generic_insurance_beneficiary_details_fragment">
+        <action
+            android:id="@+id/action_freeCoverBeneficiaryDetailsFragment_to_freeCoverBeneficiaryContactDetailsFragment"
+            app:destination="@id/freeCoverBeneficiaryContactDetailsFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+    <fragment
+        android:id="@+id/freeCoverBeneficiaryContactDetailsFragment"
+        android:name="com.barclays.absa.banking.freeCover.ui.FreeCoverBeneficiaryContactDetailsFragment"
+        android:label="FreeCoverBeneficiaryContactDetailsFragment"
+        tools:layout="@layout/generic_insurance_beneficiary_contact_details_fragment">
+        <action
+            android:id="@+id/action_freeCoverBeneficiaryContactDetailsFragment_to_freeCoverConfirmationFragment"
+            app:destination="@id/freeCoverConfirmationFragment"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+    <fragment
+        android:id="@+id/freeCoverConfirmationFragment"
+        android:name="com.barclays.absa.banking.freeCover.ui.FreeCoverConfirmationFragment"
+        android:label="FreeCoverConfirmationFragment"
+        tools:layout="@layout/free_cover_confirmation_fragment">
+
+        <action
+            android:id="@+id/action_freeCoverConfirmationFragment_to_freeCoverGenericResultScreenFragment2"
+            app:destination="@id/freeCoverGenericResultScreenFragment"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/freeCoverGenericResultScreenFragment"
+        android:name="styleguide.screens.GenericResultScreenFragment"
+        android:label="GenericResultScreenFragment"
+        tools:layout="@layout/generic_results_screen_fragment">
+        <argument
+            android:name="GenericResultScreenFragment"
+            app:argType="styleguide.screens.GenericResultScreenProperties" />
+    </fragment>
+
+</navigation>

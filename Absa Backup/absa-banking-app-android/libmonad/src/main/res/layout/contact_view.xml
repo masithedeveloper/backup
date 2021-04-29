@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:background="@color/pink"
+    tools:parentTag="androidx.constraintlayout.widget.ConstraintLayout">
+
+    <TextView
+        android:id="@+id/contact_name_text_view"
+        style="@style/LargeTextRegularDark"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/tiny_space"
+        android:layout_marginStart="@dimen/medium_space"
+        android:layout_marginTop="@dimen/normal_space"
+        android:textColor="@color/dark_grey_light_theme_text_color"
+        app:layout_constraintEnd_toStartOf="@+id/card_icon_view"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Call Centre" />
+
+    <TextView
+        android:id="@+id/contact_number_text_view"
+        style="@style/SmallTextRegularDark"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/normal_space"
+        android:layout_marginEnd="@dimen/tiny_space"
+        android:layout_marginStart="@dimen/medium_space"
+        android:layout_marginTop="@dimen/tiny_space"
+        android:textColor="@color/dark_grey_light_theme_text_color"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/card_icon_view"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/contact_name_text_view"
+        tools:text="4901 3456 667" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/card_icon_view"
+        android:layout_width="@dimen/icon_size"
+        android:layout_height="@dimen/icon_size"
+        android:layout_marginEnd="@dimen/extra_large_space"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_call_dark" />
+
+</merge>

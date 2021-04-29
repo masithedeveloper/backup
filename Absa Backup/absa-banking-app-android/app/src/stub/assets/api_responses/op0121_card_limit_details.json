@@ -1,0 +1,30 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0121",
+      "resCde": "00000",
+      "resMsg": "SUCCESS",
+      "serVer": "2.0"
+    },
+    "payData": {
+      "cardNumber": "4483870000011019",
+      "cardType": "Debit",
+      "atmCurrentLimit": {
+        "curr": "R",
+        "amt": "5000.00"
+      },
+      "posCurrentLimit": {
+        "curr": "R",
+        "amt": "2000.00"
+      },
+      "atmMaxLimit": {
+        "curr": "R",
+        "amt": "10000.00"
+      },
+      "posMaxLimit": {
+        "curr": "R",
+        "amt": "500000.00"
+      }
+    }
+  }
+}

@@ -1,0 +1,1457 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.barclays.absa.banking"
+    android:installLocation="auto">
+
+    <uses-sdk tools:overrideLibrary="com.oneidentity.sdk.android, com.airbnb.lottie, com.imimobile.connect.core" />
+
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.location"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.location.network"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.location.gps"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.sensor.accelerometer"
+        android:required="false" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true" />
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <permission
+        android:name="${applicationId}.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="${applicationId}.permission.C2D_MESSAGE" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <permission
+        android:name="${applicationId}.permission.ALARM_REFRESH_ACTION"
+        android:protectionLevel="signature" />
+    <permission
+        android:name="${applicationId}.permission.BLOCK_LOGIN_ACTION"
+        android:protectionLevel="signature" />
+    <permission
+        android:name="${applicationId}.permission.ACCESS_FINE_LOCATION"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="${applicationId}.permission.ALARM_REFRESH_ACTION" />
+
+    <!-- Protection Level Dangerous -->
+    <uses-permission android:name="${applicationId}.permission.BLOCK_LOGIN_ACTION" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+
+    <!-- Protection Level Normal -->
+    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    <application
+        android:name=".framework.app.BMBApplication"
+        android:allowBackup="false"
+        android:hardwareAccelerated="true"
+        android:icon="${launch_icon_id}"
+        android:label="Absa Banking"
+        android:largeHeap="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning"
+        tools:replace="android:allowBackup, android:label">
+
+        <activity
+            android:name=".presentation.launch.SplashActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppLandingTheme" />
+
+        <activity-alias
+            android:name=".v4.presentation.launch.SplashScreen2faActivity"
+            android:screenOrientation="portrait"
+            android:targetActivity=".presentation.launch.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <intent-filter>
+                <data android:scheme="absabankingappurlscheme" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+            </intent-filter>
+        </activity-alias>
+
+        <activity
+            android:name=".lotto.ui.LottoActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".rewards.ui.redemptions.vouchers.VoucherRedemptionActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".presentation.sureCheck.EnterVerificationNumber2faActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".home.ui.HomeContainerActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/HomeContainerActivity" />
+        <activity
+            android:name=".presentation.shared.NotificationMethodSelectionActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".manage.devices.VerificationDeviceAvailableActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".manage.devices.DeviceListActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".manage.devices.ManageDeviceActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".settings.ui.SettingsHubActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".taxCertificates.ui.TaxCertificatesActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".home.ui.DocumentsActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".bankConfirmationLetter.ui.BankConfirmationLetterActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".cashSendPlus.ui.CashSendPlusRegistrationActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".cashSendPlus.ui.CashSendPlusCancellationActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".cashSendPlus.ui.CashSendPlusLimitsActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".cashSendPlus.ui.CashSendPlusSendMultipleActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".presentation.generateTokens.NoConnectionGenerateTokenActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".manage.devices.ReasonDeviceNotAvailable2faActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".settings.ui.ManageDigitalLimitsActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".payments.ChooseBranchListActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".manage.devices.linking.PreLogonDeviceDelink2faActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".manage.devices.linking.DeviceLimitReached2faActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".policy_beneficiaries.ui.ManageBeneficiaryActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".presentation.sureCheck.SureCheckCountdownActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".presentation.verification.SureCheckAuth2faActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden"
+            android:exported="false"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/SureCheckAuth2faActivity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".presentation.welcome.WelcomeActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".deviceLinking.ui.AccountLoginActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".manage.devices.VerificationDeviceNominationActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".passcode.passcodeLogin.ForgotPasscodeActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppWelcomeTheme" />
+        <activity
+            android:name=".login.ui.passcode.PasscodeHelpActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".login.ui.TermsAndConditionsActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".deviceLinking.ui.TermsAndConditionsSelectorActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".presentation.sessionTimeout.SessionTimeOutDialogActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden"
+            android:exported="false"
+            android:label="@string/talkback_timeout_heading_dialog"
+            android:theme="@style/LogoutDialog" />
+        <activity
+            android:name=".account.ui.ArchivedStatementsActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".account.ui.StampedStatementActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".account.ui.CsvStatementActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".account.ui.AccountDateRangeActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".account.ui.ChooseDatesActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <!-- Transaction Activities -->
+        <activity
+            android:name=".transfer.TransferFundsActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".presentation.transactions.SelectAccountTypeActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".payments.SelectBeneficiaryPaymentActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".paymentsRewrite.ui.PaymentsActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".buy.ui.airtime.buyNew.AddNewAirtimeBeneficiaryDetailActivity"
+            android:exported="false"
+            android:label="@string/talkback_prepaid_summary_screen_label"
+            android:screenOrientation="portrait" />
+
+        <uses-library
+            android:name="com.google.android.maps"
+            android:required="false" />
+        <!-- Add Airtime Beneficiary -->
+        <activity
+            android:name=".buy.ui.airtime.buyNew.AddBeneficiaryAirtimeActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <!-- CashSend -->
+        <!-- Once Off CashSend -->
+        <activity
+            android:name=".cashSend.ui.CashSendOnceOffActivity"
+            android:configChanges="keyboard|keyboardHidden"
+            android:exported="false"
+            android:label="@string/talkback_cashsend_onceoff_activity_label"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".cashSend.ui.CashSendOnceOffConfirmActivity"
+            android:exported="false"
+            android:label="@string/talkback_cashsend_onceoff_overview_label" />
+        <activity
+            android:name=".rewards.ui.BuyAirtimeWithAbsaRewardsActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".buy.ui.airtime.BuyPrepaidActivity"
+            android:exported="false"
+            android:label="@string/talkback_prepaid_home_activity_label"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".buy.ui.airtime.existing.PurchaseDetailsActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden"
+            android:exported="false"
+            android:label="@string/talkback_prepaid_purchase_details_screen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".buy.ui.airtime.existing.PurchaseOverview"
+            android:configChanges="orientation|keyboard|keyboardHidden"
+            android:exported="false"
+            android:label="@string/talkback_prepaid_purchase_overview"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".presentation.transactions.PrepaidAirtimeResultActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".buy.ui.airtime.buyOnceOff.OnceOffAirtimeActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".buy.ui.airtime.buyOnceOff.OnceOffAirtimeConfirmActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".cashSend.ui.CashSendActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden"
+            android:exported="false"
+            android:label="@string/talkback_cashsend_welcome"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".expressCashSend.ui.CashSendActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden"
+            android:exported="false"
+            android:label="@string/talkback_cashsend_welcome"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".cashSend.ui.CashSendToNewBeneficaryActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden"
+            android:exported="false"
+            android:label="@string/talkback_cashsend_someone_new_announce"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".cashSend.ui.SendBeneficiaryCashSendResultActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".cashSend.ui.CashSendBeneficiaryActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".cashSend.ui.CashSendOverViewActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden"
+            android:exported="false"
+            android:label="@string/talkback_cashsend_overview_activity_label"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".cashSend.ui.CashSendResultActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".cashSend.ui.UnredeemedDetailsActivity"
+            android:exported="false"
+            android:label="@string/talkback_unredeemed_cashsends_transaction_details_label"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".cashSend.ui.CashSendSelfActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden"
+            android:exported="false"
+            android:label="@string/talkback_cashsend_selfsend_announce"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".cashSend.ui.UnredeemedTransactionActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden"
+            android:exported="false"
+            android:label="@string/talkback_cashsend_unredeemed_annnounce"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".presentation.security.SecurityActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".settings.ui.ManageAccountsActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".settings.ui.SettingsCardLimitsActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".settings.ui.SettingsChangeCardLimitConfirmActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".buy.ui.electricity.PrepaidElectricityActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".login.ui.RootTamperActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".login.ui.passcode.PasscodeSuccessUseFingerprintActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".deviceLinking.ui.LinkingAlmostDoneActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".card.ui.debitCardReplacement.SelectBranchAndAddressActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".deviceLinking.ui.uniqueNumber.LinkingUniqueNumberActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".registration.RegistrationResultActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".presentation.sureCheckV2.SureCheckConfirmation2faActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <!-- SureCheck failed screens -->
+        <activity
+            android:name=".passcode.passcodeLogin.PasscodeRevokedActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".passcode.passcodeLogin.SureCheckFailedForgotPasscode"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".manage.devices.linking.DelinkCurrentPrimaryDevice2faActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".presentation.sureCheckV2.SureCheckDevicePasscode2faActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".manage.devices.SureCheckEnterCardInfo2faActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".presentation.whatsNew.WhatsNewLottieActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".passcode.passcodeLogin.multipleUserLogin.SimplifiedLoginActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden"
+            android:exported="false"
+            android:label="@string/talkback_passcoode_landing"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppWelcomeTheme" />
+        <activity
+            android:name=".passcode.createPasscode.CreatePasscodeActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden"
+            android:exported="false"
+            android:parentActivityName=".deviceLinking.ui.LinkingAlmostDoneActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppWelcomeTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".deviceLinking.ui.LinkingAlmostDoneActivity" />
+        </activity>
+        <activity
+            android:name=".passcode.createPasscode.ConfirmPasscodeActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden"
+            android:exported="false"
+            android:parentActivityName=".passcode.createPasscode.CreatePasscodeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppWelcomeTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".passcode.createPasscode.CreatePasscodeActivity" />
+        </activity>
+        <activity
+            android:name=".deviceLinking.ui.LinkingPasswordValidationActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".deviceLinking.ui.CreateNicknameActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="adjustPan|adjustResize" />
+        <activity
+            android:name=".registration.PartialRegistrationInfoActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".registration.RegisterAtmValidationActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".manage.devices.linking.ForgotPassword2faActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".registration.RegisterConfirmContactDetails2faActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".rewards.ui.redemptions.points.RedeemShoppingPointsActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".dualAuthorisations.ui.DualAuthTransactionDetailsCashSendActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".dualAuthorisations.ui.DualAuthTransactionDetailsPaymentActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".dualAuthorisations.ui.DualAuthTransactionDetailsTransferActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".dualAuthorisations.ui.DualAuthTransactionDetailsPrepaidActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".dualAuthorisations.ui.pendingAuthorisation.DualAuthAuthorisationsPendingActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".dualAuthorisations.ui.pendingAuthorisation.DualAuthPaymentPendingActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".dualAuthorisations.ui.pendingAuthorisation.DualAuthElectricityPendingActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".dualAuthorisations.ui.pendingAuthorisation.DualAuthDigitalLimitChangePendingActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".dualAuthorisations.ui.pendingAuthorisation.DualAuthDebitCardReplacementPendingActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".registration.RegisterCreatePinActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".registration.RegisterCreatePasswordActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".passcode.passcodeLogin.RemoveAccountConfirmationActivity"
+            android:exported="false"
+            android:theme="@style/ActivityDialog" />
+        <activity
+            android:name=".registration.RegisterAccountLimitsActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".presentation.multipleUsers.MultipleUsersFingerprintWarningActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".deviceLinking.ui.scanQrCode.LinkingQRCodeActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".deviceLinking.ui.scanQrCode.LinkingQRCodeCamera2Activity"
+            android:configChanges="orientation|keyboard|keyboardHidden"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".deviceLinking.ui.verifyAlias.VerifyAliasDetails2faActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".payments.ProofOfPaymentHistoryActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".payments.ProofOfPaymentOverviewActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".presentation.genericResult.GenericResultActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/GenericResultTheme" />
+        <activity
+            android:name=".presentation.genericResult.MaintenanceResultActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/GenericResultTheme" />
+        <activity
+            android:name=".presentation.sureCheckV2.OfflineOtpActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".presentation.sureCheckV2.SecurityCodeActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".presentation.homeLoan.HomeloanPerilsClaimDetailsActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".presentation.homeLoan.HomeLoanPerilsContactDetailsActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".presentation.homeLoan.HomeLoanPerilsClaimOverviewActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".payments.multiple.MultipleBeneficiarySelectionActivity"
+            android:configChanges="orientation"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".payments.multiple.MultiplePaymentsAccountSelectorActivity"
+            android:configChanges="orientation"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".payments.ImmediateInterbankPaymentMultipleActivity"
+            android:configChanges="orientation"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".card.ui.creditCardReplacement.CreditCardReplacementOverviewActivity"
+            android:configChanges="orientation"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".card.ui.cardViewDetails.ViewCardDetailsActivity"
+            android:configChanges="orientation"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".card.ui.creditCardReplacement.CreditCardStopAndReplaceWarningActivity"
+            android:configChanges="orientation"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".presentation.connectivity.NoConnectivityActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden"
+            android:exported="false"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".presentation.genericResult.DialogGenericResultActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".debiCheck.ui.DebiCheckActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".debiCheck.ui.DebiCheckWhatsNewActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".debiCheck.ui.DebiCheckHostActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".account.ui.AccountActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".account.ui.AccountSearchActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".overdraft.ui.OverdraftIntroActivity"
+            android:configChanges="orientation"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".overdraft.ui.BusinessOverdraftActivity"
+            android:configChanges="orientation"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".payments.multiple.MultiplePaymentsSelectedBeneficiariesActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".payments.multiple.MultiplePaymentResultActivity"
+            android:configChanges="orientation"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".presentation.whatsApp.WhatsAppOfferActivity"
+            android:configChanges="orientation"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".presentation.multipleUsers.MultipleUsersListActivity"
+            android:configChanges="orientation"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".presentation.contactUs.ContactUsActivity"
+            android:configChanges="orientation"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".presentation.help.HelpActivity"
+            android:configChanges="orientation"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".overdraft.ui.OverdraftStepsActivity"
+            android:configChanges="orientation"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".card.ui.creditCard.hub.CreditCardHubActivity"
+            android:configChanges="orientation"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".beneficiaries.ui.BeneficiaryLandingActivity"
+            android:configChanges="orientation"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".flexiFuneral.ui.FlexiFuneralActivity"
+            android:configChanges="orientation"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".freeCover.ui.FreeCoverActivity"
+            android:configChanges="orientation"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".funeralCover.ui.FuneralCoverClaimNotificationActivity"
+            android:configChanges="orientation"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".beneficiaries.ui.BeneficiaryDetailsActivity"
+            android:configChanges="orientation"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".beneficiaries.ui.EditBeneficiaryActivity"
+            android:configChanges="orientation"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".funeralCover.ui.FuneralCoverClaimConfirmationActivity"
+            android:configChanges="orientation"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".funeralCover.ui.InsurancePolicyClaimsBaseActivity"
+            android:configChanges="orientation"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".presentation.homeLoan.HomeLoanPerilsHubActivity"
+            android:configChanges="orientation"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".funeralCover.ui.FuneralCoverApplyNowActivity"
+            android:configChanges="orientation"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".funeralCover.ui.FuneralCoverAddMainMemberActivity"
+            android:configChanges="orientation"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".funeralCover.ui.FuneralCoverAddFamilyMemberActivity"
+            android:configChanges="orientation"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".funeralCover.ui.FuneralCoverCardLifePlanActivity"
+            android:configChanges="orientation"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".funeralCover.ui.InsuranceManagePaymentDetailsActivity"
+            android:configChanges="orientation"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".card.ui.CardActivity"
+            android:label="@string/title_cards"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".card.ui.creditCard.hub.CardListActivity"
+            android:configChanges="orientation"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".card.ui.pauseCard.PauseCardActivity"
+            android:configChanges="orientation"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".presentation.help.FeedbackActivity"
+            android:configChanges="orientation"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".registration.RegisterActivity"
+            android:configChanges="orientation"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".passcode.PasscodeLockedActivity"
+            android:configChanges="orientation"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".payments.NewPaymentBeneficiaryDetailsActivity"
+            android:configChanges="orientation"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".dualAuthorisations.ui.AuthorisationHubActivity"
+            android:configChanges="orientation"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity android:name=".rewards.ui.redemptions.donations.RedeemRewardsActivity" />
+        <activity
+            android:name=".presentation.contactUs.ContactUsContainerActivity"
+            android:configChanges="orientation"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".payments.ChooseBankListActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".payments.ChooseInstitutionListActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".payments.PaymentConfirmationActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".payments.PaymentDetailsActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".payments.OnceOffPaymentDetailsActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".payments.ImmediateInterbankPaymentActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".card.ui.creditCard.vcl.CreditCardVCLBaseActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".card.ui.creditCard.vcl.CreditCardVCLQualifyActivity"
+            android:configChanges="orientation"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".newToBank.NewToBankActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".newToBank.ShowBranchListActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".newToBank.NewToBankScanIDBookActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".card.ui.creditCardReplacement.OrderNewCreditCardActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".card.ui.creditCardReplacement.ConfirmCreditCardReplacementActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".newToBank.NewToBankScanIDCardActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".card.ui.creditCard.hub.CardTravelAbroadActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".payments.international.InternationalPaymentsPaymentsActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".payments.international.InternationalPaymentsHowThisWorksActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".payments.international.InternationalPaymentsCountrySelectorActivity"
+            android:configChanges="orientation"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".payments.international.InternationalPaymentsStateSelectorActivity"
+            android:configChanges="orientation"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".payments.international.InternationalPaymentsCitySelectorActivity"
+            android:configChanges="orientation"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".presentation.termsAndConditions.BaseTermsAndConditionsActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".unitTrusts.ui.view.ViewUnitTrustBaseActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".unitTrusts.ui.view.ViewUnitTrustFundBaseActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".unitTrusts.ui.view.ViewMoreFundAccountsActivity"
+            android:configChanges="orientation"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".payments.BeneficiaryImportExplanationActivity"
+            android:configChanges="orientation"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".unitTrusts.ui.buy.BuyUnitTrustHostActivity"
+            android:configChanges="orientation"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".unitTrusts.ui.view.ViewUnitTrustHostActivity"
+            android:configChanges="orientation"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".home.ui.StandaloneHomeActivity"
+            android:configChanges="orientation"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".fixedDeposit.FixedDepositActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".personalLoan.ui.PersonalLoanApplyActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".card.ui.creditCardHotLeads.HotLeadsHostActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".rewards.behaviouralRewards.ui.BehaviouralRewardsActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".personalLoan.ui.PersonalLoanHubActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".fixedDeposit.FixedDepositHubActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".fixedDeposit.FixedDepositMaintenanceActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".payments.BeneficiaryImportActivity"
+            android:configChanges="orientation"
+            android:exported="false" />
+        <activity
+            android:name=".payments.BeneficiaryImportKitKatActivity"
+            android:configChanges="orientation"
+            android:exported="false" />
+        <activity
+            android:name=".payments.BeneficiaryImportFailureActivity"
+            android:configChanges="orientation"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ultimateProtector.ui.UltimateProtectorHostActivity"
+            android:configChanges="orientation"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".recognition.ui.BranchRecognitionActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".recognition.ui.BranchRecognitionBarcodeScanActivity"
+            android:configChanges="orientation"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".directMarketing.DirectMarketingActivity"
+            android:configChanges="orientation"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".card.ui.cardPinRetrieval.CardPinRetrievalActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".beneficiaries.ui.PrepaidElectricityHistoryActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".funeralCover.ui.FuneralCoverActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".manage.profile.ui.ManageProfileActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".atmAndBranchLocator.ui.AtmBranchLocatorActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".unitTrusts.ui.switchAndRedeem.SwitchFundHostActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".unitTrusts.ui.switchAndRedeem.RedeemFundHostActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.barclays.absa.common.GenericPdfViewerActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".debiCheck.ui.DebitOrdersActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".home.ui.SelectCiaAccountActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".businessBanking.ui.BusinessBankActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".will.ui.WillActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".lawForYou.ui.LawForYouActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".avaf.ui.AvafHubActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".avaf.transfer.AvafInterAccountTransferActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".avaf.documentRequest.ui.AvafDocumentRequestActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".avaf.documentRequest.ui.DocumentRequestOfferActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".card.ui.debitCard.ui.StopAndReplaceDebitCardActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".payments.international.InternationalBankingActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".payments.swift.ui.SwiftTransactionsActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".payments.swift.ui.SwiftShareAccountDetailsActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".payments.swift.ui.SwiftPaymentsActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".virtualpayments.scan2Pay.ui.ScanToPayActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".card.ui.creditCard.hub.manageMobilePayments.ManageMobilePaymentsActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".passcode.PasscodeForResultActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".settings.ui.customisation.CustomiseLoginActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".settings.ui.customisation.CustomiseLoginOptionActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".moneyMarket.ui.MoneyMarketActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".covid.CovidAlertActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".solidarityFund.SolidarityFundActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".card.ui.secondaryCard.SecondaryCardActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".explore.ui.FraudNotificationAlertActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <activity android:name=".depositorPlus.ui.DepositorPlusActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <activity android:name=".futurePlan.FuturePlanActivity"
+            android:windowSoftInputMode="adjustResize"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".cluster.ui.BaseClusterActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".cluster.ui.InsuranceClusterActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".cluster.ui.InvestmentClusterActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".linking.ui.LinkingActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".presentation.sureCheck.LinkingEnterVerificationNumberActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".manage.devices.identification.IdentificationManageDeviceActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".sureCheck.ExpressOfflineOtpActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.gms.vision.DEPENDENCIES"
+            android:value="barcode,face,ocr"
+            tools:replace="android:value" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/logo_white_full" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/white" />
+        <meta-data
+            android:name="appid"
+            android:value="${IMI_APP_ID}" />
+        <meta-data
+            android:name="clientkey"
+            android:value="${IMI_CLIENT_KEY}" />
+        <meta-data
+            android:name="net.hockeyapp.android.appIdentifier"
+            android:value="${HOCKEY_APP_ID}" />
+        <meta-data
+            android:name="com.google.firebase.ml.vision.DEPENDENCIES"
+            android:value="barcode,face"
+            tools:replace="android:value" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <receiver
+            android:name=".presentation.inAppNotifications.MessageReceiver"
+            android:enabled="true"
+            android:exported="false"
+            android:permission="com.imimobile.connect.core.permission.PUSH_PERMISSION">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+                <action android:name="com.imimobile.connect.core.rtmevent" />
+                <action android:name="com.imimobile.connect.core.notification.click" />
+                <action android:name="com.imimobile.connect.core.intent.notification.RECEIVE" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.trusteer.taz.service.TasIntentReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name=".framework.push.PushInstanceIdListener"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name=".framework.push.PushMessageListener"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.trusteer.taz.service.TasService"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+    </application>
+
+</manifest>

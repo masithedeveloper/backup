@@ -1,0 +1,299 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES2001",
+      "resCde": "00000",
+      "resMsg": "SUCCESS",
+      "serVer": "2.0"
+    },
+    "payData": {
+      "balNotYetClrdDt": "2017-08-02 14:07",
+      "ival": "656947771619dame",
+      "allActList": [
+        {
+          "isBclEligible": "true",
+          "favorite": "N",
+          "accessTypeBits": "1.0",
+          "isBalanceMasked": "N",
+          "viewAcctHistoryAllowed": "N",
+          "acctAccessBits": "64255.0",
+          "actNo": "9050324689",
+          "desc": "Main Account",
+          "curBal": {
+            "curr": "R",
+            "amt": "2,163,462.62"
+          },
+          "avblBal": {
+            "curr": "R",
+            "amt": "2,163,462.62"
+          },
+          "typ": "savingsAccount",
+          "mkdActNo": "******4689",
+          "curr": "R",
+          "overDraftLimit": {
+            "curr": "R",
+            "amt": "0.00"
+          }
+        },
+        {
+          "isBclEligible": "true",
+          "favorite": "N",
+          "accessTypeBits": "1.0",
+          "isBalanceMasked": "N",
+          "viewAcctHistoryAllowed": "Y",
+          "acctAccessBits": "64159.0",
+          "actNo": "9050889116",
+          "desc": "MahaTest",
+          "curBal": {
+            "curr": "R",
+            "amt": "110,381.64"
+          },
+          "avblBal": {
+            "curr": "R",
+            "amt": "90,381.64"
+          },
+          "typ": "creditCard",
+          "mkdActNo": "******9116",
+          "curr": "R",
+          "overDraftLimit": {
+            "curr": "R",
+            "amt": "0.00"
+          }
+        },
+        {
+          "isBclEligible": "true",
+          "favorite": "N",
+          "accessTypeBits": "128.0",
+          "isBalanceMasked": "N",
+          "viewAcctHistoryAllowed": "Y",
+          "acctAccessBits": "59422.0",
+          "actNo": "5001372504",
+          "desc": "Home Loan account",
+          "curBal": {
+            "curr": "R",
+            "amt": "-130,887.94"
+          },
+          "avblBal": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "typ": "homeLoan",
+          "mkdActNo": "******2504",
+          "curr": "R",
+          "overDraftLimit": {
+            "curr": "R",
+            "amt": "0.00"
+          }
+        },
+        {
+          "isBclEligible": "true",
+          "favorite": "N",
+          "accessTypeBits": "1.0",
+          "isBalanceMasked": "N",
+          "viewAcctHistoryAllowed": "Y",
+          "acctAccessBits": "64159.0",
+          "actNo": "9050872577",
+          "desc": "CI GET TEST",
+          "curBal": {
+            "curr": "R",
+            "amt": "110,872.22"
+          },
+          "avblBal": {
+            "curr": "R",
+            "amt": "90,872.22"
+          },
+          "typ": "savingsAccount",
+          "mkdActNo": "******2577",
+          "curr": "R",
+          "overDraftLimit": {
+            "curr": "R",
+            "amt": "0.00"
+          }
+        },
+        {
+          "isBclEligible": "true",
+          "favorite": "N",
+          "accessTypeBits": "4.0",
+          "isBalanceMasked": "N",
+          "viewAcctHistoryAllowed": "Y",
+          "acctAccessBits": "59519.0",
+          "actNo": "5471200032756012",
+          "desc": "CREDIT ACCOUNT",
+          "curBal": {
+            "curr": "R",
+            "amt": "154,922.98"
+          },
+          "avblBal": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "typ": "creditCard",
+          "mkdActNo": "547120xxxxxx6012",
+          "curr": "R",
+          "overDraftLimit": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "unclearedAmount": {
+            "curr": "R",
+            "amt": "0.00"
+          }
+        }
+      ],
+      "custProf": {
+        "clientType": "E",
+        "customerType": "E",
+        "hasImage": "N",
+        "imageName": "N6-6Qy43ndfjnQcmVtWq-c63GqDvEWpazFh8L2NqPXI\u003d",
+        "accrtBalDt": "02/08/2017 14:07:50",
+        "custName": "DINESH OLLALWAR",
+        "lastLgnTm": "2017-08-02",
+        "surePhrase": "DINESH OLLALWAR",
+        "langCode": "E",
+        "custActsSize": "73",
+        "showRewardsLink": "N",
+        "hasMCL": "false",
+        "authPassNotRegistered": false,
+        "limitsNotSet": "false",
+        "alias": null,
+        "idNoRequired": "true",
+        "secondFactorSnoozed": false,
+        "secondFactorState": 0,
+        "secondFactorDaysLeft": 0,
+        "transactionalUser": false
+      },
+      "accessPrivileges": {
+        "isOperator": "Y",
+        "isInterAccountTransferAllowed": "Y",
+        "isBeneficiaryPaymentAllowed": "Y",
+        "isCashSendAllowed": "Y",
+        "isPrepaidAllowed": "Y"
+      },
+      "payLst": [
+        {
+          "imageName": "4ax2J8893pnu-DkU-o3__ghlFQ9m4Go5HixQXKxvzPA\u003d",
+          "hasImage": "N",
+          "tiebNumber": "0",
+          "isFav": "Y",
+          "lastTxnAmt": {
+            "curr": "R",
+            "amt": "500.00"
+          },
+          "lastTxnDate": "",
+          "benNam": "Absa Fund Managers",
+          "benId": "72",
+          "txnTyp": "internal",
+          "image": "",
+          "actNo": "1043100307"
+        },
+        {
+          "imageName": "MV7b3bleqZzppJDi4zyH8qtmHUht98g3OidFIRTimIM\u003d",
+          "hasImage": "N",
+          "tiebNumber": "0",
+          "isFav": "Y",
+          "lastTxnAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "lastTxnDate": "",
+          "benNam": "ABRA KEDAB",
+          "benId": "92",
+          "txnTyp": "business",
+          "image": "",
+          "actNo": ""
+        }
+      ],
+      "cashSend": [
+        {
+          "imageName": "QQOo1hzNApuniDY9GiIHPRiJF4h4LJYWrLRxtsNqjgI\u003d",
+          "hasImage": "N",
+          "tiebNumber": "0",
+          "isFav": "Y",
+          "lastTxnAmt": {
+            "curr": "R",
+            "amt": "60.00"
+          },
+          "lastTxnDate": "",
+          "benNam": "Salim",
+          "benId": "37",
+          "txnTyp": "cashsend",
+          "image": "",
+          "actNo": "749259264"
+        },
+        {
+          "imageName": "kqHZ6Nlm9iu0bY5-VmBF1fNMh9dwi684px2fJuGCHY0\u003d",
+          "hasImage": "N",
+          "tiebNumber": "0",
+          "isFav": "Y",
+          "lastTxnAmt": {
+            "curr": "R",
+            "amt": "80.00"
+          },
+          "lastTxnDate": "",
+          "benNam": "Salim",
+          "benId": "38",
+          "txnTyp": "cashsend",
+          "image": "",
+          "actNo": "749255555"
+        }
+      ],
+      "airTime": [
+        {
+          "imageName": "Q_rx-itPtspeOJRVFuV4p2jDJ34hK_A1Mqm0BxxlqUw\u003d",
+          "hasImage": "N",
+          "tiebNumber": "0",
+          "isFav": "Y",
+          "lastTxnAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "lastTxnDate": "",
+          "benNam": "Newmm",
+          "benId": "25",
+          "txnTyp": "prepaid",
+          "image": "",
+          "actNo": "0731110005"
+        },
+        {
+          "imageName": "IW4m_7MN5GA_wifNIz_UsBj9a8I_qzIMLpZrAFH57Wc\u003d",
+          "hasImage": "N",
+          "tiebNumber": "0",
+          "isFav": "Y",
+          "lastTxnAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "lastTxnDate": "",
+          "benNam": "testMtn",
+          "benId": "26",
+          "txnTyp": "prepaid",
+          "image": "",
+          "actNo": "0731110006"
+        },
+        {
+          "imageName": "NVXJhoVoqXBqj-NTY5lZdjvRJ8WeETnEl6YaC46ke90\u003d",
+          "hasImage": "N",
+          "tiebNumber": "0",
+          "isFav": "Y",
+          "lastTxnAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "lastTxnDate": "",
+          "benNam": "Test",
+          "benId": "27",
+          "txnTyp": "prepaid",
+          "image": "",
+          "actNo": "0748562345"
+        }
+      ],
+      "acctTnsfer": {
+        "ftFrmActLst": [],
+        "ftToActLst": []
+      },
+      "hasProfileSetup": "N",
+      "backgroundImage": "4",
+      "imageName": "N6-6Qy43ndfjnQcmVtWq-c63GqDvEWpazFh8L2NqPXI\u003d"
+    }
+  }
+}

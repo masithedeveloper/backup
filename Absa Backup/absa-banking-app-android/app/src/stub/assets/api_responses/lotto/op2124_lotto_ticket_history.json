@@ -1,0 +1,581 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES2124",
+      "resCde": "00000",
+      "resMsg": "Success",
+      "serVer": "2.0",
+      "expTrace": null
+    },
+    "payData": {
+      "lottoTicketHistory": [
+        {
+          "retrievalReferenceNumber": "B73576002462",
+          "purchaseAmount": "15.0",
+          "sourceAccount": "9324183921",
+          "sourceAccountType": "Current",
+          "lottoGameType": "Powerball",
+          "quickPickInd": "false",
+          "lottoPlus1": "true",
+          "lottoPlus2": "false",
+          "numberOfDraws": "6",
+          "transactionDate": "2019-11-08",
+          "firstDrawDate": "20191108",
+          "lastDrawDate": "20191126",
+          "firstDrawId": "1038",
+          "lastDrawId": "1041",
+          "lottoReferenceNumber": "00000000000000007226031307137124594",
+          "lottoCustomerDetails": {
+            "cifKey": "TESTING1234",
+            "firstName": "SOME GUY",
+            "idNumber": "8908120238383",
+            "cellPhoneNumber": "0821234566"
+          },
+          "lottoBoardList": [
+            {
+              "lottoBoardNumbers": [
+                "28",
+                "29",
+                "34",
+                "35",
+                "44",
+                "0"
+              ],
+              "powerBall": "5"
+            },
+            {
+              "lottoBoardNumbers": [
+                "4",
+                "14",
+                "44",
+                "45",
+                "49",
+                "0"
+              ],
+              "powerBall": "17"
+            }
+          ]
+        },
+        {
+          "retrievalReferenceNumber": "073205775793",
+          "purchaseAmount": "15.0",
+          "sourceAccount": "9324183921",
+          "sourceAccountType": "Current",
+          "lottoGameType": "Powerball",
+          "quickPickInd": "true",
+          "lottoPlus1": "true",
+          "lottoPlus2": "false",
+          "numberOfDraws": "1",
+          "transactionDate": "2019-11-08",
+          "firstDrawDate": "20191108",
+          "lastDrawDate": "20191108",
+          "firstDrawId": "1040",
+          "lastDrawId": "1040",
+          "lottoReferenceNumber": "00000000000000007222035683875126294",
+          "lottoCustomerDetails": {
+            "cifKey": "TESTING1234",
+            "firstName": "SOME GUY",
+            "idNumber": "8908120238383",
+            "cellPhoneNumber": "0821234566"
+          },
+          "lottoBoardList": [
+            {
+              "lottoBoardNumbers": [
+                "22",
+                "30",
+                "31",
+                "43",
+                "46",
+                "0"
+              ],
+              "powerBall": "10"
+            },
+            {
+              "lottoBoardNumbers": [
+                "12",
+                "24",
+                "38",
+                "40",
+                "43",
+                "0"
+              ],
+              "powerBall": "20"
+            }
+          ]
+        },
+        {
+          "retrievalReferenceNumber": "073205706792",
+          "purchaseAmount": "10.0",
+          "sourceAccount": "9324183921",
+          "sourceAccountType": "Current",
+          "lottoGameType": "Lotto",
+          "quickPickInd": "true",
+          "lottoPlus1": "false",
+          "lottoPlus2": "false",
+          "numberOfDraws": "1",
+          "transactionDate": "2019-11-08",
+          "firstDrawDate": "20191109",
+          "lastDrawDate": "20191109",
+          "firstDrawId": "1969",
+          "lastDrawId": "1969",
+          "lottoReferenceNumber": "00000000000000007222034477585086094",
+          "lottoCustomerDetails": {
+            "cifKey": "TESTING1234",
+            "firstName": "SOME GUY",
+            "idNumber": "8908120238383",
+            "cellPhoneNumber": "0821234566"
+          },
+          "lottoBoardList": [
+            {
+              "lottoBoardNumbers": [
+                "1",
+                "3",
+                "17",
+                "22",
+                "30",
+                "32"
+              ],
+              "powerBall": "0"
+            },
+            {
+              "lottoBoardNumbers": [
+                "8",
+                "13",
+                "17",
+                "20",
+                "23",
+                "43"
+              ],
+              "powerBall": "0"
+            }
+          ]
+        },
+        {
+          "retrievalReferenceNumber": "073058148756",
+          "purchaseAmount": "10.0",
+          "sourceAccount": "9324183921",
+          "sourceAccountType": "Current",
+          "lottoGameType": "Lotto",
+          "quickPickInd": "false",
+          "lottoPlus1": "false",
+          "lottoPlus2": "false",
+          "numberOfDraws": "1",
+          "transactionDate": "2019-11-06",
+          "firstDrawDate": "20191106",
+          "lastDrawDate": "20191106",
+          "firstDrawId": "1968",
+          "lastDrawId": "1968",
+          "lottoReferenceNumber": "00000000000000007220044015179085794",
+          "lottoCustomerDetails": {
+            "cifKey": "TESTING1234",
+            "firstName": "SOME GUY",
+            "idNumber": "8908120238383",
+            "cellPhoneNumber": "0821234566"
+          },
+          "lottoBoardList": [
+            {
+              "lottoBoardNumbers": [
+                "2",
+                "12",
+                "15",
+                "23",
+                "30",
+                "45"
+              ],
+              "powerBall": "0"
+            },
+            {
+              "lottoBoardNumbers": [
+                "2",
+                "5",
+                "8",
+                "12",
+                "26",
+                "52"
+              ],
+              "powerBall": "0"
+            }
+          ]
+        },
+        {
+          "retrievalReferenceNumber": "072946129475",
+          "purchaseAmount": "10.0",
+          "sourceAccount": "9324183921",
+          "sourceAccountType": "Current",
+          "lottoGameType": "Powerball",
+          "quickPickInd": "true",
+          "lottoPlus1": "false",
+          "lottoPlus2": "false",
+          "numberOfDraws": "1",
+          "transactionDate": "2019-11-05",
+          "firstDrawDate": "20191105",
+          "lastDrawDate": "20191105",
+          "firstDrawId": "1039",
+          "lastDrawId": "1039",
+          "lottoReferenceNumber": "00000000000000007219038034713124594",
+          "lottoCustomerDetails": {
+            "cifKey": "TESTING1234",
+            "firstName": "SOME GUY",
+            "idNumber": "8908120238383",
+            "cellPhoneNumber": "0821234566"
+          },
+          "lottoBoardList": [
+            {
+              "lottoBoardNumbers": [
+                "25",
+                "30",
+                "32",
+                "45",
+                "46",
+                "0"
+              ],
+              "powerBall": "14"
+            },
+            {
+              "lottoBoardNumbers": [
+                "2",
+                "15",
+                "30",
+                "44",
+                "47",
+                "0"
+              ],
+              "powerBall": "17"
+            }
+          ]
+        },
+        {
+          "retrievalReferenceNumber": "072925329370",
+          "purchaseAmount": "15.0",
+          "sourceAccount": "9324183921",
+          "sourceAccountType": "Current",
+          "lottoGameType": "Lotto",
+          "quickPickInd": "true",
+          "lottoPlus1": "true",
+          "lottoPlus2": "false",
+          "numberOfDraws": "1",
+          "transactionDate": "2019-11-05",
+          "firstDrawDate": "20191106",
+          "lastDrawDate": "20191106",
+          "firstDrawId": "1968",
+          "lastDrawId": "1968",
+          "lottoReferenceNumber": "00000000000000007219059421953084694",
+          "lottoCustomerDetails": {
+            "cifKey": "TESTING1234",
+            "firstName": "SOME GUY",
+            "idNumber": "8908120238383",
+            "cellPhoneNumber": "0821234566"
+          },
+          "lottoBoardList": [
+            {
+              "lottoBoardNumbers": [
+                "6",
+                "18",
+                "24",
+                "38",
+                "44",
+                "52"
+              ],
+              "powerBall": "0"
+            },
+            {
+              "lottoBoardNumbers": [
+                "3",
+                "7",
+                "8",
+                "16",
+                "28",
+                "52"
+              ],
+              "powerBall": "0"
+            }
+          ]
+        },
+        {
+          "retrievalReferenceNumber": "072847884343",
+          "purchaseAmount": "10.0",
+          "sourceAccount": "9324183921",
+          "sourceAccountType": "Current",
+          "lottoGameType": "Powerball",
+          "quickPickInd": "false",
+          "lottoPlus1": "false",
+          "lottoPlus2": "false",
+          "numberOfDraws": "1",
+          "transactionDate": "2019-11-04",
+          "firstDrawDate": "20191105",
+          "lastDrawDate": "20191105",
+          "firstDrawId": "1039",
+          "lastDrawId": "1039",
+          "lottoReferenceNumber": "00000000000000007218011725826124294",
+          "lottoCustomerDetails": {
+            "cifKey": "TESTING1234",
+            "firstName": "SOME GUY",
+            "idNumber": "8908120238383",
+            "cellPhoneNumber": "0821234566"
+          },
+          "lottoBoardList": [
+            {
+              "lottoBoardNumbers": [
+                "9",
+                "24",
+                "30",
+                "35",
+                "46",
+                "0"
+              ],
+              "powerBall": "18"
+            },
+            {
+              "lottoBoardNumbers": [
+                "9",
+                "11",
+                "34",
+                "40",
+                "41",
+                "0"
+              ],
+              "powerBall": "13"
+            }
+          ]
+        },
+        {
+          "retrievalReferenceNumber": "072841861418",
+          "purchaseAmount": "20.0",
+          "sourceAccount": "9324183921",
+          "sourceAccountType": "Current",
+          "lottoGameType": "Lotto",
+          "quickPickInd": "true",
+          "lottoPlus1": "true",
+          "lottoPlus2": "true",
+          "numberOfDraws": "1",
+          "transactionDate": "2019-11-04",
+          "firstDrawDate": "20191106",
+          "lastDrawDate": "20191106",
+          "firstDrawId": "1968",
+          "lastDrawId": "1968",
+          "lottoReferenceNumber": "00000000000000007218046872577085494",
+          "lottoCustomerDetails": {
+            "cifKey": "TESTING1234",
+            "firstName": "SOME GUY",
+            "idNumber": "8908120238383",
+            "cellPhoneNumber": "0821234566"
+          },
+          "lottoBoardList": [
+            {
+              "lottoBoardNumbers": [
+                "2",
+                "5",
+                "6",
+                "12",
+                "16",
+                "45"
+              ],
+              "powerBall": "0"
+            },
+            {
+              "lottoBoardNumbers": [
+                "17",
+                "31",
+                "34",
+                "41",
+                "45",
+                "52"
+              ],
+              "powerBall": "0"
+            }
+          ]
+        },
+        {
+          "retrievalReferenceNumber": "072333323557",
+          "purchaseAmount": "15.0",
+          "sourceAccount": "9324183921",
+          "sourceAccountType": "Current",
+          "lottoGameType": "Powerball",
+          "quickPickInd": "false",
+          "lottoPlus1": "true",
+          "lottoPlus2": "false",
+          "numberOfDraws": "1",
+          "transactionDate": "2019-10-29",
+          "firstDrawDate": "20191029",
+          "lastDrawDate": "20191029",
+          "firstDrawId": "1037",
+          "lastDrawId": "1037",
+          "lottoReferenceNumber": "00000000000000007212064935690128294",
+          "lottoCustomerDetails": {
+            "cifKey": "TESTING1234",
+            "firstName": "SOME GUY",
+            "idNumber": "8908120238383",
+            "cellPhoneNumber": "0821234566"
+          },
+          "lottoBoardList": [
+            {
+              "lottoBoardNumbers": [
+                "9",
+                "17",
+                "29",
+                "39",
+                "46",
+                "0"
+              ],
+              "powerBall": "10"
+            },
+            {
+              "lottoBoardNumbers": [
+                "11",
+                "15",
+                "17",
+                "18",
+                "21",
+                "0"
+              ],
+              "powerBall": "2"
+            }
+          ]
+        },
+        {
+          "retrievalReferenceNumber": "072242735479",
+          "purchaseAmount": "20.0",
+          "sourceAccount": "9324183921",
+          "sourceAccountType": "Current",
+          "lottoGameType": "Lotto",
+          "quickPickInd": "false",
+          "lottoPlus1": "false",
+          "lottoPlus2": "false",
+          "numberOfDraws": "2",
+          "transactionDate": "2019-10-28",
+          "firstDrawDate": "20191030",
+          "lastDrawDate": "20191102",
+          "firstDrawId": "1966",
+          "lastDrawId": "1967",
+          "lottoReferenceNumber": "00000000000000007211047242243089294",
+          "lottoCustomerDetails": {
+            "cifKey": "TESTING1234",
+            "firstName": "SOME GUY",
+            "idNumber": "8908120238383",
+            "cellPhoneNumber": "0821234566"
+          },
+          "lottoBoardList": [
+            {
+              "lottoBoardNumbers": [
+                "4",
+                "8",
+                "18",
+                "27",
+                "45",
+                "46"
+              ],
+              "powerBall": "0"
+            },
+            {
+              "lottoBoardNumbers": [
+                "2",
+                "5",
+                "14",
+                "46",
+                "47",
+                "52"
+              ],
+              "powerBall": "0"
+            }
+          ]
+        },
+        {
+          "retrievalReferenceNumber": "071710611001",
+          "purchaseAmount": "10.0",
+          "sourceAccount": "9324183921",
+          "sourceAccountType": "Current",
+          "lottoGameType": "Powerball",
+          "quickPickInd": "false",
+          "lottoPlus1": "false",
+          "lottoPlus2": "false",
+          "numberOfDraws": "1",
+          "transactionDate": "2019-10-22",
+          "firstDrawDate": "20191022",
+          "lastDrawDate": "20191022",
+          "firstDrawId": "1035",
+          "lastDrawId": "1035",
+          "lottoReferenceNumber": "00000000000000007205028083200129194",
+          "lottoCustomerDetails": {
+            "cifKey": "TESTING1234",
+            "firstName": "SOME GUY",
+            "idNumber": "8908120238383",
+            "cellPhoneNumber": "0821234566"
+          },
+          "lottoBoardList": [
+            {
+              "lottoBoardNumbers": [
+                "8",
+                "23",
+                "24",
+                "28",
+                "37",
+                "0"
+              ],
+              "powerBall": "19"
+            },
+            {
+              "lottoBoardNumbers": [
+                "4",
+                "7",
+                "21",
+                "25",
+                "36",
+                "0"
+              ],
+              "powerBall": "8"
+            }
+          ]
+        },
+        {
+          "retrievalReferenceNumber": "071708668001",
+          "purchaseAmount": "10.0",
+          "sourceAccount": "9324183921",
+          "sourceAccountType": "Current",
+          "lottoGameType": "Lotto",
+          "quickPickInd": "true",
+          "lottoPlus1": "false",
+          "lottoPlus2": "false",
+          "numberOfDraws": "1",
+          "transactionDate": "2019-10-22",
+          "firstDrawDate": "20191023",
+          "lastDrawDate": "20191023",
+          "firstDrawId": "1964",
+          "lastDrawId": "1964",
+          "lottoReferenceNumber": "00000000000000007205049337344083194",
+          "lottoCustomerDetails": {
+            "cifKey": "TESTING1234",
+            "firstName": "SOME GUY",
+            "idNumber": "8908120238383",
+            "cellPhoneNumber": "0821234566"
+          },
+          "lottoBoardList": [
+            {
+              "lottoBoardNumbers": [
+                "2",
+                "4",
+                "5",
+                "11",
+                "17",
+                "32"
+              ],
+              "powerBall": "0"
+            },
+            {
+              "lottoBoardNumbers": [
+                "4",
+                "11",
+                "30",
+                "34",
+                "40",
+                "52"
+              ],
+              "powerBall": "0"
+            }
+          ]
+        }
+      ],
+      "txnStatus": "Success",
+      "txnMessage": "Success"
+    }
+  }
+}

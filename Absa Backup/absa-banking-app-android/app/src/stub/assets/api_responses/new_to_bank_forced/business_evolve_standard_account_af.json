@@ -1,0 +1,210 @@
+{
+    "payHdr": {
+        "expTrace": "null",
+        "resCde": "00000",
+        "resId": "null",
+        "resMsg": "success",
+        "serVer": "2.0"
+    },
+    "payData": {
+        "description": "",
+        "minimumIncome": "0.00",
+        "packageName": "Business Evolve\n-rekening",
+        "products": [{
+            "tabTitle": "Evolve Zero",
+            "identifier": "BUSINESS_EVOLVE_ZERO_CHEQUE",
+            "analyticTag": "SoleProprietor_WelcomeToABSAScreen_BusinessEvolveZeroPackageScreenDisplayed",
+            "bottomButtonTitle": "Gaan voort met Evolve Zero",
+            "headerTitle": "Geen maandelikse rekeningfooi nie",
+            "headerSubTitle": "Evolve Zero",
+            "monthlyFee": "0.00",
+            "note": "Besoek absa.co.za gerus om al ons produkte en fooie te besigtig.",
+            "noteUnderlinedWords": "absa.co.za|fees",
+            "noteLinks": "https://www.absa.co.za/business/|https://www.absa.co.za/rates-and-fees/",
+            "features": [{
+                "featureName": "Kwalifiserende kriteria:",
+                "featurePoints": [
+                    "•\tAlleeneienaars met ’n jaarlikse omset van tot R5 miljoen."
+                ]
+            }, {
+                "featureName": "Standaard rekeningkenmerke:",
+                "featurePoints": [
+                    "•\tVisa-besigheidsdebietkaart(e)",
+                    "•\t24/7 toegang tot Absa Online en die bankdienste-app",
+                    "•\tBeleggingsrekening: Liquidity Plus",
+                    "•\tCashflow Manager:\n'n Wolk-gebaseerde rekeningkundige stelsel om jou te help met die bestuur van jou besigheid"
+                ]
+            },
+            {
+                "featureName": "Unieke kenmerke van Evolve Zero:",
+                "featurePoints": [
+                    "•\tGespreide pryse vir elektroniese transaksies",
+                    "•\tGeen fooie op Absa-tussenrekeningoorplasings nie",
+                    "•\tGeen fooie op Absa-na-Absa- (interne) debietorders nie",
+                    "•\tToegang tot kontanthantering"
+                ]
+            }
+            ]
+        },
+        {
+            "tabTitle": "Evolve BPT",
+            "identifier": "BUSINESS_EVOLVE_PAYT_CHEQUE",
+            "analyticTag": "SoleProprietor_WelcomeToABSAScreen_BusinessEvolvePAYTPackageScreenDisplayed",
+            "bottomButtonTitle": "Gaan voort met Evolve BPT",
+            "headerTitle": "R85 per maand",
+            "headerSubTitle": "Evolve Betaal-Per-Transaksie (BPT)",
+            "monthlyFee": "85.00",
+            "note": "Besoek absa.co.za gerus om al ons produkte en fooie te besigtig.",
+            "noteUnderlinedWords": "absa.co.za|fees",
+            "noteLinks": "https://www.absa.co.za/business/|https://www.absa.co.za/rates-and-fees/",
+            "features": [{
+                "featureName": "Kwalifiserende kriteria:",
+                "featurePoints": [
+                    "•\tJaarlikse omset:\n R0 tot R500 miljoen"
+                ]
+            }, {
+                "featureName": "Standaard rekeningkenmerke:",
+                "featurePoints": [
+                    "•\tVisa-besigheidsdebietkaart(e)",
+                    "•\t24/7 toegang tot Absa Online en die bankdienste-app",
+                    "•\tBeleggingsrekening: Liquidity Plus",
+                    "•\tCashflow Manager:\n'n Wolk-gebaseerde rekeningkundige stelsel om jou te help met die bestuur van jou besigheid"
+                ]
+            },
+            {
+                "featureName": "Unieke kenmerke van Evolve PAYT:",
+                "featurePoints": [
+                    "•\tGespreide pryse vir elektroniese transaksies",
+                    "•\tGeen fooie op Absa-tussenrekeningoorplasings nie",
+                    "•\tGeen fooie op Absa-na-Absa- (interne) debietorders nie",
+                    "•\tToegang tot kontanthantering"
+                ]
+            }
+            ]
+        },
+        {
+            "tabTitle": "Evolve 35",
+            "identifier": "BUSINESS_EVOLVE_35_CHEQUE",
+            "analyticTag": "SoleProprietor_WelcomeToABSAScreen_BusinessEvolve35PackageScreenDisplayed",
+            "bottomButtonTitle": "Gaan voort met Evolve 35",
+            "headerTitle": "R265 per maand",
+            "headerSubTitle": "Evolve 35",
+            "monthlyFee": "R265",
+            "note": "Besoek absa.co.za gerus om al ons produkte en fooie te besigtig.",
+            "noteUnderlinedWords": "absa.co.za/fees",
+            "noteLinks": "https://www.absa.co.za/business/|https://www.absa.co.za/rates-and-fees/",
+            "features": [{
+                "featureName": "Kwalifiserende kriteria:",
+                "featurePoints": [
+                    "•\tJaarlikse omset:\n R0 tot R500 miljoen"
+                ]
+            }, {
+                "featureName": "Standaard rekeningkenmerke:",
+                "featurePoints": [
+                    "•\tVisa-besigheidsdebietkaart(e)",
+                    "•\t24/7 toegang tot Absa Online en die bankdienste-app",
+                    "•\tBeleggingsrekening: Liquidity Plus",
+                    "•\tCashflow Manager:\n'n Wolk-gebaseerde rekeningkundige stelsel om jou te help met die bestuur van jou besigheid"
+                ]
+            },
+            {
+                "featureName": "Unieke kenmerke van Evolve 35:",
+                "featurePoints": [
+                    "•\t35 vry elektroniese transaksies (digitale betalings, eksterne debietorders, verkooppunttransaksies, ens).",
+                    "•\t10 kontantdeposito- of -onttrekkingstransaksies met ’n boperk van R50 000 per maand by enige Absa OTM."
+                ]
+            },
+            {
+                "featureName": "Kenmerke van Evolve 35:",
+                "featurePoints": [
+                    "•\tOnbeperkte Absa-tussenrekeningoorplasings",
+                    "•\tOnbeperkte Absa-na-Absa- (interne) debietorders."
+                ]
+            }
+            ]
+        },
+        {
+            "tabTitle": "Evolve 60",
+            "identifier": "BUSINESS_EVOLVE_60_CHEQUE",
+            "analyticTag": "SoleProprietor_WelcomeToABSAScreen_BusinessEvolve60PackageScreenDisplayed",
+            "bottomButtonTitle": "Gaan voort met Evolve 60",
+            "headerTitle": "R415 per maand",
+            "headerSubTitle": "Evolve 60",
+            "monthlyFee": "415.00",
+            "note": "Besoek absa.co.za gerus om al ons produkte en fooie te besigtig.",
+            "noteUnderlinedWords": "absa.co.za|fees",
+            "noteLinks": "https://www.absa.co.za/business/|https://www.absa.co.za/rates-and-fees/",
+            "features": [{
+                "featureName": "Kwalifiserende kriteria:",
+                "featurePoints": [
+                    "•\tJaarlikse omset:\n R0 tot R500 miljoen"
+                ]
+            }, {
+                "featureName": "Standaard rekeningkenmerke:",
+                "featurePoints": [
+                    "•\tVisa-besigheidsdebietkaart(e)",
+                    "•\t24/7 toegang tot Absa Online en die bankdienste-app",
+                    "•\tBeleggingsrekening: Liquidity Plus",
+                    "•\tCashflow Manager:\n'n Wolk-gebaseerde rekeningkundige stelsel om jou te help met die bestuur van jou besigheid"
+                ]
+            },
+            {
+                "featureName": "Unieke kenmerke van Evolve 60:",
+                "featurePoints": [
+                    "•\t60 vry elektroniese transaksies (digitale betalings, eksterne debietorders, verkooppunttransaksies, ens).",
+                    "•\t15 kontantdeposito- of -onttrekkingstransaksies met ’n boperk van R100 000 per maand by enige Absa OTM."
+                ]
+            },
+            {
+                "featureName": "Kenmerke van Evolve 60:",
+                "featurePoints": [
+                    "•\tOnbeperkte Absa-tussenrekeningoorplasings",
+                    "•\tOnbeperkte Absa-na-Absa- (interne) debietorders."
+                ]
+            }
+            ]
+        },
+        {
+            "tabTitle": "Evolve 90",
+            "identifier": "BUSINESS_EVOLVE_90_CHEQUE",
+            "analyticTag": "SoleProprietor_WelcomeToABSAScreen_BusinessEvolve90PackageScreenDisplayed",
+            "bottomButtonTitle": "Gaan voort met Evolve 90",
+            "headerTitle": "R590 per maand",
+            "headerSubTitle": "Evolve 90",
+            "monthlyFee": "R590",
+            "note": "Besoek absa.co.za gerus om al ons produkte en fooie te besigtig.",
+            "noteUnderlinedWords": "absa.co.za/fees",
+            "noteLinks": "https://www.absa.co.za/business/|https://www.absa.co.za/rates-and-fees/",
+            "features": [{
+                "featureName": "Kwalifiserende kriteria:",
+                "featurePoints": [
+                    "•\tJaarlikse omset:\n R0 tot R500 miljoen"
+                ]
+            }, {
+                "featureName": "Standaard rekeningkenmerke:",
+                "featurePoints": [
+                    "•\tVisa-besigheidsdebietkaart(e)",
+                    "•\t24/7 toegang tot Absa Online en die bankdienste-app",
+                    "•\tBeleggingsrekening: Liquidity Plus",
+                    "•\tCashflow Manager:\n'n Wolk-gebaseerde rekeningkundige stelsel om jou te help met die bestuur van jou besigheid"
+                ]
+            },
+            {
+                "featureName": "Unieke kenmerke van Evolve 90:",
+                "featurePoints": [
+                    "•\t90 vry elektroniese transaksies (digitale betalings, eksterne debietorders, verkooppunttransaksies, ens).",
+                    "•\t15 kontantdeposito- of -onttrekkingstransaksies met ’n boperk van R250 000 per maand by enige Absa OTM."
+                ]
+            },
+            {
+                "featureName": "Kenmerke van Evolve 90:",
+                "featurePoints": [
+                    "•\tOnbeperkte Absa-tussenrekeningoorplasings",
+                    "•\tOnbeperkte Absa-na-Absa- (interne) debietorders."
+                ]
+            }
+            ]
+        }
+        ]
+    }
+}

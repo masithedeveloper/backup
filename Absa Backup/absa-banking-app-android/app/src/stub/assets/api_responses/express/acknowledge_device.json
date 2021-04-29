@@ -1,0 +1,9 @@
+{
+  "header": {
+    "statuscode": "0",
+    "service": "DeviceManagementFacade",
+    "operation": "AcknowledgeDevice",
+    "timestamp": "2020-02-10 08:33:13.870",
+    "resultMessages": []
+  }
+}

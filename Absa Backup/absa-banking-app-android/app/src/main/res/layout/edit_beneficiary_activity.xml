@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/header_dark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        style="@style/ScrollView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <styleguide.forms.EditBeneficiaryInputView
+                android:id="@+id/editBeneficiaryNameInputView"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginBottom="@dimen/small_space"
+                android:inputType="textCapSentences|textVisiblePassword"
+                android:maxLength="20"
+                app:attribute_editable="true"
+                app:attribute_hint_text="@string/cash_send_enter_beneficiary_name"
+                app:attribute_title_text="@string/cash_send_beneficiary_name"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <styleguide.forms.LargeInputView
+                android:id="@+id/nameLargeInputView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:maxLength="20"
+                android:visibility="gone"
+                app:attribute_editable="true"
+                app:attribute_title_text="@string/beneficiary_edit_details_name"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/editBeneficiaryNameInputView" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/networkOperatorNormalInputView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_editable="false"
+                app:attribute_title_text="@string/beneficiary_edit_details_network_operator"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/nameLargeInputView" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/bankNormalInputView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_editable="false"
+                app:attribute_title_text="@string/beneficiary_edit_details_bank"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/networkOperatorNormalInputView" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/branchNormalInputView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_editable="false"
+                app:attribute_title_text="@string/beneficiary_edit_details_branch"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/bankNormalInputView" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/accountHolderNameNormalInputView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_editable="false"
+                app:attribute_title_text="@string/beneficiary_edit_details_account_holder_name"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/branchNormalInputView" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/institutionCodeNormalInputView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_editable="false"
+                app:attribute_title_text="@string/beneficiary_edit_details_institution_code"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/accountHolderNameNormalInputView" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/accountTypeNormalInputView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_editable="false"
+                app:attribute_title_text="@string/beneficiary_edit_details_account_type"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/institutionCodeNormalInputView" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/accountNumberNormalInputView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_editable="false"
+                app:attribute_title_text="@string/beneficiary_edit_details_account_number"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/accountTypeNormalInputView" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/theirReferenceNormalInputView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/medium_space"
+                android:digits="@string/allowed_reference_digits"
+                android:maxLength="20"
+                app:attribute_editable="true"
+                app:attribute_title_text="@string/beneficiary_edit_details_their_reference"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/accountNumberNormalInputView" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/myReferenceNormalInputView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:digits="@string/allowed_reference_digits"
+                android:maxLength="20"
+                app:attribute_editable="true"
+                app:attribute_title_text="@string/beneficiary_edit_details_my_reference"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/theirReferenceNormalInputView" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/paymentNotificationNormalInputView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_editable="false"
+                app:attribute_hint_text="@string/beneficiary_edit_details_choose"
+                app:attribute_image="@drawable/ic_arrow_right_dark"
+                app:attribute_title_text="@string/payment_notification"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/myReferenceNormalInputView" />
+
+            <styleguide.content.SecondaryContentAndLabelView
+                android:id="@+id/customerNameMeterNumberSecondaryContentAndLabelView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/small_space"
+                android:visibility="gone"
+                app:attribute_secondary_label="@string/meter_number"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/paymentNotificationNormalInputView" />
+
+            <styleguide.content.SecondaryContentAndLabelView
+                android:id="@+id/customerNameForMeterSecondaryContentAndLabelView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                app:attribute_secondary_label="@string/registered_customer_name"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/customerNameMeterNumberSecondaryContentAndLabelView" />
+
+            <styleguide.content.SecondaryContentAndLabelView
+                android:id="@+id/addressSecondaryContentAndLabelView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                app:attribute_secondary_label="@string/address"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/customerNameForMeterSecondaryContentAndLabelView" />
+
+            <styleguide.content.SecondaryContentAndLabelView
+                android:id="@+id/utilityProviderSecondaryContentAndLabelView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                app:attribute_secondary_label="@string/utility_provider"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/addressSecondaryContentAndLabelView" />
+
+            <styleguide.content.SecondaryContentAndLabelView
+                android:id="@+id/arrearsAmountSecondaryContentAndLabelView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                app:attribute_secondary_label="@string/prepaid_electricity_arrears_amount_warning"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/utilityProviderSecondaryContentAndLabelView" />
+
+            <styleguide.buttons.Button
+                android:id="@+id/saveButton"
+                style="@style/PrimaryButton"
+                android:enabled="false"
+                android:text="@string/beneficiary_edit_details_save"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/arrearsAmountSecondaryContentAndLabelView"
+                app:layout_constraintVertical_bias="1" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

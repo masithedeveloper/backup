@@ -1,0 +1,68 @@
+{
+  "header": {
+    "statuscode": "0",
+    "userAgent": "ANDROID - 6.20.0",
+    "jsessionid": "stQopaJ1KLiEViPDBzH6j1WOwtlNri7zZ7BKlz8P",
+    "esessionid": "d14bbd2a-83bc-3861-8fa8-83e5db373c9b",
+    "service": "CashSendPaymentFacade",
+    "operation": "GetUnredeemedCashSendTransactions",
+    "channel": "S",
+    "timestamp": "2021-02-04 10:55:57.140",
+    "sourceip": "22.240.44.100",
+    "accessAccount": "4047510559",
+    "userNumber": "1",
+    "nonce": "r_qZG2BFsm1bNqOVBVF6ckf_HUg0Lh-k_xJIO8WT6SI",
+    "language": "en",
+    "organization": "ABSA",
+    "brand": "ABSA",
+    "resultMessages": [],
+    "paginationContext": {
+      "moreToCome": false,
+      "batchSize": 9999,
+      "batchSizeLimit": 9999,
+      "recordIdentity": "0",
+      "totalNoOfRecords": 3
+    }
+  },
+  "unredeemedCashSendTransactions": [
+    {
+      "beneficiaryNumber": 0,
+      "beneficiaryShortName": "Self",
+      "recipientCellNo": "0838229493",
+      "statementReference": "SHANE MICHAEL SARDIN",
+      "transactionDateTime": "2021-01-07",
+      "uniqueEFT": "80004AA721",
+      "paymentNumber": 1,
+      "sourceAccount": "4047510559",
+      "paymentAmount": "100.00",
+      "transactionResult": true,
+      "paymentProcessed": false
+    },
+    {
+      "beneficiaryNumber": 0,
+      "beneficiaryShortName": "Self",
+      "recipientCellNo": "0838229493",
+      "statementReference": "SHANE MICHAEL SARDIN",
+      "transactionDateTime": "2021-02-04",
+      "uniqueEFT": "80004B1717",
+      "paymentNumber": 1,
+      "sourceAccount": "4047510559",
+      "paymentAmount": "100.00",
+      "transactionResult": true,
+      "paymentProcessed": false
+    },
+    {
+      "beneficiaryNumber": 0,
+      "beneficiaryShortName": "Test",
+      "recipientCellNo": "0829164646",
+      "statementReference": "ffgtg",
+      "transactionDateTime": "2021-02-04",
+      "uniqueEFT": "800039262B",
+      "paymentNumber": 6,
+      "sourceAccount": "4047510559",
+      "paymentAmount": "50.00",
+      "transactionResult": true,
+      "paymentProcessed": false
+    }
+  ]
+}

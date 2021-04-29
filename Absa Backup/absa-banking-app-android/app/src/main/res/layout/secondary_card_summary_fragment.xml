@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scrollView"
+    style="@style/ScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <styleguide.content.TitleAndDescriptionView
+            android:id="@+id/summaryTitleAndDescriptionView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_description_size="0dp"
+            app:attribute_title="@string/secondary_card_summary"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:id="@+id/dividerView"
+            style="@style/DividerView"
+            android:layout_width="0dp"
+            android:layout_marginTop="@dimen/normal_space"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/summaryTitleAndDescriptionView" />
+
+        <styleguide.content.SecondaryContentAndLabelView
+            android:id="@+id/primaryCardNumberContentAndLabelView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:nestedScrollingEnabled="false"
+            app:attribute_secondary_label="@string/secondary_card_summary_primary_card"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/dividerView"
+            tools:attribute_secondary_content="4334 2101 8900 6904" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/secondaryCardRecyclerView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/primaryCardNumberContentAndLabelView" />
+
+        <styleguide.content.SecondaryContentAndLabelView
+            android:id="@+id/dateContentAndLabelView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_secondary_label="@string/secondary_card_summary_date"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/secondaryCardRecyclerView"
+            tools:attribute_secondary_content="20 May 2020" />
+
+        <styleguide.content.SecondaryContentAndLabelView
+            android:id="@+id/timeContentAndLabelView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_secondary_label="@string/secondary_card_summary_time"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/dateContentAndLabelView"
+            tools:attribute_secondary_content="14:23" />
+
+        <styleguide.buttons.Button
+            android:id="@+id/nextButton"
+            style="@style/PrimaryButton"
+            android:layout_width="0dp"
+            android:text="@string/next"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/timeContentAndLabelView"
+            app:layout_constraintVertical_bias="1" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

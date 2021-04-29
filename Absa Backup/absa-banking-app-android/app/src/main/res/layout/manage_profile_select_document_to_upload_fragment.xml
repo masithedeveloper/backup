@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scrollView"
+    style="@style/ScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/pageDescriptionTextView"
+            style="@style/LargeTextRegularDark"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/medium_space"
+            android:layout_marginTop="@dimen/medium_space"
+            android:layout_marginEnd="@dimen/medium_space"
+            android:text="@string/manage_profile_select_document_upload_both_description"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <styleguide.content.HeadingView
+            android:id="@+id/proofOfIdentityHeadingView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/medium_space"
+            app:attribute_heading="@string/manage_profile_select_document_proof_of_identity_title"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/pageDescriptionTextView" />
+
+        <styleguide.buttons.OptionActionButtonView
+            android:id="@+id/idDocumentUploadOptionActionButtonView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/medium_space"
+            android:layout_marginTop="@dimen/small_space"
+            android:layout_marginEnd="@dimen/medium_space"
+            app:attribute_background_image="@drawable/bordered_normal_rounded_corner_background"
+            app:attribute_caption="@string/manage_profile_select_document_upload_add_identity_document"
+            app:attribute_icon="@drawable/ic_add_dark"
+            app:attribute_show_arrow="false"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/proofOfIdentityHeadingView" />
+
+        <styleguide.content.HeadingView
+            android:id="@+id/proofOfResidenceHeadingView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/medium_space"
+            app:attribute_heading="@string/manage_profile_select_document_proof_of_residence_title"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/idDocumentUploadOptionActionButtonView" />
+
+        <styleguide.buttons.OptionActionButtonView
+            android:id="@+id/proofOfResUploadOptionActionButtonView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/medium_space"
+            android:layout_marginTop="@dimen/small_space"
+            android:layout_marginEnd="@dimen/medium_space"
+            app:attribute_background_image="@drawable/bordered_normal_rounded_corner_background"
+            app:attribute_caption="@string/manage_profile_select_document_upload_proof_of_residence_button"
+            app:attribute_icon="@drawable/ic_add_dark"
+            app:attribute_show_arrow="false"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/proofOfResidenceHeadingView" />
+
+        <styleguide.buttons.Button
+            android:id="@+id/continueButton"
+            style="@style/PrimaryButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:text="@string/continue_button"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

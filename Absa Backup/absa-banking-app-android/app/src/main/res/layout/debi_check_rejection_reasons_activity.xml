@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/header_dark" />
+
+        <TextView
+            android:id="@+id/titleTextView"
+            style="@style/SmallTextMediumDark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/medium_space"
+            android:layout_marginTop="@dimen/small_space"
+            android:layout_marginEnd="@dimen/medium_space"
+            android:text="@string/debicheck_rejection_reason_title"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rejectionReasonRecyclerView"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="@dimen/normal_space"
+            app:layout_constraintBottom_toTopOf="@+id/rejectButton"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/titleTextView"
+            tools:listitem="@layout/debi_check_rejection_item" />
+
+        <styleguide.buttons.Button
+            android:id="@+id/rejectButton"
+            style="@style/PrimaryButton"
+            android:layout_width="0dp"
+            android:contentDescription="@string/submit"
+            android:enabled="false"
+            android:onClick="onSubmitClick"
+            android:text="@string/reject"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

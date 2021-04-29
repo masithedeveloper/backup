@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Settings landing screen -->
+    <string name="settings_push_notifications_switched_off_message">Kennisgewings suksesvol afgeskakel</string>
+    <string name="settings_language">Taal</string>
+    <string name="settings_enable_push_notifications">Aktiveer kennisgewings</string>
+    <string name="settings_enable_use_fingerprint_log_in">Gebruik vingerafdruk om in te teken</string>
+    <string name="settings_enable_sounds">Laat die app toe om klanke te speel wanneer die app gebruik word</string>
+    <string name="settings_dark_theme">Donker tema</string>
+
+    <!-- Card digitalLimits -->
+
+    <string name="card_limits_toolbar_title">Kaartlimiete</string>
+    <string name="card_limits_edit_card_toolbar_title">Verander Kaartlimiete</string>
+    <string name="card_limits_atm_withdrawal_limit">OTM-onttrekkingslimiet</string>
+    <string name="card_limits_point_of_sale_daily_limit">Verkooppunt-limiet</string>
+    <string name="card_limits_min_max_limit">Min. limiet %s\nMaks. limiet %s</string>
+    <string name="card_limits_min_limit">Min. limiet %s\</string>
+    <string name="card_limits_max_limit">Maks. limiet %s\</string>
+    <string name="card_limits_min_limit_rand">Min. limiet R %s</string>
+    <string name="card_limits_max_limit_rand">Maks. limiet R %s</string>
+
+</resources>

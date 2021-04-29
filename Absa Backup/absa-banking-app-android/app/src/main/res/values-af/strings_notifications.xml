@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="notification_disclaimer_text">Herinnering: Daar is \'n fooi vir die stuur van \'n kennisgewing van betaling. Vir meer inligting besoek gerus \<u>Absa.co.za</u>.</string>
+    <string name="notification_hint_text">Kies Kennisgewing Tipe</string>
+    <string name="notification_confirm_send">Bevestig stuur</string>
+    <string name="notification_resend_success_header">Kennisgewing suksesvol gestuur</string>
+    <string name="notification_resend_failure_header">Kennisgewing kon nie gestuur word nie</string>
+    <string name="notification_resend_success_detail">Kennisgewing gestuur op %s</string>
+    <string name="notification_resend_failure_detail">Sy kennisgewing kon nie gestuur word nie. Laaste probeer by %s</string>
+    <string name="notification_of_payment_overview">Kennisgewing van betaling oorsig</string>
+    <string name="notification_of_payment_toolbar_header">Kennisgewing van betaling</string>
+    <string name="notification_payment_notification_type_header">Betaling Kennisgewing Tipe</string>
+    <string name="notification_account_number_label">Rekening Nommer</string>
+    <string name="notification_beneficiary_reference_label">Begunstigde Verwysing</string>
+    <string name="notification_beneficiary_label">Begunstigde</string>
+    <string name="notification_my_reference_label">My Verwysing</string>
+    <string name="notification_bank_name_label">Bank</string>
+    <string name="notification_payment_date">Betaal datum</string>
+    <string name="notification_payment_amount">Bedrag</string>
+    <string name="notification_type_toolbar">Kennisgewing Tipe</string>
+    <string name="notification_type_fax">Faks</string>
+    <string name="notification_type_none">Geen</string>
+    <string name="notification_type_email">E-pos</string>
+    <string name="notification_type_sms">SMS</string>
+</resources>

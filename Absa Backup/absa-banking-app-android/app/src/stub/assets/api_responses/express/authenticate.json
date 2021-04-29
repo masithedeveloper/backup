@@ -1,0 +1,11 @@
+{
+  "header": {
+    "statuscode": "0",
+    "service": "AuthenticationFacade",
+    "operation": "AuthenticateCredential",
+    "timestamp": "2020-02-18 13:49:58.553",
+    "resultMessages": []
+  },
+  "accessToken": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6InhyYXMifQ.eyJzdWIiOiI0MDQ3NTEwNTU5LTEiLCJhdWQiOiI2NjQyODRlNi01ZjM4LTNjMTEtYTM1Yy02MmVjZDEyZjk5OWIiLCJhYnNhLm11LmNyZWQiOiIwODMzMDU3N2Q4ZjJlMWJkMzY3NDBmNmYwOTRjM2UwZDUzOTFiMjg2OTE3ZDY2ZTEyZWI5NjhiYjA2YjkwMmRkYzVjNzJlNDI0MjUyZjliYjlhOGE4NGRjYTAzYWYzYjlkYWE4MzY1NjRmZmJjYzU3Mzk3MzNlN2U2YjIxZmUyZDY5Nzg2MTA5OWM0N2RjNGQ3MTllNjFlMGZjMzY2MDdlIiwic2NvcGUiOiJpZHAgeHRtcyIsImlzcyI6Imh0dHA6Ly96YWRybmJyYXBwMTMyNjo5MDk3L3hyYXMvIiwiYWJzYS50b2tlbi5oaW50IjoiYWNjZXNzX3Rva2VuIiwiZXhwIjoxNTgyMDI2Njg4LCJ0b2tlbl90eXBlIjoiQmVhcmVyIiwiaWF0IjoxNTgyMDI2NTY4LCJjbGllbnRfaWQiOiI2NjQyODRlNi01ZjM4LTNjMTEtYTM1Yy02MmVjZDEyZjk5OWIifQ.SxExQ-Dih0wWNWlGCN9g2uAxaa287P43Q4hUBT3TZfnwas6RURkVcpDIiAmAwbLCLYyfyfJRzh8gLl510JsydiAgp8LMuY7pA2u53xIh3opZd1ozBs3Lv-v9WDsfSXhgs1hUbtwpyWFjad4KvMI1jXoVJv8rbFmmXMDIRwxZc45jPyoYm7VEn4FZZyjJ3AN12DNF94jrO5gt_Hx28-7mWAicjnFsFKBCigksA1MkUBIJgiAXmpYnDS5-WbReUFqdG8DfeiBOwfWucMP_odi7Led5PSqVehKQ6DWj3TaYltuxdknqZGugpf4uOZMm7j25Xxgd6z2SvbmF3-LjWGohOg",
+  "expiresInSeconds": "60"
+}

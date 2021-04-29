@@ -1,0 +1,14 @@
+[
+  {
+    "group": null,
+    "name": "Selfie.jpg",
+    "type": "image/png",
+    "size": 207132,
+    "progress": "1.0",
+    "url": "/api/docuement?f=Selfie.jpg",
+    "thumbnail_url": "",
+    "delete_url": "/api/document?f=Selfie.jpg",
+    "delete_type": "DELETE",
+    "error": null
+  }
+]

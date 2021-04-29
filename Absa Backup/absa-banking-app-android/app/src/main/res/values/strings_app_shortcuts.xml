@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="shortcut_headings">
+        <item>@string/pay</item>
+        <item>@string/transfer</item>
+        <item>@string/buy_electricity</item>
+        <item>@string/stop_card_heading</item>
+    </string-array>
+    <integer-array name="shortcut_icons">
+        <item>@drawable/ic_pay_dark</item>
+        <item>@drawable/ic_action_transfer</item>
+        <item>@drawable/ic_electricity_dark</item>
+        <item>@drawable/ic_stop_card_dark</item>
+    </integer-array>
+</resources>

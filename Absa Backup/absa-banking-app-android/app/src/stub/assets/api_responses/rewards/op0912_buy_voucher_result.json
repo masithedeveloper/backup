@@ -1,0 +1,16 @@
+{
+  "successResponseModel":{
+    "payHdr":{
+      "resId":"RES0912",
+      "resCde":"00000",
+      "resMsg":"",
+      "serVer":"2.0"
+    },
+    "payData":{
+      "regisMsg":"",
+      "membershipID":"160217000114",
+      "redemptionCode":"RWTCHA",
+      "regisStatus":"SUCCESS"
+    }
+  }
+}

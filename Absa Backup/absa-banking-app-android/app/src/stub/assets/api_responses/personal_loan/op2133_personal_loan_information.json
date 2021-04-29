@@ -1,0 +1,27 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES2133",
+      "resCde": "00000",
+      "resMsg": "Success",
+      "serVer": "2.0",
+      "expTrace": null
+    },
+    "payData": {
+      "personalLoan": {
+        "term": "24",
+        "remainingTerm": "18",
+        "contractDate": "2019-04-09",
+        "repaymentDay": "23",
+        "arrearAdvanceAmount": "14359.5",
+        "instalment": "1009.96",
+        "interestRate": "12.75",
+        "accountNumber": "3001432596",
+        "accountType": "personalLoan",
+        "description": "PERSONAL LOAN"
+      },
+      "txnStatus": "Success",
+      "txnMessage": "Success"
+    }
+  }
+}

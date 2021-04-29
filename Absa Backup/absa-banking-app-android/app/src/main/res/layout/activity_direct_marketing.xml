@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/ScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:animateLayoutChanges="true">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/header_dark"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <styleguide.content.TertiaryContentAndLabelView
+            android:id="@+id/creditStatusTertiaryContentView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_tertiary_content="@string/would_you_like_to_hear"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+        <styleguide.forms.RadioButtonView
+            android:id="@+id/creditMarketingConsentOptionsRadioGroup"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/creditStatusTertiaryContentView" />
+
+        <LinearLayout
+            android:id="@+id/marketingCommunicationLayout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone"
+            app:layout_constraintBottom_toTopOf="@+id/nextButton"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/creditMarketingConsentOptionsRadioGroup"
+            tools:visibility="visible">
+
+            <styleguide.content.TertiaryContentAndLabelView
+                android:id="@+id/contactMeMarketingConsentTertiaryContentView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:attribute_tertiary_content="@string/choose_to_hear_about_our_offers" />
+
+            <styleguide.forms.CheckBoxView
+                android:id="@+id/smsCheckbox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:attribute_description="@string/sms" />
+
+            <styleguide.forms.CheckBoxView
+                android:id="@+id/emailCheckbox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:attribute_description="@string/email" />
+
+            <styleguide.forms.CheckBoxView
+                android:id="@+id/voiceRecordingCheckbox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:attribute_description="@string/voice_recording" />
+
+            <styleguide.forms.CheckBoxView
+                android:id="@+id/noThanksCheckbox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:attribute_description="@string/no_thanks" />
+        </LinearLayout>
+
+        <styleguide.buttons.Button
+            android:id="@+id/nextButton"
+            style="@style/PrimaryButton"
+            android:layout_marginTop="@dimen/medium_space"
+            android:contentDescription="@string/button_next"
+            android:text="@string/next"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintVertical_bias="1" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

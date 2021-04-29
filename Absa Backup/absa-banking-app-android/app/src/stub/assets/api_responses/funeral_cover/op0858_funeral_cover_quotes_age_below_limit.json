@@ -1,0 +1,87 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0858",
+      "resCde": "00000",
+      "resMsg": "Success",
+      "serVer": "2.0"
+    },
+    "payData": {
+      "quotes": [
+        {
+          "coverAmount": "10000.0",
+          "outstandingPremiumAmount": "0.0",
+          "monthlyPremium": "22.29",
+          "loadingAmount": "0.0",
+          "sasPremium": "0.0",
+          "planCode": "1",
+          "planCounter": "1",
+          "spousePlanCounter": "1",
+          "spousePlanCode": "1",
+          "spouseSumAssured": "10000.0",
+          "spouseBenefitPremium": "7.45",
+          "firstHHorHO": "false"
+        },
+        {
+          "coverAmount": "20000.0",
+          "outstandingPremiumAmount": "0.0",
+          "monthlyPremium": "37.33",
+          "loadingAmount": "0.0",
+          "sasPremium": "0.0",
+          "planCode": "3",
+          "planCounter": "3",
+          "spousePlanCounter": "3",
+          "spousePlanCode": "3",
+          "spouseSumAssured": "20000.0",
+          "spouseBenefitPremium": "14.63",
+          "firstHHorHO": "false"
+        },
+        {
+          "coverAmount": "30000.0",
+          "outstandingPremiumAmount": "0.0",
+          "monthlyPremium": "45.13",
+          "loadingAmount": "0.0",
+          "sasPremium": "0.0",
+          "planCode": "5",
+          "planCounter": "5",
+          "spousePlanCounter": "5",
+          "spousePlanCode": "5",
+          "spouseSumAssured": "30000.0",
+          "spouseBenefitPremium": "21.57",
+          "firstHHorHO": "false"
+        },
+        {
+          "coverAmount": "40000.0",
+          "outstandingPremiumAmount": "0.0",
+          "monthlyPremium": "52.93",
+          "loadingAmount": "0.0",
+          "sasPremium": "0.0",
+          "planCode": "7",
+          "planCounter": "7",
+          "spousePlanCounter": "7",
+          "spousePlanCode": "7",
+          "spouseSumAssured": "40000.0",
+          "spouseBenefitPremium": "28.5",
+          "firstHHorHO": "false"
+        },
+        {
+          "coverAmount": "50000.0",
+          "outstandingPremiumAmount": "0.0",
+          "monthlyPremium": "60.74",
+          "loadingAmount": "0.0",
+          "sasPremium": "0.0",
+          "planCode": "9",
+          "planCounter": "9",
+          "spousePlanCounter": "9",
+          "spousePlanCode": "9",
+          "spouseSumAssured": "50000.0",
+          "spouseBenefitPremium": "35.44",
+          "firstHHorHO": "false"
+        }
+      ],
+      "policyFee": "10",
+      "txnStatus": "Failure",
+      "txnMessage": "Client age is less than min entry age"
+    }
+  }
+}

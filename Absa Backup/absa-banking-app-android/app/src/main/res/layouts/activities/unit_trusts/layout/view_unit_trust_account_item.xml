@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <styleguide.content.TitleAndDescriptionView
+            android:id="@+id/selectedAccountNumberView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_description="@string/unit_trust_account_number"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <styleguide.content.HeadingView
+            android:id="@+id/overviewLabelTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_heading="@string/unit_trust_account_overview_label"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/selectedAccountNumberView" />
+
+        <styleguide.content.LineItemView
+            android:id="@+id/availableBalanceLineItemView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_label_text="@string/available_balance"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/overviewLabelTextView" />
+
+        <styleguide.content.LineItemView
+            android:id="@+id/availableUnitsLineItemView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_label_text="@string/unit_trust_available_units"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/availableBalanceLineItemView" />
+
+        <styleguide.content.HeadingView
+            android:id="@+id/fundsLabelTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/medium_space"
+            app:attribute_heading="@string/view_unit_trust_fund_label"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/availableUnitsLineItemView" />
+
+        <styleguide.buttons.OptionActionButtonView
+            android:id="@+id/fundOneActionButtonView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/fundsLabelTextView" />
+
+        <styleguide.buttons.OptionActionButtonView
+            android:id="@+id/fundTwoActionButtonView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/fundOneActionButtonView" />
+
+        <styleguide.buttons.OptionActionButtonView
+            android:id="@+id/fundThreeActionButtonView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/fundTwoActionButtonView" />
+
+        <styleguide.buttons.OptionActionButtonView
+            android:id="@+id/showMoreFundsActionButtonView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_caption="@string/unit_trust_more_funds_label"
+            app:attribute_icon="@drawable/ic_add_dark"
+            app:attribute_show_arrow="false"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/fundThreeActionButtonView" />
+
+        <View
+            android:id="@+id/titleDividerView"
+            style="@style/DividerView"
+            android:layout_width="0dp"
+            android:layout_marginTop="@dimen/small_space"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/showMoreFundsActionButtonView" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

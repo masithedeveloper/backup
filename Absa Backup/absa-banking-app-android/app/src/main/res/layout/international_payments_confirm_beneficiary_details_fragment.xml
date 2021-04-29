@@ -1,0 +1,133 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        style="@style/ScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:animateLayoutChanges="true">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/personalInformationTitleTextView"
+                style="@style/SmallTextMediumDark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/medium_space"
+                android:layout_marginTop="@dimen/medium_space"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:text="Beneficiary personal information" />
+
+            <styleguide.content.PrimaryContentAndLabelView
+                android:id="@+id/namesContentView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_primary_label="@string/full_names_as_per_password_text"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/personalInformationTitleTextView"
+                tools:attribute_primary_content="Sandra Tracey Daniels" />
+
+            <styleguide.content.SecondaryContentAndLabelView
+                android:id="@+id/personGenderContentView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_secondary_label="@string/beneficiary_gender_text"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/namesContentView"
+                tools:attribute_secondary_content="Android" />
+
+            <styleguide.content.SecondaryContentAndLabelView
+                android:id="@+id/residentialStatusContentView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/personGenderContentView"
+                tools:attribute_secondary_content="SA Resident temporarily abroad"
+                tools:attribute_secondary_label="@string/residential_status_text" />
+
+            <View
+                android:id="@+id/divider"
+                style="@style/DividerView"
+                android:layout_width="0dp"
+                android:layout_marginTop="@dimen/small_space"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/residentialStatusContentView" />
+
+            <TextView
+                android:id="@+id/addressInformationTextView"
+                style="@style/SmallTextMediumDark"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/medium_space"
+                android:layout_marginTop="@dimen/medium_space"
+                android:layout_marginEnd="@dimen/medium_space"
+                android:text="@string/international_payments_beneficiary_address_information"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/divider" />
+
+            <styleguide.content.SecondaryContentAndLabelView
+                android:id="@+id/residentialAddressContentView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/addressInformationTextView"
+                tools:attribute_secondary_content="15 Troye street"
+                tools:attribute_secondary_label="@string/international_beneficiary_address" />
+
+            <styleguide.content.SecondaryContentAndLabelView
+                android:id="@+id/residentialCityContentView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_secondary_label="@string/international_payments_city"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/residentialAddressContentView"
+                tools:attribute_secondary_content="Johannesburg" />
+
+            <styleguide.content.SecondaryContentAndLabelView
+                android:id="@+id/residentialStateContentView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_secondary_label="@string/international_payments_state"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/residentialCityContentView"
+                tools:attribute_secondary_content="N/A" />
+
+            <styleguide.content.SecondaryContentAndLabelView
+                android:id="@+id/residentialCountryContentView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_secondary_label="@string/international_payments_country"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/residentialStateContentView"
+                tools:attribute_secondary_content="Australia" />
+
+            <styleguide.buttons.Button
+                android:id="@+id/saveBeneficiaryButton"
+                style="@style/PrimaryButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/save_ben_button"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/residentialCountryContentView"
+                app:layout_constraintVertical_bias="1" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</layout>

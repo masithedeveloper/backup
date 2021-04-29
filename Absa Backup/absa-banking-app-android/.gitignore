@@ -1,0 +1,26 @@
+# Created by .ignore support plugin (hsz.mobi)
+/.gradle
+build/*
+/*/build
+app/src/main/res/values-w820dp/dimens.xml
+app/src/main/res/drawable-hdpi/Thumbs.db
+app/src/main/res/drawable-land/Thumbs.db
+app/src/main/res/drawable-xxhdpi/Thumbs.db
+*.apk
+*.dex
+*.class
+*.iml
+*/bin/
+*/gen/
+*/.settings
+*/.properties
+local.properties
+*/.project
+/.idea/
+.idea/copyright
+build-cache
+captures/
+gradle/
+app/prodCombined
+app/newrelic.properties
+.DS_Store

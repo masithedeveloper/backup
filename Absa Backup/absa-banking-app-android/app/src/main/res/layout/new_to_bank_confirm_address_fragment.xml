@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        style="@style/ScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/line1NormalInputView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/small_space"
+                android:imeOptions="actionNext"
+                app:attribute_editable="true"
+                app:attribute_hint_text="@string/new_to_bank_address_line_1"
+                app:attribute_title_text="@string/new_to_bank_address_line_1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/line2NormalInputView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:imeOptions="actionNext"
+                app:attribute_editable="true"
+                app:attribute_hint_text="@string/new_to_bank_address_line_2"
+                app:attribute_title_text="@string/new_to_bank_address_line_2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/line1NormalInputView" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/suburb_normal_input_view"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:imeOptions="actionNext"
+                app:attribute_editable="true"
+                app:attribute_hint_text="@string/new_to_bank_suburb"
+                app:attribute_title_text="@string/new_to_bank_suburb"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/line2NormalInputView" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/cityTownNormalInputView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:imeOptions="actionNext"
+                app:attribute_editable="true"
+                app:attribute_hint_text="@string/new_to_bank_city_or_town"
+                app:attribute_title_text="@string/new_to_bank_city_or_town"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/suburb_normal_input_view"
+                app:layout_constraintVertical_bias="0" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/codeNormalInputView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:imeOptions="actionDone"
+                app:attribute_editable="true"
+                app:attribute_hint_text="@string/code"
+                app:attribute_selector_type="LONG_LIST"
+                app:attribute_title_text="@string/code"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cityTownNormalInputView"
+                app:layout_constraintVertical_bias="0" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/residentialStatusNormalInputView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/medium_space"
+                app:attribute_hint_text="@string/new_to_bank_residential_Status_hint"
+                app:attribute_selector_type="LONG_LIST"
+                app:attribute_title_text="@string/new_to_bank_residential_Status"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/codeNormalInputView" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/propertyMarketValueInputView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:maxLength="15"
+                app:attribute_hint_text="@string/new_to_bank_currency_string"
+                app:attribute_selector_type="CURRENCY"
+                app:attribute_title_text="@string/new_to_bank_property_market_value_title"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/residentialStatusNormalInputView" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/residentialAddressLengthNormalInputView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_editable="false"
+                app:attribute_hint_text="@string/new_to_bank_address_length_hint_text"
+                app:attribute_selector_type="DATE"
+                app:attribute_title_text="@string/new_to_bank_address_length_description_text"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/propertyMarketValueInputView" />
+
+            <styleguide.buttons.Button
+                android:id="@+id/confirmAddressButton"
+                style="@style/PrimaryButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/double_medium_space"
+                android:text="@string/confirm"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/residentialAddressLengthNormalInputView"
+                app:layout_constraintVertical_bias="1" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</layout>

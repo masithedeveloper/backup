@@ -1,0 +1,206 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+
+android {
+    compileSdkVersion 30
+
+    defaultConfig {
+        minSdkVersion 21
+        targetSdkVersion 30
+        versionCode 1
+        versionName "0.1"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        consumerProguardFiles 'consumer-rules.pro'
+
+        buildConfigField("boolean", "ENABLE_CERT_PINNING", project.property("enableCertificatePinning"))
+        buildConfigField("boolean", "STUB", "false")
+        buildConfigField("boolean", "PROD", "false")
+
+        buildConfigField("Integer", "XMMS_PORT", "9090")
+        buildConfigField("Integer", "XTMS_PORT", "9090")
+        buildConfigField("String", "XMMS_BASE_URL", '"https://eu.absa.co.za/xmms/"')
+        buildConfigField("String", "XTMS_BASE_URL", '"https://eu.absa.co.za/axob/"')
+        buildConfigField("String", "XSWP_BASE_URL", '"https://eu.absa.co.za/xswp/"')
+        buildConfigField("String", "XSMS_BASE_URL", '"https://eu.absa.co.za/xsms/"')
+        buildConfigField("String", "nCipherBaseUrl", '"https://vsuat.absa.co.za/axob/"')
+
+        buildConfigField("String", "expressHostName", '"eu.absa.co.za"')
+        buildConfigField("String", "xsmsHostName", '"eu.absa.co.za"')
+        buildConfigField("String", "xswpHostName", '"eu.absa.co.za"')
+        buildConfigField("String", "nCipherHostName", '"vsuat.absa.co.za"')
+        buildConfigField("String", "rootCertificatePublicKeyHash", '"7745decf0e511143b67e129decf25a9d3c703d09db4daa070fc57838c7c60398"')
+        buildConfigField("String", "xswpRootCertificatePublicKeyHash", '"94819f550e4f0e648715e3100ca1ba1fde21c53cbf23c01dbf76aec7edfa1f0a"')
+        buildConfigField("String", "UAT_SHA256_HASH", '"sha256/FvPoLTcdhXc3j3OAdjSbfSQLDEtKYn/6x7QK7RbW5Xw="')
+        buildConfigField("String", "PROD_SHA256_HASH", '"sha256/bldY9HkzP6uwmBWZgdWTqNYL6r4I7tqUTR3A98CJJgw="')
+        buildConfigField("String", "DIGICERT_INTERMEDIATE_CERT_SHA256_HASH", '"sha256/RRM1dGqnDFsCJXBTHky16vi1obOlCgFFn/yOhI/y+ho="')
+        buildConfigField("String", "PROD_XSMS_SHA256_HASH", '"sha256/R22f7zuA7y8Jhge2/ljZUySHxjfV9mnE7cMpWK2xgK8="')
+        buildConfigField("String", "DIGICERT_ROOT_CERT_SHA256_HASH", '"sha256/WoiWRyIOVNa9ihaBciRSC7XHjliYS9VwUGOIud4PB18="')
+    }
+
+    flavorDimensions "environment"
+
+    productFlavors {
+        devStub {
+            dimension "environment"
+            buildConfigField("boolean", "STUB", "true")
+            buildConfigField("String", "EXPRESS_ENVIRONMENT", '"DEV1"')
+        }
+
+        devUat_i {
+            buildConfigField("String", "EXPRESS_ENVIRONMENT", '"DEV1"')
+
+            dimension "environment"
+            buildConfigField("boolean", "SIT", "true")
+        }
+
+        devUat_2 {
+            buildConfigField("String", "EXPRESS_ENVIRONMENT", '"UAT2"')
+
+            dimension "environment"
+            buildConfigField("boolean", "UAT", "true")
+        }
+
+        devUat_r {
+            dimension "environment"
+            buildConfigField("boolean", "UAT", "true")
+            buildConfigField("String", "EXPRESS_ENVIRONMENT", '"UAT4"')
+        }
+
+        devProdBeta {
+            dimension "environment"
+            buildConfigField("boolean", "PROD", "true")
+            buildConfigField("String", "EXPRESS_ENVIRONMENT", '"PROD"')
+            buildConfigField("String", "expressHostName", '"ib.absa.co.za"')
+            buildConfigField("String", "xsmsHostName", '"e.absa.co.za"')
+            buildConfigField("String", "xswpHostName", '"xdss.absa.co.za"')
+            buildConfigField("String", "nCipherHostName", '"vs1.absa.co.za"')
+            buildConfigField("String", "XMMS_BASE_URL", '"https://ib.absa.co.za/xmms/"')
+            buildConfigField("String", "XTMS_BASE_URL", '"https://ib.absa.co.za/axob/"')
+            buildConfigField("String", "XSMS_BASE_URL", '"https://e.absa.co.za/xsms/"')
+            buildConfigField("String", "nCipherBaseUrl", '"https://vs1.absa.co.za/axob/"')
+        }
+
+        stub {
+            dimension "environment"
+            buildConfigField("boolean", "STUB", "true")
+            buildConfigField("String", "EXPRESS_ENVIRONMENT", '"DEV1"')
+        }
+
+        sit {
+            dimension "environment"
+            buildConfigField("boolean", "SIT", "true")
+            buildConfigField("String", "EXPRESS_ENVIRONMENT", '"DEV1"')
+        }
+
+        uat_i_ {
+            dimension "environment"
+            buildConfigField("boolean", "UAT", "true")
+            buildConfigField("String", "EXPRESS_ENVIRONMENT", '"UAT2"')
+        }
+
+        uat_i_penTesting {
+            dimension "environment"
+            buildConfigField("boolean", "UAT", "true")
+            buildConfigField("String", "EXPRESS_ENVIRONMENT", '"SIT"')
+        }
+
+        uat_2_ {
+            dimension "environment"
+            buildConfigField("boolean", "UAT", "true")
+            buildConfigField("String", "EXPRESS_ENVIRONMENT", '"UAT2"')
+        }
+
+        uat_3_ {
+            dimension "environment"
+            buildConfigField("boolean", "UAT", "true")
+            buildConfigField("String", "EXPRESS_ENVIRONMENT", '"UAT3"')
+        }
+
+        uat_r_ {
+            dimension "environment"
+            buildConfigField("boolean", "UAT", "true")
+            buildConfigField("String", "EXPRESS_ENVIRONMENT", '"UAT2"')
+        }
+
+        uat_r_penTesting {
+            dimension "environment"
+            buildConfigField("boolean", "UAT", "true")
+            buildConfigField("String", "EXPRESS_ENVIRONMENT", '"UAT1"')
+        }
+
+        prodBeta {
+            dimension "environment"
+            buildConfigField("boolean", "PROD", "true")
+            buildConfigField("String", "EXPRESS_ENVIRONMENT", '"PROD"')
+            buildConfigField("String", "expressHostName", '"ib.absa.co.za"')
+            buildConfigField("String", "xsmsHostName", '"e.absa.co.za"')
+            buildConfigField("String", "nCipherHostName", '"vs1.absa.co.za"')
+            buildConfigField("String", "xswpHostName", '"xdss.absa.co.za"')
+            buildConfigField("String", "XMMS_BASE_URL", '"https://ib.absa.co.za/xmms/"')
+            buildConfigField("String", "XTMS_BASE_URL", '"https://ib.absa.co.za/axob/"')
+            buildConfigField("String", "XSWP_BASE_URL", '"https://xdss.absa.co.za/xswp/"')
+            buildConfigField("String", "XSMS_BASE_URL", '"https://e.absa.co.za/xsms/"')
+            buildConfigField("String", "nCipherBaseUrl", '"https://vs1.absa.co.za/axob/"')
+        }
+
+        prod {
+            dimension "environment"
+            buildConfigField("boolean", "PROD", "true")
+            buildConfigField("String", "EXPRESS_ENVIRONMENT", '"PROD"')
+            buildConfigField("String", "expressHostName", '"ib.absa.co.za"')
+            buildConfigField("String", "xsmsHostName", '"e.absa.co.za"')
+            buildConfigField("String", "nCipherHostName", '"vs1.absa.co.za"')
+            buildConfigField("String", "xswpHostName", '"xdss.absa.co.za"')
+            buildConfigField("String", "XMMS_BASE_URL", '"https://ib.absa.co.za/xmms/"')
+            buildConfigField("String", "XTMS_BASE_URL", '"https://ib.absa.co.za/axob/"')
+            buildConfigField("String", "XSWP_BASE_URL", '"https://xdss.absa.co.za/xswp/"')
+            buildConfigField("String", "XSMS_BASE_URL", '"https://e.absa.co.za/xsms/"')
+            buildConfigField("String", "nCipherBaseUrl", '"https://vs1.absa.co.za/axob/"')
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        targetCompatibility 1.8
+        sourceCompatibility 1.8
+    }
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'androidx.core:core-ktx:1.3.2'
+
+    //Kotlin
+    api "org.jetbrains.kotlin:kotlin-reflect:$kotlin_version"
+    api 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.4.1'
+    api 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.4.1'
+    api "androidx.lifecycle:lifecycle-extensions:2.2.0"
+    api "androidx.lifecycle:lifecycle-livedata-ktx:2.3.0"
+    api "androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.0"
+
+    //Jackson
+    api 'com.fasterxml.jackson.core:jackson-databind:2.12.1'
+    api 'com.fasterxml.jackson.core:jackson-core:2.12.1'
+    api 'com.fasterxml.jackson.core:jackson-annotations:2.12.1'
+    api "com.fasterxml.jackson.module:jackson-module-kotlin:2.12.1"
+
+    //OkHttp - Please don't upgrade this to a higher version
+    api 'com.squareup.okhttp3:okhttp:4.8.0'
+    api 'com.squareup.okhttp3:okhttp-urlconnection:4.8.0'
+    api 'com.squareup.okhttp3:logging-interceptor:4.8.0'
+
+    //Retrofit dependencies
+    api "com.squareup.retrofit2:retrofit:$retrofit_version"
+    implementation "com.squareup.retrofit2:converter-scalars:$retrofit_version"
+}

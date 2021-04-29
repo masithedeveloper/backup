@@ -1,0 +1,35 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="32dp"
+    android:height="32dp"
+    android:viewportWidth="32"
+    android:viewportHeight="32">
+    <path
+        android:fillColor="#D3D3D3"
+        android:fillType="evenOdd"
+        android:pathData="M27,29.334L5,29.334c-0.552,0 -1,-0.46 -1,-1.026L4,3.693C4,3.126 4.448,2.667 5,2.667h22c0.552,0 1,0.46 1,1.026L28,28.307c0,0.566 -0.448,1.026 -1,1.026" />
+    <group>
+        <!-- I need to get the png's for this from design -->
+        <clip-path android:pathData="M27,29.334L5,29.334c-0.552,0 -1,-0.46 -1,-1.026L4,3.693C4,3.126 4.448,2.667 5,2.667h22c0.552,0 1,0.46 1,1.026L28,28.307c0,0.566 -0.448,1.026 -1,1.026 M 0,0" />
+        <path
+            android:fillAlpha="0.6"
+            android:fillColor="#9F9F9F"
+            android:fillType="evenOdd"
+            android:pathData="M17.537,10.934a3.014,3.014 0,1 1,-6.031 0,3.014 3.014,0 0,1 6.031,0"
+            android:strokeAlpha="0.6" />
+    </group>
+    <group>
+        <clip-path android:pathData="M27,29.334L5,29.334c-0.552,0 -1,-0.46 -1,-1.026L4,3.693C4,3.126 4.448,2.667 5,2.667h22c0.552,0 1,0.46 1,1.026L28,28.307c0,0.566 -0.448,1.026 -1,1.026 M 0,0" />
+        <path
+            android:fillAlpha=".6"
+            android:fillColor="#9F9F9F"
+            android:fillType="evenOdd"
+            android:pathData="M4,23.404v4.904c0,0.566 0.46,1.025 1.026,1.025h0.453l9.029,-7.505 -4.306,-3.58L4,23.404z" />
+    </group>
+    <group>
+        <clip-path android:pathData="M27,29.334L5,29.334c-0.552,0 -1,-0.46 -1,-1.026L4,3.693C4,3.126 4.448,2.667 5,2.667h22c0.552,0 1,0.46 1,1.026L28,28.307c0,0.566 -0.448,1.026 -1,1.026 M 0,0" />
+        <path
+            android:fillColor="#9F9F9F"
+            android:fillType="evenOdd"
+            android:pathData="M22.257,14.319L4.139,28.793c0.174,0.317 0.5,0.541 0.887,0.541L27.59,29.334c0.566,0 1.026,-0.46 1.026,-1.026v-8.91l-6.36,-5.08z" />
+    </group>
+</vector>

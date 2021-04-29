@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="home_loan_hub_agreement_detail_heading">Agreement Detail</string>
+    <string name="home_loan_hub_interest_rate_label">Interest rate</string>
+    <string name="home_loan_hub_loan_term_label">Loan term</string>
+    <string name="home_loan_hub_remaining_term_label">Remaining term</string>
+    <string name="home_loan_hub_contract_start_date_label">Contract start date</string>
+    <string name="home_loan_hub_installment_details_heading">Installment Details</string>
+    <string name="home_loan_hub_monthly_installment_label">Monthly Installment</string>
+    <string name="home_loan_hub_next_installment_date_label">Next installment date</string>
+    <string name="home_loan_hub_amount_in_arrears_label">Amount in arrears</string>
+    <string name="home_loan_hub_payment_due_label">Payment due</string>
+    <string name="home_loan_hub_advance_amount_label">Advance amount</string>
+</resources>

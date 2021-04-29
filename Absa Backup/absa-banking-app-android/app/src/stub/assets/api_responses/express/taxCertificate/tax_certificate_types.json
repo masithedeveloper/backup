@@ -1,0 +1,36 @@
+{
+  "header": {
+    "statuscode": "0",
+    "userAgent": "ANDROID - 6.19.0",
+    "jsessionid": "i-gxFV3KjghoHRX42hrh5Hxt8R4PooPmnjEI0fE3",
+    "esessionid": "bb609fb0-17e7-3a7e-8c64-27cfe27bdcb0",
+    "service": "TaxCertificateFacade",
+    "operation": "GetCertificateType",
+    "channel": "S",
+    "timestamp": "2020-11-26 10:00:51.672",
+    "sourceip": "22.147.145.101",
+    "accessAccount": "4048280911",
+    "userNumber": "1",
+    "nonce": "wRqlq8A8yme6a5yVQUftAJPpu8qBtALex0DGy707i00",
+    "language": "en",
+    "organization": "ABSA",
+    "brand": "ABSA",
+    "resultMessages": []
+  },
+  "certificateType": {
+    "IT3b - Income Tax Certificate.": "incomeTaxCertificate",
+    "IT3s - Market Money Fund Certificate.": "incomeTaxCertificateMoneyMarket",
+    "IT3b - Certificate (Islamic Banking customer only).": "incomeTaxCertificateIslamic",
+    "IT3b - Index Linked Funds Certificate.": "incomeTaxCertificateIndexLinked",
+    "IT3s - Tax Free Savings Certificate.": "incomeTaxCertificateTaxFreeSavings"
+  },
+  "taxYear": {
+    "2016": "Mar 2015 - Feb 2016",
+    "2017": "Mar 2016 - Feb 2017",
+    "2018": "Mar 2017 - Feb 2018",
+    "2019": "Mar 2018 - Feb 2019",
+    "2020": "Mar 2019 - Feb 2020",
+    "2021": "Current"
+  },
+  "taxViewFees": "https://eu.absa.co.za/absa-online/assets/Assets/Richmedia/PDF/Online/Pricing_Brochure/2020_Internet_Banking_Fees_#LANG#.pdf"
+}

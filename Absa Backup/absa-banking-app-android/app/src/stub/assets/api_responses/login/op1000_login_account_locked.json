@@ -1,0 +1,10 @@
+{
+  "successResponseModel" : {
+    "payHdr" : {
+      "resCde" : "06000",
+      "serVer" : "2.0",
+      "resMsg" : "Sorry. This Absa profile has been locked. Visit Absa Online or your branch to unlock this profile.",
+      "resId" : "RES1000"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/identification_manage_device_navigation_graph"
+    app:startDestination="@id/identificationViewDeviceFragment">
+
+    <fragment
+        android:id="@+id/identificationViewDeviceFragment"
+        android:name="com.barclays.absa.banking.manage.devices.identification.IdentificationViewDeviceFragment"
+        android:label="IdentificationViewDeviceFragment">
+        <action
+            android:id="@+id/action_identificationViewDeviceFragment_to_identificationEditDeviceNicknameFragment"
+            app:destination="@id/identificationEditDeviceNicknameFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+    <fragment
+        android:id="@+id/identificationEditDeviceNicknameFragment"
+        android:name="com.barclays.absa.banking.manage.devices.identification.IdentificationEditDeviceNicknameFragment"
+        android:label="IdentificationEditDeviceNicknameFragment" />
+
+    <fragment
+        android:id="@+id/genericResultFragment"
+        android:name="styleguide.screens.GenericResultScreenFragment"
+        android:label="GenericResultScreenFragment"
+        tools:layout="@layout/generic_results_screen_fragment">
+        <argument
+            android:name="GenericResultScreenFragment"
+            app:argType="styleguide.screens.GenericResultScreenProperties" />
+    </fragment>
+    <action
+        android:id="@+id/action_global_genericResultFragment"
+        app:destination="@id/genericResultFragment"
+        app:enterAnim="@anim/fadein"
+        app:exitAnim="@anim/fadeout"
+        app:popEnterAnim="@anim/fadein"
+        app:popExitAnim="@anim/fadeout" />
+</navigation>

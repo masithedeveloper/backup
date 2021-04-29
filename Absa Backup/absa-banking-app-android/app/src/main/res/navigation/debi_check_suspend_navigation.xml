@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/debi_check_approved_navigation">
+    <fragment
+        android:id="@+id/DebiCheckSuspendedFragment"
+        android:name="com.barclays.absa.banking.debiCheck.ui.DebiCheckSuspendedFragment"
+        android:label="DebitCheckSuspendedFragment"
+        tools:layout="@layout/debi_check_fragment">
+        <action
+            android:id="@+id/action_DebiCheckSuspendedFragment_to_DebiCheckMandateDetailsFragment"
+            app:destination="@id/DebiCheckMandateDetailsFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/DebiCheckApprovedFragment"
+        android:name="com.barclays.absa.banking.debiCheck.ui.DebiCheckApprovedFragment"
+        android:label="DebiCheckApprovedFragment"
+        tools:layout="@layout/debi_check_fragment">
+        <action
+            android:id="@+id/action_DebiCheckApprovedFragment_to_DebiCheckMandateDetailsFragment"
+            app:destination="@id/DebiCheckMandateDetailsFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/DebiCheckMandateDetailsFragment"
+        android:name="com.barclays.absa.banking.debiCheck.ui.DebiCheckMandateDetailsFragment"
+        android:label="DebiCheckDebitOrderDetailsFragment"
+        tools:layout="@layout/debi_check_order_details_activity">
+        <action
+            android:id="@+id/action_DebiCheckMandateDetailsFragment_to_DebiCheckSuspendInfoFragment"
+            app:destination="@+id/DebiCheckSuspendInfoFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/DebiCheckSuspendInfoFragment"
+        android:name="com.barclays.absa.banking.debiCheck.ui.DebiCheckInfoFragment"
+        android:label="DebiCheckInfoFragment"
+        tools:layout="@layout/debi_check_important_info_fragment">
+        <action
+            android:id="@+id/action_DebiCheckSuspendInfoFragment_to_DebiCheckReasonForSuspendFragment"
+            app:destination="@+id/debiCheckReasonForSuspendFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/debiCheckReasonForSuspendFragment"
+        android:name="com.barclays.absa.banking.debiCheck.ui.DebiCheckReasonsFragment"
+        android:label="DebiCheckReasonForSuspendFragment"
+        tools:layout="@layout/debi_check_reason_for_dispute_fragment"/>
+</navigation>

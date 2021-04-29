@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="bank_confirmation_letter">Bank confirmation letter</string>
+    <string name="bank_confirmation_letter_select_account">Select account</string>
+    <string name="choose_account_you_need_a_confirmation_letter">Choose the account for which you need a confirmation letter</string>
+    <string name="bank_confirmation_letter_current_account">Current Account</string>
+    <string name="bank_confirmation_letter_savings_account">Savings Account</string>
+    <string name="bank_confirmation_letter_ok_got_it">OK, got it</string>
+    <string name="bank_confirmation_letter_unsuccessful_title">Unsuccessful</string>
+    <string name="bank_confirmation_letter_unsuccessful_description">Unfortunately your request was unsuccessful.\n\nFor help call us on 0800 227 592</string>
+    <string name="bank_confirmation_letter_something_went_wrong_title">Something went wrong</string>
+    <string name="bank_confirmation_letter_something_went_wrong_description">We are having trouble opening the document.\n\nPlease try again later or contact our call centre for further assistance on 0800 227 592</string>
+</resources>

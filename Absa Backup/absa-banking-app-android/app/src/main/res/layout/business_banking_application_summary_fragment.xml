@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        style="@style/ScrollView">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <styleguide.content.DescriptionView
+                android:id="@+id/applicationTitleDescriptionView"
+                style="@style/NormalTextRegularDark"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/medium_space"
+                android:gravity="start"
+                app:attribute_description="@string/new_to_bank_thanks_for_checking_absa"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <styleguide.content.PrimaryContentAndLabelView
+                android:id="@+id/fullNamePrimaryContentAndLabelView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/small_space"
+                app:attribute_primary_label="@string/relationship_banking_account_name"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/applicationTitleDescriptionView" />
+
+            <styleguide.content.PrimaryContentAndLabelView
+                android:id="@+id/accountTypePrimaryContentAndLabelView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/small_space"
+                app:attribute_primary_label="@string/new_to_bank_account_type"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/fullNamePrimaryContentAndLabelView" />
+
+            <styleguide.content.PrimaryContentAndLabelView
+                android:id="@+id/accountCostPrimaryContentAndLabelView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/small_space"
+                app:attribute_primary_label="@string/relationship_banking_cost_of_account"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/accountTypePrimaryContentAndLabelView" />
+
+            <styleguide.content.PrimaryContentAndLabelView
+                android:id="@+id/preferredBranchPrimaryContentAndLabelView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/small_space"
+                app:attribute_primary_label="@string/relationship_banking_preferred_branch"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/accountCostPrimaryContentAndLabelView" />
+
+            <View
+                android:id="@+id/dividerView1"
+                style="@style/DividerView"
+                android:layout_width="0dp"
+                android:layout_margin="@dimen/medium_space"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/preferredBranchPrimaryContentAndLabelView" />
+
+            <styleguide.forms.CheckBoxView
+                android:id="@+id/confirmMandateCheckBox"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/medium_space"
+                app:attribute_description="@string/relationship_banking_i_mandate_official"
+                app:attribute_is_required="true"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/dividerView1" />
+
+            <styleguide.forms.CheckBoxView
+                android:id="@+id/informationSharingCheckBox"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_description="@string/relationship_banking_i_confirm_tax_reporting"
+                app:attribute_is_required="true"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/confirmMandateCheckBox" />
+
+            <styleguide.forms.CheckBoxView
+                android:id="@+id/informationCorrectCheckBox"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_description="@string/new_to_bank_information_supplied_is_true"
+                app:attribute_is_required="true"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/informationSharingCheckBox" />
+
+            <View
+                android:id="@+id/dividerView2"
+                style="@style/DividerView"
+                android:layout_width="0dp"
+                android:layout_margin="@dimen/medium_space"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/informationCorrectCheckBox" />
+
+            <styleguide.content.DescriptionView
+                android:id="@+id/offersDescriptionView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                app:attribute_description="@string/relationship_banking_fantastic_offers_absa"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/dividerView2" />
+
+            <styleguide.forms.RadioButtonView
+                android:id="@+id/offersRadioButtonView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_is_required="true"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/offersDescriptionView" />
+
+            <LinearLayout
+                android:id="@+id/areYouSureLinearLayout"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/offersRadioButtonView"
+                tools:visibility="visible">
+
+                <styleguide.content.DescriptionView
+                    android:id="@+id/areYouSureDescriptionView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    app:attribute_description="@string/new_to_bank_are_you_sure_offers" />
+
+                <styleguide.forms.CheckBoxView
+                    android:id="@+id/emailCheckBoxView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:attribute_description="@string/new_to_bank_email"
+                    app:attribute_is_required="true" />
+
+                <styleguide.forms.CheckBoxView
+                    android:id="@+id/smsCheckBoxView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:attribute_description="@string/new_to_bank_sms"
+                    app:attribute_is_required="true" />
+
+                <styleguide.forms.CheckBoxView
+                    android:id="@+id/voiceCheckBoxView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:attribute_description="@string/new_to_bank_voice_recording"
+                    app:attribute_is_required="true" />
+
+                <styleguide.forms.CheckBoxView
+                    android:id="@+id/noThanksCheckBoxView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:attribute_description="@string/new_to_bank_no_thanks"
+                    app:attribute_is_required="true" />
+            </LinearLayout>
+
+            <styleguide.buttons.Button
+                android:id="@+id/submitButton"
+                style="@style/PrimaryButton"
+                android:layout_width="0dp"
+                android:text="@string/new_to_bank_submit_my_application"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/areYouSureLinearLayout"
+                app:layout_constraintVertical_bias="1" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</layout>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linking_navigation_graph"
+    app:startDestination="@id/idRequestFragment">
+    <fragment
+        android:id="@+id/idRequestFragment"
+        android:name="com.barclays.absa.banking.linking.ui.LinkingIdRequestFragment"
+        android:label="fragment_id_request"
+        tools:layout="@layout/linking_id_request_fragment">
+        <action
+            android:id="@+id/action_idRequestFragment_to_idVerificationRequestFragment"
+            app:destination="@id/idVerificationRequestFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+    <fragment
+        android:id="@+id/idVerificationRequestFragment"
+        android:name="com.barclays.absa.banking.linking.ui.LinkingIdVerificationRequestFragment"
+        android:label="fragment_id_verification_request"
+        tools:layout="@layout/linking_id_verification_request_fragment">
+        <action
+            android:id="@+id/action_idVerificationRequestFragment_to_genericResultFragment"
+            app:destination="@id/genericResultFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <action
+            android:id="@+id/action_idVerificationRequestFragment_to_linkingProfileSelectionFragment"
+            app:destination="@id/linkingProfileSelectionFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <action
+            android:id="@+id/action_idVerificationRequestFragment_to_linkingVerificationInProgressFragment"
+            app:destination="@id/linkingVerificationInProgressFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <argument
+            android:name="idNumber"
+            app:argType="string"
+            app:nullable="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/linkingVerificationInProgressFragment"
+        android:name="com.barclays.absa.banking.linking.ui.LinkingVerificationInProgressFragment"
+        android:label="VerificationInProgressFragment"
+        tools:layout="@layout/linking_verification_in_progress_fragment">
+        <action
+            android:id="@+id/action_linkingVerificationInProgressFragment_to_linkingProfileSelectionFragment"
+            app:destination="@id/linkingProfileSelectionFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <action
+            android:id="@+id/action_linkingVerificationInProgressFragment_to_idVerificationRequestFragment"
+            app:destination="@id/idVerificationRequestFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <argument
+            android:name="shouldPerformLinking"
+            android:defaultValue="false"
+            app:argType="boolean" />
+    </fragment>
+    <fragment
+        android:id="@+id/linkingProfileSelectionFragment"
+        android:name="com.barclays.absa.banking.linking.ui.LinkingProfileSelectionFragment"
+        android:label="LinkingProfileSelectionFragment"
+        tools:layout="@layout/linking_profile_selection_fragment" />
+    <fragment
+        android:id="@+id/genericResultFragment"
+        android:name="styleguide.screens.GenericResultScreenFragment"
+        android:label="GenericResultScreenFragment"
+        tools:layout="@layout/generic_results_screen_fragment">
+        <argument
+            android:name="GenericResultScreenFragment"
+            app:argType="styleguide.screens.GenericResultScreenProperties" />
+    </fragment>
+    <fragment
+        android:id="@+id/identificationAndVerificationFailureStateBottomSheetDialogFragment"
+        android:name="com.barclays.absa.banking.linking.ui.GenericBottomSheetDialogFragment"
+        android:label="IdentificationAndVerificationFailureStateBottomSheetDialogFragment" />
+
+    <action
+        android:id="@+id/action_global_genericResultFragment"
+        app:destination="@id/genericResultFragment"
+        app:enterAnim="@anim/fadein"
+        app:exitAnim="@anim/fadeout"
+        app:popEnterAnim="@anim/fadein"
+        app:popExitAnim="@anim/fadeout" />
+</navigation>

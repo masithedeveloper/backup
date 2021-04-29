@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="android.support.design.widget.BottomSheetBehavior">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/rewardsBottomSheet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/normal_space">
+
+            <ImageView
+                android:id="@+id/closeButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/normal_space"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_close" />
+
+            <TextView
+                android:id="@+id/headerView"
+                style="@style/LargeTextMediumDark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/small_space"
+                android:layout_marginEnd="@dimen/medium_space"
+                android:ellipsize="marquee"
+                android:text="@string/filter_text"
+                app:layout_constraintBottom_toBottomOf="@+id/closeButton"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/closeButton"
+                app:layout_constraintTop_toTopOf="@+id/closeButton" />
+
+            <styleguide.forms.RadioButtonView
+                android:id="@+id/dateRangeRadioButtonView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/small_space"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/closeButton" />
+
+            <View
+                android:id="@+id/divider"
+                style="@style/DividerView"
+                android:layout_width="0dp"
+                android:layout_marginTop="@dimen/normal_space"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/dateRangeRadioButtonView" />
+
+            <styleguide.content.HeadingView
+                android:id="@+id/dateHeadingView"
+                style="@style/HeadingTextMediumDark"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_heading="@string/date_range_title_text"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/divider" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/fromDateNormalInputView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_editable="false"
+                app:attribute_hint_text="e.g. 31 Oct 2018"
+                app:attribute_image="@drawable/ic_calendar_dark"
+                app:attribute_selector_type="DATE"
+                app:attribute_title_text="@string/card_filter_from"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/dateHeadingView" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/toDateNormalInputView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_editable="false"
+                app:attribute_hint_text="e.g. 23 Nov 2018"
+                app:attribute_image="@drawable/ic_calendar_dark"
+                app:attribute_selector_type="DATE"
+                app:attribute_title_text="@string/card_filter_to"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/fromDateNormalInputView" />
+
+            <styleguide.buttons.Button
+                android:id="@+id/doneButton"
+                style="@style/PrimaryButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/done"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/toDateNormalInputView" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+</layout>

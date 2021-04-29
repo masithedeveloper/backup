@@ -1,0 +1,32 @@
+{
+  "header": {
+    "statuscode": "0",
+    "userAgent": "PostmanRuntime/7.26.2",
+    "wfpt": null,
+    "jsessionid": "OJ4ZKsmCgCrfJuXzUPrye1M0Q5J7T8IyWri8YPg9",
+    "esessionid": null,
+    "xfpt": null,
+    "service": "SecurityNotificationFacade",
+    "operation": "Resend2FANotificationDetails",
+    "channel": null,
+    "timestamp": "2020-08-31 15:16:59.113",
+    "sourceip": "22.241.133.158",
+    "accessAccount": null,
+    "userNumber": null,
+    "nonce": "heY5FZfnqgX2z0SiNJwwbYuN2kumqTK8xnTSyqD1Al0",
+    "language": "en",
+    "organization": null,
+    "brand": null,
+    "applicationId": null,
+    "applicationKeyId": null,
+    "requestToken": null,
+    "resultMessages": [],
+    "paginationContext": null
+  },
+  "result": "Processing",
+  "securityNotificationType": "SureCheck",
+  "cellNumber": null,
+  "resendsRemaining": 1,
+  "otpRetriesLeft": 0,
+  "secondFactorState": "SURECHECKV2"
+}

@@ -1,0 +1,77 @@
+{
+  "header": {
+    "statuscode": "0",
+    "userAgent": "ANDROID - 6.18.0",
+    "jsessionid": "4GSsI8qbIZOHxeHtyLEuDAGzBX0vP0YEDeqh0o32",
+    "esessionid": "7ad4201b-4314-33c4-9a7e-13c7f9e91ed3",
+    "service": "BehaviouralRewardsVouchersFacade",
+    "operation": "GetAvailableVouchers",
+    "channel": "S",
+    "timestamp": "2020-10-29 16:42:36.451",
+    "sourceip": "22.240.44.100",
+    "accessAccount": "4048291326",
+    "userNumber": "1",
+    "nonce": "QjRNTBUsKmTLCFBb69_FJPFBzOJR3oN3DTYPs-mkvgk",
+    "language": "en",
+    "organization": "ABSA",
+    "brand": "ABSA",
+    "resultMessages": []
+  },
+  "voucherPartners": [
+    {
+      "partnerId": "St345vp",
+      "partnerOffers": [
+        {
+          "offerId": "ST50",
+          "offerTier": "Bronze",
+          "offerExpiryDays": "7",
+          "offerDescription": "R50 Steers Voucher"
+        }
+      ]
+    },
+    {
+      "partnerId": "De237df",
+      "partnerOffers": [
+        {
+          "offerId": "DE50",
+          "offerTier": "Bronze",
+          "offerExpiryDays": "7",
+          "offerDescription": "R50 Debonairs Voucher"
+        }
+      ]
+    },
+    {
+      "partnerId": "Wi232cd",
+      "partnerOffers": [
+        {
+          "offerId": "DE50",
+          "offerTier": "Bronze",
+          "offerExpiryDays": "7",
+          "offerDescription": "R60 Wimpy Voucher"
+        }
+      ]
+    },
+    {
+      "partnerId": "Na367pf",
+      "partnerOffers": [
+        {
+          "offerId": "DE50",
+          "offerTier": "Bronze",
+          "offerExpiryDays": "7",
+          "offerDescription": "R50 Nandos Voucher"
+        }
+      ]
+    },
+    {
+      "partnerId": "Bu048gn",
+      "partnerOffers": [
+        {
+          "offerId": "DE50",
+          "offerTier": "Bronze",
+          "offerExpiryDays": "7",
+          "offerDescription": "R40 Burger King Voucher"
+        }
+      ]
+    }
+  ]
+}

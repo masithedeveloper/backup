@@ -1,0 +1,18 @@
+{
+  "successResponseModel": {
+    "payData": {
+      "hasError": false,
+      "requiredDocuments": null,
+      "requiredFields": null,
+      "txnStatus": "Success",
+      "txnMessage": "Success"
+    },
+    "payHdr": {
+      "resCde": "00000",
+      "resMsg": "Success",
+      "resId": "RES0888",
+      "serVer": "2.0",
+      "expTrace": null
+    }
+  }
+}

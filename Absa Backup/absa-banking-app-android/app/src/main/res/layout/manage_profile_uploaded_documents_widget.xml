@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:parentTag="androidx.constraintlayout.widget.ConstraintLayout">
+
+    <styleguide.buttons.OptionActionButtonView
+        android:id="@+id/documentUploadOptionActionButtonView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/medium_space"
+        android:layout_marginTop="@dimen/small_space"
+        android:layout_marginEnd="@dimen/medium_space"
+        app:attribute_background_image="@drawable/bordered_normal_rounded_corner_background"
+        app:attribute_icon="@drawable/ic_document_image"
+        app:attribute_show_arrow="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:attribute_caption="file.pdf" />
+
+    <TextView
+        android:id="@+id/timeToProcessTextView"
+        style="@style/SmallTextRegularDark"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/medium_space"
+        android:layout_marginTop="@dimen/small_space"
+        android:layout_marginEnd="@dimen/medium_space"
+        android:text="@string/manage_profile_document_widget_seven_days_to_process_notice"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/documentUploadOptionActionButtonView" />
+
+    <styleguide.buttons.OptionActionButtonView
+        android:id="@+id/documentHelplineOptionActionButtonView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/medium_space"
+        app:attribute_caption="@string/manage_profile_document_widget_helpline_heading"
+        app:attribute_right_icon="@drawable/ic_call_dark"
+        app:attribute_sub_caption="@string/manage_profile_document_widget_helpline_number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/timeToProcessTextView" />
+
+    <styleguide.buttons.OptionActionButtonView
+        android:id="@+id/documentEmailOptionActionButtonView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:attribute_caption="@string/manage_profile_document_widget_email_heading"
+        app:attribute_right_icon="@drawable/ic_email_new"
+        app:attribute_sub_caption="@string/manage_profile_document_widget_email_address"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/documentHelplineOptionActionButtonView" />
+</merge>

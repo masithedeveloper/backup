@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scrollView"
+    style="@style/ScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/convertToCashTitleTextView"
+            style="@style/TitleTextBoldDark"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/medium_space"
+            android:text="@string/money_market_convert_to_cash_title"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <styleguide.content.BulletItemView
+            android:id="@+id/accountNumberBulletItemView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/medium_space"
+            app:attribute_content="@string/money_market_convert_to_cash_account_number"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/convertToCashTitleTextView" />
+
+        <styleguide.content.BulletItemView
+            android:id="@+id/balanceBulletItemView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/extra_tiny_space"
+            app:attribute_content="@string/money_market_convert_to_cash_balance_moved"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/accountNumberBulletItemView" />
+
+        <styleguide.content.BulletItemView
+            android:id="@+id/depositBulletItemView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/extra_tiny_space"
+            app:attribute_content="@string/money_market_convert_to_cash_deposit"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/balanceBulletItemView" />
+
+        <styleguide.content.BulletItemView
+            android:id="@+id/accessBulletItemView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/extra_tiny_space"
+            app:attribute_content="@string/money_market_convert_to_cash_access_to_funds"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/depositBulletItemView" />
+
+        <styleguide.content.BulletItemView
+            android:id="@+id/absaCardBulletItemView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/extra_tiny_space"
+            app:attribute_content="@string/money_market_convert_to_cash_absa_card"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/accessBulletItemView" />
+
+        <styleguide.buttons.Button
+            android:id="@+id/continueButton"
+            style="@style/PrimaryButton"
+            android:layout_width="0dp"
+            android:text="@string/money_market_continue"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/absaCardBulletItemView"
+            app:layout_constraintVertical_bias="1" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

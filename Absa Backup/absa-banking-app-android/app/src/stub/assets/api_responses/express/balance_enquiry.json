@@ -1,0 +1,55 @@
+{
+  "header": {
+    "statuscode": "0",
+    "userAgent": "ANDROID",
+    "jsessionid": "yRW73bqC0VPsotZaFf4k3b9R2lFkBCcS6uBdfuyR",
+    "esessionid": "7b94c028-f162-31ed-b829-06f9744dc619",
+    "service": "BalanceEnquiryFacade",
+    "operation": "GetAllBalances",
+    "channel": "S",
+    "timestamp": "2020-03-05 10:01:40.872",
+    "sourceip": "22.151.10.175",
+    "accessAccount": "4047995967",
+    "userNumber": "1",
+    "nonce": "JWM7a7YYT3IGElAZS5JNiMkEfDHC32KkAwxl6K3uWXg",
+    "language": "en",
+    "organization": "ABSA",
+    "brand": "ABSA",
+    "resultMessages": [],
+    "paginationContext": {
+      "moreToCome": false,
+      "batchSize": 9999,
+      "batchSizeLimit": 9999,
+      "recordIdentity": "0",
+      "totalNoOfRecords": 1
+    }
+  },
+  "accountList": [
+    {
+      "number": "4047995967",
+      "name": "Current account",
+      "uncleared": "0.00",
+      "available": "5047205684436.71",
+      "balance": "55047205684436.71",
+      "accountType": "Current",
+      "accountActionsAllowedList": [
+        "DR",
+        "CR",
+        "BAL",
+        "STMT",
+        "ACC_INF",
+        "BILL_PMT",
+        "OWN_DEF",
+        "RECUR_PMT",
+        "STOP_PMT",
+        "PREPD",
+        "OVRDRFT",
+        "ARCH_STMT",
+        "UPD_CIF",
+        "CSHSND",
+        "STOP_DO"
+      ]
+    }
+  ],
+  "clientAgreementAccepted": true
+}

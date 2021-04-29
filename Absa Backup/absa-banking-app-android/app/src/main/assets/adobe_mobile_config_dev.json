@@ -1,0 +1,36 @@
+{
+  "lastModified": "2016-02-15T10:03:29.544Z",
+  "target": {
+    "clientCode": "",
+    "timeout": 5
+  },
+  "audienceManager": {
+    "server": "",
+    "analyticsForwardingEnabled": false,
+    "timeout": 5
+  },
+  "acquisition": {
+    "server": "c00.adobe.com",
+    "appid": "a31d544e764e5ab94aecf83f00f9dd25ed336b2e45f4765ac3a60f2e1409e2b6"
+  },
+  "analytics": {
+    "rsids": "absabankbanking.app.dev",
+    "server": "absabank.sc.omtrdc.net",
+    "ssl": true,
+    "offlineEnabled": true,
+    "charset": "UTF-8",
+    "lifecycleTimeout": 300,
+    "privacyDefault": "optedin",
+    "batchLimit": 0,
+    "timezone": "CAT",
+    "timezoneOffset": 120,
+    "referrerTimeout": 10,
+    "backdateSessionInfo": false,
+    "poi": []
+  },
+  "messages": [],
+  "remotes": {
+    "analytics.poi": "https://assets.adobedtm.com/b213090c5204bf94318f4ef0539a38b487d10368/scripts/satellite-560d36003439610014000864.json",
+    "messages": "https://assets.adobedtm.com/b213090c5204bf94318f4ef0539a38b487d10368/scripts/satellite-560d35fc34396100170009b9.json"
+  }
+}

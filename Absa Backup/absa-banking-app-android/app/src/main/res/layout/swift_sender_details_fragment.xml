@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    style="@style/ScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/senderReviewMessageTextView"
+            style="@style/LargeTextRegularDark"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/medium_space"
+            android:text="@string/swift_you_have_been_sent_funds_message"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <styleguide.content.PrimaryContentAndLabelView
+            android:id="@+id/senderPrimaryContentAndLabelView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/large_space"
+            app:attribute_primary_label="@string/swift_sender"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/senderReviewMessageTextView"
+            tools:attribute_primary_content="Bongani Mashaba" />
+
+        <styleguide.content.SecondaryContentAndLabelView
+            android:id="@+id/senderCountrySecondaryContentAndLabelView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_secondary_label="@string/swift_sender_country"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/senderPrimaryContentAndLabelView"
+            tools:attribute_secondary_content="United Kingdom" />
+
+        <View
+            android:id="@+id/dividerTop"
+            style="@style/DividerView"
+            android:layout_width="0dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/senderCountrySecondaryContentAndLabelView" />
+
+        <TextView
+            android:id="@+id/senderTypeQuestionTextView"
+            style="@style/NormalTextRegularDark"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/medium_space"
+            android:text="@string/swift_individual_company_sending"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/dividerTop" />
+
+        <styleguide.forms.RadioButtonView
+            android:id="@+id/senderTypeRadioButtonView"
+            app:layout_constraintTop_toBottomOf="@id/senderTypeQuestionTextView"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="@dimen/extra_large_space"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/reasonForPaymentNormalInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            app:attribute_hint_text="@string/swift_please_select"
+            app:attribute_selector_type="LONG_LIST"
+            app:attribute_title_text="@string/swift_reason_for_payment"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/senderTypeRadioButtonView"
+            tools:visibility="visible" />
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/subCategoryForPaymentNormalInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            app:attribute_hint_text="@string/swift_please_select"
+            app:attribute_selector_type="LONG_LIST"
+            app:attribute_title_text="@string/swift_sub_category_for_payment"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/reasonForPaymentNormalInputView"
+            tools:visibility="visible" />
+
+        <TextView
+            android:id="@+id/reasonAndSubcategoryForPaymentMessageTextView"
+            style="@style/SmallTextRegularDark"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/medium_space"
+            android:layout_marginTop="@dimen/medium_space"
+            android:layout_marginEnd="@dimen/medium_space"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/subCategoryForPaymentNormalInputView"
+            tools:text="@string/swift_reason_for_payment_message" />
+
+        <styleguide.buttons.Button
+            android:id="@+id/nextButton"
+            style="@style/PrimaryButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/swift_next"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/reasonAndSubcategoryForPaymentMessageTextView"
+            app:layout_constraintVertical_bias="1" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

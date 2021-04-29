@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            style="@style/ScrollView"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toTopOf="@id/buyButton"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <styleguide.content.ProfileView
+                    android:id="@+id/rewardsAvailableProfileView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/medium_space"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <styleguide.forms.NormalInputView
+                    android:id="@+id/mobileNumberNormalInputView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="phone"
+                    app:attribute_editable="true"
+                    app:attribute_hint_text="@string/prepaid_enter_mobile_number"
+                    app:attribute_selector_type="CONTACT"
+                    app:attribute_mask="### ### ####"
+                    app:attribute_title_text="@string/prepaid_mobile_number"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/rewardsAvailableProfileView" />
+
+                <styleguide.forms.NormalInputView
+                    android:id="@+id/netWorkOperatorNormalInputView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:attribute_hint_text="@string/prepaid_select_network_operator"
+                    app:attribute_selector_type="LONG_LIST"
+                    app:attribute_title_text="@string/prepaid_mobile_network_operator"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/mobileNumberNormalInputView" />
+
+                <styleguide.forms.NormalInputView
+                    android:id="@+id/voucherNormalInputView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:attribute_hint_text="@string/prepaid_select_voucher"
+                    app:attribute_selector_type="LONG_LIST"
+                    app:attribute_title_text="@string/prepaid_voucher"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/netWorkOperatorNormalInputView" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </ScrollView>
+
+        <styleguide.buttons.Button
+            android:id="@+id/buyButton"
+            style="@style/PrimaryButton"
+            android:layout_width="0dp"
+            android:enabled="false"
+            android:text="@string/prepaid_buy"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

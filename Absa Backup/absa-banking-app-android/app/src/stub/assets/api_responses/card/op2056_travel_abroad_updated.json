@@ -1,0 +1,32 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0864",
+      "resCde": "00000",
+      "resMsg": "Success",
+      "serVer": "2.0",
+      "expTrace": null
+    },
+    "payData": {
+      "creditProtection": {
+        "accountNo": "4787692001498026",
+        "accountType": "creditCard",
+        "age": "0",
+        "overDraftLimit": "NaN",
+        "policyDetails": null,
+        "policyNumber": null,
+        "monthlyPremium": "155",
+        "accountToBeDebited": "4787692001498026",
+        "frequency": "Monthly",
+        "dayOfDebit": "20181101",
+        "premiumAmount": "0",
+        "totalCoverAmount": "100000.0",
+        "policyCommencementDate": null,
+        "monthlyPremiumPercentage": "0.0",
+        "expiryDate": null
+      },
+      "txnStatus": "Success",
+      "txnMessage": "Success"
+    }
+  }
+}

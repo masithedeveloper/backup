@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    style="@style/ScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <styleguide.content.HeadingAndActionView
+            android:id="@+id/residentialAddressActionView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_primary_action_color="@color/pink"
+            app:attribute_primary_action_text="@string/manage_profile_overview_edit_action"
+            app:attribute_primary_label_text="@string/manage_profile_address_details_overview_residential_address_label"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <styleguide.content.PrimaryContentAndLabelView
+            android:id="@+id/addressLineOneContentView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_primary_label="@string/manage_profile_address_details_overview_address_line_one"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/residentialAddressActionView"
+            tools:attribute_primary_content="15 Troye Street" />
+
+        <styleguide.content.PrimaryContentAndLabelView
+            android:id="@+id/addressLineTwoContentView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_primary_label="@string/manage_profile_address_details_overview_address_line_two"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/addressLineOneContentView"
+            tools:attribute_primary_content="15 Troye Street" />
+
+        <styleguide.content.PrimaryContentAndLabelView
+            android:id="@+id/suburbContentView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_primary_label="@string/manage_profile_address_details_overview_suburb_label"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/addressLineTwoContentView"
+            tools:attribute_primary_content="Marshalltown" />
+
+        <styleguide.content.PrimaryContentAndLabelView
+            android:id="@+id/cityTownContentView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_primary_label="@string/manage_profile_address_details_overview_city_label"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/suburbContentView"
+            tools:attribute_primary_content="Johannesburg" />
+
+        <styleguide.content.PrimaryContentAndLabelView
+            android:id="@+id/postalCodeContentView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_primary_label="@string/manage_profile_address_details_overview_postal_code_label"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/cityTownContentView"
+            tools:attribute_primary_content="2001" />
+
+        <styleguide.content.PrimaryContentAndLabelView
+            android:id="@+id/countryContentView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_primary_label="@string/manage_profile_address_details_overview_country_label"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/postalCodeContentView"
+            tools:attribute_primary_content="South Africa" />
+
+        <LinearLayout
+            android:id="@+id/documentLinearLayout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/countryContentView" />
+
+        <View
+            android:id="@+id/divider"
+            style="@style/DividerView"
+            android:layout_width="0dp"
+            android:layout_marginTop="@dimen/normal_space"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/documentLinearLayout" />
+
+        <styleguide.content.HeadingAndActionView
+            android:id="@+id/postalAddressActionView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/normal_space"
+            app:attribute_primary_action_color="@color/pink"
+            app:attribute_primary_action_text="@string/manage_profile_overview_edit_action"
+            app:attribute_primary_label_text="@string/manage_profile_address_details_overview_postal_address_title"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/divider" />
+
+        <styleguide.content.SecondaryContentAndLabelView
+            android:id="@+id/postalAddressLineOneContentView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_secondary_label="@string/manage_profile_address_details_overview_address_line_one"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/postalAddressActionView"
+            tools:attribute_secondary_content="15 Troye Street" />
+
+        <styleguide.content.SecondaryContentAndLabelView
+            android:id="@+id/postalAddressLineTwoContentView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_secondary_label="@string/manage_profile_address_details_overview_address_line_two"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/postalAddressLineOneContentView"
+            tools:attribute_secondary_content="15 Troye Street" />
+
+        <styleguide.content.SecondaryContentAndLabelView
+            android:id="@+id/postalSuburbContentView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_secondary_label="@string/manage_profile_address_details_overview_suburb_label"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/postalAddressLineTwoContentView"
+            tools:attribute_secondary_content="MarshallTown" />
+
+        <styleguide.content.SecondaryContentAndLabelView
+            android:id="@+id/postalCityContentView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_secondary_label="@string/manage_profile_address_details_overview_city_label"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/postalSuburbContentView"
+            tools:attribute_secondary_content="MarshallTown" />
+
+        <styleguide.content.SecondaryContentAndLabelView
+            android:id="@+id/postalPostalCodeContentView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_secondary_label="@string/manage_profile_address_details_overview_postal_code_label"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/postalCityContentView"
+            tools:attribute_secondary_content="2100" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

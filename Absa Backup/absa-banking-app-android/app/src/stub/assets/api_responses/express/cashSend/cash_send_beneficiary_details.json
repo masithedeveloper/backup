@@ -1,0 +1,100 @@
+{
+  "header": {
+    "statuscode": "0",
+    "userAgent": "ANDROID - 6.20.0",
+    "jsessionid": "8-_iHBKjFEPvQrYpJnohmxydv4fUcO0cPbaMdelf",
+    "esessionid": "66cea760-a32f-3dd2-864b-65ae4a3f30d8",
+    "service": "CashSendBeneficiaryManagementFacade",
+    "operation": "EnquireCashSendBeneficiaryDetails",
+    "channel": "S",
+    "timestamp": "2021-02-03 19:22:13.404",
+    "sourceip": "22.240.44.100",
+    "accessAccount": "4047510559",
+    "userNumber": "1",
+    "nonce": "s7QdduPLbNZLe9abt2LDGloPkgVeVbDAtAdQ7DNtxFg",
+    "language": "en",
+    "organization": "ABSA",
+    "brand": "ABSA",
+    "resultMessages": []
+  },
+  "beneficiaryDetailsVO": {
+    "cifKey": "MADIDNJ001",
+    "tieBreaker": "3",
+    "beneficiaryNumber": 6,
+    "instructionType": "CLI",
+    "uniqueEFTNumber": "800039262B",
+    "beneficiaryStatus": "CURRENT",
+    "lastPaymentDateAndTime": "2020-06-23",
+    "lastPaymentAmount": "50.00",
+    "lastPaymentStatus": "SUCCESSFUL",
+    "beneficiaryNumberNameAndAccount": "6 - Test Ss - 0829164646",
+    "beneficiaryName": "Test",
+    "beneficiaryShortName": "Test",
+    "beneficiarySurname": "Ss",
+    "recipientCellNo": "0829164646",
+    "statementReference": "ffgtg",
+    "lastMaintDateTime": "2021-02-03"
+  },
+  "transactionList": [
+    {
+      "futureDatedPayment": false,
+      "paymentSourceAccountNumber": "4047510559",
+      "paymentAmount": "50.00",
+      "paymentTransactionDateAndTime": "2020-06-23 07:48",
+      "paymentSourceAccountReference": "ffgtg",
+      "paymentTargetAccountReference": "d",
+      "processedPaymentStatus": "H0009 002-NOT PROVIDED FOR",
+      "processedPaymentNumber": "5",
+      "realTimeProcessedPayment": false,
+      "realTimeProcessedPaymentReferenceNumber": "6474106394"
+    },
+    {
+      "futureDatedPayment": false,
+      "paymentSourceAccountNumber": "4047510559",
+      "paymentAmount": "50.00",
+      "paymentTransactionDateAndTime": "2020-06-22 17:28",
+      "paymentSourceAccountReference": "ffgtg",
+      "paymentTargetAccountReference": "d",
+      "processedPaymentStatus": "H0009 002-NOT PROVIDED FOR",
+      "processedPaymentNumber": "4",
+      "realTimeProcessedPayment": false,
+      "realTimeProcessedPaymentReferenceNumber": "6274294420"
+    },
+    {
+      "futureDatedPayment": false,
+      "paymentSourceAccountNumber": "4047510559",
+      "paymentAmount": "50.00",
+      "paymentTransactionDateAndTime": "2020-06-22 17:27",
+      "paymentSourceAccountReference": "ffgtg",
+      "paymentTargetAccountReference": "d",
+      "processedPaymentStatus": "H0009 002-NOT PROVIDED FOR",
+      "processedPaymentNumber": "3",
+      "realTimeProcessedPayment": false,
+      "realTimeProcessedPaymentReferenceNumber": "6274294330"
+    },
+    {
+      "futureDatedPayment": false,
+      "paymentSourceAccountNumber": "4047510559",
+      "paymentAmount": "50.00",
+      "paymentTransactionDateAndTime": "2020-06-22 17:25",
+      "paymentSourceAccountReference": "d",
+      "paymentTargetAccountReference": "d",
+      "processedPaymentStatus": "H0009 002-NOT PROVIDED FOR",
+      "processedPaymentNumber": "2",
+      "realTimeProcessedPayment": false,
+      "realTimeProcessedPaymentReferenceNumber": "6274294203"
+    },
+    {
+      "futureDatedPayment": false,
+      "paymentSourceAccountNumber": "4047510559",
+      "paymentAmount": "50.00",
+      "paymentTransactionDateAndTime": "2020-05-25 10:35",
+      "paymentSourceAccountReference": "d",
+      "paymentTargetAccountReference": "d",
+      "processedPaymentStatus": "H0009 002-NOT PROVIDED FOR",
+      "processedPaymentNumber": "1",
+      "realTimeProcessedPayment": false,
+      "realTimeProcessedPaymentReferenceNumber": "6274395370"
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES2099",
+      "resCde": "00000",
+      "resMsg": "Success",
+      "serVer": "2.0",
+      "expTrace": null
+    },
+    "payData": {
+      "postalCodeLookUpList": [
+        {
+          "streetPostCode": "2195",
+          "postalCode": "2104",
+          "suburbName": "Linden",
+          "townOrCityName": "Johannesburg"
+        },
+        {
+          "streetPostCode": "2194",
+          "postalCode": "2194",
+          "suburbName": "Linden Ext",
+          "townOrCityName": "Randburg"
+        },
+        {
+          "streetPostCode": "8301",
+          "postalCode": "8301",
+          "suburbName": "Lindene",
+          "townOrCityName": "Kimberley"
+        },
+        {
+          "streetPostCode": "1911",
+          "postalCode": "1911",
+          "suburbName": "Lindequesdrift",
+          "townOrCityName": "Vanderbijlpark"
+        },
+        {
+          "streetPostCode": "1724",
+          "postalCode": "1724",
+          "suburbName": "Lindhaven",
+          "townOrCityName": "Roodepoort"
+        },
+        {
+          "streetPostCode": "1724",
+          "postalCode": "1724",
+          "suburbName": "Lindhaven Park",
+          "townOrCityName": "Roodepoort"
+        },
+        {
+          "streetPostCode": "2192",
+          "postalCode": "2106",
+          "suburbName": "Lyndhurst",
+          "townOrCityName": "Johannesburg"
+        },
+        {
+          "streetPostCode": "8301",
+          "postalCode": "8301",
+          "suburbName": "Lyndhurst",
+          "townOrCityName": "Kimberley"
+        },
+        {
+          "streetPostCode": "7600",
+          "postalCode": "7600",
+          "suburbName": "Lindida",
+          "townOrCityName": "Stellenbosch"
+        },
+        {
+          "streetPostCode": "4082",
+          "postalCode": "4082",
+          "suburbName": "Lindiwe",
+          "townOrCityName": "Mayville"
+        },
+        {
+          "streetPostCode": "9630",
+          "postalCode": "9630",
+          "suburbName": "Lindley",
+          "townOrCityName": "Lindley"
+        },
+        {
+          "streetPostCode": "0186",
+          "postalCode": "0186",
+          "suburbName": "Lindo Park",
+          "townOrCityName": "Pretoria"
+        },
+        {
+          "streetPostCode": "0186",
+          "postalCode": "0186",
+          "suburbName": "Lindo Park East",
+          "townOrCityName": "Pretoria"
+        },
+        {
+          "streetPostCode": "3204",
+          "postalCode": "3204",
+          "suburbName": "Linfield Park",
+          "townOrCityName": "Pietermaritzburg"
+        },
+        {
+          "streetPostCode": "5760",
+          "postalCode": "5760",
+          "suburbName": "Lingelethu",
+          "townOrCityName": "Adelaide"
+        },
+        {
+          "streetPostCode": "7784",
+          "postalCode": "7765",
+          "suburbName": "Lingelethu West",
+          "townOrCityName": "Khayelitsha"
+        },
+        {
+          "streetPostCode": "5880",
+          "postalCode": "5881",
+          "suburbName": "Lingelihle",
+          "townOrCityName": "Cradock"
+        }
+      ],
+      "txnStatus": "Success",
+      "txnMessage": "Success"
+    }
+  }
+}

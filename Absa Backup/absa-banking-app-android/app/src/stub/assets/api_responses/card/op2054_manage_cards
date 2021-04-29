@@ -1,0 +1,183 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES2054",
+      "resCde": "00000",
+      "resMsg": "Success",
+      "serVer": "2.0",
+      "expTrace": null
+    },
+    "payData": {
+      "accounts": [
+        {
+          "id": "0",
+          "allowPayment": false,
+          "accountName": "CREDIT ACCOUNT",
+          "accountNo": "4787692001466015",
+          "hostProductType": null,
+          "available": {
+            "curr": "R",
+            "amt": "9,879.90"
+          },
+          "balance": {
+            "curr": "R",
+            "amt": "79.90"
+          },
+          "unclearedAmt": "0.0",
+          "limit": null,
+          "openedDate": 1498082400000,
+          "options": null,
+          "accessBits": "0",
+          "accessTypeBits": "0",
+          "powerOfAttorney": false,
+          "status": null,
+          "product": null,
+          "productType": null,
+          "branch": null,
+          "corp": null,
+          "dateClosed": null,
+          "existingOverdraftLimit": "0",
+          "accountBalance": {
+            "curr": "R",
+            "amt": "79.90"
+          },
+          "availableBalance": {
+            "curr": "R",
+            "amt": "9,879.90"
+          },
+          "productCode": null,
+          "withdrawalPerc": null,
+          "noticePeriod": null,
+          "liqEffDateOut": null,
+          "perEffDateOut": null,
+          "effDateFalg": false,
+          "noticePeriodDays": null,
+          "liquidityPreference": null,
+          "investTerm": null,
+          "investAmount": null,
+          "rateOption": null,
+          "nettposition": 0.0,
+          "accountTypeId": null,
+          "accountTypeName": "creditCard",
+          "accountTypedescription": "CREDIT CARD",
+          "drInterestRate": "20.5",
+          "crInterestRate": "0.25",
+          "creditLimit": "10000",
+          "expiryDate": "2021-06-17",
+          "arrearAmount": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "fullAmountPayable": {
+            "curr": "R",
+            "amt": "44.44"
+          },
+          "fullAmountPayableLastStatementDate": null,
+          "fullAmountPayableExcludingPayments": null,
+          "minimumAmountPayable": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "paymentDueDate": "2018-09-13",
+          "straightBalance": {
+            "curr": "R",
+            "amt": "79.90"
+          },
+          "budgetedBalance": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "authorisedAmount": {
+            "curr": "R",
+            "amt": "200.00"
+          },
+          "authorisedAmountUnclearedDeposits": null
+        }
+      ],
+      "travelNotifications": [
+        {
+          "referralStartDate": "0",
+          "referralEndDate": "0",
+          "cardNumber": "4787692001466015"
+        }
+      ],
+      "cliLimitsAndIncomeExpenseDetails": {
+        "creditCardApplyStatusEnum": "SUCCESS",
+        "creditCardAccountsList": [
+          {
+            "creditCardAccountnumbers": "4787692001466015",
+            "creditLimitIncreaseAmtForCLI": "20000.0",
+            "existingCreditLimitOfCreditCard": "10000.0"
+          }
+        ],
+        "incomeAndExpenseData": {
+          "bureauDebtInstalmentList": [
+            {
+              "bureauCategory": "AA",
+              "bureauCategoryAmount": "100.0"
+            }
+          ],
+          "totalGrossMonthlyIncome": "34.0",
+          "totalNetMonthlyIncome": "0.0",
+          "totalMonhtlyLivingExpenses": "34.0",
+          "totalMonthlyFixedDebtInstallment": "100.0",
+          "telephoneExpense": "0.0",
+          "insuranceExpense": "0.0",
+          "securityExpense": "0.0"
+        }
+      },
+      "retrieveCardATMandPosLimitsRespDTOs": [
+        {
+          "cardNumber": "4787692001466015",
+          "cardType": "CC",
+          "cashWithdrawalLimit": "1000.00",
+          "posLimit": "9999999.00",
+          "cashWithdrawalMaxLimit": "25000.00",
+          "posMaxLimit": "25000.00"
+        },
+        {
+          "cardNumber": "4787692001466016",
+          "cardType": "DC",
+          "cashWithdrawalLimit": "1000.00",
+          "posLimit": "9999999.00",
+          "cashWithdrawalMaxLimit": "25000.00",
+          "posMaxLimit": "25000.00"
+        }
+      ],
+      "enquirePauseCardRespDTOs": [
+        {
+          "cardNumber": null,
+          "allTransactions": "N",
+          "internationalAtmTransactions": "Y",
+          "internationalPosTransactions": "N",
+          "localAtmTransactions": "N",
+          "localPosTransactions": "N",
+          "onlinePurchases": "N",
+          "digitalWallet": "N"
+        },
+        {
+          "cardNumber": "4787692001466015",
+          "allTransactions": "N",
+          "internationalAtmTransactions": "Y",
+          "internationalPosTransactions": "N",
+          "localAtmTransactions": "N",
+          "localPosTransactions": "N",
+          "onlinePurchases": "N",
+          "digitalWallet": "N"
+        },
+        {
+          "cardNumber": "4787692001466016",
+          "allTransactions": "N",
+          "internationalAtmTransactions": "N",
+          "internationalPosTransactions": "N",
+          "localAtmTransactions": "N",
+          "localPosTransactions": "N",
+          "onlinePurchases": "N",
+          "digitalWallet": "N"
+        }
+      ],
+      "txnStatus": "Success",
+      "txnMessage": "Success"
+    }
+  }
+}

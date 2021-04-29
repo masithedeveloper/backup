@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scrollView"
+    style="@style/ScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/additionalGamesTextView"
+            style="@style/SmallTextMediumDark"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/medium_space"
+            android:layout_marginTop="@dimen/small_space"
+            android:text="@string/lotto_additional_games"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <lotto.ImageTextCheckBoxView
+            android:id="@+id/lottoCheckBoxView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/medium_space"
+            app:attribute_description="@string/lotto"
+            app:attribute_image="@drawable/lotto"
+            app:attribute_is_required="false"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/additionalGamesTextView" />
+
+        <lotto.ImageTextCheckBoxView
+            android:id="@+id/lottoPlusOneCheckBoxView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_image="@drawable/lotto_plus_1"
+            app:attribute_is_required="false"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/lottoCheckBoxView" />
+
+        <lotto.ImageTextCheckBoxView
+            android:id="@+id/lottoPlusTwoCheckBoxView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_image="@drawable/lotto_plus_2"
+            app:attribute_is_required="false"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/lottoPlusOneCheckBoxView" />
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/howManyDrawsNormalInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/extra_large_space_65"
+            app:attribute_hint_text="@string/please_select"
+            app:attribute_selector_type="LONG_LIST"
+            app:attribute_title_text="@string/lotto_times_to_play"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/lottoPlusTwoCheckBoxView" />
+
+        <include
+            android:id="@+id/stepIndicatorView"
+            layout="@layout/step_indicator_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/tiny_space"
+            app:layout_constraintBottom_toTopOf="@id/nextButton"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/howManyDrawsNormalInputView"
+            app:layout_constraintVertical_bias="1" />
+
+        <styleguide.buttons.Button
+            android:id="@+id/nextButton"
+            style="@style/PrimaryButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/next"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

@@ -1,0 +1,28 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0611",
+      "resCde": "00000",
+      "resMsg": "",
+      "serVer": "2.0"
+    },
+    "payData": {
+      "txnStatus": "SUCCESS",
+      "msg": "",
+      "actNo": "9050535844",
+      "firstName": "John",
+      "surname": "Doe",
+      "nickName": "JD",
+      "cellNo": "0739581738",
+      "amt": {
+        "curr": "R",
+        "amt": "1000.00"
+      },
+      "accessPin": "******",
+      "myRef": "ref",
+      "showBene": "N",
+      "actType": "Savings account",
+      "acceptTerms": "Y"
+    }
+  }
+}

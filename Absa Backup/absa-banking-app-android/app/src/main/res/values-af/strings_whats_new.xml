@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="atm_branch_locator_whats_new_title">OTM &amp; Tak liggings</string>
+    <string name="atm_branch_locator_whats_new_content">Vind jou naaste Absa OTM of tak met die druk van \'n knoppie!</string>
+
+    <string name="fixed_deposit_whats_new_title">Herbelê jou Vaste Deposito-rekening</string>
+    <string name="fixed_deposit_whats_new_content">Jy kan nou herbelegging instruksies opstel vir jou Vaste Deposito-rekening.</string>
+
+    <string name="debit_order_whats_new_title">Stop debietorders en keer enkel debietorderbetalings om</string>
+    <string name="debit_order_whats_new_content">Neem beheer van jou debietorders en betalings, kies "Debietorders" in die Keuselys om te begin</string>
+
+    <string name="view_your_will_title">Besigtig jou Testament</string>
+    <string name="view_your_will_content">Besigitg nou jou Testament wat in veilige bewaring is by Absa. Kies \'Dokumente\' op jou Keuselys.</string>
+
+    <string name="temp_lock_whats_new_title">Tydelike debietkaart sluiting</string>
+    <string name="temp_lock_whats_new_content">Sluit en ontsluit jou kaart. Kies watter tipe transaksies wil jy tydelik sluit.</string>
+
+    <string name="pin_retrieval_whats_new_title">Besigtig jou OTM PIN</string>
+    <string name="pin_retrieval_whats_new_content">Kry ’n vinnige herinnering aan jou vergete of verlore kaart-PIN hier op die App.\n\nGaan net na Kaarte om te begin.</string>
+
+    <string name="manage_card_limit_whats_new_title">Bestuur debietkaart limiete</string>
+    <string name="manage_card_limit_whats_new_content">Jy kan nou jou debietkaart limiete in die app bestuur. Gaan na die Keuselys en kies Bestuur kaarte om die limiete te verander.</string>
+
+    <string name="travel_dates_whats_new_title">Gebruik jou kaart wanneer jy reis</string>
+    <string name="travel_dates_whats_new_content">Dit is nou nog makliker om die wêreld te sien met jou kaart. Aktiveer jou kaart vir internasionale reise hier op die app. Gaan na Kaart om te begin.</string>
+
+    <string name="stop_and_replace_whats_new_title">Stop en vervang jou kaarte</string>
+    <string name="stop_and_replace_whats_new_content">Jy kan jou kaarte stop en vervang om jou kontant veilig binne die app te hou.\n\nGaan net na Kaarte om te begin.</string>
+
+    <string name="flexi_funeral_whats_new_title">Ons families beteken alles</string>
+    <string name="flexi_funeral_whats_new_content">Die Flexi-begrafnisplan dek jou, jou gade, jou kinders asook uitgebreide lede (selfs jou tuinier of opsigter).</string>
+
+    <string name="law_for_you_whats_new_title">Law For You tot jou diens!</string>
+    <string name="law_for_you_whats_new_content">Moenie onkant gevang word nie.\n\nBeskerm jouself teen onverwagte regsake.</string>
+
+    <string name="tax_certificate_whats_new_title">Besigtig jou belastingsertifikate</string>
+    <string name="tax_certificate_whats_new_content">Jy kan nou jou belastingsertifikaat gerieflik aflaai of besigtig\n\nKies \'Dokumente\' op jou Keuselys.</string>
+
+    <string name="avaf_whats_new_title">Besigtig jou \n Motorfinansiering</string>
+    <string name="avaf_whats_new_content">Jy kan nou \'n oorsig oor jou Absa Motorfinansieringsrekening kry in die App.</string>
+
+    <string name="statements_whats_new_title">Kry jou \n state</string>
+
+    <string name="swift_whats_new_title">Ontvang direk internasionale fondse</string>
+    <string name="swift_whats_new_content">Jy kan nou geld van enige plek in die wêreld direk in jou rekening ontvang. Grenslose bankdienste is vergemaklik. Gaan na Internasionale Bankdienste in die Keuselys om jou SWIFT-bankbesonderhede te deel.</string>
+    <string name="statements_whats_new_content">Jy kan nou jou state vir jou kredietkaart- en huisleningsrekeninge op jou App besigtig en aflaai.</string>
+
+    <string name="sole_prop_vcl_overdraft_whats_new_title">Maklike oortrokke fasiliteitsaansoek</string>
+    <string name="sole_prop_vcl_overdraft_whats_new_content">Kry dekking vir onverwagte lewensgebeurtenisse met \'n ootrokke fasiliteit op jou Besigheids-tjekrekening. Gaan net na Vereken om te begin.</string>
+
+    <string name="bank_confirmation_letter_whats_new_title">Kry jou bankbevestigingsbrief</string>
+    <string name="bank_confirmation_letter_whats_new_content">Jy kan nou gratis ’n bankbevestigingsbrief vanaf Dokumente in jou Keuselys aflaai.</string>
+
+    <string name="manage_profile_whats_new_title">Bestuur jou profiel</string>
+    <string name="manage_profile_whats_new_description">Jy kan nou al jou persoonlike inligting in die Absa Bank App opdateer. Gaan na jou profiel in die Keuselys om te begin</string>
+
+    <string name="view_card_details_whats_new_title">Besigting jou kaartbesonderhede</string>
+    <string name="view_card_details_whats_new_description">Wil jy aanlyn inkopies doen, maar jy het nie jou kaart naby jou nie? Vir jou gemak kan jy al jou kaartbesonderhede, insluitend KVW-nommer en vervaldatum, met net \'n paar vinnige stappe sien.</string>
+
+    <string name="cash_send_plus_whats_new_title">Stuur na baie met CashSend Plus.</string>
+    <string name="cash_send_plus_whats_new_content">Dis nou makliker vir Besigheidsbankdienste-kliënte om geld aan veelvuldige begunstigdes te stuur en hul limiete te bestuur.\n\nRegistreer vir CashSend Plus op die app.</string>
+
+    <string name="fraud_notifications_letter_whats_new_title">Moet nooit jou bankdienstebesonderhede met enigiemand deel nie.</string>
+    <string name="fraud_notifications_letter_whats_new_content">Absa sal jou nooit vir kaartbesonderhede, ’n OTP of jou aantekenbesonderhede vra nie. Absa sal nooit via jou selfoon goedkeuring vra om ’n ongemagtigde of bedrieglike transaksie om te swaai nie. As jy ooit enige van die bogenoemde versoeke ontvang, meld dit dadelik deur ons Bedrogblitslyn by 0860\u00A0557\u00A0557 aan</string>
+
+    <string name="future_plan_whats_new_title">Begin spaar met \'n FuturePlan-rekening</string>
+    <string name="future_plan_whats_new_content">Met Absa FuturePlan kan jy klein begin en jou belegging laat groei, en ander uitnooi om jou te help om jou spaardoelwit te bereik. Gaan na die verken om nou \'n rekening te open.</string>
+
+    <string name="scan_to_pay_whats_new_title">QR\u00a0Betalings</string>
+    <string name="scan_to_pay_whats_new_content">Vergeet of los jy gereeld jou beursie tuis? Geen bekommernis nie; gebruik jou Absa Aanlyn app om aankope te doen deur \'n QR-kode te skandeer waar dit aangebied word, by \'n betaalpunt en / of aanlyn.</string>
+
+    <string name="solidarity_whats_new_title">Die laagste bankfooie in Suid-Afrika</string>
+    <string name="solidarity_whats_new_content">Ons het julle gehoor, Suid-Afrika!\nVanaf  1 Maart het ons ons nuwe fooie vir ons Alledaagse Bankdienste-rekenings bekendgestel, wat R500 miljoen in prysverligting aan ons gewaardeerde kliënte bied.</string>
+
+    <string name="identification_and_verification_whats_new_title">Skandeer jou gesig om toestelle te koppel</string>
+    <string name="identification_and_verification_whats_new_content">Gebruik jou Absa-ID, ons nuwe, baie veilige gesigs-herkennings-tegnologie om jou selfoon aan die Absa Banking-app te koppel.\n\n(Beste digitale innovasie-inisiatief - Digitale banker MEA innovasie toekennings 2021).</string>
+
+    <string name="business_evolve_whats_new_title">Open ŉ rekening vir jou besigheid</string>
+    <string name="business_evolve_whats_new_content">Open ŉ nuwe Business Evolve rekening en ervaar die voordele van ŉ rekening wat aanpas by jou besigheid se behoeftes.\n\nKies \'Besigheidsbankrekening\' in die Verken afdeling om aansoek te doen.</string>
+</resources>

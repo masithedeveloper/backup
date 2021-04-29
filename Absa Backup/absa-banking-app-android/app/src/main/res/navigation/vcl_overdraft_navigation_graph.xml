@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/vclOverdraftNavigationGraph"
+    app:startDestination="@id/overdraftIntroFragment">
+
+    <fragment
+        android:id="@+id/overdraftIntroFragment"
+        android:name="com.barclays.absa.banking.overdraft.ui.BusinessOverdraftInfoFragment"
+        android:label="BusinessOverdraftInfoFragment"
+        tools:layout="@layout/fragment_business_overdraft_info">
+        <action
+            android:id="@+id/action_overdraftIntroFragment_to_overdraftConsentFragment"
+            app:destination="@+id/overdraftConsentFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/overdraftConsentFragment"
+        android:name="com.barclays.absa.banking.overdraft.ui.BusinessOverdraftConsentFragment"
+        android:label="BusinessOverdraftConsentFragment"
+        tools:layout="@layout/fragment_business_overdraft_consent">
+        <action
+            android:id="@+id/action_overdraftConsentFragment_to_genericResultFragment"
+            app:destination="@id/genericResultFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/genericResultFragment"
+        android:name="styleguide.screens.GenericResultScreenFragment"
+        android:label="GenericResultScreenFragment"
+        tools:layout="@layout/generic_results_screen_fragment">
+        <argument
+            android:name="GenericResultScreenFragment"
+            app:argType="styleguide.screens.GenericResultScreenProperties" />
+    </fragment>
+</navigation>

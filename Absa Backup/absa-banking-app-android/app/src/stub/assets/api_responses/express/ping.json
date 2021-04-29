@@ -1,0 +1,20 @@
+{
+  "header": {
+    "statuscode": "0",
+    "userAgent": "ANDROID",
+    "jsessionid": "jGqSpuERtbEYVYEEg4FcZxS88XP5735AjFvbF8gY",
+    "esessionid": "64770ff3-d061-3e92-9be1-0be171f2ee58",
+    "service": "PingFacade",
+    "operation": "Ping",
+    "channel": "S",
+    "timestamp": "2020-03-20 10:00:37.937",
+    "sourceip": "22.240.44.100",
+    "accessAccount": "4047510559",
+    "userNumber": "1",
+    "nonce": "fWS_PUvXRTDYPGmoWaz7NTvuV7c3z8-yU5j65iE_Y7g",
+    "language": "en",
+    "organization": "ABSA",
+    "brand": "ABSA",
+    "resultMessages": []
+  }
+}

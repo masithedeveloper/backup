@@ -1,0 +1,14 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0864",
+      "resCde": "00000",
+      "resMsg": "Success",
+      "serVer": "2.0"
+    },
+    "payData": {
+      "txnStatus": "Failure",
+      "txnMessage": "AFS/ApplyCreditProtectionPlan/Validation/StatusBanner"
+    }
+  }
+}

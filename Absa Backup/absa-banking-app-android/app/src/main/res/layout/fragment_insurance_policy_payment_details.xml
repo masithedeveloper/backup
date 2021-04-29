@@ -1,0 +1,127 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ScrollView
+        style="@style/ScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <styleguide.buttons.OptionActionButtonView
+                android:id="@+id/editPaymentDetailsView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:focusable="true"
+                app:attribute_caption="@string/edit_payment_details"
+                app:attribute_icon="@drawable/ic_document_dark"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <styleguide.content.SecondaryContentAndLabelView
+                android:id="@+id/bankNameView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_is_secondary_check_box_checked="false"
+                app:attribute_secondary_label="@string/payment_bank_name"
+                app:attribute_should_show_check_box="false"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/editPaymentDetailsView" />
+
+            <styleguide.content.SecondaryContentAndLabelView
+                android:id="@+id/accountNumberView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_is_secondary_check_box_checked="false"
+                app:attribute_secondary_label="@string/payment_account_number"
+                app:attribute_should_show_check_box="false"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/bankNameView" />
+
+            <styleguide.content.SecondaryContentAndLabelView
+                android:id="@+id/accountTypeView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_is_secondary_check_box_checked="false"
+                app:attribute_secondary_label="@string/payment_account_type"
+                app:attribute_should_show_check_box="false"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/accountNumberView" />
+
+            <styleguide.content.SecondaryContentAndLabelView
+                android:id="@+id/branchNameView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_is_secondary_check_box_checked="false"
+                app:attribute_secondary_label="@string/branch_name"
+                app:attribute_should_show_check_box="false"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/accountTypeView" />
+
+            <styleguide.content.SecondaryContentAndLabelView
+                android:id="@+id/branchCodeView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_is_secondary_check_box_checked="false"
+                app:attribute_secondary_label="@string/branch_code"
+                app:attribute_should_show_check_box="false"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/branchNameView" />
+
+            <View
+                android:id="@+id/dividerView"
+                style="@style/DividerView"
+                android:layout_width="0dp"
+                android:layout_marginBottom="@dimen/medium_space"
+                android:layout_marginTop="@dimen/medium_space"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/branchCodeView" />
+
+            <styleguide.content.SecondaryContentAndLabelView
+                android:id="@+id/annualIncreaseView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_is_secondary_check_box_checked="false"
+                app:attribute_should_show_check_box="false"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/dividerView"
+                app:attribute_secondary_label="@string/annual_increase_text" />
+
+            <styleguide.content.SecondaryContentAndLabelView
+                android:id="@+id/premiumFrequencyView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_is_secondary_check_box_checked="false"
+                app:attribute_secondary_label="@string/premium_frequency"
+                app:attribute_should_show_check_box="false"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/annualIncreaseView" />
+
+            <styleguide.content.SecondaryContentAndLabelView
+                android:id="@+id/nextPremiumDeductionView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_is_secondary_check_box_checked="false"
+                app:attribute_secondary_label="@string/next_premium_deduction"
+                app:attribute_should_show_check_box="false"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/premiumFrequencyView" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</layout>

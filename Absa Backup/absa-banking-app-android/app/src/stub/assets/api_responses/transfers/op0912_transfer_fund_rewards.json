@@ -1,0 +1,34 @@
+{
+  "successResponseModel":{
+    "payHdr":{
+      "resId":"RES0912",
+      "resCde":"00000",
+      "resMsg":"Success",
+      "serVer":"2.0"
+    },
+    "payData":{
+      "txnRefID":"15268365823408",
+      "redemptionCode":"RWTCAS",
+      "redemptionId":0,
+      "networkProviderId":0,
+      "faceValue":{
+        "curr":"R",
+        "amt":""
+      },
+      "discount":{
+        "curr":"R",
+        "amt":""
+      },
+      "accrualCost":{
+        "curr":"R",
+        "amt":""
+      },
+      "amt":{
+        "curr":"R",
+        "amt":"106.00"
+      },
+      "actNo":"5239092101978012",
+      "membershipNo":"160217000114"
+    }
+  }
+}

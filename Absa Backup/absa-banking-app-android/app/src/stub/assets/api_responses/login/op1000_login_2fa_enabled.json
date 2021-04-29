@@ -1,0 +1,422 @@
+{
+  "successResponseModel": {
+    "payData": {
+      "accountImage": null,
+      "allActList": [
+        {
+          "favorite": "N",
+          "mkdActNo": "******3539",
+          "overDraftLimit": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "accessTypeBits": "1.0",
+          "desc": "Savings account",
+          "acctAccessBits": "64255.0",
+          "curr": "R",
+          "viewAcctHistoryAllowed": "Y",
+          "image": null,
+          "typ": "savingsAccount",
+          "isBalanceMasked": "N",
+          "avblBal": {
+            "curr": "R",
+            "amt": "432.40"
+          },
+          "curBal": {
+            "curr": "R",
+            "amt": "482.40"
+          },
+          "actNo": "9050993539"
+        },
+        {
+          "favorite": "N",
+          "accessTypeBits": "8.0",
+          "isBalanceMasked": "N",
+          "viewAcctHistoryAllowed": "Y",
+          "acctAccessBits": "59423.0",
+          "actNo": "9050847138",
+          "desc": "AccountName",
+          "curBal": {
+            "curr": "R",
+            "amt": "112.10"
+          },
+          "avblBal": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "typ": "noticeDeposit",
+          "mkdActNo": "******7138",
+          "curr": "R",
+          "overDraftLimit": {
+            "curr": "R",
+            "amt": "0.00"
+          }
+        },
+        {
+          "favorite": "N",
+          "accessTypeBits": "1.0",
+          "isBalanceMasked": "N",
+          "viewAcctHistoryAllowed": "Y",
+          "acctAccessBits": "64255.0",
+          "actNo": "9050847471",
+          "desc": "AfterFixName",
+          "curBal": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "avblBal": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "typ": "savingsAccount",
+          "mkdActNo": "******7471",
+          "curr": "R",
+          "overDraftLimit": {
+            "curr": "R",
+            "amt": "0.00"
+          }
+        },
+        {
+          "favorite": "N",
+          "accessTypeBits": "8.0",
+          "isBalanceMasked": "N",
+          "viewAcctHistoryAllowed": "Y",
+          "acctAccessBits": "59423.0",
+          "actNo": "9050847578",
+          "desc": "TargetSaveName",
+          "curBal": {
+            "curr": "R",
+            "amt": "112.10"
+          },
+          "avblBal": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "typ": "noticeDeposit",
+          "mkdActNo": "******7578",
+          "curr": "R",
+          "overDraftLimit": {
+            "curr": "R",
+            "amt": "0.00"
+          }
+        },
+        {
+          "favorite": "N",
+          "accessTypeBits": "8.0",
+          "isBalanceMasked": "N",
+          "viewAcctHistoryAllowed": "Y",
+          "acctAccessBits": "59423.0",
+          "actNo": "9050848100",
+          "desc": "girish",
+          "curBal": {
+            "curr": "R",
+            "amt": "112.10"
+          },
+          "avblBal": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "typ": "noticeDeposit",
+          "mkdActNo": "******8100",
+          "curr": "R",
+          "overDraftLimit": {
+            "curr": "R",
+            "amt": "0.00"
+          }
+        },
+        {
+          "favorite": "N",
+          "accessTypeBits": "8.0",
+          "isBalanceMasked": "N",
+          "viewAcctHistoryAllowed": "Y",
+          "acctAccessBits": "59423.0",
+          "actNo": "9050848118",
+          "desc": "girish lalwani",
+          "curBal": {
+            "curr": "R",
+            "amt": "112.10"
+          },
+          "avblBal": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "typ": "noticeDeposit",
+          "mkdActNo": "******8118",
+          "curr": "R",
+          "overDraftLimit": {
+            "curr": "R",
+            "amt": "0.00"
+          }
+        },
+        {
+          "favorite": "N",
+          "accessTypeBits": "8.0",
+          "isBalanceMasked": "N",
+          "viewAcctHistoryAllowed": "Y",
+          "acctAccessBits": "59423.0",
+          "actNo": "9050848477",
+          "desc": "TargetSave9383",
+          "curBal": {
+            "curr": "R",
+            "amt": "112.10"
+          },
+          "avblBal": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "typ": "noticeDeposit",
+          "mkdActNo": "******8477",
+          "curr": "R",
+          "overDraftLimit": {
+            "curr": "R",
+            "amt": "0.00"
+          }
+        },
+        {
+          "favorite": "N",
+          "mkdActNo": "******2320",
+          "overDraftLimit": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "accessTypeBits": "2.0",
+          "desc": "Current account",
+          "acctAccessBits": "65535.0",
+          "curr": "R",
+          "viewAcctHistoryAllowed": "Y",
+          "image": null,
+          "typ": "currentAccount",
+          "isBalanceMasked": "N",
+          "avblBal": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "curBal": {
+            "curr": "R",
+            "amt": "-1,043.74"
+          },
+          "actNo": "4047662320"
+        },
+        {
+          "favorite": "N",
+          "accessTypeBits": "0.0",
+          "isBalanceMasked": "N",
+          "viewAcctHistoryAllowed": "Y",
+          "acctAccessBits": "0.0",
+          "actNo": "160415003779",
+          "desc": "Absa Rewards",
+          "curBal": {
+            "curr": "R",
+            "amt": "109,413.00"
+          },
+          "avblBal": {
+            "curr": "R",
+            "amt": "109,413.00"
+          },
+          "typ": "absaReward",
+          "mkdActNo": "********3779",
+          "curr": "R",
+          "overDraftLimit": {
+            "curr": "R",
+            "amt": "0.00"
+          }
+        },
+        {
+          "favorite": "N",
+          "accessTypeBits": "128.0",
+          "isBalanceMasked": "N",
+          "viewAcctHistoryAllowed": "Y",
+          "acctAccessBits": "59422.0",
+          "actNo": "3001372504",
+          "desc": "Personal Loan account",
+          "curBal": {
+            "curr": "R",
+            "amt": "-13,887.94"
+          },
+          "avblBal": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "typ": "personalLoan",
+          "mkdActNo": "******2504",
+          "curr": "R",
+          "overDraftLimit": {
+            "curr": "R",
+            "amt": "0.00"
+          }
+        },
+        {
+          "favorite": "N",
+          "accessTypeBits": "128.0",
+          "isBalanceMasked": "N",
+          "viewAcctHistoryAllowed": "Y",
+          "acctAccessBits": "59422.0",
+          "actNo": "5001372504",
+          "desc": "Home Loan account",
+          "curBal": {
+            "curr": "R",
+            "amt": "-130,887.94"
+          },
+          "avblBal": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "typ": "homeLoan",
+          "mkdActNo": "******2504",
+          "curr": "R",
+          "overDraftLimit": {
+            "curr": "R",
+            "amt": "0.00"
+          }
+        },
+        {
+          "favorite": "N",
+          "accessTypeBits": "512.0",
+          "isBalanceMasked": "N",
+          "viewAcctHistoryAllowed": "Y",
+          "acctAccessBits": "59421.0",
+          "actNo": "2049663233",
+          "desc": "FxdDeposit3",
+          "curBal": {
+            "curr": "R",
+            "amt": "1,113.54"
+          },
+          "avblBal": {
+            "curr": "R",
+            "amt": "113.54"
+          },
+          "typ": "termDeposit",
+          "mkdActNo": "******3233",
+          "curr": "R",
+          "overDraftLimit": {
+            "curr": "R",
+            "amt": "0.00"
+          }
+        },
+        {
+          "favorite": "N",
+          "accessTypeBits": "4.0",
+          "isBalanceMasked": "N",
+          "viewAcctHistoryAllowed": "Y",
+          "acctAccessBits": "59519.0",
+          "actNo": "5471200032756012",
+          "desc": "CREDIT ACCOUNT",
+          "curBal": {
+            "curr": "R",
+            "amt": "154,835.05"
+          },
+          "avblBal": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "typ": "creditCard",
+          "mkdActNo": "547120xxxxxx6012",
+          "curr": "R",
+          "overDraftLimit": {
+            "curr": "R",
+            "amt": "0.00"
+          }
+        },
+        {
+          "favorite": "N",
+          "accessTypeBits": "4.0",
+          "isBalanceMasked": "N",
+          "viewAcctHistoryAllowed": "Y",
+          "acctAccessBits": "59519.0",
+          "actNo": "5471200032756012",
+          "desc": "CREDIT ACCOUNT",
+          "curBal": {
+            "curr": "R",
+            "amt": "154,835.05"
+          },
+          "avblBal": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "typ": "creditCard",
+          "mkdActNo": "547120xxxxxx6012",
+          "curr": "R",
+          "overDraftLimit": {
+            "curr": "R",
+            "amt": "0.00"
+          }
+        }
+      ],
+      "accessPrivileges": {
+        "isPrepaidAllowed": "Y",
+        "isOperator": "N",
+        "isInterAccountTransferAllowed": "Y",
+        "isCashSendAllowed": "Y",
+        "accessMessage": null,
+        "isBeneficiaryPaymentAllowed": "Y"
+      },
+      "hasProfileSetup": "Y",
+      "ival": "951839348336vpgx",
+      "payLst": [
+      ],
+      "otpSeed": "",
+      "passwordDigitList": [
+        {
+          "index": "1",
+          "name": "B34f365e",
+          "value": null
+        },
+        {
+          "index": "2",
+          "name": "bbe0d4a3",
+          "value": null
+        },
+        {
+          "index": "6",
+          "name": "a89ebe41",
+          "value": null
+        }
+      ],
+      "deviceList": [
+      ],
+      "backgroundImage": "4",
+      "imageName": "kYafVSyxMzvHWiKVjxkxVQdQ2kVhYB5EeMwwIhI8dyA=",
+      "primarySecondFactorDevice": true,
+      "cashSend": [
+      ],
+      "passwordLength": "9",
+      "balNotYetClrdDt": "2017-04-28 09:31",
+      "custProf": {
+        "limitsNotSet": "false",
+        "custName": "W SDFFSAFADFDASF",
+        "clientType": "I",
+        "idNoRequired": "false",
+        "surePhrase": "W SDFFSAFADFDASF",
+        "reachedDeviceMaxLimit": "false",
+        "image": "",
+        "imageName": "kYafVSyxMzvHWiKVjxkxVQdQ2kVhYB5EeMwwIhI8dyA=",
+        "lastLgnTm": "2017-04-28",
+        "showRewardsLink": "Y",
+        "hasMCL": "false",
+        "secondFactorSnoozed": false,
+        "sessionId": "4acedb20a2d6a1991c05",
+        "alias": null,
+        "secondFactorState": 20,
+        "authPassNotRegistered": false,
+        "customerType": "G",
+        "custActsSize": "1",
+        "secondFactorStateDate": "2017-04-28 00:00:00",
+        "accrtBalDt": "28\/04\/2017 09:31:22",
+        "hasImage": "N",
+        "langCode": "E",
+        "secondFactorDaysLeft": 0,
+        "deviceLinkRequired": "false",
+        "transactionalUser": true
+      },
+      "airTime": [
+      ]
+    },
+    "payHdr": {
+      "resCde": "00000",
+      "serVer": "2.0",
+      "expTrace": null,
+      "resMsg": "",
+      "resId": "RES2001"
+    }
+  }
+}

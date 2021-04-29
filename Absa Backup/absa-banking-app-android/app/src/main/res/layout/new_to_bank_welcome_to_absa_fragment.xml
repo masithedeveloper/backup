@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/parentConstraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/gradient_light_pink_dark_pink">
+
+        <ScrollView
+            android:id="@+id/scrollView"
+            style="@style/ScrollView"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/gradient_light_pink_dark_pink">
+
+                <styleguide.content.CenteredTitleView
+                    android:id="@+id/welcomeHeadingView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/large_space"
+                    android:textColor="@color/white"
+                    app:attribute_title="@string/new_to_bank_welcome_to_absa"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/absaLogoImageView"
+                    android:layout_width="@dimen/_128sdp"
+                    android:layout_height="@dimen/_128sdp"
+                    android:layout_marginTop="@dimen/medium_space"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/welcomeHeadingView"
+                    app:srcCompat="@drawable/logo_white_full" />
+
+                <styleguide.content.DescriptionView
+                    android:id="@+id/accountDetailsDescriptionView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/extra_extra_large_space"
+                    android:textColor="@color/white"
+                    app:attribute_description="@string/new_to_bank_account_details"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/absaLogoImageView" />
+
+                <View
+                    android:id="@+id/divider"
+                    style="@style/DividerView"
+                    android:layout_width="0dp"
+                    android:layout_marginTop="@dimen/medium_space"
+                    android:background="@color/white"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/accountDetailsDescriptionView" />
+
+                <styleguide.content.LineItemView
+                    android:id="@+id/accountNumberLineItemView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/small_space"
+                    android:textColor="@color/white"
+                    app:attribute_label_text="@string/new_to_bank_account_number"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/divider" />
+
+                <styleguide.content.LineItemView
+                    android:id="@+id/branchCodeLineItemView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    app:attribute_label_text="@string/new_to_bank_branch_code"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/accountNumberLineItemView" />
+
+                <styleguide.content.LineItemView
+                    android:id="@+id/dateTimeLineItemView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    app:attribute_label_text="@string/new_to_bank_date_and_time"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/branchCodeLineItemView" />
+
+                <styleguide.content.DescriptionView
+                    android:id="@+id/businessHoursOnlyDescriptionView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/medium_space"
+                    android:gravity="left"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/small_text_size"
+                    android:visibility="gone"
+                    app:attribute_description="@string/new_to_bank_business_hours_only"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/dateTimeLineItemView" />
+
+                <styleguide.buttons.Button
+                    android:id="@+id/saveAccountDetailsButton"
+                    style="@style/PrimaryButtonTransparent"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/button_height"
+                    android:layout_marginTop="@dimen/medium_space"
+                    android:text="@string/new_to_bank_save_account_details"
+                    app:layout_constraintBottom_toTopOf="@+id/completeApplicationButton"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/businessHoursOnlyDescriptionView"
+                    app:layout_constraintVertical_bias="1" />
+
+                <styleguide.buttons.Button
+                    android:id="@+id/completeApplicationButton"
+                    style="@style/SecondaryButton"
+                    android:background="@drawable/secondary_button_background_dark"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/button_height"
+                    android:layout_marginTop="@dimen/medium_space"
+                    android:text="@string/new_to_bank_complete_my_application"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintVertical_bias="1" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </ScrollView>
+
+        <ImageView
+            android:id="@+id/exportImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/medium_space"
+            android:layout_marginTop="@dimen/small_space"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_export_light" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

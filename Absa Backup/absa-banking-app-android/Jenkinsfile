@@ -1,0 +1,136 @@
+  pipeline {
+
+    agent {
+      label 'mobile-build-agent-android'
+    }
+
+    environment {
+      buildCommand = 'packageUat_live_2faRelease'
+      apkName = 'AbsaMobileBanking-UAT_LIVE_2FA-RELEASE.apk'
+      hockeyAppAppId = 'a6760a12525b4c84a34a5068f9d71f54'
+      buildVariant = 'stubCombined'
+      branchName = 'develop'
+    }
+
+    parameters {
+      //string(name: 'buildType', defaultValue: 'stub', description: 'Which build would you like to run?')
+      choice(choices: 'uatRelease\nstub\nsit\nuatIntegrationCore\nuatIntegrationCard\nuatIntegrationWimi\nuatIntegrationCombined\nprodBeta\nprod', description: 'What build would you like to run?', name: 'buildType')
+      choice(choices: 'develop\ndevelop-card\ndevelop-wimi\nrelease-branch\ntest-arxan\nmulti-intl-payments-merge', description: 'Which branch do you want to build from?', name: 'branchName')
+    }
+    stages {
+
+      stage('Delete workspace') {
+        steps {
+          bitbucketStatusNotify 'STARTED'
+          deleteDir()
+        }
+      }
+
+      stage('Checkout code') {
+        steps {
+          bitbucketStatusNotify 'INPROGRESS'
+          //checkout scm
+          checkout ([$class: 'GitSCM',
+            branches: [[name: "${params.branchName}"]],
+            extensions: [[$class: 'WipeWorkspace'], [$class: 'LocalBranch', localBranch: "**"]],
+            userRemoteConfigs: [[   credentialsId: '319a1270-20d4-4b89-b372-89381986ba17',
+                                    url: 'https://buildadmin-android@digitaltools.absa.co.za/bitbucket/scm/absaba/absa-banking-app-android.git'
+            ]]
+          ])
+        }
+      }
+
+      stage('Clean build') {
+        steps {
+          bitbucketStatusNotify 'INPROGRESS'
+          sh 'chmod 700 gradlew'
+          sh './gradlew clean'
+        }
+      }
+
+      stage('Build APK') {
+        steps {
+          script {
+            switch (buildType) {
+              case 'stub':
+                  buildVariant = 'stubCombined'
+                  buildCommand = 'packageStubCombinedRelease'
+                  apkName = 'AbsaMobileBanking-STUB-RELEASE.apk'
+                  hockeyAppAppId = 'b23f64205f674d50a3a7b91c3e22c95c'
+                  break
+              case 'sit':
+                  buildVariant = 'sitCombined'
+                  buildCommand = 'packageSitCombinedRelease'
+                  apkName = 'AbsaMobileBanking-SIT-RELEASE.apk'
+                  hockeyAppAppId = 'a6760a12525b4c84a34a5068f9d71f54'
+                  break
+              case 'uatIntegrationCore':
+                  buildVariant = 'uat_i_Core'
+                  buildCommand = 'packageUat_i_CoreRelease'
+                  apkName = 'AbsaMobileBanking-UAT_I-RELEASE.apk'
+                  hockeyAppAppId = 'a6760a12525b4c84a34a5068f9d71f54'
+                  break
+              case 'uatIntegrationCard':
+                  buildVariant = 'uat_i_Card'
+                  buildCommand = 'packageUat_i_CardRelease'
+                  apkName = 'AbsaMobileBanking-UAT_I-RELEASE.apk'
+                  hockeyAppAppId = '295d82d873f24836a157df5365e0f7d9'
+                  break
+              case 'uatIntegrationWimi':
+                  buildVariant = 'uat_i_Wimi'
+                  buildCommand = 'packageUat_i_WimiRelease'
+                  apkName = 'AbsaMobileBanking-UAT_I-RELEASE.apk'
+                  hockeyAppAppId = '2550804861864c16817d65e0aa86f133'
+                  break
+              case 'uatIntegrationCombined':
+                  buildVariant = 'uat_i_Combined'
+                  buildCommand = 'packageUat_i_CombinedRelease'
+                  apkName = 'AbsaMobileBanking-UAT_I-RELEASE.apk'
+                  hockeyAppAppId = '295d82d873f24836a157df5365e0f7d9'
+                  break
+              case 'uatRelease':
+                  buildVariant = 'uat_r_Combined'
+                  buildCommand = 'packageUat_r_CombinedRelease'
+                  apkName = 'AbsaMobileBanking-UAT_R-RELEASE.apk'
+                  hockeyAppAppId = 'e47d59a6d228470ba51083c931c82959'
+                  break
+              case 'prodBeta':
+                  buildCommand = 'packageProdBetaRelease'
+                  apkName = 'AbsaMobileBanking-PRD_BETA_2FA-RELEASE.apk'
+                  hockeyAppAppId = 'fdaaf20205894d43bd0fccae3eaa9d98'
+                  break
+              case 'prod':
+                  buildCommand = 'packageProdRelease'
+                  apkName = 'AbsaMobileBanking-PROD-RELEASE.apk'
+                  hockeyAppAppId = 'e8fc9ebe4f8941d3b1019e5aa8720a9a'
+                  break
+              }
+              sh "./gradlew -PversCode=$BUILD_NUMBER ${buildCommand}"
+          }
+        }
+      }
+
+      stage('Arxan Protection') {
+        steps {
+          sh 'cd app/build/outputs/apk'
+          sh 'export ANDROID_HOME=$HOME'
+          sh "/home/cisvc/GuardIT_for_Java_6.0.0/bin/guardit4japk.sh -i app/build/outputs/apk/${buildVariant}/release/${apkName} -g \"app/guardspecs/guardspec.gsml\" -s $HOME/Android/Sdk -t 26 -b 26.0.3  -a bmbabsa -k \"$HOME/SigningConfigs/absacert.keystore\" -p bmbcertabsa786 -w bmbcertabsa786 --verbose"
+        }
+      }
+
+      stage('Upload to Hockey APP') {
+        steps {
+          step([$class: 'HockeyappRecorder',
+                              applications: [[apiToken: 'b23f64205f674d50a3a7b91c3e22c95c',
+                                              downloadAllowed: true,
+                                              filePath: "apk/${apkName}",
+                                              mandatory: false,
+                                              notifyTeam: false,
+                                              uploadMethod: [$class: 'VersionCreation',
+                                                            appId: "${hockeyAppAppId}"]]],
+                                                            debugMode: false,
+                                                            failGracefully: false])
+        }
+      }
+    }
+  }

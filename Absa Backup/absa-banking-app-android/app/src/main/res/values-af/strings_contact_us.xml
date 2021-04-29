@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="contact_us_report_fraud">Rapporteer bedrog</string>
+    <string name="call_me_back">Bel-My-Terug</string>
+    <string name="system_error">Stelselfout</string>
+    <string name="call_verified">Oproep geverifieer</string>
+    <string name="confirm_call_back">Bevestig Bel-My-Terug</string>
+    <string name="security_code">Sekuriteitskode</string>
+    <string name="contact_absa">Kontak Absa</string>
+    <string name="call_back_is_unavailable">Call back is unavailable at this time.Please contact us below or try again later.</string>
+    <string name="our_call_volumes_are_high">Our call volumes are high at the moment. Absa will call you in approximately 20 minutes.\n\nAs soon as you speak to an Absa consultant they will give you a security code.\n\nPlease enter the security code below to your verify call.</string>
+    <string name="your_call_is_not_secure_description">Die sekuriteitskode wat u ingesleutel het is verkeerd.\n\nMoenie enige persoonlike besonderhede deel op die hierdie oproep nie.</string>
+    <string name="your_call_is_not_secure">Jou oproep is nie geverifiëer nie!</string>
+    <string name="your_call_is_secure">Jou oproep is beveilig</string>
+    <string name="do_not_share_any_personal_information">Moenie enige persoonlike besonderhede deel totdat u die sekuriteitskode bevestig het nie.</string>
+    <string name="enter_security_code">Tik jou sekuriteitskode in</string>
+    <string name="more_contact_information">Verdere kontak besonderhede</string>
+    <string name="security_code_description">Sodra jy met die Absa konsultant praat sal hul jou sekuriteitskode aan jou verskaf.\n\nTik asseblief jou sekuriteitskode hieronder in om jou oproep te verifiëer.</string>
+    <string name="cellphone_number_ending">Absa sal jou bel op sellfoon nommer wat einding in %s</string>
+    <string name="cellphone_number_ending_no_number">Absa sal jou bel op jou sellfoon nommer</string>
+    <string name="report_fraud_description">Absa sal jou dadelik terugskakel op \'n beveiligde lyn.\n\nJy sal die sekuriteitskode wat die inbelsentrumagent vir jou gegee het moet insleutel om die oproep te beveilig.</string>
+    <string name="contact_us_attempts">Verkeerde besonderhede ingesit. Jou sessie sal gesluit ná %s foutiewe pogings.</string>
+</resources>

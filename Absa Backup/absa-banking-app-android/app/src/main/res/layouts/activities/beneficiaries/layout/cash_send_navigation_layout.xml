@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <styleguide.buttons.OptionActionButtonView
+        android:id="@+id/sendCashToMyselfView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:attribute_caption="@string/send_cash_myself"
+        app:attribute_icon="@drawable/ic_cashsend_dark_new" />
+
+    <styleguide.buttons.OptionActionButtonView
+        android:id="@+id/sendCashToSomeoneNewView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:attribute_caption="@string/send_cash_new"
+        app:attribute_icon="@drawable/ic_cashsend_dark_new" />
+
+    <styleguide.buttons.OptionActionButtonView
+        android:id="@+id/onceOffView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:attribute_caption="@string/send_cash_once_off"
+        app:attribute_icon="@drawable/ic_cashsend_dark_new" />
+
+    <styleguide.buttons.OptionActionButtonView
+        android:id="@+id/sendMultipleButtonView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:attribute_caption="@string/cash_send_plus_send_multiple"
+        app:attribute_icon="@drawable/ic_cashsend_dark_new" />
+
+    <View
+        style="@style/DividerView"
+        android:layout_width="match_parent" />
+
+    <styleguide.buttons.OptionActionButtonView
+        android:id="@+id/unredeemedView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:attribute_caption="@string/unredeemed_layout_string"
+        app:attribute_icon="@drawable/ic_menu_dark" />
+
+    <View
+        style="@style/DividerView"
+        android:layout_width="match_parent" />
+
+    <LinearLayout
+        android:id="@+id/listingContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/small_space"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:id="@+id/recentlyPaidBeneficiaryContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <RelativeLayout
+                android:id="@+id/recentlyPaidBannerLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical">
+
+                <styleguide.content.HeadingView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:attribute_heading="@string/recent_cash_send" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/recentTransactionContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/comingSoonDisclaimer"
+                    style="@style/NormalTextRegularDark"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="@string/cashsend_no_results"
+                    android:textColor="@color/grey" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:id="@+id/recentCashSendDividerView"
+            style="@style/DividerView"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="@dimen/small_space"
+            android:visibility="gone" />
+
+        <styleguide.content.HeadingView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:attribute_heading="@string/cash_send_beneficiaries" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/noBeneficiaryFoundContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone"
+            tools:visibility="visible">
+
+            <ImageView
+                android:id="@+id/addNewBeneficiaryImageView"
+                android:layout_width="@dimen/dimen_80dp"
+                android:layout_height="@dimen/dimen_80dp"
+                android:layout_margin="@dimen/large_space"
+                android:tint="@null"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_add_beneficiary" />
+
+            <TextView
+                android:id="@+id/addNewBeneficiaryDescriptionLabel"
+                style="@style/LargeTextRegularDark"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/medium_space"
+                android:gravity="center"
+                android:text="@string/no_ben_details_msg_cashsend"
+                android:textColor="@color/foil"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/addNewBeneficiaryImageView" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+</LinearLayout>

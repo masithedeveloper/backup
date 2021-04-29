@@ -1,0 +1,70 @@
+{
+  "header": {
+    "statuscode": "0",
+    "userAgent": "ANDROID - 6.17.0",
+    "jsessionid": "48iuBGW8qsNBnSOV4XRPiEttZetNGeXXy3sY6kSg",
+    "esessionid": "48e5d8ed-e331-378c-b692-ddcfd1a7a112",
+    "service": "AVAFDocumentsFacade",
+    "operation": "GetAVAFPreValidateDocument",
+    "channel": "S",
+    "timestamp": "2020-09-16 16:11:52.960",
+    "sourceip": "22.240.44.100",
+    "accessAccount": "4048363698",
+    "userNumber": "1",
+    "nonce": "6idj5GSkiUoIzWkLYSEJFWlDHBbZKlW5g4eq1Y0-W7Q",
+    "language": "en",
+    "organization": "ABSA",
+    "brand": "ABSA",
+    "resultMessages": []
+  },
+  "accountNumber": "77084644",
+  "documents": {
+    "document": [
+      {
+        "name": "Islamic",
+        "indicator": "N",
+        "message": ""
+      },
+      {
+        "name": "Settlement Quotation",
+        "indicator": "Y",
+        "message": ""
+      },
+      {
+        "name": "Paid Up Letter",
+        "indicator": "Y",
+        "message": ""
+      },
+      {
+        "name": "Cross Border Letter",
+        "indicator": "Y",
+        "message": ""
+      },
+      {
+        "name": "Copy NATIS",
+        "indicator": "Y",
+        "message": ""
+      },
+      {
+        "name": "Original NATIS",
+        "indicator": "N",
+        "message": "Due to the status of your account we are unable to provide you with the documentation or proceed with your request. Please contact 0860 669 669 for more information"
+      },
+      {
+        "name": "Tax Audit Certificate",
+        "indicator": "Y",
+        "message": ""
+      },
+      {
+        "name": "Amortization Schedule",
+        "indicator": "Y",
+        "message": ""
+      },
+      {
+        "name": "Detailed Statement",
+        "indicator": "Y",
+        "message": ""
+      }
+    ]
+  }
+}

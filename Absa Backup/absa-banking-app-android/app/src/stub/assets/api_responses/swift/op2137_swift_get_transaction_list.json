@@ -1,0 +1,51 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES2137",
+      "resMsg": "Success",
+      "resCde": "00000",
+      "expTrace": null,
+      "serVer": "2.0"
+    },
+    "payData": {
+      "txnStatus": "Success",
+      "txnMessage": "Success",
+      "swiftTransactions": [
+        {
+          "expectedPayoutAmount": "0",
+          "senderFirstName": "EXSA BRITAIN B.V.",
+          "originatingCountry": "UNITED KINGDOM",
+          "foreignCurrencyAmount": "4356.23",
+          "toAccount": "78368756325",
+          "foreignCurrencyCode": "GBP",
+          "endDate": "2020-05-10",
+          "beneficiaryType": "business",
+          "caseIDNumber": "I81753D4A943",
+          "originatingCountryCode": "GB",
+          "senderLastName": "",
+          "transactionDate": "2020-04-10",
+          "balance": "",
+          "triNumber": "SHA18111934",
+          "whoWillPay": ""
+        },
+        {
+          "expectedPayoutAmount": "0",
+          "senderFirstName": "WAVE PLANT LTD",
+          "originatingCountry": "UNITED STATES",
+          "foreignCurrencyAmount": "7515.28",
+          "toAccount": "9050955490",
+          "foreignCurrencyCode": "USD",
+          "endDate": "2020-04-20",
+          "beneficiaryType": "business",
+          "caseIDNumber": "I81753D4A942",
+          "originatingCountryCode": "US",
+          "senderLastName": "",
+          "transactionDate": "2020-03-20",
+          "balance": "",
+          "triNumber": "SHA18111933",
+          "whoWillPay": ""
+        }
+      ]
+    }
+  }
+}

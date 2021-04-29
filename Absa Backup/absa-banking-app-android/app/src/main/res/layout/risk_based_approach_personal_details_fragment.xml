@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        style="@style/ScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/headingTextView"
+                style="@style/LargeTextRegularDark"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/medium_space"
+                android:text="@string/risk_based_approach_update_personal_information"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/employmentStatusNormalInputView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/small_space"
+                app:attribute_hint_text="@string/risk_based_approach_employment_status_hint"
+                app:attribute_selector_type="LONG_LIST"
+                app:attribute_title_text="@string/risk_based_approach_employment_status"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/headingTextView" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/occupationNormalInputView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                app:attribute_hint_text="@string/risk_based_approach_occupation_hint"
+                app:attribute_selector_type="LONG_LIST"
+                app:attribute_title_text="@string/risk_based_approach_occupation"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/employmentStatusNormalInputView"
+                tools:visibility="visible" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/sourceOfFundsNormalInputView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/extra_large_space"
+                app:attribute_hint_text="@string/risk_based_approach_source_of_funds_hint"
+                app:attribute_selector_type="LONG_LIST"
+                app:attribute_title_text="@string/source_of_funds"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/occupationNormalInputView" />
+
+            <styleguide.buttons.Button
+                android:id="@+id/nextButton"
+                style="@style/PrimaryButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/next"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/sourceOfFundsNormalInputView"
+                app:layout_constraintVertical_bias="1" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</layout>

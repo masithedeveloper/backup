@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scrollView"
+    style="@style/ScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/recipientMeterNumberNormalInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:inputType="textVisiblePassword"
+            app:attribute_editable="true"
+            app:attribute_hint_text="@string/enter_recipient_meter_number"
+            app:attribute_mask="AAAA AAAA AAAA A"
+            app:attribute_title_text="@string/prepaid_electricity_recipient_meter_number"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <styleguide.content.ContactView
+            android:id="@+id/electricityQueriesContactView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/extra_extra_large_space"
+            app:attribute_contact_name="@string/prepaid_electricity_queries"
+            app:attribute_contact_number="@string/prepaid_electricity_queries_number"
+            app:layout_constraintBottom_toTopOf="@+id/doneButton"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/recipientMeterNumberNormalInputView"
+            app:layout_constraintVertical_bias="0" />
+
+        <styleguide.buttons.Button
+            android:id="@+id/doneButton"
+            style="@style/PrimaryButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/done"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/recipientMeterNumberNormalInputView"
+            app:layout_constraintVertical_bias="1" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

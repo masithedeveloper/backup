@@ -1,0 +1,36 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="167dp"
+    android:height="89dp"
+    android:viewportWidth="335"
+    android:viewportHeight="179">
+    <path
+        android:fillColor="@color/behavioural_rewards_voucher_item"
+        android:pathData="M16,0.5L319,0.5A15.5,15.5 0,0 1,334.5 16L334.5,163A15.5,15.5 0,0 1,319 178.5L16,178.5A15.5,15.5 0,0 1,0.5 163L0.5,16A15.5,15.5 0,0 1,16 0.5z"
+        android:strokeWidth="1"
+        android:strokeAlpha="0.08"
+        android:strokeColor="#000000" />
+    <group>
+        <clip-path android:pathData="M0,81h16v32h-16z" />
+        <path
+            android:fillColor="?android:windowBackground"
+            android:pathData="M0,97m-16,0a16,16 0,1 1,32 0a16,16 0,1 1,-32 0" />
+        <path
+            android:fillColor="#00000000"
+            android:pathData="M0,97m-15.5,0a15.5,15.5 0,1 1,31 0a15.5,15.5 0,1 1,-31 0"
+            android:strokeWidth="1"
+            android:strokeAlpha="0.08"
+            android:strokeColor="#000000" />
+    </group>
+    <group>
+        <clip-path android:pathData="M335,113l-16,-0l-0,-32l16,-0z" />
+        <path
+            android:fillColor="?android:windowBackground"
+            android:pathData="M335,97m16,-0a16,16 0,1 1,-32 -0a16,16 0,1 1,32 -0" />
+        <path
+            android:fillColor="#00000000"
+            android:pathData="M335,97m15.5,-0a15.5,15.5 0,1 1,-31 -0a15.5,15.5 0,1 1,31 -0"
+            android:strokeWidth="1"
+            android:strokeAlpha="0.08"
+            android:strokeColor="#000000" />
+    </group>
+</vector>

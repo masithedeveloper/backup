@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Transactions View-->
+    <string name="swift_transactions_english_only" translatable="false">SWIFT transactions</string>
+    <string name="swift_please_note" translatable="false">Please note</string>
+    <string name="swift_reference" translatable="false">Reference %s</string>
+    <string name="share_swift_details" translatable="false">Share my SWIFT details</string>
+    <string name="incoming_payments_label" translatable="false">Incoming payments</string>
+    <string name="no_incoming_payments_label" translatable="false">No incoming payments</string>
+    <string name="older_payments_label" translatable="false">Older payments</string>
+    <string name="swift_days_to_claim_label" translatable="false">%1$s days left to claim</string>
+    <string name="swift_day_to_claim_label" translatable="false">%1$s day left to claim</string>
+    <string name="swift_claimed_label" translatable="false">Claimed on %1$s</string>
+    <string name="swift_operating_hours" translatable="false">SWIFT payments are currently unavailable.\n\nService operating hours (Central Africa Time) are:\nMonday to Friday\n08:00 - 17:00\nUnavailable on weekends and public holidays.</string>
+
+    <!--Share account details View-->
+    <string name="swift_share_my_details" translatable="false">Share my SWIFT details</string>
+    <string name="swift_share_banking_details_description" translatable="false">Share your banking details with a contact so that you can receive international SWIFT payments.</string>
+    <string name="swift_share_my_details_available_cia" translatable="false">Available Currency Investment Accounts</string>
+    <string name="share_swift_account_details_content" formatted="false" translatable="false">Hello. Please find my Absa Swift account details below:\nAccount name: %s\nAccount type: %s\n%sAccount number: %s\nBranch code: 632005\nSWIFT code: ABSAZAJJ</string>
+    <string name="swift_currency_notice" translatable="false">You will only be able to recieve funds in the same currency as the account you have chosen.</string>
+    <string name="swift_currency_investment_account" translatable="false">Currency Investment Account</string>
+    <string name="swift_account_currency_label" translatable="false">Account currency: %s\n</string>
+    <string name="swift_sub_caption_cia_template" translatable="false">%s - %s</string>
+    <string name="swift_sub_caption_zar_template" translatable="false">%s - ZAR</string>
+    <string name="swift_sub_caption_template" translatable="false">%s\n%s</string>
+
+    <!--Payment flow-->
+    <string name="swift_reason_for_payment_message" translatable="false">If the purpose of payment is not listed here, please proceed to Absa On-line Banking to process, or call +2711 3354020 for assistance to process payments related to third parties.</string>
+    <string name="swift_clickable_absa_online_text" translatable="false">Absa On-line Banking</string>
+    <string name="swift_clickable_number_text" translatable="false">+2711 3354020</string>
+    <string name="swift_conversion_rate_text" translatable="false">%s live rate as at %s</string>
+    <string name="swift_an_individual" translatable="false">An individual</string>
+    <string name="swift_a_company" translatable="false">A company</string>
+    <string name="swift_please_accept_reserve_bank_declaration" translatable="false">Please accept Reserve Bank Declaration</string>
+    <string name="swift_please_select_reason_for_payment" translatable="false">Please select reason for payment</string>
+    <string name="swift_please_select_subcategory_for_payment" translatable="false">Please select subcategory for payment</string>
+    <string name="swift_show_more" translatable="false">Show more</string>
+    <string name="swift_show_less" translatable="false">Show less</string>
+    <string name="swift_edit" translatable="false">Edit</string>
+    <string name="swift_cancel" translatable="false">Cancel</string>
+    <string name="swift_payment_processing" translatable="false">Payment processing</string>
+    <string name="swift_payment_processing_message" translatable="false">On %s at %s\n\nYour transaction has been successfully submitted under payment reference\n%s.\n\nYou will receive the SWIFT payment details via SMS/email within the hour.</string>
+    <string name="swift_unable_to_process" translatable="false">Unable to process</string>
+    <string name="swift_unable_to_process_message" translatable="false">On %s at %s\n\n</string>
+    <string name="swift_payment_already_processed" translatable="false">Payment already\nprocessed</string>
+    <string name="swift_payment_already_processed_message" translatable="false">On %s at %s\n\nThis SWIFT incoming payment has already been processed under payment reference %s. The proof of payment can be viewed on Absa Online Banking website.\n\nIf you did not redeem this payment, please contact the fraud hotline below.</string>
+    <string name="swift_payment_being_processed" translatable="false">Payment currently\nbeing processed</string>
+    <string name="swift_payment_being_processed_message" translatable="false">On %s at %s\n\nThis SWIFT incoming payment is being processed under payment reference %s.\n\nIf you are not currently redeeming this payment, please contact the fraud hotline below.</string>
+    <string name="swift_fraud_hotline" translatable="false">Fraud hotline</string>
+    <string name="swift_amount_sent_to_you" translatable="false">Amount sent to you</string>
+    <string name="swift_amount_you_receive" translatable="false">Amount you\'ll receive</string>
+    <string name="swift_to_account" translatable="false">To account</string>
+    <string name="swift_total_charges" translatable="false">Total charges</string>
+    <string name="swift_sender" translatable="false">Sender</string>
+    <string name="swift_type_of_sender" translatable="false">Type of sender</string>
+    <string name="swift_reason_for_payment" translatable="false">Reason for payment</string>
+    <string name="swift_sub_category_for_payment" translatable="false">Subcategory for payment</string>
+    <string name="swift_read_and_accepted_reserve_bank_declaration" translatable="false">I have read and accept the\nReserve Bank Declaration</string>
+    <string name="swift_accept_transaction" translatable="false">Accept transaction</string>
+    <string name="swift_absa_charges" translatable="false">ABSA Charges</string>
+    <string name="swift_swift_charges" translatable="false">SWIFT Charges</string>
+    <string name="swift_corresponding_recovery_charges" translatable="false">Corresponding Recovery Charges</string>
+    <string name="swift_vat" translatable="false">VAT</string>
+    <string name="swift_you_have_been_sent_funds_message" translatable="false">You have been sent international funds. Please review and complete the details below to receive your funds.</string>
+    <string name="swift_sender_address" translatable="false">Sender address</string>
+    <string name="swift_sender_city" translatable="false">Sender city</string>
+    <string name="swift_sender_country" translatable="false">Sender country</string>
+    <string name="swift_individual_company_sending" translatable="false">Is an individual or a company sending you money?</string>
+    <string name="swift_declaration" translatable="false">Declaration</string>
+    <string name="swift_payment_details" translatable="false">SWIFT Payment Details</string>
+    <string name="swift_reserve_bank_declaration" translatable="false">Reserve Bank Declaration</string>
+    <string name="swift_no_charges_message" translatable="false">No charges - Costs were paid by the sender</string>
+    <string name="swift_reserve_bank_declaration_message" translatable="false">By accepting I declare that:\n
+        \n• I have read, understood and accept the Regulatory and Compliance legal terms.
+        \n• I have read the Terms of use and understand the content thereof.
+        \n• The information furnished above is in all respect both true and correct.
+        \n• The currency applied for will only be used for the specific purpose stated herein.
+        \n• The documentation presented in support of this transaction is in all respect authentic.
+        \n• I have been informed of the limit applicable to this transaction and confirm that this limit has not been exceeded as a result of the conclusion of this transaction.
+        \n• I fully understand that the bank is required by law to report on funds that are being transferred or received. You agree that your information may be provided to certain Regulatory authorities like South African Revenue Service and / or the Financial Intelligence Centre, however reporting is not limited to these Regulators.
+        \n• I  confirm that none of the counter party/ parties involved in this transaction(s) can be linked to any of the sanctioned countries including but not limited to the following countries: Iran, North Korea, Syria, *Crimea Region, *Sudan (North) and *Cuba.
+        \n\n*Certain transactions are permissible. You may be required to provide additional details.
+        \n• I will comply with any law or exchange control regulation prescribed by the South African Reserve Bank and other relevant Legislative bodies which sets out how much and under what circumstances you may send money out of South Africa. Transactions can be blocked or delayed if you as the recipient do not obey the Laws.
+        \n• I hereby confirm that the bank will prohibit the transaction, instruction or accounts I may be applying for, I further confirm that the bank may also have to end its relationship with me without warning. I confirm that the bank is not responsible for any losses or damages that I may suffer because of my action in this regard.
+        \n• The Bank will not be liable for any losses caused by delays to the settlement of the transaction, such as system downtime or other failures of the site/online services. This includes any loss of profits or savings that you would otherwise have expected to make.
+        \n• I will retain the supporting documentation related to this transaction for a period of 5(five) years, for inspection purposes by the Financial Surveillance Department of the South African Reserve Bank.
+        \n• I fully understand that should I be required to and not submit supporting documents related to the transaction, to the bank within given time frames, the transaction will be cancelled.
+        \n• I fully understand that the above provision constitutes an acknowledgement of facts and its effect will limit my right to claim that such fact is not accurate.</string>
+    <string name="swift_terms_of_use" translatable="false">Terms of use</string>
+    <string name="swift_legal_terms" translatable="false">legal terms</string>
+    <string name="swift_please_select" translatable="false">Please select</string>
+    <string name="swift_next" translatable="false">Next</string>
+    <string name="swift_step_x_of_y" translatable="false">Step %d of %d</string>
+    <string name="swift_done" translatable="false">Done</string>
+</resources>

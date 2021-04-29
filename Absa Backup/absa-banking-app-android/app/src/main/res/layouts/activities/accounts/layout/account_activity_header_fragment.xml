@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/graphAndBalanceLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:animateLayoutChanges="true">
+
+        <TextView
+            android:id="@+id/numberOfDaysHeaderTextView"
+            style="@style/Text_Body"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dimen_32dp"
+            android:layout_marginStart="@dimen/medium_space"
+            android:layout_marginEnd="@dimen/medium_space"
+            android:text="@string/account_activity_hub_account_balance"
+            android:textColor="@android:color/white"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:visibility="visible" />
+
+        <TextView
+            android:id="@+id/containsUnclearedTextView"
+            style="@style/Text_Caption_Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/medium_space"
+            android:layout_marginEnd="@dimen/medium_space"
+            android:text="@string/account_hub_uncleared"
+            android:textColor="@android:color/white"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/numberOfDaysHeaderTextView"
+            tools:visibility="gone" />
+
+        <com.barclays.absa.banking.account.ui.graph.BalanceGraphWidget
+            android:id="@+id/balanceGraphWidget"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="@dimen/_8sdp"
+            android:layout_marginEnd="@dimen/_8sdp"
+            android:layout_marginBottom="@dimen/dimen_16dp"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/containsUnclearedTextView"
+            tools:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/togglerImageView"
+            android:layout_width="@dimen/_32sdp"
+            android:layout_height="@dimen/_32sdp"
+            android:layout_marginStart="@dimen/_8sdp"
+            android:layout_marginEnd="@dimen/_8sdp"
+            android:background="@drawable/background_rounded_transparent_white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_chart_light" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/balanceLayout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/extra_large_space"
+            android:paddingBottom="@dimen/medium_space"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/balanceGraphWidget">
+
+            <TextView
+                android:id="@+id/currencyTitleTextView"
+                style="@style/TitleTextBoldLight"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="@dimen/medium_space"
+                android:textColor="@android:color/white"
+                android:visibility="gone"
+                app:layout_constraintBottom_toTopOf="@id/currentBalanceAmountTextView"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:text="USD" />
+
+            <TextView
+                android:id="@+id/currentBalanceTextView"
+                style="@style/SmallTextRegularLight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/medium_space"
+                android:layout_marginEnd="@dimen/medium_space"
+                android:text="@string/current_balance"
+                android:textColor="@android:color/white"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/currencyTitleTextView" />
+
+            <TextView
+                android:id="@+id/currentBalanceAmountTextView"
+                style="@style/TitleTextBoldLight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/medium_space"
+                android:layout_marginEnd="@dimen/medium_space"
+                android:textColor="@android:color/white"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/currentBalanceTextView"
+                tools:text="R 50 550 250.00" />
+
+            <TextView
+                android:id="@+id/availableBalanceTextView"
+                style="@style/LargeTextRegularLight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/medium_space"
+                android:layout_marginTop="@dimen/tiny_space"
+                android:layout_marginEnd="@dimen/medium_space"
+                android:textColor="@android:color/white"
+                android:visibility="gone"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/currentBalanceAmountTextView"
+                tools:text="R 50 550 250.00"
+                tools:visibility="visible" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/payImageView"
+                android:layout_width="@dimen/_36sdp"
+                android:layout_height="@dimen/_36sdp"
+                android:layout_marginStart="@dimen/medium_space"
+                android:layout_marginTop="@dimen/medium_space"
+                android:layout_marginEnd="@dimen/medium_space"
+                android:background="@drawable/circle_white"
+                android:padding="@dimen/dimen_6dp"
+                android:tint="@null"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/transferImageView"
+                app:layout_constraintHorizontal_chainStyle="packed"
+                app:layout_constraintStart_toEndOf="@+id/transferImageView"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/availableBalanceTextView"
+                app:layout_constraintVertical_bias="0.6"
+                app:srcCompat="@drawable/ic_pay_dark" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/transferImageView"
+                android:layout_width="@dimen/_36sdp"
+                android:layout_height="@dimen/_36sdp"
+                android:layout_marginTop="@dimen/medium_space"
+                android:background="@drawable/circle_white"
+                android:padding="@dimen/dimen_6dp"
+                android:tint="@null"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/cashsendImageView"
+                app:layout_constraintStart_toEndOf="@id/payImageView"
+                app:layout_constraintTop_toBottomOf="@+id/availableBalanceTextView"
+                app:layout_constraintVertical_bias="0.6"
+                app:srcCompat="@drawable/ic_transfer_dark_new"
+                tools:visibility="visible" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/cashsendImageView"
+                android:layout_width="@dimen/_36sdp"
+                android:layout_height="@dimen/_36sdp"
+                android:layout_marginStart="@dimen/medium_space"
+                android:layout_marginTop="@dimen/medium_space"
+                android:layout_marginEnd="@dimen/medium_space"
+                android:background="@drawable/circle_white"
+                android:padding="@dimen/dimen_6dp"
+                android:tint="@null"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0"
+                app:layout_constraintStart_toEndOf="@+id/transferImageView"
+                app:layout_constraintTop_toBottomOf="@+id/availableBalanceTextView"
+                app:layout_constraintVertical_bias="0.6"
+                app:srcCompat="@drawable/ic_cashsend_dark_new" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <View
+            android:id="@+id/dividerView"
+            style="@style/DividerView"
+            android:layout_width="0dp"
+            android:layout_marginStart="@dimen/medium_space"
+            android:layout_marginEnd="@dimen/medium_space"
+            android:background="@android:color/white"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="@+id/balanceGraphWidget"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/balanceGraphWidget" />
+
+        <TextView
+            android:id="@+id/notAuthorisedTextView"
+            style="@style/SmallTextRegularLight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/medium_space"
+            android:layout_marginEnd="@dimen/medium_space"
+            android:text="@string/account_hub_unauthorised_content"
+            android:textColor="@android:color/white"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/numberOfDaysHeaderTextView" />
+
+        <TextView
+            android:id="@+id/requestAccessTextView"
+            style="@style/Text_Caption"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/medium_space"
+            android:background="@drawable/style_grey_rounded_corner"
+            android:paddingStart="@dimen/dimen_64dp"
+            android:paddingTop="@dimen/dimen_8dp"
+            android:paddingEnd="@dimen/dimen_64dp"
+            android:paddingBottom="@dimen/dimen_8dp"
+            android:text="@string/request_access"
+            android:textColor="@color/graphite_light_theme_item_color"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/notAuthorisedTextView" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

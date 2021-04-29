@@ -1,0 +1,604 @@
+{
+  "header": {
+    "statuscode": "0",
+    "service": "DeviceManagementFacade",
+    "operation": "Hello",
+    "timestamp": "2020-10-28 10:03:55.775",
+    "resultMessages": []
+  },
+  "hmacSecret": "",
+  "publicKey": "",
+  "publicKeyId": "mobileapp",
+  "fingerprintList": [
+    "ib.absa.co.za:bac715389824f75c6d140db08d3b7eb4669d4621",
+    "i.absa.co.za:bac715389824f75c6d140db08d3b7eb4669d4622"
+  ],
+  "configurationList": [
+    {
+      "category": "ABSAREWARDS",
+      "key": "STATUS",
+      "value": "ACTIVE"
+    },
+    {
+      "category": "ADDFAMILYMEMBER",
+      "key": "STATUS",
+      "value": "ACTIVE"
+    },
+    {
+      "category": "APPLYFORREWARDS",
+      "key": "STATUS",
+      "value": "DISABLED"
+    },
+    {
+      "category": "ARCHIVEDSTATEMENTS",
+      "key": "STATUS",
+      "value": "ACTIVE"
+    },
+    {
+      "category": "BENEFICIARYSWITCHING",
+      "key": "STATUS",
+      "value": "ACTIVE"
+    },
+    {
+      "category": "BUSINESSBANKINGAUTHORIZATIONS",
+      "key": "STATUS",
+      "value": "ACTIVE"
+    },
+    {
+      "category": "BUSINESSBANKINGMANAGECARDS",
+      "key": "STATUS",
+      "value": "DISABLED"
+    },
+    {
+      "category": "CARDTRAVELABROAD",
+      "key": "STATUS",
+      "value": "ACTIVE"
+    },
+    {
+      "category": "CREDITCARDPINRETRIEVAL",
+      "key": "STATUS",
+      "value": "ACTIVE"
+    },
+    {
+      "category": "CREDITCARDTEMPORARYLOCK",
+      "key": "STATUS",
+      "value": "ACTIVE"
+    },
+    {
+      "category": "CREDITCARDVCL",
+      "key": "STATUS",
+      "value": "ACTIVE"
+    },
+    {
+      "category": "CREDITCARDLIFEINSURANCE",
+      "key": "STATUS",
+      "value": "ACTIVE"
+    },
+    {
+      "category": "DEBICHECK",
+      "key": "STATUS",
+      "value": "ACTIVE"
+    },
+    {
+      "category": "INTERNATIONALPAYMENTS",
+      "key": "STATUS",
+      "value": "ACTIVE"
+    },
+    {
+      "category": "MULTIPLEPAYMENTS",
+      "key": "STATUS",
+      "value": "ACTIVE"
+    },
+    {
+      "category": "NTBREGISTRATION",
+      "key": "STATUS",
+      "value": "ACTIVE"
+    },
+    {
+      "category": "OVERDRAFTVCL",
+      "key": "STATUS",
+      "value": "ACTIVE"
+    },
+    {
+      "category": "PREPAIDAIRTIME",
+      "key": "STATUS",
+      "value": "ACTIVE"
+    },
+    {
+      "category": "PREPAIDELECTRICITY",
+      "key": "STATUS",
+      "value": "ACTIVE"
+    },
+    {
+      "category": "REDEEMREWARDSVOUCHER",
+      "key": "STATUS",
+      "value": "DISABLED"
+    },
+    {
+      "category": "STAMPEDSTATEMENTS",
+      "key": "STATUS",
+      "value": "ACTIVE"
+    },
+    {
+      "category": "STOPANDREPLACECREDITCARD",
+      "key": "STATUS",
+      "value": "ACTIVE"
+    },
+    {
+      "category": "STOPANDREPLACEDEBITCARD",
+      "key": "STATUS",
+      "value": "ACTIVE"
+    },
+    {
+      "category": "VIEWUNITTRUSTS",
+      "key": "STATUS",
+      "value": "ACTIVE"
+    },
+    {
+      "category": "BUYUNITTRUSTS",
+      "key": "STATUS",
+      "value": "ACTIVE"
+    },
+    {
+      "category": "MANAGEACCOUNTS",
+      "key": "STATUS",
+      "value": "ACTIVE"
+    },
+    {
+      "category": "FIXEDDEPOSITHUB",
+      "key": "STATUS",
+      "value": "ACTIVE"
+    },
+    {
+      "category": "FIXEDDEPOSITAPPLICATION",
+      "key": "STATUS",
+      "value": "ACTIVE"
+    },
+    {
+      "category": "CLICKTOCALL",
+      "key": "STATUS",
+      "value": "ACTIVE"
+    },
+    {
+      "category": "INAPPMAILBOX",
+      "key": "STATUS",
+      "value": "ACTIVE"
+    },
+    {
+      "category": "FUTUREDATEDTRANSFERS",
+      "key": "STATUS",
+      "value": "ACTIVE"
+    },
+    {
+      "category": "ULTIMATEPROTECTOR",
+      "key": "STATUS",
+      "value": "ACTIVE"
+    },
+    {
+      "category": "BRANCHQRSCANNING",
+      "key": "STATUS",
+      "value": "ACTIVE"
+    },
+    {
+      "category": "BRANCHLOCATOR",
+      "key": "STATUS",
+      "value": "DISABLED"
+    },
+    {
+      "category": "BUYMOREUNITS",
+      "key": "STATUS",
+      "value": "ACTIVE"
+    },
+    {
+      "category": "BUYNEWUNITTRUSTFUND",
+      "key": "STATUS",
+      "value": "ACTIVE"
+    },
+    {
+      "category": "EDITPREPAIDELECTRICITYBENEFICIARY",
+      "key": "STATUS",
+      "value": "ACTIVE"
+    },
+    {
+      "category": "EDITBENEFICIARYIMAGE",
+      "key": "STATUS",
+      "value": "ACTIVE"
+    },
+    {
+      "category": "APPRATING",
+      "key": "STATUS",
+      "value": "ACTIVE"
+    },
+    {
+      "category": "PAYMENTSREWRITE",
+      "key": "STATUS",
+      "value": "ACTIVE"
+    },
+    {
+      "category": "SOLEPROPRIETORREGISTRATION",
+      "key": "STATUS",
+      "value": "ACTIVE"
+    },
+    {
+      "category": "DEBITORDERHUB",
+      "key": "STATUS",
+      "value": "DISABLED"
+    },
+    {
+      "category": "WIMIMANAGEBENEFICIARIES",
+      "key": "STATUS",
+      "value": "ACTIVE"
+    },
+    {
+      "category": "PERSONALLOAN",
+      "key": "STATUS",
+      "value": "ACTIVE"
+    },
+    {
+      "category": "PERSONALLOANHUB",
+      "key": "STATUS",
+      "value": "ACTIVE"
+    },
+    {
+      "category": "NOTICEDEPOSITHUB",
+      "key": "STATUS",
+      "value": "ACTIVE"
+    },
+    {
+      "category": "SCREENSHOTS",
+      "key": "STATUS",
+      "value": "ACTIVE"
+    },
+    {
+      "category": "LOTTOANDPOWERBALL",
+      "key": "STATUS",
+      "value": "ACTIVE"
+    },
+    {
+      "category": "SECURITYCODEAVAILABLEONATM",
+      "key": "STATUS",
+      "value": "ACTIVE"
+    },
+    {
+      "category": "STANDALONECUSTOMERSENABLED",
+      "key": "STATUS",
+      "value": "ACTIVE"
+    },
+    {
+      "category": "CREDITCARDHOTLEADS",
+      "key": "STATUS",
+      "value": "ACTIVE"
+    },
+    {
+      "category": "WIMIBUYMOREUNITTRUSTS",
+      "key": "STATUS",
+      "value": "ACTIVE"
+    },
+    {
+      "category": "WIMISWITCHUNITTRUSTS",
+      "key": "STATUS",
+      "value": "ACTIVE"
+    },
+    {
+      "category": "CARDVIEWDETAILS",
+      "key": "STATUS",
+      "value": "ACTIVE"
+    },
+    {
+      "category": "ADDBENEFICIARY",
+      "key": "STATUS",
+      "value": "ACTIVE"
+    },
+    {
+      "category": "DEBITORDERHUBWITHMINIMUMVALUE",
+      "key": "STATUS",
+      "value": "ACTIVE"
+    },
+    {
+      "category": "MANAGEDPROFILE",
+      "key": "STATUS",
+      "value": "ACTIVE"
+    },
+    {
+      "category": "STUDENTACCOUNTREGISTRATION",
+      "key": "STATUS",
+      "value": "ACTIVE"
+    },
+    {
+      "category": "FIXEDDEPOSITAPPLICATIONSOLEPROPRIETOR",
+      "key": "STATUS",
+      "value": "ACTIVE"
+    },
+    {
+      "category": "CREDITCARDARCHIVEDSTATEMENTS",
+      "key": "STATUS",
+      "value": "ACTIVE"
+    },
+    {
+      "category": "PERSONALLOANARCHIVEDSTATEMENTS",
+      "key": "STATUS",
+      "value": "ACTIVE"
+    },
+    {
+      "category": "VEHICLEFINANCEARCHIVEDSTATEMENTS",
+      "key": "STATUS",
+      "value": "ACTIVE"
+    },
+    {
+      "category": "HOMELOANARCHIVEDSTATEMENTS",
+      "key": "STATUS",
+      "value": "ACTIVE"
+    },
+    {
+      "category": "EARLYREDEMPTION",
+      "key": "STATUS",
+      "value": "ACTIVE"
+    },
+    {
+      "category": "VIEWTAXCERTIFICATE",
+      "key": "STATUS",
+      "value": "ACTIVE"
+    },
+    {
+      "category": "BANKCONFIRMATIONLETTER",
+      "key": "STATUS",
+      "value": "ACTIVE"
+    },
+    {
+      "category": "BUSINESSBANKINGOVERDRAFTVCL",
+      "key": "STATUS",
+      "value": "ACTIVE"
+    },
+    {
+      "category": "BEHAVIOURALREWARDS",
+      "key": "STATUS",
+      "value": "ACTIVE"
+    },
+    {
+      "category": "IMICONNECT",
+      "key": "STATUS",
+      "value": "ACTIVE"
+    },
+    {
+      "category": "DISPLAYHELPNAVIGATION",
+      "key": "STATUS",
+      "value": "ACTIVE"
+    },
+    {
+      "category": "WIMILAWFORYOU",
+      "key": "STATUS",
+      "value": "ACTIVE"
+    },
+    {
+      "category": "WIMIVIEWWILLS",
+      "key": "STATUS",
+      "value": "ACTIVE"
+    },
+    {
+      "category": "HOMELOANHUBINFORMATIONTAB",
+      "key": "STATUS",
+      "value": "ACTIVE"
+    },
+    {
+      "category": "CURRENCYINVESTMENTHUB",
+      "key": "STATUS",
+      "value": "ACTIVE"
+    },
+    {
+      "category": "HOMELOANHUBFLEXIRESERVEAMOUNTHEADER",
+      "key": "STATUS",
+      "value": "ACTIVE"
+    },
+    {
+      "category": "MANAGEINSURANCEPOLICY",
+      "key": "STATUS",
+      "value": "ACTIVE"
+    },
+    {
+      "category": "NEWTOBANKSELFIEPRIVACYINDICATOR",
+      "key": "STATUS",
+      "value": "ACTIVE"
+    },
+    {
+      "category": "SWIFTINTERNATIONALPAYMENTS",
+      "key": "STATUS",
+      "value": "ACTIVE"
+    },
+    {
+      "category": "BUSINESSBANKINGCASHSENDPLUS",
+      "key": "STATUS",
+      "value": "ACTIVE"
+    },
+    {
+      "category": "SECONDARYCARDMANAGEMENT",
+      "key": "STATUS",
+      "value": "ACTIVE"
+    },
+    {
+      "category": "WIMIMANAGEEXERGY",
+      "key": "STATUS",
+      "value": "ACTIVE"
+    },
+    {
+      "category": "COVID19HOMESCREENBANNER",
+      "key": "STATUS",
+      "value": "ACTIVE"
+    },
+    {
+      "category": "SYSTEM",
+      "key": "DOWNTIME_ENABLED",
+      "value": "false"
+    },
+    {
+      "category": "SYSTEM",
+      "key": "DOWNTIMETYPE",
+      "value": ""
+    },
+    {
+      "category": "DOWNTIMETYPE",
+      "key": "MAINTENANCE",
+      "value": "We are doing routine maintenance and the service should be restored shortly."
+    },
+    {
+      "category": "DOWNTIMETYPE",
+      "key": "UNPLANNED",
+      "value": "We are doing routine maintenance and the service should be restored shortly."
+    },
+    {
+      "category": "DEVICEPROFILING",
+      "key": "ENABLED",
+      "value": "true"
+    },
+    {
+      "category": "VEHICLEFINANCEHUB",
+      "key": "STATUS",
+      "value": "ACTIVE"
+    },
+    {
+      "category": "WIMIFLEXIFUNERALCOVER",
+      "key": "STATUS",
+      "value": "ACTIVE"
+    },
+    {
+      "category": "OLDFUNERALCOVERAPPLY",
+      "key": "STATUS",
+      "value": "HIDDEN"
+    },
+    {
+      "category": "PROJECTORBIT",
+      "key": "STATUS",
+      "value": "ACTIVE"
+    },
+    {
+      "category": "BUSINESSESSENTIALSREGISTRATION",
+      "key": "STATUS",
+      "value": "ACTIVE"
+    },
+    {
+      "category": "SCANTOPAY",
+      "key": "STATUS",
+      "value": "ACTIVE"
+    },
+    {
+      "category": "WIMIREDEEMUNITTRUSTS",
+      "key": "STATUS",
+      "value": "ACTIVE"
+    },
+    {
+      "category": "TAPTOPAY",
+      "key": "STATUS",
+      "value": "ACTIVE"
+    },
+    {
+      "category": "ANDROID",
+      "key": "APPVERSION",
+      "value": "6.17.0"
+    },
+    {
+      "category": "IOS",
+      "key": "APPVERSION",
+      "value": "6.17.0"
+    },
+    {
+      "category": "IOS",
+      "key": "MINIMUM_SUPPORTED_OS",
+      "value": "12.0"
+    },
+    {
+      "category": "ANDROID",
+      "key": "MINIMUM_SUPPORTED_OS",
+      "value": "21"
+    },
+    {
+      "category": "VEHICLEFINANCETRANSFER",
+      "key": "STATUS",
+      "value": "ACTIVE"
+    },
+    {
+      "category": "VEHICLEFINANCEDOCUMENTREQUEST",
+      "key": "STATUS",
+      "value": "ACTIVE"
+    },
+    {
+      "category": "SECONDARYCARDGRACEPERIOD",
+      "key": "STATUS",
+      "value": "HIDDEN"
+    },
+    {
+      "category": "VEHICLEFINANCESETTLEMENTQUOTE",
+      "key": "STATUS",
+      "value": "ACTIVE"
+    },
+    {
+      "category": "VEHICLEFINANCETAXCERTIFICATE",
+      "key": "STATUS",
+      "value": "ACTIVE"
+    },
+    {
+      "category": "VEHICLEFINANCEPAIDUPLETTER",
+      "key": "STATUS",
+      "value": "ACTIVE"
+    },
+    {
+      "category": "VEHICLEFINANCEDETAILEDSTATEMENT",
+      "key": "STATUS",
+      "value": "ACTIVE"
+    },
+    {
+      "category": "FREECOVERINSURANCE",
+      "key": "STATUS",
+      "value": "DISABLED"
+    },
+    {
+      "category": "VEHICLEFINANCECROSSBORDERLETTER",
+      "key": "STATUS",
+      "value": "HIDDEN"
+    },
+    {
+      "category": "VEHICLEFINANCEELECTRONICNATIS",
+      "key": "STATUS",
+      "value": "HIDDEN"
+    },
+    {
+      "category": "LINKINGFACEBIO",
+      "key": "STATUS",
+      "value": "ACTIVE"
+    },
+    {
+      "category": "BUSINESSEVOLVEISLAMICREGISTRATION",
+      "key": "STATUS",
+      "value": "ACTIVE"
+    },
+    {
+      "category": "BUSINESSEVOLVESTANDARDREGISTRATION",
+      "key": "STATUS",
+      "value": "ACTIVE"
+    },
+    {
+      "category": "VEHICLEFINANCEHUBACCOUNTINFORMATION",
+      "key": "STATUS",
+      "value": "ACTIVE"
+    },
+    {
+      "category": "VEHICLEFINANCEAMORTIZATIONSCHEDULE",
+      "key": "STATUS",
+      "value": "ACTIVE"
+    },
+    {
+      "category": "BIOMETRICVERIFICATION",
+      "key": "STATUS",
+      "value": "ACTIVE"
+    },
+    {
+      "category": "DEPOSITORPLUS",
+      "key": "STATUS",
+      "value": "ACTIVE"
+    },
+    {
+      "category": "FUTUREPLAN",
+      "key": "STATUS",
+      "value": "ACTIVE"
+    }
+  ],
+  "customerSessionId": "f5255581-a719-3bf9-aab8-23e5c5659043"
+}

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/header_dark"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <styleguide.bars.ProgressIndicatorView
+            android:id="@+id/confirmationProgressIndicatorView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/medium_space"
+            android:layout_marginStart="@dimen/medium_space"
+            app:attribute_next_step="2"
+            app:attribute_previous_step="2"
+            app:attribute_steps="2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/toolbar" />
+
+        <ScrollView
+            android:id="@+id/claimConfirmationScrollView"
+            style="@style/ScrollView"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:fillViewport="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/confirmationProgressIndicatorView">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <styleguide.content.SecondaryContentAndLabelView
+                    android:id="@+id/phoneNumberContentAndLabelView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/large_space"
+                    app:attribute_secondary_label="@string/phone_number"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <styleguide.content.SecondaryContentAndLabelView
+                    android:id="@+id/incidentDateContentAndLabelView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:attribute_secondary_label="@string/incident_date"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/phoneNumberContentAndLabelView" />
+
+                <styleguide.content.SecondaryContentAndLabelView
+                    android:id="@+id/typeOfClaimContentAndLabelView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:attribute_secondary_label="@string/type_of_claim"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/incidentDateContentAndLabelView" />
+
+                <styleguide.content.SecondaryContentAndLabelView
+                    android:id="@+id/descriptionOfIncidentContentAndLabelView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:attribute_secondary_label="@string/description_of_incident"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/typeOfClaimContentAndLabelView" />
+
+                <styleguide.buttons.Button
+                    android:id="@+id/confirmButton"
+                    style="@style/PrimaryButton"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/medium_space"
+                    android:layout_marginTop="@dimen/medium_space"
+                    android:text="@string/confirm"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/descriptionOfIncidentContentAndLabelView"
+                    app:layout_constraintVertical_bias="1.0" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </ScrollView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

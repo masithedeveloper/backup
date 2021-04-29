@@ -1,0 +1,105 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES1000",
+      "resCde": "00000",
+      "resMsg": "USER ALREADY HAS 5 DEVICES LINKED",
+      "serVer": "2.0"
+    },
+    "payData": {
+      "passwordLength": "9",
+      "passwordDigitList": [
+        {
+          "index": "4",
+          "name": "B1e69c677"
+        },
+        {
+          "index": "6",
+          "name": "B2af0c93e"
+        },
+        {
+          "index": "8",
+          "name": "b8870a76"
+        }
+      ],
+      "deviceList": [
+        {
+          "imie": "StevejobsappleSimulator",
+          "model": "Simulator",
+          "manufacturer": "Apple",
+          "nickname": "0001-A SMITH",
+          "status": "P",
+          "liveProvingBuild": false
+        },
+        {
+          "imie": "ede6b01460379819741f377141dab421cc81dc4ebcd6575bcdb808226072ae2d",
+          "model": "Android SDK built for x86_64",
+          "manufacturer": "unknown",
+          "nickname": "0001-A SMITH",
+          "status": "A",
+          "liveProvingBuild": false
+        },
+        {
+          "imie": "a82ca009f67b8e5bd9e506901277cac088152b3734a0a0890397f2ff38ceb4b1",
+          "model": "Android SDK built for x86",
+          "manufacturer": "unknown",
+          "nickname": "0001-A SMITH",
+          "status": "A",
+          "liveProvingBuild": false
+        },
+        {
+          "imie": "6a291d28bd0f2cf8f14bc8687a69579aa93e4a0850f077426cc54f30c47a6365",
+          "model": "Android SDK built for x86",
+          "manufacturer": "unknown",
+          "nickname": "Bafana123",
+          "status": "A",
+          "liveProvingBuild": false
+        },
+        {
+          "imie": "b1ed0bb6cc2010f2353ed2bdd53e0c34d046c886059b8b52466b6e42084ef271",
+          "model": "Android SDK built for x86",
+          "manufacturer": "unknown",
+          "nickname": "0001-A SMITH",
+          "status": "A",
+          "liveProvingBuild": false
+        }
+      ],
+      "ival": "355056792679mnhy",
+      "accessPrivileges": {
+        "isOperator": "N",
+        "isInterAccountTransferAllowed": "Y",
+        "isBeneficiaryPaymentAllowed": "Y",
+        "isCashSendAllowed": "Y",
+        "isPrepaidAllowed": "Y"
+      },
+      "allActList": [],
+      "custProf": {
+        "reachedDeviceMaxLimit": "true",
+        "sessionId": "3dc15ab6b026a6d902b2",
+        "deviceLinkRequired": "true",
+        "clientType": "I",
+        "customerType": "E",
+        "hasImage": "N",
+        "imageName": "HUJQUU7g-ErTfKlFOW3k9HC-Li74RZd4H-ec-Bm9rao\u003d",
+        "accrtBalDt": "04/04/2017 13:17:24",
+        "custName": "A SMITH",
+        "lastLgnTm": "2017-04-04",
+        "surePhrase": "Smith",
+        "image": "",
+        "langCode": "E",
+        "custActsSize": "0",
+        "showRewardsLink": "Y",
+        "hasMCL": "false",
+        "limitsNotSet": "false",
+        "alias": "7406657898105546543",
+        "idNoRequired": "false"
+      },
+      "payLst": [],
+      "cashSend": [],
+      "airTime": [],
+      "hasProfileSetup": "Y",
+      "backgroundImage": "4",
+      "imageName": "HUJQUU7g-ErTfKlFOW3k9HC-Li74RZd4H-ec-Bm9rao\u003d"
+    }
+  }
+}

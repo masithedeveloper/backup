@@ -1,0 +1,32 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <styleguide.buttons.OptionActionButtonView
+            android:id="@+id/managePolicyPaymentDetailsView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            app:attribute_caption="@string/manage_payment_details"
+            app:attribute_icon="@drawable/ic_pay_dark"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <styleguide.buttons.OptionActionButtonView
+            android:id="@+id/manageBeneficiariesDetailsView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            app:attribute_caption="@string/manage_beneficiary_title"
+            app:attribute_icon="@drawable/ic_beneficiaries"
+            app:layout_constraintTop_toBottomOf="@+id/managePolicyPaymentDetailsView"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

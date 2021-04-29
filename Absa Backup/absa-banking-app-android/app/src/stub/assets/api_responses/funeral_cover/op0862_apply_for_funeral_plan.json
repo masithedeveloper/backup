@@ -1,0 +1,16 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0862",
+      "resCde": "00000",
+      "resMsg": "Success",
+      "serVer": "2.0"
+    },
+    "payData": {
+      "policyNumber": "6440709218",
+      "commencementDate": "2017-12-01",
+      "txnStatus": "Success",
+      "txnMessage": "Success"
+    }
+  }
+}

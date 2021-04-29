@@ -1,0 +1,429 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0311",
+      "resCde": "Payments/General/Warning/duplicatePayment",
+      "resMsg": "",
+      "serVer": "2.0",
+      "expTrace": null
+    },
+    "payData": {
+      "imageName": null,
+      "ownNotificationDTO": {
+        "emaillist": [
+          ""
+        ],
+        "cellNolist": [
+          "******8385"
+        ],
+        "faxinfolist": [
+          {
+            "faxCode": "",
+            "faxNumber": ""
+          }
+        ],
+        "actualCellNo": "0761168385"
+      },
+      "benDetl": {
+        "hasImage": "N",
+        "benStatusType": "Active",
+        "uniqueEFT": "80002D50C3",
+        "status": null,
+        "benShortNam": null,
+        "benSurNam": null,
+        "networkProvNam": null,
+        "benNotice": "NO",
+        "myNotice": "NO",
+        "benRecNam": "",
+        "myRecNam": "",
+        "benAcctNumAtInst": null,
+        "benTyp": "ppe",
+        "benImg": "",
+        "benId": "1",
+        "benNo": "-1",
+        "favStarInd": "false",
+        "benNam": "Mrs Z Salejee",
+        "actNo": "01050020001",
+        "bankNam": null,
+        "branch": null,
+        "myRef": "Tshwane",
+        "myNoticeTyp": "N",
+        "myNoticeDtl": "",
+        "benRef": "Tshwane",
+        "benNoticeTyp": "N",
+        "benNoticeDtl": "",
+        "branchCd": null,
+        "actTyp": null,
+        "immediatePaymentAllowed": "false",
+        "imageName": "MCvGXDydcWTVloP8ig5__Q\u003d\u003d",
+        "tiebNumber": "0"
+      },
+      "txnActvLst": [
+        {
+          "transactionCategory": null,
+          "txnStatus": "SUCCESSFUL",
+          "txnPrt": "",
+          "drAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "crAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "suppGrpCode": "100646",
+          "tariffIndex": "04",
+          "receiptNumber": "15550/5060907",
+          "electricDebts": null,
+          "electricFixedCosts": null,
+          "electricTokens": [
+            {
+              "tokenNumber": "11214720190412112147",
+              "tokenValue": "51",
+              "tokenDescr": "Electricity Credit",
+              "tokenUnit": "69",
+              "tokenTax": "9"
+            }
+          ],
+          "dt": "2019-04-12 11:21:00",
+          "bal": {
+            "curr": "R",
+            "amt": "60.00"
+          },
+          "refNo": "20"
+        },
+        {
+          "transactionCategory": null,
+          "txnStatus": "SUCCESSFUL",
+          "txnPrt": "",
+          "drAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "crAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "suppGrpCode": "100646",
+          "tariffIndex": "04",
+          "receiptNumber": "15550/5060052",
+          "electricDebts": null,
+          "electricFixedCosts": null,
+          "electricTokens": [
+            {
+              "tokenNumber": "11073220190412110732",
+              "tokenValue": "51",
+              "tokenDescr": "Electricity Credit",
+              "tokenUnit": "69",
+              "tokenTax": "9"
+            }
+          ],
+          "dt": "2019-04-12 11:07:00",
+          "bal": {
+            "curr": "R",
+            "amt": "60.00"
+          },
+          "refNo": "19"
+        },
+        {
+          "transactionCategory": null,
+          "txnStatus": "SUCCESSFUL",
+          "txnPrt": "",
+          "drAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "crAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "suppGrpCode": "100646",
+          "tariffIndex": "04",
+          "receiptNumber": "15495/9534170",
+          "electricDebts": null,
+          "electricFixedCosts": null,
+          "electricTokens": [
+            {
+              "tokenNumber": "12093020190207120930",
+              "tokenValue": "42.5",
+              "tokenDescr": "Electricity Credit",
+              "tokenUnit": "57.5",
+              "tokenTax": "7.5"
+            }
+          ],
+          "dt": "2019-03-26 15:25:00",
+          "bal": {
+            "curr": "R",
+            "amt": "50.00"
+          },
+          "refNo": "18"
+        },
+        {
+          "transactionCategory": null,
+          "txnStatus": "SUCCESSFUL",
+          "txnPrt": "",
+          "drAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "crAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "suppGrpCode": "100646",
+          "tariffIndex": "04",
+          "receiptNumber": "15550/5054642",
+          "electricDebts": null,
+          "electricFixedCosts": null,
+          "electricTokens": [
+            {
+              "tokenNumber": "09372220190412093722",
+              "tokenValue": "34",
+              "tokenDescr": "Electricity Credit",
+              "tokenUnit": "46",
+              "tokenTax": "6"
+            }
+          ],
+          "dt": "2019-04-12 09:37:00",
+          "bal": {
+            "curr": "R",
+            "amt": "40.00"
+          },
+          "refNo": "17"
+        },
+        {
+          "transactionCategory": null,
+          "txnStatus": "SUCCESSFUL",
+          "txnPrt": "",
+          "drAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "crAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "suppGrpCode": "100646",
+          "tariffIndex": "04",
+          "receiptNumber": "15550/5054557",
+          "electricDebts": null,
+          "electricFixedCosts": null,
+          "electricTokens": [
+            {
+              "tokenNumber": "09355720190412093557",
+              "tokenValue": "37.4",
+              "tokenDescr": "Electricity Credit",
+              "tokenUnit": "50.6",
+              "tokenTax": "6.6"
+            }
+          ],
+          "dt": "2019-04-12 09:36:00",
+          "bal": {
+            "curr": "R",
+            "amt": "44.00"
+          },
+          "refNo": "16"
+        },
+        {
+          "transactionCategory": null,
+          "txnStatus": "SUCCESSFUL",
+          "txnPrt": "",
+          "drAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "crAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "suppGrpCode": "100646",
+          "tariffIndex": "04",
+          "receiptNumber": "15495/9534200",
+          "electricDebts": null,
+          "electricFixedCosts": null,
+          "electricTokens": [
+            {
+              "tokenNumber": "12100020190207121000",
+              "tokenValue": "42.5",
+              "tokenDescr": "Electricity Credit",
+              "tokenUnit": "57.5",
+              "tokenTax": "7.5"
+            }
+          ],
+          "dt": "2019-04-12 09:30:00",
+          "bal": {
+            "curr": "R",
+            "amt": "50.00"
+          },
+          "refNo": "15"
+        },
+        {
+          "transactionCategory": null,
+          "txnStatus": "SUCCESSFUL",
+          "txnPrt": "",
+          "drAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "crAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "suppGrpCode": "100646",
+          "tariffIndex": "04",
+          "receiptNumber": "15495/9534161",
+          "electricDebts": null,
+          "electricFixedCosts": null,
+          "electricTokens": [
+            {
+              "tokenNumber": "12092120190207120921",
+              "tokenValue": "42.5",
+              "tokenDescr": "Electricity Credit",
+              "tokenUnit": "57.5",
+              "tokenTax": "7.5"
+            }
+          ],
+          "dt": "2019-04-11 12:11:00",
+          "bal": {
+            "curr": "R",
+            "amt": "50.00"
+          },
+          "refNo": "14"
+        },
+        {
+          "transactionCategory": null,
+          "txnStatus": "SUCCESSFUL",
+          "txnPrt": "",
+          "drAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "crAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "suppGrpCode": "100646",
+          "tariffIndex": "04",
+          "receiptNumber": "15536/3606743",
+          "electricDebts": null,
+          "electricFixedCosts": null,
+          "electricTokens": [
+            {
+              "tokenNumber": "12100120190207121001",
+              "tokenValue": "42.5",
+              "tokenDescr": "Electricity Credit",
+              "tokenUnit": "57.5",
+              "tokenTax": "7.5"
+            }
+          ],
+          "dt": "2019-04-01 11:42:00",
+          "bal": {
+            "curr": "R",
+            "amt": "50.00"
+          },
+          "refNo": "13"
+        },
+        {
+          "transactionCategory": null,
+          "txnStatus": "SUCCESSFUL",
+          "txnPrt": "",
+          "drAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "crAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "suppGrpCode": "100646",
+          "tariffIndex": "04",
+          "receiptNumber": "15536/3606861",
+          "electricDebts": null,
+          "electricFixedCosts": null,
+          "electricTokens": [
+            {
+              "tokenNumber": "15274120190326152741",
+              "tokenValue": "44.2",
+              "tokenDescr": "Electricity Credit",
+              "tokenUnit": "59.8",
+              "tokenTax": "7.8"
+            }
+          ],
+          "dt": "2019-03-26 15:27:00",
+          "bal": {
+            "curr": "R",
+            "amt": "52.00"
+          },
+          "refNo": "12"
+        },
+        {
+          "transactionCategory": null,
+          "txnStatus": "SUCCESSFUL",
+          "txnPrt": "",
+          "drAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "crAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "suppGrpCode": "100646",
+          "tariffIndex": "04",
+          "receiptNumber": "15536/3606743",
+          "electricDebts": null,
+          "electricFixedCosts": null,
+          "electricTokens": [
+            {
+              "tokenNumber": "15254320190326152543",
+              "tokenValue": "38.25",
+              "tokenDescr": "Electricity Credit",
+              "tokenUnit": "51.75",
+              "tokenTax": "6.75"
+            }
+          ],
+          "dt": "2019-03-26 15:25:00",
+          "bal": {
+            "curr": "R",
+            "amt": "45.00"
+          },
+          "refNo": "11"
+        },
+        {
+          "transactionCategory": null,
+          "txnStatus": "SUCCESSFUL",
+          "txnPrt": "",
+          "drAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "crAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "suppGrpCode": "100646",
+          "tariffIndex": "04",
+          "receiptNumber": "15532/3233282",
+          "electricDebts": null,
+          "electricFixedCosts": null,
+          "electricTokens": [
+            {
+              "tokenNumber": "07412220190322074122",
+              "tokenValue": "85",
+              "tokenDescr": "Electricity Credit",
+              "tokenUnit": "115",
+              "tokenTax": "15"
+            }
+          ],
+          "dt": "2019-03-22 07:41:00",
+          "bal": {
+            "curr": "R",
+            "amt": "100.00"
+          },
+          "refNo": "10"
+        }
+      ],
+      "networkProviderJsonBean": []
+    }
+  }
+}

@@ -1,0 +1,243 @@
+{
+  "header": {
+    "statuscode": "0",
+    "userAgent": "RestClient",
+    "wfpt": null,
+    "jsessionid": "Y0iSb6OGbUnHGvrTZyF9EiOGiL8zXYHfJCuOOCic",
+    "esessionid": null,
+    "xfpt": null,
+    "service": "ExergyCodesLookupFacade",
+    "operation": "GetExergyCodesByType",
+    "channel": null,
+    "timestamp": "2020-07-31 11:58:02.501",
+    "sourceip": "22.248.162.9",
+    "accessAccount": null,
+    "userNumber": null,
+    "nonce": "n2S7ze-UejfKdRPshGHO-Gpi5gmFvRz_i9iuv4WzLao",
+    "language": "en",
+    "organization": null,
+    "brand": null,
+    "applicationId": null,
+    "applicationKeyId": null,
+    "requestToken": null,
+    "resultMessages": [],
+    "paginationContext": null
+  },
+  "exergyCodesLookupList": [
+    {
+      "description": "Superintendent/Senior Su",
+      "language": "af",
+      "code": 88
+    },
+    {
+      "description": "Mnr",
+      "language": "af",
+      "code": 45
+    },
+    {
+      "description": "Mev",
+      "language": "af",
+      "code": 46
+    },
+    {
+      "description": "Mej",
+      "language": "af",
+      "code": 47
+    },
+    {
+      "description": "Me",
+      "language": "af",
+      "code": 48
+    },
+    {
+      "description": "Dokter",
+      "language": "af",
+      "code": 49
+    },
+    {
+      "description": "Admiraal",
+      "language": "af",
+      "code": 50
+    },
+    {
+      "description": "Advokaat",
+      "language": "af",
+      "code": 51
+    },
+    {
+      "description": "Brigadier",
+      "language": "af",
+      "code": 52
+    },
+    {
+      "description": "Brigadier-Generaal",
+      "language": "af",
+      "code": 53
+    },
+    {
+      "description": "Kaptein",
+      "language": "af",
+      "code": 54
+    },
+    {
+      "description": "Hoofman",
+      "language": "af",
+      "code": 55
+    },
+    {
+      "description": "Kolonel",
+      "language": "af",
+      "code": 56
+    },
+    {
+      "description": "Komisaris",
+      "language": "af",
+      "code": 57
+    },
+    {
+      "description": "Konstabel",
+      "language": "af",
+      "code": 58
+    },
+    {
+      "description": "Direkteur",
+      "language": "af",
+      "code": 59
+    },
+    {
+      "description": "Boedel Wyle",
+      "language": "af",
+      "code": 60
+    },
+    {
+      "description": "Eerwaarde",
+      "language": "af",
+      "code": 61
+    },
+    {
+      "description": "Pater",
+      "language": "af",
+      "code": 62
+    },
+    {
+      "description": "Generaal",
+      "language": "af",
+      "code": 63
+    },
+    {
+      "description": "Insolvente Boedel",
+      "language": "af",
+      "code": 64
+    },
+    {
+      "description": "Inspekteur",
+      "language": "af",
+      "code": 65
+    },
+    {
+      "description": "Regter",
+      "language": "af",
+      "code": 66
+    },
+    {
+      "description": "Lady",
+      "language": "af",
+      "code": 67
+    },
+    {
+      "description": "Luitenant",
+      "language": "af",
+      "code": 68
+    },
+    {
+      "description": "Luitenant Kolonel",
+      "language": "af",
+      "code": 69
+    },
+    {
+      "description": "Luitenant Generaal",
+      "language": "af",
+      "code": 70
+    },
+    {
+      "description": "Heer",
+      "language": "af",
+      "code": 71
+    },
+    {
+      "description": "Majoor",
+      "language": "af",
+      "code": 72
+    },
+    {
+      "description": "Majoor Generaal",
+      "language": "af",
+      "code": 73
+    },
+    {
+      "description": "Minister",
+      "language": "af",
+      "code": 74
+    },
+    {
+      "description": "Opper Hoof",
+      "language": "af",
+      "code": 75
+    },
+    {
+      "description": "Pastoor",
+      "language": "af",
+      "code": 76
+    },
+    {
+      "description": "President",
+      "language": "af",
+      "code": 77
+    },
+    {
+      "description": "Profesor",
+      "language": "af",
+      "code": 78
+    },
+    {
+      "description": "Rabbi",
+      "language": "af",
+      "code": 79
+    },
+    {
+      "description": "Dominees",
+      "language": "af",
+      "code": 80
+    },
+    {
+      "description": "Sersant",
+      "language": "af",
+      "code": 81
+    },
+    {
+      "description": "Sersant Majoor",
+      "language": "af",
+      "code": 82
+    },
+    {
+      "description": "Sir",
+      "language": "af",
+      "code": 83
+    },
+    {
+      "description": "Suster",
+      "language": "af",
+      "code": 84
+    },
+    {
+      "description": "Sy Edele",
+      "language": "af",
+      "code": 86
+    },
+    {
+      "description": "Adjudant Offisier",
+      "language": "af",
+      "code": 87
+    }
+  ]
+}

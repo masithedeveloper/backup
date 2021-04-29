@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wills">Will</string>
+    <string name="wills_make_sure">Make sure your estate is in order for those you leave behind</string>
+    <string name="wills_make_sure_2">Make sure your estate is in order</string>
+    <string name="wills_existing_will_description">You have worked hard to build financial security and freedom for yourself and those dear to you. Make sure your Will is up to date.</string>
+    <string name="wills_non_existing_will_description">You have worked hard to build financial security and freedom for yourself and those dear to you, but what will happen to your estate when you pass away?</string>
+    <string name="wills_view_will_no">View Will no. %s</string>
+    <string name="wills_find_out_more">Find out more</string>
+    <string name="wills_let_us_call_you_back">Let us call you back</string>
+    <string name="wills_for_further_assistance">for further assistance</string>
+    <string name="wills_confirm_call_me_back">Confirm Call Me Back</string>
+    <string name="wills_phone_you_on">Absa will phone you on\n%s</string>
+    <string name="wills_direct_call_centre">Wills Direct Call Centre</string>
+    <string name="wills_call_centre">Call Centre</string>
+    <string name="wills_call_me_back_success_title">Your request has been registered</string>
+    <string name="wills_call_me_back_success_message">An agent will call you back. The service is available during office hours.</string>
+    <string name="wills_call_me_back_failure_title">Request could not be registered</string>
+    <string name="wills_call_me_back_failure_message">Please contact our call centre for further assistance on 086 062 7775</string>
+    <string name="wills_direct_call_centre_contact_number" translatable="false">086 062 7775</string>
+    <string name="wills_pdf_url">https://ib.absa.co.za/absa-online/assets/Assets/Richmedia/AFS/PDF/WillandEstateReadMore_English_2018.pdf</string>
+    <string name="wills_something_went_wrong">Something went wrong</string>
+    <string name="wills_trouble_opening_document">We are having trouble opening the document.\n\nPlease try again later or contact our call centre for further assistance on \n086 062 7775</string>
+    <string name="wills_storage_access_denied_title">Storage Access Denied</string>
+    <string name="wills_storage_access_denied_description">Absa Banking App does not have permission to your storage.</string>
+</resources>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    style="@style/ScrollView">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/beneficiaryNotFoundTextView"
+            style="@style/LargeTextMediumDark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/medium_space"
+            android:text="@string/no_search_results_found"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:visibility="visible" />
+
+        <androidx.constraintlayout.widget.Group
+            android:id="@+id/searchVisibilityGroup"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:constraint_referenced_ids="payNewOptionActionButtonView, payOnceOffOptionActionButtonView, dividerView1, recentsTextView, recentsRecyclerView" />
+
+        <styleguide.buttons.OptionActionButtonView
+            android:id="@+id/payNewOptionActionButtonView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_caption="@string/pay_new_receipient"
+            app:attribute_icon="@drawable/ic_pay_new"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <styleguide.buttons.OptionActionButtonView
+            android:id="@+id/payOnceOffOptionActionButtonView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_caption="@string/onceoff_payment"
+            app:attribute_icon="@drawable/ic_once_off"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/payNewOptionActionButtonView" />
+
+        <styleguide.buttons.OptionActionButtonView
+            android:id="@+id/payMultipleOptionActionButtonView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_caption="@string/pay_multiple"
+            app:attribute_icon="@drawable/ic_multiple_beneficiary"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/payOnceOffOptionActionButtonView" />
+
+        <styleguide.buttons.OptionActionButtonView
+            android:id="@+id/internationalPaymentsOptionActionButtonView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            app:attribute_caption="@string/international_payment_menu_item"
+            app:attribute_icon="@drawable/ic_travel_light"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/payMultipleOptionActionButtonView" />
+
+        <View
+            android:id="@+id/dividerView1"
+            style="@style/DividerView"
+            android:layout_width="0dp"
+            android:layout_marginTop="@dimen/small_space"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/internationalPaymentsOptionActionButtonView" />
+
+        <styleguide.buttons.OptionActionButtonView
+            android:id="@+id/futureDatedPaymentsOptionActionButtonView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/tiny_space"
+            android:visibility="gone"
+            app:attribute_caption="@string/future_dated_payments"
+            app:attribute_icon="@drawable/ic_calendar_dark"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/dividerView1"
+            tools:visibility="visible" />
+
+        <View
+            android:id="@+id/dividerView2"
+            style="@style/DividerView"
+            android:layout_width="0dp"
+            android:layout_marginTop="@dimen/tiny_space"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/futureDatedPaymentsOptionActionButtonView" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/noBeneficiariesContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/medium_space"
+            android:layout_marginEnd="@dimen/medium_space"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/dividerView2">
+
+            <ImageView
+                android:id="@+id/addNewBeneficiaryImageView"
+                android:layout_width="@dimen/dimen_80dp"
+                android:layout_height="@dimen/dimen_80dp"
+                android:layout_margin="@dimen/large_space"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_add_beneficiary" />
+
+            <styleguide.content.SecondaryContentAndLabelView
+                android:id="@+id/addNewBeneficiaryDescriptionLabel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_secondary_content="@string/payment_beneficiaries_get_started"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/addNewBeneficiaryImageView" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:id="@+id/recentsTextView"
+            style="@style/SmallTextMediumDark"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/medium_space"
+            android:layout_marginTop="@dimen/small_space"
+            android:text="@string/recent"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/dividerView2" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recentsRecyclerView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/small_space"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/recentsTextView"
+            tools:itemCount="5"
+            tools:listitem="@layout/line_item_recent_purchase" />
+
+        <View
+            android:id="@+id/dividerView3"
+            style="@style/DividerView"
+            android:layout_width="0dp"
+            android:layout_marginTop="@dimen/small_space"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/recentsRecyclerView" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/beneficiariesRecyclerView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/dividerView3" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

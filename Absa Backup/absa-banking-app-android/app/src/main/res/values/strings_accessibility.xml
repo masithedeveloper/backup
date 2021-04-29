@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Landing Screen -->
+    <string name="i_am_new_to_absa" translatable="false">I am new to Absa:</string>
+    <string name="accessibility_service_label" translatable="false">Accessibility Service</string>
+    <string name="talkback_landing_new_absa_client" translatable="false">I\'m new to Absa and I want to open an account.</string>
+    <string name="im_already_with_absa" translatable="false">I\'m already with Absa</string>
+
+    <!-- welcome activity -->
+    <string name="talkback_register_for_digital_banking_button" translatable="false">Register For Digital Banking</string>
+    <string name="talkback_welcome_login_button" translatable="false">Login To Digital Banking</string>
+    <string name="talkback_scan_qu_code_button" translatable="false">Scan QR code</string>
+    <string name="talkback_banking_features_carousel" translatable="false">Banking Features Available</string>
+    <string name="talkback_welcome_viewpager_absa_app_features" translatable="false">Absa App features.</string>
+
+    <!-- account login activity -->
+    <string name="talkback_account_number_input" translatable="false">Enter your access account number</string>
+    <string name="talkback_pincode_input" translatable="false">Enter your pin</string>
+    <string name="talkback_usernumber_inputview" translatable="false">Enter the number of users of this app in the edit box. The default is 1</string>
+    <string name="talkback_login_button" translatable="false">Login to your account</string>
+
+    <!-- passcode activity -->
+    <string name="talkback_passcoode_landing" translatable="false">Login screen. You are about to enter sensitive information. It is highly advisable to put on your headsets.</string>
+    <string name="talkback_fingerprint_id" translatable="false">Login using fingerprint ID.</string>
+    <string name="talkback_fingerprint_description" translatable="false">Touch and hold fingerprint sensor to log in</string>
+    <string name="talkback_terms_and_conditions" translatable="false">Read the terms and conditions button</string>
+
+    <!-- account deviceLinking activity -->
+    <string name="talkback_linking_activity_continue" translatable="false">Continue the login process</string>
+    <string name="talkback_linking_restart_process" translatable="false">Restart the password entry process</string>
+
+    <!-- device nickname activity -->
+    <string name="talkback_register_device_nickname_field" translatable="false">Create a nickname for your device. You will use this nickname when managing your devices.</string>
+    <string name="talkback_device_nickname_given" translatable="false">Your device nickname is %s.</string>
+
+    <!-- home screen -->
+    <string name="talkback_home_accounts_view" translatable="false">This is your %s  with account number %s that has an available balance of %s</string>
+    <string name="talkback_home_cia_account_view" translatable="false">This is your %s currency investment account.</string>
+
+    <!-- create password activity -->
+    <string name="talkback_create_password_header" translatable="false">Create password heading</string>
+    <string name="talkback_create_password_sub_heading" translatable="false">Create password sub heading</string>
+    <string name="talkback_create_password_field" translatable="false">Password Field</string>
+    <string name="talkback_verify_password_field" translatable="false">Verify Password Field</string>
+    <string name="talkback_password_number_letters" translatable="false">Password must contain numbers and letters</string>
+    <string name="talkback_password_minimum_length" translatable="false">Password must contain 8 to 12 characters</string>
+    <string name="talkback_password_no_special_chars" translatable="false">Password must not contain any special characters or spaces</string>
+    <string name="talkback_password_no_name" translatable="false">Password must not contain your name</string>
+    <string name="talkback_password_no_number_sequences" translatable="false">Password must not contain any number sequences</string>
+    <string name="talkback_password_continue_button" translatable="false">Continue</string>
+
+    <!-- ATM Validation activity -->
+    <string name="talkback_register_online_banking_header" translatable="false">Register for Online Banking</string>
+    <string name="talkback_register_atm_card_number" translatable="false">ATM card number</string>
+    <string name="talkback_register_atm_pinNumber" translatable="false">ATM Pin number field</string>
+    <string name="talkback_register_atm_next_button" translatable="false">Continue registration</string>
+
+    <!-- confirm contact details activity -->
+    <string name="talkback_register_confirm_contact_title" translatable="false">Confirm contact details information</string>
+    <string name="talkback_register_phone_number_masked" translatable="false">Masked phone number ending in %s</string>
+    <string name="talkback_register_confirm_cell_number" translatable="false">Confirm cell number text box</string>
+    <string name="talkback_register_confirm_no_button" translatable="false">This is not my cellphone number</string>
+    <string name="talkback_register_confirm_yes_button" translatable="false">This is my cellphone number</string>
+
+    <!-- register account selection activity -->
+    <string name="talkback_account_selection_personal_details_header" translatable="false">Personal details header</string>
+    <string name="talkback_account_selection_first_name_label" translatable="false">First name found as %s </string>
+    <string name="talkback_account_selection_surname_label" translatable="false">Surname found as %s</string>
+    <string name="talkback_account_selection_id_passport_label" translatable="false">ID / Passport Label found as %s</string>
+    <string name="talkback_account_selection_account_selector" translatable="false">Access account found as %s. You can change this if you need to.</string>
+    <string name="talkback_account_selection_billing_account_selector" translatable="false">Billing account selection for transaction fees found as %s. You can change this if you need to.</string>
+    <string name="talkback_account_Selection_checkbox" translatable="false">Terms and agreements</string>
+    <string name="talkback_account_selection_checbox_box_description" translatable="false">Terms and agreements checkbox. This needs to be checked in order to continue</string>
+    <string name="talkback_account_selection_next_button" translatable="false">Show the next screen to continue registration</string>
+
+    <!-- setting digital banking pin -->
+    <string name="talkback_digital_banking_pin_entry_field" translatable="false">Enter a 5 digit pin</string>
+    <string name="talkback_digital_banking_verify_pin_field" translatable="false">Confirm 5 digit pin</string>
+    <string name="talkback_digital_banking_surephrase_field" translatable="false">Your SurePhrase is %s</string>
+    <string name="talkback_digital_banking_surephrase_help" translatable="false">What is SurePhrase button</string>
+    <string name="talkback_digital_banking_next_button" translatable="false">Next to continue registration</string>
+    <string name="talkback_digitalpin_banking_enter_password_prompt" translatable="false">Enter 5 digit pin</string>
+
+    <!-- Surecheck screen -->
+    <string name="talkback_surecheck_header" translatable="false">SureCheck verification screen</string>
+
+    <!-- Payment section -->
+    <string name="talkback_pay_new_beneficiary" translatable="false">Go here to add a new beneficiary</string>
+    <string name="talkback_pay_section_onceoff_options" translatable="false">Go here to make a once off payment</string>
+    <string name="talkback_pay_section_multiple_payments" translatable="false">Go here to make multiple payments</string>
+    <string name="talkback_pay_section_search_payment" translatable="false">Search for payment</string>
+    <string name="talkback_pay_section_make_international_payments" translatable="false">Go here to make international payments</string>
+
+    <!-- add new beneficiary fragment tab-->
+    <string name="talkback_new_beneficiary_section_go_back_to_payment" translatable="false">Go back to payment screen</string>
+    <string name="talkback_new_beneficiary_pay_someone" translatable="false">Pay someone section</string>
+    <string name="talkback_new_beneficiary_pay_bill_tab" translatable="false">Pay a bill tab</string>
+    <string name="talkback_new_beneficiary_select_bank" translatable="false">Select a bank button. Choose the bank that the beneficiary uses</string>
+    <string name="talkback_new_beneficiary_select_bank_back" translatable="false">Go back to pay beneficiary page</string>
+    <string name="talkback_new_beneficiary_enter_name" translatable="false">Enter Beneficiary Name</string>
+    <string name="talkback_new_beneficiary_select_branch" translatable="false"> Select Beneficiary Branch</string>
+    <string name="talkback_new_beneficiary_select_account_type" translatable="false">Select beneficiary account type, usually cheque or savings</string>
+    <string name="talkback_new_beneficiary_enter_account_number" translatable="false">Enter beneficiary account number</string>
+    <string name="talkback_new_beneficiary_their_reference" translatable="false">Enter beneficiary reference</string>
+    <string name="talkback_new_beneficiary_my_reference" translatable="false">Enter your own beneficiary reference</string>
+    <string name="talkback_new_beneficiary_next_button" translatable="false">Go to the next page to complete adding your new beneficiary</string>
+    <string name="talkback_new_beneficiary_my_notification" translatable="false">Select payment notification method between E-mail, sms, fax, or leave it as None for no payment notification</string>
+    <string name="talkback_new_beneficiary_make_payment_button" translatable="false">Pay new beneficiary</string>
+    <string name="talkback_new_beneficiary_go_home_button" translatable="false">Go Home</string>
+
+    <!-- make new payment fragment -->
+    <string name="talkback_payment_details_amount" translatable="false"> %s Rand</string>
+    <string name="talkback_payment_account_used" translatable="false">Your %s will be used</string>
+    <string name="talkback_payment_their_reference" translatable="false">The recipient reference used will be %s</string>
+    <string name="talkback_payment_my_reference" translatable="false">Your reference will be %s</string>
+    <string name="talkback_payment_notification_params" translatable="false">Your notification preferences</string>
+
+    <!-- Pay a bill fragment tab -->
+    <string name="talkback_bill_payment_institution_selection" translatable="false">Select Institution to pay</string>
+    <string name="talkback_bill_payment_institution_account_holder" translatable="false">Enter name of account holder to pay</string>
+    <string name="talkback_bill_payment_institution_account_number" translatable="false">Enter account number of bill to pay</string>
+    <string name="talkback_bill_payment_my_reference" translatable="false">Enter reference number for your statement</string>
+    <string name="talkback_bill_payment_next_button" translatable="false">Next, to continue with bill payment</string>
+
+    <!-- Payment details activity -->
+    <string name="talkback_payment_details_amount_payment_description" translatable="false">Amount to pay</string>
+    <string name="talkback_payment_details_specific_amount_to_pay" translatable="false">Enter specific amount to pay</string>
+    <string name="talkback_payment_details_amount_that_will_be_paid" translatable="false">Entered amount is %s</string>
+    <string name="talkback_payment_details_amount_available" translatable="false">%s for this transaction</string>
+    <string name="talkback_payment_details_account_used" translatable="false">Account that will be used for this transaction is your %s</string>
+    <string name="talkback_payment_details_recipient_reference" translatable="false">Recipient reference for this payment</string>
+    <string name="talkback_payment_details_my_reference" translatable="false">My Reference for this payment</string>
+    <string name="talkback_payment_details_notification" translatable="false">Select payment notification for this payment. Options are Email, SMS or Fax</string>
+    <string name="talkback_payment_continue_to_payment_overview" translatable="false">Next button to continue to payment overview</string>
+    <string name="talkback_payment_future_date_no_date_selected" translatable="false">Select a date for the payment</string>
+    <string name="talkback_payment_future_date_chosen" translatable="false">Your payment date will be on the %s</string>
+    <string name="talkback_payment_date_timespan" translatable="false">Payment date. Choose between normal (24 to 48 hours to complete) or future dated payment with your own date</string>
+
+    <!--Buy Airtime and Data -->
+    <string name="talkback_add_contact_icon" translatable="false">Add a contact from phonebook</string>
+
+    <!-- Currency -->
+    <string name="talkback_currency_rands" translatable="false">Rands</string>
+
+    <!-- payment confirmation -->
+    <string name="talkback_payment_confirmation_beneficiary_name" translatable="false">Beneficiary name is %s</string>
+    <string name="talkback_payment_confirm_account_number" translatable="false">Account number to pay is %s</string>
+    <string name="talkback_payment_confirmation_bank_name" translatable="false">Bank name of recipient is %s</string>
+    <string name="talkback_payment_confirmation_branch_name" translatable="false">Branch name of recipient is %s</string>
+    <string name="talkback_payment_confirmation_their_account_type" translatable="false">Account type of recipient is %s</string>
+    <string name="talkback_payment_confirmation_amount_being_payed" translatable="false">Amount being payed is %s</string>
+    <string name="talkback_payment_confirmation_account_number" translatable="false">Paying from account number %s</string>
+    <string name="talkback_payment_confirmation_recipient_reference" translatable="false">Recipient reference is %s</string>
+    <string name="talkback_payment_confirmation_my_reference" translatable="false">Your reference is %s</string>
+    <string name="talkback_payment_confirmation_my_notification" translatable="false">Your notification selected is %s</string>
+    <string name="talkback_payment_confirmation_their_notification" translatable="false">Their notification is %s</string>
+    <string name="talkback_payment_confirmation_date_chosen" translatable="false">The payment date chosen is %s</string>
+    <string name="talkback_payment_confirmation_payment_type" translatable="false">The payment type chosen is %s</string>
+    <string name="talkback_payment_confirmation_button" translatable="false">Proceed to finalize payment with the pay </string>
+
+    <!-- multiple beneficiaries payments -->
+    <string name="talkback_multipay_toolbar_remove_beneficiary" translatable="false">Remove beneficiary %s</string>
+    <string name="talkback_multipay_beneficiary_search" translatable="false">Search for beneficiary to pay</string>
+    <string name="talkback_multipay_beneficiary_not_found" translatable="false">Beneficiary not found</string>
+    <string name="talkback_multiplay_delete_beneficiary_payment" translatable="false">Delete Beneficiary Payment</string>
+    <string name="talkback_multipay_choose_beneficiary" translatable="false">beneficiary name is %s with account number %s</string>
+    <string name="talkback_multipay_beneficiary_list_item" translatable="false">beneficiary name is %s with account number ending in %s</string>
+    <string name="talkback_multipay_select_account" translatable="false">Select account to pay from </string>
+    <string name="talkback_multipay_account_details_available_balance" translatable="false">%s with account number %s. This account has an available balance of %s</string>
+    <string name="talkback_multipay_amount_to_be_payed" translatable="false">Type in amount ot pay</string>
+    <string name="talkback_multipay_last_transaction_amount" translatable="false">Last transaction amount paid was %s</string>
+    <string name="talkback_multipay_confirmation_amount_being_payed" translatable="false">Amount being payed to beneficiary with name %s is %s</string>
+    <string name="talkback_multipay_normal_payments_total" translatable="false">Amount being payed in total for Normal payments is %s</string>
+    <string name="talkback_multipay_future_dated_total" translatable="false">Amount being payed in total for future dated payments is %s</string>
+    <string name="talkback_multipay_confirmation_process_payments" translatable="false">Pay button to complete payment transaction.</string>
+    <string name="talkback_multipay_confirm_screen_people_payed" translatable="false">Paid %s with amount %s </string>
+    <string name="talkback_multipay_beneficiary_name" translatable="false">Beneficiary name is %s</string>
+    <string name="talkback_multipay_beneficiary_reference" translatable="false">Beneficiary reference is %s</string>
+    <string name="talkback_multipay_beneficiary_payment" translatable="false">amount being paid to beneficiary is %s</string>
+    <string name="talkback_multipay_beneficiary_total_amount" translatable="false">Total amount being payed to beneficiary is %s</string>
+    <string name="talkback_multipay_normal_payments_header" translatable="false">Scheduled normal payments. These have a 24 to 48 hour turnaround</string>
+    <string name="talkback_multipay_beneficiary_pay_button" translatable="false">Confirmation of payment</string>
+    <string name="talkback_multipay_amountview_label_text" translatable="false">Amount to be payed to beneficiary</string>
+    <string name="talkback_multipay_normal_payment_total_label" translatable="false">Total amount being payed for normal transactions</string>
+    <string name="talkback_multipay_normal_payment_total_content" translatable="false">Amount being payed in total is %s</string>
+    <string name="talkback_multipay_future_dated_payments_label" translatable="false">Future dated payments. These are base on a date of your choosing</string>
+    <string name="talkback_multipay_future_dated_payments_scheduled" translatable="false">Your future payments are scheduled to go off on </string>
+    <string name="talkback_multipay_future_dated_amount_label" translatable="false">Future dated payments amount</string>
+    <string name="talkback_multipay_future_dated_payment_total" translatable="false">Future dated total amount is %s</string>
+    <string name="talkback_multipay_amount_payed_to_beneficiary" translatable="false">Amount being payed to beneficiary is %s</string>
+    <string name="talkback_multipay_delete_beneficiary_from_payment_list" translatable="false">Delete %s from  the current beneficiary payments list</string>
+
+    <!-- account transfer -->
+    <string name="talkback_transfer_home_fragment_label" translatable="false">Transfer funds screen</string>
+    <string name="talkback_transfer_confirmation_fragment_label" translatable="false">Confirm transfer funds screen</string>
+    <string name="talkback_transfer_select_source_account" translatable="false">Choose account to pay from. This has to be selected first</string>
+    <string name="talkback_transfer_select_destination_account" translatable="false">Choose account to pay to. This has to be selected second</string>
+    <string name="talkback_transfer_enter_amount_to_pay" translatable="false">Enter amount to transfer to the account.</string>
+    <string name="talkback_transfer_amount_being_transferred" translatable="false">Amount being payed is %s</string>
+    <string name="talkback_transfer_chosen_source_account" translatable="false">Account being transferred from is %s</string>
+    <string name="talkback_transfer_chosen_destination_account" translatable="false">Account being transferred to  is %s</string>
+    <string name="talkback_transfer_confirm_payment_button" translatable="false">Confirm payment transfer</string>
+    <string name="talkback_transfer_transfer_complete_button" translatable="false">Go here to make another transfer</string>
+    <string name="talkback_transfer_transfer_complete_go_home" translatable="false">Go here to go back to the home screen</string>
+
+    <!-- cashSend home -->
+    <string name="talkback_cashsend_recent_sends" translatable="false">Recent cashsend to %s  with account number %s </string>
+
+    <!-- cashSend main strings -->
+    <string name="talkback_cashsend_welcome" translatable="false">CashSend main menu</string>
+    <string name="talkback_cashsend_selfsend_announce" translatable="false">Cashsend to myself screen</string>
+    <string name="talkback_cashsend_someone_new_announce" translatable="false">Cashsend to someone new screen</string>
+    <string name="talkback_cashsend_unredeemed_annnounce" translatable="false">Unredeemed cashsends</string>
+
+    <!-- cashSend to self screens -->
+    <string name="talkback_cashsend_enter_amount" translatable="false">Enter total amount to cashsend</string>
+    <string name="talkback_cashsend_amount_available" translatable="false">You have %s to cashsend</string>
+    <string name="talkback_cashsend_my_reference" translatable="false">My reference for this payment</string>
+    <string name="talkback_cashsend_beneficiary" translatable="false">Beneficiary reference for this payment</string>
+    <string name="talkback_cashsend_account_used_for_cashsend" translatable="false">Account that will be used for this cashsend is %s</string>
+    <string name="talkback_cashsend_atm_pin" translatable="false">Enter the six digit atm pin that will be used to withdraw the cashsend</string>
+    <string name="talkback_cashsend_terms" translatable="false">Agreement textbox for having read the personal client agreement. Check the checkbox to agree</string>
+    <string name="talkback_cashsend_min_max" translatable="false">You can send between a minimum of %s and a maximum of %s</string>
+    <string name="talkback_cashsend_next" translatable="false">Go to the</string>
+    <string name="talkback_cashsend_account_selector" translatable="false">Select account to pay from</string>
+    <string name="talkback_cashsend_amount_error" translatable="false">Only a minimum of %s and a maximum of %s can be entered</string>
+
+    <!--cashSend to someone new -->
+    <string name="talkback_cashsend_choose_contact_from_phone" translatable="false">Choose a contact from your phone book</string>
+    <string name="talkback_cashsend_sn_beneficiary_profile_picture" translatable="false">Beneficiary Profile Picture</string>
+    <string name="talkback_cashsend_sn__beneficiary_name" translatable="false">Beneficiary name is %s</string>
+    <string name="talkback_cashsend_sn_reference" translatable="false">My reference for this payment</string>
+
+    <!-- items in transfer funds list.  -->
+    <string name="talkback_accessibility_list_items" translatable="false">The %s with account number %s has %s available</string>
+
+    <!-- cashSend overview -->
+    <string name="talkback_cashsend_overview_activity_label" translatable="false">Confirm cashsend  details screen</string>
+    <string name="talkback_cashsend_overview_amount_sending" translatable="false">Amount that will be sent for this cashsend is %s</string>
+    <string name="talkback_cashsend_overview_recipient" translatable="false">Recipient for this cashsend is %s</string>
+    <string name="talkback_cashsend_overview_mobile_Number" translatable="false">Mobile number confirmed for this cashsend is %s</string>
+    <string name="talkback_cashsend_overview_account" translatable="false">Account being used for this cashsend is %s</string>
+    <string name="talkback_cashsend_overview_my_reference" translatable="false">The Reference for this cashsend is %s</string>
+    <string name="talkback_cashsend_overview_my_atm_access_pin" translatable="false">The ATM Pin for this cashsend is %s</string>
+    <string name="talkback_cashsend_overview_confirm_cashsend" translatable="false">Confirm cashsend by proceeding from here</string>
+
+    <!-- once off cashSend strings -->
+    <string name="talkback_cashsend_onceoff_activity_label" translatable="false">Once off cashsend</string>
+    <string name="talkback_cashsend_onceoff_amount" translatable="false">Enter total amount to send once off</string>
+    <string name="talkback_cashsend_onceoff_amount_available" translatable="false">You have %s to cashsend</string>
+    <string name="talkback_cashsend_onceoff_recipient_name" translatable="false">Enter the cashsend recipient name</string>
+    <string name="talkback_cashsend_onceoff_send_mobile_number" translatable="false">Enter recipient mobile number that will receive this cashsend</string>
+    <string name="talkback_cashsend_onceoff_enter_recipient_surname" translatable="false">Enter recipient surname for this cashsend</string>
+    <string name="talkback_cashsend_onceoff_my_reference" translatable="false">Enter your personal reference for this cashsend</string>
+    <string name="talkback_cashsend_onceoff_next_button" translatable="false">Next button to complete the cashsend</string>
+    <string name="talkback_cashsend_onceoff_enter_name" translatable="false">Enter the recipient name for this cashsend</string>
+
+    <!-- once off cashSend overview -->
+    <string name="talkback_cashsend_onceoff_overview_label" translatable="false">Once Off cashsend confirmation </string>
+
+    <!-- unredeemed cashsends screen -->
+    <string name="talkback_unredeemed_cashsends_no_unredeemed_cashsends" translatable="false">No unredeemed cashsends have been found</string>
+    <string name="talkback_unredeemed_cashsends_account_info" translatable="false">Showing unredeemed cashsends from account %1$s</string>
+    <string name="talkback_unredeemed_cashsends_card_info" translatable="false">This was a cashsend sent to %1$s with contact number %2$s sent on %3$s for a total amount of %4$s. Double tap for more information</string>
+    <string name="talkback_unredeemed_cashsends_card_info_no_date" translatable="false">Cashsend to %1$s with contact number %2$s for a total amount of %3$s. There is no date for this item</string>
+    <string name="talkback_unredeemed_cashsends_date_view" translatable="false">Showing cashsends for the date %s</string>
+
+    <!-- cashSend transaction details screen -->
+    <string name="talkback_unredeemed_cashsends_transaction_details_label" translatable="false">Cashsend Transaction Details</string>
+    <string name="talkback_unredeemed_cashsends_transaction_beneficiary_name" translatable="false">This cashsend was sent to %1$s</string>
+    <string name="talkback_unredeemed_cashsends_transaction_mobile_number" translatable="false">The mobile number for this cashsend was %1$s</string>
+    <string name="talkback_unredeemed_cashsends_transaction_amount_sent" translatable="false">The amount sent for this cashsend was %1$s</string>
+    <string name="talkback_unredeemed_cashsends_transaction_reference_number" translatable="false">The reference used for this cashsend is %1$s</string>
+    <string name="talkback_unredeemed_cashsends_transaction_account_number" translatable="false">The account that was used for this cashsend was account name %1$s with account number %s</string>
+    <string name="talkback_unredeemed_cashsends_transaction_date" translatable="false">This cashsend was sent on %1$s</string>
+    <string name="talkback_unredeemed_cashsends_change_atm_pin" translatable="false">Change ATM pin for this cashsend</string>
+    <string name="talkback_unredeemed_cashsends_resend_withdrawal_sms" translatable="false">Resend withdrawal sms for this cashsend</string>
+    <string name="talkback_unredeemed_cashsend_change_atm_pin" translatable="false">Change ATM PIN for this cashsend</string>
+    <string name="talkback_unredeemed_cashsend_cancel" translatable="false">Cancel this cashsend</string>
+    <string name="talkback_unredeemed_cashsend_resend_withdraw_sms" translatable="false">Resend withdrawal SMS for this cashsend</string>
+
+    <string name="talkback_timeout_logout_announcement" translatable="false">Session logging out.</string>
+    <string name="talkback_timeout_heading_dialog" translatable="false">Would you like to stay logged in. Your session will end in 25 seconds</string>
+    <string name="talkback_cashsend_beneficiary_minimum_value" translatable="false">R 50</string>
+    <string name="talkback_cashsend_beneficiary_maximum_value" translatable="false">R 3000</string>
+
+    <!-- buy airtime home screen -->
+    <string name="talkback_prepaid_home_activity_label" translatable="false">Buy Prepaid Home Screen</string>
+    <string name="talkback_buy_prepaid_for_new_ben" translatable="false">Buy prepaid for new beneficiary</string>
+    <string name="talkback_buy_prepaid_once_off" translatable="false">Make a once off prepaid purchase</string>
+    <string name="talkback_buy_prepaid_with_absa_rewards" translatable="false">Buy prepaid with absa rewards</string>
+    <string name="talkback_buy_airtime_add_beneficiary" translatable="false">Add a new prepaid beneficiary</string>
+
+    <!-- prepaid new beneficiary -->
+    <string name="talkback_prepaid_summary_screen_label" translatable="false">Prepaid Beneficiary Summary</string>
+    <string name="talkback_prepaid_mobile_number_entry" translatable="false">Enter mobile number for new beneficiary</string>
+    <string name="talkback_prepaid_mobile_number_entered" translatable="false">Mobile number being saved is %1$s</string>
+    <string name="talkback_prepaid_beneficiary_name" translatable="false">Enter name for the new beneficiary</string>
+    <string name="talkback_prepaid_beneficiary_name_entered" translatable="false">Beneficiary name being saved is %1$s</string>
+    <string name="talkback_prepaid_select_network" translatable="false">Select mobile network for beneficiary</string>
+    <string name="talkback_prepaid_network_selected" translatable="false">Selected mobile network is %1$s</string>
+    <string name="talkback_prepaid_save_beneficiary" translatable="false">Save your beneficiary</string>
+
+    <!-- prepaid purchase details -->
+    <string name="talkback_prepaid_purchase_details_screen" translatable="false">Prepaid purchase for beneficiary</string>
+    <string name="talkback_prepaid_purchase_beneficiary_name" translatable="false">Beneficiary name is %1$s</string>
+    <string name="talkback_prepaid_purchase_number_with_network" translatable="false">Mobile network name is %1$s with number %2$s</string>
+    <string name="talkback_prepaid_purchase_select_type" translatable="false">Select Prepaid type to purchase between Airtime, SMS bundles, or 30 day data bundles</string>
+    <string name="talkback_prepaid_purchase_chosen_type" translatable="false">You\'ve chosen to purchase %1$s</string>
+    <string name="talkback_prepaid_purchase_selected_prepaid_type" translatable="false">You\'ve chosen the %1$s prepaid type</string>
+    <string name="talkback_prepaid_purchase_select_amount" translatable="false">Select the amount you would like to spend on your prepaid purchase</string>
+    <string name="talkback_prepaid_purchase_amount_selected" translatable="false">You\'ve chosen to purchase prepaid for the value of %1$s</string>
+    <string name="talkback_prepaid_purchase_select_from_account" translatable="false">Select the account you would like to use for this purchase</string>
+    <string name="talkback_prepaid_purchase_account_chosen" translatable="false">You\'ve chosen %s account to pay for your prepaid purchase</string>
+    <string name="talkback_prepaid_enter_own_amount" translatable="false">Enter your own amount you require for this purchase</string>
+    <string name="talkback_prepaid_enter_own_amount_entered" translatable="false">You\'ve entered %s as an amount to pay for this prepaid purchase</string>
+
+    <!-- airtime purchase overview -->
+    <string name="talkback_prepaid_purchase_overview" translatable="false">Purchase overview screen</string>
+    <string name="talkback_prepaid_beneficiary_overview_label" translatable="false">Beneficiary label overview</string>
+    <string name="talkback_prepaid_overview_beneficiary_name" translatable="false">Beneficiary name is %1$s</string>
+    <string name="talkback_prepaid_overview_beneficiary_number" translatable="false">Beneficiary mobile number for this purchase is %1$s</string>
+    <string name="talkback_prepaid_overview_beneficiary_network" translatable="false">Beneficiary mobile network is %1$s</string>
+    <string name="talkback_prepaid_overview_beneficiary_purchase_amount" translatable="false">Prepaid beneficiary amount for this purchase is %1$s</string>
+    <string name="talkback_prepaid_overview_beneficiary_prepaid_type" translatable="false">Type of prepaid being bought is %1$s</string>
+    <string name="talkback_prepaid_overview_from_account" translatable="false">Account being used for this transaction is %1$s</string>
+    <string name="talkback_prepaid_overview_confirm_purchase" translatable="false">Confirm your purchase</string>
+
+    <!-- buy airtime with rewards -->
+    <string name="talkback_prepaid_rewards_screen_label" translatable="false">Buy airtime with rewards screen</string>
+    <string name="talkback_prepaid_rewards_voucher_list" translatable="false">This is a % voucher worth %1$s. Total amount to pay with rewards is %2$s</string>
+    <string name="talkback_prepaid_rewards_balance_available" translatable="false">You have %1$s available in rewards to spend</string>
+    <string name="talkback_prepaid_rewards_enter_mobile_number" translatable="false">Enter mobile number of prepaid recipient</string>
+    <string name="talkback_prepaid_rewards_select_mobile_operator" translatable="false">Select mobile operator for this number</string>
+    <string name="talkback_prepaid_rewards_select_voucher" translatable="false">Select voucher from list</string>
+    <string name="talkback_prepaid_rewards_buy_button" translatable="false">Buy the chosen voucher</string>
+
+    <!-- rewards purchase overview -->
+    <string name="talkback_prepaid_rewards_purchase_overview_screen" translatable="false">Rewards Purchase overview</string>
+    <string name="talkback_prepaid_rewards_overview_purchase_summary" translatable="false">You are buying a %1$s voucher with a discount price of %2$s</string>
+    <string name="talkback_prepaid_rewards_overview_purchase__discount" translatable="false">The purchase price of this voucher is %1$s. The discount price is %2$s</string>
+    <string name="talkback_prepaid_rewards_overview_mobile_number" translatable="false">The mobile number this purchase is for is %1$s</string>
+    <string name="talkback_prepaid_rewards_overview_mobile_network_operator" translatable="false">The network operator this is for is %1$s</string>
+    <string name="talkback_prepaid_rewards_overview_account_source" translatable="false">The account used for this purchase is %s with account number %1$s</string>
+
+    <!-- home screen -->
+    <string name="talkback_main_page_label_home" translatable="false">Home Screen</string>
+    <string name="talkback_main_page_label_explore" translatable="false">Explore screen</string>
+    <string name="talkback_main_page_label_messages" translatable="false">Messages screen</string>
+    <string name="talkback_main_page_label_contact_us" translatable="false">Contact us screen</string>
+    <string name="talkback_main_page_label_more" translatable="false">More options screen</string>
+
+    <!-- credit card hub -->
+    <string name="talkback_credit_account_information_overview" translatable="false">This is your credit profile. You have %1$s currently available to spend. Your current balance is %2$s at the moment. You have %3$s which is due by %4$s</string>
+    <string name="talkback_credit_transfer" translatable="false">Transfer funds To or from this credit account</string>
+</resources>

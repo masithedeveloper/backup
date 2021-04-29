@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:animateLayoutChanges="true">
+
+    <styleguide.cards.LargeCardView
+        android:id="@+id/cardLargeCardView"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/large_card_min_height"
+        android:layout_marginEnd="@dimen/small_space"
+        android:layout_marginStart="@dimen/small_space"
+        android:layout_marginTop="@dimen/small_space"
+        app:attribute_is_dark="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/lockImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/small_space"
+        android:scaleType="centerInside"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@+id/lockTextView"
+        app:layout_constraintEnd_toStartOf="@+id/lockTextView"
+        app:layout_constraintTop_toTopOf="@+id/lockTextView"
+        app:srcCompat="@drawable/ic_pause_lock_light"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/lockTextView"
+        style="@style/LargeTextMediumLight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/double_medium_space"
+        android:layout_marginEnd="@dimen/double_medium_space"
+        android:gravity="center"
+        android:text="@string/vcl_lock"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@+id/cardLargeCardView"
+        app:layout_constraintEnd_toEndOf="@+id/cardLargeCardView"
+        tools:visibility="visible" />
+</androidx.constraintlayout.widget.ConstraintLayout>

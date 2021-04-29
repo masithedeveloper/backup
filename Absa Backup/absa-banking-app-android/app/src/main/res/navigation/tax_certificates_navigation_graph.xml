@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tax_certificates_navigation_graph"
+    app:startDestination="@id/selectTaxYearAndTypeFragment">
+
+    <fragment
+        android:id="@+id/selectTaxYearAndTypeFragment"
+        android:name="com.barclays.absa.banking.taxCertificates.ui.SelectTaxYearAndTypeFragment"
+        android:label="SelectTaxYearAndTypeFragment"
+        tools:layout="@layout/fragment_select_tax_year_and_type">
+        <action
+            android:id="@+id/action_selectTaxYearAndTypeFragment_to_genericResultFragment"
+            app:destination="@id/genericResultFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/genericResultFragment"
+        android:name="styleguide.screens.GenericResultScreenFragment"
+        android:label="GenericResultScreenFragment"
+        tools:layout="@layout/generic_results_screen_fragment">
+        <action
+            android:id="@+id/action_genericResultFragment_to_selectTaxYearAndTypeFragment"
+            app:destination="@id/selectTaxYearAndTypeFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:launchSingleTop="true"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout"
+            app:popUpTo="@+id/selectTaxYearAndTypeFragment"
+            app:popUpToInclusive="true" />
+        <argument
+            android:name="GenericResultScreenFragment"
+            app:argType="styleguide.screens.GenericResultScreenProperties" />
+    </fragment>
+</navigation>

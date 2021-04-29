@@ -1,0 +1,125 @@
+{
+  "payHdr": {
+    "resId": null,
+    "resCde": "00000",
+    "resMsg": "success",
+    "serVer": "2.0",
+    "expTrace": null
+  },
+  "payData": {
+    "cardPackage": {
+      "packageName": "Premium Banking",
+      "minimumIncome": "25 000",
+      "monthlyFee": "190.00",
+      "description": "Premium Banking is a new perspective on your money and your life. This package gets you a range of exclusive services and lifestyle benefits that will help you reach your financial goals.",
+      "packages": [
+        {
+          "package": "Smarter banking",
+          "bulletPoints": [
+            "R190.00 per month",
+            "Easily apply for an overdraft online",
+            "Debit card with contactless tap and pay",
+            "One card credit card solution: access your debit, credit or savings account with one card",
+            "View and pay bills online using the walletdoc app or website",
+            "Keep all card and payment details in your MasterPass digital wallet",
+            "Minimum income: R25 000 pm"
+          ],
+          "extraInfo": {
+            "title": "Included in your monthly fee",
+            "bulletPoints": [
+              "Access to online banking",
+              "No data required to access mobile app",
+              "Unlimited NotifyMe SMS notifications",
+              "Unlimited card swipes",
+              "Seven Absa ATM cash withdrawals",
+              "Five Absa ATM cash deposits"
+            ]
+          }
+        },
+        {
+          "package": "Premium service",
+          "bulletPoints": [
+            "24/7 dedicated Premium Line available on 0860 109 085 | +2711 501 5006",
+            "Premium chat service for banking, financial, investment and home loan advice",
+            "Priority bankers in selected branches"
+          ]
+        },
+        {
+          "package": "Wealth enhancement",
+          "bulletPoints": [
+            "Access to a financial advisor",
+            "Free financial needs analysis",
+            "Find the right investment for you with the Virtual Investor tool",
+            "Stockbroking Account: Invest and trade in all local JSE™-listed equities (shares), warrants, share instalments and all exchange-traded funds (ETFs) as well as offshore in over 25 exchanges worldwide."
+          ],
+          "extraInfo": {
+            "title": "Save or invest with:",
+            "bulletPoints": [
+              "Investor Plus: Grow your investment and have easy access to your money when you need it.",
+              "Dynamic Fixed Deposit: You get to choose the deposit amount, your investment term and how much money you want immediate access to."
+            ]
+          }
+        },
+        {
+          "package": "Family benefits",
+          "bulletPoints": [
+            "50% off the monthly fees on a Premium Banking cheque account for your spouse",
+            "Free MegaU account and app for children under 19",
+            "R25 000 lump sum death benefit",
+            "Education protector",
+            "Free will"
+          ]
+        },
+        {
+          "package": "Retrenchment and Disability Cover",
+          "bulletPoints": [
+            "Retrenchment Cover of R10 000 (R5 000 payable over two months)",
+            "Disability Cover of R10 000 (R5 000 payable over two months)"
+          ]
+        },
+        {
+          "package": "Lifestyle and travel benefits",
+          "bulletPoints": [
+            "8 Take-me-Home trips per year"
+          ],
+          "extraInfo": {
+            "title": "Add Absa Rewards and get great benefits such as:",
+            "bulletPoints": [
+              "Real cash back when you use your Absa card*",
+              "50% discount on movie tickets at Nu Metro cinemas nationwide*",
+              "As much as 15% Cash Rewards every time you shop or fill up at Sasol*"
+            ]
+          },
+          "asterix": "Terms and conditions apply"
+        },
+        {
+          "package": "Travel benefits",
+          "bulletPoints": [
+            "Get foreign bank notes for 22 of the world's major currencies and we can order currency for you, should we not have it at our counters",
+            "Free travel insurance on your credit card",
+            "Preferential rates at Bidvest lounges on your Premium Banking Credit Card"
+          ],
+          "extraInfo": {
+            "title": "Use four different currencies from one card with the Multi-currency Cash Passport",
+            "bulletPoints": [
+              "Re-load your card and earn as much as R3000 in Absa Cash Rewards. Simply re-load by phoning our call centre on 0860 151 151"
+            ]
+          }
+        },
+        {
+          "package": "Savings",
+          "bulletPoints": [
+            "International Savings made easy: open a Currency Investment Account in one of 17 currencies to protect yourself against fluctuations of the Rand."
+          ]
+        },
+        {
+          "package": "Payments",
+          "bulletPoints": [
+            "SWIFT (bank-to-bank): Send money from your bank account to an account abroad with SWIFT transfers.",
+            "Western Union: A fast, reliable, person-to-person transfer service, and convenient way to send and receive money around the world."
+          ]
+        }
+      ]
+    }
+  }
+}

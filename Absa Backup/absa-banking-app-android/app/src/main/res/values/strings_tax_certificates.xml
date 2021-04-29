@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tax_certificates_menu_item">Tax Certificates</string>
+    <string name="tax_certificates_only_for_previous_5_years_can_be_requested">Only tax certificates for the previous 5 years can be requested</string>
+    <string name="tax_certificates_select_year">Select tax year</string>
+    <string name="tax_certificates_hint_tax_year">Tax year</string>
+    <string name="tax_certificates_select_certificate_type">Select certificate type</string>
+    <string name="tax_certificates_type">Certificate type</string>
+    <string name="tax_certificates_request_are_subject_to_trans_fees_and_charges">Note: Tax certificates per request may be subject to transaction fees and charges.</string>
+    <string name="tax_certificates_no_data_exists_for_the_selected_criteria">Please note that there is no data that exists for the selected search criteria. Any queries, please call 0800 227 592</string>
+    <string name="tax_certificates_unable_to_locate_certificate">Unable to locate your certificate</string>
+    <string name="tax_certificates_please_select_tax_year">Please select tax year</string>
+    <string name="tax_certificates_please_select_certificate_type">Please select the type of certificate you require</string>
+    <string name="tax_certificates_fees">fees</string>
+    <string name="tax_certificates_having_trouble_opening_document">We are having trouble opening the document. Please try again later.</string>
+</resources>

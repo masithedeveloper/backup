@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/medium_space"
+        android:paddingTop="@dimen/medium_space"
+        tools:ignore="HardcodedText">
+
+        <styleguide.content.CardView
+            android:id="@+id/card_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <View
+            android:id="@+id/divider1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginEnd="@dimen/medium_space"
+            android:layout_marginStart="@dimen/medium_space"
+            android:background="@color/grey"
+            app:layout_constraintTop_toBottomOf="@+id/card_view" />
+
+        <styleguide.content.ContactView
+            android:id="@+id/contact_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/divider1" />
+
+        <View
+            android:id="@+id/contact_view2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/grey"
+            app:layout_constraintTop_toBottomOf="@+id/contact_view" />
+
+        <View
+            android:id="@+id/divider2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/grey"
+            app:layout_constraintTop_toBottomOf="@+id/contact_view2" />
+
+        <styleguide.content.ProfileView
+            android:id="@+id/profile_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/divider2" />
+
+        <View
+            android:id="@+id/divider3"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/grey"
+            app:layout_constraintTop_toBottomOf="@+id/profile_view" />
+
+        <styleguide.content.AccountStatusView
+            android:id="@+id/account_status_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:attribute_account_name="Current Account"
+            app:attribute_account_number="1234 5678 12"
+            app:layout_constraintTop_toBottomOf="@+id/divider3"/>
+
+        <View
+            android:id="@+id/divider14"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/grey"
+            app:layout_constraintTop_toBottomOf="@+id/account_status_view" />
+
+        <styleguide.content.BeneficiaryView
+            android:id="@+id/beneficiary_view_cell"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/divider14" />
+
+        <View
+            android:id="@+id/divider4"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/grey"
+            app:layout_constraintTop_toBottomOf="@+id/beneficiary_view_cell" />
+
+        <styleguide.content.BeneficiaryView
+            android:id="@+id/beneficiary_view_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:attribute_is_header="true"
+            app:layout_constraintTop_toBottomOf="@+id/divider4" />
+
+        <View
+            android:id="@+id/divider5"
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:background="@color/grey"
+            app:layout_constraintTop_toBottomOf="@+id/beneficiary_view_header" />
+
+        <styleguide.content.TitleAndDescriptionView
+            android:id="@+id/title2_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:attribute_description="This is the description"
+            app:attribute_description_size="@dimen/small_text_size"
+            app:attribute_title="Title"
+            app:attribute_title_size="@dimen/small_text_size"
+            app:layout_constraintTop_toBottomOf="@+id/divider5" />
+
+        <View
+            android:id="@+id/divider6"
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:background="@color/grey"
+            app:layout_constraintTop_toBottomOf="@+id/title2_text_view" />
+
+        <styleguide.content.FilterAndSearchView
+            android:id="@+id/filter_and_searchView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:attribute_calender_content_description="Calender search icon"
+            app:attribute_search_content_description="Search icon"
+            app:layout_constraintTop_toBottomOf="@+id/divider6" />
+
+        <View
+            android:id="@+id/divider7"
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:background="@color/grey"
+            app:layout_constraintTop_toBottomOf="@+id/filter_and_searchView" />
+
+        <styleguide.content.HeadingView
+            android:id="@+id/heading_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:attribute_heading="Heading"
+            app:layout_constraintTop_toBottomOf="@+id/divider7" />
+
+        <View
+            android:id="@+id/divider8"
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:background="@color/grey"
+            app:layout_constraintTop_toBottomOf="@+id/heading_view" />
+
+        <styleguide.content.LineItemView
+            android:id="@+id/line_item_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:attribute_content_text="Content"
+            app:attribute_label_text="Label"
+            app:layout_constraintTop_toBottomOf="@+id/divider8" />
+
+        <View
+            android:id="@+id/divider9"
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:background="@color/grey"
+            app:layout_constraintTop_toBottomOf="@+id/line_item_view" />
+
+        <styleguide.content.PrimaryContentAndLabelView
+            android:id="@+id/primary_content_and_label_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:attribute_primary_content="Primary content"
+            app:attribute_primary_label="Primary label"
+            app:attribute_should_show_check_box="true"
+            app:layout_constraintTop_toBottomOf="@+id/divider9"
+            app:attribute_is_primary_check_box_checked="true" />
+
+        <View
+            android:id="@+id/divider10"
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:background="@color/grey"
+            app:layout_constraintTop_toBottomOf="@+id/primary_content_and_label_view" />
+
+        <styleguide.content.SecondaryContentAndLabelView
+            android:id="@+id/secondary_content_and_label_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:attribute_is_secondary_check_box_checked="true"
+            app:attribute_secondary_content="Secondary Content"
+            app:attribute_secondary_label="Secondary label"
+            app:attribute_should_show_check_box="true"
+            app:layout_constraintTop_toBottomOf="@+id/divider10" />
+
+        <View
+            android:id="@+id/divider11"
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:background="@color/grey"
+            app:layout_constraintTop_toBottomOf="@+id/secondary_content_and_label_view" />
+
+        <styleguide.content.TertiaryContentAndLabelView
+            android:id="@+id/tertiary_content_and_label_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:attribute_should_show_check_box="true"
+            app:attribute_tertiary_content="Tertiary content"
+            app:layout_constraintTop_toBottomOf="@+id/divider11" />
+
+        <View
+            android:id="@+id/divider12"
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:background="@color/grey"
+            app:layout_constraintTop_toBottomOf="@+id/tertiary_content_and_label_view" />
+
+        <styleguide.content.SimpleCarouselViewPager
+            android:id="@+id/image_description_view_pager"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@color/tabItemBackground"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/divider12" />
+
+        <View
+            android:id="@+id/divider13"
+            android:layout_width="0dp"
+            android:layout_height="2dp"
+            android:background="@color/grey"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/image_description_view_pager" />
+
+        <styleguide.content.ExtendedCarouselViewPager
+            android:id="@+id/extendedCarouselViewPager"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@color/tabItemBackground"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/divider13" />
+
+        <styleguide.content.CenteredTitleView
+            android:id="@+id/centeredTitleView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/energy"
+            android:textSize="@dimen/small_text_size"
+            app:attribute_title="This is the title ..."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/extendedCarouselViewPager" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

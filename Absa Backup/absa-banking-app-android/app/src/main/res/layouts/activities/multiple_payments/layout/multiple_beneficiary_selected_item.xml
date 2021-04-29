@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/selectedBeneficiaryContainerConstraintLayout"
+    android:layout_width="@dimen/dimen_56dp"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/small_space">
+
+    <TextView
+        android:id="@+id/initialsTextView"
+        style="@style/Text_RobotoBold"
+        android:layout_width="@dimen/profile_image_size"
+        android:layout_height="@dimen/profile_image_size"
+        android:layout_marginTop="@dimen/normal_space"
+        android:layout_marginBottom="@dimen/normal_space"
+        android:background="@drawable/round_beneficiary_background"
+        android:gravity="center"
+        android:textSize="@dimen/heading_text_size"
+        app:attribute_mask_drawable="@drawable/circle_mask"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="BM" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/removeBeneficiaryImageView"
+        android:layout_width="@dimen/large_space"
+        android:layout_height="@dimen/large_space"
+        android:layout_marginTop="@dimen/extra_tiny_space"
+        android:background="@drawable/grey_circle"
+        android:contentDescription="@string/remove_beneficiary"
+        android:tint="@null"
+        app:layout_constraintBottom_toTopOf="@+id/initialsTextView"
+        app:layout_constraintEnd_toEndOf="@+id/initialsTextView"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.1"
+        app:srcCompat="@drawable/cross_layer_list" />
+
+    <TextView
+        android:id="@+id/selectedBeneficiaryNameTextView"
+        style="@style/SmallTextRegularDark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/small_space"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:maxLines="1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/initialsTextView"
+        tools:ignore="SmallSp"
+        tools:text="NAME" />
+
+    <TextView
+        android:id="@+id/selectedBeneficiaryAccountNumberTextView"
+        style="@style/SmallTextRegularDark"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/tiny_space"
+        android:gravity="center"
+        android:maxLines="1"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/selectedBeneficiaryNameTextView"
+        tools:ignore="SmallSp"
+        tools:text="NUMBER" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

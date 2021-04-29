@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/header_dark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <styleguide.buttons.OptionActionButtonView
+        android:id="@+id/swiftOptionActionButtonView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:attribute_caption="@string/swift_transactions"
+        app:attribute_icon="@drawable/ic_international_payments"
+        app:attribute_show_arrow="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/toolbar" />
+
+    <styleguide.buttons.OptionActionButtonView
+        android:id="@+id/westernUnionOptionActionButtonView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:attribute_caption="@string/western_union_transfer"
+        app:attribute_icon="@drawable/ic_international_payments"
+        app:attribute_show_arrow="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/swiftOptionActionButtonView" />
+
+    <View
+        android:id="@+id/dividerView"
+        style="@style/DividerView"
+        android:layout_width="0dp"
+        android:layout_marginTop="@dimen/small_space"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/westernUnionOptionActionButtonView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

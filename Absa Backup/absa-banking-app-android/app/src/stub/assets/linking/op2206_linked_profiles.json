@@ -1,0 +1,103 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES2206",
+      "resCde": "00000",
+      "resMsg": "Success",
+      "serVer": "2.0",
+      "expTrace": null
+    },
+    "payData": {
+      "referenceNumber": "LIV3c3d8d0e-0aa0-3800-a318-b928c7f49452",
+      "services": [
+        {
+          "accessAccount": "4048322292",
+          "userNumber": "1",
+          "serviceName": "RG GEERS",
+          "status": "A",
+          "clientType": "I"
+        },
+        {
+          "accessAccount": "4048325436",
+          "userNumber": "1",
+          "serviceName": "RG GEERS",
+          "status": "A",
+          "clientType": "I"
+        },
+        {
+          "accessAccount": "4048155342",
+          "userNumber": "1",
+          "serviceName": null,
+          "status": "x",
+          "clientType": "x"
+        },
+        {
+          "accessAccount": "4048159095",
+          "userNumber": "1",
+          "serviceName": "RG GEERS",
+          "status": "A",
+          "clientType": "I"
+        },
+        {
+          "accessAccount": "4047736115",
+          "userNumber": "2",
+          "serviceName": "W AREYOU",
+          "status": "A",
+          "clientType": "I"
+        },
+        {
+          "accessAccount": "4048186509",
+          "userNumber": "1",
+          "serviceName": null,
+          "status": "x",
+          "clientType": "x"
+        },
+        {
+          "accessAccount": "4048185333",
+          "userNumber": "1",
+          "serviceName": null,
+          "status": "x",
+          "clientType": "x"
+        },
+        {
+          "accessAccount": "4048159168",
+          "userNumber": "1",
+          "serviceName": null,
+          "status": "x",
+          "clientType": "x"
+        },
+        {
+          "accessAccount": "4048225311",
+          "userNumber": "1",
+          "serviceName": null,
+          "status": "x",
+          "clientType": "x"
+        },
+        {
+          "accessAccount": "4048298001",
+          "userNumber": "1",
+          "serviceName": null,
+          "status": "x",
+          "clientType": "x"
+        },
+        {
+          "accessAccount": "4048179083",
+          "userNumber": "1",
+          "serviceName": null,
+          "status": "x",
+          "clientType": "x"
+        },
+        {
+          "accessAccount": "4048297990",
+          "userNumber": "1",
+          "serviceName": null,
+          "status": "x",
+          "clientType": "x"
+        }
+      ],
+      "enterpriseSessionID": "16046635803830",
+      "txnStatus": "Success",
+      "txnMessage": "Success"
+    }
+  }
+}

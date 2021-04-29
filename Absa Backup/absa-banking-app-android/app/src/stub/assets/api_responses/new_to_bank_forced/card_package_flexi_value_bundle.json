@@ -1,0 +1,52 @@
+{
+  "payHdr": {
+    "resId": null,
+    "resCde": "00000",
+    "resMsg": "success",
+    "serVer": "2.0",
+    "expTrace": null
+  },
+  "payData": {
+    "cardPackage": {
+      "packageName": "Flexi Value Bundle",
+      "minimumIncome": "3 000",
+      "monthlyFee": "65.00",
+      "description": "Enjoy a full service bank account with the Flexi Value Bundle, which includes a funeral benefit.",
+      "packages": [
+        {
+          "package": "Better everyday banking",
+          "bulletPoints": [
+            "Bundle of transactions at a monthly fee of R65.00",
+            "Access to Absa Online, mobile and telephone banking",
+            "Unlimited card swipes",
+            "Unlimited cash withdrawals at tills",
+            "Unlimited internal debit and stop orders",
+            "Unlimited NotifyMe SMS or email notifications",
+            "Monthly eStatements",
+            "Three Absa ATM cash withdrawals",
+            "11 electronic account and beneficiary payments",
+            "24/7 access to the largest ATM network in South Africa",
+            "Switch your debit orders for free",
+            "Buy prepaid airtime or electricity",
+            "Use CashSend to send money to anyone without a bank account",
+            "Minimum income: R3 000 pm"
+          ]
+        },
+        {
+          "package": "Lifestyle benefits",
+          "bulletPoints": [
+            "Join Absa Rewards and earn cash back when you swipe your card."
+          ]
+        },
+        {
+          "package": "Wealth and finance benefits",
+          "bulletPoints": [
+            "Funeral cover of R15 000 included",
+            "Option to apply for an overdraft facility (subject to credit assessment)",
+            "Option to apply for an ATM Instant Loan (subject to credit assessment)."
+          ]
+        }
+      ]
+    }
+  }
+}

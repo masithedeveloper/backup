@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Prepaid Electricity-->
+
+    <string name="prepaid_electricity_buy_for_someone_new">Buy for someone new</string>
+    <string name="prepaid_electricity_buy_for_someone_new_toolbar_title">Electricity - Someone New</string>
+    <string name="prepaid_electricity_purchase_history">Token purchase history</string>
+    <string name="prepaid_electricity_purchase_history_toolbar_title">Purchase History</string>
+    <string name="prepaid_electricity_need_help">Need Help</string>
+    <string name="prepaid_electricity_recipient_meter_number">Recipient meter number</string>
+    <string name="prepaid_electricity_meter_number">Meter number</string>
+    <string name="prepaid_electricity_name">Name</string>
+    <string name="prepaid_electricity_enter_name">Enter name</string>
+    <string name="prepaid_electricity_meter_details_toolbar_title">Meter Details</string>
+    <string name="prepaid_electricity_registered_customer_name">Registered customer name for meter</string>
+    <string name="prepaid_electricity_address" translatable="false">Address</string>
+    <string name="prepaid_electricity_arrears_amount_warning">Arrears amount may be recovered for this meter</string>
+    <string name="prepaid_electricity_utility_provider">Utility provider</string>
+    <string name="prepaid_electricity_send_tokens_to">Send tokens to</string>
+    <string name="prepaid_electricity_beneficiary">Beneficiary</string>
+    <string name="prepaid_electricity_tokens_sent_by">Tokens sent by %s</string>
+    <string name="prepaid_electricity_purchase">Purchase</string>
+    <string name="prepaid_electricity_view_receipt">View receipt</string>
+    <string name="prepaid_electricity_purchase_successful">Purchase successful</string>
+    <string name="prepaid_electricity_torch_on">Turn torch on</string>
+    <string name="prepaid_electricity_torch_off">Turn torch off</string>
+    <string name="prepaid_electricity_initialise_camera_error">Could not initialise camera</string>
+    <string name="prepaid_electricity_important_info_disclaimer">We will not be liable for incorrect meter numbers.\n\nWe accept no responsibility or liability for the accuracy of the information provided by the municipality or Eskom on the account.\n\nPlease note that VAT is included in your purchase.\n\nAny outstanding fees or arrears on the municipal account might be deducted from the recharge amount requested.\n\nPlease ensure key change tokens are entered into your meter in the sequence indicated.</string>
+    <string name="prepaid_electricity_contact_line">PrePaid Electricity Line</string>
+    <string name="prepaid_electricity_queries_description">For any Prepaid Electricity related queries please contact the Prepaid Electricity contact centre</string>
+    <string name="prepaid_electricity_queries">For any PrePaid electricity queries</string>
+    <string name="prepaid_electricity_queries_number" translatable="false">0800 014 942</string>
+    <string name="prepaid_electricity_select_a_beneficiary">Select a beneficiary to view the token receipts for their meter.</string>
+    <string name="prepaid_electricity_general_tax_res" translatable="false">General TaxRes Step 0</string>
+    <string name="prepaid_electricity_purchase_details">Purchase Details</string>
+    <string name="prepaid_electricity_confirm_purchase">Confirm Purchase</string>
+    <string name="prepaid_electricity_purchase_receipt">Token Receipt</string>
+    <string name="prepaid_electricity_electricity_purchase_history">Electricity Purchase History</string>
+    <string name="prepaid_electricity_beneficiary_history">Beneficiary history</string>
+    <string name="prepaid_electricity_beneficiary_recent_purchases">Recent</string>
+    <string name="prepaid_electricity_successful_purchase">Successful purchase</string>
+    <string name="prepaid_electricity_unsuccessful_purchase">Unsuccessful purchase</string>
+    <string name="prepaid_electricity_unsuccessful_description">Your purchase could not be verified. Please review your purchase history before making another purchase.</string>
+    <string name="prepaid_electricity_not_applicable_abbreviation">N/A</string>
+    <string name="prepaid_electricity_select_payment_notification">Select payment notification</string>
+    <string name="prepaid_electricity_arrears_error">No prepaid electricity tokens were issued as your purchase only paid towards your arrears amount</string>
+
+    <string name="prepaid_electricity_airtime_and_mobile_data">Airtime and data</string>
+    <string name="prepaid_electricity_duplicate_error_title">Purchase already made today</string>
+    <string name="prepaid_electricity_duplicate_error_message">You have already purchased electricity for this meter number today. Do you want to buy electricity again?</string>
+    <string name="buy_again">Buy again</string>
+
+    <string name="prepaid_electricity_account_arrears_title">Account in arrears</string>
+    <string name="prepaid_electricity_account_arrears_description">Your meter is currently in arrears of %s\n\nArrears amount may be recovered on this purchase.</string>
+
+    <string name="prepaid_electricity_none_chosen">You have chosen None for Send tokens to. If you need confirmation of your tokens, you can check your history in the Buy Electricity hub.</string>
+
+    <string name="buy_someone_new">Buy for someone new</string>
+    <string name="title_buy_hub">What would you like to do?</string>
+    <string name="prepaid_mobile">Prepaid Mobile</string>
+    <string name="prepaid_electricity">Prepaid Electricity</string>
+    <string name="airtime_and_mobile_data">Airtime and mobile data</string>
+    <string name="any_suggestion">Do you have any suggestions?</string>
+    <string name="if_any_suggestion_text">If there is anything specific you would like to buy? Let the team know by sending us a suggestion.</string>
+    <string name="title_prepaid_electricity">Buy Electricity</string>
+    <string name="enter_recipient_meter_number">Enter recipient meter number</string>
+    <string name="buy_for_someone_new">Buy for someone new</string>
+    <string name="enter_amount_electricity">Enter amount</string>
+    <string name="amount_range">Min R 30 - Max R 1000</string>
+    <string name="read_important_info">I have read the \<u>important information.</u></string>
+    <string name="please_ensure_meter_number">Ensure that the meter number and amount provided are correct as the purchase cannot be reversed.</string>
+    <string name="invalid_meter_number_liability">We will not be liable for incorrect meter numbers.</string>
+    <string name="accept_no_responsibility">We accept no responsibility or liability for the accuracy of the information provided by the municipality or Eskom on the account.</string>
+    <string name="vat_is_included">Please note that VAT is included in your purchase.</string>
+    <string name="outstanding_fees_or_arrears">Any outstanding fees or arrears on the municipal account might be deducted from the recharge amount requested.</string>
+    <string name="ensure_key_change">Please ensure key change tokens are entered into your meter in the sequence indicated.</string>
+    <string name="your_tokens_have_arrived">Your tokens have arrived</string>
+    <string name="amount_purchased">Amount purchased</string>
+    <string name="beneficiary_name_prepaid">Beneficiary name</string>
+    <string name="meter_number">Meter number</string>
+    <string name="registered_customer_name">Registered customer name for meter</string>
+    <string name="utility_provider">Utility provider</string>
+    <string name="arrears_amount">Arrears amount</string>
+    <string name="ensure_key_change_tokens">Please ensure key change tokens are entered into your meter in the sequence indicated below.</string>
+    <string name="transaction_date">Transaction date</string>
+    <string name="kwh_unit">Total units/KWh</string>
+    <string name="tokens_issued">Tokens issued</string>
+    <string name="arrears">Arrears</string>
+    <string name="receipt_number">Receipt number</string>
+    <string name="page_of_page" formatted="false">%1s of %1s</string>
+    <string name="page_number" formatted="false" translatable="false">0%1s</string>
+    <string name="previous">Previous</string>
+    <string name="prepaid_electricity_amount">Prepaid electricity amount</string>
+    <string name="valid_meter_number">Please enter valid meter number</string>
+    <string name="service_provider_name">Service provider</string>
+    <string name="important_info">Important Information</string>
+    <string name="purchase_overview">Purchase Overview</string>
+    <string name="no_receipt_notice_selected">You didn\'t select how we send your receipt.\nDo you want a receipt?</string>
+    <string name="read_info_error_msg">Please read the information and accept it</string>
+    <string name="wait_60_seconds">This may take up to 60 seconds while we wait for the utility provider to reply</string>
+    <string name="requesting_token">Requesting token\nnumber/s</string>
+    <string name="title_prepaid_electricity_receipt">Prepaid electricity receipt</string>
+    <string name="same_date_purchase_notice">We see that you have already purchased for this meter today.</string>
+    <string name="continue_message">Would you like to continue?</string>
+    <string name="beneficiary_details_ppe">Beneficiary details:</string>
+    <string name="purchase_details_ppe">Purchase details:</string>
+    <string name="insufficient_balance">You have an insufficient balance available for the transaction.</string>
+    <string name="tokens_share_message">Hi :) Here is your prepaid electricity token. Your token number is</string>
+    <string name="and">and</string>
+    <string name="ensure_number_sequence">Please ensure you enter the numbers in the sequence given.</string>
+    <string name="ben_exist_dialog_title">Beneficiary with this meter number exists</string>
+    <string name="ben_exist_dialog_msg">To purchase prepaid electricity for this person, please find the meter number in your beneficiary list.</string>
+    <string name="no_continue">No, continue</string>
+    <string name="receipt_notice">How would you like to receive your receipt?</string>
+    <string name="do_not_send">Don\'t send</string>
+    <string name="help_for_prepaid_electricity">For help with Prepaid electricity\nplease call the service provider\non 0800 014 942.</string>
+    <string name="arrears_amount_notification">An arrears amount of R %1$s may be deducted from the recharge amount requested. If you buy less than this, you will not receive your tokens.</string>
+    <string name="problem_with_meter">There seems to be a problem with this meter</string>
+    <string name="try_again_later">We cannot communicate with the meter’s municipality. Please try again later or contact\nthe utility provider on\n0800 014 942.</string>
+    <string name="utility_provider_not_responding">Utility provider is\nnot responding</string>
+    <string name="please_visit_online_banking">Please visit online banking and check\nyour purchase history to see if your\ntokens were issued.</string>
+    <string name="visit_website"><u>Visit Website</u></string>
+    <string name="no_purchase_history">You have no prepaid electricity purchases to show.</string>
+    <string name="purchase_history">Purchase history</string>
+    <string name="scg" translatable="false">SCG</string>
+    <string name="krn" translatable="false">KRN</string>
+    <string name="ti" translatable="false">TI</string>
+    <string name="cost_of_electricity">Cost of electricity</string>
+    <string name="charges">Charges</string>
+    <string name="total_amount">Total amount</string>
+    <string name="prepaid_electricity_amount_label">Amount</string>
+    <string name="no_results_found">No results found.</string>
+    <string name="electricity">Electricity</string>
+    <string name="add_new_beneficiary_to_get_started">Add a beneficiary to get started.</string>
+    <string name="add_beneficiary_message">You have no prepaid electricity beneficiaries. By adding a recipient as a prepaid beneficiary, making your purchases becomes that much quicker</string>
+    <string name="prepaid_electricity_purchase_history_description">Token receipts for all transactions made to beneficiary</string>
+    <string name="prepaid_electricity_recent">Recent</string>
+    <string name="prepaid_electricity_older">Older</string>
+    <string name="prepaid_electricity_token_receipt">Token receipt</string>
+</resources>

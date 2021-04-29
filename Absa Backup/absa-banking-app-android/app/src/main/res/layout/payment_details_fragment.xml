@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    style="@style/ScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/parentConstraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <styleguide.content.BeneficiaryView
+            android:id="@+id/beneficiaryView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_is_header="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <styleguide.forms.RoundedSelectorView
+            android:id="@+id/accountSelectorView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/medium_space"
+            app:attribute_selector_type="LONG_LIST"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/beneficiaryView"
+            tools:attribute_description_text="R 350 320.90 available" />
+
+        <styleguide.forms.LargeInputView
+            android:id="@+id/amountLargeInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:maxLength="20"
+            app:attribute_editable="true"
+            app:attribute_hint_text="@string/enter_amount"
+            app:attribute_selector_type="CURRENCY_DECIMAL"
+            app:attribute_title_text="@string/transfer_fund_amount_text"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/accountSelectorView" />
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/beneficiaryReferenceNormalInputView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:digits="@string/allowed_reference_digits"
+            android:maxLength="20"
+            app:attribute_editable="true"
+            app:attribute_hint_text="@string/enter_ben_ref_hint"
+            app:attribute_title_text="@string/ben_reference"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/amountLargeInputView" />
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/myReferenceNormalInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:digits="@string/allowed_reference_digits"
+            android:maxLength="20"
+            app:attribute_editable="true"
+            app:attribute_hint_text="@string/enter_my_reference"
+            app:attribute_title_text="@string/reference_for_my_statement"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/beneficiaryReferenceNormalInputView" />
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/beneficiaryPaymentNotificationNormalInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_editable="false"
+            app:attribute_is_selected="false"
+            app:attribute_selector_type="LONG_LIST"
+            app:attribute_title_text="@string/authorisation_beneficiary_notification"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/myReferenceNormalInputView" />
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/myPaymentNotificationNormalInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_editable="false"
+            app:attribute_is_selected="false"
+            app:attribute_selector_type="LONG_LIST"
+            app:attribute_title_text="@string/authorisation_my_notification"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/beneficiaryPaymentNotificationNormalInputView" />
+
+        <styleguide.content.HeadingView
+            android:id="@+id/paymentTypeHeadingView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/large_space"
+            app:attribute_heading="@string/multiple_payments_payment_type_title"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/myPaymentNotificationNormalInputView" />
+
+        <styleguide.forms.RadioButtonView
+            android:id="@+id/paymentTypeRadioView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/paymentTypeHeadingView" />
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/paymentDateNormalInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:visibility="gone"
+            app:attribute_editable="false"
+            app:attribute_hint_text="@string/sel_date"
+            app:attribute_image="@drawable/ic_calendar_dark"
+            app:attribute_selector_type="DATE"
+            app:attribute_title_text="@string/payment_date"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/paymentTypeRadioView"
+            tools:visibility="visible" />
+
+        <styleguide.buttons.Button
+            android:id="@+id/nextButton"
+            style="@style/PrimaryButton"
+            android:layout_marginBottom="@dimen/medium_space"
+            android:text="@string/next"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/paymentDateNormalInputView"
+            app:layout_constraintVertical_bias="1" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

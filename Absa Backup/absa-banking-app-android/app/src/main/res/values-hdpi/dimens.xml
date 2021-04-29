@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="home_authorization_row_padding_bottom">8dp</dimen>
+    <dimen name="home_account_row_padding">3dp</dimen>
+
+    <dimen name="rebuild_link_device_screen_margin_between">20dp</dimen>
+    <dimen name="rebuild_result_screen_margin_top">50dp</dimen>
+    <dimen name="dimen_keyboard_16dp">0dp</dimen>
+    <dimen name="keyboard_triple_space">20dp</dimen>
+    <dimen name="keyboard_button_size">48dp</dimen>
+    <dimen name="keypad_indicator_space">12dp</dimen>
+    <dimen name="keypad_bottom_margin">8dp</dimen>
+    <string name="dimension">hdpi</string>
+
+
+</resources>

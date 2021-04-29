@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ScrollView style="@style/ScrollView">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <styleguide.content.DescriptionView
+                android:id="@+id/makeOfferDescriptionView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                app:attribute_description="@string/new_to_bank_make_you_an_offer"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <styleguide.content.TitleAndDescriptionView
+                android:id="@+id/cashBackTitleAndDescriptionView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_description="@string/new_to_bank_earn_when_you_swipe"
+                app:attribute_title="@string/new_to_bank_get_cash_back_monthly"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/makeOfferDescriptionView" />
+
+            <LinearLayout
+                android:id="@+id/rewardStoresLinearLayout"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/medium_space"
+                android:orientation="vertical"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cashBackTitleAndDescriptionView" />
+
+            <styleguide.forms.CheckBoxView
+                android:id="@+id/rewardsSpecialOffersCheckBoxView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_description="@string/new_to_bank_join_absa_rewards_for_only"
+                app:attribute_is_checked="true"
+                app:attribute_is_required="true"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/rewardStoresLinearLayout" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/debitDayNormalInputView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                app:attribute_hint_text="@string/new_to_bank_choose_day_for_deduction"
+                app:attribute_selector_type="LONG_LIST"
+                app:attribute_title_text="@string/new_to_bank_deduct_my_account_on"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/rewardsSpecialOffersCheckBoxView" />
+
+            <styleguide.buttons.OptionActionButtonView
+                android:id="@+id/showMoreOptionActionButtonView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/medium_space"
+                app:attribute_caption="@string/new_to_bank_show_me_more_information"
+                app:attribute_icon="@drawable/ic_add_dark"
+                app:attribute_show_arrow="false"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/debitDayNormalInputView" />
+
+            <styleguide.content.DescriptionView
+                android:id="@+id/rewardsDescriptionView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:visibility="gone"
+                app:attribute_description="@string/new_to_bank_absa_rewards_description"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/showMoreOptionActionButtonView" />
+
+            <styleguide.content.DescriptionView
+                android:id="@+id/whatYouEarnDescriptionView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/small_space"
+                android:gravity="start"
+                android:visibility="gone"
+                app:attribute_description="@string/new_to_bank_what_you_earn"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/rewardsDescriptionView" />
+
+            <LinearLayout
+                android:id="@+id/rewardsPartnersLinearLayout"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/medium_space"
+                android:orientation="vertical"
+                android:visibility="gone"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/whatYouEarnDescriptionView" />
+
+            <styleguide.content.DescriptionView
+                android:id="@+id/termsAndConditionsDescriptionView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/normal_space"
+                android:gravity="start"
+                android:visibility="gone"
+                app:attribute_description="@string/new_to_bank_rewards_terms_and_conditions_apply"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/rewardsPartnersLinearLayout" />
+
+            <styleguide.buttons.Button
+                android:id="@+id/nextButton"
+                style="@style/PrimaryButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/next"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/termsAndConditionsDescriptionView"
+                app:layout_constraintVertical_bias="1" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</layout>

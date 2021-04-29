@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/header_dark"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ScrollView
+            android:id="@+id/unredeemDetailScrollView"
+            style="@style/ScrollView"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toTopOf="@+id/unredeemDetailChangeAtmPin"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/toolbar">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <styleguide.content.PrimaryContentAndLabelView
+                    android:id="@+id/unredeemBeneficiaryInfo"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/medium_space"
+                    app:attribute_primary_content="@string/cash_send_beneficiary_placeholder"
+                    app:attribute_primary_label="@string/name_surname"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <styleguide.content.SecondaryContentAndLabelView
+                    android:id="@+id/unredeemDetailCashSendNumber"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/small_space"
+                    app:attribute_secondary_content="@string/cash_send_mobile_number_placeholder"
+                    app:attribute_secondary_label="@string/cash_send_mobile_number_label"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/unredeemBeneficiaryInfo" />
+
+                <View
+                    android:id="@+id/unredeemDetailDivider1"
+                    style="@style/DividerView"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dimen_1dp"
+                    android:layout_marginTop="@dimen/small_space"
+                    android:background="@color/silver_grey"
+                    app:layout_constraintTop_toBottomOf="@+id/unredeemDetailCashSendNumber" />
+
+                <styleguide.content.PrimaryContentAndLabelView
+                    android:id="@+id/unredeemDetailCashSendAmount"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/small_space"
+                    app:attribute_primary_content="R80"
+                    app:attribute_primary_label="@string/amount"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/unredeemDetailDivider1" />
+
+                <styleguide.content.SecondaryContentAndLabelView
+                    android:id="@+id/unredeemDetailAccountNumber"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/small_space"
+                    app:attribute_secondary_content="@string/cash_send_accnum_placeholder"
+                    app:attribute_secondary_label="@string/cash_send_from_account_label"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/unredeemDetailCashSendAmount" />
+
+                <styleguide.content.SecondaryContentAndLabelView
+                    android:id="@+id/unredeemDetailReference"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/small_space"
+                    app:attribute_secondary_content="@string/cash_send_beneficiary_name_placeholder"
+                    app:attribute_secondary_label="@string/cash_send_reference_label"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/unredeemDetailAccountNumber" />
+
+                <styleguide.content.SecondaryContentAndLabelView
+                    android:id="@+id/unredeemDetailDateSent"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/small_space"
+                    app:attribute_secondary_content="@string/cash_send_unredeemed_sent_on_placeholder"
+                    app:attribute_secondary_label="@string/cash_send_unredeemed_sent_on_date"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/unredeemDetailReference" />
+
+                <View
+                    android:id="@+id/unreedeemDetailDivider2"
+                    style="@style/DividerView"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dimen_1dp"
+                    android:layout_marginTop="@dimen/small_space"
+                    android:background="@color/silver_grey"
+                    app:layout_constraintTop_toBottomOf="@+id/unredeemDetailDateSent" />
+
+                <styleguide.content.PrimaryContentAndLabelView
+                    android:id="@+id/unredeemDetailPin"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/small_space"
+                    app:attribute_primary_content="@string/cash_send_atm_pin_placeholder"
+                    app:attribute_primary_label="@string/cash_send_atm_access_pin_label"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/unreedeemDetailDivider2" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </ScrollView>
+
+        <styleguide.buttons.Button
+            android:id="@+id/unredeemDetailChangeAtmPin"
+            style="@style/SecondaryButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/cash_send_change_pin"
+            app:layout_constraintBottom_toTopOf="@+id/unredeemDetailCancelCashSend"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_goneMarginTop="@dimen/medium_space" />
+
+        <styleguide.buttons.Button
+            android:id="@+id/unredeemDetailCancelCashSend"
+            style="@style/SecondaryButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel_cashsend"
+            app:layout_constraintBottom_toTopOf="@+id/unredeemDetailResendAtmPin"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <styleguide.buttons.Button
+            android:id="@+id/unredeemDetailResendAtmPin"
+            style="@style/PrimaryButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/resend_withrawwal_sms"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

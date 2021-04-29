@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/group">
+        <item
+            android:id="@+id/camera"
+            android:icon="@drawable/ic_camera_dark"
+            android:title="@string/camera" />
+        <item
+            android:id="@+id/uploadPhoto"
+            android:icon="@drawable/ic_my_profile_dark"
+            android:title="@string/photo_library" />
+        <item
+            android:id="@+id/uploadDocument"
+            android:icon="@drawable/ic_document_dark"
+            android:title="@string/manage_profile_document_upload_dialog_documents_title" />
+    </group>
+</menu>

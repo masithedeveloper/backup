@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:parentTag="android.widget.LinearLayout">
+
+    <TextView
+        android:id="@+id/titleTextView"
+        style="@style/SmallTextMediumDark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/medium_space"
+        android:layout_marginStart="@dimen/medium_space"
+        android:layout_marginTop="@dimen/small_space"
+        tools:text="Beneficiary notification" />
+
+    <androidx.appcompat.widget.AppCompatRadioButton
+        android:id="@+id/noneRadioButton"
+        style="@style/LargeTextRegularDark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/medium_space"
+        android:layout_marginStart="@dimen/medium_space"
+        android:layout_marginTop="@dimen/large_space"
+        android:checked="true"
+        android:paddingStart="@dimen/medium_space"
+        android:text="@string/notification_method_none"
+        tools:ignore="RtlSymmetry" />
+
+    <styleguide.forms.notificationmethodview.ContactRadioEditView
+        android:id="@+id/emailRadioEditView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/double_medium_space"
+        android:hint="@string/notification_hint_email"
+        android:text="@string/notification_method_email" />
+
+    <styleguide.forms.notificationmethodview.ContactRadioEditView
+        android:id="@+id/smsRadioEditView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/double_medium_space"
+        android:hint="@string/notification_hint_sms"
+        android:text="@string/notification_method_sms" />
+
+    <styleguide.forms.notificationmethodview.ContactRadioEditView
+        android:id="@+id/faxRadioEditView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/medium_space"
+        android:layout_marginTop="@dimen/double_medium_space"
+        android:hint="@string/notification_hint_fax"
+        android:text="@string/notification_method_fax" />
+</merge>

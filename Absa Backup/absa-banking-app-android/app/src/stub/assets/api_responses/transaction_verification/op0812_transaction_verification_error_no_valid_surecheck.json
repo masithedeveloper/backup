@@ -1,0 +1,23 @@
+{
+  "successResponseModel": {
+    "payData": {
+      "referenceNumber": null,
+      "transactionVerificationType": null,
+      "notificationMethod": null,
+      "txnStatus": "Failure",
+      "email": null,
+      "accountOnHold": false,
+      "transactionVerificationState": null,
+      "retries": 0,
+      "cellnumber": null,
+      "txnMessage": "No valid surecheck found for the user transaction"
+    },
+    "payHdr": {
+      "resCde": "00000",
+      "serVer": "2.0",
+      "expTrace": null,
+      "resMsg": "Success",
+      "resId": "RES0812"
+    }
+  }
+}

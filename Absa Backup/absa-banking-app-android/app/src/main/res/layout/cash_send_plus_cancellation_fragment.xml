@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scrollView"
+    style="@style/ScrollView">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/cancelLottieAnimationView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/extra_large_space"
+            android:src="@drawable/ic_alert"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:lottie_autoPlay="true"
+            app:lottie_fileName="general_alert.json"
+            app:lottie_loop="false" />
+
+        <styleguide.content.CenteredTitleView
+            android:id="@+id/titleCenteredTitleView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/large_space"
+            app:attribute_title="@string/request_to_cancel_cash_send_plus"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/cancelLottieAnimationView" />
+
+        <TextView
+            android:id="@+id/importantNoticesTextView"
+            style="@style/NormalTextMediumDark"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/medium_space"
+            android:text="@string/cancel_cash_send_plus_important_notice"
+            android:textAlignment="viewStart"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/titleCenteredTitleView" />
+
+        <styleguide.content.TertiaryContentAndLabelView
+            android:id="@+id/cashSendPlusCancelWillResetLimitTertiaryContentAndLabelView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_should_show_check_box="false"
+            app:attribute_should_show_start_tick="true"
+            app:attribute_tertiary_content="@string/cancellation_of_cash_send_plus_service_will_cancel_cash_send_plus_limit"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/importantNoticesTextView" />
+
+        <styleguide.content.TertiaryContentAndLabelView
+            android:id="@+id/cashSendPlusResetOnReregistrationTertiaryContentAndLabelView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_should_show_check_box="false"
+            app:attribute_should_show_start_tick="true"
+            app:attribute_tertiary_content="@string/cash_send_plus_can_be_reset_on_reregistration"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cashSendPlusCancelWillResetLimitTertiaryContentAndLabelView" />
+
+        <styleguide.content.TertiaryContentAndLabelView
+            android:id="@+id/cashSendPlusProcessTransactionTertiaryContentAndLabelView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_should_show_check_box="false"
+            app:attribute_should_show_start_tick="true"
+            app:attribute_tertiary_content="@string/on_cancellation_unredeemed_cash_send_plus_trans_will_be_processed"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cashSendPlusResetOnReregistrationTertiaryContentAndLabelView" />
+
+        <styleguide.content.TertiaryContentAndLabelView
+            android:id="@+id/cashSendPlusUnredeemedTransactionsTertiaryContentAndLabelView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_should_show_check_box="false"
+            app:attribute_should_show_start_tick="true"
+            app:attribute_tertiary_content="@string/unredeemed_transactions_by_recipient_will_be_refunded"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cashSendPlusProcessTransactionTertiaryContentAndLabelView" />
+
+        <styleguide.buttons.Button
+            android:id="@+id/goBackButton"
+            style="@style/SecondaryButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/large_space"
+            android:text="@string/business_banking_go_back"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cashSendPlusUnredeemedTransactionsTertiaryContentAndLabelView" />
+
+        <styleguide.buttons.Button
+            android:id="@+id/cancelCashSendPlusButton"
+            style="@style/PrimaryButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel_cash_send_plus"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/goBackButton"
+            app:layout_constraintVertical_bias="1" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

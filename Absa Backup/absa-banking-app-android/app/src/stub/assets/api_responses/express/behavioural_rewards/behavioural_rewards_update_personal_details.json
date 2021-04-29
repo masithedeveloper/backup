@@ -1,0 +1,27 @@
+{
+  "header": {
+    "statuscode": "0",
+    "userAgent": "MyRestClient",
+    "wfpt": null,
+    "jsessionid": "rQLh0TCh3SVp-09wkP5n0CLHxvq3x5j3ilwRONam",
+    "esessionid": "671ae029ddcf93aa83c6",
+    "xfpt": null,
+    "service": "PersonalDetailsService",
+    "operation": "UpdatePersonalDetails",
+    "channel": "I",
+    "timestamp": "2020-10-13 16:36:42.493",
+    "sourceip": "169.202.201.5",
+    "accessAccount": "4047562205",
+    "userNumber": "1",
+    "nonce": "-deIOEMjgyO8NtJg9wDjodf2WTSLlSkn4KSQg05tLeY",
+    "language": "en",
+    "organization": "ABSA",
+    "brand": "ABSA",
+    "applicationId": null,
+    "applicationKeyId": null,
+    "requestToken": null,
+    "resultMessages": [
+    ],
+    "paginationContext": null
+  }
+}

@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    style="@style/ScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <styleguide.content.HeadingAndActionView
+            android:id="@+id/educationalDetailsActionView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_primary_action_color="@color/pink"
+            app:attribute_primary_action_text="@string/manage_profile_overview_edit_action"
+            app:attribute_primary_label_text="@string/manage_profile_education_details_education_details_heading"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <styleguide.content.PrimaryContentAndLabelView
+            android:id="@+id/highestQualificationContentView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_primary_label="@string/manage_profile_education_details_highest_qualification_label"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/educationalDetailsActionView"
+            tools:attribute_primary_content="Certificate" />
+
+        <styleguide.content.SecondaryContentAndLabelView
+            android:id="@+id/postMatricContentView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_secondary_label="@string/manage_profile_education_details_post_matric_label"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/highestQualificationContentView"
+            tools:attribute_secondary_content="Yes" />
+
+        <View
+            android:id="@+id/firstDividerView"
+            style="@style/DividerView"
+            android:layout_width="0dp"
+            android:layout_marginTop="@dimen/medium_space"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/postMatricContentView" />
+
+        <styleguide.content.HeadingAndActionView
+            android:id="@+id/employmentDetailsActionView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_primary_action_color="@color/pink"
+            app:attribute_primary_action_text="@string/manage_profile_overview_edit_action"
+            app:attribute_primary_label_text="@string/manage_profile_education_details_employment_details_heading"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/firstDividerView" />
+
+        <styleguide.content.SecondaryContentAndLabelView
+            android:id="@+id/occupationStatusContentView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_secondary_label="@string/manage_profile_education_details_occupation_status_label"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/employmentDetailsActionView"
+            tools:attribute_secondary_content="Full time employed" />
+
+        <styleguide.content.SecondaryContentAndLabelView
+            android:id="@+id/occupationContentView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_secondary_label="@string/manage_profile_education_details_occupation_label"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/occupationStatusContentView"
+            tools:attribute_secondary_content="Accountant" />
+
+        <styleguide.content.SecondaryContentAndLabelView
+            android:id="@+id/occupationSectorContentView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_secondary_label="@string/manage_profile_education_details_occupation_sector_label"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/occupationContentView"
+            tools:attribute_secondary_content="Finance" />
+
+        <styleguide.content.SecondaryContentAndLabelView
+            android:id="@+id/occupationLevelContentView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_secondary_label="@string/manage_profile_education_details_occupation_level_label"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/occupationSectorContentView"
+            tools:attribute_secondary_content="Senior" />
+
+        <View
+            android:id="@+id/secondDividerView"
+            style="@style/DividerView"
+            android:layout_width="0dp"
+            android:layout_marginTop="@dimen/medium_space"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/occupationLevelContentView" />
+
+        <styleguide.content.HeadingAndActionView
+            android:id="@+id/employerDetailsActionView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_primary_action_color="@color/pink"
+            app:attribute_primary_action_text="@string/manage_profile_overview_edit_action"
+            app:attribute_primary_label_text="@string/manage_profile_education_details_employer_details"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/secondDividerView" />
+
+        <styleguide.content.SecondaryContentAndLabelView
+            android:id="@+id/employerNameContentView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            app:attribute_secondary_label="@string/manage_profile_education_details_employer_name_label"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/employerDetailsActionView"
+            tools:attribute_secondary_content="Catherine Thompson"
+            tools:visibility="visible" />
+
+        <styleguide.content.SecondaryContentAndLabelView
+            android:id="@+id/employerTelephoneNumberContentView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            app:attribute_secondary_label="@string/manage_profile_education_details_employer_telephone_number_label"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/employerNameContentView"
+            tools:attribute_secondary_content="011 718 0382"
+            tools:visibility="visible" />
+
+        <styleguide.content.SecondaryContentAndLabelView
+            android:id="@+id/employerFaxNumberContentView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            app:attribute_secondary_label="@string/manage_profile_education_details_employer_fax_number_label"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/employerTelephoneNumberContentView"
+            tools:attribute_secondary_content="011 718 0382"
+            tools:visibility="visible" />
+
+        <styleguide.content.SecondaryContentAndLabelView
+            android:id="@+id/employerAddressContentView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            app:attribute_secondary_label="@string/manage_profile_education_details_employer_address_label"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/employerFaxNumberContentView"
+            tools:attribute_secondary_content="15 Troye Street"
+            tools:visibility="visible" />
+
+        <styleguide.content.SecondaryContentAndLabelView
+            android:id="@+id/employerSuburbContentView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            app:attribute_secondary_label="@string/manage_profile_education_details_employer_suburb_label"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/employerAddressContentView"
+            tools:attribute_secondary_content="Marshalltown"
+            tools:visibility="visible" />
+
+        <styleguide.content.SecondaryContentAndLabelView
+            android:id="@+id/employerTownContentView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            app:attribute_secondary_label="@string/manage_profile_education_details_employer_town"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/employerSuburbContentView"
+            tools:attribute_secondary_content="Marshalltown"
+            tools:visibility="visible" />
+
+        <styleguide.content.SecondaryContentAndLabelView
+            android:id="@+id/employerPostalCodeContentView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            app:attribute_secondary_label="@string/manage_profile_education_details_postal_code"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/employerTownContentView"
+            tools:attribute_secondary_content="2001"
+            tools:visibility="visible" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

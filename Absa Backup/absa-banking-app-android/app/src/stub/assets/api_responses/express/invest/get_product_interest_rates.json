@@ -1,0 +1,50 @@
+{
+  "header": {
+    "statuscode": "0",
+    "userAgent": "ANDROID",
+    "jsessionid": "yKeZ7T-YI37xuTrOH09uQP01_Xx9k-dqeQ_3413E",
+    "esessionid": "7b94c028-f162-31ed-b829-06f9744dc619",
+    "service": "SavedApplicationsFacade",
+    "operation": "GetSavedApplicationsDetails",
+    "channel": "S",
+    "timestamp": "2020-08-13 18:03:30.570",
+    "sourceip": "22.241.133.158",
+    "accessAccount": "4048037891",
+    "userNumber": "1",
+    "nonce": "WDJlxKHkkttXU57Zd35-H4GlmXQ0v33PesMeDBP-CTQ",
+    "language": "en",
+    "organization": "ABSA",
+    "brand": "ABSA",
+    "applicationId": "AXOBMOBAPP",
+    "resultMessages": [],
+    "paginationContext": {
+      "moreToCome": false,
+      "batchSize": 9999,
+      "batchSizeLimit": 9999,
+      "recordIdentity": "0",
+      "totalNoOfRecords": 1
+    }
+  },
+  "interestRateDetail": [
+    {
+      "fromBalance": 0.01,
+      "toBalance": 14999.99,
+      "interestRate": 0
+    },
+    {
+      "fromBalance": 15000,
+      "toBalance": 24999.99,
+      "interestRate": 6.45
+    },
+    {
+      "fromBalance": 25000,
+      "toBalance": 74999.99,
+      "interestRate": 7.2
+    },
+    {
+      "fromBalance": 75000,
+      "toBalance": 9999999999999.99,
+      "interestRate": 7.45
+    }
+  ]
+}

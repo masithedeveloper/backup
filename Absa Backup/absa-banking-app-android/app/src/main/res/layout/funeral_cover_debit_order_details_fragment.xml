@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        style="@style/ScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <styleguide.buttons.Button
+                android:id="@+id/continueButton"
+                style="@style/PrimaryButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/medium_space"
+                android:layout_marginBottom="@dimen/medium_space"
+                android:text="@string/continue_button"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/beneficiaryRadioButtonView"
+                app:layout_constraintVertical_bias="1" />
+
+            <TextView
+                android:id="@+id/funeralCoverStartDateNoticeTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/medium_space"
+                android:layout_marginTop="@dimen/small_space"
+                android:layout_marginEnd="@dimen/medium_space"
+                android:theme="@style/SmallTextRegularDark"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/datePickerInputView"
+                tools:text="@string/this_policy_will_start_on" />
+
+            <styleguide.content.HeadingView
+                android:id="@+id/beneficiaryHeadingView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_heading="@string/beneficiary_payout"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/increaseCoverAndPremiumCheckBox" />
+
+            <styleguide.forms.CheckBoxView
+                android:id="@+id/increaseCoverAndPremiumCheckBox"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/tiny_space"
+                android:layout_marginEnd="@dimen/small_space"
+                app:attribute_description="@string/do_you_want_to_increase_your_and_premium"
+                app:attribute_is_checked="true"
+                app:attribute_is_error_visible="false"
+                app:attribute_is_required="false"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/sourceOfFundsInputView" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/datePickerInputView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_editable="false"
+                app:attribute_selector_type="DATE"
+                app:attribute_title_text="@string/debit_day_funeral"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/accountToDebitInputView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                app:attribute_editable="false"
+                app:attribute_hint_text="@string/select_an_account_to_pay_from"
+                app:attribute_selector_type="LONG_LIST"
+                app:attribute_title_text="@string/account_to_debit"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/funeralCoverStartDateNoticeTextView" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/employmentStatusNormalInputView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_hint_text="@string/risk_based_approach_select_employment_status"
+                app:attribute_selector_type="LONG_LIST"
+                app:attribute_title_text="@string/risk_based_approach_employment_status"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/accountToDebitInputView" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/occupationNormalInputView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_hint_text="@string/risk_based_approach_select_occupation"
+                app:attribute_selector_type="LONG_LIST"
+                app:attribute_title_text="@string/risk_based_approach_occupation"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/employmentStatusNormalInputView" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/sourceOfFundsInputView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_hint_text="@string/select_source_of_funds"
+                app:attribute_selector_type="LONG_LIST"
+                app:attribute_title_text="@string/buy_unit_trust_how_will_fund_header"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/occupationNormalInputView" />
+
+            <styleguide.forms.RadioButtonView
+                android:id="@+id/beneficiaryRadioButtonView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/beneficiaryHeadingView" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</layout>

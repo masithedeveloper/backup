@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/avaf_cross_border_navigation_graph"
+    app:startDestination="@id/crossBorderFragment">
+
+    <fragment
+        android:id="@+id/crossBorderFragment"
+        android:name="com.barclays.absa.banking.avaf.documentRequest.ui.crossborder.AvafCrossBorderFragment"
+        android:label="avaf_cross_border_fragment"
+        tools:layout="@layout/avaf_cross_border_fragment">
+        <action
+            android:id="@+id/action_crossBorderFragment_to_crossBorderConfirmationFragment"
+            app:destination="@id/crossBorderConfirmationFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+    <fragment
+        android:id="@+id/crossBorderConfirmationFragment"
+        android:name="com.barclays.absa.banking.avaf.documentRequest.ui.crossborder.AvafCrossBorderConfirmationFragment"
+        android:label="avaf_cross_border_confirmation_fragment"
+        tools:layout="@layout/avaf_cross_border_confirmation_fragment">
+        <action
+            android:id="@+id/action_crossBorderConfirmationFragment_to_documentReqResultFragment"
+            app:destination="@id/documentReqResultFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <argument
+            android:name="name"
+            app:argType="string" />
+        <argument
+            android:name="identification"
+            app:argType="string" />
+        <argument
+            android:name="dateFrom"
+            app:argType="java.util.Date" />
+        <argument
+            android:name="dateTo"
+            app:argType="java.util.Date" />
+        <argument
+            android:name="email"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/documentReqResultFragment"
+        android:name="styleguide.screens.GenericResultScreenFragment"
+        android:label="settlementQuoteResultFragment"
+        tools:layout="@layout/generic_results_screen_fragment">
+        <argument
+            android:name="GenericResultScreenFragment"
+            app:argType="styleguide.screens.GenericResultScreenProperties" />
+    </fragment>
+</navigation>

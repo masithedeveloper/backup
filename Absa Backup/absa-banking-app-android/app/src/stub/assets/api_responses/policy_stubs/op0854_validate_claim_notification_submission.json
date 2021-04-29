@@ -1,0 +1,29 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0854",
+      "resCde": "00000",
+      "resMsg": "SUCCESS",
+      "serVer": "2.0"
+    },
+    "payData": {
+      "claimSuccessFlag": "true",
+      "dtoJsonBean": {
+        "policyDescription": "ABSA HOC",
+        "policyNumber": "6511498241",
+        "coverAmount": {
+          "curr": "R",
+          "amt": ""
+        },
+        "premiumAmount": {
+          "curr": "R",
+          "amt": ""
+        },
+        "policyStatus": "",
+        "policyType": "",
+        "processingType": "",
+        "manageClaims": ""
+      }
+    }
+  }
+}

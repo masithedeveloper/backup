@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scrollView"
+    style="@style/ScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/titleNormalInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_selector_type="LONG_LIST"
+            app:attribute_title_text="@string/manage_profile_edit_other_title_title"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/dependentsNormalInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:maxLength="1"
+            app:attribute_editable="true"
+            app:attribute_title_text="@string/manage_profile_edit_other_dependants_title"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/titleNormalInputView" />
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/homeLanguageNormalInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_selector_type="LONG_LIST"
+            app:attribute_title_text="@string/manage_profile_edit_other_home_language_title"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/dependentsNormalInputView" />
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/nationalityNormalInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_selector_type="SEARCHABLE_LONG_LIST"
+            app:attribute_title_text="@string/manage_profile_edit_other_nationality_title"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/homeLanguageNormalInputView" />
+
+        <styleguide.buttons.Button
+            android:id="@+id/continueButton"
+            style="@style/PrimaryButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/manage_profile_edit_other_continue_button_text"
+            android:enabled="false"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/nationalityNormalInputView"
+            app:layout_constraintVertical_bias="1" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

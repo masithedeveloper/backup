@@ -1,0 +1,92 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES1301",
+      "resCde": "00000",
+      "resMsg": "",
+      "serVer": "2.0"
+    },
+    "payData": {
+      "acntDetails": {
+        "balance": {
+          "curr": "R",
+          "amt": "1050.0"
+        },
+        "unclearedBalance": {
+          "curr": "R",
+          "amt": "0.00"
+        },
+        "availableBalance": {
+          "curr": "R",
+          "amt": "1000.0"
+        },
+        "mkdActNo": "9050993953",
+        "actNo": "9050993953",
+        "isBalanceMasked": "N",
+        "viewAcctHistoryAllowed": "true",
+        "desc": "Savings account",
+        "curr": "R",
+        "typ": "savingsAccount"
+      },
+      "chqueNotYtClrdDt": "2017-07-14 14:15:51",
+      "fromDt": "2017-07-01",
+      "toDt": "2017-07-19",
+      "actActvLst": [
+        {
+          "txnStatus": "",
+          "txnPrt": "1-MTN air time",
+          "drAmt": {
+            "curr": "R",
+            "amt": "-20"
+          },
+          "crAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "dt": "2017-07-14",
+          "bal": {
+            "curr": "R",
+            "amt": "1000"
+          },
+          "refNo": ""
+        },
+        {
+          "txnStatus": "",
+          "txnPrt": "2-Vodacom data",
+          "drAmt": {
+            "curr": "R",
+            "amt": "-30"
+          },
+          "crAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "dt": "2017-07-14",
+          "bal": {
+            "curr": "R",
+            "amt": "1020"
+          },
+          "refNo": ""
+        },
+        {
+          "txnStatus": "",
+          "txnPrt": "3-Pizza",
+          "drAmt": {
+            "curr": "R",
+            "amt": "-100"
+          },
+          "crAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "dt": "2017-07-14",
+          "bal": {
+            "curr": "R",
+            "amt": "1050"
+          },
+          "refNo": ""
+        }
+      ]
+    }
+  }
+}

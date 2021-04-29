@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="recent">Vorige Betalings</string>
+    <string name="onceoff_payment">Eenmalige betaling</string>
+    <string name="pay_multiple">Betaal veelvuldige begunstigdes</string>
+    <string name="payment_notification_title">Betalingskennisgewing</string>
+    <string name="payment_their_reference_title">Begunstigde se verwysing</string>
+    <string name="payment_select_notification_hint_text">Kies betaal kennisgewing</string>
+    <string name="title_private_tab">Betaal iemand</string>
+    <string name="title_public_tab">Betaal ’n rekening</string>
+    <string name="select_institution">Kies gelyste begunstigde</string>
+    <string name="institution">Instansie</string>
+    <string name="institution_name">Instansie se naam</string>
+    <string name="enter_account_holder_name">Tik rekeninghouer se naam in</string>
+    <string name="account_holder">Naam Van Rekeninghouer</string>
+    <string name="enter_bill_account_number">Tik jou kosterekeningnommer in</string>
+    <string name="bill_account_number">Kosterekeningnommer</string>
+    <string name="enter_reference_my_statement">Tik my verwysing in</string>
+    <string name="reference_for_my_statement">Verwysing vir my staat</string>
+    <string name="my_reference">My verwysing</string>
+    <string name="enter_beneficiary_name">Tik begunstigde se naam in</string>
+    <string name="beneficiary_name">Begunstigde se naam</string>
+    <string name="select_bank">Kies ŉ bank</string>
+    <string name="bank">Bank</string>
+    <string name="branch">Tak</string>
+    <string name="account_type">Rekeningtipe</string>
+    <string name="enter_account_number">Tik rekeningnommer in</string>
+    <string name="account_number">Rekeningnommer</string>
+    <string name="enter_my_reference">Tik my verwysing in</string>
+    <string name="enter_your_reference">Tik begunstigde se verwysing in</string>
+    <string name="payment_their_reference_hint_text">Tik begunstigde se verwysing in</string>
+    <string name="payment_notification">Betalingskennisgewings</string>
+    <string name="normal_24_48">Normaal (24 tot 48 uur om te weerspieël)</string>
+    <string name="payment_date">Betaaldatum</string>
+    <string name="beneficiary_name_title">Begunstigde</string>
+    <string name="payment_amount">Bedrag</string>
+    <string name="from_account_title">Uit rekening</string>
+    <string name="their_notification">Hulle kennisgewing</string>
+    <string name="beneficiary_payment_type">Tipe betaling</string>
+    <string name="beneficiary_payment_date">Betaal datum</string>
+    <string name="pay_button_title">Betaal</string>
+    <string name="beneficiary_notification">Begunstigde kennisgwing</string>
+    <string name="my_notification">My kennisgwing</string>
+    <string name="email_address_payment_notification">E-posadres</string>
+    <string name="notification_email">E-pos</string>
+    <string name="notification_sms">SMS</string>
+    <string name="notification_fax">Faks</string>
+    <string name="notification_none">Geen</string>
+    <string name="auth_title">Jou betaling sal gemaak word sodra dit gemagtig is.\n\nNeem asseblief kennis dat hierdie transaksie verval vanaand teen 00:00.</string>
+    <string name="payment_error_title">Fout</string>
+    <string name="payment_pending">Betaling hangende magtiging</string>
+    <string name="payment_success_message">%s betaal aan %s, \nrekeningnommer %s</string>
+    <string name="iip_payment_successful_message">%s betaling aan %s, rekeningnommer %s was suksesvol.</string>
+    <string name="iip_payment_successfully_scheduled_message">%s betaling aan %s, rekeningnommer %s is suksesvol geskeduleer.\n\nJou IIP Verwysingsnommer is %s.</string>
+    <string name="payment_success_title">Betalings suksesvol</string>
+    <string name="multiple_payments_available_balance_error_message">Besikbare rekening balans oorskry. Kies asseblief ŉ ander rekening om van te betaal, verander die bedrae wat betaal moet word of verwyder beginstigdes.</string>
+    <string name="multiple_payments_important_notice_title">Belangrike kennisgewings</string>
+    <string name="available_title">beskikbare</string>
+    <string name="ok_button_text">OK</string>
+    <string name="empty_amount_dialog_text">Sommige van jou begunstigdes se betalingsbedrae is nie ingevoer nie. Vul asseblief hierdie ontbrekende bedrae in.</string>
+    <string name="important_notice_heading">Belangrike kennisgewing</string>
+    <string name="important_notice_cut_off_heading">Afsnytye vir betaling</string>
+    <string name="important_notice_iip_message">Let daarop dat die transaksies wat as onmiddellike tussenbankbetalings ingedien is, na een uur verwerk sal word. Hierdie betalings kan steeds deur die stelsel verwerp word indien daar ten tyde van die betaling onvoldoende fondse beskikbaar is.</string>
+    <string name="important_notice_payment_message1">1. Afsnytye vir betalings word beheer deur interbank-klaringsreëls waaraan alle SA banke voldoen.</string>
+    <string name="important_notice_payment_message2">2. Ons verifieer nie die rekeningnaam om te bevestig dat die rekeningnommer en -naam ooreenstem nie.
+        \n\n3. ŉ Kredietoorplasing sal verwerk word volgens die rekeningnommer wat ingesleutel is.
+        \n\n4. Die totale betalingsbedrag sluit vooruitgedateerde betalings uit.</string>
+
+    <string name="payment_successful_title">Suksesvolle betalings</string>
+    <string name="payment_failure_title">Betalings misluk</string>
+    <string name="future_dated_success_title">Vooruitgedateerde suksesvolle betalings</string>
+    <string name="unsuccessful_payments">Onsuksesvol normale betalings</string>
+    <string name="future_dated_unsuccess_title">Onsuksesvol Vooruitgedateerde betalings</string>
+    <string name="payments_immediate_unsuccessful_title">Onsuksesvol Onmiddellike tussenbankbetaling</string>
+    <string name="contact_support_title">Kontak ons vir hulp</string>
+    <string name="unable_to_complete_payments">Kan nie voltooi betalings nie</string>
+    <string name="multiple_payments_failure">Ons sukkel om met ons bedieners te kommunikeer. Jou betalings kon nie gemaak word nie. Probeer asseblief later weer.</string>
+    <string name="multiple_payments_selected_beneficiaries_activity_navigation_title">Betaal Veelvuldige</string>
+    <string name="validation_error_reference">Tik ŉ geldige verwysing in</string>
+    <string name="validation_error_account">Kies asseblief ŉ rekeningnommer</string>
+    <string name="validation_error_account_number">Tik ŉ geldige rekeningnommer in</string>
+    <string name="validation_error_account_type">Tik ŉ geldige rekeningtipe in</string>
+    <string name="validation_error_choose_bank">Kies asseblief ŉ bank</string>
+    <string name="validation_error_choose_branch">Kies asseblief ŉ tak</string>
+    <string name="validation_error_beneficiary_name">Tik asseblief ŉ geldige begunstigde naam in</string>
+    <string name="validation_error_choose_institution">Kies asseblief ŉ geldige instelling</string>
+    <string name="validation_error_account_holder_name">Tik ŉ geldige rekeninghouernaam in</string>
+    <string name="validation_error_payment_amount">Tik asseblief ŉ geldige betalingsbedrag in</string>
+    <string name="validation_error_payment_type">Kies asseblief ŉ betalingstipe</string>
+    <string name="current_account">Tjekrekening</string>
+    <string name="savings_account">Spaarrekening</string>
+    <string name="online_share_sharing">Aanlynhandel</string>
+    <string name="total_payment_amount">Totale betaling bedrag</string>
+    <string name="total_cash_send_amount">Totale CashSend bedrag</string>
+    <string name="payment_transaction_successful">Transaksie suksesvol</string>
+    <string name="make_payment">Maak Betaling</string>
+    <string name="iip_text">Wanneer ŉ Onmiddellike Interbank Betaling (IIP) gebruik word, kan die transaksie nie herroep word, ter syde gestel of gekanselleer word nie, aangesien betaling onmiddellik plaasvind. IIP is duurder as gewone transaksies, wat onderhewig is aan ŉ vertraging.\'Wat is die koste? \' Sal die fooi van die transaksie vertoon. As ons dit nodig ag om maatreëls om bedrog te bekamp, kan ons die bepalings van die IIP verander en die onmiddellike toegang van fondse aan begunstigdes vertraag. Ons sal vooraf kennis gee op ons webwerf.</string>
+    <string name="payments_please_select_date">Kies asseblief \'n datum</string>
+
+    <!-- Beneficiary switching -->
+    <string name="payments_import_beneficiaries_offer_title">Voer begunstigdes van ’n ander bankrekening in</string>
+    <string name="payments_import_beneficiaries_take_photo">Neem ŉ foto van die begunstigdes wat jy wil invoer</string>
+    <string name="payments_import_beneficiaries_explanation_title">Lees die begunstigdes van ŉ rekening by ŉ ander bank in deur slegs ŉ foto te neem</string>
+    <string name="payments_import_beneficiaries_explanation_body">Voer begunstigdes in van Standard Bank, FNB, Capitec of Nedbank.\n\nNavigeer na die begunstigde wat jy wil invoer.\n\nNeem ŉ foto van die skerm.\n\nMaak seker dat die begunstigde se inligting korrek is.</string>
+    <string name="payments_import_beneficiaries_supported_banks">Ondersteunde banke</string>
+    <string name="payments_import_beneficiaries_screen_title">Voer begunstigde in</string>
+    <string name="payments_import_beneficiaries_button_text">@string/payments_import_beneficiaries_screen_title</string> <!-- Why? -->
+    <string name="payment_beneficiaries_get_started">Voeg ŉ begunstigde by om te begin.\n\nTik ŉ begunstigde van ŉ ander bankrekening in deur ŉ foto van die begunstigde se besonderhede te neem.</string>
+    <string name="payment_taking_photograph_hyperlink">deur ’n foto van die begunstigde se besonderhede te neem</string>
+    <string name="payments_import_beneficiaries_take_photo_instruction_heading">Neem ’n foto van jou begunstigde</string>
+    <string name="payments_import_beneficiaries_take_photo_instruction_body">Hou jou foon reguit voor die skerm.\nMaak seker dat al die begunstigde se inligting in die foto</string>
+    <string name="payments_import_beneficiaries_take_photo_button_content_description">Neem foto</string>
+    <string name="payments_select_from_gallery">Kies foto</string>
+    <string name="payments_take_photo">Neem ’n foto</string>
+    <string name="beneficiary_import_check_details_message">Maak asseblief seker dat al die inligting wat ingevoer is korrek is.\n\nAbsa kan nie verantwoordelik gehou word vir inligting wat verkeerd ingevoer is nie.</string>
+    <string name="beneficiary_import_error_message_title">Kon nie foto lees nie</string>
+    <string name="beneficiary_import_alert_title">Voer ŉ begunstigde</string>
+    <string name="beneficiary_import_more">Meer</string>
+    <string name="beneficiary_import_hold_your_phone">Hou jou foon reguit voor die skerm.</string>
+    <string name="beneficiary_import_keep_browser">Hou die webblaaier en ander elemente uit die foto</string>
+    <string name="beneficiary_import_ensure_photograph">Maak seker die foto is in fokus.</string>
+    <string name="beneficiary_import_select_picture">Kies ŉ foto of skermgrepe</string>
+
+    <!-- Error messages -->
+    <string name="iip_payment_limit_exceeeded">Die ingevoerde bedrag oorskry die betaling limiet.</string>
+
+    <string name="multiple_payment_last_transaction">Vorige transaksie bedrag | %s</string>
+
+    <string name="update_payment_limit">Verander betalingslimiet?</string>
+    <string name="update_payment_limit_message">Die bedrag is meer as jou betalingslimiet. Indien jy voorgaan sal ons jou limiet verhoog. Jy kan altyd later weer die limiet terug verander.</string>
+    <string name="payment_universal">Universeel</string>
+
+    <string name="payment_notice">2. Ons verifieer nie die rekeningnaam om te bevestig dat die rekeningnommer en -naam ooreenstem nie.
+        \n\n3. \'n Kredietoorplasing sal verwerk word volgens die rekeningnommer wat ingesleutel is.
+        \n\n4. Die totale betalingsbedrag sluit vooruitgedateerde betalings uit.</string>
+
+    <!-- IIP Strings -->
+    <string name="iip">Onmiddellike tussenbankbetaling</string>
+    <string name="iip_header">Onmiddellike tussenbankbetaling</string>
+    <string name="accept_iip_terms">Ek aanvaar die OTB bepalings en voorwaardes</string>
+    <string name="iip_message">Wanneer \'n onmiddellike tussenbankbetaling (OTB) gebruik word, kan die transaksie nie herroep, ter syde gestel of gekanselleer word nie omdat die betaling onmiddellik plaasvind. \'n OTB is duurder as gewone transaksies, wat aan \'n vertraging onderhewig is.
+    \n\nDie fooi vir OTB-transaksies is beskikbaar op Absa se webtuiste (www.absa.co.za) onder “Wat is die koste?” Ons kan die bepalings van \'n OTB wysig en begunstigdes se toegang tot die fondse vertraag indien ons sodanige maatreëls nodig ag om bedrog te voorkom. Ons sal jou op ons webtuiste vooraf kennis gee van enige sodanige veranderings.</string>
+    <string name="iip_alert_info_msg">As u ons opdrag gegee het om die fondse oor te plaas en van OTB gebruik te maak kan die transaksie nie herroep, verwerp of gekanselleer word nie, aangesien betaling onmiddelik plaasvind.  OTB is duurder as gewone transaksies wat van tydsvertraging onderworpe is voordat betalings aan begunstigdes gedoen word.  Die fooie vir OTB transaksies is op die Absa webwerf beskikbaar (www.absa.co.za) onder “Wat is die koste?”.  Ons kan die bepalings van OTB verander en onmiddelike toegang tot fondse aan begunstigdes vertraag indien ons dit nodig ag om maatreels in te stel om bedrog te beveg.  Ons sal jou vooraf op ons webwerf van enige sodanige veranderings in kennis stel</string>
+    <string name="iip_terms_header">Wys OTB bepalings en voorwaardes</string>
+    <string name="iip_reference">OTB-verwysing</string>
+    <string name="iip_reference_number">Jou IIP Verwysingsnommer is %s</string>
+
+    <!-- Payment details screen -->
+    <string name="payment_type">Tipe betaling</string>
+    <string name="normal">Normaal</string>
+    <string name="future_dated_payment">Vooruitgedateerde betaling</string>
+    <string name="future_dated_payment_error_message">’n Toekomstige betaling bestaan reeds vir die begunsdigde</string>
+    <string name="amount_available">%1$s beskikbaar</string>
+
+    <string name="payments_future_payments">Future payments</string>
+    <string name="payments_please_select_transaction">Please select a transaction you would like to view.</string>
+    <string name="payments_make_future_dated_payment">Make a future dated payment</string>
+    <string name="payments_immediate_payment_total">Onmiddellike tussenbankbetaling totaal</string>
+    <string name="payments_iip_credit_card_error">Sorry you cannot perform Immediate Interbank Payments from a credit card</string>
+
+    <!-- Beneficiary already exists screen -->
+    <string name="recipient_title">Begunstigde</string>
+    <string name="recipient_account_number_description">Jy het reeds \'n begunsdigde met die rekeningnommer %s</string>
+    <string name="last_payment_date">Laaste betalingsdatum</string>
+    <string name="add_beneficiary_anyway">Voeg nuwe begunsdigde nogsteeds by</string>
+    <string name="beneficiary_exists">Begunstigde bestaan alreeds</string>
+
+    <string name="cash_send_to_this_beneficiary">Send cash to this beneficiary</string>
+    <string name="cash_send_last_payment_date_label">Last payment date</string>
+    <string name="beneficiary_already_exist_content">You already have a beneficiary with the mobile number \n075 567 8888</string>
+
+    <string name="payments_review_payment">Review Payment</string>
+    <string name="payments_review_alert">Review alert</string>
+    <string name="payments_review_alerts">Please review the alerts to continue</string>
+    <string name="payments_number_of_alerts">You have %s alerts below</string>
+    <string name="payments_all_alerts_reviewed">All alerts have been reviewed</string>
+    <string name="payments_are_you_sure">Are you sure you want to pay %s now?</string>
+    <string name="payments_removed_from_batch">This payment will be removed from the batch</string>
+    <string name="payments_select_option">Kies asseblief \'n opsie</string>
+    <string name="payments_no_alert">No alert</string>
+    <string name="payments_alert_reviewed">Alert reviewed</string>
+    <string name="payments_transaction_removed">Transaction removed</string>
+    <string name="payments_immediate_payments">Onmiddellike tussenbankbetaling</string>
+    <string name="payments_already_made_once_off">You\'ve already made a once‑off payment to this account</string>
+    <string name="payments_already_made_once_off_description">Account number %s\n\nTo make this payment, please add this recipient as a beneficiary.</string>
+
+</resources>

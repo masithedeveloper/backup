@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="lotto_ball_size">@dimen/_26sdp</dimen>
+    <dimen name="lotto_bonus_ball_size">@dimen/_34sdp</dimen>
+    <dimen name="lotto_board_size">@dimen/_47sdp</dimen>
+    <dimen name="lotto_ball_unpicked_size">@dimen/_22sdp</dimen>
+    <dimen name="lotto_powerball_unpicked_size">@dimen/_21sdp</dimen>
+    <dimen name="lotto_board_height">@dimen/_55sdp</dimen>
+    <dimen name="lotto_ball_border_size">@dimen/_18sdp</dimen>
+
+    <dimen name="lotto_ball_unpicked_border_size">@dimen/_28sdp</dimen>
+
+    <dimen name="lotto_button_width">170dp</dimen>
+    <dimen name="lotto_button_height">35dp</dimen>
+
+    <dimen name="lotto_image_height">32dp</dimen>
+    <dimen name="lotto_image_width">105dp</dimen>
+</resources>

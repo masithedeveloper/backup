@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="stopped_debit_orders">Stopped debit orders</string>
+    <string name="debit_order_select_account_description">Select an account to view all your recent debit orders</string>
+    <string name="debit_order_select_account">Select an account</string>
+    <string name="debit_order_select_account_number">Select account</string>
+    <string name="select_recent_debit_orders">Recent debit orders</string>
+    <string name="no_stopped_debit_orders">You have no stopped debit orders</string>
+    <string name="no_debit_orders_found">You have no recent debit orders. Only debit orders from the last 40 days will be visible.</string>
+
+    <string name="recently_stopped_debit_order_select_account">Select an account to view your recent stopped debit orders</string>
+    <string name="recent_stopped_debit_order">Recent stopped debit orders</string>
+
+    <string name="debit_order_company">Company</string>
+    <string name="debit_order_amount">Amount</string>
+    <string name="debit_order_payment_date">Payment Date</string>
+    <string name="reference">Reference</string>
+    <string name="stop_debit_order">Stop debit order</string>
+    <string name="reverse_payment">Reverse payment</string>
+
+    <string name="debit_order_information_title">Important information</string>
+    <string name="stopped_debit_order_information_description">Your stopped debit orders will appear in the stopped debit order list.</string>
+    <string name="stopped_debit_order_information_first_bullet">You can reverse a stopped debit order.</string>
+    <string name="stopped_debit_order_information_second_bullet">To permanently stop a debit order you need to cancel it with the service provider.</string>
+    <string name="stopped_debit_order_information_third_bullet">Remember a stopped debit order can adversely affect your credit rating.</string>
+    <string name="stopped_debit_order_information_forth_bullet">Depending on your service provider, a stopped debit order instruction may not stop the debit order.</string>
+
+    <string name="reverse_debit_order_information_description">When you reverse a debit order payment you will not be able to stop the debit order until the next payment.</string>
+    <string name="reverse_debit_order_information_first_bullet">You can only reverse a single debit order payment at a time.</string>
+    <string name="reverse_debit_order_information_second_bullet">Unpaid debit orders could negatively affect your credit score.</string>
+    <string name="reverse_debit_order_information_third_bullet">If you suspect the debit order is fraudulent we recommend you stop the payment instruction before reversing it.</string>
+    <string name="reverse_debit_order_information_forth_bullet">Once you reverse a payment it will disappear from your transaction list.</string>
+
+    <string name="reverse_payment_title">Reverse Payment</string>
+    <string name="select_reason_for_reversal">Reason for reversal</string>
+    <string name="select_reason_for_reversal_hint">Select reason for reversal</string>
+    <string name="select_reason_for_reversal_error">Please select reason for reversal.</string>
+    <string name="accept_declaration_error">Please accept disclaimer</string>
+    <string name="debit_order_reversal_terms">I hereby agree to take responsibility for any claim, whether by me or any other third party however it may arise, in regard to this payment being credited by Absa (or any other bank)</string>
+
+    <string name="debit_order_reversal_reason_one">I did not authorise this debit order</string>
+    <string name="debit_order_reversal_reason_two">The amount differs from the amount that I agreed to, or the amount was collected on the incorrect date</string>
+    <string name="debit_order_reversal_reason_third">I have told the creditor to cancel the debit order</string>
+
+    <string name="debit_order_stopped">Debit order stopped</string>
+    <string name="debit_order_stopped_success_message">A stop order has been submitted for this debit order. Contact your service provider to stop this debit order permanently.</string>
+    <string name="debit_order_reversed">Debit order reversed</string>
+    <string name="debit_order_reversed_success_message">We have refunded R%s to your account.</string>
+
+    <string name="debicheck_debit_orders">Debit Orders</string>
+    <string name="debit_orders_contact_call_center">Call our Call Centre</string>
+
+    <string name="debit_order_dispute_amount">This debit order exceeds the in-app debit order stop or reversal limit of %s. To stop or reverse this debit order, please email debitorder@absa.africa or visit your nearest branch.</string>
+</resources>

@@ -1,0 +1,56 @@
+{
+  "successResponseModel": {
+    "payData": {
+      "txnRefID": "13825069545218",
+      "jsonBean": {
+        "preferredLanguage": "English",
+        "cellPhoneNumber": "0712222051",
+        "emailAddress": "MARC.VANDENBRANDT@ABSA.CO.ZA",
+        "homeTel": "0101234567",
+        "workTel": "0111234567",
+        "addressLine1": "PIET POMPIES",
+        "addressLine2": "30 BANBURY GARDENS",
+        "suburb": "HUNTERS ROAD",
+        "cityName": "FLORIDA",
+        "postalCode": "1709",
+        "stmntDeliveryIndic": "Email",
+        "recvMktngMaterial": "Yes",
+        "mktngMethod": "SMS",
+        "monthlyFee": {
+          "amt": "21.00",
+          "curr": "R"
+        },
+        "annualFee": {
+          "amt": "252.00",
+          "curr": "R"
+        },
+        "chargeFreqID": "Yearly",
+        "orderFreqDate": "11-12",
+        "fromAccount": "9050540936",
+        "accountDesc": "savings account",
+        "custAddInfo": "00101",
+        "workFaxNumber": "6755931",
+        "workFaxCode": "010",
+        "homeFaxNumber": "6755931",
+        "homeFaxCode": "010",
+        "solicitIndic": "01",
+        "corresTitle": "03",
+        "writnLangCode": "E",
+        "spoknLangCode": "E",
+        "writnLangName": "E",
+        "spoknLangName": "E",
+        "homeNumber": "1234567",
+        "homeAreaCode": "010",
+        "workNumber": "1234567",
+        "workAreaCode": "011"
+      }
+    },
+    "payHdr": {
+      "resCde": "00000",
+      "resMsg": "SUCCESS",
+      "resId": "RES0891",
+      "serVer": "2.0",
+      "expTrace": null
+    }
+  }
+}

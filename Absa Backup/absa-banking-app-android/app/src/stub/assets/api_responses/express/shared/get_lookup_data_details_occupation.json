@@ -1,0 +1,129 @@
+{
+  "header": {
+    "statuscode": "0",
+    "userAgent": "ANDROID - 6.18.0",
+    "wfpt": null,
+    "jsessionid": "JPYnDAICRqaIJ1REX21Uom7vEHpaJSgspQf7XLKZ",
+    "esessionid": null,
+    "xfpt": null,
+    "service": "LookupFacade",
+    "operation": "GetLookUpDataDetails",
+    "channel": null,
+    "timestamp": "2020-10-28 11:14:40.175",
+    "sourceip": "22.240.44.100",
+    "accessAccount": "9051153469",
+    "userNumber": "1",
+    "nonce": "1dk6oXQxPBySJK9iwPBRO1gb19heFrH-xPgIDoUmd84",
+    "language": "en",
+    "organization": null,
+    "brand": null,
+    "applicationId": null,
+    "applicationKeyId": null,
+    "requestToken": null,
+    "resultMessages": [],
+    "paginationContext": null
+  },
+  "groupCode": "OCC CODE",
+  "lookupsVOs": [
+    {
+      "code": "01",
+      "value": "Professional"
+    },
+    {
+      "code": "02",
+      "value": "Administration"
+    },
+    {
+      "code": "03",
+      "value": "Clerical"
+    },
+    {
+      "code": "04",
+      "value": "Sales Person"
+    },
+    {
+      "code": "05",
+      "value": "Service"
+    },
+    {
+      "code": "06",
+      "value": "Farmer"
+    },
+    {
+      "code": "07",
+      "value": "Production"
+    },
+    {
+      "code": "08",
+      "value": "Biokineticist"
+    },
+    {
+      "code": "09",
+      "value": "Chartered Accountant"
+    },
+    {
+      "code": "10",
+      "value": "Other"
+    },
+    {
+      "code": "14",
+      "value": "Veterinary Surgeon"
+    },
+    {
+      "code": "15",
+      "value": "Accountant"
+    },
+    {
+      "code": "16",
+      "value": "Architect"
+    },
+    {
+      "code": "17",
+      "value": "Lawyer/advocate"
+    },
+    {
+      "code": "18",
+      "value": "Engineer"
+    },
+    {
+      "code": "44",
+      "value": "Entrepreneur"
+    },
+    {
+      "code": "45",
+      "value": "Fisherman"
+    },
+    {
+      "code": "46",
+      "value": "Professional Sportsman"
+    },
+    {
+      "code": "47",
+      "value": "Technician"
+    },
+    {
+      "code": "48",
+      "value": "Tradesman"
+    },
+    {
+      "code": "49",
+      "value": "Religious"
+    },
+    {
+      "code": "50",
+      "value": "Pilot"
+    },
+    {
+      "code": "69",
+      "value": "Articles For Law"
+    },
+    {
+      "code": "71",
+      "value": "Actuary"
+    },
+    {
+      "code": "99",
+      "value": "Medical"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0451",
+      "resCde": "00000",
+      "resMsg": "",
+      "serVer": "2.0"
+    },
+    "payData": {
+      "txtmsg": "Notice successfully sent",
+      "status": "Success",
+      "cashSendPlus": false
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0609",
+      "resCde": "00000",
+      "serVer": "2.0"
+    },
+    "payData": {
+      "accessPin": "EAB39933A7B4F2E8",
+      "mapId": "INSS",
+      "virtualSessId": "20000021"
+    }
+  }
+}

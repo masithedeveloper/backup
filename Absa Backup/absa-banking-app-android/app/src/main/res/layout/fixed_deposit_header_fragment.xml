@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:background="@drawable/background_rounded_transparent_black">
+
+        <TextView
+            android:id="@+id/currentBalanceLabelTextView"
+            style="@style/SmallTextRegularLight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/medium_space"
+            android:text="@string/current_balance"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/currentBalanceTextView"
+            style="@style/TitleTextBoldLight"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/medium_space"
+            android:layout_marginEnd="@dimen/medium_space"
+            android:layout_marginBottom="@dimen/tiny_space"
+            android:gravity="center"
+            android:maxLines="1"
+            app:autoSizeTextType="uniform"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/currentBalanceLabelTextView"
+            tools:text="R23 000.80" />
+
+        <TextView
+            android:id="@+id/availableBalanceTextView"
+            style="@style/LargeTextRegularLight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/tiny_space"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/currentBalanceTextView"
+            tools:text="@string/available_balance" />
+
+        <styleguide.buttons.Button
+            android:id="@+id/transferButton"
+            style="@style/FloatingWideActionButtonLight"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/medium_space"
+            android:layout_marginBottom="@dimen/medium_space"
+            android:text="@string/credit_card_hub_transfer"
+            android:visibility="gone"
+            app:layout_constraintBottom_toTopOf="@+id/automaticReinvestment"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/availableBalanceTextView"
+            tools:visibility="visible" />
+
+        <TextView
+            android:id="@+id/automaticReinvestment"
+            style="@style/LargeTextRegularLight"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/small_space"
+            android:layout_marginEnd="@dimen/small_space"
+            android:layout_marginBottom="@dimen/medium_space"
+            android:gravity="center_horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/transferButton"
+            tools:text="Investment matured: automatic reinvestment on 28 Nov 2018" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    style="@style/ScrollView">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/interestPaymentAccountNormalInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_description_text="@string/depositor_plus_interest_payment_info"
+            app:attribute_hint_text="@string/depositor_plus_choose_account"
+            app:attribute_selector_type="LONG_LIST"
+            app:attribute_title_text="@string/depositor_plus_interest_payment_account"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/anotherBankAccountConstraintLayout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/interestPaymentAccountNormalInputView"
+            tools:visibility="visible">
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/bankNormalInputView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_hint_text="@string/depositor_plus_choose_bank"
+                app:attribute_selector_type="SEARCHABLE_LONG_LIST"
+                app:attribute_title_text="@string/depositor_plus_bank"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/accountTypeNormalInputView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_hint_text="@string/depositor_plus_choose_account_type"
+                app:attribute_selector_type="LONG_LIST"
+                app:attribute_title_text="@string/depositor_plus_account_type"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/bankNormalInputView" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/accountNumberNormalInputView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:digits="0123456789 "
+                android:inputType="number"
+                app:attribute_hint_text="@string/depositor_plus_enter_account_number"
+                app:attribute_mask="#### #### #### ####"
+                app:attribute_selector_type="NONE"
+                app:attribute_title_text="@string/depositor_plus_account_number"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/accountTypeNormalInputView" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/branchNormalInputView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_hint_text="@string/depositor_plus_choose_branch_code"
+                app:attribute_selector_type="SEARCHABLE_LONG_LIST"
+                app:attribute_title_text="@string/depositor_plus_branch_code"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/accountNumberNormalInputView" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/referenceNormalInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:digits="@string/allowed_reference_account_names"
+            android:inputType="textCapWords"
+            android:maxLength="20"
+            app:attribute_editable="true"
+            app:attribute_hint_text="@string/depositor_plus_enter_reference"
+            app:attribute_title_text="@string/depositor_plus_account_reference"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/anotherBankAccountConstraintLayout" />
+
+        <Button
+            android:id="@+id/nextButton"
+            style="@style/PrimaryButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/next"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/referenceNormalInputView"
+            app:layout_constraintVertical_bias="1" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

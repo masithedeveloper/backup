@@ -1,0 +1,40 @@
+{
+  "header": {
+    "statuscode": "0",
+    "userAgent": "RestClient",
+    "jsessionid": "ds4wIYgZpMLZXpeS9J9U0_bHEY-gOrXSScr2EhHx",
+    "esessionid": "1b5cbadb-79e1-3cca-baf1-e414194dc76c",
+    "service": "BalanceEnquiryFacade",
+    "operation": "GetBalancesForAccount",
+    "channel": "I",
+    "timestamp": "2020-05-26 15:44:12.037",
+    "sourceip": "127.0.0.1",
+    "accessAccount": "4048185749",
+    "userNumber": "1",
+    "nonce": "Hy6lZyRi1aRoK6iBM5Q9Gw9Oz6GwjInK4RiI4nAl9kI",
+    "language": "en",
+    "organization": "ABSA",
+    "brand": "ABSA",
+    "resultMessages": [],
+    "paginationContext": {
+      "moreToCome": false,
+      "batchSize": 9999,
+      "batchSizeLimit": 9999,
+      "recordIdentity": "0",
+      "totalNoOfRecords": 1
+    }
+  },
+  "accountBalances": {
+    "number": "70713638",
+    "name": "AVAF account",
+    "uncleared": "",
+    "available": "0",
+    "balance": "-38517",
+    "accountType": "AVAF",
+    "accountActionsAllowedList": [
+      "REDEEM",
+      "HIST",
+      "SUMMARY"
+    ]
+  }
+}

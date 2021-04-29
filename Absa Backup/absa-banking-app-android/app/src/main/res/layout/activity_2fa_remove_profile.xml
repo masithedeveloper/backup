@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/ll_remove_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dimen_16dp"
+            android:layout_marginEnd="@dimen/dimen_16dp"
+            android:orientation="vertical">
+
+            <styleguide.widgets.RoundedImageView
+                android:id="@+id/user_profile_image_view"
+                android:layout_width="@dimen/dimen_80dp"
+                android:layout_height="@dimen/dimen_80dp"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/dimen_16dp"
+                android:background="@drawable/img_placeholder_large"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_profile_home_img"
+                android:visibility="gone"
+                app:attribute_border_drawable="@drawable/img_placeholder_large"
+                app:attribute_mask_drawable="@drawable/circle_mask" />
+
+            <TextView
+                style="@style/Text_SubheadingMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dimen_8dp"
+                android:layout_marginStart="@dimen/dimen_16dp"
+                android:layout_marginEnd="@dimen/dimen_16dp"
+                android:layout_marginTop="@dimen/dimen_16dp"
+                android:gravity="start"
+                android:text="@string/remove_user_title"
+                android:textColor="@color/black_light_theme_text_color"
+                android:textStyle="bold" />
+
+            <TextView
+                style="@style/Text_Caption"
+                android:id="@+id/tv_message"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dimen_8dp"
+                android:layout_marginStart="@dimen/dimen_16dp"
+                android:layout_marginEnd="@dimen/dimen_16dp"
+                android:layout_marginTop="@dimen/dimen_8dp"
+                android:gravity="start"
+                android:text="@string/remove_this_profile"
+                android:textColor="@color/black_light_theme_text_color" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:layout_marginEnd="@dimen/dimen_16dp"
+            android:orientation="horizontal">
+
+            <styleguide.buttons.Button
+                android:id="@+id/btn_no"
+                style="?borderlessButtonStyle"
+                android:layout_width="@dimen/dimen_64dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/dimen_4dp"
+                android:contentDescription="@string/cancel"
+                android:text="@string/no"
+                android:textStyle="bold"
+                android:textColor="@color/black_light_theme_text_color" />
+
+            <styleguide.buttons.Button
+                android:id="@+id/btn_yes"
+                android:layout_width="@dimen/dimen_64dp"
+                style="?borderlessButtonStyle"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dimen_4dp"
+                android:contentDescription="@string/continue_button"
+                android:text="@string/yes"
+                android:textStyle="bold"
+                android:textColor="@color/black_light_theme_text_color" />
+        </LinearLayout>
+    </LinearLayout>
+</layout>

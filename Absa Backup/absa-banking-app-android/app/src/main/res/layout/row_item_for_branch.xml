@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/parent_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/small_space"
+        android:layout_marginBottom="@dimen/small_space"
+        android:layout_weight="0.8"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/bankNameTextView"
+            style="@style/LargeTextRegularDark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/medium_space"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textColor="@color/dark_grey_light_theme_text_color"
+            tools:text="Branch" />
+
+        <TextView
+            android:id="@+id/branchCodeTextView"
+            style="@style/SmallTextRegularDark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/medium_space"
+            android:layout_marginTop="@dimen/tiny_space"
+            android:ellipsize="end"
+            android:gravity="end"
+            android:maxLines="1"
+            android:paddingBottom="@dimen/small_space"
+            android:textColor="@color/dark_grey_light_theme_text_color"
+            tools:text="12345" />
+    </LinearLayout>
+
+    <RadioButton
+        android:id="@+id/selectedBranchRadioButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/medium_space"
+        android:layout_marginEnd="@dimen/medium_space"
+        android:button="@drawable/round_check_box_view_button" />
+</LinearLayout>

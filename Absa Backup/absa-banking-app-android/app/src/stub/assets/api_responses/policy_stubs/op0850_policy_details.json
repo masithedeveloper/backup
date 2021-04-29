@@ -1,0 +1,86 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0850",
+      "resCde": "00000",
+      "resMsg": "SUCCESS",
+      "serVer": "2.0"
+    },
+    "payData": {
+      "inceptionDate": "2017-01-01",
+      "expiryDate": "",
+      "componentsJsonBean": [
+        {
+          "componentName": "Home Owner",
+          "coverAmount": {
+            "curr": "R",
+            "amt": "130,863"
+          },
+          "premiumAmount": {
+            "curr": "R",
+            "amt": "82.91"
+          },
+          "address": {
+            "addressLine1": "randburg",
+            "addressLine2": "",
+            "suburbRsa": "NORTHCLIFF EXT 3",
+            "town": "JOHANNESBURG",
+            "postalCode": "2195"
+          }
+        },
+        {
+          "componentName": "Home Owner",
+          "coverAmount": {
+            "curr": "R",
+            "amt": "130,863"
+          },
+          "premiumAmount": {
+            "curr": "R",
+            "amt": "71.37"
+          },
+          "address": {
+            "addressLine1": "sandton",
+            "addressLine2": "",
+            "suburbRsa": "SANDTON",
+            "town": "SANDTON",
+            "postalCode": "2196"
+          }
+        }
+      ],
+      "dtoJsonBean": {
+        "policyDescription": "ABSA HOC",
+        "policyNumber": "6511498241",
+        "coverAmount": {
+          "curr": "R",
+          "amt": ""
+        },
+        "premiumAmount": {
+          "curr": "R",
+          "amt": ""
+        },
+        "policyStatus": "",
+        "policyType": "",
+        "processingType": "",
+        "manageClaims": ""
+      },
+      "claimTypeST": [
+        "Home Owner"
+      ],
+      "numberOfBenefits": 0,
+      "noOfRolePlayers": 0,
+      "policyFee": {
+        "curr": "",
+        "amt": ""
+      },
+      "paymentDTO": {
+        "bankName": "absa bank",
+        "accountNumber": "8050375425",
+        "accountType": "Home loan",
+        "branchName": "Absa",
+        "branchCode": "absa bank",
+        "nextPremiumDate": "2019-01-01",
+        "premiumFrequency": "MONTHLY"
+      }
+    }
+  }
+}

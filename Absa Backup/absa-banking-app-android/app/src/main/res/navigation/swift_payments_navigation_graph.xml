@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/swift_navigation_graph"
+    app:startDestination="@id/swiftSenderDetailsFragment">
+    <fragment
+        android:id="@+id/swiftSenderDetailsFragment"
+        android:name="com.barclays.absa.banking.payments.swift.ui.SwiftSenderDetailsFragment"
+        android:label="SwiftSenderDetailsFragment"
+        tools:layout="@layout/swift_sender_details_fragment">
+        <action
+            android:id="@+id/action_swiftSenderDetailsFragment_to_swiftPaymentDetailsFragment"
+            app:destination="@id/swiftPaymentDetailsFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <action
+            android:id="@+id/action_swiftSenderDetailsFragment_to_unableToProcessGenericResultScreenFragment"
+            app:destination="@id/unableToProcessGenericResultScreenFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <action
+            android:id="@+id/action_swiftSenderDetailsFragment_to_genericResultScreenFragment"
+            app:destination="@id/genericResultScreenFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+    <fragment
+        android:id="@+id/swiftPaymentDetailsFragment"
+        android:name="com.barclays.absa.banking.payments.swift.ui.SwiftPaymentDetailsFragment"
+        android:label="SwiftPaymentDetailsFragment"
+        tools:layout="@layout/swift_payment_details_fragment">
+        <action
+            android:id="@+id/action_swiftPaymentDetailsFragment_to_genericResultScreenFragment"
+            app:destination="@id/genericResultScreenFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <action
+            android:id="@+id/action_swiftPaymentDetailsFragment_to_swiftReserveBankDeclarationFragment"
+            app:destination="@id/swiftReserveBankDeclarationFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+    <fragment
+        android:id="@+id/genericResultScreenFragment"
+        android:name="styleguide.screens.GenericResultScreenFragment"
+        android:label="GenericResultScreenFragment"
+        tools:layout="@layout/generic_results_screen_fragment">
+        <argument
+            android:name="GenericResultScreenFragment"
+            app:argType="styleguide.screens.GenericResultScreenProperties" />
+    </fragment>
+    <fragment
+        android:id="@+id/swiftReserveBankDeclarationFragment"
+        android:name="com.barclays.absa.banking.payments.swift.ui.SwiftReserveBankDeclarationFragment"
+        android:label="SwiftReserveBankDeclarationFragment"
+        tools:layout="@layout/swift_reserve_bank_declaration_fragment" />
+    <fragment
+        android:id="@+id/unableToProcessGenericResultScreenFragment"
+        android:name="styleguide.screens.GenericResultScreenFragment"
+        android:label="GenericResultScreenFragment"
+        tools:layout="@layout/generic_results_screen_fragment">
+        <argument
+            android:name="GenericResultScreenFragment"
+            app:argType="styleguide.screens.GenericResultScreenProperties" />
+    </fragment>
+</navigation>

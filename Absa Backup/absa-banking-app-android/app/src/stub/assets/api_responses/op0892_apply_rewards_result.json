@@ -1,0 +1,16 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resCde": "00000",
+      "resId": "RES0892",
+      "resMsg": "",
+      "serVer": "2.0"
+    },
+    "payData": {
+      "membershipNo": "23418908",
+      "regisStatus": "success",
+      "txnMsg": "Thank you for your application",
+      "txnRef": "800015A0CE-9"
+    }
+  }
+}

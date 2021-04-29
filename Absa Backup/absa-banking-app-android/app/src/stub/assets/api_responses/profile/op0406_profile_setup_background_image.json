@@ -1,0 +1,15 @@
+{
+  "successResponseModel" : {
+    "payData" : {
+      "status" : "Success",
+      "imageName" : "eSFWWODSsegym6P8YleJdR2toRy2OfBZ9w4F0yxiiG0="
+    },
+    "payHdr" : {
+      "resCde" : "00000",
+      "serVer" : "2.0",
+      "expTrace" : null,
+      "resMsg" : null,
+      "resId" : "RES0406"
+    }
+  }
+}

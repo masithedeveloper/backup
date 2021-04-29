@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/termsAndConditionsLayout"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="@dimen/medium_space"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toTopOf="@+id/divider"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <styleguide.content.SecondaryContentAndLabelView
+                        android:id="@+id/overdraftCreditProtectionTermsAndConditionsView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone"
+                        app:attribute_secondary_content="@string/overdraft_quote_terms_and_conditions_credit_protection" />
+
+                    <styleguide.content.SecondaryContentAndLabelView
+                        android:id="@+id/overdraftTermsAndConditionsView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:attribute_secondary_content="@string/overdraft_quote_terms_and_conditions" />
+
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+
+        <View
+            android:id="@+id/divider"
+            style="@style/DividerView"
+            android:layout_width="0dp"
+            android:layout_marginTop="@dimen/medium_space"
+            android:layout_marginBottom="@dimen/medium_space"
+            app:layout_constraintBottom_toTopOf="@+id/termsAndConditionsCheckBox"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/termsAndConditionsLayout" />
+
+        <styleguide.forms.CheckBoxView
+            android:id="@+id/termsAndConditionsCheckBox"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_description="@string/overdraft_term_and_condition_3"
+            app:attribute_is_required="true"
+            app:layout_constraintBottom_toTopOf="@+id/nextButton"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <styleguide.buttons.Button
+            android:id="@+id/nextButton"
+            style="@style/PrimaryButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/next"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

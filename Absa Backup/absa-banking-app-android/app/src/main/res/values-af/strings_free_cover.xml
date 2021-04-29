@@ -1,0 +1,44 @@
+<resources>
+    <string name="free_cover_title">Gratis dekking</string>
+    <string name="free_cover_description">Kry gratis ongeluksterftedekking vir \'n jaar</string>
+    <string name="free_cover_accidental_cover_description">Ongeluksterftedekking vir jou</string>
+    <string name="free_cover_for_12_months_description">Gratis dekking vir 12 maande</string>
+    <string name="free_cover_add_a_beneficiary_description">Jy moet net ŉ begunstigde byvoeg</string>
+    <string name="free_cover_find_out_more">Vind meer uit</string>
+    <string name="free_cover_apply_now">Doen nou aansoek</string>
+    <string name="free_cover_cover_title">Dekking</string>
+    <string name="free_cover_cover_amount">Dekkingsbedrag</string>
+    <string name="free_cover_monthly_premium">Maandelikse premie</string>
+    <string name="free_cover_start_date">Begindatum</string>
+    <string name="free_cover_details">Besonderhede</string>
+    <string name="free_cover_main_member">Hooflid</string>
+    <string name="free_cover_policy_should_be_paid_out_to">Hierdie polis moet uitbetaal word aan</string>
+    <string name="free_cover_address">Adres</string>
+    <string name="free_cover_contact_number">Kontaknommer</string>
+    <string name="free_cover_email">E-pos</string>
+    <string name="free_cover_beneficiary_contact_details">Begunstigde kontakbesonderhede</string>
+    <string name="free_cover_confirmation">Bevestiging</string>
+    <string name="free_cover_contact_call_centre">Kontak gerus ons Absa Lewens-inbelsentrum by 0860 227 253 vir hulp.</string>
+    <string name="free_cover_application_approved">Polisnommer: %s \n\nJou dekking sal begin op: %s</string>
+    <string name="free_cover_something_went_wrong_description">Ons werk daaraan, probeer asseblief \'n bietjie later weer.</string>
+    <string name="free_cover_something_went_wrong_error">Iets het verkeerd geloop</string>
+    <string name="free_cover_employment_status">Indiensnemingstatus</string>
+    <string name="free_cover_occupation">Beroep</string>
+    <string name="free_cover_beneficiary_title">Titel</string>
+    <string name="free_cover_i_agree_to_terms">Ek aanvaar die Bepalings &amp; Voorwaardes</string>
+    <string name="free_cover_terms_and_conditions">Bepalings &amp; Voorwaardes</string>
+    <string name="free_cover_estate_late">Boedel wyle %s</string>
+    <string name="free_cover_cover_amount_and_monthly_premium">%s teen %s p/m</string>
+    <string name="free_cover_relationship_list_title">Verwantskapskategorie</string>
+    <string name="free_cover_spouse">Gade</string>
+    <string name="free_cover_children">Kinders</string>
+    <string name="free_cover_parents">Ouers/Skoonouers</string>
+    <string name="free_cover_extended_family">Uitgebreide familie</string>
+    <string name="free_cover_date_of_birth_description">Slegs ouderdomme 18-70 toegelaat</string>
+
+    <string name="free_cover_whats_new_title">Gratis, ja gratis</string>
+    <string name="free_cover_whats_new_content">Kry R 100 000 gratis ongeluksterftedekking vir \'n jaar</string>
+
+    <string name="free_cover_please_enter_suburb_first">Voer eers \'n voorstad in</string>
+    <string name="free_cover_invalid_city_and_postal_code_error">Kies \'n ander stad en poskode</string>
+</resources>

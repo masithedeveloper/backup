@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    style="@style/ScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.barclays.absa.banking.avaf.documentRequest.ui.natiscopy.AvafNatisCopyConfirmationFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <styleguide.content.PrimaryContentAndLabelView
+            android:id="@+id/emailPrimaryContentAndLabelView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_primary_label="@string/avaf_document_request_confirmation_email_address"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:attribute_primary_content="jdoe@absa.africa" />
+
+        <styleguide.content.SecondaryContentAndLabelView
+            android:id="@+id/requestTypeSecondaryContentAndLabelView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_secondary_content="@string/avaf_document_request_electronic_copy_of_natis"
+            app:attribute_secondary_label="@string/avaf_document_request_confirmation_request"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/emailPrimaryContentAndLabelView" />
+
+        <styleguide.content.SecondaryContentAndLabelView
+            android:id="@+id/accountNumberSecondaryContentAndLabelView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_secondary_label="@string/avaf_document_request_account_number"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/requestTypeSecondaryContentAndLabelView"
+            tools:attribute_secondary_content="2020202020202" />
+
+        <styleguide.content.SecondaryContentAndLabelView
+            android:id="@+id/documentDateSecondaryContentAndLabelView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            app:attribute_secondary_label="@string/avaf_document_request_confirmation_date"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/accountNumberSecondaryContentAndLabelView"
+            tools:attribute_secondary_content="2020"
+            tools:visibility="visible" />
+
+        <styleguide.buttons.Button
+            android:id="@+id/confirmButton"
+            style="@style/PrimaryButton"
+            android:layout_width="0dp"
+            android:text="@string/avaf_document_request_confirm"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/documentDateSecondaryContentAndLabelView"
+            app:layout_constraintVertical_bias="1" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:id="@+id/rl_backgroundContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/iv_sureCheckLock"
+            android:layout_width="@dimen/dimen_80dp"
+            android:layout_height="@dimen/dimen_80dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/dimen_32dp"
+            android:contentDescription=""
+            app:srcCompat="@drawable/ic_lock" />
+
+        <TextView
+            android:id="@+id/tv_noticeMessage"
+            style="@style/TitleTextBoldDark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_sureCheckLock"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="@dimen/medium_space"
+            android:layout_marginTop="@dimen/dimen_24dp"
+            android:gravity="center"
+            android:text="@string/is_surecheck_device_available" />
+
+        <TextView
+            android:id="@+id/tv_instructionText"
+            android:layout_margin="@dimen/medium_space"
+            style="@style/NormalTextMediumDark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_noticeMessage"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/dimen_24dp"
+            android:text="@string/surecheck_2_0_instruction"
+            android:visibility="visible" />
+
+        <styleguide.buttons.Button
+            android:id="@+id/btn_yes"
+            style="@style/SecondaryButton"
+            android:layout_width="match_parent"
+            android:layout_above="@+id/btn_no"
+            android:contentDescription="@string/yes"
+            android:text="@string/yes" />
+
+        <styleguide.buttons.Button
+            android:layout_marginTop="@dimen/medium_space"
+            android:id="@+id/btn_no"
+            style="@style/PrimaryButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:contentDescription="@string/no"
+            android:text="@string/no" />
+    </RelativeLayout>
+</layout>

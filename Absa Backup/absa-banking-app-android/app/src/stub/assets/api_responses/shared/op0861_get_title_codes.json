@@ -1,0 +1,281 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0861",
+      "resCde": "00000",
+      "resMsg": "Success",
+      "serVer": "2.0",
+      "expTrace": null
+    },
+    "payData": {
+      "lookups": [
+        {
+          "itemCode": "03",
+          "groupCode": "TITLE",
+          "cmsKey": null,
+          "defaultLabel": "MISS"
+        },
+        {
+          "itemCode": "01",
+          "groupCode": "TITLE",
+          "cmsKey": null,
+          "defaultLabel": "MR"
+        },
+        {
+          "itemCode": "02",
+          "groupCode": "TITLE",
+          "cmsKey": null,
+          "defaultLabel": "MRS"
+        },
+        {
+          "itemCode": "21",
+          "groupCode": "TITLE",
+          "cmsKey": null,
+          "defaultLabel": "MS"
+        },
+        {
+          "itemCode": "",
+          "groupCode": "TITLE",
+          "cmsKey": null,
+          "defaultLabel": "---------------------------------------------"
+        },
+        {
+          "itemCode": "33",
+          "groupCode": "TITLE",
+          "cmsKey": null,
+          "defaultLabel": "ADMIRAL"
+        },
+        {
+          "itemCode": "20",
+          "groupCode": "TITLE",
+          "cmsKey": null,
+          "defaultLabel": "ADVOCATE"
+        },
+        {
+          "itemCode": "11",
+          "groupCode": "TITLE",
+          "cmsKey": null,
+          "defaultLabel": "BRIGADIER"
+        },
+        {
+          "itemCode": "14",
+          "groupCode": "TITLE",
+          "cmsKey": null,
+          "defaultLabel": "BRIGADIER-GENERAL"
+        },
+        {
+          "itemCode": "12",
+          "groupCode": "TITLE",
+          "cmsKey": null,
+          "defaultLabel": "CAPTAIN"
+        },
+        {
+          "itemCode": "13",
+          "groupCode": "TITLE",
+          "cmsKey": null,
+          "defaultLabel": "CHIEF"
+        },
+        {
+          "itemCode": "09",
+          "groupCode": "TITLE",
+          "cmsKey": null,
+          "defaultLabel": "COLONEL"
+        },
+        {
+          "itemCode": "41",
+          "groupCode": "TITLE",
+          "cmsKey": null,
+          "defaultLabel": "COMMISSIONER"
+        },
+        {
+          "itemCode": "27",
+          "groupCode": "TITLE",
+          "cmsKey": null,
+          "defaultLabel": "CONSTABLE"
+        },
+        {
+          "itemCode": "44",
+          "groupCode": "TITLE",
+          "cmsKey": null,
+          "defaultLabel": "DIRECTOR"
+        },
+        {
+          "itemCode": "05",
+          "groupCode": "TITLE",
+          "cmsKey": null,
+          "defaultLabel": "DOCTOR"
+        },
+        {
+          "itemCode": "31",
+          "groupCode": "TITLE",
+          "cmsKey": null,
+          "defaultLabel": "EERWAARDE"
+        },
+        {
+          "itemCode": "07",
+          "groupCode": "TITLE",
+          "cmsKey": null,
+          "defaultLabel": "ESTATE LATE"
+        },
+        {
+          "itemCode": "28",
+          "groupCode": "TITLE",
+          "cmsKey": null,
+          "defaultLabel": "FATHER"
+        },
+        {
+          "itemCode": "10",
+          "groupCode": "TITLE",
+          "cmsKey": null,
+          "defaultLabel": "GENERAL"
+        },
+        {
+          "itemCode": "24",
+          "groupCode": "TITLE",
+          "cmsKey": null,
+          "defaultLabel": "INSOLVENT ESTATE"
+        },
+        {
+          "itemCode": "42",
+          "groupCode": "TITLE",
+          "cmsKey": null,
+          "defaultLabel": "INSPECTOR"
+        },
+        {
+          "itemCode": "22",
+          "groupCode": "TITLE",
+          "cmsKey": null,
+          "defaultLabel": "JUDGE"
+        },
+        {
+          "itemCode": "16",
+          "groupCode": "TITLE",
+          "cmsKey": null,
+          "defaultLabel": "LADY"
+        },
+        {
+          "itemCode": "29",
+          "groupCode": "TITLE",
+          "cmsKey": null,
+          "defaultLabel": "LIEUTENANT"
+        },
+        {
+          "itemCode": "36",
+          "groupCode": "TITLE",
+          "cmsKey": null,
+          "defaultLabel": "LIEUTENANT COLONEL"
+        },
+        {
+          "itemCode": "35",
+          "groupCode": "TITLE",
+          "cmsKey": null,
+          "defaultLabel": "LIEUTENANT GENERAL"
+        },
+        {
+          "itemCode": "19",
+          "groupCode": "TITLE",
+          "cmsKey": null,
+          "defaultLabel": "LORD"
+        },
+        {
+          "itemCode": "08",
+          "groupCode": "TITLE",
+          "cmsKey": null,
+          "defaultLabel": "MAJOR"
+        },
+        {
+          "itemCode": "34",
+          "groupCode": "TITLE",
+          "cmsKey": null,
+          "defaultLabel": "MAJOR GENERAL"
+        },
+        {
+          "itemCode": "37",
+          "groupCode": "TITLE",
+          "cmsKey": null,
+          "defaultLabel": "MINISTER"
+        },
+        {
+          "itemCode": "18",
+          "groupCode": "TITLE",
+          "cmsKey": null,
+          "defaultLabel": "PARAMOUNT CHIEF"
+        },
+        {
+          "itemCode": "25",
+          "groupCode": "TITLE",
+          "cmsKey": null,
+          "defaultLabel": "PASTOR"
+        },
+        {
+          "itemCode": "38",
+          "groupCode": "TITLE",
+          "cmsKey": null,
+          "defaultLabel": "PRESIDENT"
+        },
+        {
+          "itemCode": "04",
+          "groupCode": "TITLE",
+          "cmsKey": null,
+          "defaultLabel": "PROFESSOR"
+        },
+        {
+          "itemCode": "23",
+          "groupCode": "TITLE",
+          "cmsKey": null,
+          "defaultLabel": "RABBI"
+        },
+        {
+          "itemCode": "06",
+          "groupCode": "TITLE",
+          "cmsKey": null,
+          "defaultLabel": "REVEREND"
+        },
+        {
+          "itemCode": "26",
+          "groupCode": "TITLE",
+          "cmsKey": null,
+          "defaultLabel": "SERGEANT"
+        },
+        {
+          "itemCode": "45",
+          "groupCode": "TITLE",
+          "cmsKey": null,
+          "defaultLabel": "SERGEANT MAJOR"
+        },
+        {
+          "itemCode": "15",
+          "groupCode": "TITLE",
+          "cmsKey": null,
+          "defaultLabel": "SIR"
+        },
+        {
+          "itemCode": "30",
+          "groupCode": "TITLE",
+          "cmsKey": null,
+          "defaultLabel": "SISTER"
+        },
+        {
+          "itemCode": "43",
+          "groupCode": "TITLE",
+          "cmsKey": null,
+          "defaultLabel": "SUPERINTENDENT/SENIOR SUPERINTENDENT"
+        },
+        {
+          "itemCode": "39",
+          "groupCode": "TITLE",
+          "cmsKey": null,
+          "defaultLabel": "THE HONOURABLE"
+        },
+        {
+          "itemCode": "40",
+          "groupCode": "TITLE",
+          "cmsKey": null,
+          "defaultLabel": "WARRANT OFFICER"
+        }
+      ],
+      "txnStatus": "Success",
+      "txnMessage": "Success"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES2034",
+      "resCde": "00000",
+      "resMsg": "Success",
+      "serVer": "2.0"
+    },
+    "payData": {
+      "bcmsCaseNumber": "ecd3a9a3-718e-484c-a3e9-02d637dc7802",
+      "scanIdDocumentRequired": "false",
+      "absaRewardsExist": "true",
+      "txnStatus": "Success",
+      "txnMessage": "Success"
+    }
+  }
+}

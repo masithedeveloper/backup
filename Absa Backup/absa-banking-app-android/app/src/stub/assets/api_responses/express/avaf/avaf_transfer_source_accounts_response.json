@@ -1,0 +1,41 @@
+{
+  "header": {
+    "statuscode": "0",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36",
+    "wfpt": "f5c4094950f209ea8c0",
+    "jsessionid": "Q_ALFYoBJoGOr6eZ3eVKcHEHudSFYZyd5NrkzZ-z",
+    "esessionid": "4cc7fb64e91dc615d0a4",
+    "xfpt": "f3bf7f74e07f9468520",
+    "service": "sourceaccountservice",
+    "operation": "sourceaccountoperation",
+    "channel": "I",
+    "timestamp": "2020-05-25 13:00:51",
+    "sourceip": "22.240.44.100",
+    "accessAccount": "4047449746",
+    "userNumber": "",
+    "nonce": "KaLRCQMe7WSv5DoQkGWgy5B4XvaED8avcblNFKptkMI",
+    "language": "en",
+    "organization": "ABSA",
+    "brand": "ABSA",
+    "applicationId": "INTERNETCBNK",
+    "paginationContext": {
+      "moreToCome": false,
+      "batchSize": 0,
+      "batchSizeLimit": 0,
+      "recordIdentity": "0",
+      "totalNoOfRecords": 0
+    }
+  },
+  "accountsFrom": [
+    {
+      "accountNumber": "XXXXXXXX",
+      "acountType": "Debit",
+      "accountDescription": "Cheque Account"
+    },
+    {
+      "accountNumber": "YYYYYYY",
+      "acountType": "Debit",
+      "accountDescription": "Savings Account"
+    }
+  ]
+}

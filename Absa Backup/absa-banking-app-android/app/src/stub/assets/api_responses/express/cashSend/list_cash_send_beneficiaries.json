@@ -1,0 +1,82 @@
+{
+  "header": {
+    "statuscode": "0",
+    "userAgent": "ANDROID - 6.20.0",
+    "jsessionid": "8m9edtTVjNrp5-gk41W96_AS6kwklQEkNL9HKvPE",
+    "esessionid": "a7f9500a-46e8-36da-94a6-52b43d6fc230",
+    "service": "CashSendBeneficiaryManagementFacade",
+    "operation": "ListCashSendBeneficiaries",
+    "channel": "S",
+    "timestamp": "2021-02-03 12:52:35.663",
+    "sourceip": "22.240.44.100",
+    "accessAccount": "4047510559",
+    "userNumber": "1",
+    "nonce": "eFL4gHUfVNp_5d2jR3BEDBgne4EyJzPwuvxNaSyTtuM",
+    "language": "en",
+    "organization": "ABSA",
+    "brand": "ABSA",
+    "resultMessages": [],
+    "paginationContext": {
+      "moreToCome": false,
+      "batchSize": 9999,
+      "batchSizeLimit": 9999,
+      "recordIdentity": "0",
+      "totalNoOfRecords": 1
+    }
+  },
+  "availableStatuses": [
+    "CURRENT"
+  ],
+  "beneficiaryList": [
+    {
+      "beneficiaryDetailsVO": {
+        "cifKey": "MADIDNJ001",
+        "tieBreaker": "3",
+        "beneficiaryNumber": 6,
+        "instructionType": "CLI",
+        "uniqueEFTNumber": "800039262B",
+        "beneficiaryStatus": "CURRENT",
+        "lastPaymentDateAndTime": "2020-06-23",
+        "lastPaymentAmount": "50.00",
+        "lastPaymentStatus": "SUCCESSFUL",
+        "beneficiaryNumberNameAndAccount": "6 - Test Ss - 0829164646",
+        "beneficiaryName": "Test",
+        "beneficiaryShortName": "Test",
+        "beneficiarySurname": "Ss",
+        "recipientCellNo": "0829164646",
+        "statementReference": "ffgtg"
+      },
+      "beneficiaryNumber": 6,
+      "beneficiaryName": "Test",
+      "targetAccountNumber": "0829164646",
+      "beneficiaryNumberNameAndAccount": "6 - Test Ss - 0829164646",
+      "lastPaymentDateAndTime": "2020-06-23"
+    }
+  ],
+  "recentlyPaidBeneficiaryList": [
+    {
+      "beneficiaryDetailsVO": {
+        "cifKey": "MADIDNJ001",
+        "tieBreaker": "3",
+        "beneficiaryNumber": 6,
+        "instructionType": "CLI",
+        "uniqueEFTNumber": "800039262B",
+        "beneficiaryStatus": "CURRENT",
+        "lastPaymentDateAndTime": "2020-06-23",
+        "lastPaymentAmount": "50.00",
+        "lastPaymentStatus": "SUCCESSFUL",
+        "beneficiaryNumberNameAndAccount": "6 - Test Ss - 0829164646",
+        "beneficiaryName": "Test",
+        "beneficiaryShortName": "Test",
+        "beneficiarySurname": "Ss",
+        "recipientCellNo": "0829164646",
+        "statementReference": "ffgtg"
+      },
+      "beneficiaryNumber": 6,
+      "beneficiaryName": "Test",
+      "targetAccountNumber": "0829164646",
+      "beneficiaryNumberNameAndAccount": "6 - Test Ss - 0829164646",
+      "lastPaymentDateAndTime": "2020-06-23"
+    }
+  ]
+}

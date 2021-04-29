@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <styleguide.content.PrimaryContentAndLabelView
+        android:id="@+id/accountNumberPrimaryContentAndLabelView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:attribute_primary_label="@string/fixed_deposit_account_number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:attribute_primary_content="4901 2092 328" />
+
+    <styleguide.content.SecondaryContentAndLabelView
+        android:id="@+id/bankSecondaryContentAndLabelView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:attribute_secondary_label="@string/bank"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/accountNumberPrimaryContentAndLabelView"
+        tools:attribute_secondary_content="Absa" />
+
+    <styleguide.content.SecondaryContentAndLabelView
+        android:id="@+id/branchSecondaryContentAndLabelView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:attribute_secondary_label="@string/branch"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/bankSecondaryContentAndLabelView"
+        tools:attribute_secondary_content="632 055" />
+
+    <styleguide.content.SecondaryContentAndLabelView
+        android:id="@+id/accountTypeSecondaryContentAndLabelView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:attribute_secondary_label="@string/fixed_deposit_account_type"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/branchSecondaryContentAndLabelView"
+        tools:attribute_secondary_content="Cheque Account" />
+
+    <styleguide.content.SecondaryContentAndLabelView
+        android:id="@+id/referenceSecondaryContentAndLabelView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:attribute_secondary_label="@string/fixed_deposit_to_reference"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/accountTypeSecondaryContentAndLabelView"
+        tools:attribute_secondary_content="Fixed Dep 205 633" />
+
+    <styleguide.content.SecondaryContentAndLabelView
+        android:id="@+id/paymentDaySecondaryContentAndLabelView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:attribute_secondary_label="@string/fixed_deposit_interest_payment_day"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/referenceSecondaryContentAndLabelView"
+        tools:attribute_secondary_content="Fixed Dep 205 633" />
+
+    <styleguide.buttons.Button
+        android:id="@+id/confirmButton"
+        style="@style/PrimaryButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/confirm"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

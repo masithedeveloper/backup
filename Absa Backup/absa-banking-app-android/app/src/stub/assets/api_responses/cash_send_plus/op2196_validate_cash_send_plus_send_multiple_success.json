@@ -1,0 +1,57 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES2196",
+      "resCde": "00000",
+      "resMsg": "Success",
+      "serVer": "2.0",
+      "expTrace": null
+    },
+    "payData": {
+      "cashSendDetails": [
+        {
+          "beneficiaryName": "Miller",
+          "beneficiarySurname": "Berst",
+          "beneficiaryShortName": "Mo",
+          "beneficiaryNumber": "1",
+          "fromAccountNo": "4048221600",
+          "cellNo": "0722255222",
+          "statementDescription": "abu",
+          "amount": "100.00",
+          "accessCode": "F69E2C23BD8A1255",
+          "virtualServerID": "INSS",
+          "sessionKeyID": "20000024",
+          "paymentNo": "",
+          "uniqueEFT": "",
+          "multiNo": null,
+          "cashSendTransactionDate": null,
+          "beneficiaryPayment": "false",
+          "cashSendPlus": "true",
+          "action": null
+        },
+        {
+          "beneficiaryName": "Patience",
+          "beneficiarySurname": "Jula",
+          "beneficiaryShortName": "Patty",
+          "beneficiaryNumber": "3",
+          "fromAccountNo": "4048221600",
+          "cellNo": "0727418051",
+          "statementDescription": "REF2",
+          "amount": "120.00",
+          "accessCode": "2E4475F9D4D18D14",
+          "virtualServerID": "INSS",
+          "sessionKeyID": "20000024",
+          "paymentNo": "",
+          "uniqueEFT": "",
+          "multiNo": null,
+          "cashSendTransactionDate": null,
+          "beneficiaryPayment": "false",
+          "cashSendPlus": "true",
+          "action": null
+        }
+      ],
+      "txnStatus": "Success",
+      "txnMessage": "Success"
+    }
+  }
+}

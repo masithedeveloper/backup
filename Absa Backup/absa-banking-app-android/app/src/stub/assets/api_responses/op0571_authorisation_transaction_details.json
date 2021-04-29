@@ -1,0 +1,42 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0571",
+      "resCde": "00000",
+      "resMsg": "SUCCESS",
+      "serVer": "2.0",
+      "expTrace": null
+    },
+    "payData": {
+      "transactionTypeCode": "OOPO",
+      "operatorName": null,
+      "myNotice": "NO",
+      "myNoticeTyp": "N",
+      "myNoticeDtl": "",
+      "transactionType": "Pay Once-off",
+      "requestedBy": "The boss",
+      "fromAccount": "9050889116",
+      "accountType": "",
+      "transactionAmount": {
+        "curr": "R",
+        "amt": "101.99"
+      },
+      "benName": "Reshal",
+      "benAccount": "4047161803",
+      "bankName": "ABSA",
+      "bankCode": "632005",
+      "benRef": "AuthPaySomeoneNew",
+      "myRef": "AuthPaySomeoneNew",
+      "debitDateTime": "2019-09-17 12:23",
+      "transactionDateTime": "2019-09-17-12.23.11.664495",
+      "benNotice": "NO",
+      "benNoticeTyp": "N",
+      "benNoticeDtl": "",
+      "operatorId": null,
+      "toAccount": "4047920534",
+      "cellNumber": null,
+      "networkProvider": null,
+      "iipRef": ""
+    }
+  }
+}

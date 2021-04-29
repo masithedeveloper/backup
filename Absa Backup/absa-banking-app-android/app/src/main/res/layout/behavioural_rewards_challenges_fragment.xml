@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    style="@style/ScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/challengesConstraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:windowBackground">
+
+        <TextView
+            android:id="@+id/noticeTextView"
+            style="@style/LargeTextRegularDark"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/medium_space"
+            android:text="@string/behavioural_rewards_challenges_new_notice_text"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/rewardsVoucherCardView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/medium_space"
+            android:backgroundTint="@color/behavioural_rewards_challenge_card_background"
+            android:visibility="gone"
+            app:cardCornerRadius="@dimen/behavioural_rewards_card_radius"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/noticeTextView"
+            tools:visibility="visible">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/rewardConstraintLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.airbnb.lottie.LottieAnimationView
+                    android:id="@+id/rewardsBannerLottoAnimationView"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/behavioural_banner_animation_height"
+                    android:scaleX="1.05"
+                    android:tint="@null"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:lottie_autoPlay="true"
+                    app:lottie_loop="true" />
+
+                <TextView
+                    android:id="@+id/voucherOfferTitleTextView"
+                    style="@style/LargeTextMediumLight"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/medium_space"
+                    android:layout_marginTop="@dimen/medium_space"
+                    android:layout_marginEnd="@dimen/medium_space"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/rewardsBannerLottoAnimationView"
+                    tools:text="@string/behavioural_rewards_challenge_choose_voucher" />
+
+                <TextView
+                    android:id="@+id/voucherOfferContentTextView"
+                    style="@style/SmallTextRegularLight"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/medium_space"
+                    android:layout_marginTop="@dimen/small_space"
+                    android:layout_marginEnd="@dimen/medium_space"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/voucherOfferTitleTextView"
+                    tools:text="@string/behavioural_rewards_challenge_marketing_consent_complete" />
+
+                <View
+                    android:id="@+id/voucherDividerView"
+                    style="@style/DividerView"
+                    android:layout_width="0dp"
+                    android:layout_margin="@dimen/medium_space"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/voucherOfferContentTextView" />
+
+                <styleguide.buttons.Button
+                    android:id="@+id/voucherButton"
+                    style="@style/BehaviouralRewardsRoundedButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/medium_space"
+                    android:minHeight="0dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/voucherDividerView"
+                    tools:text="@string/behavioural_rewards_challenges_claim_reward" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/emptyStateCardView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/medium_space"
+            android:layout_marginTop="@dimen/large_space"
+            android:layout_marginEnd="@dimen/medium_space"
+            android:backgroundTint="@color/pale_grey"
+            android:visibility="gone"
+            app:cardCornerRadius="@dimen/behavioural_rewards_card_radius"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rewardsVoucherCardView"
+            tools:visibility="visible">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/emptyStateConstraintLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/emptyImageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/small_space"
+                    android:padding="@dimen/small_space"
+                    android:src="@drawable/ic_empty_challenge"
+                    android:tint="@null"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/emptyStateTitleTextView"
+                    style="@style/LargeTextRegularDark"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/tiny_space"
+                    android:layout_marginEnd="@dimen/medium_space"
+                    android:text="@string/behavioural_rewards_no_challenges_available"
+                    android:textColor="@color/foil"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/emptyImageView"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_chainStyle="packed" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+
+        <styleguide.buttons.OptionActionButtonView
+            android:id="@+id/termsAndConditionsOptionActionButtonView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/medium_space"
+            android:visibility="gone"
+            app:attribute_caption="@string/behavioural_rewards_view_terms_and_conditions"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/emptyStateCardView" />
+
+        <View
+            android:id="@+id/dividerView"
+            style="@style/DividerView"
+            android:layout_width="0dp"
+            android:layout_margin="@dimen/medium_space"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/termsAndConditionsOptionActionButtonView" />
+
+        <TextView
+            android:id="@+id/yourRewardsTextView"
+            style="@style/LargeTextMediumDark"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/medium_space"
+            android:text="@string/behavioural_rewards_challenges_your_vouchers_title"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/dividerView" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/vouchersRecyclerView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:fitsSystemWindows="true"
+            android:nestedScrollingEnabled="false"
+            android:paddingBottom="@dimen/medium_space"
+            android:splitMotionEvents="false"
+            android:visibility="gone"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/yourRewardsTextView"
+            tools:listitem="@layout/behavioural_rewards_voucher_item" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

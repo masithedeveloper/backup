@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        style="@style/ScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/small_space">
+
+            <styleguide.content.PrimaryContentAndLabelView
+                android:id="@+id/mainMemberNamePrimaryContentAndLabelView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_primary_label="@string/ultimate_protector_beneficiary_details"
+                app:attribute_should_show_check_box="false"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <styleguide.buttons.Button
+                android:id="@+id/overviewContinueButton"
+                style="@style/PrimaryButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/confirm"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/yearlyIncreaseSecondaryContentAndLabelView"
+                app:layout_constraintVertical_bias="1" />
+
+            <styleguide.content.SecondaryContentAndLabelView
+                android:id="@+id/debitFrequencySecondaryContentAndLabelView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_is_secondary_check_box_checked="false"
+                app:attribute_secondary_content="@string/monthly"
+                app:attribute_secondary_label="@string/funeral_debit_order_frequency"
+                app:attribute_should_show_check_box="false"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/debitDaySecondaryContentAndLabelView" />
+
+            <styleguide.content.SecondaryContentAndLabelView
+                android:id="@+id/policyStartDateSecondaryContentAndLabelView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_is_secondary_check_box_checked="false"
+                app:attribute_secondary_label="@string/policy_start"
+                app:attribute_should_show_check_box="false"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/debitFrequencySecondaryContentAndLabelView" />
+
+            <styleguide.content.SecondaryContentAndLabelView
+                android:id="@+id/accountToDebitSecondaryContentAndLabelView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_is_secondary_check_box_checked="false"
+                app:attribute_secondary_label="@string/account_to_debit"
+                app:attribute_should_show_check_box="false"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/policyStartDateSecondaryContentAndLabelView" />
+
+            <styleguide.content.SecondaryContentAndLabelView
+                android:id="@+id/employmentStatusSecondaryContentAndLabelView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_is_secondary_check_box_checked="false"
+                app:attribute_secondary_label="@string/buy_unit_trust_employee_status_header"
+                app:attribute_should_show_check_box="false"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/accountToDebitSecondaryContentAndLabelView" />
+
+            <styleguide.content.SecondaryContentAndLabelView
+                android:id="@+id/occupationSecondaryContentAndLabelView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                app:attribute_is_secondary_check_box_checked="false"
+                app:attribute_secondary_label="@string/buy_unit_trust_occupation_header"
+                app:attribute_should_show_check_box="false"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/employmentStatusSecondaryContentAndLabelView" />
+
+            <styleguide.content.SecondaryContentAndLabelView
+                android:id="@+id/sourceOfFundsSecondaryContentAndLabelView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_is_secondary_check_box_checked="false"
+                app:attribute_secondary_label="@string/source_of_funds"
+                app:attribute_should_show_check_box="false"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/occupationSecondaryContentAndLabelView" />
+
+            <styleguide.content.SecondaryContentAndLabelView
+                android:id="@+id/yearlyIncreaseSecondaryContentAndLabelView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_is_secondary_check_box_checked="false"
+                app:attribute_secondary_label="@string/yearly_increase"
+                app:attribute_should_show_check_box="false"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/sourceOfFundsSecondaryContentAndLabelView" />
+
+            <styleguide.content.SecondaryContentAndLabelView
+                android:id="@+id/debitDaySecondaryContentAndLabelView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_is_secondary_check_box_checked="false"
+                app:attribute_secondary_label="@string/debit_day"
+                app:attribute_should_show_check_box="false"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/mainMemberNamePrimaryContentAndLabelView" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</layout>

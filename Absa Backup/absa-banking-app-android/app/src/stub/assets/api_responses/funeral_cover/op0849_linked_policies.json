@@ -1,0 +1,101 @@
+{
+  "successResponseModel":{
+    "payHdr":{
+      "resId":"RES0849",
+      "resCde":"00000",
+      "resMsg":"SUCCESS",
+      "serVer":"2.0"
+    },
+    "payData":{
+      "jsonBeanList":[
+        {
+          "policyDescription": "Enhanced Flexi Funeral",
+          "policyNumber": "6633691175",
+          "coverAmount": {
+            "curr": "R",
+            "amt": "20,000"
+          },
+          "premiumAmount": {
+            "curr": "R",
+            "amt": "58.06"
+          },
+          "policyStatus": "Active",
+          "policyType": "Exergy",
+          "processingType": null,
+          "manageClaims": "true",
+          "financialInstitRef": null,
+          "productCode": null,
+          "renewDate": null
+        },
+        {
+          "policyDescription":"LIFE @ ABSA ONLINE",
+          "policyNumber":"6440606404",
+          "coverAmount":{
+            "curr":"R",
+            "amt":"500,000"
+          },
+          "premiumAmount":{
+            "curr":"R",
+            "amt":"250.83"
+          },
+          "policyStatus":"Active",
+          "policyType":"LI",
+          "processingType":"L",
+          "manageClaims":"false",
+          "productCode":"ABCO"
+        },
+        {
+          "policyDescription":"LIFE @ ABSA ONLINE",
+          "policyNumber":"6440606399",
+          "coverAmount":{
+            "curr":"R",
+            "amt":"500,000"
+          },
+          "premiumAmount":{
+            "curr":"R",
+            "amt":"250.83"
+          },
+          "policyStatus":"Active",
+          "policyType":"LI",
+          "processingType":"L",
+          "manageClaims":"false",
+          "productCode":"ABCO"
+        },
+        {
+          "policyDescription":"FUNERAL COVER @ ABSA ONLINE",
+          "policyNumber":"6440549559",
+          "coverAmount":{
+            "curr":"R",
+            "amt":"55,125"
+          },
+          "premiumAmount":{
+            "curr":"R",
+            "amt":"388.24"
+          },
+          "policyStatus":"Active",
+          "policyType":"LI",
+          "processingType":"F",
+          "manageClaims":"true",
+          "productCode":"PFPO"
+        },
+        {
+          "policyDescription":"ABSA IDIRECT",
+          "policyNumber":"6511460341",
+          "coverAmount":{
+            "curr":"R",
+            "amt":"2,879,837"
+          },
+          "premiumAmount":{
+            "curr":"R",
+            "amt":"3,852.40"
+          },
+          "policyStatus":"Active",
+          "policyType":"ST",
+          "manageClaims":"true",
+          "productCode":"IDIRECT2",
+          "renewDate":"2017-09-01"
+        }
+      ]
+    }
+  }
+}

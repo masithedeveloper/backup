@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="sure_check_help">Hulp</string>
+    <string name="sure_check_reason_for_rejection">Rede vir verwerping</string>
+    <string name="sure_check_rejection_title">Die transaksie gaan verwerp word en gerapporteer as bedrog</string>
+    <string name="sure_check_footer_message">Bevestig slegs transaksies wat jy begin het</string>
+    <string name="sure_check_auth_fingerprint_error">Vingerafdruk word nie erken nie. Probeer asseblief weer</string>
+    <string name="sure_check_auth_fingerprint_last_error">Gebruik asseblief jou wagwoord om aan te teken</string>
+    <string name="sure_check_auth_dialog_intial_message">Plaas jou vinger op die sensor</string>
+    <string name="sure_check_fraud_hotline">Bedrog kontak nommer</string>
+    <string name="sure_check_name_value_origin_device">Van</string>
+
+    <string name="sure_check_security_code">Sekuriteits kode</string>
+    <string name="sure_check_atm_card_number">OTM kaart nommer</string>
+    <string name="sure_check_make_my_primary_device_title">Maak hierdie toestel my verifikasie toestel?</string>
+    <string name="sure_check_make_my_primary_device_sub_title">Jou verifikasie toestel sal ontkoppel word.</string>
+    <string name="sure_check_atm_card_pin">PIN</string>
+    <string name="sure_check_contact_support">Kontak ons vir hulp</string>
+    <string name="sure_check_contact_support_number">08600 08600</string>
+    <string name="sure_check_cancel_flow_message">Is jy seker jy wil kanselleer?</string>
+    <string name="sure_check_cancel_flow_message_title">Kanselleer</string>
+
+    <string name="sure_check_device_not_available_title">Kies \'n rede</string>
+    <string name="sure_check_device_not_available_caption">Kies asseblief \'n moontlike rede waarom jy nie jou Verifiëringsversoek ontvang nie</string>
+
+    <string name="sure_check_request_activity_footer_message">2-faktor magtiging help met die beskerm van jou rekening teen bedrog</string>
+    <string name="sure_check_remaining_for_approval">oorbly vir goedkeuring</string>
+    <string name="sure_check_request_activity_title">Verifiëring benodig</string>
+    <string name="sure_check_approval_message">Reageer asseblief op die verifiëringsversoek wat na jou verifiërings toestel gestuur is</string>
+
+    <string name="sure_check_rvn">LKN</string>
+    <string name="sure_check_tvn">TKN</string>
+    <string name="sure_check_title_content_rvn">LKN</string>
+    <string name="sure_check_title_content_tvn">TKN</string>
+    <string name="sure_check_enter_code_rvn">LKN kode</string>
+    <string name="sure_check_enter_code_tvn">TKN kode</string>
+    <string name="sure_check_toolbar_title_rvn">Bevestig LKN</string>
+    <string name="sure_check_toolbar_title_tvn">Bevestig TKN</string>
+    <string name="sure_check_resend_button_rvn">Stuur weer LKN</string>
+    <string name="sure_check_resend_button_tvn">Stuur weer TKN</string>
+    <string name="sure_check_enter_code_hint_rvn">Voer jou LKN kode in</string>
+    <string name="sure_check_enter_code_hint_tvn">Voer jou TKN kode in</string>
+
+    <string name="sure_check_connectivity_restored_message">Netwerk herstel; gekonnekteer aan%1$s</string>
+    <string name="sure_check_rejected_copy">Ons het jou transaksie verwerp en dit gerapporteer as bedrog.</string>
+    <string name="sure_check_suspicious_transaction_title">Verdagte Transaksie</string>
+
+</resources>

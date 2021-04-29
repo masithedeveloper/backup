@@ -1,0 +1,31 @@
+{
+  "successResponseModel":{
+    "payHdr":{
+      "resId":"RES0990",
+      "resCde":"00000",
+      "resMsg":null,
+      "serVer":"2.0",
+      "expTrace":null
+    },
+    "payData":{
+      "atmCardNo":null,
+      "email":null,
+      "title":null,
+      "surname":null,
+      "firstName":null,
+      "atmPin":null,
+      "cellPhoneNumber":null,
+      "accounts":null,
+      "enterpriseSessionID":null,
+      "rsaIdNumber":null,
+      "userNumber":null,
+      "success":"false",
+      "failureMessage":"You are already registered for online banking. Please logon to the app using your access account number, pin and user number",
+      "emailActual":null,
+      "cellPhoneNumberActual":null,
+      "failureCode":"USER_EXIST",
+      "clientType":null,
+      "clntAgrmntAccepted":null
+    }
+  }
+}

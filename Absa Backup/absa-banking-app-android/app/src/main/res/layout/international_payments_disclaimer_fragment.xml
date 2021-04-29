@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        style="@style/ScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/westernUnionPaymentLabel"
+                style="@style/TitleTextBoldDark"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/medium_space"
+                android:layout_marginTop="@dimen/medium_space"
+                android:layout_marginEnd="@dimen/medium_space"
+                android:text="@string/western_union_payment_infomration"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/westernUnionDisclaimerText"
+                style="@style/LargeTextRegularDark"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/medium_space"
+                android:layout_marginTop="@dimen/medium_space"
+                android:layout_marginEnd="@dimen/medium_space"
+                android:text="@string/international_disclaimer_description"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/westernUnionPaymentLabel" />
+
+            <View
+                android:id="@+id/divider"
+                style="@style/DividerView"
+                android:layout_width="0dp"
+                app:layout_constraintBottom_toTopOf="@+id/iAgreeCheckBox"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/westernUnionDisclaimerText"
+                app:layout_constraintVertical_bias="1" />
+
+            <styleguide.forms.CheckBoxView
+                android:id="@+id/iAgreeCheckBox"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/double_medium_space"
+                app:attribute_description="@string/i_acknowledge_this_is_an_international_payment"
+                app:attribute_is_required="true"
+                app:layout_constraintBottom_toTopOf="@+id/continueButton"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <styleguide.buttons.Button
+                android:id="@+id/continueButton"
+                style="@style/PrimaryButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/medium_space"
+                android:layout_marginEnd="@dimen/medium_space"
+                android:layout_marginBottom="@dimen/medium_space"
+                android:text="@string/continue_button_international"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</layout>

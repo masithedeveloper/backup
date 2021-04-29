@@ -1,0 +1,16 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0966",
+      "resCde": "00000",
+      "resMsg": "SUCCESS",
+      "serVer": "2.0"
+    },
+    "payData": {
+      "deviceNickName": "0001-Harish",
+      "action": "L",
+      "statusMsg": "SUCCESS",
+      "tvnFlag": ""
+    }
+  }
+}

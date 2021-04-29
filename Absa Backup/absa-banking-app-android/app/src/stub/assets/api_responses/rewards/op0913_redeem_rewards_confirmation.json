@@ -1,0 +1,27 @@
+{
+  "successResponseModel": {
+    "payData": {
+      "sureCheckFlag": null,
+      "regisStatus": "SUCCESS",
+      "txnStatus": null,
+      "redemptionCode": "RWTAIR",
+      "txnMessage": null,
+      "tvnFlag": null,
+      "referenceNumber": null,
+      "notificationMethod": null,
+      "corelationId": null,
+      "membershipID": "170322001726",
+      "cellnumber": null,
+      "transactionDate": null,
+      "email": null,
+      "regisMsg": ""
+    },
+    "payHdr": {
+      "resCde": "00000",
+      "serVer": "2.0",
+      "expTrace": null,
+      "resMsg": "",
+      "resId": "RES0913"
+    }
+  }
+}

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scrollView"
+    style="@style/ScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <styleguide.content.LineItemView
+            android:id="@+id/accountNumberLineItemView"
+            style="@style/NormalTextRegularDark"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/medium_space"
+            app:attribute_label_text="@string/personal_loan_hub_account_number"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <styleguide.content.LineItemView
+            android:id="@+id/availableAdvanceOrArrearsAmountLineItemView"
+            style="@style/NormalTextRegularDark"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_label_text="@string/personal_loan_hub_available_advance"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/accountNumberLineItemView" />
+
+        <styleguide.content.LineItemView
+            android:id="@+id/instalmentLineItemView"
+            style="@style/NormalTextRegularDark"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_label_text="@string/personal_loan_hub_instalment"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/availableAdvanceOrArrearsAmountLineItemView" />
+
+        <styleguide.content.LineItemView
+            android:id="@+id/interestRateLineItemView"
+            style="@style/NormalTextRegularDark"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_label_text="@string/personal_loan_hub_interest_rate"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/instalmentLineItemView" />
+
+        <styleguide.content.LineItemView
+            android:id="@+id/contractDateLineItemView"
+            style="@style/NormalTextRegularDark"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/extra_large_space"
+            app:attribute_label_text="@string/personal_loan_hub_contract_date"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/interestRateLineItemView" />
+
+        <styleguide.content.LineItemView
+            android:id="@+id/termLineItemView"
+            style="@style/NormalTextRegularDark"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_label_text="@string/personal_loan_hub_term"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/contractDateLineItemView" />
+
+        <styleguide.content.LineItemView
+            android:id="@+id/remainingTermLineItemView"
+            style="@style/NormalTextRegularDark"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_label_text="@string/personal_loan_hub_remaining_term"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/termLineItemView" />
+
+        <styleguide.content.LineItemView
+            android:id="@+id/repaymentDayLineItemView"
+            style="@style/NormalTextRegularDark"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_label_text="@string/personal_loan_hub_repayment_day"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/remainingTermLineItemView" />
+
+        <TextView
+            android:id="@+id/descriptionTextView"
+            style="@style/NormalTextRegularDark"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/medium_space"
+            android:paddingTop="@dimen/medium_space"
+            android:text="@string/personal_loan_hub_product_description"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/repaymentDayLineItemView" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

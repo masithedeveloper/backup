@@ -1,0 +1,27 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0124",
+      "resCde": "00000",
+      "resMsg": null,
+      "serVer": "2.0",
+      "expTrace": null
+    },
+    "payData": {
+      "pinBlock": "401398FFCD8A9FED",
+      "statusMsg": null,
+      "pinReference": "10528A",
+      "cardPinBlock": "<![CDATA[3|0|5471200032756012|5471200032756012401398FFCD8A9FED|10528A]]>",
+      "sureCheckFlag": null,
+      "tvnFlag": null,
+      "referenceNumber": null,
+      "corelationId": null,
+      "transactionDate": null,
+      "cellnumber": null,
+      "email": null,
+      "notificationMethod": null,
+      "txnStatus": "Success",
+      "txnMessage": "Success"
+    }
+  }
+}

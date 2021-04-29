@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scrollView"
+    style="@style/ScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <styleguide.content.TertiaryContentAndLabelView
+            android:id="@+id/creditStatusTertiaryContentView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_tertiary_content="@string/would_you_like_to_hear"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/marketingConsentLayout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/creditStatusTertiaryContentView">
+
+            <styleguide.forms.CheckBoxView
+                android:id="@+id/emailCheckBoxView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_description="@string/email"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <styleguide.forms.CheckBoxView
+                android:id="@+id/smsCheckBoxView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_description="@string/notification_sms"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/emailCheckBoxView" />
+
+            <styleguide.forms.CheckBoxView
+                android:id="@+id/voiceRecordingCheckBoxView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_description="@string/voice_recording"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/smsCheckBoxView" />
+
+            <styleguide.forms.CheckBoxView
+                android:id="@+id/noThanksCheckBoxView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_description="@string/no_thanks"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/voiceRecordingCheckBoxView" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:id="@+id/errorTextView"
+            style="@style/TextInputErrorAppearance"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/medium_space"
+            android:text="@string/depositor_plus_marketing_channel_error"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/marketingConsentLayout" />
+
+        <Button
+            android:id="@+id/nextButton"
+            style="@style/PrimaryButton"
+            android:contentDescription="@string/button_next"
+            android:text="@string/next"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintVertical_bias="1" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

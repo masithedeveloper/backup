@@ -1,0 +1,96 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0919",
+      "resCde": "00000",
+      "resMsg": "",
+      "serVer": "2.0",
+      "expTrace": null
+    },
+    "payData": {
+      "txnRefID": null,
+      "monthlyFee": {
+        "curr": "R",
+        "amt": "23.20"
+      },
+      "annualFee": {
+        "curr": "R",
+        "amt": "278.40"
+      },
+      "chargeFreqID": "0",
+      "orderFreqDate": "1",
+      "fromAct": "4047094141",
+      "actList": [
+        {
+          "desc": "",
+          "acctNumber": "4047094141",
+          "availableBal": {
+            "curr": "R",
+            "amt": "0.00"
+          }
+        },
+        {
+          "desc": "",
+          "acctNumber": "9050812171",
+          "availableBal": {
+            "curr": "R",
+            "amt": "104,792.97"
+          }
+        }
+      ],
+      "accrualDataList": [
+        {
+          "fieldType": "Text",
+          "fieldName": "MembershipTier",
+          "fieldValue": "1"
+        },
+        {
+          "fieldType": "Percentage",
+          "fieldName": "BankEarnRateCR",
+          "fieldValue": "0.25"
+        },
+        {
+          "fieldType": "Percentage",
+          "fieldName": "BankEarnRateDT",
+          "fieldValue": "0.25"
+        },
+        {
+          "fieldType": "Percentage",
+          "fieldName": "FuelEarnRateCR",
+          "fieldValue": "1"
+        },
+        {
+          "fieldType": "Percentage",
+          "fieldName": "FuelEarnRateDT",
+          "fieldValue": "1"
+        },
+        {
+          "fieldType": "Percentage",
+          "fieldName": "GroceryEarnRateCR",
+          "fieldValue": "0.25"
+        },
+        {
+          "fieldType": "Percentage",
+          "fieldName": "GroceryEarnRateDT",
+          "fieldValue": "0.25"
+        }
+      ],
+      "membershipTier": "1",
+      "absaRewards": "160908001200",
+      "dateOpened": "2016-09-08",
+      "earningsPerMonth": {
+        "curr": "R",
+        "amt": "9.13"
+      },
+      "status": "Active",
+      "earningsToDate": {
+        "curr": "R",
+        "amt": "273.92"
+      },
+      "redeemedToDate": {
+        "curr": "R",
+        "amt": "268.50"
+      }
+    }
+  }
+}

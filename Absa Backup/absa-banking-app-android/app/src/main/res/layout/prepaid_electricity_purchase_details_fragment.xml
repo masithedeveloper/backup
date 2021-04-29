@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/ScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <styleguide.content.BeneficiaryView
+            android:id="@+id/beneficiaryView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_is_header="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <styleguide.forms.RoundedSelectorView
+            android:id="@+id/accountRoundedSelectorView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/medium_space"
+            app:attribute_selector_type="LONG_LIST"
+            app:attribute_title_text="@string/amount"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/beneficiaryView" />
+
+        <styleguide.forms.LargeInputView
+            android:id="@+id/amountLargeInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:maxLength="7"
+            app:attribute_editable="true"
+            app:attribute_hint_text="@string/currency_rand"
+            app:attribute_selector_type="CURRENCY"
+            app:attribute_title_text="@string/amount"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/accountRoundedSelectorView" />
+
+        <TextView
+            android:id="@+id/availableTextView"
+            style="@style/SmallTextRegularDark"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/medium_space"
+            android:layout_marginTop="@dimen/small_space"
+            android:layout_marginEnd="@dimen/medium_space"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/amountLargeInputView"
+            tools:text="R 0.00 Available" />
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/sendTokensToNormalInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_editable="false"
+            app:attribute_hint_text="@string/prepaid_electricity_select_payment_notification"
+            app:attribute_image="@drawable/ic_arrow_right_dark"
+            app:attribute_selector_type="NONE"
+            app:attribute_title_text="@string/prepaid_electricity_send_tokens_to"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/availableTextView" />
+
+        <styleguide.buttons.Button
+            android:id="@+id/continueButton"
+            style="@style/PrimaryButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:text="@string/continue_button"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/sendTokensToNormalInputView"
+            app:layout_constraintVertical_bias="1" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

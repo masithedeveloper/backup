@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    style="@style/ScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.barclays.absa.banking.avaf.documentRequest.ui.crossborder.AvafCrossBorderFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/driverNameNormalInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_hint_text="@string/avaf_document_request_crossborder_driver_name_hint"
+            app:attribute_image="@drawable/ic_calendar_dark"
+            app:attribute_title_text="@string/avaf_document_request_crossborder_driver_name"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/driverIdNumberNormalInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_hint_text="@string/avaf_document_request_crossborder_driver_id_hint"
+            app:attribute_image="@drawable/ic_calendar_dark"
+            app:attribute_title_text="@string/avaf_document_request_crossborder_driver_id"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/driverNameNormalInputView" />
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/documentFromDateNormalInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_editable="false"
+            app:attribute_hint_text="@string/avaf_document_request_crossborder_period_start_hint"
+            app:attribute_image="@drawable/ic_calendar_dark"
+            app:attribute_selector_type="DATE"
+            app:attribute_title_text="@string/avaf_document_request_crossborder_period_start"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/driverIdNumberNormalInputView" />
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/documentToDateNormalInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_editable="false"
+            app:attribute_hint_text="@string/avaf_document_request_crossborder_period_end_hint"
+            app:attribute_image="@drawable/ic_calendar_dark"
+            app:attribute_selector_type="DATE"
+            app:attribute_title_text="@string/avaf_document_request_crossborder_period_end"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/documentFromDateNormalInputView" />
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/emailNormalInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_title_text="@string/avaf_document_request_crossborder_enter_email"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/documentToDateNormalInputView"
+            tools:attribute_hint_text="jdoe@absa.africa" />
+
+        <styleguide.buttons.Button
+            android:id="@+id/continueButton"
+            style="@style/PrimaryButton"
+            android:layout_width="0dp"
+            android:text="@string/continue_button"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/emailNormalInputView"
+            app:layout_constraintVertical_bias="1" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

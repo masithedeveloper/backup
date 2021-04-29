@@ -1,0 +1,40 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0525",
+      "resCde": "00000",
+      "resMsg": "",
+      "serVer": "2.0"
+    },
+    "payData": {
+      "iipReferenceNumber": "0",
+      "maskedFrmActNo": "******3953",
+      "popUpFlag": "N",
+      "benStatusType": "Absa",
+      "txnRef": "15002989897937",
+      "frmActNo": "9050993953",
+      "benNam": "Test",
+      "bankNam": "",
+      "branchNam": "",
+      "branchCd": "",
+      "actTyp": "",
+      "nowFlg": "NOW",
+      "imidPay": "OFF",
+      "myRef": "Test",
+      "myNotice": "No",
+      "myMethod": "",
+      "myDetl": "",
+      "thirRef": "Test",
+      "thirNotice": "No",
+      "thirMethod": "",
+      "thirDetl": "",
+      "txnAmt": {
+        "curr": "R",
+        "amt": "500.00"
+      },
+      "instNam": "",
+      "frmActDesc": "Savings account",
+      "futureTxDate": "Mon Jul 17 00:00:00 GMT+02:00 2017"
+    }
+  }
+}

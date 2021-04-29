@@ -1,0 +1,281 @@
+{
+  "header": {
+    "statuscode": "0",
+    "userAgent": "PostmanRuntime/7.26.2",
+    "wfpt": null,
+    "jsessionid": "Bmfdu_jlsm7jnqnv4MC36qswxLN0NbovVOmkpQBj",
+    "esessionid": null,
+    "xfpt": null,
+    "service": "ExergyCodesLookupFacade",
+    "operation": "GetExergyRelationshipCodes",
+    "channel": null,
+    "timestamp": "2020-07-31 08:45:45.437",
+    "sourceip": "22.248.162.221",
+    "accessAccount": null,
+    "userNumber": null,
+    "nonce": "x19NBWkkio5FIVCYl4XStRdgYcqg6ltmlq-n01b9Eks",
+    "language": "en",
+    "organization": null,
+    "brand": null,
+    "applicationId": null,
+    "applicationKeyId": null,
+    "requestToken": null,
+    "resultMessages": [],
+    "paginationContext": null
+  },
+  "childrenCodes": [
+    {
+      "description": "Kind",
+      "language": "af",
+      "code": 3
+    },
+    {
+      "description": "Seun",
+      "language": "af",
+      "code": 15
+    },
+    {
+      "description": "Dogter",
+      "language": "af",
+      "code": 16
+    },
+    {
+      "description": "Kind",
+      "language": "af",
+      "code": 36
+    },
+    {
+      "description": "Student",
+      "language": "af",
+      "code": 45
+    }
+  ],
+  "spouseCodes": [
+    {
+      "description": "Tweede Gade",
+      "language": "af",
+      "code": 2
+    },
+    {
+      "description": "Man",
+      "language": "af",
+      "code": 33
+    },
+    {
+      "description": "Vrou",
+      "language": "af",
+      "code": 37
+    }
+  ],
+  "parentsAndInlawsCodes": [
+    {
+      "description": "Oupa",
+      "language": "af",
+      "code": 4
+    },
+    {
+      "description": "Ouma",
+      "language": "af",
+      "code": 5
+    },
+    {
+      "description": "Moeder",
+      "language": "af",
+      "code": 11
+    },
+    {
+      "description": "Vader",
+      "language": "af",
+      "code": 12
+    },
+    {
+      "description": "Stiefpa",
+      "language": "af",
+      "code": 17
+    },
+    {
+      "description": "Skoonma",
+      "language": "af",
+      "code": 18
+    },
+    {
+      "description": "Stiefma",
+      "language": "af",
+      "code": 19
+    },
+    {
+      "description": "Skoonpa",
+      "language": "af",
+      "code": 27
+    },
+    {
+      "description": "Skoonoupa",
+      "language": "af",
+      "code": 38
+    },
+    {
+      "description": "Skoonouma",
+      "language": "af",
+      "code": 39
+    }
+  ],
+  "efmCodes": [
+    {
+      "description": "Oom",
+      "language": "af",
+      "code": 6
+    },
+    {
+      "description": "Tannie",
+      "language": "af",
+      "code": 7
+    },
+    {
+      "description": "Neef of Nig",
+      "language": "af",
+      "code": 8
+    },
+    {
+      "description": "Broerskind",
+      "language": "af",
+      "code": 9
+    },
+    {
+      "description": "Susterkind",
+      "language": "af",
+      "code": 10
+    },
+    {
+      "description": "Suster",
+      "language": "af",
+      "code": 13
+    },
+    {
+      "description": "Broer",
+      "language": "af",
+      "code": 14
+    },
+    {
+      "description": "Ex Man",
+      "language": "af",
+      "code": 20
+    },
+    {
+      "description": "Ex Vrou",
+      "language": "af",
+      "code": 21
+    },
+    {
+      "description": "Kleinseun",
+      "language": "af",
+      "code": 22
+    },
+    {
+      "description": "Kleindogter",
+      "language": "af",
+      "code": 23
+    },
+    {
+      "description": "Kleinkind",
+      "language": "af",
+      "code": 24
+    },
+    {
+      "description": "Stiefseun",
+      "language": "af",
+      "code": 25
+    },
+    {
+      "description": "Stiefdogter",
+      "language": "af",
+      "code": 26
+    },
+    {
+      "description": "Skoonsuster",
+      "language": "af",
+      "code": 28
+    },
+    {
+      "description": "Swaer",
+      "language": "af",
+      "code": 29
+    },
+    {
+      "description": "Verloofde",
+      "language": "af",
+      "code": 30
+    },
+    {
+      "description": "Stiefbroer",
+      "language": "af",
+      "code": 31
+    },
+    {
+      "description": "Stiefsuster",
+      "language": "af",
+      "code": 32
+    },
+    {
+      "description": "Skoonseun",
+      "language": "af",
+      "code": 34
+    },
+    {
+      "description": "Skoondogter",
+      "language": "af",
+      "code": 35
+    },
+    {
+      "description": "Peetpa",
+      "language": "af",
+      "code": 40
+    },
+    {
+      "description": "Peetma",
+      "language": "af",
+      "code": 41
+    },
+    {
+      "description": "Skoontannie",
+      "language": "af",
+      "code": 42
+    },
+    {
+      "description": "Borg",
+      "language": "af",
+      "code": 43
+    },
+    {
+      "description": "Besigheidsvennoot",
+      "language": "af",
+      "code": 44
+    },
+    {
+      "description": "Huisbediende",
+      "language": "af",
+      "code": 46
+    },
+    {
+      "description": "Tuinier of Opsigter ",
+      "language": "af",
+      "code": 47
+    },
+    {
+      "description": "Chauffer",
+      "language": "af",
+      "code": 48
+    },
+    {
+      "description": "Kinderminder ",
+      "language": "af",
+      "code": 49
+    }
+  ],
+  "noRealtion": [
+    {
+      "description": "Geen verwantskap",
+      "language": "af",
+      "code": 1
+    }
+  ]
+}

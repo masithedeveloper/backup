@@ -1,0 +1,148 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0311",
+      "resCde": "00000",
+      "resMsg": "",
+      "serVer": "2.0",
+      "expTrace": null
+    },
+    "payData": {
+      "imageName": "someImageName",
+      "ownNotificationDTO": {
+        "emaillist": [
+          "shjdh@dhaj.com"
+        ],
+        "cellNolist": [
+          "******9390"
+        ],
+        "faxinfolist": [
+          {
+            "faxCode": "011",
+            "faxNumber": "4474509"
+          }
+        ],
+        "actualCellNo": "0828569390"
+      },
+      "benDetl": {
+        "hasImage": "Y",
+        "benStatusType": "Active",
+        "uniqueEFT": "80002366E6",
+        "status": "internal",
+        "benShortNam": "shortName",
+
+        "benSurNam": "surName",
+        "networkProvNam": "provName",
+        "benNotice": "NO",
+        "myNotice": "YES",
+        "benRecNam": "recName",
+
+        "myRecNam": "myRecNam",
+        "benAcctNumAtInst": "9050704039",
+        "benTyp": "payment",
+        "benImg": "",
+        "benId": "31",
+
+        "benNo": "0",
+        "favStarInd": "true",
+        "benNam": "Proof Email",
+        "actNo": "9050704039",
+        "bankNam": "ABSA BANK",
+
+        "branch": "branch",
+        "myRef": "my ref",
+        "myNoticeTyp": "E",
+        "myNoticeDtl": "yNoticeDetail",
+        "benRef": "ben ref",
+
+        "benNoticeTyp": "N",
+        "benNoticeDtl": "benNoticeDetail",
+        "branchCd": "632005",
+        "actTyp": "AccountType",
+        "immediatePaymentAllowed": "true",
+
+        "imageName": "tbOg6bS3WtG3iA7nO8yh_rpP9fpbQSL0s2ceCt1e9ck=",
+        "tiebNumber": "012"
+      },
+      "txnActvLst": [
+        {
+          "transactionCategory": null,
+          "txnStatus": "SUCCESSFUL",
+          "txnPrt": "",
+          "drAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "crAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "suppGrpCode": "",
+          "tariffIndex": "",
+          "receiptNumber": "",
+          "electricDebts": null,
+          "electricFixedCosts": null,
+          "electricTokens": null,
+          "dt": "2017-05-26 08:37:00",
+          "bal": {
+            "curr": "R",
+            "amt": "30.00"
+          },
+          "refNo": "3"
+        },
+        {
+          "transactionCategory": null,
+          "txnStatus": "SUCCESSFUL",
+          "txnPrt": "",
+          "drAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "crAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "suppGrpCode": "",
+          "tariffIndex": "",
+          "receiptNumber": "",
+          "electricDebts": null,
+          "electricFixedCosts": null,
+          "electricTokens": null,
+          "dt": "2017-05-25 12:48:00",
+          "bal": {
+            "curr": "R",
+            "amt": "20.00"
+          },
+          "refNo": "2"
+        },
+        {
+          "transactionCategory": null,
+          "txnStatus": "SUCCESSFUL",
+          "txnPrt": "",
+          "drAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "crAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "suppGrpCode": "",
+          "tariffIndex": "",
+          "receiptNumber": "",
+          "electricDebts": null,
+          "electricFixedCosts": null,
+          "electricTokens": null,
+          "dt": "2017-05-25 12:43:00",
+          "bal": {
+            "curr": "R",
+            "amt": "20.00"
+          },
+          "refNo": "1"
+        }
+      ],
+      "networkProviderJsonBean": [
+      ]
+    }
+  }
+}

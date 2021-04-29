@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:id="@+id/contentLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <styleguide.content.TertiaryContentAndLabelView
+            android:id="@+id/limitIncreaseContentView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:attribute_should_show_check_box="false"
+            app:attribute_should_show_start_tick="true"
+            app:attribute_tertiary_content="@string/vcl_offer_manage_money" />
+
+        <styleguide.content.TertiaryContentAndLabelView
+            android:id="@+id/increaseBuyingPowerContentView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/medium_space"
+            app:attribute_should_show_check_box="false"
+            app:attribute_should_show_start_tick="true"
+            app:attribute_tertiary_content="@string/vcl_offer_increase_buying_power" />
+
+        <styleguide.content.TertiaryContentAndLabelView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/medium_space"
+            app:attribute_should_show_check_box="false"
+            app:attribute_should_show_start_tick="true"
+            app:attribute_tertiary_content="@string/vcl_offer_competitive_interest" />
+
+    </LinearLayout>
+</layout>

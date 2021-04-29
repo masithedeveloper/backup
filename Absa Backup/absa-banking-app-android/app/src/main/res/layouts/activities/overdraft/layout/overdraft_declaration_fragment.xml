@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ScrollView
+        style="@style/ScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <styleguide.content.HeadingView
+                android:id="@+id/creditStatusQuestionHeadingView"
+                style="@style/NormalTextRegularDark"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_heading="@string/overdraft_declaration"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <styleguide.buttons.OptionActionButtonView
+                android:id="@+id/declarationConsentOne"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                app:attribute_caption="@string/overdraft_declaration_content_1"
+                app:attribute_icon="@drawable/ic_tick_black_24"
+                app:attribute_show_arrow="false"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/creditStatusQuestionHeadingView" />
+
+            <styleguide.buttons.OptionActionButtonView
+                android:id="@+id/declarationConsentTwo"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:focusable="false"
+                app:attribute_caption="@string/overdraft_declaration_content_2"
+                app:attribute_icon="@drawable/ic_tick_black_24"
+                app:attribute_show_arrow="false"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/declarationConsentOne" />
+
+            <styleguide.buttons.OptionActionButtonView
+                android:id="@+id/declarationConsentThree"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:focusable="false"
+                app:attribute_caption="@string/overdraft_declaration_content_3"
+                app:attribute_icon="@drawable/ic_tick_black_24"
+                app:attribute_show_arrow="false"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/declarationConsentTwo" />
+
+            <View
+                android:id="@+id/divider2"
+                style="@style/DividerView"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_1dp"
+                android:layout_marginTop="@dimen/normal_space"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/declarationConsentThree" />
+
+            <styleguide.forms.CheckBoxView
+                android:id="@+id/acceptDeclarationCheckbox"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_description="@string/overdraft_i_have_read_and_understood"
+                app:attribute_is_checked="false"
+                app:attribute_is_required="true"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintVertical_bias="0"
+                app:layout_constraintBottom_toTopOf="@+id/nextButton"
+                app:layout_constraintTop_toBottomOf="@+id/divider2" />
+
+            <styleguide.buttons.Button
+                android:id="@+id/nextButton"
+                style="@style/PrimaryButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/medium_space"
+                android:text="@string/next"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintVertical_bias="1" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</layout>

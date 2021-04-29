@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ScrollView
+        style="@style/ScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <styleguide.content.DescriptionView
+                android:id="@+id/whereAreYouDescriptionView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/medium_space"
+                android:gravity="start"
+                app:attribute_description="@string/new_to_bank_make_your_application_easier"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <styleguide.forms.RadioButtonView
+                android:id="@+id/consultantRadioButtonView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/medium_space"
+                app:attribute_is_required="true"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/whereAreYouDescriptionView" />
+
+            <styleguide.forms.RadioButtonView
+                android:id="@+id/branchRadioButtonView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_is_required="true"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/consultantRadioButtonView" />
+
+            <styleguide.content.DescriptionView
+                android:id="@+id/whichBranchDescriptionView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:visibility="gone"
+                app:attribute_description="@string/new_to_bank_which_branch_are_you_in"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/branchRadioButtonView"
+                tools:visibility="visible" />
+
+            <styleguide.buttons.SelectAccountView
+                android:id="@+id/selectBranchNormalInputView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/medium_space"
+                android:layout_marginTop="@dimen/large_space"
+                android:layout_marginEnd="@dimen/medium_space"
+                android:layout_marginBottom="@dimen/large_space"
+                android:visibility="gone"
+                app:attribute_icon="@drawable/ic_search_dark"
+                app:attribute_sub_text="@string/new_to_bank_select_branch"
+                app:attribute_text="@string/new_to_bank_which_branch"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/whichBranchDescriptionView"
+                tools:visibility="visible" />
+
+            <styleguide.buttons.Button
+                android:id="@+id/nextButton"
+                style="@style/PrimaryButton"
+                android:layout_width="0dp"
+                android:enabled="false"
+                android:text="@string/button_next"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</layout>

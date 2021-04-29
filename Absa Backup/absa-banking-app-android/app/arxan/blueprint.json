@@ -1,0 +1,369 @@
+{
+  "targets": {
+    "output": "output/"
+  },
+  "globalConfiguration": {
+    "seed": 22345,
+    //These classes will be excluded from all the guards
+    "exclude": [
+      {
+        "type": "class",
+        "name": "com.oneidentity.sdk.android.*"
+      },
+      {
+        "type": "class",
+        "name": "com.imimobile.*"
+      },
+      {
+        "type": "class",
+        "name": "android.support.*"
+      },
+      {
+        "type": "class",
+        "name": "com.google.firebase.*"
+      },
+      {
+        "type": "class",
+        "name": "com.barclays.absa.banking.presentation.shared.bottomSheet.*"
+      },
+      {
+        "type": "class",
+        "name": "com.barclays.absa.banking.framework.api.request.params.*"
+      },
+      {
+        "type": "class",
+        "name": "kotlinx.*"
+      },
+      {
+        "type": "class",
+        "name": "kotlin.*"
+      },
+      {
+        "type": "class",
+        "name": "androidx.*"
+      },
+      {
+        "type": "class",
+        "name": "com.google.android.*"
+      },
+      {
+        "type": "class",
+        "name": "com.barclays.absa.banking.presentation.whatsNew.*"
+      },
+      {
+        "type": "class",
+        "name": "com.barclays.absa.banking.atmAndBranchLocator.ui.*"
+      },
+      {
+        "type": "class",
+        "name": "com.trusteer.*"
+      },
+      {
+        "type": "class",
+        "name": "org.azeckoski.reflectutils.*"
+      }
+    ],
+    //Following includes will override exclude range so methods will be protected
+    "include": [
+      {
+        "type": "class",
+        "name": "com.barclays.absa.banking.framework.ArxanProtection"
+      }
+    ],
+    "verbosityLevel": {
+      "global": 1
+    },
+    // renaming, controlFlowFlattening, inlining, stringEncryption suffer from reflection. Singatures of methods defined in proguard.txt file will be untouched
+    "keepSignatures": "proguard-rules.pro"
+  },
+  "guardConfiguration": {
+    // Code obfuscation guards
+
+    // Following 4 guards suffer from reflection calls, however in this particular application
+    // all the reflection calls are automatically resolved so there's no need to exclude anything
+    "renaming": {
+      "disable": false
+    },
+    "controlFlowFlattening": {
+      "disable": true
+    },
+    "staticMemberShuffling": {
+      "disable": true,
+      "targets": {
+        "exclude": [
+          {
+            "type": "class",
+            "name": "com.snatik.matches.ui.*"
+          }
+        ],
+        "include": [
+          {
+            "type": "class",
+            "name": "com.snatik.matches.ui.BoardView"
+          }
+        ]
+      },
+      "ranges": {
+        "exclude": [
+          {
+            "type": "class",
+            "name": "android.support.*"
+          },
+          {
+            "type": "class",
+            "name": "com.barclays.absa.banking.presentation.shared.bottomSheet.*"
+          },
+          {
+            "type": "class",
+            "name": "com.barclays.absa.banking.framework.api.request.params.*"
+          },
+          {
+            "type": "class",
+            "name": "kotlinx.*"
+          },
+          {
+            "type": "class",
+            "name": "kotlin.*"
+          },
+          {
+            "type": "class",
+            "name": "androidx.*"
+          },
+          {
+            "type": "class",
+            "name": "com.google.android.*"
+          },
+          {
+            "type": "class",
+            "name": "com.trusteer.*"
+          }
+        ]
+      }
+    },
+    "inlining": {
+      "disable": false,
+      // As code bloat is not a problem in this particural example, we also inline large methods
+      // to get better obfuscation
+      "size": "large"
+    },
+    "stringEncryption": {
+      "disable": true,
+      "exclude": [
+        {
+          "type": "class",
+          "name": "com.trusteer.*"
+        }
+      ]
+    },
+    "operatorRemoval": {
+      "disable": false,
+      "exclude": [
+        {
+          "type": "class",
+          "name": "com.barclays.absa.banking.buy.services.airtime.BuyAirtimeResponseParser"
+        },
+        {
+          "type": "class",
+          "name": "com.google.zxing.*"
+        }
+      ]
+    },
+    "debugInfoStrip": {
+      "disable": false
+    },
+    "deadCodeInjection": {
+      // Dead code injection guard requires targets. As we don't care about code bloat in
+      // this example - we include all the methods
+      "disable": false,
+      "targets": [
+        {
+          "type": "method",
+          "name": "com.snatik.matches.common*"
+        }
+      ]
+    },
+    "callHiding": {
+      "disable": false,
+      "targets": [
+        {
+          // Additional protection for isDeviceRooted calls
+          "type": "method",
+          "name": "com.barclays.absa.banking.framework.ArxanProtection.isDeviceRooted"
+        }
+      ]
+    },
+    // All the runtime guards might have multiple instances
+    "debuggerDetection": [
+      {
+        "disable": false,
+        "debug": false,
+        "name": "Debugger detection instance 1",
+        "invocationLocations": [
+          {
+            "type": "method",
+            "name": "com.barclays.absa.banking.framework.app.BMBApplication.onCreate"
+          }
+        ],
+        "tamperAction": {
+          "type": "method",
+          "name": "com.barclays.absa.banking.framework.ArxanProtection.onDebuggerTamper"
+        },
+        "nonTamperAction": {
+          "report": "default",
+          "type": "doNothing"
+        }
+      }
+    ],
+    "rootDetection": [
+      {
+        "disable": false,
+        //Debug mode for runtime guards allows them to print debug messages into logcat
+        "debug": false,
+        "name": "Root detection instance 1",
+        "invocationLocations": [
+          {
+            "type": "method",
+            "name": "com.barclays.absa.banking.framework.app.BMBApplication.onCreate"
+          }
+        ],
+        "tamperAction": {
+          "type": "method",
+          "name": "com.barclays.absa.banking.framework.ArxanProtection.onRootTamper"
+        },
+        "nonTamperAction": {
+          "report": "default",
+          "type": "doNothing"
+        }
+      }
+    ],
+    "hookDetection": [
+      {
+        "disable": false,
+        "debug": false,
+        "name": "Hook detection instance 1",
+        "invocationLocations": [
+          {
+            "type": "method",
+            "name": "com.barclays.absa.banking.framework.app.BMBApplication.onCreate"
+          }
+        ],
+        "tamperAction": {
+          "type": "method",
+          "name": "com.barclays.absa.banking.framework.ArxanProtection.onHookTamper"
+        },
+        "nonTamperAction": {
+          "report": "default",
+          "type": "doNothing"
+        }
+      }
+    ],
+    "signatureCheck": [
+      {
+        "disable": false,
+        "debug": false,
+        "name": "Signature check instance 1",
+        //Signature could be extracted from signed apk, keystore file or google play console
+        "signaturePublicKeySHA256": "649D369DAD85C840F2017EA46EBA636050056E05A678269CC785CBF0EDC44721",
+        "invocationLocations": [
+          {
+            "type": "method",
+            "name": "com.barclays.absa.banking.framework.app.BMBApplication.onCreate"
+          }
+        ],
+        "tamperAction": {
+          "type": "method",
+          "name": "com.barclays.absa.banking.framework.ArxanProtection.onChecksumTamper",
+          "report": "instant"
+        },
+        "nonTamperAction": {
+          "report": "default",
+          "type": "doNothing"
+        }
+      }
+    ],
+    "emulatorDetection": [
+      {
+        "disable": false,
+        "debug": false,
+        "name": "Emulator detection instance 1",
+        "invocationLocations": [
+          {
+            "type": "method",
+            "name": "com.barclays.absa.banking.framework.app.BMBApplication.onCreate"
+          }
+        ],
+        "tamperAction": {
+          "type": "method",
+          "name": "com.barclays.absa.banking.framework.ArxanProtection.onEmulatorTamper",
+          "report": "instant"
+        },
+        "nonTamperAction": {
+          "report": "default",
+          "type": "doNothing"
+        }
+      }
+    ],
+    "resourceEncryption": {
+      "disable": true,
+      "debug": false,
+      "files": [
+        "assets/textfile.txt"
+      ]
+    },
+    "logStrip": {
+      "disable": false
+    },
+    "checksum": [
+      {
+        "disable": true,
+        "debug": false,
+        "name": "checksum1",
+        "invocationLocations": [
+          {
+            "type": "method",
+            "name": "com.barclays.absa.banking.framework.app.BMBApplication.onCreate"
+          }
+        ],
+        "tamperAction": {
+          "report": "instant",
+          "type": "fail"
+        },
+        "nonTamperAction": {
+          "report": "default",
+          "type": "doNothing"
+        }
+      }
+    ],
+    "dynamicInstrumentationDetection": [
+      {
+        "name": "Dynamic instrumentation detection instance 1",
+        "disable": false,
+        "debug": false,
+        "frida": {
+          "disablePortScanning": true
+        },
+        "invocationLocations": [
+          {
+            "type": "method",
+            "name": "com.barclays.absa.banking.framework.app.BMBApplication.onCreate"
+          }
+        ],
+        "tamperAction": {
+          "type": "method",
+          "name": "com.barclays.absa.banking.framework.ArxanProtection.onEmulatorTamper"
+        },
+        "nonTamperAction": {
+          "report": "default",
+          "type": "doNothing"
+        }
+      }
+    ],
+    "classEncryption": {
+      "disable": true,
+      "debug": false,
+      "targets": [
+        "com.snatik.matches.MainActivity*"
+      ]
+    }
+  }
+}

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="flexi_funeral_cover_title">Flexi Funeral Cover</string>
+    <string name="flexi_funeral_peace_of_mind_for_you_and_your_family">Peace of mind for you and your family</string>
+    <string name="flexi_funeral_get_cover_for_family_description">Get cover for you and your family</string>
+    <string name="flexi_funeral_accidental_cover_description">Double Accidental Death cover for the main member, spouse &amp; extended family</string>
+    <string name="flexi_funeral_apply_now">Apply now</string>
+    <string name="flexi_funeral_find_out_more">Find out more</string>
+    <string name="flexi_funeral_choose_your_cover">Choose your cover</string>
+    <string name="flexi_funeral_how_much_cover_would_you_like">How much cover would you like?</string>
+    <string name="flexi_funeral_add_family_member">Add family member</string>
+    <string name="flexi_funeral_total_monthly_premium">Total monthly premium</string>
+    <string name="flexi_funeral_family_member_details">Family Member Details</string>
+    <string name="flexi_funeral_debit_day">Debit day</string>
+    <string name="flexi_funeral_account_to_debit">Account to debit</string>
+    <string name="flexi_funeral_unable_to_continue">Unable to continue</string>
+    <string name="flexi_funeral_invalid_age_message">Unfortunately, you won\'t be able to apply for this policy. Currently it is only available to people between ages %s and %s</string>
+
+    <string name="flexi_funeral_from_as_little_as">From as little as</string>
+    <string name="flexi_funeral_per_month">per month</string>
+    <string name="flexi_funeral_main_member_title">Main Member</string>
+    <string name="flexi_funeral_initials_title">Initials</string>
+    <string name="flexi_funeral_surname_hint">Enter member\'s surname</string>
+    <string name="flexi_funeral_initials_hint">Enter member\'s initials</string>
+    <string name="flexi_funeral_my_estate">My Estate</string>
+    <string name="flexi_funeral_relationship_list_title">Relationship Category</string>
+    <string name="flexi_funeral_date_of_birth_hint">Select member\'s date of birth</string>
+    <string name="flexi_funeral_source_of_funds">How will you fund this?</string>
+    <string name="flexi_funeral_select_a_cover_error_message">Select cover</string>
+    <string name="flexi_funeral_main_member_cover_option">%s at %s p/m</string>
+    <string name="flexi_funeral_age_limit_message">Only ages %s - %s allowed</string>
+    <string name="flexi_funeral_remove_member_caption" translatable="false">%s. %s (%s)</string>
+    <string name="flexi_funeral_family_member_initial_and_surname" translatable="false">%s. %s</string>
+    <string name="flexi_funeral_account_description_and_account_number" translatable="false">%s (%s)</string>
+
+    <string name="flexi_funeral_son">Son</string>
+    <string name="flexi_funeral_daughter">Daughter</string>
+    <string name="flexi_funeral_father">Father</string>
+    <string name="flexi_funeral_mother">Mother</string>
+    <string name="flexi_funeral_brother">Brother</string>
+    <string name="flexi_funeral_sister">Sister</string>
+    <string name="flexi_funeral_uncle">Uncle</string>
+    <string name="flexi_funeral_aunt">Aunt</string>
+    <string name="flexi_funeral_nephew">Nephew</string>
+    <string name="flexi_funeral_niece">Niece</string>
+    <string name="flexi_funeral_cousin">Cousin</string>
+    <string name="flexi_funeral_spouse">Spouse</string>
+    <string name="flexi_funeral_gardener_or_caretaker">Gardener or Caretaker</string>
+    <string name="flexi_funeral_grandfather">Grandfather</string>
+    <string name="flexi_funeral_grandmother">Grandmother</string>
+    <string name="flexi_funeral_father_in_law">Father-in-law</string>
+    <string name="flexi_funeral_mother_in_law">Mother-in-law</string>
+    <string name="flexi_funeral_male">Male</string>
+    <string name="flexi_funeral_female">Female</string>
+    <string name="flexi_funeral_main_member_selected_cover">MAIN MEMBER selected cover</string>
+
+    <string name="flexi_funeral_change_cover_title">Change Cover</string>
+    <string name="flexi_funeral_change_cover_message">By changing the Main Member cover, each family member cover will need to be re-selected. Continue?</string>
+    <string name="flexi_funeral_yes">Yes</string>
+    <string name="flexi_funeral_no">No</string>
+    <string name="flexi_funeral_are_you_sure_title">Are you sure?</string>
+    <string name="flexi_funeral_are_you_sure_message">If you go back, all the data you\'ve entered so far will be lost.</string>
+    <string name="flexi_funeral_select_category_first">Please select a Category first</string>
+    <string name="flexi_funeral_cover_and_premium">Cover &amp; Premium</string>
+    <string name="flexi_funeral_family_members">Family Member/s</string>
+    <string name="flexi_funeral_details">Details</string>
+    <string name="flexi_funeral_confirmation">Confirmation</string>
+
+    <string name="flexi_funeral_success_screen_title">Application approved</string>
+    <string name="flexi_funeral_success_screen_message">Policy number: %s \n\nYour cover will start: %s \n\nFor enquiries or help call 0860 227 253</string>
+    <string name="flexi_funeral_failure_screen_title">Unsuccessful</string>
+    <string name="flexi_funeral_failure_screen_message">Please contact our Call Centre for assistance on 0860 227 253.</string>
+    <string name="flexi_funeral_timeout_screen_title">Application submitted</string>
+    <string name="flexi_funeral_timeout_screen_message">You will receive an SMS confirming your policy number within the next 24 hours.\n\nFor enquiries or help call 0860 227 253</string>
+    <string name="flexi_funeral_call_center_number" translatable="false">0860 227 253</string>
+    <string name="flexi_funeral_debit_day_error">Select debit day</string>
+    <string name="flexi_funeral_account_to_debit_error">Select account to debit</string>
+    <string name="flexi_funeral_select_a_cover">Select Cover</string>
+    <string name="flexi_funeral_beneficiary_title_error">Select title</string>
+    <string name="flexi_funeral_beneficiary_first_name_error">Enter first name</string>
+    <string name="flexi_funeral_beneficiary_surname_error">Enter surname</string>
+    <string name="flexi_funeral_terms_and_conditions_error">Please agree to the Terms &amp; Conditions</string>
+    <string name="flexi_funeral_policy_annual_increase">Please note: Your benefit amount &amp; premium will increase by 5% annually</string>
+    <string name="flexi_funeral_policy_payee">This policy will be paid out to</string>
+    <string name="flexi_funeral_normalInputView_allowed_characters" translatable="false">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ \'</string>
+    <string name="flexi_funeral_category_maximum_limit_reached_error">Maximum limit reached for this category</string>
+    <string name="flexi_funeral_initials_error">Enter member\'s initials</string>
+    <string name="flexi_funeral_surname_error">Enter member\'s surname</string>
+    <string name="flexi_funeral_category_error">Select category</string>
+    <string name="flexi_funeral_relationship_error">Select relationship</string>
+    <string name="flexi_funeral_gender_error">Select gender</string>
+    <string name="flexi_funeral_something_went_wrong_error">Something went wrong</string>
+    <string name="flexi_funeral_date_of_birth_error">Select date of birth</string>
+    <string name="flexi_funeral_something_went_wrong_description">We are working on it so please try again a little later.</string>
+    <string name="flexi_funeral_call_us">Call us</string>
+    <string name="flexi_funeral_select_title">Select Title</string>
+    <string name="flexi_funeral_maximum_spouse_allowed_error">Max 1 spouse allowed</string>
+    <string name="flexi_funeral_maximum_children_allowed_error">Max 10 children allowed</string>
+    <string name="flexi_funeral_maximum_extended_family_allowed_error">Max 8 extended family members allowed</string>
+    <string name="flexi_funeral_policy_start_date_information">The policy will start on the 1st of next month</string>
+    <string name="flexi_funeral_policy_start_date">Policy start date</string>
+    <string name="flexi_funeral_account_to_debit_hint">Select account to debit</string>
+    <string name="flexi_funeral_source_of_funds_hint">Select source of funds</string>
+    <string name="flexi_funeral_extended_family">Extended family</string>
+    <string name="flexi_funeral_children">Children</string>
+    <string name="flexi_funeral_spouse_age_limit_message">Spouse must be younger than %s years</string>
+    <string name="flexi_funeral_child_age_limit_message">Child must be younger than %s years</string>
+    <string name="flexi_funeral_extended_family_age_limit_message">Extended family must be younger than %s years</string>
+    <string name="flexi_funeral_main_member_and_family">Main Member &amp; Family</string>
+    <string name="flexi_funeral_select_all_family_member_covers">Select a cover for all family members</string>
+    <string name="flexi_funeral_terminated_funeral_policy">Terminated funeral policy (last 31 days)</string>
+    <string name="flexi_funeral_name_of_insurer">Name of insurer</string>
+    <string name="flexi_funeral_policy_limit_regulation_description">Please note: In terms of regulation you cannot take out funeral cover exceeding R 100 000 (total cover) with an insurer.</string>
+    <string name="flexi_funeral_has_a_policy_been_terminated_description">Have you terminated a funeral policy with another insurer in the last 31 days?</string>
+    <string name="flexi_funeral_incorrect_insurer_name_description">Failure to provide full and accurate information may result in the rejection of my funeral claim</string>
+    <string name="flexi_funeral_name_of_insurer_hint">Provide the name of the insurer</string>
+    <string name="flexi_funeral_name_of_insurer_error">Please provide the name of insurer</string>
+    <string name="flexi_funeral_i_accept_cover_without_any_advisory">I accept the cover without any advisory</string>
+    <string name="exergy_timeout_message" translatable="false">Your funeral policy application has been submitted for processing. You will receive an SMS confirming your policy number within the next 24 hours. Thank you for your support. Please call us on 0860 227 253 if you have any questions.</string>
+</resources>

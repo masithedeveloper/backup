@@ -1,0 +1,83 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES2066",
+      "resCde": "00000",
+      "resMsg": "Success",
+      "serVer": "2.0",
+      "expTrace": null
+    },
+    "payData": {
+      "getAccountsForUnitTrustRespDTO": {
+        "accountDetailsDTOs": [
+          {
+            "accountNumber": "9050966570",
+            "accountType": "Savings",
+            "accountHolderName": "F DE VILLIERS",
+            "bankName": "ABSA BANK",
+            "branchCode": "632005",
+            "desc": "Savings Account"
+          },
+          {
+            "accountNumber": "9050955466",
+            "accountType": "Savings",
+            "accountHolderName": "F DE VILLIERS",
+            "bankName": "ABSA BANK",
+            "branchCode": "632005",
+            "desc": "Savings Account"
+          },
+          {
+            "accountNumber": "9050983382",
+            "accountType": "Current",
+            "accountHolderName": "F DE VILLIERS",
+            "bankName": "ABSA BANK",
+            "branchCode": "632005",
+            "desc": "Current Account"
+          },
+          {
+            "accountNumber": "9051035170",
+            "accountType": "Current",
+            "accountHolderName": "F DE VILLIERS",
+            "bankName": "ABSA BANK",
+            "branchCode": "632005",
+            "desc": "Current Account"
+          },
+          {
+            "accountNumber": "9051052445",
+            "accountType": "Current",
+            "accountHolderName": "F DE VILLIERS",
+            "bankName": "ABSA BANK",
+            "branchCode": "632005",
+            "desc": "Current Account"
+          },
+          {
+            "accountNumber": "9051053001",
+            "accountType": "Current",
+            "accountHolderName": "F DE VILLIERS",
+            "bankName": "ABSA BANK",
+            "branchCode": "632005",
+            "desc": "Current Account"
+          },
+          {
+            "accountNumber": "4047937288",
+            "accountType": "Current",
+            "accountHolderName": "F DE VILLIERS",
+            "bankName": "ABSA BANK",
+            "branchCode": "632005",
+            "desc": "Current Account"
+          },
+          {
+            "accountNumber": "4047942427",
+            "accountType": "Current",
+            "accountHolderName": "F DE VILLIERS",
+            "bankName": "ABSA BANK",
+            "branchCode": "632005",
+            "desc": "Current Account"
+          }
+        ],
+        "txnStatus": "Success",
+        "txnMessage": "Success"
+      }
+    }
+  }
+}

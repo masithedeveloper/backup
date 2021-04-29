@@ -1,0 +1,29 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "serVer": "2.0",
+      "expTrace": null,
+      "resCde": "00000",
+      "resMsg": "Success",
+      "resId": "RES2140"
+    },
+    "payData": {
+      "getSWIFTQuoteResponse": {
+        "caseIDNumber": "I81753D4C53C",
+        "commissionAmountFee": "407.23",
+        "beneficiaryName": "SAVFNZSSRQRP",
+        "destinationCurrencyRate": "17.99343000",
+        "valueDate": "2019-12-24",
+        "localCurrency": "ZAR",
+        "localAmount": "78383.5196",
+        "vatAmount": "61.08",
+        "totalDue": "78851.8296",
+        "beneficiarySurname": "ABSA TEST",
+        "cmaIndicator": false,
+        "quoteTimer": "180"
+      },
+      "txnStatus": "Success",
+      "txnMessage": "Success"
+    }
+  }
+}

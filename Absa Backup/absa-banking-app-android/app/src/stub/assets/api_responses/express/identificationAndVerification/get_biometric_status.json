@@ -1,0 +1,10 @@
+{
+  "header": {
+    "statuscode": "0",
+    "service": "FaceBioFacade",
+    "operation": "BioResultPolling",
+    "timestamp": "2021-03-17 07:19:45.317",
+    "resultMessages": []
+  },
+  "result": "VERIFIED"
+}

@@ -1,0 +1,70 @@
+[
+    {
+        "merged": "/Users/AB013HK/Documents/randing/randing-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_create_movement.xml",
+        "source": "/Users/AB013HK/Documents/randing/randing-app/app/src/main/res/layout/fragment_create_movement.xml"
+    },
+    {
+        "merged": "/Users/AB013HK/Documents/randing/randing-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_demo.xml",
+        "source": "/Users/AB013HK/Documents/randing/randing-app/app/src/main/res/layout/fragment_demo.xml"
+    },
+    {
+        "merged": "/Users/AB013HK/Documents/randing/randing-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_summary.xml",
+        "source": "/Users/AB013HK/Documents/randing/randing-app/app/src/main/res/layout/fragment_summary.xml"
+    },
+    {
+        "merged": "/Users/AB013HK/Documents/randing/randing-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_chart.xml",
+        "source": "/Users/AB013HK/Documents/randing/randing-app/app/src/main/res/layout/fragment_chart.xml"
+    },
+    {
+        "merged": "/Users/AB013HK/Documents/randing/randing-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml",
+        "source": "/Users/AB013HK/Documents/randing/randing-app/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/AB013HK/Documents/randing/randing-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/menu_list_item.xml",
+        "source": "/Users/AB013HK/Documents/randing/randing-app/app/src/main/res/layout/menu_list_item.xml"
+    },
+    {
+        "merged": "/Users/AB013HK/Documents/randing/randing-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_create_person.xml",
+        "source": "/Users/AB013HK/Documents/randing/randing-app/app/src/main/res/layout/fragment_create_person.xml"
+    },
+    {
+        "merged": "/Users/AB013HK/Documents/randing/randing-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/view_item_movement.xml",
+        "source": "/Users/AB013HK/Documents/randing/randing-app/app/src/main/res/layout/view_item_movement.xml"
+    },
+    {
+        "merged": "/Users/AB013HK/Documents/randing/randing-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/view_item_new_person.xml",
+        "source": "/Users/AB013HK/Documents/randing/randing-app/app/src/main/res/layout/view_item_new_person.xml"
+    },
+    {
+        "merged": "/Users/AB013HK/Documents/randing/randing-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_person_search.xml",
+        "source": "/Users/AB013HK/Documents/randing/randing-app/app/src/main/res/layout/fragment_person_search.xml"
+    },
+    {
+        "merged": "/Users/AB013HK/Documents/randing/randing-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/view_item_person.xml",
+        "source": "/Users/AB013HK/Documents/randing/randing-app/app/src/main/res/layout/view_item_person.xml"
+    },
+    {
+        "merged": "/Users/AB013HK/Documents/randing/randing-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/view_item_person_simple.xml",
+        "source": "/Users/AB013HK/Documents/randing/randing-app/app/src/main/res/layout/view_item_person_simple.xml"
+    },
+    {
+        "merged": "/Users/AB013HK/Documents/randing/randing-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/appwidget_summary.xml",
+        "source": "/Users/AB013HK/Documents/randing/randing-app/app/src/main/res/layout/appwidget_summary.xml"
+    },
+    {
+        "merged": "/Users/AB013HK/Documents/randing/randing-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_home.xml",
+        "source": "/Users/AB013HK/Documents/randing/randing-app/app/src/main/res/layout/fragment_home.xml"
+    },
+    {
+        "merged": "/Users/AB013HK/Documents/randing/randing-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_person_detail.xml",
+        "source": "/Users/AB013HK/Documents/randing/randing-app/app/src/main/res/layout/fragment_person_detail.xml"
+    },
+    {
+        "merged": "/Users/AB013HK/Documents/randing/randing-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/view_icon_label_button.xml",
+        "source": "/Users/AB013HK/Documents/randing/randing-app/app/src/main/res/layout/view_icon_label_button.xml"
+    },
+    {
+        "merged": "/Users/AB013HK/Documents/randing/randing-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_people.xml",
+        "source": "/Users/AB013HK/Documents/randing/randing-app/app/src/main/res/layout/fragment_people.xml"
+    }
+]

@@ -1,0 +1,32 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0849",
+      "resCde": "00000",
+      "resMsg": "SUCCESS",
+      "serVer": "2.0"
+    },
+    "payData": {
+      "jsonBeanList": [
+        {
+          "policyDescription": "PROPERTY INSURANCE",
+          "policyNumber": "6511498241",
+          "coverAmount": {
+            "curr": "R",
+            "amt": "261,726"
+          },
+          "premiumAmount": {
+            "curr": "R",
+            "amt": "196.82"
+          },
+          "policyStatus": "Active",
+          "policyType": "ST",
+          "manageClaims": "true",
+          "financialInstitRef": "8050375425",
+          "productCode": "ABSA HOC",
+          "renewDate": "2017-11-01"
+        }
+      ]
+    }
+  }
+}

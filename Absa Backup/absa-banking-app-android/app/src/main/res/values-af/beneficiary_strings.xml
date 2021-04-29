@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="add_beneficiary">Voeg begunstigde by</string>
+    <string name="beneficiary_management_payments_title">Betalings</string>
+    <string name="beneficiary_management_prepaid_title">Voorafbetaald</string>
+    <string name="beneficiary_details_institution_code">Instansie kode</string>
+    <string name="beneficiary_details_account_holder_name">Naam van rekeninghouer</string>
+    <string name="beneficiary_details_mobile_network_operator">Selfoonnetwerkoperateur</string>
+    <string name="beneficiary_details_bank">Bank</string>
+    <string name="beneficiary_details_branch">Tak</string>
+    <string name="beneficiary_details_their_reference">Begunstigde verwysing</string>
+    <string name="beneficiary_details_my_reference">My verwysing</string>
+    <string name="beneficiary_details_their_notification">Begunstigde se kennisgwing</string>
+    <string name="beneficiary_details_my_notification">My kennisgwing</string>
+    <string name="beneficiary_details_recent_transactions">Onlangse transaksies</string>
+    <string name="beneficiary_details_toolbar">Besonderhede van begunstigde</string>
+    <string name="beneficiary_details_pay">Betaal</string>
+    <string name="beneficiary_details_send_cash">Stuur geld</string>
+    <string name="beneficiary_details_buy">Koop</string>
+    <string name="beneficiary_edit_details_name">Naam</string>
+    <string name="beneficiary_edit_details_network_operator">Selfoonnetwerkoperateur</string>
+    <string name="beneficiary_edit_details_bank">Bank</string>
+    <string name="beneficiary_edit_details_branch">Tak</string>
+    <string name="beneficiary_edit_details_account_holder_name">Naam van rekeninghouer</string>
+    <string name="beneficiary_edit_details_institution_code">Instansie kode</string>
+    <string name="beneficiary_edit_details_account_type">Tipe Rekening</string>
+    <string name="beneficiary_edit_details_account_number">Rekeningnommer</string>
+    <string name="beneficiary_edit_details_their_reference">Begunstigde se verwysing</string>
+    <string name="beneficiary_edit_details_my_reference">My verwysing</string>
+    <string name="beneficiary_edit_details_choose">Kies</string>
+    <string name="beneficiary_edit_details_save">Stoor</string>
+    <string name="beneficiary_edit_details_toolbar_title">Redigeer begunstigde</string>
+    <string name="beneficiary_edit_details_mobile_number">Selfoonnommer</string>
+    <string name="beneficiary_edit_details_institution">Instansie</string>
+
+    <string name="beneficiary_confirm_details">Bevestig begunstigde se besonderhede</string>
+
+    <!-- Notification method view -->
+    <string name="notification_method_beneficiary">Begunstigde kennisgewings</string>
+    <string name="notification_method_self">My kennisgewings</string>
+
+    <!-- Error messages -->
+    <string name="beneficiary_already_exists">Begunstigde bestaan alreeds</string>
+    <string name="beneficiary_select_valid_account_type">Kies geldige begunstigde rekening tipe</string>
+</resources>

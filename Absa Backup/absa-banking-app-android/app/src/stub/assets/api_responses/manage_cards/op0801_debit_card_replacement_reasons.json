@@ -1,0 +1,54 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0801",
+      "resCde": "00000",
+      "resMsg": "SUCCESS",
+      "serVer": "2.0"
+    },
+    "payData": {
+      "debitCardReasonList": [
+        {
+          "reasonCode": "1",
+          "reasonDescription": "Lost card"
+        },
+        {
+          "reasonCode": "2",
+          "reasonDescription": "Stolen card"
+        },
+        {
+          "reasonCode": "3",
+          "reasonDescription": "Damaged card"
+        },
+        {
+          "reasonCode": "4",
+          "reasonDescription": "Card retained by ATM"
+        },
+        {
+          "reasonCode": "5",
+          "reasonDescription": "Card undelivered"
+        },
+        {
+          "reasonCode": "6",
+          "reasonDescription": "Expired card"
+        },
+        {
+          "reasonCode": "7",
+          "reasonDescription": "Customer requests a card"
+        },
+        {
+          "reasonCode": "8",
+          "reasonDescription": "Switch card"
+        },
+        {
+          "reasonCode": "9",
+          "reasonDescription": "Conversions"
+        },
+        {
+          "reasonCode": "10",
+          "reasonDescription": "Upgrade"
+        }
+      ]
+    }
+  }
+}

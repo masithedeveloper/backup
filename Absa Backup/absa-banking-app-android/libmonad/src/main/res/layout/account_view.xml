@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rounded_account_card"
+    android:minHeight="@dimen/card_min_height"
+    tools:parentTag="androidx.constraintlayout.widget.ConstraintLayout">
+
+    <View
+        android:id="@+id/ciaBackgroundAccent"
+        android:layout_width="@dimen/small_space"
+        android:layout_height="0dp"
+        android:background="@drawable/rounded_account_card_cia_accent"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/accountNameTextView"
+        style="@style/LargeTextMediumLight"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/normal_space"
+        android:layout_marginTop="@dimen/normal_space"
+        android:layout_marginEnd="@dimen/normal_space"
+        app:autoSizeMaxTextSize="@dimen/large_text_size"
+        app:autoSizeMinTextSize="@dimen/small_text_size"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toStartOf="@+id/alertImageView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Current Account" />
+
+    <TextView
+        android:id="@+id/cardNumberTextView"
+        style="@style/SmallTextRegularLight"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/normal_space"
+        android:layout_marginTop="@dimen/tiny_space"
+        android:layout_marginEnd="@dimen/normal_space"
+        android:layout_marginBottom="@dimen/normal_space"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/accountNameTextView"
+        tools:text="4901 2345 5678" />
+
+    <TextView
+        android:id="@+id/currencyTextView"
+        style="@style/HeadingTextMediumLight"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/normal_space"
+        android:layout_marginTop="@dimen/tiny_space"
+        android:layout_marginEnd="@dimen/normal_space"
+        android:layout_marginBottom="@dimen/tiny_space"
+        android:gravity="end"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/balanceLabelTextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:text="USD" />
+
+    <TextView
+        android:id="@+id/amountTextView"
+        style="@style/HeadingTextMediumLight"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/normal_space"
+        android:layout_marginTop="@dimen/tiny_space"
+        android:layout_marginEnd="@dimen/normal_space"
+        android:layout_marginBottom="@dimen/tiny_space"
+        android:gravity="end"
+        app:layout_constraintBottom_toTopOf="@+id/balanceLabelTextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:text="R 350 320.98" />
+
+    <TextView
+        android:id="@+id/balanceLabelTextView"
+        style="@style/SmallTextRegularLight"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/normal_space"
+        android:layout_marginTop="@dimen/tiny_space"
+        android:layout_marginEnd="@dimen/normal_space"
+        android:gravity="end"
+        android:layout_marginBottom="@dimen/normal_space"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:text="Current balance" />
+
+    <ImageView
+        android:id="@+id/alertImageView"
+        android:layout_width="@dimen/icon_size_medium"
+        android:layout_height="@dimen/icon_size_medium"
+        android:layout_margin="@dimen/normal_space"
+        android:tint="@null"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_exclamation_new"
+        tools:ignore="ContentDescription" />
+
+</merge>

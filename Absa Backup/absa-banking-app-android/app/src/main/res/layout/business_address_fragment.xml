@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        style="@style/ScrollView">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/businessComplexNormalInputView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_hint_text="@string/relationship_banking_if_applicable"
+                app:attribute_title_text="@string/relationship_banking_building_complex"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/streetAddressNormalInputView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_hint_text="@string/relationship_banking_enter_street_address"
+                app:attribute_title_text="@string/relationship_banking_street_address"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/businessComplexNormalInputView" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/suburbNormalInputView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_hint_text="@string/relationship_banking_enter_suburb"
+                app:attribute_title_text="@string/relationship_banking_suburb"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/streetAddressNormalInputView" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/cityNormalInputView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_hint_text="@string/relationship_banking_enter_city"
+                app:attribute_title_text="@string/relationship_banking_city"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/suburbNormalInputView" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/postalCodeNormalInputView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_hint_text="@string/relationship_banking_enter_postal_code"
+                app:attribute_title_text="@string/relationship_banking_postal_code"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:attribute_selector_type="LONG_LIST"
+                app:layout_constraintTop_toBottomOf="@id/cityNormalInputView" />
+
+            <styleguide.buttons.Button
+                android:id="@+id/uploadDocumentsButton"
+                style="@style/PrimaryButton"
+                android:layout_width="0dp"
+                android:text="@string/relationship_banking_upload_documents"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/postalCodeNormalInputView"
+                app:layout_constraintVertical_bias="1" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</layout>

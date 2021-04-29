@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    style="@style/ScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:animateLayoutChanges="true">
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/lottoTabLayout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            style="@style/LottoTabLayoutStyle"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <com.google.android.material.tabs.TabItem
+                android:id="@+id/lottoTabItem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lotto" />
+
+            <com.google.android.material.tabs.TabItem
+                android:id="@+id/lottoTabPowerball"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lotto_powerball" />
+
+        </com.google.android.material.tabs.TabLayout>
+
+        <styleguide.cards.CardViewPager
+            android:id="@+id/jackpotViewPager"
+            android:layout_width="0dp"
+            android:layout_height="160dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/lottoTabLayout" />
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/pageIndicatorTabLayout"
+            android:layout_width="@dimen/tab_layout_width"
+            android:layout_height="@dimen/_15sdp"
+            android:layout_marginStart="@dimen/medium_space"
+            android:layout_marginEnd="@dimen/medium_space"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/jackpotViewPager"
+            app:tabBackground="@drawable/lotto_jackpot_tab_selector"
+            app:tabIndicatorHeight="0dp" />
+
+        <TextView
+            android:id="@+id/lottoCloseTimeTextView"
+            style="@style/LargeTextRegularDark"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/medium_space"
+            android:layout_marginTop="@dimen/small_space"
+            android:layout_marginEnd="@dimen/medium_space"
+            android:text="@string/lotto_closed"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/pageIndicatorTabLayout"
+            tools:visibility="visible" />
+
+        <styleguide.buttons.Button
+            android:id="@+id/quickPickButton"
+            style="@style/SecondaryButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/medium_space"
+            android:layout_marginEnd="@dimen/small_space"
+            android:text="@string/lotto_quick_pick"
+            app:layout_constraintEnd_toStartOf="@id/playLottoButton"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/lottoCloseTimeTextView" />
+
+        <styleguide.buttons.Button
+            android:id="@+id/playLottoButton"
+            style="@style/PrimaryButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/small_space"
+            android:layout_marginTop="@dimen/medium_space"
+            android:text="@string/lotto_play_lotto"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/quickPickButton"
+            app:layout_constraintTop_toBottomOf="@+id/lottoCloseTimeTextView" />
+
+        <TextView
+            android:id="@+id/lottoCloseSoonTextView"
+            style="@style/LargeTextRegularDark"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/medium_space"
+            android:layout_marginTop="@dimen/normal_space"
+            android:layout_marginEnd="@dimen/medium_space"
+            android:text="@string/lotto_close_soon"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/playLottoButton"
+            tools:visibility="visible" />
+
+        <styleguide.content.LineItemView
+            android:id="@+id/nextDrawLineItem"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/normal_space"
+            app:attribute_label_text="@string/lotto_new_draw"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/lottoCloseSoonTextView"
+            tools:attribute_content_text="3 Days" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/ticketRecyclerView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/nextDrawLineItem"
+            tools:itemCount="5"
+            tools:listitem="@layout/ticket_view"
+            tools:visibility="visible" />
+
+        <View
+            android:id="@+id/dividerView"
+            style="@style/DividerView"
+            android:layout_width="0dp"
+            android:layout_marginTop="@dimen/normal_space"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/ticketRecyclerView" />
+
+        <styleguide.buttons.OptionActionButtonView
+            android:id="@+id/purchasedTicketsOptionActionButtonView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/small_space"
+            app:attribute_caption="@string/lotto_purchased_tickets"
+            app:attribute_icon="@drawable/ic_purchased_tickets"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/dividerView"
+            app:layout_goneMarginTop="@dimen/extra_large_space" />
+
+        <View
+            android:id="@+id/dividerView2"
+            style="@style/DividerView"
+            android:layout_width="0dp"
+            android:layout_marginTop="@dimen/small_space"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/purchasedTicketsOptionActionButtonView" />
+
+        <styleguide.buttons.OptionActionButtonView
+            android:id="@+id/viewLottoResultsOptionActionButtonView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/small_space"
+            app:attribute_caption="@string/lotto_view_lotto_results"
+            app:attribute_icon="@drawable/ic_view_lotto_results"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/dividerView2" />
+
+        <View
+            android:id="@+id/dividerView3"
+            style="@style/DividerView"
+            android:layout_width="0dp"
+            android:layout_marginTop="@dimen/small_space"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/viewLottoResultsOptionActionButtonView" />
+
+        <TextView
+            style="@style/LargeTextRegularDark"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/small_space"
+            android:alpha="0.6"
+            android:paddingStart="@dimen/action_button_text_margin"
+            android:paddingTop="@dimen/medium_space"
+            android:paddingEnd="@dimen/action_button_text_margin"
+            android:paddingBottom="@dimen/medium_space"
+            android:text="@string/lotto_play_responsibly"
+            android:textColor="@color/dark_grey_light_theme_text_color"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/dividerView3"
+            app:layout_constraintVertical_bias="0" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

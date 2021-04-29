@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        style="@style/ScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/accountNameNormalInputView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:digits="@string/allowed_reference_account_names"
+                android:inputType="textCapWords"
+                android:maxLength="15"
+                app:attribute_description_text="@string/fixed_deposit_call_fixed_deposit"
+                app:attribute_editable="true"
+                app:attribute_hint_text="@string/fixed_deposit_account_name_hint"
+                app:attribute_title_text="@string/fixed_deposit_account_name"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <styleguide.forms.RoundedSelectorView
+                android:id="@+id/accountRoundedSelectorView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/tiny_space"
+                app:attribute_editable="false"
+                app:attribute_selector_type="LONG_LIST"
+                app:attribute_title_text="@string/fixed_deposit_account_name"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/accountNameNormalInputView" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/investmentAmountNormalInputView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLength="17"
+                app:attribute_description_text="@string/fixed_deposit_available_message"
+                app:attribute_hint_text="@string/enter_amount"
+                app:attribute_selector_type="CURRENCY"
+                app:attribute_title_text="@string/fixed_deposit_investment_amount"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/accountRoundedSelectorView" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/fromAccountReferenceNormalInputView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/medium_space"
+                android:digits="@string/allowed_reference_digits"
+                android:inputType="textCapWords"
+                android:maxLength="20"
+                app:attribute_editable="true"
+                app:attribute_hint_text="@string/fixed_deposit_enter_reference"
+                app:attribute_title_text="@string/fixed_deposit_from_account_reference"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/investmentAmountNormalInputView" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/toAccountReferenceNormalInputView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:digits="@string/allowed_reference_digits"
+                android:inputType="textCapWords"
+                android:maxLength="20"
+                app:attribute_editable="true"
+                app:attribute_hint_text="@string/fixed_deposit_enter_reference"
+                app:attribute_title_text="@string/fixed_deposit_to_account_reference"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/fromAccountReferenceNormalInputView" />
+
+            <styleguide.buttons.Button
+                android:id="@+id/nextButton"
+                style="@style/PrimaryButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/double_medium_space"
+                android:text="@string/next"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/toAccountReferenceNormalInputView"
+                app:layout_constraintVertical_bias="1" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</layout>

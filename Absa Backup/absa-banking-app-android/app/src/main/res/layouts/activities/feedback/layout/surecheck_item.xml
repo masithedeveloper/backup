@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="@dimen/tiny_space">
+
+    <TextView
+        android:id="@+id/nameTextView"
+        style="@style/AuthNameValueKey"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        tools:text="Name"
+        tools:textColor="@color/graphite" />
+
+    <TextView
+        android:id="@+id/valueTextView"
+        style="@style/AuthNameValueValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Value"
+        tools:textColor="@color/graphite" />
+
+</LinearLayout>

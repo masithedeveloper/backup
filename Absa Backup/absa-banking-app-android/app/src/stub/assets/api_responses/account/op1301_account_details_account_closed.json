@@ -1,0 +1,12 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES1301",
+      "resCde": "Common/General/Host/Error/H0262",
+      "resMsg": " 085-THIS ACCOUNT HAS BEEN CLOSED",
+      "serVer": "2.0",
+      "expTrace": null
+    },
+    "payData": null
+  }
+}

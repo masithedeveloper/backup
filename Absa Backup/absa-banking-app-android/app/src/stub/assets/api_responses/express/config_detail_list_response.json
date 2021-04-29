@@ -1,0 +1,28 @@
+{
+  "header": {
+    "statuscode": "0",
+    "userAgent": "PostmanRuntime/7.25.0",
+    "jsessionid": "SJ66DHCdhZ30taVADY1yijlgcDbu5c1SS_XXhsGO",
+    "service": "ConfigurationsRetrievalManagementFacade",
+    "operation": "GetMultipleConfigValues",
+    "timestamp": "2020-05-27 14:55:02.404",
+    "sourceip": "0:0:0:0:0:0:0:1",
+    "nonce": "LMrc5LpunPpcA0fNGxCCraTeXtSQay-nuBNQBJnFRU8",
+    "language": "en",
+    "resultMessages": []
+  },
+  "listOfConfigValues": [
+    {
+      "eligibleForThisConfigValue": true,
+      "configCategory": "XOB_CONFIGS",
+      "configKey": "DEBIT_ORDER_MAX_AMOUNT",
+      "configValue": "250.00"
+    },
+    {
+      "eligibleForThisConfigValue": true,
+      "configCategory": "XOB_CONFIGS",
+      "configKey": "AXOBMOBAPP_REWARDS_TRANSACTION_CHARGE",
+      "configValue": "23.20"
+    }
+  ]
+}

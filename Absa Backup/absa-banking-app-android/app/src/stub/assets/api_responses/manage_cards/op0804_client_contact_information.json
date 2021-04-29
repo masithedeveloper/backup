@@ -1,0 +1,25 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0804",
+      "resCde": "00000",
+      "resMsg": "SUCCESS",
+      "serVer": "2.0"
+    },
+    "payData": {
+      "clientContactInfoDTO": {
+        "cellphoneNbr": "******0398",
+        "workTelephoneNbr": "*****4000",
+        "addressLine1": "47 LILY AVENUE",
+        "addressLine2": "DUNVEGAN",
+        "suburbRsa": "EDENVALE",
+        "town": "JOHANNESBURG",
+        "postalCode": "1609",
+        "cellphoneNbrActual": "0843480398",
+        "workTelephoneNbrActual": "113504000",
+        "homeTelephoneNbr": "*****0499",
+        "homeTelephoneNbrActual": "114530499"
+      }
+    }
+  }
+}

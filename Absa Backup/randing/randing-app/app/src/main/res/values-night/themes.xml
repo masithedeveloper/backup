@@ -1,0 +1,35 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.App" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+        <item name="backgroundColor">@color/colorBackground</item>
+        <item name="colorOnBackground">@color/colorOnBackground</item>
+        <item name="android:colorBackground">@color/colorBackground</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">false</item>
+        <item name="tabStyle">@style/Widget.App.TabLayout</item>
+        <item name="materialCalendarTheme">@style/ThemeOverlay.App.DatePicker</item>
+        <item name="materialAlertDialogTheme">@style/ThemeOverlay.App.MaterialAlertDialog</item>
+        <item name="snackbarStyle">@style/Widget.App.SnackBar</item>
+        <item name="snackbarButtonStyle">@style/Widget.App.SnackBarButton</item>
+        <item name="snackbarTextViewStyle">@style/Widget.App.SnackBarText</item>
+    </style>
+
+    <!--  Material DatePicker  -->
+    <style name="ThemeOverlay.App.DatePicker" parent="@style/ThemeOverlay.MaterialComponents.MaterialCalendar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+        <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.App.PickerSmallComponent</item>
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.App.PickerMediumComponent</item>
+        <item name="fontFamily">@font/montserrat_semi_bold</item>
+    </style>
+
+    <!--  Material SnackBar  -->
+    <style name="Widget.App.SnackBarButton" parent="Widget.MaterialComponents.Button.TextButton.Snackbar">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textAppearance">@style/TextAppearance.App.Button</item>
+    </style>
+</resources>

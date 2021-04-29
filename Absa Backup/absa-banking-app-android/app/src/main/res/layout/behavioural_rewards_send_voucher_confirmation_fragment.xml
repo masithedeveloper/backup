@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/confirmationTextView"
+        style="@style/NormalTextMediumDark"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/medium_space"
+        android:text="@string/behavioural_rewards_confirm_information"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <styleguide.content.SecondaryContentAndLabelView
+        android:id="@+id/contactNumberSecondaryContentAndLabelView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/medium_space"
+        app:attribute_secondary_label="@string/behavioural_rewards_contact_no"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/confirmationTextView" />
+
+    <styleguide.content.SecondaryContentAndLabelView
+        android:id="@+id/voucherSecondaryContentAndLabelView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/medium_space"
+        app:attribute_secondary_label="@string/behavioural_rewards_voucher"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/contactNumberSecondaryContentAndLabelView" />
+
+    <styleguide.buttons.Button
+        android:id="@+id/sendVoucherButton"
+        style="@style/PrimaryButton"
+        android:layout_width="0dp"
+        android:text="@string/behavioural_rewards_send_voucher"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/voucherSecondaryContentAndLabelView"
+        app:layout_constraintVertical_bias="1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,210 @@
+{
+    "payHdr": {
+        "expTrace": "null",
+        "resCde": "00000",
+        "resId": "null",
+        "resMsg": "success",
+        "serVer": "2.0"
+    },
+    "payData": {
+        "description": "",
+        "minimumIncome": "0.00",
+        "packageName": "Business Evolve\nIslamic Account",
+        "products": [{
+            "tabTitle": "Evolve Zero",
+            "identifier": "BUSINESS_EVOLVE_ISLAMIC_ZERO_CHEQUE",
+            "analyticTag": "SoleProprietor_WelcomeToABSAScreen_BusinessEvolveIslamicZeroPackageScreenDisplayed",
+            "bottomButtonTitle": "Proceed with Evolve Zero",
+            "headerTitle": "No monthly account fee",
+            "headerSubTitle": "Evolve Zero",
+            "monthlyFee": "0.00",
+            "note": "Please visit absa.co.za to see all our products and fees.",
+            "noteUnderlinedWords": "absa.co.za|fees",
+            "noteLinks": "https://www.absa.co.za/business/|https://www.absa.co.za/rates-and-fees/",
+            "features": [{
+                "featureName": "Qualification criteria:",
+                "featurePoints": [
+                    "•\tSole Proprietors with an annual turnover of up to R5 million"
+                ]
+            }, {
+                "featureName": "Standard account features:",
+                "featurePoints": [
+                    "•\tBusiness Visa DebitCard/s",
+                    "•\t24/7 access to Absa Online and the Banking App",
+                    "•\tCashflow Manager:\nA cloud based accounting system to assist you with running your business"
+                ]
+            },
+            {
+                "featureName": "Evolve Zero unique features:",
+                "featurePoints": [
+                    "•\tTiered pricing on electronic transactions",
+                    "•\tZero fees on Absa interaccount transfers",
+                    "•\tZero fees on Absa-to-Absa (internal) debit orders",
+                    "•\tAccess to cash handling",
+                    "•\tShari'ah-compliant investment options available if required"
+                ]
+            }
+            ]
+        },
+        {
+            "tabTitle": "Evolve PAYT",
+            "identifier": "BUSINESS_EVOLVE_ISLAMIC_PAYT_CHEQUE",
+            "analyticTag": "SoleProprietor_WelcomeToABSAScreen_BusinessEvolveIslamicPAYTPackageScreenDisplayed",
+            "bottomButtonTitle": "Proceed with Evolve PAYT",
+            "headerTitle": "R85 per month",
+            "headerSubTitle": "Evolve Pay-As-You-Transact (PAYT)",
+            "monthlyFee": "85.00",
+            "note": "Please visit absa.co.za to see all our products and fees.",
+            "noteUnderlinedWords": "absa.co.za|fees",
+            "noteLinks": "https://www.absa.co.za/business/|https://www.absa.co.za/rates-and-fees/",
+            "features": [{
+                "featureName": "Qualification criteria:",
+                "featurePoints": [
+                    "•\tAny registered business entity with an annual turnover of up to R500 million."
+                ]
+            }, {
+                "featureName": "Standard account features:",
+                "featurePoints": [
+                    "•\tBusiness Visa DebitCard/s",
+                    "•\t24/7 access to Absa Online and the Banking App",
+                    "•\tCashflow Manager:\nA cloud based accounting system to assist you with running your business"
+                ]
+            },
+            {
+                "featureName": "Evolve PAYT unique features:",
+                "featurePoints": [
+                    "•\tTiered pricing on electronic transactions",
+                    "•\tZero fees on Absa interaccount transfers",
+                    "•\tZero fees on Absa-to-Absa (internal) debit orders",
+                    "•\tAccess to cash handling",
+                    "•\tShari'ah-compliant investment options available if required"
+                ]
+            }
+            ]
+        },
+        {
+            "tabTitle": "Evolve 35",
+            "identifier": "BUSINESS_EVOLVE_ISLAMIC_35_CHEQUE",
+            "analyticTag": "SoleProprietor_WelcomeToABSAScreen_BusinessEvolveIslamic35PackageScreenDisplayed",
+            "bottomButtonTitle": "Proceed with Evolve 35",
+            "headerTitle": "R265 per month",
+            "headerSubTitle": "Evolve 35",
+            "monthlyFee": "265.00",
+            "note": "Please visit absa.co.za to see all our products and fees.",
+            "noteUnderlinedWords": "absa.co.za|fees",
+            "noteLinks": "https://www.absa.co.za/business/|https://www.absa.co.za/rates-and-fees/",
+            "features": [{
+                "featureName": "Qualification criteria:",
+                "featurePoints": [
+                    "•\tAny registered business entity with an annual turnover of up to R500 million."
+                ]
+            }, {
+                "featureName": "Standard account features:",
+                "featurePoints": [
+                    "•\tBusiness Visa Debit Card/s",
+                    "•\t24/7 access to Absa Online and the Banking App",
+                    "•\tCashflow Manager:\nA cloud based accounting system to assist you with running your business"
+                ]
+            },
+            {
+                "featureName": "Evolve 35 unique features:",
+                "featurePoints": [
+                    "•\t35 free electronic transactions (digital payments, external debit orders, POS transactions)",
+                    "•\t10 cash deposit or withdrawal transactions capped at R50 000 per month at any Absa ATM"
+                ]
+            },
+            {
+                "featureName": "Evolve 35 features:",
+                "featurePoints": [
+                    "•\tUnlimited Absa interaccount transfers",
+                    "•\tUnlimited Absa-to-Absa (internal) debit orders",
+                    "•\tShari'ah-compliant investment options available if required"
+                ]
+            }
+            ]
+        },
+        {
+            "tabTitle": "Evolve 60",
+            "identifier": "BUSINESS_EVOLVE_ISLAMIC_60_CHEQUE",
+            "analyticTag": "SoleProprietor_WelcomeToABSAScreen_BusinessEvolveIslamic60PackageScreenDisplayed",
+            "bottomButtonTitle": "Proceed with Evolve 60",
+            "headerTitle": "R415 per month",
+            "headerSubTitle": "Evolve 60",
+            "monthlyFee": "415.00",
+            "note": "Please visit absa.co.za to see all our products and fees.",
+            "noteUnderlinedWords": "absa.co.za|fees",
+            "noteLinks": "https://www.absa.co.za/business/|https://www.absa.co.za/rates-and-fees/",
+            "features": [{
+                "featureName": "Qualification criteria:",
+                "featurePoints": [
+                    "•\tAny registered business entity with an annual turnover of up to R500 million."
+                ]
+            }, {
+                "featureName": "Standard account features:",
+                "featurePoints": [
+                    "•\tBusiness Visa Debit Card/s",
+                    "•\t24/7 access to Absa Online and the Banking App",
+                    "•\tCashflow Manager:\nA cloud based accounting system to assist you with running your business"
+                ]
+            },
+            {
+                "featureName": "Evolve 60 unique features:",
+                "featurePoints": [
+                    "•\t60 free electronic transactions (digital payments, external debit orders, POS transactions)",
+                    "•\t15 cash deposit or withdawal transactions capped at R100 000 per month at any Absa ATM"
+                ]
+            },
+            {
+                "featureName": "Evolve 60 features:",
+                "featurePoints": [
+                    "•\tUnlimited Absa interaccount transfers",
+                    "•\tUnlimited Absa-to-Absa (internal) debit orders",
+                    "•\tShari'ah-compliant investment options available if required"
+                ]
+            }
+            ]
+        },
+        {
+            "tabTitle": "Evolve 90",
+            "identifier": "BUSINESS_EVOLVE_ISLAMIC_90_CHEQUE",
+            "analyticTag": "SoleProprietor_WelcomeToABSAScreen_BusinessEvolveIslamic90PackageScreenDisplayed",
+            "bottomButtonTitle": "Proceed with Evolve 90",
+            "headerTitle": "R590 per month",
+            "headerSubTitle": "Evolve 90",
+            "monthlyFee": "590.00",
+            "note": "Please visit absa.co.za to see all our products and fees.",
+            "noteUnderlinedWords": "absa.co.za|fees",
+            "noteLinks": "https://www.absa.co.za/business/|https://www.absa.co.za/rates-and-fees/",
+            "features": [{
+                "featureName": "Qualification criteria:",
+                "featurePoints": [
+                    "•\tAny registered business entity with an annual turnover of up to R500 million."
+                ]
+            }, {
+                "featureName": "Standard account features:",
+                "featurePoints": [
+                    "•\tBusiness Visa Debit Card/s",
+                    "•\t24/7 access to Absa Online and the Banking App",
+                    "•\tCashflow Manager:\nA cloud based accounting system to assist you with running your business"
+                ]
+            },
+            {
+                "featureName": "Evolve 90 unique features:",
+                "featurePoints": [
+                    "•\t90 free electronic transactions (digital payments, external debit orders, POS transactions)",
+                    "•\t15 cash deposit or withdawal transactions capped at R250 000 per month at any Absa ATM"
+                ]
+            },
+            {
+                "featureName": "Evolve 90 features:",
+                "featurePoints": [
+                    "•\tUnlimited Absa interaccount transfers",
+                    "•\tUnlimited Absa-to-Absa (internal) debit orders",
+                    "•\tShari'ah-compliant investment options available if required"
+                ]
+            }
+            ]
+        }
+        ]
+    }
+}

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    style="@style/ScrollView">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:paddingBottom="@dimen/medium_space"
+        android:layout_height="wrap_content">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/noticeLottieAnimationView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/extra_large_space"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:lottie_autoPlay="true"
+            app:lottie_fileName="payment_success.json"
+            app:lottie_loop="false" />
+
+        <styleguide.content.CenteredTitleView
+            android:id="@+id/titleCenteredTitleView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/large_space"
+            app:attribute_title="@string/cash_send_plus_send_multiple_title"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/noticeLottieAnimationView" />
+
+        <TextView
+            android:id="@+id/importantInfoTitleTextView"
+            style="@style/NormalTextMediumDark"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/medium_space"
+            android:textAlignment="center"
+            android:text="@string/cancel_cash_send_plus_important_notice"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/titleCenteredTitleView"
+            tools:text="Important notice" />
+
+        <styleguide.content.TertiaryContentAndLabelView
+            android:id="@+id/cashSendPlusDailyPaymentLimitTertiaryContentAndLabelView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_should_show_check_box="false"
+            app:attribute_should_show_start_tick="true"
+            app:attribute_tertiary_content="@string/cash_send_plus_amount_can_only_be_in_r10_increment"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/importantInfoTitleTextView" />
+
+        <styleguide.content.TertiaryContentAndLabelView
+            android:id="@+id/absaDailyLimitOverriddenTertiaryContentAndLabelView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_should_show_check_box="false"
+            app:attribute_should_show_start_tick="true"
+            app:attribute_tertiary_content="@string/cash_send_plus_maximum_of_r3000_per_day"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cashSendPlusDailyPaymentLimitTertiaryContentAndLabelView" />
+
+        <styleguide.content.TertiaryContentAndLabelView
+            android:id="@+id/contactRecipientTertiaryContentAndLabelView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_should_show_check_box="false"
+            app:attribute_should_show_start_tick="true"
+            app:attribute_tertiary_content="@string/cash_send_plus_multiple_contact_recipient_and_provide_access_code"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/absaDailyLimitOverriddenTertiaryContentAndLabelView" />
+
+        <styleguide.content.TertiaryContentAndLabelView
+            android:id="@+id/fullAmountNoticeTertiaryContentAndLabelView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_should_show_check_box="false"
+            app:attribute_should_show_start_tick="true"
+            app:attribute_tertiary_content="@string/cash_send_plus_full_amount_must_be_withdrawan"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/contactRecipientTertiaryContentAndLabelView" />
+
+        <styleguide.content.TertiaryContentAndLabelView
+            android:id="@+id/recipientSMSTertiaryContentAndLabelView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_should_show_check_box="false"
+            app:attribute_should_show_start_tick="true"
+            app:attribute_tertiary_content="@string/cash_send_plus_absa_will_send_sms_to_recipient_for_withdrawal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/fullAmountNoticeTertiaryContentAndLabelView" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

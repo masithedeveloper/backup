@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="NoMultiTouch">
+        <item name="android:windowEnableSplitTouch">false</item>
+        <item name="android:splitMotionEvents">false</item>
+    </style>
+
+    <!--Default text-->
+    <style name="Text_Default">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <!--Font families-->
+    <style name="Text_RobotoRegular" parent="Text_Default">
+        <item name="android:fontFamily" tools:targetApi="jelly_bean">sans-serif</item>
+        <item name="android:typeface" tools:targetApi="ice_cream_sandwich">sans</item>
+    </style>
+
+    <style name="Text_RobotoLight" parent="Text_Default">
+        <item name="android:fontFamily" tools:targetApi="jelly_bean">sans-serif-light</item>
+        <item name="android:typeface" tools:targetApi="ice_cream_sandwich">sans</item>
+    </style>
+
+    <style name="Text_RobotoMedium" parent="Text_Default">
+        <item name="android:fontFamily" tools:targetApi="jelly_bean">sans-serif-medium</item>
+        <item name="android:typeface" tools:targetApi="ice_cream_sandwich">sans</item>
+    </style>
+
+    <style name="Text_RobotoBold" parent="Text_Default">
+        <item name="android:fontFamily" tools:targetApi="jelly_bean">@font/roboto_bold</item>
+        <item name="android:typeface" tools:targetApi="ice_cream_sandwich">sans</item>
+    </style>
+
+    <style name="TitleTextBoldDark" parent="Text_RobotoBold">
+        <item name="android:textSize">@dimen/title_text_size</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="TitleTextBoldLight" parent="Text_RobotoBold">
+        <item name="android:textSize">@dimen/title_text_size</item>
+    </style>
+
+    <style name="HeadingTextMediumDark" parent="Text_RobotoMedium">
+        <item name="android:textSize">@dimen/heading_text_size</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="HeadingTextMediumBoldDark" parent="HeadingTextMediumDark">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="HeadingTextMediumLight" parent="Text_RobotoMedium">
+        <item name="android:textSize">@dimen/heading_text_size</item>
+    </style>
+
+    <style name="LargeTextMediumDark" parent="Text_RobotoMedium">
+        <item name="android:textSize">@dimen/large_text_size</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="LargeTextMediumLight" parent="Text_RobotoMedium">
+        <item name="android:textSize">@dimen/large_text_size</item>
+    </style>
+
+    <style name="LargeTextRegularDark" parent="Text_RobotoRegular">
+        <item name="android:textSize">@dimen/large_text_size</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="LargeTextRegularLight" parent="Text_RobotoRegular">
+        <item name="android:textSize">@dimen/large_text_size</item>
+    </style>
+
+    <style name="NormalTextRegularDark" parent="Text_RobotoRegular">
+        <item name="android:textSize">@dimen/regular_text_size</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="NormalTextRegularLight" parent="Text_RobotoRegular">
+        <item name="android:textSize">@dimen/regular_text_size</item>
+    </style>
+
+    <style name="NormalTextMediumDark" parent="Text_RobotoMedium">
+        <item name="android:textSize">@dimen/regular_text_size</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="NormalTextMediumLight" parent="Text_RobotoMedium">
+        <item name="android:textSize">@dimen/regular_text_size</item>
+    </style>
+
+    <style name="SmallTextMediumDark" parent="Text_RobotoMedium">
+        <item name="android:textSize">@dimen/small_text_size</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="SmallTextMediumLight" parent="Text_RobotoMedium">
+        <item name="android:textSize">@dimen/small_text_size</item>
+    </style>
+
+    <style name="SmallTextRegularDark" parent="Text_RobotoRegular">
+        <item name="android:textSize">@dimen/small_text_size</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="SmallTextRegularLight" parent="Text_RobotoRegular">
+        <item name="android:textSize">@dimen/small_text_size</item>
+    </style>
+
+    <style name="SubTextRegular" parent="Text_RobotoRegular">
+        <item name="android:textSize">@dimen/small_text_size</item>
+        <item name="android:textColor">@color/light_grey</item>
+    </style>
+
+    <!-- Buttons -->
+    <style name="DefaultButton" parent="LargeTextMediumDark">
+        <item name="android:layout_height">@dimen/button_height</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_marginBottom">@dimen/medium_space</item>
+        <item name="android:layout_marginStart">@dimen/medium_space</item>
+        <item name="android:layout_marginEnd">@dimen/medium_space</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="PrimaryRoundedButton" parent="PrimaryButton">
+        <item name="android:background">@drawable/primary_rounded_button_background</item>
+    </style>
+
+    <style name="PrimaryButton" parent="DefaultButton">
+        <item name="android:background">@drawable/primary_button_background</item>
+        <item name="android:textColor">@drawable/primary_button_text_color</item>
+        <item name="android:layout_margin">@dimen/medium_space</item>
+        <item name="android:stateListAnimator" tools:targetApi="lollipop">@null</item>
+    </style>
+
+    <style name="PrimaryButtonRound" parent="PrimaryButton">
+        <item name="android:background">@drawable/primary_button_background_round</item>
+        <item name="android:textColor">@drawable/primary_button_text_color</item>
+        <item name="android:layout_marginEnd">0dp</item>
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:layout_marginStart">0dp</item>
+        <item name="android:layout_marginBottom">0dp</item>
+    </style>
+
+    <style name="PrimaryButtonAlt" parent="LargeTextMediumDark">
+        <item name="android:background">@drawable/primary_button_background</item>
+        <item name="android:textColor">@drawable/primary_button_text_color</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="SecondaryButton" parent="DefaultButton">
+        <item name="android:background">@drawable/secondary_button_background</item>
+        <item name="android:textColor">@drawable/secondary_button_text_color</item>
+        <item name="android:stateListAnimator" tools:targetApi="lollipop">@null</item>
+    </style>
+
+    <style name="AlternativeButtonDark" parent="DefaultButton">
+        <item name="android:background">@drawable/alternative_button_dark_background</item>
+        <item name="android:textColor">@drawable/alternative_button_dark_text_color</item>
+    </style>
+
+    <style name="AlternativeButtonLight" parent="DefaultButton">
+        <item name="android:background">@drawable/alternative_button_light_background</item>
+        <item name="android:textColor">@drawable/alternative_button_light_text_color</item>
+    </style>
+
+    <style name="PrimaryButtonTransparent" parent="DefaultButton">
+        <item name="android:background">@drawable/alternative_button_transparent_background</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="CircularButton">
+        <item name="android:layout_width">@dimen/circular_button_size</item>
+        <item name="android:layout_height">@dimen/circular_button_size</item>
+        <item name="android:padding">@dimen/normal_padding</item>
+    </style>
+
+    <style name="CircularButtonDark" parent="CircularButton">
+        <item name="android:background">@drawable/circular_button_dark_shadow_layer</item>
+    </style>
+
+    <style name="CircularButtonLight" parent="CircularButton">
+        <item name="android:background">@drawable/circular_button_light_shadow_layer</item>
+    </style>
+
+    <style name="CircularButtonDarkv24" parent="CircularButton">
+        <item name="android:background">@drawable/circular_button_dark_shadow_layer_v24</item>
+    </style>
+
+    <style name="CircularButtonLightv24" parent="CircularButton">
+        <item name="android:background">@drawable/circular_button_light_shadow_layer_v24</item>
+    </style>
+
+    <style name="FloatingWideActionButtonLight" parent="LargeTextMediumDark">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_height">@dimen/button_height</item>
+        <item name="android:layout_width">@dimen/fwab_button_width</item>
+        <item name="android:background">@drawable/fwab_button_light</item>
+        <item name="android:textColor">@color/graphite</item>
+    </style>
+
+    <style name="BehaviouralRewardsRoundedButton" parent="DefaultButton">
+        <item name="android:background">@drawable/primary_button_background_round</item>
+        <item name="android:textColor">@drawable/primary_button_text_color</item>
+        <item name="android:textSize">@dimen/large_text_size</item>
+        <item name="android:paddingStart">@dimen/double_medium_space</item>
+        <item name="android:paddingEnd">@dimen/double_medium_space</item>
+        <item name="android:paddingTop">@dimen/small_space</item>
+        <item name="android:minHeight">0dp</item>
+        <item name="android:paddingBottom">@dimen/small_space</item>
+    </style>
+
+    <!-- Toolbars -->
+    <style name="ToolbarLightTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="actionMenuTextColor">@android:color/white</item>
+        <item name="android:actionMenuTextColor">@android:color/white</item>
+        <item name="titleTextAppearance">@style/LargeTextMediumLight</item>
+        <item name="colorControlNormal">@android:color/white</item>
+        <item name="titleTextColor">@android:color/white</item>
+        <item name="android:titleTextStyle">@style/ToolbarLiteTheme.TitleTextStyle</item>
+        <item name="android:actionMenuTextAppearance">@style/NormalTextRegularLight</item>
+        <item name="android:itemBackground">@android:color/black</item>
+        <item name="subtitleTextColor">@android:color/white</item>
+    </style>
+
+    <style name="ToolbarDarkTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:editTextColor">@color/white</item>
+        <item name="editTextColor">@color/white</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="titleTextColor">@color/white</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="actionMenuTextColor">@color/white</item>
+        <item name="android:actionMenuTextColor">@color/white</item>
+        <item name="titleTextAppearance">@style/LargeTextMediumDark</item>
+        <item name="colorControlNormal">@color/white</item>
+        <item name="android:titleTextStyle">@style/ToolbarDarkTheme.TitleTextStyle</item>
+        <item name="android:actionMenuTextAppearance">@style/NormalTextRegularDark</item>
+        <item name="subtitleTextColor">@color/white</item>
+        <item name="android:textColorHint">@color/white</item>
+    </style>
+
+    <style name="ToolbarCloseDarkTheme" parent="ToolbarDarkTheme">
+        <item name="android:homeAsUpIndicator">@drawable/ic_cross_dark</item>
+    </style>
+
+    <style name="ToolbarBackLightTheme" parent="ToolbarDarkTheme">
+        <item name="colorControlNormal">@color/white</item>
+    </style>
+
+    <style name="Tab" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">@android:color/white</item>
+        <item name="android:maxHeight">@dimen/tabHeight</item>
+        <item name="android:background">@color/tab_bar_view_background</item>
+        <item name="tabIndicatorHeight">@dimen/tab_layout_indicator_height</item>
+    </style>
+
+    <style name="PinkBarTab" parent="SmallTextMediumDark">
+        <item name="tabIndicatorColor">@color/pink</item>
+        <item name="android:maxHeight">@dimen/tabHeight</item>
+        <item name="tabTextColor">@color/light_silver</item>
+        <item name="tabSelectedTextColor">@color/pink</item>
+        <item name="tabIndicatorHeight">@dimen/tab_layout_indicator_height</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="tabTextAppearance">@android:style/TextAppearance.Widget.TabWidget</item>
+    </style>
+
+    <style name="TabItemTextAppearance" parent="LargeTextMediumDark">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="textAllCaps">false</item>
+    </style>
+
+    <!-- check box-->
+    <style name="CheckBoxView" parent="Base.Widget.AppCompat.CompoundButton.CheckBox">
+        <item name="android:textAppearance">@style/LargeTextMediumLight</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:button">@drawable/check_box_view_button</item>
+    </style>
+
+    <style name="CheckBoxViewErrorTexAppearance" parent="@style/SmallTextMediumLight">
+        <item name="android:textColor">@color/smile</item>
+        <item name="android:textSize">@dimen/small_text_size</item>
+    </style>
+
+    <!-- Toggle -->
+    <style name="ToggleItem" parent="Theme.AppCompat.DayNight">
+        <item name="colorControlActivated">@color/white</item>
+        <item name="colorControlNormal">@color/white</item>
+        <item name="trackTint">@color/pink</item>
+        <item name="android:textSize">@dimen/large_text_size</item>
+        <item name="fontFamily">Text_RobotoRegular</item>
+    </style>
+
+    <style name="SelectorThemeBackground" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorControlHighlight">@color/silver</item>
+        <item name="selectableItemBackground">?android:attr/selectableItemBackground</item>
+    </style>
+
+    <style name="SelectorTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorControlHighlight">@color/silver</item>
+        <item name="android:paddingTop">@dimen/selector_view_recycler_item_padding_top</item>
+        <item name="android:paddingStart">@dimen/selector_view_recycler_item_padding</item>
+        <item name="android:paddingEnd">@dimen/selector_view_recycler_item_padding</item>
+    </style>
+
+    <style name="LargeInputTextTheme" parent="TitleTextBoldDark">
+        <item name="android:textColorHint">@color/grey</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <!--Radio Button View-->
+    <style name="RadioButtonViewErrorTexAppearance" parent="@style/SmallTextMediumLight">
+        <item name="android:textColor">@color/smile</item>
+        <item name="android:textSize">@dimen/small_text_size</item>
+    </style>
+
+    <style name="RadioButtonTextAppearance" parent="@style/LargeTextRegularDark">
+        <item name="android:textColor">@color/light_grey</item>
+    </style>
+
+    <!-- menu item -->
+    <style name="ToolbarDarkTheme.TitleTextStyle" parent="android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="ToolbarDarkTheme.MenuTextStyle" parent="android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="ToolbarLiteTheme.TitleTextStyle" parent="android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="ToolbarLiteTheme.MenuTextStyle" parent="android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="ScrollView">
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:fillViewport">true</item>
+        <item name="android:contentDescription">""</item>
+        <item name="android:scrollbarFadeDuration">0</item>
+        <item name="android:fadeScrollbars">false</item>
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:scrollbarAlwaysDrawVerticalTrack">true</item>
+        <item name="android:scrollbarThumbVertical">@drawable/scroll_bar_shape</item>
+        <item name="android:scrollbarSize">@dimen/scroll_bar_size</item>
+    </style>
+
+    <style name="DatePickerDialogTheme" parent="Theme.AppCompat.DayNight.Dialog">
+        <item name="android:windowBackground">?android:colorBackground</item>
+        <item name="colorAccent">@color/smile</item>
+    </style>
+
+    <!-- Keypad -->
+    <style name="KeypadButtons" parent="@style/NormalTextRegularDark">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="layout_constraintHorizontal_weight">3</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/button_text_size_sdp</item>
+        <item name="android:background">@drawable/ic_keypad_button_circles</item>
+    </style>
+
+    <style name="KeypadIndicators" parent="@style/NormalTextRegularDark">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+    </style>
+
+    <!-- Divider -->
+    <style name="DividerView">
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/absolute</item>
+        <item name="android:layout_marginStart">@dimen/medium_space</item>
+        <item name="android:layout_marginEnd">@dimen/medium_space</item>
+    </style>
+
+    <style name="ToolbarDivider">
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/dark_grey</item>
+        <item name="android:layout_marginStart">@dimen/medium_space</item>
+        <item name="android:layout_marginEnd">@dimen/medium_space</item>
+    </style>
+
+    <style name="BranchLocatorTabs" parent="NormalTextRegularDark">
+        <item name="android:textAllCaps">false</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="FullScreenDialog">
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:windowIsFloating">false</item>
+    </style>
+
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/fade_in</item>
+        <item name="android:windowExitAnimation">@anim/fade_out</item>
+    </style>
+
+</resources>

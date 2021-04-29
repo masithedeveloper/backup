@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/international_payments"
+    app:startDestination="@id/internationalPaymentHubFragment">
+    <fragment
+        android:id="@+id/internationalPaymentsResultsFragment"
+        android:name="styleguide.screens.GenericResultScreenFragment"
+        android:label="internationalPaymentsResultsFragment"
+        tools:layout="@layout/generic_results_screen_fragment">
+        <argument
+            android:name="GenericResultScreenFragment"
+            app:argType="styleguide.screens.GenericResultScreenProperties" />
+        <argument
+            android:name="shouldOnlyAnimateOnce"
+            app:argType="boolean" />
+    </fragment>
+    <fragment
+        android:id="@+id/internationalPaymentHubFragment"
+        android:name="com.barclays.absa.banking.payments.international.InternationalPaymentHubFragment"
+        android:label="InternationalPaymentHubFragment"
+        tools:layout="@layout/international_payments_hub_fragment">
+        <action
+            android:id="@+id/action_internationalPaymentHubFragment_to_internationalPaymentsDisclaimerFragment"
+            app:destination="@id/internationalPaymentsDisclaimerFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <action
+            android:id="@+id/action_internationalPaymentHubFragment_to_internationalPaymentsResultsFragment"
+            app:destination="@id/internationalPaymentsResultsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/internationalPaymentsDisclaimerFragment"
+        android:name="com.barclays.absa.banking.payments.international.InternationalPaymentsDisclaimerFragment"
+        android:label="InternationalPaymentsDisclaimerFragment"
+        tools:layout="@layout/international_payments_disclaimer_fragment">
+        <action
+            android:id="@+id/action_internationalPaymentsDisclaimerFragment_to_internationalPaymentBeneficiaryDetailsFragment"
+            app:destination="@id/internationalPaymentsBeneficiaryDetailsFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <action
+            android:id="@+id/action_internationalPaymentsDisclaimerFragment_to_internationalPaymentsExistingBeneficiaryDetailsFragment"
+            app:destination="@id/internationalPaymentsExistingBeneficiaryDetailsFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+    <fragment
+        android:id="@+id/internationalPaymentsFirstTimeFragment"
+        android:name="com.barclays.absa.banking.payments.international.InternationalPaymentsFirstTimeFragment"
+        android:label="InternationalPaymentsFirstTimeFragment"
+        tools:layout="@layout/international_payments_first_time_use_fragment">
+        <action
+            android:id="@+id/action_internationalPaymentsFirstTimeFragment_to_internationalPaymentHubFragment"
+            app:destination="@id/internationalPaymentHubFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+    <fragment
+        android:id="@+id/internationalPaymentsBeneficiaryDetailsFragment"
+        android:name="com.barclays.absa.banking.payments.international.InternationalPaymentsBeneficiaryDetailsFragment"
+        android:label="InternationalPaymentsBeneficiaryDetailsFragment"
+        tools:layout="@layout/international_payments_beneficiary_details_fragment">
+        <action
+            android:id="@+id/action_beneficiaryDetailsFragment_to_internationalPaymentsPaymentDetailsFragment"
+            app:destination="@id/internationalPaymentsPaymentDetailsFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+    <fragment
+        android:id="@+id/internationalPaymentsPaymentDetailsFragment"
+        android:name="com.barclays.absa.banking.payments.international.InternationalPaymentsPaymentDetailsFragment"
+        android:label="InternationalPaymentsPaymentDetailsFragment"
+        tools:layout="@layout/international_payments_payment_details_fragment">
+        <action
+            android:id="@+id/action_internationalPaymentsPaymentDetailsFragment_to_internationalPaymentsConfirmBeneficiaryDetailsFragment"
+            app:destination="@id/internationalPaymentsConfirmBeneficiaryDetailsFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <argument
+            android:name="countryList"
+            app:argType="com.barclays.absa.banking.payments.international.data.InternationalCountryList[]" />
+    </fragment>
+    <fragment
+        android:id="@+id/internationalPaymentsCalculateFragment"
+        android:name="com.barclays.absa.banking.payments.international.InternationalPaymentsCalculateFragment"
+        android:label="InternationalPaymentsCalculateFragment"
+        tools:layout="@layout/international_payments_calculate_fragment">
+        <action
+            android:id="@+id/action_internationalPaymentsCalculateFragment_to_internationalPaymentsConfirmPaymentFragment"
+            app:destination="@id/internationalPaymentsConfirmPaymentFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <argument
+            android:name="sendCurrency"
+            app:argType="com.barclays.absa.banking.payments.international.data.CurrencyList[]"
+            app:nullable="true" />
+        <argument
+            android:name="listOfCurrencies"
+            app:argType="com.barclays.absa.banking.payments.international.data.CurrencyList[]"
+            app:nullable="true" />
+        <argument
+            android:name="toCurrency"
+            app:argType="com.barclays.absa.banking.payments.international.data.ToCurrency"
+            app:nullable="true" />
+        <action
+            android:id="@+id/action_internationalPaymentsCalculateFragment_to_internationalPaymentsResultsFragment"
+            app:destination="@id/internationalPaymentsResultsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/internationalPaymentsConfirmPaymentFragment"
+        android:name="com.barclays.absa.banking.payments.international.InternationalPaymentsConfirmPaymentFragment"
+        android:label="InternationalPaymentsConfirmPaymentFragment"
+        tools:layout="@layout/international_payments_confirm_payment_fragment">
+        <action
+            android:id="@+id/action_internationalPaymentsConfirmPaymentFragment_to_internationalPaymentsDeclarationNewFragment"
+            app:destination="@id/internationalPaymentsDeclarationNewFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <action
+            android:id="@+id/action_internationalPaymentsConfirmPaymentFragment_to_internationalPaymentsResultsFragment"
+            app:destination="@id/internationalPaymentsResultsFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <argument
+            android:name="quotationDetails"
+            app:argType="com.barclays.absa.banking.payments.international.data.TransferQuoteDetails" />
+    </fragment>
+    <fragment
+        android:id="@+id/internationalPaymentsExistingBeneficiaryDetailsFragment"
+        android:name="com.barclays.absa.banking.payments.international.InternationalPaymentsExistingBeneficiaryDetailsFragment"
+        android:label="InternationalPaymentsExistingBeneficiaryDetailsFragment"
+        tools:layout="@layout/international_payments_existing_beneficiary_details">
+        <action
+            android:id="@+id/action_internationalPaymentsExistingBeneficiaryDetailsFragment_to_internationalPaymentsPaymentDetailsFragment"
+            app:destination="@id/internationalPaymentsPaymentDetailsFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+    <fragment
+        android:id="@+id/internationalPaymentsConfirmBeneficiaryDetailsFragment"
+        android:name="com.barclays.absa.banking.payments.international.InternationalPaymentsConfirmBeneficiaryDetailsFragment"
+        android:label="InternationalPaymentsConfirmBeneficiaryDetailsFragment"
+        tools:layout="@layout/international_payments_confirm_beneficiary_details_fragment">
+        <action
+            android:id="@+id/action_internationalPaymentsConfirmBeneficiaryDetailsFragment_to_internationalPaymentsCalculateFragment"
+            app:destination="@id/internationalPaymentsCalculateFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <action
+            android:id="@+id/action_internationalPaymentsConfirmBeneficiaryDetailsFragment_to_internationalPaymentsResultsFragment"
+            app:destination="@id/internationalPaymentsResultsFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+    <fragment
+        android:id="@+id/internationalPaymentsDeclarationNewFragment"
+        android:name="com.barclays.absa.banking.payments.international.InternationalPaymentsDeclarationNewFragment"
+        android:label="InternationalPaymentsDeclarationNewFragment"
+        tools:layout="@layout/international_payments_declaration_new_fragment" />
+</navigation>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/header_dark"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ScrollView
+            android:id="@+id/cashSendOverviewScrollview"
+            style="@style/ScrollView"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toTopOf="@+id/cashSendConfirmButton"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/toolbar">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <styleguide.content.PrimaryContentAndLabelView
+                    android:id="@+id/cashSendBeneficiary"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:attribute_primary_content="@string/cash_send_beneficiary_placeholder"
+                    app:attribute_primary_label="@string/recipient_label"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <styleguide.content.PrimaryContentAndLabelView
+                    android:id="@+id/cashSendMobileNumber"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:attribute_primary_content="@string/cash_send_mobile_number_placeholder"
+                    app:attribute_primary_label="@string/cash_send_mobile_number_label"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/cashSendBeneficiary" />
+
+                <View
+                    android:id="@+id/cashSendDivider1"
+                    style="@style/DividerView"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dimen_1dp"
+                    android:layout_marginTop="@dimen/small_space"
+                    android:background="@color/silver_grey"
+                    app:layout_constraintTop_toBottomOf="@+id/cashSendMobileNumber" />
+
+                <styleguide.content.PrimaryContentAndLabelView
+                    android:id="@+id/cashSendAmount"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/small_space"
+                    app:attribute_primary_content="R80"
+                    app:attribute_primary_label="@string/amount"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/cashSendDivider1" />
+
+                <styleguide.content.SecondaryContentAndLabelView
+                    android:id="@+id/cashSendAccountNumber"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:attribute_secondary_content="@string/cash_send_accnum_placeholder"
+                    app:attribute_secondary_label="@string/cash_send_from_account_label"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/cashSendAmount" />
+
+                <styleguide.content.SecondaryContentAndLabelView
+                    android:id="@+id/cashSendReference"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:attribute_secondary_content="@string/cash_send_beneficiary_name_placeholder"
+                    app:attribute_secondary_label="@string/cash_send_reference_label"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/cashSendAccountNumber" />
+
+                <View
+                    android:id="@+id/cashSendDivider2"
+                    style="@style/DividerView"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dimen_1dp"
+                    android:layout_marginTop="@dimen/small_space"
+                    android:background="@color/silver_grey"
+                    app:layout_constraintTop_toBottomOf="@+id/cashSendReference" />
+
+                <styleguide.content.PrimaryContentAndLabelView
+                    android:id="@+id/cashSendPin"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/small_space"
+                    app:attribute_primary_content="@string/cash_send_atm_pin_placeholder"
+                    app:attribute_primary_label="@string/cash_send_atm_access_pin_label"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/cashSendDivider2" />
+
+                <styleguide.forms.CheckBoxView
+                    android:id="@+id/agreeToTermsCheckBoxView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    app:attribute_description="@string/register_personal_client_terms_agreement"
+                    app:attribute_is_required="true"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/cashSendPin" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </ScrollView>
+
+        <styleguide.buttons.Button
+            android:id="@+id/cashSendConfirmButton"
+            style="@style/PrimaryButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/cash_send_confirm"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cashSendOverviewScrollview"
+            app:layout_goneMarginTop="@dimen/medium_space" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

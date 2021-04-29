@@ -1,0 +1,23 @@
+{
+  "successResponseModel" : {
+    "payData" : {
+      "failureMessage" : null,
+      "sessionid" : "7a2b7c83d2bbeb5ddbe1",
+      "interAccountTransferLimit" : "R 100000.00",
+      "recurringPayment" : "R 0.00",
+      "paymentLimit" : "R 5000.00",
+      "userNumber" : "1",
+      "deviceLinked" : true,
+      "success" : "true",
+      "accessAccount" : "4047930804",
+      "futureDatedPayment" : "R 0.00"
+    },
+    "payHdr" : {
+      "resCde" : "00000",
+      "serVer" : "2.0",
+      "expTrace" : null,
+      "resMsg" : null,
+      "resId" : "RES0991"
+    }
+  }
+}

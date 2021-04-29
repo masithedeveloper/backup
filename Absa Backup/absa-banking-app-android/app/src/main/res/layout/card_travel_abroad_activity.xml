@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scrollView"
+    style="@style/ScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/header_dark" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@color/baby_pink"
+            android:orientation="vertical"
+            android:paddingTop="@dimen/normal_space"
+            android:paddingBottom="@dimen/normal_space"
+            android:paddingStart="@dimen/large_space"
+            android:paddingEnd="@dimen/large_space"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/toolbar">
+
+            <TextView
+                android:id="@+id/pleaseNoteTextView"
+                style="@style/SmallTextRegularDark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/travel_abroad_please_note"
+                android:textColor="@color/graphite"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <TextView
+                android:id="@+id/travelAbroadNoticeTextView"
+                style="@style/NormalTextRegularDark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/tiny_space"
+                android:text="@string/travel_abroad_60_days_notice"
+                android:textColor="@color/graphite"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/pleaseNoteTextView" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/enterTravelDetailsHeadingTextView"
+            style="@style/SmallTextMediumDark"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/medium_space"
+            android:text="@string/travel_abroad_enter_travel_dates_heading"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/departureDateNormalInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_editable="false"
+            app:attribute_hint_text="@string/travel_abroad_select_departure_date"
+            app:attribute_image="@drawable/ic_calendar_dark_new"
+            app:attribute_selector_type="DATE"
+            app:attribute_title_text="@string/travel_abroad_select_departure_date"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/enterTravelDetailsHeadingTextView" />
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/returnDateNormalInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_description_text="@string/travel_abroad_temporary_lock_suggestion"
+            app:attribute_editable="false"
+            app:attribute_hint_text="@string/travel_abroad_select_return_date"
+            app:attribute_image="@drawable/ic_calendar_dark_new"
+            app:attribute_selector_type="DATE"
+            app:attribute_title_text="@string/travel_abroad_select_return_date"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/departureDateNormalInputView" />
+
+        <styleguide.buttons.Button
+            android:id="@+id/activateButton"
+            style="@style/PrimaryButton"
+            android:layout_width="0dp"
+            android:text="@string/travel_abroad_activate_button_text"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/returnDateNormalInputView"
+            app:layout_constraintVertical_bias="1" />
+
+        <styleguide.buttons.Button
+            android:id="@+id/updateButton"
+            style="@style/PrimaryButton"
+            android:layout_width="0dp"
+            android:text="@string/travel_abroad_update_button_text"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/returnDateNormalInputView"
+            app:layout_constraintVertical_bias="1" />
+
+        <styleguide.buttons.Button
+            android:id="@+id/notTravellingButton"
+            style="@style/SecondaryButton"
+            android:layout_width="0dp"
+            android:text="@string/travel_abroad_not_travelling_button_text"
+            android:visibility="gone"
+            app:layout_constraintBottom_toTopOf="@+id/updateButton"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

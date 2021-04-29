@@ -1,0 +1,54 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resMsg": "Success",
+      "resCde": "00000",
+      "expTrace": null,
+      "serVer": "2.0",
+      "resId": "RES0883"
+    },
+    "payData": {
+      "getAllWUCountriesDTO": {
+        "iFTCountries": [
+          {
+            "countryCode": "MX",
+            "countryDescription": "Mexico",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "X",
+            "states": [
+              {
+                "cities": [
+                  "CALKINI",
+                  "CAMPECHE",
+                  "CANDELARIA",
+                  "CHAMPOTON",
+                  "CIUDAD DEL CARMEN",
+                  "DIVISION DEL NORTE",
+                  "ATASTA",
+                  "BECAL",
+                  "CABANCUY",
+                  "CALAKMUL",
+                  "DZIBALCHEN",
+                  "ESCARCEGA",
+                  "HECELCHAKAN",
+                  "HOPELCHEN",
+                  "INGENIO LA JOYA",
+                  "ISLA AGUADA",
+                  "LERMA",
+                  "PALIZADA",
+                  "SABANCUY",
+                  "SEYBAPLAYA",
+                  "TRES BRAZOS",
+                  "XPUJIL"
+                ],
+                "stateName": "CAMPECHE"
+              }
+            ]
+          }
+        ]
+      },
+      "txnStatus": "Success",
+      "txnMessage": "Success"
+    }
+  }
+}

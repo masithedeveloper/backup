@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="travel_abroad_title">Use Card When Travelling</string>
+    <string name="travel_abroad_success_result_title">You’re all set</string>
+    <string name="travel_abroad_success_cancel_result_message">Your dates have been updated</string>
+    <string name="travel_abroad_success_result_message">Remember, keep using your Banking App when you travel, as it is the most reliable and secure way to bank outside South Africa.\n\nEnjoy your trip.</string>
+    <string name="travel_abroad_failure_result_message">Travel dates update unsuccessful</string>
+    <string name="travel_abroad_enter_travel_dates_heading">Enter travel dates</string>
+    <string name="travel_abroad_select_departure_date">Select departure date</string>
+    <string name="travel_abroad_temporary_lock_suggestion">Before your departure, check Temporary lock to make sure that international transactions are unlocked</string>
+    <string name="travel_abroad_select_return_date">Select return date</string>
+    <string name="travel_abroad_activate_button_text">Activate</string>
+    <string name="travel_abroad_update_button_text">Update</string>
+    <string name="travel_abroad_not_travelling_button_text">I\'m not travelling anymore</string>
+    <string name="travel_abroad_60_day_pop_up_message">If you are travelling for longer than 60 days at a time, re-activate your card for travel use before your first 60 days abroad ends.</string>
+    <string name="travel_abroad_60_days_notice">If you are travelling for longer than 60 days, you will need to reactivate your card for travel use before the first 60 days abroad end.</string>
+    <string name="travel_abroad_error_message">Please select the departure date first</string>
+    <string name="travel_abroad_please_note">Please note</string>
+</resources>

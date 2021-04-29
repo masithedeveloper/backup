@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    style="@style/ScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/merchantNameTextView"
+            style="@style/HeadingTextMediumDark"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/medium_space"
+            android:layout_marginTop="@dimen/large_space"
+            android:layout_marginEnd="@dimen/medium_space"
+            android:gravity="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Joe's Coffee" />
+
+        <Button
+            android:id="@+id/splitEditBillButton"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/extra_large_space"
+            android:layout_marginTop="@dimen/large_space"
+            android:background="@drawable/secondary_button_rounded"
+            android:minHeight="0dp"
+            android:textAllCaps="false"
+            android:textColor="@color/pink"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/merchantNameTextView"
+            tools:text="@string/scan_to_pay_split_bill"
+            tools:visibility="visible" />
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/amountNormalInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:maxLength="16"
+            app:attribute_editable="true"
+            app:attribute_hint_text="@string/scan_to_pay_enter_amount"
+            app:attribute_selector_type="CURRENCY_DECIMAL"
+            app:attribute_title_text="@string/amount"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/splitEditBillButton" />
+
+        <TextView
+            android:id="@+id/tipAmountTextView"
+            style="@style/NormalTextRegularDark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/medium_space"
+            android:layout_marginTop="@dimen/small_space"
+            android:text="@string/scan_to_pay_tip"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/amountNormalInputView"
+            app:layout_goneMarginTop="0dp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/tipOptionsRecyclerView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/small_space"
+            android:clipToPadding="false"
+            android:orientation="horizontal"
+            android:paddingStart="@dimen/medium_space"
+            android:paddingEnd="@dimen/medium_space"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tipAmountTextView"
+            app:layout_goneMarginTop="0dp"
+            tools:listitem="@layout/fragment_scan_to_pay_tip_list_item" />
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/tipAmountNormalInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:maxLength="16"
+            app:attribute_editable="true"
+            app:attribute_hint_text="@string/scan_to_pay_enter_tip_amount"
+            app:attribute_selector_type="CURRENCY_DECIMAL"
+            app:attribute_title_text="@string/scan_to_pay_tip_amount"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tipOptionsRecyclerView" />
+
+        <styleguide.forms.TotalAmountInputView
+            android:id="@+id/totalAmountNormalInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:maxLength="16"
+            app:attribute_editable="false"
+            app:attribute_selector_type="CURRENCY_DECIMAL"
+            app:attribute_title_text="@string/total_amount"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tipAmountNormalInputView"
+            tools:visibility="visible" />
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/extraReferenceNormalInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:maxLength="16"
+            android:visibility="gone"
+            app:attribute_editable="true"
+            app:attribute_hint_text="@string/scan_to_pay_enter_reference"
+            app:attribute_title_text="@string/scan_to_pay_extra_reference"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/totalAmountNormalInputView"
+            tools:visibility="visible" />
+
+        <styleguide.buttons.OptionActionButtonView
+            android:id="@+id/selectedCardOptionActionButtonView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_icon="@drawable/ic_small_scan_to_pay_card_selector"
+            app:attribute_no_tint_day_night_icon="true"
+            app:attribute_show_arrow="true"
+            app:layout_constraintBottom_toTopOf="@id/rejectPaymentButton"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/extraReferenceNormalInputView"
+            app:layout_constraintVertical_bias="1"
+            app:layout_constraintVertical_chainStyle="packed"
+            tools:attribute_caption="Credit Card"
+            tools:attribute_sub_caption="4901 3456 667" />
+
+        <Button
+            android:id="@+id/rejectPaymentButton"
+            style="@style/SecondaryButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/Cancel"
+            app:layout_constraintBottom_toTopOf="@id/acceptPaymentButton"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/acceptPaymentButton"
+            style="@style/PrimaryButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:text="@string/scan_to_pay_pay"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/header_dark"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/csidTextView"
+            style="@style/TitleTextBoldDark"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/medium_space"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/toolbar"
+            tools:text="CSID: 03490235429305890"
+            tools:visibility="visible" />
+
+        <ScrollView
+            style="@style/ScrollView"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="@dimen/medium_space"
+            android:layout_marginBottom="@dimen/medium_space"
+            app:layout_constraintBottom_toTopOf="@id/loginButton"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/csidTextView"
+            app:layout_goneMarginTop="0dp">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:gravity="center">
+
+                <styleguide.forms.NormalInputView
+                    android:id="@+id/accountNumberInputView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/talkback_account_number_input"
+                    android:digits="0123456789 "
+                    android:inputType="number"
+                    app:attribute_editable="true"
+                    app:attribute_hint_text="@string/linking_enter_your_access"
+                    app:attribute_mask="#### #### #### ####"
+                    app:attribute_title_text="@string/account_number"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <styleguide.forms.NormalInputView
+                    android:id="@+id/pinCodeInputView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/talkback_pincode_input"
+                    android:inputType="numberPassword"
+                    android:maxLength="5"
+                    app:attribute_editable="true"
+                    app:attribute_hint_text="@string/linking_enter_your_pin"
+                    app:attribute_title_text="@string/linking_pin"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/accountNumberInputView" />
+
+                <styleguide.forms.NormalInputView
+                    android:id="@+id/userNumberInputView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/talkback_usernumber_inputview"
+                    android:inputType="number"
+                    android:maxLength="4"
+                    app:attribute_editable="true"
+                    app:attribute_selector_type="NONE"
+                    app:attribute_title_text="@string/user_number"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/pinCodeInputView" />
+
+                <TextView
+                    android:id="@+id/visitWebsiteTextView"
+                    style="@style/SmallTextRegularDark"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/medium_space"
+                    android:contentDescription="@string/accessibility_visit_website"
+                    android:gravity="center_horizontal"
+                    android:text="@string/visit_online_website"
+                    android:textColor="@color/grey_light_theme_color"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/userNumberInputView"
+                    app:layout_constraintVertical_bias="1" />
+
+                <TextView
+                    android:id="@+id/termsConditionsTextView"
+                    style="@style/SmallTextRegularDark"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/medium_space"
+                    android:gravity="center_horizontal"
+                    android:text="@string/logon_term_and_cond"
+                    android:textColor="@color/grey_light_theme_color"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/userNumberInputView"
+                    app:layout_constraintVertical_bias="1" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </ScrollView>
+
+        <styleguide.buttons.Button
+            android:id="@+id/loginButton"
+            style="@style/PrimaryButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/login_text"
+            android:enabled="false"
+            android:text="@string/login_text"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

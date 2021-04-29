@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scrollView"
+    style="@style/ScrollView">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/formContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/addressLine1NormalInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:digits="@string/manage_policy_beneficiaries_allowed_characters_digits"
+            app:attribute_hint_text="@string/law_for_you_enter_address_hint"
+            app:attribute_title_text="@string/address"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/addressLine2NormalInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:digits="@string/manage_policy_beneficiaries_allowed_characters_digits"
+            app:attribute_hint_text="@string/law_for_you_enter_address_hint"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/addressLine1NormalInputView" />
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/suburbNormalInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_hint_text="@string/law_for_you_enter_suburb_hint"
+            app:attribute_title_text="@string/suburb"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/addressLine2NormalInputView" />
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/cityAndPostalCodeNormalInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_editable="true"
+            app:attribute_hint_text="@string/law_for_you_select_city_hint"
+            app:attribute_selector_type="LONG_LIST"
+            app:attribute_title_text="@string/law_for_you_city_and_postal_code"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/suburbNormalInputView" />
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/contactNumberNormalInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            app:attribute_hint_text="@string/law_for_you_enter_contact_number_hint"
+            app:attribute_mask="### ### ####"
+            app:attribute_title_text="@string/contact_number_sentence_case"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/cityAndPostalCodeNormalInputView" />
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/emailAddressNumberNormalInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            app:attribute_hint_text="@string/law_for_you_enter_email_address_hint"
+            app:attribute_title_text="@string/email_address_home"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/contactNumberNormalInputView" />
+
+        <styleguide.buttons.Button
+            android:id="@+id/continueButton"
+            style="@style/PrimaryButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/continue_button"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/emailAddressNumberNormalInputView"
+            app:layout_constraintVertical_bias="1" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

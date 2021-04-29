@@ -1,0 +1,54 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0965",
+      "resCde": "00000",
+      "resMsg": "SUCCESS",
+      "serVer": "2.0"
+    },
+    "payData": {
+      "linkDeviceDtoList": [
+        {
+          "imie": "5a5e1f0b021fb9dfda098911cf480a3d0c08d9d00920a3d7d30b21866769ee7a",
+          "model": "Android SDK built for x86",
+          "manufacturer": "unknown",
+          "nickname": "Jp",
+          "status": "A",
+          "secondFactorEnabled": true,
+          "primarySecondFactorDevice": true
+        },
+        {
+          "imie": "0200dc50e330b77cefbd64d41679ffd5a54148f3a3d9a91b98c9d902dad4a282",
+          "model": "SM-N900",
+          "manufacturer": "samsung",
+          "nickname": "Ankur",
+          "secondFactorEnabled": true,
+          "status": "A"
+        },
+        {
+          "imie": "bc16b8ecda18d80f7134f0feb78080b0b31ef3fb0eae36d1529f605fd9c2f1e7",
+          "model": "iPhone",
+          "manufacturer": "Apple",
+          "nickname": "0001-W SMIT",
+          "secondFactorEnabled": true,
+          "status": "A"
+        },
+        {
+          "imie": "e9a17e9876589c10d2ecf51229a0b630170d0c41964b0bd7047b3c83d8cf761c",
+          "model": "Google Nexus 6P - 7.0.0",
+          "manufacturer": "Genymotion",
+          "nickname": "Automation",
+          "status": "A"
+        },
+        {
+          "imie": "b6d0d70c65a87c2ec78b7bf4e4c37d3448b4d124425d23a45ffa488ca5ac4d6e",
+          "model": "iPhone",
+          "manufacturer": "Apple",
+          "nickname": "0001-W SMIT",
+          "secondFactorEnabled": true,
+          "status": "A"
+        }
+      ]
+    }
+  }
+}

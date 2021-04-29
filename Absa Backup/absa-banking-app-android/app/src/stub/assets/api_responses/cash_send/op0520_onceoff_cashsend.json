@@ -1,0 +1,30 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0520",
+      "resCde": "00000",
+      "resMsg": "",
+      "serVer": "2.0"
+    },
+    "payData": {
+      "allActList": [],
+      "benOptType": "cashsend",
+      "ftFrmActLst": [],
+      "ownNotificationDTO": {
+        "emaillist": [
+          ""
+        ],
+        "cellNolist": [
+          "******4788"
+        ],
+        "faxinfolist": [
+          {
+            "faxCode": "",
+            "faxNumber": ""
+          }
+        ],
+        "actualCellNo": "0825554788"
+      }
+    }
+  }
+}

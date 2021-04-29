@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="stay_in_touch">Bly in verbinding</string>
+    <string name="hear_about_more_exciting_offers">Hoor van meer opwindende aanbiedings</string>
+    <string name="would_you_like_to_hear">Wil jy van opwindende produkte, opgraderingsgeleenthede en fantastiese aanbiedings van die Absa Groep hoor?</string>
+    <string name="choose_to_hear_about_our_offers">Is jy seker? Jy kan kies hoe jy van ons aanbiedings hoor:</string>
+    <string name="voice_recording">Stemopname</string>
+    <string name="your_details_have_been_updated">Jou besonderhede is opgedateer</string>
+    <string name="unable_to_save_changes">Kan sommige veranderinge nie stoor nie</string>
+    <string name="unable_to_save_changes_description">Ons sukkel om die besonderhede van jou rekeninge te stoor. Ons span werk daaraan. Probeer asseblief later weer.</string>
+</resources>

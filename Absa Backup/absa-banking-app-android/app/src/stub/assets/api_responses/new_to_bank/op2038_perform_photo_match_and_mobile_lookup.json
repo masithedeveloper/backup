@@ -1,0 +1,25 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES2027",
+      "resCde": "00000",
+      "resMsg": "Success",
+      "serVer": "2.0"
+    },
+    "payData": {
+      "performPhotoMatchAndMobileLookupDTO": {
+        "percentageLikeness": 82.0,
+        "cellPhoneMatchRequired": false,
+        "responseCodeDescription": "Address details required",
+        "idScanRequired": false,
+        "nameAndSurname": "CHRISTOFF JACOBS",
+        "idNumber": "7105215041088",
+        "dateOfBirth": "1971-05-21",
+        "countryOfBirth": "South  africa",
+        "gender": "Male"
+      },
+      "txnStatus": "Success",
+      "txnMessage": "Success"
+    }
+  }
+}

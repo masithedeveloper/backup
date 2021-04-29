@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="relationship_banking_personal_account" translatable="false">Personal account</string>
+    <string name="relationship_banking_business_account" translatable="false">Business account</string>
+    <string name="relationship_banking_sole_proprietor" translatable="false">Sole proprietor</string>
+    <string name="relationship_banking_choose_account_heading" translatable="false">To make your application easier for you, select which account you want to open</string>
+    <string name="relationship_banking_available_entity_type" translatable="false">Current available entity type</string>
+    <string name="relationship_banking_choose_account_disclaimer" translatable="false">Currently we only cater for sole proprietor, Business Evolve accounts on the app. All entities are available on absa.co.za</string>
+    <string name="relationship_banking_choose_your_account" translatable="false">Choose Your Account</string>
+    <string name="relationship_banking_classic_account_note" translatable="false"><html><b>Note:</b> Please visit absa.co.za to see all our products and all our fees.</html></string>
+    <string name="relationship_banking_show_me_less" translatable="false">Show me less</string>
+    <string name="relationship_banking_application" translatable="false">Application</string>
+    <string name="relationship_banking_start_application_heading" translatable="false">Please make sure you have the following to open a business account for a Sole Proprietor:</string>
+    <string name="relationship_banking_start_application_rule_one" translatable="false">Must be 18 years or older</string>
+    <string name="relationship_banking_start_application_rule_two" translatable="false">South African ID Booklet / Smart Card ID</string>
+    <string name="relationship_banking_start_application_rule_three" translatable="false">Proof of residential address (e.g. Municipal bill, account, rental agreement)</string>
+    <string name="relationship_banking_start_application_rule_four" translatable="false">Proof of business address (If this is different to your residential address)</string>
+    <string name="relationship_banking_start_application_rule_five" translatable="false">Only South African citizens must apply</string>
+    <string name="relationship_banking_start_application_rule_six" translatable="false">Country trading with must be South Africa</string>
+    <string name="relation_banking_start_application" translatable="false">Start application</string>
+    <string name="relationship_banking_agree_business_client_agreement" translatable="false">I understand and agree to the Business Client Agreement</string>
+    <string name="relationship_banking_business_terms_link_text" translatable="false">Business Client Agreement</string>
+    <string name="relationship_banking_trading_name" translatable="false">Trading name</string>
+    <string name="relationship_banking_optional" translatable="false">Optional</string>
+    <string name="relationship_banking_business_industry" translatable="false">Business industry</string>
+    <string name="relationship_banking_select_your_business_industry" translatable="false">Select your business industry</string>
+    <string name="relationship_banking_business_country" translatable="false">Country where you are operating your business</string>
+    <string name="relationship_banking_trading_country" translatable="false">Country you are trading with</string>
+    <string name="relationship_banking_south_africa" translatable="false">South Africa</string>
+    <string name="relationship_banking_about_your_business" translatable="false">About your business</string>
+    <string name="relationship_banking_fees" translatable="false">fees</string>
+    <string name="relationship_banking_building_complex" translatable="false">Business complex/building</string>
+    <string name="relationship_banking_if_applicable" translatable="false">If applicable</string>
+    <string name="relationship_banking_street_address" translatable="false">Business street address</string>
+    <string name="relationship_banking_enter_street_address" translatable="false">Enter your business street address</string>
+    <string name="relationship_banking_suburb" translatable="false">Suburb</string>
+    <string name="relationship_banking_enter_suburb" translatable="false">Enter your business suburb</string>
+    <string name="relationship_banking_city" translatable="false">City</string>
+    <string name="relationship_banking_enter_city" translatable="false">Enter your business city</string>
+    <string name="relationship_banking_postal_code" translatable="false">Postal code</string>
+    <string name="relationship_banking_enter_postal_code" translatable="false">Enter your business postal code</string>
+    <string name="relationship_banking_upload_documents" translatable="false">Upload documents</string>
+    <string name="relationship_banking_account_name" translatable="false">Account name</string>
+    <string name="relationship_banking_cost_of_account" translatable="false">Cost of account per month (Excl. transactions)</string>
+    <string name="relationship_banking_preferred_branch" translatable="false">Preferred business banking branch</string>
+    <string name="relationship_banking_i_mandate_official" translatable="false">I confirm that I am an mandated official</string>
+    <string name="relationship_banking_i_confirm_tax_reporting" translatable="false">I hereby agree that the information provided may be shared between Absa Africa Group entities to the extent required for tax reporting</string>
+    <string name="relationship_banking_i_agree_conditions" translatable="false">I understand and agree to the Terms and Conditions</string>
+    <string name="relationship_banking_business_evolve_terms_of_use" translatable="false">I understand and agree to the Business Evolve Terms of Use</string>
+    <string name="business_evolve_terms_of_use" translatable="false">Business Evolve Terms of Use</string>
+    <string name="relationship_banking_fantastic_offers_absa" translatable="false">Would you like to hear about any exciting products, upgrade opportunities or some fantastic offers from Absa Group?</string>
+    <string name="relationship_banking_please_select_branch_heading" translatable="false">Please select the branch where you would like us to allocate your business banker</string>
+    <string name="relationship_banking_preferred_business_branch" translatable="false">Preferred business banking branch</string>
+    <string name="relationship_banking_select_preferred_branch" translatable="false">Select your preferred branch</string>
+    <string name="relationship_banking_get_card_heading" translatable="false">From which branch would you like to collect your card?</string>
+    <string name="relationship_banking_if_branch_is_same" translatable="false">If the branch is the same as your preferred branch for your banker please leave as is.</string>
+    <string name="relationship_banking_preferred_city" translatable="false">Preferred city</string>
+    <string name="relationship_banking_preferred_suburb" translatable="false">Preferred suburb</string>
+    <string name="relationship_banking_selected_preferred_branch" translatable="false">Preferred branch</string>
+    <string name="relationship_banking_branch_disclaimer" translatable="false"><html><b>Note:</b> You can order and personalise multiple cards with your business banker</html></string>
+    <string name="relationship_banking_are_both_address_same" translatable="false">Is your business address the same as your home address?</string>
+    <string name="relationship_banking_financial_details_heading" translatable="false">Tell us about your financial details</string>
+    <string name="relationship_banking_business_income_comes" translatable="false">My personal income comes from</string>
+    <string name="relationship_banking_select_business_income" translatable="false">Select personal income</string>
+    <string name="relationship_banking_how_my_business_funded" translatable="false">How my business is funded</string>
+    <string name="relationship_banking_select_business_fund_type" translatable="false">Select business fund type</string>
+    <string name="relationship_banking_employment_type" translatable="false">My employment type is</string>
+    <string name="relationship_banking_select_employment_type" translatable="false">Select employment type</string>
+    <string name="relationship_banking_my_occupation" translatable="false">My occupation is</string>
+    <string name="relationship_banking_select_occupation" translatable="false">Select your occupation</string>
+    <string name="relationship_banking_specialisation" translatable="false">Specialising in</string>
+    <string name="relationship_banking_my_specialisation" translatable="false">Select your specialisation</string>
+    <string name="relationship_registered_for_tax" translatable="false">Are you registered for tax?</string>
+    <string name="relationship_banking_tax_number" translatable="false">Please provide us with your tax number</string>
+    <string name="relationship_banking_foreign_tax_registered" translatable="false">Are you a foreign tax resident?</string>
+    <string name="relationship_banking_entity_type" translatable="false">Entity type as required by SARS</string>
+    <string name="relationship_banking_non_reportable_person" translatable="false">Non reportable person</string>
+    <string name="relationship_banking_nature_of_business" translatable="false">Nature of business</string>
+    <string name="relationship_banking_select_nature_of_business" translatable="false">Please select your nature of business</string>
+    <string name="relationship_banking_please_select_type" translatable="false">Please select type of %s</string>
+    <string name="relationship_banking_please_select_business_industry" translatable="false">Please select a valid business industry</string>
+    <string name="relationship_banking_business_banking_branch" translatable="false">Business banking branch</string>
+    <string name="relationship_banking_please_select_preferred_branch" translatable="false">Please select your preferred business banking branch</string>
+    <string name="relationship_banking_please_select_a_branch" translatable="false">Please select a preferred branch</string>
+    <string name="relationship_banking_income" translatable="false">Income</string>
+    <string name="relationship_banking_where_does_income_come_from" translatable="false">Where does your business income come from?</string>
+    <string name="relationship_banking_occupational_status" translatable="false">Occupational Status</string>
+    <string name="relationship_banking_select_occupational_status" translatable="false">Please select your occupational status</string>
+    <string name="relationship_banking_occupation" translatable="false">Occupation</string>
+    <string name="relationship_banking_what_is_occupational_status" translatable="false">What is your occupational status?</string>
+    <string name="relationship_banking_please_select_income" translatable="false">Please select a source of income</string>
+    <string name="relationship_banking_please_select_employment_type" translatable="false">Please select an employment type</string>
+    <string name="relationship_banking_please_select_occupation" translatable="false">"Please select an occupation"</string>
+    <string name="relationship_banking_valid_tax_number" translatable="false">"Please enter a valid tax number"</string>
+    <string name="relationship_banking_enter_valid_city" translatable="false">Please enter a valid city</string>
+    <string name="relationship_banking_enter_valid_complex" translatable="false">Please enter a valid complex / building name</string>
+    <string name="relationship_banking_enter_valid_address" translatable="false">Please enter a valid address</string>
+    <string name="relationship_banking_how_your_business_funded" translatable="false">How is your business funded?</string>
+    <string name="relationship_banking_please_select_business_funding" translatable="false">Please select business funded type</string>
+    <string name="relationship_banking_application_summary" translatable="false">Application Summary</string>
+    <string name="relationship_banking_get_card" translatable="false">Get my bank card</string>
+    <string name="relationship_banking_choose_branch" translatable="false">Choose branch</string>
+    <string name="relationship_banking_choose_city" translatable="false">Choose city</string>
+    <string name="relationship_banking_choose_suburb" translatable="false">Choose suburb</string>
+    <string name="relationship_banking_checking_your_details" translatable="false">We are currently checking your details and we will be in contact with you to confirm.\n\nYou can also call 0800 227 592 and use your ID number as your reference</string>
+    <string name="relationship_banking_close" translatable="false">Close</string>
+    <string name="relationship_banking_terms_and_conditions" translatable="false">Terms and Conditions</string>
+    <string name="relationship_banking_conditions_checkbox_error" translatable="false">Please tick the box to indicate you agree to the Business Client Agreement</string>
+    <string name="relationship_banking_account_details_description" translatable="false">Here are your account details:\n\nPlease note you may receive a call from us to confirm this application</string>
+    <string name="relationship_banking_country_cant_be_changed" translatable="false">This cannot be changed.</string>
+    <string name="relationship_banking_trading_country_south_africa" translatable="false">Country trading with must be South Africa.</string>
+    <string name="relationship_banking_surecheck_rejected_message" translatable="false">We couldn’t verify your cellphone number.</string>
+    <string name="relationship_banking_feature_unavailable" translatable="false">Unfortunately, the \'New To Bank Sole Proprietor Registration\' feature is not available at the moment. Please try again later.</string>
+    <string name="student_account_banking_feature_unavailable" translatable="false">Unfortunately, the \'New To Bank Student Account Registration\' feature is not available at the moment. Please try again later.</string>
+    <string name="relationship_banking_trading_with_other_country_error" translatable="false">You are unable to continue. We only cater for businesses trading with South Africa.</string>
+    <string name="relationship_banking_do_you_trade_with_other_countries" translatable="false">Do you trade with any other country/ies other than South Africa?</string>
+    <string name="relationship_banking_country_you_are_registered" translatable="false">Which country are you registered for tax?</string>
+    <string name="relationship_banking_select_country_for_tax" translatable="false">Select country registered for tax</string>
+    <string name="relationship_banking_please_select_country" translatable="false">Please select a country</string>
+    <string name="relationship_banking_country_registered_for_tax" translatable="false">Country registered for tax</string>
+    <string name="business_banking_offer_title">Business Bank Account</string>
+    <string name="business_banking_offer_text">Open an account for your business</string>
+    <string name="business_bank_logout_alert_message">In order to apply for your business account we will log you out of your personal account.\n\nDon\'t worry, this is just to keep your personal account secure</string>
+    <string name="business_banking_cancel_dialog_title" translatable="false">Cancel application</string>
+    <string name="business_banking_cancel_dialog_message" translatable="false">Are you sure you want to cancel this application process?</string>
+    <string name="business_banking_go_back">Go back</string>
+    <string name="business_banking_feature_unavailable">This feature is currently only available for Sole Proprietor users.</string>
+    <string name="business_banking_essentials_lite" translatable="false">Business Essentials Lite Package</string>
+    <string name="business_banking_soleprop_message">Currently only a sole proprietor can apply for these packages. More entities are available on absa.co.za</string>
+    <string name="business_banking_essentials" translatable="false">Business Essentials Package</string>
+    <string name="business_banking_offers_description">These are all business account packages available for annual turnover below R10 million</string>
+    <string name="business_banking_choose_your_package">Choose Your Package</string>
+    <string name="business_banking_show_me_more">Show me more</string>
+    <string name="business_banking_show_less">Show me less</string>
+    <string name="business_banking_product_and_pricing">Please visit absa.co.za to see all our products and all our fees.</string>
+    <string name="business_banking_fees">fees</string>
+    <string name="business_banking_contact_centre_number" translatable="false">0800 227 592</string>
+    <string name="business_banking_optional_account_extras">Optional Account Extras</string>
+    <string name="new_to_bank_choose_account_proceed_with" translatable="false">Proceed with %s</string>
+</resources>

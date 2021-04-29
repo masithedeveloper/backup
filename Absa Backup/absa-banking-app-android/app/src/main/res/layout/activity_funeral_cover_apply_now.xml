@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/top_container_constraint_layout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_old_funeral_cover_apply_fragment"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/transparent_toolbar" />
+
+        <TextView
+            android:id="@+id/coverTitleTextView"
+            style="@style/TitleTextBoldLight"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/medium_space"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/toolbar"
+            tools:text="The dignity you and your family deserve" />
+
+        <TextView
+            android:id="@+id/coverMessageTextView"
+            style="@style/NormalTextRegularLight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/circular_button_shadow_size"
+            android:layout_marginEnd="@dimen/medium_space"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/coverTitleTextView"
+            tools:text="From as little as" />
+
+        <TextView
+            android:id="@+id/coverPremiumTextView"
+            style="@style/TitleTextBoldLight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/medium_space"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/coverMessageTextView"
+            tools:text="R 59.90" />
+
+        <TextView
+            android:id="@+id/coverPeriodTextView"
+            style="@style/NormalTextRegularLight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/medium_space"
+            android:layout_marginBottom="@dimen/medium_space"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/coverPremiumTextView"
+            tools:text="per month" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:id="@+id/darkCheckBoxOneImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/medium_space"
+        app:layout_constraintBottom_toBottomOf="@+id/cover_detailed_message_one"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/cover_detailed_message_one"
+        app:srcCompat="@drawable/ic_check_dark" />
+
+    <TextView
+        android:id="@+id/cover_detailed_message_one"
+        style="@style/LargeTextRegularDark"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/tiny_space"
+        android:layout_marginTop="@dimen/medium_space"
+        android:layout_marginEnd="@dimen/medium_space"
+        android:text="@string/funeral_cover_detailed_message_one"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/darkCheckBoxOneImageView"
+        app:layout_constraintTop_toBottomOf="@+id/top_container_constraint_layout" />
+
+    <ImageView
+        android:id="@+id/darkCheckBoxTwoImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/medium_space"
+        app:layout_constraintBottom_toBottomOf="@+id/coverDetailedMessageTwoTextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/coverDetailedMessageTwoTextView"
+        app:srcCompat="@drawable/ic_check_dark" />
+
+    <TextView
+        android:id="@+id/coverDetailedMessageTwoTextView"
+        style="@style/LargeTextRegularDark"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/tiny_space"
+        android:layout_marginTop="@dimen/small_space"
+        android:layout_marginEnd="@dimen/medium_space"
+        android:text="@string/funeral_cover_detailed_message_two"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/darkCheckBoxTwoImageView"
+        app:layout_constraintTop_toBottomOf="@+id/cover_detailed_message_one" />
+
+    <styleguide.buttons.Button
+        android:id="@+id/findOutMoreButton"
+        style="@style/SecondaryButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/tiny_space"
+        android:text="@string/funeral_cover_find_out_more"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/applyNowButton"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <styleguide.buttons.Button
+        android:id="@+id/applyNowButton"
+        style="@style/PrimaryButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/tiny_space"
+        android:text="@string/apply_now_funeral"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/findOutMoreButton" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

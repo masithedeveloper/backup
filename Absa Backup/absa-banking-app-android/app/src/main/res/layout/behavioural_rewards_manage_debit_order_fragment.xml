@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scrollView"
+    style="@style/ScrollView">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/fromAccountNormalInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_hint_text="@string/pay_from_account_hint"
+            app:attribute_selector_type="LONG_LIST"
+            app:attribute_title_text="@string/pay_from"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/debitOrderFrequencyNormalInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_selector_type="LONG_LIST"
+            app:attribute_editable="false"
+            app:attribute_title_text="@string/debit_order_frequency"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/fromAccountNormalInputView" />
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/debitDateNormalInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_editable="false"
+            app:attribute_hint_text="@string/debit_date_hint_monthly"
+            app:attribute_image="@drawable/ic_calendar_dark"
+            app:attribute_selector_type="DATE"
+            app:attribute_title_text="@string/behavioural_rewards_debit_order_day"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/debitOrderFrequencyNormalInputView" />
+
+        <styleguide.buttons.Button
+            android:id="@+id/saveButton"
+            style="@style/PrimaryButton"
+            android:layout_width="0dp"
+            android:layout_marginTop="@dimen/medium_space"
+            android:text="@string/behavioural_rewards_save_changes"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/debitDateNormalInputView"
+            app:layout_constraintVertical_bias="1" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

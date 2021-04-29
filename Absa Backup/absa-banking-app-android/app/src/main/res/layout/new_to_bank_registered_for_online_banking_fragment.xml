@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        style="@style/ScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/congratulationsText"
+                style="@style/TitleTextBoldDark"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/medium_space"
+                android:layout_marginStart="@dimen/medium_space"
+                android:text="@string/congratulations_register_text"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/congratulationsMessageText"
+                style="@style/LargeTextRegularDark"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/medium_space"
+                android:layout_marginStart="@dimen/medium_space"
+                android:layout_marginTop="@dimen/medium_space"
+                android:text="@string/congratulations_subtext_register"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/congratulationsText" />
+
+            <View
+                android:id="@+id/firstDivider"
+                style="@style/Divider_VerticalGrey"
+                android:layout_marginEnd="@dimen/medium_space"
+                android:layout_marginStart="@dimen/medium_space"
+                android:layout_marginTop="@dimen/large_space"
+                android:background="@color/silver_grey"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/congratulationsMessageText" />
+
+            <styleguide.content.SecondaryContentAndLabelView
+                android:id="@+id/accountNumberView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/small_space"
+                app:attribute_secondary_label="@string/your_account_number_register"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/firstDivider" />
+
+            <styleguide.content.SecondaryContentAndLabelView
+                android:id="@+id/surephraseView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_secondary_label="@string/surephrase_text"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/accountNumberView" />
+
+            <styleguide.content.SecondaryContentAndLabelView
+                android:id="@+id/userNumberView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_secondary_label="@string/your_user_number_register"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/surephraseView" />
+
+            <styleguide.buttons.Button
+                android:id="@+id/loginButton"
+                style="@style/PrimaryButton"
+                android:layout_width="0dp"
+                android:layout_marginBottom="@dimen/medium_space"
+                android:text="@string/new_to_bank_log_into_app"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/userNumberView"
+                app:layout_constraintVertical_bias="1" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</layout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="transfer_from_account">From account</string>
+    <string name="transfer_to_account">To account</string>
+
+    <string name="transfer_fund_amount_text">Amount</string>
+    <string name="transfer_fund_available_balance">Available balance</string>
+    <string name="transfer_fund_to_account">Select account to transfer to</string>
+
+    <string name="plz_sel_acc_from">Please select account to transfer from</string>
+    <string name="plz_sel_acc_to">Please select account to transfer to</string>
+
+    <string name="enter_amount_hint">Enter amount to transfer</string>
+    <string name="transfer_error_msg">Your transfer was unsuccessful</string>
+    <string name="enter_amount">Enter amount</string>
+    <string name="please_select_a_different_account">Please select a different account.</string>
+    <string name="account">Account</string>
+    <string name="transfer_amount_hint" translatable="false">R</string>
+    <string name="transfer_fund_result_substring">%s transferred from %s to %s</string>
+    <string name="transfer_avaf_fund_result_substring">Please check your balance and transaction history in a few minutes\n\n%s transferred from %s to %s</string>
+    <string name="transfer_reference_default">Transfer from %s to %s</string>
+    <string name="future_dated_transfer_fund_result_substring">%1s will be transferred from %2s to %3s on %4s</string>
+    <string name="transfer_successful">Transfer successful</string>
+    <string name="transfer_in_progress">Transfer in progress</string>
+    <string name="transfer_confirm_request_title">Confirm Request</string>
+    <string name="choose_account_transfer_hint">Choose account</string>
+    <string name="account_to_pay_to">Select an account</string>
+    <string name="please_enter_amount_to_transfer">Please enter an amount to transfer</string>
+    <string name="please_select_a_to_account">Please select a To account</string>
+    <string name="please_select_a_from_account">Please select a From account</string>
+    <string name="rewards_redemption_successful">Your Absa rewards redemption was successful</string>
+    <string name="rewards_redemption_unsuccessful">Your Absa rewards redemption was unsuccessful.</string>
+    <string name="rewards_redemption_successful_title">Rewards redemption successful</string>
+    <string name="rewards_redemption_unsuccessful_title">Rewards redemption unsuccessful</string>
+    <string name="transfer_from_account_reference">From reference</string>
+    <string name="transfer_to_account_reference">To reference</string>
+    <string name="transfer_enter_valid_reference">Please enter a valid reference</string>
+    <string name="transfer_date">Transfer date</string>
+    <string name="normal_transfer">Normal</string>
+    <string name="future_dated_transfer">Future Dated Transfer</string>
+    <string name="transfer_type">Transfer type</string>
+    <string name="select_transfer_future_date">Please select transfer date</string>
+    <string name="future_dated_transfer_successful">Transfer schedule successful</string>
+    <string name="no_from_accounts">Sorry, you have no accounts to transfer from</string>
+    <string name="no_to_accounts">Sorry, you have no accounts to transfer to</string>
+    <string name="avaf_transfer_delay_header">Transfers into AVAF accounts may take up to a few seconds to reflect on the current balance</string>
+    <string name="avaf_transfer_payment_confirmation_note"><b>Note:</b> Payments made into this account only reduce the outstanding balance.</string>
+    <string name="avaf_transfer_please_note">Please note</string>
+    <string name="avaf_transfer_transfer_delay_note">Your transfer may take up to a few seconds to reflect on the balance</string>
+    <string name="do_another_transfer">Do another transfer</string>
+    <string name="transfer_available">R %s Available</string>
+    <string name="transfer_amount_exceeds_balance">Amount cannot be more than R %s</string>
+    <string name="transfer_authorization_outstanding">authorisation outstanding</string>
+    <string name="transfer_authorization_response_message">TRANSFER IN PROGRESS</string>
+    <string name="transfer_whats_new_title">Transfer into your Vehicle Finance Account</string>
+    <string name="transfer_whats_new_description">You can now make interaccount transfers to your Vehicle Finance Account from your cheque or savings account and view your transaction history and balances.</string>
+</resources>

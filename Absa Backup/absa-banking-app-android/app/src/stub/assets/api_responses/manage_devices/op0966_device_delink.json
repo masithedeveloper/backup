@@ -1,0 +1,22 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0966",
+      "resCde": "00000",
+      "resMsg": "SUCCESS",
+      "serVer": "2.0",
+      "expTrace": null
+    },
+    "payData": {
+      "cellnumber": null,
+      "deviceNickName": "0001-H   SAYED   1",
+      "action": "D",
+      "linkDeviceDtoList": null,
+      "statusMsg": "SUCCESS",
+      "corelationId": null,
+      "transactionDate": null,
+      "tvnFlag": "",
+      "email": null
+    }
+  }
+}

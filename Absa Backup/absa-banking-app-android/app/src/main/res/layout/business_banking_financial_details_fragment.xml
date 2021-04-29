@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        style="@style/ScrollView">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/financialDetailsHeadingTextView"
+                style="@style/LargeTextRegularDark"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/medium_space"
+                android:text="@string/relationship_banking_financial_details_heading"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/sourceOfIncomeNormalInputView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_hint_text="@string/relationship_banking_select_business_income"
+                app:attribute_selector_type="LONG_LIST"
+                app:attribute_title_text="@string/relationship_banking_business_income_comes"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/financialDetailsHeadingTextView" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/businessFundedNormalInputView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_hint_text="@string/relationship_banking_select_business_fund_type"
+                app:attribute_selector_type="LONG_LIST"
+                app:attribute_title_text="@string/relationship_banking_how_my_business_funded"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/sourceOfIncomeNormalInputView" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/employmentTypeNormalInputView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_hint_text="@string/relationship_banking_select_employment_type"
+                app:attribute_selector_type="LONG_LIST"
+                app:attribute_title_text="@string/relationship_banking_employment_type"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/businessFundedNormalInputView" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/occupationNormalInputView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                app:attribute_hint_text="@string/relationship_banking_select_occupation"
+                app:attribute_selector_type="LONG_LIST"
+                app:attribute_title_text="@string/relationship_banking_my_occupation"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/employmentTypeNormalInputView" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/medicalSpecialisationNormalInputView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                app:attribute_hint_text="@string/relationship_banking_my_specialisation"
+                app:attribute_selector_type="LONG_LIST"
+                app:attribute_title_text="@string/relationship_banking_specialisation"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/occupationNormalInputView" />
+
+            <TextView
+                android:id="@+id/taxRegisteredTextView"
+                style="@style/SmallTextMediumDark"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/medium_space"
+                android:text="@string/relationship_registered_for_tax"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/medicalSpecialisationNormalInputView" />
+
+            <styleguide.forms.RadioButtonView
+                android:id="@+id/taxRegisteredRadioButtonView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/taxRegisteredTextView" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/taxNumberNormalInputView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:maxLength="10"
+                android:visibility="gone"
+                app:attribute_selector_type="NONE"
+                app:attribute_title_text="@string/relationship_banking_tax_number"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/taxRegisteredRadioButtonView" />
+
+            <TextView
+                android:id="@+id/foreignTaxRegisteredTextView"
+                style="@style/SmallTextMediumDark"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/medium_space"
+                android:text="@string/relationship_banking_foreign_tax_registered"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/taxNumberNormalInputView" />
+
+            <styleguide.forms.RadioButtonView
+                android:id="@+id/foreignTaxRegisteredRadioButtonView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/foreignTaxRegisteredTextView" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/countryNormalInputView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                app:attribute_hint_text="@string/relationship_banking_select_country_for_tax"
+                app:attribute_selector_type="SEARCHABLE_LONG_LIST"
+                app:attribute_title_text="@string/relationship_banking_country_you_are_registered"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/foreignTaxRegisteredRadioButtonView" />
+
+            <styleguide.buttons.Button
+                android:id="@+id/nextButton"
+                style="@style/PrimaryButton"
+                android:layout_width="0dp"
+                android:text="@string/next"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/countryNormalInputView"
+                app:layout_constraintVertical_bias="1" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</layout>

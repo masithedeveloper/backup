@@ -1,0 +1,36 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES2191",
+      "resCde": "00000",
+      "resMsg": "Success",
+      "serVer": "2.0",
+      "expTrace": null
+    },
+    "payData": {
+      "freeCoverInsuranceRespDTO": {
+        "complete": false,
+        "noOfBenefits": "0",
+        "noOfBeneficieries": "0",
+        "planCounter": "0",
+        "spousePlanCounter": "0",
+        "policyLink": false,
+        "policyNumber": "6441185788",
+        "commencementDate": "2020-11-01",
+        "noOfRoleplayers": "0",
+        "totalCoverAmount": "100000.0",
+        "totalPremium": "0.0"
+      },
+      "sureCheckFlag": null,
+      "tvnFlag": null,
+      "referenceNumber": "M3BmYkZSWkQ0dzdnamtvbkFuZzRvQTRXWFFseEN5Qlo=",
+      "corelationId": "M3BmYkZSWkQ0dzdnamtvbkFuZzRvQTRXWFFseEN5Qlo=",
+      "transactionDate": "2020-07-03 15:27:58",
+      "cellnumber": null,
+      "email": null,
+      "notificationMethod": null,
+      "txnStatus": "Success",
+      "txnMessage": "Success"
+    }
+  }
+}

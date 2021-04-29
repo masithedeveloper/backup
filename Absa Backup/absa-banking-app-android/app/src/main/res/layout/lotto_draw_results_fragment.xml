@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    style="@style/ScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/small_space">
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/lottoTabLayout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            style="@style/LottoTabLayoutStyle"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <com.google.android.material.tabs.TabItem
+                android:id="@+id/lottoTabItem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lotto" />
+
+            <com.google.android.material.tabs.TabItem
+                android:id="@+id/lottoPlus1TabItem"
+                style="@style/BranchLocatorTabs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lotto_plus_one" />
+
+            <com.google.android.material.tabs.TabItem
+                android:id="@+id/lottoPlus2TabItem"
+                style="@style/BranchLocatorTabs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lotto_plus_two" />
+
+        </com.google.android.material.tabs.TabLayout>
+
+        <TextView
+            android:id="@+id/boardDescriptionTextView"
+            style="@style/NormalTextMediumDark"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/extra_large_space"
+            android:gravity="center"
+            android:text="@string/lotto_draw_results"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/lottoTabLayout" />
+
+        <include
+            android:id="@+id/drawResultsView"
+            layout="@layout/multi_ball_view"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/medium_space"
+            android:layout_marginTop="@dimen/medium_space"
+            android:layout_marginEnd="@dimen/medium_space"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/boardDescriptionTextView" />
+
+        <View
+            android:id="@+id/boardDividerView"
+            style="@style/DividerView"
+            android:layout_width="0dp"
+            android:layout_marginTop="@dimen/large_space"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/drawResultsView" />
+
+        <styleguide.content.PrimaryContentAndLabelView
+            android:id="@+id/drawTicketsPrimaryContentAndLabelView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/small_space"
+            app:attribute_primary_label="@string/lotto_draw_tickets"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/boardDividerView"
+            tools:attribute_primary_content="5 Active entries" />
+
+        <LinearLayout
+            android:id="@+id/drawTicketsLinearLayout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/drawTicketsPrimaryContentAndLabelView" />
+
+        <View
+            android:id="@+id/entriesDividerView"
+            style="@style/DividerView"
+            android:layout_width="0dp"
+            android:layout_marginTop="@dimen/large_space"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/drawTicketsLinearLayout" />
+
+        <styleguide.content.PrimaryContentAndLabelView
+            android:id="@+id/drawDatePrimaryContentAndLabelView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/small_space"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/entriesDividerView"
+            tools:attribute_primary_content="Saturday, 12 October"
+            tools:attribute_primary_label="Draw #1923" />
+
+        <styleguide.content.LineItemView
+            android:id="@+id/rolloverAmountLineItemView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_label_text="@string/lotto_rollover_amount"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/drawDatePrimaryContentAndLabelView"
+            tools:attribute_content_text="R 8 441 059.02" />
+
+        <styleguide.content.LineItemView
+            android:id="@+id/totalPoolLineItemView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_label_text="@string/lotto_total_pool"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rolloverAmountLineItemView"
+            tools:attribute_content_text="R 11 441 059.02" />
+
+        <View
+            android:id="@+id/lottoWinnersDividerView"
+            style="@style/DividerView"
+            android:layout_width="0dp"
+            android:layout_marginTop="@dimen/small_space"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/totalPoolLineItemView" />
+
+        <styleguide.content.PrimaryContentAndLabelView
+            android:id="@+id/lottoWinnersPrimaryContentAndLabelView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/small_space"
+            app:attribute_primary_content="@string/lotto_winners"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/lottoWinnersDividerView" />
+
+        <styleguide.content.LineItemView
+            android:id="@+id/div1LineItemView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_max_lines="2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/lottoWinnersPrimaryContentAndLabelView"
+            tools:attribute_content_text="No winners\n-"
+            tools:attribute_label_text="Div 1:\nMatch 6" />
+
+        <styleguide.content.LineItemView
+            android:id="@+id/div2LineItemView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_max_lines="2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/div1LineItemView"
+            tools:attribute_content_text="No winners\n-"
+            tools:attribute_label_text="Div 2:\nMatch 6" />
+
+        <styleguide.content.LineItemView
+            android:id="@+id/div3LineItemView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_max_lines="2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/div2LineItemView"
+            tools:attribute_content_text="No winners\n-"
+            tools:attribute_label_text="Div 3:\nMatch 6" />
+
+        <styleguide.content.LineItemView
+            android:id="@+id/div4LineItemView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_max_lines="2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/div3LineItemView"
+            tools:attribute_content_text="No winners\n-"
+            tools:attribute_label_text="Div 4:\nMatch 6" />
+
+        <styleguide.content.LineItemView
+            android:id="@+id/div5LineItemView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_max_lines="2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/div4LineItemView"
+            tools:attribute_content_text="No winners\n-"
+            tools:attribute_label_text="Div 5:\nMatch 6" />
+
+        <styleguide.content.LineItemView
+            android:id="@+id/div6LineItemView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_max_lines="2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/div5LineItemView"
+            tools:attribute_content_text="No winners\n-"
+            tools:attribute_label_text="Div 6:\nMatch 6" />
+
+        <styleguide.content.LineItemView
+            android:id="@+id/div7LineItemView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_max_lines="2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/div6LineItemView"
+            tools:attribute_content_text="No winners\n-"
+            tools:attribute_label_text="Div 7:\nMatch 6" />
+
+        <styleguide.content.LineItemView
+            android:id="@+id/div8LineItemView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_max_lines="2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/div7LineItemView"
+            tools:attribute_content_text="No winners\n-"
+            tools:attribute_label_text="Div 8:\nMatch 6" />
+
+        <styleguide.content.LineItemView
+            android:id="@+id/div9LineItemView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_max_lines="2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/div8LineItemView"
+            tools:attribute_content_text="No winners\n-"
+            tools:attribute_label_text="Div 8:\nMatch 6" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

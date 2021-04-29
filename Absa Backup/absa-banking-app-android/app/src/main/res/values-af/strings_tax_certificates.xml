@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tax_certificates_menu_item">Belastingsertifikate</string>
+    <string name="tax_certificates_only_for_previous_5_years_can_be_requested">Slegs belastingsertifikate vir die vorige vyf jaar kan aangevra word</string>
+    <string name="tax_certificates_select_year">Kies belastingjaar</string>
+    <string name="tax_certificates_hint_tax_year">Belastingjaar</string>
+    <string name="tax_certificates_select_certificate_type">Kies sertifikaattipe</string>
+    <string name="tax_certificates_type">Sertifikaattipe</string>
+    <string name="tax_certificates_request_are_subject_to_trans_fees_and_charges">Let wel: Belastingsertifikate op versoek kan aan transaksiefooie en heffings onderhewig wees.</string>
+    <string name="tax_certificates_no_data_exists_for_the_selected_criteria">Let wel dat daar geen data vir die soekresultate gevind is nie. Enige navrae, skakel 0800 227 592</string>
+    <string name="tax_certificates_unable_to_locate_certificate">Ons kan nie sertifikaat opspoor nie.</string>
+    <string name="tax_certificates_please_select_tax_year">kies asseblief \'n belastingsjaar</string>
+    <string name="tax_certificates_please_select_certificate_type">Kan jy asseblief \'n sertifikaat kies wat jy vereis</string>
+    <string name="tax_certificates_fees">transaksiefooie</string>
+    <string name="tax_certificates_having_trouble_opening_document">Ons sukkel om die dokument oop te maak. Probeer asseblief weer later.</string>
+</resources>

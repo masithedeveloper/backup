@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/buy_unit_trust_navigation_graph"
+    app:startDestination="@id/buyUnitTrustStartJourneyFragment">
+
+    <fragment
+        android:id="@+id/buyUnitTrustStartJourneyFragment"
+        android:name="com.barclays.absa.banking.unitTrusts.ui.buy.BuyUnitTrustStartJourneyFragment"
+        android:label="BuyUnitTrustStartJourneyFragment"
+        tools:layout="@layout/buy_unit_trust_start_journey_fragment">
+        <action
+            android:id="@+id/action_buyUnitTrustStartJourneyFragment_to_buyUnitTrustLearnMoreFragment"
+            app:destination="@id/buyUnitTrustLearnMoreFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <action
+            android:id="@+id/action_buyUnitTrustStartJourneyFragment_to_buyUnitTrustFundsFragment"
+            app:destination="@id/buyUnitTrustFundsFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/buyUnitTrustLearnMoreFragment"
+        android:name="com.barclays.absa.banking.unitTrusts.ui.buy.BuyUnitTrustLearnMoreFragment"
+        android:label="BuyUnitTrustLearnMoreFragment"
+        tools:layout="@layout/buy_unit_trust_learn_more_fragment">
+        <action
+            android:id="@+id/action_buyUnitTrustLearnMoreFragment_to_buyUnitTrustWhatIsUnitTrustFragment"
+            app:destination="@id/buyUnitTrustWhatIsUnitTrustFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <action
+            android:id="@+id/action_buyUnitTrustLearnMoreFragment_to_buyUnitTrustCostFragment"
+            app:destination="@id/buyUnitTrustCostFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <action
+            android:id="@+id/action_buyUnitTrustLearnMoreFragment_to_buyUnitTrustRiskConsiderationFragment"
+            app:destination="@id/buyUnitTrustRiskConsiderationFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <action
+            android:id="@+id/action_buyUnitTrustLearnMoreFragment_to_buyUnitTrustDividentTaxFragment"
+            app:destination="@id/buyUnitTrustDividentTaxFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <action
+            android:id="@+id/action_buyUnitTrustLearnMoreFragment_to_buyUnitTrustContactUsFragment"
+            app:destination="@id/buyUnitTrustContactUsFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/buyUnitTrustFundsFragment"
+        android:name="com.barclays.absa.banking.unitTrusts.ui.buy.BuyUnitTrustFundsFragment"
+        android:label="@string/unit_trust_funds_title"
+        tools:layout="@layout/buy_unit_trust_funds_fragment">
+        <action
+            android:id="@+id/show_picker"
+            app:destination="@+id/buyUnitTrustFundsFilterFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <action
+            android:id="@+id/action_buyUnitTrustFundsFragment_to_buyUnitTrustFundInformation"
+            app:destination="@id/buyUnitTrustFundInformation"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/buyUnitTrustWhatIsUnitTrustFragment"
+        android:name="com.barclays.absa.banking.unitTrusts.ui.buy.BuyUnitTrustWhatIsUnitTrustFragment"
+        android:label="BuyUnitTrustWhatIsUnitTrustFragment"
+        tools:layout="@layout/buy_unit_trust_what_is_unit_trust_fragment" />
+    <fragment
+        android:id="@+id/buyUnitTrustCostFragment"
+        android:name="com.barclays.absa.banking.unitTrusts.ui.buy.BuyUnitTrustCostFragment"
+        android:label="BuyUnitTrustCostFragment"
+        tools:layout="@layout/buy_unit_trust_cost_fragment" />
+    <fragment
+        android:id="@+id/buyUnitTrustRiskConsiderationFragment"
+        android:name="com.barclays.absa.banking.unitTrusts.ui.buy.BuyUnitTrustRiskConsiderationFragment"
+        android:label="BuyUnitTrustRiskConsiderationFragment"
+        tools:layout="@layout/buy_unit_trust_risk_consideration_fragment" />
+    <fragment
+        android:id="@+id/buyUnitTrustDividentTaxFragment"
+        android:name="com.barclays.absa.banking.unitTrusts.ui.buy.BuyUnitTrustDividendTaxFragment"
+        android:label="BuyUnitTrustDividentTaxFragment"
+        tools:layout="@layout/buy_unit_trust_divident_tax_fragment" />
+    <fragment
+        android:id="@+id/buyUnitTrustContactUsFragment"
+        android:name="com.barclays.absa.banking.unitTrusts.ui.buy.BuyUnitTrustContactUsFragment"
+        android:label="BuyUnitTrustContactUsFragment"
+        tools:layout="@layout/buy_unit_contact_us_fragment" />
+    <fragment
+        android:id="@+id/buyUnitTrustFundsFilterFragment"
+        android:name="com.barclays.absa.banking.unitTrusts.ui.buy.BuyUnitTrustFundsFilterFragment"
+        android:label="@string/unit_trust_fund_filter_title"
+        tools:layout="@layout/buy_unit_trust_funds_filter_fragment" />
+    <fragment
+        android:id="@+id/buyUnitTrustFundInformation"
+        android:name="com.barclays.absa.banking.unitTrusts.ui.buy.BuyUnitTrustFundInformationFragment"
+        android:label="BuyUnitTrustFundInformation"
+        tools:layout="@layout/buy_unit_trust_fund_information">
+        <action
+            android:id="@+id/action_buyUnitTrustFundInformation_to_buyUnitTrustInvestmentMethodFragment"
+            app:destination="@id/buyUnitTrustInvestmentMethodFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+    <fragment
+        android:id="@+id/buyUnitTrustInvestmentMethodFragment"
+        android:name="com.barclays.absa.banking.unitTrusts.ui.buy.BuyUnitTrustInvestmentMethodFragment"
+        android:label="BuyUnitTrustInvestmentMethodFragment"
+        tools:layout="@layout/buy_unit_trust_investment_method_fragment">
+        <action
+            android:id="@+id/action_buyUnitTrustInvestmentMethodFragment_to_buyUnitTrustTaxFragment"
+            app:destination="@id/buyUnitTrustTaxFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+    <fragment
+        android:id="@+id/buyUnitTrustTaxFragment"
+        android:name="com.barclays.absa.banking.unitTrusts.ui.buy.BuyUnitTrustTaxFragment"
+        android:label="BuyUnitTrustTaxFragment"
+        tools:layout="@layout/buy_unit_trust_tax_fragment">
+        <action
+            android:id="@+id/action_buyUnitTrustTaxFragment_to_buyUnitTrustSummaryFragment"
+            app:destination="@id/buyUnitTrustSummaryFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+    <fragment
+        android:id="@+id/buyUnitTrustSummaryFragment"
+        android:name="com.barclays.absa.banking.unitTrusts.ui.buy.BuyUnitTrustSummaryFragment"
+        android:label="BuyUnitTrustSummaryFragment"
+        tools:layout="@layout/buy_unit_trust_summary_screen">
+        <action
+            android:id="@+id/action_buyUnitTrustSummaryFragment_to_buyUnitTrustTermsOfUseFragment"
+            app:destination="@id/buyUnitTrustTermsOfUseFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <argument
+            android:name="UNIT_TRUST_INFORMATION"
+            app:argType="com.barclays.absa.banking.unitTrusts.services.dto.UnitTrustFund" />
+    </fragment>
+    <fragment
+        android:id="@+id/buyUnitTrustTermsOfUseFragment"
+        android:name="com.barclays.absa.banking.unitTrusts.ui.buy.BuyUnitTrustTermsOfUseFragment"
+        android:label="BuyUnitTrustTermsOfUseFragment"
+        tools:layout="@layout/buy_unit_trust_terms_of_use_fragment">
+        <action
+            android:id="@+id/action_buyUnitTrustTermsOfUseFragment_to_genericResultScreenFragment"
+            app:destination="@id/genericResultScreenFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <argument
+            android:name="UNIT_TRUST_INFORMATION"
+            app:argType="com.barclays.absa.banking.unitTrusts.services.dto.UnitTrustFund" />
+    </fragment>
+    <fragment
+        android:id="@+id/genericResultScreenFragment"
+        android:name="styleguide.screens.GenericResultScreenFragment"
+        android:label="GenericResultScreenFragment"
+        tools:layout="@layout/generic_results_screen_fragment" >
+        <argument
+            android:name="GenericResultScreenFragment"
+            app:argType="styleguide.screens.GenericResultScreenProperties" />
+        <argument
+            android:name="shouldOnlyAnimateOnce"
+            app:argType="boolean" />
+    </fragment>
+
+</navigation>

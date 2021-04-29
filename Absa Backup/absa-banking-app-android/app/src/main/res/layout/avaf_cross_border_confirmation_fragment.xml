@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    style="@style/ScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.barclays.absa.banking.avaf.documentRequest.ui.crossborder.AvafCrossBorderConfirmationFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <styleguide.content.PrimaryContentAndLabelView
+            android:id="@+id/emailPrimaryContentAndLabelView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_primary_label="@string/avaf_document_request_confirmation_email_address"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:attribute_primary_content="jdoe@absa.africa" />
+
+        <styleguide.content.SecondaryContentAndLabelView
+            android:id="@+id/requestTypeSecondaryContentAndLabelView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_secondary_content="@string/avaf_document_request_cross_border_letter"
+            app:attribute_secondary_label="@string/avaf_document_request_confirmation_request"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/emailPrimaryContentAndLabelView" />
+
+        <View
+            android:id="@+id/divider1View"
+            style="@style/DividerView"
+            android:layout_width="0dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/requestTypeSecondaryContentAndLabelView" />
+
+        <styleguide.content.SecondaryContentAndLabelView
+            android:id="@+id/driverNameSecondaryContentAndLabelView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_secondary_label="@string/avaf_document_request_crossborder_driver_name"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/divider1View"
+            tools:attribute_secondary_content="MC DU PLOOY" />
+
+        <styleguide.content.SecondaryContentAndLabelView
+            android:id="@+id/driverIdSecondaryContentAndLabelView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_secondary_label="@string/avaf_document_request_crossborder_driver_id"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/driverNameSecondaryContentAndLabelView"
+            tools:attribute_secondary_content="7209 26517 4086" />
+
+        <View
+            android:id="@+id/divider2View"
+            style="@style/DividerView"
+            android:layout_width="0dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/driverIdSecondaryContentAndLabelView" />
+
+        <styleguide.content.SecondaryContentAndLabelView
+            android:id="@+id/documentDateFromSecondaryContentAndLabelView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_secondary_label="@string/avaf_document_request_crossborder_period_start"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/divider2View"
+            tools:attribute_secondary_content="25 August 2020" />
+
+        <styleguide.content.SecondaryContentAndLabelView
+            android:id="@+id/documentDateToSecondaryContentAndLabelView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_secondary_label="@string/avaf_document_request_crossborder_period_end"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/documentDateFromSecondaryContentAndLabelView"
+            tools:attribute_secondary_content="25 September 2020" />
+
+        <styleguide.buttons.Button
+            android:id="@+id/confirmButton"
+            style="@style/PrimaryButton"
+            android:layout_width="0dp"
+            android:text="@string/avaf_document_request_confirm"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/documentDateToSecondaryContentAndLabelView"
+            app:layout_constraintVertical_bias="1" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

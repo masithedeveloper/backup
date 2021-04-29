@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <styleguide.content.PrimaryContentAndLabelView
+        android:id="@+id/beneficiaryNamePrimaryContentAndLabelView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:attribute_primary_label="@string/beneficiary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:attribute_primary_content="Rofhiwa Sikhauli" />
+
+    <styleguide.content.PrimaryContentAndLabelView
+        android:id="@+id/amountPrimaryContentAndLabelView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:attribute_primary_label="@string/amount"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/beneficiaryNamePrimaryContentAndLabelView"
+        tools:attribute_primary_content="R 1000.00" />
+
+    <styleguide.content.PrimaryContentAndLabelView
+        android:id="@+id/accountFromPrimaryContentAndLabelView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:attribute_primary_label="@string/from_account_title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/amountPrimaryContentAndLabelView"
+        tools:attribute_primary_content="Current Account (3434 4545 23)" />
+
+    <styleguide.content.PrimaryContentAndLabelView
+        android:id="@+id/referencePrimaryContentAndLabelView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:attribute_primary_label="@string/reference"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/accountFromPrimaryContentAndLabelView"
+        tools:attribute_primary_content="Mom" />
+
+    <styleguide.content.PrimaryContentAndLabelView
+        android:id="@+id/accessPinPrimaryContentAndLabelView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:attribute_primary_label="@string/cash_send_plus_atm_access_pin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/referencePrimaryContentAndLabelView"
+        tools:attribute_primary_content="12345" />
+
+    <View
+        style="@style/DividerView"
+        android:layout_width="0dp"
+        android:layout_marginTop="@dimen/small_space"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/accessPinPrimaryContentAndLabelView" />
+</androidx.constraintlayout.widget.ConstraintLayout>

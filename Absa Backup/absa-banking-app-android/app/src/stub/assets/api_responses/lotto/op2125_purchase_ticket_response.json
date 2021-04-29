@@ -1,0 +1,219 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES2130",
+      "resCde": "00000",
+      "resMsg": "Success",
+      "serVer": "2.0",
+      "expTrace": null
+    },
+    "payData": {
+      "referenceNumber": "00000000000000007660051287553081294",
+      "lottoBoards": [
+        {
+          "lottoBoardNumbers": [
+            "2",
+            "6",
+            "8",
+            "17",
+            "23",
+            "45"
+          ],
+          "powerBall": "0"
+        },
+        {
+          "lottoBoardNumbers": [
+            "11",
+            "41",
+            "44",
+            "47",
+            "49",
+            "52"
+          ],
+          "powerBall": "0"
+        },
+        {
+          "lottoBoardNumbers": [
+            "11",
+            "21",
+            "34",
+            "47",
+            "49",
+            "52"
+          ],
+          "powerBall": "0"
+        },
+        {
+          "lottoBoardNumbers": [
+            "11",
+            "41",
+            "44",
+            "47",
+            "49",
+            "52"
+          ],
+          "powerBall": "0"
+        },
+        {
+          "lottoBoardNumbers": [
+            "11",
+            "41",
+            "44",
+            "47",
+            "49",
+            "52"
+          ],
+          "powerBall": "0"
+        },
+        {
+          "lottoBoardNumbers": [
+            "11",
+            "41",
+            "44",
+            "47",
+            "49",
+            "52"
+          ],
+          "powerBall": "0"
+        },
+        {
+          "lottoBoardNumbers": [
+            "11",
+            "41",
+            "44",
+            "47",
+            "49",
+            "52"
+          ],
+          "powerBall": "0"
+        },
+        {
+          "lottoBoardNumbers": [
+            "11",
+            "41",
+            "44",
+            "47",
+            "49",
+            "52"
+          ],
+          "powerBall": "0"
+        },
+        {
+          "lottoBoardNumbers": [
+            "11",
+            "41",
+            "44",
+            "47",
+            "49",
+            "52"
+          ],
+          "powerBall": "0"
+        },
+        {
+          "lottoBoardNumbers": [
+            "11",
+            "41",
+            "44",
+            "47",
+            "49",
+            "52"
+          ],
+          "powerBall": "0"
+        },
+        {
+          "lottoBoardNumbers": [
+            "11",
+            "41",
+            "44",
+            "47",
+            "49",
+            "52"
+          ],
+          "powerBall": "0"
+        },
+        {
+          "lottoBoardNumbers": [
+            "11",
+            "21",
+            "34",
+            "47",
+            "49",
+            "52"
+          ],
+          "powerBall": "0"
+        },
+        {
+          "lottoBoardNumbers": [
+            "11",
+            "21",
+            "34",
+            "47",
+            "49",
+            "52"
+          ],
+          "powerBall": "0"
+        },
+        {
+          "lottoBoardNumbers": [
+            "11",
+            "21",
+            "34",
+            "47",
+            "49",
+            "52"
+          ],
+          "powerBall": "0"
+        },
+        {
+          "lottoBoardNumbers": [
+            "11",
+            "21",
+            "34",
+            "47",
+            "49",
+            "52"
+          ],
+          "powerBall": "0"
+        },
+        {
+          "lottoBoardNumbers": [
+            "11",
+            "21",
+            "34",
+            "47",
+            "49",
+            "52"
+          ],
+          "powerBall": "0"
+        },
+        {
+          "lottoBoardNumbers": [
+            "11",
+            "21",
+            "34",
+            "47",
+            "49",
+            "52"
+          ],
+          "powerBall": "0"
+        },
+        {
+          "lottoBoardNumbers": [
+            "11",
+            "21",
+            "34",
+            "47",
+            "49",
+            "52"
+          ],
+          "powerBall": "0"
+        }
+      ],
+      "lottoGameAvailable": "Y",
+      "lottoLimitErrorType": "OK",
+      "nextStartDate": null,
+      "txnStatus": "Success",
+      "txnMessage": "Success"
+    }
+  }
+}

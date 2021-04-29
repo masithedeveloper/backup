@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <styleguide.content.TitleAndDescriptionView
+        android:id="@+id/onceOffExistsTitleAndDescriptionView"
+        style="@style/LargeTextRegularDark"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:attribute_description="@string/payments_already_made_once_off_description"
+        app:attribute_title="@string/payments_already_made_once_off"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <styleguide.buttons.Button
+        android:id="@+id/cancelButton"
+        style="@style/SecondaryButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/large_space"
+        android:text="@string/cancel"
+        app:layout_constraintBottom_toTopOf="@id/addBeneficiaryButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/onceOffExistsTitleAndDescriptionView"
+        app:layout_constraintVertical_bias="1" />
+
+    <styleguide.buttons.Button
+        android:id="@+id/addBeneficiaryButton"
+        style="@style/PrimaryButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/add_beneficiary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

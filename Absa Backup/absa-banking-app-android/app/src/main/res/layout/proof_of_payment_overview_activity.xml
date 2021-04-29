@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/header_dark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/proofOfPaymentOverviewScrollView"
+        style="@style/ScrollView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/proofOverviewConfirmSendButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <styleguide.content.PrimaryContentAndLabelView
+                android:id="@+id/proofOverviewBeneficiaryNamePrimaryContentAndLabelView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:attribute_primary_label="@string/payment_details_beneficiary_title"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <styleguide.content.LineItemView
+                android:id="@+id/proofOverviewAccountNumberLineItemView"
+                style="@style/NormalTextRegularDark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:attribute_label_text="@string/notification_account_number_label" />
+
+            <styleguide.content.LineItemView
+                android:id="@+id/proofOverviewBeneficiaryBankLineItemView"
+                style="@style/NormalTextRegularDark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:attribute_label_text="@string/notification_bank_name_label" />
+
+            <View
+                android:id="@+id/divider"
+                style="@style/DividerView"
+                android:layout_width="match_parent"
+                android:layout_marginTop="@dimen/normal_space" />
+
+            <styleguide.content.PrimaryContentAndLabelView
+                android:id="@+id/proofOverviewAmountPrimaryContentAndLabelView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:attribute_primary_label="@string/amount" />
+
+            <styleguide.content.LineItemView
+                android:id="@+id/proofOverviewPaymentDateLineItemView"
+                style="@style/NormalTextRegularDark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:attribute_label_text="@string/notification_payment_date" />
+
+            <View
+                android:id="@+id/divider2"
+                style="@style/DividerView"
+                android:layout_width="match_parent"
+                android:layout_marginTop="@dimen/normal_space" />
+
+            <styleguide.content.PrimaryContentAndLabelView
+                android:id="@+id/proofOverViewNotificationTypePrimaryContentAndLabelView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:attribute_primary_label="@string/mobile_number" />
+
+            <TextView
+                android:id="@+id/proofOverviewDisclaimerTextView"
+                style="@style/LargeTextRegularDark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/medium_space"
+                android:layout_marginTop="@dimen/medium_space"
+                android:layout_marginEnd="@dimen/medium_space"
+                android:text="@string/notification_disclaimer_text" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <styleguide.buttons.Button
+        android:id="@+id/proofOverviewConfirmSendButton"
+        style="@style/PrimaryButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/notification_confirm_send"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,1850 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- launcher-->
+    <string name="termsAndCondition">Bepalings en voorwaardes</string>
+    <string name="buyStr">Koop</string>
+    <string name="versionUpdateStr">’n Meer onlangse weergawe van hierdie toepassing is beskikbaar</string>
+    <string name="alertMsg">Jou bronrekening en teikenrekening kan nie dieselfde wees nie</string>
+
+    <!--landing-->
+    <string name="all_new_absa">Welkom by Absa</string>
+    <string name="open_account_now">Maak ‘n rekening oop</string>
+
+    <!-- Home-page Layout Page -->
+    <string name="homeAmount">Bedrag:</string>
+
+    <!--    International payments-->
+    <string name="swift_transactions">SWIFT transaksies</string>
+    <string name="western_union_transfer">Western Union oorplasing</string>
+
+    <!-- Accounts Layout Page -->
+    <string name="accountBalanceStr">Saldo:</string>
+    <string name="invalidDateStr">Sleutel asseblief geldige datum in</string>
+    <string name="fromDateMoreThan180Error">\'Van datum\' kan nie meer as 180 dae wees nie.</string>
+    <string name="toDateMoreThan180Error">\'Tot datum\' kan nie meer as 180 dae wees nie.</string>
+    <string name="toDateinFutureError">\'Tot datum\' kan nie meer as vandag se datum wees nie.</string>
+    <string name="fromDateinFutureError">\'Van datum\' kan nie meer as vandag se datum wees nie.</string>
+    <string name="toDateLesserThanFromDateError">\'Tot datum\' kan nie minder as \'Van datum\' wees nie.</string>
+    <string name="FromDateLesserThanToDateError">\'Vanaf datum\' kan nie minder wees as \'tot op datum\' nie.</string>
+
+    <!-- Currency Investment Accounts -->
+    <string name="all_accounts">Alle Rekeninge</string>
+
+    <!-- ATM and Branch Locator -->
+    <string name="locationCheckMessage">We would like to use your current location</string>
+    <string name="search">Soek</string>
+
+    <!-- Listview, calendar detail view n transactionview header field -->
+    <string name="listviewDate">Datum</string>
+    <string name="listviewDesc">Beskrywing</string>
+    <string name="listviewAmount">Bedrag</string>
+    <string name="chequeAccount">Tjekrekening</string>
+
+    <!-- Generic Message -->
+    <string name="conn_timeout_msg">Die versoek na die Absa-bediener se tyd het verstryk. Probeer asseblief weer.</string>
+    <string name="network_unreachable_msg">Dit kom voor asof daar geen verbinding is nie. Maak seker dat jou WiFi of mobiele data aktief is.</string>
+    <string name="error">Fout</string>
+    <string name="processing">Verwerking...</string>
+    <string name="feature_unavailable">Funksie nie beskikbaar nie</string>
+
+    <!-- Header Message -->
+    <string name="send">Stuur</string>
+    <string name="cancel">Kanselleer</string>
+    <string name="close">Sluit</string>
+    <string name="action_save">Stoor</string>
+
+    <!-- Alert Dialogs -->
+    <string name="please_select">Kies asseblief</string>
+    <string name="accountNumber">Rekeningnommer</string>
+    <string name="email_address_home">E-posadres</string>
+
+    <!-- Weekday names -->
+    <string name="beneficiary_details">Begunstigde besonderhede</string>
+    <string name="bank_name">Banknaam</string>
+    <string name="amount">Bedrag</string>
+    <string name="currency">R</string>
+    <string name="now">Nou</string>
+    <string name="email">E-pos</string>
+    <string name="email_address">E-posadres</string>
+    <string name="email_address_rewards">E-posadres</string>
+    <string name="their_reference">Begunstigde se verwysing:</string>
+    <string name="next">Volgende</string>
+    <string name="pay">Betaal</string>
+    <string name="logout">Teken af</string>
+    <string name="payments">Betalings</string>
+    <string name="cashsend">CashSend</string>
+    <string name="airtime">Lugtyd</string>
+    <string name="cellNumber">Selnommer:</string>
+    <string name="lastTransaction">Laaste transaksie</string>
+    <string name="beneficiary_added_successfully">Begunstigde suksesvol bygevoeg</string>
+    <string name="beneficiary_edited_successfully">Begunstigde redigeer suksesvol</string>
+    <string name="remove">Verwyder</string>
+    <string name="date">Datum</string>
+    <string name="network_provider">Netwerkverskaffer:</string>
+    <string name="selFrmPhoneBookMsg">Wil jy \'n kontak uit jou foonboek kies?</string>
+
+    <!-- Inter Account Transfer -->
+    <string name="transfer_confirmation">Jou oorplasing was suksesvol</string>
+
+    <!-- Once Off Airtime -->
+    <string name="payment_failure_message">Jou betaling was onsuksesvol</string>
+    <string name="yes">Ja</string>
+    <string name="buy_prepaid">Koop voorafbetaalde produkte</string>
+    <string name="redeem_absa_rewards">Verlos belonings</string>
+    <string name="redeem">Verlos</string>
+
+    <!-- Account Page -->
+    <string name="accountDetailsMessage">Saldo\'s kan tjeks insluit wat nog nie deur die bank verreken is nie: CCYY-MM-DD HH:MM</string>
+
+    <!-- Languages -->
+    <string name="fax_number">Faksnommer</string>
+    <string name="fax_code">Fakskode</string>
+
+    <!-- Cash Send -->
+    <string name="atm_access_pin">OTM toegangs PIN:</string>
+    <string name="remove_photo">Verwyder foto</string>
+    <string name="firstName">Naam:</string>
+    <string name="surname">Van:</string>
+    <string name="January">Januarie</string>
+    <string name="February">Februarie</string>
+    <string name="March">Maart</string>
+    <string name="April">April</string>
+    <string name="May">Mei</string>
+    <string name="June">Junie</string>
+    <string name="July">Julie</string>
+    <string name="August">Augustus</string>
+    <string name="September">September</string>
+    <string name="October">Oktober</string>
+    <string name="November">November</string>
+    <string name="December">Desember</string>
+    <string name="January_short">Jan</string>
+    <string name="February_short">Feb</string>
+    <string name="March_short">Mar</string>
+    <string name="April_short">Apr</string>
+    <string name="May_short">Mei</string>
+    <string name="June_short">Jun</string>
+    <string name="July_short">Jul</string>
+    <string name="August_short">Aug</string>
+    <string name="September_short">Sep</string>
+    <string name="October_short">Okt</string>
+    <string name="November_short">Nov</string>
+    <string name="December_short">Des</string>
+
+    <string name="smsBundles">SMSbondel</string>
+    <string name="dataBundles">Databondel</string>
+    <string name="blackberryBundles">BlackBerry	bondel</string>
+    <string name="dataBundles_12months">Databondel betaal eenmalig</string>
+    <string name="dataBundles_30days">Data bondel (30 dae)</string>
+    <string name="telkom_freeme_data_bundles">FreeME Boost databondel</string>
+    <string name="whatsapp_data_bundles">Whatsapp databondel</string>
+    <string name="youtube_data_bundles">Youtube databondel</string>
+    <string name="twitter_data_bundles">Twitter databondel</string>
+    <string name="facebook_data_bundles">Facebook databondel</string>
+    <string name="forStr">vir</string>
+    <string name="f_Str">v</string>
+
+    <string name="pleaseEnterValid">Sleutel asseblief geldige %1$s in</string>
+    <string name="please_enter_a_token_number">Sleutel asseblief ’n geldige kode nommer in</string>
+    <string name="invalidError">Ongeldige %1$s</string>
+    <string name="calcHelp">Van die inligting wat verskaf is, is verkeerd.</string>
+    <string name="cell_number">Selfoonnommer:</string>
+    <string name="payments_alert_msg">Die My kennis van betaling is ‘aan’.  Maak asseblief seker dat jy \'n opsie kies waar jou besonderhede reeds ingevul is. Indien geen opsie jou besonderhede bevat nie, kan jy nie tans hierdie funksie gebruik nie. Skakel asseblief die My kennis van betaling ‘af’</string>
+    <string name="beneficiary_updated_success">Begunstigde suksesvol verander</string>
+    <string name="beneficiary_updated_enter_name">Tik die begunstigde se voornaam in</string>
+    <string name="cashsend_amount_less_error">Ingesleutelde bedrag is laer as die toegelate CashSend-minimumbedrag.</string>
+    <string name="cashsend_amount_greater_error">Ingesleutelde bedrag oorskry die toegelate CashSend-transaksielimiet.</string>
+
+    <!-- Change Limits -->
+    <string name="confirmLimitChanges">Bevestig limietveranderings</string>
+    <string name="payment">Betaling</string>
+    <string name="available_lower">beskikbaar</string>
+    <string name="dailyLimit">Daaglikse limiet</string>
+    <string name="used">Gebruik</string>
+    <string name="available">Beskikbaar</string>
+    <string name="failureMsg">Limiete onsuksesvol opgedateer</string>
+    <string name="zero_limit_error_msg">As jy jou Absa Aanlyn-limiete na nul verander sal jy nie in staat wees on jou limiete te stel nie, betalings en tussenrekeningoorplasings te doen nie.  Jy sal jou tak moet besoek om jou limiete weer op te stel</string>
+    <string name="zero_atm_pos_error_msg">Indien jy jou Absa OTM- of verkooppuntlimiet na nul verander, sal jy nie kontant kan onttrek of by \'n verkooppunt betaal voor jy nie jou limiet verhoog het nie.</string>
+    <string name="camera">Kamera</string>
+    <string name="gallery">Gallery</string>
+
+    <!-- manage accounts -->
+    <string name="navigation_menu_accounts_settings">Rekeninge</string>
+    <string name="manage_accounts_retrieval_error">Kon nie inligting op hierdie rekening kry nie</string>
+    <string name="manage_accounts_add_accounts_title">Om rekeninge te bestuur, voeg nog rekeninge by</string>
+    <string name="manage_accounts_add_accounts_content">Wanneer jy meer rekeninge oopmaak , sal jy hulle hiervanaf kan vertoon, versteek en herorganiseer.</string>
+
+    <!-- AUTHORIZATION -->
+    <string name="confirm">Bevestig</string>
+    <string name="and">en</string>
+
+    <!-- Apply Rewards -->
+    <string name="englishLanguage">Engels</string>
+    <string name="afrikaansLanguage">Afrikaans</string>
+
+    <string name="select_number_title">Kies nommer</string>
+    <string name="select_email_title">Kies epos</string>
+    <string name="mobile_label">Selfoon</string>
+    <string name="work_label">Werk</string>
+    <string name="main_label">Hoof</string>
+    <string name="other_label">Ander</string>
+    <string name="custom_label">Persoonlik</string>
+
+    <!-- Redeem Rewards -->
+    <string name="update">Verander</string>
+
+    <!-- Sliding Menu Array Launcher Page -->
+    <string name="card_limit_empty_validation">Voer asseblief ’n waarde vir alle limiete in.</string>
+    <string name="card_limit_mul_of_10_validation">Voer ’n waarde in wat ’n veelvoud van 10 is, bv. 250 of 1 000.</string>
+    <string name="card_limit_equal_validation">Vul asseblief ’n waarde in wat hoër of laer is as jou huidige limiet.</string>
+
+    <!-- Card Change Limit -->
+    <string name="card_cl_pos">Verkooppunt-limiet</string>
+    <string name="currency_rand_available">R %s beskikbaar</string>
+    <string name="currency_rand_used">R %s gebruik</string>
+
+    <!-- Decoupling -->
+    <string name="decouple_pending_authorisation">Hangende magtiging</string>
+    <string name="decouple_device_nickname">Noemnaam:</string>
+
+    <!-- SureCheck -->
+    <string name="sureCheck_resend_failure_msg">Die stelsel kan nie nou jou SureCheck stuur of ontvang nie. Probeer asseblief later.</string>
+    <string name="send_RVN_sureCheck">Stuur LKN</string>
+    <string name="rvn_heading">LKN</string>
+    <string name="tvn_heading">TKN</string>
+    <string name="rnv_resend">Stuur weer LKN</string>
+    <string name="tvn_resend">Stuur weer TKN</string>
+    <string name="surecheck_error_unabletocomplete">Ons kan nie die SureCheck-proses op hierdie tydstip voltooi nie.</string>
+
+    <string name="resend_TVN_exceeded">Limiet vir Stuur weer TKN is oorskry.</string>
+    <string name="invalid_TVN_exceeded">Limiet vir ongeldige TKN is oorskry.</string>
+
+    <!--Account summary-->
+    <string name="acc_summary">Rekeningopsomming</string>
+    <string name="account_to_pay_from_avlbl_blnc">Beskikbare saldo</string>
+    <string name="available_balance">Beskikbare saldo</string>
+    <string name="uncleared_transactions">Onverwerkte transaksies</string>
+    <string name="transactions">Transaksies</string>
+    <string name="from_date">Van datum</string>
+    <string name="to_date">Tot datum</string>
+    <string name="amount_hint_cash_send">van. R50 - tot. R3000</string>
+    <string name="select_an_acc_from">Kies rekening waaruit betaal moet word</string>
+    <string name="sel_acc_pay_from">Kies rekening waaruit betaal moet word</string>
+    <string name="et_atm_pin_hint">Voer 6-syfer OTM toegangspin in</string>
+    <string name="tv_accept_conditions">Ek aanvaar die bepalings en voorwaardes</string>
+    <string name="tv_conditions_sub_text">(Bepalings en voorwaardes beskikbaar by Absa-tak of op ons webblad)</string>
+    <string name="title_cash_send_overview">Oorsig van CashSend</string>
+    <string name="onceoff_confirm_title">CashSend Oorsig</string>
+    <string name="unredeemed_atm_access_pin">OTM toegangs PIN</string>
+    <string name="onceoff_confirm_atm_pin">OTM toegangs PIN</string>
+    <string name="txt_atm_pin_overview">OTM toegangs PIN</string>
+    <string name="atm_pin_tv">OTM toegangs PIN</string>
+    <string name="ppe_available_balance">%s\nBeskikbare saldo: %s</string>
+
+    <!--Home Loan-->
+    <string name="history">Geskiedenis</string>
+    <string name="balance_owed">Uitstaande saldo</string>
+    <string name="transactional_history">Transaksiegeskiedenis</string>
+    <string name="home_loan">Huislening</string>
+
+    <string name="btn_send_cash">Send Cash</string>
+    <string name="onceoff_send_cashsend_name_hint">Voer voornaam in</string>
+    <string name="onceoff_send_cashsend_surname_hint">Voer van in</string>
+
+    <string name="beneficiaries_title">Begunstigdes</string>
+    <string name="manage_beneficiary_title">Bestuur begunstigdes</string>
+    <string name="global_nav_manage_ben">Bestuur begunstigdes</string>
+    <string name="global_nav_feedback">Gee terugvoer</string>
+    <string name="global_log_out">Teken af</string>
+    <string name="last_login_text"><![CDATA[Laaste intekening  %1$s]]></string>
+    <string name="transfer">Plaas oor</string>
+    <string name="transfers">Oorplasings</string>
+    <string name="saved_beneficiaries">Gestoorde begunstigdes</string>
+    <string name="alert_dialog_delete_ben">Verwyder begunstigdes</string>
+    <string name="no">Nee</string>
+    <string name="ben_del_successfully">Begunstigde suksesvol verwyder</string>
+    <string name="onceoff_send_cashsend_enter_surname">Van</string>
+    <string name="edit_ben_details">Redigeer begunstigde</string>
+    <string name="profile_setup_label">Stel profiel op</string>
+    <string name="profile_setup_name_edittext_header">Profielnaam</string>
+    <string name="cont">Gaan voort</string>
+    <string name="profile_setup_button_continue">Gaan voort</string>
+    <string name="continue_title">Gaan voort</string>
+    <string name="save_ben_button">Gaan voort</string>
+    <string name="cash_send_new_continue_button">Gaan voort</string>
+    <string name="profile_setup_profile_picture_header">Voeg profielfoto by</string>
+    <string name="profile_setup_background_image_selection_header">Kies jou agtergrondbeeld</string>
+    <string name="done_action">Klaar</string>
+    <string name="done">Klaar</string>
+    <string name="profile_setup_button_done">Klaar</string>
+    <string name="title_activity_feedback_rebuild">Stuur ons jou terugvoer</string>
+    <string name="feedback_like_app">Ek hou van iets van die App</string>
+    <string name="feedback_suggestion">Ek het \'n voorstel</string>
+    <string name="feedback_technical_issue">Ek ondervind \'n tegniese probleem</string>
+    <string name="feedback_other">Ek het ander terugvoer</string>
+    <string name="pay_who">Wie betaal jy?</string>
+    <string name="pay_new_receipient">Betaal nuwe begunstigde</string>
+    <string name="make_onceoff_payment">Doen eenmalige betaling</string>
+    <string name="recent_beneficiary">Onlangs betaalde begunstigdes</string>
+    <string name="buy_who">Koop voorafbetaal vir?</string>
+    <string name="buy_new_receipient">Koop voorafbetaal vir nuwe begunstigde</string>
+    <string name="buy_onceoff_payment">Eenmalige voorafbetaalde aankoop</string>
+    <string name="recent_airtime_tansc">Onlangse voorafbetaalde aankope</string>
+    <string name="recent_purchases">Onlangse aankope</string>
+    <string name="manage_ben_amount_title">Bedrag</string>
+    <string name="prepaid_amount">Bedrag</string>
+    <string name="cash_send_amount_tv">Bedrag</string>
+    <string name="onceoff_confirm_amount">Bedrag</string>
+    <string name="title_cash_send">Stuur kontant aan?</string>
+    <string name="title_cash_send_myself">Stuur kontant aan myself</string>
+    <string name="send_cash_myself">Stuur kontant aan myself</string>
+    <string name="send_cash_new">Stuur kontant aan iemand nuut</string>
+    <string name="send_cash">Stuur kontant</string>
+    <string name="send_cash_once_off">Eenmalige CashSend</string>
+    <string name="cash_send_beneficiaries">CashSend-begunstigdes</string>
+    <string name="recent_cash_send">Onlangse CashSend</string>
+    <string name="pay_a_new_ben">Besonderhede van nuwe begunstigde</string>
+    <string name="add_new_ben_prepaid_title">Besonderhede van nuwe begunstigde</string>
+    <string name="title_cash_send_new">Besonderhede van nuwe begunstigde</string>
+    <string name="new_beneficiary_details">Besonderhede van nuwe begunstigde</string>
+    <string name="enter_new_ben_details">Voer besonderhede van nuwe ontvanger in</string>
+    <string name="name_surname">Naam</string>
+    <string name="onceoff_send_cashsend_enter_name">Naam</string>
+    <string name="unredeemed_ben_name">Naam</string>
+    <string name="onceoff_confirm_name">Naam</string>
+    <string name="manage_ben_account_number_title_payment">Rekeningnommer</string>
+    <string name="insti_acct_number">Rekeningnommer</string>
+    <string name="bank_acct_number">Rekeningnommer</string>
+    <string name="hint_account_no">Rekeningnommer</string>
+    <string name="ben_ref_rebuild">Begunstigde se verwysing</string>
+    <string name="ben_reference">Begunstigde se verwysing</string>
+    <string name="enter_ben_ref_hint">Voer begunstigde se verwysing in</string>
+    <string name="my_ref_rebuild">My verwysing</string>
+    <string name="txt_my_refer">My verwysing</string>
+    <string name="onceoff_confirm_my_reference">My verwysing</string>
+    <string name="enter_ur_ref">Tik my verwysing in</string>
+    <string name="how_would">Stuur die volgende kennisgewing van betaling aan begunstigde</string>
+    <string name="send_proof_conf">Stuur die volgende kennisgewing van betaling aan begunstigde</string>
+    <string name="mobile">Selfoon</string>
+    <string name="fax_new">Faks</string>
+    <string name="email_new">E-pos</string>
+    <string name="sav_and_cont">Stoor en gaan voort</string>
+    <string name="make_a_payment">Doen \'n betaling</string>
+    <string name="last_transaction_beneficiary">%s %s op %s</string>
+    <string name="paid">betaal</string>
+    <string name="purchased">gekoop</string>
+
+    <string name="title_once_off">Besonderhede van ontvanger</string>
+    <string name="recipient_fullname">Voer ontvanger se naam in</string>
+    <string name="recipient_reference">Ontvanger se verwysing</string>
+    <string name="recepient_ref">Ontvanger se verwysing</string>
+    <string name="enter_ben_ref">Voer ontvanger se verwysing in</string>
+    <string name="payment_overview_title">Betalingsoorsig</string>
+    <string name="recipient_details">Besonderhede van ontvanger</string>
+    <string name="onceoff_receipient_details_confirm">Besonderhede van ontvanger</string>
+    <string name="recipient_name">Ontvanger se naam</string>
+    <string name="buy_new">Koop vir nuwe begunstigde</string>
+    <string name="buy_new_mobile_operator_text_header">Selfoonnetwerkoperateur</string>
+    <string name="ben_network_prov">Selfoonnetwerkoperateur</string>
+    <string name="purchase_details">Besonderhede van aankoop</string>
+    <string name="enter_purchase_details_tv">Voer besonderhede van aankoop in</string>
+    <string name="sel_acc_to_purchase_from">kies rekening waaruit gekoop moet word</string>
+    <string name="select_prepaid_type">Kies tipe voorafbetaald</string>
+    <string name="prepaid_type_tv">Tipe voorafbetaald</string>
+    <string name="prepaid_type_overview">Tipe voorafbetaald</string>
+    <string name="sel_once_off_prepaid_amt">Kies bedrag van voorafbetaald</string>
+    <string name="sel_airtime_amount">Kies bedrag van voorafbetaald</string>
+    <string name="sel_amount">Kies bedrag van voorafbetaald</string>
+    <string name="purchase_overview">Oorsig van aankope</string>
+    <string name="buy_once_off_title">Eenmalige voorafbetaald</string>
+    <string name="cash_send_new_details">Besonderhede van CashSend</string>
+    <string name="title_cash_send_details">Besonderhede van CashSend</string>
+    <string name="tv_cash_send_details">Besonderhede van CashSend</string>
+    <string name="onceoff_confirm_cashsend_title">Besonderhede van CashSend</string>
+    <string name="enter_cash_send_details">Voer besonderhede van CashSend in</string>
+    <string name="onceoff_confirm_button_title">Bevestig CashSend</string>
+    <string name="manage_ben_bank_name_title">Naam van bank</string>
+    <string name="manage_ben_date_and_time">Datum en tyd</string>
+    <string name="manage_ben_result_title">Resultaat</string>
+    <string name="title_unredeemed_cash_send">Onopgeëiste CashSend</string>
+    <string name="date_amount">Datum en bedrag</string>
+    <string name="unredeemed_title_txt">Besonderhede van transaksie</string>
+    <string name="resend_withrawwal_sms">Stuur onttrekkings-SMS weer</string>
+    <string name="cancel_cashsend">Kanselleer CashSend</string>
+    <string name="btn_make_another_cash_send">Doen nog \'n CashSend</string>
+    <string name="payment_details">Betalingsbesonderhede</string>
+    <string name="ben_add_success_rebuild">Begunstigde suksesvol bygevoeg</string>
+    <string name="add_new_prepaid_success_msg">Begunstigde suksesvol bygevoeg</string>
+    <string name="enter_payment_details">Voer betalingsbesonderhede in</string>
+    <string name="how_would_be">My kennisgwing van betaling</string>
+    <string name="beneficiary_details_rebuild">Besonderhede van begunstigde</string>
+    <string name="manage_ben_details_title">Besonderhede van begunstigde</string>
+    <string name="pay_ben_header_title">Besonderhede van begunstigde</string>
+    <string name="ben_details">Besonderhede van begunstigde</string>
+    <string name="recipient_notification">Kennisgewing gestuur na</string>
+    <string name="recipient_notification_sent">Kennisgewing van betaling gestuur aan </string>
+    <string name="amount_to_be_paid">Bedrag wat betaal moet word</string>
+    <string name="institution_account_holder_name">Naam van rekeninghouer</string>
+    <string name="enter_ref">Voer begunstigde se verwysing in</string>
+    <string name="ben_added_successfully">Begunstigde suksesvol bygevoeg</string>
+    <string name="from_account_new">Van rekening</string>
+    <string name="onceoff_send_cashsend_enter_mobile_number">Selfoonnommer</string>
+    <string name="manage_ben_account_number_title">Rekeningnommer</string>
+    <string name="manage_ben_button_title">Betaal</string>
+    <string name="manage_ben_bene_ref_title">Begunstigde se verwysing</string>
+    <string name="ref">Begunstigde se verwysing</string>
+    <string name="ben_mobile_tv">Selfoonnommer</string>
+    <string name="continue_button">Gaan voort</string>
+    <string name="continue_home">Gaan voort</string>
+    <string name="none">Geen</string>
+    <string name="save_ben_button_confirm">Stoor</string>
+    <string name="add_new_payment_ben">Voeg nuwe betalingsbegunstigde by</string>
+    <string name="add_new_prepaid_ben">Voeg nuwe voorafbetaalde begunstigde by</string>
+    <string name="add_new_cashsend_ben">Voeg nuwe CashSend begunstigde by</string>
+    <string name="prepaid">Voorafbetaald</string>
+    <string name="to_account_rebuild">Na rekening</string>
+    <string name="notification_sent_to">Kennisgewing gestuur na</string>
+    <string name="confirm_payment">Bevestig betaling</string>
+    <string name="buy_new_prepaid_mobile_header_text">Selfoonnommer</string>
+    <string name="add_new_prepaid_result_screen_buy_new">Koop Lugtyd</string>
+    <string name="select_branch">Kies ŉ tak</string>
+    <string name="sel_an_institution">Kies instansie</string>
+    <string name="aol_btn_login">Teken In</string>
+    <string name="logon_term_and_cond"><u>Bepalings en voorwaardes</u></string>
+    <string name="confirm_home">Bevestig</string>
+    <string name="done_home">Klaar</string>
+    <string name="home_page_logout_option">Teken af</string>
+    <string name="home_page_save_options">Stoor</string>
+    <string name="menu_cancel_button">Kanselleer</string>
+    <string name="menu_edit_option">Redigeer  </string>
+    <string name="global_nav_profile">Redigeer profiel</string>
+    <string name="normal_reflect_time">24-48 uur om te weerspieël</string>
+    <string name="future_dated_payment_reflect">kies betaaldatum</string>
+    <string name="unredeemed_layout_string">Besigtig onopgeëiste CashSend</string>
+    <string name="empty_network_operator_list">Ons kan nie nou toegang tot die lys netwerk-operateurs kry nie. Probeer asseblief later.</string>
+
+    <string name="unredeemed_sent_on">Gestuur op</string>
+    <string name="enter_amount_to_pay">Voer bedrag in wat betaal word</string>
+    <string name="seconds">sekondes</string>
+    <string name="sure_check_tv_second_email">Om te verseker dat u rekening veilig is, het ons \'n SureCheck-verifikasie na u geregistreerde e-posadres gestuur wat begin met %s.</string>
+    <string name="sure_check_tv_second_cellphone">Om jou rekening te help beveilig, het ons \'n SureCheck-verifikasie na jou geregistreerde selfoonnommer gestuur %s</string>
+    <string name="sure_check_tv_first">Reageer asseblief om voort te gaan</string>
+    <string name="sure_check_tv_resend">Ons het nie jou reaksie ontvang nie, \n Probeer asseblief meer</string>
+    <string name="tvn_subheading">n TKN is per SMS na jou geregistreerde selfoonnommer gestuur. Die TKN geld net vir hierdie sessie. \n\nVoer asseblief jou TKN hierbo in.</string>
+    <string name="rvn_subheading">n LKN is per SMS na jou geregistreerde selfoonnommer gestuur. Die LKN geld net vir hierdie sessie. \n\nVoer asseblief jou LKN hierbo in.</string>
+    <string name="alert_feature_coming_soon_hdr">Funksie binnekort hier</string>
+    <string name="alert_feature_coming_soon_txt">Gebruik asseblief die terugvoeropsie in die hoofnavigasie om voorstelle te gee om die funksie te verbeter.</string>
+    <string name="stay_logged_in">Wil jy aangeteken bly?</string>
+    <string name="enter_email">Voer e-posadres in</string>
+    <string name="manage_ben_details_no_result">Geen resultate om te wys nie</string>
+    <string name="enter_amt">Voer eie bedrag in</string>
+    <string name="enter_amt_hint">Voer eie bedrag in (van R5 - tot R1000)</string>
+    <string name="own_amount_error_message"><![CDATA[\'n Minimum bedrag van  R%1$s of \'n maksimum bedrag van R%2$s kan ingevoer word]]></string>
+    <string name="min_amount_error_message">\'n Minimum bedrag van  R %s kan ingevoer word</string>
+    <string name="enter_fax_code">Voer fakskode in</string>
+    <string name="account_to_pay_from">Kies \'n rekening</string>
+    <string name="select_an_acc_trans_from">Kies rekening om uit oor te plaas</string>
+    <string name="select_an_acc_trans_to">Kies rekening om na oor te plaas</string>
+    <string name="sure_check_no_method_specified">Om jou rekening te help beveilig, het ons \'n SureCheck-verifikasie vir jou gestuur.</string>
+
+    <string name="transfer_overview">Oorsig van oorplasing</string>
+    <string name="continue_transfer">Bevestig oorplasing</string>
+    <string name="plz_accept_conditions">Aanvaar asseblief bepalings en voorwaardes</string>
+    <string name="onceoff_receipient_details">Voer ontvanger se besonderhede in</string>
+    <string name="no_transactions">Daar is geen onvervulde transaksies nie</string>
+    <string name="plz_select_from_account">Please select from account</string>
+    <string name="share_cashsend_atm_pin">Deel CashSend-toegangspin</string>
+    <string name="btn_send_atm_pin">Deel CashSend-toegangspin</string>
+    <string name="cashsend_no_results">Geen resultate om te wys nie</string>
+    <string name="cancel_cashsend_title">Kanselleer CashSend</string>
+
+    <string name="status_success">suksesvol</string>
+    <string name="status_unsuccessful">onsuksesvol</string>
+    <string name="status_pending">hangende</string>
+
+    <string name="show_all_txt">Wys alle gekoppelde rekeninge</string>
+    <string name="transaction">Transaksies</string>
+
+    <!--Insurance-->
+    <string name="insurance">Versekering</string>
+    <string name="insure">Verseker</string>
+    <string name="premium">Premie</string>
+    <string name="policy_details">Polisbesonderhede</string>
+    <string name="cover_amount">Dekkingsbedrag</string>
+    <string name="policy_fee">Diensfooi per maand</string>
+    <string name="policy_status">Status</string>
+    <string name="policy_start_date">Begindatum</string>
+    <string name="premium_frequency">Premiefrekwensie</string>
+    <string name="confirm_credit_text">Bevestig asseblief kredietbeskermingsplanbesonderhede:</string>
+    <string name="renewal_date">Hernuwing datum</string>
+    <string name="geyser">Geiser</string>
+    <string name="geyser_cause_code">GEISER</string>
+    <string name="policy_summary">Polisopsomming</string>
+    <string name="claim_details">Eisbesonderhede</string>
+    <string name="contact_details">Kontakbesonderhede</string>
+    <string name="claim_confirmation">Eisbevestiging</string>
+    <string name="alternative_contact">Alternatiewe Kontak</string>
+    <string name="alternative_contact_details">Alternatiewe Kontakbesonderhede (Opsioneel)</string>
+    <string name="alternative_phone_number">Alternatiewe Telefoonnommer</string>
+    <string name="yes_caps">JA</string>
+    <string name="no_caps">NEE</string>
+    <string name="item_fixed_text">Is die geaffekteerde item \nherstel?</string>
+    <string name="item_fixed_text_over_view">Is die geaffekteerde item herstel?</string>
+    <string name="additional_damages">Enige bykomende skade aan \neiendom?</string>
+    <string name="insured_property">Versekerde eiendom</string>
+    <string name="incident_date">Voorvaldatum</string>
+    <string name="txt_submit_claim">Dien \'n eis in</string>
+    <string name="claim_type">Eistipe</string>
+    <string name="claim_category">Eis Kategorie</string>
+    <string name="submit">Dien in</string>
+    <string name="policy_text">Polis</string>
+    <string name="phone_number">Telefoonnommer</string>
+    <string name="homeowner_comprehensive">Huiseienaars Omvattende</string>
+    <string name="need_insurance">Benodig versekering?</string>
+    <string name="request_insurance_suggestion">Bel ons nou vir \'n kwotasie.</string>
+    <string name="claim_registered_text">Jou eis is geregistreer</string>
+    <string name="policy_number">Polisnommer</string>
+    <string name="item_fixed">Item Herstel</string>
+    <string name="claim_error_text">Iets het verkeerd gegaan</string>
+    <string name="claim_error_working_status">Ons werk daaraan so probeer asseblief weer \'n bietjie later.</string>
+    <string name="claim_error_emergency_contact">As dit \'n eis-noodgeval is, skakel ons op <u>086 010 0876</u></string>
+    <string name="additional_damages_text">Bykomende Skade</string>
+    <string name="claim_number_msg">Jou eisnommer is:</string>
+    <string name="claim_contact_support_text">Kontak asseblief hierdie nommer vir verdere \nbystand: <u>086 010 0876</u></string>
+    <string name="claim_what_now_text">Wat nou?</string>
+    <string name="claim_what_now">Jy sal nou \'n SMS ontvang om te bevestig dat jou eis geregistreer is. \n \n Indien jy enige bykomende dokumente of foto\'s wil stuur, e-pos dit na Claimsinfo@absa.africa</string>
+    <string name="claim_not_registered_text">Eis kon nie geregistreer word nie</string>
+    <string name="geyser_claim_over_view">Eisoorsig</string>
+    <string name="fromDate_LesserThan_ToDate_error">Van Datum kan nie later as Tot Datum wees nie.</string>
+    <string name="toDate_LesserThan_FromDate_error">Tot Datum kan nie vroeër as Van Datum wees nie.</string>
+    <string name="alternative_contact_optional">Alternatiewe kontak (opsioneel)</string>
+    <string name="alternative_phone_optional">Alternatiewe telefoonnommer (opsioneel)</string>
+    <string name="premium_frequency_monthly">MAANDELIKS</string>
+    <string name="contact_centre">Kontak sentrum</string>
+
+    <string name="show_less_txt">Wys minder gekoppelde rekeninge</string>
+    <string name="logout_dialog">Is jy seker jy wil afteken?</string>
+    <string name="profile_setup_step_one">Stap 1 van 2</string>
+    <string name="profile_setup_step_two">Stap 2 van 2</string>
+    <string name="overdraft">Oortrekking</string>
+    <string name="feedback_header_banner">Jou terugvoer help ons om die app te verbeter.\nKies asseblief een onderwerp hieronder</string>
+    <string name="upto_two_hrs_to_reflect">Tot 2 uur om te reflekteer</string>
+    <string name="prepaid_note">Neem kennis dat Absa nie aanspreeklik gehou kan word as jy die verkeerde diensverskaffer kies nie. Voorafbetaalde aankope is onomkeerbaar.</string>
+    <string name="reorder">Herrangskik  </string>
+    <string name="enter_fax_num">Tik faksnommer in</string>
+    <string name="sel_date">Kies datum</string>
+    <string name="session_timeout">Jou sessie eindig oor %01d sekondes</string>
+    <string name="enter_recipient_details">Voer ontvanger se besonderhede in</string>
+    <string name="onceoff_databundle_message_rebuild">Neem asseblief kennis dat Absa nie aanspreeklik gehou sal word as jy die verkeerde diensverskaffer kies nie. Voorafbetaalde aankope is nie omkeerbaar nie.
+				Databondel het ’n vervaldatum. Kontroleer asseblief met jou selfoonnetwerkoperateur. Netwerkbepalings en -voorwaardes geld.</string>
+    <string name="onceoff_airtime_message_rebuild">Neem asseblief kennis dat Absa nie verantwoordelik gehou kan word as jy die verkeerde diensverskaffer of verkeerde selfoonnommer intik nie. Voorafbetaalde aankope is nie omkeerbaar nie. </string>
+    <string name="resend_cashsend_withrawal_title">Stuur onttrekkings-SMS weer?</string>
+    <string name="payment_successMsg">Jou betaling was suksesvol</string>
+    <string name="payment_sched_success">Jou betaling is suksesvol geskeduleer</string>
+    <string name="btn_another_payment">Doen nog \'n betaling</string>
+    <string name="share_atm_pin_message">Hallo %1$s! Ek het pas vir jou %2$s gestuur. :) Gebruik %3$s om die kontant by enige Absa-OTM te onttrek. Onthou om \“CashSend withdrawal\” te kies wanneer jy die kontant onttrek.\nVan %4$s</string>
+    <string name="amount_hint_cash_send_details_min">van. R</string>
+    <string name="amount_hint_cash_send_details_max">tot. R</string>
+    <string name="onceoff_send_cashsend_title">Eenmalige CashSend</string>
+    <string name="atm_updated_successfully">OTM PIN Suksesvol Opgedateer</string>
+    <string name="click_confirm">Klik asseblief om veranderings te bevestig.</string>
+    <string name="stop_edit">Stop redigering van begunstigde</string>
+    <string name="stop_edit_msg">Is jy seker jy wil ophou om die begunstigde te redigeer, want alle veranderings sal verloor word?</string>
+    <string name="current_balance">Huidige saldo</string>
+    <string name="resend_RVN_exceeded">Limiet vir “Stuur weer LKN” is oorskry.</string>
+    <string name="invalid_RVN_exceeded">Limiet vir ongeldige LKN is oorskry.</string>
+    <string name="unredeemed_change_pin">VERANDERING\nPEN</string>
+    <string name="atm_pin_number_hint">OTM PIN</string>
+    <string name="address">Adres</string>
+    <string name="additional_damages_one_line">Enige bykomende skade aan eiendom?</string>
+    <string name="atm_pin_size">Gee \'n geldige OTM PIN</string>
+    <string name="attempt_title_3"> Oeps! Verkeerde besonderhede ingesit. Jou wagwoord sal gesluit ná 3 foutiewe pogings.</string>
+    <string name="attempt_remaining">poging oorblywende</string>
+    <string name="passcode_revoked">Jou wagkode is herroep.</string>
+    <string name="attempts_remaining"> pogings oorblywende</string>
+    <string name="decouple_device_name_rebuild">Toestel se naam</string>
+    <string name="decouple_device_nickname_rebuild">Noemnaam</string>
+    <string name="alert_dialog_header">Jy is amper daar</string>
+    <string name="Cancel">Kanselleer</string>
+    <string name="currency_rand">R</string>
+    <string name="last_transaction">Laaste transaksie</string>
+    <string name="tv_bill_acc" formatted="false">Kosterekeningnommer</string>
+
+    <!-- App settings -->
+    <string name="action_settings">Verstellings</string>
+    <string name="tv_profile_settings">Profielverstellings</string>
+    <string name="choose_lang">Kies jou taal</string>
+    <string name="choose_bg">Verander agtergrond</string>
+    <string name="txt_account_settings">Rekeningverstellings</string>
+    <string name="navigation_menu_digital_limits">Digitale limiete</string>
+    <string name="txt_manage_card_limits">Bestuur kaartlimiete</string>
+    <string name="txt_min_limit">Min. limiet</string>
+    <string name="txt_set_limit">Limiet</string>
+    <string name="title_manage_digital_limits">Digitale limiete</string>
+    <string name="payment_daily_limit">Daaglikse betalingslimiet</string>
+    <string name="interaccount_transfer_daily_limit">Daaglikse limiet: tussen-rekeningoorplasings</string>
+    <string name="future_dated_payment_limit">Vooruitgedateerde betalingslimiet</string>
+    <string name="title_stop_limits">Kanselleer limiet verandering</string>
+    <string name="stop_limit_msg">Is jy seker jy wil ophou limiete redigeer, aangesien jy alle veranderings sal verloor?</string>
+    <string name="per_transaction">Per transaksie</string>
+    <string name="recurring_payment_limit">Herhalende betalingslimiet</string>
+    <string name="recurring_payment_transaction_limit">Limiet per transaksie - herhalende betalings</string>
+    <string name="future_dated_payment_transaction_limit">Limiet per transaksie - vooruitgedateerde betalings</string>
+    <string name="alert">Fout</string>
+    <string name="keep_app_secure_label">Hou jou App veilig</string>
+    <string name="txt_use_fingerprint_to_login">Gebruik vingerafdruk om aan te teken</string>
+    <string name="text_turnon_fingerprint_authentication_on_phone">Om vinnige en eenvoudige vingerafdruk aantekening vir app in staat te stel, sal jy vingerafdruk sekuriteit moet opstel in jou selfoon instellings.</string>
+    <string name="text_prompt_for_login_using_fingerprint_authentication">Wanneer jy weer aanteken, sal jy gevra word om die vingerafdruk sensor te raak. Jy het ook die opsie om te kanselleer om jou wagwoord te gebruik.</string>
+    <string name="tx_fingerptint_dialog_prompt">Gebruik jou vingerafdruk vir makliker toegang tot jou bank-app.</string>
+    <string name="text_fingerprint_dialog_subtext">Raak sensor</string>
+    <string name="text_fingerprint_dialog">Vingerafdruk toegangskode</string>
+    <string name="fingerprint_disabled_prompt_text">Vingerafdruk is afgeskakel vir veelvuldige gebruikers</string>
+    <string name="dialog_descryption">Gebruik jou vingerafdruk vir makliker toegang tot jou bank-app. \n\nBevestig jou vingerafdruk om voort te gaan.</string>
+    <string name="dialog_hint">Raak sensor</string>
+    <string name="excess_amount">Oorskotbedrag</string>
+    <string name="fingerpint_success">Vingerafdruk-verifikasie aktief.</string>
+    <string name="fingerprint_authentication_failed">Vingerafdruk word nie erken nie.</string>
+    <string name="unsupported_prompt_text">Die toestel ondersteun nie vingerafdruk nie</string>
+    <string name="txt_prompt_fingerprint">Bevestig asseblief vingerafdruk om aan te meld</string>
+    <string name="fingerprint_auth_permission_content">Om jou aan te meld by die gebruik van jou vingerafdruk, benodig ons jou magtiging.</string>
+    <string name="fingerprint_auth_permission_header">Aktiveer vingerafdruk</string>
+    <string name="manage_accounts_unable_to_save_changes">Kan nie jou veranderinge stoor nie</string>
+    <string name="manage_accounts_accounts_cant_be_hidden_failure">Kan nie die genomineerde rekening, rekeningnommer %s, ontkoppel nie.</string>
+    <string name="manage_accounts_accounts_cant_be_hidden_failure_single_account">Kan nie die genomineerde rekeninge ontkoppel nie. Rekeningnommers %s.</string>
+    <string name="manage_accounts_accounts_cant_be_hidden_order_failure">\n\nOns het ook probleme om jou rekeninge te herrangskik. Probeer asseblief weer later.</string>
+
+    <!--Missing Afrikaans -->
+    <string name="profile_setup_language_selection_header">Taalvoorkeur</string>
+    <string name="sure_phrase">Jou SurePhrase is</string>
+    <string name="set_profile_picture">Stel Profiel Foto</string>
+    <string name="insti_code">Instelling kode</string>
+    <string name="btn_buy">Koop</string>
+    <string name="alert_dialog_delete_ben_msg">Is jy seker jy wil die begunstigde verwyder?</string>
+    <string name="prepaid_cancel_msg">Is jy seker jy wil jou aankoop stop?\nEnige veranderinge sal verlore gaan.</string>
+    <string name="profile_picture_chooser_title">Kies \'n opsie</string>
+    <string name="framwork_information">Inligting</string>
+    <string name="on_the_date_of" formatted="false">Op die datum van</string>
+    <string name="unable_to_save_ben">Kan nie begunstigde stoor nie</string>
+    <string name="proof_payment">Stuur kennisgewing van betaling aan ontvanger met behulp van</string>
+    <string name="photo_library">Foto Album</string>
+    <string name="enter_valid_prepaid_error">Kies \'n geldige voorafbetaalde tipe</string>
+    <string name="sel_prepaid_type_title">Kies \'n voorafbetaalde tipe</string>
+
+    <string name="select_account_type">Kies ŉ rekeningtipe</string>
+    <string name="savingAccount">Spaarrekening</string>
+    <string name="please_accept_terms_of_use">Aanvaar asseblief terme van gebruik</string>
+    <string name="institution_code_rebuild">Instansie kode</string>
+
+    <!--No beneficiary found-->
+    <string name="no_ben_title_msg">Jy het geen betaling begunstigdes.</string>
+    <string name="no_ben_details_msg">Indien jy \'n ontvanger as \'n voorafbetaalde begunstigde byvoeg, sal jou aankope baie vinniger en makliker wees.</string>
+    <string name="add_new_payment_ben_bnt_txt">Voeg \'n nuwe betaling begunstigde</string>
+
+    <!--No beneficiary found Prepaid-->
+    <string name="no_ben_title_msg_prepaid">Jy het geen voorafbetaalde begunstigdes. </string>
+    <string name="no_ben_details_msg_prepaid">Voeg ’n begunstigde by om te begin.\n\nIndien jy \'n ontvanger as \'n voorafbetaalde begunstigde byvoeg, sal jou aankope baie vinniger en makliker wees.</string>
+    <string name="add_new_payment_ben_bnt_txt_prepaid">Voeg ŉ nuwe voorafbetaalde begunstigde</string>
+    <string name="acc_type_tv">Aipe rekening</string>
+
+    <!--No beneficiary found CashSend-->
+    <string name="no_ben_title_msg_cashsend">Jy het geen CashSend-begunstigdes nie.</string>
+    <string name="no_ben_details_msg_cashsend">Voeg ’n begunstigde by om te begin.\n\nCashSend is \'n maklike en gerieflike manier om enige tyd enige plek kontant aan iemand te stuur. Indien jy \'n ontvanger as begunstigde byvoeg, sal CashSend baie vinniger gedoen kan word.</string>
+    <string name="add_new_payment_ben_bnt_txt_cashsend">Voeg \'n nuwe CashSend begunstigde by</string>
+    <string name="register_createpass_unsuccessful">Besoek gerus jou naaste Absa-tak om jou besonderhede op te dateer.</string>
+    <string name="txt_max_limit">Maks. limiet</string>
+    <string name="title_atm_withdrawal_limit">Plaaslike OTM-onttrekkingslimiet</string>
+    <string name="card_limits">Kaartlimiete</string>
+    <string name="title_point_of_sale_daily_limit">Verkooppunt-limiet</string>
+    <string name="old_limit">Ou limiet</string>
+    <string name="new_limit">Nuwe limiet</string>
+    <string name="new_future_limit">Nuwe toekomstige limiet</string>
+    <string name="message_limits_set_message">Limiete suksesvol opgedateer</string>
+    <string name="setting_digital_limits_to_zero">As jy jou limiete op nul stel, sal jy geen betaling kan maak nie. Jy sal jou tak moet besoek om jou limiet te verhoog.</string>
+    <string name="limit_exceed_value">Bedrag oorskry limiet stel in tak</string>
+    <string name="limit_set_to_zero">Let wel: jy sal nie in staat wees om jou kaarte te gebruik vir die aankoop van items as ingestel op "0"</string>
+    <string name="confirm_limit_change">Bevestig perke verandering</string>
+    <string name="share_atmpin_message">Hi %1$s, jou CashSend toegang PIN is %2$s vir %3$s. Gebruik asseblief hierdie inligting saam met jou onttrekking kode om jou transaksie te los.</string>
+    <string name="sure_check_tv_replace_first">Ons ervaar \'n paar probleme met die stuur van jou \'n SureCheck om selfoonnommer eindig met %s\n\nVersoek gerus vir \'n TKN gestuur word via SMS hieronder</string>
+    <string name="sure_check_rvn__tv">Ons ervaar \'n paar probleme met die stuur van jou \'n SureCheck om selfoonnommer eindig met %s\n\nVersoek gerus vir \'n LKN gestuur word via SMS hieronder</string>
+    <string name="send_tvn">Stuur TKN</string>
+
+    <!--What's new-->
+    <string name="ok_got_it">Het dit!</string>
+    <string name="whats_new_got_it_button">Ok, reg so</string>
+
+    <!--Manage Cards-->
+    <string name="stop_and_replace_debit_card">Stop en vervang debietkaart</string>
+    <string name="stop_and_replace_credit_card">Stop en vervang kredietkaart</string>
+    <string name="replace_my_credit_card">Stop en vervang my kaart</string>
+    <string name="dial_card_replacement_number">Wil u die plaaslike of internasionale nommer skakel?</string>
+    <string name="choose_a_card">Kies \'n kaart</string>
+    <string name="card_replacement_info">Wanneer jy jou aansoek vir \'n nuwe kaart voltooi, word jou huidige debietkaart gekanselleer en jy sal dit nie kan gebruik nie. Hierdie stap is onomkeerbaar. Toon asseblief bewys van identiteit aan koerierdienspersoneel of wanneer jy jou kaart afhaal.</string>
+    <string name="card_being_replaced">Kaart wat vervang word</string>
+    <string name="reason_for_replacement">Rede vir vervanging</string>
+    <string name="hint_reason_for_replacement">Kies rede vir vervanging</string>
+    <string name="card_type">Kaarttipe</string>
+    <string name="product_type">Produktipe</string>
+    <string name="select_card_type">Kies \'n nuwe kaarttipe</string>
+    <string name="select_product_type">Kies \'n nuwe produktipe</string>
+    <string name="card_delivery_method">Afleweringsmetode</string>
+    <string name="face_to_face_delivery">Persoonlike aflewering</string>
+    <string name="delivery_fee_notice">Let wel: daar is \'n afleweringsfooi betaalbaar.</string>
+    <string name="collect_from_branch">Haal af by tak</string>
+    <string name="delivery_address">Afleweringsadres</string>
+    <string name="debit_card_delivery_disclaimer">Indien ons nie jou kaart by die gespesifiseerde adres kan aflewer nie, kies asseblief \'n voorkeurtak.</string>
+    <string name="preferred_branch">Voorkeurtak</string>
+    <string name="contact_number_sentence_case">Kontaknommer</string>
+    <string name="your_contact_number">Jou kontaknommer</string>
+    <string name="replacement_fee">Vervangingsfooi</string>
+    <string name="fees_heading">Fooie</string>
+    <string name="branch_address">Tak adres</string>
+    <string name="branch_name">Naam van tak</string>
+    <string name="delivery_fee">Afleweringsfooi</string>
+    <string name="order_new_card">Bestel Nuwe Kaart</string>
+    <string name="your_new_card_has_been_ordered">Jou nuwe kaart is bestel</string>
+    <string name="unable_to_order_new_card">Ons kon nie u nuwe kaart bestel nie</string>
+    <string name="unable_to_order_new_card_message">Kan nie aksie doen as gevolg van tegniese fout. \ In \ As u hulp benodig, skakel asseblief die hulplyn op 08600 08600 / Int. +2711501 5019.</string>
+    <string name="new_card_will_be_delivered">Jou nuwe kaart sal by jou geregistreerde adres afgelewer word.</string>
+    <string name="remember_to_visit_branch">Onthou asseblief om jou tak of OTM te besoek om jou nuwe kaart se PIN te aktiveer.</string>
+    <string name="need_assistance">Indien jy hulp verlang, \skakel asseblief die hulplyn by \n08600 08600/Int. +2711 501 5019.</string>
+    <string name="branch_consultant_will_contact">\'n Vriendelike takkonsultant sal jou binnekort skakel om jou nuwe kaart af te haal en jou PIN te aktiveer.</string>
+    <string name="your_new_order_has_been_ordered_face_to_face_delivery_message">Jou nuwe kaart sal by jou geregistreerde adres afgelewer word. \n\nOnthou asseblief om jou tak of OTM te besoek om jou nuwe kaart se PIN te aktiveer. \n\nIndien jy hulp verlang, \skakel asseblief die hulplyn by \n08600 08600/Int. +2711 501 5019.</string>
+    <string name="your_new_order_has_been_ordered_branch_delivery_message">\'n Vriendelike takkonsultant sal jou binnekort skakel om jou nuwe kaart af te haal en jou PIN te aktiveer. \n\nIndien jy hulp verlang, \skakel asseblief die hulplyn by \n08600 08600/Int. +2711 501 5019.</string>
+    <string name="request_for_new_card">Versoek vir nuwe kaart was onsuksesvol</string>
+    <string name="manage_cards">Kaarte</string>
+    <string name="title_reason_for_replacement">Rede vir vervanging</string>
+    <string name="debit_card">Debietkaart</string>
+    <string name="title_new_card_details">Besonderhede van nuwe kaart</string>
+    <string name="accept_terms_and_conditions">Ek aanvaar die <u>bepalings en voorwaard</u></string>
+    <string name="accept_associated_fees">Ek aanvaar die verwante fooie</string>
+    <string name="title_replacement_details">Vervangingsbesonderhede</string>
+    <string name="please_accept_fees">Asseblief aanvaar die verwante fooie</string>
+    <string name="no_cards">Jy het geen kaarte om te vertoon nie</string>
+    <string name="order_details">Bestelbesonderhede</string>
+    <string name="something_went_wrong">Iets het verkeerd gegaan</string>
+    <string name="something_went_wrong_message">Probeer asseblief weer later.</string>
+
+    <!--Manage Devices-->
+    <string name="device_details">Besonderhede van toestel</string>
+    <string name="device_delink_popup_msg">Wil jy voortgaan?</string>
+    <string name="active_device_delink_popup_title">Ontkoppel aktiewe toestel</string>
+    <string name="active_device_delink_popup_msg">Jy is op hierdie toestel aangeteken.\nOntkoppeling sal jou ook afteken.\n\nWil jy ontkoppel?</string>
+    <string name="manage_devices">Toestelle</string>
+    <string name="edit_device_nickname">Hier kan jy \'n toestel se noemnaam redigeer of \'n toestel wat aan jou bankprofiel gekoppel is ontkoppel.</string>
+    <string name="delink_device">Ontkoppel toestel</string>
+    <string name="edit_nickname">Redigeer toestel se noemnaam</string>
+    <string name="device_settings">Toestelverstellings</string>
+    <string name="edit_nickname_toast_message">Noemnaam suksesvol opgedateer</string>
+    <string name="device_has_been_delinked">Jou aktiewe toestel\nis ontkoppel</string>
+    <string name="logging_you_out">Jy teken af</string>
+    <string name="device_linked_successfully">Die toestel is suksesvol gekoppel</string>
+    <string name="device_cannot_be_linked">Die toestel kan nie gekoppel word nie</string>
+    <string name="delink_device_message">Die toestel is suksesvol ontkoppel</string>
+    <string name="remove_device_message">Die toestel is suksesvol verwyder</string>
+    <string name="authorise">Magtig</string>
+    <string name="device_status_linked_post_login">Gekoppel</string>
+    <string name="device_delinked_success_message">Toestel suksesvol ontkoppel</string>
+    <string name="make_surecheck_device">Maak dit my Verifiëringstoestel</string>
+    <string name="remove_device_title">Verwyder toestel</string>
+    <string name="remove_device_msg">Wil jy hierdie toestel verwyder?</string>
+    <string name="device_status_linked_surecheck_2">Gekoppelde - Verifiëringstoestel</string>
+    <string name="verification_device">Verifiëringstoestel</string>
+    <string name="you_will_have_to_nominate_another_device">Jy moet \'n ander toestel as jou verifiëringstoestel kies voordat jy die verifiëringstoestel ontkoppel.</string>
+    <string name="select_the_device_you_would_like_to_make_your_primary_device">Kies die toestel wat jy jou verifiëringstoestel wil maak</string>
+    <string name="link_this_device">Koppel hierdie toestel</string>
+
+    <!--Dual Authorisations-->
+    <string name="initiated_by">Geïnisieer deur</string>
+    <string name="send_notice_of_payment_using">Stuur kennisgewing van betaling per</string>
+    <string name="send_my_notice_of_payment_using">Stuur my kennisgewing van betaling per</string>
+    <string name="reject">Verwerp</string>
+    <string name="view_authorisation">Besigtig Magtigings</string>
+    <string name="string_authorized">%s gemagtig</string>
+    <string name="transaction_authorized">Transaksie\ngemagtig</string>
+    <string name="transaction_authorized_successfully">Jou transaksie is suksesvol geverifieer.
+</string>
+    <string name="unable_to_authorise">Kan nie transaksie\nmagtig nie</string>
+    <string name="transaction_pending">Transaksie hangend</string>
+    <string name="waiting_for_other_account">Wag dat hoofgebruiker van ander rekening transaksie goedkeur.</string>
+    <string name="transaction_details">Besonderhede van Transaksie</string>
+    <string name="confirm_transaction">Bevestig Transaksie</string>
+    <string name="reject_transaction">Wil jy hierdie transaksie verwerp?</string>
+    <string name="on">Op</string>
+    <string name="pay_beneficiary">Betaal Begunstigde</string>
+    <string name="inter_account_transfer">Tussenrekeningoorplasing</string>
+    <string name="pay_once_off">Betaal Eenmalig</string>
+    <string name="network_operator">Netwerkoperateur</string>
+    <string name="cancel_transaction">Kanselleer Transaksie</string>
+    <string name="no_transactions_authorisation">Daar is geen transaksies om te magtig nie.</string>
+    <string name="requested_by">Aangevra deur</string>
+    <string name="transaction_auth_contact_message">Kontak asseblief die hoofgebruiker om te magtig.</string>
+    <string name="title_activity_temp_splash_screen">2FA Token Generator</string>
+    <string name="transaction_failed">Transaksie het misluk</string>
+    <string name="no_accounts_available">Geen rekeninge beskikbaar nie.</string>
+    <string name="dual_authorisation_cancel_transaction">"Wil jy hierdie transaksie kanselleer?</string>
+
+    <!--Home Loan-->
+    <string name="from_date_sentence">Van Datum</string>
+    <string name="to_date_sentence">Tot Datum</string>
+    <string name="homeloan_balance_owed">Huidige Saldo</string>
+    <string name="account_summary">Rekeningopsomming</string>
+    <string name="empty_list_message">Geen resultate om te wys nie</string>
+
+    <!-- Common -->
+    <string name="mobile_number">Selfoonnommer</string>
+    <string name="enter_mobile_number">Tik selfoonnommer in</string>
+    <string name="mobile_network_operator">Selfoonnetwerkoperateur</string>
+    <string name="select_network_operator">Kies netwerkoperateur</string>
+    <string name="from_account_rebuild">Uit rekening</string>
+    <string name="purchase_unsuccessful">Jou aankoop was onsuksesvol</string>
+    <string name="purchase_success">Jou aankoop was suksesvol</string>
+    <string name="home">Tuis</string>
+    <string name="another_purchase">Doen nog \'n aankoop</string>
+    <string name="buy_airtime_with_rewards">Koop lugtyd met Absa Rewards</string>
+    <string name="select_network_warning">Kies asseblief eers die tipe netwerk.</string>
+    <string name="no_email_clients">Daar is geen e-pos-kliente geinstalleer nie.</string>
+    <string name="good_morning">Goeiemôre %1s</string>
+    <string name="good_afternoon">Goeiemiddag %1s</string>
+    <string name="good_evening">Goeienaand %1s</string>
+    <string name="image_size_limit">Die beeld is te groot. Dit moet kleiner as 50kb wees</string>
+    <string name="per_month">Per maand</string>
+    <string name="currencies">geldeenhede</string>
+
+    <string name="vat">BTW</string>
+    <string name="card_type_debit">Debiet</string>
+    <string name="plz_sel_bank">Kies asseblief bank</string>
+    <string name="plz_sel_branch">Kies asseblief tak</string>
+    <string name="plz_sel_acc_type">Kies asseblief tipe rekening</string>
+    <string name="plz_sel_inst">Kies asseblief instansie</string>
+    <string name="unable_to_save_prepaid_ben">Begunstigde is nie bygevoeg nie</string>
+    <string name="ben_pay_now">Betaal nou</string>
+    <string name="cancel_cashsend_success_msg">Jou CashSend is suksesvol gekanselleer</string>
+    <string name="cancel_cashsend_fail_msg">Jou CashSend-kansellasie was onsuksesvol</string>
+    <string name="resend_cashsend_withdrawal_msg">Is jy seker jy wil die onttrekking-SMS weer stuur?</string>
+    <string name="cancel_cashsend_msg">Wil jy die CashSend-transaksie kanselleer?</string>
+    <string name="policy_end_date">Einddatum</string>
+    <string name="policy_breakdown">Polisuiteensetting</string>
+
+    <!--Geyser cliam input screen errors -->
+    <string name="alternative_name_error">Tik naam in</string>
+    <string name="alternative_name_length_error">Sleutel alternatiewe kontakpersoon in</string>
+    <string name="skip_fingerprint">Huppel</string>
+    <string name="fingerprint_login_note">Enige vingerafdruk wat op hierdie foon ingeskryf is, sal aanmeld by die mobiele program.</string>
+
+    <!--Quick Links Screen-->
+    <string name="tap_to_edit">Tik om te verander</string>
+    <string name="my_rewards">My Rewards</string>
+    <string name="authorisations">Magtigings</string>
+    <string name="edit_profile_picture">Verander jou profielbeeld</string>
+    <string name="authorisation_count">Magtigings (%d)</string>
+    <string name="all">almal</string>
+
+    <!--Pending authorisations-->
+    <string name="auth_title_authorisation_pending">Magtigings hangende</string>
+    <string name="auth_title_payments_pending">Betalings wag op magtiging</string>
+    <string name="auth_title_electricity_pending">Voorafbetaalde elektrisiteit wag op magtiging</string>
+    <string name="auth_title_card_limit_change_pending">Kaart limiet wysiging wag op magtiging</string>
+    <string name="auth_title_digital_limit_change_pending">Digitale limiet wysiging wag op magtigings</string>
+    <string name="auth_title_debit_card_replacement_pending">Debietkaart-vervanging wag op magtiging</string>
+
+    <string name="auth_expire_message">Let daarop dat hierdie transaksie 00:00 vannag verval.</string>
+    <string name="auth_contact_message">Kontak asseblief die hoofgebruiker om hierdie versoek op Absa Online te magtig.</string>
+    <string name="btn_make_another_payment">Doen nog \'n betaling</string>
+    <string name="btn_buy_more_electricity">Koop nog elektrisiteit</string>
+    <string name="btn_manage_card_limits">Bestuur kaartlimiete</string>
+    <string name="btn_manage_digital_limits">Bestuur digitale limiete</string>
+
+    <string name="select_mobile_number">Kies asseblief selfoon nommer</string>
+    <string name="select_fax_number">Kies asseblief faks nommer</string>
+    <string name="select_email_address">Kies asseblief e-posadres </string>
+    <string name="email_address_geyser">E-posadres</string>
+
+    <string name="invalid_mobile_number">Sleutel asseblief geldige selfoon nommer in</string>
+    <string name="invalid_fax_number">Sleutel asseblief geldige faks nommer in</string>
+    <string name="invalid_email_address">Sleutel asseblief geldige e-posadres in</string>
+    <string name="rejected_transaction_removed">Verwerpte transaksie is suksesvol verwyder</string>
+
+    <string name="is_surecheck_device_available">Is jou Verifiëringstoestel beskikbaar?</string>
+
+    <!--Manage devices 2fa-->
+    <string name="is_surecheck_2_available">Is jou Verifiëringstoestel beskikbaar?</string>
+    <string name="device_was_linked_successfully">Toestel suksesvol gekoppel.</string>
+    <string name="device_was_removed_successfully">Toestel is suksesvol verwyder.</string>
+    <string name="device_name">Naam van Toestel</string>
+    <string name="delink_this_device">Ontkoppel hierdie toestel</string>
+    <string name="make_surecheck_device_text">Maak seker dit is my Verifiëringstoestel.</string>
+    <string name="manage_devices_information">Hier kan jy jou toestelle se name verander, jou verifiëringstoestel verander of \'n toestel ontkoppel.</string>
+    <string name="make_and_model">Fabrikaat + model</string>
+    <string name="default_name">Verstek-naam</string>
+    <string name="device_delink_failure_message">Die toestel kon nie ontkoppel word nie</string>
+    <string name="you_are_about_to_de_link_the_device">Is jy seker jy wil die toestel waarmee jy tans ingeteken is ontkoppel?\nJy sal onmiddelik afgeteken word.?</string>
+    <string name="you_are_about_to_de_link_primary">Wil jy jou verifiëringstoestel ontkoppel?</string>
+
+    <!--SureCheck 2.0-->
+    <string name="no_primary_credentials_validation_error_message">Jy het \'n foutiewe OTM-kaartnommer of PIN ingevoer, of jou vorige Verifikasie toestel se wagkode is verkeerd. Probeer asseblief weer</string>
+    <string name="verification_request_sent">\'n Verifiëringsversoek is gestuur aan die Absa App op jou verifiërings toestel. Reageer asseblief om voort te gaan. </string>
+    <string name="not_receiving_surecheck_two"><u>Ek ontvang nie my verifiëringsversoek nie.</u></string>
+    <string name="contact_number">Skakel asseblief:\n<u>08600 08600</u> vir ondersteuning</string>
+    <string name="contact_support">Skakel asseblief:\n<u>08600 08600</u> vir ondersteuning</string>
+    <string name="surecheck_contact_text">Skakel asseblief:\n<u>08600 08600</u> vir ondersteuning</string>
+    <string name="surecheck_contact_fraud_text">Skakel asseblief:\n<u>0860 557 557</u> vir ondersteuning</string>
+    <string name="surecheck_2_0_require_passcode">Jy sal die app en wagkode op hierdie toestel gebruik om transaksies te verifeer.</string>
+    <string name="manage_device">Bestuur toestelle</string>
+    <string name="transaction_on_surecheck_device">Transaksie op Verifiëringstoestel</string>
+    <string name="payment_rejected">Betaling verwerp</string>
+    <string name="make_this_surecheck_device_description">Maak die toestel jou Verifiëringstoestel?</string>
+    <string name="make_surecheck_text">Die huidige Verifiëringstoestel gaan ontkoppel word.\n\nMaak die toestel jou Verifiëringstoestel?</string>
+
+    <string name="surecheck_2_0_passcode_explanation">Jy sal die program en wagwoord op hierdie toestel gebruik om transaksies te verifieer.</string>
+
+    <string name="token_number">Token nommer</string>
+    <string name="token_number_invalid">Token nommer ongeldig</string>
+    <string name="token_number_verification">Token nommer verifikasie</string>
+    <string name="you_need_to_make_a_new_transaction">Jy moet weer \'n nuwe transaksie maak en verifieer.</string>
+
+    <string name="token_number_verification_failed">Token nommer verifikasie misluk</string>
+    <string name="to_keep_you_secure">Om jou te beskerm, het ons hierdie transaksie gekanselleer.</string>
+    <string name="please_make_a_new_transaction">Maak asseblief \'n nuwe transaksie en probeer weer verifikasie.</string>
+
+    <!--SureCheck not available-->
+    <string name="atm_card_information">OTM-kaartinligting</string>
+    <string name="atm_card_enter_information">Voer asseblief OTM-kaartinligting in.</string>
+    <string name="register_card_number">OTM-kaartnommer</string>
+    <string name="surecheck_failed">Verifikasie het misluk</string>
+    <string name="surecheck_two_fail_title">Verifikasie het misluk</string>
+    <string name="surecheck_could_not_connect">Ons kon steeds nie die app met jou Verifiëringstoestel verbind nie.</string>
+    <string name="not_receiving_surecheck_text">Ontvang nie SureCheck nie</string>
+    <string name="surecheck_two_not_receiving_text"><u>Ek ontvang nie my Verifiëringsversoek nie</u></string>
+    <string name="resend_surecheck_button_text"><u>Stuur weer Verifiëringsversoek</u></string>
+    <string name="surecheck_two_could_not_connect_description">Ons kon nie die app met jou Verifiëringstoestel verbind nie.\n\n Maak seker dat die app geïnstalleer is en dat jy \'n netwerk-/wifi-verbinding op daardie toestel het.</string>
+    <string name="forgot_passcode_button">Wagkode vergeet?</string>
+    <string name="passcode_revoked_description">Om te verseker dat jou rekening veilig is, moet jy \'n sekuriteitskode van jou naaste tak kry. \n\nAs jy \'n kode het, teken eenvoudig aan op die toestel wat jy as jou nuwe Verifiëringstoestel wil nomineer.</string>
+    <string name="passcode_revoked_description_atm">Om te verseker dat jou rekening veilig is, moet jy \'n sekuriteitskode van jou naaste tak kry. \n\nAs jy \'n kode het, teken eenvoudig aan op die toestel wat jy as jou nuwe Verifiëringstoestel wil nomineer.</string>
+    <string name="passcode_2fa_revoked_description">Om te verseker dat jou rekening veilig is, moet jy \'n sekuriteitskode van jou naaste tak kry. \n\nWil jy dit gou kry? \nKry dit met jou kaart van \'n OTM. \n\nAs jy \'n kode het, teken eenvoudig aan op die toestel wat jy as jou nuwe Verifiëringstoestel wil nomineer.</string>
+    <string name="passcode_2fa_revoked_description_atm">Om te verseker dat jou rekening veilig is, moet jy \'n sekuriteitskode van jou naaste tak kry. \n\nWil jy dit gou kry? \nKry dit met jou kaart van \'n OTM. \n\nAs jy \'n kode het, teken eenvoudig aan op die toestel wat jy as jou nuwe Verifiëringstoestel wil nomineer.</string>
+
+    <!--Reasons device not available-->
+    <string name="reason_for_removal">Moontlike rede waarom jy nie jou Verifiëringsversoek ontvang nie.</string>
+    <string name="reason_device_lost">Ek het my toestel verloor</string>
+    <string name="reason_device_stolen">My toestel is gesteel</string>
+    <string name="reason_device_broken">My toestel is stukkend</string>
+    <string name="reason_new_device">Ek het \'n nuwe toestel</string>
+    <string name="reason_reinstall_deleted">Ek het die app uitgevee en herinstalleer</string>
+    <string name="reason_passcode_revoked">Wagwoord herroep</string>
+
+    <!--2FA-->
+    <string name="pay_someone">Betaal iemand</string>
+    <string name="yourself">jouself</string>
+    <string name="pay_bill">Betaal \'n rekening</string>
+    <string name="accept">Aanvaar</string>
+    <string name="invalid_security_code_text">Sekuriteitskode ongeldig U moet \'n nuwe unieke nommer by \'n tak of OTM kry.</string>
+    <string name="incorrect_security_code">Verkeerde Sekuriteitskode</string>
+
+    <string name="enter_secure_code_text">Voer \'n sekuriteitskode in</string>
+    <string name="security_code_et_title">Sekuriteitskode</string>
+    <string name="got_it_text">Reg. Ek verstaan</string>
+    <string name="intermediate_interbank_payment">Onmiddellike tussenbankbetaling (OTB)</string>
+    <string name="forgot_passcode_title">Herstel wagkode</string>
+    <string name="need_help_passcode">Hulp nodig?</string>
+    <string name="forced_update_surecheck_link">Wat is Twee-Faktor Magtiging?</string>
+    <string name="what_is_surecheck">Wat is Twee-Faktor Magtiging?</string>
+    <string name="reason_for_rejecting_transaction">Om jou beter te beveilig, laat ons asseblief weet waarom jy hierdie transaksie verwerp het.</string>
+    <string name="transaction_rejected">Transaksie verwerp</string>
+    <string name="bank_on_app">Terug op die app</string>
+    <string name="quote_refernce_number">Meld hierdie verwysingsnommer</string>
+    <string name="fraud_contact">Vir die aanmelding van bedrog en verdere bystand, druk die telefoon hieronder of bel ons op:</string>
+    <string name="would_you_like_to_report_fraud">Wil jy bedrog rapporteer?</string>
+    <string name="reporting_fraud">Om bedrog te rapporteer en vir verdere bystand, druk op die foon-ikoon hieronder of skakel ons by:</string>
+    <string name="your_reference">Jou verwysing</string>
+    <string name="report_fraud">Rapporteer bedrog</string>
+    <string name="unique_number_error_msg" formatted="false">Die unieke kode wat jy ingevoer het, is foutief. Poging %s van %s.</string>
+    <string name="transaction_journey_from_aol">Transaksie-roete van AOL of sekondêre toestel</string>
+    <string name="request_to_make_payment">Daar is \'n versoek om \'n betaling uit jou Absa-tjekrekening te doen</string>
+    <string name="payment_completed">Betaling afgehandel</string>
+    <string name="discriptor">Beskrywer</string>
+    <string name="select_item">Kies item</string>
+    <string name="my_notice_of_payment"> My kennisgewing van betaling</string>
+    <string name="upgrade_device_to_2fa">Om hierdie toestel jou Verifiëringstoestel te maak, moet jy eers die app opdateer om twee-fase magtiging te gebruik</string>
+    <string name="transaction_verified">Transaksie geverifieer</string>
+    <string name="confirm_fingerprint">Bevestig jou vingerafdruk deur jou vinger op die sensor te plaas</string>
+    <string name="try_again_surecheck">Probeer weer \n</string>
+    <string name="try_again_newline">Probeer weer \n</string>
+    <string name="technical_difficulty">Tegniese Moeilikheid. Probeer asseblief weer. As die probleem voortduur, skakel ons by 0860 111 123.</string>
+    <string name="passcode_incorrect">Wagwoordkode is drie keer verkeerd ingevoer. Verifikasieversoek is verwerp.</string>
+    <string name="no_reject">Nee, verwerp</string>
+    <string name="surecheck_20">Hierdie toestel is nou jou verifikasietoestel</string>
+    <string name="cancel_surechek_dialog_text">Jou verifikasieversoek sal gekanselleer word. Is jy seker jy wil graag kanselleer?</string>
+    <string name="transaction_cancelled">Transaksie gekanselleer</string>
+    <string name="transaction_perform">Verifieer Transaksie</string>
+    <string name="view_transaction_details">Transaksiebesonderhede</string>
+    <string name="surecheck_token">Verifikasie Token</string>
+    <string name="use_this_surecheck_token">Gebruik hierdie verifikasie Token om jou aanlynbanktransaksie te verifieer:</string>
+    <string name="transaction_successful">Jou transaksie is suksesvol geverifieer. \n\n Het u hulp benodig? \n 08600 08600</string>
+    <string name="surecheck_2_0_instruction">Jy sal die app en wagkode op hierdie toestel gebruik om transaksies te verifieer.</string>
+    <string name="no_primary_device_explanation">Jou verifikasie-toestel is afgekeur, jy moet \'n verifikasie toestel koppel om twee-faktor-verifikasie in te skakel om hierdie transaksie veilig te verifieer.</string>
+    <string name="make_this_my_primary">Maak dit my verifikasie toestel</string>
+
+    <!--Token Generation-->
+    <string name="button_generate_token">Skep bewys</string>
+    <string name="security">Sekuriteit</string>
+    <string name="absa_mobile_app">Absa Selfoonbankdienste-app</string>
+    <string name="entersekt_certificate_number">Entersekt-sertifikaatnommer</string>
+    <string name="entersekt_connection">Entersekt-verbinding</string>
+    <string name="bank_connection">Bankverbinding</string>
+    <string name="surephrase">SurePhrase</string>
+    <string name="tap_to_reconnect">Tik om weer te verbind.</string>
+    <string name="data_or_connection_description">Ons kon nie verbind nie. Kyk asseblief of jou selfoondata of wifi aktief is.</string>
+    <string name="connection_error">Verbindingsfout</string>
+    <string name="unique_token_number">Unieke bewysnommer</string>
+    <string name="unique_token_number_instruction">Gaan na “security settings” op jou Verifiëringstoestel om \'n bewysnommer te skep en voer dit hier in.</string>
+    <string name="token_generation_continue">Gaan voort</string>
+
+    <!--Need Transalation-->
+    <!--Operator Limited Access Strings-->
+    <string name="request_access">Versoek toegang</string>
+    <string name="request_access_message">Jy het tans nie toegang tot hierdie funksie nie. Wil jy \'n boodskap aan die hoofgebruiker stuur om toegang te versoek?</string>
+    <string name="no_thanks">Nee dankie</string>
+    <string name="grant_operator_access_message_first">Hi.\nKan jy my asseblief toegang gee tot die \"</string>
+    <string name="grant_operator_access_message_second">\" funksie van die Absa bankdienste-app?\n\nDankie,\n</string>
+    <string name="limited_access">Beperkte toegang</string>
+    <string name="limited_access_message">Jy het nie toegang tot hierdie funksie nie. Kontak asseblief die hoofgebruiker.</string>
+
+    <!--Resend Proof of Payment Strings-->
+    <string name="payment_history">Betalingsgeskiedenis</string>
+    <string name="send_notice_of_payment">Stuur kennisgewing van betaling</string>
+    <string name="confirm_notice_of_payment">Bevestig kennisgewing van betaling</string>
+    <string name="resend_notice_of_payment_success">Kennisgewing van betaling suksesvol gestuur at</string>
+    <string name="resend_notice_of_payment_failure">Kennisgewing van betaling is nie gestuur nie</string>
+    <string name="try_again">Probeer weer</string>
+    <string name="resend_proof_contact_message">Skakel asseblief: \n <u>08600 08600</u> vir ondersteuning</string>
+    <string name="notice_of_payment_overview">Oorsig van betalingskennisgewing</string>
+
+    <!--Overdraft Strings-->
+    <string name="snooze_option_1">Versteek vir 5 dae</string>
+    <string name="snooze_option_2">Versteek 30-60 dae</string>
+    <string name="snooze_option_3">Versteek 6 maande</string>
+    <string name="overdraft_demo_hint">Vee om aanbod te laat sluimer.</string>
+    <string name="apply_overdraft_popup_title">Doen aansoek om \'n oortrekking?</string>
+    <string name="apply_overdraft_popup_msg">Dis super vinnig en maklik – skakel ons sommer nou of teken aan op Absa Online Banking.</string>
+    <string name="overdraft_msg">U kan kwalifiseer vir \'n oortrokke bedrag van</string>
+    <string name="overdraft_apply_msg">Druk om aansoek te doen.</string>
+    <string name="call_bank_for_od">Skakel</string>
+    <string name="snooze_failure_msg">Jammer, ons kon nie die aanbod sluimer nie. Probeer asseblief weer later.</string>
+    <string name="push_notifications">Aktiveer kennisgewings</string>
+
+    <!--Geyser claim Duplicate flow -->
+    <string name="duplicate_claim_warning_msg">Jy het reeds \'n eis geregistreer.\nWil jy voortgaan?</string>
+    <string name="duplicate_claim_warning_title">Waarskuwing!</string>
+    <!--Plumbing resources -->
+    <string name="plumbing_title">Loodgieterswerk</string>
+
+    <!--Call Me Policy Claim-->
+    <string name="call_me_registered_success_title">Ons het jou versoek geregistreer.</string>
+    <string name="call_me_registered_success_msg">\'n Agent sal jou terugskakel. Hierdie diens is gedurende kantoorure beskikbaar.</string>
+    <string name="call_me_registered_failure_title">Versoek kon nie geregistreer word nie.</string>
+    <string name="call_me_registered_failure_msg">Skakel asb hierdie nommer vir meer \ninligting: <u>086 010 0876</u></string>
+    <string name="let_us_call_you">Laat ons U skakel</string>
+    <string name="call_you_back_text">Moet ons jou terugskakel?</string>
+    <string name="call_us_message">Laat ons jou terugskakel by</string>
+    <string name="ok_call_me">Reg</string>
+    <string name="call_us_number_incorrect">Kanselleer en kontak ons by \n086 010 6236 as hierdie nommer verkeerd is.</string>
+    <string name="call_me_summary_title">Meer inligting nodig?\nLaat ons jou terugskakel.</string>
+
+    <!--Claim Notification-->
+    <string name="policy_claim_notification_success">Jou eis kennisgewing is ontvang.</string>
+    <string name="policy_claim_notification_failure">Eis kon nie geregistreer word nie.</string>
+    <string name="policy_claim_enquiries">Maak asseblief \'n nuwe transaksie en probeer weer verifikasie...\<u>086 010 0876</u></string>
+    <string name="policy_claim_reference">Jou verwysingsnommer is jou polis nommer.</string>
+    <string name="invalid_description">Tik beskrywing van insident in</string>
+    <string name="policy_claim_success_aic">Ons sal u kontak om die eisindieningsproses te verduidelik. Indien jy enige bykomende dokumente of foto\'s wil stuur, e-pos dit na Hocclaimsupport@absa.co.za</string>
+    <string name="policy_claim_success_absa_life">Ons sal u kontak om die eisindieningsproses te verduidelik. Vir enige navrae skakel gerus  <u>086 022 7253</u></string>
+    <string name="claim_notification_failure_aic">Kontak asseblief hierdie nommer vir verder \nbystand: <u>086 010 0876</u></string>
+    <string name="claim_notification_failure_life">Kontak asseblief hierdie nommer vir verder \nbystand: <u>086 022 7253</u></string>
+    <string name="description_of_incident">Beskrywing van voorval</string>
+    <string name="tell_us_about_it_hint">Vertel ons meer...</string>
+    <string name="notify_me">Eis kennisgewing</string>
+    <string name="notify_me_title">Eis kennisgewing</string>
+    <string name="claim_notification">Eis Kennisgewing</string>
+    <string name="life_at_absa">Lewens @ Absa Online</string>
+    <string name="invalid_claim_type">Kies tipe eis</string>
+    <string name="select_additional_damages">Kies addisionele skade</string>
+    <string name="select_one">Kies een</string>
+    <string name="type_of_claim">Tipe eis</string>
+    <string name="free_cover">Gratis Dekking @ AOL Promosie</string>
+    <string name="invalid_cell_phone">selfoonnommer</string>
+    <string name="enter_valid_number">Vul asseblief \'n geldige telefoonnommer in</string>
+    <string name="enter_alt_number">Tik alternatiewe telefoonnommer in</string>
+    <string name="report_incident">Rapporteer voorval</string>
+    <string name="incident_details">Voorval besonderhede</string>
+    <string name="confirm_details">Bevestig Besonderhede</string>
+    <string name="report_incident_success_screen_title">Dankie dat jy ons daarvan laat weet het</string>
+    <string name="report_incident_failure_screen_title">Die voorval kon nie geregistreer word nie</string>
+    <string name="report_incident_success_screen_description">Ons sal so gou as moontlik met jou in verbinding tree om jou eis op te stel.\n\nGebruik jou polisnommer as verwysing vir hierdie kennisgewing.\n\nVir enige navrae, skakel <u>%s</u></string>
+    <string name="report_incident_failure_screen_description">Kontak ons inbelsentrum vir verdere hulp by <u>%s</u></string>
+    <string name="incident_description">Sodra ons hierdie inligting ontvang het, sal ons jou kontak om \'n eis in te stel.</string>
+
+    <!--Long term policy status-->
+    <string name="policy_active">Aktiewe</string>
+    <string name="policy_inArrears">Agterstallig</string>
+    <string name="policy_Approve">Goedkeur</string>
+
+    <!--Transaction empty respose string in dual auth-->
+    <string name="dual_auth_empty_trans_msg">Geen transaksie beskikbaar nie</string>
+
+    <string name="check_box_terms_condition_alert">Voor jy vir Absa Rewards aansoek doen, lees eers die bepalings en voorwaardes</string>
+
+    <!--SureCheck Failed-->
+    <string name="go_to_security_settings_on_your_surecheck_two_device">Gaan na sekuriteitsinstellings op jou verifikasie toestel om \'n tokennommer te genereer en voer dit hier in.</string>
+    <string name="sure_check_cancelled">Surecheck gekanselleer</string>
+    <string name="surecheck_two_cancelled">Verifikasie gekanselleer</string>
+    <string name="surecheck_cancelled_description">Jou verifikasieversoek is gekanselleer.</string>
+    <string name="send_verification_request">Stuur weer verifiëringsversoek</string>
+    <string name="number_retries_remaining">Jy het %s weer probeer</string>
+    <string name="max_retries_exceeded">U het die maksimum aantal terugstellings oorskry. Hierdie transaksie is gekanselleer</string>
+    <!--Security Code-->
+    <string name="passcode_expired">Wagwoord het verval</string>
+    <string name="the_security_code_you_have_entered_is_incorrect" formatted="false">Die sekuriteitskode wat u ingevoer het, is verkeerd. probeer %s van %s.</string>
+    <string name="this_device_is_now_your_primary">Hierdie toestel is nou jou verifikasietoestel. \n Ons sal die transaksie nou weer probeer</string>
+
+    <!-- No Primary -->
+    <string name="your_primary_device_is_de_linked">Jou primêre toestel is ontkoppel. Jy moet \'n primêre toestel koppel om SureCheck 2.0 in werking te stel om hierdie transaksie met veiligheid te magtig.</string>
+    <string name="make_this_a_primary_device">Maak hierdie \'n primêre toestel</string>
+    <string name="no_primary_device">Geen primêre toestel</string>
+    <string name="group_name">Groep naam</string>
+    <string name="beneficiary_name_auth">Begunstigde naam</string>
+
+    <string name="failed_to_load_devices">Kon nie toestelle laai nie</string>
+    <string name="fantastic">Fantastiese</string>
+    <string name="operator_linking_success_explanation_message">Jy het nou volle toegang tot digitale bankdienste</string>
+    <string name="logging_you_in">Teken in.</string>
+    <string name="sole_proprietor_registration_message">Jammer, alleen-eienaars kan nie op die program registreer nie. Besoek asseblief aanlynbankdienste of jou naaste Absa-tak om te registreer.</string>
+    <string name="whats_new_welcome_content">Geniet ’n splinternuwe, her-ontwerpte bankervaring wat gebou is om jou lewe nog makliker te maak.</string>
+    <string name="whats_new_welcome_header">Welkom by jou nuwe Absa Banking App!</string>
+
+    <string name="verify_transaction">Wil jy hierdie transaksie verifieer?</string>
+    <string name="whats_new_heading_text">Wat\'s nuut?</string>
+    <string name="forced_update_title">Sekuriteitsopgradering</string>
+    <string name="whats_new_more_securecheck"><u>Vertel my meer</u></string>
+    <string name="whats_new_description_text">Van nou af sal jy jou Absa App gebruik om jou transaksies te verifiëer.\n\n Dit help om SIM omruilingsbedrog te voorkom</string>
+    <string name="resend_payment_notification_title">Stuur weer kennis van betaling</string>
+    <string name="remaining_to_proceed">Oorblywende om voort te gaan</string>
+    <string name="view">Beskou</string>
+    <string name="cancel_surechek_dialog_title">Kanselleer verifiëringsversoek</string>
+    <string name="verification_request">Verifiëringsversoek</string>
+    <string name="verify">Ja, verifiër</string>
+    <string name="wait_for_surechek">Wag aseblief vir jou verifiëringsversoek</string>
+    <string name="waiting_for_surecheck">Verifiëringsversoek</string>
+    <string name="suspicious_transaction">Verdagte transaksie</string>
+    <string name="device_status_surecheck_2">Verifiërings toestel</string>
+    <string name="changed_mind">Ek het van plan verander</string>
+    <string name="security_connection">Sekuriteit verbinding</string>
+    <string name="login_text">Teken In</string>
+    <string name="surecheck_transaction_failed">Transaksie misluk</string>
+    <string name="passcode_enter">Voer jou app wagkode in om te bevestig</string>
+
+    <string name="new_fingerprints">Nuwe Vingerafdruk</string>
+    <string name="new_fingerprints_added">Daar is ’n nuwe vingerafdruk op jou toestel.</string>
+    <string name="new_fingerprints_are_you_sure">Is jy seker jy wil jou vingerafdruk gebruik om aan te teken?</string>
+
+    <string name="this_is_now_your_surecheck_2_0_device">Hierdie toestel is nou jou verifiëringstoestel</string>
+    <string name="this_is_now_your_surecheck_2_0_device_nominated">%s is nou jou verifiëringstoestel</string>
+
+    <string name="we_could_not_connect_to_the_app">Ons kon nie met die app op jou verifiëringstoestel konnekteer nie.</string>
+    <string name="incorrect_token_number" formatted="false">Die tokennommer wat u ingevoer het, is verkeerd. poging %d of %d.</string>
+    <string name="please_try_resending">Probeer weer verifiëring stuur.</string>
+    <string name="surecheck_resend">Stuur weer verifiëringsversoek</string>
+    <string name="surecheck_2_0_timed_out">Verifikasie het uitgestel</string>
+    <string name="cellphone_number">Selfoonnommer</string>
+    <string name="vir">Vir</string>
+
+    <!-- Connectivity Checks -->
+    <string name="connected">Verbind</string>
+    <string name="not_connected">Nie verbind nie</string>
+
+    <!-- Auth-related -->
+    <string name="current_device">Huidige toestel</string>
+    <string name="device_status_sure_current">Verifiërings toestel &amp; Huidige toestel </string>
+    <string name="logout_for_auth">As jy hierdie magtiging oopmaak, sal jou huidige sessie eindig. Wil jy die magtiging oopmaak?</string>
+    <string name="auth_logout_title">Waarskuwing!</string>
+    <string name="no_uncleared_transactions">Geen onverwerkde transaksies nie</string>
+    <string name="amount_exceeds_available">Bedrag oorskry beskikbare saldo</string>
+    <string name="reinitiate_transaction">Gaan terug na transaksie</string>
+    <string name="invalid_mail_address">Ongeldige e-posadres</string>
+    <!--credit card-->
+    <string name="overall_credit_limit">Algehele Kredietlimiet</string>
+    <string name="credit_card">Kredietkaart</string>
+    <string name="credit_card_type">Krediet</string>
+    <string name="you_can_spend"> Spandeerbare bedrag</string>
+    <string name="credit_limit">Krediet Limiet</string>
+    <string name="balance">Saldo</string>
+    <string name="uncleared">Onverwerk</string>
+    <string name="manage_limits">Bestuur limiete</string>
+    <string name="premium_amount">premie bedrag</string>
+    <string name="agree_to_terms_and_conditions">Stem ooreen met die bepalings en voorwaardes?</string>
+    <string name="next_premium_deduction_date">Volgende premie aftrekkingsdatum</string>
+    <string name="manage">Bestuur</string>
+    <string name="contact">Kontak</string>
+    <string name="min_amount_due">Betaalbare bedrag:</string>
+    <string name="minimum_amount_help">Die betaalbare bedrag sal opdateer op %1$s. Gaan jou transaksie geskiedenis na om betalings in jou rekening te bevestig.</string>
+    <string name="local_customer_fraud">Plaaslike kliënte bedrog hulpnommer</string>
+    <string name="international_customer_fraud">Internasionale kliënte bedrog hulpnommer</string>
+    <string name="international">Internasionaal</string>
+    <string name="local_card_replacement_number">Plaaslik</string>
+    <string name="customer_technical_hotline">Kliënt tegniese hulpnommer</string>
+    <string name="view_more">Besigtig meer</string>
+    <string name="credit_card_payment_available_funds">Beskikbare saldo</string>
+    <string name="select_account_description">Kies rekening beskrywing</string>
+    <string name="transfer_fund_disclaimer_title">Vrywaring</string>
+    <string name="transfer_fund_disclaimer_description">Neem asseblief kennis dat die minimum betalbare bedrag binne 24 uur vereffen sal word</string>
+    <string name="home_button_description">Tuis</string>
+    <string name="transfer_confirmation_description">Bevestig oorplasing</string>
+    <string name="from_account_header">Vanaf %1$s %2$s</string>
+    <string name="credit_card_payment_success_message">%1$s is oorgeplaas vanaf jou %2$s na jou  kredietkaart rekening. \n\n Die oorplasing sal binne 24 uur reflekteer op die betaalbare bedrag.</string>
+    <string name="helpline_number">Skakel noodnommer</string>
+    <string name="credit_card_due_date">Datum betaalbaar:</string>
+    <string name="card_details">Kaart besonderhede</string>
+    <string name="limit">Limiete</string>
+    <string name="delivery_method">Afleweringsmetode</string>
+    <string name="delivery_note">Neem kennis \n\nOns koerierdienste sal jou binnekort kontak om te reel vir aflewering. Indien die kontaknommer hierbo verkeerd is, moet jy die nommer by ŉ tak gaan wysig.</string>
+    <string name="branch_delivery_note">Note \n\nPlease have proof of identity for personnel when collecting your card.</string>
+    <string name="slide_to_reveal_pin">Skuif om PIN te kan sien</string>
+    <string name="call_helpline">Skakel die hulplyn</string>
+    <string name="title_activity_retrieve_pin">Besigtig PIN</string>
+    <string name="retrieve_pin_info">Verander jou PIN by \'n OTM of tak.</string>
+    <string name="protect_yourself_message">Het jy al \'n Kredietbeskermingsplan vir jou kredietkaart oorweeg?\n\n \'n Kredietbeskermingsplan kan jou gesin se finansiële las verlig as jy permanent ongeskik raak, uit diens gestel word of selfs in geval van jou dood.</string>
+
+    <!--Credit Card filters-->
+    <string name="transaction_filter_all">Alle</string>
+    <string name="transaction_filter_money_out">Geld uit</string>
+    <string name="transaction_filter_money_in">Geld in</string>
+    <string name="transaction_filter_uncleared">Onverrekende</string>
+    <string name="filter_by">Gefiltreer deur -</string>
+    <string name="credit_card_transactions">Kredietkaarttransaksies</string>
+    <string name="card_transaction_limits">Kaart transaksie limiete</string>
+    <string name="transaction_history_not_available">Geen transaksies</string>
+    <string name="cant_change_limits">Kan nie hierdie kaart se limiete verander nie</string>
+    <string name="credit_card_dashboard">Kredietkaart paneelbord</string>
+    <string name="credit_card_whats_new">Jy kan jou kredietkaart saldo\'s, onverwerkde transaksies en minimum betalings sien.</string>
+    <string name="unable_to_connect">Kon nie verbind nie</string>
+    <string name="connectivity_network_unavailable">Geen Internet toegang nie.</string>
+    <string name="connectivity_turn_on_connection">Skakel asseblief die toestel se selfoon data netwerkverbinding aan of konnekteer aan \'n Wi-Fi netwerk en probeer weer.</string>
+    <string name="connectivity_try_again">Probeer asseblief weer</string>
+    <string name="connectivity_entersekt_message">Sommige Wi-Fi netwerke hinder kommunikasie met ons beveiligde omgewing.</string>
+    <string name="connectivity_entersekt_instruction">Sakel asseblief Wi-Fi af en gebruik eerder die selfoon data netwerk.</string>
+    <string name="connectivity_maintenance_message">Ons sukkel om met ons bedieners te kommunikeer. Ons ingenieurs is hard aan die werk om die probleem so gou as moontlik op te los.</string>
+    <string name="connectivity_maintenance_instruction">Probeer asseblief later weer.</string>
+    <string name="terms_and_condition_funeral">Bepalings &amp; Voorwaardes</string>
+    <string name="offers">Aanbiedinge</string>
+    <string name="offers_text">Kyk wat ons vir jou hierdie maand het!</string>
+    <string name="funds_text">Fonds het hierdie dekking betaal</string>
+    <string name="debit_date_funeral">Debietdag</string>
+    <string name="funeral_application_success">Jou aansoek was suksesvol</string>
+    <string name="view_funeral_policy_text">Om ons polis te besigtig teken in op jou Absa Online-bankprofiel.</string>
+    <string name="submit_quote_failure">Jou aansoek was onsuksesvol</string>
+    <string name="card_life_plan">Kaartlewensplan</string>
+    <string name="your_plan_details">Planbesonderhede</string>
+    <string name="card_life_whats_new_description_text">Kry beskerming indien jy jou kredietkaartskuld weens uitdiensstelling, permanente ongeskiktheid of dood nie kan betaal nie.</string>
+
+    <string name="annually">Jaarliks</string>
+    <string name="note">Nota</string>
+
+    <!-- Profile loading error -->
+    <string name="profile_loading_failed">‘n Fout het voorgekom terwyl die app gelaai het. Maak asseblief die app toe en weer oop.</string>
+    <string name="fatal_error">Fatale fout</string>
+
+    <!--Business Banking-->
+    <string name="business_banking_authorisations_pending">%s authorisations pending</string>
+    <string name="statements">State</string>
+    <string name="business_banking_unable_to_view_feature">You currently do not have access to this feature, would you like to message the main user and request access?</string>
+
+    <!-- Stamped statement -->
+    <string name="stamped_statement_title">Benodig \'n gestempelde staat?</string>
+    <string name="stamped_statement_whats_new">Kies eenvoudig \'n rekening en die "Gestempelde state" opsie onder die opsieknoppie om die staat af te laai.</string>
+    <!-- International Payments (Awaiting Afrikaans translation from business-->
+    <string name="international_payments">Internasionale betaling</string>
+    <string name="disclaimer">Vrywaring</string>
+    <string name="gift_disclaimer_acknowledgement">Ek erken dat hierdie \'n geskenkbetaling is.</string>
+    <string name="payment_information">Western Union-betalingsinligting</string>
+    <string name="payment_disclaimer">•   Western Union-betalings sal onder jou enkele diskresionêre toelae van R1 miljoen per jaar gedoen word.\n\n•	Geen dokumente is nodig nie en die valuta wat jy koop, word onder die Reserwebank se rapporteringskategorie “401 – Geskenk” gerapporteer.</string>
+    <string name="send_money_to">Stuur geld aan</string>
+    <string name="new_western_union_beneficiary">New Western Union Beneficiary</string>
+    <string name="paid_on" formatted="false">Betaal %1s op %1s</string>
+    <string name="no_beneficiary_msg">Jy het geen gestoorde Western Union-begunstigdes nie.</string>
+    <string name="please_note">Let wel:</string>
+    <string name="please_note_without_colon">Let wel</string>
+    <string name="operating_hours">Bedryfsure</string>
+    <string name="operating_hours_timings">Die diens is net van Maandag tot Vrydag beskikbaar\n<b>08:00 - 16:30</b>\n\Saterdae\n<b>08:00 - 12:00</b>\n\nNie beskikbaar op Sondae en openbare vakansiedae nie.</string>
+    <string name="how_does_this_work">Hoe werk dit?</string>
+    <string name="whats_you_need">Wat jy nodig het</string>
+    <string name="whats_needed_details">Jou begunstigde se:\n\n\t\t1.  Permanente fisiese adres\n\t\t2.  Volle name soos in hulle ID/paspoort getoon\n\t\t3.  Huidige ligging</string>
+    <string name="please_call">Skakel asseblief: 0860 151 151 (plaaslik) of +27 11 335 4019 (internasionaal).</string>
+    <string name="please_call_multi_beneficiary">Skakel asseblief: 08600 08600 (plaaslik) of +27 11 335 4019 (internasionaal).</string>
+    <string name="need_urgent_assistance">Dringend hulp nodig?</string>
+    <string name="things_to_remember">Wat om te onthou</string>
+    <string name="transaction_limits_details">• Jou begunstigde moet die geldoorplasingskontrolenommer en hul ID/paspoort hê om die fondse af te haal.\n\n• Betalings is deur Western Union en kan net wees:\n\n\t1. Aan individue en nie korporasies nie\n\t2.  Maksimum R30,000 per betaling\n\t3. Maksimum $8,000 per dag</string>
+    <string name="how_it_works">Hoe dit werk</string>
+    <string name="how_it_works_details">Stuur geld aan enigeen ter wêreld in 3 stappe:\n\n1. Skep en betaal \'n begunstigde\n2. Ontvang \'n geldoorplasingsnommer (MTCN)\n3. Stuur die MTCN aan jou begunstigde om die fondse by \'n Western Union-agent by hul huidige ligging af te kan aal.</string>
+    <string name="international_payments_where_money_sent_to">Waar word die geld heen gestuur?</string>
+    <string name="international_payments_where_beneficiary_live">Waar woon die begunstigde?</string>
+    <string name="international_payments_address_line_hint">Sleutel begunstigde se adres in</string>
+    <string name="international_payments_beneficiary_country">Begunstigde se land</string>
+    <string name="international_payments_beneficiary_state">Begunstigde se staat</string>
+    <string name="international_payments_beneficiary_city">Begunstigde se stad</string>
+    <string name="international_payments_beneficiary_city_hint">Sleutel begunstigde se stad in</string>
+    <string name="first_name_as_per_passport">Voorname soos in ID/paspoort*</string>
+    <string name="enter_first_name">Tik voornaam in</string>
+    <string name="validation_first_name">Sleutel asseblief \'n geldige eerste naam in</string>
+    <string name="incorrect_details_disclaimer">*Indien name nie presies soos in ID/paspoort is nie, kan vordering geweier word.</string>
+    <string name="sirname">Van*</string>
+    <string name="enter_surname">Tik van in</string>
+    <string name="validation_surname">Sleutel asseblief \'n geldige van in</string>
+    <string name="preferred_name">Voorkeurnaam</string>
+    <string name="enter_preferred_name">Sleutel voorkeurnaam in</string>
+    <string name="gender">Geslag</string>
+    <string name="male">Manlik</string>
+    <string name="female">Vroulik</string>
+    <string name="residential_status">Begunstigde se residensiële status</string>
+    <string name="temporarily_abroad">SA inwoner tydelik in buiteland</string>
+    <string name="non_sa_resident">Nie SA inwoner nie</string>
+    <string name="beneficiary_overview">Beneficiary overview</string>
+    <string name="full_name">Volle name soos in ID/paspoort</string>
+    <string name="beneficiary_gender">Begunstigde se geslag</string>
+    <string name="beneficiary_address">Begunstigde se adres</string>
+    <string name="beneficiary_country">Beneficiary country</string>
+    <string name="select_country">Kies \'n land</string>
+    <string name="select_state">Kies \'n staat</string>
+    <string name="select_city">Kies \'n stad</string>
+    <string name="no_payment_history">Daar is geen betaling vir hierdie Western Union-begunstigde gedoen nie.</string>
+    <string name="payment_processing">Betalingsverwerking</string>
+    <string name="payment_at_time">op</string>
+    <string name="make_new_payment">Doen nuwe betaling</string>
+    <string name="payment_processing_details">Jou transaksie in suksesvol ingedien onder betalingsverwysing %1$s.\n\nJy sal die Western Union MTCN (geldoorplasingsverwysingsnommer) binne \'n uur per SMS ontvang. Deel asseblief die MTCN met %2$s</string>
+    <string name="local_number_label">Plaaslike nommer</string>
+    <string name="international_number_label">Internasionale nommer</string>
+    <string name="for_urgent_assistance_please_call" formatted="false">Skakel vir dringende bystand…</string>
+    <string name="international_payments_paid_amount">Hoeveel wil jy stuur?</string>
+    <string name="international_payments_beneficiary_receive">Begunstigde sal ontvang:</string>
+    <string name="international_payments_total_amount_due">Totale bedrag deur jou betaalbaar</string>
+    <string name="international_payments_security_question">Sekuriteitsvraag</string>
+    <string name="international_payments_enter_security_question">"Sleutel \'n sekuriteitsvraag in</string>
+    <string name="international_payments_security_answer">Sekuriteitsantwoord</string>
+    <string name="international_payments_enter_answer">Sleutel die antwoord in</string>
+    <string name="beneficiary_street_address">Begunstigde se straatadres</string>
+    <string name="choose_an_account">Kies \'n rekening</string>
+    <string name="pending_transaction_message">Jy sal nie nog \'n Western Union-betaling kan doen nie aangesien jou laaste betaling nog verwerk word. Probeer asseblief binne \'n uur weer.</string>
+    <string name="pending_transaction_title">Laaste betaling hangende</string>
+    <string name="select_an_account">Kies \'n rekening waaruit jy wil betaal</string>
+    <string name="from_account">Van %1$s | %2$s</string>
+    <string name="no_search_results_found">Geen soekresultate gevind nie</string>
+    <string name="exchange_rate">Wisselkoers van %1$s %2$s/%3$s \Transaksiefooi: %4$s %5$s</string>
+    <string name="error_select_country">Kies asseblief ’n land</string>
+    <string name="error_select_state">Kies asseblief \'n staat</string>
+    <string name="error_select_city">Kies asseblief \'n stad</string>
+    <string name="error_select_city_input">Sleutel asseblief \'n geldige stad se naam in</string>
+    <string name="error_street_address">Sleutel asseblief \'n geldige straatadres in</string>
+    <string name="error_test_question">Sleutel asseblief \'n geldige sekuriteitsvraag in</string>
+    <string name="error_test_answer">Sleutel asseblief \'n geldige sekuriteitsantwoord in</string>
+    <string name="error_exchange_rate">Bereken asseblief wisselkoers</string>
+    <string name="international_payments_destination_state">Bestemmingstaat</string>
+    <string name="international_payments_destination_city">Bestemmingstad</string>
+    <string name="payment_details_destination_country_title">Bestemmingsland</string>
+    <string name="gift">Gift</string>
+    <string name="south_africa">Suid-Afrika</string>
+    <string name="yes_continue">Ja, gaan voort</string>
+    <string name="payment_details_beneficiary_title">Begunstigde</string>
+    <string name="payment_details_you_send">Jy stuur</string>
+    <string name="payment_details_beneficiary_receives">Begunstigde ontvang</string>
+    <string name="payment_details_totl_due_title">Totaal deur jou betaalbaar</string>
+    <string name="payment_details_information_title">Volledige betalingsinligting</string>
+    <string name="payment_details_transaction_reference_title">Transaksie-verwysingsnommer</string>
+    <string name="payment_details_destination_currency_title">Bestemmingswisselkoers</string>
+    <string name="payment_details_foreign_currency_title">Buitelandse valuta</string>
+    <string name="payment_details_foreign_amount_title">Buitelandse valuta</string>
+    <string name="payment_details_local_currency_title">Plaaslike valuta</string>
+    <string name="payment_details_local_amount_title">Plaaslike bedrag</string>
+    <string name="payment_details_originating_country_title">Land van oorsprong</string>
+    <string name="payment_details_nature_of_payment_title">Aard van betaling</string>
+    <string name="payment_details_VAT_title">BTW</string>
+    <string name="payment_details_commission_amount_title">Kommissiebedrag (fooie)</string>
+    <string name="payment_details_security_question_title">sekuriteitsvraag</string>
+    <string name="payment_details_security_question_answer_title">Antwoord op sekuriteitsvraag</string>
+    <string name="payment_details_terms_of_use_title">Deur te aanvaar verklaar ek dat:</string>
+    <string name="payment_details_terms_of_use_line_one">• Ek die %1s gelees het en die inhoud daarvan verstaan;</string>
+    <string name="payment_details_terms_of_use_line_two">• Ek het die regulatoriese en voldoenings %1s gelees en verstaan die inhoud daarvan;</string>
+    <string name="payment_details_terms_of_use_line_three">Ek/Ons bevestig dat geen een van die partye tot hierdie transaksie, die land van oorsprong, die bestemmingsland met betrekking tot goedere/dienste gekoppel kan word aan enige van die lande wat hieronder genoem word nie. In die geval van enige van die lande hieronder genoem, bevestig ek hiermee dat die bank die transaksie, instruksie rekening waarvoor ek aansoek doen mag verbied. Iran, Noord-Korea, Burma/Myanma, Sirië. Soedan (Noord) en Kuba.\n\n• Die inligting wat hierbo voorsien is, is alle opsigte waar en juis.\n\n• Die valuta waarvoor aansoek gedoen word, sal net gebruik word vir die spesifieke doel wat hierin vermeld word;Die dokumente wat ter ondersteuning van hierdie aansoek ingedien word, is in alle opsigte outentiek.\n\n• Ek is ingelig oor die limiet van toepassing op die bogenoemde transaksie en bevestig dat hierdie limiet nie as gevolg van die afhandeling van hierdie transaksie oorskry sal word nie.\n\n• Ek stem in dat hierdie inligting aan die Suid-Afrikaanse Inkomstediens en/of die Finansiële-intelligensiesentrum voorsien word.\n\n• Ek bevestig die ondersteunende dokumente vir \'n tydperk van 5 (vyf) jaar behou sal word vir die doeleindes van inspeksie deur die finansiële ondersoekdepartement van die Suid-Afrikaanse Reserwebank.\n\n• Ek verstaan dat indien ek NIE die betrokke dokumentêre bewys ter ondersteuning van my betalingsinstruksie binne die gestelde tyd by die bank indien nie, die versoek gekanselleer sal word.</string>
+    <string name="payment_details_tap_to_read">Tik om meer te lees</string>
+    <string name="payment_details_tap_to_close">Tik om te sluit</string>
+    <string name="delete">Verwyder</string>
+
+    <!-- stamped statement -->
+    <string name="share">Deel</string>
+    <string name="open_statement">Maak staat oop</string>
+    <string name="stamped_statement">Gestempelde staat</string>
+    <string name="share_account_details">Deel rekeningbesonderhede</string>
+    <string name="historical_statement">Bank staat</string>
+    <string name="archived_statement">Bank staat</string>
+    <string name="stamped_statement_disclaimer">Let wel:\nDaar is \'n bykomende koste per staat vir gestempelde state. Raadpleeg asseblief die prysbrosjure op www.absa.co.za. \n\n Wil jy voortgaan?</string>
+    <string name="acrhived_statement_disclaimer">Let wel: \nBank state dra \'n addisionele koste. Sien die kostebrosjure beskikbaar by www.absa.co.za.\n\n Wil jy voortgaan?</string>
+    <string name="archived_statements">Bank state</string>
+    <string name="choose_date">Kies datum</string>
+    <string name="choose_dates">Kies datums</string>
+
+    <!-- choose date -->
+    <string name="last_month">Laaste maand</string>
+    <string name="last_7_days">Laaste 7 dae</string>
+    <string name="month_to_date">Maand-tot-datum</string>
+    <string name="last_30_days">Laaste 30 dae</string>
+    <string name="past_3_months">Laaste 3 maande</string>
+    <string name="custom_date">Ander datums</string>
+    <string name="generic_error">\'n Onverwagte fout het voorgekom. Probeer asseblief weer later.</string>
+
+    <!-- Debicheck -->
+    <string name="debicheck_terms_of_use">Gebruiksvoorwaardes</string>
+    <string name="debicheck_terms_of_use_section_1">DebiCheck-magtiging is \'n debietorder-betalingsmetode om jou betalingsverpligtings teenoor Absa/die krediteur na te kom.</string>
+    <string name="debicheck_terms_of_use_section_2">Jou magtiging raak net die tyd van betaling. Indien jy nie bevestig nie, sal die debietorder nie deel van die DebiCheck-proses wees nie, maar betaling kan moontlik steeds verwerk word.</string>
+    <string name="debicheck_terms_of_use_section_3">Indien jy \'n DebiCheck-debietorder-magtiging weier, kan jy moontlik jou ooreenkoms met Absa/die krediteur verbreek en dit kan jou kredietrekord beïnvloed.</string>
+    <string name="debicheck_terms_of_use_section_4">Jy hoef die debietorder net eenkeer te magtig, tensy jy besonderhede op jou debietorder met ons of \'n derde party wysig en ons jou vra om die veranderings te bevestig.</string>
+    <string name="debicheck_terms_of_use_section_5">Indien jy tot \'n datumwysiging instem, beteken dit dat vordering op enige ander dag as die vorderingsdag kan geskied. Dit is jou verantwoordelikheid om te verseker dat daar voldoende fondse in jou rekening is, anders sal \'n straf-fooi gehef word.</string>
+    <string name="debicheck_terms_of_use_section_6">As jy meen dat die debietorder bedrieglik is of dat die besonderhede foutief is, kontak ons onmiddellik op enige van ons kanale.</string>
+    <string name="debicheck_terms_of_use_section_7">As \'n DebiCheck-debietorder eers gekanselleer is en weer ingestel moet word, moet die krediteur die proses inisieer.</string>
+    <string name="debicheck_terms_of_use_section_8">Ons produkte en dienste is afhanklik van tegnologiese infrastruktuur (bv. OTM, verkoopspunt-terminaal en rekenaarstelsels). Jy verstaan en aanvaar dat diensonderbrekings voorkom. Gedurende \'n diensonderbreking mag dit nie vir jou moontlik wees om ons produkte en dienste te gebruik nie en daar kan \'n oponthoud by die verwerking van transaksies en ook die weerspieëling daarvan op jou rekeningstate wees.</string>
+    <string name="debicheck_terms_of_use_section_10">Die afsny-tye vir DebiCheck-goedkeurings kan varieer. Skakel %s vir meer inligting.</string>
+    <string name="debicheck_terms_agree_text">Ek stem in tot die bepalings.</string>
+    <string name="debicheck_terms_important_notices">Belangrike kennisgewings vir magtigings:</string>
+    <string name="debicheck_pending_debit_orders">Hangende debietorders</string>
+    <string name="debicheck_no_pending_debit_orders">Geen hangende debietorders om te hersien nie.</string>
+    <string name="debicheck_debit_order_details_caps">Debietorder-besonderhede</string>
+    <string name="debicheck_tap_to_approve_or_reject">Tik om te aanvaar te verwerp.</string>
+    <string name="debicheck_creditor_details">Krediteur besonderhede</string>
+    <string name="debicheck_dates">Datums</string>
+    <string name="approve">Keur goed</string>
+    <string name="debicheck_debit_orders_next">Debietorders</string>
+    <string name="debicheck_debit_orders_count">Debietorders</string>
+    <string name="debicheck_debit_order_count">Debietorder</string>
+    <string name="instalment_amount">Paaiementbedrag</string>
+    <string name="contract_reference">Kontrakverwysing</string>
+    <string name="creditor_name">Gebruiker/Krediteur se naam</string>
+
+    <!-- Archived statement -->
+    <string name="archived_statements_title">Is u opsoek vir \'n vorige staat?</string>
+    <string name="archived_statements_whats_new">Kies \'n rekening en die “Vorige state" opsie onder die opsieknoppie, om die staat af te laai.</string>
+    <string name="cannot_connect_entersekt_error">Ons kan nog steeds nie aan die verifikasiebediener koppel nie. Ons stel voor om na data oor te skakel of aan ’n ander Wi-Fi-netwerk te koppel.</string>
+
+    <!-- Account balance graphing -->
+    <string name="account_balance">Rekening saldo</string>
+
+    <!--Account hub-->
+    <string name="download_stamped_statement">Laai gestempelde state af (.pdf).</string>
+    <string name="account_hub_unable_to_view_feature">Jy het tans nie toegang tot hierdie funksie nie, wil jy die hoofgebruiker \'n boodskap om toegang te versoek?</string>
+    <string name="account_hub_export_csv">Tik transaksies uit (.csv)</string>
+    <string name="account_hub_download_pdf_statement">Laai bank staat af (.pdf)</string>
+    <string name="account_hub_authorisations_pending">%s magtigings in afwagting</string>
+    <string name="account_hub_statements">State</string>
+    <string name="account_hub_uncleared">Onverrekende transaksies sal moontlik nie reflekteer nie.</string>
+    <string name="account_hub_unauthorised_content">Jy is nie gemagtig om hierdie inhoud te besigtig nie</string>
+    <string name="account_hub_ok_got_it">OK, het dit!</string>
+    <string name="account_hub_chart_title">Besigtig hou saldo-geskiedenis</string>
+    <string name="account_hub_whats_new">Jy kan nou met behulp van \'n saldo-grafiek tendense en patrone in jou rekeningsaldo identifiseer</string>
+    <string name="account_hub_balance">Rekeningsaldo</string>
+    <string name="account_hub_days">dae</string>
+    <string name="account_hub_balance_amount">%s %s</string>
+
+    <!--multiple beneficiary payment strings-->
+    <string name="multiple_beneficiary_payment">Veelvuldige begunstigde betalings</string>
+    <string name="select_saved_beneficiaries">Kies tot en met %d begunstigdes</string>
+    <string name="number_of_select_saved_beneficiaries">%d van %d begunstigdes gekies</string>
+    <string name="select_beneficiaries">Kies begunstigdes</string>
+    <string name="select_an_account_to_pay_from">Kies \'n rekening om uit te betaal</string>
+    <string name="choose_an_account_disclaimer">Al die gekose begunstigdes sal betaal word vanaf die rekening wat jy kies.</string>
+    <string name="multiple_payment_tap_to_edit">Tik om nog betalingsbesonderhede te redigeer</string>
+    <string name="multiple_payment_my_references_etc">My verwysing: %s, kennisgewings, ens.</string>
+    <string name="multiple_payment_selected_beneficiary">Geselekteerde begunstigdes</string>
+    <string name="selected_beneficiaries">Geselekteerde begunstigdes</string>
+    <string name="proof_of_payment">Stuur bewys van betaling aan begunstigde per</string>
+    <string name="multiple_payments_payment_type_title">Tipe betaling</string>
+    <string name="disclaimer_info">Vrywaringsinligting</string>
+    <string name="immediate_and_normal_payments">Onmiddellike &amp; normale betalings</string>
+    <string name="immediate_payments">Onmiddelike betalings</string>
+    <string name="normal_and_iip_payment_total">OTB &amp; normale betaling totaal</string>
+    <string name="normal_payments">Normale betalings</string>
+    <string name="normal_payment_total">Normale betalings totaal</string>
+    <string name="future_dated_payments">Vooruitgedateerde betalings</string>
+    <string name="future_dated_payment_total">Totaal van vooruitgedateerde betalings</string>
+    <string name="account_details">Rekeningbesonderhede</string>
+    <string name="from">Van %1$s %2$s</string>
+    <string name="funeral_cover_from">Van R %1$s</string>
+    <string name="iip_payment_total">OTB betaling totaal</string>
+    <string name="multiple_payments_button_make_another_payment">Doen nog \'n betaling</string>
+    <string name="multiple_payments_tap_to_see_unsuccessful_payments">Tik om onsuksesvolle betalings te sien</string>
+    <string name="multiple_payments_tap_to_see_successful_payments">Tik om suksesvolle betalings te sien</string>
+    <string name="multiple_payments_some_payments_were_unsuccessful">Sommige betalings was onsuksesvol</string>
+    <string name="multiple_payments_some_payments_were_successful">Sommige betalings was suksesvol</string>
+    <string name="beneficiary_details_title">Tik begunstigde se besonderhede in</string>
+    <string name="multiple_payments_information_text">Neem kennis dat die transaksies wat as onmiddelike tussenbankbetalings ingedien word sal na 1 uur geprosesseer word. Die betaling kan nog steeds deur die stelsel verwerp word indien daar \'n tekort aan fondse is wanneer die betaling gemaak word. \n\n<b>Dringend hulp nodig? </b>\nSkakel asseblief 08600 08600 (plaaslik) of +27 11 335 4019 (internasionaal).</string>
+    <string name="add_beneficiaries_details">Voeg begunstigdes se besonderhede by</string>
+    <string name="important_payment_notice">Belangrike betalingskennisgewing</string>
+    <string name="important_notice_message">1. Afsnytye vir betalings word beheer deur interbank-klaringsreëls waaraan alle SA banke voldoen.</string>
+    <string name="tap_to_read_more">Tik om meer te lees</string>
+    <string name="tap_here">Tik hier</string>
+    <string name="multiple_payments_payments_were_successful">Betalings was suksesvol</string>
+    <string name="multiple_payment_normal_payment_success_description">Let wel dat die transaksies wat as onmiddellike inter-bankbetaling ingedien is ná \'n uur verwerk sal word. Die betaling kan nog deur die stelsel teruggestuur word indien daar ten tye van die betaling onvoldoende fondse is.\n\n<b>Dringend hulp nodig?</b>\nSkakel asseblief 08600 08600 (plaaslik) of +27 11 335 4019 (internasionaal).</string>
+    <string name="payment_details_changed">Betalingsbesonderhede het verander</string>
+    <string name="payment_details_changes_description"><s>Jy het jou betalingsbesonderhede geredigeer.\nWil jy die veranderings stoor?</s></string>
+    <string name="dont_save">Moenie stoor nie</string>
+    <string name="insufficient_amount">Onvoldoende bedrag. Tik om rekening te verander</string>
+    <string name="update_payment_dialog_title">Opdateer betalingsbedrae</string>
+    <string name="update_payment_dialog_message">By sommige begunstigdes is geen betalingsbedrae ingesleutel nie. Jy moet betalingsbedrae byvoeg om met veelvuldige betaling voort te gaan.</string>
+    <string name="insufficient_fund_dialog_title">Onvoldoende fondse</string>
+    <string name="insufficient_fund_dialog_message_one" formatted="false">Jy het onvoldoende fondse in jou %s %s.</string>
+    <string name="insufficient_fund_dialog_message_two">Vee links om begunstigdes te verwyder, of die betalingsbedrag of die rekening waaruit jy betaal te verander.</string>
+    <string name="iip_terms_of_use_information">Wanneer \'n onmiddellike tussenbankbetaling (OTB) gebruik word, kan die transaksie nie herroep, ter syde gestel of gekanselleer word nie omdat die betaling onmiddellik plaasvind. \'n OTB is duurder as gewone transaksies, wat aan vertraging onderhewig is\n\nDie fooi vir OTB-transaksies is beskikbaar op Absa se webtuiste (www.absa.co.za) onder “Wat is die koste?” Ons kan die bepalings van \'n OTB wysig en begunstigdes se toegang tot die fondse vertraag indien ons sodanige maatreëls nodig ag om bedrog te voorkom. Ons sal jou op ons webtuiste vooraf kennis gee van enige sodanige veranderings.</string>
+    <string name="show_iip_terms_of_use">Toon OTB-gebruiksbepalings</string>
+    <string name="payment_successful_on">Op %1$s om %2$s</string>
+    <string name="future_dated_payment_result_message">Let wel dat die transaksies wat as onmiddellike inter-bankbetaling ingedien is ná \'n uur verwerk sal word. Die betaling kan nog deur die stelsel teruggestuur word indien daar ten tye van die betaling onvoldoende fondse is. Vooruitgedateerde betaling is suksesvol geskeduleer. Die betaling kan nog deur die stelsel teruggestuur word indien daar wanneer die betaling verwerk word onvoldoende fondse is of indien die transaksie voor die betalingsdatum gekanselleer word.</string>
+    <string name="client_agreement_accepted">Ek het reeds die <b>Persoonlike kliënt-ooreenkoms</b> gelees en aanvaar.</string>
+    <string name="client_agreement_have_accepted">Ek het voorheen die %s aanvaar.</string>
+    <string name="cut_off_time_button_text">Besigtig afsnytye</string>
+    <string name="deselect_beneficiary">Deselekteer begunstigde</string>
+    <string name="deselect_beneficiary_message">Is jy seker jy wil “%s” deselekteer?</string>
+    <string name="deselect">Deselekteer</string>
+    <string name="pay_on">Betaal op %s</string>
+    <string name="beneficiary_ref">Verw: %1$s</string>
+    <string name="payments_were_scheduled_successfully">Betalings is suksesvol geskeduleer</string>
+    <string name="accept_personal_client_agreement">Ek het die %s gelees en aanvaar dit</string>
+    <string name="personal_client_agreement">Persoonlike Kliënt-ooreenkoms</string>
+    <string name="please_accept_agreement">Lees asseblief die Persoonlike kliënt-ooreenkoms en aanvaar dit</string>
+    <string name="your_payments_were_unsuccessful">Jou betalings was onsuksesvol</string>
+    <string name="multiple_payments_cut_off_title">Afsny-tyd vir betalings</string>
+    <string name="business_client_agreement">Besigheidskliëntooreenkoms</string>
+    <string name="please_accept_business_agreement">Aanvaar asseblief die Besigheidskliëntooreenkoms</string>
+    <string name="payment_accept_personal_client_agreement">Ek het reeds die Persoonlike Kliënt-ooreenkoms gelees en aanvaar.</string>
+    <!-- beneficiarySwitching -->
+    <string name="save_all">Stoor alles</string>
+    <string name="all_beneficiaries_have_been_added">Alle begunstigdes is bygevoeg!</string>
+    <string name="one_beneficiary_has_been_added">%s is bygevoeg</string>
+    <string name="import_beneficiary">Tik begunstigde in</string>
+    <string name="title_activity_import_beneficiary">ImportBeneficiaryActivity</string>
+    <string name="title_activity_import_save_beneficiaries">Stoor begunstigdes</string>
+    <string name="screen_shot">Skermgreep</string>
+    <string name="qr_code">QR Code</string>
+    <string name="use_screenshots_to_import_your_beneficiaries">Gebruik skermgrepe om jou begunstigdes in te voer</string>
+    <string name="import_from">Voer in vanaf</string>
+    <string name="remove_selected_beneficiary">Verwyder die gekose begunstigde</string>
+    <string name="are_you_sure">Is jy seker?</string>
+    <string name="qr_code_detector_not_yet_ready">QR-kode sensor is nog nie gereed nie. Sluit en heropen hierdie skerm. As hierdie probleem voortduur, gebruik asseblief die unieke nommer hieronder.</string>
+    <string name="error_accessing_camera">Daar is ’n fout met toegang tot die kamera</string>
+    <string name="screenshot">Skermgreep</string>
+    <string name="share_account_details_content" formatted="false">
+       	Hello. Sien asseblief my Absa-rekening besonderhede hieronder:\nRekeningnaam: %s
+    \nRekeningnommer: %s
+    \nTakkode: 632005
+    \nTipe Rekening: "%s
+    </string>
+    <string name="card">kaart</string>
+    <string name="card_temporary_lock_info">Your card will only lock and unlock once it is used for an ofﬂine transaction.</string>
+    <string name="use_card_abroad">Use card abroad</string>
+    <string name="temporary_card_lock">Tydelike Sluiting</string>
+    <string name="credit_limits">Krediet limiet</string>
+    <string name="business_banking_title">Besigheidsbankrekening</string>
+    <string name="personal_banking_title">Persoonlike Bankrekening</string>
+    <string name="disable_notification_dialog_message">Indien jy die kennisgewings afskakel sal jy nie meer verifiëringsversoeke ontvang nie.\nJy sal die App moet oopmaak om verifiëringsversoeke te sien.\n\nIs jy seker jy wil die kennisgewings afskakel?</string>
+    <string name="disable_notification_dialog_title">Deaktiveer kennisgewings?</string>
+    <string name="bank_statements">Vorige state</string>
+    <string name="whats_new_funeral_cover_title">Kry Begrafnisdekking</string>
+    <string name="whats_new_funeral_cover_paragraph">Ons sal verseker dat begrafniskoste gedek word om jou en jou gesin te ondersteun gedurende \'n moeilike tyd. </string>
+    <string name="bank_statements_title">Bank en gestempelde state</string>
+    <string name="bank_statements_title_business_banking">Bank state</string>
+    <string name="bank_statements_whats_new">Kies \'n rekening, druk op die “Bank of gestempelde staat” oortjie om u staat af te laai.</string>
+    <string name="bank_statements_whats_new_business_banking">Kies \'n rekening, druk op die “State” oortjie om u staat af te laai.</string>
+    <string name="balance_chart_title">Besigtig jou saldo-geskiedenis</string>
+    <string name="balance_chart_whats_new">Besigtig die tendense vir jou rekeningbalans. Kies ’n rekening nadat jy aangeteken het en tik op die grafiek om meer besonderhede van ’n spesifieke dag te sien.</string>
+    <string name="title_cards">Kaarte</string>
+    <string name="tab_title_card">Kaart</string>
+    <string name="payment_details_saved">Betalingsbesonderhede is gestoor.</string>
+    <string name="hide">Versteek</string>
+    <string name="funeral_cover_view">Bekyk</string>
+    <string name="hide_funeral_cover_confirmation_title">Versteek Begrafnisdekking Aanbod?</string>
+    <string name="hide_funeral_cover_dismiss_message">Versteek Begrafnisdekking Aanbod? Is jy seker jy wil die Begrafnisdekking aanbod versteek?\n\nDie aanbod is nog steeds beskikbaar in die Koop afdeling van die App.</string>
+    <string name="invalid_or_blocked_meter_number">Ongeldige of geblokkeerde meternommer.</string>
+    <string name="choose_dates_from">Van</string>
+    <string name="choose_dates_to">Tot</string>
+    <string name="calendar_heading">Kies datums</string>
+    <string name="no_app_can_perform_this_action">No app can perform this action!</string>
+    <string name="temporary_error">Tydelike fout</string>
+    <string name="temporary_error_message">Die diens is ongelukkig nie nou beskikbaar nie. Probeer asseblief later weer.</string>
+    <string name="download">Laai</string>
+    <string name="csv_statement">CSV staat</string>
+    <string name="policy_class">\\b[bB][eE][gG][rR][aA][fF][nN][iI][sS]\\b</string>
+    <string name="statements_no_thanks">Nee, dankie</string>
+    <string name="statements_no_download">Laai af</string>
+
+    <string name="debi_check_adjustment_never">Nooit</string>
+    <string name="debi_check_adjustment_quarterly">Kwartaallikse</string>
+    <string name="debi_check_adjustment_annually">Jaarliks</string>
+    <string name="debi_check_adjustment_bi_annually">Halfjaarliks</string>
+    <string name="debi_check_adjustment_repo">Repo koers</string>
+    <string name="remove_user_title">Verwyder gebruiker</string>
+    <string name="remove_this_profile">Is jy seker jy wil hierdie profiel verwyder?</string>
+
+    <string name="debicheck_adjustment_never">Nooit</string>
+    <string name="debicheck_adjustment_quarterly">Kwartaallikse</string>
+    <string name="debicheck_adjustment_annually">Jaarliks</string>
+    <string name="debicheck_adjustment_bi_annually">Halfjaarliks</string>
+    <string name="debicheck_adjustment_repo">Repo koers</string>
+
+    <!--Credit card protection insurance policy-->
+    <string name="credit_card_protection_details">Planbesonderhede</string>
+    <string name="credit_card_protection_title">Dek jou kredietkaartskuld</string>
+    <string name="agree_and_confirm_credit_terms_and_conditions">Ek stem in tot die bepalings en voorwaardes van die Kaartlewensplan.</string>
+    <string name="agree_and_confirm_terms_and_conditions">bepalings en voorwaardes</string>
+    <string name="credit_protection_successful_sub_message">Jou Kaartlewensplan sal op %s begin.\n\n Die maandelikse premie sal van jou Kredietkaart afgetrek word.</string>
+    <string name="credit_protection_outstanding_balance">Jou uitstaande kredietkaartbalans is gedek tot ’n maksimum van R100 000.00</string>
+    <string name="credit_protection_outstanding_balance_apply">Jou uitstaande kredietkaartbalans sal gedek word tot ’n maksimum van R100 000.00</string>
+    <string name="credit_protection_unsuccessful_sub_message">Kontak asseblief hierdie nommer vir verdere hulp: <u>086 146 2273</u></string>
+    <string name="credit_protection_apply">Doen aansoek</string>
+    <string name="application_not_successful">Jou aansoek was onsuksesvol</string>
+    <string name="card_life_message">Beskerming vir jou en jou gesin indien jy jou kredietkaartskuld weens uitdiensstelling, permanente ongeskiktheid of dood nie kan betaal nie.</string>
+    <string name="whats_new_multiple_user_list_feature_name">Multiple users</string>
+    <string name="whats_new_multiple_user_list_description_text">Allow others to do their banking on your device. Tap on “User List” at the top right of the login screen.</string>
+    <string name="retry">Probeer weer</string>
+
+    <!-- Contact Us -->
+    <string name="whats_new_contact_details_title">Kontak besonderhede</string>
+    <string name="whats_new_contact_details_description">Kontak ons inbelsentrum vanaf die aantekenskerm.</string>
+    <string name="feature_unavailable_message">Die \'%s\' funksie is ongelukkig nie beskikbbaar op die oomblik nie. Probeer asseblief later weer.</string>
+    <string name="feature_unavailable_message_new_to_bank">Unfortunately, the \'New To Bank Registration\' feature is not available at the moment. Please try again later.</string>
+    <string name="decline">Verwerp</string>
+    <string name="postpone">Stel uit</string>
+    <string name="i_agree_to_the_above">I agree to the above</string>
+    <string name="read_the_full_quotation">Lees volle kwotasie</string>
+
+    <!--Contact Us strings-->
+    <string name="contact_us_heading">Kontak Ons</string>
+    <string name="local_heading">Suid Afrika</string>
+    <string name="international_heading">Internasionaal</string>
+    <string name="emergency_contact_details">Noodgeval</string>
+    <string name="contact_us_operating_hours">Beskikbaar 08:00 - 17:00 (SAST), 7-dae \'n week</string>
+    <string name="fraud_hotline">Bedrognoodlyn</string>
+    <string name="fraud_hotline_number" translatable="false">086 055 7557</string>
+    <string name="lost_or_stolen_title">Verlore / Gesteelde kaart</string>
+    <string name="lost_or_stolen_title_number" translatable="false">086 055 7557</string>
+    <string name="banking_app_support_title">Banking App Ondersteuning</string>
+    <string name="banking_app_support_number" translatable="false">086 011 1123</string>
+    <string name="banking_app_support_email" translatable="false">bankingapp@absa.co.za</string>
+    <string name="general_enquiry">Algemene Navrae</string>
+    <string name="general_enquiry_number" translatable="false">086 000 8600</string>
+    <string name="general_enquiry_email" translatable="false">absa@absa.co.za</string>
+    <string name="international_callers_title">Internasionale bellers vir Digital Banking</string>
+    <string name="international_contact_number" translatable="false">086 000 8600</string>
+    <string name="international_contact_number_with_code" translatable="false">+27 11 501 5019</string>
+    <string name="more_contact">Vir meer kontakbesonderhede \n besoek absa.co.za</string>
+    <string name="clickable_text" translatable="false">absa.co.za</string>
+    <string name="contact_us_link" translatable="false">https://www.absa.co.za/talk-to-us/</string>
+    <string name="international_emergency_number" translatable="false">+27 11 501 5089</string>
+    <string name="main_switch_board">Hoofskakelbord</string>
+
+    <string name="approve_debit_order_text">Goedkeur debietorder</string>
+    <string name="reject_debit_order_text">Verwerp debietorder</string>
+    <string name="true_text">Waar</string>
+    <string name="false_text">Vals</string>
+    <string name="more">meer</string>
+
+    <string name="rejection_reason">Verwerpingsrede</string>
+    <string name="select_cheque_account">Kies tjekrekening</string>
+    <string name="cash_send_accnum_placeholder">Current Account (3434343434)</string>
+    <!--<string name="complete_all_fields_message">Vul asseblief al die velde in</string>-->
+
+    <string name="debi_check_title">Hangende Debietorders</string>
+    <string name="debi_check_ref">Verw. - %s</string>
+    <string name="debi_check_instalment_amount">Paaiement - %s</string>
+    <string name="debicheck_terms_of_use_section">DebiCheck-magtiging is \'n debietorder-betalingsmetode om jou betalingsverpligtings teenoor Absa/die krediteur na te kom.\n\nJou magtiging raak net die tyd van betaling. Indien jy nie bevestig nie, sal die debietorder nie deel van die DebiCheck-proses wees nie, maar betaling kan moontlik steeds verwerk word.\n\nIndien jy \'n DebiCheck-debietorder-magtiging weier, kan jy moontlik jou ooreenkoms met Absa/die krediteur verbreek en dit kan jou kredietrekord beïnvloed.\n\nJy hoef die debietorder net eenkeer te magtig, tensy jy besonderhede op jou debietorder met ons of \'n derde party wysig en ons jou vra om die veranderings te bevestig.\n\nIndien jy tot \'n datumwysiging instem, beteken dit dat vordering op enige ander dag as die vorderingsdag kan geskied. Dit is jou verantwoordelikheid om te verseker dat daar voldoende fondse in jou rekening is, anders sal \'n straf-fooi gehef word.\n\nAs jy meen dat die debietorder bedrieglik is of dat die besonderhede foutief is, kontak ons onmiddellik op enige van ons kanale.\n\nAs \'n DebiCheck-debietorder eers gekanselleer is en weer ingestel moet word, moet die krediteur die proses inisieer.\n\nOns produkte en dienste is afhanklik van tegnologiese infrastruktuur (bv. OTM, verkoopspunt-terminaal en rekenaarstelsels). Jy verstaan en aanvaar dat diensonderbrekings voorkom. Gedurende \'n diensonderbreking mag dit nie vir jou moontlik wees om ons produkte en dienste te gebruik nie en daar kan \'n oponthoud by die verwerking van transaksies en ook die weerspieëling daarvan op jou rekeningstate wees.\n\nDie afsny-tye vir DebiCheck-goedkeurings kan varieer. Skakel %s vir meer inligting.</string>
+    <string name="debi_check_terms_of_use_title">Belangrike kennisgewings vir magtigings</string>
+    <string name="to_text">Na</string>
+    <string name="from_text">Van</string>
+    <string name="search_icon">Soek ikoon</string>
+
+    <string name="successful_airtime_purchase_message">Jy het %1$s %2$s %3$s vir %4$s gekoop. Jy sal binnekort n SMS met die besonderhede ontvang.</string>
+    <string name="authorisaction_beneficiary">Begunstigde</string>
+    <string name="authorisation_beneficiary_notification">Begunstigde kennisgewing</string>
+    <string name="authorisation_my_notification">My kennisgewing</string>
+    <string name="authorisations_initiated_on">Geïnisieer op</string>
+    <string name="authorisation_transfer_title">Oorsig van Oorplasing</string>
+    <string name="authentications_prepaid_title">Oorsig van Oorplasing</string>
+    <string name="account_activity_hub_account_balance">Rekening saldo (30 dae)</string>
+    <string name="debit_date_hint_yearly">e.g. 31 Oct</string>
+
+    <string name="old_atm_withdrawal_limit">Ou OTM-onttrekkingslimiet</string>
+    <string name="new_atm_withdrawal_limit">Nuwe OTM-onttrekkingslimiet</string>
+
+    <string name="old_pos_withdrawal_limit">Ou verkooppunt-limiet</string>
+    <string name="new_pos_withdrawal_limit">Nuwe verkooppunt-limiet</string>
+
+    <string name="app_version">App weergawe:</string>
+    <string name="version">Weergawe</string>
+
+    <!-- WhatsApp -->
+    <string name="chat_banking_on_whatsapp_content_description">ChatBanking op WhatsApp Begin Nou Klets</string>
+    <string name="start_chatting_now">Begin nou gesels</string>
+    <string name="whats_app_chat_description"><![CDATA[Betaal ander, koop lugtyd en elektrisiteit, kyk na jou krediet telling en meer, alles op WhatsApp]]></string>
+    <string name="whats_chat_heading">ChatBanking op WhatsApp</string>
+    <string name="register_for_chat_banking">Registreer vir ChatBanking op WhatsApp</string>
+    <string name="whats_app_step_one">Sit ons by as \'n kontak 08600 08600</string>
+    <string name="whats_app_step_two">Vind die kontak wat jy gestoor het in WhatsApp</string>
+    <string name="whats_app_step_three">Tik "Hi" om te registreer en begin gesels</string>
+    <string name="whats_app_more_information">Meer Inligting</string>
+    <string name="add_chat_banking">Stoor ChatBanking as \'n Kontak</string>
+    <string name="chat_banking_disclaimer">*ChatBanking is slegs beskikbaar in Engels</string>
+
+    <string name="transaction_type" formatted="false">Transaksie tipe</string>
+    <string name="transaction_overview">Transaksie Oorsig</string>
+
+    <string name="unsupported_application">Jy het nie ’n applikasie om die webtuiste oop te maak</string>
+    <string name="surecheck">Verifiëring Benodig</string>
+
+    <string name="home_container_notifications">Boodskappe</string>
+    <string name="please_install_whatsapp">Installeer asseblief WhatsApp om ChatBanking te voeg</string>
+
+    <string name="technical_difficulties_try_shortly">Oeps! Ons ervaar tegniese probleme. Probeer asseblief weer later.</string>
+    <string name="open_with">Maak oop</string>
+
+    <string name="date_range_title_text">Kies jou datumreeks</string>
+    <string name="filter_text">Kies n filter wat jy wil toepas.</string>
+    <string name="recommended_for_you_header">Aanbeveel vir jou</string>
+    <string name="offer_no_offers_title">Geen aanbiedings beskikbaar nie</string>
+    <string name="offer_no_offers_description">Ons het nie nou enige aanbiedings vir jou beskikbaar nie. Kyk later weer vir nuwe, aangepaste aanbiedings.</string>
+    <string name="in_app_messages_loading">Boodskappe laai</string>
+
+    <string name="apply">Doen aansoek</string>
+    <string name="content_description_unsuccess">Onsuksesvol</string>
+    <string name="view_unit_trust_noinfo_message">Ons kan nie in hierdie stadium meer inligting oor jou fonds kry nie.\n\nKontak asseblief 086 011 1456 vir meer inligting.</string>
+    <string name="payment_at_time_custom">%1$s op %2$s</string>
+
+    <!-- manage accounts -->
+    <string name="manage_accounts_cancel_changes_title">Kanselleer alle veranderinge?</string>
+    <string name="manage_accounts_unable_to_continue_failure_title">Kan nie voortgaan nie</string>
+    <string name="manage_accounts_unable_to_continue_failure_body">Ons het probleme om jou veranderinge te stoor. Ons span werk daaraan. Probeer asseblief weer later.</string>
+    <string name="manage_accounts_cancel_changes_content">Enige veranderinge wat jy gemaak het, sal nie gestoor word nie.</string>
+    <string name="manage_accounts_changes_saved">Jou veranderinge is gestoor.</string>
+    <string name="manage_accounts_changes_none">Geen veranderinge is aangebring nie</string>
+    <string name="manage_accounts_cant_delink_access_account">Jy het probeer om jou toegangsrekening te versteek. Dit kan ongelukkig nie versteek word nie.</string>
+    <string name="title_manage_accounts">Bestuur Rekeninge</string>
+    <string name="manage_accounts_no_changes_was_made">Jy het geen veranderinge aan jou rekeninge gemaak nie</string>
+    <string name="content_manage_accounts">Kies watter rekeninge jy op jou App wil sien deur dit aan of af te skakel. Jy kan ook jou rekeninge herrangskik deur hulle rond te skuif soos jy wil.\n\nJou Rewards rekening, toegangsrekening of ander rekeninge waar jou fooie vandaan kom, kan nie afgeskakel word nie..</string>
+    <string name="manage_accounts_changes_save_failure_title">Kan sommige veranderinge nie stoor nie.</string>
+    <string name="manage_accounts_changes_save_failure_content">Ons het probleme om die rangskikking van jou rekeninge te stoor. Ons span werk daaraan. Probeer asseblief weer later</string>
+    <string name="manage_accounts_changes_hide_failure">Toegangsrekening te versteek. Dit kan ongelukkig nie versteek word nie. Indien jy meer as een rekening wil versteek, kan jy rekeninge een vir een versteek om hierdie boodskap te vermy.</string>
+    <string name="manage_accounts_save_failure_technical">Ons kan nie die volgorde van jou rekeninge stoor nie. Ons span werk daaraan. Probeer asseblief later weer.</string>
+    <string name="manage_accounts_surecheck_failure">Ons kon jou versoek nie voltooi nie omdat die versoek gekanselleer is. Probeer asseblief later weer.</string>
+
+    <string name="unredeemed_transaction_date_not_available">NVT</string>
+    <string name="manage_accounts_account_cant_be_linked_or_unlinked">Hierdie rekening kan nie gekoppel of ontkoppel word nie.</string>
+    <string name="fragment_help_type_received">Soort hulp ontvang</string>
+
+    <!-- branch consultant feedback flow -->
+    <string name="feedback_someone_helped_me">Iemand het my op die app gehelp</string>
+    <string name="branch_help_someone_helped_me">Iemand het my gehelp</string>
+    <string name="branch_bundle_data_label">branchData</string>
+    <string name="branch_help_assistance_header">Waarmee was jy gehelp?</string>
+    <string name="branch_account_opened_fragment">Open nuwe trekrening via die Toepassing</string>
+    <string name="branch_help_which_account_opened_header">Watter rekening het jy oopgemaak?</string>
+    <string name="branch_help_cheque_account_toolbar_title">Tjek rekening</string>
+    <string name="branch_help_let_us_know_who">Laat ons asseblief weet wie jou gehelp het deur hul QR-kode te skandeer.</string>
+    <string name="branch_help_scan_qr">Skandeer konsultant se QR-kode</string>
+    <string name="branch_help_qr_code_header">Hou jou kamera voor die QR-kode om te skandeer.</string>
+    <string name="branch_help_scan_qr_code_toolbar">Skandeer QR-kode</string>
+    <string name="branch_help_qr_code_scanned_error">There was no data scanned from the QR code</string>
+    <string name="branch_help_camera_permission_failed_title">Kamera Toegang Geweier</string>
+    <string name="branch_help_camera_permission_failed_description">Absa Banking het nie toestemming om jou kamera te gebruik nie.</string>
+    <string name="branch_help_camera_open_settings">Maak instellings oop</string>
+    <string name="branch_help_result_success">Dankie vir jou terugvoering</string>
+    <string name="branch_help_cancel_dialog_title">Kanselleer terugvoering</string>
+    <string name="branch_help_cancel_dialog_description">Is jy seker jy wil die terugvoerproses kanselleer?</string>
+    <string name="permissions_camera_rationale">Om die QR kode te skandeer, moet jy die app toegang na jou foon se kamera gee</string>
+    <string name="credit_card_lost">Ek het my krediet kaart verloor</string>
+
+    <string name="you_need_a_transactional_account_warning">Jy het \'n transaksionele rekening nodig om hierdie aksie uit te voer</string>
+    <string name="already_verification_device">Hierdie toestel is reeds jou verifikasie toestel!</string>
+    <string name="not_interested">Stel nie belang</string>
+    <string name="maybe_later">Miskien later</string>
+    <string name="what_do_you_think">Wat dink jy van die app?</string>
+    <string name="rate_us">Ons is geïnteresseerd in wat jy van die Absa Banking App dink. Druk die sterre hieronder om dit te gradeer.</string>
+    <string name="app_feedback_thank_you">Dankie vir jou terugvoer</string>
+    <string name="app_feedback_we_are_glad">Ons is bly dat jy van ons App hou. Ons doen ons bes om jou gelukkig te hou. Wees op die uitkyk vir nog meer groot funksies in opkomende weergawes</string>
+    <string name="app_feedback_thank_you_short">Dankie!</string>
+    <string name="app_feedback_we_appreciate_feedback">Ons waardeer jou terugvoer.</string>
+    <string name="app_feedback_we_are_sad">Ons is hartseer dat jy nie gelukkig is met die program nie. Wil jy met ons App ontwikkelaars praat?</string>
+    <string name="screenshot_dialog_title">Skermkiekie</string>
+    <string name="screenshot_dialog_content">Wil jy \'n skermkiekie neem?</string>
+    <string name="screenshot_settings_text">Laat skermkiekie toe</string>
+    <string name="screenshot_hint_text">Skud jou foon om \'n skermkiekie te neem.</string>
+    <!--Generic transaction history-->
+    <string name="generic_transactions">Transaksies</string>
+    <string name="personal_loan_hub_fromDate_LesserThan_ToDate_error">Van Datum kan nie later as Tot Datum wees nie.</string>
+    <string name="personal_loan_hub_toDate_LesserThan_FromDate_error">Tot Datum kan nie vroeër as Van Datum wees nie.</string>
+    <string name="screenshot_click_for_screenshot">Druk hier om jou skermgreep te sien.</string>
+    <string name="screenshot_saved">Skermgreep gestoor.</string>
+    <string name="bottom_nav_menu">Keuselys</string>
+
+    <string name="select_account_to_pay_from">Kies asseblief ’n rekening om uit te betaal</string>
+    <string name="no_statements_message">Geen state</string>
+    <string name="flexi_reserve_amount_label">FlexiReserwe Bedrag</string>
+    <string name="documents_menu_item">Dokumente</string>
+    <string name="profile_lost">Jammer, ons kan nie jou profiel op hierdie toestel vind nie, jy moet weer jou rekening koppel</string>
+    <string name="profile_reset">Herstel profiel</string>
+    <string name="relog_required">Jammer, iets het verkeert gegaan. Jy gaan weer moet in teken.</string>
+    <string name="verify_your_passcode">Verifeer asseblief jou wagkode</string>
+    <string name="payments_timeout_title">Transaksie het verstreek</string>
+    <string name="payments_timeout_message">Ons kon nie bevestig dat die transaksie voltooi was nie. Wag asseblief 30 minute en gaan asseblief jou transaksiegeskiedenis na voor jy weer probeer.</string>
+
+
+    <!--    Shortcut management-->
+    <string name="do_banking_faster_title">Doen jou banksake nog vinniger!</string>
+    <string name="do_banking_faster_message">Voeg jou transaksies wat die meeste gebruik word (soos die koop van lugtyd of oorplasing) toe tot jou aanmeldskerm as knoppies. Doen daardie transaksies deur slegs \'n klik!\n\n"Gaan na Keuselys > App verstellings > Pas aanmeld skerm aan.</string>
+    <string name="do_banking_faster_customise">Pas my aanmeldskerm nou aan</string>
+    <string name="do_banking_faster_default">Kies standaard aanmeldskerm</string>
+    <string name="do_banking_faster_default_title">Standaard aanmeldskerm sukselvol opgestel</string>
+    <string name="do_banking_faster_default_message">Die volgende keer wanneer jy inskakel op jou app, sal jy op mees gebruikste funksies kan klik.</string>
+
+    <!--    Covid banner-->
+    <string name="covid_banner_heading">Wees COVID bewus</string>
+    <string name="covid_banner_message">Laai af &amp; bly veilig</string>
+    <string name="covid_hub_message">Laai die "COVID Alert app" af om die verspreiding van COVID-19 te vertraag en jouself en ander mense veilig te hou</string>
+    <string name="covid_hub_alert">COVID Waarskuwing\Suid Afrika</string>
+    <string name="covid_hub_stay_safe">Bly veilig. Spaar lewens.</string>
+
+    <!--    Solidarity Fund banner-->
+    <string name="solidarity_fund_banner_heading">Bankfooie</string>
+    <string name="solidarity_fund_banner_message">Laagste in Suid-Afrika*</string>
+    <string name="solidarity_fund_message">Die laagste bankfooie in Suid-Afrika*</string>
+    <string name="solidarity_fund_low_fees_from_1_March_description">Ons het julle gehoor Suid-Afrika! Op 1 Maart het ons ons nuwe fooie vir Alledaagse Bankdienste-rekenings bekend gestel, wat R500 miljoen in prysverligting aan ons gewaardeerde kliënte bied.</string>
+    <string name="solidarity_fund_inexpensive_accounts_description">*Die Absa Goud Value Bundle- en Transact-rekening is volgens die 2021 Solidarity Report bewys as die bekostigbaarste rekenings in hul kategorieë</string>
+    <string name="solidarity_fund_explore_accounts">Verken rekenings</string>
+    <string name="solidarity_fund_view_our_rates_and_fees_">Besigtig ons koerse en fooie</string>
+    <string name="solidarity_fund_banking_fees_title">Bankfooie</string>
+    <string name="solidarity_fund_reduced_fees_description">Jou bankfooie is verlaag!</string>
+
+    <string name="in_app_notifications_update_app">Opdateer app</string>
+    <string name="in_app_notifications_enable_notifications">Aktiveer kennisgewings</string>
+    <string name="in_app_notifications_enable_notifications_description">Kry ekstra sekuriteit met stootkennisgewings vir al jou transaksies.</string>
+    <string name="in_app_notifications_open_settings">Maak verstellings oop</string>
+    <string name="free">Gratis</string>
+
+    <string name="fraud_notification_screen_title">Moet nooit jou bankdienstebesonderhede met enigiemand deel nie</string>
+    <string name="fraud_notification_i_understand">Ek verstaan</string>
+    <string name="fraud_notification_never_share">Moet nooit bankdienstebesonderhede deel nie</string>
+    <string name="fraud_notification_need_to_know">Jy sal dalk moet weet</string>
+
+    <!--CashSend errors-->
+    <string name="cash_send_reference_error">Voer \'n geldige verwysing in</string>
+    <string name="cash_send_pin_error">Voer \'n OTM toegangspin in</string>
+    <string name="cash_send_invalid_pin_error">Voer 6-syfer OTM toegangspin in</string>
+    <string name="cash_send_invalid_less_error">Bedrag mag nie minder as %s wees nie</string>
+    <string name="cash_send_invalid_name_error">Voer \'n geldige naam in</string>
+    <string name="cash_send_invalid_surname_error">Voer \'n geldige van in</string>
+    <string name="cash_send_invalid_number_error">Voer \'n geldige nommer in</string>
+    <string name="change_access_pin_title">Change Access Pin</string>
+
+    <string name="account_status_closed_title">Rekening toegemaak</string>
+    <string name="account_status_closed_description">Die rekening is toegemaak en kan nie meer gebruik word nie.</string>
+    <string name="pdf_viewer_page_number">"Bladsy    %1$s     /     %2$s"</string>
+</resources>

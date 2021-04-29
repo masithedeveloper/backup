@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="locate_a_branch_atm">Locate a Branch/ATM</string>
+    <string name="get_details_or_directions_for_any_branch_or_atm">Get details or directions for any Branch or ATM</string>
+    <string name="open_the_list">Open the list</string>
+    <string name="swipe_up">Swipe Up</string>
+    <string name="get_directions">Get Directions</string>
+    <string name="absa_website_url">www.absa.co.za</string>
+    <string name="operating_hours_branch_locator">Operating Hours</string>
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+    <string name="sunday">Sunday</string>
+    <string name="atm_branch_locator_open">Open</string>
+    <string name="atm_branch_locator_closed">Closed</string>
+    <string name="atm_branch_locator_closing_soon">Closing Soon</string>
+    <string name="atm_branch_locator_Branch">Branch</string>
+    <string name="atm_branch_locator_ATM">ATM</string>
+    <string name="atm_branch_locator_default_contact_number" translatable="false">0860 008 600</string>
+    <string name="atm_and_branch_locator">ATM &amp; Branch Locator</string>
+    <string name="atm_and_branch_locator_location_permission_check">Absa requires access to your location to help you find ATM\'s and Branches nearby.</string>
+    <string name="location_access_denied_title">Location Access Denied</string>
+    <string name="location_access_denied_description">The Absa Banking App does not have permission to use your phone\'s location.\n\nPlease go to your phone\'s settings > Apps > Absa Banking > Permissions > Location and enable the Absa Banking App’s location access.</string>
+    <string name="gps_network_not_enabled">GPS Network not enabled</string>
+</resources>

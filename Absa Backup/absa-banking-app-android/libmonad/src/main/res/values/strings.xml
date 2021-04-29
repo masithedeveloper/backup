@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name" translatable="false">Lib Monad (UI library)</string>
+    <string name="widget_icon" translatable="false">widget Icon</string>
+    <string name="right_arrow_content_description" translatable="false">Right arrow</string>
+    <string name="custom_icon_for_view" translatable="false">Custom icon for view</string>
+    <string name="title" translatable="false">Title</string>
+    <string name="description" translatable="false">Test description, we are unable to continue with your application. We cannot verify your details. Please go to your nearest Absa branch to apply.</string>
+    <string name="button_zero" translatable="false">0</string>
+    <string name="button_one" translatable="false">1</string>
+    <string name="button_two" translatable="false">2</string>
+    <string name="button_three" translatable="false">3</string>
+    <string name="button_four" translatable="false">4</string>
+    <string name="button_five" translatable="false">5</string>
+    <string name="button_six" translatable="false">6</string>
+    <string name="button_seven" translatable="false">7</string>
+    <string name="button_eight" translatable="false">8</string>
+    <string name="button_nine" translatable="false">9</string>
+    <string name="backspace_button" translatable="false">Backspace</string>
+    <string name="forgot_passcode" translatable="false">Forgot\nPasscode?</string>
+    <string name="step_x_of_y">Step %d of %d</string>
+
+    <!-- Notification method options -->
+    <string name="notification_method_none">None</string>
+    <string name="notification_method_email">Email</string>
+    <string name="notification_method_sms" translatable="false">SMS</string>
+    <string name="notification_method_fax">Fax</string>
+
+    <string name="notification_hint_sms">Enter mobile number</string>
+    <string name="notification_hint_email">Enter email address</string>
+    <string name="notification_hint_fax">Enter fax number</string>
+    <string name="done">Done</string>
+
+    <!--Profile -->
+    <string name="profile_image_content_description">Profile image</string>
+    <string name="profile_initials_content_description">Initials of your name</string>
+
+    <!--Offers-->
+    <string name="content_description_show_offer" translatable="false">Show offer</string>
+    <string name="content_description_hide_offer" translatable="false">Hide offer</string>
+    <string name="content_description_close_offer" translatable="false">Close offer</string>
+
+    <!--Prepaid Electricity -->
+    <string name="talkback_add_contact_icon">Add a contact from phonebook</string>
+
+    <!-- Search -->
+    <string name="search">Search</string>
+    <string name="right_arrow">Right arrow</string>
+
+    <string name="your_progress">Your progress</string>
+    <string name="progress_percent">%s%%</string>
+
+    <string name="button_increase_value">Increase value</string>
+    <string name="button_decrease_value">Decrease value</string>
+    <string name="icon_button_view_content_description">%s icon</string>
+    <string name="alert">Alert</string>
+</resources>

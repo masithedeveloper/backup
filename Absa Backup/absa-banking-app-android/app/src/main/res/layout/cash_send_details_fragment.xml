@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    style="@style/ScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/formConstraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <styleguide.content.BeneficiaryView
+            android:id="@+id/beneficiaryView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            app:attribute_is_header="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <styleguide.forms.RoundedSelectorView
+            android:id="@+id/accountSelectorView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/medium_space"
+            app:attribute_selector_type="LONG_LIST"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/beneficiaryView" />
+
+        <styleguide.forms.LargeInputView
+            android:id="@+id/amountLargeInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:maxLength="7"
+            app:attribute_editable="true"
+            app:attribute_hint_text="@string/currency_rand"
+            app:attribute_selector_type="CURRENCY"
+            app:attribute_title_text="@string/amount"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/accountSelectorView"
+            tools:attribute_description_text="R300 available" />
+
+        <TextView
+            android:id="@+id/sendRangeTextView"
+            style="@style/SmallTextRegularDark"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/medium_space"
+            android:layout_marginEnd="@dimen/medium_space"
+            android:text="@string/cash_send_min_max"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/amountLargeInputView" />
+
+        <androidx.constraintlayout.widget.Group
+            android:id="@+id/newCashSendGroup"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:visibility="gone"
+            app:constraint_referenced_ids="numberNormalInputView, nameNormalInputView, surnameNormalInputView" />
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/numberNormalInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/small_space"
+            android:digits="0123456789 "
+            android:inputType="phone"
+            app:attribute_editable="true"
+            app:attribute_hint_text="@string/cash_send_recipient_enter_mobile_number"
+            app:attribute_mask="### ### ####"
+            app:attribute_selector_type="CONTACT"
+            app:attribute_title_text="@string/cash_send_recipient_mobile_number"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/sendRangeTextView" />
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/nameNormalInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:inputType="textCapSentences"
+            android:maxLength="20"
+            app:attribute_editable="true"
+            app:attribute_hint_text="@string/recipient_fullname"
+            app:attribute_title_text="@string/recipient_name"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/numberNormalInputView" />
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/surnameNormalInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:inputType="textCapSentences"
+            android:maxLength="20"
+            app:attribute_editable="true"
+            app:attribute_hint_text="@string/cash_send_enter_recipient_surname"
+            app:attribute_title_text="@string/cash_send_recipient_surname"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/nameNormalInputView" />
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/myReferenceInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:digits="@string/allowed_reference_digits"
+            android:maxLength="20"
+            app:attribute_editable="true"
+            app:attribute_hint_text="@string/enter_ur_ref"
+            app:attribute_title_text="@string/my_ref_rebuild"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/surnameNormalInputView" />
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/accessPinNormalInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:maxLength="6"
+            app:attribute_description_text="@string/cash_send_cash_at_absa_atm"
+            app:attribute_editable="true"
+            app:attribute_hint_text="@string/et_atm_pin_hint"
+            app:attribute_title_text="@string/atm_pin_tv"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/myReferenceInputView" />
+
+        <styleguide.forms.CheckBoxView
+            android:id="@+id/termsAndConditionsCheckBoxView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            app:attribute_description="@string/client_agreement_accepted"
+            app:attribute_is_required="true"
+            app:layout_constraintBottom_toTopOf="@+id/nextButton"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/accessPinNormalInputView"
+            app:layout_constraintVertical_bias="1"
+            tools:visibility="visible" />
+
+        <styleguide.buttons.Button
+            android:id="@+id/nextButton"
+            style="@style/PrimaryButton"
+            android:text="@string/next"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

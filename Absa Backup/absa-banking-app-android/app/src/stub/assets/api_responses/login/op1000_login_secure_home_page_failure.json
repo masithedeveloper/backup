@@ -1,0 +1,10 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES1000",
+      "resCde": "",
+      "resMsg": "Authentication failed",
+      "serVer": "2.0"
+    }
+  }
+}

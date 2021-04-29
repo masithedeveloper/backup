@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ScrollView
+        style="@style/ScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <styleguide.content.BeneficiaryView
+                android:id="@+id/beneficiaryView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_is_header="true"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <styleguide.content.SecondaryContentAndLabelView
+                android:id="@+id/beneficiaryGenderSecondaryContentAndLabelView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_secondary_label="@string/beneficiary_gender"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/beneficiaryView" />
+
+            <styleguide.content.SecondaryContentAndLabelView
+                android:id="@+id/beneficiaryAddressSecondaryContentAndLabelView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_secondary_label="@string/beneficiary_address"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/beneficiaryGenderSecondaryContentAndLabelView" />
+
+            <styleguide.content.SecondaryContentAndLabelView
+                android:id="@+id/beneficiaryCitySecondaryContentAndLabelView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_secondary_label="@string/international_payments_beneficiary_city"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/beneficiaryAddressSecondaryContentAndLabelView" />
+
+            <styleguide.content.SecondaryContentAndLabelView
+                android:id="@+id/beneficiaryStateSecondaryContentAndLabelView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                app:attribute_secondary_label="@string/international_payments_beneficiary_state"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/beneficiaryCitySecondaryContentAndLabelView" />
+
+            <styleguide.content.SecondaryContentAndLabelView
+                android:id="@+id/beneficiaryCountrySecondaryContentAndLabelView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_secondary_label="@string/beneficiary_country"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/beneficiaryStateSecondaryContentAndLabelView" />
+
+            <View
+                android:id="@+id/divider"
+                style="@style/DividerView"
+                android:layout_width="0dp"
+                android:layout_marginTop="@dimen/normal_space"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/beneficiaryCountrySecondaryContentAndLabelView" />
+
+            <TextView
+                android:id="@+id/beneficiaryResidentialStatusLabel"
+                style="@style/SmallTextMediumDark"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/medium_space"
+                android:layout_marginTop="@dimen/medium_space"
+                android:layout_marginEnd="@dimen/medium_space"
+                android:text="@string/beneficiary_residential_status"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/divider" />
+
+            <styleguide.forms.RadioButtonView
+                android:id="@+id/residentialStatusRadioButtonView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_is_required="true"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/beneficiaryResidentialStatusLabel" />
+
+            <TextView
+                android:id="@+id/disclaimerTextView"
+                style="@style/SmallTextRegularDark"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/medium_space"
+                android:layout_marginEnd="@dimen/medium_space"
+                android:text="@string/beneficiary_details_disclaimer_text"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/residentialStatusRadioButtonView" />
+
+            <styleguide.buttons.Button
+                android:id="@+id/continueButton"
+                style="@style/PrimaryButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/next"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/disclaimerTextView"
+                app:layout_constraintVertical_bias="1" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</layout>

@@ -1,0 +1,13 @@
+{
+  "header": {
+    "statuscode": "0",
+    "service": "DeviceManagementFacade",
+    "operation": "RegisterDevice",
+    "timestamp": "2020-02-10 06:14:32.906",
+    "resultMessages": [
+    ]
+  },
+  "hmacSecret": "t556-WTWbDPQ7ZJCjwDH64xQ3QfBwhEkYZheu9gZJ15pNrAAJwPmdrLsrkWsFUODXPTZJgo8kYLnKbIiSePJ55Esd7Dp2TdV69X9O2-WIhk",
+  "publicKey": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAiCWR8QqcGvaLIEGXl6qBGqihRcgBoeFfTp1cWFx5m7D3m9iKx8f7jM96MAH5qReZda3KVaqd5RAI3iAAmauv2_PxCnJQyt9_PnUoAHMWYGNWO7hldL_mQS5QgtUtw6IWm_bsLtpz3TtAmDQDHlyss2wLJqd_6AMsmCxC-x8MBOsaFMhI9QP78sUsA81tLhZ6wrg4a8epdWSsXS0ZyEsedKrEi9bpi_bbC7_3UNlQWc9drgGjrfola3X5IadTTEwB2bP_QADzse9hL4M-T04rKQefyENhKdhVhdwZrIyRu2LTHWopCnF9Mos-8FCQQ70oJhg9LHXjGrY8xs6jCe_kPQIDAQAB",
+  "publicKeyId": "mobileapp"
+}

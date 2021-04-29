@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true">
+
+    <TextView
+        android:id="@+id/selectSavedBeneficiaryTextView"
+        style="@style/NormalTextRegularDark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/medium_space"
+        android:layout_marginTop="@dimen/small_space"
+        android:text="@string/select_saved_beneficiaries"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/selectedBeneficiaryRecyclerView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/medium_space"
+        android:layout_marginTop="@dimen/small_space"
+        android:layout_marginEnd="@dimen/small_space"
+        android:layout_marginBottom="@dimen/small_space"
+        android:scrollbarSize="@dimen/extra_tiny_space"
+        android:scrollbarThumbHorizontal="@color/cardview_dark_background"
+        android:scrollbars="horizontal"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/selectSavedBeneficiaryTextView"
+        tools:ignore="RtlSymmetry"
+        tools:listitem="@layout/multiple_beneficiary_selected_item"
+        tools:visibility="gone" />
+
+    <View
+        android:id="@+id/selectedBeneficiaryAvailableBeneficiaryRecyclerViewDivider"
+        style="@style/DividerView"
+        android:layout_width="0dp"
+        android:layout_marginTop="@dimen/small_space"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/selectedBeneficiaryRecyclerView" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/availableBeneficiaryRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/small_space"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        app:layout_constraintBottom_toTopOf="@+id/beneficiaryNotFoundTextView"
+        app:layout_constraintTop_toBottomOf="@+id/selectedBeneficiaryAvailableBeneficiaryRecyclerViewDivider"
+        tools:listitem="@layout/multiple_beneficiary_selection_item" />
+
+    <TextView
+        android:id="@+id/beneficiaryNotFoundTextView"
+        style="@style/LargeTextMediumDark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/medium_space"
+        android:layout_marginTop="@dimen/small_space"
+        android:layout_marginEnd="@dimen/medium_space"
+        android:layout_marginBottom="@dimen/medium_space"
+        android:text="@string/no_search_results_found"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/continueButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/availableBeneficiaryRecyclerView" />
+
+    <styleguide.buttons.Button
+        android:id="@+id/continueButton"
+        style="@style/PrimaryButton"
+        android:layout_marginBottom="@dimen/medium_space"
+        android:enabled="false"
+        android:text="@string/next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

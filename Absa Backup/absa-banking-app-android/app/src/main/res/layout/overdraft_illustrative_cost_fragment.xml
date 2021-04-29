@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ScrollView
+        style="@style/ScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <styleguide.content.HeadingView
+                android:id="@+id/quoteFacilityTitle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_heading="@string/overdraft_illustrative_cost_description"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <styleguide.content.PrimaryContentAndLabelView
+                android:id="@+id/creditLimit"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_primary_label="@string/overdraft_credit_limit"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/quoteFacilityTitle" />
+
+            <styleguide.content.SecondaryContentAndLabelView
+                android:id="@+id/totalPayment"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_secondary_label="@string/overdraft_aggregated_total_payment"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/creditLimit" />
+
+            <styleguide.content.SecondaryContentAndLabelView
+                android:id="@+id/overdraftCost"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_secondary_label="@string/overdraft_total_over_months"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/totalPayment" />
+
+            <View
+                android:id="@+id/divider1"
+                style="@style/DividerView"
+                android:layout_width="0dp"
+                android:layout_marginTop="@dimen/medium_space"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/overdraftCost" />
+
+            <styleguide.content.TertiaryContentAndLabelView
+                android:id="@+id/costBreakDown"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/small_space"
+                app:attribute_tertiary_content="@string/overdraft_cost_breakdown"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/divider1" />
+
+            <styleguide.content.SecondaryContentAndLabelView
+                android:id="@+id/overdraftAmount"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/medium_space"
+                app:attribute_secondary_label="@string/overdraft"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/costBreakDown" />
+
+            <styleguide.content.SecondaryContentAndLabelView
+                android:id="@+id/aggregatedInterest"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_secondary_label="@string/overdraft_aggregated_interest"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/overdraftAmount" />
+
+            <styleguide.content.SecondaryContentAndLabelView
+                android:id="@+id/initiationFee"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_secondary_label="@string/overdraft_initiation_fee"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/aggregatedInterest" />
+
+            <styleguide.content.SecondaryContentAndLabelView
+                android:id="@+id/monthlyFee"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_secondary_label="@string/overdraft_aggregated_monthly_fee"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/initiationFee" />
+
+            <styleguide.content.SecondaryContentAndLabelView
+                android:id="@+id/creditProtection"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_secondary_label="@string/overdraft_aggregated_credit_protection"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/monthlyFee" />
+
+            <View
+                android:id="@+id/divider2"
+                style="@style/DividerView"
+                android:layout_width="0dp"
+                android:layout_marginTop="@dimen/medium_space"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/creditProtection" />
+
+            <styleguide.content.SecondaryContentAndLabelView
+                android:id="@+id/creditCostMultiple"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_secondary_label="@string/overdraft_credit_cost_multiple"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/divider2" />
+
+            <TextView
+                android:id="@+id/costByCreditLimitNote"
+                style="@style/SmallTextRegularDark"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/medium_space"
+                android:text="@string/overdraft_cost_credit_limit"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/creditCostMultiple" />
+
+            <styleguide.buttons.Button
+                android:id="@+id/nextButton"
+                style="@style/PrimaryButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/extra_large_space"
+                android:text="@string/next"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/costByCreditLimitNote"
+                app:layout_constraintVertical_bias="1" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</layout>

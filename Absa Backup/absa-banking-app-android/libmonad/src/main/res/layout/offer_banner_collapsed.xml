@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mainContainerConstraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/topLinearLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:alpha="0"
+        android:background="@android:color/black"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="@+id/roundedOfferImageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <styleguide.widgets.RoundedImageView
+        android:id="@+id/roundedOfferImageView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="@dimen/small_space"
+        android:layout_marginEnd="@dimen/small_space"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:tint="@null"
+        app:attribute_mask_drawable="@drawable/offer_rounded_corners"
+        app:layout_constraintBottom_toTopOf="@+id/buttonContainerLinearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/needMoreTextView" />
+
+    <ImageView
+        android:id="@+id/headerImageView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="@dimen/small_space"
+        android:layout_marginEnd="@dimen/small_space"
+        android:adjustViewBounds="true"
+        android:background="@android:color/transparent"
+        android:clickable="true"
+        android:focusable="true"
+        android:scaleType="centerCrop"
+        app:tint="@null"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/needMoreTextView" />
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        style="@style/ScrollView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="?android:windowBackground"
+        android:paddingBottom="@dimen/medium_space"
+        app:layout_constraintBottom_toTopOf="@+id/applyButtonLinearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/headerImageView">
+
+        <FrameLayout
+            android:id="@+id/offerContentFrameLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="1dp" />
+
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/needMoreTextView"
+        style="@style/LargeTextRegularLight"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/medium_space"
+        android:layout_marginEnd="@dimen/normal_space"
+        app:autoSizeTextType="uniform"
+        android:maxLines="1"
+        android:background="@android:color/transparent"
+        android:paddingTop="@dimen/normal_space"
+        android:paddingBottom="@dimen/normal_space"
+        app:layout_constraintBottom_toTopOf="@+id/buttonContainerLinearLayout"
+        app:layout_constraintEnd_toStartOf="@+id/arrowImageView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1" />
+
+    <ImageView
+        android:id="@+id/closeFullOfferImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/small_space"
+        android:padding="@dimen/tiny_space"
+        android:scaleType="center"
+        app:layout_constraintBottom_toBottomOf="@+id/needMoreTextView"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/needMoreTextView"
+        app:srcCompat="@drawable/ic_arrow_right_light" />
+
+    <ImageView
+        android:id="@+id/arrowImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/small_space"
+        android:contentDescription="@string/content_description_show_offer"
+        android:padding="@dimen/normal_space"
+        android:rotation="90"
+        android:src="@drawable/ic_arrow_left_grey"
+        app:tint="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/needMoreTextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/needMoreTextView" />
+
+    <TextView
+        android:id="@+id/qualifyTextView"
+        style="@style/TitleTextBoldLight"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@android:color/transparent"
+        android:paddingStart="@dimen/medium_space"
+        android:paddingEnd="@dimen/medium_space"
+        android:paddingBottom="@dimen/small_space"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/needMoreTextView" />
+
+    <LinearLayout
+        android:id="@+id/applyButtonLinearLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/medium_space"
+        android:layout_marginBottom="@dimen/medium_space"
+        android:background="?android:windowBackground"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonContainerLinearLayout">
+
+        <styleguide.buttons.Button
+            android:id="@+id/applyButton"
+            style="@style/PrimaryButton" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/buttonContainerLinearLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="?android:windowBackground"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="parent"
+        app:layout_constraintVertical_bias="1">
+
+        <styleguide.buttons.Button
+            android:id="@+id/hideButton"
+            style="@style/SecondaryButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/medium_space"
+            android:layout_marginBottom="0dp" />
+
+        <styleguide.buttons.Button
+            android:id="@+id/findOutMoreButton"
+            style="@style/PrimaryButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/medium_space" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        style="@style/ScrollView">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <styleguide.content.TitleAndDescriptionView
+                android:id="@+id/selectedFundTitleAndDescriptionView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_description="@string/buy_unit_trust_summary_selected_fund"
+                app:attribute_description_size="@dimen/small_text_size"
+                app:attribute_title_size="@dimen/heading_text_size"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:attribute_secondary_content="Absa Prime Equity Fund" />
+
+            <styleguide.content.SecondaryContentAndLabelView
+                android:id="@+id/debitOrderAccountContentAndLabelView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_secondary_label="@string/buy_unit_trust_summary_debit_account"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/selectedFundTitleAndDescriptionView"
+                tools:attribute_secondary_content="Current account - 404789767" />
+
+            <styleguide.content.SecondaryContentAndLabelView
+                android:id="@+id/debitOrderAmountContentAndLabelView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_secondary_label="@string/amount"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/debitOrderAccountContentAndLabelView"
+                tools:attribute_secondary_content="R 200.00" />
+
+            <styleguide.content.SecondaryContentAndLabelView
+                android:id="@+id/accountHolderContentAndLabelView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_secondary_label="@string/view_unit_trust_account_holder_name"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/debitOrderAmountContentAndLabelView"
+                tools:attribute_secondary_content="Mrs. M. Reed" />
+
+            <styleguide.content.SecondaryContentAndLabelView
+                android:id="@+id/accountNumberContentAndLabelView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_secondary_label="@string/view_unit_trust_account_number"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/accountHolderContentAndLabelView"
+                tools:attribute_secondary_content="3816477181" />
+
+            <View
+                android:id="@+id/dividerView"
+                style="@style/DividerView"
+                android:layout_width="0dp"
+                android:layout_marginStart="@dimen/medium_space"
+                android:layout_marginTop="@dimen/small_space"
+                android:layout_marginEnd="@dimen/medium_space"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/accountNumberContentAndLabelView" />
+
+            <TextView
+                android:id="@+id/pleaseNoteTextView"
+                style="@style/SmallTextMediumDark"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/medium_space"
+                android:layout_marginTop="@dimen/medium_space"
+                android:layout_marginEnd="@dimen/medium_space"
+                android:text="@string/please_note"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/dividerView" />
+
+            <TextView
+                android:id="@+id/pleaseNoteBodyTextView"
+                style="@style/SmallTextRegularDark"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/medium_space"
+                android:layout_marginTop="@dimen/medium_space"
+                android:layout_marginEnd="@dimen/medium_space"
+                android:text="@string/unit_trust_please_note_body"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/pleaseNoteTextView" />
+
+            <styleguide.buttons.Button
+                android:id="@+id/continueButton"
+                style="@style/PrimaryButton"
+                android:layout_width="0dp"
+                android:text="@string/continue_button"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/pleaseNoteBodyTextView"
+                app:layout_constraintVertical_bias="1" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</layout>

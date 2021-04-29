@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_silver">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/medium_space"
+        android:paddingTop="@dimen/medium_space"
+        tools:ignore="HardcodedText">
+
+        <styleguide.cards.AccountView
+            android:id="@+id/account_card_example"
+            android:layout_width="0dp"
+            android:layout_height="180dp"
+            android:layout_marginEnd="@dimen/medium_space"
+            android:layout_marginStart="@dimen/medium_space"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <styleguide.cards.LargeCardView
+            android:id="@+id/large_card_example1"
+            android:layout_width="0dp"
+            android:layout_height="180dp"
+            android:layout_marginEnd="@dimen/medium_space"
+            android:layout_marginStart="@dimen/medium_space"
+            android:layout_marginTop="@dimen/small_space"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/account_card_example" />
+
+        <styleguide.cards.LargeCardView
+            android:id="@+id/large_card_example2"
+            android:layout_width="0dp"
+            android:layout_height="180dp"
+            android:layout_marginEnd="@dimen/medium_space"
+            android:layout_marginStart="@dimen/medium_space"
+            android:layout_marginTop="@dimen/small_space"
+            app:attribute_is_dark="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/large_card_example1" />
+
+        <styleguide.cards.AlertView
+            android:id="@+id/alert_view_example1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/medium_space"
+            android:layout_marginStart="@dimen/medium_space"
+            android:layout_marginTop="@dimen/small_space"
+            app:attribute_image="@color/light_grey"
+            app:attribute_is_dark="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/large_card_example2" />
+
+        <styleguide.cards.AlertView
+            android:id="@+id/alert_view_example2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/medium_space"
+            android:layout_marginStart="@dimen/medium_space"
+            android:layout_marginTop="@dimen/small_space"
+            app:attribute_image="@color/energy"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/alert_view_example1" />
+
+        <styleguide.cards.TransactionView
+            android:id="@+id/transaction_card"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/medium_space"
+            android:layout_marginEnd="@dimen/medium_space"
+            android:layout_marginStart="@dimen/medium_space"
+            android:layout_marginTop="@dimen/small_space"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/alert_view_example2" />
+
+        <styleguide.cards.OfferView
+            android:id="@+id/offer_view_example1"
+            android:layout_width="0dp"
+            android:layout_height="380dp"
+            android:layout_marginEnd="@dimen/medium_space"
+            android:layout_marginStart="@dimen/medium_space"
+            android:layout_marginTop="@dimen/medium_space"
+            app:attribute_button_text="Apply"
+            app:attribute_image="@color/graphite"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/transaction_card" />
+
+        <styleguide.cards.OfferView
+            android:id="@+id/offer_view_example2"
+            android:layout_width="0dp"
+            android:layout_height="380dp"
+            android:layout_marginBottom="@dimen/medium_space"
+            android:layout_marginEnd="@dimen/medium_space"
+            android:layout_marginStart="@dimen/medium_space"
+            android:layout_marginTop="@dimen/small_space"
+            app:attribute_button_text="Submit"
+            app:attribute_image="@color/light_grey"
+            app:attribute_is_dark="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/offer_view_example1" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

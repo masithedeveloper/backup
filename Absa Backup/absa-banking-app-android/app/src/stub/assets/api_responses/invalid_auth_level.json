@@ -1,0 +1,15 @@
+{
+  "successResponseModel":{
+    "payData:":{
+      "clntAgrmntAccepted":null,
+      "clientType":null
+    },
+    "payHdr":{
+      "resCde":"InvalidAuthLevel",
+      "serVer":"2.0",
+      "expTrace":null,
+      "resMsg":"Invalid auth level[2]",
+      "resId":"RES0810"
+    }
+  }
+}

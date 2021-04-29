@@ -1,0 +1,70 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <styleguide.content.HeadingAndActionView
+        android:id="@+id/contactDetailsHeadingAndActionView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/small_space"
+        app:attribute_primary_action_color="@color/pink"
+        app:attribute_primary_action_text="@string/manage_profile_overview_edit_action"
+        app:attribute_primary_label_text="@string/manage_profile_contact_details_toolbar_title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:attribute_primary_content="Wow" />
+
+    <styleguide.content.PrimaryContentAndLabelView
+        android:id="@+id/cellphoneNumberContentView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:attribute_primary_label="@string/manage_profile_contact_details_overview_cellphone_label"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/contactDetailsHeadingAndActionView"
+        tools:attribute_primary_content="081 756 7205" />
+
+    <styleguide.content.PrimaryContentAndLabelView
+        android:id="@+id/homePhoneNumberContentView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:attribute_primary_label="@string/manage_profile_contact_details_overview_home_phone_label"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cellphoneNumberContentView"
+        tools:attribute_primary_content="011 123 1234" />
+
+    <styleguide.content.PrimaryContentAndLabelView
+        android:id="@+id/homeFaxNumberContentView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:attribute_primary_label="@string/manage_profile_contact_details_overview_home_fax_label"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/homePhoneNumberContentView"
+        tools:attribute_primary_content="Lol" />
+
+    <styleguide.content.PrimaryContentAndLabelView
+        android:id="@+id/emailAddressContentView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:attribute_primary_label="@string/manage_profile_contact_details_overview_email_address_label"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/homeFaxNumberContentView"
+        tools:attribute_primary_content="this@that.com" />
+
+    <styleguide.content.PrimaryContentAndLabelView
+        android:id="@+id/preferredCommunicationMethodContentView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:attribute_primary_label="@string/manage_profile_contact_details_overview_preferred_communication_method_label"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/emailAddressContentView"
+        tools:attribute_primary_content="English" />
+</androidx.constraintlayout.widget.ConstraintLayout>

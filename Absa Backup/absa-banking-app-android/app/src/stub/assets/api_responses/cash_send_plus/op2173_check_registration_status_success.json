@@ -1,0 +1,31 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES2173",
+      "resCde": "00000",
+      "resMsg": "Success",
+      "serVer": "2.0",
+      "expTrace": null
+    },
+    "payData": {
+      "clntAgrmntAccepted": "Y",
+      "cspViewFees": "https://ib.absa.co.za/absa-online/assets/Assets/Richmedia/PDF/Online/Pricing_Brochure/2020_Internet_Banking_Fees_Eng.pdf",
+      "cspTermsOfUse": "https://ib.absa.co.za/absa-online/assets/Assets/Richmedia/Absaonline/PDF/CashSendPlus/Product_Information_Customers_CashsendPlus_EN.pdf",
+      "cspBca": "https://ib.absa.co.za/absa-online/reportUnAuth/clientAgreement/docfusion.pdf?clientAgreementIn=B&language=en&forceDownload=false",
+      "checkForCashSendPlusRegistrationRespDTO": {
+        "transactionResult": "false",
+        "returnCode": "0",
+        "returnDescription": "H0804 APPROVED CASHPLUS LIMIT FOUND",
+        "cashSendPlusStatus": "NOT_FOUND",
+        "cashSendPlusLimitAmt": "5000",
+        "cashSendPlusLimitAmtPrev": null,
+        "cashSendPlusLimitAmtUsed": "0",
+        "cashSendPlusLimitAmtAvail": "5000",
+        "isRegistrered": "true",
+        "cashSendPlusOutstanding": "0"
+      },
+      "txnStatus": "Success",
+      "txnMessage": "Success"
+    }
+  }
+}

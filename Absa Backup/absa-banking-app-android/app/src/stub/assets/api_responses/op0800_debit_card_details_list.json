@@ -1,0 +1,17 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0800",
+      "resCde": "00000",
+      "resMsg": "SUCCESS",
+      "serVer": "2.0"
+    },
+    "payData": {
+      "debitCardDetailsList": [
+        {
+          "debitCardNumber": "4483870000011019"
+        }
+      ]
+    }
+  }
+}

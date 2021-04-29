@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="free_cover_title">Free cover</string>
+    <string name="free_cover_description">Get accidental death cover for a year, free of charge</string>
+    <string name="free_cover_accidental_cover_description">Accidental death cover for you</string>
+    <string name="free_cover_for_12_months_description">Free cover for 12 months</string>
+    <string name="free_cover_add_a_beneficiary_description">You only need to add a beneficiary</string>
+    <string name="free_cover_find_out_more">Find out more</string>
+    <string name="free_cover_apply_now">Apply now</string>
+    <string name="free_cover_cover_title">Cover</string>
+    <string name="free_cover_cover_amount">Cover amount</string>
+    <string name="free_cover_monthly_premium">Monthly premium</string>
+    <string name="free_cover_start_date">Start date</string>
+    <string name="free_cover_details">Details</string>
+    <string name="free_cover_main_member">Main member</string>
+    <string name="free_cover_normalInputView_allowed_characters" translatable="false">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ \'-</string>
+    <string name="free_cover_policy_should_be_paid_out_to">This policy should be paid out to</string>
+    <string name="free_cover_address">Address</string>
+    <string name="free_cover_contact_number">Contact number</string>
+    <string name="free_cover_call_centre_number" translatable="false">0860 227 253</string>
+    <string name="free_cover_email">Email</string>
+    <string name="free_cover_beneficiary_contact_details">Beneficiary Contact Details</string>
+    <string name="free_cover_confirmation">Confirmation</string>
+    <string name="free_cover_contact_call_centre">Please contact our Absa Life call centre \non 0860 227 253 for assistance</string>
+    <string name="free_cover_terms_and_conditions">Terms &amp; Conditions</string>
+    <string name="free_cover_i_agree_to_terms">I agree to the Terms &amp; Conditions</string>
+    <string name="free_cover_application_approved">Policy number: %s \n\nYour cover will start: %s</string>
+    <string name="free_cover_something_went_wrong_description">We are working on it so please try again a little later.</string>
+    <string name="free_cover_something_went_wrong_error">Something went wrong</string>
+    <string name="free_cover_employment_status">Employment Status</string>
+    <string name="free_cover_occupation">Occupation</string>
+    <string name="free_cover_beneficiary_title">Title</string>
+    <string name="free_cover_estate_late">Estate Late %s</string>
+    <string name="free_cover_cover_amount_and_monthly_premium">%s at %s p/m</string>
+    <string name="free_cover_relationship_list_title">Relationship Category</string>
+    <string name="free_cover_spouse">Spouse</string>
+    <string name="free_cover_children">Children</string>
+    <string name="free_cover_parents">Parents/Inlaws</string>
+    <string name="free_cover_extended_family">Extended Family</string>
+    <string name="free_cover_date_of_birth_description">Only ages 18 - 70 allowed</string>
+
+    <string name="free_cover_whats_new_title">Free, yes free</string>
+    <string name="free_cover_whats_new_content">Get R 100 000 accidental death cover for a year, free of charge</string>
+
+    <string name="free_cover_please_enter_suburb_first">Please enter a Suburb first</string>
+    <string name="free_cover_invalid_city_and_postal_code_error">Please select a different City &amp; postal code</string>
+</resources>

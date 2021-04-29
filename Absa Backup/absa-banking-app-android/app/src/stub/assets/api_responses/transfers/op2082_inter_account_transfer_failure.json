@@ -1,0 +1,16 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES2082",
+      "resCde": "00000",
+      "resMsg": "Success",
+      "serVer": "2.0",
+      "expTrace": null
+    },
+    "payData": {
+      "transactionDate": null,
+      "txnStatus": "Failure",
+      "txnMessage": " 607-INVALID TIME RANGE"
+    }
+  }
+}

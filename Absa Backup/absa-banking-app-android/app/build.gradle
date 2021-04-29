@@ -1,0 +1,1254 @@
+/*
+ *  Copyright (c) 2019 Absa Bank Limited, All Rights Reserved.
+ *
+ *  This code is confidential to Absa Bank Limited and shall not be disclosed
+ *  outside the Bank without the prior written permission of the Absa Legal
+ *
+ *  In the event that such disclosure is permitted the code shall not be copied
+ *  or distributed other than on a need-to-know basis and any recipients may be
+ *  required to sign a confidentiality undertaking in favor of Absa Bank
+ *  Limited
+ *
+ */
+repositories {
+    mavenCentral()
+    flatDir {
+        dirs 'libs', '../lib2fa/libs'
+    }
+
+    maven {
+        url 'https://1identity.pkgs.visualstudio.com/customers/_packaging/1Identity.ABSA/maven/v1'
+        credentials {
+            username "VSTS"
+            password "${vstsGradleAccessToken}"
+        }
+    }
+
+    maven {
+        url 'https://1identity.pkgs.visualstudio.com/_packaging/android-depencencies/maven/v1'
+        credentials {
+            username "VSTS"
+            password "${vstsGradleAccessToken}"
+        }
+    }
+}
+
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-kapt'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'androidx.navigation.safeargs'
+
+def task = getGradle().getStartParameter().getTaskRequests().toString()
+if (task.contains("Release") || task.contains("Prod")) {
+    apply plugin: 'newrelic'
+}
+
+def buildVersion = "6.22.1"
+def taskNames = project.gradle.startParameter.taskNames
+def buildNumber = 434
+
+if (project.hasProperty('BUILD_NUMBER')) {
+    buildNumber = BUILD_NUMBER as Integer
+}
+
+def buildName = taskNames[0]
+def isProdBuild = buildName != null && buildName.toLowerCase().contains("prod")
+
+def newRelicAppToken = '"AA8039dd24f608b930804cb6bbbe76e39bf9354ece"'
+
+if (buildName != null && buildName.toLowerCase().contains("prodbeta")) {
+    newRelicAppToken = '"AA2d8e14f36e352e7af80732fda030610b18878099"'
+} else if (buildName != null && buildName.toLowerCase().contains("prod")) {
+    newRelicAppToken = '"AA508b0307a2ec6a2a6bb0ac4a5811169dae126c59"'
+}
+
+def stringsFile = new File("${project.projectDir.absolutePath}/newrelic.properties")
+stringsFile.write("com.newrelic.application_token=$newRelicAppToken")
+
+print "Build name is: " + buildName + "\n"
+print "Build number is: " + buildNumber + "\n"
+
+def rootCertPublicKeyHash = '"7745decf0e511143b67e129decf25a9d3c703d09db4daa070fc57838c7c60398"'
+def alternativeRootCertPublicKeyHash = '"aa37fd0f969f69314b68a1b0cc068835f24c153ccfd71b3507fa6d43c6c2de5f"'
+
+def buildSuffix = isProdBuild ? 'prod' : 'uat'
+String trusteerClientKey = new File("${project.projectDir.absolutePath}/trusteer_client_key_${buildSuffix}.txt").text
+trusteerClientKey = '"' + trusteerClientKey + '"'
+println "Trusteer client key is $trusteerClientKey"
+
+String configManifest = "manifest_${buildSuffix}.rpkg"
+File destinationFile = new File("${project.projectDir.absolutePath}/src/main/assets/manifest.rpkg")
+println destinationFile
+File configManifestFile = new File("${project.projectDir.absolutePath}/src/main/assets/${configManifest}")
+println configManifestFile
+println "Printing contents for ${configManifest} file:\n ${configManifestFile.text}"
+println "Copying file contents to manifest.rpkg..."
+destinationFile.bytes = configManifestFile.bytes
+println "Copy completed for ${buildSuffix} configuration. Happy profiling :)"
+
+android {
+    compileSdkVersion 30
+
+    buildFeatures {
+        viewBinding true
+        dataBinding = true
+    }
+
+    defaultConfig {
+        applicationId "com.barclays.absa.banking"
+        minSdkVersion 21
+        targetSdkVersion 30
+        versionCode buildNumber
+        versionName buildVersion
+
+        buildConfigField("String", "NEW_RELIC_TOKEN", newRelicAppToken)
+        buildConfigField("boolean", "STUB", "false")
+        buildConfigField("boolean", "DEV", "false")
+        buildConfigField("boolean", "SIT", "false")
+        buildConfigField("boolean", "UAT", "false")
+        buildConfigField("boolean", "PRD", "false")
+        buildConfigField("boolean", "PRD_BETA", "false")
+        buildConfigField("boolean", "UAT_PEN_TESTING", "false")
+        buildConfigField("boolean", "IS_HUAWEI_BUILD", "false")
+
+        if (project.hasProperty("enableCertificatePinning")) {
+            buildConfigField("boolean", "ENABLE_CERT_PINNING", project.property("enableCertificatePinning"))
+        } else {
+            buildConfigField("boolean", "ENABLE_CERT_PINNING", "false")
+        }
+
+        buildConfigField("String", "rootCertificatePublicKeyHash", rootCertPublicKeyHash)
+        buildConfigField("String", "alternativeRootCertificatePublicKeyHash", alternativeRootCertPublicKeyHash)
+
+        buildConfigField("String", "pinRetrievalHostName", '"uatsurepin.absa.co.za"')
+        buildConfigField("String", "pinRetrievalCertificatePublicKeyHash", rootCertPublicKeyHash)
+        buildConfigField("String", "pinRetrievalServerPath", '"https://uatsurepin.absa.co.za/bmgsit/dataserv"')
+
+        buildConfigField("String", "pinEncryptHostName", '""')
+        buildConfigField("String", "absaHostName", '"www.absa.africa"')
+
+        buildConfigField("String", "helpUrlPath", '"https://app.help.absa.co.za/"')
+
+        buildConfigField("String", "ocrServiceUrl", '"https://beneficiaryocrwebservice20181109100729.azurewebsites.net/api/ExtractBeneficiary"')
+        //buildConfigField("String", "ocrServiceUrl", '"https://eu.absa.co.za/CognitiveServices/api/ExtractBeneficiary"')
+        buildConfigField("String", "ocrServiceCodeHeader", '"72F050D5-392C-41D7-891E-245723EBFCE5"')
+        buildConfigField("String", "vendorId", '"absa.com"')
+        buildConfigField("String", "clientId", '"absa.bankingapp"')
+        buildConfigField("String", "clientKey", trusteerClientKey)
+        buildConfigField("String", "appIdentifierKey", '"242C2217-1D43-4046-A982-B8E03BD8F61F"')
+
+        buildConfigField("boolean", "TOGGLE_DEF_CREDIT_CARD_PIN_RETRIEVAL_ENABLED", "false")
+        buildConfigField("boolean", "TOGGLE_DEF_PIN_RETRIEVAL_ENABLED", "false")
+        buildConfigField("boolean", "TOGGLE_PRE_LOGIN_CONTACT_US_ENABLED", "true")
+        buildConfigField("boolean", "TOGGLE_MANAGE_POLICY_PAYMENT_DETAILS_ENABLED", "true")
+        buildConfigField("boolean", "TOGGLE_FUNERAL_COVER_ADD_FAMILY_MEMBER_ENABLED", "true")
+        buildConfigField("boolean", "TOGGLE_DEF_UNIT_TRUST", "true")
+        buildConfigField("boolean", "TOGGLE_DEF_REDEEM_VOUCHERS_ENABLED", "false")
+        buildConfigField("boolean", "TOGGLE_DEF_BUY_UNIT_TRUST_ENABLED", "true")
+        buildConfigField("boolean", "TOGGLE_DEF_MANAGE_ACCOUNTS_ENABLED", "true")
+        buildConfigField("boolean", "TOGGLE_DEF_FIXED_DEPOSIT_ENABLED", "true")
+        buildConfigField("boolean", "TOGGLE_DEF_ULTIMATE_PROTECTOR", "true")
+        buildConfigField("boolean", "TOGGLE_DEF_IMI_CONNECT", "true")
+        buildConfigField("boolean", "TOGGLE_DEF_INTER_ACCOUNT_FUTURE_DATED_PAYMENTS_ENABLED", "true")
+        buildConfigField("boolean", "TOGGLE_DEF_DEVICE_PROFILING_ENABLED", "true")
+        buildConfigField("boolean", "TOGGLE_DEF_BUY_MORE_UNITS_ENABLED", "true")
+        buildConfigField("boolean", "TOGGLE_DEF_PAYMENTS_REWRITE_ENABLED", "true")
+        buildConfigField("boolean", "TOGGLE_DEF_BRANCH_LOCATOR_ENABLED", "true")
+        buildConfigField("boolean", "TOGGLE_DEF_LAW_FOR_YOU_ENABLED", "true")
+        buildConfigField("boolean", "TOGGLE_DEF_CIA_ACCOUNT_DETAILS", "false")
+        buildConfigField("boolean", "TOGGLE_DEF_PERSONAL_LOANS_ENABLED", "true")
+        buildConfigField("boolean", "TOGGLE_DEF_DEVICE_PROFILING_SCAN_QR_ENABLED", "true")
+        buildConfigField("boolean", "TOGGLE_DEF_LOTTO_ENABLED", "true")
+        buildConfigField("boolean", "TOGGLE_DEF_BUY_NEW_FUND", "true")
+        buildConfigField("boolean", "TOGGLE_DEF_PERSONAL_LOANS_HUB_ENABLED", "true")
+        buildConfigField("boolean", "TOGGLE_DEF_WIMI_WILL_ENABLED", "false")
+        buildConfigField("boolean", "TOGGLE_DEF_FLEXI_FUNERAL_ENABLED", "true")
+        buildConfigField("boolean", "TOGGLE_DEF_TAX_CERTIFICATE_ENABLED", "true")
+        buildConfigField("boolean", "TOGGLE_DEF_VCL_BUSINESS_OVERDRAFT_ENABLED", "true")
+        buildConfigField("boolean", "TOGGLE_DEF_BANK_CONFIRMATION_LETTER_ENABLED", "true")
+        buildConfigField("boolean", "TOGGLE_DEF_MANAGE_PROFILE_ENABLED", "true")
+        buildConfigField("boolean", "TOGGLE_DEF_SELFIE_PRIVACY_CONSENT_ENABLED", "true")
+        buildConfigField("boolean", "TOGGLE_DEF_SWIFT_ENABLED", "true")
+        buildConfigField("boolean", "TOGGLE_DEF_CASH_SEND_PLUS_ENABLED", "true")
+        buildConfigField("boolean", "TOGGLE_DEF_WIMI_MANAGE_EXERGY_ENABLED", "true")
+        buildConfigField("boolean", "TOGGLE_DEF_AVAF_HUB_ENABLED", "true")
+        buildConfigField("boolean", "TOGGLE_DEF_FREE_COVER_ENABLED", "true")
+        buildConfigField("boolean", "TOGGLE_DEF_EXPRESS_CASH_SEND_ENABLED", "false")
+        buildConfigField("boolean", "TOGGLE_DEF_BIOMETRIC_VERIFICATION_ENABLED", "false")
+        buildConfigField("boolean", "TOGGLE_DEF_CUSTOMISE_LOGIN", "true")
+        buildConfigField("boolean", "TOGGLE_DEF_SCAN_TO_PAY_ENABLED", "true")
+        buildConfigField("boolean", "TOGGLE_DEF_FUTURE_PLAN_ENABLED", "true")
+
+        // UAT - I
+        buildConfigField("String", "UAT_I_pinRetrievalCertificatePublicKeyHash", alternativeRootCertPublicKeyHash)
+        buildConfigField("String", "UAT_I_serverPath", '"https://eu.absa.co.za/bmgsit/dataserv"')
+        buildConfigField("String", "UAT_I_serverImagePath", '"https://eu.absa.co.za/bmgsit/image"')
+        buildConfigField("String", "UAT_I_pinEncryptServerPath", '"https://vsuat.absa.co.za/bmgsit/dataserv"')
+        buildConfigField("String", "UAT_I_pinRetrievalServerPath", '"https://uatsurepin.absa.co.za/bmgsit/dataserv"')
+        buildConfigField("String", "UAT_I_nCipherServerPath", '"https://vsuat.absa.co.za/bmgsit/dataserv"')
+
+        // UAT - R
+        buildConfigField("String", "UAT_R_pinRetrievalCertificatePublicKeyHash", alternativeRootCertPublicKeyHash)
+        buildConfigField("String", "UAT_R_serverPath", '"https://eu.absa.co.za/bmguat1/dataserv"')
+        buildConfigField("String", "UAT_R_serverImagePath", '"https://eu.absa.co.za/bmguat1/image"')
+        buildConfigField("String", "UAT_R_pinEncryptServerPath", '"https://vsuat.absa.co.za/bmguat1/dataserv"')
+        buildConfigField("String", "UAT_R_pinRetrievalServerPath", '"https://uatsurepin.absa.co.za/bmguat1/dataserv"')
+        buildConfigField("String", "UAT_R_nCipherServerPath", '"https://vsuat.absa.co.za/bmguat1/dataserv"')
+
+        // UAT - 2
+        buildConfigField("String", "UAT_2_pinRetrievalCertificatePublicKeyHash", alternativeRootCertPublicKeyHash)
+        buildConfigField("String", "UAT_2_serverPath", '"https://eu.absa.co.za/newbmguat2/dataserv"')
+        buildConfigField("String", "UAT_2_serverImagePath", '"https://eu.absa.co.za/newbmguat2/image"')
+        buildConfigField("String", "UAT_2_pinEncryptServerPath", '"https://vsuat.absa.co.za/newbmguat2/dataserv"')
+        buildConfigField("String", "UAT_2_pinRetrievalServerPath", '"https://uatsurepin.absa.co.za/newbmguat2/dataserv"')
+        buildConfigField("String", "UAT_2_nCipherServerPath", '"https://vsuat.absa.co.za/newbmguat2"')
+
+        applicationVariants.all { variant ->
+            def apkName
+            def appName = "AbsaMobileBanking"
+
+            def productFlavor = variant.productFlavors[0].name.toUpperCase()
+            def buildType = variant.buildType.name.toUpperCase()
+
+            if (variant.productFlavors[0].name == "uat_i_") {
+                resValue "string", "logon_absa_mobile", "UAT-I - " + buildVersion
+                productFlavor = "UAT_I"
+            } else if (variant.productFlavors[0].name == "uat_r_") {
+                resValue "string", "logon_absa_mobile", "UAT-R CORE - " + buildVersion
+                productFlavor = "UAT_R"
+            }
+
+            variant.outputs.all { output ->
+                apkName = "${appName}-${productFlavor}-${buildType}"
+                outputFileName = new File(apkName + ".apk")
+            }
+        }
+
+        signingConfigs {
+            debug {
+                storeFile file('keys/debug.keystore')
+                storePassword 'android'
+                keyAlias 'AndroidDebugKey'
+                keyPassword 'android'
+            }
+        }
+        if (project.hasProperty("signingConfig") && new File(project.property("signingConfig")).exists()) {
+            apply from: project.property("signingConfig")
+        }
+
+        dexOptions {
+            keepRuntimeAnnotatedClasses false
+            jumboMode true
+            preDexLibraries true
+            javaMaxHeapSize "4g"
+            additionalParameters += '--minimal-main-dex'
+            additionalParameters += '--set-max-idx-number=50000'
+        }
+        testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
+
+        resConfigs "en", "af"
+    }
+
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true //remove unused classes and methods
+            shrinkResources true //remove unused resources after minification
+
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'arxan/proguard-rules.pro'
+            //useProguard false //i.e. do not obfuscate - that's Arxan's job
+            //anything listed in either of the below keep files will be kept in the main classes.dex file
+
+            matchingFallbacks = ['release']
+        }
+        debug {
+            debuggable true
+
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'arxan/proguard-rules.pro'
+            //anything listed in either of the below keep files will be kept in the main classes.dex file
+            aaptOptions.cruncherEnabled = false
+            matchingFallbacks = ['debug']
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    packagingOptions {
+        pickFirst 'org/eclipse/paho/client/mqttv3/internal/nls/messages_fr.properties'
+        pickFirst 'org/eclipse/paho/client/mqttv3/internal/nls/messages_pl.properties'
+        pickFirst 'org/eclipse/paho/client/mqttv3/internal/nls/messages_ru.properties'
+        pickFirst 'org/eclipse/paho/client/mqttv3/internal/nls/messages_zh_CN.properties'
+        pickFirst 'org/eclipse/paho/client/mqttv3/internal/nls/messages_zh_TW.properties'
+        pickFirst 'org/eclipse/paho/client/mqttv3/internal/nls/messages_pt_BR.properties'
+        pickFirst 'org/eclipse/paho/client/mqttv3/internal/nls/messages_hu.properties'
+        pickFirst 'org/eclipse/paho/client/mqttv3/internal/nls/messages_cs.properties'
+        pickFirst 'org/eclipse/paho/client/mqttv3/internal/nls/messages_de.properties'
+        pickFirst 'org/eclipse/paho/client/mqttv3/internal/nls/messages_ko.properties'
+        pickFirst 'org/eclipse/paho/client/mqttv3/internal/nls/messages_ja.properties'
+        pickFirst 'org/eclipse/paho/client/mqttv3/internal/nls/messages_it.properties'
+        pickFirst 'org/eclipse/paho/client/mqttv3/internal/nls/messages_es.properties'
+        pickFirst 'org/eclipse/paho/client/mqttv3/internal/nls/logcat.properties'
+        pickFirst 'org/eclipse/paho/client/mqttv3/internal/nls/messages.properties'
+        pickFirst 'kotlin/**'
+        pickFirst 'META-INF/kotlin-stdlib.kotlin_module'
+        exclude 'META-INF/MANIFEST.MF'
+        exclude 'META-INF/*'
+    }
+
+    testOptions {
+        animationsDisabled = true
+    }
+
+    sourceSets {
+        main {
+            res.srcDirs =
+                    [
+                            'src/main/res',
+                            'src/main/res/layouts',
+                            'src/main/res/layouts/activities/accounts',
+                            'src/main/res/layouts/activities/app_settings',
+                            'src/main/res/layouts/activities/apply_rewards',
+                            'src/main/res/layouts/activities/beneficiaries',
+                            'src/main/res/layouts/activities/cashsend',
+                            'src/main/res/layouts/activities/delinking',
+                            'src/main/res/layouts/activities/dual_auth',
+                            'src/main/res/layouts/activities/feedback',
+                            'src/main/res/layouts/activities/fingerprint',
+                            'src/main/res/layouts/activities/home_loan',
+                            'src/main/res/layouts/activities/linking',
+                            'src/main/res/layouts/activities/login',
+                            'src/main/res/layouts/activities/insurance',
+                            'src/main/res/layouts/activities/international_payments',
+                            'src/main/res/layouts/activities/connectivity',
+                            'src/main/res/layouts/activities/multiple_payments',
+                            'src/main/res/layouts/activities/passcode',
+                            'src/main/res/layouts/activities/payments',
+                            'src/main/res/layouts/activities/profile',
+                            'src/main/res/layouts/activities/purchases',
+                            'src/main/res/layouts/activities/registration',
+                            'src/main/res/layouts/activities/rewards',
+                            'src/main/res/layouts/activities/root_check',
+                            'src/main/res/layouts/activities/verification_number',
+                            'src/main/res/layouts/activities/splash',
+                            'src/main/res/layouts/activities/stop_and_replace_cards',
+                            'src/main/res/layouts/activities/surecheck',
+                            'src/main/res/layouts/activities/surephrase',
+                            'src/main/res/layouts/activities/terms_and_conditions',
+                            'src/main/res/layouts/activities/transactions',
+                            'src/main/res/layouts/activities/transfers',
+                            'src/main/res/layouts/activities/unsorted',
+                            'src/main/res/layouts/activities/unique_number_login',
+                            'src/main/res/layouts/activities/whats_new',
+                            'src/main/res/layouts/activities/overdraft',
+                            'src/main/res/layouts/activities/will',
+                            'src/main/res/layouts/dialogs',
+                            'src/main/res/layouts/fragments',
+                            'src/main/res/layouts/widgets',
+                            'src/main/res/layouts/debi_check',
+                            'src/main/res/layouts/activities/unit_trusts',
+                            'src/main/res/drawables/logo'
+                    ]
+            assets.srcDirs = ['src/main/assets']
+        }
+
+        def srcDirsForStub = ['src/stub/assets',
+                              'src/stub/assets/express',
+                              'src/stub/assets/api_responses',
+                              'src/main/assets/fixed_responses',
+                              'src/stub/assets/api_responses/new_to_bank_forced']
+
+        stub {
+            assets.srcDirs = srcDirsForStub
+        }
+
+        devStub {
+            assets.srcDirs = srcDirsForStub
+        }
+
+        devUat_i {
+            assets.srcDirs = srcDirsForStub
+        }
+
+        uat_i_ {
+            assets.srcDirs = srcDirsForStub
+        }
+
+        devUat_r {
+            assets.srcDirs = srcDirsForStub
+        }
+
+        devUat_2 {
+            assets.srcDirs = srcDirsForStub
+        }
+
+        if (getGradle().getStartParameter().getTaskRequests().toString().contains("Debug")) {
+            prodBeta {
+                assets.srcDirs = srcDirsForStub
+            }
+        }
+
+        uat_r_ {
+            assets.srcDirs = srcDirsForStub
+        }
+
+        uat_2_ {
+            assets.srcDirs = ['src/stub/assets/api_responses/new_to_bank_forced']
+        }
+    }
+
+    flavorDimensions "environment", "division"
+    productFlavors {
+
+        devStub {
+            aaptOptions.cruncherEnabled = false
+            dimension "environment"
+            minSdkVersion 24
+            buildConfigField("boolean", "STUB", "true")
+            applicationId "com.barclays.absa.banking.stub"
+            resValue "string", "logon_absa_mobile", "STUB - " + buildVersion
+            manifestPlaceholders = [HOCKEY_APP_ID: "23e73bd9af29406d99baf68bc9ad2e45", launch_icon_id: "@mipmap/ic_launcher_stub", IMI_APP_ID: "IO14081622", IMI_CLIENT_KEY: "b9y3mWBD"]
+
+            buildConfigField("String", "rootCertificatePublicKeyHash", '""')
+            buildConfigField("String", "gatewayHostName", '""')
+            buildConfigField("String", "pinEncryptHostName", '""')
+            buildConfigField("String", "serverPath", '""')
+            buildConfigField("String", "serverImagePath", '""')
+            buildConfigField("String", "pinEncryptServerPath", '""')
+            buildConfigField("String", "nCipherServerPath", '""')
+            buildConfigField("String", "pinRetrievalCertificatePublicKeyHash", '""')
+            buildConfigField("String", "pinRetrievalHostName", '""')
+            buildConfigField("String", "pinRetrievalServerPath", '""')
+
+            buildConfigField("String", "docHandlerHostNameBaseUrl", '"dochandleruat.intra.absa.co.za"')
+            buildConfigField("String", "docHandlerKeyLeaf", '"349bb88843590e739373529bb4e2e74d011b70d7891eef424258f9fcebb4549e"')
+            buildConfigField("String", "docHandlerKeyRoot", '"484f04a19982f865600540e10509a7edeb5dc91860d66c4e27899c266cd4e7f9"')
+
+            buildConfigField("String", "appIdentifierKey", '"242C2217-1D43-4046-A982-B8E03BD8F61F"')
+
+            buildConfigField("boolean", "TOGGLE_DEF_CREDIT_CARD_PIN_RETRIEVAL_ENABLED", "false")
+            buildConfigField("boolean", "TOGGLE_MANAGE_POLICY_PAYMENT_DETAILS_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_FUNERAL_COVER_ADD_FAMILY_MEMBER_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_REDEEM_VOUCHERS_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_UNIT_TRUST", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_MANAGE_ACCOUNTS_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_BUY_UNIT_TRUST_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_FIXED_DEPOSIT_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_ULTIMATE_PROTECTOR", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_INTER_ACCOUNT_FUTURE_DATED_PAYMENTS_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_PIN_RETRIEVAL_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_BUY_MORE_UNITS_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_BRANCH_LOCATOR_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_BUY_NEW_FUND", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_WIMI_WILL_ENABLED", "false")
+            buildConfigField("boolean", "TOGGLE_DEF_FLEXI_FUNERAL_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_TAX_CERTIFICATE_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_VCL_BUSINESS_OVERDRAFT_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_BANK_CONFIRMATION_LETTER_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_MANAGE_PROFILE_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_CASH_SEND_PLUS_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_WIMI_MANAGE_EXERGY_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_FREE_COVER_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_EXPRESS_CASH_SEND_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_CUSTOMISE_LOGIN", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_SCAN_TO_PAY_ENABLED", "true")
+        }
+
+        devUat_i {
+            dimension "environment"
+            minSdkVersion 24
+            buildConfigField("boolean", "UAT", "true")
+            buildConfigField("String", "gatewayHostName", '"eu.absa.co.za"')
+            buildConfigField("String", "pinEncryptHostName", '"vsuat.absa.co.za"')
+            buildConfigField("String", "serverPath", '"https://eu.absa.co.za/bmgsit/dataserv"')
+            buildConfigField("String", "serverImagePath", '"https://eu.absa.co.za/bmgsit/image"')
+            buildConfigField("String", "pinEncryptServerPath", '"https://vsuat.absa.co.za/bmgsit/dataserv"')
+            buildConfigField("String", "pinRetrievalServerPath", '"https://uatsurepin.absa.co.za/bmgsit/dataserv"')
+            buildConfigField("String", "nCipherServerPath", '"https://vsuat.absa.co.za/bmgsit/dataserv"')
+
+            buildConfigField("String", "docHandlerHostNameBaseUrl", '"dochandleruat.intra.absa.co.za"')
+            buildConfigField("String", "docHandlerKeyLeaf", '"349bb88843590e739373529bb4e2e74d011b70d7891eef424258f9fcebb4549e"')
+            buildConfigField("String", "docHandlerKeyRoot", '"484f04a19982f865600540e10509a7edeb5dc91860d66c4e27899c266cd4e7f9"')
+
+            buildConfigField("String", "ocrServiceUrl", '"https://eu.absa.co.za/CognitiveServices/api/ExtractBeneficiary"')
+            buildConfigField("String", "appIdentifierKey", '"242C2217-1D43-4046-A982-B8E03BD8F61F"')
+        }
+
+        devUat_2 {
+            dimension "environment"
+            minSdkVersion 24
+            applicationId "com.barclays.absa.banking.uat2"
+
+            manifestPlaceholders = [HOCKEY_APP_ID: "e47d59a6d228470ba51083c931c82959", launch_icon_id: "@mipmap/ic_launcher_uat2", IMI_APP_ID: "IO14081622", IMI_CLIENT_KEY: "b9y3mWBD"]
+
+            buildConfigField("boolean", "UAT", "true")
+            buildConfigField("String", "gatewayHostName", '"eu.absa.co.za"')
+            buildConfigField("String", "pinEncryptHostName", '"vsuat.absa.co.za"')
+            buildConfigField("String", "serverPath", '"https://eu.absa.co.za/newbmguat2/dataserv"')
+            buildConfigField("String", "serverImagePath", '"https://eu.absa.co.za/newbmguat2/image"')
+            buildConfigField("String", "pinEncryptServerPath", '"https://vsuat.absa.co.za/newbmguat2/dataserv"')
+            buildConfigField("String", "pinRetrievalServerPath", '"https://uatsurepin.absa.co.za/newbmguat2/dataserv"')
+            buildConfigField("String", "nCipherServerPath", '"https://vsuat.absa.co.za/newbmguat2/dataserv"')
+
+            buildConfigField("String", "docHandlerHostNameBaseUrl", '"dochandleruat.intra.absa.co.za"')
+            buildConfigField("String", "docHandlerKeyLeaf", '"349bb88843590e739373529bb4e2e74d011b70d7891eef424258f9fcebb4549e"')
+            buildConfigField("String", "docHandlerKeyRoot", '"484f04a19982f865600540e10509a7edeb5dc91860d66c4e27899c266cd4e7f9"')
+
+            buildConfigField("String", "ocrServiceUrl", '"https://eu.absa.co.za/CognitiveServices/api/ExtractBeneficiary"')
+            buildConfigField("String", "appIdentifierKey", '"242C2217-1D43-4046-A982-B8E03BD8F61F"')
+        }
+
+        devUat_r {
+            dimension "environment"
+            minSdkVersion 24
+            buildConfigField("boolean", "UAT", "true")
+            buildConfigField("String", "gatewayHostName", '"eu.absa.co.za"')
+            buildConfigField("String", "pinEncryptHostName", '"vsuat.absa.co.za"')
+            buildConfigField("String", "serverPath", '"https://eu.absa.co.za/bmguat1/dataserv"')
+            buildConfigField("String", "serverImagePath", '"https://eu.absa.co.za/bmguat1/image"')
+            buildConfigField("String", "pinEncryptServerPath", '"https://vsuat.absa.co.za/bmguat1/dataserv"')
+            buildConfigField("String", "pinRetrievalServerPath", '"https://uatsurepin.absa.co.za/bmguat1/dataserv"')
+            buildConfigField("String", "nCipherServerPath", '"https://vsuat.absa.co.za/bmguat1/dataserv"')
+
+            buildConfigField("String", "docHandlerHostNameBaseUrl", '"dochandleruat.intra.absa.co.za"')
+            buildConfigField("String", "docHandlerKeyLeaf", '"349bb88843590e739373529bb4e2e74d011b70d7891eef424258f9fcebb4549e"')
+            buildConfigField("String", "docHandlerKeyRoot", '"484f04a19982f865600540e10509a7edeb5dc91860d66c4e27899c266cd4e7f9"')
+
+            buildConfigField("String", "ocrServiceUrl", '"https://eu.absa.co.za/CognitiveServices/api/ExtractBeneficiary"')
+            buildConfigField("String", "appIdentifierKey", '"242C2217-1D43-4046-A982-B8E03BD8F61F"')
+        }
+
+        devProdBeta {
+            dimension "environment"
+            minSdkVersion 21
+            applicationId "com.barclays.absa.banking.beta"
+            buildConfigField("boolean", "PRD_BETA", "true")
+            newRelicAppToken = '"AA2d8e14f36e352e7af80732fda030610b18878099"'
+
+            resValue "string", "logon_absa_mobile", "Absa mobile banking devBuild - " + buildVersion
+            manifestPlaceholders = [HOCKEY_APP_ID: "fdaaf20205894d43bd0fccae3eaa9d98", launch_icon_id: "@mipmap/ic_launcher_prod_beta"]
+
+            buildConfigField("String", "NEW_RELIC_TOKEN", newRelicAppToken)
+            //buildConfigField("String", "rootCertificatePublicKeyHash", '"324d20584be4c0f74151a85a442957b9caf870a7b73287ae1d7310961c02699a"')
+            buildConfigField("String", "docHandlerHostNameBaseUrl", '"docupload.absa.co.za"')
+            buildConfigField("String", "docHandlerKeyLeaf", '"338b69fcf9d7569091f2f8bd9414bb68546344fe4dc866e37e616ea645a0c1ee"')
+            buildConfigField("String", "docHandlerKeyRoot", '"f78f317ac4a779446ee9274466bd9389b9ce3ba2baff25b6b61b0fac6da9bd43"')
+            buildConfigField("String", "pinRetrievalCertificatePublicKeyHash", '"fc9ca7c2c3b800655b919e0ba05b6037e91c2c03626e81dca77859f9b8f9b2c2"')
+
+            buildConfigField("String", "gatewayHostName", '"ib.absa.co.za"')
+            buildConfigField("String", "pinEncryptHostName", '"Vs1.absa.co.za"')
+            buildConfigField("String", "serverPath", '"https://ib.absa.co.za/bmg/dataserv"')
+            buildConfigField("String", "serverImagePath", '"https://ib.absa.co.za/bmg/image"')
+            buildConfigField("String", "pinEncryptServerPath", '"https://Vs1.absa.co.za/bmg/dataserv"')
+            buildConfigField("String", "nCipherServerPath", '"https://Vs1.absa.co.za/bmg/dataserv"')
+            buildConfigField("String", "ocrServiceUrl", '"https://ib.absa.co.za/CognitiveServices/api/ExtractBeneficiary"')
+            buildConfigField("String", "pinRetrievalHostName", '"surepin.absa.co.za"')
+            buildConfigField("String", "pinRetrievalServerPath", '"https://surepin.absa.co.za/bmg/dataserv"')
+            buildConfigField("String", "appIdentifierKey", '"get a key"')
+            buildConfigField("boolean", "TOGGLE_DEF_CREDIT_CARD_PIN_RETRIEVAL_ENABLED", "false")
+            buildConfigField("boolean", "TOGGLE_MANAGE_POLICY_PAYMENT_DETAILS_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_FUNERAL_COVER_ADD_FAMILY_MEMBER_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_UNIT_TRUST", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_REDEEM_VOUCHERS_ENABLED", "false")
+            buildConfigField("boolean", "TOGGLE_DEF_BUY_UNIT_TRUST_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_MANAGE_ACCOUNTS_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_FIXED_DEPOSIT_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_ULTIMATE_PROTECTOR", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_INTER_ACCOUNT_FUTURE_DATED_PAYMENTS_ENABLED", "false")
+            buildConfigField("boolean", "TOGGLE_DEF_PIN_RETRIEVAL_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_BUY_MORE_UNITS_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_PAYMENTS_REWRITE_ENABLED", "false")
+            buildConfigField("boolean", "TOGGLE_DEF_BRANCH_LOCATOR_ENABLED", "false")
+            buildConfigField("boolean", "TOGGLE_DEF_BUY_NEW_FUND", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_WIMI_WILL_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_FLEXI_FUNERAL_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_TAX_CERTIFICATE_ENABLED", "false")
+            buildConfigField("boolean", "TOGGLE_DEF_VCL_BUSINESS_OVERDRAFT_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_BANK_CONFIRMATION_LETTER_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_MANAGE_PROFILE_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_SELFIE_PRIVACY_CONSENT_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_CASH_SEND_PLUS_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_WIMI_MANAGE_EXERGY_ENABLED", "false")
+            buildConfigField("boolean", "TOGGLE_DEF_AVAF_HUB_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_FREE_COVER_ENABLED", "false")
+            buildConfigField("boolean", "TOGGLE_DEF_CUSTOMISE_LOGIN", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_SCAN_TO_PAY_ENABLED", "true")
+        }
+
+        core {
+            dimension "division"
+            applicationId "com.barclays.absa.banking.uat.core"
+            resValue "string", "logon_absa_mobile", "UAT CORE - " + buildVersion
+            manifestPlaceholders = [HOCKEY_APP_ID: "a6760a12525b4c84a34a5068f9d71f54", launch_icon_id: "@mipmap/ic_launcher_uat", IMI_APP_ID: "IO14081622", IMI_CLIENT_KEY: "b9y3mWBD"]
+        }
+
+        card {
+            dimension "division"
+            applicationId "com.barclays.absa.banking.uat.card"
+            resValue "string", "logon_absa_mobile", "UAT CARD - " + buildVersion
+            manifestPlaceholders = [HOCKEY_APP_ID: "295d82d873f24836a157df5365e0f7d9", launch_icon_id: "@mipmap/ic_launcher_uat", IMI_APP_ID: "IO14081622", IMI_CLIENT_KEY: "b9y3mWBD"]
+        }
+
+        wimi {
+            dimension "division"
+            applicationId "com.barclays.absa.banking.uat.wimi"
+            resValue "string", "logon_absa_mobile", "UAT WIMI - " + buildVersion
+            manifestPlaceholders = [HOCKEY_APP_ID: "2550804861864c16817d65e0aa86f133", launch_icon_id: "@mipmap/ic_launcher_uat", IMI_APP_ID: "IO14081622", IMI_CLIENT_KEY: "b9y3mWBD"]
+        }
+
+        combined {
+            dimension "division"
+            applicationId "com.barclays.absa.banking.uat"
+            resValue "string", "logon_absa_mobile", "UAT COMBINED - " + buildVersion
+            manifestPlaceholders = [HOCKEY_APP_ID: "e47d59a6d228470ba51083c931c82959", launch_icon_id: "@mipmap/ic_launcher_uat", IMI_APP_ID: "IO14081622", IMI_CLIENT_KEY: "b9y3mWBD"]
+        }
+
+        stub {
+            dimension "environment"
+            buildConfigField("boolean", "STUB", "true")
+            applicationId "com.barclays.absa.banking.stub"
+            resValue "string", "logon_absa_mobile", "STUB - " + buildVersion
+            manifestPlaceholders = [HOCKEY_APP_ID: "23e73bd9af29406d99baf68bc9ad2e45", launch_icon_id: "@mipmap/ic_launcher_stub", IMI_APP_ID: "IO14081622", IMI_CLIENT_KEY: "b9y3mWBD"]
+
+            buildConfigField("String", "rootCertificatePublicKeyHash", '""')
+            buildConfigField("String", "gatewayHostName", '""')
+            buildConfigField("String", "pinEncryptHostName", '""')
+            buildConfigField("String", "serverPath", '""')
+            buildConfigField("String", "serverImagePath", '""')
+            buildConfigField("String", "pinEncryptServerPath", '""')
+            buildConfigField("String", "nCipherServerPath", '""')
+            buildConfigField("String", "pinRetrievalCertificatePublicKeyHash", '""')
+            buildConfigField("String", "pinRetrievalHostName", '""')
+            buildConfigField("String", "pinRetrievalServerPath", '""')
+
+            buildConfigField("String", "docHandlerHostNameBaseUrl", '"dochandleruat.intra.absa.co.za"')
+            buildConfigField("String", "docHandlerKeyLeaf", '"349bb88843590e739373529bb4e2e74d011b70d7891eef424258f9fcebb4549e"')
+            buildConfigField("String", "docHandlerKeyRoot", '"484f04a19982f865600540e10509a7edeb5dc91860d66c4e27899c266cd4e7f9"')
+            buildConfigField("String", "appIdentifierKey", '"242C2217-1D43-4046-A982-B8E03BD8F61F"')
+
+            buildConfigField("boolean", "TOGGLE_DEF_CREDIT_CARD_PIN_RETRIEVAL_ENABLED", "false")
+            buildConfigField("boolean", "TOGGLE_MANAGE_POLICY_PAYMENT_DETAILS_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_FUNERAL_COVER_ADD_FAMILY_MEMBER_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_REDEEM_VOUCHERS_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_UNIT_TRUST", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_MANAGE_ACCOUNTS_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_BUY_UNIT_TRUST_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_FIXED_DEPOSIT_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_ULTIMATE_PROTECTOR", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_INTER_ACCOUNT_FUTURE_DATED_PAYMENTS_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_PIN_RETRIEVAL_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_BUY_MORE_UNITS_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_BRANCH_LOCATOR_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_BUY_NEW_FUND", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_CIA_ACCOUNT_DETAILS", "false")
+            buildConfigField("boolean", "TOGGLE_DEF_WIMI_WILL_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_FLEXI_FUNERAL_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_TAX_CERTIFICATE_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_VCL_BUSINESS_OVERDRAFT_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_BANK_CONFIRMATION_LETTER_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_MANAGE_PROFILE_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_SELFIE_PRIVACY_CONSENT_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_SWIFT_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_CASH_SEND_PLUS_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_WIMI_MANAGE_EXERGY_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_AVAF_HUB_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_FREE_COVER_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_EXPRESS_CASH_SEND_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_BIOMETRIC_VERIFICATION_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_CUSTOMISE_LOGIN", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_SCAN_TO_PAY_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_FUTURE_PLAN_ENABLED", "true")
+        }
+
+        uat_i_ {
+            dimension "environment"
+            buildConfigField("boolean", "UAT", "true")
+            buildConfigField("boolean", "UAT_I", "true")
+            applicationId "com.barclays.absa.banking.uat"
+            resValue "string", "logon_absa_mobile", "UAT - I - " + buildVersion
+
+            buildConfigField("String", "docHandlerHostNameBaseUrl", '"dochandleruat.intra.absa.co.za"')
+            buildConfigField("String", "docHandlerKeyLeaf", '"349bb88843590e739373529bb4e2e74d011b70d7891eef424258f9fcebb4549e"')
+            buildConfigField("String", "docHandlerKeyRoot", '"484f04a19982f865600540e10509a7edeb5dc91860d66c4e27899c266cd4e7f9"')
+            buildConfigField("String", "pinRetrievalCertificatePublicKeyHash", alternativeRootCertPublicKeyHash)
+            buildConfigField("String", "gatewayHostName", '"eu.absa.co.za"')
+            buildConfigField("String", "pinRetrievalHostName", '"uatsurepin.absa.co.za"')
+            buildConfigField("String", "pinEncryptHostName", '"vsuat.absa.co.za"')
+            buildConfigField("String", "serverPath", '"https://eu.absa.co.za/bmgsit/dataserv"')
+            buildConfigField("String", "serverImagePath", '"https://eu.absa.co.za/bmgsit/image"')
+            buildConfigField("String", "pinEncryptServerPath", '"https://vsuat.absa.co.za/bmgsit/dataserv"')
+            buildConfigField("String", "pinRetrievalServerPath", '"https://uatsurepin.absa.co.za/bmgsit/dataserv"')
+            buildConfigField("String", "nCipherServerPath", '"https://vsuat.absa.co.za/bmgsit/dataserv"')
+            buildConfigField("String", "ocrServiceUrl", '"https://eu.absa.co.za/CognitiveServices/api/ExtractBeneficiary"')
+            buildConfigField("String", "appIdentifierKey", '"242C2217-1D43-4046-A982-B8E03BD8F61F"')
+
+            buildConfigField("boolean", "TOGGLE_DEF_CREDIT_CARD_PIN_RETRIEVAL_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_REDEEM_VOUCHERS_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_MANAGE_ACCOUNTS_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_UNIT_TRUST", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_BUY_UNIT_TRUST_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_FIXED_DEPOSIT_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_ULTIMATE_PROTECTOR", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_INTER_ACCOUNT_FUTURE_DATED_PAYMENTS_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_PIN_RETRIEVAL_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_BUY_MORE_UNITS_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_BRANCH_LOCATOR_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_BUY_NEW_FUND", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_CIA_ACCOUNT_DETAILS", "false")
+            buildConfigField("boolean", "TOGGLE_DEF_WIMI_WILL_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_LAW_FOR_YOU_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_FLEXI_FUNERAL_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_TAX_CERTIFICATE_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_VCL_BUSINESS_OVERDRAFT_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_BANK_CONFIRMATION_LETTER_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_MANAGE_PROFILE_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_SELFIE_PRIVACY_CONSENT_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_SWIFT_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_CASH_SEND_PLUS_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_WIMI_MANAGE_EXERGY_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_AVAF_HUB_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_FREE_COVER_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_BIOMETRIC_VERIFICATION_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_EXPRESS_CASH_SEND_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_CUSTOMISE_LOGIN", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_SCAN_TO_PAY_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_FUTURE_PLAN_ENABLED", "true")
+        }
+
+        uat_i_penTesting {
+            dimension "environment"
+            buildConfigField("boolean", "UAT", "true")
+            buildConfigField("boolean", "UAT_PEN_TESTING", "true")
+            applicationId "com.barclays.absa.banking.uat"
+            resValue "string", "logon_absa_mobile", "UAT - I PEN TESTING - " + buildVersion
+
+            buildConfigField("String", "docHandlerHostNameBaseUrl", '"dochandleruat.intra.absa.co.za"')
+            buildConfigField("String", "docHandlerKeyLeaf", '"349bb88843590e739373529bb4e2e74d011b70d7891eef424258f9fcebb4549e"')
+            buildConfigField("String", "docHandlerKeyRoot", '"484f04a19982f865600540e10509a7edeb5dc91860d66c4e27899c266cd4e7f9"')
+            buildConfigField("String", "pinRetrievalCertificatePublicKeyHash", alternativeRootCertPublicKeyHash)
+            buildConfigField("String", "gatewayHostName", '"eu.absa.co.za"')
+            buildConfigField("String", "pinEncryptHostName", '"vsuat.absa.co.za"')
+            buildConfigField("String", "serverPath", '"https://eu.absa.co.za/bmgsit/dataserv"')
+            buildConfigField("String", "serverImagePath", '"https://eu.absa.co.za/bmgsit/image"')
+            buildConfigField("String", "pinEncryptServerPath", '"https://vsuat.absa.co.za/bmgsit/dataserv"')
+            buildConfigField("String", "pinRetrievalServerPath", '"https://uatsurepin.absa.co.za/bmgsit/dataserv"')
+            buildConfigField("String", "nCipherServerPath", '"https://vsuat.absa.co.za/bmgsit/dataserv"')
+            buildConfigField("String", "ocrServiceUrl", '"https://eu.absa.co.za/CognitiveServices/api/ExtractBeneficiary"')
+            buildConfigField("boolean", "TOGGLE_DEF_CREDIT_CARD_PIN_RETRIEVAL_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_MANAGE_POLICY_PAYMENT_DETAILS_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_FUNERAL_COVER_ADD_FAMILY_MEMBER_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_UNIT_TRUST", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_REDEEM_VOUCHERS_ENABLED", "false")
+            buildConfigField("boolean", "TOGGLE_DEF_BUY_UNIT_TRUST_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_MANAGE_ACCOUNTS_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_FIXED_DEPOSIT_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_ULTIMATE_PROTECTOR", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_INTER_ACCOUNT_FUTURE_DATED_PAYMENTS_ENABLED", "false")
+            buildConfigField("boolean", "TOGGLE_DEF_PIN_RETRIEVAL_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_BUY_MORE_UNITS_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_PAYMENTS_REWRITE_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_BRANCH_LOCATOR_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_LAW_FOR_YOU_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_CIA_ACCOUNT_DETAILS", "false")
+            buildConfigField("boolean", "TOGGLE_DEF_PERSONAL_LOANS_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_BUY_NEW_FUND", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_WIMI_WILL_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_FLEXI_FUNERAL_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_TAX_CERTIFICATE_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_VCL_BUSINESS_OVERDRAFT_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_BANK_CONFIRMATION_LETTER_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_MANAGE_PROFILE_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_SELFIE_PRIVACY_CONSENT_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_SWIFT_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_CASH_SEND_PLUS_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_NEW_EXPLORE_HUB_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_WIMI_MANAGE_EXERGY_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_AVAF_HUB_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_CUSTOMISE_LOGIN", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_SCAN_TO_PAY_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_BIOMETRIC_VERIFICATION_ENABLED", "true")
+        }
+
+        uat_2_ {
+            dimension "environment"
+            buildConfigField("boolean", "UAT", "true")
+            buildConfigField("boolean", "UAT_I", "true")
+            applicationId "com.barclays.absa.banking.uat2"
+            resValue "string", "logon_absa_mobile", "UAT - I - " + buildVersion
+
+            manifestPlaceholders = [HOCKEY_APP_ID: "e47d59a6d228470ba51083c931c82959", launch_icon_id: "@mipmap/ic_launcher_uat2", IMI_APP_ID: "IO14081622", IMI_CLIENT_KEY: "b9y3mWBD"]
+
+            buildConfigField("String", "ocrServiceUrl", '"https://eu.absa.co.za/CognitiveServices/api/ExtractBeneficiary"')
+            buildConfigField("String", "docHandlerHostNameBaseUrl", '"dochandleruat.intra.absa.co.za"')
+            buildConfigField("String", "docHandlerKeyLeaf", '"349bb88843590e739373529bb4e2e74d011b70d7891eef424258f9fcebb4549e"')
+            buildConfigField("String", "docHandlerKeyRoot", '"484f04a19982f865600540e10509a7edeb5dc91860d66c4e27899c266cd4e7f9"')
+            buildConfigField("String", "pinRetrievalCertificatePublicKeyHash", alternativeRootCertPublicKeyHash)
+            buildConfigField("String", "gatewayHostName", '"eu.absa.co.za"')
+            buildConfigField("String", "pinEncryptHostName", '"vsuat.absa.co.za"')
+            buildConfigField("String", "serverPath", '"https://eu.absa.co.za/newbmguat2/dataserv"')
+            buildConfigField("String", "serverImagePath", '"https://eu.absa.co.za/newbmguat2/image"')
+            buildConfigField("String", "pinEncryptServerPath", '"https://vsuat.absa.co.za/newbmguat2/dataserv"')
+            buildConfigField("String", "pinRetrievalServerPath", '"https://uatsurepin.absa.co.za/newbmguat2/dataserv"')
+            buildConfigField("String", "nCipherServerPath", '"https://vsuat.absa.co.za/newbmguat2/dataserv"')
+
+            buildConfigField("String", "docHandlerHostNameBaseUrl", '"dochandleruat.intra.absa.co.za"')
+            buildConfigField("String", "appIdentifierKey", '"242C2217-1D43-4046-A982-B8E03BD8F61F"')
+
+            buildConfigField("boolean", "TOGGLE_DEF_CREDIT_CARD_PIN_RETRIEVAL_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_REDEEM_VOUCHERS_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_MANAGE_ACCOUNTS_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_UNIT_TRUST", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_BUY_UNIT_TRUST_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_FIXED_DEPOSIT_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_ULTIMATE_PROTECTOR", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_INTER_ACCOUNT_FUTURE_DATED_PAYMENTS_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_PIN_RETRIEVAL_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_BUY_MORE_UNITS_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_BRANCH_LOCATOR_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_LAW_FOR_YOU_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_CIA_ACCOUNT_DETAILS", "false")
+            buildConfigField("boolean", "TOGGLE_DEF_BUY_NEW_FUND", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_WIMI_WILL_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_FLEXI_FUNERAL_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_TAX_CERTIFICATE_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_VCL_BUSINESS_OVERDRAFT_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_BANK_CONFIRMATION_LETTER_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_MANAGE_PROFILE_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_SELFIE_PRIVACY_CONSENT_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_SWIFT_ENABLED", "false")
+            buildConfigField("boolean", "TOGGLE_DEF_CASH_SEND_PLUS_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_WIMI_MANAGE_EXERGY_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_AVAF_HUB_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_FREE_COVER_ENABLED", "false")
+            buildConfigField("boolean", "TOGGLE_DEF_BIOMETRIC_VERIFICATION_ENABLED", "false")
+            buildConfigField("boolean", "TOGGLE_DEF_CUSTOMISE_LOGIN", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_SCAN_TO_PAY_ENABLED", "true")
+        }
+
+        uat_3_ {
+            dimension "environment"
+            buildConfigField("boolean", "UAT", "true")
+            buildConfigField("boolean", "UAT_I", "true")
+            applicationId "com.barclays.absa.banking.uat3"
+            resValue "string", "logon_absa_mobile", "UAT - I - " + buildVersion
+
+            manifestPlaceholders = [HOCKEY_APP_ID: "e47d59a6d228470ba51083c931c82959", launch_icon_id: "@mipmap/ic_launcher_uat", IMI_APP_ID: "IO14081622", IMI_CLIENT_KEY: "b9y3mWBD"]
+
+            buildConfigField("String", "ocrServiceUrl", '"https://eu.absa.co.za/CognitiveServices/api/ExtractBeneficiary"')
+            buildConfigField("String", "docHandlerHostNameBaseUrl", '"dochandleruat.intra.absa.co.za"')
+            buildConfigField("String", "docHandlerKeyLeaf", '"349bb88843590e739373529bb4e2e74d011b70d7891eef424258f9fcebb4549e"')
+            buildConfigField("String", "docHandlerKeyRoot", '"484f04a19982f865600540e10509a7edeb5dc91860d66c4e27899c266cd4e7f9"')
+            buildConfigField("String", "pinRetrievalCertificatePublicKeyHash", alternativeRootCertPublicKeyHash)
+            buildConfigField("String", "gatewayHostName", '"eu.absa.co.za"')
+            buildConfigField("String", "pinEncryptHostName", '"vsuat.absa.co.za"')
+            buildConfigField("String", "serverPath", '"https://eu.absa.co.za/bmguat3/dataserv"')
+            buildConfigField("String", "serverImagePath", '"https://eu.absa.co.za/bmguat3/image"')
+            buildConfigField("String", "pinEncryptServerPath", '"https://eu.absa.co.za/bmguat3/dataserv"')
+            buildConfigField("String", "pinRetrievalServerPath", '"https://uatsurepin.absa.co.za/bmguat3/dataserv"')
+            buildConfigField("String", "nCipherServerPath", '"https://vsuat.absa.co.za/bmguat3/dataserv"')
+
+            buildConfigField("String", "docHandlerHostNameBaseUrl", '"dochandleruat.intra.absa.co.za"')
+            buildConfigField("String", "appIdentifierKey", '"242C2217-1D43-4046-A982-B8E03BD8F61F"')
+
+            buildConfigField("boolean", "TOGGLE_DEF_CREDIT_CARD_PIN_RETRIEVAL_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_REDEEM_VOUCHERS_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_MANAGE_ACCOUNTS_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_UNIT_TRUST", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_BUY_UNIT_TRUST_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_FIXED_DEPOSIT_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_ULTIMATE_PROTECTOR", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_INTER_ACCOUNT_FUTURE_DATED_PAYMENTS_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_PIN_RETRIEVAL_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_BUY_MORE_UNITS_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_BRANCH_LOCATOR_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_LAW_FOR_YOU_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_CIA_ACCOUNT_DETAILS", "false")
+            buildConfigField("boolean", "TOGGLE_DEF_BUY_NEW_FUND", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_WIMI_WILL_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_FLEXI_FUNERAL_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_TAX_CERTIFICATE_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_VCL_BUSINESS_OVERDRAFT_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_BANK_CONFIRMATION_LETTER_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_MANAGE_PROFILE_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_SELFIE_PRIVACY_CONSENT_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_SWIFT_ENABLED", "false")
+            buildConfigField("boolean", "TOGGLE_DEF_CASH_SEND_PLUS_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_WIMI_MANAGE_EXERGY_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_AVAF_HUB_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_FREE_COVER_ENABLED", "false")
+            buildConfigField("boolean", "TOGGLE_DEF_BIOMETRIC_VERIFICATION_ENABLED", "false")
+
+            buildConfigField("boolean", "TOGGLE_DEF_CUSTOMISE_LOGIN", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_SCAN_TO_PAY_ENABLED", "true")
+        }
+
+        uat_r_ {
+            dimension "environment"
+            buildConfigField("boolean", "UAT", "true")
+            buildConfigField("boolean", "UAT_R", "true")
+            applicationId "com.barclays.absa.banking.uat"
+            resValue "string", "logon_absa_mobile", "UAT - R - " + buildVersion
+
+            buildConfigField("String", "docHandlerHostNameBaseUrl", '"dochandleruat.intra.absa.co.za"')
+            buildConfigField("String", "docHandlerKeyLeaf", '"349bb88843590e739373529bb4e2e74d011b70d7891eef424258f9fcebb4549e"')
+            buildConfigField("String", "docHandlerKeyRoot", '"484f04a19982f865600540e10509a7edeb5dc91860d66c4e27899c266cd4e7f9"')
+            buildConfigField("String", "pinRetrievalCertificatePublicKeyHash", alternativeRootCertPublicKeyHash)
+            buildConfigField("String", "gatewayHostName", '"eu.absa.co.za"')
+            buildConfigField("String", "pinEncryptHostName", '"vsuat.absa.co.za"')
+            buildConfigField("String", "serverPath", '"https://eu.absa.co.za/bmguat1/dataserv"')
+            buildConfigField("String", "serverImagePath", '"https://eu.absa.co.za/bmguat1/image"')
+            buildConfigField("String", "pinEncryptServerPath", '"https://vsuat.absa.co.za/bmguat1/dataserv"')
+            buildConfigField("String", "pinRetrievalServerPath", '"https://uatsurepin.absa.co.za/bmguat1/dataserv"')
+            buildConfigField("String", "nCipherServerPath", '"https://vsuat.absa.co.za/bmguat1/dataserv"')
+            buildConfigField("String", "ocrServiceUrl", '"https://ib.absa.co.za/CognitiveServices/api/ExtractBeneficiary"')
+            buildConfigField("String", "appIdentifierKey", '"242C2217-1D43-4046-A982-B8E03BD8F61F"')
+            buildConfigField("boolean", "TOGGLE_DEF_CREDIT_CARD_PIN_RETRIEVAL_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_MANAGE_POLICY_PAYMENT_DETAILS_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_FUNERAL_COVER_ADD_FAMILY_MEMBER_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_UNIT_TRUST", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_REDEEM_VOUCHERS_ENABLED", "false")
+            buildConfigField("boolean", "TOGGLE_DEF_BUY_UNIT_TRUST_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_MANAGE_ACCOUNTS_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_FIXED_DEPOSIT_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_ULTIMATE_PROTECTOR", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_INTER_ACCOUNT_FUTURE_DATED_PAYMENTS_ENABLED", "false")
+            buildConfigField("boolean", "TOGGLE_DEF_PIN_RETRIEVAL_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_BUY_MORE_UNITS_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_PAYMENTS_REWRITE_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_BRANCH_LOCATOR_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_LAW_FOR_YOU_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_CIA_ACCOUNT_DETAILS", "false")
+            buildConfigField("boolean", "TOGGLE_DEF_PERSONAL_LOANS_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_BUY_NEW_FUND", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_WIMI_WILL_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_FLEXI_FUNERAL_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_TAX_CERTIFICATE_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_VCL_BUSINESS_OVERDRAFT_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_BANK_CONFIRMATION_LETTER_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_MANAGE_PROFILE_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_SELFIE_PRIVACY_CONSENT_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_SWIFT_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_CASH_SEND_PLUS_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_WIMI_MANAGE_EXERGY_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_AVAF_HUB_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_FREE_COVER_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_BIOMETRIC_VERIFICATION_ENABLED", "true")
+
+            buildConfigField("boolean", "TOGGLE_DEF_CUSTOMISE_LOGIN", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_SCAN_TO_PAY_ENABLED", "true")
+        }
+
+        uat_r_penTesting {
+            dimension "environment"
+            buildConfigField("boolean", "UAT", "true")
+            buildConfigField("boolean", "UAT_PEN_TESTING", "true")
+            applicationId "com.barclays.absa.banking.uat"
+            resValue "string", "logon_absa_mobile", "UAT - R PEN TESTING - " + buildVersion
+
+            buildConfigField("String", "docHandlerHostNameBaseUrl", '"dochandleruat.intra.absa.co.za"')
+            buildConfigField("String", "docHandlerKeyLeaf", '"349bb88843590e739373529bb4e2e74d011b70d7891eef424258f9fcebb4549e"')
+            buildConfigField("String", "docHandlerKeyRoot", '"484f04a19982f865600540e10509a7edeb5dc91860d66c4e27899c266cd4e7f9"')
+            buildConfigField("String", "pinRetrievalCertificatePublicKeyHash", alternativeRootCertPublicKeyHash)
+            buildConfigField("String", "gatewayHostName", '"eu.absa.co.za"')
+            buildConfigField("String", "pinEncryptHostName", '"vsuat.absa.co.za"')
+            buildConfigField("String", "serverPath", '"https://eu.absa.co.za/bmguat1/dataserv"')
+            buildConfigField("String", "serverImagePath", '"https://eu.absa.co.za/bmguat1/image"')
+            buildConfigField("String", "pinEncryptServerPath", '"https://vsuat.absa.co.za/bmguat1/dataserv"')
+            buildConfigField("String", "pinRetrievalServerPath", '"https://uatsurepin.absa.co.za/bmguat1/dataserv"')
+            buildConfigField("String", "nCipherServerPath", '"https://vsuat.absa.co.za/bmguat1/dataserv"')
+            buildConfigField("String", "ocrServiceUrl", '"https://eu.absa.co.za/CognitiveServices/api/ExtractBeneficiary"')
+            buildConfigField("String", "appIdentifierKey", '"242C2217-1D43-4046-A982-B8E03BD8F61F"')
+            buildConfigField("boolean", "TOGGLE_DEF_CREDIT_CARD_PIN_RETRIEVAL_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_MANAGE_POLICY_PAYMENT_DETAILS_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_FUNERAL_COVER_ADD_FAMILY_MEMBER_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_UNIT_TRUST", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_REDEEM_VOUCHERS_ENABLED", "false")
+            buildConfigField("boolean", "TOGGLE_DEF_BUY_UNIT_TRUST_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_MANAGE_ACCOUNTS_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_FIXED_DEPOSIT_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_ULTIMATE_PROTECTOR", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_INTER_ACCOUNT_FUTURE_DATED_PAYMENTS_ENABLED", "false")
+            buildConfigField("boolean", "TOGGLE_DEF_PIN_RETRIEVAL_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_BUY_MORE_UNITS_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_PAYMENTS_REWRITE_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_BRANCH_LOCATOR_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_LAW_FOR_YOU_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_CIA_ACCOUNT_DETAILS", "false")
+            buildConfigField("boolean", "TOGGLE_DEF_PERSONAL_LOANS_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_BUY_NEW_FUND", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_WIMI_WILL_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_FLEXI_FUNERAL_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_TAX_CERTIFICATE_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_VCL_BUSINESS_OVERDRAFT_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_BANK_CONFIRMATION_LETTER_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_MANAGE_PROFILE_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_SELFIE_PRIVACY_CONSENT_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_SWIFT_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_CASH_SEND_PLUS_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_WIMI_MANAGE_EXERGY_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_AVAF_HUB_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_FREE_COVER_ENABLED", "false")
+            buildConfigField("boolean", "TOGGLE_DEF_BIOMETRIC_VERIFICATION_ENABLED", "false")
+            buildConfigField("boolean", "TOGGLE_DEF_CUSTOMISE_LOGIN", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_SCAN_TO_PAY_ENABLED", "true")
+        }
+
+        prodBeta {
+            dimension "environment"
+            applicationId "com.barclays.absa.banking.beta"
+            buildConfigField("boolean", "PRD_BETA", "true")
+            newRelicAppToken = '"AA2d8e14f36e352e7af80732fda030610b18878099"'
+
+            resValue "string", "logon_absa_mobile", "Absa mobile banking devBuild - " + buildVersion
+            manifestPlaceholders = [HOCKEY_APP_ID: "fdaaf20205894d43bd0fccae3eaa9d98", launch_icon_id: "@mipmap/ic_launcher_prod_beta"]
+
+            buildConfigField("String", "NEW_RELIC_TOKEN", newRelicAppToken)
+            //buildConfigField("String", "rootCertificatePublicKeyHash", '"324d20584be4c0f74151a85a442957b9caf870a7b73287ae1d7310961c02699a"')
+            buildConfigField("String", "docHandlerHostNameBaseUrl", '"docupload.absa.co.za"')
+            buildConfigField("String", "docHandlerKeyLeaf", '"338b69fcf9d7569091f2f8bd9414bb68546344fe4dc866e37e616ea645a0c1ee"')
+            buildConfigField("String", "docHandlerKeyRoot", '"f78f317ac4a779446ee9274466bd9389b9ce3ba2baff25b6b61b0fac6da9bd43"')
+            buildConfigField("String", "pinRetrievalCertificatePublicKeyHash", '"fc9ca7c2c3b800655b919e0ba05b6037e91c2c03626e81dca77859f9b8f9b2c2"')
+
+            buildConfigField("String", "gatewayHostName", '"ib.absa.co.za"')
+            buildConfigField("String", "pinEncryptHostName", '"Vs1.absa.co.za"')
+            buildConfigField("String", "serverPath", '"https://ib.absa.co.za/bmg/dataserv"')
+            buildConfigField("String", "serverImagePath", '"https://ib.absa.co.za/bmg/image"')
+            buildConfigField("String", "pinEncryptServerPath", '"https://Vs1.absa.co.za/bmg/dataserv"')
+            buildConfigField("String", "nCipherServerPath", '"https://Vs1.absa.co.za/bmg/dataserv"')
+            buildConfigField("String", "ocrServiceUrl", '"https://ib.absa.co.za/CognitiveServices/api/ExtractBeneficiary"')
+            buildConfigField("String", "pinRetrievalHostName", '"surepin.absa.co.za"')
+            buildConfigField("String", "pinRetrievalServerPath", '"https://surepin.absa.co.za/bmg/dataserv"')
+            buildConfigField("String", "appIdentifierKey", '"242C2217-1D43-4046-A982-B8E03BD8F61F"')
+            buildConfigField("boolean", "TOGGLE_DEF_CREDIT_CARD_PIN_RETRIEVAL_ENABLED", "false")
+            buildConfigField("boolean", "TOGGLE_MANAGE_POLICY_PAYMENT_DETAILS_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_FUNERAL_COVER_ADD_FAMILY_MEMBER_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_UNIT_TRUST", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_REDEEM_VOUCHERS_ENABLED", "false")
+            buildConfigField("boolean", "TOGGLE_DEF_BUY_UNIT_TRUST_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_MANAGE_ACCOUNTS_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_FIXED_DEPOSIT_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_ULTIMATE_PROTECTOR", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_INTER_ACCOUNT_FUTURE_DATED_PAYMENTS_ENABLED", "false")
+            buildConfigField("boolean", "TOGGLE_DEF_DEVICE_PROFILING_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_PIN_RETRIEVAL_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_BUY_MORE_UNITS_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_PAYMENTS_REWRITE_ENABLED", "false")
+            buildConfigField("boolean", "TOGGLE_DEF_BRANCH_LOCATOR_ENABLED", "false")
+            buildConfigField("boolean", "TOGGLE_DEF_BUY_NEW_FUND", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_LAW_FOR_YOU_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_CIA_ACCOUNT_DETAILS", "false")
+            buildConfigField("boolean", "TOGGLE_DEF_PERSONAL_LOANS_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_LOTTO_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_PERSONAL_LOANS_HUB_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_WIMI_WILL_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_FLEXI_FUNERAL_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_TAX_CERTIFICATE_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_VCL_BUSINESS_OVERDRAFT_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_BANK_CONFIRMATION_LETTER_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_MANAGE_PROFILE_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_SELFIE_PRIVACY_CONSENT_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_SWIFT_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_CASH_SEND_PLUS_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_WIMI_MANAGE_EXERGY_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_AVAF_HUB_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_FREE_COVER_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_BIOMETRIC_VERIFICATION_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_CUSTOMISE_LOGIN", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_SCAN_TO_PAY_ENABLED", "true")
+        }
+
+        prod {
+            dimension "environment"
+            applicationId "com.barclays.absa.banking"
+            buildConfigField("boolean", "PRD", "true")
+            newRelicAppToken = '"AA508b0307a2ec6a2a6bb0ac4a5811169dae126c59"'
+
+            if (project.hasProperty("isDevBuild") && project.property("isDevBuild") == "YES") {
+                resValue "string", "logon_absa_mobile", "Absa live proofing - " + buildVersion
+            } else {
+                resValue "string", "logon_absa_mobile", "Absa mobile banking"
+            }
+            manifestPlaceholders = [HOCKEY_APP_ID: "e8fc9ebe4f8941d3b1019e5aa8720a9a", launch_icon_id: "@mipmap/ic_launcher"]
+
+            buildConfigField("String", "NEW_RELIC_TOKEN", newRelicAppToken)
+            //buildConfigField("String", "rootCertificatePublicKeyHash", '"324d20584be4c0f74151a85a442957b9caf870a7b73287ae1d7310961c02699a"')
+            buildConfigField("String", "docHandlerHostNameBaseUrl", '"docupload.absa.co.za"')
+            buildConfigField("String", "docHandlerKeyLeaf", '"338b69fcf9d7569091f2f8bd9414bb68546344fe4dc866e37e616ea645a0c1ee"')
+            buildConfigField("String", "docHandlerKeyRoot", '"f78f317ac4a779446ee9274466bd9389b9ce3ba2baff25b6b61b0fac6da9bd43"')
+            buildConfigField("String", "pinRetrievalCertificatePublicKeyHash", '"fc9ca7c2c3b800655b919e0ba05b6037e91c2c03626e81dca77859f9b8f9b2c2"')
+
+            buildConfigField("String", "gatewayHostName", '"ib.absa.co.za"')
+            buildConfigField("String", "pinEncryptHostName", '"Vs1.absa.co.za"')
+            buildConfigField("String", "serverPath", '"https://ib.absa.co.za/bmg/dataserv"')
+            buildConfigField("String", "serverImagePath", '"https://ib.absa.co.za/bmg/image"')
+            buildConfigField("String", "pinEncryptServerPath", '"https://Vs1.absa.co.za/bmg/dataserv"')
+            buildConfigField("String", "nCipherServerPath", '"https://Vs1.absa.co.za/bmg/dataserv"')
+            buildConfigField("String", "ocrServiceUrl", '"https://ib.absa.co.za/CognitiveServices/api/ExtractBeneficiary"')
+            buildConfigField("String", "pinRetrievalHostName", '"surepin.absa.co.za"')
+            buildConfigField("String", "pinRetrievalServerPath", '"https://surepin.absa.co.za/bmg/dataserv"')
+            buildConfigField("String", "appIdentifierKey", '"242C2217-1D43-4046-A982-B8E03BD8F61F"')
+            buildConfigField("boolean", "TOGGLE_DEF_CREDIT_CARD_PIN_RETRIEVAL_ENABLED", "false")
+            buildConfigField("boolean", "TOGGLE_MANAGE_POLICY_PAYMENT_DETAILS_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_FUNERAL_COVER_ADD_FAMILY_MEMBER_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_UNIT_TRUST", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_REDEEM_VOUCHERS_ENABLED", "false")
+            buildConfigField("boolean", "TOGGLE_DEF_BUY_UNIT_TRUST_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_MANAGE_ACCOUNTS_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_FIXED_DEPOSIT_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_ULTIMATE_PROTECTOR", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_INTER_ACCOUNT_FUTURE_DATED_PAYMENTS_ENABLED", "false")
+            buildConfigField("boolean", "TOGGLE_DEF_DEVICE_PROFILING_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_PIN_RETRIEVAL_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_BUY_NEW_FUND", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_BUY_MORE_UNITS_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_PAYMENTS_REWRITE_ENABLED", "false")
+            buildConfigField("boolean", "TOGGLE_DEF_BRANCH_LOCATOR_ENABLED", "false")
+            buildConfigField("boolean", "TOGGLE_DEF_LAW_FOR_YOU_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_PERSONAL_LOANS_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_CIA_ACCOUNT_DETAILS", "false")
+            buildConfigField("boolean", "TOGGLE_DEF_LOTTO_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_PERSONAL_LOANS_HUB_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_WIMI_WILL_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_FLEXI_FUNERAL_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_TAX_CERTIFICATE_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_VCL_BUSINESS_OVERDRAFT_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_BANK_CONFIRMATION_LETTER_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_MANAGE_PROFILE_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_SELFIE_PRIVACY_CONSENT_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_SWIFT_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_CASH_SEND_PLUS_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_WIMI_MANAGE_EXERGY_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_AVAF_HUB_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_FREE_COVER_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_BIOMETRIC_VERIFICATION_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_CUSTOMISE_LOGIN", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_SCAN_TO_PAY_ENABLED", "true")
+            buildConfigField("boolean", "TOGGLE_DEF_FUTURE_PLAN_ENABLED", "true")
+        }
+    }
+
+    testOptions {
+        unitTests.returnDefaultValues = true
+    }
+
+    compileOptions {
+        targetCompatibility 1.8
+        sourceCompatibility 1.8
+    }
+
+    kotlinOptions {
+        jvmTarget = "1.8"
+    }
+
+    bundle {
+        language {
+            enableSplit = false
+        }
+    }
+
+}
+
+configurations.all {
+    all*.exclude group: 'com.google.code.gson'
+}
+
+dependencies {
+    api project(':lib2fa')
+    api project(':libmonad')
+    implementation(project(':liblotto')) {
+        exclude group: 'org.jetbrains.kotlin', module: 'kotlin-stdlib-jdk8'
+        exclude module: 'libsdp'
+    }
+    implementation project(':libexpress')
+
+    implementation fileTree(include: ['*.jar', '*.aar'], dir: 'libs')
+    implementation files('src/libs/reflectutils.jar') //device profiling
+    implementation files('src/libs/taz.jar') //device profiling
+
+    implementation 'androidx.core:core-ktx:1.3.2'
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
+    implementation 'androidx.exifinterface:exifinterface:1.3.1'
+    implementation 'androidx.navigation:navigation-fragment-ktx:2.3.1'
+    implementation 'androidx.navigation:navigation-ui-ktx:2.3.1'
+    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0'
+    implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.2.0'
+    implementation 'androidx.lifecycle:lifecycle-runtime-ktx:2.2.0'
+
+    implementation 'com.adobe.marketing.mobile:analytics:1.2.5'
+    implementation 'com.adobe.marketing.mobile:sdk-core:1.5.7'
+
+    implementation "com.google.firebase:firebase-core:17.5.1"
+    implementation "com.google.firebase:firebase-messaging:20.3.0"
+    implementation 'com.firebase:firebase-jobdispatcher:0.8.5'
+
+    implementation "androidx.preference:preference-ktx:1.1.1"
+
+    implementation("com.google.android.gms:play-services-vision:20.1.2") {
+        exclude group: 'com.google.android.gms', module: 'play-services-basement'
+        exclude group: 'com.google.android.gms', module: 'play-services-flags'
+    }
+
+    implementation('com.google.android.gms:play-services-location:17.1.0') {
+        exclude group: 'com.google.android.gms', module: 'play-services-basement'
+    }
+
+    implementation 'com.google.android.gms:play-services-maps:17.0.0'
+
+    api "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
+
+    implementation 'androidx.biometric:biometric:1.0.1'
+
+    api('com.oneidentity.sdk.android:oneidentity:1.2.3') {
+        exclude group: 'com.squareup.okhttp3', module: 'okhttp'
+    }
+
+    // Dagger
+    implementation "com.google.dagger:dagger:$dagger_version"
+    implementation "com.google.dagger:dagger-android-support:$dagger_version"
+    kapt "com.google.dagger:dagger-android-processor:$dagger_version"
+    kapt "com.google.dagger:dagger-compiler:$dagger_version"
+
+    //barcode scanning with zxing port to android:
+    implementation 'com.journeyapps:zxing-android-embedded:3.6.0'
+    implementation "com.newrelic.agent.android:android-agent:$new_relic_version"
+
+    implementation 'io.card:android-sdk:5.5.0'
+
+    implementation 'androidx.work:work-runtime:2.4.0'
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.1'
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.2.0'
+
+    compileOnly 'javax.annotation:jsr250-api:1.0'
+    api 'net.zetetic:android-database-sqlcipher:4.2.0@aar'
+
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.5.2'
+    testRuntimeOnly 'org.junit.vintage:junit-vintage-engine:5.5.2'
+
+    testImplementation('junit:junit:4.13') {
+        exclude group: 'org.hamcrest', module: 'hamcrest-core'
+    }
+    testImplementation 'org.json:json:20190722'
+    testImplementation 'org.mockito:mockito-core:3.3.3'
+    testImplementation 'org.robolectric:robolectric:4.3'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.5.2'
+    testImplementation 'androidx.arch.core:core-testing:2.1.0'
+    testImplementation 'com.nhaarman:mockito-kotlin-kt1.1:1.5.0'
+
+    testImplementation 'androidx.test:core:1.3.0'
+    testImplementation 'org.mockito:mockito-inline:2.21.0'
+
+    androidTestImplementation 'androidx.test.espresso:espresso-contrib:' + rootProject.espressoVersion
+    androidTestImplementation 'androidx.test.espresso:espresso-core:' + rootProject.espressoVersion
+    androidTestImplementation 'androidx.test.espresso:espresso-intents:' + rootProject.espressoVersion
+    androidTestImplementation 'androidx.test.espresso:espresso-idling-resource:' + rootProject.espressoVersion
+}
+
+apply plugin: 'com.google.gms.google-services'

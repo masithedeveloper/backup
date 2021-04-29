@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:drawable="@drawable/borderbottom_highlight"
+        android:state_checked="true" />
+
+    <item
+        android:drawable="@drawable/bordershapesquare_darkblue"
+        android:state_enabled="false" />
+    <!-- Inactive tab -->
+    <item
+        android:drawable="@drawable/bordershapesquare_darkblue"
+        android:state_focused="false"
+        android:state_pressed="false"
+        android:state_selected="false" />
+    <!-- Pressed tab -->
+    <item
+        android:drawable="@drawable/borderbottom_highlight"
+        android:state_pressed="true" />
+    <!-- Selected tab (using d-pad) -->
+    <item
+        android:drawable="@drawable/bordershapesquare_darkblue"
+        android:state_focused="true"
+        android:state_pressed="false"
+        android:state_selected="false" />
+
+</selector>

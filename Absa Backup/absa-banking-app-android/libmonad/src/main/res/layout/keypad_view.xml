@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:parentTag="androidx.constraintlayout.widget.ConstraintLayout">
+
+    <!-- Progress indicator dots -->
+    <ImageView
+        android:id="@+id/indicator1ImageView"
+        style="@style/KeypadIndicators"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="@dimen/keypad_indicator_spacing"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toStartOf="@id/indicator2ImageView"
+        app:layout_constraintHeight_percent=".04"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@drawable/ic_keypad_indicator_selected"
+        app:srcCompat="@drawable/ic_keypad_indicator_unselected" />
+
+    <ImageView
+        android:id="@+id/indicator2ImageView"
+        style="@style/KeypadIndicators"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="@dimen/keypad_indicator_spacing"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toStartOf="@id/indicator3ImageView"
+        app:layout_constraintHeight_percent=".04"
+        app:layout_constraintStart_toEndOf="@id/indicator1ImageView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_keypad_indicator_unselected" />
+
+    <ImageView
+        android:id="@+id/indicator3ImageView"
+        style="@style/KeypadIndicators"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="@dimen/keypad_indicator_spacing"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toStartOf="@id/indicator4ImageView"
+        app:layout_constraintHeight_percent=".04"
+        app:layout_constraintStart_toEndOf="@id/indicator2ImageView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_keypad_indicator_unselected" />
+
+    <ImageView
+        android:id="@+id/indicator4ImageView"
+        style="@style/KeypadIndicators"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="@dimen/keypad_indicator_spacing"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toStartOf="@id/indicator5ImageView"
+        app:layout_constraintHeight_percent=".04"
+        app:layout_constraintStart_toEndOf="@id/indicator3ImageView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_keypad_indicator_unselected" />
+
+    <ImageView
+        android:id="@+id/indicator5ImageView"
+        style="@style/KeypadIndicators"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent=".04"
+        app:layout_constraintStart_toEndOf="@id/indicator4ImageView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_keypad_indicator_unselected" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/medium_space"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="H, 11:15"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/indicator3ImageView">
+
+        <!-- Buttons -->
+        <TextView
+            android:id="@+id/button1TextView"
+            style="@style/KeypadButtons"
+            android:text="@string/button_one"
+            app:layout_constraintBottom_toBottomOf="@id/button2TextView"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintEnd_toStartOf="@id/spacer12"
+            app:layout_constraintHorizontal_chainStyle="spread_inside"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/button2TextView" />
+
+        <View
+            android:id="@+id/spacer12"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="@id/button2TextView"
+            app:layout_constraintEnd_toStartOf="@id/button2TextView"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintStart_toEndOf="@id/button1TextView"
+            app:layout_constraintTop_toTopOf="@id/button2TextView" />
+
+        <TextView
+            android:id="@+id/button2TextView"
+            style="@style/KeypadButtons"
+            android:text="@string/button_two"
+            app:layout_constraintBottom_toTopOf="@id/button5TextView"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintEnd_toStartOf="@id/spacer23"
+            app:layout_constraintStart_toEndOf="@id/spacer12"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_chainStyle="spread_inside" />
+
+        <View
+            android:id="@+id/spacer23"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="@id/button2TextView"
+            app:layout_constraintEnd_toStartOf="@id/button3TextView"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintStart_toEndOf="@id/button2TextView"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/button3TextView"
+            style="@style/KeypadButtons"
+            android:text="@string/button_three"
+            app:layout_constraintBottom_toBottomOf="@id/button2TextView"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/spacer23"
+            app:layout_constraintTop_toTopOf="@id/button2TextView" />
+
+        <TextView
+            android:id="@+id/button4TextView"
+            style="@style/KeypadButtons"
+            android:text="@string/button_four"
+            app:layout_constraintBottom_toBottomOf="@id/button5TextView"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintEnd_toEndOf="@id/button1TextView"
+            app:layout_constraintStart_toStartOf="@id/button1TextView"
+            app:layout_constraintTop_toTopOf="@id/button5TextView" />
+
+        <TextView
+            android:id="@+id/button5TextView"
+            style="@style/KeypadButtons"
+            android:text="@string/button_five"
+            app:layout_constraintBottom_toTopOf="@id/button8TextView"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintEnd_toEndOf="@id/button2TextView"
+            app:layout_constraintStart_toStartOf="@id/button2TextView"
+            app:layout_constraintTop_toBottomOf="@id/button2TextView" />
+
+        <TextView
+            android:id="@+id/button6TextView"
+            style="@style/KeypadButtons"
+            android:text="@string/button_six"
+            app:layout_constraintBottom_toBottomOf="@id/button5TextView"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintEnd_toEndOf="@id/button3TextView"
+            app:layout_constraintStart_toStartOf="@id/button3TextView"
+            app:layout_constraintTop_toTopOf="@id/button5TextView" />
+
+        <TextView
+            android:id="@+id/button7TextView"
+            style="@style/KeypadButtons"
+            android:text="@string/button_seven"
+            app:layout_constraintBottom_toBottomOf="@id/button8TextView"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintEnd_toEndOf="@id/button1TextView"
+            app:layout_constraintStart_toStartOf="@id/button1TextView"
+            app:layout_constraintTop_toTopOf="@id/button8TextView" />
+
+        <TextView
+            android:id="@+id/button8TextView"
+            style="@style/KeypadButtons"
+            android:text="@string/button_eight"
+            app:layout_constraintBottom_toTopOf="@id/button0TextView"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintEnd_toEndOf="@id/button2TextView"
+            app:layout_constraintStart_toStartOf="@id/button2TextView"
+            app:layout_constraintTop_toBottomOf="@id/button5TextView" />
+
+        <TextView
+            android:id="@+id/button9TextView"
+            style="@style/KeypadButtons"
+            android:text="@string/button_nine"
+            app:layout_constraintBottom_toBottomOf="@id/button8TextView"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintEnd_toEndOf="@id/button3TextView"
+            app:layout_constraintStart_toStartOf="@id/button3TextView"
+            app:layout_constraintTop_toTopOf="@id/button8TextView" />
+
+        <TextView
+            android:id="@+id/forgotPasscodeTextView"
+            style="@style/KeypadButtons"
+            android:layout_width="0dp"
+            android:background="@color/tabItemBackground"
+            android:maxLines="2"
+            android:lines="2"
+            android:textSize="@dimen/smaller_text_size_sdp"
+            app:autoSizeMaxTextSize="@dimen/small_text_size_sdp"
+            app:autoSizeMinTextSize="@dimen/smaller_text_size_sdp"
+            app:autoSizeTextType="uniform"
+            app:layout_constraintBottom_toBottomOf="@id/button0TextView"
+            app:layout_constraintEnd_toEndOf="@id/button1TextView"
+            app:layout_constraintStart_toStartOf="@id/button1TextView"
+            app:layout_constraintTop_toTopOf="@id/button0TextView"
+            tools:text="@string/forgot_passcode" />
+
+        <TextView
+            android:id="@+id/button0TextView"
+            style="@style/KeypadButtons"
+            android:text="@string/button_zero"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintEnd_toEndOf="@id/button2TextView"
+            app:layout_constraintStart_toStartOf="@id/button2TextView"
+            app:layout_constraintTop_toBottomOf="@id/button8TextView" />
+
+        <ImageView
+            android:id="@+id/backspaceImageView"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:contentDescription="@string/backspace_button"
+            app:layout_constraintBottom_toBottomOf="@id/button0TextView"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintEnd_toEndOf="@id/button3TextView"
+            app:layout_constraintStart_toStartOf="@id/button3TextView"
+            app:layout_constraintTop_toTopOf="@id/button0TextView"
+            app:srcCompat="@drawable/ic_keypad_backspace" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</merge>

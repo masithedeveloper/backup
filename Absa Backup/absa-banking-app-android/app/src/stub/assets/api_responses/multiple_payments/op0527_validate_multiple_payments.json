@@ -1,0 +1,159 @@
+{
+  "successResponseModel": {
+    "payData": {
+      "errors": null,
+      "fundsTransferBeneficiaryValidateRespDTO": [
+        {
+          "validateMsg": null,
+          "warningMsg": null,
+          "errorMsg": null,
+          "maskedFrmActNo": "******2323",
+          "benId": "2",
+          "myNotice": "No",
+          "frmActNo": "4047952323",
+          "benNam": "test1",
+          "branchCd": "632005",
+          "branchNam": "",
+          "bankNam": "ABSA BANK",
+          "imidPay": "OFF",
+          "nowFlg": "NOW",
+          "futureTxDate": "2018-02-04-00:00",
+          "myRef": "myref1",
+          "thirRef": "bebref1",
+          "myMethod": "",
+          "myDetl": "",
+          "thirNotice": "No",
+          "thirMethod": "",
+          "thirDetl": "",
+          "txnAmt": {
+            "amt": "444.00",
+            "curr": "R"
+          },
+          "instNam": null,
+          "benAcctNum": "4047069003",
+          "popUpFlag": null,
+          "frmActDesc": null,
+          "iipReferenceNumber": "",
+          "benStatusType": "Absa"
+        },
+        {
+          "validateMsg": "The maximum of 6 future-dated payments has been reached",
+          "warningMsg": null,
+          "errorMsg": null,
+          "maskedFrmActNo": "******2323",
+          "benId": "1",
+          "myNotice": "No",
+          "frmActNo": "4047952323",
+          "benNam": "Ant01",
+          "branchCd": "632005",
+          "branchNam": "",
+          "bankNam": "ABSA BANK",
+          "imidPay": "OFF",
+          "nowFlg": "OWN",
+          "futureTxDate": "2018-06-02-00:00",
+          "myRef": "myref",
+          "thirRef": "benref",
+          "myMethod": "",
+          "myDetl": "",
+          "thirNotice": "No",
+          "thirMethod": "",
+          "thirDetl": "",
+          "txnAmt": {
+            "amt": "555.00",
+            "curr": "R"
+          },
+          "instNam": null,
+          "benAcctNum": "4047069003",
+          "popUpFlag": null,
+          "frmActDesc": null,
+          "iipReferenceNumber": "",
+          "benStatusType": "Absa"
+        },
+        {
+          "validateMsg": null,
+          "warningMsg": null,
+          "errorMsg": null,
+          "maskedFrmActNo": "******2323",
+          "benId": "2",
+          "myNotice": "No",
+          "frmActNo": "4047952323",
+          "benNam": "test1",
+          "branchCd": "632005",
+          "branchNam": "",
+          "bankNam": "ABSA BANK",
+          "imidPay": "OFF",
+          "nowFlg": "NOW",
+          "futureTxDate": "2018-01-03-00:00",
+          "myRef": "myref1",
+          "thirRef": "bebref1",
+          "myMethod": "",
+          "myDetl": "",
+          "thirNotice": "No",
+          "thirMethod": "",
+          "thirDetl": "",
+          "txnAmt": {
+            "amt": "444.00",
+            "curr": "R"
+          },
+          "instNam": null,
+          "benAcctNum": "4047069003",
+          "popUpFlag": null,
+          "frmActDesc": null,
+          "iipReferenceNumber": "",
+          "benStatusType": "Absa"
+        },
+        {
+          "validateMsg": "The maximum of 6 future-dated payments has been reached",
+          "warningMsg": null,
+          "errorMsg": null,
+          "maskedFrmActNo": "******2323",
+          "benId": "1",
+          "myNotice": "No",
+          "frmActNo": "4047952323",
+          "benNam": "Ant01",
+          "branchCd": "632005",
+          "branchNam": "",
+          "bankNam": "ABSA BANK",
+          "imidPay": "OFF",
+          "nowFlg": "OWN",
+          "futureTxDate": "2018-01-02-00:00",
+          "myRef": "myref",
+          "thirRef": "benref",
+          "myMethod": "",
+          "myDetl": "",
+          "thirNotice": "No",
+          "thirMethod": "",
+          "thirDetl": "",
+          "txnAmt": {
+            "amt": "555.00",
+            "curr": "R"
+          },
+          "instNam": null,
+          "benAcctNum": "4047069003",
+          "popUpFlag": null,
+          "frmActDesc": null,
+          "iipReferenceNumber": "",
+          "benStatusType": "Absa"
+        }
+      ],
+      "totalNormalAndIIPAmt": {
+        "amt": "444.00",
+        "curr": "R"
+      },
+      "totalFutureDatedAmt": {
+        "amt": "555.00",
+        "curr": "R"
+      },
+      "transactionReferenceId": "15127171284052",
+      "txnMessage": "SUCCESS",
+      "txnStatus": "Success"
+    },
+    "payHdr": {
+      "resMsg": "SUCCESS",
+      "resCde": "00000",
+      "resId": "RES0527",
+      "expTrace": null,
+      "serVer": "2.0"
+    }
+  }
+}

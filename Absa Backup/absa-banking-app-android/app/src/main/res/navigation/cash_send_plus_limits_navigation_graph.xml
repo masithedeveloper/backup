@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cashSendPlusLimitsNavGraph"
+    app:startDestination="@id/cashSendPlusLimitsFragment">
+
+    <fragment
+        android:id="@+id/cashSendPlusLimitsFragment"
+        android:name="com.barclays.absa.banking.cashSendPlus.ui.CashSendPlusLimitsFragment"
+        android:label="CashSendPlusLimitsFragment"
+        tools:layout="@layout/cash_send_plus_limits_fragment">
+        <action
+            android:id="@+id/action_cashSendPlusLimitsFragment_to_editCashSendPlusLimitsFragment"
+            app:destination="@id/editCashSendPlusLimitsFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/editCashSendPlusLimitsFragment"
+        android:name="com.barclays.absa.banking.cashSendPlus.ui.EditCashSendPlusLimitsFragment"
+        android:label="EditCashSendPlusLimitsFragment"
+        tools:layout="@layout/edit_cash_send_plus_limits_fragment">
+        <action
+            android:id="@+id/action_cashSendPlusLimitsFragment_to_genericResultFragment"
+            app:destination="@id/genericResultFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/genericResultFragment"
+        android:name="styleguide.screens.GenericResultScreenFragment"
+        android:label="GenericResultScreenFragment"
+        tools:layout="@layout/generic_results_screen_fragment">
+        <argument
+            android:name="GenericResultScreenFragment"
+            app:argType="styleguide.screens.GenericResultScreenProperties" />
+    </fragment>
+</navigation>

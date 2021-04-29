@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <styleguide.content.HeadingView
+            android:id="@+id/whatIsOverdraftTitle"
+            style="@style/NormalTextRegularDark"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_heading="@string/what_is_an_overdraft"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <styleguide.content.TertiaryContentAndLabelView
+            android:id="@+id/overdraftDescription"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_should_show_check_box="false"
+            app:attribute_tertiary_content="@string/overdraft_info_text"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/whatIsOverdraftTitle" />
+
+        <TextView
+            android:id="@+id/overdraftDisclaimer"
+            style="@style/SmallTextMediumDark"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/medium_space"
+            android:layout_marginTop="@dimen/medium_space"
+            android:layout_marginEnd="@dimen/medium_space"
+            android:layout_marginBottom="@dimen/tiny_space"
+            android:text="@string/overdraft_intro_disclaimer"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/overdraftDescription" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

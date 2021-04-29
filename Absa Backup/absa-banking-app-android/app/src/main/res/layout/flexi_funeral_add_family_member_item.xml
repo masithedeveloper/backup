@@ -1,0 +1,10 @@
+<styleguide.forms.NormalInputView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/addFamilyMemberNormalInputView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:attribute_hint_text="@string/flexi_funeral_select_a_cover"
+    app:attribute_selector_type="LONG_LIST"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />

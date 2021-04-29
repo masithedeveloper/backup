@@ -1,0 +1,52 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0881",
+      "resCde": "00000",
+      "resMsg": "Success",
+      "serVer": "2.0"
+    },
+    "payData": {
+      "respDTO": {
+        "cmacountryIndicator": "",
+        "foreigncurrencyList": [
+          {
+            "countryCode": "TR",
+            "currencyCode": "EUR",
+            "currencyDescription": "EURO"
+          },
+          {
+            "countryCode": "TR",
+            "currencyCode": "TRY",
+            "currencyDescription": "NEW TURKISH LIRA"
+          },
+          {
+            "countryCode": "TR",
+            "currencyCode": "USD",
+            "currencyDescription": "US DOLLAR"
+          }
+        ],
+        "localcurrencyList": [
+          {
+            "currencyCode": "ZAR",
+            "currencyDescription": "SOUTH AFRICAN RAND"
+          },
+          {
+            "currencyCode": "USD",
+            "currencyDescription": "US DOLLAR"
+          },
+          {
+            "currencyCode": "EUR",
+            "currencyDescription": "EURO"
+          },
+          {
+            "currencyCode": "TRY",
+            "currencyDescription": "NEW TURKISH LIRA"
+          }
+        ]
+      },
+      "txnStatus": "Success",
+      "txnMessage": "Success"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES2135",
+      "resCde": "00000",
+      "resMsg": "Success",
+      "serVer": "2.0",
+      "expTrace": null
+    },
+    "payData": {
+      "applyForCreditCardDetails": {
+        "responseCode": "SE01",
+        "responseDescription": "Duplicate Match",
+        "leadProviderRefNumber": "AAPP1910304529104324",
+        "applicationRefNumber": "601910300649359512",
+        "outcome": "Declined"
+      },
+      "txnStatus": "Success",
+      "txnMessage": "Success"
+    }
+  }
+}

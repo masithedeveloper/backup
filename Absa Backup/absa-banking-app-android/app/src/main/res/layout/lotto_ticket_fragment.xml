@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/ScrollView"
+    android:animateLayoutChanges="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/lottoTabLayout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            style="@style/LottoTabLayoutStyle"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <com.google.android.material.tabs.TabItem
+                android:id="@+id/lottoTabItem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/lotto" />
+
+            <com.google.android.material.tabs.TabItem
+                android:id="@+id/lottoPlus1TabItem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/lotto_plus_one" />
+
+            <com.google.android.material.tabs.TabItem
+                android:id="@+id/lottoPlus2TabItem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/lotto_plus_two" />
+
+        </com.google.android.material.tabs.TabLayout>
+
+        <styleguide.forms.RoundedSelectorView
+            android:id="@+id/drawDateRoundedSelectorView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            app:attribute_selector_type="LONG_LIST"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/lottoTabLayout"
+            tools:attribute_description_text="Draw 1 of 4 (Wed 13 Aug)" />
+
+        <TextView
+            android:id="@+id/drawResultTextView"
+            style="@style/NormalTextMediumDark"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/large_space"
+            android:gravity="center"
+            android:text="@string/lotto_draw_results"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/drawDateRoundedSelectorView" />
+
+        <include
+            android:id="@+id/drawResultsView"
+            layout="@layout/multi_ball_view"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/medium_space"
+            android:layout_marginTop="@dimen/medium_space"
+            android:layout_marginEnd="@dimen/medium_space"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/drawResultTextView" />
+
+        <styleguide.content.LineItemView
+            android:id="@+id/lottoWinningsLineItemView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/normal_space"
+            android:visibility="gone"
+            app:attribute_label_text="@string/lotto_winnings"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/drawResultsView"
+            app:layout_goneMarginTop="@dimen/normal_space"
+            tools:attribute_content_text="R438.04" />
+
+        <View
+            android:id="@+id/dividerView1"
+            style="@style/DividerView"
+            android:layout_width="0dp"
+            android:layout_marginTop="@dimen/normal_space"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/lottoWinningsLineItemView" />
+
+        <styleguide.content.PrimaryContentAndLabelView
+            android:id="@+id/ticketBoardsContentAndLabelView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/small_space"
+            app:attribute_primary_label="@string/lotto_lotto_ticket"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/dividerView1"
+            tools:attribute_primary_content="2 boards" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/boardRecyclerView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/small_space"
+            android:overScrollMode="never"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/ticketBoardsContentAndLabelView" />
+
+        <styleguide.content.SecondaryContentAndLabelView
+            android:id="@+id/ticketReferenceContentAndLabelView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/normal_space"
+            app:attribute_secondary_label="@string/lotto_ticket_reference"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/boardRecyclerView"
+            tools:attribute_secondary_content="012345678938495849382" />
+
+        <View
+            android:id="@+id/dividerView2"
+            style="@style/DividerView"
+            android:layout_width="0dp"
+            android:layout_marginTop="@dimen/normal_space"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ticketReferenceContentAndLabelView" />
+
+        <styleguide.content.PrimaryContentAndLabelView
+            android:id="@+id/drawInformationContentAndLabelView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/normal_space"
+            app:attribute_primary_label="@string/lotto_draw_information"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/dividerView2"
+            tools:attribute_primary_content="29 Oct 2019" />
+
+        <lotto.jackpot.LottoJackpotView
+            android:id="@+id/jackpotView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/drawInformationContentAndLabelView" />
+
+        <styleguide.buttons.Button
+            android:id="@+id/replayTicketButton"
+            style="@style/SecondaryButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/lotto_replay_ticket"
+            app:attribute_primary_content="@string/lotto_draw_information"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/jackpotView"
+            app:layout_constraintVertical_bias="1" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

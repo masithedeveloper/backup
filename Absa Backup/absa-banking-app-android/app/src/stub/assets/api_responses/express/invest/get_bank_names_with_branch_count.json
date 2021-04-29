@@ -1,0 +1,210 @@
+{
+  "header": {
+    "statuscode": "0",
+    "userAgent": "ANDROID",
+    "jsessionid": "yKeZ7T-YI37xuTrOH09uQP01_Xx9k-dqeQ_3413E",
+    "esessionid": "7b94c028-f162-31ed-b829-06f9744dc619",
+    "service": "SavedApplicationsFacade",
+    "operation": "GetSavedApplicationsDetails",
+    "channel": "S",
+    "timestamp": "2020-08-13 18:03:30.570",
+    "sourceip": "22.241.133.158",
+    "accessAccount": "4048037891",
+    "userNumber": "1",
+    "nonce": "WDJlxKHkkttXU57Zd35-H4GlmXQ0v33PesMeDBP-CTQ",
+    "language": "en",
+    "organization": "ABSA",
+    "brand": "ABSA",
+    "applicationId": "AXOBMOBAPP",
+    "resultMessages": [],
+    "paginationContext": {
+      "moreToCome": false,
+      "batchSize": 9999,
+      "batchSizeLimit": 9999,
+      "recordIdentity": "0",
+      "totalNoOfRecords": 1
+    }
+  },
+  "bankNameWithBranchCount": [
+    {
+      "bankName": "ABSA BANK LIMITED",
+      "branchCount": 2010
+    },
+    {
+      "bankName": "AFRICAN BANK",
+      "branchCount": 1
+    },
+    {
+      "bankName": "ALBARAKA BANK",
+      "branchCount": 1
+    },
+    {
+      "bankName": "BANK WINDHOEK",
+      "branchCount": 62
+    },
+    {
+      "bankName": "BIDVEST BANK LIMITED",
+      "branchCount": 1
+    },
+    {
+      "bankName": "BNP PARIBAS",
+      "branchCount": 1
+    },
+    {
+      "bankName": "CAPITEC BANK LIMITED",
+      "branchCount": 1
+    },
+    {
+      "bankName": "CITIBANK",
+      "branchCount": 1
+    },
+    {
+      "bankName": "DISCOVERY BANK",
+      "branchCount": 1
+    },
+    {
+      "bankName": "FBC FIDELITY BANK LIMITED",
+      "branchCount": 2
+    },
+    {
+      "bankName": "FINBOND MUTUAL BANK",
+      "branchCount": 1
+    },
+    {
+      "bankName": "FINBOND NET1",
+      "branchCount": 1
+    },
+    {
+      "bankName": "FIRST NATIONAL BANK",
+      "branchCount": 1910
+    },
+    {
+      "bankName": "GRINDROD BANK LIMITED",
+      "branchCount": 1
+    },
+    {
+      "bankName": "GROBANK LTD",
+      "branchCount": 26
+    },
+    {
+      "bankName": "HABIB OVERSEAS BANK LIMITED",
+      "branchCount": 6
+    },
+    {
+      "bankName": "HBZ BANK LIMITED",
+      "branchCount": 9
+    },
+    {
+      "bankName": "HSBC BANK PLC",
+      "branchCount": 1
+    },
+    {
+      "bankName": "INVESTEC BANK LIMITED",
+      "branchCount": 1
+    },
+    {
+      "bankName": "ITHALA (ABSA)",
+      "branchCount": 57
+    },
+    {
+      "bankName": "J.P.MORGAN CHASE BANK N.A.",
+      "branchCount": 1
+    },
+    {
+      "bankName": "MERCANTILE BANK LTD",
+      "branchCount": 29
+    },
+    {
+      "bankName": "NEDBANK",
+      "branchCount": 1361
+    },
+    {
+      "bankName": "NEDBANK BOND",
+      "branchCount": 1
+    },
+    {
+      "bankName": "NEDBANK LESOTHO LTD",
+      "branchCount": 10
+    },
+    {
+      "bankName": "NEDBANK LTD INC. BOE BANK",
+      "branchCount": 95
+    },
+    {
+      "bankName": "NEDBANK NAMIBIA",
+      "branchCount": 38
+    },
+    {
+      "bankName": "NEDBANK SWAZILAND LTD",
+      "branchCount": 13
+    },
+    {
+      "bankName": "OLYMPUS MOBILE BANK",
+      "branchCount": 1
+    },
+    {
+      "bankName": "PEOPLES BANK - PEP BANK",
+      "branchCount": 1
+    },
+    {
+      "bankName": "PEOPLES BANK LTD INC NBS",
+      "branchCount": 1
+    },
+    {
+      "bankName": "PERM/PEOPLES BANK",
+      "branchCount": 1
+    },
+    {
+      "bankName": "SA RESERVE BANK",
+      "branchCount": 3
+    },
+    {
+      "bankName": "SASFIN BANK",
+      "branchCount": 1
+    },
+    {
+      "bankName": "SOCIETE GENERALE JHB BRANCH",
+      "branchCount": 1
+    },
+    {
+      "bankName": "SOUTH AFRICAN POST OFFICE LTD",
+      "branchCount": 1
+    },
+    {
+      "bankName": "STANDARD BANK SA LTD",
+      "branchCount": 824
+    },
+    {
+      "bankName": "STANDARD BANK SWAZILAND LIMITE",
+      "branchCount": 12
+    },
+    {
+      "bankName": "STANDARD CHARTERED BANK SA",
+      "branchCount": 3
+    },
+    {
+      "bankName": "STANDARD LESOTHO BANK LTD",
+      "branchCount": 17
+    },
+    {
+      "bankName": "STATE BANK OF INDIA",
+      "branchCount": 1
+    },
+    {
+      "bankName": "TYMEBANK OF TYMEBANK LTD",
+      "branchCount": 1
+    },
+    {
+      "bankName": "UBANK BANK LIMITED",
+      "branchCount": 1
+    },
+    {
+      "bankName": "UNIBANK",
+      "branchCount": 1
+    },
+    {
+      "bankName": "VBS MUTUAL BANK",
+      "branchCount": 1
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+/build
+.DS_Store
+manifest.rpkg
+src/main/assets/manifest.rpkg
+/src/libs/taz_copy/META-INF/MANIFEST.MF

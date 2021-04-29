@@ -1,0 +1,159 @@
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scrollView"
+    style="@style/ScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/headingLabel"
+            style="@style/LargeTextMediumDark"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/medium_space"
+            android:text="@string/membership_details"
+            app:attribute_heading="@string/membership_details"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <styleguide.content.LineItemView
+            android:id="@+id/totalEarningsLineItemView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/normal_space"
+            app:attribute_label_text="@string/total_earnings"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/headingLabel" />
+
+        <styleguide.content.LineItemView
+            android:id="@+id/totalRewardsRedeemedLineItemView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_label_text="@string/total_redeems"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/totalEarningsLineItemView" />
+
+        <View
+            android:id="@+id/dividerView1"
+            style="@style/DividerView"
+            android:layout_width="0dp"
+            android:layout_marginTop="@dimen/medium_space"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/totalRewardsRedeemedLineItemView" />
+
+        <styleguide.buttons.OptionActionButtonView
+            android:id="@+id/manageDebiOrderOptionActionButtonView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_caption="@string/behavioural_rewards_manage_debit_order"
+            app:attribute_icon="@drawable/ic_settings"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/dividerView1" />
+
+        <View
+            android:id="@+id/dividerView2"
+            style="@style/DividerView"
+            android:layout_width="0dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/manageDebiOrderOptionActionButtonView" />
+
+        <TextView
+            android:id="@+id/needHelpTextView"
+            style="@style/HeadingTextMediumBoldDark"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/medium_space"
+            android:layout_marginTop="@dimen/medium_space"
+            android:layout_marginEnd="@dimen/medium_space"
+            android:text="@string/need_help_passcode"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/dividerView2" />
+
+        <TextView
+            android:id="@+id/availabilityHotlineTextView"
+            style="@style/NormalTextRegularDark"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/medium_space"
+            android:layout_marginTop="@dimen/tiny_space"
+            android:layout_marginEnd="@dimen/medium_space"
+            android:text="@string/behavioural_rewards_help_availability_hotline"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/needHelpTextView" />
+
+        <styleguide.content.ContactView
+            android:id="@+id/rewardsHotlineContactView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/medium_space"
+            android:clickable="true"
+            android:focusable="true"
+            app:attribute_contact_name="@string/behavioural_rewards_hotline"
+            app:attribute_contact_number="@string/behavioural_rewards_apply_rewards_number"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/availabilityHotlineTextView" />
+
+        <View
+            android:id="@+id/dividerView3"
+            style="@style/DividerView"
+            android:layout_width="0dp"
+            android:layout_marginTop="@dimen/small_space"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/rewardsHotlineContactView" />
+
+        <TextView
+            android:id="@+id/availabilityTextView"
+            style="@style/NormalTextRegularDark"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/medium_space"
+            android:layout_marginTop="@dimen/medium_space"
+            android:layout_marginEnd="@dimen/medium_space"
+            android:text="@string/behavioural_rewards_help_availability"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/dividerView3" />
+
+        <styleguide.content.ContactView
+            android:id="@+id/callCentreContactView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/small_space"
+            android:clickable="true"
+            android:focusable="true"
+            app:attribute_contact_name="@string/banking_app_support_title"
+            app:attribute_contact_number="@string/banking_app_support_number"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/availabilityTextView" />
+
+        <styleguide.content.ContactView
+            android:id="@+id/emailCentreContactView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            app:attribute_contact_name="@string/banking_app_support_title"
+            app:attribute_contact_number="@string/banking_app_support_email"
+            app:attribute_icon="@drawable/ic_email_new"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/callCentreContactView" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

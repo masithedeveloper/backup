@@ -1,0 +1,1217 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES2101",
+      "resCde": "00000",
+      "resMsg": "Success",
+      "serVer": "2.0",
+      "expTrace": null
+    },
+    "payData": {
+      "siteDetails": [
+        {
+          "town": "PORT ELIZABETH",
+          "suburb": "FAIRVIEW",
+          "siteCode": "000000071",
+          "siteName": "SKY BRANCH EC"
+        },
+        {
+          "town": "SANDOWN",
+          "suburb": "61 GWEN LANE",
+          "siteCode": "000000136",
+          "siteName": "CPF SECURITIES"
+        },
+        {
+          "town": "NEWTON PARK",
+          "suburb": "72 RING ROAD",
+          "siteCode": "000000474",
+          "siteName": "AGRI BKB"
+        },
+        {
+          "town": "WATLOO, PRETORIA",
+          "suburb": "1ST FLOOR 270 MAGGS STREET",
+          "siteCode": "000000651",
+          "siteName": "REGIONAL SERVICE CENTRE BB COMM PTA"
+        },
+        {
+          "town": "JOHANNESBURG",
+          "suburb": "11 DIAGONAL STREET",
+          "siteCode": "000000757",
+          "siteName": "NORTHERN CAPE SMME FUND"
+        },
+        {
+          "town": "GEORGE",
+          "suburb": "106 YORK STREET",
+          "siteCode": "000001165",
+          "siteName": "COMMERCIAL DORMANT"
+        },
+        {
+          "town": "VINCENT, EAST LONDON",
+          "suburb": "59 WESTERN AVENUE",
+          "siteCode": "000001166",
+          "siteName": "EC PREMIUM"
+        },
+        {
+          "town": "GEORGE",
+          "suburb": "106 YORK STREET",
+          "siteCode": "000001167",
+          "siteName": "PREMIUM SOUTHERN CAPE"
+        },
+        {
+          "town": "NEWTOWN",
+          "suburb": "11 DIAGONAL STREET",
+          "siteCode": "000001433",
+          "siteName": "CORPORATE CONSOLIDATED GAUTENG"
+        },
+        {
+          "town": "SANDTON",
+          "suburb": "15 ALICE LANE",
+          "siteCode": "000001610",
+          "siteName": "CIB CPF INLAND 2"
+        },
+        {
+          "town": "CENTURION",
+          "suburb": "1263 HEUWEL STREET",
+          "siteCode": "000001612",
+          "siteName": "GN SKY BRANCH"
+        },
+        {
+          "town": "FOURWAYS",
+          "suburb": "MONTE CASINO BOULEVARD",
+          "siteCode": "000001660",
+          "siteName": "ILLOVO BBS"
+        },
+        {
+          "town": "SANDTON",
+          "suburb": "15 ALICE LANE",
+          "siteCode": "000001691",
+          "siteName": "CIB CPF COASTAL 2"
+        },
+        {
+          "town": "SILVERTON",
+          "suburb": "1ST FLOOR 270 MAGGS STREET",
+          "siteCode": "000001942",
+          "siteName": "RSC BB COMMERCIAL PTA"
+        },
+        {
+          "town": "JOHANNESBURG",
+          "suburb": "AUCKLAND PARK",
+          "siteCode": "000001968",
+          "siteName": "CLIENT SERVICE OFFICE JHB"
+        },
+        {
+          "town": "LICHTENBURG",
+          "suburb": null,
+          "siteCode": "000002287",
+          "siteName": "LICHTENBURG PREMIUM"
+        },
+        {
+          "town": "FAIRVIEW PORT ELIZABETH",
+          "suburb": "C/O W MOFFET \u0026 OVERBAAKENS RD",
+          "siteCode": "000002623",
+          "siteName": "EC PUBLIC SECTOR"
+        },
+        {
+          "town": "JOHANNESBURG",
+          "suburb": null,
+          "siteCode": "000002656",
+          "siteName": "AFRICA EASTGATE"
+        },
+        {
+          "town": "JOHANNESBURG",
+          "suburb": "11 DIAGONAL STREET",
+          "siteCode": "000002731",
+          "siteName": "FREE STATE SMME FUND"
+        },
+        {
+          "town": "JOHANNESBURG",
+          "suburb": "11 DIAGONAL STREET",
+          "siteCode": "000002814",
+          "siteName": "GAUTENG SMME FUND"
+        },
+        {
+          "town": "LAKEVIEW TERRACE",
+          "suburb": null,
+          "siteCode": "000002958",
+          "siteName": "ENTERPRISE BANKING ZULULAND"
+        },
+        {
+          "town": "UMHLATHUZE",
+          "suburb": "RICHARDS BAY",
+          "siteCode": "000002988",
+          "siteName": "COMMERCIAL BUSINESS ZULULAND"
+        },
+        {
+          "town": "JOHANNESBURG",
+          "suburb": "ELOFF STREET",
+          "siteCode": "000002991",
+          "siteName": "SMALL BUSINESS DRYDEN INTIMACY"
+        },
+        {
+          "town": "CAPE TOWN",
+          "suburb": "BRIDGE WAY CENTURY CITY",
+          "siteCode": "000003043",
+          "siteName": "PREMIUM BUSINESS WC"
+        },
+        {
+          "town": "UMHLANGA",
+          "suburb": "OFFICE ESTATE",
+          "siteCode": "000003044",
+          "siteName": "PREMIUM"
+        },
+        {
+          "town": "SANDTON",
+          "suburb": "15 ALICE LANE",
+          "siteCode": "000003045",
+          "siteName": "BB SANDTON PREM"
+        },
+        {
+          "town": "UMHLANGA",
+          "suburb": "RIDGESIDE",
+          "siteCode": "000003114",
+          "siteName": "PUBLIC SECTOR KWA ZULU NATAL"
+        },
+        {
+          "town": "POLOKWANE",
+          "suburb": "76 SCHOEMAN STREET",
+          "siteCode": "000003116",
+          "siteName": "RBB COMMERCIAL PUBL POLOKWANE"
+        },
+        {
+          "town": "KIMBERLEY",
+          "suburb": "80 BULTFONTEIN ROAD",
+          "siteCode": "000003117",
+          "siteName": "PUBLIC SECTOR NORTHERN CAPE"
+        },
+        {
+          "town": "FORESHORE",
+          "suburb": "10 OSWALD PIROW STREET",
+          "siteCode": "000003158",
+          "siteName": "CORPORATE CAPE TOWN"
+        },
+        {
+          "town": "JOHANNESBURG",
+          "suburb": "11 DIAGONAL STREET",
+          "siteCode": "000003159",
+          "siteName": "CORPORATE GAUTENG"
+        },
+        {
+          "town": "BELLVILE, CAPE TOWN",
+          "suburb": "WILLIE VAN SCHOOR DRIVE",
+          "siteCode": "000003164",
+          "siteName": "REGIONAL SERVICE CENTRES CPT"
+        },
+        {
+          "town": "BELLVILLE",
+          "suburb": "TYGERVALLEY,",
+          "siteCode": "000003165",
+          "siteName": "CORPORATE WESTERN CAPE"
+        },
+        {
+          "town": "LA LUCIA",
+          "suburb": "FROSTERLY PARK LA LUCIA RIDGE",
+          "siteCode": "000003167",
+          "siteName": "CORPORATE DURBAN"
+        },
+        {
+          "town": "BLOEMFONTEIN",
+          "suburb": "CNR DONALD MURRAY \u0026 ZASTRON ST",
+          "siteCode": "000003181",
+          "siteName": "PUBLIC SECTOR FREE STATE"
+        },
+        {
+          "town": "BRUMA",
+          "suburb": "EASTGATE OFFICE PARK",
+          "siteCode": "000003185",
+          "siteName": "CORPORATE EASTGATE"
+        },
+        {
+          "town": "JOHANNESBURG",
+          "suburb": "180 COMMISSIONER STREET",
+          "siteCode": "000003228",
+          "siteName": "MPUMALANGA SMME FUND"
+        },
+        {
+          "town": "JOHANNESBURG",
+          "suburb": "180 COMMISSIONER STREET",
+          "siteCode": "000003231",
+          "siteName": "WESTERN CAPE SMME FUND"
+        },
+        {
+          "town": "JANSEN PARK BOKSBURG",
+          "suburb": "CNR BENTEL \u0026 NORTH RAND ROAD",
+          "siteCode": "000003248",
+          "siteName": "BB KEMPTON PARK PREMIUM"
+        },
+        {
+          "town": "NEWTOWN",
+          "suburb": "DIAGONAL STREET",
+          "siteCode": "000003250",
+          "siteName": "CAPITAL GAUTENG"
+        },
+        {
+          "town": "JOHANNESBURG",
+          "suburb": null,
+          "siteCode": "000003262",
+          "siteName": "ABCORP GAU B"
+        },
+        {
+          "town": "JOHANNESBURG",
+          "suburb": null,
+          "siteCode": "000003265",
+          "siteName": "ABCORP GAU MNC B"
+        },
+        {
+          "town": "JOHANNESBURG",
+          "suburb": null,
+          "siteCode": "000003281",
+          "siteName": "ABCORP IFI B"
+        },
+        {
+          "town": "JOHANNESBURG",
+          "suburb": null,
+          "siteCode": "000003283",
+          "siteName": "ABCORP PS B"
+        },
+        {
+          "town": "JOHANNESBURG",
+          "suburb": null,
+          "siteCode": "000003297",
+          "siteName": "ABCORP HO B"
+        },
+        {
+          "town": "SANDTON",
+          "suburb": "15 ALICE LANE",
+          "siteCode": "000003367",
+          "siteName": "PUBLIC SE"
+        },
+        {
+          "town": "PORT ELIZABETH",
+          "suburb": "FAIRVIEW",
+          "siteCode": "000003369",
+          "siteName": "SME KK DORMANT"
+        },
+        {
+          "town": "WATERKLOOF GLEN EXT 2 PRETORIA",
+          "suburb": "CORNER ARAMIST AND COROBAY AVE",
+          "siteCode": "000003377",
+          "siteName": "RBB COMMERCIAL PUBL NORTHERN REGION"
+        },
+        {
+          "town": "STRUBENS VALLEY",
+          "suburb": "20 MILLENIUM BOULEVARD",
+          "siteCode": "000003529",
+          "siteName": "BB JHB WEST"
+        },
+        {
+          "town": "SANDTON",
+          "suburb": "15 ALICE LANE",
+          "siteCode": "000003535",
+          "siteName": "BB JHB NORTH"
+        },
+        {
+          "town": "BRUMA",
+          "suburb": "26 SOUTH BOULEVARD",
+          "siteCode": "000003537",
+          "siteName": "CITY CENTRE GROWTH"
+        },
+        {
+          "town": "VANDERBIJLPARK",
+          "suburb": "C/O BARRAGE RD \u0026 ROSSINI BLVD",
+          "siteCode": "000003547",
+          "siteName": "VAAL GROWTH"
+        },
+        {
+          "town": "BOKSBURG",
+          "suburb": "CNR PARK \u0026 ATLAS ROAD",
+          "siteCode": "000003549",
+          "siteName": "COMMERCIAL KEMPTON PARK GROWTH"
+        },
+        {
+          "town": "JOHANNESBURG",
+          "suburb": null,
+          "siteCode": "000003554",
+          "siteName": "FINANCE"
+        },
+        {
+          "town": "MEYERSDAL",
+          "suburb": "CNR H ALBERTS \u0026 MICHELE AVENUE",
+          "siteCode": "000003567",
+          "siteName": "MEYERSDAL GROWTH"
+        },
+        {
+          "town": "SECUNDA",
+          "suburb": "NICO DIEDERICKS STREET",
+          "siteCode": "000003626",
+          "siteName": "BB SECUNDA (00)"
+        },
+        {
+          "town": "WITBANK",
+          "suburb": "JOUBERTSRUS,",
+          "siteCode": "000003627",
+          "siteName": "BB WITBANK (00)"
+        },
+        {
+          "town": "NELSPRUIT",
+          "suburb": "20 PAUL KRUGER STREET",
+          "siteCode": "000003628",
+          "siteName": "NELSPRUIT BUSINESS UNIT"
+        },
+        {
+          "town": "POLOKWANE",
+          "suburb": "70 HANS VAN RENSBURG STREET",
+          "siteCode": "000003629",
+          "siteName": "BB POLOKWANE (00)"
+        },
+        {
+          "town": "BELLVILLE",
+          "suburb": "313 DURBAN ROAD",
+          "siteCode": "000003632",
+          "siteName": "RBB COMM TYGERVALLEY"
+        },
+        {
+          "town": "STELLENBOSCH",
+          "suburb": "PLEIN STREET",
+          "siteCode": "000003635",
+          "siteName": "COMMERCIAL BUSINESS WINELANDS"
+        },
+        {
+          "town": "CENTURY CITY",
+          "suburb": "BRIDGEPARK, BRIDGE WAY",
+          "siteCode": "000003637",
+          "siteName": "BB CAPE TOWN (00)"
+        },
+        {
+          "town": "BELLVILLE",
+          "suburb": "313 DURBAN ROAD",
+          "siteCode": "000003639",
+          "siteName": "RBB COMM CENTURY CITY"
+        },
+        {
+          "town": "GEORGE",
+          "suburb": null,
+          "siteCode": "000003640",
+          "siteName": "COMMERCIAL SOUTHERN CAPE"
+        },
+        {
+          "town": "VINCENT EAST LONDON",
+          "suburb": "59 WESTERN AVENUE",
+          "siteCode": "000003641",
+          "siteName": "COMMERCIAL OR TAMBO"
+        },
+        {
+          "town": "PORT ELIZABETH",
+          "suburb": "NEWTON PARK",
+          "siteCode": "000003642",
+          "siteName": "COMMERCIAL PE MIDLANDS"
+        },
+        {
+          "town": "BLOEMFONTEIN",
+          "suburb": "19 NELSON MANDELA DRIVE",
+          "siteCode": "000003643",
+          "siteName": "BB BLOEMFONTEIN (00)"
+        },
+        {
+          "town": "KIMBERLEY",
+          "suburb": "80 BULTFONTEIN ROAD",
+          "siteCode": "000003644",
+          "siteName": "BB NORTHERN CAPE (00)"
+        },
+        {
+          "town": "KROONSTAD",
+          "suburb": "CROSS STREET",
+          "siteCode": "000003645",
+          "siteName": "BB NORTHERN FREE STATE (00)"
+        },
+        {
+          "town": "LERKSDORP",
+          "suburb": null,
+          "siteCode": "000003646",
+          "siteName": "ABB KLERKSDORP"
+        },
+        {
+          "town": "RUSTENBURG",
+          "suburb": "CNR N MANDELA \u0026 B NAUDE DRIVE",
+          "siteCode": "000003647",
+          "siteName": "RUSTENBURG COMMERCIAL"
+        },
+        {
+          "town": "RIDGESIDE UMHLANGA",
+          "suburb": "33 RICHEFOND CIRCLE",
+          "siteCode": "000003650",
+          "siteName": "BB NORTH DURBAN (00)"
+        },
+        {
+          "town": "WATERKLOOF GLEN EXT 2 PTA",
+          "suburb": "CORNER ARAMIST \u0026 COROBAY AVE",
+          "siteCode": "000003652",
+          "siteName": "RBB PRETORIA EAST GROWTH"
+        },
+        {
+          "town": "CENTURION",
+          "suburb": "1263 HEUWEL STREET",
+          "siteCode": "000003653",
+          "siteName": "BB CENTURION (00)"
+        },
+        {
+          "town": "WORCESTER",
+          "suburb": "29A STOCKENSTROM STREET",
+          "siteCode": "000003655",
+          "siteName": "BB BREEDERIVIER (00)"
+        },
+        {
+          "town": "PIETERMARITZBURG",
+          "suburb": "15 CHATTERTON ROAD",
+          "siteCode": "000003656",
+          "siteName": "COMMERCIAL PIETERMARITZBURG"
+        },
+        {
+          "town": "SANDTON",
+          "suburb": "16 ALICE LANE",
+          "siteCode": "000003658",
+          "siteName": "SANDTON PREMIUM HR"
+        },
+        {
+          "town": "BOKSBURG",
+          "suburb": "C/O BENTAL \u0026 NORTHRAND ROAD",
+          "siteCode": "000003659",
+          "siteName": "COMMERCIAL EASTGATE GROWTH"
+        },
+        {
+          "town": "MONTANA",
+          "suburb": "CNR ZAMBESI \u0026 DR VD MERWE STR",
+          "siteCode": "000003661",
+          "siteName": "RBB COMMERCIAL MONTANA"
+        },
+        {
+          "town": "MTHATHA",
+          "suburb": "CNR YORK AND VICTORIA STREETS",
+          "siteCode": "000003662",
+          "siteName": "GROWTH MTHATHA"
+        },
+        {
+          "town": "BETHLEHEM",
+          "suburb": null,
+          "siteCode": "000003666",
+          "siteName": "BB EASTERN FREE STATE (00)"
+        },
+        {
+          "town": "NEWCASTLE",
+          "suburb": null,
+          "siteCode": "000003668",
+          "siteName": "BB NEWCASTLE (00)"
+        },
+        {
+          "town": "BELVILLE",
+          "suburb": "313 DURBAN ROAD",
+          "siteCode": "000003673",
+          "siteName": "RBB COMM WEST COAST"
+        },
+        {
+          "town": "POLOKWANE",
+          "suburb": "76 SCHOEMAN STREET",
+          "siteCode": "000003675",
+          "siteName": "BUSINESS BANK SERVICES POLOKWANE"
+        },
+        {
+          "town": "KLERKSDORP",
+          "suburb": "91 CHURCH STREET",
+          "siteCode": "000003677",
+          "siteName": "MID CORP KLERKSDORP"
+        },
+        {
+          "town": "RUSTENBURG",
+          "suburb": "CNR N MANDELA \u0026 B NAUDE DRIVE",
+          "siteCode": "000003679",
+          "siteName": "POTCHEFSTROOM PREMIUM"
+        },
+        {
+          "town": "PRETORIA",
+          "suburb": "CNR V/D WALT \u0026 PRETORIUS ST",
+          "siteCode": "000003681",
+          "siteName": "BUS BNK - PTA ABC NORTHWEST DEV SAT"
+        },
+        {
+          "town": "PRETORIA",
+          "suburb": "CNR V/D WALT \u0026 PRETORIUS ST",
+          "siteCode": "000003683",
+          "siteName": "BUS BNK - PTA ABC SENWES SAT"
+        },
+        {
+          "town": "NELSPRUIT",
+          "suburb": "CNR L TRICHARDT \u0026 P KRUGER STR",
+          "siteCode": "000003685",
+          "siteName": "RBB COMMERCIAL PREM NELSPRUIT"
+        },
+        {
+          "town": "BRUMA",
+          "suburb": "26 SOUTH BOULEVARD",
+          "siteCode": "000003687",
+          "siteName": "PREMIUM EASTGATE"
+        },
+        {
+          "town": "NELSPRUIT",
+          "suburb": "CNR L TRICHARDT \u0026 P KRUGER STR",
+          "siteCode": "000003689",
+          "siteName": "RBB COMMERCIAL PREM HIGHVELD"
+        },
+        {
+          "town": "KIMBERLEY",
+          "suburb": "80 BULTFONTEIN ROAD",
+          "siteCode": "000003691",
+          "siteName": "BUS BNK-ABC BLOEMF/TN SAT KIMBERLEY"
+        },
+        {
+          "town": "UPINGTON",
+          "suburb": "40 SCHRODER STREET",
+          "siteCode": "000003693",
+          "siteName": "BUS BNK-ABC BLOEMF/TN SAT UPINGTON"
+        },
+        {
+          "town": "CENTURY CITY, CAPE TOWN",
+          "suburb": "BRIDGE WAY",
+          "siteCode": "000003703",
+          "siteName": "SKYBRANCH WESTERN CAPE"
+        },
+        {
+          "town": "CLAREMONT",
+          "suburb": null,
+          "siteCode": "000003709",
+          "siteName": "RBB COMM SOUTHERN SUBURBS"
+        },
+        {
+          "town": "RUSTENBURG",
+          "suburb": null,
+          "siteCode": "000003717",
+          "siteName": "BUSINESS BANKING RUSTENBURG REMOTE"
+        },
+        {
+          "town": "POLOKWANE",
+          "suburb": "70 HANS VAN RENSBURG STREET",
+          "siteCode": "000003718",
+          "siteName": "BUSINESS BANK POLOKWANE REMOTE(PTA)"
+        },
+        {
+          "town": "POLOKWANE",
+          "suburb": "70 HANS VAN RENSBURG STREET",
+          "siteCode": "000003719",
+          "siteName": "BUSINESS BANK POLOKWANE REM-WITBANK"
+        },
+        {
+          "town": "BETHLEHEM",
+          "suburb": null,
+          "siteCode": "000003721",
+          "siteName": "BUSINESS BANKING BETHLEHEM REMOTE"
+        },
+        {
+          "town": "BETHLEHEM",
+          "suburb": null,
+          "siteCode": "000003725",
+          "siteName": "BUSINESS BANK LADYSMITH REMOTE"
+        },
+        {
+          "town": "GEORGE",
+          "suburb": null,
+          "siteCode": "000003727",
+          "siteName": "BB SOUTHERN CAPE REMOTE (00)"
+        },
+        {
+          "town": "LIMPOPO",
+          "suburb": "POLOKWANE",
+          "siteCode": "000003729",
+          "siteName": "LIMPOPO COMMERCIAL REGIONAL OFFICE"
+        },
+        {
+          "town": "JOHANNESBURG",
+          "suburb": "170 MAIN STREET",
+          "siteCode": "000003741",
+          "siteName": "BUSINESS BANKING SERVICES TRAINING"
+        },
+        {
+          "town": "WALTLOO",
+          "suburb": "337 PETROLEUM ROAD",
+          "siteCode": "000003743",
+          "siteName": "COR SERVICE CNTR JHB"
+        },
+        {
+          "town": "JOHANNESBURG",
+          "suburb": "160 TOWERS STREET",
+          "siteCode": "000003892",
+          "siteName": "INCUBATOR FUND AFFORDABLE HOUSING"
+        },
+        {
+          "town": "JOHANNESBURG",
+          "suburb": "160 TOWERS STREET",
+          "siteCode": "000003893",
+          "siteName": "INCUBATOR FUND FRANCHISING"
+        },
+        {
+          "town": "POLOKWANE",
+          "suburb": "76 SCHOEMAN STREET",
+          "siteCode": "000003894",
+          "siteName": "SKYBRANCH LIMPOPO"
+        },
+        {
+          "town": "JOHANNESBURG",
+          "suburb": "160 MAIN STREET",
+          "siteCode": "000003898",
+          "siteName": "NORTH WEST SMME FUND"
+        },
+        {
+          "town": "JOHANNESBURG",
+          "suburb": "160 MAIN STREET",
+          "siteCode": "000003948",
+          "siteName": "INCUBATOR FUND WESTERN CAPE"
+        },
+        {
+          "town": "JOHANNESBURG",
+          "suburb": "160 MAIN STREET",
+          "siteCode": "000003949",
+          "siteName": "KWA ZULU NATAL"
+        },
+        {
+          "town": "JOHANNESBURG",
+          "suburb": null,
+          "siteCode": "000004129",
+          "siteName": "GROUP LIFE"
+        },
+        {
+          "town": "JOHANNESBURG",
+          "suburb": null,
+          "siteCode": "000004154",
+          "siteName": "EMBEDDED FUNERAL"
+        },
+        {
+          "town": "JOHANNESBURG",
+          "suburb": null,
+          "siteCode": "000004162",
+          "siteName": "EDUCATION"
+        },
+        {
+          "town": "JOHANNESBURG",
+          "suburb": null,
+          "siteCode": "000004166",
+          "siteName": "CREDIT LIFE"
+        },
+        {
+          "town": "JOHANNESBURG",
+          "suburb": null,
+          "siteCode": "000004169",
+          "siteName": "PERSONAL ACCIDENT"
+        },
+        {
+          "town": "JOHANNESBURG",
+          "suburb": null,
+          "siteCode": "000004173",
+          "siteName": "FUNERAL"
+        },
+        {
+          "town": "JOHANNESBURG",
+          "suburb": "MARSHALLTOWN",
+          "siteCode": "000004480",
+          "siteName": "CIB CPF KWAZULU NATAL"
+        },
+        {
+          "town": "JOHANNESBURG",
+          "suburb": "MARSHALLTOWN",
+          "siteCode": "000004485",
+          "siteName": "CIB CPF WESTERN CAPE"
+        },
+        {
+          "town": "JOHANNESBURG",
+          "suburb": "MARSHALLTOWN",
+          "siteCode": "000004486",
+          "siteName": "CIB CPF NORTHERN"
+        },
+        {
+          "town": "JOHANNESBURG",
+          "suburb": "MARSHALLTOWN",
+          "siteCode": "000004490",
+          "siteName": "CIB CPF GAUTENG COMMERCIAL"
+        },
+        {
+          "town": "JOHANNESBURG",
+          "suburb": "MARSHALLTOWN",
+          "siteCode": "000004494",
+          "siteName": "CIB CPF EASTERN \u0026 SOUTHERN CAPE"
+        },
+        {
+          "town": "JOHANNESBURG",
+          "suburb": "MARSHALLTOWN",
+          "siteCode": "000004498",
+          "siteName": "BB CPF AFFORDABLE HOUSING COVERAGE"
+        },
+        {
+          "town": "JOHANNESBURG",
+          "suburb": "MARSHALLTOWN",
+          "siteCode": "000004501",
+          "siteName": "CIB CPF AFFORDABLE HOUSING COVERAGE"
+        },
+        {
+          "town": "JOHANNESBURG",
+          "suburb": "MARSHALLTOWN",
+          "siteCode": "000004504",
+          "siteName": "CIB CPF AFRICA COVERAGE"
+        },
+        {
+          "town": "JOHANNESBURG",
+          "suburb": "MARHSALLTOWN",
+          "siteCode": "000004505",
+          "siteName": "CIB CPF CENTRAL"
+        },
+        {
+          "town": "UMHLANGA",
+          "suburb": "33 RICHEFOND CIRCLE RIDGESIDE",
+          "siteCode": "000004523",
+          "siteName": "PREMIUM 1"
+        },
+        {
+          "town": "JOHANNESBURG",
+          "suburb": "MARSHALLTOWN",
+          "siteCode": "000004528",
+          "siteName": "CIB CPF GAUTENG CORPORATE"
+        },
+        {
+          "town": "KLERKSDORP",
+          "suburb": "91 CHURCH STREET",
+          "siteCode": "000004588",
+          "siteName": "P SECTOR NORTH WEST"
+        },
+        {
+          "town": "JOHANNESBURG",
+          "suburb": "15 TROYE STREET",
+          "siteCode": "000004731",
+          "siteName": "CPF HEADQUARTERS RBB"
+        },
+        {
+          "town": "BRIDGE WAY CENTURY CITY",
+          "suburb": "ABSA REGIONAL OFFICE",
+          "siteCode": "000004794",
+          "siteName": "PREMIUM AGRI WC"
+        },
+        {
+          "town": "BELLVILLE",
+          "suburb": "WILIE VAN SCHOOR DRIVE",
+          "siteCode": "000004801",
+          "siteName": "PUBLIC SECTOR WESTERN CAPE"
+        },
+        {
+          "town": "BLOEMFONTEIN",
+          "suburb": "CO NELSON MANDELA \u0026 PARFITT AV",
+          "siteCode": "000004833",
+          "siteName": "BUSINESS CENTRE - BLOEMFONTEIN (01)"
+        },
+        {
+          "town": "FAIRVIEW",
+          "suburb": "C/O W MOFFETT \u0026 OVERBAAKENS RD",
+          "siteCode": "000004838",
+          "siteName": "PREMIUM PORT ELIZABETH"
+        },
+        {
+          "town": "RIDGESIDE UMHLANGA",
+          "suburb": "33 RICHEFOND CIRCLE",
+          "siteCode": "000004924",
+          "siteName": "REGIONAL OFFICE ZULULAND"
+        },
+        {
+          "town": "STRUBENSVALLEY",
+          "suburb": "20 MILLENIUM BOULEVARD",
+          "siteCode": "000005222",
+          "siteName": "BB JHB FAR WEST"
+        },
+        {
+          "town": "POTCHEFSTROOM",
+          "suburb": null,
+          "siteCode": "000005224",
+          "siteName": "POTCHEFSTROOM COMMERCIAL"
+        },
+        {
+          "town": "LICHTENBURG",
+          "suburb": null,
+          "siteCode": "000005225",
+          "siteName": "LICHTENBURG COMMERCIAL"
+        },
+        {
+          "town": "SANDTON",
+          "suburb": null,
+          "siteCode": "000005247",
+          "siteName": "MID CORP SANDTON"
+        },
+        {
+          "town": "SA",
+          "suburb": "15 ALICE LANE",
+          "siteCode": "000005248",
+          "siteName": "ABCORP INLAND 2 CORPORATE ACCOUNTS"
+        },
+        {
+          "town": "TYGERVALLEY",
+          "suburb": "WILLIE VAN SCHOOR DRIVE",
+          "siteCode": "000005250",
+          "siteName": "ABCORP COASTAL WCAPE"
+        },
+        {
+          "town": "TYGERVALLEY",
+          "suburb": "WILLIE VAN SCHOOR DRIVE",
+          "siteCode": "000005256",
+          "siteName": "ABCORP WCAPE MNC ACCOUNTS"
+        },
+        {
+          "town": "TYGERVALLEY",
+          "suburb": "WILLIE VAN SCHOOR DRIVE",
+          "siteCode": "000005257",
+          "siteName": "ABCORP WCAPE PUBLIC SECTOR ACCOUNTS"
+        },
+        {
+          "town": "TYGERVALLEY",
+          "suburb": "WILLIE VAN SCHOOR DRIVE",
+          "siteCode": "000005258",
+          "siteName": "ABCORP WCAPE CORPORATE ACCOUNTS"
+        },
+        {
+          "town": "SANDTON",
+          "suburb": null,
+          "siteCode": "000005259",
+          "siteName": "MID CORPORATE PTA"
+        },
+        {
+          "town": "SANDTON",
+          "suburb": "15 ALICE LANE",
+          "siteCode": "000005260",
+          "siteName": "BB SANDTON KEYCREDIT"
+        },
+        {
+          "town": "SANDTON",
+          "suburb": "15 ALICE LANE",
+          "siteCode": "000005261",
+          "siteName": "ABCORP INLAND 2 PUBLIC SECTOR ACC"
+        },
+        {
+          "town": "SANDTON",
+          "suburb": "15 ALICE LANE",
+          "siteCode": "000005262",
+          "siteName": "ABCORP INLAND 2 MNC ACCOUNTS"
+        },
+        {
+          "town": "LA LUCIA RIDGE",
+          "suburb": "FROSTERLY CRESCENT",
+          "siteCode": "000005343",
+          "siteName": "ABSA CORPORATE KZN PUBLIC SECTOR AC"
+        },
+        {
+          "town": "LA LUCIA RIDGE",
+          "suburb": "FROSTERLY CRESCENT",
+          "siteCode": "000005345",
+          "siteName": "ABSA CORPORATE KZN CORPORATE ACCS"
+        },
+        {
+          "town": "THABAZIMBI",
+          "suburb": null,
+          "siteCode": "000005430",
+          "siteName": "RBB COMMERCIAL LEPHALALE"
+        },
+        {
+          "town": "TZANEEN",
+          "suburb": "15 DANIE JOUBERT DRIVE",
+          "siteCode": "000005431",
+          "siteName": "RBB COMMERCIAL TZANEEN"
+        },
+        {
+          "town": "MODIMOLLE",
+          "suburb": "CNR N MANDELA \u0026 PRETORIUS STR",
+          "siteCode": "000005435",
+          "siteName": "BB LIMPOPO WEST"
+        },
+        {
+          "town": "VRYBURG",
+          "suburb": "40 MARKET STREET",
+          "siteCode": "000005441",
+          "siteName": "BB VRYBURG"
+        },
+        {
+          "town": "THABAZIMBI",
+          "suburb": null,
+          "siteCode": "000005443",
+          "siteName": "RBB COMMERCIAL THABAZIMBI"
+        },
+        {
+          "town": "LICHTENBURG",
+          "suburb": "64 NELSON MANDELA DRIVE",
+          "siteCode": "000005445",
+          "siteName": "RUSTENBURG PREMIUM"
+        },
+        {
+          "town": "WOLMARANSSTAD",
+          "suburb": null,
+          "siteCode": "000005455",
+          "siteName": "BB WOLMARANSTAD"
+        },
+        {
+          "town": "SCHWEIZER RENEKE",
+          "suburb": null,
+          "siteCode": "000005457",
+          "siteName": "BB SCHWEIZER RENEKE"
+        },
+        {
+          "town": "LOUIS TRICHARDT",
+          "suburb": "97 KROGH STREET",
+          "siteCode": "000005458",
+          "siteName": "RBB COMMERCIAL LOUIS TRICHARDT"
+        },
+        {
+          "town": "GROBLERSDAL",
+          "suburb": "C/O MARK \u0026 NORTH AVENUE",
+          "siteCode": "000005459",
+          "siteName": "LOSKOP VALLEY COMMERCIAL"
+        },
+        {
+          "town": "THABAZIMBI",
+          "suburb": null,
+          "siteCode": "000005467",
+          "siteName": "RBB COMMERCIAL MODIMOLLE"
+        },
+        {
+          "town": "THABAZIMBI",
+          "suburb": null,
+          "siteCode": "000005470",
+          "siteName": "RBB COMMERCIAL MOKOPANE"
+        },
+        {
+          "town": "JOHANNESBURG",
+          "suburb": "EET",
+          "siteCode": "000005480",
+          "siteName": "ABCORP LIMPO CORPRBB"
+        },
+        {
+          "town": "HILLCREST",
+          "suburb": "177 DYER ROAD",
+          "siteCode": "000005481",
+          "siteName": "BB HILLCREST"
+        },
+        {
+          "town": "JOHANNESBURG",
+          "suburb": "15 TROYE STREET",
+          "siteCode": "000005506",
+          "siteName": "ABCORP CENTR CORPRBB"
+        },
+        {
+          "town": "JOHANNESBURG",
+          "suburb": "15 TROYE STREET",
+          "siteCode": "000005523",
+          "siteName": "ABCORP NCAPE CORPRBB"
+        },
+        {
+          "town": "SANDTON",
+          "suburb": "G5 ALICE LANE",
+          "siteCode": "000005602",
+          "siteName": "DOCUMENT\u0026TRADE-CIBW CLIENTS"
+        },
+        {
+          "town": "SANDTON",
+          "suburb": "15 ALICE LANE",
+          "siteCode": "000005603",
+          "siteName": "DOCUMENT\u0026TRADE-ABB CLIENTS"
+        },
+        {
+          "town": "SANDTON",
+          "suburb": "15 ALICE LANE",
+          "siteCode": "000005604",
+          "siteName": "DOCUMENT\u0026TRADE-OTHER CLIENTS"
+        },
+        {
+          "town": "SANDTON",
+          "suburb": "15 ALICE LANE",
+          "siteCode": "000005605",
+          "siteName": "DOCUMENT\u0026TRADE-AFRICA CLIENTS"
+        },
+        {
+          "town": "SANDTON",
+          "suburb": "15 ALICE LANE",
+          "siteCode": "000005606",
+          "siteName": "EB-AFRICA CLIENTS"
+        },
+        {
+          "town": "SANDTON",
+          "suburb": "15 ALICE LANE",
+          "siteCode": "000005607",
+          "siteName": "EB-OTHER CLIENTS"
+        },
+        {
+          "town": "SANDTON",
+          "suburb": "15 ALICE LANE",
+          "siteCode": "000005608",
+          "siteName": "EB-CIBW CLIENTS"
+        },
+        {
+          "town": "SANDTON",
+          "suburb": "15 ALICE LANE",
+          "siteCode": "000005609",
+          "siteName": "EB-ABB CLIENTS"
+        },
+        {
+          "town": "BOKSBURG",
+          "suburb": "CNR BENTAL \u0026 NORTH ROAD",
+          "siteCode": "000005640",
+          "siteName": "BB FAR EAST RAND"
+        },
+        {
+          "town": "FAIRVIEW",
+          "suburb": "C/O W MOFFETT \u0026 OVERBAAKENS RD",
+          "siteCode": "000005641",
+          "siteName": "COMMERCIAL PORT ELIZABETH"
+        },
+        {
+          "town": "JOHANNESBURG",
+          "suburb": "15 TROYE STREET",
+          "siteCode": "000005920",
+          "siteName": "DIGITAL INSTANT BUSINESS"
+        },
+        {
+          "town": "BELVILLE",
+          "suburb": "WILLIE VAN SCHOOR AVENUE",
+          "siteCode": "000005992",
+          "siteName": "RISK REGULATORY SUPPORT WC"
+        },
+        {
+          "town": "NEWTOWN, JOHANNESBURG",
+          "suburb": "C/O 30 JEPPE \u0026 H NXUMALO STR",
+          "siteCode": "000006029",
+          "siteName": "EDC GAUTENG"
+        },
+        {
+          "town": "JOHANNESBURG",
+          "suburb": "56 ELOFF STREET",
+          "siteCode": "000006044",
+          "siteName": "SMALL BUSINESS MARKET FUND"
+        },
+        {
+          "town": "AMANZIMTOTI",
+          "suburb": "2 OPPENHEIMER ROAD",
+          "siteCode": "000006103",
+          "siteName": "BB SOUTH DURBAN (00)"
+        },
+        {
+          "town": "HILLCREST",
+          "suburb": "177 DYER RD HILLCREST OFFICE/P",
+          "siteCode": "000006830",
+          "siteName": "RBB COMMERCIAL KEY PRETORIA"
+        },
+        {
+          "town": "LYNNWOOD",
+          "suburb": "C/O DUNCAN \u0026 LYNNWOOD STREETS",
+          "siteCode": "000006907",
+          "siteName": "BOYES"
+        },
+        {
+          "town": "JOHANNESBURG",
+          "suburb": "15 TROYE STREET",
+          "siteCode": "000007018",
+          "siteName": "ABCORP MPUMA CORPRBB"
+        },
+        {
+          "town": "JOHANNESBURG",
+          "suburb": "15 TROYE STREET",
+          "siteCode": "000007029",
+          "siteName": "ABCORP NWEST CORPRBB"
+        },
+        {
+          "town": "JOHANNESBURG",
+          "suburb": "15 TROYE STREET",
+          "siteCode": "000007032",
+          "siteName": "ABCORP ECAPE CORPRBB"
+        },
+        {
+          "town": "SOUTH BOULEVARD",
+          "suburb": "BLOCK D 2ND FLOOR",
+          "siteCode": "000007092",
+          "siteName": "PUBLIC SECTOR GAUTENG EAST"
+        },
+        {
+          "town": "JOHANNESBURG",
+          "suburb": "15 TROYE STREET",
+          "siteCode": "000007143",
+          "siteName": "ABCORP GAUTENG RBB"
+        },
+        {
+          "town": "JOHANNESBURG",
+          "suburb": "15 TROYE STREET",
+          "siteCode": "000007145",
+          "siteName": "ABCORP WCAPE CORPRBB"
+        },
+        {
+          "town": "JOHANNESBURG",
+          "suburb": "15 TROYE STREET",
+          "siteCode": "000007146",
+          "siteName": "ABCORP KZN RBB"
+        },
+        {
+          "town": "JOHANNESBURG",
+          "suburb": "15 TROYE STREET",
+          "siteCode": "000007147",
+          "siteName": "ABCORP INLANDS 5 RBB"
+        },
+        {
+          "town": "JOHANNESBURG",
+          "suburb": "15 TROYE STREET",
+          "siteCode": "000007149",
+          "siteName": "ABCORP INLANDS 2 RBB"
+        },
+        {
+          "town": "JOHANNESBURG",
+          "suburb": "15 TROYE STREET",
+          "siteCode": "000007151",
+          "siteName": "ABCORP INLANDS 4 RBB PUBLIC"
+        },
+        {
+          "town": "JOHANNESBURG",
+          "suburb": "15 TROYE STREET",
+          "siteCode": "000007152",
+          "siteName": "ABCORP INLANDS 3 PUBLIC RBB"
+        },
+        {
+          "town": "JOHANNESBURG",
+          "suburb": "15 TROYE STREET",
+          "siteCode": "000007153",
+          "siteName": "ABCORP INLANDS 1RBB"
+        },
+        {
+          "town": "SILVERTON",
+          "suburb": "1ST FLOOR 270 MAGGS STREET",
+          "siteCode": "000008625",
+          "siteName": "RSC BB ENTERPRISE"
+        },
+        {
+          "town": "NELSPRUIT",
+          "suburb": "CNR L TRICHARDT \u0026 P KRUGER STR",
+          "siteCode": "000008982",
+          "siteName": "RBB COMMERCIAL PUBLSMPUMALANGA"
+        },
+        {
+          "town": "SANDTON",
+          "suburb": "CNR GWEN LANE \u0026 MAUDE STREET",
+          "siteCode": "000009003",
+          "siteName": "MAC CPF"
+        },
+        {
+          "town": "ERMELO",
+          "suburb": "20 DE CLERQ STREET",
+          "siteCode": "000009109",
+          "siteName": "SECUNDA PUBLIC SECTOR"
+        },
+        {
+          "town": "EMALAHLENI",
+          "suburb": "SAVEWAYS CRESCENT",
+          "siteCode": "000009125",
+          "siteName": "WITBANK PUBLIC SECTOR"
+        },
+        {
+          "town": "HILLCREST",
+          "suburb": "177 DYER STREET",
+          "siteCode": "000009729",
+          "siteName": "CORPORATE \u0026 BUSINESS BANK PRETORIA"
+        }
+      ],
+      "txnStatus": "Success",
+      "txnMessage": "Success"
+    }
+  }
+}

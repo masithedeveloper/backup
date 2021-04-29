@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/header_dark" />
+
+    <styleguide.forms.NormalInputView
+        android:id="@+id/atm_card_number_input_view"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:inputType="textVisiblePassword|number"
+        android:maxLength="19"
+        app:attribute_editable="true"
+        app:attribute_hint_text="@string/register_cardnumber_hint"
+        app:attribute_selector_type="NONE"
+        app:attribute_mask="#### #### #### ####"
+        android:digits="1234567890 "
+        app:attribute_title_text="@string/sure_check_atm_card_number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/toolbar" />
+
+    <styleguide.forms.NormalInputView
+        android:id="@+id/atm_card_pin_input_view"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:inputType="numberPassword"
+        app:attribute_editable="true"
+        android:maxLength="5"
+        app:attribute_hint_text="@string/register_atm_pin_hint"
+        app:attribute_title_text="@string/sure_check_atm_card_pin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/atm_card_number_input_view" />
+
+    <styleguide.buttons.Button
+        android:id="@+id/continue_button"
+        style="@style/PrimaryButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/continue_button"
+        android:text="@string/continue_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

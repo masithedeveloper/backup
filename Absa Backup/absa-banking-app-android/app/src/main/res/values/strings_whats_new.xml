@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="atm_branch_locator_whats_new_title">ATM and Branch locator</string>
+    <string name="atm_branch_locator_whats_new_content">Find your nearest Absa ATM or branch with just a tap or two!</string>
+
+    <string name="debit_order_whats_new_title">Stop debit orders and reverse single debit order payments</string>
+    <string name="debit_order_whats_new_content">Take control of your debit orders and payments, select ‘Debit orders‘ from the menu</string>
+
+    <string name="view_your_will_title">View your Will</string>
+    <string name="view_your_will_content">Now you can view your Will that is in safe custody with Absa.\n\nSelect ‘Documents’ from your menu.</string>
+
+    <string name="temp_lock_whats_new_title">Temporary lock Debit Card</string>
+    <string name="temp_lock_whats_new_content">Lock and unlock your cards easily in the app. Choose which transactions you want locked temporarily.</string>
+
+    <string name="pin_retrieval_whats_new_title">Retrieve your ATM PIN</string>
+    <string name="pin_retrieval_whats_new_content">Get a quick reminder of your forgotten or lost card PIN right here on the App.\n\nSimply go to Cards to get started.</string>
+
+    <string name="manage_card_limit_whats_new_title">Manage Debit Card limits</string>
+    <string name="manage_card_limit_whats_new_content">Now you can manage the limits set on your debit card within your app.\n\nSimply go to your Menu and select Card to change or set new limits.</string>
+
+    <string name="travel_dates_whats_new_title">Use card when travelling</string>
+    <string name="travel_dates_whats_new_content">Now it\'s easier to see the world with your card. Activate it for international travel right here on the App. Go to Cards to get started.</string>
+
+    <string name="stop_and_replace_whats_new_title">Stop and replace your Cards</string>
+    <string name="stop_and_replace_whats_new_content">You can stop and replace your cards to keep your cash safe all within the app.\n\nGo to Cards from your Menu tab to get started.</string>
+
+    <string name="fixed_deposit_whats_new_title">Reinvest your Fixed Deposit account</string>
+    <string name="fixed_deposit_whats_new_content">You can now set reinvestment instructions for your fixed deposit account.</string>
+
+    <string name="flexi_funeral_whats_new_title">Our families mean everything</string>
+    <string name="flexi_funeral_whats_new_content">The Flexi Funeral Plan offers cover for you, your spouse, your children as well as extended members (even your gardener or caretaker).</string>
+
+    <string name="law_for_you_whats_new_title">Law For You at your service!</string>
+    <string name="law_for_you_whats_new_content">Don’t be caught off guard.\n\nProtect yourself against unexpected legal matters.</string>
+
+    <string name="avaf_whats_new_title">View your\nVehicle Finance</string>
+    <string name="avaf_whats_new_content">You can now view your Absa Vehicle Finance account details and download statements in your app.</string>
+
+    <string name="statements_whats_new_title">Get your \n statements</string>
+    <string name="statements_whats_new_content">You can now view and download your statements for your credit card and home loan accounts on your App.</string>
+
+    <string name="tax_certificate_whats_new_title">View your tax certificates</string>
+    <string name="tax_certificate_whats_new_content">Now you can download or view your tax certificate at your convenience\n\nSelect \'Documents\' from your menu</string>
+
+    <string name="sole_prop_vcl_overdraft_whats_new_title">Overdraft application made easy</string>
+    <string name="sole_prop_vcl_overdraft_whats_new_content">Get covered for life\'s unexpected moments with an overdraft on your business Cheque account. Simply go to Explore to get started.</string>
+
+    <string name="bank_confirmation_letter_whats_new_title">Get your bank confirmation letter</string>
+    <string name="bank_confirmation_letter_whats_new_content">You can now download a bank confirmation letter for free, from Documents in your Menu</string>
+
+    <string name="manage_profile_whats_new_title">Manage your profile</string>
+    <string name="manage_profile_whats_new_description">Manage Profile allows you to update all your personal details on the Absa Mobile App.</string>
+
+    <string name="view_card_details_whats_new_title">View your Card Details</string>
+    <string name="view_card_details_whats_new_description">Want to do online shopping but don’t have your card nearby? For your convenience, you can now see all of your card details, including CVV number and expiry date with just a few taps.</string>
+
+    <string name="swift_whats_new_title">Receive international funds directly</string>
+    <string name="swift_whats_new_content">Now you can receive funds from anyone anywhere in the world directly into your account. Borderless Banking made easy. Go to International Banking under the Menu to share your SWIFT banking details.</string>
+
+    <string name="cash_send_plus_whats_new_title">Send to many with CashSend Plus.</string>
+    <string name="cash_send_plus_whats_new_content">Now it\'s easier to send money to multiple beneficiaries and manage your limits for Business Banking customers. Register for CashSend Plus right in the app.\n\nGo to your regular CashSend to get started.</string>
+
+    <string name="fraud_notifications_letter_whats_new_title">Never share your banking details with anyone.</string>
+    <string name="fraud_notifications_letter_whats_new_content">Absa will never ask you for card details, an OTP or your logon details. Absa will never request approval to reverse an unauthorised or fraudulent transaction via your cellphone. If you ever receive any of the above requests, report them immediately via our Fraud Hotline on 0860\u00A0557\u00A0557.</string>
+
+    <string name="future_plan_whats_new_title">Start saving with a Future Plan account</string>
+    <string name="future_plan_whats_new_content">With Absa Future Plan, you can start small and grow your investment, and invite others to help you reach your savings goal. Go to the explore hub to open an account now.</string>
+
+    <string name="scan_to_pay_whats_new_title">QR\u00a0Payments</string>
+    <string name="scan_to_pay_whats_new_content">Do you often leave or forget your wallet at home? No worries, use your Absa Banking App to make purchases by scanning a QR code where it is offered, at a pay point and/or online.</string>
+
+    <string name="solidarity_whats_new_title">Lowest banking fees in South Africa</string>
+    <string name="solidarity_whats_new_content">We\'ve heard you, South Africa!\nFrom 1 March, we introduced our new fees for our Everyday Banking Accounts, providing R500 million in pricing relief to our valued customers.</string>
+
+    <string name="identification_and_verification_whats_new_title">Scan your face to link devices</string>
+    <string name="identification_and_verification_whats_new_content">Link your phone to the Absa Banking App using Absa ID with our new, highly secure facial recognition technology.</string>
+
+    <string name="business_evolve_whats_new_title">Open an account for your Business</string>
+    <string name="business_evolve_whats_new_content">Open a new Business Evolve account and see the benefits of having an account that changes to meet your business needs.\n\nSelect \'Business Bank Account\' inside the Explore Hub to apply.</string>
+
+</resources>

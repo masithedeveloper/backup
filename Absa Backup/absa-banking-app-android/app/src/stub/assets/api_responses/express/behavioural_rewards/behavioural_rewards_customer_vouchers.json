@@ -1,0 +1,90 @@
+{
+  "header": {
+    "statuscode": "0",
+    "userAgent": "MyRestClient",
+    "wfpt": null,
+    "jsessionid": "M3xIjFYtC1XpdWlIXGcJyGCO4_JDDDVhFW6yvfuI",
+    "esessionid": "73fe7e99036e70312765",
+    "xfpt": null,
+    "service": "BehaviouralRewardsVouchersService",
+    "operation": "GetVoucherHistoryOfCustomer",
+    "channel": "I",
+    "timestamp": "2020-10-20 17:42:55.566",
+    "sourceip": "169.202.201.5",
+    "accessAccount": "4047562205",
+    "userNumber": "1",
+    "nonce": "eUZ0P7s5r6OOHkKfOUtT4wIte0YFbsSOSfHk1Vyq02o",
+    "language": "en",
+    "organization": "ABSA",
+    "brand": "ABSA",
+    "applicationId": null,
+    "applicationKeyId": null,
+    "requestToken": null,
+    "resultMessages": [
+    ],
+    "paginationContext": {
+      "moreToCome": false,
+      "batchSize": 9999,
+      "batchSizeLimit": 9999,
+      "recordIdentity": "0",
+      "totalNoOfRecords": 1
+    }
+  },
+  "customerVoucherHistory": [
+    {
+      "partnerId": "St345vp",
+      "vouchers": [
+        {
+          "redemptionDateTime": "2020-10-20 09:10:11",
+          "channel": "App",
+          "rewardPinVoucher": "TPVHY",
+          "offerTier": "Bronze",
+          "offerDescription": "R50 Steers Voucher",
+          "offerExpiryDays": "7",
+          "offerExpiryDateTime": "2020-10-27 00:00:00",
+          "offerStatus": "Active"
+        }
+      ]
+    },
+    {
+      "partnerId": "Bu048gn",
+      "vouchers": [
+        {
+          "redemptionDateTime": "2020-10-20 17:41:58",
+          "channel": "App",
+          "rewardPinVoucher": "KCEOK",
+          "offerTier": "Bronze",
+          "offerDescription": "R45 Burger King Voucher",
+          "offerExpiryDays": "7",
+          "offerExpiryDateTime": "2020-10-27 00:00:00",
+          "offerStatus": "Active"
+        }
+      ]
+    },
+    {
+      "partnerId": "De237df",
+      "vouchers": [
+        {
+          "redemptionDateTime": "2020-10-20 17:41:58",
+          "channel": "App",
+          "rewardPinVoucher": "KCEOK",
+          "offerTier": "Bronze",
+          "offerDescription": "R80 Debonairs Pizza Voucher",
+          "offerExpiryDays": "7",
+          "offerExpiryDateTime": "2020-10-27 00:00:00",
+          "offerStatus": "Active"
+        },
+        {
+          "redemptionDateTime": "2020-10-20 17:41:58",
+          "channel": "App",
+          "rewardPinVoucher": "KCEOK",
+          "offerTier": "Bronze",
+          "offerDescription": "R80 Debonairs Pizza Voucher",
+          "offerExpiryDays": "7",
+          "offerExpiryDateTime": "2020-10-27 00:00:00",
+          "offerStatus": "EXPIRED"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0869",
+      "resCde": "00000",
+      "resMsg": "Success",
+      "serVer": "2.0"
+    },
+    "payData": {
+      "validateStopAndReplaceCreditCardRespDTO": {
+        "creditCardNumber": "5471206001115015",
+        "dateLoss": "2017-11-27",
+        "dateLastUse": "2017-11-27",
+        "contactNumber": "0749259264",
+        "cardDeliveryMethod": "SP",
+        "deliveryBranchCode": "",
+        "replacementReason": "Lost card"
+      },
+      "txnStatus": "Success",
+      "txnMessage": "Success"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "header": {
+    "statuscode": "0",
+    "userAgent": "ANDROID - 6.20.0",
+    "jsessionid": "42xbGx3GnzFn18cYCLRIvjEnAvEMIm9Fn99DttGI",
+    "esessionid": "3387e3e9-02f0-3cfd-a000-0c0ff95dba47",
+    "service": "RegularMultipleBeneficiaryPaymentFacade",
+    "operation": "ValidateMultiplePayment",
+    "channel": "S",
+    "timestamp": "2021-02-11 16:56:32.829",
+    "sourceip": "22.240.44.100",
+    "accessAccount": "4047510559",
+    "userNumber": "1",
+    "nonce": "Rtjh1XJ37YjlMOZAOp_wSaLJErOKKhcJbMQi7mRYf68",
+    "language": "en",
+    "organization": "ABSA",
+    "brand": "ABSA",
+    "resultMessages": []
+  },
+  "errorsDetected": false,
+  "warningsDetected": false,
+  "validateMultiplePaymentResponseList": [
+    {
+      "paymentSequenceNumber": 0,
+      "targetAccountNumber": "9050515157",
+      "paymentToken": "tSlKJXH6v3rWD23u-2tYkvbytyyG6oBxa7w9nvIcY5s",
+      "warningMessageList": [
+        {
+          "responseSeverity": "W",
+          "responseMessage": "You have already made a payment to this beneficiary today."
+        }
+      ]
+    },
+    {
+      "paymentSequenceNumber": 1,
+      "targetAccountNumber": "4047598933",
+      "paymentToken": "9IzFDItw2mELFUwWRtKfzzLeAvxdpq3PhAdCdKn5u-U",
+      "warningMessageList": [
+        {
+          "responseSeverity": "W",
+          "responseMessage": "You have already made a payment to this beneficiary today."
+        }
+      ]
+    }
+  ]
+}

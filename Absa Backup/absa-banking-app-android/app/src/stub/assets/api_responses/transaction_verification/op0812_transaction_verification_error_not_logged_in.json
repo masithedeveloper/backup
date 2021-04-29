@@ -1,0 +1,23 @@
+{
+  "successResponseModel": {
+    "payData": {
+      "referenceNumber": null,
+      "transactionVerificationType": null,
+      "notificationMethod": null,
+      "txnStatus": "Failure",
+      "email": null,
+      "accountOnHold": false,
+      "transactionVerificationState": null,
+      "retries": 0,
+      "cellnumber": null,
+      "txnMessage": "\/cms\/absa\/online\/services\/security\/user\/notloggedon"
+    },
+    "payHdr": {
+      "resCde": "00000",
+      "serVer": "2.0",
+      "expTrace": null,
+      "resMsg": "Success",
+      "resId": "RES0812"
+    }
+  }
+}

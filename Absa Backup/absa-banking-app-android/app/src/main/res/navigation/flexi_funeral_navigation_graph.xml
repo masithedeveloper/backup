@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/flexi_funeral_navigation_graph"
+    app:startDestination="@id/flexiFuneralApplyFragment">
+
+    <fragment
+        android:id="@+id/flexiFuneralApplyFragment"
+        android:name="com.barclays.absa.banking.flexiFuneral.ui.FlexiFuneralApplyFragment"
+        android:label="FlexiFuneralApplyFragment"
+        tools:layout="@layout/flexi_funeral_apply_fragment">
+        <action
+            android:id="@+id/action_flexiFuneralApplyFragment_to_flexiFuneralMainMemberFragment"
+            app:destination="@id/flexiFuneralMainMemberFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/flexiFuneralMainMemberFragment"
+        android:name="com.barclays.absa.banking.flexiFuneral.ui.FlexiFuneralMainMemberFragment"
+        android:label="FlexiFuneralMainMemberFragment"
+        tools:layout="@layout/flexi_funeral_main_member_fragment">
+        <action
+            android:id="@+id/action_flexiFuneralMainMemberFragment_to_flexiFuneralAddFamilyMemberFragment"
+            app:destination="@id/flexiFuneralAddFamilyMemberFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <action
+            android:id="@+id/action_flexiFuneralMainMemberFragment_to_flexiFuneralDebitOrderDetailsFragment"
+            app:destination="@id/flexiFuneralDetailsFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/flexiFuneralAddFamilyMemberFragment"
+        android:name="com.barclays.absa.banking.flexiFuneral.ui.FlexiFuneralAddFamilyMemberFragment"
+        android:label="FlexiFuneralAddFamilyMemberFragment"
+        tools:layout="@layout/flexi_funeral_add_family_member_fragment">
+        <action
+            android:id="@+id/action_flexiFuneralAddFamilyMemberFragment_to_flexiFuneralMainMemberFragment"
+            app:destination="@id/flexiFuneralMainMemberFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/flexiFuneralDetailsFragment"
+        android:name="com.barclays.absa.banking.flexiFuneral.ui.FlexiFuneralDetailsFragment"
+        android:label="FlexiFuneralDetailsFragment"
+        tools:layout="@layout/flexi_funeral_details_fragment">
+        <action
+            android:id="@+id/action_flexiFuneralDebitOrderDetailsFragment_to_flexiFuneralBeneficiaryDetailsFragment"
+            app:destination="@id/flexiFuneralBeneficiaryDetailsFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <action
+            android:id="@+id/action_flexiFuneralDebitOrderDetailsFragment_to_flexiFuneralConfirmationFragment"
+            app:destination="@id/flexiFuneralConfirmationFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/flexiFuneralBeneficiaryDetailsFragment"
+        android:name="com.barclays.absa.banking.flexiFuneral.ui.FlexiFuneralBeneficiaryDetailsFragment"
+        android:label="FlexiFuneralBeneficiaryDetailsFragment"
+        tools:layout="@layout/generic_insurance_beneficiary_details_fragment">
+        <action
+            android:id="@+id/action_flexiFuneralBeneficiaryDetailsFragment_to_flexiFuneralConfirmationFragment"
+            app:destination="@id/flexiFuneralConfirmationFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/flexiFuneralConfirmationFragment"
+        android:name="com.barclays.absa.banking.flexiFuneral.ui.FlexiFuneralConfirmationFragment"
+        android:label="FlexiFuneralConfirmationFragment"
+        tools:layout="@layout/flexi_funeral_confirmation_fragment">
+        <action
+            android:id="@+id/action_flexiFuneralConfirmationFragment_to_flexiFuneralGenericResultScreenFragment"
+            app:destination="@id/flexiFuneralGenericResultScreenFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/flexiFuneralGenericResultScreenFragment"
+        android:name="styleguide.screens.GenericResultScreenFragment"
+        android:label="GenericResultScreenFragment"
+        tools:layout="@layout/generic_results_screen_fragment">
+        <argument
+            android:name="GenericResultScreenFragment"
+            app:argType="styleguide.screens.GenericResultScreenProperties" />
+    </fragment>
+</navigation>

@@ -1,0 +1,764 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0310",
+      "resCde": "00000",
+      "resMsg": "",
+      "serVer": "2.0",
+      "expTrace": null
+    },
+    "payData": {
+      "beneNames": null,
+      "totalRecords": 0,
+      "payLst": [
+        {
+          "imageName": "dlt2yf_QhiqD0mKw2t49l74BTNn4Aj-ifascAGIll6s=",
+          "hasImage": "N",
+          "tiebNumber": "0",
+          "benRef": "fhvfff",
+          "myRef": "dug",
+          "isFav": "N",
+          "bankName": "CAPITEC",
+          "accountType": null,
+          "lastTxnAmt": {
+            "curr": "R",
+            "amt": "20.00"
+          },
+          "lastTxnDate": "2017-06-05",
+          "benNam": "19may tes",
+          "benId": "187",
+          "txnTyp": "external",
+          "image": "",
+          "actNo": "1226063355",
+          "benSurNam": null
+        },
+        {
+          "imageName": "4bM2S-DomNApmyKOtdB5Gwf_MZG96eQsNiWE_B9AcO4=",
+          "hasImage": "Y",
+          "tiebNumber": "0",
+          "benRef": "Test Ben",
+          "myRef": "Test My",
+          "isFav": "Y",
+          "bankName": "ABSA BANK",
+          "accountType": null,
+          "lastTxnAmt": {
+            "curr": "R",
+            "amt": "33.43"
+          },
+          "lastTxnDate": "2017-04-20",
+          "benNam": "test edit45",
+          "benId": "3",
+          "txnTyp": "internal",
+          "image": "",
+          "actNo": "9050696874",
+          "benSurNam": null
+        },
+        {
+          "imageName": "yQRNlkU3ESUj0r5dprZ7Ggys3FJEelLuZgceOlVG9no=",
+          "hasImage": "N",
+          "tiebNumber": "0",
+          "benRef": "benf ref",
+          "myRef": "my ref",
+          "isFav": "N",
+          "bankName": "AAOF SA",
+          "accountType": null,
+          "lastTxnAmt": {
+            "curr": "R",
+            "amt": "13.50"
+          },
+          "lastTxnDate": "2017-03-16",
+          "benNam": "AAOF SA",
+          "benId": "212",
+          "txnTyp": "business",
+          "image": "",
+          "actNo": "56830006388",
+          "benSurNam": null
+        },
+        {
+          "imageName": "RVbe0cokwSOhrxGNsa00h0v1qDbxlf1Rwka1KuqOcTM=",
+          "hasImage": "N",
+          "tiebNumber": "0",
+          "benRef": "test1655a4sdf65a4sd6",
+          "myRef": "test2",
+          "isFav": "N",
+          "bankName": "ABSA BANK",
+          "accountType": null,
+          "lastTxnAmt": {
+            "curr": "R",
+            "amt": "14.50"
+          },
+          "lastTxnDate": "2017-03-16",
+          "benNam": "test 9050676836",
+          "benId": "228",
+          "txnTyp": "internal",
+          "image": "",
+          "actNo": "9050676836",
+          "benSurNam": null
+        },
+        {
+          "imageName": "XKhL1YYT7eDPBvW4vPodP7W_j819_vmrm4PnUGVraLA=",
+          "hasImage": "N",
+          "tiebNumber": "0",
+          "benRef": "Test",
+          "myRef": "Test123",
+          "isFav": "N",
+          "bankName": "ABSA BANK",
+          "accountType": null,
+          "lastTxnAmt": {
+            "curr": "R",
+            "amt": "51.00"
+          },
+          "lastTxnDate": "2017-01-31",
+          "benNam": "Madhura",
+          "benId": "220",
+          "txnTyp": "internal",
+          "image": "",
+          "actNo": "9050665586",
+          "benSurNam": null
+        },
+        {
+          "imageName": "ZLx5FVdpu2ajFdxPVHa9KV1yUtxcoeyoXDPHpL8iWSQ=",
+          "hasImage": "N",
+          "tiebNumber": "0",
+          "benRef": "sad",
+          "myRef": "cool",
+          "isFav": "N",
+          "bankName": "ABSA BANK",
+          "accountType": null,
+          "lastTxnAmt": {
+            "curr": "R",
+            "amt": "30.00"
+          },
+          "lastTxnDate": "2016-11-25",
+          "benNam": "Close",
+          "benId": "206",
+          "txnTyp": "internal",
+          "image": "",
+          "actNo": "9050596123",
+          "benSurNam": null
+        },
+        {
+          "imageName": "GsqSkyI4UPCwELT7Bsg1yYczaYfNa43RQNXrfZkwfnY=",
+          "hasImage": "N",
+          "tiebNumber": "0",
+          "benRef": "Surecheck",
+          "myRef": "Surecheck",
+          "isFav": "N",
+          "bankName": "ABSA BANK",
+          "accountType": null,
+          "lastTxnAmt": {
+            "curr": "R",
+            "amt": "40.00"
+          },
+          "lastTxnDate": "2016-11-23",
+          "benNam": "Testsurecheck",
+          "benId": "227",
+          "txnTyp": "internal",
+          "image": "",
+          "actNo": "9050704021",
+          "benSurNam": null
+        },
+        {
+          "imageName": "j31l1JBIkKrCfkG-RMkXc0jOfdROqTVofFE9M2VQ540=",
+          "hasImage": "N",
+          "tiebNumber": "0",
+          "benRef": "ben1",
+          "myRef": "myref1",
+          "isFav": "N",
+          "bankName": "ABSA BANK",
+          "accountType": null,
+          "lastTxnAmt": {
+            "curr": "R",
+            "amt": "8.37"
+          },
+          "lastTxnDate": "2016-09-29",
+          "benNam": "Onceoffpaymentsept29",
+          "benId": "226",
+          "txnTyp": "internal",
+          "image": "",
+          "actNo": "4047559092",
+          "benSurNam": null
+        },
+        {
+          "imageName": "gNhmHf0CxnzlpQv1RAk-ZEfkN9h_vi2uguff9gVaGoM=",
+          "hasImage": "Y",
+          "tiebNumber": "0",
+          "benRef": "sundayty",
+          "myRef": "maddyut",
+          "isFav": "N",
+          "bankName": "ABSA BANK",
+          "accountType": null,
+          "lastTxnAmt": {
+            "curr": "R",
+            "amt": "1.26"
+          },
+          "lastTxnDate": "2016-09-06",
+          "benNam": "Madhurakhond123",
+          "benId": "224",
+          "txnTyp": "internal",
+          "image": "",
+          "actNo": "9050665586",
+          "benSurNam": null
+        },
+        {
+          "imageName": "M6eS1ijr0yG1qMpAU1CAKH2_Q0rhXNTQVVk1fXSTIuw=",
+          "hasImage": "N",
+          "tiebNumber": "0",
+          "benRef": "Gyccyfy",
+          "myRef": "Cchh",
+          "isFav": "N",
+          "bankName": "ABSA BANK",
+          "accountType": null,
+          "lastTxnAmt": {
+            "curr": "R",
+            "amt": "80.00"
+          },
+          "lastTxnDate": "2016-09-06",
+          "benNam": "M",
+          "benId": "225",
+          "txnTyp": "internal",
+          "image": "",
+          "actNo": "9050666574",
+          "benSurNam": null
+        },
+        {
+          "imageName": "fVg8tTfcgJfQc0sfoYl1USRKJdnvL_Vj6aTC6qAoEvU=",
+          "hasImage": "N",
+          "tiebNumber": "0",
+          "benRef": "tester Updated name",
+          "myRef": "test",
+          "isFav": "N",
+          "bankName": "SARS ITA",
+          "accountType": null,
+          "lastTxnAmt": {
+            "curr": "R",
+            "amt": "100.00"
+          },
+          "lastTxnDate": "2016-08-05",
+          "benNam": "SARS ITA",
+          "benId": "219",
+          "txnTyp": "business",
+          "image": "",
+          "actNo": "JULYTESTPOLICY&C9292",
+          "benSurNam": null
+        },
+        {
+          "imageName": "18mg_aUHmlCfHmewVvzKKwDXjb4M8zqXfJ9Cmys39OA=",
+          "hasImage": "N",
+          "tiebNumber": "0",
+          "benRef": "ref",
+          "myRef": "myref",
+          "isFav": "N",
+          "bankName": "ASTON APT",
+          "accountType": null,
+          "lastTxnAmt": {
+            "curr": "R",
+            "amt": "50.00"
+          },
+          "lastTxnDate": "2016-06-10",
+          "benNam": "ASTON APT",
+          "benId": "211",
+          "txnTyp": "business",
+          "image": "",
+          "actNo": "260151215",
+          "benSurNam": null
+        },
+        {
+          "imageName": "UmLxYwGYEL8bzd5wX-aXCKOLKeX4vWEcy5Yrc7IwJEo=",
+          "hasImage": "N",
+          "tiebNumber": "0",
+          "benRef": "test<script>alert(1)",
+          "myRef": "test<script>alert(1)",
+          "isFav": "N",
+          "bankName": "ABSA BANK",
+          "accountType": null,
+          "lastTxnAmt": {
+            "curr": "R",
+            "amt": "100.00"
+          },
+          "lastTxnDate": "2015-06-10",
+          "benNam": "test<script>alert(1)",
+          "benId": "33",
+          "txnTyp": "internal",
+          "image": "",
+          "actNo": "9050559242",
+          "benSurNam": null
+        },
+        {
+          "imageName": "YG1QuOXW-ioByhwMZxCpPNJuYUyRijONC2MOfdYEcpM=",
+          "hasImage": "N",
+          "tiebNumber": "0",
+          "benRef": "Fjf",
+          "myRef": "Cjfjf",
+          "isFav": "N",
+          "bankName": "ABSA BANK",
+          "accountType": null,
+          "lastTxnAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "lastTxnDate": "",
+          "benNam": "OlA",
+          "benId": "203",
+          "txnTyp": "internal",
+          "image": "",
+          "actNo": "9050658044",
+          "benSurNam": null
+        },
+        {
+          "imageName": "v6pb1-JJ6OBWxmNQuBCLdBSJClWJ4QIQqi8LZLuIx44=",
+          "hasImage": "N",
+          "tiebNumber": "0",
+          "benRef": "test",
+          "myRef": "test",
+          "isFav": "N",
+          "bankName": "ABSA BANK",
+          "accountType": null,
+          "lastTxnAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "lastTxnDate": "",
+          "benNam": "Mkljjj",
+          "benId": "204",
+          "txnTyp": "internal",
+          "image": "",
+          "actNo": "9050665586",
+          "benSurNam": null
+        },
+        {
+          "imageName": "Wrl8MZSDGfoDtaduW1cqFQx6VWfX6XIIZ9qZskNNpDw=",
+          "hasImage": "N",
+          "tiebNumber": "0",
+          "benRef": "Vxhbd",
+          "myRef": "Bxjdi",
+          "isFav": "N",
+          "bankName": "ABSA BANK",
+          "accountType": null,
+          "lastTxnAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "lastTxnDate": "",
+          "benNam": "Testcrash",
+          "benId": "205",
+          "txnTyp": "internal",
+          "image": "",
+          "actNo": "9050780398",
+          "benSurNam": null
+        },
+        {
+          "imageName": "wzEd-QMF9SmLSgkfZvwdJX8uGoarZecEgA4qACyzn88=",
+          "hasImage": "N",
+          "tiebNumber": "0",
+          "benRef": "vzzn",
+          "myRef": "gdjs",
+          "isFav": "N",
+          "bankName": "ABSA BANK",
+          "accountType": null,
+          "lastTxnAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "lastTxnDate": "",
+          "benNam": "Gddu",
+          "benId": "207",
+          "txnTyp": "internal",
+          "image": "",
+          "actNo": "4047085924",
+          "benSurNam": null
+        },
+        {
+          "imageName": "Qs4AqyD-Ye21bNzj0pjniCKR6-oVIz3kuyQTQT47-bk=",
+          "hasImage": "N",
+          "tiebNumber": "0",
+          "benRef": "Mayor",
+          "myRef": "ref",
+          "isFav": "N",
+          "bankName": "MAYORSWALK",
+          "accountType": null,
+          "lastTxnAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "lastTxnDate": "",
+          "benNam": "MAYORSWALK",
+          "benId": "208",
+          "txnTyp": "business",
+          "image": "",
+          "actNo": "11111111111111111111",
+          "benSurNam": null
+        },
+        {
+          "imageName": "mmOJxJkNcp38CFiUdQ9206f1IU0i3_6dQGATGbXgdvw=",
+          "hasImage": "N",
+          "tiebNumber": "0",
+          "benRef": "Taj",
+          "myRef": "dgj",
+          "isFav": "N",
+          "bankName": "MAYORSWALK",
+          "accountType": null,
+          "lastTxnAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "lastTxnDate": "",
+          "benNam": "MAYORSWALK",
+          "benId": "209",
+          "txnTyp": "business",
+          "image": "",
+          "actNo": "22222222222222222222",
+          "benSurNam": null
+        },
+        {
+          "imageName": "C0aHm2-vXbSgyEVy6qS1bE-EsBtAx__L0-w7DlzTT4M=",
+          "hasImage": "N",
+          "tiebNumber": "0",
+          "benRef": "ref",
+          "myRef": "xgxhx",
+          "isFav": "N",
+          "bankName": "ASTON APT",
+          "accountType": null,
+          "lastTxnAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "lastTxnDate": "",
+          "benNam": "ASTON APT",
+          "benId": "210",
+          "txnTyp": "business",
+          "image": "",
+          "actNo": "260151215",
+          "benSurNam": null
+        },
+        {
+          "imageName": "Rfs4K6YCuutcJdKbTdaATbGPHARUkKScTrMqbcQt3S0=",
+          "hasImage": "N",
+          "tiebNumber": "0",
+          "benRef": "vxxhxh",
+          "myRef": "ncnc",
+          "isFav": "N",
+          "bankName": "ABSA BANK",
+          "accountType": null,
+          "lastTxnAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "lastTxnDate": "",
+          "benNam": "Hxxh",
+          "benId": "213",
+          "txnTyp": "internal",
+          "image": "",
+          "actNo": "9050666794",
+          "benSurNam": null
+        },
+        {
+          "imageName": "tux_Aaz9AK3-SrljbMuR3V_eK-fTagzb1wPD0fwsjI4=",
+          "hasImage": "N",
+          "tiebNumber": "0",
+          "benRef": "Jcjf",
+          "myRef": "kbkh",
+          "isFav": "N",
+          "bankName": "ABC-SHOE",
+          "accountType": null,
+          "lastTxnAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "lastTxnDate": "",
+          "benNam": "ABC-SHOE",
+          "benId": "214",
+          "txnTyp": "business",
+          "image": "",
+          "actNo": "kvkbl",
+          "benSurNam": null
+        },
+        {
+          "imageName": "0Fcm41lgL7kqw_ekSe2tc-IMynY4HFC0RqVOFgxDU0k=",
+          "hasImage": "N",
+          "tiebNumber": "0",
+          "benRef": "Abc",
+          "myRef": "qwerty",
+          "isFav": "N",
+          "bankName": "AAOF SA",
+          "accountType": null,
+          "lastTxnAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "lastTxnDate": "",
+          "benNam": "AAOF SA",
+          "benId": "215",
+          "txnTyp": "business",
+          "image": "",
+          "actNo": "qwerty",
+          "benSurNam": null
+        },
+        {
+          "imageName": "Bx6bLuXGi3cQ642yTtfTTYjfWhbSPCP4T2UzvH3xbRI=",
+          "hasImage": "N",
+          "tiebNumber": "0",
+          "benRef": "Jumaima",
+          "myRef": "BRADLOWS GROBLERSDAL",
+          "isFav": "N",
+          "bankName": "BRADLOWS",
+          "accountType": null,
+          "lastTxnAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "lastTxnDate": "",
+          "benNam": "BRADLOWS",
+          "benId": "216",
+          "txnTyp": "business",
+          "image": "",
+          "actNo": "4nkhdjgb 4o3o2",
+          "benSurNam": null
+        },
+        {
+          "imageName": "5yPJlAxZZuNbQlsuR2eL0M6pFglcXu3_HTgMpNZPScM=",
+          "hasImage": "N",
+          "tiebNumber": "0",
+          "benRef": "Fg",
+          "myRef": "Cg",
+          "isFav": "N",
+          "bankName": "ABSA BANK",
+          "accountType": null,
+          "lastTxnAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "lastTxnDate": "",
+          "benNam": "Name",
+          "benId": "217",
+          "txnTyp": "internal",
+          "image": "",
+          "actNo": "9050541437",
+          "benSurNam": null
+        },
+        {
+          "imageName": "6JvAU5skkNdgPUi12Rd6YL0i1Hcvtldlt1sAU0OSHnc=",
+          "hasImage": "N",
+          "tiebNumber": "0",
+          "benRef": "test",
+          "myRef": "valid reference",
+          "isFav": "N",
+          "bankName": "SARS ITA",
+          "accountType": null,
+          "lastTxnAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "lastTxnDate": "",
+          "benNam": "SARS ITA",
+          "benId": "218",
+          "txnTyp": "business",
+          "image": "",
+          "actNo": "JULYTESTPOLICY&C9292",
+          "benSurNam": null
+        },
+        {
+          "imageName": "oFD_PkyALhYv5MS-sAXhpEpFXAs8WD5aea38GicX6bQ=",
+          "hasImage": "N",
+          "tiebNumber": "0",
+          "benRef": "Madhurakh",
+          "myRef": "Gift",
+          "isFav": "N",
+          "bankName": "ALFSTIPPER",
+          "accountType": null,
+          "lastTxnAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "lastTxnDate": "",
+          "benNam": "ALFSTIPPER",
+          "benId": "221",
+          "txnTyp": "business",
+          "image": "",
+          "actNo": "9050666574",
+          "benSurNam": null
+        },
+        {
+          "imageName": "gpuLkAjls6GnbPMW394RwtjRjAT-ywRuGID26RJuwGU=",
+          "hasImage": "N",
+          "tiebNumber": "0",
+          "benRef": "Maddy",
+          "myRef": "Gift123",
+          "isFav": "N",
+          "bankName": "DIHLABENG",
+          "accountType": null,
+          "lastTxnAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "lastTxnDate": "",
+          "benNam": "DIHLABENG",
+          "benId": "222",
+          "txnTyp": "business",
+          "image": "",
+          "actNo": "9050666574",
+          "benSurNam": null
+        },
+        {
+          "imageName": "O3Wz-x5IPL_epux4UuWTXmbrJephm_6mV86ubNVzI5U=",
+          "hasImage": "N",
+          "tiebNumber": "0",
+          "benRef": "Kennedy",
+          "myRef": "sorrysorry",
+          "isFav": "N",
+          "bankName": "AAOF SA",
+          "accountType": null,
+          "lastTxnAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "lastTxnDate": "",
+          "benNam": "AAOF SA",
+          "benId": "223",
+          "txnTyp": "business",
+          "image": "",
+          "actNo": "9050666574",
+          "benSurNam": null
+        },
+        {
+          "imageName": "VzZBAnJVhvuhnhMGy3_ZmUsxxjMovhLj-SeGjZmRUII=",
+          "hasImage": "N",
+          "tiebNumber": "0",
+          "benRef": "Aaaa",
+          "myRef": "myref",
+          "isFav": "N",
+          "bankName": "AAOF SA",
+          "accountType": null,
+          "lastTxnAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "lastTxnDate": "",
+          "benNam": "AAOF SA",
+          "benId": "237",
+          "txnTyp": "business",
+          "image": "",
+          "actNo": "56830006388",
+          "benSurNam": null
+        }
+      ],
+      "cashSend": [
+
+      ],
+      "airTime": [
+
+      ],
+      "pmtType": "Payment",
+      "latestTransactionBenLst": [
+        {
+          "imageName": "dlt2yf_QhiqD0mKw2t49l74BTNn4Aj-ifascAGIll6s=",
+          "hasImage": "N",
+          "tiebNumber": "0",
+          "benRef": "fhvfff",
+          "myRef": "dug",
+          "isFav": "N",
+          "bankName": "CAPITEC",
+          "accountType": null,
+          "lastTxnAmt": {
+            "curr": "R",
+            "amt": "20.00"
+          },
+          "lastTxnDate": "2017-06-05",
+          "benNam": "19may tes",
+          "benId": "187",
+          "txnTyp": "external",
+          "image": "",
+          "actNo": "1226063355",
+          "benSurNam": null
+        },
+        {
+          "imageName": "4bM2S-DomNApmyKOtdB5Gwf_MZG96eQsNiWE_B9AcO4=",
+          "hasImage": "Y",
+          "tiebNumber": "0",
+          "benRef": "Test Ben",
+          "myRef": "Test My",
+          "isFav": "Y",
+          "bankName": "ABSA BANK",
+          "accountType": null,
+          "lastTxnAmt": {
+            "curr": "R",
+            "amt": "33.43"
+          },
+          "lastTxnDate": "2017-04-20",
+          "benNam": "test edit45",
+          "benId": "3",
+          "txnTyp": "internal",
+          "image": "",
+          "actNo": "9050696874",
+          "benSurNam": null
+        },
+        {
+          "imageName": "yQRNlkU3ESUj0r5dprZ7Ggys3FJEelLuZgceOlVG9no=",
+          "hasImage": "N",
+          "tiebNumber": "0",
+          "benRef": "benf ref",
+          "myRef": "my ref",
+          "isFav": "N",
+          "bankName": "AAOF SA",
+          "accountType": null,
+          "lastTxnAmt": {
+            "curr": "R",
+            "amt": "13.50"
+          },
+          "lastTxnDate": "2017-03-16",
+          "benNam": "AAOF SA",
+          "benId": "212",
+          "txnTyp": "business",
+          "image": "",
+          "actNo": "56830006388",
+          "benSurNam": null
+        },
+        {
+          "imageName": "RVbe0cokwSOhrxGNsa00h0v1qDbxlf1Rwka1KuqOcTM=",
+          "hasImage": "N",
+          "tiebNumber": "0",
+          "benRef": "test1655a4sdf65a4sd6",
+          "myRef": "test2",
+          "isFav": "N",
+          "bankName": "ABSA BANK",
+          "accountType": null,
+          "lastTxnAmt": {
+            "curr": "R",
+            "amt": "14.50"
+          },
+          "lastTxnDate": "2017-03-16",
+          "benNam": "test 9050676836",
+          "benId": "228",
+          "txnTyp": "internal",
+          "image": "",
+          "actNo": "9050676836",
+          "benSurNam": null
+        },
+        {
+          "imageName": "XKhL1YYT7eDPBvW4vPodP7W_j819_vmrm4PnUGVraLA=",
+          "hasImage": "N",
+          "tiebNumber": "0",
+          "benRef": "Test",
+          "myRef": "Test123",
+          "isFav": "N",
+          "bankName": "ABSA BANK",
+          "accountType": null,
+          "lastTxnAmt": {
+            "curr": "R",
+            "amt": "51.00"
+          },
+          "lastTxnDate": "2017-01-31",
+          "benNam": "Madhura",
+          "benId": "220",
+          "txnTyp": "internal",
+          "image": "",
+          "actNo": "9050665586",
+          "benSurNam": null
+        }
+      ],
+      "electricity": [
+
+      ]
+    }
+  }
+}

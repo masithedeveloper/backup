@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cl_constraint_set"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:animateLayoutChanges="true">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_transaction_history"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layoutAnimation="@anim/layout_animation_fall_down"
+            android:scrollbars="none"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view" />
+
+        <TextView
+            android:id="@+id/tv_no_transactions"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/transaction_history_not_available"
+            android:textColor="@color/color_FF666666"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_margin="@dimen/dimen_16dp"
+            android:gravity="center"
+            android:visibility="gone"
+            tools:visibility="visible"
+            app:layout_constraintTop_toBottomOf="@+id/view"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/cl_date_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dimen_12dp"
+            android:background="@drawable/rounded_edit_text"
+            android:orientation="horizontal"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/iv_calender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/dimen_8dp"
+                app:srcCompat="@drawable/ic_calendar_dark" />
+
+            <TextView
+                android:id="@+id/et_account_date_range"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:editable="false"
+                android:ems="10"
+                android:focusable="false"
+                android:inputType="textPersonName"
+                android:padding="@dimen/dimen_8dp"
+                android:textColor="@color/color_FF666666"
+                android:visibility="gone" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/dimen_1dp"
+            android:layout_marginTop="@dimen/dimen_12dp"
+            android:background="@color/color_1F222222"
+            app:layout_constraintTop_toBottomOf="@+id/cl_date_search" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/cl_search"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/dimen_8dp"
+            android:layout_marginStart="@dimen/dimen_8dp"
+            android:background="@drawable/rounded_edit_text"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="@+id/cl_date_search"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/cl_date_search"
+            app:layout_constraintTop_toTopOf="@+id/cl_date_search">
+
+            <ImageView
+                android:id="@+id/iv_search"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/dimen_8dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:srcCompat="@drawable/ic_search_grey" />
+
+            <EditText
+                android:id="@+id/et_search_date_range"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="@color/color_00000000"
+                android:drawableEnd="@drawable/ic_cross_gray"
+                android:drawableRight="@drawable/ic_cross_gray"
+                android:enabled="true"
+                android:padding="@dimen/dimen_8dp"
+                android:textColor="@color/color_FF666666"
+                app:layout_constraintBottom_toBottomOf="@+id/iv_search"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/iv_search"
+                app:layout_constraintTop_toTopOf="@+id/iv_search" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

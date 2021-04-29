@@ -1,0 +1,19 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "expTrace": null,
+      "serVer": "2.0",
+      "resCde": "00000",
+      "resMsg": "Success",
+      "resId": "RES2069"
+    },
+    "payData": {
+      "exchangeRates": {
+        "estimatedSwiftRate": "1584.4800",
+        "estimatedWesternUnionRate": "1658.69"
+      },
+      "txnStatus": "Success",
+      "txnMessage": "Success"
+    }
+  }
+}

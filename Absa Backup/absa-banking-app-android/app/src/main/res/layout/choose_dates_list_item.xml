@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<styleguide.content.TertiaryContentAndLabelView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/dateCheckBoxContentAndLabelView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:attribute_should_show_check_box="true"
+    app:attribute_tertiary_content="Tertiary Content" />

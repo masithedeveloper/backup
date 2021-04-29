@@ -1,0 +1,95 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    style="@style/ScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <styleguide.content.HeadingAndActionView
+            android:id="@+id/editNextOfKinActionView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_primary_action_color="@color/pink"
+            app:attribute_primary_action_text="@string/manage_profile_overview_edit_action"
+            app:attribute_primary_label_text="@string/manage_profile_hub_next_of_kin_title"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:attribute_primary_content="Wow" />
+
+        <styleguide.content.PrimaryContentAndLabelView
+            android:id="@+id/firstNamePrimaryContentAndLabelView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_primary_label="@string/manage_profile_overview_first_name"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/editNextOfKinActionView"
+            tools:attribute_primary_content="Test" />
+
+        <styleguide.content.PrimaryContentAndLabelView
+            android:id="@+id/surnamePrimaryContentAndLabelView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_primary_label="@string/manage_profile_overview_surname"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/firstNamePrimaryContentAndLabelView"
+            tools:attribute_primary_content="Test" />
+
+        <styleguide.content.SecondaryContentAndLabelView
+            android:id="@+id/relationshipSecondaryContentAndLabelView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_secondary_label="@string/manage_profile_overview_relationship"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/surnamePrimaryContentAndLabelView"
+            tools:attribute_secondary_content="Cousin" />
+
+        <styleguide.content.SecondaryContentAndLabelView
+            android:id="@+id/cellphoneSecondaryContentAndLabelView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_secondary_label="@string/manage_profile_overview_cellphone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/relationshipSecondaryContentAndLabelView"
+            tools:attribute_secondary_content="1234567890" />
+
+        <styleguide.content.SecondaryContentAndLabelView
+            android:id="@+id/emailAddressSecondaryContentAndLabelView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_secondary_label="@string/manage_profile_overview_email_address"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cellphoneSecondaryContentAndLabelView"
+            tools:attribute_secondary_content="test@gmail.com" />
+
+        <styleguide.content.SecondaryContentAndLabelView
+            android:id="@+id/homePhoneSecondaryContentAndLabelView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_secondary_label="@string/manage_profile_overview_home_phone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/emailAddressSecondaryContentAndLabelView"
+            tools:attribute_secondary_content="1234567890" />
+
+        <styleguide.content.SecondaryContentAndLabelView
+            android:id="@+id/workPhoneSecondaryContentAndLabelView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_secondary_label="@string/manage_profile_overview_work_phone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/homePhoneSecondaryContentAndLabelView"
+            tools:attribute_secondary_content="1234567890" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

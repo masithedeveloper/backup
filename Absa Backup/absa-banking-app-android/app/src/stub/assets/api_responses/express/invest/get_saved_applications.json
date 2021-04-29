@@ -1,0 +1,42 @@
+{
+  "header": {
+    "statuscode": "0",
+    "userAgent": "ANDROID",
+    "jsessionid": "yKeZ7T-YI37xuTrOH09uQP01_Xx9k-dqeQ_3413E",
+    "esessionid": "7b94c028-f162-31ed-b829-06f9744dc619",
+    "service": "SavedApplicationsFacade",
+    "operation": "GetSavedApplicationsDetails",
+    "channel": "S",
+    "timestamp": "2020-08-13 18:03:30.570",
+    "sourceip": "22.241.133.158",
+    "accessAccount": "4048037891",
+    "userNumber": "1",
+    "nonce": "WDJlxKHkkttXU57Zd35-H4GlmXQ0v33PesMeDBP-CTQ",
+    "language": "en",
+    "organization": "ABSA",
+    "brand": "ABSA",
+    "applicationId": "AXOBMOBAPP",
+    "resultMessages": [],
+    "paginationContext": {
+      "moreToCome": false,
+      "batchSize": 9999,
+      "batchSizeLimit": 9999,
+      "recordIdentity": "0",
+      "totalNoOfRecords": 1
+    }
+  },
+  "getSavedApplications": [
+    {
+      "productName": "Depositor Plus",
+      "referenceNumber": "B3Z-3JW-1JG-308",
+      "productCode": "09005",
+      "remainingDays": 13,
+      "overdraftValue": null,
+      "loanAmount": null,
+      "initialDeposit": "15000",
+      "monthlyContribution": "15000",
+      "expired": false,
+      "quoteExist": false
+    }
+  ]
+}

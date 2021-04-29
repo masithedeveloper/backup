@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="select_account_toolbar_title">Select Account</string>
+    <string name="select_account_hint">Select account</string>
+    <string name="confirm_cash_send">Confirm CashSend</string>
+    <string name="cash_send_beneficiary_placeholder">Marian Reed</string>
+    <string name="cash_send_mobile_number_placeholder">072 123 1234</string>
+    <string name="cash_send_from_account_label">From account</string>
+    <string name="cash_send_mobile_number_label">Mobile number</string>
+    <string name="cash_send_beneficiary_label">Beneficiary</string>
+    <string name="cash_send_amount_Label">Amount</string>
+    <string name="cash_send_atm_access_pin_label">ATM access PIN</string>
+    <string name="cash_send_confirm">Confirm CashSend</string>
+    <string name="cash_send_atm_pin_placeholder">123456</string>
+    <string name="cash_send_beneficiary_name_placeholder">Marian Payment</string>
+    <string name="cash_send_success">CashSend successful</string>
+    <string name="cash_send_fail">CashSend unsuccessful</string>
+    <string name="recipient_label">Recipient</string>
+    <string name="cash_send_reference_label">My reference</string>
+    <string name="account_selection_error"> No valid accounts found</string>
+    <string name="balance_exceeded">Balance exceeded.</string>
+    <string name="you_have_available">You have %s available.</string>
+    <string name="cash_send_change_pin">Change ATM PIN</string>
+    <string name="cash_send_unredeemed_sent_on_date">Sent on</string>
+    <string name="cash_send_unredeemed_sent_on_placeholder">13 June 2018</string>
+    <string name="cash_send_invalid_phone_number">Invalid phone number</string>
+    <string name="today">Today</string>
+    <string name="yesterday">Yesterday</string>
+
+    <!-- Cash send result screen text -->
+    <string name="cash_send_failure_text">We are having trouble connecting to our servers right now. Your money was not sent. Please try again later.</string>
+    <string name="cash_send_success_text">You just sent %s %s on %s</string>
+    <string name="cash_send_atm_pin_text">The ATM access PIN is %s</string>
+    <string name="cash_send_share_atm_pin">Share CashSend ATM PIN</string>
+    <string name="cash_send_cash_at_absa_atm">You will use this PIN to get your cash at any Absa ATM.</string>
+    <string name="cash_send_cash_at_absa_atm_receiver">The receiver will use this PIN to get their cash at any Absa ATM.</string>
+    <string name="cash_send_min_max">You can send between R 50.00 - R 3 000.00</string>
+
+    <string name="cash_send_recipient_surname">Recipient surname</string>
+    <string name="cash_send_enter_recipient_surname">Enter recipient surname</string>
+    <string name="cash_send_recipient_mobile_number">Recipient mobile number</string>
+    <string name="cash_send_recipient_enter_mobile_number">Enter recipient mobile number</string>
+
+    <string name="cash_send_beneficiary_name">Beneficiary name</string>
+    <string name="cash_send_enter_beneficiary_name">Enter beneficiary name</string>
+    <string name="cash_send_beneficiary_surname">Beneficiary surname</string>
+    <string name="cash_send_enter_beneficiary_surname">Enter beneficiary surname</string>
+    <string name="cash_send_beneficiary_mobile_number">Beneficiary mobile number</string>
+    <string name="cash_send_enter_beneficiary_mobile_number">Enter beneficiary mobile number</string>
+    <string name="cash_send_minimum_amount">Amount must be more than R 0.00</string>
+    <string name="cash_send_unable_to_auth_header">Unable to authorise transaction</string>
+    <string name="cash_send_unable_to_auth_sub_message">User is not permitted to authorise this transaction</string>
+    <string name="edit_cashsend_enter_new_pin">Enter new PIN</string>
+    <string name="cashsend_more_than_available_limit">The amount is more than your available payment limit</string>
+    <string name="cashsend_daily_limit_exceeded">You have reached your available CashSend limit for today.\n\nPlease try again tomorrow.</string>
+
+    <string name="cash_send_enter_recipient_name_error">Please enter a valid name</string>
+    <string name="cash_send_enter_recipient_surname_error">Please enter a valid surname</string>
+    <string name="cash_send_enter_recipient_mobile_number_error">Please enter a valid mobile number</string>
+    <string name="cash_send_available_amount">R 0.00 Available</string>
+
+    <string name="cash_send_to_this_beneficiary">Send cash to this beneficiary</string>
+    <string name="cash_send_last_payment_date_label">Last payment date</string>
+    <string name="beneficiary_already_exist_content">You already have a beneficiary with the mobile number \n075 567 8888</string>
+</resources>

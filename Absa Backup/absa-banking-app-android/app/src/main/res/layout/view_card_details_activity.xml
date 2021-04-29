@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sliderParentConstraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/header_dark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <styleguide.cards.LargeCardView
+        android:id="@+id/bankCardView"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/large_card_min_height"
+        android:layout_marginStart="@dimen/small_space"
+        android:layout_marginEnd="@dimen/small_space"
+        app:attribute_is_dark="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+    <ImageView
+        android:id="@+id/lockImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/small_space"
+        android:scaleType="centerInside"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@+id/lockTextView"
+        app:layout_constraintEnd_toStartOf="@+id/lockTextView"
+        app:layout_constraintTop_toTopOf="@+id/lockTextView"
+        app:srcCompat="@drawable/ic_pause_lock_light"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/lockTextView"
+        style="@style/LargeTextMediumLight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/medium_space"
+        android:layout_marginBottom="@dimen/double_medium_space"
+        android:gravity="center"
+        android:text="@string/vcl_lock"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@+id/bankCardView"
+        app:layout_constraintEnd_toEndOf="@+id/bankCardView"
+        tools:visibility="visible" />
+
+    <styleguide.content.SlideToRevealView
+        android:id="@+id/expirySlideToRevealView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:attribute_action_description_text="@string/slide_to_reveal_expiry"
+        app:attribute_show_divider="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/bankCardView" />
+
+    <styleguide.content.SlideToRevealView
+        android:id="@+id/cvvSlideToRevealView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:attribute_action_description_text="@string/slide_to_reveal_cvv"
+        app:attribute_show_divider="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/expirySlideToRevealView" />
+
+    <styleguide.buttons.Button
+        android:id="@+id/doneButton"
+        style="@style/SecondaryButton"
+        android:layout_width="0dp"
+        android:text="@string/done"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cvvSlideToRevealView"
+        app:layout_constraintVertical_bias="1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

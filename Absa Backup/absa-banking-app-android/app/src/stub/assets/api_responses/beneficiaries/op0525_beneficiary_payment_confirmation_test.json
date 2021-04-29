@@ -1,0 +1,55 @@
+{
+  "successResponseModel":{
+    "payHdr":{
+      "resId":"RES0525",
+      "resCde":"00000",
+      "resMsg":"",
+      "serVer":"2.0",
+      "expTrace":null
+    },
+    "payData":{
+      "iipReferenceNumber":"012345",
+      "maskedFrmActNo":"******2102",
+      "popUpFlag":"N",
+      "benStatusType":"Another bank",
+      "acctAtInst": "test-acctAtInst",
+      "txnRef":"15347679879686",
+      "txnStatus": "SomeTxtStatus",
+      "msg": "SomeMessage",
+      "frmActNo":"4056332102",
+      "benNam":"Bernard.King",
+      "bankNam":"STD S.A.",
+      "branchNam":"051001",
+      "branchCd":"051001",
+      "actNo":"333447627202",
+      "actTyp": "Savings",
+      "nowFlg":"NOW",
+      "imidPay":"OFF",
+      "myRef":"Bernard.King",
+      "myNotice":"Yes",
+      "myMethod":"SMS",
+      "myDetl":"0812178208",
+      "thirRef":"Boby Johns",
+      "thirNotice":"Yes",
+      "thirMethod":"E-MAIL",
+      "thirDetl":"testing@testit.co.za",
+      "txnAmt":{
+        "curr":"R",
+        "amt":"100.00"
+      },
+      "txnErrorCode":null,
+      "instNam":"Standard Bank",
+      "frmActDesc":"Current account",
+      "futureTxDate":"Mon Aug 20 00:00:00 GMT+02:00 2018",
+      "sureCheckFlag": "SureCheckFlag",
+      "tvnFlag":null,
+      "referenceNumber": "referenceNumber",
+      "corelationId":null,
+      "transactionDate": "transactionDate",
+      "cellnumber": "cellNumber",
+      "email": "email",
+      "notificationMethod":null,
+      "txnMessage":null
+    }
+  }
+}

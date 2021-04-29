@@ -1,0 +1,23 @@
+{
+  "header": {
+    "statuscode": "0",
+    "userAgent": "ANDROID - 6.21.0",
+    "jsessionid": "6jGvTRq8ftkSvrRRWqCTnPtjY1jStq-gOZ0oMTZH",
+    "esessionid": "64de9f23-2ca4-3a8d-a841-9dca5e469850",
+    "service": "CashSendPaymentFacade",
+    "operation": "PerformSingleCashSendPayment",
+    "channel": "S",
+    "timestamp": "2021-03-08 15:12:38.699",
+    "sourceip": "22.240.44.100",
+    "accessAccount": "9050993539",
+    "userNumber": "1",
+    "nonce": "vSIrTyxRnjBrbLXz3iAhpzxBjG25YfSafzX5X4Q5_Gk",
+    "language": "en",
+    "organization": "ABSA",
+    "brand": "ABSA",
+    "resultMessages": []
+  },
+  "uniqueEFT": "8000318CFA",
+  "paymentNumber": 13,
+  "transactionDateTime": "2021-03-08"
+}

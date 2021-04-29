@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/transparent_toolbar" />
+
+        <TextView
+            style="@style/HeadingTextMediumDark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/normal_space"
+            android:text="@string/verify_your_details" />
+
+        <TextView
+            android:id="@+id/tv_description"
+            style="@style/NormalTextMediumDark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/small_space"
+            android:gravity="center"
+            android:text="@string/select_type_of_verification" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv_aliasInformation"
+            style="@style/CardView_default"
+            android:layout_margin="@dimen/dimen_16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <com.google.android.material.tabs.TabLayout
+                    android:id="@+id/tl_verificationDetailsType"
+                    style="@style/TabLayout_grey"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <com.barclays.absa.banking.rewards.ui.AutoSizeableViewPager
+                    android:id="@+id/vp_verificationNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dimen_120dp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <styleguide.buttons.Button
+            android:id="@+id/btn_confirmDetails"
+            style="@style/PrimaryButton"
+            android:contentDescription="@string/continue_button"
+            android:text="@string/continue_button" />
+
+    </LinearLayout>
+</layout>

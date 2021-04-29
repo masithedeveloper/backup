@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <styleguide.content.BeneficiaryView
+        android:id="@+id/selectedBeneficiaryView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toStartOf="@+id/removeBeneficiaryImageButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/removeBeneficiaryImageButton"
+        android:layout_width="@dimen/dimen_48dp"
+        android:layout_height="@dimen/dimen_48dp"
+        android:layout_marginTop="@dimen/small_space"
+        android:layout_marginEnd="@dimen/small_space"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_trash_dark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <styleguide.buttons.OptionActionButtonView
+        android:id="@+id/paymentDetailsOptionActionButtonView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:attribute_caption="@string/payment_details"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/selectedBeneficiaryView" />
+
+    <styleguide.forms.NormalInputView
+        android:id="@+id/amountNormalInputView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        app:attribute_hint_text="@string/currency"
+        app:attribute_selector_type="CURRENCY_DECIMAL"
+        app:attribute_title_text="@string/amount"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/paymentDetailsOptionActionButtonView" />
+
+    <TextView
+        android:id="@+id/accountAvailableBalanceTextView"
+        style="@style/SubTextRegular"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/medium_space"
+        android:layout_marginTop="@dimen/small_space"
+        android:layout_marginEnd="@dimen/medium_space"
+        android:text="@string/cash_send_plus_available_balance_and_account"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/amountNormalInputView" />
+
+    <TextView
+        android:id="@+id/dailyCashSendPlusUsedTextView"
+        style="@style/SubTextRegular"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/medium_space"
+        android:layout_marginTop="@dimen/tiny_space"
+        android:layout_marginEnd="@dimen/medium_space"
+        android:text="@string/cash_send_plus_send_between_20_and_3000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/accountAvailableBalanceTextView" />
+
+    <styleguide.forms.NormalInputView
+        android:id="@+id/accessPinNormalInputView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="6"
+        app:attribute_hint_text="@string/cash_send_plus_enter_6_digital_atm_pin"
+        app:attribute_title_text="@string/cash_send_plus_atm_access_pin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dailyCashSendPlusUsedTextView" />
+
+    <TextView
+        android:id="@+id/accessPinMessageTextView"
+        style="@style/SubTextRegular"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/medium_space"
+        android:layout_marginTop="@dimen/tiny_space"
+        android:layout_marginEnd="@dimen/medium_space"
+        android:text="@string/cash_send_plus_receiver_will_use_this_pin_to_get_cash_at_atm"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/accessPinNormalInputView" />
+
+    <styleguide.forms.CheckBoxView
+        android:id="@+id/useAccessPinForAllBeneficiariesCheckBoxView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/extra_large_space"
+        app:attribute_description="@string/cash_send_plus_use_above_pin_for_all_beneficiaries"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/accessPinMessageTextView" />
+</androidx.constraintlayout.widget.ConstraintLayout>

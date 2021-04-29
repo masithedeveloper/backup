@@ -1,0 +1,35 @@
+{
+  "successResponseModel":{
+    "payData":{
+      "account":{
+        "termsDeposit":{
+          "capFrequency":"00",
+          "nextCapDate":null,
+          "capDay":null,
+          "maturityDate":"",
+          "automaticRenewal":"Y",
+          "monthlyInterestPayments":"N",
+          "termDurationInDays":null,
+          "minTermDepositMaturityDate":"20181108",
+          "maxTermDepositMaturityDate":"20231201",
+          "interestToAccountNo":"",
+          "interestToBankName":"",
+          "interestToBranchCode":"",
+          "interestToBranchName":"",
+          "interestToAccountType":"1",
+          "interestReferenceName":""
+        },
+        "minimumDeposit":"R1 000"
+      },
+      "txnMessage":"Success",
+      "txnStatus":"Success"
+    },
+    "payHdr":{
+      "resCde":"00000",
+      "resMsg":"Success",
+      "resId":"RES2071",
+      "expTrace":null,
+      "serVer":"2.0"
+    }
+  }
+}

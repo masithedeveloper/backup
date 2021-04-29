@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <styleguide.forms.NormalInputView
+        android:id="@+id/allocationNormalInputView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:attribute_hint_text="@string/manage_policy_beneficiaries_allocation_hint"
+        app:attribute_selector_type="LONG_LIST"
+        tools:attribute_title_text="Mr Jones" />
+</layout>

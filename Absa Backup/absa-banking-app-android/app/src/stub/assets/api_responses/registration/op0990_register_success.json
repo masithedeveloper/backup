@@ -1,0 +1,36 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0990",
+      "resCde": "00000",
+      "serVer": "2.0"
+    },
+    "payData": {
+      "atmCardNo": "4938050012498733",
+      "email": "",
+      "title": "MR",
+      "surname": "MELODEE",
+      "firstName": "HENRY",
+      "atmPin": "5F55AD6D742EBD08",
+      "cellPhoneNumber": "******5453",
+      "accounts": [
+        {
+          "accountNumber": 4047560960,
+          "accountDescription": "CHEQUE ACCOUNT",
+          "accessAccount": true,
+          "billingAccount": true,
+          "type": "CQ",
+          "name": ""
+        }
+      ],
+      "enterpriseSessionID": "14912280389314",
+      "rsaIdNumber": "9004018788086",
+      "userNumber": "",
+      "success": "true",
+      "emailActual": "",
+      "cellPhoneNumberActual": "0824545453",
+      "clientType": "I",
+      "clntAgrmntAccepted": "Y"
+    }
+  }
+}

@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="homeOwnerPolicyDescriptions">
+        <item>HOUSEOWNERS COMPREHENSIVE</item>
+        <item>PROPERTY INSURANCE</item>
+        <item>AFFORDABLE HOUSE SCHEME</item>
+        <item>ABSA BROKER STAFF HOUSE OWNER</item>
+        <item>ABSA BROKER HOUSEOWNERS SCHEM</item>
+        <item>COMMUNITY BANK HOUSEOWNERS</item>
+        <item>No Frills Homeowners Ins.</item>
+        <item>SANLAM STAFF HOUSEOWNERS</item>
+        <item>SASOL HOUSEOWNERS SCHEME</item>
+        <item>SCITR HOUSEOWNERS SCHEME</item>
+        <item>ABSA STAFF HOUSEOWNERS</item>
+        <item>UNIBANK HOUSEOWNERS INSURANCE</item>
+        <item>VIRGIN MONEY SA HOC</item>
+        <item>ABSA MAKELAARS STAF SKEMA</item>
+        <item>EIENDOM VERSEKERING</item>
+        <item>ABSA MAKELAARS HUISEIENAARS</item>
+        <item>COMMUNITY BANK HUISEIENAARS</item>
+        <item>HUISEIENAARS</item>
+        <item>No Frills Huiseienaars Vers.</item>
+        <item>SANLAM PERSONEEL HUISEIENAARS</item>
+        <item>SASOL HUISEIENAARS SKEMA</item>
+        <item>SCITR HUISEIENAARS SKEMA</item>
+        <item>ABSA PERSONEEL HUISEIENAARS</item>
+        <item>UNIBANK HUISEIENAARS VERS.</item>
+        <item>VIRGIN MONEY SA HOC</item>
+    </string-array>
+
+    <string-array name="titles">
+        <item>Miss</item>
+        <item>Mr</item>
+        <item>Mrs</item>
+        <item>Ms</item>
+    </string-array>
+
+    <string-array name="idTypes">
+        <item>ID number</item>
+        <item>Passport</item>
+    </string-array>
+
+    <string-array name="claimTypesLongTerm">
+        <item>Death</item>
+        <item>Disability</item>
+        <item>Retrenchment</item>
+        <item>Critical illness</item>
+    </string-array>
+
+    <string-array name="claimTypesShortTerm">
+        <item>Motor</item>
+        <item>Home building</item>
+        <item>Home content</item>
+        <item>All risks</item>
+    </string-array>
+
+    <string-array name="funeralCoverMemberGender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string-array name="claimTypeList">
+        <item>Storm</item>
+        <item>Accidental Damage</item>
+        <item>Intrusion</item>
+    </string-array>
+
+    <string-array name="typesOfClaims">
+        <item>Geyser</item>
+        <item>Plumbing</item>
+        <item>Storm</item>
+        <item>Accidental Damage</item>
+        <item>Intrusion</item>
+    </string-array>
+
+    <string-array name="damagedItemsGeyser">
+        <item>Building</item>
+        <item>Carpet and flooring</item>
+        <item>Cupboards</item>
+        <item>Electrical</item>
+        <item>Paving</item>
+        <item>Solar</item>
+    </string-array>
+
+    <string-array name="otherDamagedItems">
+        <item>Building</item>
+        <item>Carpet and flooring</item>
+        <item>Carport and awnings</item>
+        <item>Cupboards</item>
+        <item>Electrical</item>
+        <item>Glass</item>
+        <item>Paving</item>
+        <item>Skylights</item>
+        <item>Slate roof</item>
+        <item>Solar</item>
+        <item>Swimming pool</item>
+        <item>Thatch</item>
+    </string-array>
+    <string-array name="unitTrustFilterOptions">
+        <item>Show all funds</item>
+        <item>Core funds</item>
+        <item>Low risk funds</item>
+        <item>Low-Medium risk funds</item>
+        <item>Medium risk funds</item>
+        <item>Medium-High risk funds</item>
+        <item>High risk funds</item>
+    </string-array>
+
+    <string-array name="claimCategoryList">
+        <item>Accidental Damage</item>
+        <item>Intrusion</item>
+        <item>Earthquake</item>
+        <item>Explosion</item>
+        <item>Fire</item>
+        <item>Impact</item>
+        <item>Storm</item>
+        <item>Subsidence</item>
+        <item>Overflow</item>
+    </string-array>
+
+    <string-array name="calenderDays">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+    </string-array>
+
+    <string-array name="debitDays">
+        <item>1</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>31</item>
+    </string-array>
+
+    <string-array name="snooze_option">
+        <item>@string/snooze_option_1</item>
+        <item>@string/snooze_option_2</item>
+        <item>@string/snooze_option_3</item>
+        <item>@string/cancel</item>
+    </string-array>
+    <string-array name="lt_or_exergy_supported_status">
+        <item>@string/policy_active</item>
+        <item>@string/policy_inArrears</item>
+    </string-array>
+    <string-array name="st_supported_status">
+        <item>@string/policy_active</item>
+        <item>@string/policy_Approve</item>
+    </string-array>
+
+    <string-array name="snooze_option_value">
+        <item>OPTNOW</item>
+        <item>OPT60</item>
+        <item>OPTNVR</item>
+    </string-array>
+    <string-array name="date_list">
+        <item>@string/first</item>
+        <item>@string/fifteenth</item>
+        <item>@string/twentieth</item>
+        <item>@string/twenty_fifth</item>
+        <item>@string/last_day_of_the_month</item>
+        <item>@string/choose_my_own_day</item>
+    </string-array>
+    <string-array name="months">
+        <item>@string/January_short</item>
+        <item>@string/February_short</item>
+        <item>@string/March_short</item>
+        <item>@string/April_short</item>
+        <item>@string/May_short</item>
+        <item>@string/June_short</item>
+        <item>@string/July_short</item>
+        <item>@string/August_short</item>
+        <item>@string/September_short</item>
+        <item>@string/October_short</item>
+        <item>@string/November_short</item>
+        <item>@string/December_short</item>
+    </string-array>
+    <string-array name="stamped_choose_date">
+        <item>@string/month_to_date</item>
+        <item>@string/last_month</item>
+        <item>@string/past_3_months</item>
+        <item>@string/custom_date</item>
+    </string-array>
+    <string-array name="import_from_bank_list">
+        <item>Capitec</item>
+        <item>FNB</item>
+        <item>Nedbank</item>
+        <item>Standard Bank</item>
+    </string-array>
+    <string-array name="debi_check_reason_for_rejection">
+        <item>No reason specified</item>
+        <item>Unknown creditor</item>
+        <item>Incorrect collection day</item>
+    </string-array>
+
+    <string-array name="account_types">
+        <item>Current Account/Cheque</item>
+        <item>Savings Account</item>
+        <item>Transmission Account</item>
+        <item>Bond Account</item>
+        <item>Credit Card Account</item>
+    </string-array>
+
+    <string-array name="ultimate_protector_title">
+        <item>Miss</item>
+        <item>Mr</item>
+        <item>Mrs</item>
+        <item>Ms</item>
+    </string-array>
+
+    <string-array name="beneficiaryCategory">
+        <item>Spouse</item>
+        <item>Children</item>
+        <item>Parents/Inlaws</item>
+        <item>Extended Family</item>
+    </string-array>
+
+    <string-array name="beneficiaryRelationshipChildren">
+        <item>Daughter</item>
+        <item>Son</item>
+        <item>Special needs child</item>
+        <item>Student</item>
+    </string-array>
+
+    <string-array name="beneficiaryRelationshipExtendedFamily">
+        <item>Brother</item>
+        <item>Sister</item>
+        <item>Uncle</item>
+        <item>Aunt</item>
+        <item>Niece</item>
+        <item>Nephew</item>
+        <item>Cousin</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="freeCoverRelationshipExtendedFamily">
+        <item>Brother</item>
+        <item>Sister</item>
+        <item>Stepbrother</item>
+        <item>Stepsister</item>
+        <item>Uncle</item>
+        <item>Aunt</item>
+        <item>Nephew</item>
+        <item>Niece</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="beneficiaryRelationshipParentsOrInLaws">
+        <item>Father</item>
+        <item>Mother</item>
+        <item>Stepfather</item>
+        <item>Stepmother</item>
+        <item>Father-in-law</item>
+        <item>Mother-in-law</item>
+        <item>Grandparent</item>
+    </string-array>
+
+    <string-array name="familyMemberCategory">
+        <item>Children</item>
+        <item>Parents/Inlaws</item>
+        <item>Extended Family</item>
+    </string-array>
+
+    <string-array name="familyMemberRelationshipParentsOrInLaws">
+        <item>Father</item>
+        <item>Mother</item>
+        <item>Stepfather</item>
+        <item>Stepmother</item>
+        <item>Father-in-law</item>
+        <item>Mother-in-law</item>
+    </string-array>
+
+    <string-array name="familyMemberRelationshipExtendedFamily">
+        <item>Brother</item>
+        <item>Sister</item>
+        <item>Uncle</item>
+        <item>Aunt</item>
+        <item>Niece</item>
+        <item>Nephew</item>
+        <item>Cousin</item>
+    </string-array>
+
+    <string-array name="relationships">
+        <item>Son</item>
+        <item>Daughter</item>
+        <item>Special needs child</item>
+        <item>Student</item>
+        <item>Father</item>
+        <item>Mother</item>
+        <item>Stepfather</item>
+        <item>Stepmother</item>
+        <item>Father-in-law</item>
+        <item>Mother-in-law</item>
+        <item>Grandparent</item>
+        <item>Brother</item>
+        <item>Sister</item>
+        <item>Stepbrother</item>
+        <item>Stepsister</item>
+        <item>Uncle</item>
+        <item>Aunt</item>
+        <item>Nephew</item>
+        <item>Niece</item>
+        <item>Spouse</item>
+        <item>Cousin</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="atmBranchLocatorWeekDays">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+    </string-array>
+
+    <string-array name="atmBranchLocatorWeekendDays">
+        <item>Saturday</item>
+        <item>Sunday</item>
+    </string-array>
+
+    <string-array name="redemptionTypeOptions">
+        <item>Number of units</item>
+        <item>Rand value</item>
+        <item>All units</item>
+    </string-array>
+
+    <string-array name="flexiFuneralFamilyMemberCategory">
+        <item>Spouse</item>
+        <item>Children</item>
+        <item>Extended family</item>
+    </string-array>
+
+    <string-array name="flexiFuneralRelationshipChildren">
+        <item>Daughter</item>
+        <item>Son</item>
+    </string-array>
+
+    <string-array name="flexiFuneralRelationshipExtendedFamily">
+        <item>Father</item>
+        <item>Mother</item>
+        <item>Brother</item>
+        <item>Sister</item>
+        <item>Uncle</item>
+        <item>Aunt</item>
+        <item>Nephew</item>
+        <item>Niece</item>
+        <item>Cousin</item>
+        <item>Grandfather</item>
+        <item>Grandmother</item>
+        <item>Father-in-law</item>
+        <item>Mother-in-law</item>
+        <item>Gardener or Caretaker</item>
+    </string-array>
+
+    <string-array name="flexiFuneralGender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <plurals name="numberOfMonths">
+        <item quantity="one">%d month</item>
+        <item quantity="other">%d months</item>
+    </plurals>
+
+    <plurals name="numberOfDays">
+        <item quantity="one">%d day</item>
+        <item quantity="other">%d days</item>
+    </plurals>
+
+    <string-array name="manage_profile_no_tax_number_reason_1">
+        <item>1</item>
+        <item>@string/manage_profile_reason_for_no_tax_number_one</item>
+    </string-array>
+
+    <string-array name="manage_profile_no_tax_number_reason_2">
+        <item>2</item>
+        <item>@string/manage_profile_reason_for_no_tax_number_two</item>
+    </string-array>
+
+    <string-array name="manage_profile_no_tax_number_reason_3">
+        <item>3</item>
+        <item>@string/manage_profile_reason_for_no_tax_number_three</item>
+    </string-array>
+</resources>

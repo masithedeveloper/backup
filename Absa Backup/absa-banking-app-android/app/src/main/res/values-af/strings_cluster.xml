@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cluster_insurance_heading">Versekering</string>
+    <string name="cluster_save_and_invest_heading">Spaar &amp; Bele</string>
+    <string name="insurance_cluster_life_and_funeral_cover_heading">Lewens &amp; Begrafnisdekking</string>
+    <string name="insurance_cluster_short_term_heading">Korttermyn</string>
+    <string name="investment_cluster_investment_accounts_heading">Investment accounts</string>
+    <string name="insurance_cluster_claim_title">Eis</string>
+    <string name="insurance_cluster_multiple_policies">%s Polisse</string>
+    <string name="insurance_cluster_only_one_policy">%s Polis</string>
+    <string name="investment_cluster_multiple_accounts">%s accounts</string>
+    <string name="investment_cluster_only_one_account">%s account</string>
+    <string name="cluster_get_more_heading">Kry meer</string>
+</resources>

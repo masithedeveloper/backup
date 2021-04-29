@@ -1,0 +1,46 @@
+{
+  "header": {
+    "statuscode": "0",
+    "userAgent": "ANDROID - 6.22.0",
+    "jsessionid": "r2GQ7mmVXvZ9ADyMpJtyRNMN21CXq62Bia2b8rsj",
+    "esessionid": "24a5f7f5-8942-347f-a26d-5593c2e75015",
+    "service": "PaymentHistoryFacade",
+    "operation": "GetOnceOffPaymentHistoryDetail",
+    "channel": "S",
+    "timestamp": "2021-03-26 17:36:20.850",
+    "sourceip": "22.147.145.101",
+    "accessAccount": "4048068595",
+    "userNumber": "1",
+    "nonce": "PmxLiogo5g24hYAa-p-uBnUJ92SomMBdwi_J3KIOOgc",
+    "language": "en",
+    "organization": "ABSA",
+    "brand": "ABSA",
+    "resultMessages": [],
+    "paginationContext": {
+      "moreToCome": false,
+      "batchSize": 9999,
+      "batchSizeLimit": 9999,
+      "recordIdentity": "0",
+      "totalNoOfRecords": 1
+    }
+  },
+  "paymentHistoryDetail": {
+    "fromAccount": 4048068595,
+    "fromAccountName": "Current account",
+    "fromAccountType": "Current",
+    "fromDate": "2021-03-24",
+    "toDate": "2021-03-26",
+    "powerOfAttorney": false,
+    "payType": "ONCEOFF",
+    "sortFields": [
+      {
+        "name": "transactionDate",
+        "sortDirection": "DESC",
+        "stringContainsNumericData": false,
+        "nameIsForEnum": false
+      }
+    ],
+    "cifKey": "PETERBM003",
+    "paymentHistoryLines": []
+  }
+}

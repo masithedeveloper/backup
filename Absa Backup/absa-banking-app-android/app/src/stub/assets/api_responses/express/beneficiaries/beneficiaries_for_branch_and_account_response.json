@@ -1,0 +1,81 @@
+{
+  "header": {
+    "statuscode": "0",
+    "userAgent": "ANDROID - 6.22.0",
+    "jsessionid": "s_fbXy_p_c-L0pJKCo0_j_b-5eBD3SDjon2PVAOK",
+    "esessionid": "f1484c4d-6b00-3c3c-972f-4269c4867d9e",
+    "service": "RegularBeneficiaryManagementFacade",
+    "operation": "GetBeneficiariesForBranchAndAccount",
+    "channel": "S",
+    "timestamp": "2021-04-08 08:35:29.814",
+    "sourceip": "22.147.145.101",
+    "accessAccount": "4047510559",
+    "userNumber": "1",
+    "nonce": "JYBHTbvNOp7LfUX1B9qRq3GYp3AXDbbMvJfa1ayYGC0",
+    "language": "en",
+    "organization": "ABSA",
+    "brand": "ABSA",
+    "resultMessages": [],
+    "paginationContext": {
+      "moreToCome": false,
+      "batchSize": 9999,
+      "batchSizeLimit": 9999,
+      "recordIdentity": "0",
+      "totalNoOfRecords": 1
+    }
+  },
+  "onceOffBeneficiaries": [
+    {
+      "beneficiaryDetailsVO": {
+        "cifKey": "MADIDNJ001",
+        "tieBreaker": "3",
+        "beneficiaryNumber": 13,
+        "instructionType": "OOP",
+        "uniqueEFTNumber": "80004D3B50",
+        "beneficiaryStatus": "CURRENT",
+        "typeOfBeneficiary": "I",
+        "lastPaymentDateAndTime": "2021-04-07",
+        "lastPaymentAmount": "50.00",
+        "lastPaymentStatus": "SUCCESSFUL",
+        "lastPaymentSourceAccountNumber": "4047510559",
+        "smfBeneficiaryCreationDate": "2021-04-07",
+        "beneficiaryNumberNameAndAccount": "13 - Qaa - 4048406488",
+        "beneficiaryImageIndicator": "N",
+        "beneficiaryImageName": "",
+        "realTimePaymentAllowed": false,
+        "clearingCodeOrInstitutionCode": "632005",
+        "targetAccountNumber": "4048406488",
+        "bankName": "ABSA BANK",
+        "sourceAccountReference": "gg",
+        "targetAccountReference": "dd",
+        "beneficiaryName": "Qaa",
+        "ownNotification": {
+          "notificationMethod": "N"
+        },
+        "beneficiaryNotification": {
+          "notificationMethod": "N"
+        },
+        "verifiedPaymentIndicator": false,
+        "beneficiaryContactDetails": ""
+      },
+      "processedTransactions": [
+        {
+          "futureDatedPayment": false,
+          "paymentSourceAccountNumber": "4047510559",
+          "paymentAmount": "50.00",
+          "paymentTransactionDateAndTime": "2021-04-07 10:24",
+          "paymentSourceAccountReference": "gg",
+          "paymentTargetAccountReference": "dd",
+          "processedPaymentStatus": "SUCCESSFUL",
+          "processedPaymentNumber": "1",
+          "realTimeProcessedPayment": false,
+          "realTimeProcessedPaymentReferenceNumber": ""
+        }
+      ],
+      "futureDatedTransactionsList": [],
+      "beneficiaryNumber": 13,
+      "beneficiaryNumberNameAndAccount": "13 - Qaa - 4048406488"
+    }
+  ],
+  "typeOfBeneficiaryList": "O"
+}

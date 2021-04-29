@@ -1,0 +1,64 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0630",
+      "resCde": "00000",
+      "resMsg": "success",
+      "serVer": "2.0"
+    },
+    "payData": {
+      "payment": {
+        "usedLimit": {
+          "curr": "R",
+          "amt": "0.00"
+        },
+        "availableLimit": {
+          "curr": "R",
+          "amt": "999,999.00"
+        },
+        "transactionTypeCode": "Payment",
+        "actualLimit": {
+          "curr": "R",
+          "amt": "999,999.00"
+        }
+      },
+      "interAccountTransfer": {
+        "usedLimit": {
+          "curr": "R",
+          "amt": "0.00"
+        },
+        "availableLimit": {
+          "curr": "R",
+          "amt": "999,999.00"
+        },
+        "transactionTypeCode": "InterAccountTransfer",
+        "actualLimit": {
+          "curr": "R",
+          "amt": "999,999.00"
+        }
+      },
+      "recurringPayment": {
+        "usedLimit": {
+          "curr": "R",
+          "amt": "0.00"
+        },
+        "transactionTypeCode": "RecurringPayment",
+        "actualLimit": {
+          "curr": "R",
+          "amt": "999,999.00"
+        }
+      },
+      "futureDatedTransfer": {
+        "usedLimit": {
+          "curr": "R",
+          "amt": "0.00"
+        },
+        "transactionTypeCode": "FutureDatedTransfer",
+        "actualLimit": {
+          "curr": "R",
+          "amt": "999,999.00"
+        }
+      }
+    }
+  }
+}

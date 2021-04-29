@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dimen_keyboard_16dp">0dp</dimen>
+    <dimen name="keyboard_triple_space">12dp</dimen>
+    <dimen name="keyboard_button_size">52dp</dimen>
+    <dimen name="keypad_indicator_space">12dp</dimen>
+    <dimen name="keypad_bottom_margin">8dp</dimen>
+    <dimen name="profile_pager_picture_size">32dp</dimen>
+    <string name="dimension">sw120dp-mdpi</string>
+    <dimen name="keyboard_instruction_text_size">16sp</dimen>
+</resources>

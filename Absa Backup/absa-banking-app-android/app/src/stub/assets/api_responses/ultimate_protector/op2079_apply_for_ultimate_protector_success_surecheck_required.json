@@ -1,0 +1,25 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES2079",
+      "resCde": "00000",
+      "resMsg": "Success",
+      "serVer": "2.0",
+      "expTrace": null
+    },
+    "payData": {
+      "policyNumber": null,
+      "policyStartDate": null,
+      "sureCheckFlag": "SURECHECKV2Required",
+      "tvnFlag": "SURECHECKV2Required",
+      "referenceNumber": "MTQ3LjQ2",
+      "corelationId": "MTQ3LjQ2",
+      "transactionDate": "2019-04-01 11:41:09",
+      "cellnumber": "******8571",
+      "email": "",
+      "notificationMethod": "S",
+      "txnStatus": "Success",
+      "txnMessage": "Success"
+    }
+  }
+}

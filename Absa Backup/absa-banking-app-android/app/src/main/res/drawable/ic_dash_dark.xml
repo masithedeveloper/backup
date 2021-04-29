@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (c) 2018.  Absa Bank Limited, All Rights Reserved.
+  ~
+  ~ This code is confidential to Absa Bank Limited and shall not be disclosed
+  ~ outside the Bank without the prior written permission of the Absa Legal
+  ~
+  ~ In the event that such disclosure is permitted the code shall not be copied
+  ~ or distributed other than on a need-to-know basis and any recipients may be
+  ~ required to sign a confidentiality undertaking in favor of Absa Bank
+  ~ Limited
+  -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportHeight="32"
+    android:viewportWidth="32">
+    <path
+        android:pathData="M8,16h15.556"
+        android:strokeColor="#2D2323"
+        android:strokeLineCap="round"
+        android:strokeWidth="1.5" />
+</vector>

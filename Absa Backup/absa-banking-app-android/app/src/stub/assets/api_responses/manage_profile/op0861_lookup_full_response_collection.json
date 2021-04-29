@@ -1,0 +1,1523 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0861",
+      "resCde": "00000",
+      "resMsg": "Success",
+      "serVer": "2.0",
+      "expTrace": null
+    },
+    "payData": {
+      "lookups": [
+        {
+          "itemCode": "SO003",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "SOUTH  AFRICA"
+        },
+        {
+          "itemCode": "",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "---------------------------------------------"
+        },
+        {
+          "itemCode": "AF001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "AFGHANISTAN"
+        },
+        {
+          "itemCode": "AL003",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "ALAND ISLANDS"
+        },
+        {
+          "itemCode": "AL001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "ALBANIA"
+        },
+        {
+          "itemCode": "AL002",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "ALGERIA"
+        },
+        {
+          "itemCode": "AM001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "AMERICAN  SAMOA"
+        },
+        {
+          "itemCode": "AN001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "ANDORRA"
+        },
+        {
+          "itemCode": "AN002",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "ANGOLA"
+        },
+        {
+          "itemCode": "AN003",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "ANGUILLA"
+        },
+        {
+          "itemCode": "AN005",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "ANTARCTICA"
+        },
+        {
+          "itemCode": "AN004",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "ANTIGUA/BARBUDA"
+        },
+        {
+          "itemCode": "AR001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "ARGENTINA"
+        },
+        {
+          "itemCode": "AR002",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "ARMENIA"
+        },
+        {
+          "itemCode": "AR003",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "ARUBA"
+        },
+        {
+          "itemCode": "AU001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "AUSTRALIA"
+        },
+        {
+          "itemCode": "AU002",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "AUSTRIA"
+        },
+        {
+          "itemCode": "AZ001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "AZERBAIJAN"
+        },
+        {
+          "itemCode": "BA001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "BAHAMAS"
+        },
+        {
+          "itemCode": "BA002",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "BAHRAIN"
+        },
+        {
+          "itemCode": "BA003",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "BANGLADESH"
+        },
+        {
+          "itemCode": "BA004",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "BARBADOS"
+        },
+        {
+          "itemCode": "BE001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "BELARUS"
+        },
+        {
+          "itemCode": "BE002",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "BELGIUM"
+        },
+        {
+          "itemCode": "BE003",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "BELIZE"
+        },
+        {
+          "itemCode": "BE004",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "BENIN"
+        },
+        {
+          "itemCode": "BE005",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "BERMUDA"
+        },
+        {
+          "itemCode": "BH001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "BHUTAN"
+        },
+        {
+          "itemCode": "BO001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "BOLIVIA"
+        },
+        {
+          "itemCode": "BO004",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "BONAIRE, SAINT EUSTATIUS \u0026 SABA"
+        },
+        {
+          "itemCode": "BO002",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "BOSNIA  \u0026  HERZEGOVINA"
+        },
+        {
+          "itemCode": "BO003",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "BOTSWANA"
+        },
+        {
+          "itemCode": "BO005",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "BOUVET ISLAND"
+        },
+        {
+          "itemCode": "BR001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "BRAZIL"
+        },
+        {
+          "itemCode": "BR002",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "BRIT VIRGIN ISLANDS"
+        },
+        {
+          "itemCode": "BR004",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "BRITISH INDIAN OCEAN TERRITORY"
+        },
+        {
+          "itemCode": "BR003",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "BRUNEI"
+        },
+        {
+          "itemCode": "BU001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "BULGARIA"
+        },
+        {
+          "itemCode": "BU002",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "BURKINA-FASO"
+        },
+        {
+          "itemCode": "BU003",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "BURUNDI"
+        },
+        {
+          "itemCode": "CA001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "CAMBODIA"
+        },
+        {
+          "itemCode": "CA002",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "CAMEROON"
+        },
+        {
+          "itemCode": "CA003",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "CANADA"
+        },
+        {
+          "itemCode": "CA004",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "CAPE  VERDE"
+        },
+        {
+          "itemCode": "CA005",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "CAYMANS  ISLANDS"
+        },
+        {
+          "itemCode": "CE001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "CENTRAL  AFR  REP"
+        },
+        {
+          "itemCode": "CH001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "CHAD"
+        },
+        {
+          "itemCode": "CH002",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "CHILE"
+        },
+        {
+          "itemCode": "CH003",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "CHINA  PEOPLES  REP"
+        },
+        {
+          "itemCode": "CI001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "CHRISTMAS  ISLAND"
+        },
+        {
+          "itemCode": "CO001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "COCOS  ISLANDS"
+        },
+        {
+          "itemCode": "CO002",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "COLOMBIA"
+        },
+        {
+          "itemCode": "CO003",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "COMOROS"
+        },
+        {
+          "itemCode": "CO008",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "CONGO"
+        },
+        {
+          "itemCode": "CO004",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "CONGO  DEMOCRATIC  REP"
+        },
+        {
+          "itemCode": "CO005",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "COOK  ISLANDS"
+        },
+        {
+          "itemCode": "CO006",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "COSTA  RICA"
+        },
+        {
+          "itemCode": "CO007",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "COTE  D\u0027IVOIRE"
+        },
+        {
+          "itemCode": "CR001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "CROATIA  REPUBLIC"
+        },
+        {
+          "itemCode": "CU001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "CUBA"
+        },
+        {
+          "itemCode": "CU002",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "CURACAO"
+        },
+        {
+          "itemCode": "CY001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "CYPRUS"
+        },
+        {
+          "itemCode": "CZ001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "CZECH  REPUBLIC"
+        },
+        {
+          "itemCode": "DE001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "DENMARK"
+        },
+        {
+          "itemCode": "DJ001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "DJIBOUTI"
+        },
+        {
+          "itemCode": "DO001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "DOMINICA"
+        },
+        {
+          "itemCode": "DO002",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "DOMINICAN  REPUBLIC"
+        },
+        {
+          "itemCode": "EA001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "EAST  TIMOR"
+        },
+        {
+          "itemCode": "EC001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "ECUADOR"
+        },
+        {
+          "itemCode": "EG001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "EGYPT"
+        },
+        {
+          "itemCode": "EL001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "EL  SALVADOR"
+        },
+        {
+          "itemCode": "EQ001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "EQUATORIAL  GUINEA"
+        },
+        {
+          "itemCode": "ER001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "ERITREA"
+        },
+        {
+          "itemCode": "ES001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "ESTONIA"
+        },
+        {
+          "itemCode": "ET001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "ETHIOPIA"
+        },
+        {
+          "itemCode": "FA001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "FALKLAND  ISLANDS"
+        },
+        {
+          "itemCode": "FA002",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "FAROE  ISLANDS"
+        },
+        {
+          "itemCode": "FI001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "FIJI"
+        },
+        {
+          "itemCode": "FI002",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "FINLAND"
+        },
+        {
+          "itemCode": "FR001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "FRANCE"
+        },
+        {
+          "itemCode": "FR002",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "FRENCH  GUINANA"
+        },
+        {
+          "itemCode": "FR003",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "FRENCH  POLYNESIA"
+        },
+        {
+          "itemCode": "FR004",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "FRENCH SOUTHERN TERRITORIES"
+        },
+        {
+          "itemCode": "GA001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "GABON"
+        },
+        {
+          "itemCode": "GA002",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "GAMBIA"
+        },
+        {
+          "itemCode": "GE001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "GEORGIA"
+        },
+        {
+          "itemCode": "GE002",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "GERMANY  REPUBLIC"
+        },
+        {
+          "itemCode": "GH001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "GHANA"
+        },
+        {
+          "itemCode": "GI001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "GIBRALTAR"
+        },
+        {
+          "itemCode": "GR001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "GREECE"
+        },
+        {
+          "itemCode": "GR002",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "GREENLAND"
+        },
+        {
+          "itemCode": "GR003",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "GRENADA"
+        },
+        {
+          "itemCode": "GU001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "GUADELOUPE"
+        },
+        {
+          "itemCode": "GU002",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "GUAM"
+        },
+        {
+          "itemCode": "GU003",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "GUATEMALA"
+        },
+        {
+          "itemCode": "GU004",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "GUERNSEY"
+        },
+        {
+          "itemCode": "GU005",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "GUINEA"
+        },
+        {
+          "itemCode": "GU006",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "GUINEA-BISSAU"
+        },
+        {
+          "itemCode": "GU007",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "GUYANA"
+        },
+        {
+          "itemCode": "HA001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "HAITI"
+        },
+        {
+          "itemCode": "HE001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "HEARD ISLAND \u0026 MCDONALD ISLANDS"
+        },
+        {
+          "itemCode": "HO001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "HONDURAS"
+        },
+        {
+          "itemCode": "HO002",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "HONG  KONG"
+        },
+        {
+          "itemCode": "HU001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "HUNGARY"
+        },
+        {
+          "itemCode": "IC001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "ICELAND"
+        },
+        {
+          "itemCode": "IN001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "INDIA"
+        },
+        {
+          "itemCode": "IN002",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "INDONESIA"
+        },
+        {
+          "itemCode": "IR001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "IRAN  ISLAMIC  REP"
+        },
+        {
+          "itemCode": "IR002",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "IRAQ"
+        },
+        {
+          "itemCode": "IR003",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "IRELAND"
+        },
+        {
+          "itemCode": "IS001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "ISRAEL"
+        },
+        {
+          "itemCode": "IT001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "ITALY"
+        },
+        {
+          "itemCode": "JA001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "JAMAICA"
+        },
+        {
+          "itemCode": "JA002",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "JAPAN"
+        },
+        {
+          "itemCode": "JE001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "JERSEY"
+        },
+        {
+          "itemCode": "JO001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "JORDAN"
+        },
+        {
+          "itemCode": "KA001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "KAZAKHSTAN"
+        },
+        {
+          "itemCode": "KE001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "KENYA"
+        },
+        {
+          "itemCode": "KI001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "KIRIBATI"
+        },
+        {
+          "itemCode": "KO001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "KOREA  NORTH  DEM  REP"
+        },
+        {
+          "itemCode": "KO002",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "KOREA  SOUTH  DEM  REP"
+        },
+        {
+          "itemCode": "KU001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "KUWAIT"
+        },
+        {
+          "itemCode": "KY001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "KYRGYZSTAN"
+        },
+        {
+          "itemCode": "LA001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "LAOS  DEMOCRATIC  REP"
+        },
+        {
+          "itemCode": "LA002",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "LATVIA"
+        },
+        {
+          "itemCode": "LE001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "LEBANON"
+        },
+        {
+          "itemCode": "LE002",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "LESOTHO"
+        },
+        {
+          "itemCode": "LI001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "LIBERIA"
+        },
+        {
+          "itemCode": "LI002",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "LIBYA"
+        },
+        {
+          "itemCode": "LI003",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "LIECHTENSTEIN"
+        },
+        {
+          "itemCode": "LI004",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "LITHUANIA"
+        },
+        {
+          "itemCode": "LU001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "LUXEMBOURG"
+        },
+        {
+          "itemCode": "MA001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "MACAU"
+        },
+        {
+          "itemCode": "MA002",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "MACEDONIA"
+        },
+        {
+          "itemCode": "MA003",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "MADAGASCAR"
+        },
+        {
+          "itemCode": "MA004",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "MALAWI"
+        },
+        {
+          "itemCode": "MA005",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "MALAYSIA"
+        },
+        {
+          "itemCode": "MA006",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "MALDIVES"
+        },
+        {
+          "itemCode": "MA007",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "MALI"
+        },
+        {
+          "itemCode": "MA008",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "MALTA"
+        },
+        {
+          "itemCode": "MA009",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "MAN  ISLE"
+        },
+        {
+          "itemCode": "MA010",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "MARSHALL  ISLANDS"
+        },
+        {
+          "itemCode": "MA011",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "MARTINIQUE"
+        },
+        {
+          "itemCode": "MA012",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "MAURITANIA"
+        },
+        {
+          "itemCode": "MA013",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "MAURITIUS"
+        },
+        {
+          "itemCode": "MA014",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "MAYOTTE"
+        },
+        {
+          "itemCode": "ME001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "MEXICO"
+        },
+        {
+          "itemCode": "MI001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "MICRONESIA"
+        },
+        {
+          "itemCode": "MO001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "MOLDOVA  REPUBLIC"
+        },
+        {
+          "itemCode": "MO002",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "MONACO"
+        },
+        {
+          "itemCode": "MO003",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "MONGOLIA"
+        },
+        {
+          "itemCode": "MO014",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "MONTENEGO"
+        },
+        {
+          "itemCode": "MO004",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "MONTSERRAT"
+        },
+        {
+          "itemCode": "MO005",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "MOROCCO"
+        },
+        {
+          "itemCode": "MO006",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "MOZAMBIQUE"
+        },
+        {
+          "itemCode": "BU004",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "MYANMAR"
+        },
+        {
+          "itemCode": "NA001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "NAMIBIA"
+        },
+        {
+          "itemCode": "NA002",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "NAURU"
+        },
+        {
+          "itemCode": "NE001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "NEPAL"
+        },
+        {
+          "itemCode": "NE003",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "NETHERLAND  ANTILLES"
+        },
+        {
+          "itemCode": "NE002",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "NETHERLANDS"
+        },
+        {
+          "itemCode": "NE004",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "NEW  CALEDONIA"
+        },
+        {
+          "itemCode": "NE005",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "NEW  ZEALAND"
+        },
+        {
+          "itemCode": "NI001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "NICARAGUA"
+        },
+        {
+          "itemCode": "NI002",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "NIGER"
+        },
+        {
+          "itemCode": "NI003",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "NIGERIA"
+        },
+        {
+          "itemCode": "NI004",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "NIUE"
+        },
+        {
+          "itemCode": "NO001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "NORFOLK  ISLAND"
+        },
+        {
+          "itemCode": "NO002",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "NORTH  MARIANA  ISLANDS"
+        },
+        {
+          "itemCode": "NO003",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "NORWAY"
+        },
+        {
+          "itemCode": "OM001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "OMAN"
+        },
+        {
+          "itemCode": "PA001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "PAKISTAN"
+        },
+        {
+          "itemCode": "PA002",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "PALAU"
+        },
+        {
+          "itemCode": "PA006",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "PALESTINIAN TERRITORY, OCCUPIED"
+        },
+        {
+          "itemCode": "PA003",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "PANAMA"
+        },
+        {
+          "itemCode": "PA004",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "PAPUA  NEW  GUINEA"
+        },
+        {
+          "itemCode": "PA005",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "PARAGUAY"
+        },
+        {
+          "itemCode": "PE001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "PERU"
+        },
+        {
+          "itemCode": "PH001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "PHILIPPINES"
+        },
+        {
+          "itemCode": "PI001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "PITCAIRN  ISLANDS"
+        },
+        {
+          "itemCode": "PO001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "POLAND"
+        },
+        {
+          "itemCode": "PO002",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "PORTUGAL"
+        },
+        {
+          "itemCode": "PU001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "PUERTO  RICO"
+        },
+        {
+          "itemCode": "QA001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "QATAR"
+        },
+        {
+          "itemCode": "RE001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "REUNION"
+        },
+        {
+          "itemCode": "RO001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "ROMANIA"
+        },
+        {
+          "itemCode": "RU001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "RUSSIA  FEDERATION"
+        },
+        {
+          "itemCode": "RW001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "RWANDA"
+        },
+        {
+          "itemCode": "ST006",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "SAINT BARTHELEMY"
+        },
+        {
+          "itemCode": "ST007",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "SAINT MARTIN (FRENCH PART)"
+        },
+        {
+          "itemCode": "SA001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "SAMOA"
+        },
+        {
+          "itemCode": "SA002",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "SAN  MARINO"
+        },
+        {
+          "itemCode": "SA003",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "SAO  TOME  \u0026  PRINCIPE"
+        },
+        {
+          "itemCode": "SA004",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "SAUDI  ARABIA"
+        },
+        {
+          "itemCode": "SE001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "SENEGAL"
+        },
+        {
+          "itemCode": "SE003",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "SERBIA"
+        },
+        {
+          "itemCode": "SE002",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "SEYCHELLES"
+        },
+        {
+          "itemCode": "SI001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "SIERRA  LEONE"
+        },
+        {
+          "itemCode": "SI002",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "SINGAPORE"
+        },
+        {
+          "itemCode": "SI003",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "SINT MARTIN (DUTCH PART)"
+        },
+        {
+          "itemCode": "SL001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "SLOVAKIA"
+        },
+        {
+          "itemCode": "SL002",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "SLOVEN"
+        },
+        {
+          "itemCode": "SO001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "SOLOMON  ISLANDS"
+        },
+        {
+          "itemCode": "SO002",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "SOMALIA"
+        },
+        {
+          "itemCode": "SO004",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "SOUTH GEORGIA \u0026 THE SOUTH SANDWICH"
+        },
+        {
+          "itemCode": "SP001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "SPAIN"
+        },
+        {
+          "itemCode": "SR001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "SRI  LANKA"
+        },
+        {
+          "itemCode": "ST001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "ST  HELENA"
+        },
+        {
+          "itemCode": "ST002",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "ST  KITTS  \u0026  NEVIS"
+        },
+        {
+          "itemCode": "ST003",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "ST  LUCIA"
+        },
+        {
+          "itemCode": "ST004",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "ST  PIERRE  MIQUELAN"
+        },
+        {
+          "itemCode": "ST005",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "ST  VINCENT  \u0026  GRENDINES"
+        },
+        {
+          "itemCode": "SU001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "SUDAN"
+        },
+        {
+          "itemCode": "SU002",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "SURINAME"
+        },
+        {
+          "itemCode": "SV001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "SVALBARD \u0026 JAN MAYEN"
+        },
+        {
+          "itemCode": "SW001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "SWAZILAND"
+        },
+        {
+          "itemCode": "SW002",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "SWEDEN"
+        },
+        {
+          "itemCode": "SW003",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "SWITZERLAND"
+        },
+        {
+          "itemCode": "SY001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "SYRIA"
+        },
+        {
+          "itemCode": "TA001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "TAIWAN"
+        },
+        {
+          "itemCode": "TA002",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "TAJIKISTAN"
+        },
+        {
+          "itemCode": "TA003",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "TANZANIA  UNITED  REP"
+        },
+        {
+          "itemCode": "TH001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "THAILAND"
+        },
+        {
+          "itemCode": "TO001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "TOGO"
+        },
+        {
+          "itemCode": "TO002",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "TOKELAU  ISLANDS"
+        },
+        {
+          "itemCode": "TO003",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "TONGA"
+        },
+        {
+          "itemCode": "TR001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "TRINIDAD"
+        },
+        {
+          "itemCode": "TU001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "TUNISIA"
+        },
+        {
+          "itemCode": "TU002",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "TURKEY"
+        },
+        {
+          "itemCode": "TU003",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "TURKMENISTAN"
+        },
+        {
+          "itemCode": "TU004",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "TURKS  \u0026  CAICOS  ISLANDS"
+        },
+        {
+          "itemCode": "TU005",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "TUVALU"
+        },
+        {
+          "itemCode": "UG001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "UGANDA"
+        },
+        {
+          "itemCode": "UK001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "UKRAINE"
+        },
+        {
+          "itemCode": "UN002",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "UNITED  KINGDOM"
+        },
+        {
+          "itemCode": "UN003",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "UNITED  STATES"
+        },
+        {
+          "itemCode": "UN004",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "UNITED STATES MINOR OUTLYING ISLAN"
+        },
+        {
+          "itemCode": "UR001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "URUGUAY"
+        },
+        {
+          "itemCode": "UN001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "UTD  ARAB  EMIRATES"
+        },
+        {
+          "itemCode": "UZ001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "UZBEKISTAN"
+        },
+        {
+          "itemCode": "VA001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "VANUATU"
+        },
+        {
+          "itemCode": "VA002",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "VATICAN CITY"
+        },
+        {
+          "itemCode": "VE001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "VENEZUELA"
+        },
+        {
+          "itemCode": "VI001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "VIETNAM"
+        },
+        {
+          "itemCode": "VI002",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "VIRGIN  ISLAND"
+        },
+        {
+          "itemCode": "WA001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "WALLIS  \u0026  FUTUNA  ISLAND"
+        },
+        {
+          "itemCode": "WE001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "WESTERN  SAHARA"
+        },
+        {
+          "itemCode": "YE001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "YEMEN"
+        },
+        {
+          "itemCode": "YU001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "YUGOSLAVIA"
+        },
+        {
+          "itemCode": "ZA002",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "ZAMBIA"
+        },
+        {
+          "itemCode": "ZI001",
+          "groupCode": "COUNTRY PASSPORT",
+          "cmsKey": null,
+          "defaultLabel": "ZIMBABWE"
+        }
+      ],
+      "txnStatus": "Success",
+      "txnMessage": "Success"
+    }
+  }
+}

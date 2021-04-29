@@ -1,0 +1,57 @@
+{
+  "payHdr": {
+    "expTrace": "null",
+    "resCde": "00000",
+    "resId": "null",
+    "resMsg": "success",
+    "serVer": "2.0"
+  },
+  "payData": {
+    "cardPackage": {
+      "description": "With the Student Account you get unlimited card swipes, the ability to manage your money 24/7 and a range of value-added services. After four years, you will be upgraded to a Gold Graduate account.",
+      "minimumIncome": "0.00",
+      "monthlyFee": "0.00",
+      "packageName": "Student Account",
+      "packages": [
+        {
+          "bulletPoints": [
+            "No monthly account fee",
+            "Unlimited Absa Online, mobile and telephone banking",
+            "Mailed or eStatements",
+            "Unlimited electronic payments including debit and stop orders",
+            "Unlimited local card swipes and cash withdrawals",
+            "Unlimited Absa ATM balance enquires and mini-statements",
+            "Unlimited Absa ATM cash deposits (excluding cardless cash deposits) and withdrawals",
+            "Unlimited internal electronic fund transfers",
+            "Unlimited CashSend withdrawals at Absa ATMs",
+            "24/7 access to the largest ATM network in South Africa",
+            "Buy prepaid airtime or electricity"
+          ],
+          "package": "Better everyday banking"
+        },
+        {
+          "bulletPoints": [
+            "Food voucher to be redeemed at selected fast food outlets",
+            "R150 travel voucher",
+            "Up to 30% discount on a membership at selected gyms",
+            "100MB of data every month"
+          ],
+          "package": "Lifestyle benefits"
+        },
+        {
+          "bulletPoints": [
+            "Complete atleast 5 debit or credit banking transactions per month of which at least two must be prepaid transactions"
+          ],
+          "package": "How to qualify for your monthly benefits:"
+        },
+        {
+          "bulletPoints": [
+            "Visit the Student benefits page",
+            "Or dial *120*3475# and follow the prompts"
+          ],
+          "package": "How to redeem your benefits:"
+        }
+      ]
+    }
+  }
+}

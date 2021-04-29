@@ -1,0 +1,24 @@
+{
+  "successResponseModel":{
+    "payHdr":{
+      "resId":"RES2073",
+      "resCde":"00000",
+      "resMsg":"Success",
+      "expTrace":null,
+      "serVer":"2.0"
+    },
+    "payData":{
+      "applyForSavingsAcctDTO":null,
+      "sureCheckFlag":"SURECHECKV1Required",
+      "transactionDate":"2018-11-02 13:36:00",
+      "notificationMethod":null,
+      "referenceNumber":"Mjd2N0F6aU5ZeUVIR2U1T1FBM0lub1NvcUtkZlFCY0Y=",
+      "tvnFlag":"SURECHECKV1Required",
+      "corelationId":"Mjd2N0F6aU5ZeUVIR2U1T1FBM0lub1NvcUtkZlFCY0Y=",
+      "email":null,
+      "cellnumber":null,
+      "txnMessage":"Success",
+      "txnStatus":"Success"
+    }
+  }
+}

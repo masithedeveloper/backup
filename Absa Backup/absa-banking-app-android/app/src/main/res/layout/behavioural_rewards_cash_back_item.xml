@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rounded_rectangle_background"
+    android:padding="@dimen/medium_space">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/cashBackImageView"
+        android:layout_width="@dimen/available_rewards_image_size"
+        android:layout_height="@dimen/available_rewards_image_size"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_spend_cart"
+        android:tint="@null"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/cashBackAmountTextView"
+        style="@style/HeadingTextMediumDark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/medium_space"
+        android:gravity="center"
+        app:autoSizeMaxTextSize="@dimen/heading_text_size"
+        app:autoSizeMinTextSize="@dimen/regular_text_size"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cashBackImageView"
+        tools:text="R1,000.00" />
+
+    <TextView
+        android:id="@+id/cashBackAmountDescriptionTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/small_space"
+        android:textColor="@color/foil"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cashBackAmountTextView"
+        tools:text="Available Cashback" />
+
+    <styleguide.buttons.Button
+        android:id="@+id/cashBackButton"
+        style="@style/PrimaryButtonRound"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/double_medium_space"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cashBackAmountDescriptionTextView"
+        tools:text="Spend" />
+
+    <LinearLayout
+        android:id="@+id/cashBackButtonsLinearLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/large_space"
+        android:layout_marginTop="@dimen/medium_space"
+        android:layout_marginEnd="@dimen/large_space"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cashBackAmountDescriptionTextView">
+
+        <styleguide.buttons.FloatingActionButtonView
+            android:id="@+id/leftFloatingActionButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:attribute_content_description=""
+            app:attribute_icon="@drawable/ic_authorization"
+            app:attribute_is_light="false"
+            tools:attribute_title_text="FAB Action 2" />
+
+        <styleguide.buttons.FloatingActionButtonView
+            android:id="@+id/rightFloatingActionButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:attribute_content_description=""
+            app:attribute_icon="@drawable/ic_buy_hub_shopping"
+            app:attribute_is_light="false"
+            tools:attribute_title_text="FAB Action 2" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

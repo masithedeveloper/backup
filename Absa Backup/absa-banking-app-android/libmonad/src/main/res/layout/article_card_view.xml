@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:parentTag="androidx.constraintlayout.widget.ConstraintLayout">
+
+    <TextView
+        android:id="@+id/containerText"
+        style="@style/LargeTextRegularDark"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/medium_space"
+        android:layout_marginEnd="@dimen/medium_space"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/rightImageView"
+        app:layout_constraintStart_toEndOf="@+id/leftImageView"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Add us as a contact using 08600 08600" />
+
+    <ImageView
+        android:id="@+id/leftImageView"
+        android:layout_width="@dimen/article_image_size"
+        android:layout_height="@dimen/article_image_size"
+        android:layout_marginStart="@dimen/double_medium_space"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_goneMarginStart="@dimen/medium_space"
+        app:srcCompat="@drawable/ic_article" />
+
+    <ImageView
+        android:id="@+id/rightImageView"
+        android:layout_width="@dimen/article_image_size"
+        android:layout_height="@dimen/article_image_size"
+        android:layout_marginEnd="@dimen/double_medium_space"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_goneMarginEnd="@dimen/medium_space"
+        app:layout_goneMarginRight="@dimen/medium_space"
+        app:srcCompat="@drawable/ic_article" />
+</merge>

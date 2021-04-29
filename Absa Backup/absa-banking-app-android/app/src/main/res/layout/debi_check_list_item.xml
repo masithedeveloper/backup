@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/debicheckListItemConstraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?selectableItemBackground">
+
+        <ImageView
+            android:id="@+id/rightArrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/medium_space"
+            app:layout_constraintBottom_toBottomOf="@+id/creditorNameContentView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/creditorNameContentView"
+            app:srcCompat="@drawable/ic_arrow_right_dark" />
+
+        <styleguide.content.SecondaryContentAndLabelView
+            android:id="@+id/creditorNameContentView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_is_secondary_check_box_checked="true"
+            app:attribute_should_show_check_box="false"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/rightArrow"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:attribute_secondary_content="MTN SA Internet"
+            tools:attribute_secondary_label="R 450 monthly" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#fff</color>
+    <color name="pink">#f0325a</color>
+    <color name="baby_pink">#f1c2cc</color>
+    <color name="smile_faded">#0cf0325a</color>
+    <color name="foil">#9f9f9f</color>
+    <color name="absolute">#c9c9c9</color>
+    <color name="light_silver">#d7d7d7</color>
+    <color name="light_grey">#efefef</color>
+    <color name="energy">#ff780f</color>
+    <color name="orange">#fa551e</color>
+    <color name="dark_orange">#f52d28</color>
+    <color name="light_red">#dc0032</color>
+    <color name="red">#be0028</color>
+    <color name="dark_purple">#500a28</color>
+    <color name="warm_purple">#640032</color>
+    <color name="warm_red">#aa052d</color>
+    <color name="purple">#870a3c</color>
+    <color name="light_pink">#f05a78</color>
+    <color name="light_purple">#af144b</color>
+    <color name="smile">#f0325a</color>
+    <color name="primary_red">#d50032</color>
+    <color name="warm_grey">#5a4b4b</color>
+    <color name="dark_silver">#736464</color>
+    <color name="dark_grey">#524747</color>
+    <color name="pale_grey">#f2f2f7</color>
+    <color name="grey">#575757</color>
+    <color name="greyish_brown">#524a4a</color>
+    <color name="brownish_grey">#787272</color>
+    <color name="silver_grey">#e0e0e0</color>
+    <color name="graphite">#2d2323</color>
+    <color name="dark_pink">#d3284c</color>
+    <color name="dark_red">#960528</color>
+    <color name="silver">#c9c9c9</color>
+    <color name="green">#00a064</color>
+    <color name="bright_orange">#ff5a4c</color>
+    <color name="bright_purple">#a10d51</color>
+    <color name="bright_pink">#ff1151</color>
+    <color name="light_orange">#ff780f</color>
+    <color name="transparentLight">#26FFFFFF</color>
+    <color name="light_opacity_purple">#40a10d51</color>
+
+    <color name="tabItemTextColor">@android:color/white</color>
+    <color name="tabItemBackground">@android:color/transparent</color>
+    <color name="tabIndicator">#CCFFFFFF</color>
+
+    <color name="checkBoxCheckedButtonTint">@color/smile</color>
+    <color name="checkBoxUncheckedButtonTint">@android:color/white</color>
+
+    <color name="divider_background_color">@color/silver_grey</color>
+
+    <color name="toggleThumbActiveColor">@android:color/white</color>
+    <color name="toggleTrackActiveColor">@color/pink</color>
+    <color name="toggleThumbDeactivatedColor">@color/dark_grey</color>
+    <color name="toggleTrackDeactivatedColor">@color/foil</color>
+
+    <color name="radio_button_view_text_color">@color/graphite</color>
+
+    <color name="credit_card_graph_arc_color">@android:color/white</color>
+    <color name="credit_card_graph_arc_track_color">#3BFFFFFF</color>
+
+    <color name="tab_bar_view_background">#1A000000</color>
+    <color name="bottom_nav_border">@color/grey</color>
+    <color name="bottom_nav_color">@android:color/black</color>
+    <color name="link_color">#FF666666</color>
+
+    <color name="light_theme_lotto_indicator_color">@color/silver_grey</color>
+
+    <color name="transaction_card_dark_background_color">@color/dark_grey</color>
+    <color name="bottom_navigation_icon_color">#d7d5d5</color>
+    <color name="dark_grey_light_theme_text_color">@color/white</color>
+    <color name="graphite_light_theme_item_color">@color/white</color>
+    <color name="grey_light_theme_color">@color/white</color>
+    <color name="keypad_button_color">@color/grey</color>
+    <color name="input_view_text_color">@color/silver</color>
+    <color name="black_light_theme_text_color">@color/white</color>
+    <color name="slide_to_reveal_background_color">@color/graphite</color>
+    <color name="play_store_dialog_background_color">@android:color/background_dark</color>
+    <color name="lotto_card_background_color">@color/dark_grey</color>
+    <color name="transactions_card_background_colour">@color/dark_grey</color>
+    <color name="bottom_sheet_options_title_color">@color/white</color>
+
+    <color name="behavioural_rewards_challenge_background">#8D0B45</color>
+    <color name="behavioural_rewards_hub_background">#1C1C1C</color>
+    <color name="behavioural_rewards_voucher_item">#444444</color>
+    <color name="behavioural_rewards_claim_reward_item">#444444</color>
+    <color name="behavioural_rewards_voucher_item_button">@color/white</color>
+    <color name="behavioural_rewards_tab">@color/pink</color>
+    <color name="behavioural_rewards_hint_color">@color/light_silver</color>
+    <color name="behavioural_rewards_expired_voucher_color">@color/dark_grey</color>
+    <color name="rewards_viewpager_selected_dot">@color/white</color>
+
+    <color name="in_app_message_search_text_color">@color/white</color>
+    <color name="in_app_message_grey_color">#d7d7d7</color>
+    <color name="in_app_message_background">#1C1C1C</color>
+
+    <color name="iidentifii_brown">#2D2222</color>
+    <color name="iidentifii_orange">#CCE07D3A</color>
+
+    <color name="light_toolbar_background">#1C1C1C</color>
+    <color name="western_union_step_color">#FFFFFF</color>
+
+    <color name="hub_header_background">#1C1C1C</color>
+    <color name="transaction_card_background">#1C1C1C</color>
+    <color name="transaction_card_boarder">#191919</color>
+
+    <color name="search_and_filter_boarder">#191919</color>
+    <color name="search_and_filter_background">#1C1C1C</color>
+
+    <!--    SimplifiedLoginActivityColors-->
+    <color name="background_grey">#FF1E1E1E</color>
+    <color name="card_white">#FF2D2E2D</color>
+
+    <!--Multiple Payments-->
+    <color name="multiple_payment_default_arrow_color">@color/light_silver</color>
+    <color name="multiple_payment_alert_title_color">@color/light_silver</color>
+    <color name="multiple_payment_alert_description_color">@color/foil</color>
+
+    <color name="import_beneficiary_alert_color">@color/dark_grey</color>
+</resources>

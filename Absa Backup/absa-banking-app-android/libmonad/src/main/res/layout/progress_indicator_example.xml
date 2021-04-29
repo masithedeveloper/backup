@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:text="Step 1" />
+
+        <styleguide.bars.LimitsIndicator
+            android:id="@+id/progress_indicator_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/progress_indicator_margin"
+            android:layout_marginStart="@dimen/progress_indicator_margin"
+            android:background="@drawable/progress_indicator_background" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:text="Step 2" />
+
+        <styleguide.bars.ProgressIndicatorView
+            android:id="@+id/progress_indicator_2"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/progress_indicator_height"
+            android:layout_marginEnd="@dimen/progress_indicator_margin"
+            android:layout_marginStart="@dimen/progress_indicator_margin"
+            android:background="@drawable/progress_indicator_background"
+            app:attribute_next_step="2"
+            app:attribute_previous_step="1"
+            app:attribute_steps="6" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:text="Step 3" />
+
+        <styleguide.bars.ProgressIndicatorView
+            android:id="@+id/progress_indicator_3"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/progress_indicator_height"
+            android:layout_marginEnd="@dimen/progress_indicator_margin"
+            android:layout_marginStart="@dimen/progress_indicator_margin"
+            android:background="@drawable/progress_indicator_background"
+            app:attribute_next_step="3"
+            app:attribute_previous_step="2"
+            app:attribute_steps="6" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Step 4" />
+
+        <styleguide.bars.ProgressIndicatorView
+            android:id="@+id/progress_indicator_4"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/progress_indicator_height"
+            android:layout_marginEnd="@dimen/progress_indicator_margin"
+            android:layout_marginStart="@dimen/progress_indicator_margin"
+            android:background="@drawable/progress_indicator_background"
+            app:attribute_next_step="4"
+            app:attribute_previous_step="3"
+            app:attribute_steps="6" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:text="Step 5" />
+
+        <styleguide.bars.ProgressIndicatorView
+            android:id="@+id/progress_indicator_5"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/progress_indicator_height"
+            android:layout_marginEnd="@dimen/progress_indicator_margin"
+            android:layout_marginStart="@dimen/progress_indicator_margin"
+            android:background="@drawable/progress_indicator_background"
+            app:attribute_next_step="5"
+            app:attribute_previous_step="4"
+            app:attribute_steps="6" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:text="Step 6" />
+
+        <styleguide.bars.ProgressIndicatorView
+            android:id="@+id/progress_indicator_6"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/progress_indicator_height"
+            android:layout_marginEnd="@dimen/progress_indicator_margin"
+            android:layout_marginStart="@dimen/progress_indicator_margin"
+            android:background="@drawable/progress_indicator_background"
+            app:attribute_next_step="6"
+            app:attribute_previous_step="5"
+            app:attribute_steps="6" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:text="Step 7" />
+
+        <styleguide.bars.ProgressIndicatorView
+            android:id="@+id/progress_indicator_7"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/progress_indicator_height"
+            android:layout_marginEnd="@dimen/progress_indicator_margin"
+            android:layout_marginStart="@dimen/progress_indicator_margin"
+            android:background="@drawable/progress_indicator_background"
+            app:attribute_next_step="5"
+            app:attribute_previous_step="6"
+            app:attribute_steps="6" />
+    </LinearLayout>
+
+    <styleguide.buttons.Button
+        android:id="@+id/animate_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/smile"
+        android:text="Animate" />
+
+    <styleguide.bars.ToggleView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:attribute_bottom_text="This is me "
+        app:attribute_toggle_text="Turn me on" />
+</LinearLayout>

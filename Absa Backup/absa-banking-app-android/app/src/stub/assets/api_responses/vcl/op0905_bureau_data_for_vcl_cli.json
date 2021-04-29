@@ -1,0 +1,38 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0905",
+      "resCde": "00000",
+      "resMsg": "Success",
+      "serVer": "2.0",
+      "expTrace": null
+    },
+    "payData": {
+      "fetchBureauDataForVCLCLIApplyRespDTO": {
+        "creditCardApplyStatusEnum": "SUCCESS",
+        "offersCreditCardNumber": "4787690019837011",
+        "creditLimitIncreaseAmtForCLI": "238999.0",
+        "existingCreditLimitOfCreditCard": "1001.0",
+        "incomeAndExpense": {
+          "bureauDebtInstalmentList": [{
+            "bureauCategory": "MB",
+            "bureauCategoryAmount": "1375.0"
+          },
+            {
+              "bureauCategory": "RI",
+              "bureauCategoryAmount": "1569.0"
+            }],
+          "totalGrossMonthlyIncome": "20000.0",
+          "totalNetMonthlyIncome": "17000.0",
+          "totalMonhtlyLivingExpenses": "1700.0",
+          "totalMonthlyFixedDebtInstallment": "9375.0",
+          "telephoneExpense": "925.0",
+          "insuranceExpense": "1000.0",
+          "securityExpense": "540.0"
+        }
+      },
+      "txnStatus": "Success",
+      "txnMessage": "Success"
+    }
+  }
+}

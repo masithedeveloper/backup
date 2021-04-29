@@ -1,0 +1,55 @@
+{
+	"successResponseModel": {
+		"payHdr": {
+			"resId": "RES0843",
+			"resCde": "00000",
+			"resMsg": "Success",
+			"serVer": "2.0",
+			"expTrace": null
+		},
+		"payData": {
+			"mandates": [{
+				"mandateId": null,
+				"mandateRequestTransactionId": "00162018-03-12000000073",
+				"vendor": "HYPHENTEST1",
+				"debitType": "FIXED",
+				"initialAmount": "1410.0",
+				"initialAmountCcy": "ZAR",
+				"debitOrderDate": "2018-03-12",
+				"firstCollectDate": "2018-04-07",
+				"installmentAmount": "1410.0",
+				"installmentAmountCcy": "ZAR",
+				"maxCollectAmount": "1500.0",
+				"maxCollectAmountCcy": "ZAR",
+				"adjustmentCategory": "N",
+				"adjustmentAmount": "0.0",
+				"adjustmentRate": "0.0",
+				"collectionDay": "7",
+				"frequency": "Weekly",
+				"creditorName": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+				"creditorShortName": "HYPHENTEST",
+				"contractRefNo": "TT9115",
+				"payerDebtorAcc": "4047731050",
+				"trackingInd": "T",
+				"dateAdjustmentRuleInd": "Y",
+				"clientReference": "TT77821992446467",
+				"accepted": true,
+				"rejectReason": null,
+				"success": true,
+				"amendmentReason": null,
+				"mandateType": null,
+				"mandateReferenceNumber": null
+			}],
+			"sureCheckFlag": null,
+			"tvnFlag": null,
+			"referenceNumber": null,
+			"corelationId": null,
+			"transactionDate": null,
+			"cellnumber": null,
+			"email": null,
+			"notificationMethod": null,
+			"txnStatus": "Success",
+			"txnMessage": "Success"
+		}
+	}
+}

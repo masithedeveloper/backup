@@ -1,0 +1,24 @@
+{
+  "successResponseModel": {
+    "payData": {
+      "txnMessage": "Success",
+      "tvnFlag": null,
+      "deviceChanged": true,
+      "referenceNumber": null,
+      "sureCheckFlag": null,
+      "corelationId": null,
+      "email": null,
+      "notificationMethod": null,
+      "transactionDate": null,
+      "cellnumber": null,
+      "txnStatus": "Success"
+    },
+    "payHdr": {
+      "resCde": "00000",
+      "serVer": "2.0",
+      "expTrace": null,
+      "resMsg": "Success",
+      "resId": "RES0818"
+    }
+  }
+}

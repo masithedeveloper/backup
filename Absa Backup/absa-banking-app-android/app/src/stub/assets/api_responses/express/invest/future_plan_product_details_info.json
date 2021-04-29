@@ -1,0 +1,52 @@
+{
+  "header": {
+    "statuscode": "0",
+    "userAgent": "ANDROID - 6.21.0",
+    "wfpt": null,
+    "jsessionid": "huV68Aj_eC3h4uGGgmOFNCgE-CG8S9HzICeGcEKd",
+    "esessionid": null,
+    "xfpt": null,
+    "service": "SaveAndInvestProductsFacade",
+    "operation": "GetProductDetailsInfo",
+    "channel": null,
+    "timestamp": "2021-02-23 14:06:42.082",
+    "sourceip": "22.147.145.113",
+    "accessAccount": "9051153469",
+    "userNumber": "1",
+    "nonce": "Zrer84paTGksfN-_lOaIPPyDSXuvxiLq_9LDkjk-Wqo",
+    "language": "en",
+    "organization": null,
+    "brand": null,
+    "applicationId": null,
+    "applicationKeyId": null,
+    "requestToken": null,
+    "resultMessages": [],
+    "paginationContext": null
+  },
+  "saveAndInvestProduct": {
+    "productCodeAndCRPCode": {
+      "productCode": "09205",
+      "crpCode": "DPO0920500"
+    },
+    "productName": "Future Plan",
+    "crpName": "",
+    "categoryName": "Contractual Savings",
+    "categoryCode": "aoccs001",
+    "minInvestmentAmount": 100.0,
+    "minimumNotice": "32 days",
+    "minInvestmentPeriod": "6 months",
+    "maxInvestmentPeriod": "",
+    "reinvestmentEnabled": "Y",
+    "reinvestmentOptions": "",
+    "receiveInterestFrequency": "Monthly",
+    "capitalisationDay": "N",
+    "liquidityOptions": "",
+    "interestRate": "4.55% - 6.05%",
+    "productDescription": "Future Plan",
+    "preferredSavingsFrequency": "Once-off deposit,Once-off deposit plus monthly deposit",
+    "additionalPaymentViaDebitOrder": "100",
+    "maxInvestmentAmount": 9999999999999.99,
+    "interestCapitalizationDay": null,
+    "ecMaxInvestmentAmount": 9999999999999.99
+  }
+}

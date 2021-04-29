@@ -1,0 +1,34 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES2137",
+      "resMsg": "Success",
+      "resCde": "00000",
+      "expTrace": null,
+      "serVer": "2.0"
+    },
+    "payData": {
+      "txnStatus": "Success",
+      "txnMessage": "Success",
+      "swiftTransactions": [
+        {
+          "expectedPayoutAmount": "0",
+          "senderFirstName": "EXSA BRITAIN B.V.",
+          "originatingCountry": "UNITED KINGDOM",
+          "foreignCurrencyAmount": "4356.23",
+          "toAccount": "9050993539",
+          "foreignCurrencyCode": "GBP",
+          "endDate": "2019-12-18",
+          "beneficiaryType": "business",
+          "caseIDNumber": "I81753D4A943",
+          "originatingCountryCode": "GB",
+          "senderLastName": "le Roux",
+          "transactionDate": "2019-11-18",
+          "balance": "",
+          "triNumber": "SHA18111934",
+          "whoWillPay": "Beneficiary"
+        }
+      ]
+    }
+  }
+}

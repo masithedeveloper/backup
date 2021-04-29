@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <item
+        android:id="@+id/action_info"
+        android:icon="@drawable/ic_info_i"
+        android:title="@string/info"
+        android:visible="false"
+        app:iconTint="@color/black_light_theme_text_color"
+        app:showAsAction="always"
+        tools:visible="true" />
+
+    <item
+        android:id="@+id/action_history"
+        android:title="@string/history"
+        android:visible="false"
+        app:showAsAction="always"
+        tools:visible="true" />
+
+    <item
+        android:id="@+id/action_share"
+        android:icon="@drawable/ic_share_new"
+        android:title="@string/share"
+        android:visible="false"
+        app:iconTint="@color/black_light_theme_text_color"
+        app:showAsAction="always"
+        tools:visible="true" />
+
+</menu>

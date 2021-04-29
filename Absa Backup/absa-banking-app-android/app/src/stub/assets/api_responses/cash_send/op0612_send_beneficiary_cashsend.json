@@ -1,0 +1,13 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0612",
+      "resCde": "00000",
+      "resMsg": "",
+      "serVer": "2.0"
+    },
+    "payData": {
+      "cellNumber": "0825554785"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/grp1">
+        <item
+            android:visible="false"
+            android:id="@+id/manageBeneficiaryMenuItem"
+            android:title="@string/manage_beneficiary" />
+        <item
+            android:id="@+id/manageCashSendPlusLimitMenuItem"
+            android:title="@string/manage_cash_send_plus_limit" />
+        <item
+            android:id="@+id/cancelCashSendPlusItemMenu"
+            android:title="@string/cancel_cash_send_plus" />
+    </group>
+    <group android:id="@+id/grp2">
+        <item
+            android:id="@+id/cancelBottomSheetItemMenu"
+            android:title="@string/cancel" />
+    </group>
+</menu>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/ScrollView">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/buyTypeTitleTextView"
+                style="@style/HeadingTextMediumBoldDark"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/medium_space"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:text="Absa Prime Equity Fund " />
+
+            <View
+                android:id="@+id/dividerView"
+                style="@style/DividerView"
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_margin="@dimen/medium_space"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/buyTypeTitleTextView" />
+
+            <TextView
+                android:id="@+id/findDescriptionTextView"
+                style="@style/NormalTextRegularDark"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/medium_space"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/dividerView"
+                tools:text="The Absa Prime Equity Fund, previously the Absa Large Cap Fund is in the domestic equity large sector and invests the majority of its assets in the South African investment markets at all times." />
+
+            <styleguide.cards.ArticleCardView
+                android:id="@+id/contributionArticleCardView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/double_medium_space"
+                app:attribute_image_content_text="@string/buy_unit_trust_fund_information_investment_amount"
+                app:attribute_image_resource="@drawable/ic_investment_contribution"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/findDescriptionTextView"
+                tools:ignore="RtlSymmetry" />
+
+            <styleguide.cards.ArticleCardView
+                android:id="@+id/investmentPeriodArticleCardView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/double_medium_space"
+                app:attribute_image_content_text="@string/buy_unit_trust_find_information_investment_period"
+                app:attribute_image_resource="@drawable/ic_investment_period"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/contributionArticleCardView"
+                tools:ignore="RtlSymmetry" />
+
+            <styleguide.cards.ArticleCardView
+                android:id="@+id/investmentMarketArticleCardView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/double_medium_space"
+                android:paddingEnd="@dimen/medium_space"
+                app:attribute_image_resource="@drawable/ic_investment_market"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/investmentPeriodArticleCardView"
+                tools:attribute_image_content_text="@string/buy_unit_trust_fund_information_shares"
+                tools:ignore="RtlSymmetry" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/leftImageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/medium_space"
+                android:layout_marginTop="@dimen/double_medium_space"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/investmentMarketArticleCardView"
+                app:srcCompat="@drawable/ic_document_dark"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/viewMDDTextView"
+                style="@style/LargeTextRegularDark"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/medium_space"
+                android:layout_marginEnd="@dimen/medium_space"
+                android:text="@string/buy_unit_trust_view_mdd"
+                app:layout_constraintBottom_toBottomOf="@+id/leftImageView"
+                app:layout_constraintStart_toEndOf="@+id/leftImageView"
+                app:layout_constraintTop_toTopOf="@+id/leftImageView" />
+
+            <TextView
+                android:id="@+id/noteTextView"
+                style="@style/SmallTextRegularDark"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/medium_space"
+                android:layout_marginTop="@dimen/medium_space"
+                android:layout_marginEnd="@dimen/medium_space"
+                android:text="@string/unit_trust_only_english_note_text"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/viewMDDTextView" />
+
+            <styleguide.buttons.Button
+                android:id="@+id/investInFundButton"
+                style="@style/PrimaryButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/buy_unit_trust_invest_in_fund_button"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/noteTextView"
+                app:layout_constraintVertical_bias="1" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>

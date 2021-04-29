@@ -1,0 +1,12 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="@dimen/lotto_ball_size"
+    android:height="@dimen/lotto_ball_size"
+    android:viewportWidth="30"
+    android:viewportHeight="30">
+    <path
+        android:pathData="M15,30C6.7157,30 0,23.2843 0,15C0,6.7157 6.7157,0 15,0C23.2843,0 30,6.7157 30,15C30,23.2843 23.2843,30 15,30ZM7.8731,6.1682C5.9784,6.9293 4.7368,8.7661 4.7368,10.8079L4.7368,19.1921C4.7368,21.2339 5.9784,23.0707 7.8731,23.8318C10.2488,24.786 12.6244,25.2632 15,25.2632C17.3756,25.2632 19.7513,24.786 22.1269,23.8318C24.0216,23.0707 25.2632,21.2339 25.2632,19.1921L25.2632,10.8079C25.2632,8.766 24.0216,6.9293 22.1269,6.1682C19.7512,5.214 17.3756,4.7368 15,4.7368C12.6244,4.7368 10.2487,5.214 7.8731,6.1682Z"
+        android:strokeWidth="1"
+        android:fillColor="#B9282F"
+        android:fillType="evenOdd"
+        android:strokeColor="#00000000"/>
+</vector>

@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/smile_faded"
+        android:paddingTop="@dimen/medium_space"
+        android:paddingBottom="@dimen/medium_space"
+        tools:ignore="HardcodedText">
+
+        <styleguide.buttons.Button
+            android:id="@+id/primary_button_enabled"
+            style="@style/PrimaryButton"
+            android:text="Primary Action"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <styleguide.buttons.Button
+            android:id="@+id/secondary_button_enabled"
+            style="@style/SecondaryButton"
+            android:layout_marginTop="@dimen/medium_space"
+            android:text="Secondary Action"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/primary_button_enabled" />
+
+        <styleguide.buttons.Button
+            android:id="@+id/primary_button_disabled"
+            style="@style/PrimaryButton"
+            android:enabled="false"
+            android:text="Primary Action Disabled"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/secondary_button_enabled" />
+
+        <styleguide.buttons.Button
+            android:id="@+id/secondary_button_disabled"
+            style="@style/SecondaryButton"
+            android:layout_marginTop="@dimen/medium_space"
+            android:enabled="false"
+            android:text="Secondary Action Disabled"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/primary_button_disabled" />
+
+        <styleguide.buttons.Button
+            android:id="@+id/secondary_button_enabled2"
+            style="@style/SecondaryButton"
+            android:layout_width="0dp"
+            android:layout_marginTop="@dimen/medium_space"
+            android:layout_marginEnd="@dimen/tiny_space"
+            android:text="Secondary Action"
+            app:layout_constraintEnd_toStartOf="@+id/primary_button_enabled2"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintHorizontal_chainStyle="spread_inside"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/secondary_button_disabled" />
+
+        <styleguide.buttons.Button
+            android:id="@+id/primary_button_enabled2"
+            style="@style/PrimaryButton"
+            android:layout_width="0dp"
+            android:layout_marginStart="@dimen/tiny_space"
+            android:text="Primary Action"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/secondary_button_enabled2"
+            app:layout_constraintStart_toStartOf="@null"
+            app:layout_constraintTop_toBottomOf="@id/secondary_button_disabled" />
+
+        <styleguide.buttons.Button
+            android:id="@+id/alternative_button_dark_enabled"
+            style="@style/AlternativeButtonDark"
+            android:layout_marginTop="@dimen/medium_space"
+            android:text="Alternative Dark Action"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/secondary_button_enabled2" />
+
+        <styleguide.buttons.Button
+            android:id="@+id/alternative_button_dark_disabled"
+            style="@style/AlternativeButtonDark"
+            android:layout_marginTop="@dimen/medium_space"
+            android:enabled="false"
+            android:text="Alternative Dark Action Disabled"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/alternative_button_dark_enabled" />
+
+        <styleguide.buttons.Button
+            android:id="@+id/alternative_button_light_enabled"
+            style="@style/AlternativeButtonLight"
+            android:layout_marginTop="@dimen/medium_space"
+            android:text="Alternative Light Action Disabled"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/alternative_button_dark_disabled" />
+
+        <styleguide.buttons.Button
+            android:id="@+id/alternative_button_light_disabled"
+            style="@style/AlternativeButtonLight"
+            android:layout_marginTop="@dimen/medium_space"
+            android:enabled="false"
+            android:text="Alternative Light Action Disabled"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/alternative_button_light_enabled" />
+
+        <styleguide.buttons.FloatingActionButtonView
+            android:id="@+id/dark_fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/medium_space"
+            android:layout_marginTop="@dimen/medium_space"
+            app:attribute_content_description="Pay example fab"
+            app:attribute_icon="@drawable/ic_pay_light_test"
+            app:attribute_is_light="false"
+            app:attribute_title_text="Pay"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/alternative_button_light_disabled" />
+
+        <styleguide.buttons.FloatingActionButtonView
+            android:id="@+id/light_fab2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/medium_space"
+            android:layout_marginTop="@dimen/medium_space"
+            android:layout_marginEnd="@dimen/medium_space"
+            app:attribute_content_description="Long text example fab"
+            app:attribute_icon="@drawable/ic_pay_dark_test"
+            app:attribute_is_light="true"
+            app:attribute_title_text="Long Text Example"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/alternative_button_light_disabled" />
+
+        <styleguide.buttons.Button
+            android:id="@+id/light_fwab"
+            style="@style/FloatingWideActionButtonLight"
+            android:layout_marginStart="@dimen/medium_space"
+            android:layout_marginTop="@dimen/medium_space"
+            android:text="Action"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/light_fab2" />
+
+        <styleguide.buttons.OptionActionButtonView
+            android:id="@+id/option_action_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/medium_space"
+            android:layout_marginTop="@dimen/medium_space"
+            android:layout_marginEnd="@dimen/medium_space"
+            app:attribute_caption="@string/app_name"
+            app:attribute_icon="@drawable/ic_pay_dark_test"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/light_fwab" />
+
+        <styleguide.buttons.OptionActionButtonView
+            android:id="@+id/option_action_button_no_arrow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/medium_space"
+            android:layout_marginTop="@dimen/medium_space"
+            android:layout_marginEnd="@dimen/medium_space"
+            app:attribute_caption="@string/app_name"
+            app:attribute_icon="@drawable/ic_more_test"
+            app:attribute_show_arrow="false"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/option_action_button" />
+
+        <styleguide.buttons.OptionActionButtonView
+            android:id="@+id/option_action_button_sub_caption"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/medium_space"
+            android:layout_marginTop="@dimen/medium_space"
+            android:layout_marginEnd="@dimen/medium_space"
+            app:attribute_caption="@string/app_name"
+            app:attribute_show_arrow="true"
+            app:attribute_sub_caption="Sub Cap"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/option_action_button_no_arrow" />
+
+        <styleguide.buttons.OptionActionButtonView
+            android:id="@+id/option_action_button_all"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/medium_space"
+            android:layout_marginTop="@dimen/medium_space"
+            android:layout_marginEnd="@dimen/medium_space"
+            app:attribute_caption="@string/app_name"
+            app:attribute_icon="@drawable/ic_more_test"
+            app:attribute_show_arrow="true"
+            app:attribute_sub_caption="Sub Cap"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/option_action_button_sub_caption" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

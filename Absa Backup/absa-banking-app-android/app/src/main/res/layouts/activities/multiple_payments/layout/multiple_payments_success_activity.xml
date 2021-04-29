@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            style="@style/ScrollView"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/contentConstraintLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:animateLayoutChanges="true">
+
+                <androidx.constraintlayout.widget.Guideline
+                    android:id="@+id/topGuideline"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    app:layout_constraintGuide_percent="0.1" />
+
+                <com.airbnb.lottie.LottieAnimationView
+                    android:id="@+id/resultImageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:tint="@color/graphite"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/topGuideline"
+                    app:lottie_autoPlay="true"
+                    app:lottie_fileName="general_success.json"
+                    app:lottie_loop="false" />
+
+                <TextView
+                    android:id="@+id/noticeMessageTextView"
+                    style="@style/TitleTextBoldDark"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/medium_space"
+                    android:layout_marginStart="@dimen/medium_space"
+                    android:layout_marginTop="@dimen/normal_space"
+                    android:gravity="center"
+                    android:text="@string/payment_success_title"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/resultImageView" />
+
+                <TextView
+                    android:id="@+id/subMessageTextView"
+                    style="@style/LargeTextMediumDark"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginEnd="@dimen/medium_space"
+                    android:layout_marginStart="@dimen/medium_space"
+                    android:layout_marginTop="@dimen/normal_space"
+                    android:gravity="center"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/noticeMessageTextView"
+                    tools:text="Here may be more description" />
+
+                <TextView
+                    android:id="@+id/successfulPaymentTextView"
+                    style="@style/NormalTextMediumDark"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/medium_space"
+                    android:layout_marginStart="@dimen/medium_space"
+                    android:layout_marginTop="@dimen/large_space"
+                    android:text="@string/payment_successful_title"
+                    android:visibility="gone"
+                    tools:visibility="visible"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/subMessageTextView" />
+
+                <LinearLayout
+                    tools:visibility="visible"
+                    android:visibility="gone"
+                    android:id="@+id/successfulPaymentsView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/medium_space"
+                    android:orientation="vertical"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/successfulPaymentTextView" />
+
+                <View
+                    android:id="@+id/divider"
+                    style="@style/DividerView"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="@dimen/small_space"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/successfulPaymentsView" />
+
+                <TextView
+                    android:id="@+id/futureDatedSuccessfulPaymentTextView"
+                    style="@style/NormalTextMediumDark"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/medium_space"
+                    android:layout_marginStart="@dimen/medium_space"
+                    android:layout_marginTop="@dimen/large_space"
+                    android:text="@string/future_dated_success_title"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/divider" />
+
+                <LinearLayout
+                    android:id="@+id/futureDatedSuccessfulPaymentsView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/medium_space"
+                    android:orientation="vertical"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/futureDatedSuccessfulPaymentTextView" />
+
+                <View
+                    android:id="@+id/divider1"
+                    style="@style/DividerView"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="@dimen/small_space"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/futureDatedSuccessfulPaymentsView" />
+
+                <TextView
+                    android:id="@+id/unsuccessfulPaymentTextView"
+                    style="@style/NormalTextMediumDark"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/medium_space"
+                    android:layout_marginStart="@dimen/medium_space"
+                    android:layout_marginTop="@dimen/large_space"
+                    android:text="@string/unsuccessful_payments"
+                    android:visibility="gone"
+                    tools:visibility="visible"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/divider1" />
+
+                <LinearLayout
+                    android:id="@+id/unsuccessfulPaymentsView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/medium_space"
+                    android:orientation="vertical"
+                    android:visibility="gone"
+                    tools:visibility="visible"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/unsuccessfulPaymentTextView" />
+
+                <View
+                    android:id="@+id/divider2"
+                    style="@style/DividerView"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="@dimen/small_space"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/unsuccessfulPaymentsView" />
+
+                <TextView
+                    android:id="@+id/unsuccessfulFutureDatedPaymentTextView"
+                    style="@style/NormalTextMediumDark"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/medium_space"
+                    android:layout_marginStart="@dimen/medium_space"
+                    android:layout_marginTop="@dimen/large_space"
+                    android:text="@string/future_dated_unsuccess_title"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/divider2"
+                    tools:visibility="gone" />
+
+                <LinearLayout
+                    android:id="@+id/unsuccessfulFutureDatedPaymentsView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/medium_space"
+                    android:orientation="vertical"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/unsuccessfulFutureDatedPaymentTextView"
+                    tools:visibility="gone" />
+
+                <View
+                    android:id="@+id/divider3"
+                    style="@style/DividerView"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="@dimen/small_space"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/unsuccessfulFutureDatedPaymentsView"
+                    tools:visibility="gone" />
+
+                <styleguide.buttons.OptionActionButtonView
+                    android:id="@+id/importantNoticeView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:attribute_caption="@string/multiple_payments_important_notice_title"
+                    app:attribute_icon="@drawable/ic_info_i"
+                    app:layout_constraintBottom_toTopOf="@+id/contactView"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/divider3"
+                    app:layout_constraintVertical_bias="1" />
+
+                <styleguide.content.ContactView
+                    android:id="@+id/contactView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </ScrollView>
+
+        <styleguide.buttons.Button
+            android:id="@+id/doneButton"
+            style="@style/PrimaryButton"
+            android:contentDescription="@string/pay_button_title"
+            android:text="@string/done" />
+    </LinearLayout>
+</layout>

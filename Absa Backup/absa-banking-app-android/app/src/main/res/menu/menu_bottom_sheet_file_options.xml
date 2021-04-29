@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/group">
+        <item
+            android:id="@+id/previewFile"
+            android:icon="@drawable/ic_camera_dark"
+            android:title="@string/manage_profile_file_dialog_preview_file" />
+        <item
+            android:id="@+id/removeFile"
+            android:icon="@drawable/ic_my_profile_dark"
+            android:title="@string/manage_profile_file_remove_file" />
+        <item
+            android:id="@+id/chooseNewFile"
+            android:icon="@drawable/ic_document_dark"
+            android:title="@string/manage_profile_file_dialog_select_another_file" />
+    </group>
+</menu>

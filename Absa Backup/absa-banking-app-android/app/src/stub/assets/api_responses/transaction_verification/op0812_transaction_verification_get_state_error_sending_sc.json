@@ -1,0 +1,13 @@
+{
+  "successResponseModel" : {
+    "payData" : {
+      "accountOnHold" : false
+    },
+    "payHdr" : {
+      "resCde" : "FTR00980",
+      "serVer" : "2.0",
+      "resMsg" : "Error sending Surecheck: null",
+      "resId" : "RES0812"
+    }
+  }
+}

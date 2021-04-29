@@ -1,0 +1,63 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0312",
+      "resCde": "00000",
+      "resMsg": "",
+      "serVer": "2.0"
+    },
+    "payData": {
+      "ownNotificationDTO": {
+        "emaillist": [
+          "kurt.petersen@absa.co.za"
+        ],
+        "cellNolist": [
+          "******1240"
+        ],
+        "faxinfolist": [
+          {
+            "faxCode": "",
+            "faxNumber": ""
+          }
+        ],
+        "actualCellNo": "0619591240"
+      },
+      "frmkdActNo": "4047489617",
+      "txnPrt": "",
+      "txnStatus": "SUCCESSFUL",
+      "refNo": "1",
+      "dt": "2017-04-25 09:39:00",
+      "bal": {
+        "curr": "R",
+        "amt": "30.00"
+      },
+      "frmActNo": "4047489617",
+      "frmActNam": "",
+      "hasImage": "N",
+      "uniqueEFT": "80002338D8",
+      "status": "internal",
+      "benNotice": "NO",
+      "myNotice": "YES",
+      "benRecNam": "",
+      "myRecNam": "",
+      "benAcctNumAtInst": "",
+      "benTyp": "payment",
+      "benImg": "",
+      "benId": "263",
+      "benNo": "2",
+      "favStarInd": "false",
+      "benNam": "As Resend  Notice",
+      "actNo": "9050704039",
+      "bankNam": "ABSA BANK",
+      "branch": "632005",
+      "myRef": "my references",
+      "myNoticeTyp": "E",
+      "myNoticeDtl": "",
+      "benRef": "bene references",
+      "benNoticeTyp": "N",
+      "benNoticeDtl": "",
+      "branchCd": "632005",
+      "immediatePaymentAllowed": "false"
+    }
+  }
+}

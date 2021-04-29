@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="@color/rewards_viewpager_selected_dot" />
+    <size
+        android:width="@dimen/selected_indicator_size"
+        android:height="@dimen/unselected_indicator_size" />
+    <corners android:radius="@dimen/large_radius" />
+</shape>

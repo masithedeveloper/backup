@@ -1,0 +1,85 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/failureBottomSheetConstraintLayout"
+    style="@style/AppModalStyle"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:attr/colorBackground">
+
+    <TextView
+        android:id="@+id/bottomSheetTitleTextView"
+        style="@style/LargeTextMediumDark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/small_space"
+        android:paddingBottom="@dimen/small_space"
+        android:text="@string/linking_error_not_receiving_surecheck"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/failureActionTextView"
+        style="@style/LargeTextRegularDark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/medium_space"
+        android:paddingTop="@dimen/small_space"
+        android:paddingEnd="@dimen/medium_space"
+        android:paddingBottom="@dimen/small_space"
+        android:text="@string/ok"
+        android:textColor="@color/pink"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/bottomSheetTitleTextView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/failureImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/normal_space"
+        android:tint="@null"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/bottomSheetTitleTextView"
+        tools:src="@drawable/absa_placeholder_logo_red_large" />
+
+    <TextView
+        android:id="@+id/failureTitleTextView"
+        style="@style/HeadingTextMediumDark"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/medium_space"
+        android:layout_marginTop="@dimen/normal_space"
+        android:layout_marginEnd="@dimen/medium_space"
+        android:gravity="center"
+        android:text="@string/linking_error_some_wifi_networks_block_notifications"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/failureImageView" />
+
+    <TextView
+        android:id="@+id/failureDescriptionTextView"
+        style="@style/NormalTextRegularDark"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/medium_space"
+        android:layout_marginTop="@dimen/extra_large_space"
+        android:layout_marginEnd="@dimen/medium_space"
+        android:gravity="center"
+        android:text="@string/linking_error_please_check_your_connection"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/failureTitleTextView" />
+
+    <styleguide.content.ContactView
+        android:id="@+id/contactDetailsContactView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/medium_space"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/failureDescriptionTextView" />
+</androidx.constraintlayout.widget.ConstraintLayout>

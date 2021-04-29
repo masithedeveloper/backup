@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="NegativeButtonStyle" parent="DefaultButton">
+        <item name="android:background">@drawable/button_rounded_transparent_border</item>
+        <item name="android:textAppearance">@style/NormalTextMediumLight</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="PositiveButtonStyle" parent="DefaultButton">
+        <item name="android:background">@drawable/button_sure_check_postive_background</item>
+        <item name="android:textAppearance">@style/NormalTextMediumLight</item>
+        <item name="android:textColor">@drawable/positive_button_sure_check_text_color</item>
+    </style>
+
+    <style name="ViewButtonStyle" parent="DefaultButton">
+        <item name="android:background">@drawable/button_sure_check_postive_background</item>
+        <item name="android:textAppearance">@style/NormalTextMediumLight</item>
+        <item name="android:textColor">@drawable/positive_button_sure_check_text_color</item>
+    </style>
+
+    <style name="ToolbarSureCheckTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:background">@color/primary_red</item>
+        <item name="actionMenuTextColor">@android:color/white</item>
+        <item name="android:actionMenuTextColor">@android:color/white</item>
+        <item name="titleTextAppearance">@style/LargeTextMediumLight</item>
+        <item name="colorControlNormal">@android:color/white</item>
+        <item name="titleTextColor">@android:color/white</item>
+    </style>
+
+    <style name="RejectedDoneButtonStyle" parent="DefaultButton">
+        <item name="android:background">@drawable/sure_check_rejected_done_button_background</item>
+        <item name="android:textAppearance">@style/NormalTextMediumLight</item>
+        <item name="android:textColor">@drawable/positive_button_sure_check_text_color</item>
+    </style>
+
+</resources>

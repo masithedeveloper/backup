@@ -1,0 +1,29 @@
+{
+  "header": {
+    "statuscode": "0",
+    "userAgent": "ANDROID - 6.21.0",
+    "wfpt": null,
+    "jsessionid": "JwXOi1HrR_lynFEU3uW273DH2IO2bva4VgT8rAlX",
+    "esessionid": "735e97d1-026d-373f-ba92-ee213a8fe402",
+    "xfpt": null,
+    "service": "za.co.absa.axob.payments.beneficiary.cashsend.services.facade.CashSendPaymentFacade",
+    "operation": "validateCashSend",
+    "channel": "S",
+    "timestamp": "2021-03-02 16:37:23.775",
+    "sourceip": "22.240.44.100",
+    "accessAccount": "9050993539",
+    "userNumber": "1",
+    "nonce": "Dy0vPT8FIENksYTEFL7I5i828J15gWVApfy-1ub_gIo",
+    "language": "en",
+    "organization": "ABSA",
+    "brand": "ABSA",
+    "applicationId": null,
+    "applicationKeyId": null,
+    "requestToken": null,
+    "resultMessages": [],
+    "paginationContext": null
+  },
+  "sourceAccount": "9050993539",
+  "recipientCellNo": "0632198547",
+  "cashSendPaymentToken": "HSEzuYD21digqLuFAgkrJirsbj8nN02fOFW9tKMXiOE"
+}

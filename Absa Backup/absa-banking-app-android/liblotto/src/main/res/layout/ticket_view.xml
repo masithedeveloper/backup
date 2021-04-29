@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/lotto_board_border"
+    tools:parentTag="androidx.constraintlayout.widget.ConstraintLayout">
+
+    <ImageView
+        android:id="@+id/borderImageView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/lotto_board_border"
+        android:contentDescription="Lotto Board"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/ticketTitleTextView"
+        style="@style/LargeTextMediumDark"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/normal_space"
+        android:layout_marginTop="@dimen/normal_space"
+        android:layout_marginEnd="@dimen/normal_space"
+        app:layout_constraintEnd_toEndOf="@+id/borderImageView"
+        app:layout_constraintStart_toStartOf="@+id/borderImageView"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Lotto Ticket" />
+
+    <TextView
+        android:id="@+id/ticketBoardCounterTextView"
+        style="@style/SmallTextRegularDark"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/normal_space"
+        android:layout_marginTop="@dimen/tiny_space"
+        android:layout_marginEnd="@dimen/normal_space"
+        android:paddingBottom="@dimen/normal_space"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ticketTitleTextView"
+        tools:text="2 Boards" />
+
+    <TextView
+        android:id="@+id/ticketDrawDateTextView"
+        style="@style/SmallTextRegularDark"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/normal_space"
+        android:layout_marginEnd="@dimen/normal_space"
+        android:paddingBottom="@dimen/normal_space"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ticketBoardCounterTextView"
+        tools:text="27 - 28 Aug 2019" />
+
+    <View
+        android:id="@+id/dividerView"
+        style="@style/DividerView"
+        android:layout_width="0dp"
+        android:layout_marginStart="@dimen/normal_space"
+        android:layout_marginTop="@dimen/small_space"
+        android:layout_marginEnd="@dimen/normal_space"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ticketDrawDateTextView" />
+
+    <LinearLayout
+        android:id="@+id/lottoBoardsLinearLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/small_space"
+        android:layout_marginBottom="@dimen/normal_space"
+        android:orientation="vertical"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dividerView" />
+
+    <styleguide.content.LineItemView
+        android:id="@+id/quickPickLineItemView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/small_space"
+        android:layout_marginBottom="@dimen/small_space"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dividerView" />
+</merge>

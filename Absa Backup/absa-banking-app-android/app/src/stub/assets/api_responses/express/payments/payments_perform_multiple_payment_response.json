@@ -1,0 +1,54 @@
+{
+  "header": {
+    "statuscode": "0",
+    "userAgent": "ANDROID - 6.20.0",
+    "jsessionid": "33e3w88Vd8MtB-aoZc4KfMwkbPINANW9vWPj3PXI",
+    "esessionid": "64526f4d-ceff-3350-a093-e90e5652d420",
+    "service": "RegularMultipleBeneficiaryPaymentFacade",
+    "operation": "PayMultipleBeneficiary",
+    "channel": "S",
+    "timestamp": "2021-02-11 07:58:42.352",
+    "sourceip": "22.240.44.100",
+    "accessAccount": "4047510559",
+    "userNumber": "1",
+    "nonce": "5AFt7LvWIeSqGYzIeovZQ_0xfkDIpQvPysD1CHkYwFU",
+    "language": "en",
+    "organization": "ABSA",
+    "brand": "ABSA",
+    "resultMessages": []
+  },
+  "iipCode475Returned": false,
+  "delayedIIPReturned": false,
+  "errorsDetected": false,
+  "alreadyProcessed": false,
+  "pendingDetected": false,
+  "successResponseList": [
+    {
+      "paymentSequenceNumber": 0,
+      "targetAccountNumber": "9050515157",
+      "paymentToken": "nx2GmZxN5qvVzSyiSf9i4O_924AsPMARjow-WVUC2ZQ",
+      "result": "SUCCESS",
+      "paymentNumber": "37",
+      "uniqueEFTNumber": "8000256964",
+      "paymentTransactionDateAndTime": "2021-02-11",
+      "retryIIP": 0,
+      "statusCode": 0
+    },
+    {
+      "paymentSequenceNumber": 1,
+      "targetAccountNumber": "4047598933",
+      "paymentToken": "2dY03FLlPHthxBHQ8eLtoF9HB5iKtAOPeJZJTX4n0UY",
+      "result": "SUCCESS",
+      "paymentNumber": "35",
+      "uniqueEFTNumber": "800027AAA8",
+      "paymentTransactionDateAndTime": "2021-02-11",
+      "retryIIP": 0,
+      "statusCode": 0
+    }
+  ],
+  "failureResponseList": [],
+  "iipDelayedResponseList": [],
+  "iipRetryResponseList": [],
+  "pendingResponseList": [],
+  "alreadyProcessedResponseList": []
+}

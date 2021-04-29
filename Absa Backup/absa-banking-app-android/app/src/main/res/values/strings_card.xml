@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Stop and Replace Credit Card-->
+    <string name="fraud_reason">Fraud</string>
+    <string name="stolen_card_reason">Stolen card</string>
+    <string name="lost_card_reason">Lost card</string>
+    <string name="card_retained_by_atm_reason">Card retained by ATM</string>
+    <string name="other_reason">Other</string>
+    <string name="replacement_incident_date">When did this happen?</string>
+    <string name="card_last_used_date">When was the card last used?</string>
+    <string name="stop_and_replace_assistance_message">Need urgent assistance with stopping your card? Please call:</string>
+    <string name="stop_and_replace_assistance_fraud_message">Need urgent assistance with stopping your card? Please call: \n Local 0860 557 557 \nAbroad +27 11 50 5089</string>
+    <string name="credit_card_replacement_overview">Replacement Overview</string>
+    <string name="dial_card_replacement_number">Would you like to dial the \n local or international number?</string>
+    <string name="local_card_replacement_number">Local</string>
+    <string name="abroad_card_replacement_number">International</string>
+    <string name="card_replacement_assistance">Call for assistance</string>
+    <string name="last_used_description">Enter the date you last used the credit card</string>
+    <string name="incident_date_description">Enter the date of the incident</string>
+    <string name="reason_for_replacement_description">Select the reason for stopping and replacing this card</string>
+    <string name="stop_and_replace_credit_card_warning">You are about to stop your credit card and order a replacement.</string>
+    <string name="stop_and_replace_irreversible">This action cannot be undone - Once your \ncredit card has been stopped it cannot be used again.</string>
+    <string name="stop_and_replace_discretionary">* Please note discretionary \n charges may apply.</string>
+    <string name="stop_and_replace_warning_assistance_message">If you need assistance, please call \n\nSouth Africa 0800 11 11 55 \nInternational +27 11 501 5050</string>
+    <string name="fraud_stop_and_replace_warning_assistance_message">If you need assistance, please call the help line \n\nSouth Africa 0860 557 557 \nInternational +27 11 501 5089</string>
+    <string name="stop_and_replace_date" translatable="false">yyyy/mm/dd</string>
+    <string name="face_to_face_delivery_method">Face-to-face delivery</string>
+    <string name="branch_collection_method">Branch collection</string>
+    <string name="branch_collection_method_confirm">Branch collection - %1$s</string>
+    <string name="replacement_details">Replacement details</string>
+    <string name="credit_card_order_details">Order details</string>
+    <string name="confirm_credit_card_replacement_details">Confirm Details</string>
+    <string name="confirm_credit_card_replacement">Confirm credit card replacement</string>
+    <string name="selected_reason_for_replacement">Select</string>
+    <string name="credit_card_replacement_successful_message">Your card has been stopped and your new card\n has been ordered.</string>
+    <string name="credit_card_replacement_branch_collection_message">Your new Premium banking card will\n be delivered to (branch/address) that you\n have predefined within the next couple of\n days.\n\n If you suspect any fraud or unauthorised\n transactions, please contact our\n fraud department.</string>
+    <string name="credit_card_replacement_face_to_face_collection_message">A friendly branch consultant will contact you\n soon for you to collect your new card and\n activate your PIN. If you need assistance\n please call helpline.\n\n If you suspect any fraud or unauthorised\n transactions, please contact our\n fraud department.</string>
+    <string name="stop_and_replace_success_message_heading">Your new card has been ordered</string>
+    <string name="stop_and_replace_success_message_subheading">Your banking card will be delivered to you or your selected branch. \n \nIf you suspect any fraud or unauthorized transactions, please call:\nLocal 0860 557 557 \nInternational +27 11 501 5089</string>
+    <string name="stop_and_replace_fraud_suspicion_message">If you suspect any fraud or unauthorised transactions, please call: \nLocal: 0860 557 557 \nInternational: +27 11 501 5089</string>
+    <string name="credit_card_replacement_failed">This process has failed, your card has not been stopped.</string>
+    <string name="credit_card_replacement_assistance_message">For assistance, please call:\n Local 0800 11 11 55 \n International +27 11 501 5050</string>
+    <string name="credit_card_replacement_confirmation">Are you sure that you want to cancel your ‘Stop and replace’ process?</string>
+    <string name="stop_and_replace_helpline" translatable="false">011 509 5089</string>
+    <string name="stop_and_replace_whats_new_body">Use “Stop and replace” under the “Cards” tab.</string>
+    <string name="account_not_linked_to_portfolio">Please link this card to your portfolio via Absa Online or in the branch.</string>
+    <string name="replacement_charge_not_fraud" translatable="false">R 140.00</string>
+    <string name="stop_and_replace_checkbox_i_accept_fees">I accept the associated fees</string>
+    <string name="replace_charge_no_charge" translatable="false">R 0.00</string>
+    <string name="stop_and_replace_replacement_fee">Replacement Fee</string>
+    <string name="stop_and_replace_select_branch"><b>Select %1$s</b></string>
+    <string name="replacement_card_last_used">When was the card last used?</string>
+    <string name="stop_and_replace_local_number" translatable="false">0800 11 11 55</string>
+    <string name="stop_and_replace_international_number" translatable="false">+27 11 501 5050</string>
+
+    <!--VCL-->
+    <string name="vcl_qualify_title">Credit Limit Increase</string>
+    <string name="vcl_qualify_header">You may qualify for up to %s</string>
+    <string name="vcl_tool_credit_card_hub">You may qualify for a &lt;b>credit limit increase&lt;/b> of up to&lt;b> %s &lt;/b>...</string>
+    <string name="vcl_welcome_congratulations">Congratulations</string>
+    <string name="vcl_welcome_managed_account_well">You have managed your account so well you could qualify for a credit limit increase.</string>
+    <string name="vcl_welcome_get_started_button">Get started!</string>
+
+    <string name="vcl_terms_you_may_qualify">You may qualify for a credit limit increase of up to %1$s for card ending in %2$s.</string>
+    <string name="vcl_terms_text">I confirm that: \n\n1. I am not insolvent.\n2. I am not undergoing debt counselling.\n3. I do not have a pending debt counseling application.\n4. I understand my income and expenses, together with credit bureau checks will be used to assess whether I qualify for a credit limit increase.\n5. If I am married in community of property, I have obtained my spouse’s written consent in terms of the Matrimonial Property Act before entering into this agreement.\n6. If I provide incorrect information, Absa may use this as a defence against any allegation of reckless lending.</string>
+    <string name="vcl_terms_text_0">I confirm that:</string>
+    <string name="vcl_terms_text_1">I am not insolvent.</string>
+    <string name="vcl_terms_text_2">I am not undergoing debt counselling.</string>
+    <string name="vcl_terms_text_3">I do not have a pending debt counselling application.</string>
+    <string name="vcl_terms_text_4">I understand my income and expenses, together with credit bureau checks will be used to assess whether I qualify for a credit limit increase.</string>
+    <string name="vcl_terms_text_5">I have the spousal consent required to enter into this agreement if I am married, or deemed to be married, in community of property or under foreign law.</string>
+    <string name="vcl_terms_text_6">If I provide incorrect information, Absa may use this as a defence against any allegation of reckless lending.</string>
+    <string name="vcl_terms_text_i_agree">I have read and understood all of the declarations above and I confirm they are correct.</string>
+
+    <string name="vcl_income_verification_title">Salary / Income Verification</string>
+    <string name="vcl_income_verification_into_which_account_title">Into which bank is your salary / income deposited?</string>
+    <string name="vcl_income_verification_into_account_number_title">Please confirm your account number (the account into which your salary is paid).</string>
+    <string name="vcl_income_verification_into_account_number">Account number</string>
+    <string name="vcl_income_verification_into_account_number_hint">The account where your income is deposited</string>
+    <string name="vcl_income_verification_into_account_type">Account type</string>
+    <string name="vcl_income_verification_into_account_select_type">Select account type</string>
+    <string name="vcl_income_verification_into_bank_hint">Select a bank</string>
+    <string name="vcl_income_verification_into_branch_hint">Select branch name or code</string>
+    <string name="vcl_income_verification_email_address_title">Email address</string>
+    <string name="vcl_income_verification_assistance_absa_message">To assist you, your income can be verified through your Absa bank statements if you provide your account number where your salary / income is paid into.</string>
+    <string name="vcl_income_verification_grant_permission">For this application, I grant permission to access the required bank statements</string>
+    <string name="vcl_income_verification_grant_permission_external">For this application I grant Absa permission to extract the required bank statements from an external bank database.</string>
+    <string name="vcl_income_verification_account_number_hint">Enter account number</string>
+    <string name="vcl_income_verification_email_address_hint">Enter email address</string>
+    <string name="vcl_income_verification_tooltip">Note: Not granting permission will cause a delay in the verification</string>
+    <string name="vcl_income_verification_branch_name">Branch</string>
+    <string name="vcl_income_verification_cancel_title">Are you sure you want to cancel?</string>
+    <string name="vcl_income_verification_cancel_message">If you cancel your application you will need to start the process again</string>
+    <string name="vcl_income_verification">We still need a few documents to complete your application. We will contact you with more details.</string>
+    <string name="vcl_income_verification_toolbar_title">Increase Credit Limit</string>
+    <string name="vcl_cancel_text">Are you sure you want to cancel your credit limit increase process?</string>
+
+    <string name="vcl_income_title">Your Income</string>
+    <string name="vcl_income_gross_income_title">Total Monthly Gross Income (salary and any additional income)</string>
+    <string name="vcl_income_gross_income_hint">Before any deductions</string>
+    <string name="vcl_income_gross_salary_title">Gross monthly salary/income (before any deductions)</string>
+    <string name="vcl_income_net_income_title">Net monthly salary/income</string>
+    <string name="vcl_income_net_income_hint">Less tax, pension, medical aid, etc.</string>
+    <string name="vcl_income_net_salary_title">Net monthly salary/income (less tax, pension, medical aid, etc.)</string>
+    <string name="vcl_income_expenses_title">Your Expenses</string>
+    <string name="vcl_income_can_not_be_less">Amount entered can\'t be changed to less than %s</string>
+    <string name="vcl_income_maintenance_expenses_title">Maintenance expenses</string>
+    <string name="vcl_income_maintenance_expenses_hint">As a result of a court order, for e.g. child, spousal maintenance, etc.</string>
+    <string name="vcl_income_debt_instalments">Total monthly fixed debt instalments</string>
+    <string name="vcl_income_debt_instalments_hint">For e.g. bond, rent, vehicle finance, loan, credit card, retail accounts, etc.</string>
+    <string name="vcl_income_total_monthly_living_expense">Total monthly living expenses</string>
+    <string name="vcl_income_total_monthly_living_expense_hint">For e.g. groceries, rates and taxes, water and lights, school fees, etc.</string>
+    <string name="vcl_income_total_edit_header">Update or confirm your monthly fixed debt instalments</string>
+    <string name="vcl_income_max_limit_error">Amount entered can\'t be changed more than %s</string>
+
+
+    <string name="vcl_expenses_monthly_header">Update or confirm your monthly living expenses</string>
+    <string name="vcl_expenses_monthly_living_expenses">Your monthly living expenses</string>
+    <string name="vcl_expenses_groceries">Groceries</string>
+    <string name="vcl_expenses_cellphone">Telephone / Cellphone</string>
+    <string name="vcl_expenses_security">Security</string>
+    <string name="vcl_expenses_insurance">Insurance</string>
+    <string name="vcl_expenses_rates_and_taxes">Municipal rates and taxes</string>
+    <string name="vcl_expenses_domestic">Domestic or gardener expense</string>
+    <string name="vcl_expenses_entertainment">Entertainment</string>
+    <string name="vcl_expenses_education">Educational fees</string>
+    <string name="vcl_expenses_transport">Transport / Fuel costs (excl. vehicle finance)</string>
+    <string name="vcl_expenses_other">Other expenses</string>
+
+    <string name="vcl_debt_installments_title">Your monthly fixed debt instalments</string>
+    <string name="vcl_debt_sub_title">These are the latest amounts retrieved from the credit bureau.</string>
+    <string name="vcl_debt_total_monthly_expenses">Total monthly fixed expenses</string>
+    <string name="vcl_debt_bond">Bond</string>
+    <string name="vcl_debt_vehicle_instalments">Asset finance / Vehicle lease installments</string>
+    <string name="vcl_debt_loans">Loans</string>
+    <string name="vcl_debt_credit_card">Credit card</string>
+    <string name="vcl_debt_retail_accounts">Retail accounts</string>
+    <string name="vcl_debt_other_expenses">Other expenses</string>
+
+    <string name="vcl_verification_new_limit"><b>Your new limit</b></string>
+    <string name="vcl_verification_reject">Reject increase</string>
+    <string name="vcl_verification_accept">Accept increase</string>
+    <string name="vcl_verification_net_income">Net income</string>
+    <string name="vcl_verification_gross_income">Gross incomes</string>
+
+    <string name="vcl_request_documents_title">Documents required</string>
+    <string name="vcl_request_documents_body">We still need a few documents to complete your application. We will contact you with more details.</string>
+
+    <string name="vcl_result_limit_increased_to">Your credit limit has been increased to %s</string>
+    <string name="vcl_result_limit_invalid">Invalid account number</string>
+    <string name="vcl_result_increase_approved">Increase approved</string>
+    <string name="vcl_result_increase_failed">Increase failed</string>
+    <string name="vcl_result_increase_pending_title">Increase pending approval</string>
+    <string name="vcl_result_increase_pending_body">Your application to adjust your credit limit to %s has been provisionally approved, subject to income verification.\n\nIf we can\'t retrieve your bank statements, we\'ll ask you to send us your documents so we can verify your account.\n\nYour application will be finalised 2 to 3 working days after we receive your documents.</string>
+    <string name="vcl_result_increase_declined_title">Credit limit increase declined</string>
+    <string name="vcl_result_increase_declined_body">Unfortunately, we can\'t offer you your desired credit limit increase right now.\n\nWe\'ll contact you about future increase opportunities.</string>
+
+    <string name="vcl_button_continue">Continue</string>
+    <string name="vcl_button_cancel">Cancel</string>
+    <string name="vcl_account_number_error">Account number cannot be empty.</string>
+
+    <string name="vcl_offer_need_more_power">Want to increase your credit limit?</string>
+    <string name="vcl_offer_increase_limit">You may qualify for a credit limit increase of up to %s</string>
+    <string name="vcl_offer_manage_money">A credit limit increase is your chance to keep managing your money well</string>
+    <string name="vcl_offer_increase_buying_power">Increase your buying power so that you can do bigger things</string>
+    <string name="vcl_offer_competitive_interest">Keep enjoying our competitive interest rates</string>
+
+    <!--Pause card -->
+    <string name="pause_card_temporary_lock">Temporary lock</string>
+    <string name="pause_card_all_transactions">All transactions</string>
+    <string name="pause_card_atm_transactions">ATM transactions</string>
+    <string name="pause_card_online_purchases">Online purchases</string>
+    <string name="pause_card_in_store_transactions">In-store transactions</string>
+    <string name="pause_card_digital_wallet">Digital wallet</string>
+    <string name="pause_card_digital_title">Digital</string>
+    <string name="pause_card_description_text">Simply lock and unlock your card here. Only the selected card and transaction types will be locked, your other account functions won’t be affected.</string>
+    <string name="pause_card_selection_updated">Temporary Lock updated</string>
+    <string name="pause_card_selection_updated_message">We have saved the changes to your Temporary Lock selections.</string>
+    <string name="pause_card_update_failure">System error</string>
+    <string name="pause_card_update_failure_message">We were not able to verify your transaction at this time. \n\n Please try again later.</string>
+    <string name="pause_card_selection_updated_successfully">Temporary Lock updated</string>
+    <string name="pause_card_selection_updated_successfully_message">We\'ve successfully saved the changes to your settings.</string>
+    <string name="pause_card_bottom_legal_message">All other linked cards will still be active and must be locked separately or stopped by following the stop card process.\n\nIf you identify unauthorized transactions, please contact the call centre.</string>
+    <string name="whats_new_pause_card_title">Temporary lock / unlock your card</string>
+    <string name="whats_new_pause_card_description">This function allows you to temporarily block your chosen card transactions.</string>
+
+    <string name="stop_and_replace_select_branch_list">Select a branch</string>
+    <string name="stop_and_replace_last_used_lable">When was this card last used?</string>
+    <string name="stop_and_replace_accept_fees">I accept the associated fees</string>
+
+    <!-- Credit card hub -->
+    <string name="credit_card_hub_credit_card">Card</string>
+    <string name="credit_card_hub_toolbar_title">Credit Account</string>
+    <string name="credit_card_hub_transactions_tab">Transactions</string>
+    <string name="credit_card_hub_card_tab">Card</string>
+    <string name="credit_card_hub_insure_tab">Insure</string>
+    <string name="credit_card_hub_contact_tab">Contact</string>
+    <string name="credit_card_hub_details_tab">Details</string>
+    <string name="credit_card_hub_stop_and_replace">Stop and replace</string>
+    <string name="credit_card_hub_temporary_lock">Temporary lock</string>
+    <string name="credit_card_hub_transaction_limits">Card transaction limits</string>
+    <string name="credit_card_hub_when_travelling">Use card when travelling</string>
+    <string name="credit_card_hub_credit_protection">Apply for credit protection</string>
+    <string name="credit_card_hub_monthly_premium">Quoted monthly premium</string>
+    <string name="credit_card_hub_credit_amount">The cover amount will be your outstanding balance. Max R 100,000.00</string>
+    <string name="credit_card_hub_get_cover">Cover me</string>
+    <string name="credit_card_hub_found_out_more">Find out more</string>
+    <string name="credit_card_hub_insurance_description">A credit protection plan can ease your family’s financial burden if you are retrenched, permanently disabled or even in the event of your death.</string>
+    <string name="credit_card_hub_south_africa">South Africa</string>
+    <string name="credit_card_hub_international">International</string>
+    <string name="credit_card_hub_south_africa_fraud_number">0860 557 557</string>
+    <string name="credit_card_hub_international_fraud_number">+27 11 501 5089</string>
+    <string name="credit_card_hub_technical_number">0861 462 273</string>
+    <string name="credit_card_hub_customer_fraud_hotline">Customer Fraud Hotline:</string>
+    <string name="credit_card_hub_credit_account_title">Credit Account</string>
+    <string name="credit_card_hub_credit_limit">Credit limit</string>
+    <string name="credit_card_hub_interest_rate">Interest rate</string>
+    <string name="credit_card_hub_daily_limit">Daily limit</string>
+    <string name="credit_card_hub_transaction_limit">Transaction limit</string>
+    <string name="credit_card_hub_you_can_spend">You can spend</string>
+    <string name="credit_card_hub_current_balance">Current balance: </string>
+    <string name="credit_card_hub_transfer">Transfer</string>
+    <string name="credit_card_hub_technical_hotline">Customer Technical Hotline:</string>
+    <string name="credit_card_hub_pay">Pay</string>
+    <string name="card_filter_choose_filter">Show which transactions?</string>
+    <string name="card_filter_all_transactions">All transactions</string>
+    <string name="card_filter_money_in">Money in</string>
+    <string name="card_filter_money_out">Money out</string>
+    <string name="card_filter_uncleared">Uncleared</string>
+    <string name="card_filter_choose_date_range">Between which dates?</string>
+    <string name="card_filter_from">From</string>
+    <string name="card_filter_to">To</string>
+    <string name="card_filter_done">Done</string>
+    <string name="card_filter_title">Filter options</string>
+    <string name="credit_card_hub_today">Today</string>
+    <string name="credit_card_hub_yesterday">Yesterday</string>
+    <string name="manage_card_title">Manage Cards</string>
+    <string name="cards_toolbar">Cards</string>
+
+    <string name="currency_format" translatable="false">R %s</string>
+    <string name="credit_card_hub_due">due</string>
+    <string name="manage_card_limit_more_error">Limit entered may not be more than the max limit.</string>
+    <string name="manage_card_limit_empty_error">Limit cannot be empty.</string>
+    <string name="manage_card_limit_empty_value_error">Value cannot be empty.</string>
+    <string name="to_from_account_error">From account cannot be the same as To Account</string>
+
+    <!--Increase digitalLimits -->
+    <string name="current_limit">Current limit</string>
+    <string name="adjust_credit_limit_increase">Adjust your credit limit</string>
+    <string name="vcl_adjust_current_limit">&lt;b> Current limit &lt;/b> &lt;br /> %s </string>
+    <string name="vcl_adjust_new_limit">New limit</string>
+    <string name="vcl_adjust_title">Adjust your credit limit</string>
+    <string name="vcl_adjust_new_min_limit">Min new limit</string>
+    <string name="vcl_adjust_new_max_limit">Max new limit</string>
+    <string name="vcl_adjust_review_details">Review details</string>
+    <string name="vcl_adjust_limit_may_not_be_less">Amount cannot be less than the prepopulated value.</string>
+    <string name="vcl_adjust_limit_may_not_be_more">Amount cannot be higher than the prepopulated value.</string>
+    <string name="vcl_adjust_limit_error">Choose a value within the range below.</string>
+    <string name="vcl_increase_credit_limit">Increase credit limit</string>
+
+    <string name="your_new_limit">Your new limit</string>
+    <string name="reject_increase">Reject increase</string>
+    <string name="accept_increase">Accept increase</string>
+    <string name="vcl_confirm_screen_gross_income_label">Gross income</string>
+    <string name="vcl_confirm_screen_net_income_label">Net income</string>
+    <string name="vcl_confirm_screen_maintenance_expenses_label">Maintenance expenses</string>
+    <string name="vcl_confirm_screen_total_monthly_fixed_instalments_label">Total monthly fixed debt installments</string>
+    <string name="vcl_confirm_screen_total_monthly_living_expenses_label">Total monthly living expenses</string>
+    <string name="vcl_confirm_screen_title">Application summary</string>
+    <string name="vcl_banner_not_now">Not right now</string>
+    <string name="vcl_lock">Locked</string>
+    <string name="travel_pause_state">Dates selected for travelling:</string>
+    <string name="vcl_income_and_expenses_net_may_not_be_more_error">Net monthly income may not be more than gross monthly income.</string>
+    <string name="vcl_result_rejected_title">Credit Limit Increase Rejected</string>
+    <string name="vcl_result_rejected_description">You\'ve chosen not to take the credit limit increase at this time. You can apply again anytime.</string>
+    <string name="vcl_error_not_zero">Amount cannot be R 0.00</string>
+
+    <string name="stop_card_heading">Stop card</string>
+
+    <!--Hot leads-->
+    <string name="hot_leads_call_me_back_application">Call me back</string>
+    <string name="hot_leads_credit_card_intro_qualify_title">You may qualify for an Absa Credit Card</string>
+    <string name="hot_leads_credit_card_intro_qualify_detail_title">You may qualify for an Absa Credit Card.</string>
+    <string name="hot_leads_credit_card_affordability_check_title">This offer is subject to an affordability check.</string>
+    <string name="hot_leads_credit_card_before_we_begin">Before we begin</string>
+    <string name="hot_leads_confirmation">I confirm that:</string>
+    <string name="hot_leads_term_and_condition_number_1">I am currently not insolvent, under debt counselling, and don’t have a pending debt counselling application.</string>
+    <string name="hot_leads_term_and_condition_number_2">I give Absa permission to perform a credit assessment and verification. Absa may share information regarding my credit worthiness and score to third parties in accordance with the Privacy Policy.</string>
+    <string name="hot_leads_term_and_condition_number_3">I give Absa permission to use and source my details for identification verification purposes in accordance with the Financial Intelligence Centre Act and other applicable legislation.</string>
+    <string name="hot_leads_continue_button_text">Continue</string>
+    <string name="hot_leads_terms_and_conditions_confirmation_checkbox_message">I hereby accept all of the above</string>
+    <string name="hot_leads_contact_method">On which number can we contact you?</string>
+    <string name="hot_leads_cellphone_number">Cellphone number</string>
+    <string name="hot_leads_call_me_back">Call me back</string>
+    <string name="hot_leads_are_you_sure">Are you sure?</string>
+    <string name="hot_leads_come_back_soon">If so, come back soon!</string>
+    <string name="hot_leads_continue">Continue</string>
+    <string name="hot_leads_success_title">Hold the phone!</string>
+    <string name="hot_leads_success_description">One of our agents will be calling you shortly to begin your application.</string>
+    <string name="hot_leads_failure_title">We can\'t offer you a card right now</string>
+    <string name="hot_leads_failure_description">Please contact Transunion for more information about your credit rating. Then come re-apply as soon as you are ready!\n\nContact TransUnion on 0861 482 482</string>
+    <string name="hot_leads_system_error_description">Our servers are temporarily unavailable right now. Don’t worry, we are busy working on it. Please try again later.</string>
+    <string name="hot_leads_accept_terms_and_conditions_title">Terms and conditions apply</string>
+    <string name="hot_leads_contact_number_error">Please enter a valid contact number</string>
+    <string name="hot_leads_enter_your_cellphone_number">Enter your cellphone number</string>
+    <string name="hot_leads_see_more">See more</string>
+
+    <!--View Card Details -->
+    <string name="slide_to_reveal_expiry">Slide to reveal expiry date</string>
+    <string name="slide_to_reveal_cvv">Slide to reveal CVV</string>
+    <string name="title_activity_view_card_details">View card details</string>
+    <string name="title_activity_card_details">Card details</string>
+    <string name="manage_card_no_cards_available">No cards</string>
+
+    <!--Secondary card-->
+    <string name="secondary_card_access_title">Secondary card</string>
+    <string name="secondary_card_manage_primary_card">Primary card</string>
+    <string name="secondary_card_manage_secondary_card">Secondary Card:</string>
+    <string name="secondary_card_manage_enable_access">Enable secondary card access:</string>
+    <string name="secondary_card_summary">Summary</string>
+    <string name="secondary_card_summary_primary_card">Primary Card</string>
+    <string name="secondary_card_summary_secondary_card">Secondary Card</string>
+    <string name="secondary_card_summary_mandate">Mandate</string>
+    <string name="secondary_card_summary_date">Date</string>
+    <string name="secondary_card_summary_time">Time</string>
+    <string name="secondary_card_terms_and_conditions_confirmation">I confirm that I have read and understand that by enabling the selected secondary cards, I consent to the secondary cardholder having access to the approved Absa Online, Banking App and USSD functions on my credit card account.</string>
+    <string name="secondary_card_terms_and_conditions_error_message">Please read and accept the indemnity to continue.</string>
+    <string name="secondary_card_account_hidden_message">You don’t have permission from the main card holder to view this account. Permission can be granted by the main card holder on their App or Absa Online.</string>
+    <string name="secondary_card_success_title">Secondary card access updated successfully</string>
+    <string name="secondary_card_updated_failed">Secondary card update failed</string>
+</resources>

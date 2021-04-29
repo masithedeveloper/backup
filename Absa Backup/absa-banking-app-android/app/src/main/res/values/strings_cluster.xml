@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cluster_insurance_heading">Insurance</string>
+    <string name="cluster_save_and_invest_heading">Save &amp; Invest</string>
+    <string name="insurance_cluster_life_and_funeral_cover_heading">Life &amp; Funeral cover</string>
+    <string name="insurance_cluster_short_term_heading">Short Term</string>
+    <string name="investment_cluster_investment_accounts_heading">Investment accounts</string>
+    <string name="insurance_cluster_claim_title">Claim</string>
+    <string name="insurance_cluster_multiple_policies">%s Policies</string>
+    <string name="insurance_cluster_only_one_policy">%s Policy</string>
+    <string name="investment_cluster_multiple_accounts">%s accounts</string>
+    <string name="investment_cluster_only_one_account">%s account</string>
+    <string name="cluster_get_more_heading">Get more</string>
+</resources>

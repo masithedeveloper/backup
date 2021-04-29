@@ -1,0 +1,69 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES2161",
+      "resCde": "00000",
+      "resMsg": "Success",
+      "serVer": "2.0",
+      "expTrace": null
+    },
+    "payData": {
+      "product": {
+        "capitalizationInfo": {
+          "savingCapDay": null,
+          "savingNextCapDate": "",
+          "savingCapFrequency": null,
+          "termCapDay": "30",
+          "termNextCapDate": "2020-04-30",
+          "termCapFrequency": "MONTHLY",
+          "noticeCapDay": null,
+          "noticeNextCapDate": "",
+          "noticeCapFrequency": null,
+          "noticeinterestRate": null,
+          "noticewithdrawalPerc": null,
+          "noticeNoticePeriod": null
+        },
+        "interestPaymentInst": {
+          "trgAcc": "4048037891",
+          "trgAccType": "currentAccount",
+          "trgClrCode": "632005",
+          "trgInstCode": "Absa",
+          "trgStmtRef": "Test",
+          "intExtBenInd": "I",
+          "trgAccountHolderName": null
+        },
+        "debitOrderInst": {
+          "startDate": null,
+          "endDate": null,
+          "freq": null,
+          "amount": null,
+          "srcAcc": null,
+          "srcAccType": null,
+          "srcClrCode": null,
+          "srcInstCode": null,
+          "srcStmtRef": null,
+          "trgAcc": null,
+          "trgInstCode": null,
+          "trgClrCode": null,
+          "trgStmtRef": null,
+          "intExtBenInd": null,
+          "trgAccountHolderName": null,
+          "payDay": null,
+          "remainingPayments": null,
+          "nextPaymentDate": null
+        },
+        "productCode": "03040",
+        "accountNo": "2049687217",
+        "accountTypeId": null,
+        "accountTypeName": "termDeposit",
+        "accountTypeDescription": null,
+        "liqEffDate": null,
+        "perEffDate": null,
+        "automaticReinvestment": false,
+        "reinvestCapInt": null
+      },
+      "txnStatus": "Success",
+      "txnMessage": "Success"
+    }
+  }
+}

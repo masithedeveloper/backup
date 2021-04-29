@@ -1,0 +1,38 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0863",
+      "resCde": "00000",
+      "resMsg": "Success",
+      "serVer": "2.0"
+    },
+    "payData": {
+      "lifeInsurance": {
+        "coverAmount": "0.0",
+        "outstandingPremiumAmount": "0.0",
+        "monthlyPremium": "0.0",
+        "loadingAmount": "0.0",
+        "sasPremium": "0.0",
+        "planCounter": "0",
+        "spousePlanCounter": "0",
+        "spouseSumAssured": "0.0",
+        "spouseBenefitPremium": "0.0",
+        "firstHHorHO": "false",
+        "totalCoverAmount": "0.0",
+        "totalPremium": "0.0",
+        "screenId": "0",
+        "policyExist": "true",
+        "policyNumber": "4787692000837000",
+        "commencementDate": "20170727",
+        "rolePlayers": [
+          {
+            "firstName": "CORNELIA ELIZABETH",
+            "surname": "VAN DEN HEEVER"
+          }
+        ]
+      },
+      "txnStatus": "Success",
+      "txnMessage": "Success"
+    }
+  }
+}

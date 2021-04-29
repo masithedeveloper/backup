@@ -1,0 +1,48 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <styleguide.content.HeadingView
+        android:id="@+id/registrationDetailsHeadingView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/medium_space"
+        app:attribute_heading="@string/cash_send_plus_registration_details"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <styleguide.content.PrimaryContentAndLabelView
+        android:id="@+id/amountLimitPrimaryContentAndLabelView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/small_space"
+        app:attribute_primary_label="@string/limit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/registrationDetailsHeadingView"
+        tools:attribute_primary_content="R3 0000.00" />
+
+    <styleguide.content.SecondaryContentAndLabelView
+        android:id="@+id/emailAddressSecondaryContentAndLabelView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:attribute_secondary_label="@string/email_address"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/amountLimitPrimaryContentAndLabelView"
+        tools:attribute_secondary_content="someone@absa.africa" />
+
+    <styleguide.buttons.Button
+        android:id="@+id/confirmRegistrationButton"
+        style="@style/PrimaryButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/double_medium_space"
+        android:text="@string/confirm"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

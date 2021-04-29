@@ -1,0 +1,34 @@
+{
+  "successResponseModel":{
+    "payHdr":{
+      "resId":"RES0912",
+      "resCde":"00000",
+      "resMsg":"Success",
+      "serVer":"2.0"
+    },
+    "payData":{
+      "txnRefID":"15214529369005",
+      "redemptionCode":"RWTCHA",
+      "redemptionId":3,
+      "networkProviderId":0,
+      "faceValue":{
+        "curr":"R",
+        "amt":""
+      },
+      "discount":{
+        "curr":"R",
+        "amt":""
+      },
+      "accrualCost":{
+        "curr":"R",
+        "amt":""
+      },
+      "charity":"Child Welfare Society",
+      "amt":{
+        "curr":"R",
+        "amt":"5.00"
+      },
+      "membershipNo":"160217000123"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "successResponseModel": {
+    "payData": {
+      "scanToPayEnquiry": {
+        "cardNumber": "5523670041342012",
+        "scanToPay": "Y"
+      },
+      "txnStatus": "Success",
+      "txnMessage": "Success "
+    },
+    "payHdr": {
+      "resId": "RES2181",
+      "serVer": "2.0",
+      "expTrace": null,
+      "resMsg": "Success",
+      "resCde": "00000"
+    }
+  }
+}

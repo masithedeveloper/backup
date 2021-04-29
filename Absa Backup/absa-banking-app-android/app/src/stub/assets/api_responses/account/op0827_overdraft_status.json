@@ -1,0 +1,19 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0827",
+      "resCde": "00000",
+      "resMsg": "Success",
+      "serVer": "2.0"
+    },
+    "payData": {
+      "overdraftGadgets": {
+        "offersOverdraftEnum": "NEW_OVERDRAFT_LIMIT",
+        "existingOverdraftLimit": "0",
+        "newOverdraftLimit": "5000"
+      },
+      "txnStatus": "Success",
+      "txnMessage": "Success"
+    }
+  }
+}

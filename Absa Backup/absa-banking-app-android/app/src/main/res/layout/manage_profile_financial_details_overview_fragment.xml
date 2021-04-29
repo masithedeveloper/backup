@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    style="@style/ScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <styleguide.content.HeadingAndActionView
+            android:id="@+id/incomeDetailsActionView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_primary_action_color="@color/pink"
+            app:attribute_primary_action_text="@string/manage_profile_overview_edit_action"
+            app:attribute_primary_label_text="@string/manage_profile_financial_details_hub_income_details_label"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <styleguide.content.PrimaryContentAndLabelView
+            android:id="@+id/sourceOfIncomeContentView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_primary_label="@string/manage_profile_financial_details_hub_source_of_income"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/incomeDetailsActionView"
+            tools:attribute_primary_content="Salary / Wages" />
+
+        <styleguide.content.SecondaryContentAndLabelView
+            android:id="@+id/monthlyIncomeContentView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_secondary_label="@string/manage_profile_financial_details_hub_monthly_income"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/sourceOfIncomeContentView"
+            tools:attribute_secondary_content="R19999 - R20000" />
+
+        <View
+            android:id="@+id/monthlyIncomeDividerView"
+            style="@style/DividerView"
+            android:layout_width="0dp"
+            android:layout_marginTop="@dimen/small_space"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/monthlyIncomeContentView" />
+
+        <styleguide.content.HeadingView
+            android:id="@+id/southAfricanTaxHeadingView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/small_space"
+            app:attribute_heading="@string/manage_profile_financial_details_hub_south_african_tax_action_title"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/monthlyIncomeDividerView" />
+
+        <styleguide.content.SecondaryContentAndLabelView
+            android:id="@+id/southAfricanTaxDetailsContentView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/southAfricanTaxHeadingView"
+            tools:attribute_secondary_content="No"
+            tools:attribute_secondary_label="Are you registered for tax in South africa?" />
+
+        <styleguide.content.SecondaryContentAndLabelView
+            android:id="@+id/southAfricanTaxReasonContentView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            app:attribute_secondary_label="@string/mange_profile_tax_overview_widget_reason"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/southAfricanTaxDetailsContentView"
+            tools:attribute_secondary_content="No"
+            tools:visibility="visible" />
+
+        <View
+            android:id="@+id/southAfricanTaxDividerView"
+            style="@style/DividerView"
+            android:layout_width="0dp"
+            android:layout_marginTop="@dimen/small_space"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/southAfricanTaxReasonContentView" />
+
+        <styleguide.content.HeadingAndActionView
+            android:id="@+id/foreignTaxActionView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/small_space"
+            app:attribute_primary_action_color="@color/pink"
+            app:attribute_primary_action_text="@string/manage_profile_overview_edit_action"
+            app:attribute_primary_label_text="@string/manage_profile_financial_details_hub_foreign_tax_action"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/southAfricanTaxDividerView" />
+
+        <styleguide.content.SecondaryContentAndLabelView
+            android:id="@+id/foreignTaxContentView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            app:attribute_secondary_content="@string/no"
+            app:attribute_secondary_label="@string/manage_profile_financial_details_hub_are_you_registered_for_foreign_tax"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/foreignTaxActionView" />
+
+        <LinearLayout
+            android:id="@+id/foreignTaxCountryLayout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/foreignTaxContentView" />
+
+        <View
+            android:id="@+id/foreignTaxDividerView"
+            style="@style/DividerView"
+            android:layout_width="0dp"
+            android:layout_marginTop="@dimen/small_space"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/foreignTaxCountryLayout" />
+
+        <styleguide.content.HeadingAndActionView
+            android:id="@+id/otherFinancialDetailsActionView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/small_space"
+            app:attribute_primary_action_color="@color/pink"
+            app:attribute_primary_action_text="@string/manage_profile_overview_edit_action"
+            app:attribute_primary_label_text="@string/manage_profile_financial_details_hub_other_financial_details_action"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/foreignTaxDividerView" />
+
+        <styleguide.content.SecondaryContentAndLabelView
+            android:id="@+id/socialGrantContentView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_secondary_label="@string/manage_profile_financial_details_hub_i_receive_a_social_grant_label"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/otherFinancialDetailsActionView"
+            tools:attribute_secondary_content="Yes" />
+
+        <styleguide.content.SecondaryContentAndLabelView
+            android:id="@+id/creditWorthinessConsentContentView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_secondary_label="@string/manage_profile_financial_details_hub_credit_worthiness_consent_label"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/socialGrantContentView"
+            tools:attribute_secondary_content="Yes" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

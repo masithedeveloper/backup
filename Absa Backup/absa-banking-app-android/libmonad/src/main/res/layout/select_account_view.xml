@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:background="@color/light_grey"
+    tools:parentTag="androidx.constraintlayout.widget.ConstraintLayout">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/text_view"
+        style="@style/SmallTextMediumDark"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:autoSizeMaxTextSize="@dimen/large_text_size"
+        app:autoSizeMinTextSize="@dimen/small_text_size"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toStartOf="@id/right_arrow_image_view"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText"
+        tools:text="From account" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/subtext_view"
+        style="@style/LargeTextRegularDark"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/tiny_space"
+        android:gravity="center_vertical"
+        android:maxLines="1"
+        android:textColor="@color/grey"
+        app:autoSizeMaxTextSize="@dimen/regular_text_size"
+        app:autoSizeMinTextSize="@dimen/small_text_size"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toStartOf="@id/right_arrow_image_view"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_view"
+        tools:ignore="HardcodedText"
+        tools:text="Current Account (4091 3456 738)" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/right_arrow_image_view"
+        android:layout_width="@dimen/icon_size"
+        android:layout_height="@dimen/icon_size"
+        app:layout_constraintBottom_toBottomOf="@+id/sub_text_view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/subtext_view"
+        app:srcCompat="@drawable/ic_arrow_right_dark" />
+
+    <View
+        android:id="@+id/bottomDivider"
+        style="@style/DividerView"
+        android:layout_width="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="@dimen/small_space"
+        android:background="@color/light_silver"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/subtext_view" />
+
+    <TextView
+        android:id="@+id/errorMessageTextView"
+        style="@style/SmallTextRegularDark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/small_space"
+        android:layout_marginEnd="@dimen/medium_space"
+        android:layout_marginStart="@dimen/medium_space"
+        android:layout_marginTop="@dimen/small_space"
+        android:textColor="@color/primary_red"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bottomDivider"
+        tools:text="Label" />
+
+    <View
+        android:id="@+id/theLastDivider"
+        style="@style/DividerView"
+        android:layout_width="0dp"
+        android:layout_marginTop="@dimen/small_space"
+        android:background="@color/light_silver"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/error_text_view" />
+</merge>

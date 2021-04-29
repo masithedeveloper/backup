@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/branchDetailsConstraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:windowBackground"
+        android:clipToPadding="true"
+        app:behavior_peekHeight="@dimen/branchLocatorPeekHeight"
+        app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior">
+
+        <ImageView
+            android:id="@+id/branchOpenListImageView"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/openListImageViewHeight"
+            android:background="?android:windowBackground"
+            android:padding="@dimen/tiny_space"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/atm_branch_locator_open_list_button" />
+
+        <TextView
+            android:id="@+id/branchSwipeUpTextView"
+            style="@style/SmallTextRegularDark"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/openListTextViewHeight"
+            android:gravity="center_horizontal"
+            android:textSize="@dimen/openListTextSize"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/branchOpenListImageView"
+            tools:text="@string/swipe_up" />
+
+        <androidx.core.widget.NestedScrollView
+            android:id="@+id/scrollView"
+            style="@style/ScrollView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/branchSwipeUpTextView">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/atmBranchDetailsParentConstraintLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <include
+                    android:id="@+id/atmBranchLocatorItem"
+                    layout="@layout/atm_branch_locator_item"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/branchDetailsCloseImageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/small_space"
+                    android:padding="@dimen/small_space"
+                    app:layout_constraintBottom_toBottomOf="@id/atmBranchLocatorItem"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="@id/atmBranchLocatorItem"
+                    app:srcCompat="@drawable/ic_cross_dark" />
+
+                <styleguide.buttons.Button
+                    android:id="@+id/getDirectionsButton"
+                    style="@style/PrimaryButton"
+                    android:layout_width="0dp"
+                    android:layout_marginStart="@dimen/medium_space"
+                    android:layout_marginTop="@dimen/normal_space"
+                    android:layout_marginEnd="@dimen/medium_space"
+                    android:text="@string/get_directions"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/atmBranchLocatorItem" />
+
+                <View
+                    android:id="@+id/divider1"
+                    style="@style/DividerView"
+                    android:layout_width="0dp"
+                    android:layout_marginTop="@dimen/extra_large_space"
+                    android:layout_marginBottom="@dimen/small_space"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/getDirectionsButton" />
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/branchContactInformationConstraintLayout"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintBottom_toTopOf="@id/operatingHoursConstraintLayout"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/divider1">
+
+                    <styleguide.buttons.OptionActionButtonView
+                        android:id="@+id/atmBranchLocatorCallOptionActionButtonView"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        app:attribute_icon="@drawable/ic_call_new"
+                        app:attribute_show_arrow="false"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <styleguide.buttons.OptionActionButtonView
+                        android:id="@+id/atmBranchLocatorWebsiteOptionActionButtonView"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        app:attribute_caption="@string/absa_website_url"
+                        app:attribute_icon="@drawable/ic_web_dark"
+                        app:attribute_show_arrow="false"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/atmBranchLocatorCallOptionActionButtonView" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/operatingHoursConstraintLayout"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/branchContactInformationConstraintLayout">
+
+                    <View
+                        android:id="@+id/divider2"
+                        style="@style/DividerView"
+                        android:layout_width="0dp"
+                        android:layout_marginTop="@dimen/small_space"
+                        android:layout_marginBottom="@dimen/small_space"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <styleguide.buttons.OptionActionButtonView
+                        android:id="@+id/operatingHoursOptionActionButtonView"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        app:attribute_caption="@string/operating_hours_branch_locator"
+                        app:attribute_icon="@drawable/ic_history"
+                        app:attribute_show_arrow="false"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/divider2" />
+
+                    <LinearLayout
+                        android:id="@+id/operatingHoursLinearLayout"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:paddingBottom="@dimen/branchLocatorPeekHeight"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/operatingHoursOptionActionButtonView" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.core.widget.NestedScrollView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

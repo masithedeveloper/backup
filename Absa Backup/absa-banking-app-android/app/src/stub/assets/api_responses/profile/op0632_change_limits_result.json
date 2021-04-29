@@ -1,0 +1,58 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0632",
+      "resCde": "00000",
+      "resMsg": "Your limits have been updated on the App and Online Banking.",
+      "serVer": "2.0"
+    },
+    "payData": {
+      "txnStatus": "SUCCESS",
+      "txnMsg": "Your limits have been updated on the App and Online Banking.",
+      "payment": {
+        "oldLimit": {
+          "curr": "R",
+          "amt": "999,999.00"
+        },
+        "newLimit": {
+          "curr": "R",
+          "amt": "999,990.00"
+        },
+        "transactionTypeCode": "Payment"
+      },
+      "interAccountTransfer": {
+        "oldLimit": {
+          "curr": "R",
+          "amt": "999,999.00"
+        },
+        "newLimit": {
+          "curr": "R",
+          "amt": "999,999.00"
+        },
+        "transactionTypeCode": "InterAccountTransfer"
+      },
+      "recurringPayment": {
+        "oldLimit": {
+          "curr": "R",
+          "amt": "999,999.00"
+        },
+        "newLimit": {
+          "curr": "R",
+          "amt": "999,999.00"
+        },
+        "transactionTypeCode": "RecurringPayment"
+      },
+      "futureDatedTransfer": {
+        "oldLimit": {
+          "curr": "R",
+          "amt": "999,999.00"
+        },
+        "newLimit": {
+          "curr": "R",
+          "amt": "999,999.00"
+        },
+        "transactionTypeCode": "FutureDatedTransfer"
+      }
+    }
+  }
+}

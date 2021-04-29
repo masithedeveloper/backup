@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name" translatable="false">Lib Lotto</string>
+    <string name="available_jackpot">Available Jackpot</string>
+    <string name="estimated_jackpot">Estimated Jackpot</string>
+    <string name="lotto_choose_6_numbers">Choose 6 numbers</string>
+</resources>

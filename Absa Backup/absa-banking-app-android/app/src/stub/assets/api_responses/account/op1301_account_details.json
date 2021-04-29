@@ -1,0 +1,844 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES1301",
+      "resCde": "00000",
+      "resMsg": "",
+      "serVer": "2.0"
+    },
+    "payData": {
+      "acntDetails": {
+        "balance": {
+          "curr": "R",
+          "amt": "11,234.77"
+        },
+        "unclearedBalance": {
+          "curr": "R",
+          "amt": "0.00"
+        },
+        "availableBalance": {
+          "curr": "R",
+          "amt": "11,184.77"
+        },
+        "mkdActNo": "9050993953",
+        "actNo": "9050993953",
+        "isBalanceMasked": "N",
+        "viewAcctHistoryAllowed": "true",
+        "desc": "Savings account",
+        "curr": "R",
+        "typ": "savingsAccount"
+      },
+      "chqueNotYtClrdDt": "2017-07-14 14:15:51",
+      "fromDt": "2017-06-15",
+      "toDt": "2017-07-14",
+      "actActvLst": [
+        {
+          "txnStatus": "",
+          "txnPrt": "TRANSACTION CHARGE",
+          "drAmt": {
+            "curr": "R",
+            "amt": "512,432,543,535.00"
+          },
+          "crAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "dt": "2017-07-14",
+          "bal": {
+            "curr": "R",
+            "amt": "11,234.77"
+          },
+          "refNo": ""
+        },
+        {
+          "txnStatus": "",
+          "txnPrt": "PREPAID DEBIT VODACOM: 0829800615 CARD NO. 3953",
+          "drAmt": {
+            "curr": "R",
+            "amt": "-5.00"
+          },
+          "crAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "dt": "2017-07-14",
+          "bal": {
+            "curr": "R",
+            "amt": "11,238.52"
+          },
+          "refNo": ""
+        },
+        {
+          "txnStatus": "",
+          "txnPrt": "INETBNK PAY DEBIT ABSA BANK NA",
+          "drAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "crAmt": {
+            "curr": "R",
+            "amt": "200.00"
+          },
+          "dt": "2017-07-11",
+          "bal": {
+            "curr": "R",
+            "amt": "11,243.52"
+          },
+          "refNo": ""
+        },
+        {
+          "txnStatus": "",
+          "txnPrt": "INETBNK PAY DEBIT ABSA BANK NA",
+          "drAmt": {
+            "curr": "R",
+            "amt": "-200.00"
+          },
+          "crAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "dt": "2017-07-11",
+          "bal": {
+            "curr": "R",
+            "amt": "11,443.52"
+          },
+          "refNo": ""
+        },
+        {
+          "txnStatus": "",
+          "txnPrt": "TRANSACTION CHARGE",
+          "drAmt": {
+            "curr": "R",
+            "amt": "-3.75"
+          },
+          "crAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "dt": "2017-07-11",
+          "bal": {
+            "curr": "R",
+            "amt": "11,643.52"
+          },
+          "refNo": ""
+        },
+        {
+          "txnStatus": "",
+          "txnPrt": "PREPAID DEBIT MTN: 0731110005 CARD NO. 3953",
+          "drAmt": {
+            "curr": "R",
+            "amt": "-5.00"
+          },
+          "crAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "dt": "2017-07-11",
+          "bal": {
+            "curr": "R",
+            "amt": "11,647.27"
+          },
+          "refNo": ""
+        },
+        {
+          "txnStatus": "",
+          "txnPrt": "CASHSEND INET BANK ABSA BANK malise CARD NO. 2172",
+          "drAmt": {
+            "curr": "R",
+            "amt": "-200.00"
+          },
+          "crAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "dt": "2018-06-07",
+          "bal": {
+            "curr": "R",
+            "amt": "11,652.27"
+          },
+          "refNo": ""
+        },
+        {
+          "txnStatus": "",
+          "txnPrt": "INETBNK PAY DEBIT ABSA BANK Na",
+          "drAmt": {
+            "curr": "R",
+            "amt": "-600.00"
+          },
+          "crAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "dt": "2017-07-07",
+          "bal": {
+            "curr": "R",
+            "amt": "12,450.32"
+          },
+          "refNo": ""
+        },
+        {
+          "txnStatus": "",
+          "txnPrt": "INETBNK PAY DEBIT ABSA BANK Na",
+          "drAmt": {
+            "curr": "R",
+            "amt": "-200.00"
+          },
+          "crAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "dt": "2018-06-06",
+          "bal": {
+            "curr": "R",
+            "amt": "13,050.32"
+          },
+          "refNo": ""
+        },
+        {
+          "txnStatus": "",
+          "txnPrt": "CASHSEND INET BANK ABSA BANK na CARD NO. 2172",
+          "drAmt": {
+            "curr": "R",
+            "amt": "-200.00"
+          },
+          "crAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "dt": "2017-07-07",
+          "bal": {
+            "curr": "R",
+            "amt": "13,250.32"
+          },
+          "refNo": ""
+        },
+        {
+          "txnStatus": "",
+          "txnPrt": "CASHSEND INET BANK ABSA BANK na CARD NO. 2172",
+          "drAmt": {
+            "curr": "R",
+            "amt": "-200.00"
+          },
+          "crAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "dt": "2017-07-07",
+          "bal": {
+            "curr": "R",
+            "amt": "13,450.32"
+          },
+          "refNo": ""
+        },
+        {
+          "txnStatus": "",
+          "txnPrt": "TRANSACTION CHARGE",
+          "drAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "crAmt": {
+            "curr": "R",
+            "amt": "1.05"
+          },
+          "dt": "2017-07-07",
+          "bal": {
+            "curr": "R",
+            "amt": "13,650.32"
+          },
+          "refNo": ""
+        },
+        {
+          "txnStatus": "",
+          "txnPrt": "PREPAID DEBIT CORR ELECTRICITY: 01050020006 CARD NO. 3953",
+          "drAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "crAmt": {
+            "curr": "R",
+            "amt": "200.00"
+          },
+          "dt": "2017-07-07",
+          "bal": {
+            "curr": "R",
+            "amt": "13,649.27"
+          },
+          "refNo": ""
+        },
+        {
+          "txnStatus": "",
+          "txnPrt": "TRANSACTION CHARGE",
+          "drAmt": {
+            "curr": "R",
+            "amt": "-1.05"
+          },
+          "crAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "dt": "2017-07-07",
+          "bal": {
+            "curr": "R",
+            "amt": "13,449.27"
+          },
+          "refNo": ""
+        },
+        {
+          "txnStatus": "",
+          "txnPrt": "PREPAID DEBIT ELECTRICITY: 01050020006 CARD NO. 3953",
+          "drAmt": {
+            "curr": "R",
+            "amt": "-200.00"
+          },
+          "crAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "dt": "2017-07-07",
+          "bal": {
+            "curr": "R",
+            "amt": "13,450.32"
+          },
+          "refNo": ""
+        },
+        {
+          "txnStatus": "",
+          "txnPrt": "TRANSACTION CHARGE",
+          "drAmt": {
+            "curr": "R",
+            "amt": "-1.05"
+          },
+          "crAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "dt": "2017-07-07",
+          "curr": "R",
+          "amt": "13,650.32"
+        },
+        {
+          "txnStatus": "",
+          "txnPrt": "PREPAID DEBIT ELECTRICITY: 01050020004 CARD NO. 3953",
+          "drAmt": {
+            "curr": "R",
+            "amt": "-200.00"
+          },
+          "crAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "dt": "2017-07-07",
+          "bal": {
+            "curr": "R",
+            "amt": "13,651.37"
+          },
+          "refNo": ""
+        },
+        {
+          "txnStatus": "",
+          "txnPrt": "CASHSEND INET BANK ABSA BANK NA CARD NO. 2172",
+          "drAmt": {
+            "curr": "R",
+            "amt": "-200.00"
+          },
+          "crAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "dt": "2017-07-07",
+          "bal": {
+            "curr": "R",
+            "amt": "13,851.37"
+          },
+          "refNo": ""
+        },
+        {
+          "txnStatus": "",
+          "txnPrt": "CASHSEND INET BANK ABSA BANK NA CARD NO. 2172",
+          "drAmt": {
+            "curr": "R",
+            "amt": "-200.00"
+          },
+          "crAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "dt": "2017-07-07",
+          "bal": {
+            "curr": "R",
+            "amt": "14,051.37"
+          },
+          "refNo": ""
+        },
+        {
+          "txnStatus": "",
+          "txnPrt": "CASHSEND INET BANK ABSA BANK malise CARD NO. 2172",
+          "drAmt": {
+            "curr": "R",
+            "amt": "-70.00"
+          },
+          "crAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "dt": "2017-07-07",
+          "bal": {
+            "curr": "R",
+            "amt": "14,251.37"
+          },
+          "refNo": ""
+        },
+        {
+          "txnStatus": "",
+          "txnPrt": "TRANSACTION CHARGE",
+          "drAmt": {
+            "curr": "R",
+            "amt": "-7.50"
+          },
+          "crAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "dt": "2017-07-07",
+          "bal": {
+            "curr": "R",
+            "amt": "14,321.37"
+          },
+          "refNo": ""
+        },
+        {
+          "txnStatus": "",
+          "txnPrt": "PREPAID DEBIT VODACOM: 0829800615 CARD NO. 3953",
+          "drAmt": {
+            "curr": "R",
+            "amt": "-200.00"
+          },
+          "crAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "dt": "2017-07-07",
+          "bal": {
+            "curr": "R",
+            "amt": "14,328.87"
+          },
+          "refNo": ""
+        },
+        {
+          "txnStatus": "",
+          "txnPrt": "CASHSEND INET BANK ABSA BANK NA CARD NO. 2172",
+          "drAmt": {
+            "curr": "R",
+            "amt": "-200.00"
+          },
+          "crAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "dt": "2017-07-07",
+          "bal": {
+            "curr": "R",
+            "amt": "14,528.87"
+          },
+          "refNo": ""
+        },
+        {
+          "txnStatus": "",
+          "txnPrt": "CASHSEND INET BANK ABSA BANK NA CARD NO. 2172",
+          "drAmt": {
+            "curr": "R",
+            "amt": "-200.00"
+          },
+          "crAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "dt": "2017-07-07",
+          "bal": {
+            "curr": "R",
+            "amt": "14,728.87"
+          },
+          "refNo": ""
+        },
+        {
+          "txnStatus": "",
+          "txnPrt": "INETBNK PAY DEBIT ABSA BANK NA",
+          "drAmt": {
+            "curr": "R",
+            "amt": "-600.00"
+          },
+          "crAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "dt": "2017-07-07",
+          "bal": {
+            "curr": "R",
+            "amt": "14,928.87"
+          },
+          "refNo": ""
+        },
+        {
+          "txnStatus": "",
+          "txnPrt": "INETBNK PAY DEBIT ABSA BANK NA",
+          "drAmt": {
+            "amt": "-600.00"
+          },
+          "crAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "dt": "2017-07-07",
+          "bal": {
+            "curr": "R",
+            "amt": "15,528.87"
+          },
+          "refNo": ""
+        },
+        {
+          "txnStatus": "",
+          "txnPrt": "INETBNK PAY DEBIT ABSA BANK NA",
+          "drAmt": {
+            "curr": "R",
+            "amt": "-600.00"
+          },
+          "crAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "dt": "2017-07-07",
+          "bal": {
+            "curr": "R",
+            "amt": "16,128.87"
+          },
+          "refNo": ""
+        },
+        {
+          "txnStatus": "",
+          "txnPrt": "INETBNK PAY DEBIT ABSA BANK NA",
+          "drAmt": {
+            "curr": "R",
+            "amt": "-1,100.00"
+          },
+          "crAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "dt": "2017-07-07",
+          "bal": {
+            "curr": "R",
+            "amt": "16,728.87"
+          },
+          "refNo": ""
+        },
+        {
+          "txnStatus": "",
+          "txnPrt": "INETBNK PAY DEBIT ABSA BANK NA",
+          "drAmt": {
+            "curr": "R",
+            "amt": "-1,100.00"
+          },
+          "crAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "dt": "2017-07-07",
+          "bal": {
+            "curr": "R",
+            "amt": "17,828.87"
+          },
+          "refNo": ""
+        },
+        {
+          "txnStatus": "",
+          "txnPrt": "INETBNK PAY DEBIT ABSA BANK NA",
+          "drAmt": {
+            "curr": "R",
+            "amt": "-1,100.00"
+          },
+          "crAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "dt": "2017-07-07",
+          "bal": {
+            "curr": "R",
+            "amt": "18,928.87"
+          },
+          "refNo": ""
+        },
+        {
+          "txnStatus": "",
+          "txnPrt": "INETBNK PAY DEBIT ABSA BANK NA",
+          "drAmt": {
+            "curr": "R",
+            "amt": "-600.00"
+          },
+          "crAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "dt": "2017-07-07",
+          "bal": {
+            "curr": "R",
+            "amt": "20,028.87"
+          },
+          "refNo": ""
+        },
+        {
+          "txnStatus": "",
+          "txnPrt": "INETBNK PAY DEBIT ABSA BANK NA",
+          "drAmt": {
+            "curr": "R",
+            "amt": "-400.00"
+          },
+          "crAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "dt": "2017-07-07",
+          "bal": {
+            "curr": "R",
+            "amt": "20,628.87"
+          },
+          "refNo": ""
+        },
+        {
+          "txnStatus": "",
+          "txnPrt": "INETBNK PAY DEBIT ABSA BANK NA",
+          "drAmt": {
+            "curr": "R",
+            "amt": "-300.00"
+          },
+          "crAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "dt": "2017-07-07",
+          "bal": {
+            "curr": "R",
+            "amt": "21,028.87"
+          },
+          "refNo": ""
+        },
+        {
+          "txnStatus": "",
+          "txnPrt": "CASH DEPOSIT",
+          "drAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "crAmt": {
+            "curr": "R",
+            "amt": "9,999.00"
+          },
+          "dt": "2017-07-07",
+          "bal": {
+            "curr": "R",
+            "amt": "21,328.87"
+          },
+          "refNo": ""
+        },
+        {
+          "txnStatus": "",
+          "txnPrt": "INETBNK PAY CREDIT ABSA BANK NA",
+          "drAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "crAmt": {
+            "curr": "R",
+            "amt": "600.00"
+          },
+          "dt": "2017-07-07",
+          "bal": {
+            "curr": "R",
+            "amt": "11,329.87"
+          },
+          "refNo": ""
+        },
+        {
+          "txnStatus": "",
+          "txnPrt": "INET",
+          "drAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "crAmt": {
+            "curr": "R",
+            "amt": "400.00"
+          },
+          "dt": "2017-07-07",
+          "bal": {
+            "curr": "R",
+            "amt": "10,729.87"
+          },
+          "refNo": ""
+        },
+        {
+          "txnStatus": "",
+          "txnPrt": "CASH DEPOSIT",
+          "drAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "crAmt": {
+            "curr": "R",
+            "amt": "9,999.00"
+          },
+          "dt": "2017-07-07",
+          "bal": {
+            "curr": "R",
+            "amt": "10,329.87"
+          },
+          "refNo": ""
+        },
+        {
+          "txnStatus": "",
+          "txnPrt": "INETBNK PAY DEBIT ABSA BANK test",
+          "drAmt": {
+            "curr": "R",
+            "amt": "-15.00"
+          },
+          "crAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "dt": "2017-07-06",
+          "bal": {
+            "curr": "R",
+            "amt": "330.87"
+          },
+          "refNo": ""
+        },
+        {
+          "txnStatus": "",
+          "txnPrt": "CASHSEND INET BANK ABSA BANK NA CARD NO. 2172",
+          "drAmt": {
+            "curr": "R",
+            "amt": "-50.00"
+          },
+          "crAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "dt": "2017-07-06",
+          "bal": {
+            "curr": "R",
+            "amt": "345.87"
+          },
+          "refNo": ""
+        },
+        {
+          "txnStatus": "",
+          "txnPrt": "TRANSACTION CHARGE",
+          "drAmt": {
+            "curr": "R",
+            "amt": "-3.75"
+          },
+          "crAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "dt": "2017-07-06",
+          "bal": {
+            "curr": "R",
+            "amt": "395.87"
+          },
+          "refNo": ""
+        },
+        {
+          "txnStatus": "",
+          "txnPrt": "PREPAID DEBIT MTN: 0731110005 CARD NO. 3953",
+          "drAmt": {
+            "curr": "R",
+            "amt": "-5.00"
+          },
+          "crAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "dt": "2017-07-06",
+          "bal": {
+            "curr": "R",
+            "amt": "399.62"
+          },
+          "refNo": ""
+        },
+        {
+          "txnStatus": "",
+          "txnPrt": "ADMINISTRATION FEE",
+          "drAmt": {
+            "curr": "R",
+            "amt": "-5.00"
+          },
+          "crAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "dt": "2017-07-05",
+          "bal": {
+            "curr": "R",
+            "amt": "404.62"
+          },
+          "refNo": ""
+        },
+        {
+          "txnStatus": "",
+          "txnPrt": "ADMIN FEE",
+          "drAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "crAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "dt": "2017-07-05",
+          "bal": {
+            "curr": "R",
+            "amt": "409.62"
+          },
+          "refNo": ""
+        },
+        {
+          "txnStatus": "",
+          "txnPrt": "ADMINISTRATION FEE",
+          "drAmt": {
+            "curr": "R",
+            "amt": "-5.00"
+          },
+          "crAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "dt": "2017-07-03",
+          "bal": {
+            "curr": "R",
+            "amt": "409.62"
+          },
+          "refNo": ""
+        },
+        {
+          "txnStatus": "",
+          "txnPrt": "ADMIN FEE",
+          "drAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "crAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "dt": "2017-07-03",
+          "bal": {
+            "curr": "R",
+            "amt": "414.62"
+          },
+          "refNo": ""
+        }
+      ]
+    }
+  }
+}

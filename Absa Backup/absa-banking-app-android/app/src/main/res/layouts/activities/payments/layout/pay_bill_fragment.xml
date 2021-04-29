@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        style="@style/ScrollView">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/selectInstitutionNormalInputView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:attribute_hint_text="@string/select_institution"
+                app:attribute_selector_type="LONG_LIST"
+                app:attribute_title_text="@string/institution"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/accountHolderNameNormalInputView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textCapWords"
+                android:maxLength="20"
+                android:maxLines="1"
+                android:singleLine="true"
+                app:attribute_hint_text="@string/enter_account_holder_name"
+                app:attribute_image="@drawable/ic_check_dark"
+                app:attribute_selector_type="NONE"
+                app:attribute_title_text="@string/account_holder"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/selectInstitutionNormalInputView" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/accountHolderAccountNumberNormalInputView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textNoSuggestions|textVisiblePassword"
+                android:maxLength="20"
+                android:maxLines="1"
+                app:attribute_hint_text="@string/enter_bill_account_number"
+                app:attribute_image="@drawable/ic_check_dark"
+                app:attribute_selector_type="NONE"
+                app:attribute_title_text="@string/bill_account_number"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/accountHolderNameNormalInputView" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/myReferenceNormalInputView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:digits="@string/allowed_reference_digits"
+                android:inputType="text"
+                android:maxLength="20"
+                android:maxLines="1"
+                android:singleLine="true"
+                app:attribute_hint_text="@string/enter_reference_my_statement"
+                app:attribute_image="@drawable/ic_check_dark"
+                app:attribute_selector_type="NONE"
+                app:attribute_title_text="@string/my_reference"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/accountHolderAccountNumberNormalInputView" />
+
+            <styleguide.buttons.Button
+                android:id="@+id/nextButton"
+                style="@style/PrimaryButton"
+                android:text="@string/next"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/myReferenceNormalInputView"
+                app:layout_constraintVertical_bias="1" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</layout>

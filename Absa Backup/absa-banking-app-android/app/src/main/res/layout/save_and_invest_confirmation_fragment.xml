@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    style="@style/ScrollView">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <styleguide.content.SecondaryContentAndLabelView
+            android:id="@+id/accountNameSecondaryContentAndLabelView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_secondary_label="@string/depositor_plus_new_account_name"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:attribute_secondary_content="Depositor Plus" />
+
+        <styleguide.content.SecondaryContentAndLabelView
+            android:id="@+id/initialDepositSecondaryContentAndLabelView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_secondary_label="@string/depositor_plus_initial_deposit"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/accountNameSecondaryContentAndLabelView"
+            tools:attribute_secondary_content="R 25 000.00" />
+
+        <styleguide.content.SecondaryContentAndLabelView
+            android:id="@+id/fromAccountSecondaryContentAndLabelView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_secondary_label="@string/depositor_plus_from_account"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/initialDepositSecondaryContentAndLabelView"
+            tools:attribute_secondary_content="Cheque Account (4302 2389 2378)" />
+
+        <styleguide.content.SecondaryContentAndLabelView
+            android:id="@+id/initialDepositReferenceSecondaryContentAndLabelView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_secondary_label="@string/depositor_plus_initial_deposit_reference"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/fromAccountSecondaryContentAndLabelView"
+            tools:attribute_secondary_content="Depositor Plus payment" />
+
+        <styleguide.content.SecondaryContentAndLabelView
+            android:id="@+id/investmentTermSecondaryContentAndLabelView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            app:attribute_secondary_label="@string/future_plan_investment_term"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/initialDepositReferenceSecondaryContentAndLabelView"
+            tools:attribute_secondary_content="30 March 2021" />
+
+        <styleguide.content.SecondaryContentAndLabelView
+            android:id="@+id/maturityDateSecondaryContentAndLabelView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            app:attribute_secondary_label="@string/fixed_deposit_maturity_date"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/investmentTermSecondaryContentAndLabelView"
+            tools:attribute_secondary_content="30 March 2021" />
+
+        <styleguide.content.SecondaryContentAndLabelView
+            android:id="@+id/interestRateSecondaryContentAndLabelView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_secondary_label="@string/depositor_plus_interest_rate"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/maturityDateSecondaryContentAndLabelView"
+            tools:attribute_secondary_content="1 %" />
+
+        <View
+            android:id="@+id/dividerView"
+            style="@style/DividerView"
+            android:layout_width="0dp"
+            android:layout_marginTop="@dimen/small_space"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/interestRateSecondaryContentAndLabelView" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/recurringPaymentConstraintLayout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/dividerView"
+            tools:visibility="visible">
+
+            <styleguide.content.SecondaryContentAndLabelView
+                android:id="@+id/recurringAmountSecondaryContentAndLabelView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_secondary_label="@string/depositor_plus_monthly_contribution_amount"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:attribute_secondary_content="R 1000.00" />
+
+            <styleguide.content.SecondaryContentAndLabelView
+                android:id="@+id/recurringFromAccountSecondaryContentAndLabelView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_secondary_label="@string/depositor_plus_from_account"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/recurringAmountSecondaryContentAndLabelView"
+                tools:attribute_secondary_content="Cheque Account (4302 2389 2378)" />
+
+            <styleguide.content.SecondaryContentAndLabelView
+                android:id="@+id/recurringPaymentFrequencySecondaryContentAndLabelView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_secondary_label="@string/depositor_plus_recurring_deposit_frequency"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/recurringFromAccountSecondaryContentAndLabelView"
+                tools:attribute_secondary_content="Monthly" />
+
+            <styleguide.content.SecondaryContentAndLabelView
+                android:id="@+id/numberOfPaymentsSecondaryContentAndLabelView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_secondary_label="@string/depositor_plus_number_of_monthly_deposits"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/recurringPaymentFrequencySecondaryContentAndLabelView"
+                tools:attribute_secondary_content="09" />
+
+            <styleguide.content.SecondaryContentAndLabelView
+                android:id="@+id/recurringStartDateSecondaryContentAndLabelView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_secondary_label="@string/depositor_plus_recurring_start_day"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/numberOfPaymentsSecondaryContentAndLabelView"
+                tools:attribute_secondary_content="09 Sep 2020" />
+
+            <styleguide.content.SecondaryContentAndLabelView
+                android:id="@+id/recurringEndDateSecondaryContentAndLabelView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_secondary_label="@string/depositor_plus_recurring_end_day"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/recurringStartDateSecondaryContentAndLabelView"
+                tools:attribute_secondary_content="09 Sep 2021" />
+
+            <styleguide.content.SecondaryContentAndLabelView
+                android:id="@+id/recurringPaymentReferenceSecondaryContentAndLabelView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_secondary_label="@string/depositor_plus_recurring_payment_reference"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/recurringEndDateSecondaryContentAndLabelView"
+                tools:attribute_secondary_content="Depositor Plus payment" />
+
+            <View
+                android:id="@+id/dividerView2"
+                style="@style/DividerView"
+                android:layout_width="0dp"
+                android:layout_marginTop="@dimen/small_space"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/recurringPaymentReferenceSecondaryContentAndLabelView" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <styleguide.content.SecondaryContentAndLabelView
+            android:id="@+id/interestPaymentAccountSecondaryContentAndLabelView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_secondary_label="@string/depositor_plus_interest_payment_account"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/recurringPaymentConstraintLayout"
+            tools:attribute_secondary_content="Another Bank Account" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/interestPaymentConstraintLayout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/interestPaymentAccountSecondaryContentAndLabelView"
+            tools:visibility="visible">
+
+            <styleguide.content.SecondaryContentAndLabelView
+                android:id="@+id/bankSecondaryContentAndLabelView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_secondary_label="@string/depositor_plus_bank"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:attribute_secondary_content="Capitec" />
+
+            <styleguide.content.SecondaryContentAndLabelView
+                android:id="@+id/accountTypeSecondaryContentAndLabelView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_secondary_label="@string/depositor_plus_account_type"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/bankSecondaryContentAndLabelView"
+                tools:attribute_secondary_content="Cheque Account" />
+
+            <styleguide.content.SecondaryContentAndLabelView
+                android:id="@+id/accountNumberSecondaryContentAndLabelView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_secondary_label="@string/depositor_plus_account_number"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/accountTypeSecondaryContentAndLabelView"
+                tools:attribute_secondary_content="1234 3278 3278" />
+
+            <styleguide.content.SecondaryContentAndLabelView
+                android:id="@+id/branchCodeSecondaryContentAndLabelView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_secondary_label="@string/depositor_plus_branch_code"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/accountNumberSecondaryContentAndLabelView"
+                tools:attribute_secondary_content="123456" />
+
+            <styleguide.content.SecondaryContentAndLabelView
+                android:id="@+id/referenceSecondaryContentAndLabelView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_secondary_label="@string/depositor_plus_account_reference"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/branchCodeSecondaryContentAndLabelView"
+                tools:attribute_secondary_content="Depositor Plus Interest" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <styleguide.content.SecondaryContentAndLabelView
+            android:id="@+id/interestPayoutDateSecondaryContentAndLabelView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            app:attribute_secondary_label="@string/future_plan_interest_payout_date"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/interestPaymentConstraintLayout"
+            tools:attribute_secondary_content="8th of the month" />
+
+        <styleguide.content.SecondaryContentAndLabelView
+            android:id="@+id/nextInterestPayoutDateSecondaryContentAndLabelView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            app:attribute_secondary_label="@string/future_plan_next_payout_date"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/interestPayoutDateSecondaryContentAndLabelView"
+            tools:attribute_secondary_content="8th of October" />
+
+        <styleguide.forms.CheckBoxView
+            android:id="@+id/disclaimerCheckBoxView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_description="@string/depositor_plus_disclaimer"
+            app:attribute_is_required="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/nextInterestPayoutDateSecondaryContentAndLabelView" />
+
+        <styleguide.forms.CheckBoxView
+            android:id="@+id/personalClientAgreementCheckBoxView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_description="@string/client_agreement_have_accepted"
+            app:attribute_is_required="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/disclaimerCheckBoxView" />
+
+        <Button
+            android:id="@+id/confirmButton"
+            style="@style/PrimaryButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/confirm"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/personalClientAgreementCheckBoxView"
+            app:layout_constraintVertical_bias="1" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

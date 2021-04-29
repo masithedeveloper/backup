@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cashSendPlusSendMultipleNavGraph"
+    app:startDestination="@id/cashSendPlusChooseBeneficiaryFragment">
+    <fragment
+        android:id="@+id/cashSendPlusChooseBeneficiaryFragment"
+        android:name="com.barclays.absa.banking.cashSendPlus.ui.CashSendPlusChooseBeneficiaryFragment"
+        android:label="CashSendPlusChooseBeneficiaryFragment"
+        tools:layout="@layout/cash_send_plus_choose_beneficiary_fragment">
+        <action
+            android:id="@+id/action_cashSendPlusChooseBeneficiaryFragment_to_cashSendPlusBeneficiaryPaymentDetailsFragment"
+            app:destination="@id/cashSendPlusBeneficiaryPaymentDetailsFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+    <fragment
+        android:id="@+id/cashSendPlusBeneficiaryPaymentDetailsFragment"
+        android:name="com.barclays.absa.banking.cashSendPlus.ui.CashSendPlusBeneficiaryPaymentDetailsFragment"
+        android:label="CashSendPlusBeneficiaryPaymentDetailsFragment"
+        tools:layout="@layout/cash_send_plus_beneficiary_payment_details_fragment">
+        <action
+            android:id="@+id/action_cashSendPlusBeneficiaryPaymentDetailsFragment_to_cashSendPlusEditPaymentDetailsFragment"
+            app:destination="@id/cashSendPlusEditPaymentDetailsFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <action
+            android:id="@+id/action_cashSendPlusBeneficiaryPaymentDetailsFragment_to_cashSendPlusConfirmMultiplePaymentFragment"
+            app:destination="@id/cashSendPlusConfirmMultiplePaymentFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <action
+            android:id="@+id/action_cashSendPlusBeneficiaryPaymentDetailsFragment_to_cashSendPlusImportantNoticeFragment"
+            app:destination="@id/cashSendPlusImportantNoticeFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+    <fragment
+        android:id="@+id/cashSendPlusEditPaymentDetailsFragment"
+        android:name="com.barclays.absa.banking.cashSendPlus.ui.CashSendPlusEditPaymentDetailsFragment"
+        android:label="CashSendPlusEditPaymentDetailsFragment"
+        tools:layout="@layout/cash_send_plus_edit_payment_details_fragment"/>
+    <fragment
+        android:id="@+id/cashSendPlusImportantNoticeFragment"
+        android:name="com.barclays.absa.banking.cashSendPlus.ui.CashSendPlusImportantNoticeFragment"
+        android:label="cashSendPlusImportantNoticeFragment"
+        tools:layout="@layout/cash_send_plus_important_notice_fragment"/>
+    <fragment
+        android:id="@+id/cashSendPlusConfirmMultiplePaymentFragment"
+        android:name="com.barclays.absa.banking.cashSendPlus.ui.CashSendPlusConfirmMultiplePaymentFragment"
+        android:label="CashSendPlusConfirmMultiplePaymentFragment"
+        tools:layout="@layout/cash_send_plus_confirm_multiple_payment_fragment">
+        <action
+            android:id="@+id/action_cashSendPlusConfirmMultiplePaymentFragment_to_genericResultFragment"
+            app:destination="@id/genericResultFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <action
+            android:id="@+id/action_cashSendPlusConfirmMultiplePaymentFragment_to_cashSendPlusSendMultipleShareAccessPinFragment"
+            app:destination="@id/cashSendPlusSendMultipleShareAccessPinFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+    <fragment
+        android:id="@+id/cashSendPlusSendMultipleShareAccessPinFragment"
+        android:name="com.barclays.absa.banking.cashSendPlus.ui.CashSendPlusSendMultipleShareAccessPinFragment"
+        android:label="CashSendPlusSendMultipleShareAccessPinFragment"
+        tools:layout="@layout/cash_send_plus_send_multiple_share_access_pin_fragment" />
+    <fragment
+        android:id="@+id/genericResultFragment"
+        android:name="styleguide.screens.GenericResultScreenFragment"
+        android:label="GenericResultScreenFragment"
+        tools:layout="@layout/generic_results_screen_fragment">
+        <argument
+            android:name="GenericResultScreenFragment"
+            app:argType="styleguide.screens.GenericResultScreenProperties" />
+    </fragment>
+</navigation>

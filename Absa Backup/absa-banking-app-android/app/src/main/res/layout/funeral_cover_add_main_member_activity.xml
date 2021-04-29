@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/header_dark" />
+
+        <styleguide.bars.ProgressIndicatorView
+            android:id="@+id/funeralApplicationProgressIndicator"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/medium_space"
+            android:layout_marginTop="@dimen/tiny_space"
+            android:layout_marginEnd="@dimen/medium_space"
+            android:background="@drawable/progress_indicator_background"
+            app:attribute_next_step="1"
+            app:attribute_previous_step="1"
+            app:attribute_steps="4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+        <androidx.core.widget.NestedScrollView
+            android:id="@+id/contentContainerScrollView"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:fillViewport="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/funeralApplicationProgressIndicator">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:id="@+id/mainMemberInputContainer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <styleguide.forms.NormalInputView
+                        android:id="@+id/mainMemberCoverTypeNormalInputView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/tiny_space"
+                        app:attribute_editable="false"
+                        app:attribute_hint_text="@string/choose_cover"
+                        app:attribute_selector_type="SHORT_LIST"
+                        app:attribute_title_text="@string/main_member_cover_title"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/disclaimerMessageTextView"
+                    style="@style/SmallTextRegularDark"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/medium_space"
+                    android:layout_marginTop="@dimen/small_space"
+                    android:layout_marginEnd="@dimen/medium_space"
+                    android:text="@string/member_cover_disclaimer"
+                    android:visibility="gone" />
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/spouseContainerConstraintLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/medium_space"
+                    android:visibility="gone"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/mainMemberInputContainer"
+                    app:layout_goneMarginEnd="@dimen/medium_space">
+
+                    <TextView
+                        android:id="@+id/insureOthersTextView"
+                        style="@style/SmallTextMediumDark"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/medium_space"
+                        android:layout_marginTop="@dimen/medium_space"
+                        android:text="@string/insure_other"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <styleguide.forms.CheckBoxView
+                        android:id="@+id/spouseCoverCheckBoxView"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/small_space"
+                        android:layout_marginTop="@dimen/tiny_space"
+                        app:attribute_description="Cover spouse/partner for R 60 000.00 at R 180.00 p/m"
+                        app:attribute_is_checked="false"
+                        app:attribute_is_error_visible="false"
+                        app:attribute_is_required="true"
+                        app:attribute_view_error_message="This check box is required"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/insureOthersTextView" />
+
+                    <TextView
+                        android:id="@+id/addFamilyMemberNoticeTextView"
+                        style="@style/SmallTextRegularDark"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/medium_space"
+                        android:layout_marginTop="@dimen/small_space"
+                        android:layout_marginEnd="@dimen/medium_space"
+                        android:text="@string/member_cover_disclaimer"
+                        android:visibility="gone"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/spouseContainerDividerView" />
+
+                    <View
+                        android:id="@+id/spouseContainerDividerView"
+                        style="@style/DividerView"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/dimen_1dp"
+                        android:layout_marginStart="@dimen/medium_space"
+                        android:layout_marginTop="@dimen/medium_space"
+                        android:layout_marginEnd="@dimen/medium_space"
+                        android:layout_marginBottom="@dimen/medium_space"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/spouseCoverCheckBoxView" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/addFamilyMemberRecyclerView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/spouseContainerConstraintLayout"
+                    tools:listitem="@layout/add_family_member_item" />
+
+                <View
+                    android:id="@+id/familyMemberDividerView"
+                    style="@style/DividerView"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/dimen_1dp"
+                    android:layout_marginStart="@dimen/medium_space"
+                    android:layout_marginTop="@dimen/medium_space"
+                    android:layout_marginEnd="@dimen/medium_space"
+                    android:layout_marginBottom="@dimen/medium_space"
+                    android:visibility="gone"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/addFamilyMemberRecyclerView" />
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/addFamilyMemberContainer"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/familyMemberDividerView">
+
+                    <ImageView
+                        android:id="@+id/addFamilyMemberImageView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/medium_space"
+                        app:layout_constraintBottom_toBottomOf="@+id/addFamilyMemberTextView"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="@+id/addFamilyMemberTextView"
+                        app:srcCompat="@drawable/ic_add_dark" />
+
+                    <TextView
+                        android:id="@+id/addFamilyMemberTextView"
+                        style="@style/LargeTextRegularDark"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_marginStart="@dimen/tiny_space"
+                        android:layout_marginTop="@dimen/medium_space"
+                        android:layout_marginEnd="@dimen/medium_space"
+                        android:layout_marginBottom="@dimen/medium_space"
+                        android:text="@string/add_family_member"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="1.0"
+                        app:layout_constraintStart_toEndOf="@+id/addFamilyMemberImageView"
+                        app:layout_constraintTop_toTopOf="parent" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                <styleguide.content.LineItemView
+                    android:id="@+id/totalMonthlyPremiumLineItemView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/small_space"
+                    app:attribute_label_text="@string/total_monthly_premium"
+                    app:layout_constraintBottom_toTopOf="@+id/mainMemberContinueButton"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/addFamilyMemberContainer"
+                    app:layout_constraintVertical_bias="1.0" />
+
+                <styleguide.buttons.Button
+                    android:id="@+id/mainMemberContinueButton"
+                    style="@style/PrimaryButton"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/medium_space"
+                    android:layout_marginBottom="@dimen/small_space"
+                    android:enabled="false"
+                    android:text="@string/continue_button"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

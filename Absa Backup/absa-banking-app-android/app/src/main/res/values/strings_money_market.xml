@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="money_market_fund_closure">Money Market</string>
+    <string name="money_market_terms_and_conditions_toolbar_title">Terms &amp; conditions</string>
+    <string name="money_market_confirm_title">Confirm</string>
+    <string name="money_market_next">Next</string>
+    <string name="money_market_continue">Continue</string>
+    <string name="money_market_banner_title">Learn about your options</string>
+    <string name="money_market_banner_content">Absa Money Market Fund will be closing</string>
+    <string name="money_market_notice_content">Absa is committed to providing all of our customers with the best experience and financial products. To this end, we regularly assess all our products to ensure that they are aligned to our customers’ needs and expectations.\n\nAbsa Fund Managers recently reviewed the Absa Money Market Fund (AMMF) and established that the majority of the retail client population sampled, believe that the AMMF capital and its associated returns are guaranteed by Absa Bank. However, the AMMF is not a bank account - it is a collective investment schemes product (also known as a “unit trust”) and therefore capital and returns are not guaranteed. We have therefore decided to close the AMMF as of 6 July 2021 (the closure date), in the best interest of our clients, and given our findings that the majority of retail clients believe that their capital and returns are guaranteed.\n\n\The closure is a winding-up process, which in terms of Section 102 of the Collective Investment Schemes Control Act, requires the selling your share of the fund and paying the proceeds to you. We will therefore, as part of this process, pay out your funds in the AMMF to you, on or before the closure date.\n\nAs an investor in the AMMF you can switch at any time, with the cutoff date for switching being 1 July 2021 and the wind-up date being 6 July 2021.\n\nTherefore, you now have 90 days from the date of this letter within which to:\n\n-	withdraw your funds directly into one of your bank accounts, or\n-	speak to a financial advisor should you wish to easily switch your funds to any of our other financial products, or\n-	after 90 days, conveniently and safely be transferred to an %s investment bank account in your name.</string>
+    <string name="money_market_notice_more_information">More information</string>
+    <string name="money_market_notice_call_center">Call Centre</string>
+    <string name="money_market_notice_acknowledge">I have read and understood this notice</string>
+    <string name="money_market_choose_product_notice_past_performance">* past performance is not an indicator of future performance</string>
+    <string name="money_market_choose_product_notice"><b>Remember</b>: If you haven’t made a decision by 6 July 2021, don’t worry! We’ll conveniently move your funds to an %s Investment bank account in your name with all the benefits above.\n\nWant to remain in a unit trust investment? Call 0860 111 4565.\n\nNeed information on any of our other financial products? Talk to one of our financial advisors on 0860 111 4565.\n\nFind out more about the AMMF closure: Search for “AMMF closure” on our website, call 0860 111 515 or visit your nearest branch.</string>
+    <string name="money_market_choose_product_introduction">You can easily convert your AMMF fund to an %s Investment bank account which has consistently outperformed* the AMMF and your account number will remain the same. Alternatively, you can withdraw your funds into one of your existing Absa transactional bank accounts or consider an alternative investment.\n\nPlease choose an option below:</string>
+    <string name="money_market_choose_product_convert_title">Convert to %s Investment bank account</string>
+    <string name="money_market_choose_product_withdraw_title">Withdraw all your funds</string>
+    <string name="money_market_choose_product_account_number">Your account number will be unchanged</string>
+    <string name="money_market_choose_product_transfer_funds">Transfer your funds to one of your existing Absa transactional accounts</string>
+    <string name="money_market_convert_to_cash_title">You’re about to convert your Absa Money Market Fund account to an %s Investment bank account</string>
+    <string name="money_market_convert_to_cash_account_number">You will retain your account number %s</string>
+    <string name="money_market_convert_to_cash_balance_moved">Your account balance of R %s will be transferred to your new account</string>
+    <string name="money_market_convert_to_cash_deposit">Deposits into your new account will now be guaranteed</string>
+    <string name="money_market_convert_to_cash_access_to_funds">You will be able to instantly withdraw your funds online, in an Absa branch or from any Absa ATM</string>
+    <string name="money_market_convert_to_cash_absa_card">You will continue to use your existing Absa card as normal</string>
+    <string name="money_market_convert_to_cash_success_title">Your account has been converted!</string>
+    <string name="money_market_convert_to_cash_success_description">Your %s Investment bank account will appear in your accounts list shortly</string>
+    <string name="money_market_terms_and_conditions_i_agree">I agree to the Terms &amp; Conditions</string>
+    <string name="money_market_withdraw_funds_description">The balance of R %s in your Absa Money Market Fund account will be transferred.\n\nWhich account would you like to transfer to?</string>
+    <string name="money_market_withdraw_funds_account">Account</string>
+    <string name="money_market_withdraw_funds_choose_account_hints">Choose an account</string>
+    <string name="money_market_withdraw_funds_success_title">Your Absa Money Market account funds have been transferred!</string>
+    <string name="money_market_withdraw_funds_success_description">Your balance of R %s will reflect in your cheque account (ending %s) shortly.</string>
+    <string name="money_market_withdraw_account_name">Account</string>
+    <string name="money_market_withdraw_account_number">Account Number</string>
+    <string name="money_market_call_center_number" translatable="false">0860 111 515</string>
+    <string name="money_market_choose_product_capital_guaranteed">Your capital will now be guaranteed by the bank</string>
+    <string name="money_market_choose_product_interest_rates">This bank account’s interest rates have consistently outperformed AMMF*</string>
+    <string name="money_market_choose_product_deposit_online">Make deposits or withdrawals instantly online, at any Absa ATM or in branch</string>
+    <string name="money_market_choose_product_use_existing_card">Since you are able to instantly withdraw funds this could be a convenient account to hold your funds whilst you decide what you want to do</string>
+    <string name="money_market_absa_account">Absa</string>
+    <string name="money_market_cash_account">Cash</string>
+    <string name="money_market_withdraw_funds_non_absa_account">If you wish to withdraw your funds into a non-Absa account please call 08600 8600</string>
+    <string name="money_market_withdraw_funds_closure_error">Please accept the notice</string>
+    <string name="money_market_withdraw_funds_terms_and_conditions_error">Please accept terms and conditions</string>
+</resources>

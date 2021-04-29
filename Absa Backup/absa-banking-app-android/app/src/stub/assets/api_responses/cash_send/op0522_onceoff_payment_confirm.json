@@ -1,0 +1,41 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0522",
+      "resCde": "00000",
+      "resMsg": "",
+      "serVer": "2.0"
+    },
+    "payData": {
+      "iipReferenceNumber": "0",
+      "maskedFrmActNo": "******7814",
+      "popUpFlag": "N",
+      "benStatusType": "Absa",
+      "txnRef": "15014994160020",
+      "frmActNo": "4047597814",
+      "benNam": "Kenny",
+      "bankNam": "",
+      "branchNam": "",
+      "branchCd": "",
+      "actNo": "9050993953",
+      "actTyp": "",
+      "nowFlg": "NOW",
+      "imidPay": "OFF",
+      "myRef": "Kenny",
+      "myNotice": "No",
+      "myMethod": "",
+      "myDetl": "",
+      "thirRef": "Kenny",
+      "thirNotice": "No",
+      "thirMethod": "",
+      "thirDetl": "",
+      "txnAmt": {
+        "curr": "R",
+        "amt": "100.00"
+      },
+      "instNam": "",
+      "frmActDesc": "currentAccount",
+      "futureTxDate": "Mon Jul 31 00:00:00 GMT+02:00 2017"
+    }
+  }
+}

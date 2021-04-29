@@ -1,0 +1,16 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0917",
+      "resCde": "00000",
+      "resMsg": "Success",
+      "serVer": "2.0"
+    },
+    "payData": {
+      "txnRefID": "14901053716322",
+      "fromAct": " 4047598551",
+      "chargeFreqID": "1",
+      "orderFreqDate": "15"
+    }
+  }
+}

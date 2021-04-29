@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <styleguide.content.HeadingView
+            android:id="@+id/agreementDetailsHeadingView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_heading="@string/home_loan_hub_agreement_detail_heading"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <styleguide.content.LineItemView
+            android:id="@+id/interestRateLineItemView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_label_text="@string/home_loan_hub_interest_rate_label"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/agreementDetailsHeadingView"
+            tools:attribute_content_text="8.75 %" />
+
+        <styleguide.content.LineItemView
+            android:id="@+id/loanTermLineItemView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_label_text="@string/home_loan_hub_loan_term_label"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/interestRateLineItemView"
+            tools:attribute_content_text="240 months (20 years)" />
+
+        <styleguide.content.LineItemView
+            android:id="@+id/remainingTermLineItemView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_label_text="@string/home_loan_hub_remaining_term_label"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/loanTermLineItemView"
+            tools:attribute_content_text="8 years, 4 months" />
+
+        <styleguide.content.LineItemView
+            android:id="@+id/contractStartDateLineItemView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_label_text="@string/home_loan_hub_contract_start_date_label"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/remainingTermLineItemView"
+            tools:attribute_content_text="27 Mar 2005" />
+
+        <View
+            android:id="@+id/dividerView"
+            style="@style/DividerView"
+            android:layout_width="0dp"
+            android:layout_marginTop="@dimen/medium_space"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/contractStartDateLineItemView" />
+
+        <styleguide.content.HeadingView
+            android:id="@+id/installmentDetailsHeadingView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/medium_space"
+            app:attribute_heading="@string/home_loan_hub_installment_details_heading"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/dividerView" />
+
+        <styleguide.content.LineItemView
+            android:id="@+id/monthlyInstallmentLineItemView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_label_text="@string/home_loan_hub_monthly_installment_label"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/installmentDetailsHeadingView"
+            tools:attribute_content_text="R 5 795.92" />
+
+        <styleguide.content.LineItemView
+            android:id="@+id/nextInstallmentDateLineItemView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_label_text="@string/home_loan_hub_next_installment_date_label"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/monthlyInstallmentLineItemView"
+            tools:attribute_content_text="25 March 2020" />
+
+        <styleguide.content.LineItemView
+            android:id="@+id/amountInArrearsLineItemView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_label_text="@string/home_loan_hub_amount_in_arrears_label"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/nextInstallmentDateLineItemView"
+            tools:attribute_content_text="R 0.00" />
+
+        <styleguide.content.LineItemView
+            android:id="@+id/advanceAmountLineItemView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_label_text="@string/home_loan_hub_advance_amount_label"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/amountInArrearsLineItemView"
+            tools:attribute_content_text="R 20 000.00" />
+
+        <styleguide.content.LineItemView
+            android:id="@+id/paymentDueLineItemView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_label_text="@string/home_loan_hub_payment_due_label"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/advanceAmountLineItemView"
+            tools:attribute_content_text="R 5 795.92 " />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

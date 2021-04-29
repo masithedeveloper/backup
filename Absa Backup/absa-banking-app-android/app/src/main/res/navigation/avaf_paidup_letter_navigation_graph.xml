@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/avaf_paidup_letter_navigation_graph"
+    app:startDestination="@id/paidUpFragment">
+
+    <fragment
+        android:id="@+id/paidUpFragment"
+        android:name="com.barclays.absa.banking.avaf.documentRequest.ui.paidup.AvafPaidUpFragment"
+        android:label="PaidUpFragment"
+        tools:layout="@layout/avaf_document_request_base_fragment">
+        <action
+            android:id="@+id/action_paidUpFragment_to_paidUpConfirmationFragment"
+            app:destination="@id/paidUpConfirmationFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/paidUpConfirmationFragment"
+        android:name="com.barclays.absa.banking.avaf.documentRequest.ui.paidup.AvafPaidUpConfirmationFragment"
+        android:label="PaidUpFragment"
+        tools:layout="@layout/avaf_document_request_confirmation_fragment">
+        <argument
+            android:name="documentDetails"
+            app:argType="com.barclays.absa.banking.avaf.documentRequest.ui.DocumentRequestDetails" />
+        <action
+            android:id="@+id/action_paidUpConfirmationFragment_to_documentRequestResultFragment"
+            app:destination="@id/documentRequestResultFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/documentRequestResultFragment"
+        android:name="styleguide.screens.GenericResultScreenFragment"
+        android:label="paidupLetterResultFragment"
+        tools:layout="@layout/generic_results_screen_fragment">
+        <argument
+            android:name="GenericResultScreenFragment"
+            app:argType="styleguide.screens.GenericResultScreenProperties" />
+    </fragment>
+    <fragment
+        android:id="@+id/avafDocumentOfferFragment"
+        android:name="com.barclays.absa.banking.avaf.documentRequest.ui.AvafDocumentInfoFragment"
+        android:label="AvafDocumentOfferFragment">
+        <action
+            android:id="@+id/action_avafDocumentOfferFragment_to_paidUpFragment"
+            app:destination="@id/paidUpFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+</navigation>

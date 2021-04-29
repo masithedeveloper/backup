@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/header_dark" />
+
+        <ScrollView
+            android:id="@+id/prepaidAirtimePurchaseOverviewScrollview"
+            style="@style/ScrollView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:fillViewport="true">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/prepaidOverviewTitleTextView"
+                    style="@style/LargeTextRegularDark"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/medium_space"
+                    android:layout_marginTop="@dimen/medium_space"
+                    android:layout_marginEnd="@dimen/medium_space"
+                    android:text="@string/airtime_beneficiary_details_header"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <styleguide.content.PrimaryContentAndLabelView
+                    android:id="@+id/prepaidBeneficiaryLabelView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/medium_space"
+                    app:attribute_primary_content="@string/cash_send_beneficiary_placeholder"
+                    app:attribute_primary_label="@string/airtime_beneficiary_name_label"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/prepaidOverviewTitleTextView"
+                    app:layout_goneMarginBottom="@dimen/medium_space" />
+
+                <styleguide.content.PrimaryContentAndLabelView
+                    android:id="@+id/prepaidMobileNumberLabelView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:attribute_primary_content="@string/cash_send_mobile_number_placeholder"
+                    app:attribute_primary_label="@string/airtime_beneficiary_phone_number_label"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/prepaidBeneficiaryLabelView"
+                    app:layout_goneMarginTop="@dimen/medium_space" />
+
+                <styleguide.content.PrimaryContentAndLabelView
+                    android:id="@+id/prepaidNetworkProviderLabelView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:attribute_primary_content="R80"
+                    app:attribute_primary_label="@string/airtime_beneficiary_provider_label"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/prepaidMobileNumberLabelView" />
+
+                <View
+                    android:id="@+id/prepaidDivider1"
+                    style="@style/DividerView"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dimen_1dp"
+                    android:layout_marginTop="@dimen/small_space"
+                    android:background="@color/silver_grey"
+                    app:layout_constraintTop_toBottomOf="@+id/prepaidNetworkProviderLabelView" />
+
+                <styleguide.content.PrimaryContentAndLabelView
+                    android:id="@+id/prepaidPurchaseAmountLabelView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:attribute_primary_content="@string/cash_send_accnum_placeholder"
+                    app:attribute_primary_label="@string/airtime_purchase_amount_label"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/prepaidDivider1" />
+
+                <styleguide.content.PrimaryContentAndLabelView
+                    android:id="@+id/prepaidTypeLabelView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:attribute_primary_content="@string/cash_send_beneficiary_name_placeholder"
+                    app:attribute_primary_label="@string/airtime_prepaid_type_label"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/prepaidPurchaseAmountLabelView" />
+
+                <styleguide.content.PrimaryContentAndLabelView
+                    android:id="@+id/prepaidFromAccountLabelView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/small_space"
+                    app:attribute_primary_content="@string/cash_send_atm_pin_placeholder"
+                    app:attribute_primary_label="@string/airtime_from_account_label"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/prepaidTypeLabelView" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </ScrollView>
+
+        <styleguide.buttons.Button
+            android:id="@+id/prepaidPurchaseConfirmButton"
+            style="@style/PrimaryButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/confirm" />
+    </LinearLayout>
+</layout>

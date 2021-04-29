@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ScrollView
+        style="@style/ScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <include
+                layout="@layout/header_close_dark"
+                android:visibility="gone"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <styleguide.content.CenteredTitleView
+                android:id="@+id/titleCenteredTitleView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_title="@string/new_to_bank_get_a_cheque_account"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+            <styleguide.content.SimpleCarouselViewPager
+                android:id="@+id/welcomeViewPager"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginBottom="@dimen/large_space"
+                android:background="@color/tabItemBackground"
+                app:layout_constraintBottom_toTopOf="@+id/absaWebsiteDescriptionView"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/titleCenteredTitleView" />
+
+            <styleguide.content.DescriptionView
+                android:id="@+id/absaWebsiteDescriptionView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/large_space"
+                app:attribute_description="@string/new_to_bank_absa_website_lower"
+                app:layout_constraintBottom_toTopOf="@+id/letsDoThisButton"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <styleguide.buttons.Button
+                android:id="@+id/letsDoThisButton"
+                style="@style/PrimaryButton"
+                android:layout_width="0dp"
+                android:text="@string/new_to_bank_lets_do_this"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</layout>

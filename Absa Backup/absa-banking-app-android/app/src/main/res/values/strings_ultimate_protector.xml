@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="step_one_health_question">Have you been declined, deferred or accepted with special terms by a life insurance company in the last 5 years?\n\n(For example, have you had to pay a higher premium or had exclusions applied to your policy?)</string>
+    <string name="step_two_health_question">Have you ever suffered from or are you on treatment for:</string>
+    <string name="third_health_question">Do you have any disabling disorders such as:</string>
+
+    <string name="heart_disease">Heart disease</string>
+    <string name="chest_pain">Chest pain</string>
+    <string name="stroke">Stroke</string>
+    <string name="diabetes">Diabetes</string>
+    <string name="high_blood_disease">High blood pressure</string>
+    <string name="lung_disease">Lung disease</string>
+    <string name="raised_cholesterol">Raised cholesterol</string>
+    <string name="cancer">Cancer</string>
+    <string name="kidney_disease">Kidney disease</string>
+    <string name="liver_disorder">Liver disorder</string>
+    <string name="hiv">HIV</string>
+
+    <string name="blindness">Blindness</string>
+    <string name="deafness">Deafness</string>
+    <string name="paralysis">Paralysis</string>
+    <string name="missing_limbs">Missing limbs</string>
+    <string name="joint_problems">Joint problems</string>
+    <string name="back_problems">Back problems</string>
+    <string name="any_form_of_mental_illness">Any form of mental illness</string>
+    <string name="ultimate_protector_declaration">I declare that the answers are truthful and I do not intend to seek medical advice in the next 12 weeks (other than routine dentistry or treatment of minor conditions such as colds, influenza, etc.)</string>
+    <string name="policy_title">This policy will cover:</string>
+    <string name="coverAmountHeading">How much cover would you like?</string>
+    <string name="ultimate_protector_beneficiary_info">Your beneficiary will default to your Estate. To change it, you need to add a beneficiary.</string>
+    <string name="source_of_funds_title">How will you fund this?</string>
+    <string name="debit_day_title">Select day of the month</string>
+    <string name="total_premium">Total monthly premium incl. %s service fee</string>
+    <string name="ultimate_protector_declaration2">I declare that the information supplied on this application is true and correct.</string>
+    <string name="terms">I agree to the Terms &amp; Conditions</string>
+    <string name="select_title">Select title</string>
+    <string name="health_questions">"Health Questions"</string>
+    <string name="benefit_qualify_text">Based on your responses to the health questions, you qualify for %s</string>
+    <string name="cover_and_premium">Cover &amp; Premium</string>
+    <string name="debit_order_details">Details</string>
+    <string name="ultimate_protector_confirmation">Confirmation</string>
+    <string name="ultimate_protector_beneficiary_details">Beneficiary Details</string>
+    <string name="first_name_hint">Enter first name</string>
+    <string name="surname_name_hint">Enter surname</string>
+    <string name="relationship_category_hint">Select category</string>
+    <string name="date_of_birth_description">Only ages 18 - 75 allowed</string>
+    <string name="ultimate_protector_first_name">Name</string>
+    <string name="ultimate_protector_surname">Surname</string>
+    <string name="relationship_category">Category</string>
+    <string name="date_of_birth_hint">Select date of birth</string>
+    <string name="beneficiary">Beneficiary</string>
+    <string name="deceased_estate">Deceased Estate</string>
+    <string name="my_estate">My Estate</string>
+    <string name="name_required">Name is required</string>
+    <string name="category_required">Category is a required field</string>
+    <string name="ultimate_protector_title_required">Title is a required field</string>
+    <string name="ultimate_protector_success_title">Application approved</string>
+    <string name="ultimate_protector_success_message">Your Ultimate Protector policy number:%1s\n\nYour cover will start:%2s\n\nFor enquiries or help call 086 022 7253</string>
+    <string name="ultimate_protector_unsuccessful">Unsuccessful</string>
+    <string name="ultimate_protector_failure_message">Please contact our call centre for assistance on 086 022 7253</string>
+    <string name="beneficiaryHeadingText">This policy should be paid out to my</string>
+    <string name="ultimate_protector_beneficiary_title">Title</string>
+    <string name="ultimate_protector_cover_amount">Cover</string>
+    <string name="ultimate_protector_terms_and_conditions">Terms &amp; Conditions</string>
+    <string name="ultimate_protector_note_title">Please note:</string>
+    <string name="ultimate_protector_note_description">To add more beneficiaries, please visit Absa Online</string>
+</resources>

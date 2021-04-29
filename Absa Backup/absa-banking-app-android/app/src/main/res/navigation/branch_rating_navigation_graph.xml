@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_branch_rating"
+    app:startDestination="@+id/helpTypeReceivedFragment">
+
+    <fragment
+        android:id="@+id/helpTypeReceivedFragment"
+        android:name="com.barclays.absa.banking.recognition.ui.BranchRecognitionHelpTypeReceivedFragment"
+        android:label="@string/fragment_help_type_received">
+        <action
+            android:id="@+id/action_helpTypeReceivedFragment_to_BranchAccountOpenedFragment"
+            app:destination="@+id/branchAccountOpenedFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/branchAccountOpenedFragment"
+        android:name="com.barclays.absa.banking.recognition.ui.BranchRecognitionAccountOpenedFragment"
+        android:label="@string/branch_account_opened_fragment">
+        <action
+            android:id="@+id/action_accountOpenedFragment_to_GenericResultFragment"
+            app:destination="@+id/branchAccountOpenedFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+    <fragment
+        android:id="@+id/branchRecognitionResultScreenFragment"
+        android:name="styleguide.screens.GenericResultScreenFragment"
+        android:label="internationalPaymentsResultsFragment"
+        tools:layout="@layout/generic_results_screen_fragment" />
+</navigation>

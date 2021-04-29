@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/medium_space"
+    android:layout_marginTop="@dimen/small_space"
+    android:layout_marginEnd="@dimen/medium_space"
+    android:layout_marginBottom="@dimen/small_space"
+    app:cardCornerRadius="@dimen/card_radius">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/statusTextView"
+            style="@style/NormalTextRegularDark"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/normal_space"
+            android:layout_marginTop="@dimen/normal_space"
+            app:layout_constraintEnd_toStartOf="@+id/documentImageView"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Successful purchase" />
+
+        <ImageView
+            android:id="@+id/documentImageView"
+            android:layout_width="@dimen/icon_size_small"
+            android:layout_height="@dimen/icon_size_small"
+            android:layout_marginEnd="@dimen/medium_space"
+            app:layout_constraintBottom_toBottomOf="@+id/statusTextView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/statusTextView"
+            app:srcCompat="@drawable/ic_arrow_right" />
+
+        <TextView
+            android:id="@+id/dateTimeTextView"
+            style="@style/SmallTextRegularDark"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/normal_space"
+            android:layout_marginTop="@dimen/tiny_space"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/statusTextView"
+            tools:text="19 Feb 2018, 2:30pm" />
+
+        <TextView
+            android:id="@+id/tokenTextView"
+            style="@style/SmallTextRegularDark"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/normal_space"
+            android:layout_marginTop="@dimen/tiny_space"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="@+id/amountTextView"
+            app:layout_constraintEnd_toStartOf="@+id/amountTextView"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:text="1123 4543 1235 5436 8765" />
+
+        <TextView
+            android:id="@+id/amountTextView"
+            style="@style/HeadingTextMediumDark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/normal_space"
+            android:layout_marginEnd="@dimen/small_space"
+            android:layout_marginBottom="@dimen/normal_space"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/dateTimeTextView"
+            tools:text="R 300.00" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

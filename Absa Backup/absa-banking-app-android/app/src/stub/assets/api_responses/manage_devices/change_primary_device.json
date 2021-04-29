@@ -1,0 +1,21 @@
+{
+  "successResponseModel" : {
+    "payData" : {
+      "referenceNumber" : "OTA1MDk5MzUzOWNoYW5nZVByaW1hcnlEZXZpY2U=",
+      "deviceChanged" : false,
+      "txnStatus" : "Success",
+      "sureCheckFlag" : "SURECHECKV2Required",
+      "email" : "",
+      "txnMessage" : "Success",
+      "transactionDate" : null,
+      "cellnumber" : "*******5548"
+    },
+    "payHdr" : {
+      "resCde" : "00000",
+      "serVer" : "2.0",
+      "expTrace" : null,
+      "resMsg" : "Success",
+      "resId" : "RES0818"
+    }
+  }
+}

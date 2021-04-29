@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="lottoRed">#b9282f</color>
+    <color name="lottoYellow">#f8da19</color>
+    <color name="lottoGreen">#01ae43</color>
+    <color name="lottoBlue">#3eb5e8</color>
+</resources>

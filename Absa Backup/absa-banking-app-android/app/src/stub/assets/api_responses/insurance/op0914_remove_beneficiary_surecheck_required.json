@@ -1,0 +1,23 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0914",
+      "resCde": "00000",
+      "resMsg": "Success",
+      "serVer": "2.0",
+      "expTrace": null
+    },
+    "payData": {
+      "sureCheckFlag": "SURECHECKV2Required",
+      "tvnFlag": "SURECHECKV2Required",
+      "referenceNumber": "TTFXSlNrc0JtSlpHZ1pRZjZ1cXNSSzBOaUpOWGhNUHM\u003d",
+      "corelationId": "TTFXSlNrc0JtSlpHZ1pRZjZ1cXNSSzBOaUpOWGhNUHM\u003d",
+      "transactionDate": "2019-07-09 11:38:23",
+      "cellnumber": null,
+      "email": null,
+      "notificationMethod": null,
+      "txnStatus": "Success",
+      "txnMessage": "Success"
+    }
+  }
+}

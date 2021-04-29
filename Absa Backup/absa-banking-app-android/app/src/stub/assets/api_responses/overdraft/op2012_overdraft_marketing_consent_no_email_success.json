@@ -1,0 +1,35 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES2012",
+      "resCde": "00000",
+      "resMsg": "SUCCESS",
+      "serVer": "2.0",
+      "expTrace": null
+    },
+    "payData": {
+      "customerInformation": {
+        "firstName": "SONYA",
+        "initials": "BM",
+        "lastName": "GOWER-COELHO",
+        "dateOfBirth": "19751228",
+        "gender": null,
+        "identityNo": "7512280017085",
+        "identityType": "01",
+        "clientType": null,
+        "postalAddress": {
+          "addressLine1": "270 RPUBLIC ROAD",
+          "addressLine2": "7TH FLOOR",
+          "suburbRsa": "",
+          "town": "RANDBURG",
+          "postalCode": "2194"
+        },
+        "cellNumber": "0662250710",
+        "email": null,
+        "sourceOfIncome": "20"
+      },
+      "txnStatus": "Success",
+      "txnMessage": "Success"
+    }
+  }
+}

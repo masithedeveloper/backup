@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="step_one_health_question">Is jou aansoek in die afgelope 5 jaar afgekeur, uitgestel of met spesiale bepalings deur ’n lewensversekeringsmaatskappy aanvaar?\n\n(Byvoorbeeld, moes jy ’n hoër premie betaal of is uitsluitings op jou polis toegepas?)</string>
+    <string name="step_two_health_question">Het jy al ooit gely aan of behandeling ontvang vir:</string>
+    <string name="third_health_question">Ly jy aan enige ongeskiktheidsgebrek soos:</string>
+
+    <string name="heart_disease"><li>Hartsiekte</li></string>
+    <string name="chest_pain">Borspyn</string>
+    <string name="stroke">Beroerte</string>
+    <string name="diabetes">Diabetes</string>
+    <string name="high_blood_disease">Hoë bloeddruk</string>
+    <string name="lung_disease">Longkwaal</string>
+    <string name="raised_cholesterol">Verhoogde cholesterol</string>
+    <string name="cancer">Kanker</string>
+    <string name="kidney_disease">Nierkwaal</string>
+    <string name="liver_disorder">Lewerkwaal</string>
+    <string name="hiv">MIV</string>
+
+    <string name="blindness">Blindheid</string>
+    <string name="deafness">Doofheid</string>
+    <string name="paralysis">Verlamming</string>
+    <string name="missing_limbs">Afwesige ledemate</string>
+    <string name="joint_problems">Gewrigsprobleme</string>
+    <string name="back_problems">Rugprobleme</string>
+    <string name="any_form_of_mental_illness">Enige vorm van geestesiekte</string>
+    <string name="ultimate_protector_declaration">Ek verklaar dat die antwoorde waar is en ek beoog nie om in die volgende 12 weke mediese advies te kry nie (behalwe roetine-tandheelkundige behandeling of geringe toestande soos verkoues, griep, ens.)</string>
+    <string name="policy_title">Hierdie polis dek:</string>
+    <string name="coverAmountHeading">Hoeveel dekking wil jy hê?</string>
+    <string name="ultimate_protector_beneficiary_info">Jou begunstigde sal byvoorbaat jou boedel wees. Om dit te verander, moet jy ’n begunstigde byvoeg.</string>
+    <string name="source_of_funds_title">Hoe gaan jy dit befonds?</string>
+    <string name="debit_day_title">Kies dag van die maand</string>
+    <string name="total_premium">Totale maandelikse premie insl. %1$s-diensgeld</string>
+    <string name="ultimate_protector_declaration2">Ek verklaar dat die inligting wat op hierdie aansoek verstrek is, waar en korrek is.</string>
+    <string name="terms">Ek aanvaar die Bepalings &amp; Voorwaardes</string>
+    <string name="select_title">Kies titel</string>
+    <string name="health_questions">"Gesondheidsvrae"</string>
+    <string name="benefit_qualify_text">Gebaseer op jou antwoorde op die gesondheidsvrae, kwalifiseer jy vir %s</string>
+    <string name="cover_and_premium">Dekking &amp; Premie</string>
+    <string name="debit_order_details">Besonderhede</string>
+    <string name="ultimate_protector_confirmation">Bevestiging</string>
+    <string name="ultimate_protector_beneficiary_details">Begunstigde besonderhede</string>
+    <string name="first_name_hint">Sleutel voornaam in</string>
+    <string name="surname_name_hint">Sleutel van in</string>
+    <string name="relationship_category_hint">Kies kategorie</string>
+    <string name="date_of_birth_description">Slegs ouderdom 18-75 toegelaat</string>
+    <string name="ultimate_protector_first_name">Naam</string>
+    <string name="ultimate_protector_surname">Van</string>
+    <string name="relationship_category">Kategorie</string>
+    <string name="date_of_birth_hint">Kies geboortedatum</string>
+    <string name="beneficiary">Begunstigde</string>
+    <string name="deceased_estate">Afgestorwe Boedel</string>
+    <string name="my_estate">My Boedel</string>
+    <string name="name_required">Benodig naam</string>
+    <string name="category_required">Benodig kategorie</string>
+    <string name="ultimate_protector_title_required">Benodig titel</string>
+    <string name="ultimate_protector_success_title">Aansoek goedgekeur</string>
+    <string name="ultimate_protector_success_message">Your Ultimate Protector policy number:%1s\n\nYour cover will start:%2s\n\nFor enquiries or help call 086 022 7253</string>
+    <string name="ultimate_protector_unsuccessful">Unsuccessful</string>
+    <string name="ultimate_protector_failure_message">Please contact our call centre for assistance on 086 022 7253</string>
+    <string name="beneficiaryHeadingText">Hierdie polis moet uitbetaal word aan my</string>
+    <string name="ultimate_protector_beneficiary_title">Titel</string>
+    <string name="ultimate_protector_cover_amount">Dekking</string>
+    <string name="ultimate_protector_terms_and_conditions">Bepalings &amp; Voorwaardes</string>
+    <string name="ultimate_protector_note_title">Let wel:</string>
+    <string name="ultimate_protector_note_description">Om meer begunstigstes by te voeg, besoek asb. Absa Aanlyn</string>
+</resources>

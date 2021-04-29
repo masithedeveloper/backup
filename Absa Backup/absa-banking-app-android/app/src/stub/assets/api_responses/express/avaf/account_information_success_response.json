@@ -1,0 +1,39 @@
+{
+  "header": {
+    "statuscode": "0",
+    "userAgent": "ANDROID",
+    "jsessionid": "Qqc_oZymBgGl2ZQYwLaVyPhFVV2d0LgNHn8e-1gw",
+    "esessionid": "cbfe4ba8-fd50-321e-8ee1-62ccf9485e67",
+    "service": "AVAFManagementFacade",
+    "operation": "GetAVAFAccountDetail",
+    "channel": "S",
+    "timestamp": "2020-09-08 10:29:53.487",
+    "sourceip": "22.240.44.100",
+    "accessAccount": "4048284800",
+    "userNumber": "1",
+    "nonce": "Y2NqNb1H8LBMj2r9buOb34FdPzu5QyO_9h_TAATxt-8",
+    "language": "en",
+    "organization": "ABSA",
+    "brand": "ABSA",
+    "resultMessages": []
+  },
+  "avafAccountDetails": {
+    "makeAndModel": "08 TOYOTA COROLLA 1.8 EXCLUSIVE",
+    "originalFinanceAmount": 115197.00,
+    "originalTerm": 60,
+    "contractStartDate": "2014-05-08",
+    "contractEndDate": "2019-05-27",
+    "remainingTerm": 0,
+    "paymentFrequency": "Monthly",
+    "paymentMethod": "Cheque/Cash",
+    "installmentAmount": 0.00,
+    "nextInstallmentDate": "0002-11-30",
+    "residualValue": 0.00,
+    "interestRate": 10.0000000,
+    "estimatedSettlementValue": 0,
+    "interestRateType": "",
+    "accountNumber": "70713638",
+    "outstandingBalance": 0,
+    "avafAccountDetailsSet": true
+  }
+}

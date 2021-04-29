@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/depositor_plus_navigation_graph"
+    app:startDestination="@id/depositorPlusApplyFragment">
+
+    <fragment
+        android:id="@+id/depositorPlusApplyFragment"
+        android:name="com.barclays.absa.banking.depositorPlus.ui.DepositorPlusApplyFragment"
+        android:label="DepositorPlusApplyFragment"
+        tools:layout="@layout/depositor_plus_apply_fragment">
+        <action
+            android:id="@+id/action_depositorPlusApplyFragment_to_depositorPlusPersonalInformationFragment"
+            app:destination="@id/depositorPlusPersonalInformationFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <action
+            android:id="@+id/action_depositorPlusApplyFragment_to_depositorPlusFundYourAccountFragment"
+            app:destination="@id/depositorPlusFundYourAccountFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+
+        <action
+            android:id="@+id/action_depositorPlusApplyFragment_to_termsAndConditionsFragment"
+            app:destination="@id/termsAndConditionsFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+
+        <action
+            android:id="@+id/action_depositorPlusApplyFragment_to_depositorPlusGenericResultScreenFragment"
+            app:destination="@id/genericResultScreenFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+    <fragment
+        android:id="@+id/depositorPlusPersonalInformationFragment"
+        android:name="com.barclays.absa.banking.depositorPlus.ui.DepositorPlusPersonalInformationFragment"
+        android:label="DepositorPlusPersonalInformationFragment"
+        tools:layout="@layout/save_and_invest_personal_information_fragment">
+        <action
+            android:id="@+id/action_depositorPlusPersonalInformationFragment_to_depositorPlusFundYourAccountFragment"
+            app:destination="@id/depositorPlusFundYourAccountFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <action
+            android:id="@+id/action_depositorPlusPersonalInformationFragment_to_saveAndInvestSourceOfFundsFragment"
+            app:destination="@id/saveAndInvestSourceOfFundsFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <action
+            android:id="@+id/action_depositorPlusPersonalInformationFragment_to_genericResultScreenFragment"
+            app:destination="@id/genericResultScreenFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+    <fragment
+        android:id="@+id/depositorPlusFundYourAccountFragment"
+        android:name="com.barclays.absa.banking.depositorPlus.ui.DepositorPlusFundYourAccountFragment"
+        android:label="DepositorPlusFundYourAccountFragment"
+        tools:layout="@layout/save_and_invest_fund_your_account_fragment">
+        <action
+            android:id="@+id/action_depositorPlusFundYourAccountFragment_to_depositorPlusInterestPaymentDetailsFragment"
+            app:destination="@id/depositorPlusInterestPaymentDetailsFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+    <fragment
+        android:id="@+id/depositorPlusInterestPaymentDetailsFragment"
+        android:name="com.barclays.absa.banking.depositorPlus.ui.DepositorPlusInterestPaymentDetailsFragment"
+        android:label="DepositorPlusInterestPaymentDetailsFragment"
+        tools:layout="@layout/save_and_invest_interest_payment_details_fragment">
+        <action
+            android:id="@+id/action_depositorPlusInterestPaymentDetailsFragment_to_depositorPlusMarketingConsentFragment"
+            app:destination="@id/depositorPlusMarketingConsentFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+    <fragment
+        android:id="@+id/depositorPlusMarketingConsentFragment"
+        android:name="com.barclays.absa.banking.depositorPlus.ui.DepositorPlusMarketingConsentFragment"
+        android:label="DepositorPlusMarketingConsentFragment"
+        tools:layout="@layout/activity_direct_marketing">
+        <action
+            android:id="@+id/action_depositorPlusMarketingConsentFragment_to_termsAndConditionsFragment"
+            app:destination="@id/termsAndConditionsFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+
+        <action
+            android:id="@+id/action_depositorPlusMarketingConsentFragment_to_depositorPlusGenericResultScreenFragment"
+            app:destination="@id/genericResultScreenFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+    <fragment
+        android:id="@+id/termsAndConditionsFragment"
+        android:name="com.barclays.absa.banking.shared.TermsAndConditionsFragment"
+        android:label="TermsAndConditionsFragment"
+        tools:layout="@layout/terms_and_conditions_fragment">
+
+        <argument
+            android:name="TermsAndConditionsInfo"
+            app:argType="com.barclays.absa.banking.shared.TermsAndConditionsInfo" />
+
+        <action
+            android:id="@+id/action_termsAndConditionsFragment_to_depositorPlusConfirmationFragment"
+            app:destination="@id/depositorPlusConfirmationFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+    <fragment
+        android:id="@+id/depositorPlusConfirmationFragment"
+        android:name="com.barclays.absa.banking.depositorPlus.ui.DepositorPlusConfirmationFragment"
+        android:label="DepositorPlusConfirmationFragment"
+        tools:layout="@layout/save_and_invest_confirmation_fragment">
+
+        <action
+            android:id="@+id/action_depositorPlusConfirmationFragment_to_termsAndConditionsFragment"
+            app:destination="@id/termsAndConditionsFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+
+        <action
+            android:id="@+id/action_depositorPlusConfirmationFragment_to_depositorPlusGenericResultScreenFragment"
+            app:destination="@id/genericResultScreenFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+    <fragment
+        android:id="@+id/genericResultScreenFragment"
+        android:name="styleguide.screens.GenericResultScreenFragment"
+        android:label="GenericResultScreenFragment"
+        tools:layout="@layout/generic_results_screen_fragment">
+        <argument
+            android:name="GenericResultScreenFragment"
+            app:argType="styleguide.screens.GenericResultScreenProperties" />
+    </fragment>
+    <fragment
+        android:id="@+id/saveAndInvestSourceOfFundsFragment"
+        android:name="com.barclays.absa.banking.saveAndInvest.SaveAndInvestSourceOfFundsFragment"
+        android:label="DepositorPlusSourceOfFundsFragment"
+        tools:layout="@layout/save_and_invest_source_of_funds_fragment" />
+</navigation>

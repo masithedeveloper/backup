@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:parentTag="androidx.constraintlayout.widget.ConstraintLayout">
+
+    <styleguide.forms.CheckBoxView
+        android:id="@+id/sameAsResidentialAddressCheckboxView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:attribute_description="@string/manage_profile_edit_address_details_same_as_residential_address"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:visibility="visible" />
+
+    <styleguide.forms.NormalInputView
+        android:id="@+id/employerNameNormalInputView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:digits="@string/allowed_reference_account_names"
+        android:inputType="textCapWords"
+        android:maxLength="30"
+        android:visibility="gone"
+        app:attribute_editable="true"
+        app:attribute_title_text="@string/manage_profile_address_widget_employer_name_label"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/sameAsResidentialAddressCheckboxView"
+        tools:visibility="visible" />
+
+    <styleguide.forms.NormalInputView
+        android:id="@+id/telephoneNumberNormalInputView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:visibility="gone"
+        app:attribute_editable="true"
+        app:attribute_mask="### ### ####"
+        app:attribute_selector_type="CONTACT"
+        app:attribute_title_text="@string/manage_profile_address_widget_telephone_number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/employerNameNormalInputView"
+        tools:visibility="visible" />
+
+    <styleguide.forms.NormalInputView
+        android:id="@+id/faxNumberNormalInputView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:visibility="gone"
+        app:attribute_editable="true"
+        app:attribute_mask="### ### ####"
+        app:attribute_selector_type="CONTACT"
+        app:attribute_title_text="@string/manage_profile_address_widget_fax_number_label"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/telephoneNumberNormalInputView"
+        tools:visibility="visible" />
+
+    <styleguide.forms.NormalInputView
+        android:id="@+id/addressLineOneNormalInputView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:digits="@string/allowed_reference_account_names"
+        android:inputType="textCapWords"
+        android:maxLength="30"
+        app:attribute_editable="true"
+        app:attribute_title_text="@string/manage_profile_address_widget_address_line_one_label"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/faxNumberNormalInputView" />
+
+    <styleguide.forms.NormalInputView
+        android:id="@+id/addressLineTwoNormalInputView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:digits="@string/allowed_reference_account_names"
+        android:inputType="textCapWords"
+        android:maxLength="30"
+        app:attribute_editable="true"
+        app:attribute_title_text="@string/manage_profile_address_widget_address_line_two_label"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/addressLineOneNormalInputView" />
+
+    <styleguide.forms.NormalInputView
+        android:id="@+id/suburbNormalInputView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:inputType="textCapWords"
+        app:attribute_editable="false"
+        app:attribute_image="@drawable/ic_search_dark"
+        app:attribute_selector_type="GENERIC_SELECTOR"
+        app:attribute_title_text="@string/manage_profile_address_details_overview_suburb_label"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/addressLineTwoNormalInputView" />
+
+    <styleguide.content.SecondaryContentAndLabelView
+        android:id="@+id/cityOrSuburbLabelView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:attribute_secondary_label="@string/manage_profile_address_details_overview_city_label"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/suburbNormalInputView"
+        tools:attribute_secondary_content="Johannesburg" />
+
+    <styleguide.content.SecondaryContentAndLabelView
+        android:id="@+id/postalCodeLabelView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:attribute_secondary_label="@string/manage_profile_address_details_overview_postal_code_label"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cityOrSuburbLabelView"
+        tools:attribute_secondary_content="2190" />
+</merge>

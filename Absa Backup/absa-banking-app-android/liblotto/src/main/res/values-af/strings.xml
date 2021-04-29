@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="available_jackpot">Beskikbaar Boerpot</string>
+    <string name="estimated_jackpot">Beraamde Boerpot</string>
+    <string name="lotto_choose_6_numbers">Kies 6 nommers</string>
+</resources>

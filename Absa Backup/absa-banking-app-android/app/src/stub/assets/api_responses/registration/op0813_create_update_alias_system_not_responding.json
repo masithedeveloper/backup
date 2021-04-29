@@ -1,0 +1,14 @@
+{
+  "successResponseModel" : {
+    "payData" : {
+      "aliasID" : null
+    },
+    "payHdr" : {
+      "resCde" : "Common\/General\/Error\/InvalidId",
+      "serVer" : "2.0",
+      "expTrace" : null,
+      "resMsg" : "Connection error.  System not responding.  Kindly try again in a short while.",
+      "resId" : "RES0813"
+    }
+  }
+}

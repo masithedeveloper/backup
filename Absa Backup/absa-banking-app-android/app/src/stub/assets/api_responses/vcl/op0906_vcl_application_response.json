@@ -1,0 +1,25 @@
+{
+  "successResponseModel": {
+    "payData": {
+      "CLIApplicationResult": null,
+      "respDTO": null,
+      "tvnFlag": "SURECHECKV2Required",
+      "email": null,
+      "corelationId": "V3RrZlUxaGwwd0pyVFpTbzlDeE5tTHlteDhmckJVSjg=",
+      "notificationMethod": null,
+      "referenceNumber": "V3RrZlUxaGwwd0pyVFpTbzlDeE5tTHlteDhmckJVSjg=",
+      "cellnumber": null,
+      "transactionDate": "2018-01-30 13:18:26",
+      "sureCheckFlag": "SURECHECKV2Required",
+      "txnStatus": "Success",
+      "txnMessage": "Success"
+    },
+    "payHdr": {
+      "resCde": "00000",
+      "resMsg": "Success",
+      "serVer": "2.0",
+      "expTrace": null,
+      "resId": "RES0906"
+    }
+  }
+}

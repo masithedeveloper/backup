@@ -1,0 +1,47 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resMsg": "Success",
+      "resCde": "00000",
+      "expTrace": null,
+      "serVer": "2.0",
+      "resId": "RES0883"
+    },
+    "payData": {
+      "getAllWUCountriesDTO": {
+        "iFTCountries": [
+          {
+            "countryCode": "MX",
+            "countryDescription": "Mexico",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "X",
+            "states": [
+              {
+                "cities": null,
+                "stateName": "AGUASCALIENTES"
+              },
+              {
+                "cities": null,
+                "stateName": "BAJA CALIFORNIA NORTE"
+              },
+              {
+                "cities": null,
+                "stateName": "BAJA CALIFORNIA SUR"
+              },
+              {
+                "cities": null,
+                "stateName": "CAMPECHE"
+              },
+              {
+                "cities": null,
+                "stateName": "CHIAPAS"
+              }
+            ]
+          }
+        ]
+      },
+      "txnStatus": "Success",
+      "txnMessage": "Success"
+    }
+  }
+}

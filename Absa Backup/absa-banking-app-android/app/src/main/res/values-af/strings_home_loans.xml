@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="home_loan_hub_agreement_detail_heading">Ooreenkomsbesonderhede</string>
+    <string name="home_loan_hub_interest_rate_label">Rentekoers</string>
+    <string name="home_loan_hub_loan_term_label">Lening termyn</string>
+    <string name="home_loan_hub_remaining_term_label">Oorblywende termyn</string>
+    <string name="home_loan_hub_contract_start_date_label">Begindatum van kontrak</string>
+    <string name="home_loan_hub_installment_details_heading">Paaiement besonderhede</string>
+    <string name="home_loan_hub_monthly_installment_label">Maandelikse paaiement</string>
+    <string name="home_loan_hub_next_installment_date_label">Volgende paaiement datum</string>
+    <string name="home_loan_hub_amount_in_arrears_label">Agterstallige bedrag</string>
+    <string name="home_loan_hub_payment_due_label">Betaling verskuldig</string>
+    <string name="home_loan_hub_advance_amount_label">Voorskotbedrag</string>
+</resources>

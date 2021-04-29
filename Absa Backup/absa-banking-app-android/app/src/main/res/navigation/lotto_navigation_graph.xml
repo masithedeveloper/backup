@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/lotto_navigation_graph"
+    app:startDestination="@id/lottoAndPowerBallFragment">
+
+    <fragment
+        android:id="@+id/lottoAndPowerBallFragment"
+        android:name="com.barclays.absa.banking.lotto.ui.LottoAndPowerBallFragment"
+        tools:layout="@layout/lotto_lotto_and_powerball_fragment">
+        <action
+            android:id="@+id/action_lottoAndPowerBallFragment_to_lottoPlayTheLottoFragment"
+            app:destination="@id/lottoPlayTheLottoFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <action
+            android:id="@+id/action_lottoAndPowerBallFragment_to_lottoGameResultsFragment"
+            app:destination="@id/lottoGameResultsFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <action
+            android:id="@+id/action_lottoAndPowerBallFragment_to_lottoTicketFragment"
+            app:destination="@id/lottoTicketFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout" />
+        <action
+            android:id="@+id/action_lottoAndPowerBallFragment_to_lottoPurchasedTicketsFragment"
+            app:destination="@id/lottoPurchasedTicketsFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <action
+            android:id="@+id/action_lottoAndPowerBallFragment_to_lottoQuickPickFragment"
+            app:destination="@id/lottoQuickPickFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <action
+            android:id="@+id/action_lottoAndPowerBallFragment_to_lottoNewTicketFragment"
+            app:destination="@id/lottoNewTicketFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/lottoNumberSelectionFragment"
+        android:name="com.barclays.absa.banking.lotto.ui.LottoNumberSelectionFragment"
+        tools:layout="@layout/lotto_number_selection_fragment" />
+
+    <fragment
+        android:id="@+id/lottoNewTicketFragment"
+        android:name="com.barclays.absa.banking.lotto.ui.LottoNewTicketFragment"
+        tools:layout="@layout/lotto_new_ticket_fragment">
+        <action
+            android:id="@+id/action_lottoNewTicketFragment_to_lottoNumberSelectionFragment"
+            app:destination="@id/lottoNumberSelectionFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <action
+            android:id="@+id/action_lottoNewTicketFragment_to_lottoPlayTheLottoFragment"
+            app:destination="@id/lottoPlayTheLottoFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/lottoPlayTheLottoFragment"
+        android:name="com.barclays.absa.banking.lotto.ui.LottoPlayTheLottoFragment"
+        tools:layout="@layout/lotto_play_the_lotto_fragment">
+        <action
+            android:id="@+id/action_lottoPlayTheLottoFragment_to_lottoTicketConfirmationFragment"
+            app:destination="@id/lottoTicketConfirmationFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/lottoPurchaseSuccessFragment"
+        android:name="com.barclays.absa.banking.lotto.ui.LottoPurchaseSuccessFragment"
+        tools:layout="@layout/lotto_success_fragment" />
+
+    <fragment
+        android:id="@+id/lottoTicketConfirmationFragment"
+        android:name="com.barclays.absa.banking.lotto.ui.LottoTicketConfirmationFragment"
+        tools:layout="@layout/lotto_ticket_confirmation_fragment">
+        <action
+            android:id="@+id/action_lottoTicketConfirmationFragment_to_lottoPurchaseSuccessFragment"
+            app:destination="@id/lottoPurchaseSuccessFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <action
+            android:id="@+id/action_lottoTicketConfirmationFragment_to_lottoGenericResultFragment"
+            app:destination="@id/lottoGenericResultFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/lottoPurchasedTicketsFragment"
+        android:name="com.barclays.absa.banking.lotto.ui.LottoPurchasedTicketsFragment"
+        tools:layout="@layout/lotto_purchased_tickets_fragment">
+        <action
+            android:id="@+id/action_lottoPurchasedTicketsFragment_to_lottoTicketFragment"
+            app:destination="@+id/lottoTicketFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/lottoTicketFragment"
+        android:name="com.barclays.absa.banking.lotto.ui.LottoTicketFragment"
+        tools:layout="@layout/lotto_ticket_fragment">
+        <action
+            android:id="@+id/action_lottoTicketFragment_to_lottoPlayTheLottoFragment"
+            app:destination="@+id/lottoPlayTheLottoFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/lottoGameResultsFragment"
+        android:name="com.barclays.absa.banking.lotto.ui.LottoGameResultsFragment"
+        tools:layout="@layout/lotto_game_results_fragment">
+        <action
+            android:id="@+id/action_lottoGameResultsFragment_to_lottoDrawResultsFragment"
+            app:destination="@id/lottoDrawResultsFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/lottoDrawResultsFragment"
+        android:name="com.barclays.absa.banking.lotto.ui.LottoDrawResultsFragment"
+        tools:layout="@layout/lotto_draw_results_fragment">
+        <action
+            android:id="@+id/action_lottoDrawResultsFragment_to_lottoTicketFragment"
+            app:destination="@id/lottoTicketFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/lottoQuickPickFragment"
+        android:name="com.barclays.absa.banking.lotto.ui.LottoQuickPickFragment"
+        tools:layout="@layout/lotto_quick_pick_fragment">
+        <action
+            android:id="@+id/action_lottoQuickPickFragment_to_lottoTicketConfirmationFragment"
+            app:destination="@id/lottoTicketConfirmationFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+    <fragment
+        android:id="@+id/lottoGenericResultFragment"
+        android:name="styleguide.screens.GenericResultScreenFragment"
+        android:label="lottoGenericResultFragment"
+        tools:layout="@layout/generic_results_screen_fragment" />
+</navigation>

@@ -1,0 +1,138 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        style="@style/ScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/bankNameInputView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_editable="false"
+                app:attribute_is_selected="false"
+                app:attribute_selector_type="LONG_LIST"
+                app:attribute_title_text="@string/which_bank_the_account_is_at"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/accountToBeDebitedInputView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_editable="false"
+                app:attribute_hint_text="@string/account_to_debit_hint"
+                app:attribute_selector_type="LONG_LIST"
+                app:attribute_title_text="@string/account_to_debit"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/bankNameInputView" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/externalBankConstraintLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/accountToBeDebitedInputView"
+                tools:visibility="visible">
+
+                <styleguide.forms.NormalInputView
+                    android:id="@+id/branchCodeInputView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:attribute_editable="false"
+                    app:attribute_hint_text="@string/select_branch_hint"
+                    app:attribute_selector_type="LONG_LIST"
+                    app:attribute_title_text="@string/branch"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <styleguide.forms.NormalInputView
+                    android:id="@+id/accountTypeInputView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:attribute_editable="false"
+                    app:attribute_hint_text="@string/account_type_hint"
+                    app:attribute_selector_type="LONG_LIST"
+                    app:attribute_title_text="@string/payment_account_type"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/branchCodeInputView" />
+
+                <styleguide.forms.NormalInputView
+                    android:id="@+id/accountHolderInputView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 "
+                    android:maxLength="50"
+                    app:attribute_hint_text="@string/account_holder_name_hint"
+                    app:attribute_selector_type="NONE"
+                    app:attribute_title_text="@string/account_holder_name"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/accountTypeInputView" />
+
+                <styleguide.forms.NormalInputView
+                    android:id="@+id/externalBankAccountToBeDebitedEditText"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:maxLength="16"
+                    app:attribute_hint_text="@string/account_to_debit_hint"
+                    app:attribute_selector_type="NONE"
+                    app:attribute_title_text="@string/account_to_debited"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/accountHolderInputView" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/dayOfDebitInputView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_editable="false"
+                app:attribute_selector_type="DATE"
+                app:attribute_title_text="@string/day_of_debit"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/externalBankConstraintLayout" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/sourceOfFundsInputView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_editable="false"
+                app:attribute_selector_type="LONG_LIST"
+                app:attribute_title_text="@string/source_of_funds"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/dayOfDebitInputView" />
+
+            <styleguide.buttons.Button
+                android:id="@+id/editPaymentContinueButton"
+                style="@style/PrimaryButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/medium_space"
+                android:layout_marginBottom="@dimen/small_space"
+                android:text="@string/continue_button"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/sourceOfFundsInputView"
+                app:layout_constraintVertical_bias="1.0" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</layout>

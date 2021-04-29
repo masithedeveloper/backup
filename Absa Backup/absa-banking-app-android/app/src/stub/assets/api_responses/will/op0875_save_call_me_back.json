@@ -1,0 +1,31 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0875",
+      "resCde": "00000",
+      "resMsg": "",
+      "serVer": "2.0",
+      "expTrace": null
+    },
+    "payData": {
+      "queryType": "",
+      "cellNumber": "0825202020",
+      "successFlag": "true",
+      "dtoJsonBean": {
+        "policyDescription": null,
+        "policyNumber": null,
+        "coverAmount": null,
+        "premiumAmount": null,
+        "policyStatus": null,
+        "policyType": null,
+        "processingType": null,
+        "manageClaims": null,
+        "financialInstitRef": null,
+        "productCode": null,
+        "renewDate": null
+      },
+      "callBackResMsg": "SUCCESS",
+      "emailId": ""
+    }
+  }
+}

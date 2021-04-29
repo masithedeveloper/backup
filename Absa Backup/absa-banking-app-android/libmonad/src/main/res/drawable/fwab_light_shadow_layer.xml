@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <gradient
+                android:angle="90"
+                android:endColor="@android:color/transparent"
+                android:gradientRadius="@dimen/circular_button_size"
+                android:startColor="@color/light_silver"
+                android:type="linear" />
+            <size
+                android:width="@dimen/fwab_button_width"
+                android:height="@dimen/button_height" />
+            <corners android:radius="@dimen/fwab_button_radius" />
+        </shape>
+    </item>
+    <item
+        android:bottom="1.3dp"
+        android:drawable="@drawable/fwab_button_light"
+        android:left="0.5dp"
+        android:right="0.5dp" />
+</layer-list>

@@ -1,0 +1,20 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES2132",
+      "resCde": "00000",
+      "resMsg": "Success",
+      "serVer": "2.0",
+      "expTrace": null
+    },
+    "payData": {
+      "virtualCardDetailsRespDTO": {
+        "cardNumber": "4451450000073455",
+        "encryptedCardDetails": "B7241B997DC081FE4071B8E163D416E0",
+        "symmetricKey": "ghx6zpbVV7YAvz6r61bUrM6YUwqffVCkyc+jiMbn8LajBC/Zvm2pRdrlb7aB7SqGsKYIRTQ0vWnURJ24DRwoajcnb+cOuJm2rXXovTqyxYWL+Ri/OdJgK7wpxRl/vmAhu+a9rYjA2QjGO/JDPbmn/Um5wVG5J93QpImO5HmJguoAyJVvvITTJGoaBjW1ANtyg7Xr4xnDUpSu/RNbgW1KMCULqKwq64LrxZ6/p45P72r3C1/2EU4qpe+CQ0Ii1647FI5IAuhWp8Qhq4/myvylpfHQgrncoFOBnbb69M2E7ZFL+eMJBAoOuIDO2LBdhdTg6zWnSlGxI5W2w46f91yJGA\u003d\u003d"
+      },
+      "txnStatus": "Success",
+      "txnMessage": "Success"
+    }
+  }
+}

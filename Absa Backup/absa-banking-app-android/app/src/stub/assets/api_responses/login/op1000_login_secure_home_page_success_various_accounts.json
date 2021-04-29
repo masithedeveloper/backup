@@ -1,0 +1,628 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES2001",
+      "resCde": "00000",
+      "resMsg": "SUCCESS",
+      "serVer": "2.0"
+    },
+    "payData": {
+      "balNotYetClrdDt": "2017-08-02 14:07",
+      "ival": "656947771619dame",
+      "allActList": [
+        {
+          "isBclEligible": "true",
+          "favorite": "N",
+          "accessTypeBits": "1.0",
+          "isBalanceMasked": "N",
+          "viewAcctHistoryAllowed": "Y",
+          "acctAccessBits": "64159.0",
+          "actNo": "9050889116",
+          "desc": "Credit Card",
+          "curBal": {
+            "curr": "R",
+            "amt": "110,381.64"
+          },
+          "avblBal": {
+            "curr": "R",
+            "amt": "90,381.64"
+          },
+          "typ": "creditCard",
+          "mkdActNo": "******9116",
+          "curr": "R",
+          "overDraftLimit": {
+            "curr": "R",
+            "amt": "0.00"
+          }
+        },
+        {
+          "isBclEligible": "true",
+          "favorite": "N",
+          "accessTypeBits": "512.0",
+          "isBalanceMasked": "N",
+          "viewAcctHistoryAllowed": "Y",
+          "acctAccessBits": "59421.0",
+          "actNo": "2049592640",
+          "desc": "Fixed Deposit",
+          "curBal": {
+            "curr": "R",
+            "amt": "52,198.73"
+          },
+          "avblBal": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "typ": "termDeposit",
+          "mkdActNo": "******2640",
+          "curr": "R",
+          "overDraftLimit": {
+            "curr": "R",
+            "amt": "0.00"
+          }
+        },
+        {
+          "isBclEligible": "true",
+          "favorite": "N",
+          "accessTypeBits": "1.0",
+          "isBalanceMasked": "N",
+          "viewAcctHistoryAllowed": "Y",
+          "acctAccessBits": "64255.0",
+          "actNo": "324689",
+          "desc": "Cheque Account",
+          "curBal": {
+            "curr": "R",
+            "amt": "2,163,462.62"
+          },
+          "avblBal": {
+            "curr": "R",
+            "amt": "2,163,462.62"
+          },
+          "typ": "currentAccount",
+          "mkdActNo": "******4689",
+          "curr": "R",
+          "overDraftLimit": {
+            "curr": "R",
+            "amt": "0.00"
+          }
+        },
+        {
+          "isBclEligible": "true",
+          "favorite": "N",
+          "accessTypeBits": "1.0",
+          "isBalanceMasked": "N",
+          "viewAcctHistoryAllowed": "Y",
+          "acctAccessBits": "64255.0",
+          "actNo": "324690",
+          "desc": "Cheque Account",
+          "curBal": {
+            "curr": "R",
+            "amt": "6,163,462.62"
+          },
+          "avblBal": {
+            "curr": "R",
+            "amt": "6,163,462.62"
+          },
+          "typ": "currentAccount",
+          "mkdActNo": "******4689",
+          "curr": "R",
+          "overDraftLimit": {
+            "curr": "R",
+            "amt": "0.00"
+          }
+        },
+        {
+          "isBclEligible": "true",
+          "favorite": "N",
+          "accessTypeBits": "128.0",
+          "isBalanceMasked": "N",
+          "viewAcctHistoryAllowed": "Y",
+          "acctAccessBits": "59422.0",
+          "actNo": "5001372504",
+          "desc": "Home Loan account",
+          "curBal": {
+            "curr": "R",
+            "amt": "-130,887.94"
+          },
+          "avblBal": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "typ": "homeLoan",
+          "mkdActNo": "******2504",
+          "curr": "R",
+          "overDraftLimit": {
+            "curr": "R",
+            "amt": "0.00"
+          }
+        },
+        {
+          "isBclEligible": "true",
+          "favorite": "N",
+          "accessTypeBits": "128.0",
+          "isBalanceMasked": "N",
+          "viewAcctHistoryAllowed": "Y",
+          "acctAccessBits": "59422.0",
+          "actNo": "5001372504",
+          "desc": "AVAF Loan account",
+          "curBal": {
+            "curr": "R",
+            "amt": "-130,887.94"
+          },
+          "avblBal": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "typ": "absaVehicleAndAssetFinance",
+          "mkdActNo": "******2504",
+          "curr": "R",
+          "overDraftLimit": {
+            "curr": "R",
+            "amt": "0.00"
+          }
+        },
+        {
+          "isBclEligible": "true",
+          "favorite": "N",
+          "accessTypeBits": "1.0",
+          "isBalanceMasked": "N",
+          "viewAcctHistoryAllowed": "Y",
+          "acctAccessBits": "64159.0",
+          "actNo": "9050993539",
+          "desc": "Savings",
+          "curBal": {
+            "curr": "R",
+            "amt": "110,872.22"
+          },
+          "avblBal": {
+            "curr": "R",
+            "amt": "90,872.22"
+          },
+          "typ": "savingsAccount",
+          "mkdActNo": "******2577",
+          "curr": "R",
+          "overDraftLimit": {
+            "curr": "R",
+            "amt": "0.00"
+          }
+        },
+        {
+          "isBclEligible": "true",
+          "favorite": "N",
+          "accessTypeBits": "1.0",
+          "isBalanceMasked": "N",
+          "viewAcctHistoryAllowed": "Y",
+          "acctAccessBits": "64159.0",
+          "actNo": "9050993540",
+          "desc": "Savings",
+          "curBal": {
+            "curr": "R",
+            "amt": "210,872.22"
+          },
+          "avblBal": {
+            "curr": "R",
+            "amt": "190,872.22"
+          },
+          "typ": "savingsAccount",
+          "mkdActNo": "******2577",
+          "curr": "R",
+          "overDraftLimit": {
+            "curr": "R",
+            "amt": "0.00"
+          }
+        },
+        {
+          "isBclEligible": "true",
+          "favorite": "N",
+          "accessTypeBits": "1.0",
+          "isBalanceMasked": "N",
+          "viewAcctHistoryAllowed": "Y",
+          "acctAccessBits": "64159.0",
+          "actNo": "9050993541",
+          "desc": "Savings",
+          "curBal": {
+            "curr": "R",
+            "amt": "310,872.22"
+          },
+          "avblBal": {
+            "curr": "R",
+            "amt": "290,872.22"
+          },
+          "typ": "savingsAccount",
+          "mkdActNo": "******2577",
+          "curr": "R",
+          "overDraftLimit": {
+            "curr": "R",
+            "amt": "0.00"
+          }
+        },
+        {
+          "isBclEligible": "true",
+          "favorite": "N",
+          "accessTypeBits": "1.0",
+          "isBalanceMasked": "N",
+          "viewAcctHistoryAllowed": "Y",
+          "acctAccessBits": "64159.0",
+          "actNo": "9050993542",
+          "desc": "Savings",
+          "curBal": {
+            "curr": "R",
+            "amt": "410,872.22"
+          },
+          "avblBal": {
+            "curr": "R",
+            "amt": "390,872.22"
+          },
+          "typ": "savingsAccount",
+          "mkdActNo": "******2577",
+          "curr": "R",
+          "overDraftLimit": {
+            "curr": "R",
+            "amt": "0.00"
+          }
+        },
+        {
+          "isBclEligible": "true",
+          "favorite": "N",
+          "accessTypeBits": "512.0",
+          "isBalanceMasked": "N",
+          "viewAcctHistoryAllowed": "Y",
+          "acctAccessBits": "59421.0",
+          "actNo": "2049592640",
+          "desc": "Islamic Term deposit",
+          "curBal": {
+            "curr": "R",
+            "amt": "2,198.73"
+          },
+          "avblBal": {
+            "curr": "R",
+            "amt": "1,198.73"
+          },
+          "typ": "termDeposit",
+          "mkdActNo": "******2640",
+          "curr": "R",
+          "overDraftLimit": {
+            "curr": "R",
+            "amt": "0.00"
+          }
+        },
+        {
+          "isBclEligible": "true",
+          "favorite": "N",
+          "accessTypeBits": "8.0",
+          "isBalanceMasked": "N",
+          "viewAcctHistoryAllowed": "Y",
+          "acctAccessBits": "59423.0",
+          "actNo": "9050446744",
+          "desc": "Notice Deposit",
+          "curBal": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "avblBal": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "typ": "noticeDeposit",
+          "mkdActNo": "******6744",
+          "curr": "R",
+          "overDraftLimit": {
+            "curr": "R",
+            "amt": "0.00"
+          }
+        },
+        {
+          "isBclEligible": "true",
+          "favorite": "N",
+          "accessTypeBits": "1.0",
+          "isBalanceMasked": "N",
+          "viewAcctHistoryAllowed": "Y",
+          "acctAccessBits": "64255.0",
+          "actNo": "9050463718",
+          "desc": "Rewards account",
+          "curBal": {
+            "curr": "R",
+            "amt": "5,411.82"
+          },
+          "avblBal": {
+            "curr": "R",
+            "amt": "5,361.82"
+          },
+          "typ": "absaReward",
+          "mkdActNo": "******3718",
+          "curr": "R",
+          "overDraftLimit": {
+            "curr": "R",
+            "amt": "0.00"
+          }
+        },
+        {
+          "isBclEligible": "true",
+          "favorite": "N",
+          "accessTypeBits": "0.0",
+          "isBalanceMasked": "N",
+          "viewAcctHistoryAllowed": "Y",
+          "acctAccessBits": "0.0",
+          "actNo": "",
+          "desc": "Unit Trusts",
+          "curBal": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "avblBal": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "typ": "unitTrustAccount",
+          "mkdActNo": "",
+          "curr": "R",
+          "overDraftLimit": {
+            "curr": "R",
+            "amt": "0.00"
+          }
+        },
+        {
+          "isBclEligible": "true",
+          "favorite": "N",
+          "accessTypeBits": "0.0",
+          "isBalanceMasked": "N",
+          "viewAcctHistoryAllowed": "Y",
+          "acctAccessBits": "0.0",
+          "actNo": "308265749",
+          "desc": "Personal Loan",
+          "curBal": {
+            "curr": "R",
+            "amt": "98764.00"
+          },
+          "avblBal": {
+            "curr": "R",
+            "amt": "64278.00"
+          },
+          "typ": "personalLoan",
+          "mkdActNo": "",
+          "curr": "R",
+          "overDraftLimit": {
+            "curr": "R",
+            "amt": "0.00"
+          }
+        },
+        {
+          "isBclEligible": "true",
+          "favorite": "N",
+          "accessTypeBits": "0.0",
+          "isBalanceMasked": "N",
+          "viewAcctHistoryAllowed": "Y",
+          "acctAccessBits": "0.0",
+          "actNo": "434373-USD-3000008097-01",
+          "desc": "S MOFOKENG",
+          "image": null,
+          "curBal": {
+            "curr": "USD",
+            "amt": "12,342.80"
+          },
+          "avblBal": {
+            "curr": "USD",
+            "amt": "8,191.20"
+          },
+          "typ": "cia",
+          "mkdActNo": "0",
+          "curr": "USD",
+          "overDraftLimit": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "unclearedAmount": {
+            "curr": "USD",
+            "amt": "0.00"
+          },
+          "rewardsBalanceRetrieved": false
+        },
+        {
+          "isBclEligible": "true",
+          "favorite": "N",
+          "accessTypeBits": "0.0",
+          "isBalanceMasked": "N",
+          "viewAcctHistoryAllowed": "Y",
+          "acctAccessBits": "0.0",
+          "actNo": "434373-AUD-3000008097-01",
+          "desc": "S SOMEONE",
+          "image": null,
+          "curBal": {
+            "curr": "AUD",
+            "amt": "40,342.80"
+          },
+          "avblBal": {
+            "curr": "AUD",
+            "amt": "39,191.20"
+          },
+          "typ": "cia",
+          "mkdActNo": "0",
+          "curr": "AUD",
+          "overDraftLimit": {
+            "curr": "AUD",
+            "amt": "0.00"
+          },
+          "unclearedAmount": {
+            "curr": "AUD",
+            "amt": "0.00"
+          },
+          "rewardsBalanceRetrieved": false
+        }
+      ],
+      "custProf": {
+        "clientType": "I",
+        "customerType": "E",
+        "hasImage": "N",
+        "imageName": "N6-6Qy43ndfjnQcmVtWq-c63GqDvEWpazFh8L2NqPXI\u003d",
+        "accrtBalDt": "02/08/2017 14:07:50",
+        "custName": "Thabo Lebelo",
+        "lastLgnTm": "2017-08-02",
+        "surePhrase": "Likeleli Moloi",
+        "langCode": "E",
+        "custActsSize": "73",
+        "showRewardsLink": "N",
+        "hasMCL": "false",
+        "authPassNotRegistered": false,
+        "limitsNotSet": "false",
+        "alias": null,
+        "idNoRequired": "true",
+        "secondFactorSnoozed": false,
+        "secondFactorState": 0,
+        "secondFactorDaysLeft": 0,
+        "transactionalUser": true,
+        "numberOfAuthorisations": "0",
+        "mailboxProfileId": "stub",
+        "newMailboxProfileId": false
+      },
+      "accessPrivileges": {
+        "isOperator": "N",
+        "isInterAccountTransferAllowed": "Y",
+        "isBeneficiaryPaymentAllowed": "Y",
+        "isCashSendAllowed": "Y",
+        "isPrepaidAllowed": "Y"
+      },
+      "payLst": [
+        {
+          "imageName": "4ax2J8893pnu-DkU-o3__ghlFQ9m4Go5HixQXKxvzPA\u003d",
+          "hasImage": "N",
+          "tiebNumber": "0",
+          "isFav": "Y",
+          "lastTxnAmt": {
+            "curr": "R",
+            "amt": "500.00"
+          },
+          "lastTxnDate": "",
+          "benNam": "Absa Fund Managers",
+          "benId": "72",
+          "txnTyp": "internal",
+          "image": "",
+          "actNo": "1043100307"
+        },
+        {
+          "imageName": "MV7b3bleqZzppJDi4zyH8qtmHUht98g3OidFIRTimIM\u003d",
+          "hasImage": "N",
+          "tiebNumber": "0",
+          "isFav": "Y",
+          "lastTxnAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "lastTxnDate": "",
+          "benNam": "ABRA KEDAB",
+          "benId": "92",
+          "txnTyp": "business",
+          "image": "",
+          "actNo": ""
+        }
+      ],
+      "passwordDigitList": [
+        {
+          "index": "1",
+          "name": "B34f365e",
+          "value": null
+        },
+        {
+          "index": "2",
+          "name": "bbe0d4a3",
+          "value": null
+        },
+        {
+          "index": "6",
+          "name": "a89ebe41",
+          "value": null
+        }
+      ],
+      "cashSend": [
+        {
+          "imageName": "QQOo1hzNApuniDY9GiIHPRiJF4h4LJYWrLRxtsNqjgI\u003d",
+          "hasImage": "N",
+          "tiebNumber": "0",
+          "isFav": "Y",
+          "lastTxnAmt": {
+            "curr": "R",
+            "amt": "60.00"
+          },
+          "lastTxnDate": "",
+          "benNam": "Salim",
+          "benId": "37",
+          "txnTyp": "cashsend",
+          "image": "",
+          "actNo": "749259264"
+        },
+        {
+          "imageName": "kqHZ6Nlm9iu0bY5-VmBF1fNMh9dwi684px2fJuGCHY0\u003d",
+          "hasImage": "N",
+          "tiebNumber": "0",
+          "isFav": "Y",
+          "lastTxnAmt": {
+            "curr": "R",
+            "amt": "80.00"
+          },
+          "lastTxnDate": "",
+          "benNam": "Salim",
+          "benId": "38",
+          "txnTyp": "cashsend",
+          "image": "",
+          "actNo": "749255555"
+        }
+      ],
+      "passwordLength": "9",
+      "airTime": [
+        {
+          "imageName": "Q_rx-itPtspeOJRVFuV4p2jDJ34hK_A1Mqm0BxxlqUw\u003d",
+          "hasImage": "N",
+          "tiebNumber": "0",
+          "isFav": "Y",
+          "lastTxnAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "lastTxnDate": "",
+          "benNam": "Newmm",
+          "benId": "25",
+          "txnTyp": "prepaid",
+          "image": "",
+          "actNo": "0731110005"
+        },
+        {
+          "imageName": "IW4m_7MN5GA_wifNIz_UsBj9a8I_qzIMLpZrAFH57Wc\u003d",
+          "hasImage": "N",
+          "tiebNumber": "0",
+          "isFav": "Y",
+          "lastTxnAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "lastTxnDate": "",
+          "benNam": "testMtn",
+          "benId": "26",
+          "txnTyp": "prepaid",
+          "image": "",
+          "actNo": "0731110006"
+        },
+        {
+          "imageName": "NVXJhoVoqXBqj-NTY5lZdjvRJ8WeETnEl6YaC46ke90\u003d",
+          "hasImage": "N",
+          "tiebNumber": "0",
+          "isFav": "Y",
+          "lastTxnAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "lastTxnDate": "",
+          "benNam": "Test",
+          "benId": "27",
+          "txnTyp": "prepaid",
+          "image": "",
+          "actNo": "0748562345"
+        }
+      ],
+      "acctTnsfer": {
+        "ftFrmActLst": [],
+        "ftToActLst": []
+      },
+      "hasProfileSetup": "Y",
+      "backgroundImage": "4",
+      "imageName": "N6-6Qy43ndfjnQcmVtWq-c63GqDvEWpazFh8L2NqPXI\u003d"
+    }
+  }
+}

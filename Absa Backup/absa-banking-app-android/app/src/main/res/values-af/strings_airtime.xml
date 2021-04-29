@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="for_new_beneficiary">Vir nuwe begunstigde</string>
+    <string name="with_absa_rewards">Met Absa Rewards</string>
+    <string name="recent_paid_beneficiaries">Betaalde begunstigdes</string>
+
+    <!-- new beneficiary strings -->
+    <string name="airtime_mobile_number_header">Selfoonnommer</string>
+    <string name="airtime_mobile_number_hint">Voer selfoonnommer in</string>
+    <string name="airtime_beneficiary_name_header">Naam</string>
+    <string name="airtime_beneficiary_name_hint">Voer begunstigde se naam in</string>
+    <string name="airtime_mobile_select_number">Kies nommer</string>
+    <string name="airtime_mobile_network_operator_header">Selfoonnetwerkoperateur</string>
+    <string name="airtime_mobile_network_operator_hint">Kies selfoonnetwerkoperateur</string>
+
+    <!-- mobile network strings -->
+    <string name="airtime_mobile_network_vodacom">Vodacom</string>
+    <string name="airtime_mobile_network_mtn">MTN</string>
+    <string name="airtime_mobile_network_cellc">Cell C</string>
+    <string name="airtime_mobile_network_telkom">Telkom Mobile</string>
+    <string name="airtime_mobile_network_virgin">Virgin Mobile</string>
+    <string name="airtime_mobile_network_error">Ten minste een keuse word vereis</string>
+
+    <!-- purchase details strings -->
+    <string name="airtime_mobile_prepaid_type_header">Voorafbetaalde tipe</string>
+    <string name="airtime_mobile_prepaid_type_hint">Kies voorafbetaalde tipe</string>
+    <string name="airtime_mobile_prepaid_amount_header">Bedrag</string>
+    <string name="airtime_select_account_to_purchase_from">Kies rekening </string>
+    <string name="airtime_mobile_prepaid_amount_hint">Kies voorafbetaalde bedrag</string>
+    <string name="airtime_mobile_prepaid_from_account_header">Van rekening</string>
+    <string name="airtime_mobile_prepaid_from_account_hint">Kies rekening</string>
+    <string name="airtime_mobile_prepaid_legal_text">Neem kennis dat Absa nie aanspreeklik gehou kan word as jy die verkeerde diensverskaffer kies nie. Voorafbetaalde aankoop is onomkeerbaar.</string>
+
+    <!-- purchase details overview strings -->
+    <string name="airtime_beneficiary_details_header">Begunstigde besonderhede</string>
+    <string name="airtime_beneficiary_name_label">Naam</string>
+    <string name="airtime_beneficiary_phone_number_label">Selfoonnommer</string>
+    <string name="airtime_beneficiary_provider_label">Selfoonnetwerkoperateur</string>
+    <string name="airtime_purchase_amount_label">Aankoop bedrag</string>
+    <string name="airtime_prepaid_type_label">Voorafbetaalde tipe</string>
+    <string name="airtime_from_account_label">Van rekening</string>
+
+    <!-- buy airtime with rewards strings -->
+    <string name="prepaid_purchase_details">Aankoop besonderhede</string>
+    <string name="prepaid_cash_rewards_available">Absa kontantbelonings beskikbaar</string>
+    <string name="prepaid_mobile_number">Selfoonnommer</string>
+    <string name="prepaid_enter_mobile_number">Voer selfoonnommer in</string>
+    <string name="prepaid_mobile_network_operator">Selfoonnetwerkoperateur</string>
+    <string name="prepaid_select_network_operator">Kies selfoonnetwerkoperateur</string>
+    <string name="prepaid_voucher">Koopbewys</string>
+    <string name="prepaid_select_voucher">Kies koopbewys</string>
+    <string name="prepaid_buy">Koop</string>
+    <string name="prepaid_from_account">Van Rekening</string>
+    <string name="prepaid_confirm_purchase">Bevestig transaksie</string>
+    <string name="prepaid_you_are_buying_a">Jy koop \'n</string>
+
+    <string name="airtime_buy_prepaid">Koop Voorafbetaald</string>
+    <string name="existing_bundle_error_message">Hierdie nommer is reeds ingeteken op die produk. Kontak asseblief jou netwerkdiensverskaffer vir meer inligting.</string>
+</resources>

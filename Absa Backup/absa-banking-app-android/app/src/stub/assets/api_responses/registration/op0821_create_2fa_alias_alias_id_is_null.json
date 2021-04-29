@@ -1,0 +1,16 @@
+{
+  "successResponseModel" : {
+    "payData" : {
+      "retries" : 0,
+      "txnStatus" : "Failure",
+      "txnMessage" : "AliasId is null: Exception Msg: AliasId is null",
+      "accountOnHold" : false
+    },
+    "payHdr" : {
+      "resCde" : "00000",
+      "serVer" : "2.0",
+      "resMsg" : "Success",
+      "resId" : "RES0812"
+    }
+  }
+}

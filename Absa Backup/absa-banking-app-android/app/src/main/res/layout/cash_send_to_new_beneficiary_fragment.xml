@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scrollView"
+    style="@style/ScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <styleguide.forms.EditBeneficiaryInputView
+            android:id="@+id/nameEditBeneficiaryInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:inputType="textCapSentences"
+            android:maxLength="20"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:attribute_editable="true"
+            app:attribute_hint_text="@string/cash_send_enter_beneficiary_name"
+            app:attribute_title_text="@string/cash_send_beneficiary_name" />
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/surnameInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:inputType="textCapSentences"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/nameEditBeneficiaryInputView"
+            android:maxLength="20"
+            app:attribute_editable="true"
+            app:attribute_hint_text="@string/cash_send_enter_beneficiary_surname"
+            app:attribute_title_text="@string/cash_send_beneficiary_surname" />
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/numberInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/small_space"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/surnameInputView"
+            android:digits="0123456789 "
+            android:inputType="phone"
+            app:attribute_editable="true"
+            app:attribute_hint_text="@string/cash_send_enter_beneficiary_mobile_number"
+            app:attribute_mask="### ### ####"
+            app:attribute_selector_type="CONTACT"
+            app:attribute_title_text="@string/cash_send_beneficiary_mobile_number" />
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/myReferenceInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:digits="@string/allowed_reference_digits"
+            android:maxLength="20"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/numberInputView"
+            app:attribute_editable="true"
+            app:attribute_hint_text="@string/enter_ur_ref"
+            app:attribute_title_text="@string/my_reference" />
+
+        <Button
+            android:id="@+id/nextButton"
+            style="@style/PrimaryButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/next"
+            app:layout_constraintVertical_bias="1"
+            app:layout_constraintTop_toBottomOf="@id/myReferenceInputView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

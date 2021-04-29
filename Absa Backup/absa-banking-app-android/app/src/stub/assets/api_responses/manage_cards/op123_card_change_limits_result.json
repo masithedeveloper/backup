@@ -1,0 +1,24 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0123",
+      "resCde": "00000",
+      "resMsg": "Your limits have been updated",
+      "serVer": "2.0"
+    },
+    "payData": {
+      "cardNumber": "4483850000042172",
+      "atmLimit": {
+        "curr": "R",
+        "amt": "100"
+      },
+      "posLimit": {
+        "curr": "R",
+        "amt": "100"
+      },
+      "cardType": "Debit",
+      "txnMsg": "Your limits have been updated",
+      "txnStatus": "SUCCESS"
+    }
+  }
+}

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        style="@style/ScrollView">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <styleguide.content.TitleAndDescriptionView
+                android:id="@+id/great_text_view"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_description="@string/new_to_bank_we_need_a_photograph_of_a_proof"
+                app:attribute_title="@string/new_to_bank_great"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:id="@+id/line_divider1_view"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_1sdp"
+                android:layout_marginStart="@dimen/medium_space"
+                android:layout_marginTop="@dimen/medium_space"
+                android:layout_marginEnd="@dimen/medium_space"
+                android:layout_marginBottom="@dimen/tiny_space"
+                android:background="@color/grey"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/great_text_view" />
+
+            <TextView
+                android:id="@+id/show_accepted_documents_text_view"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/medium_space"
+                android:layout_marginTop="@dimen/medium_space"
+                android:layout_marginEnd="@dimen/medium_space"
+                android:text="@string/new_to_bank_show_accepted_documents"
+                android:textColor="@color/dark_grey_light_theme_text_color"
+                android:textSize="@dimen/large_text_size"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/line_divider1_view" />
+
+            <View
+                android:id="@+id/line_divider2_view"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_1sdp"
+                android:layout_marginStart="@dimen/medium_space"
+                android:layout_marginTop="@dimen/medium_space"
+                android:layout_marginEnd="@dimen/medium_space"
+                android:layout_marginBottom="@dimen/tiny_space"
+                android:background="@color/grey"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/show_accepted_documents_text_view" />
+
+            <ImageView
+                android:id="@+id/tick1_image_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/medium_space"
+                android:layout_marginTop="@dimen/medium_space"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/line_divider2_view"
+                app:srcCompat="@drawable/ic_tick_black" />
+
+            <TextView
+                android:id="@+id/information_text_view"
+                style="@style/new_to_bank_copy"
+                android:text="@string/new_to_bank_i_agree_to_sharing_my_information"
+                android:textColor="@color/grey_light_theme_color"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/tick1_image_view"
+                app:layout_constraintTop_toBottomOf="@id/line_divider2_view" />
+
+            <ImageView
+                android:id="@+id/tick2_image_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/medium_space"
+                android:layout_marginTop="@dimen/medium_space"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/information_text_view"
+                app:srcCompat="@drawable/ic_tick_black" />
+
+            <TextView
+                android:id="@+id/personal_client_agreement_text_view"
+                style="@style/new_to_bank_copy"
+                android:text="@string/new_to_bank_i_agree_to_terms_and_conditions"
+                android:textColor="@color/grey_light_theme_color"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/tick1_image_view"
+                app:layout_constraintTop_toBottomOf="@id/information_text_view" />
+
+            <ImageView
+                android:id="@+id/tick3_image_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/medium_space"
+                android:layout_marginTop="@dimen/medium_space"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/personal_client_agreement_text_view"
+                app:srcCompat="@drawable/ic_tick_black" />
+
+            <TextView
+                android:id="@+id/permission_text_view"
+                style="@style/new_to_bank_copy"
+                android:text="@string/new_to_bank_i_give_permission_to_absa"
+                android:textColor="@color/grey_light_theme_color"
+                app:layout_constraintBottom_toTopOf="@id/next_button"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/tick1_image_view"
+                app:layout_constraintTop_toBottomOf="@id/personal_client_agreement_text_view"
+                app:layout_constraintVertical_bias="0" />
+
+            <styleguide.buttons.Button
+                android:id="@+id/next_button"
+                style="@style/PrimaryButton"
+                android:text="@string/next"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintVertical_bias="1" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</layout>

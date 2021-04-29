@@ -1,0 +1,202 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0311",
+      "resCde": "00000",
+      "resMsg": "",
+      "serVer": "2.0"
+    },
+    "payData": {
+      "ownNotificationDTO": {
+        "emaillist": [
+          ""
+        ],
+        "cellNolist": [
+          "******4788"
+        ],
+        "faxinfolist": [
+          {
+            "faxCode": "",
+            "faxNumber": ""
+          }
+        ],
+        "actualCellNo": "27825554788"
+      },
+      "benDetl": {
+        "hasImage": "N",
+        "benStatusType": "Active",
+        "uniqueEFT": "800023AF98",
+        "status": "internal",
+        "benNotice": "NO",
+        "myNotice": "NO",
+        "benRecNam": "",
+        "myRecNam": "",
+        "benAcctNumAtInst": "4047926263",
+        "benTyp": "payment",
+        "benImg": "",
+        "benId": "7",
+        "benNo": "-1",
+        "favStarInd": "false",
+        "benNam": "Absa1",
+        "actNo": "4047926263",
+        "bankNam": "ABSA BANK",
+        "branch": "632005",
+        "myRef": "MyRef",
+        "myNoticeTyp": "N",
+        "myNoticeDtl": "",
+        "benRef": "NotAvailable",
+        "actHolder": "ADF MEMBERS",
+        "benNoticeTyp": "N",
+        "benNoticeDtl": "",
+        "branchCd": "632005",
+        "immediatePaymentAllowed": "false",
+        "imageName": "_ALerhJY9-RqykYc6j2Z19szAgp3C7MZ1DuF2DNH1mw\u003d",
+        "tiebNumber": "0"
+      },
+      "txnActvLst": [
+        {
+          "txnStatus": "SUCCESSFUL",
+          "txnPrt": "",
+          "drAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "crAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "suppGrpCode": "",
+          "tariffIndex": "",
+          "receiptNumber": "",
+          "dt": "2017-07-11 15:12:00",
+          "bal": {
+            "curr": "R",
+            "amt": "200.00"
+          },
+          "refNo": "1"
+        },{
+          "txnStatus": "SUCCESSFUL",
+          "txnPrt": "",
+          "drAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "crAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "suppGrpCode": "",
+          "tariffIndex": "",
+          "receiptNumber": "",
+          "dt": "2017-07-11 15:12:00",
+          "bal": {
+            "curr": "R",
+            "amt": "200.00"
+          },
+          "refNo": "1"
+        },{
+          "txnStatus": "SUCCESSFUL",
+          "txnPrt": "",
+          "drAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "crAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "suppGrpCode": "",
+          "tariffIndex": "",
+          "receiptNumber": "",
+          "dt": "2017-07-11 15:12:00",
+          "bal": {
+            "curr": "R",
+            "amt": "200.00"
+          },
+          "refNo": "1"
+        },{
+          "txnStatus": "SUCCESSFUL",
+          "txnPrt": "",
+          "drAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "crAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "suppGrpCode": "",
+          "tariffIndex": "",
+          "receiptNumber": "",
+          "dt": "2017-07-11 15:12:00",
+          "bal": {
+            "curr": "R",
+            "amt": "200.00"
+          },
+          "refNo": "1"
+        },{
+          "txnStatus": "SUCCESSFUL",
+          "txnPrt": "",
+          "drAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "crAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "suppGrpCode": "",
+          "tariffIndex": "",
+          "receiptNumber": "",
+          "dt": "2017-07-11 15:12:00",
+          "bal": {
+            "curr": "R",
+            "amt": "200.00"
+          },
+          "refNo": "1"
+        },{
+          "txnStatus": "SUCCESSFUL",
+          "txnPrt": "",
+          "drAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "crAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "suppGrpCode": "",
+          "tariffIndex": "",
+          "receiptNumber": "",
+          "dt": "2017-07-11 15:12:00",
+          "bal": {
+            "curr": "R",
+            "amt": "200.00"
+          },
+          "refNo": "1"
+        },{
+          "txnStatus": "SUCCESSFUL",
+          "txnPrt": "",
+          "drAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "crAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "suppGrpCode": "",
+          "tariffIndex": "",
+          "receiptNumber": "",
+          "dt": "2017-07-11 15:12:00",
+          "bal": {
+            "curr": "R",
+            "amt": "1765.00"
+          },
+          "refNo": "1"
+        }
+      ],
+      "networkProviderJsonBean": []
+    }
+  }
+}

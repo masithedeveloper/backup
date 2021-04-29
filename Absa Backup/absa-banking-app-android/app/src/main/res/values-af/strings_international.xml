@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="international_banking_menu_item">Internasionale Bankdienste</string>
+    <string name="international_payment_menu_item">Internasionale Betaling</string>
+    <string name="international_banking_activity_title">Internasionale Bankdienste</string>
+    <string name="international_payments_how_does_this_work">Hoe werk dit?</string>
+    <string name="international_payments_pay_someone_new">Betaal iemand nuut</string>
+    <string name="send_money_anywhere_in_the_world_in_three_steps">Stuur geld aan enige iemand in die wêreld met 3 stappe</string>
+    <string name="international_payments_recent_beneficiaries">Onlangste Betaalde Begunstigdes</string>
+
+    <string name="how_does_this_work_step_one_title">Stuur geld aan enige iemand in die wêreld met 3 stappe</string>
+    <string name="how_does_this_work_step_two_title">Skep en betaal ŉ begunstigde</string>
+    <string name="how_does_this_work_step_three_title">Ontvang ŉ geldoorplasingsnommer (MTCN)</string>
+
+    <string name="how_does_this_work_step_three_description">Jy sal die Western Union MTCN (geldoorplasingsverwysingsnommer) binne ŉ uur per SMS ontvang.</string>
+    <string name="how_does_this_work_step_four_description">Stuur hierdie MTCN aan jou begunstigde sodat hulle die fondse kan verruil by \'n Western Union agent naby hulle huidige ligging.</string>
+
+    <string name="how_this_works">Hoe werk dit</string>
+    <string name="international_how_this_works_toolbar">Hoe dit werk</string>
+    <string name="individuals_and_corporations_text">1. Aan individue en nie korporasies nie\n2. Maksimum R30 000 per betaling\n3. Maksimum $8 000 per dag\n4. Minimum van $ 10 per betaling</string>
+    <string name="what_you_need_text">Jou begunstigde se:\n1. Permanente fisiese adres\n2. Volle name soos in hulle ID/paspoort getoon\n3. Huidige ligging</string>
+    <string name="how_does_this_work_step_three_text">Stuur hierdie MTCN aan jou begunstigde sodat hulle die fondse kan verruil by \'n Western Union agent naby hulle huidige ligging.</string>
+    <string name="how_does_this_work_step_two_text">Ontvang \'n geldoorplasingsverwysingsnommer (MTCN)</string>
+    <string name="how_this_works_what_is_a_mtcn">Wat is \'n geldoorplasingsverwysingsnommer (MTCN)?</string>
+    <string name="how_this_works_what_is_a_description">Jy sal \'n bewys van betaling ontvang nadat jy geld gestuur het. Elke bewys van betaling bevat \'n unieke nommer (MTCN). Hierdie nommer is 10 syfers lank en word toegeken aan elke oorplasing wat jy maak. Jou begunstigde het hierdie nommer nodig om die geld te ontvang.</string>
+    <string name="how_this_works_things_to_remember">Wat om te onthou</string>
+    <string name="how_this_works_requires_passport">Jou begunstigde moet die geldoorplasingskontrolenommer en hul ID/paspoort hê om die fondse af te haal.</string>
+    <string name="how_this_works_payments_via_western_union">Betalings is deur Western Union en kan net wees:</string>
+    <string name="how_this_works_what_you_need">Wat jy nodig het</string>
+    <string name="how_this_works_urgent_assistance">Dringende hulp</string>
+    <string name="how_this_works_south_africa">Suid Afrika</string>
+    <string name="how_this_works_international">Internasionaal</string>
+    <string name="international_disclaimer_description">Western Union-betalings sal onder jou enkele diskresionêre toelae van R1 miljoen per jaar gedoen word.\n\nGeen dokumente is nodig nie en die valuta wat jy koop, word onder die Reserwebank se rapporteringskategorie “401 – Geskenk” gerapporteer.</string>
+    <string name="western_union_payment_infomration">Western Union-betalingsinligting</string>
+    <string name="continue_button_international">Gaan voort</string>
+    <string name="i_acknowledge_this_is_an_international_payment">Ek erken dat hierdie \'n geskenkbetaling is.</string>
+    <string name="acknowledge_that_this_is_a_gift_error">Erken asseblief dat hierdie \'n geskenkbetaling is</string>
+    <string name="name_input_view_description">Indien name nie presies soos in ID/paspoort is nie, kan vordering geweier word.</string>
+    <string name="name_input_view_hint">Sleutel voornaam/-name* in.</string>
+    <string name="name_input_view_title">Voorname soos in ID/paspoort</string>
+    <string name="surname_input_view_description">Indien name nie presies soos in ID/paspoort is nie, kan vordering geweier word..</string>
+    <string name="surname_input_view_hint">Sleutel van in</string>
+    <string name="surname_input_view_title">Van soos in ID/paspoort</string>
+    <string name="beneficiary_details_disclaimer_text">SA inwoner, tydelik in die buiteland - Iemand wat oor \'n kort tydperk in die buiteland is (vir vakansie, besigheid, ens.) en sal terugkeer na Suid-Afrika.\n\nNie-inwoner van SA - Iemand wat permanent in die buiteland woon.</string>
+    <string name="beneficiary_details_continue_text">Gaan voort</string>
+    <string name="beneficiary_residential_status">%s se residensiële status</string>
+    <string name="international_payments_personal_info_text">%s Persoonlike Inligting</string>
+    <string name="full_names_as_per_password_text">Volle name soos in ID/paspoort</string>
+    <string name="beneficiary_gender_text">%s se geslag</string>
+    <string name="residential_status_text">%s se residensiële status</string>
+    <string name="confirm_beneficiary_toolbar_text">Bevestig begunstigde se besonderhede</string>
+    <string name="please_enter_beneficiary_names">Voer asseblief die %s se name in</string>
+    <string name="please_enter_beneficiary_surnames">Voer asseblief die %s se van in</string>
+    <string name="please_select_a_gender">Kies asseblief \'n geslag</string>
+    <string name="please_select_a_residential_status">Kies asseblief \'n residensiële status</string>
+    <string name="international_are_you_sure_you_want_to_cancel">Is jy seker jy wil hierdie betaling kanselleer?</string>
+    <string name="enter_beneficiary_address_hint">Sleutel %s se adres in</string>
+    <string name="beneficiary_residential_address_title">%s woonadres</string>
+    <string name="select_destination_country_hint">Kies land van bestemming</string>
+    <string name="destination_country_title">Bestemming land</string>
+    <string name="select_destination_state_hint">Kies bestemmingsstaat</string>
+    <string name="destination_state_title">Bestemmingstaat</string>
+    <string name="select_destination_city_hint">Kies bestemmingsstad</string>
+    <string name="destination_city_title">Bestemming stad</string>
+    <string name="enter_a_security_question_hint">Voer \'n sekuriteitsvraag in</string>
+    <string name="security_question_title">Sekuriteitsvraag</string>
+    <string name="enter_security_answer_hint">Gee \'n antwoord op jou sekuriteitsvraag</string>
+    <string name="enter_security_answer_title">Sekuriteitsantwoord</string>
+    <string name="please_enter_a_valid_address">Voer asseblief \'n adres in</string>
+    <string name="please_select_a_valid_country">Kies asseblief \'n land</string>
+    <string name="please_enter_a_valid_state">Voer asseblief \'n staat in</string>
+    <string name="please_select_a_valid_city">Kies asseblief \'n stad</string>
+    <string name="please_select_a_valid_state">Kies asseblief \'n staat</string>
+    <string name="pelase_enter_a_security_question">Voer asseblief \'n sekuriteitsvraag in</string>
+    <string name="please_enter_a_security_answer">Voer asseblief \'n sekuriteitsantwoord in</string>
+    <string name="please_enter_a_valid_city">Voer asseblief \'n Stad in</string>
+    <string name="international_payment_details_title">Betaling besonderhede</string>
+    <string name="calculate_exchange_rate">Bereken wisselkoers</string>
+
+    <string name="international_payments_amount_to_send">Bedrag om te stuur</string>
+    <string name="international_payments_currency_to_send">Bedrag om te stuur</string>
+    <string name="international_payments_total_amount_due_by_you">Totale bedrag wat deur u verskuldig is</string>
+    <string name="international_payments_total_due_includes">Totale bedrag wat deur jou verskuldig is, sluit BTW en kommissiegeld in.</string>
+    <string name="international_payments_enter_amount">Voer bedrag in</string>
+    <string name="international_payments_exchange_rate">Wisselkoers</string>
+    <string name="international_payments_usd_conversion_rate">VSA dollar omskakelkoers</string>
+    <string name="international_payments_i_have_read_declaration">Ek het die Reserve Bank Verklaring gelees en aanvaar dit</string>
+
+    <string name="international_payments_cancel_title">Is jy seker jy wil kanselleer?</string>
+    <string name="international_payments_continue">Gaan voort</string>
+    <string name="international_payments_go_back">Gaan terug</string>
+
+    <!--Result screens-->
+    <string name="international_payment_result_please_note">Neem asseblief kennis</string>
+    <string name="international_payment_result_payment_unsuccessful">Jou betaling was onsuksesvol</string>
+    <string name="international_payment_result_payment_unsuccessful_joint_account">Jy kan nie internasionale betalings maak deur \'n gesamentlike rekening te gebruik nie. Gebruik asseblief \'n ander rekening om \'n betaling te maak.</string>
+    <string name="international_payment_result_beneficiary_saved">Begunstigde bygevoeg</string>
+    <string name="international_payment_result_beneficiary_not_saved">Begunstigde nie bygevoeg</string>
+    <string name="international_payment_result_payment_processing">Begunstigde gered</string>
+    <string name="international_payment_result_save_beneficiary">Stoor begunstigde</string>
+    <string name="international_payment_save_beneficiary_for_future_payments">Wil jy die begunstigde stoor?</string>
+    <string name="international_payment_save_beneficiary_for_future_payments_description">Ons stoor nie outomaties begunstigdes vir eenmalige betalings nie. Gaan asseblief terug en stoor hierdie begunstigde indien jy die begunstigde weer in die toekoms wil betaal.</string>
+    <string name="international_payment_result_last_payment_pending">Laaste betaling hangende</string>
+    <string name="international_payment_result_payment_notice_times">Transaksiedae (Sentraal-Afrika Tyd) is:\n\nMaandag tot Vrydag\n08:00 - 17:00\n\nSaterdae\n08:00 - 12:00\n\nNie beskikbaar op Sondae en openbare vakansiedae nie.</string>
+    <string name="international_payment_result_payment_beneficiary_details_captured">Begunstigde besonderhede suksesvol gestoor. \nOp %s</string>
+    <string name="international_payment_result_transaction_successfully_submitted">On %1$s\n\nJou transaksie is suksesvol ingedien onder betalingverwysing %2$s. Die bewys van betaling kan op die Absa Online Banking webwerf gesien word. \n\nJy sal die geldoorplasingsverwysingsnommer (MTCN) per SMS binne die uur ontvang. Deel asseblief die MTCN met die begunstigde.\n\nDie begunstigdes kan bestuur word vanaf Absa Online.</string>
+    <string name="international_payment_result_last_payment_pending_description">Jy sal nie \'n ander Western Union-betaling kan maak nie, aangesien jou vorige betaling nog steeds verwerk word. Probeer asseblief weer oor 1 uur.</string>
+
+    <string name="international_payments_confirmation_title">Bevestig betaling?</string>
+    <string name="international_payments_confirmation_message">Jy sal nie hierdie betalingsbesonderhede kan verander as jy voortgaan nie. Wil jy voortgaan?</string>
+    <string name="declaration_text">Deur te aanvaar verklaar ek dat:
+    \n\n•Ek die gebruiksvoorwaardes gelees het en die inhoud daarvan verstaan;
+        \n•Ek het die regulatoriese en voldoeningsvrywaring gelees en verstaan die inhoud daarvan;
+        \n•Ek/Ons bevestig dat geen een van die partye tot hierdie transaksie, die land van oorsprong, die bestemmingsland met betrekking tot goedere/dienste gekoppel kan word aan enige van die lande wat hieronder genoem word nie. In die geval van enige van die lande hieronder genoem, bevestig ek hiermee dat die bank die transaksie, instruksie rekening waarvoor ek aansoek doen mag verbied. Iran, Noord-Korea, Burma/Myanma, Sirië. Soedan (Noord) en Kuba.
+        \n•Die inligting wat hierbo voorsien is, is alle opsigte waar en juis.
+        \n•Die valuta waarvoor aansoek gedoen word, sal net gebruik word vir die spesifieke doel wat hierin vermeld word.
+        \n•Die dokumente wat ter ondersteuning van hierdie aansoek ingedien word, is in alle opsigte outentiek.
+        \n•Ek is ingelig oor die limiet van toepassing op die bogenoemde transaksie en bevestig dat hierdie limiet nie as gevolg van die afhandeling van hierdie transaksie oorskry sal word nie.
+        \n•Ek stem in dat hierdie inligting aan die Suid-Afrikaanse Inkomstediens en/of die Finansiële-intelligensiesentrum voorsien word.
+        \n•Ek bevestig die ondersteunende dokumente vir ŉ tydperk van 5 (vyf) jaar behou sal word vir die doeleindes van inspeksie deur die finansiële ondersoekdepartement van die Suid-Afrikaanse Reserwebank.
+        \n•Ek verstaan dat indien ek NIE die betrokke dokumentêre bewys ter ondersteuning van my betalingsinstruksie binne die gestelde tyd by die bank indien nie, die versoek gekanselleer sal word.
+    </string>
+    <string name="international_payments_confirm_beneficiaries">Bevestig Besonderhede</string>
+    <string name="international_payments_beneficiary_address_information">%s adres besonderhede</string>
+    <string name="international_payments_amount_cannot_be_more_than">Bedrag mag nie meer as %s wees nie. Verminder asseblief die bedrag</string>
+    <string name="international_payments_the_payment_exceeds_your_available_balance">Voer asseblief \'n geldige bedrag in</string>
+    <string name="international_payments_confirm_details">Bevestig besonderhede</string>
+    <string name="international_payments_reserve_bank_error">Lees en aanvaar die Reserwebank verklaring</string>
+    <string name="international_payments_recently_paid_beneficiaries">Onlangs betaalde begunstigdes</string>
+    <string name="international_payments_minimum_amount_error">Die bedrag kan nie minder as %s wees nie. Verhoog asseblief die bedrag.</string>
+    <string name="international_payments_maximum_amount_error">Bedrag kan nie meer as %s wees nie. Verminder asseblief die bedrag.</string>
+    <string name="international_payments_beneficiary_details">Begunstigde besonderhede</string>
+
+    <string name="how_does_this_work_step_four_title">Stuur die geldoorplasingsnommer</string>
+    <string name="how_does_this_work_step_one_description">Daar is geen dokumente nodig nie, en met meer as 500 000 Agente wêreldwyd in meer as 200 lande en gebiede, was dit nog nooit makliker om geld aan iemand internasionaal te stuur nie.</string>
+    <string name="how_does_this_work_step_two_description">Dit is baie maklik om \'n begunstigde te skep en die betalingsproses te voltooi</string>
+    <string name="how_does_this_work_step_one_text">Skep en betaal \'n begunstigde</string>
+    <string name="international_payments_declaration_hyperlink">Reserve Bank Verklaring</string>
+    <string name="international_payments_cancel_message">Indien jy kanselleer sal al die inligting verlore gaan en jy sal die proses van voor af moet begin.</string>
+    <string name="international_payments_enter_an_amount">Voer asseblief \'n bedrag in</string>
+    <string name="western_union_once_off_payment">Oor hierdie eenmalige betaling</string>
+    <string name="western_union_once_off_payments_body">Jy sal nie weer hierdie ontvanger kan betaal as jy nie \'n begunstigde skep nie. Wil jy nog steeds voortgaan?</string>
+    <string name="international_payments_once_off_payment">Eenmalige betaling</string>
+    <string name="international_payments_unable_to_calculate_amount">Kon nie totale bedrag bereken nie</string>
+    <string name="international_payments_unable_to_calculate_extended_description">Ons kon nie hierdie berekening voltooi op die oomblik nie. Probeer asseblief later weer.</string>
+    <string name="international_payments_unable_to_calculate_description">Ons kon nie hierdie berekening voltooi nie. Probeer asseblief weer.</string>
+    <string name="international_payments_transfer_limit">Die bedrag is meer as jou daaglikse betalingslimiet. Indien jy voorgaan sal ons jou limiet verhoog. Jy kan altyd later weer die limiet terug verander.</string>
+    <string name="international_payments_transfer_limit_heading">Verander daaglikse betalingslimiet?</string>
+    <string name="international_payments_payment_unsuccessful">Jou betaling was onsuksesvol</string>
+    <string name="international_payments_fica_error">Jy voldoen nie aan die FIS vereistes nie. Gebruik asseblief ŉ geverifieerde FIS rekening om internasionale betalings te maak.</string>
+
+    <string name="international_payments_recipient">Ontvanger</string>
+    <string name="international_payments_beneficiary">Begunstigde</string>
+    <string name="international_payments_recipients">ontvanger</string>
+    <string name="international_payments_beneficiaries">begunstigde</string>
+
+    <string name="international_payments_toolbar">%s besonderhede</string>
+    <string name="international_beneficiary_address">%s Adres</string>
+    <string name="international_payments_city">%s Stad</string>
+    <string name="international_payments_state">%s Staat</string>
+    <string name="international_payments_country">%s Land</string>
+    <string name="international_payment_details_beneficiary_receives">%s ontvang</string>
+
+    <string name="international_payment_result_transaction_successfully_string_to_make_bold">Jy sal die geldoorplasingsverwysingsnommer (MTCN) per SMS binne die uur ontvang. Deel asseblief die MTCN met die begunstigde.</string>
+    <string name="international_payment_result_transaction_successfully_submitted_with_security_question">On %1$s\n\nJou transaksie is suksesvol ingedien onder betalingverwysing %2$s. Die bewys van betaling kan op die Absa Online Banking webwerf gesien word.\n\nJy sal die geldoorplasingsverwysingsnommer (MTCN) per SMS binne die uur ontvang. Stuur asseblief die MTCN en die sekuritietsvrae en antwoord na die begunstigde.\n\nDie begunstigdes kan bestuur word vanaf Absa Online.</string>
+    <string name="international_payment_result_transaction_successfully_submitted_with_security_question_text_to_bold">Jy sal die geldoorplasingsverwysingsnommer (MTCN) per SMS binne die uur ontvang. Stuur asseblief die MTCN en die sekuritietsvrae en antwoord na die begunstigde.</string>
+    <string name="international_payments_you_have_no_beneficiaries">Jy het geen begunstigdes nie.</string>
+    <string name="international_try_again">Probeer weer</string>
+    <string name="international_payments_you_cannot_continue">Jy kan nie voort gaan met die betaling nie</string>
+    <string name="international_payments_currency_not_supported">Geldeenheid word nie ondersteun nie, kies asseblief ŉ ander geldeenheid</string>
+
+    <string name="international_payments_swift_english_only_notice">Hierdie funksie is tans slegs in Engels beskikbaar as gevolg van regulatoriese en verslagdoeningsdoeleindes. Ons vra om verskoning vir enige ongerief.</string>
+    <string name="western_union_payout_currency_title">Uitbetalingsgeldeenheid</string>
+
+    <string name="western_union_send_currency_description">Die geldeenheid wat jy aan die begunstigde wil stuur</string>
+    <string name="western_union_payout_currency_description">Die geldeenheid waarin jy die begunstigde wil betaal</string>
+</resources>

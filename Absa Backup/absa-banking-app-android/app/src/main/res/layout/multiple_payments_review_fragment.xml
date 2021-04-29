@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    style="@style/ScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <styleguide.content.SecondaryContentAndLabelView
+            android:id="@+id/alertTitleSecondaryContentAndLabelView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/red"
+            app:attribute_secondary_label="@string/payments_review_alerts"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:attribute_secondary_content="You have 3 alerts below" />
+
+        <LinearLayout
+            android:id="@+id/alertsLinearLayout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/normal_space"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/alertTitleSecondaryContentAndLabelView" />
+
+        <androidx.constraintlayout.widget.Group
+            android:id="@+id/normalPaymentsGroup"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:constraint_referenced_ids="normalPaymentsTextView, normalPaymentsDividerView, normalPaymentsLinearLayout" />
+
+        <TextView
+            android:id="@+id/normalPaymentsTextView"
+            style="@style/LargeTextMediumDark"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/medium_space"
+            android:paddingStart="@dimen/medium_space"
+            android:paddingTop="@dimen/small_space"
+            android:paddingEnd="@dimen/medium_space"
+            android:paddingBottom="@dimen/small_space"
+            android:text="@string/normal_payments"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/alertsLinearLayout"
+            tools:text="Normal Payments " />
+
+        <View
+            android:id="@+id/normalPaymentsDividerView"
+            style="@style/DividerView"
+            android:layout_width="0dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/normalPaymentsTextView" />
+
+        <LinearLayout
+            android:id="@+id/normalPaymentsLinearLayout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/normalPaymentsDividerView" />
+
+        <androidx.constraintlayout.widget.Group
+            android:id="@+id/immediatePaymentsGroup"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:constraint_referenced_ids="immediatePaymentsTextView, immediatePaymentsDividerView, immediatePaymentsLinearLayout" />
+
+        <TextView
+            android:id="@+id/immediatePaymentsTextView"
+            style="@style/LargeTextMediumDark"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/medium_space"
+            android:paddingTop="@dimen/small_space"
+            android:paddingEnd="@dimen/medium_space"
+            android:paddingBottom="@dimen/small_space"
+            android:text="@string/iip_header"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/normalPaymentsLinearLayout"
+            app:layout_goneMarginTop="@dimen/medium_space" />
+
+        <View
+            android:id="@+id/immediatePaymentsDividerView"
+            style="@style/DividerView"
+            android:layout_width="0dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/immediatePaymentsTextView" />
+
+        <LinearLayout
+            android:id="@+id/immediatePaymentsLinearLayout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/immediatePaymentsDividerView" />
+
+        <androidx.constraintlayout.widget.Group
+            android:id="@+id/futureDatedPaymentsGroup"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:constraint_referenced_ids="futureDatedPaymentsTextView, futureDatedPaymentsDividerView, futureDatedPaymentsLinearLayout " />
+
+        <TextView
+            android:id="@+id/futureDatedPaymentsTextView"
+            style="@style/LargeTextMediumDark"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/medium_space"
+            android:paddingTop="@dimen/small_space"
+            android:paddingEnd="@dimen/medium_space"
+            android:paddingBottom="@dimen/small_space"
+            android:text="@string/future_dated_payments"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/immediatePaymentsLinearLayout"
+            app:layout_goneMarginTop="@dimen/medium_space" />
+
+        <View
+            android:id="@+id/futureDatedPaymentsDividerView"
+            style="@style/DividerView"
+            android:layout_width="0dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/futureDatedPaymentsTextView" />
+
+        <LinearLayout
+            android:id="@+id/futureDatedPaymentsLinearLayout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/futureDatedPaymentsDividerView" />
+
+        <View
+            android:id="@+id/endDividerView"
+            style="@style/DividerView"
+            android:layout_width="0dp"
+            android:layout_marginTop="@dimen/medium_space"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/futureDatedPaymentsLinearLayout" />
+
+        <styleguide.content.TitleAndDescriptionView
+            android:id="@+id/totalAmountTitleAndDescriptionView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_description="@string/total_payment_amount"
+            app:attribute_description_size="@dimen/small_text_size"
+            app:attribute_title_size="@dimen/large_text_size"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/endDividerView" />
+
+        <styleguide.content.SecondaryContentAndLabelView
+            android:id="@+id/fromAccountSecondaryContentAndLabelView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_secondary_label="@string/from_account_rebuild"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/totalAmountTitleAndDescriptionView" />
+
+        <styleguide.buttons.Button
+            android:id="@+id/cancelButton"
+            style="@style/SecondaryButton"
+            android:layout_marginTop="@dimen/small_space"
+            android:text="@string/cancel"
+            app:layout_constraintBottom_toTopOf="@id/continueButton"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/fromAccountSecondaryContentAndLabelView"
+            app:layout_constraintVertical_bias="1" />
+
+        <styleguide.buttons.Button
+            android:id="@+id/continueButton"
+            style="@style/PrimaryButton"
+            android:text="@string/continue_button"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
+

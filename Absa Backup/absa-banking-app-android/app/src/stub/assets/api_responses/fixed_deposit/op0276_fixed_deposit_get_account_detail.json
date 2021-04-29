@@ -1,0 +1,48 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES2076",
+      "resCde": "00000",
+      "resMsg": "Success",
+      "serVer": "2.0",
+      "expTrace": null
+    },
+    "payData": {
+      "interestPaymentInstDTO": {
+        "cifKey": "GROBLBM001",
+        "trgAccount": "000000000000004048037891",
+        "trgAccountType": "CQ",
+        "trgClrCode": "632005",
+        "trgInstCode": "ABSA BANK",
+        "trgStmtRef": "fixed",
+        "intExtBenInd": "I",
+        "tieb": "0",
+        "freq": "INT",
+        "amount": "0",
+        "srcAcc": "000000000000002049687796",
+        "payday": "0"
+      },
+      "fixedDeposit": {
+        "productCode": "03040",
+        "accountNumber": "2049687796",
+        "accountType": "termDeposit",
+        "description": "FIXED DEPOSITS",
+        "term": "122",
+        "dateOpened": "2020-03-30",
+        "subAccountBalance": "0",
+        "currentInterestRate": "3.73",
+        "accruedInterest": "2.45",
+        "bonusRate": "0",
+        "accruedBonus": "0",
+        "maturityDate": "2020-07-30",
+        "nextCapDate": "2020-04-30",
+        "capFrequency": "MONTHLY",
+        "postDatedTrans": "0",
+        "amountCeded": "0",
+        "accountStatus": "MATURED"
+      },
+      "txnStatus": "Success",
+      "txnMessage": "Success"
+    }
+  }
+}

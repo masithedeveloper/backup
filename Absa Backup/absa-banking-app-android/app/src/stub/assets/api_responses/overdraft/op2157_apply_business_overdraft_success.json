@@ -1,0 +1,16 @@
+{
+  "successResponseModel": {
+    "payData": {
+      "bcmsReferenceNumberForBB": "BBODN1587643567271",
+      "txnStatus": "Success",
+      "txnMessage": "Success"
+    },
+    "payHdr": {
+      "resCde": "00000",
+      "resMsg": "Success",
+      "resId": "RES2157",
+      "expTrace": null,
+      "serVer": "2.0"
+    }
+  }
+}

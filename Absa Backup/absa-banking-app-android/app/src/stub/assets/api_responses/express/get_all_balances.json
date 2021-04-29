@@ -1,0 +1,393 @@
+{
+  "header": {
+    "statuscode": "0",
+    "userAgent": "ANDROID",
+    "jsessionid": "jGqSpuERtbEYVYEEg4FcZxS88XP5735AjFvbF8gY",
+    "esessionid": "64770ff3-d061-3e92-9be1-0be171f2ee58",
+    "service": "BalanceEnquiryFacade",
+    "operation": "GetAllBalances",
+    "channel": "S",
+    "timestamp": "2020-03-20 10:03:38.006",
+    "sourceip": "22.240.44.100",
+    "accessAccount": "4047510559",
+    "userNumber": "1",
+    "nonce": "fWS_PUvXRTDYPGmoWaz7NTvuV7c3z8-yU5j65iE_Y7g",
+    "language": "en",
+    "organization": "ABSA",
+    "brand": "ABSA",
+    "resultMessages": [],
+    "paginationContext": {
+      "moreToCome": false,
+      "batchSize": 9999,
+      "batchSizeLimit": 9999,
+      "recordIdentity": "0",
+      "totalNoOfRecords": 17
+    }
+  },
+  "accountList": [
+    {
+      "number": "4550276002626010",
+      "name": "Credit card account",
+      "uncleared": "0.00",
+      "available": "0.00",
+      "balance": "0.00",
+      "accountType": "CreditCard",
+      "accountActionsAllowedList": [
+        "DR",
+        "CR",
+        "BAL",
+        "STMT",
+        "ACC_INF",
+        "BILL_PMT",
+        "OWN_DEF",
+        "ARCH_STMT",
+        "UPD_CIF",
+        "STOP_DO"
+      ]
+    },
+    {
+      "number": "190904004771",
+      "name": "Absa Rewards",
+      "uncleared": "",
+      "available": "38517",
+      "balance": "38517",
+      "accountType": "ABSARewards",
+      "accountActionsAllowedList": [
+        "REDEEM",
+        "HIST",
+        "SUMMARY"
+      ]
+    },
+    {
+      "number": "4047510559",
+      "name": "Current account",
+      "uncleared": "0.00",
+      "available": "900099593669.06",
+      "balance": "900099593669.06",
+      "accountType": "Current",
+      "accountActionsAllowedList": [
+        "DR",
+        "CR",
+        "BAL",
+        "STMT",
+        "ACC_INF",
+        "BILL_PMT",
+        "OWN_DEF",
+        "RECUR_PMT",
+        "STOP_PMT",
+        "PREPD",
+        "OVRDRFT",
+        "ARCH_STMT",
+        "UPD_CIF",
+        "CSHSND",
+        "STOP_DO"
+      ]
+    },
+    {
+      "number": "9050097404",
+      "name": "Savings account",
+      "uncleared": "0.00",
+      "available": "0.00",
+      "balance": "0.00",
+      "accountType": "Savings",
+      "accountActionsAllowedList": [
+        "DR",
+        "CR",
+        "BAL",
+        "STMT",
+        "ACC_INF",
+        "BILL_PMT",
+        "OWN_DEF",
+        "RECUR_PMT",
+        "PREPD",
+        "ARCH_STMT",
+        "UPD_CIF",
+        "CSHSND",
+        "STOP_DO"
+      ]
+    },
+    {
+      "number": "9050098719",
+      "name": "Savings account",
+      "uncleared": "0.00",
+      "available": "8962.05",
+      "balance": "9012.05",
+      "accountType": "Savings",
+      "accountActionsAllowedList": [
+        "DR",
+        "CR",
+        "BAL",
+        "STMT",
+        "ACC_INF",
+        "BILL_PMT",
+        "OWN_DEF",
+        "RECUR_PMT",
+        "PREPD",
+        "ARCH_STMT",
+        "UPD_CIF",
+        "CSHSND",
+        "STOP_DO"
+      ]
+    },
+    {
+      "number": "4550276002626028",
+      "name": "Credit card account",
+      "uncleared": "0.00",
+      "available": "49355.98",
+      "balance": "47355.98",
+      "accountType": "CreditCard",
+      "accountActionsAllowedList": [
+        "DR",
+        "CR",
+        "BAL",
+        "STMT",
+        "ACC_INF",
+        "BILL_PMT",
+        "OWN_DEF",
+        "ARCH_STMT",
+        "UPD_CIF",
+        "STOP_DO"
+      ]
+    },
+    {
+      "number": "2049484265",
+      "name": "Term deposit",
+      "uncleared": "0.00",
+      "available": "71437.77",
+      "balance": "71437.77",
+      "accountType": "TermDeposit",
+      "accountActionsAllowedList": [
+        "DR",
+        "BAL",
+        "STMT",
+        "ACC_INF",
+        "ARCH_STMT",
+        "UPD_CIF",
+        "STOP_DO"
+      ]
+    },
+    {
+      "number": "4550270022265016",
+      "name": "Credit card account",
+      "uncleared": "0.00",
+      "available": "49355.98",
+      "balance": "47355.98",
+      "accountType": "CreditCard",
+      "accountActionsAllowedList": [
+        "DR",
+        "CR",
+        "BAL",
+        "STMT",
+        "ACC_INF",
+        "BILL_PMT",
+        "OWN_DEF",
+        "ARCH_STMT",
+        "UPD_CIF",
+        "STOP_DO"
+      ]
+    },
+    {
+      "number": "9050097399",
+      "name": "SAVINGS ACCOUNT",
+      "uncleared": "0.00",
+      "available": "17313.31",
+      "balance": "17363.31",
+      "accountType": "Savings",
+      "accountActionsAllowedList": [
+        "DR",
+        "CR",
+        "BAL",
+        "STMT",
+        "ACC_INF",
+        "BILL_PMT",
+        "OWN_DEF",
+        "RECUR_PMT",
+        "PREPD",
+        "ARCH_STMT",
+        "UPD_CIF",
+        "CSHSND",
+        "STOP_DO"
+      ]
+    },
+    {
+      "number": "5001372504",
+      "name": "AVAF Loan account",
+      "uncleared": "0.00",
+      "available": "0.0",
+      "balance": "-47355.98",
+      "accountType": "AVAF",
+      "accountActionsAllowedList": [
+        "DR",
+        "CR",
+        "BAL",
+        "STMT",
+        "ACC_INF",
+        "BILL_PMT",
+        "OWN_DEF",
+        "ARCH_STMT",
+        "UPD_CIF",
+        "STOP_DO"
+      ]
+    },
+    {
+      "number": "2049680443",
+      "name": "TestACC",
+      "uncleared": "0.00",
+      "available": "0.00",
+      "balance": "1000.00",
+      "accountType": "TermDeposit",
+      "accountActionsAllowedList": [
+        "DR",
+        "BAL",
+        "STMT",
+        "ACC_INF",
+        "ARCH_STMT",
+        "UPD_CIF",
+        "STOP_DO"
+      ]
+    },
+    {
+      "number": "2049680728",
+      "name": "Dond",
+      "uncleared": "0.00",
+      "available": "1000.00",
+      "balance": "1000.00",
+      "accountType": "TermDeposit",
+      "accountActionsAllowedList": [
+        "DR",
+        "BAL",
+        "STMT",
+        "ACC_INF",
+        "ARCH_STMT",
+        "UPD_CIF",
+        "STOP_DO"
+      ]
+    },
+    {
+      "number": "2049680867",
+      "name": "T",
+      "uncleared": "0.00",
+      "available": "0.00",
+      "balance": "1035.20",
+      "accountType": "TermDeposit",
+      "accountActionsAllowedList": [
+        "DR",
+        "BAL",
+        "STMT",
+        "ACC_INF",
+        "ARCH_STMT",
+        "UPD_CIF",
+        "STOP_DO"
+      ]
+    },
+    {
+      "number": "2049681952",
+      "name": "Ttttreeeeeee",
+      "uncleared": "0.00",
+      "available": "0.00",
+      "balance": "1033.18",
+      "accountType": "TermDeposit",
+      "accountActionsAllowedList": [
+        "DR",
+        "BAL",
+        "STMT",
+        "ACC_INF",
+        "ARCH_STMT",
+        "UPD_CIF",
+        "STOP_DO"
+      ]
+    },
+    {
+      "number": "2049684112",
+      "name": "Nice Account",
+      "uncleared": "0.00",
+      "available": "0.00",
+      "balance": "5017.37",
+      "accountType": "TermDeposit",
+      "accountActionsAllowedList": [
+        "DR",
+        "BAL",
+        "STMT",
+        "ACC_INF",
+        "ARCH_STMT",
+        "UPD_CIF",
+        "STOP_DO"
+      ]
+    },
+    {
+      "number": "2049686415",
+      "name": "Fixed Deposit N",
+      "uncleared": "0.00",
+      "available": "5028.68",
+      "balance": "5028.68",
+      "accountType": "TermDeposit",
+      "accountActionsAllowedList": [
+        "DR",
+        "BAL",
+        "STMT",
+        "ACC_INF",
+        "ARCH_STMT",
+        "UPD_CIF",
+        "STOP_DO"
+      ]
+    },
+    {
+      "number": "2049687039",
+      "name": "Fixed Deposit 5",
+      "uncleared": "0.00",
+      "available": "0.00",
+      "balance": "5000.00",
+      "accountType": "TermDeposit",
+      "accountActionsAllowedList": [
+        "DR",
+        "BAL",
+        "STMT",
+        "ACC_INF",
+        "ARCH_STMT",
+        "UPD_CIF",
+        "STOP_DO"
+      ]
+    },
+    {
+      "number": "2049687128",
+      "name": "Fixed Deposit 9",
+      "uncleared": "0.00",
+      "available": "5024.57",
+      "balance": "5024.57",
+      "accountType": "TermDeposit",
+      "accountActionsAllowedList": [
+        "DR",
+        "BAL",
+        "STMT",
+        "ACC_INF",
+        "ARCH_STMT",
+        "UPD_CIF",
+        "STOP_DO"
+      ]
+    },
+    {
+      "number": "9051258429",
+      "name": "FlexiT",
+      "uncleared": "0.00",
+      "available": "35.29",
+      "balance": "85.29",
+      "accountType": "Savings",
+      "accountActionsAllowedList": [
+        "DR",
+        "CR",
+        "BAL",
+        "STMT",
+        "ACC_INF",
+        "BILL_PMT",
+        "OWN_DEF",
+        "RECUR_PMT",
+        "PREPD",
+        "ARCH_STMT",
+        "UPD_CIF",
+        "CSHSND",
+        "STOP_DO"
+      ]
+    }
+  ],
+  "clientAgreementAccepted": true
+}

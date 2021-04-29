@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="sure_check_contact_support_image">32dp</dimen>
+    <dimen name="sure_check_countdown_count_down_text_size">21sp</dimen>
+    <dimen name="sure_check_countdown_seconds_text_size">13sp</dimen>
+    <dimen name="sure_check_countdown_radius">96dp</dimen>
+    <dimen name="sure_check_countdown_square_width">128dp</dimen>
+
+</resources>

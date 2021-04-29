@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="HeadlineTextStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:textAppearance">@style/TextAppearance.App.Headline2</item>
+        <item name="android:textColor">?attr/colorOnBackground</item>
+    </style>
+
+    <style name="SubtitleTextStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:textAppearance">@style/TextAppearance.App.Subtitle2</item>
+        <item name="android:textColor">@color/low_emphasis_color</item>
+    </style>
+
+    <style name="Widget.App.Button" parent="">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="android:focusable">false</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:textAppearance">@style/TextAppearance.App.Button</item>
+        <item name="android:elevation">0dp</item>
+        <item name="shapeAppearance">@style/ShapeAppearance.App.LargeComponent</item>
+    </style>
+
+    <!--  Material Alert Dialog  -->
+    <style name="MaterialAlertDialog.App" parent="MaterialAlertDialog.MaterialComponents">
+        <item name="shapeAppearance">@style/ShapeAppearance.App.PickerMediumComponent</item>
+    </style>
+
+    <style name="MaterialAlertDialog.App.Title.Text" parent="MaterialAlertDialog.MaterialComponents.Title.Text">
+        <item name="android:textColor">@color/colorOnSurface</item>
+        <item name="android:textAppearance">@style/TextAppearance.App.Subtitle2</item>
+    </style>
+
+    <style name="MaterialAlertDialog.App.Body.Text" parent="MaterialAlertDialog.MaterialComponents.Body.Text">
+        <item name="android:textColor">@color/colorOnSurface</item>
+        <item name="android:textAppearance">@style/TextAppearance.App.Body1</item>
+    </style>
+
+    <style name="Widget.App.Dialog.Button" parent="Widget.MaterialComponents.Button.TextButton.Dialog">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.App.Dialog.Button</item>
+        <item name="shapeAppearance">@style/ShapeAppearance.App.SmallComponent</item>
+        <item name="android:textAppearance">@style/TextAppearance.App.Button</item>
+    </style>
+
+    <style name="ThemeOverlay.App.Dialog.Button" parent="">
+        <item name="colorPrimary">@color/colorOnSurface</item>
+    </style>
+
+    <!--  Material SnackBar  -->
+    <style name="ThemeOverlay.App.SnackBar" parent="">
+        <item name="colorPrimary">@color/colorNegative</item>
+        <item name="colorOnSurface">@color/colorSurface</item>
+        <item name="colorSurface">@color/colorSurface</item>
+    </style>
+
+    <style name="Widget.App.SnackBarText" parent="Widget.MaterialComponents.Snackbar.TextView">
+        <item name="android:textColor">@color/colorOnSurface</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textAppearance">@style/TextAppearance.App.Subtitle1</item>
+    </style>
+
+</resources>

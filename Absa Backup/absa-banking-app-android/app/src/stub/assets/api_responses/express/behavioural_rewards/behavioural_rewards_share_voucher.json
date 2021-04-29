@@ -1,0 +1,27 @@
+{
+  "header": {
+    "statuscode": "0",
+    "userAgent": "MyRestClient",
+    "wfpt": null,
+    "jsessionid": "38-GOjV3Jr1-At2Q7Nys5NfMIYwlMXZPz16a5sbp",
+    "esessionid": "7d5549b6898846016f87",
+    "xfpt": null,
+    "service": "BehaviouralRewardsVouchersService",
+    "operation": "ShareVoucher",
+    "channel": "I",
+    "timestamp": "2020-10-21 13:10:40.049",
+    "sourceip": "169.202.201.5",
+    "accessAccount": "4047562205",
+    "userNumber": "1",
+    "nonce": "EaGfb4SZo5JvfZzJUTx2RfwtgIAImsj3wk794_io0gw",
+    "language": "en",
+    "organization": "ABSA",
+    "brand": "ABSA",
+    "applicationId": null,
+    "applicationKeyId": null,
+    "requestToken": null,
+    "resultMessages": [
+    ],
+    "paginationContext": null
+  }
+}

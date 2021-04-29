@@ -1,0 +1,39 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES2096",
+      "resCde": "00000",
+      "resMsg": "Success",
+      "serVer": "2.0",
+      "expTrace": null
+    },
+    "payData": {
+      "respDTO": {
+        "successMessage": "SUCCESS",
+        "unitTrustAccountNumber": "3816483732",
+        "unitTrustAccountHolder": "MRS FL DE VILLIERS",
+        "fundName": "ABF - ABSA BALANCED FUND - CLASS A",
+        "redeemAmount": 0,
+        "fundUnits": "100",
+        "redeemAll": "N",
+        "cancelDebitOrder": "No",
+        "redemptionAccountNumber": "9050955466",
+        "redemptionAccountHolder": "F DE VILLERS",
+        "accountType": "SAVINGS",
+        "redemptionAccountBankName": "ABSA BANK",
+        "redemptionAccountBankCode": "632005",
+        "dateAndTime": null
+      },
+      "sureCheckFlag": null,
+      "tvnFlag": null,
+      "referenceNumber": null,
+      "corelationId": null,
+      "transactionDate": null,
+      "cellnumber": null,
+      "email": null,
+      "notificationMethod": null,
+      "txnStatus": "Success",
+      "txnMessage": "Success"
+    }
+  }
+}

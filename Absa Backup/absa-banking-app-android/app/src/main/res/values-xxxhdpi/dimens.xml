@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="rebuild_link_device_screen_margin_between">20dp</dimen>
+    <dimen name="rebuild_result_screen_margin_top">50dp</dimen>
+    <dimen name="dimen_keyboard_16dp">0dp</dimen>
+    <dimen name="keyboard_triple_space">20dp</dimen>
+    <dimen name="keyboard_button_size">56dp</dimen>
+    <dimen name="keypad_indicator_space">12dp</dimen>
+    <dimen name="keypad_bottom_margin">6dp</dimen>
+    <dimen name="profile_pager_picture_size">76dp</dimen>
+    <dimen name="keyboard_vertical_space">100dp</dimen>
+    <string name="dimension">xxxhdpi</string>
+</resources>

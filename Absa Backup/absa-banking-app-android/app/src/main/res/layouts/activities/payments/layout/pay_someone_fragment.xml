@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ScrollView style="@style/ScrollView"
+        android:id="@+id/scrollView">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <styleguide.cards.OfferView
+                android:id="@+id/importBeneficiariesOfferView"
+                android:layout_width="0dp"
+                android:layout_height="140dp"
+                android:layout_margin="@dimen/medium_space"
+                android:visibility="gone"
+                app:attribute_button_text="@string/beneficiary_import_more"
+                app:attribute_is_dark="true"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:visibility="visible" />
+
+            <styleguide.cards.AlertView
+                android:id="@+id/importBeneficiariesAlertView"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/button_height"
+                android:layout_margin="@dimen/medium_space"
+                android:visibility="gone"
+                app:attribute_button_text="@string/more"
+                app:attribute_image="@color/transaction_card_dark_background_color"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:visibility="visible" />
+
+            <androidx.constraintlayout.widget.Barrier
+                android:id="@+id/barrier"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:barrierDirection="bottom"
+                app:constraint_referenced_ids="importBeneficiariesAlertView,importBeneficiariesOfferView"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <styleguide.widgets.RoundedImageView
+                android:id="@+id/beneficiaryPictureRoundedImageView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/medium_space"
+                android:layout_marginBottom="@dimen/small_space"
+                android:tint="@null"
+                app:layout_constraintBottom_toBottomOf="@+id/beneficiaryNameNormalInputView"
+                app:layout_constraintStart_toStartOf="parent"
+                app:srcCompat="@drawable/camera_icon_shape" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/beneficiaryNameNormalInputView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/medium_space"
+                android:inputType="textCapWords"
+                android:maxLength="20"
+                android:maxLines="1"
+                android:singleLine="true"
+                app:attribute_hint_text="@string/enter_beneficiary_name"
+                app:attribute_image="@drawable/ic_check_dark"
+                app:attribute_selector_type="NONE"
+                app:attribute_title_text="@string/beneficiary_name"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/beneficiaryPictureRoundedImageView"
+                app:layout_constraintTop_toBottomOf="@+id/barrier" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/selectBankNormalInputView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_hint_text="@string/select_bank"
+                app:attribute_selector_type="LONG_LIST"
+                app:attribute_title_text="@string/bank"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/beneficiaryNameNormalInputView" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/selectBranchNormalInputView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_hint_text="@string/select_branch"
+                app:attribute_selector_type="LONG_LIST"
+                app:attribute_title_text="@string/branch"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/selectBankNormalInputView" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/selectAccountTypeNormalInputView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_hint_text="@string/select_account_type"
+                app:attribute_selector_type="LONG_LIST"
+                app:attribute_title_text="@string/account_type"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/selectBranchNormalInputView" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/accountNumberNormalInputView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:digits="0123456789 "
+                android:inputType="numberDecimal"
+                android:maxLength="20"
+                android:maxLines="1"
+                android:singleLine="true"
+                app:attribute_hint_text="@string/enter_account_number"
+                app:attribute_image="@drawable/ic_check_dark"
+                app:attribute_mask="#### #### #### #### ####"
+                app:attribute_selector_type="NONE"
+                app:attribute_title_text="@string/account_number"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/selectAccountTypeNormalInputView" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/theirReferenceNormalInputView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:digits="@string/allowed_reference_digits"
+                android:inputType="text"
+                android:maxLength="20"
+                android:maxLines="1"
+                android:singleLine="true"
+                app:attribute_hint_text="@string/payment_their_reference_hint_text"
+                app:attribute_image="@drawable/ic_check_dark"
+                app:attribute_selector_type="NONE"
+                app:attribute_title_text="@string/payment_their_reference_title"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/accountNumberNormalInputView" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/myReferenceNormalInputView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:digits="@string/allowed_reference_digits"
+                android:inputType="text"
+                android:maxLength="20"
+                android:maxLines="1"
+                android:singleLine="true"
+                app:attribute_hint_text="@string/enter_reference_my_statement"
+                app:attribute_image="@drawable/ic_check_dark"
+                app:attribute_selector_type="NONE"
+                app:attribute_title_text="@string/my_reference"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/theirReferenceNormalInputView" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/selectPaymentNotificationNormalInputView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_hint_text="@string/payment_select_notification_hint_text"
+                app:attribute_selector_type="LONG_LIST"
+                app:attribute_title_text="@string/payment_notification_title"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/myReferenceNormalInputView" />
+
+            <styleguide.buttons.Button
+                android:id="@+id/nextButton"
+                style="@style/PrimaryButton"
+                android:text="@string/next"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/selectPaymentNotificationNormalInputView"
+                app:layout_constraintVertical_bias="1" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</layout>

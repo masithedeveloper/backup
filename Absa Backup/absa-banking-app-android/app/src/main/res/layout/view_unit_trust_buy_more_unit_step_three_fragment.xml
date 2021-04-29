@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ScrollView style="@style/ScrollView">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <styleguide.content.NumberedListItem
+                android:id="@+id/termOneListItem"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/medium_space"
+                app:attribute_content="@string/buy_unit_trust_terms_of_use_1"
+                app:attribute_number="\u2022 "
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <styleguide.content.NumberedListItem
+                android:id="@+id/termTwoListItem"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/medium_space"
+                app:attribute_content="@string/buy_unit_trust_terms_of_use_2"
+                app:attribute_number="\u2022 "
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/termOneListItem" />
+
+
+            <styleguide.forms.CheckBoxView
+                android:id="@+id/acceptTermsCheckBox"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/medium_space"
+                android:layout_marginBottom="@dimen/small_space"
+                app:attribute_description="@string/buy_unit_trust_terms_of_use"
+                app:attribute_is_checked="false"
+                app:attribute_is_error_visible="false"
+                app:attribute_is_required="true"
+                app:layout_constraintBottom_toTopOf="@+id/acceptButton"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/termTwoListItem"
+                app:layout_constraintVertical_bias="1" />
+
+            <styleguide.buttons.Button
+                android:id="@+id/acceptButton"
+                style="@style/PrimaryButton"
+                android:layout_width="0dp"
+                android:text="@string/accept"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintVertical_bias="1" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</layout>

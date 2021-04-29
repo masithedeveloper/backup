@@ -1,0 +1,127 @@
+{
+  "header": {
+    "statuscode": "0",
+    "userAgent": "ANDROID - 6.18.0",
+    "jsessionid": "_fqZAMaigDkzWnN30wlU31Thm_kdJCsF2hpOhtSG",
+    "esessionid": "0b8fa595-b04b-33be-afef-e1817acdac7a",
+    "service": "CodesLookupFacade",
+    "operation": "GetCodes",
+    "channel": "S",
+    "timestamp": "2020-11-06 08:52:11.377",
+    "sourceip": "22.240.44.100",
+    "accessAccount": "4048291326",
+    "userNumber": "1",
+    "nonce": "w69A1XcRSIotPTBRPfCJG9GC-fGfkP84DggqehPYjbk",
+    "language": "en",
+    "organization": "ABSA",
+    "brand": "ABSA",
+    "resultMessages": []
+  },
+  "codesLookupDetailsVOList": [
+    {
+      "codesLookupType": "MONTHLY_INCOME_RANGE",
+      "itemCode": "01",
+      "engCodeDescription": "R0-499"
+    },
+    {
+      "codesLookupType": "MONTHLY_INCOME_RANGE",
+      "itemCode": "02",
+      "engCodeDescription": "R500-999"
+    },
+    {
+      "codesLookupType": "MONTHLY_INCOME_RANGE",
+      "itemCode": "03",
+      "engCodeDescription": "R1000-1999"
+    },
+    {
+      "codesLookupType": "MONTHLY_INCOME_RANGE",
+      "itemCode": "04",
+      "engCodeDescription": "R2000-2999"
+    },
+    {
+      "codesLookupType": "MONTHLY_INCOME_RANGE",
+      "itemCode": "05",
+      "engCodeDescription": "R3000-3999"
+    },
+    {
+      "codesLookupType": "MONTHLY_INCOME_RANGE",
+      "itemCode": "06",
+      "engCodeDescription": "R4000-4999"
+    },
+    {
+      "codesLookupType": "MONTHLY_INCOME_RANGE",
+      "itemCode": "07",
+      "engCodeDescription": "R5000-5999"
+    },
+    {
+      "codesLookupType": "MONTHLY_INCOME_RANGE",
+      "itemCode": "08",
+      "engCodeDescription": "R6000-6999"
+    },
+    {
+      "codesLookupType": "MONTHLY_INCOME_RANGE",
+      "itemCode": "09",
+      "engCodeDescription": "R7000-7999"
+    },
+    {
+      "codesLookupType": "MONTHLY_INCOME_RANGE",
+      "itemCode": "10",
+      "engCodeDescription": "R8000-8999"
+    },
+    {
+      "codesLookupType": "MONTHLY_INCOME_RANGE",
+      "itemCode": "11",
+      "engCodeDescription": "R9000-9999"
+    },
+    {
+      "codesLookupType": "MONTHLY_INCOME_RANGE",
+      "itemCode": "12",
+      "engCodeDescription": "R10000-11999"
+    },
+    {
+      "codesLookupType": "MONTHLY_INCOME_RANGE",
+      "itemCode": "13",
+      "engCodeDescription": "R12000-14999"
+    },
+    {
+      "codesLookupType": "MONTHLY_INCOME_RANGE",
+      "itemCode": "14",
+      "engCodeDescription": "R15000-19999"
+    },
+    {
+      "codesLookupType": "MONTHLY_INCOME_RANGE",
+      "itemCode": "15",
+      "engCodeDescription": "R20000-24999"
+    },
+    {
+      "codesLookupType": "MONTHLY_INCOME_RANGE",
+      "itemCode": "16",
+      "engCodeDescription": "R25000-33999"
+    },
+    {
+      "codesLookupType": "MONTHLY_INCOME_RANGE",
+      "itemCode": "17",
+      "engCodeDescription": "R34000-41999"
+    },
+    {
+      "codesLookupType": "MONTHLY_INCOME_RANGE",
+      "itemCode": "18",
+      "engCodeDescription": "R42000-62999"
+    },
+    {
+      "codesLookupType": "MONTHLY_INCOME_RANGE",
+      "itemCode": "19",
+      "engCodeDescription": "R63000-84999"
+    },
+    {
+      "codesLookupType": "MONTHLY_INCOME_RANGE",
+      "itemCode": "20",
+      "engCodeDescription": "R85000-124999"
+    },
+    {
+      "codesLookupType": "MONTHLY_INCOME_RANGE",
+      "itemCode": "21",
+      "engCodeDescription": "R125000+"
+    }
+  ]
+}

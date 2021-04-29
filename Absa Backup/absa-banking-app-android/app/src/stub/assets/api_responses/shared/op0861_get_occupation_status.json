@@ -1,0 +1,77 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES2022",
+      "resCde": "00000",
+      "resMsg": "Success",
+      "serVer": "2.0",
+      "expTrace": null
+    },
+    "payData": {
+      "lookups": [
+        {
+          "itemCode": "01",
+          "groupCode": "OCC STAT",
+          "cmsKey": null,
+          "defaultLabel": "FULL TIME EMPLOYED"
+        },
+        {
+          "itemCode": "04",
+          "groupCode": "OCC STAT",
+          "cmsKey": null,
+          "defaultLabel": "HOUSEWIFE"
+        },
+        {
+          "itemCode": "08",
+          "groupCode": "OCC STAT",
+          "cmsKey": null,
+          "defaultLabel": "PART TIME/CONTRACT WORKER"
+        },
+        {
+          "itemCode": "07",
+          "groupCode": "OCC STAT",
+          "cmsKey": null,
+          "defaultLabel": "PENSIONER"
+        },
+        {
+          "itemCode": "10",
+          "groupCode": "OCC STAT",
+          "cmsKey": null,
+          "defaultLabel": "PRE-SCHOOL/SCHOLAR"
+        },
+        {
+          "itemCode": "03",
+          "groupCode": "OCC STAT",
+          "cmsKey": null,
+          "defaultLabel": "SELF EMPLOYED NON-PROFESSIONAL"
+        },
+        {
+          "itemCode": "02",
+          "groupCode": "OCC STAT",
+          "cmsKey": null,
+          "defaultLabel": "SELF EMPLOYED PROFESSIONAL"
+        },
+        {
+          "itemCode": "05",
+          "groupCode": "OCC STAT",
+          "cmsKey": null,
+          "defaultLabel": "STUDENT"
+        },
+        {
+          "itemCode": "09",
+          "groupCode": "OCC STAT",
+          "cmsKey": null,
+          "defaultLabel": "TEMPORARY EMPLOYED"
+        },
+        {
+          "itemCode": "06",
+          "groupCode": "OCC STAT",
+          "cmsKey": null,
+          "defaultLabel": "UNEMPLOYED"
+        }
+      ],
+      "txnStatus": "Success",
+      "txnMessage": "Success"
+    }
+  }
+}

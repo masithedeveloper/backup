@@ -1,0 +1,24 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0125",
+      "resCde": "00000",
+      "resMsg": "SUCCESS",
+      "serVer": "2.0"
+    },
+    "payData": {
+      "cardNumbersList": [
+        {
+          "cardNumber": "4550270021988022",
+          "cardType": "Credit card",
+          "cardIndex": "1"
+        },
+        {
+          "cardNumber": "4483870000011019",
+          "cardType": "Debit",
+          "cardIndex": "2"
+        }
+      ]
+    }
+  }
+}

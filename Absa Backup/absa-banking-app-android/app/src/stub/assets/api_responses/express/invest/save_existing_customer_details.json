@@ -1,0 +1,28 @@
+{
+  "header": {
+    "statuscode": "0",
+    "userAgent": "PostmanRuntime/7.26.2",
+    "wfpt": null,
+    "jsessionid": "8y789dJiF-QdVT5OoO4Og_3K8pLS1rQl9e8JX04_",
+    "esessionid": null,
+    "xfpt": null,
+    "service": "SaveAndInvestCaseManagementFacade",
+    "operation": "SaveExistingCustomerDetailsInfo",
+    "channel": null,
+    "timestamp": "2020-08-12 13:03:51.762",
+    "sourceip": "22.242.84.146",
+    "accessAccount": null,
+    "userNumber": null,
+    "nonce": "E9cIleKzPrTejI2Amcl4K3i2GOXZcMFM_tYDHqzbvps",
+    "language": "en",
+    "organization": null,
+    "brand": null,
+    "applicationId": null,
+    "applicationKeyId": null,
+    "requestToken": null,
+    "resultMessages": [],
+    "paginationContext": null
+  },
+  "caseUpdated": true,
+  "caseCreated": "05916fc2-da0d-4b00-8387-2244f3006a23"
+}

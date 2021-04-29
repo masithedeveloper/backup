@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    style="@style/ScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <styleguide.content.PrimaryContentAndLabelView
+            android:id="@+id/amountSentPrimaryContentAndLabelView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_primary_label="@string/swift_amount_sent_to_you"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:attribute_primary_content="$ 100.00" />
+
+        <styleguide.content.PrimaryContentAndLabelView
+            android:id="@+id/amountReceivedPrimaryContentAndLabelView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_primary_label="@string/swift_amount_you_receive"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/amountSentPrimaryContentAndLabelView"
+            tools:attribute_primary_content="R 1490.00" />
+
+        <TextView
+            android:id="@+id/conversionRateTextView"
+            style="@style/SmallTextRegularDark"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/medium_space"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/amountReceivedPrimaryContentAndLabelView"
+            tools:text="1 EUR = 16.40 ZAR live rate as at 23 April 2020, 2:23 PM" />
+
+        <styleguide.content.SecondaryContentAndLabelView
+            android:id="@+id/toAccountSecondaryContentAndLabelView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/medium_space"
+            app:attribute_secondary_label="@string/swift_to_account"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/conversionRateTextView"
+            tools:attribute_secondary_content="Current Account (4901 2673 3672)" />
+
+        <View
+            android:id="@+id/dividerTop"
+            style="@style/DividerView"
+            android:layout_width="0dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/toAccountSecondaryContentAndLabelView" />
+
+        <TextView
+            android:id="@+id/noChargesTextView"
+            style="@style/SmallTextRegularDark"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/medium_space"
+            android:text="@string/swift_no_charges_message"
+            android:visibility="gone"
+            app:layout_constraintBottom_toTopOf="@+id/chargesIncurredConstraintLayout"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/dividerTop" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/chargesIncurredConstraintLayout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toTopOf="@+id/dividerBottom"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/noChargesTextView">
+
+            <styleguide.content.PrimaryContentAndLabelView
+                android:id="@+id/totalChargesPrimaryContentAndLabelView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_primary_label="@string/swift_total_charges"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:attribute_primary_content="R 150.00" />
+
+            <TextView
+                android:id="@+id/seeMoreOrLessTextView"
+                style="@style/NormalTextRegularDark"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/arrow_down"
+                android:drawablePadding="@dimen/small_space"
+                android:padding="@dimen/medium_space"
+                android:text="@string/swift_show_more"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/totalChargesPrimaryContentAndLabelView" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/showMoreConstraintLayout"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/seeMoreOrLessTextView"
+                tools:visibility="gone">
+
+                <styleguide.content.SecondaryContentAndLabelView
+                    android:id="@+id/absaChargesSecondaryContentAndLabelView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:attribute_secondary_label="@string/swift_absa_charges"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:attribute_secondary_content="R 54.52" />
+
+                <styleguide.content.SecondaryContentAndLabelView
+                    android:id="@+id/swiftChargesSecondaryContentAndLabelView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:attribute_secondary_label="@string/swift_swift_charges"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/absaChargesSecondaryContentAndLabelView"
+                    tools:attribute_secondary_content="R 71.34" />
+
+                <styleguide.content.SecondaryContentAndLabelView
+                    android:id="@+id/recoveryChargesSecondaryContentAndLabelView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:attribute_secondary_label="@string/swift_corresponding_recovery_charges"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/swiftChargesSecondaryContentAndLabelView"
+                    tools:attribute_secondary_content="R 11.45" />
+
+                <styleguide.content.SecondaryContentAndLabelView
+                    android:id="@+id/vatSecondaryContentAndLabelView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:attribute_secondary_label="@string/swift_vat"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/recoveryChargesSecondaryContentAndLabelView"
+                    tools:attribute_secondary_content="R 12.69" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <View
+            android:id="@+id/dividerBottom"
+            style="@style/DividerView"
+            android:layout_width="0dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/chargesIncurredConstraintLayout" />
+
+        <styleguide.content.SecondaryContentAndLabelView
+            android:id="@+id/senderDetailsSecondaryContentAndLabelView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_secondary_label="@string/swift_sender"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/dividerBottom"
+            tools:attribute_secondary_content="Bongani Mashaba" />
+
+        <styleguide.content.SecondaryContentAndLabelView
+            android:id="@+id/senderTypeSecondaryContentAndLabelView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_secondary_label="@string/swift_type_of_sender"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/senderDetailsSecondaryContentAndLabelView"
+            tools:attribute_secondary_content="An individual" />
+
+        <styleguide.content.SecondaryContentAndLabelView
+            android:id="@+id/reasonForPaymentSecondaryContentAndLabelView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_secondary_label="@string/swift_reason_for_payment"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/senderTypeSecondaryContentAndLabelView"
+            tools:attribute_secondary_content="Foreign national" />
+
+        <styleguide.content.SecondaryContentAndLabelView
+            android:id="@+id/subCategoryForPaymentSecondaryContentAndLabelView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_secondary_label="@string/swift_sub_category_for_payment"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/reasonForPaymentSecondaryContentAndLabelView"
+            tools:attribute_secondary_content="Foreign national contract worker remittances (excluding compensation)" />
+
+        <styleguide.forms.CheckBoxView
+            android:id="@+id/acceptReserveBankDeclarationCheckBox"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_description="@string/swift_read_and_accepted_reserve_bank_declaration"
+            app:attribute_is_required="true"
+            app:layout_constraintBottom_toTopOf="@+id/acceptTransactionButton"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/subCategoryForPaymentSecondaryContentAndLabelView"
+            app:layout_constraintVertical_bias="1"
+            app:layout_constraintVertical_chainStyle="packed" />
+
+        <styleguide.buttons.Button
+            android:id="@+id/acceptTransactionButton"
+            style="@style/PrimaryButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/swift_accept_transaction"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/acceptReserveBankDeclarationCheckBox" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

@@ -1,0 +1,155 @@
+/*
+ *  Copyright (c) 2018 Absa Bank Limited, All Rights Reserved.
+ *
+ *  This code is confidential to Absa Bank Limited and shall not be disclosed
+ *  outside the Bank without the prior written permission of the Absa Legal
+ *
+ *  In the event that such disclosure is permitted the code shall not be copied
+ *  or distributed other than on a need-to-know basis and any recipients may be
+ *  required to sign a confidentiality undertaking in favor of Absa Bank
+ *  Limited
+ *
+ */
+
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-kapt'
+
+android {
+
+    compileSdkVersion 30
+
+    defaultConfig {
+        minSdkVersion 21
+        targetSdkVersion 30
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        buildConfigField("boolean", "STUB", "false")
+        buildConfigField("boolean", "DEV", "true")
+        buildConfigField("boolean", "UAT", "false")
+        buildConfigField("boolean", "PROD", "false")
+        buildConfigField("String", "TRANSAKT_SDK_SERVICE_ID", '"38a49170-12cf-4488-8880-90a33ab230ef"')
+        buildConfigField("String", "ENTERSEKT_ZERO_RATED_ACCESS_POINT", '"4d8a1dad-5bf9-44a8-af62-aeaa9ca3d8ef"')
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    flavorDimensions "environment"
+
+    productFlavors {
+
+        devStub {
+            dimension "environment"
+            buildConfigField("String", "TRANSAKT_SDK_SERVICE_ID", '"38a49170-12cf-4488-8880-90a33ab230ef"')
+        }
+
+        devUat_i {
+            dimension "environment"
+            buildConfigField("String", "TRANSAKT_SDK_SERVICE_ID", '"45bca205-3800-460e-956e-a42ef9e04bc3"')
+        }
+
+        devUat_2 {
+            dimension "environment"
+            buildConfigField("String", "TRANSAKT_SDK_SERVICE_ID", '"45bca205-3800-460e-956e-a42ef9e04bc3"')
+        }
+
+        devUat_r {
+            dimension "environment"
+            buildConfigField("String", "TRANSAKT_SDK_SERVICE_ID", '"45bca205-3800-460e-956e-a42ef9e04bc3"')
+
+        }
+
+        devProdBeta {
+            dimension "environment"
+            buildConfigField("String", "TRANSAKT_SDK_SERVICE_ID", '"96983b37-d788-48c0-9b3a-b643ab85cf1a"')
+        }
+
+        stub {
+            dimension "environment"
+            buildConfigField("boolean", "STUB", "true")
+            buildConfigField("boolean", "DEV", "false")
+            buildConfigField("String", "TRANSAKT_SDK_SERVICE_ID", '"38a49170-12cf-4488-8880-90a33ab230ef"')
+        }
+
+        sit {
+            dimension "environment"
+            buildConfigField("boolean", "UAT", "true")
+            buildConfigField("String", "TRANSAKT_SDK_SERVICE_ID", '"45bca205-3800-460e-956e-a42ef9e04bc3"')
+        }
+
+        uat_i_ {
+            dimension "environment"
+            buildConfigField("boolean", "UAT", "true")
+            buildConfigField("String", "TRANSAKT_SDK_SERVICE_ID", '"45bca205-3800-460e-956e-a42ef9e04bc3"')
+            //buildConfigField("String", "TRANSAKT_SDK_SERVICE_ID", '"38a49170-12cf-4488-8880-90a33ab230ef"')
+        }
+
+        uat_i_penTesting {
+            dimension "environment"
+            buildConfigField("boolean", "UAT", "true")
+            buildConfigField("String", "TRANSAKT_SDK_SERVICE_ID", '"45bca205-3800-460e-956e-a42ef9e04bc3"')
+        }
+
+        uat_2_ {
+            dimension "environment"
+            buildConfigField("boolean", "UAT", "true")
+            buildConfigField("String", "TRANSAKT_SDK_SERVICE_ID", '"45bca205-3800-460e-956e-a42ef9e04bc3"')
+        }
+
+        uat_3_ {
+            dimension "environment"
+            buildConfigField("boolean", "UAT", "true")
+            buildConfigField("String", "TRANSAKT_SDK_SERVICE_ID", '"45bca205-3800-460e-956e-a42ef9e04bc3"')
+        }
+
+        uat_r_ {
+            dimension "environment"
+            buildConfigField("boolean", "UAT", "true")
+            buildConfigField("String", "TRANSAKT_SDK_SERVICE_ID", '"45bca205-3800-460e-956e-a42ef9e04bc3"')
+        }
+
+        uat_r_penTesting {
+            dimension "environment"
+            buildConfigField("boolean", "UAT", "true")
+            buildConfigField("String", "TRANSAKT_SDK_SERVICE_ID", '"45bca205-3800-460e-956e-a42ef9e04bc3"')
+        }
+
+        prodBeta {
+            dimension "environment"
+            buildConfigField("boolean", "DEV", "false")
+            buildConfigField("boolean", "PROD", "true")
+            buildConfigField("String", "TRANSAKT_SDK_SERVICE_ID", '"96983b37-d788-48c0-9b3a-b643ab85cf1a"')
+        }
+
+        prod {
+            dimension "environment"
+            buildConfigField("boolean", "DEV", "false")
+            buildConfigField("boolean", "PROD", "true")
+            buildConfigField("String", "TRANSAKT_SDK_SERVICE_ID", '"96983b37-d788-48c0-9b3a-b643ab85cf1a"')
+        }
+
+    }
+
+}
+
+repositories {
+    flatDir {
+        dirs 'libs'
+    }
+}
+
+dependencies {
+    api(name: 'TransaktSDK-3.3.0', ext: 'aar')
+    api(name: 'scan2pay-android-1.0.0-202005251411.31', ext: 'jar')
+
+    api 'com.google.protobuf:protobuf-java-util:3.12.2'
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
+}

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/avaf_loan_amortization_navigation_graph"
+    app:startDestination="@id/avafDocumentOfferFragment">
+
+    <fragment
+        android:id="@+id/avafDocumentOfferFragment"
+        android:name="com.barclays.absa.banking.avaf.documentRequest.ui.AvafDocumentInfoFragment"
+        android:label="AvafDocumentOfferFragment"
+        tools:layout="@layout/avaf_document_info_fragment">
+        <action
+            android:id="@+id/action_avafDocumentOfferFragment_to_avafLoanAmortizationFragment"
+            app:destination="@id/avafLoanAmortizationFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <argument
+            android:name="offerInfo"
+            app:argType="com.barclays.absa.banking.avaf.documentRequest.ui.AvafOfferInfo" />
+    </fragment>
+    <fragment
+        android:id="@+id/avafLoanAmortizationFragment"
+        android:name="com.barclays.absa.banking.avaf.documentRequest.ui.loanAmortization.AvafLoanAmortizationFragment"
+        android:label="avafLoanAmortizationFragment"
+        tools:layout="@layout/avaf_document_request_base_fragment">
+        <action
+            android:id="@+id/action_avafLoanAmortizationFragment_to_avafLoanAmortizationConfirmationFragment"
+            app:destination="@id/avafLoanAmortizationConfirmationFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+    <fragment
+        android:id="@+id/avafLoanAmortizationConfirmationFragment"
+        android:name="com.barclays.absa.banking.avaf.documentRequest.ui.loanAmortization.AvafLoanAmortizationConfirmationFragment"
+        android:label="avafLoanAmortizationConfirmationFragment">
+        <argument
+            android:name="documentRequestDetails"
+            app:argType="com.barclays.absa.banking.avaf.documentRequest.ui.DocumentRequestDetails" />
+        <action
+            android:id="@+id/action_avafLoanAmortizationConfirmationFragment_to_documentReqResultFragment"
+            app:destination="@id/documentReqResultFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+    <fragment
+        android:id="@+id/documentReqResultFragment"
+        android:name="styleguide.screens.GenericResultScreenFragment"
+        android:label="settlementQuoteResultFragment"
+        tools:layout="@layout/generic_results_screen_fragment">
+        <argument
+            android:name="GenericResultScreenFragment"
+            app:argType="styleguide.screens.GenericResultScreenProperties" />
+    </fragment>
+</navigation>

@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:absaApp="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/root_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/sure_check_background">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/header_light"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            absaApp:layout_constraintEnd_toEndOf="parent"
+            absaApp:layout_constraintStart_toStartOf="parent"
+            absaApp:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:paddingBottom="@dimen/medium_space"
+            absaApp:layout_constraintBottom_toTopOf="@+id/ll_viewTransactionContainer"
+            absaApp:layout_constraintEnd_toEndOf="parent"
+            absaApp:layout_constraintStart_toStartOf="parent"
+            absaApp:layout_constraintTop_toBottomOf="@id/toolbar">
+
+            <LinearLayout
+                android:id="@+id/cv_authContainer"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:orientation="vertical"
+                absaApp:layout_constraintBottom_toBottomOf="parent"
+                absaApp:layout_constraintEnd_toEndOf="parent"
+                absaApp:layout_constraintStart_toStartOf="parent"
+                absaApp:layout_constraintTop_toTopOf="parent"
+                tools:visibility="visible">
+
+                <ImageView
+                    android:id="@+id/exclamation_image_view"
+                    android:layout_width="@dimen/dimen_56dp"
+                    android:layout_height="@dimen/dimen_56dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/small_space"
+                    android:visibility="gone"
+                    absaApp:srcCompat="@drawable/ic_alert_with_triangle_light"
+                    tools:visibility="visible" />
+
+                <TextView
+                    android:id="@+id/tv_informationMessage"
+                    style="@style/AuthNameInformation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="@dimen/dimen_16dp"
+                    tools:text="There is a request to make a payment with your Absa cheque account."
+                    tools:visibility="visible" />
+
+                <LinearLayout
+                    android:id="@+id/ll_slidingTransactionView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/medium_space"
+                    android:layout_marginEnd="@dimen/medium_space"
+                    android:orientation="vertical"
+                    android:visibility="gone"
+                    tools:visibility="visible">
+
+                    <View
+                        android:id="@+id/dividerTop"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/grey" />
+
+                    <ScrollView
+                        android:id="@+id/scrollView"
+                        style="@style/ScrollView"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent">
+
+                        <LinearLayout
+                            android:id="@+id/transactionsLayout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:visibility="gone"
+                            tools:visibility="visible" />
+
+                    </ScrollView>
+
+                    <View
+                        android:id="@+id/dividerBottom"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/grey" />
+                </LinearLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/vf_loginAnimatorScreen"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:visibility="gone"
+                    tools:visibility="gone">
+
+                    <TextView
+                        android:id="@+id/tv_passcodeStatus"
+                        style="@style/Text_SubheadingMedium"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/dimen_16dp"
+                        android:gravity="center"
+                        android:text="@string/passcode_enter"
+                        android:textColor="@android:color/white"
+                        absaApp:layout_constraintEnd_toEndOf="parent"
+                        absaApp:layout_constraintStart_toStartOf="parent"
+                        absaApp:layout_constraintTop_toTopOf="parent" />
+
+                    <styleguide.forms.KeypadView
+                        android:id="@+id/numericKeypad"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_marginStart="@dimen/medium_space"
+                        android:layout_marginTop="@dimen/medium_space"
+                        android:layout_marginEnd="@dimen/medium_space"
+                        android:background="@android:color/transparent"
+                        absaApp:attribute_forgot_passcode_text=""
+                        absaApp:attribute_red_theme="true"
+                        absaApp:layout_constraintBottom_toBottomOf="parent"
+                        absaApp:layout_constraintDimensionRatio="9:15"
+                        absaApp:layout_constraintEnd_toEndOf="parent"
+                        absaApp:layout_constraintStart_toStartOf="parent"
+                        absaApp:layout_constraintTop_toBottomOf="@id/tv_passcodeStatus" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_incorrectPasscode"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:id="@+id/tv_passcodeLocked"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/dimen_16dp"
+                        android:layout_marginTop="@dimen/dimen_16dp"
+                        android:layout_marginEnd="@dimen/dimen_16dp"
+                        android:gravity="center"
+                        android:text="@string/passcode_incorrect"
+                        android:textColor="@color/color_FF000000" />
+
+                    <styleguide.buttons.Button
+                        android:id="@+id/btn_endPasscodeScreen"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/dimen_48dp"
+                        android:background="@color/color_00000000"
+                        android:contentDescription="@string/ok_got_it"
+                        android:text="@string/ok_got_it"
+                        android:textColor="@color/color_FF000000" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <styleguide.widgets.RoundedImageView
+                android:id="@+id/riv_userProfileImageView"
+                android:layout_width="@dimen/dimen_56dp"
+                android:layout_height="@dimen/dimen_56dp"
+                android:layout_marginTop="@dimen/small_space"
+                android:layout_marginBottom="@dimen/dimen_8dp"
+                android:background="@drawable/img_placeholder_large"
+                android:contentDescription=""
+                android:elevation="10dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_profile_home_img"
+                android:tint="@null"
+                android:visibility="gone"
+                absaApp:attribute_border_drawable="@drawable/img_placeholder_large"
+                absaApp:attribute_mask_drawable="@drawable/circle_mask"
+                absaApp:layout_constraintEnd_toEndOf="parent"
+                absaApp:layout_constraintStart_toStartOf="parent"
+                absaApp:layout_constraintTop_toTopOf="parent"
+                tools:targetApi="lollipop"
+                tools:visibility="visible" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_viewTransactionContainer"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone"
+            absaApp:layout_constraintBottom_toTopOf="@+id/auth_complete_button_container"
+            absaApp:layout_constraintEnd_toEndOf="parent"
+            absaApp:layout_constraintStart_toStartOf="parent"
+            tools:visibility="visible">
+
+            <styleguide.buttons.Button
+                android:id="@+id/report_fraud_button"
+                style="@style/NegativeButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_marginStart="@dimen/medium_space"
+                android:layout_marginEnd="@dimen/medium_space"
+                android:contentDescription="@string/view"
+                android:text="@string/report_fraud" />
+
+            <styleguide.buttons.Button
+                android:id="@+id/btn_view"
+                style="@style/ViewButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_marginStart="@dimen/medium_space"
+                android:layout_marginEnd="@dimen/medium_space"
+                android:contentDescription="@string/view"
+                android:text="@string/view" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/auth_complete_button_container"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone"
+            absaApp:layout_constraintBottom_toTopOf="@+id/footer_text_view"
+            absaApp:layout_constraintEnd_toEndOf="parent"
+            absaApp:layout_constraintStart_toStartOf="parent"
+            tools:visibility="visible">
+
+            <styleguide.buttons.Button
+                android:id="@+id/btn_neutral"
+                style="@style/Button_RoundedWhiteBorder"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_48dp"
+                android:layout_marginStart="@dimen/medium_space"
+                android:layout_marginEnd="@dimen/medium_space"
+                android:text="Neutral"
+                android:visibility="gone"
+                tools:visibility="gone" />
+
+            <styleguide.buttons.Button
+                android:id="@+id/btn_negative"
+                style="@style/NegativeButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/medium_space"
+                android:layout_marginEnd="@dimen/medium_space"
+                android:text="@string/no_reject"
+                tools:visibility="gone" />
+
+            <styleguide.buttons.Button
+                android:id="@+id/btn_positive"
+                style="@style/PositiveButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/medium_space"
+                android:layout_marginEnd="@dimen/medium_space"
+                android:text="@string/verify" />
+
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/iv_changeAuthType"
+            style="@style/SureCheckFingerprintButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/small_space"
+            android:drawableStart="@drawable/ic_fingerprint_dark"
+            android:text="@string/login_text"
+            android:textColor="@android:color/black"
+            android:visibility="gone"
+            absaApp:layout_constraintBottom_toBottomOf="parent"
+            absaApp:layout_constraintEnd_toEndOf="parent"
+            absaApp:layout_constraintStart_toStartOf="parent"
+            tools:visibility="visible" />
+
+        <TextView
+            android:id="@+id/footer_text_view"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/medium_space"
+            android:layout_marginEnd="@dimen/medium_space"
+            android:layout_marginBottom="@dimen/small_space"
+            android:gravity="center_horizontal"
+            absaApp:layout_constraintBottom_toBottomOf="parent"
+            absaApp:layout_constraintEnd_toEndOf="parent"
+            absaApp:layout_constraintStart_toStartOf="parent"
+            tools:text="Foot a" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

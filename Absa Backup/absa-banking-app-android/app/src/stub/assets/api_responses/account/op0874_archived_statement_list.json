@@ -1,0 +1,35 @@
+{
+  "successResponseModel":{
+    "payHdr":{
+      "resId":"RES0874",
+      "resCde":"00000",
+      "resMsg":"Success",
+      "serVer":"2.0"
+    },
+    "payData":{
+      "respDTO":{
+        "statementDTO":{
+          "statementList":[
+            {
+              "documentName":"4047949819    4995",
+              "documentWorkingDate":1502748000000,
+              "key":"4047949819    4995|2017-08-15"
+            },
+            {
+              "documentName": "4047949819    4996",
+              "documentWorkingDate": 1502748000000,
+              "key": "4047949819    4995|2017-09-15"
+            },
+            {
+              "documentName": "4047949819    4997",
+              "documentWorkingDate": 1502748000000,
+              "key": "4047949819    4995|2017-10-15"
+            }
+          ]
+        }
+      },
+      "txnStatus":"Success",
+      "txnMessage":"Success"
+    }
+  }
+}

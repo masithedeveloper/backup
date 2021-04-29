@@ -1,0 +1,118 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0789",
+      "resCde": "00000",
+      "resMsg": "SUCCESS",
+      "serVer": "2.0"
+    },
+    "payData": {
+      "absaListedBenList": [{
+        "categoryCode": "013",
+        "institutionCode": "0130007",
+        "description": "AA OF SA",
+        "accountNumber": "56830006388"
+      }, {
+        "categoryCode": "003",
+        "institutionCode": "0031371",
+        "description": "ABAQULUSI MUNICIPALITY",
+        "accountNumber": "1005001109"
+      }, {
+        "categoryCode": "014",
+        "institutionCode": "0142252",
+        "description": "ABI",
+        "accountNumber": "4077930808"
+      }, {
+        "categoryCode": "004",
+        "institutionCode": "0041869",
+        "description": "ABSA PROPS",
+        "accountNumber": "3200295004"
+      }, {
+        "categoryCode": "004",
+        "institutionCode": "0042009",
+        "description": "ABSA VEHICLE AND ASSET FINANCE",
+        "accountNumber": "1999821274"
+      }, {
+        "categoryCode": "014",
+        "institutionCode": "0140497",
+        "description": "ADAMS BOOKSELLERS PTY LTD",
+        "accountNumber": "62129768729"
+      }, {
+        "categoryCode": "031",
+        "institutionCode": "0311323",
+        "description": "ADT SECURITY PTY LTD",
+        "accountNumber": "N/A"
+      }, {
+        "categoryCode": "014",
+        "institutionCode": "0141747",
+        "description": "ADVANCED HEALTH FOODS CC",
+        "accountNumber": "71752773"
+      }, {
+        "categoryCode": "004",
+        "institutionCode": "0042024",
+        "description": "AFRICAN BANK ADMIN ORDERS",
+        "accountNumber": "75006327766"
+      }, {
+        "categoryCode": "004",
+        "institutionCode": "0042027",
+        "description": "AFRICAN BANK CREDIT CARD",
+        "accountNumber": "75006017284"
+      }, {
+        "categoryCode": "004",
+        "institutionCode": "0042026",
+        "description": "AFRICAN BANK INVESTMENTS",
+        "accountNumber": "75006177682"
+      }, {
+        "categoryCode": "004",
+        "institutionCode": "0042025",
+        "description": "AFRICAN BANK LEGAL",
+        "accountNumber": "75006699488"
+      }, {
+        "categoryCode": "004",
+        "institutionCode": "0042022",
+        "description": "AFRICAN BANK LOANS",
+        "accountNumber": "75005749664"
+      }, {
+        "categoryCode": "004",
+        "institutionCode": "0042023",
+        "description": "AFRICAN BANK PAYROLL",
+        "accountNumber": "75006416006"
+      }, {
+        "categoryCode": "030",
+        "institutionCode": "0300005",
+        "description": "AFRICAN OXYGEN LTD",
+        "accountNumber": "4049457927"
+      }, {
+        "categoryCode": "030",
+        "institutionCode": "0301647",
+        "description": "AFRICAN OXYGEN LTD T/A AFROX L",
+        "accountNumber": "4049457927"
+      }, {
+        "categoryCode": "004",
+        "institutionCode": "0041918",
+        "description": "AFRICRED TRUST",
+        "accountNumber": "4074290710"
+      }, {
+        "categoryCode": "014",
+        "institutionCode": "0142311",
+        "description": "AFRIHOST PTY LTD",
+        "accountNumber": "4052427822"
+      }, {
+        "categoryCode": "014",
+        "institutionCode": "0141755",
+        "description": "AKTUA PERS (EDMS) BPK",
+        "accountNumber": "2140142053"
+      }, {
+        "categoryCode": "004",
+        "institutionCode": "0041959",
+        "description": "ALABRAKA BANK LTD OVERPORT",
+        "accountNumber": "4073412240"
+      }, {
+        "categoryCode": "004",
+        "institutionCode": "0041949",
+        "description": "ALBARAKA BANK LTD ATHLONE",
+        "accountNumber": "1007252621"
+      }]
+    }
+  }
+}

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/stop_and_replace_debit_card_navigation_graph"
+    app:startDestination="@+id/stopAndReplaceDebitCardDetailsFragment">
+    <fragment
+        android:id="@+id/stopAndReplaceDebitCardDetailsFragment"
+        android:name="com.barclays.absa.banking.card.ui.debitCard.ui.StopAndReplaceDebitCardDetailsFragment"
+        android:label="StopAndReplaceDebitCardDetailsFragment"
+        tools:layout="@layout/debit_card_details_activity">
+
+        <action
+            android:id="@+id/action_stopAndReplaceDebitCardDetailsFragment_to_DebitCardReplacementOverviewActivity"
+            app:destination="@id/stopAndReplaceDebitCardOverviewFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/stopAndReplaceDebitCardOverviewFragment"
+        android:name="com.barclays.absa.banking.card.ui.debitCard.ui.StopAndReplaceDebitCardOverviewFragment"
+        android:label="StopAndReplaceDebitCardOverviewFragment"
+        tools:layout="@layout/stop_and_replace_debit_card_overview_fragment">
+
+        <action
+            android:id="@+id/action_stopAndReplaceDebitCardOverviewFragment_to_stopAndReplaceGenericResultScreenFragment"
+            app:destination="@id/stopAndReplaceGenericResultScreenFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/stopAndReplaceGenericResultScreenFragment"
+        android:name="styleguide.screens.GenericResultScreenFragment"
+        android:label="GenericResultScreenFragment"
+        tools:layout="@layout/generic_results_screen_fragment">
+
+        <argument
+            android:name="GenericResultScreenFragment"
+            app:argType="styleguide.screens.GenericResultScreenProperties" />
+    </fragment>
+</navigation>

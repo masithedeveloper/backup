@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    style="@style/ScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/merchantNameTextView"
+            style="@style/HeadingTextMediumDark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/extra_large_space"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Joe's Coffee" />
+
+        <TextView
+            android:id="@+id/splitByTextView"
+            style="@style/NormalTextMediumDark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/medium_space"
+            android:text="@string/scan_to_pay_split_by"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/merchantNameTextView" />
+
+
+        <RadioGroup
+            android:id="@+id/splitTypeRadioGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/medium_space"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/splitByTextView">
+
+            <RadioButton
+                android:id="@+id/peopleSplitRadioButton"
+                style="@style/NormalTextRegularDark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/left_pink_radio_shape_selector"
+                android:button="@null"
+                android:paddingStart="@dimen/medium_space"
+                android:paddingTop="@dimen/small_space"
+                android:paddingEnd="@dimen/small_space"
+                android:paddingBottom="@dimen/small_space"
+                android:text="@string/scan_to_pay_people"
+                android:textColor="@drawable/pink_radio_text_selector"
+                tools:checked="true" />
+
+            <RadioButton
+                android:id="@+id/amountSplitRadioButton"
+                style="@style/NormalTextRegularDark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/right_pink_radio_shape_selector"
+                android:button="@null"
+                android:paddingStart="@dimen/small_space"
+                android:paddingTop="@dimen/small_space"
+                android:paddingEnd="@dimen/medium_space"
+                android:paddingBottom="@dimen/small_space"
+                android:text="@string/amount"
+                android:textColor="@drawable/pink_radio_text_selector" />
+
+        </RadioGroup>
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/amountNormalInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:maxLength="16"
+            app:attribute_editable="true"
+            app:attribute_hint_text="@string/scan_to_pay_enter_amount"
+            app:attribute_selector_type="CURRENCY_DECIMAL"
+            app:attribute_title_text="@string/amount"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/splitTypeRadioGroup"
+            app:layout_constraintVertical_bias="0.02"
+            tools:attribute_description_text="Pay R50.00 of R100.00" />
+
+        <styleguide.forms.IncreaseDecreaseView
+            android:id="@+id/splitByIncreaseDecreaseView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_increase_decrease_view_description="@string/scan_to_pay_number_of_people"
+            app:attribute_increase_decrease_view_initial_value="1"
+            app:attribute_increase_decrease_view_min_value="1"
+            app:attribute_increase_decrease_view_title="@string/scan_to_pay_split_by"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/amountNormalInputView" />
+
+        <styleguide.forms.IncreaseDecreaseView
+            android:id="@+id/payForIncreaseDecreaseView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_increase_decrease_view_description="@string/scan_to_pay_number_of_people"
+            app:attribute_increase_decrease_view_initial_value="1"
+            app:attribute_increase_decrease_view_max_value="1"
+            app:attribute_increase_decrease_view_min_value="1"
+            app:attribute_increase_decrease_view_title="@string/scan_to_pay_pay_for"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/splitByIncreaseDecreaseView" />
+
+        <Button
+            android:id="@+id/applySplitButton"
+            style="@style/PrimaryButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/scan_to_pay_apply_split"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

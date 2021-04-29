@@ -1,0 +1,28 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0610",
+      "resCde": "00000",
+      "resMsg": "",
+      "serVer": "2.0"
+    },
+    "payData": {
+      "txnRef": "15119545107295",
+      "actNo": "9050535844",
+      "firstName": "bob",
+      "surname": "cousy",
+      "nickName": "bob",
+      "cellNo": "0841231738",
+      "amt": {
+        "curr": "R",
+        "amt": "50.00"
+      },
+      "accessPin": "******",
+      "myRef": "ref",
+      "showBene": "N",
+      "actType": "Savings account",
+      "acceptTerms": "Y",
+      "cashSendPlus": false
+    }
+  }
+}

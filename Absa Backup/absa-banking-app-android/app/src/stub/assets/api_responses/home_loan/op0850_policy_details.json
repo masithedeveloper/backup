@@ -1,0 +1,187 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0850",
+      "resCde": "00000",
+      "resMsg": "SUCCESS",
+      "serVer": "2.0",
+      "expTrace": null
+    },
+    "payData": {
+      "inceptionDate": "2019-06-01",
+      "expiryDate": "2095-05-31",
+      "rolePlayerJsonBean": [
+        {
+          "firstName": "MAHESH",
+          "surName": "SHINDE",
+          "dateOfBirth": "1980-05-01",
+          "coverAmount": {
+            "curr": "R",
+            "amt": "600,000"
+          },
+          "premiumAmount": {
+            "curr": "R",
+            "amt": "378.00"
+          },
+          "description": "Ultimate Protector Death Benefit",
+          "isMainMember": "true",
+          "title": "MR."
+        },
+        {
+          "firstName": "MAHESH",
+          "surName": "SHINDE",
+          "dateOfBirth": "1980-05-01",
+          "coverAmount": {
+            "curr": "R",
+            "amt": "600,000"
+          },
+          "premiumAmount": {
+            "curr": "R",
+            "amt": "37.43"
+          },
+          "description": "Accidental Disability Benefit",
+          "isMainMember": "true",
+          "title": "MR."
+        }
+      ],
+      "componentsJsonBean": [
+        null
+      ],
+      "dtoJsonBean": {
+        "policyDescription": "Ultimate Protector",
+        "policyNumber": "6440890865",
+        "coverAmount": {
+          "curr": "R",
+          "amt": ""
+        },
+        "premiumAmount": {
+          "curr": "R",
+          "amt": ""
+        },
+        "policyStatus": "",
+        "policyType": "classicLife",
+        "processingType": "",
+        "manageClaims": "",
+        "financialInstitRef": null,
+        "productCode": "UL01",
+        "renewDate": null
+      },
+      "claimTypeST": null,
+      "numberOfBenefits": 3,
+      "noOfRolePlayers": 1,
+      "policyFee": {
+        "curr": "R",
+        "amt": "10.00"
+      },
+      "paymentDTO": {
+        "sourceOfFund": "20",
+        "bankName": "ABSA BANK LIMITED",
+        "accountHolderName": "M SHINDE",
+        "accountNumber": "9051154504",
+        "accountType": "savingsAccount",
+        "branchName": "ABSA ELECTRONIC SETTLEMENT CNT",
+        "branchCode": "632005",
+        "nextPremiumDate": "2019-09-01",
+        "premiumFrequency": "12",
+        "annualPremiumIncreaseRate": "5"
+      },
+      "wsCoverDetailsList": null,
+      "lifeBeneficiaries": [
+        {
+          "title": "01",
+          "firstName": "KLAAS",
+          "surname": "KABINI",
+          "initials": "K",
+          "idType": "00",
+          "idNumber": "",
+          "dateOfBirth": "2001-08-13",
+          "relationship": "SPOU",
+          "lifeClientCode": "0001061401",
+          "cellphoneNumber": "",
+          "emailAddress": "",
+          "address": {
+            "addressLine1": "270 REPUBLIC",
+            "addressLine2": "",
+            "suburbRsa": "CENTURION",
+            "town": "CENTURION",
+            "postalCode": "0046"
+          },
+          "roleNumber": "4",
+          "allocation": "25",
+          "fullName": "MR KLAAS KABINI"
+        },
+        {
+          "title": "01",
+          "firstName": "MYRIC",
+          "surname": "SEPTEMBER",
+          "initials": "M",
+          "idType": "00",
+          "idNumber": "",
+          "dateOfBirth": "1993-08-03",
+          "relationship": "BROT",
+          "lifeClientCode": "0001061347",
+          "cellphoneNumber": "",
+          "emailAddress": "",
+          "address": {
+            "addressLine1": "270 REPUBLIC",
+            "addressLine2": "270 REPUBLIC",
+            "suburbRsa": "SANDTON CITY",
+            "town": "RANDBURG",
+            "postalCode": "2194"
+          },
+          "roleNumber": "1",
+          "allocation": "25",
+          "fullName": "MR MYRIC SEPTEMBER"
+        },
+        {
+          "title": "03",
+          "firstName": "ANNI",
+          "surname": "PARKER",
+          "initials": "A",
+          "idType": "00",
+          "idNumber": "A636374",
+          "dateOfBirth": "1992-12-28",
+          "relationship": "SPOU",
+          "lifeClientCode": "0001061345",
+          "cellphoneNumber": "",
+          "emailAddress": "ANNI@ABSA.CO.ZA",
+          "address": {
+            "addressLine1": "270 REPUBLIC",
+            "addressLine2": "270 REPUBLIC",
+            "suburbRsa": "RANDBURG",
+            "town": "RANDBURG",
+            "postalCode": "2194"
+          },
+          "roleNumber": "2",
+          "allocation": "25",
+          "fullName": "MISS ANNI PARKER"
+        },
+        {
+          "title": "01",
+          "firstName": "GAURAV",
+          "surname": "DUA",
+          "initials": "G",
+          "idType": "03",
+          "idNumber": "W637478",
+          "dateOfBirth": "1995-10-19",
+          "relationship": "SON",
+          "lifeClientCode": "0001061328",
+          "cellphoneNumber": "",
+          "emailAddress": "",
+          "address": {
+            "addressLine1": "270 REPUBLIC",
+            "addressLine2": "270 REPUBLIC",
+            "suburbRsa": "RANDBURG",
+            "town": "RANDBURG",
+            "postalCode": "2194"
+          },
+          "roleNumber": "3",
+          "allocation": "25",
+          "fullName": "MR GAURAV DUA"
+        }
+      ],
+      "maxBenAllowed": "5",
+      "noOfBeneficiaries": "4"
+    }
+  }
+}

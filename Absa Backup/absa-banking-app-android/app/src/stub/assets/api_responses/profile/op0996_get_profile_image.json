@@ -1,0 +1,17 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0996",
+      "resCde": "00000",
+      "serVer": "2.0"
+    },
+    "payData": {
+      "accessAccount": "9050993953",
+      "accountImage": "null",
+      "backgroundImageIndex": "4",
+      "mimeType": "JPG",
+      "userNumber": "1",
+      "imageName": "RmnFqQM76VIw23efQOLSPYdY8eLraqb2ludWZwsPsxw\u003d"
+    }
+  }
+}

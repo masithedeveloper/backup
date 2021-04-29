@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="attribute_is_dark" format="boolean" />
+    <attr name="attribute_image" format="reference" />
+    <attr name="attribute_icon" format="reference" />
+    <attr name="attribute_caption_color" format="color" />
+    <attr name="attribute_editable" format="boolean" />
+    <attr name="attribute_description_text" format="string" />
+    <attr name="attribute_is_checked" format="boolean" />
+    <attr name="attribute_title" format="string" />
+    <attr name="attribute_title_text" format="string" />
+    <attr name="attribute_hint_text" format="string" />
+    <attr name="attribute_error_text" format="string" />
+    <attr name="attribute_view_error_message" format="string" />
+    <attr name="attribute_content" format="string" />
+    <attr name="attribute_is_required" format="boolean" />
+    <attr name="attribute_is_error_visible" format="boolean" />
+    <attr name="attribute_should_show_check_box" format="boolean" />
+    <attr name="attribute_mask" format="string" />
+    <attr name="attribute_selector_type" format="enum">
+        <enum name="NONE" value="0" />
+        <enum name="SHORT_LIST" value="1" />
+        <enum name="LONG_LIST" value="2" />
+        <enum name="DATE" value="3" />
+        <enum name="CURRENCY" value="4" />
+        <enum name="CURRENCY_DECIMAL" value="5" />
+        <enum name="CONTACT" value="6" />
+        <enum name="GENERIC_SELECTOR" value="7" />
+        <enum name="SEARCHABLE_LONG_LIST" value="8" />
+    </attr>
+
+    <declare-styleable name="FloatingActionButtonView">
+        <attr name="attribute_title_text" />
+        <attr name="attribute_is_light" format="boolean" />
+        <attr name="attribute_is_title_light" format="boolean" />
+        <attr name="attribute_icon" />
+        <attr name="attribute_content_description" format="string" />
+        <attr name="attribute_constant_day_night_color" format="boolean" />
+        <attr name="attribute_day_night_color" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="OfferView">
+        <attr name="attribute_is_dark" />
+        <attr name="attribute_image" />
+        <attr name="attribute_button_text" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="AlertView">
+        <attr name="attribute_is_dark" />
+        <attr name="attribute_image" />
+    </declare-styleable>
+
+    <declare-styleable name="RoundedImageView">
+        <attr name="attribute_mask_drawable" format="reference" />
+        <attr name="attribute_border_drawable" format="reference" />
+        <attr name="attribute_desaturate_on_press" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="ProgressIndicatorView">
+        <attr name="attribute_previous_step" format="integer" />
+        <attr name="attribute_next_step" format="integer" />
+        <attr name="attribute_steps" format="integer" />
+        <attr name="attribute_show_step_count" format="boolean" />
+        <attr name="attribute_alternative_step_text" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="CardView">
+        <attr name="attribute_image" />
+    </declare-styleable>
+
+    <declare-styleable name="ProfileView">
+        <attr name="attribute_image" />
+    </declare-styleable>
+
+    <declare-styleable name="BeneficiaryView">
+        <attr name="attribute_is_header" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="LargeCardView">
+        <attr name="attribute_is_dark" />
+    </declare-styleable>
+
+    <declare-styleable name="OptionActionButtonView">
+        <attr name="attribute_caption" format="string" />
+        <attr name="attribute_show_arrow" format="boolean" />
+        <attr name="attribute_icon" />
+        <attr name="attribute_no_tint_day_night_icon" format="boolean" />
+        <attr name="attribute_caption_color" />
+        <attr name="device_icon" format="reference" />
+        <attr name="attribute_sub_caption" format="string" />
+        <attr name="attribute_right_icon" format="reference|string" />
+        <attr name="attribute_background_image" format="reference|string" />
+    </declare-styleable>
+
+    <declare-styleable name="SelectAccountView">
+        <attr name="attribute_text" format="string" />
+        <attr name="attribute_sub_text" format="string" />
+        <attr name="attribute_is_selected" format="boolean" />
+        <attr name="attribute_icon" />
+    </declare-styleable>
+
+    <declare-styleable name="ToggleView">
+        <attr name="attribute_toggle_text" format="string" />
+        <attr name="attribute_bottom_text" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="ImageTextCheckBoxView">
+        <attr name="attribute_image" />
+    </declare-styleable>
+
+    <declare-styleable name="CheckBoxView">
+        <attr name="attribute_is_checked" />
+        <attr name="attribute_description" />
+        <attr name="attribute_view_error_message" />
+        <attr name="attribute_is_error_visible" />
+        <attr name="attribute_is_required" />
+        <attr name="android:contentDescription" />
+    </declare-styleable>
+
+    <declare-styleable name="CheckBoxWithDescriptionView">
+        <attr name="attribute_is_checked" />
+        <attr name="attribute_description" />
+        <attr name="attribute_secondary_description" format="string" />
+        <attr name="attribute_view_error_message" />
+        <attr name="attribute_is_error_visible" />
+        <attr name="attribute_is_required" />
+        <attr name="android:contentDescription" />
+    </declare-styleable>
+
+    <declare-styleable name="SliderView">
+        <attr name="attribute_start_text" format="string" />
+        <attr name="attribute_end_text" format="string" />
+        <attr name="attribute_max_value" format="integer" />
+        <attr name="attribute_progress_value" format="integer" />
+        <attr name="attribute_increment_value" format="integer" />
+        <attr name="android:contentDescription" />
+    </declare-styleable>
+
+    <declare-styleable name="TitleAndDescriptionView">
+        <attr name="attribute_title" />
+        <attr name="attribute_description" format="string" />
+        <attr name="android:textColor" />
+        <attr name="attribute_title_size" format="dimension" />
+        <attr name="attribute_description_size" format="dimension" />
+        <attr name="android:gravity" />
+        <attr name="android:contentDescription" />
+    </declare-styleable>
+
+    <declare-styleable name="AccountStatusView">
+        <attr name="attribute_account_name" format="string" />
+        <attr name="attribute_account_number" format="string" />
+        <attr name="android:textColor" />
+        <attr name="attribute_account_name_size" format="dimension" />
+        <attr name="attribute_account_number_size" format="dimension" />
+        <attr name="android:contentDescription" />
+    </declare-styleable>
+
+    <declare-styleable name="DescriptionView">
+        <attr name="attribute_description" />
+        <attr name="android:contentDescription" />
+        <attr name="android:gravity" />
+        <attr name="android:textSize" />
+        <attr name="android:textColor" />
+    </declare-styleable>
+
+    <declare-styleable name="CenteredTitleView">
+        <attr name="android:textColor" />
+        <attr name="android:textSize" />
+        <attr name="attribute_title" />
+        <attr name="android:contentDescription" />
+    </declare-styleable>
+
+    <declare-styleable name="HeadingView">
+        <attr name="attribute_heading" format="string" />
+        <attr name="android:textColor" />
+        <attr name="android:contentDescription" />
+    </declare-styleable>
+
+    <declare-styleable name="BulletItemView">
+        <attr name="attribute_content" />
+        <attr name="android:textColor" />
+        <attr name="attribute_is_light" />
+        <attr name="android:contentDescription" />
+        <attr name="attribute_bulletImage" format="reference" />
+        <attr name="attribute_text_style" format="integer" />
+        <attr name="attribute_string_to_highlight" format="string" />
+        <attr name="attribute_is_string_underlined" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="FilterAndSearchView">
+        <attr name="attribute_calender_content_description" format="string" />
+        <attr name="attribute_search_content_description" format="string" />
+        <attr name="attribute_search_text" format="string" />
+        <attr name="android:contentDescription" />
+        <attr name="attribute_enable_dark_background" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="LineItemView">
+        <attr name="attribute_label_text" format="string" />
+        <attr name="attribute_content_text" format="string" />
+        <attr name="attribute_max_lines" format="integer" />
+        <attr name="android:textColor" />
+        <attr name="android:contentDescription" />
+    </declare-styleable>
+
+    <declare-styleable name="HeadingAndActionView">
+        <attr name="attribute_primary_label_text" format="string" />
+        <attr name="attribute_primary_action_text" format="string" />
+        <attr name="attribute_primary_action_color" format="integer" />
+        <attr name="android:textColor" />
+        <attr name="android:contentDescription" />
+    </declare-styleable>
+
+    <declare-styleable name="PrimaryContentAndLabelView">
+        <attr name="attribute_primary_content" format="string" />
+        <attr name="attribute_primary_label" format="string" />
+        <attr name="attribute_is_primary_check_box_checked" format="boolean" />
+        <attr name="attribute_should_show_check_box" />
+        <attr name="android:contentDescription" />
+    </declare-styleable>
+
+    <declare-styleable name="SecondaryContentAndLabelView">
+        <attr name="attribute_secondary_content" format="string" />
+        <attr name="attribute_secondary_label" format="string" />
+        <attr name="attribute_is_secondary_check_box_checked" format="boolean" />
+        <attr name="attribute_should_show_check_box" />
+        <attr name="android:textColor" />
+    </declare-styleable>
+
+    <declare-styleable name="TertiaryContentAndLabelView">
+        <attr name="attribute_tertiary_content" format="string" />
+        <attr name="attribute_is_tertiary_check_box_checked" format="boolean" />
+        <attr name="android:contentDescription" />
+        <attr name="attribute_should_show_check_box" />
+        <attr name="attribute_should_show_start_tick" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="PrimaryContentAndLabelWithImageView">
+        <attr name="attribute_primary_with_image_content" format="string" />
+        <attr name="attribute_primary_with_image_label" format="string" />
+        <attr name="attribute_secondary_image_visible" format="boolean" />
+        <attr name="attribute_secondary_image" format="integer" />
+        <attr name="attribute_disable_click_animations" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="RoundedSelectorView">
+        <attr name="attribute_image" />
+        <attr name="attribute_hint_text" />
+        <attr name="attribute_description_text" />
+        <attr name="attribute_error_text" />
+        <attr name="attribute_selector_type" />
+        <attr name="android:contentDescription" />
+        <attr name="android:inputType" />
+        <attr name="android:maxLength" />
+        <attr name="attribute_mask" />
+    </declare-styleable>
+
+    <declare-styleable name="LargeInputView">
+        <attr name="attribute_image" />
+        <attr name="attribute_editable" />
+        <attr name="attribute_title_text" />
+        <attr name="attribute_hint_text" />
+        <attr name="attribute_description_text" />
+        <attr name="attribute_error_text" />
+        <attr name="attribute_selector_type" />
+        <attr name="android:inputType" />
+        <attr name="android:contentDescription" />
+        <attr name="android:maxLength" />
+        <attr name="android:digits" />
+        <attr name="attribute_mask" />
+    </declare-styleable>
+
+    <declare-styleable name="NormalInputView">
+        <attr name="attribute_image" />
+        <attr name="attribute_editable" />
+        <attr name="attribute_title_text" />
+        <attr name="attribute_hint_text" />
+        <attr name="attribute_description_text" />
+        <attr name="attribute_error_text" />
+        <attr name="attribute_selector_type" />
+        <attr name="android:contentDescription" />
+        <attr name="android:inputType" />
+        <attr name="android:maxLength" />
+        <attr name="android:digits" />
+        <attr name="attribute_mask" />
+    </declare-styleable>
+
+    <declare-styleable name="SmallInputView">
+        <attr name="attribute_image" />
+        <attr name="attribute_editable" />
+        <attr name="attribute_title_text" />
+        <attr name="attribute_hint_text" />
+        <attr name="attribute_description_text" />
+        <attr name="attribute_error_text" />
+        <attr name="attribute_selector_type" />
+        <attr name="android:contentDescription" />
+        <attr name="android:inputType" />
+        <attr name="android:maxLength" />
+        <attr name="android:digits" />
+        <attr name="attribute_mask" />
+    </declare-styleable>
+
+    <declare-styleable name="EditBeneficiaryInputView">
+        <attr name="attribute_image" />
+        <attr name="attribute_editable" />
+        <attr name="attribute_title_text" />
+        <attr name="attribute_hint_text" />
+        <attr name="attribute_description_text" />
+        <attr name="attribute_error_text" />
+        <attr name="attribute_selector_type" />
+        <attr name="android:inputType" />
+        <attr name="android:maxLength" />
+        <attr name="android:contentDescription" />
+        <attr name="android:digits" />
+        <attr name="attribute_mask" />
+    </declare-styleable>
+
+    <declare-styleable name="DividerView">
+        <attr name="android:background" />
+    </declare-styleable>
+
+    <declare-styleable name="CollapsingAppBarView">
+        <attr name="attribute_app_bar_title" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="RadioButtonView">
+        <attr name="attribute_is_error_visible" />
+        <attr name="attribute_is_required" />
+        <attr name="attribute_error_text" />
+        <attr name="attribute_radio_margin" format="dimension" />
+        <attr name="android:contentDescription" />
+        <attr name="android:button" />
+        <attr name="android:orientation" />
+    </declare-styleable>
+
+    <declare-styleable name="KeypadView">
+        <attr name="attribute_forgot_passcode_text" format="string" />
+        <attr name="attribute_red_theme" format="boolean" />
+        <attr name="bottomLeftSpecialText" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="MaskedEditText">
+        <attr name="mask" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="SearchView">
+        <attr name="attribute_filter_button" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="ContactRadioEditView">
+        <attr name="attribute_error_text" />
+        <attr name="attribute_is_error_visible" />
+        <attr name="attribute_is_required" />
+        <attr name="android:contentDescription" />
+        <attr name="android:textColor" />
+        <attr name="android:text" />
+        <attr name="android:hint" />
+        <attr name="android:textAppearance" />
+        <attr name="textAllCaps" />
+        <attr name="android:textAllCaps" />
+        <attr name="android:paddingLeft" />
+        <attr name="android:layout_marginTop" />
+        <attr name="android:button" />
+    </declare-styleable>
+
+    <declare-styleable name="OfferBannerView">
+        <attr name="attribute_background_drawable" format="reference" />
+        <attr name="attribute_apply_button_text" format="reference|string" />
+        <attr name="attribute_secondary_button_text" format="reference|string" />
+        <attr name="attribute_primary_button_text" format="reference|string" />
+        <attr name="attribute_offer_title_text" format="reference|string" />
+        <attr name="attribute_offer_content_text" format="reference|string" />
+    </declare-styleable>
+
+    <declare-styleable name="NotificationMethodView">
+        <attr name="attribute_title" />
+    </declare-styleable>
+
+    <declare-styleable name="ContactView">
+        <attr name="attribute_contact_name" format="string" />
+        <attr name="attribute_contact_number" format="string" />
+        <attr name="attribute_icon" />
+    </declare-styleable>
+
+    <declare-styleable name="NumberedListItem">
+        <attr name="attribute_number" format="string" />
+        <attr name="attribute_content" />
+    </declare-styleable>
+
+    <declare-styleable name="ArticleCardView">
+        <attr name="attribute_image_resource" format="reference" />
+        <attr name="attribute_is_left_aligned" format="boolean" />
+        <attr name="attribute_image_content_text" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="SlideToRevealView">
+        <attr name="attribute_action_description_text" format="string" />
+        <attr name="attribute_show_divider" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="IncreaseDecreaseView">
+        <attr name="attribute_increase_decrease_view_title" format="string" />
+        <attr name="attribute_increase_decrease_view_description" format="string" />
+        <attr name="attribute_increase_decrease_view_min_value" format="integer" />
+        <attr name="attribute_increase_decrease_view_max_value" format="integer" />
+        <attr name="attribute_increase_decrease_view_initial_value" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="IconButtonView">
+        <attr name="attribute_icon" />
+        <attr name="attribute_title" />
+        <attr name="android:background" />
+    </declare-styleable>
+
+    <declare-styleable name="ContentRadioButtonView">
+        <attr name="android:text" />
+    </declare-styleable>
+</resources>

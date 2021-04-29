@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/grp1">
+        <item
+            android:id="@+id/camera"
+            android:icon="@drawable/ic_photo_camera_black"
+            android:title="@string/camera" />
+        <item
+            android:id="@+id/upload"
+            android:icon="@drawable/ic_photo_library_black"
+            android:title="@string/photo_library" />
+    </group>
+    <group android:id="@+id/grp2">
+        <item
+            android:id="@+id/delete"
+            android:icon="@drawable/ic_remove_circle_black"
+            android:title="@string/remove" />
+    </group>
+</menu>

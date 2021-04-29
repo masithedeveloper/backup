@@ -1,0 +1,21 @@
+{
+  "header": {
+    "statuscode": "0",
+    "userAgent": "ANDROID - 6.20.0",
+    "jsessionid": "l9FcE2aGKVzZmvRwhxbOodpTdDQerriI-V3VKow5",
+    "esessionid": "28d4b1db-8274-3f24-b864-0f0cbf3d58bf",
+    "service": "CashSendBeneficiaryManagementFacade",
+    "operation": "ChangeCashSendBeneficiary",
+    "channel": "S",
+    "timestamp": "2021-02-15 19:40:44.671",
+    "sourceip": "22.240.44.100",
+    "accessAccount": "4047995967",
+    "userNumber": "1",
+    "nonce": "j1CnjHpCJmROZwhNHACeGEc7bE5dlPCWyG7IIlvfSNo",
+    "language": "en",
+    "organization": "ABSA",
+    "brand": "ABSA",
+    "resultMessages": []
+  },
+  "transactionDateTime": "2021-02-15"
+}

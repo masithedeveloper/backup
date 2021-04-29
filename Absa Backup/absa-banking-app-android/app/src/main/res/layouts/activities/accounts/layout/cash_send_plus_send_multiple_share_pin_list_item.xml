@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/beneficiaryNameTextView"
+        style="@style/NormalTextMediumDark"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/medium_space"
+        android:layout_marginTop="@dimen/medium_space"
+        app:attribute_primary_label="@string/beneficiary"
+        app:layout_constraintEnd_toStartOf="@+id/amountTextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Rofhiwa Sikhauli" />
+
+    <TextView
+        android:id="@+id/amountTextView"
+        style="@style/LargeTextMediumDark"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/medium_space"
+        android:layout_marginEnd="@dimen/medium_space"
+        app:attribute_primary_label="@string/beneficiary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="R 1000.00" />
+
+    <styleguide.content.PrimaryContentAndLabelView
+        android:id="@+id/accessPinPrimaryContentAndLabelView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/medium_space"
+        app:attribute_primary_content="@string/cash_send_plus_atm_access_pin"
+        app:layout_constraintEnd_toStartOf="@+id/shareButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/beneficiaryNameTextView"
+        tools:attribute_primary_label="123456" />
+
+    <ImageButton
+        android:id="@+id/shareButton"
+        android:layout_width="@dimen/button_height"
+        android:layout_height="@dimen/button_height"
+        android:layout_marginTop="@dimen/large_space"
+        android:layout_marginEnd="@dimen/medium_space"
+        android:background="@android:color/transparent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_share_ios_dark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/amountTextView" />
+
+    <View
+        style="@style/DividerView"
+        android:layout_width="0dp"
+        android:layout_marginTop="@dimen/medium_space"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/accessPinPrimaryContentAndLabelView" />
+</androidx.constraintlayout.widget.ConstraintLayout>

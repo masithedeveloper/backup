@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tool="http://schemas.android.com/tools">
+
+    <ScrollView style="@style/ScrollView">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:animateLayoutChanges="true">
+
+            <styleguide.content.TitleAndDescriptionView
+                android:id="@+id/fundTypesTextView"
+                style="@style/HeadingTextMediumDark"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_description=""
+                app:attribute_description_size="0dp"
+                app:attribute_title_size="@dimen/heading_text_size"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tool:attribute_title="Absa Prime Equity Fund " />
+
+            <TextView
+                android:id="@+id/whatDoYouWantToDoTextView"
+                style="@style/SmallTextMediumDark"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/medium_space"
+                android:layout_marginEnd="@dimen/medium_space"
+                android:text="@string/buy_unit_trust_tax_title"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/fundTypesTextView"
+                app:layout_goneMarginEnd="@dimen/medium_space" />
+
+            <styleguide.forms.RadioButtonView
+                android:id="@+id/whatToDoRadioButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/small_space"
+                app:attribute_is_required="true"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/whatDoYouWantToDoTextView" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/intoAccountInputView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_description_text="@string/buy_unit_trust_tax_into_account_description"
+                app:attribute_hint_text="@string/select_account_hint"
+                app:attribute_selector_type="LONG_LIST"
+                app:attribute_title_text="@string/buy_unit_trust_tax_pay_into_this_account"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/whatToDoRadioButton" />
+
+            <TextView
+                android:id="@+id/registeredForTaxTextView"
+                style="@style/SmallTextMediumDark"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/medium_space"
+                android:layout_marginTop="@dimen/medium_space"
+                android:layout_marginEnd="@dimen/medium_space"
+                android:text="@string/buy_unit_trust_tax_registered_for_sa_tax"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/intoAccountInputView"
+                app:layout_goneMarginEnd="@dimen/medium_space" />
+
+            <styleguide.forms.RadioButtonView
+                android:id="@+id/registeredForTaxRadioButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/small_space"
+                app:attribute_is_required="true"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/registeredForTaxTextView" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/saTaxNumberInputView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                app:attribute_hint_text="@string/buy_unit_trust_tax_enter_tax_number"
+                app:attribute_selector_type="NONE"
+                app:attribute_title_text="@string/buy_unit_trust_tax_income_tax_number"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/registeredForTaxRadioButton" />
+
+            <TextView
+                android:id="@+id/registeredForForeignTaxTextView"
+                style="@style/SmallTextMediumDark"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/medium_space"
+                android:layout_marginTop="@dimen/medium_space"
+                android:layout_marginEnd="@dimen/medium_space"
+                android:text="@string/buy_unit_trust_tax_registered_for_foreign_tax"
+                android:visibility="gone"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/saTaxNumberInputView"
+                app:layout_goneMarginEnd="@dimen/medium_space" />
+
+            <styleguide.forms.RadioButtonView
+                android:id="@+id/registeredForForeignTaxRadioButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/small_space"
+                android:visibility="gone"
+                app:attribute_is_required="true"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/registeredForForeignTaxTextView" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/foreignTaxNumberInputView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:visibility="gone"
+                app:attribute_hint_text="@string/buy_unit_trust_tax_enter_tax_number"
+                app:attribute_selector_type="NONE"
+                app:attribute_title_text="@string/buy_unit_trust_tax_foreign_tax_number"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/registeredForForeignTaxRadioButton" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/foreignTaxCountryInputView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                app:attribute_hint_text="@string/buy_unit_trust_tax_select_country"
+                app:attribute_selector_type="LONG_LIST"
+                app:attribute_title_text="@string/buy_unit_trust_tax_foreign_tax_country"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/foreignTaxNumberInputView" />
+
+            <styleguide.buttons.Button
+                android:id="@+id/nextButton"
+                style="@style/PrimaryButton"
+                android:layout_height="wrap_content"
+                android:text="@string/next"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/foreignTaxCountryInputView"
+                app:layout_constraintVertical_bias="1" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</layout>

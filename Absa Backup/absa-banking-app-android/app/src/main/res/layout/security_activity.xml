@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/toolBar"
+            layout="@layout/header_dark" />
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/toolBar"
+                android:orientation="vertical"
+                android:paddingTop="@dimen/small_space"
+                android:showDividers="middle">
+
+                <styleguide.content.PrimaryContentAndLabelView
+                    android:id="@+id/app_version_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:attribute_primary_label="@string/absa_mobile_app" />
+
+                <styleguide.content.PrimaryContentAndLabelView
+                    android:id="@+id/certificate_number_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:attribute_primary_label="@string/entersekt_certificate_number" />
+
+                <styleguide.content.PrimaryContentAndLabelView
+                    android:id="@+id/security_connection_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:attribute_primary_label="@string/security_connection" />
+
+                <styleguide.content.PrimaryContentAndLabelView
+                    android:id="@+id/surephrase_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:attribute_primary_label="@string/surephrase" />
+
+                <styleguide.content.PrimaryContentAndLabelView
+                    android:id="@+id/imiProfileIdContentAndLabelView"
+                    style="@style/LargeTextMediumDark"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    app:attribute_primary_label="@string/feature_switching_in_app_messages" />
+
+                <styleguide.content.PrimaryContentAndLabelView
+                    android:id="@+id/csidContentAndLabelView"
+                    style="@style/LargeTextMediumDark"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    app:attribute_primary_label="@string/customer_session_id" />
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+
+        <styleguide.buttons.Button
+            android:id="@+id/btn_generateToken"
+            style="@style/PrimaryButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="@dimen/medium_space"
+            android:text="@string/button_generate_token" />
+    </LinearLayout>
+</layout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/hot_leads_navigation_graph"
+    app:startDestination="@id/hotLeadsDetailsFragment">
+
+    <fragment
+        android:id="@+id/hotLeadsDetailsFragment"
+        android:name="com.barclays.absa.banking.card.ui.hotLeads.HotLeadsDetailsFragment"
+        android:label="HotLeadsDetailsFragment"
+        tools:layout="@layout/hot_leads_details_fragment">
+        <action
+            android:id="@+id/action_hotLeadsDetailsFragment_to_hotLeadsContactDetailsFragment"
+            app:destination="@id/hotLeadsContactDetailsFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+    <fragment
+        android:id="@+id/hotLeadsContactDetailsFragment"
+        android:name="com.barclays.absa.banking.card.ui.creditCardHotLeads.HotLeadsContactDetailsFragment"
+        android:label="HotLeadsContactDetailsFragment"
+        tools:layout="@layout/hot_leads_contact_details_fragment">
+        <action
+            android:id="@+id/action_hotLeadsContactDetailsFragment_to_hotLeadsResultScreenFragment"
+            app:destination="@id/hotLeadsResultScreenFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+    <fragment
+        android:id="@+id/hotLeadsResultScreenFragment"
+        android:name="styleguide.screens.GenericResultScreenFragment"
+        android:label="GenericResultScreenFragment"
+        tools:layout="@layout/generic_results_screen_fragment" >
+        <argument
+            android:name="GenericResultScreenFragment"
+            app:argType="styleguide.screens.GenericResultScreenProperties" />
+    </fragment>
+</navigation>

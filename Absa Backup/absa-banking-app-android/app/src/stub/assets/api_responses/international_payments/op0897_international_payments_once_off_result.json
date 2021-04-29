@@ -1,0 +1,20 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0897",
+      "resCde": "00000",
+      "resMsg": "Success",
+      "serVer": "2.0"
+    },
+    "payData": {
+      "performIFTOnceOffPaymentRespDTO": {
+        "resultStatus": null,
+        "resultDetail": "Success",
+        "transactionDate": "",
+        "transactionReferenceNumber": "1234"
+      },
+      "txnStatus": "Success",
+      "txnMessage": "Success"
+    }
+  }
+}

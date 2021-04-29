@@ -1,0 +1,20 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0802",
+      "resCde": "00000",
+      "resMsg": "SUCCESS",
+      "serVer": "2.0"
+    },
+    "payData": {
+      "debitCardProductDetailList": [
+        {
+          "productDesc": "Cheques",
+          "productType": "CQ",
+          "productCode": "11003",
+          "productDescCmsKey": "ProfileManagement/CardManagement/DebitCardReplacement/Label/Cheques"
+        }
+      ]
+    }
+  }
+}

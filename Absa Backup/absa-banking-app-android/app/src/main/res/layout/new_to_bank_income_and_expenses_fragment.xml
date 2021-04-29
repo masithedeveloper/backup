@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        style="@style/ScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <styleguide.content.DescriptionView
+                android:id="@+id/tellUsMoreDescriptionView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/medium_space"
+                android:gravity="start"
+                app:attribute_description="@string/new_to_bank_new_to_bank_tell_us_more"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/sourceOfIncomeNormalInputView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_hint_text="@string/new_to_bank_source_of_income"
+                app:attribute_selector_type="LONG_LIST"
+                app:attribute_title_text="@string/new_to_bank_income_by"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tellUsMoreDescriptionView" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/employmentTypeNormalInputView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_hint_text="@string/new_to_bank_employment_type"
+                app:attribute_selector_type="LONG_LIST"
+                app:attribute_title_text="@string/new_to_bank_employment_type_is"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/sourceOfIncomeNormalInputView" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/employedSinceNormalInputView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_editable="false"
+                app:attribute_hint_text="@string/choose_date"
+                app:attribute_selector_type="DATE"
+                app:attribute_title_text="@string/new_to_bank_employed_since"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/employmentTypeNormalInputView" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/employmentSectorNormalInputView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_hint_text="@string/new_to_bank_employment_field_hint"
+                app:attribute_selector_type="LONG_LIST"
+                app:attribute_title_text="@string/new_to_bank_employment_field"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/employedSinceNormalInputView" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/occupationNormalInputView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_hint_text="@string/new_to_bank_occupation"
+                app:attribute_selector_type="LONG_LIST"
+                app:attribute_title_text="@string/new_to_bank_occupation_is"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/employmentSectorNormalInputView" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/medicalOccupationNormalInputView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                app:attribute_hint_text="@string/new_to_bank_medical_field"
+                app:attribute_selector_type="LONG_LIST"
+                app:attribute_title_text="@string/new_to_bank_medical_field_is"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/occupationNormalInputView" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/occupationLevelNormalInputView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_hint_text="@string/new_to_bank_job_level_is"
+                app:attribute_selector_type="LONG_LIST"
+                app:attribute_title_text="@string/new_to_bank_job_level_is"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/medicalOccupationNormalInputView" />
+
+            <styleguide.content.HeadingView
+                android:id="@+id/registeredForTaxHeadingView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/extra_large_space"
+                app:attribute_heading="@string/new_to_bank_are_you_registered_for_tax"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/occupationLevelNormalInputView" />
+
+            <styleguide.forms.RadioButtonView
+                android:id="@+id/registeredForTaxRadioButtonView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/small_space"
+                app:attribute_is_required="true"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/registeredForTaxHeadingView" />
+
+            <styleguide.content.HeadingView
+                android:id="@+id/foreignTaxResidentHeadingView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/medium_space"
+                app:attribute_heading="@string/new_to_bank_are_you_a_foreign_tax_resident"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/registeredForTaxRadioButtonView" />
+
+            <styleguide.forms.RadioButtonView
+                android:id="@+id/foreignTaxRadioButtonView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/small_space"
+                app:attribute_is_required="true"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/foreignTaxResidentHeadingView" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/foreignCountryNormalInputView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                app:attribute_hint_text="@string/new_to_bank_select_country"
+                app:attribute_selector_type="LONG_LIST"
+                app:attribute_title_text="@string/new_to_bank_which_country"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/foreignTaxRadioButtonView" />
+
+            <styleguide.buttons.Button
+                android:id="@+id/nextButton"
+                style="@style/PrimaryButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/new_to_bank_next"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/foreignCountryNormalInputView"
+                app:layout_constraintVertical_bias="1" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</layout>

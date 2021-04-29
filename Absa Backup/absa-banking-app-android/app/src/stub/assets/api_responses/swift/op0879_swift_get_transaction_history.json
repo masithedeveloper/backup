@@ -1,0 +1,45 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0879",
+      "resMsg": "Success",
+      "resCde": "00000",
+      "expTrace": null,
+      "serVer": "2.0"
+    },
+    "payData": {
+      "txnStatus": "Success",
+      "txnMessage": "Success",
+      "swiftTransactionHistory": [
+        {
+          "date": "2020-04-08",
+          "transactionNumber": "I81753D4FBA0",
+          "mtcnNumber": null,
+          "swiftTransactionRefNumber": "0",
+          "originatingCountry": "UNITED KINGDOM",
+          "senderName": "TESTING LYTE LTD",
+          "senderSurname": "TESTING LYTE LTD",
+          "foreignCurrencyAmount": "0.0",
+          "foreignCurrency": "GBP",
+          "totalDue": "17993.43",
+          "endorsedDocIndicator": "",
+          "transferType": "SWIFT"
+        },
+        {
+          "date": "2020-04-08",
+          "transactionNumber": "I81753D4FBA0",
+          "mtcnNumber": null,
+          "swiftTransactionRefNumber": "0",
+          "originatingCountry": "UNITED KINGDOM",
+          "senderName": "TESTING LYTE LTD",
+          "senderSurname": "TESTING LYTE LTD",
+          "foreignCurrencyAmount": "0.0",
+          "foreignCurrency": "GBP",
+          "totalDue": "17993.43",
+          "endorsedDocIndicator": "",
+          "transferType": "SWIFT"
+        }
+      ]
+    }
+  }
+}

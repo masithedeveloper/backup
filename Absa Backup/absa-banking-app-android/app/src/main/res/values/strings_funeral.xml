@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="funeral_alert_view_title">Funeral Insurance</string>
+    <string name="funeral_alert_view_description">Get peace of mind</string>
+    <string name="funeral_calendar_header">Select Debit Date</string>
+    <string name="funeral_claim_confirmation">Confirmation</string>
+</resources>

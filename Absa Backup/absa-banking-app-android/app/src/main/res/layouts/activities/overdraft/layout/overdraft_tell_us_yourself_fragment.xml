@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ScrollView
+        style="@style/ScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:animateLayoutChanges="true">
+
+            <styleguide.content.HeadingView
+                android:id="@+id/creditStatusQuestionHeadingView"
+                style="@style/NormalTextRegularDark"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_heading="@string/od_tell_us_question_one"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <styleguide.forms.RadioButtonView
+                android:id="@+id/creditStatusOptionsRadioGroup"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/creditStatusQuestionHeadingView" />
+
+            <View
+                android:id="@+id/divider2"
+                style="@style/DividerView"
+                android:layout_width="0dp"
+                android:visibility="gone"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/creditStatusOptionsRadioGroup"
+                tools:visibility="visible" />
+
+            <styleguide.content.HeadingView
+                android:id="@+id/debtReviewOptionHeadingView"
+                style="@style/NormalTextRegularDark"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                app:attribute_heading="@string/overdraft_select_reason"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/divider2"
+                tools:visibility="visible" />
+
+            <styleguide.forms.RadioButtonView
+                android:id="@+id/pastDebtReviewOptions"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/debtReviewOptionHeadingView" />
+
+            <View
+                android:id="@+id/divider13"
+                style="@style/DividerView"
+                android:layout_width="0dp"
+                android:visibility="gone"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/pastDebtReviewOptions"
+                tools:visibility="gone" />
+
+            <styleguide.content.HeadingView
+                android:id="@+id/debtReviewOptionReasonsHeadingView"
+                style="@style/NormalTextRegularDark"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                app:attribute_heading="@string/overdraft_select_reason"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/divider13"
+                tools:visibility="gone" />
+
+            <styleguide.forms.RadioButtonView
+                android:id="@+id/debtCounsellingReasons"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/debtReviewOptionReasonsHeadingView" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/wasInsolventDateSelector"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/medium_space"
+                android:visibility="gone"
+                app:attribute_editable="false"
+                app:attribute_hint_text="@string/date_of_rehabilitation"
+                app:attribute_image="@drawable/ic_calendar_dark"
+                app:attribute_selector_type="DATE"
+                app:attribute_title_text="@string/date_of_rehabilitation"
+                app:layout_constraintBottom_toTopOf="@+id/nextButton"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/debtCounsellingReasons" />
+
+            <styleguide.buttons.Button
+                android:id="@+id/nextButton"
+                style="@style/PrimaryButton"
+                android:layout_marginTop="@dimen/medium_space"
+                android:contentDescription="@string/button_next"
+                android:text="@string/next"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</layout>

@@ -1,0 +1,23 @@
+{
+  "successResponseModel" : {
+    "payData" : {
+      "referenceNumber" : "WnFKSTZMbTZ2SUV4bkFFMWFzaldzQndQeFA2eUJtMFY=",
+      "transactionVerificationType" : "SURECHECKV1_FALLBACK",
+      "notificationMethod" : "E",
+      "txnStatus" : "Success",
+      "email" : "tashinga.pemhiwa@absa.co.za",
+      "accountOnHold" : false,
+      "transactionVerificationState" : null,
+      "retries" : 0,
+      "cellnumber" : "0721195548",
+      "txnMessage" : "Success"
+    },
+    "payHdr" : {
+      "resCde" : "00000",
+      "serVer" : "2.0",
+      "expTrace" : null,
+      "resMsg" : "Success",
+      "resId" : "RES0812"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/parentConstraintLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/small_space"
+        android:paddingBottom="@dimen/small_space"
+        tools:layout_width="match_parent">
+
+        <TextView
+            android:id="@+id/branchOrAtmTextView"
+            style="@style/LargeTextMediumDark"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/small_space"
+            android:layout_marginEnd="@dimen/extra_extra_large_space"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/atmOrBranchImageView"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Branch" />
+
+        <ImageView
+            android:id="@+id/atmOrBranchImageView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/medium_space"
+            app:layout_constraintBottom_toBottomOf="@+id/branchOrAtmTextView"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/branchOrAtmTextView"
+            app:srcCompat="@drawable/ic_branch_locator" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

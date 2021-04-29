@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/rootConstraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <styleguide.content.CardView
+            android:id="@+id/cardView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/small_space"
+            android:paddingBottom="@dimen/small_space"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:id="@+id/headerDividerView"
+            style="@style/DividerView"
+            android:layout_width="0dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardView" />
+
+        <styleguide.buttons.OptionActionButtonView
+            android:id="@+id/stopCardActionButtonView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/small_space"
+            app:attribute_caption="@string/credit_card_hub_stop_and_replace"
+            app:attribute_icon="@drawable/ic_stop_card_dark"
+            app:attribute_show_arrow="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/headerDividerView" />
+
+        <styleguide.buttons.OptionActionButtonView
+            android:id="@+id/temporaryLockActionButtonView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_caption="@string/credit_card_hub_temporary_lock"
+            app:attribute_icon="@drawable/ic_lock_dark"
+            app:attribute_show_arrow="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/stopCardActionButtonView" />
+
+        <styleguide.buttons.OptionActionButtonView
+            android:id="@+id/transactionLimitActionButtonView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_caption="@string/credit_card_hub_transaction_limits"
+            app:attribute_icon="@drawable/ic_transaction_limit_dark"
+            app:attribute_show_arrow="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/temporaryLockActionButtonView" />
+
+        <styleguide.buttons.OptionActionButtonView
+            android:id="@+id/cardWhenTravellingActionButtonView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_caption="@string/credit_card_hub_when_travelling"
+            app:attribute_icon="@drawable/ic_travel_dark"
+            app:attribute_show_arrow="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/transactionLimitActionButtonView" />
+
+        <styleguide.buttons.OptionActionButtonView
+            android:id="@+id/pinRetrievalActionButtonView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_caption="@string/title_activity_retrieve_pin"
+            app:attribute_icon="@drawable/ic_pin_dark"
+            app:attribute_show_arrow="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardWhenTravellingActionButtonView" />
+
+        <styleguide.buttons.OptionActionButtonView
+            android:id="@+id/viewCardDetailsActionButtonView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_caption="@string/title_activity_view_card_details"
+            app:attribute_icon="@drawable/ic_card_details"
+            app:attribute_show_arrow="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/pinRetrievalActionButtonView" />
+
+        <styleguide.buttons.OptionActionButtonView
+            android:id="@+id/mobilePaymentsActionButtonView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/double_large_space"
+            app:attribute_caption="@string/mobile_payments_title_mobile_payments"
+            app:attribute_icon="@drawable/ic_mobile_dark"
+            app:attribute_show_arrow="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/viewCardDetailsActionButtonView" />
+
+        <styleguide.buttons.OptionActionButtonView
+            android:id="@+id/manageSecondaryCardActionButtonView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/double_large_space"
+            android:visibility="gone"
+            app:attribute_caption="@string/secondary_card_access_title"
+            app:attribute_icon="@drawable/ic_secondary_card"
+            app:attribute_show_arrow="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/mobilePaymentsActionButtonView" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

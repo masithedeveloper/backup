@@ -1,0 +1,75 @@
+{
+  "header": {
+    "statuscode": "0",
+    "userAgent": "ANDROID - 6.20.0",
+    "jsessionid": "kAL_CdurZ5Z-7LsdtBtq6tEUdm7oldP5-qNkCWDI",
+    "esessionid": "1bb19296-67d1-3e03-8c84-2400e625c80a",
+    "service": "CashSendPaymentFacade",
+    "operation": "GetSourceAccounts",
+    "channel": "S",
+    "timestamp": "2021-02-11 12:25:59.260",
+    "sourceip": "22.240.44.100",
+    "accessAccount": "4047510559",
+    "userNumber": "1",
+    "nonce": "5rVs9mt2LSOR6NTh5EjmW0GGDjYUEhiv_gnwkfRZv6U",
+    "language": "en",
+    "organization": "ABSA",
+    "brand": "ABSA",
+    "resultMessages": [],
+    "paginationContext": {
+      "moreToCome": false,
+      "batchSize": 9999,
+      "batchSizeLimit": 9999,
+      "recordIdentity": "0",
+      "totalNoOfRecords": 5
+    }
+  },
+  "sourceAccountList": [
+    {
+      "accountNumber": "4047510559",
+      "availableBalance": "907664046709.46",
+      "balance": "907664046709.46",
+      "accountName": "Current account",
+      "accountType": "Current",
+      "accountNameAndNumber": "Current account - 4047510559",
+      "productCode": "11032"
+    },
+    {
+      "accountNumber": "9050097404",
+      "availableBalance": "0.00",
+      "balance": "0.00",
+      "accountName": "Savings account",
+      "accountType": "Savings",
+      "accountNameAndNumber": "Savings account - 9050097404",
+      "productCode": ""
+    },
+    {
+      "accountNumber": "9050098719",
+      "availableBalance": "10811.97",
+      "balance": "10861.97",
+      "accountName": "Savings account",
+      "accountType": "Savings",
+      "accountNameAndNumber": "Savings account - 9050098719",
+      "productCode": "009050"
+    },
+    {
+      "accountNumber": "9050097399",
+      "availableBalance": "17569.64",
+      "balance": "17619.64",
+      "accountName": "SAVINGS ACCOUNT",
+      "accountType": "Savings",
+      "accountNameAndNumber": "SAVINGS ACCOUNT - 9050097399",
+      "productCode": "009103"
+    },
+    {
+      "accountNumber": "9051258429",
+      "availableBalance": "0.00",
+      "balance": "0.00",
+      "accountName": "FlexiT",
+      "accountType": "Savings",
+      "accountNameAndNumber": "FlexiT - 9051258429",
+      "productCode": "009040"
+    }
+  ],
+  "userName": "Mr NJ SARDINHA"
+}

@@ -1,0 +1,29 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES2159",
+      "resCde": "00000",
+      "resMsg": "Success",
+      "serVer": "2.0",
+      "expTrace": null
+    },
+    "payData": {
+      "homeLoanDTO": {
+        "accountNumber": "8050161254",
+        "accountType": "homeLoan",
+        "description": "MORTGAGE LOAN",
+        "term": "240",
+        "contractDate": "2003-02-06",
+        "remainingTerm": "36",
+        "arrearAmount": "0",
+        "advanceAmount": "0",
+        "paymentDue": "1840.35",
+        "paymentDate": "2020-04-01",
+        "interestRate": "8.25",
+        "instalment": "1840.35"
+      },
+      "txnStatus": "Success",
+      "txnMessage": "Success"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <styleguide.content.SecondaryContentAndLabelView
+        android:id="@+id/secondaryCardNumberContentAndLabelView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:attribute_secondary_label="@string/secondary_card_summary_secondary_card"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:attribute_secondary_content="4334 2101 8900 6904" />
+
+    <styleguide.content.SecondaryContentAndLabelView
+        android:id="@+id/mandateContentAndLabelView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:attribute_secondary_label="@string/secondary_card_summary_mandate"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/secondaryCardNumberContentAndLabelView"
+        tools:attribute_secondary_content="J Snow" />
+</androidx.constraintlayout.widget.ConstraintLayout>

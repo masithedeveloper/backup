@@ -1,0 +1,18 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0868",
+      "resCde": "00000",
+      "resMsg": "Success",
+      "serVer": "2.0"
+    },
+    "payData": {
+      "performIFTPaymentRespDTO": {
+        "resultStatus": null,
+        "resultDetail": "Success"
+      },
+      "txnStatus": "Success",
+      "txnMessage": "Success"
+    }
+  }
+}

@@ -1,0 +1,106 @@
+[
+  {
+    "RequiredDocuments": [
+      {
+        "DocumentInstance": null,
+        "AvailableSubTypes": [
+          {
+            "DisplayName": "South African Temporary ID",
+            "Description": "Certified copy a temporary South African ID document",
+            "Id": "04d4d474-e8bc-4549-b538-a67e3a337f55"
+          },
+          {
+            "DisplayName": "South African ID book",
+            "Description": "Certified copy of green bar-coded South African ID book",
+            "Id": "0f73a34a-57b2-4eab-8331-53b9ffe74000"
+          },
+          {
+            "DisplayName": "South African Passport",
+            "Description": "Certified copy of a valid South African passport",
+            "Id": "c13edc0d-c780-4cb1-b67c-273b3d0c7493"
+          },
+          {
+            "DisplayName": "Driver's license",
+            "Description": "Certified copy of a valid driver's license",
+            "Id": "129cc4fe-9d95-481b-8922-d403b40e2181"
+          }
+        ],
+        "Description": "Joshua Adams: Proof Of Identification",
+        "DisplayName": "Joshua Adams: Proof Of Identification",
+        "DocumentTypeId": "4bace06d-6a25-431f-84af-378761b39a0f",
+        "IsEditable": true
+      },
+      {
+        "DocumentInstance": null,
+        "AvailableSubTypes": [
+          {
+            "DisplayName": "Affidavit",
+            "Description": "Letter from bank manager, medical practitioner, accountant, or attorney, on a formal letterhead, stating that they know the client for three years, and confirming physical address",
+            "Id": "0d679f76-035f-4ad8-b73f-3970a23058e3"
+          },
+          {
+            "DisplayName": "Official correspondence",
+            "Description": "Correspondence from a body corporate or share-block association Payslip or salary advice",
+            "Id": "86f6acce-9068-4fad-b9a0-ae21250c7a94"
+          },
+          {
+            "DisplayName": "Current lease or rental agreement",
+            "Description": "Current lease or rental agreement which is less than 3 months old",
+            "Id": "f7c7c98e-cbaf-4409-a682-aafd83b89457"
+          },
+          {
+            "DisplayName": "Municipal rates and taxes invoice",
+            "Description": "Municipal rates and taxes invoice which is less than 3 months old",
+            "Id": "981c0482-ade3-43b9-8777-112c47a9cf04"
+          },
+          {
+            "DisplayName": "Valid motor vehicle license",
+            "Description": "Valid motor vehicle license which is less than 3 months old",
+            "Id": "325f37d3-2cf8-41a9-a41b-943e376818d0"
+          },
+          {
+            "DisplayName": "Affidavit of Business Address",
+            "Description": "Letter from Accountant or Absa Bank verifying address",
+            "Id": "b2092063-c233-461f-8fe5-36596cb8bb89"
+          },
+          {
+            "DisplayName": "Mortgage statement",
+            "Description": "Mortgage statement which is less than 3 months old",
+            "Id": "2c4ffcc7-7595-4898-91ae-1f44b8d67980"
+          },
+          {
+            "DisplayName": "Insurance policy",
+            "Description": "Insurance policy which is less than 3 months old",
+            "Id": "536fe163-e81c-4a35-b4b6-0a23d9530790"
+          },
+          {
+            "DisplayName": "Telkom account",
+            "Description": "Telkom account which is less than 3 months old",
+            "Id": "6db3d282-38c0-4faa-b1a6-2b8b24c1f11e"
+          },
+          {
+            "DisplayName": "Utility bill",
+            "Description": "Utility bill which is less than 3 months old",
+            "Id": "727661a5-ed1e-4e56-b214-0695c60f44ec"
+          },
+          {
+            "DisplayName": "Valid television license",
+            "Description": "Valid television license",
+            "Id": "684eac44-cb3c-43c8-aebb-47c9f94adef9"
+          },
+          {
+            "DisplayName": "Tax return",
+            "Description": "Tax return (less than 1 year old)",
+            "Id": "e4329cfd-914b-4cf2-9c37-40237b93d757"
+          }
+        ],
+        "Description": "Joshua Adams: Proof Of Address",
+        "DisplayName": "Joshua Adams: Proof Of Address",
+        "DocumentTypeId": "b76fd003-206a-4cd5-97a3-45d3251ee1f4",
+        "IsEditable": true
+      }],
+    "CaseId": "3ea8eff1-7829-4f9d-8cb4-3adcb74244a0",
+    "DisplayName": null,
+    "IsEditable": true
+  }
+]

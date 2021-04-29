@@ -1,0 +1,40 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/menu_constraint_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <styleguide.buttons.OptionActionButtonView
+        android:id="@+id/yourWillActionButtonView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/small_space"
+        app:attribute_caption="@string/navigation_menu_your_will"
+        app:attribute_icon="@drawable/ic_document_dark"
+        app:attribute_show_arrow="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <styleguide.buttons.OptionActionButtonView
+        android:id="@+id/taxCertificatesActionButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:attribute_caption="@string/tax_certificates_menu_item"
+        app:attribute_icon="@drawable/ic_download_dark"
+        app:attribute_show_arrow="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/yourWillActionButtonView" />
+
+    <styleguide.buttons.OptionActionButtonView
+        android:id="@+id/bankConfirmationLetterActionButtonView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:attribute_caption="@string/bank_confirmation_letter"
+        app:attribute_icon="@drawable/ic_download_dark"
+        app:attribute_show_arrow="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/taxCertificatesActionButton" />
+</androidx.constraintlayout.widget.ConstraintLayout>

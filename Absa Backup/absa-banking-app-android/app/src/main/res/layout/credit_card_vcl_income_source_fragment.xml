@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:id="@+id/scrollView"
+            style="@style/ScrollView"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:fillViewport="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/incomeTextView"
+                    style="@style/SmallTextMediumDark"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/medium_space"
+                    android:text="@string/vcl_income_verification_title"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <styleguide.forms.NormalInputView
+                    android:id="@+id/bankInputView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:attribute_description_text=""
+                    app:attribute_editable="false"
+                    app:attribute_hint_text="@string/vcl_income_verification_into_bank_hint"
+                    app:attribute_selector_type="LONG_LIST"
+                    app:attribute_title_text="@string/vcl_income_verification_into_which_account_title"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/incomeTextView" />
+
+                <styleguide.forms.NormalInputView
+                    android:id="@+id/branchInputView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    app:attribute_description_text=""
+                    app:attribute_editable="false"
+                    app:attribute_hint_text="@string/vcl_income_verification_into_branch_hint"
+                    app:attribute_selector_type="LONG_LIST"
+                    app:attribute_title_text="@string/vcl_income_verification_branch_name"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/bankInputView"
+                    tools:visibility="visible" />
+
+                <TextView
+                    android:id="@+id/absaAssistanceNoticeTextView"
+                    style="@style/LargeTextRegularDark"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/medium_space"
+                    android:text="@string/vcl_income_verification_assistance_absa_message"
+                    android:visibility="gone"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/branchInputView"
+                    tools:visibility="visible" />
+
+                <styleguide.forms.NormalInputView
+                    android:id="@+id/accountNumberInputView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:digits="0123456789 "
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:inputType="number"
+                    app:attribute_description_text="@string/vcl_income_verification_into_account_number_hint"
+                    app:attribute_editable="true"
+                    app:attribute_hint_text="@string/vcl_income_verification_account_number_hint"
+                    app:attribute_mask="#### #### #### ####"
+                    app:attribute_selector_type="NONE"
+                    app:attribute_title_text="@string/vcl_income_verification_into_account_number"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/absaAssistanceNoticeTextView" />
+
+                <styleguide.forms.NormalInputView
+                    android:id="@+id/accountListInputView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:digits="0123456789 "
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    app:attribute_description_text="@string/vcl_income_verification_into_account_number_hint"
+                    app:attribute_editable="false"
+                    android:visibility="gone"
+                    app:attribute_hint_text="@string/please_select_account"
+                    app:attribute_mask="#### #### #### ####"
+                    app:attribute_selector_type="LONG_LIST"
+                    app:attribute_title_text="@string/vcl_income_verification_into_account_number"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/accountNumberInputView" />
+
+                <styleguide.forms.NormalInputView
+                    android:id="@+id/selectAccountTypeInputView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:attribute_description_text=""
+                    app:attribute_editable="false"
+                    app:attribute_hint_text="@string/select_account_type"
+                    app:attribute_selector_type="LONG_LIST"
+                    app:attribute_title_text="@string/vcl_income_verification_into_account_type"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/accountListInputView" />
+
+                <styleguide.forms.NormalInputView
+                    android:id="@+id/emailInputView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:inputType="textEmailAddress"
+                    app:attribute_description_text=""
+                    app:attribute_editable="true"
+                    app:attribute_hint_text="@string/vcl_income_verification_email_address_hint"
+                    app:attribute_selector_type="NONE"
+                    app:attribute_title_text="@string/vcl_income_verification_email_address_title"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/selectAccountTypeInputView" />
+
+                <LinearLayout
+                    android:id="@+id/accessContainer"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/medium_space"
+                    android:orientation="vertical"
+                    android:visibility="gone"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/emailInputView"
+                    tools:visibility="visible">
+
+                    <styleguide.forms.CheckBoxView
+                        android:id="@+id/acceptAccessCheckBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="0dp"
+                        app:attribute_description="@string/vcl_income_verification_grant_permission"
+                        app:attribute_is_checked="false"
+                        app:attribute_is_error_visible="false"
+                        app:attribute_is_required="true"
+                        tools:attribute_view_error_message="" />
+
+                    <View
+                        android:id="@+id/dividerView"
+                        style="@style/DividerView"
+                        android:layout_width="match_parent" />
+
+                    <TextView
+                        android:id="@+id/delayNoticeTextView"
+                        style="@style/SmallTextRegularDark"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/medium_space"
+                        android:text="@string/vcl_income_verification_tooltip" />
+
+                </LinearLayout>
+
+                <styleguide.buttons.Button
+                    android:id="@+id/continueButton"
+                    style="@style/PrimaryButton"
+                    android:layout_width="0dp"
+                    android:text="@string/continue_button"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/accessContainer"
+                    app:layout_constraintVertical_bias="1" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </ScrollView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

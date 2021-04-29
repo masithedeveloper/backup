@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            style="@style/ScrollView"
+            android:layout_height="0dp"
+            android:layout_marginBottom="@dimen/normal_space"
+            app:layout_constraintBottom_toTopOf="@id/convertPointsButton"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <styleguide.content.TitleAndDescriptionView
+                    android:id="@+id/retailPartnerTitleAndDescriptionView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:attribute_description="@string/retail_partner"
+                    app:attribute_description_size="@dimen/small_text_size"
+                    app:attribute_title_size="@dimen/heading_text_size"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <styleguide.content.TitleAndDescriptionView
+                    android:id="@+id/cardNumberTitleAndDescriptionView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:attribute_description="@string/membership_card_number"
+                    app:attribute_description_size="@dimen/small_text_size"
+                    app:attribute_title_size="@dimen/large_text_size"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/retailPartnerTitleAndDescriptionView" />
+
+                <styleguide.content.TitleAndDescriptionView
+                    android:id="@+id/amountTitleAndDescriptionView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:attribute_description="@string/amount"
+                    app:attribute_description_size="@dimen/small_text_size"
+                    app:attribute_title_size="@dimen/heading_text_size"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/cardNumberTitleAndDescriptionView" />
+
+                <styleguide.content.TitleAndDescriptionView
+                    android:id="@+id/rewardsAccountDescriptionView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:attribute_description="@string/rewards_account"
+                    app:attribute_description_size="@dimen/small_text_size"
+                    app:attribute_title="@string/rewards_account_value"
+                    app:attribute_title_size="@dimen/large_text_size"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/amountTitleAndDescriptionView" />
+
+                <styleguide.content.TitleAndDescriptionView
+                    android:id="@+id/cellNumberDescriptionView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:attribute_description="@string/cell_number_of_recipient"
+                    app:attribute_description_size="@dimen/small_text_size"
+                    app:attribute_title_size="@dimen/large_text_size"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/rewardsAccountDescriptionView" />
+
+                <styleguide.content.DescriptionView
+                    android:id="@+id/pointsDisclaimerDescriptionView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:textSize="@dimen/small_text_size"
+                    app:attribute_description="@string/converting_to_points"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/cellNumberDescriptionView" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </ScrollView>
+
+        <styleguide.buttons.Button
+            android:id="@+id/convertPointsButton"
+            style="@style/PrimaryButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/convert_points"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

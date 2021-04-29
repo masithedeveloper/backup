@@ -1,0 +1,404 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0310",
+      "resCde": "00000",
+      "resMsg": "",
+      "serVer": "2.0"
+    },
+    "payData": {
+      "totalRecords": 0,
+      "payLst": [
+        {
+          "imageName": "_ALerhJY9-RqykYc6j2Z19szAgp3C7MZ1DuF2DNH1mw\u003d",
+          "hasImage": "N",
+          "tiebNumber": "0",
+          "benRef": "NA",
+          "myRef": "NA",
+          "isFav": "N",
+          "bankName": "ABSA BANK",
+          "lastTxnAmt": {
+            "curr": "R",
+            "amt": "200.00"
+          },
+          "lastTxnDate": "2017-07-11",
+          "benNam": "Absa1",
+          "benId": "7",
+          "txnTyp": "internal",
+          "image": "",
+          "actNo": "4047926263"
+        },
+        {
+          "imageName": "pwk5sUs8wKhEUUbKaKg69vPCXH0Q9q3AUHK8i3M_kaY\u003d",
+          "hasImage": "N",
+          "tiebNumber": "0",
+          "benRef": "Newion",
+          "myRef": "NA",
+          "isFav": "N",
+          "bankName": "AMER-SWISS",
+          "lastTxnAmt": {
+            "curr": "R",
+            "amt": "200.00"
+          },
+          "lastTxnDate": "2017-07-11",
+          "benNam": "AMER-SWISS",
+          "benId": "13",
+          "txnTyp": "business",
+          "image": "",
+          "actNo": "9050656880"
+        },
+        {
+          "imageName": "1uPBU06yfAykuc9dHgcAqhmOwqfXkJLAjjPssSLso3I\u003d",
+          "hasImage": "N",
+          "tiebNumber": "0",
+          "benRef": "NA",
+          "myRef": "NA",
+          "isFav": "N",
+          "bankName": "ABSA BANK",
+          "lastTxnAmt": {
+            "curr": "R",
+            "amt": "400.00"
+          },
+          "lastTxnDate": "2017-07-07",
+          "benNam": "Newone",
+          "benId": "2",
+          "txnTyp": "internal",
+          "image": "",
+          "actNo": "4047736319"
+        },
+        {
+          "imageName": "Z5hRKCHH9j9lR9kVpWL-fO0lIIQoS7oWXP06JhPy9Qk\u003d",
+          "hasImage": "N",
+          "tiebNumber": "0",
+          "benRef": "NA",
+          "myRef": "NA",
+          "isFav": "N",
+          "bankName": "ABSA BANK",
+          "lastTxnAmt": {
+            "curr": "R",
+            "amt": "600.00"
+          },
+          "lastTxnDate": "2017-07-07",
+          "benNam": "Absanew",
+          "benId": "3",
+          "txnTyp": "internal",
+          "image": "",
+          "actNo": "9051014576"
+        },
+        {
+          "imageName": "qvzk03Wq5QhVAXLuXvRu0ZbcBOfNeTfZM_Fi0xvg3fI\u003d",
+          "hasImage": "N",
+          "tiebNumber": "0",
+          "benRef": "NA",
+          "myRef": "NA",
+          "isFav": "N",
+          "bankName": "FIRSTRAND",
+          "lastTxnAmt": {
+            "curr": "R",
+            "amt": "600.00"
+          },
+          "lastTxnDate": "2017-07-07",
+          "benNam": "FNBNew",
+          "benId": "4",
+          "txnTyp": "external",
+          "image": "",
+          "actNo": "62111542818"
+        },
+        {
+          "imageName": "eJb12BuNOwpcicNbbDy-i5kOHMCPWFvkLrY5DZg2ewQ\u003d",
+          "hasImage": "N",
+          "tiebNumber": "0",
+          "benRef": "NA",
+          "myRef": "NA",
+          "isFav": "N",
+          "bankName": "STD S.A.",
+          "lastTxnAmt": {
+            "curr": "R",
+            "amt": "600.00"
+          },
+          "lastTxnDate": "2017-07-07",
+          "benNam": "Standard bank",
+          "benId": "5",
+          "txnTyp": "external",
+          "image": "",
+          "actNo": "70161534"
+        },
+        {
+          "imageName": "a8BNVNE-PQbDd4Swu449MdJQMD3QrvvXNOMbqjU3pAs\u003d",
+          "hasImage": "N",
+          "tiebNumber": "0",
+          "benRef": "NA",
+          "myRef": "NA",
+          "isFav": "N",
+          "bankName": "ABSA BANK",
+          "lastTxnAmt": {
+            "curr": "R",
+            "amt": "600.00"
+          },
+          "lastTxnDate": "2017-07-07",
+          "benNam": "Newabsaonme",
+          "benId": "6",
+          "txnTyp": "internal",
+          "image": "",
+          "actNo": "9050990248"
+        },
+        {
+          "imageName": "QyYaWpNjuNIRxUhIzfBSSKgfz3Zfk7dc9aECOMk2AME\u003d",
+          "tiebNumber": "0",
+          "benRef": "Na",
+          "myRef": "Na",
+          "isFav": "N",
+          "bankName": "ABSA BANK",
+          "lastTxnAmt": {
+            "curr": "R",
+            "amt": "200.00"
+          },
+          "lastTxnDate": "2017-07-07",
+          "benNam": "Saurabhd",
+          "benId": "10",
+          "txnTyp": "internal",
+          "image": "",
+          "actNo": "9050785982"
+        },
+        {
+          "imageName": "eWjB7d1tLSN2-ntVZERqCNGI-RyXNeNinTRgALlfGkg\u003d",
+          "hasImage": "N",
+          "tiebNumber": "0",
+          "benRef": "Na",
+          "myRef": "Na",
+          "isFav": "N",
+          "bankName": "ABSA BANK",
+          "lastTxnAmt": {
+            "curr": "R",
+            "amt": "600.00"
+          },
+          "lastTxnDate": "2017-07-07",
+          "benNam": "Absaonetime",
+          "benId": "11",
+          "txnTyp": "internal",
+          "image": "",
+          "actNo": "9051000561"
+        },
+        {
+          "imageName": "JrcOtelD35XntlOYvZ4doG-7aNxYvg9Cy1vqnHTdLtU\u003d",
+          "hasImage": "N",
+          "tiebNumber": "0",
+          "benRef": "Na",
+          "myRef": "Na",
+          "isFav": "N",
+          "bankName": "ABIL",
+          "lastTxnAmt": {
+            "curr": "R",
+            "amt": "600.00"
+          },
+          "lastTxnDate": "2017-07-07",
+          "benNam": "Africa Bank",
+          "benId": "12",
+          "txnTyp": "external",
+          "image": "",
+          "actNo": "20000009670"
+        },
+        {
+          "imageName": "wrJ-Rm9yE7Q8b3BuwiZNNOZbgvIzihVGgO7583wHzLY\u003d",
+          "hasImage": "N",
+          "tiebNumber": "0",
+          "benRef": "NA",
+          "myRef": "NA",
+          "isFav": "N",
+          "bankName": "ABSA BANK",
+          "lastTxnAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "lastTxnDate": "",
+          "benNam": "Absa2",
+          "benId": "8",
+          "txnTyp": "internal",
+          "image": "",
+          "actNo": "4047660954"
+        },
+        {
+          "imageName": "T8N73IfJ_wO46y-pxANhS5bveIdjQb_VDYgbD1asuHI\u003d",
+          "hasImage": "N",
+          "tiebNumber": "0",
+          "benRef": "NA",
+          "myRef": "NA",
+          "isFav": "N",
+          "bankName": "ABSA BANK",
+          "lastTxnAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "lastTxnDate": "",
+          "benNam": "Absa3",
+          "benId": "9",
+          "txnTyp": "internal",
+          "image": "",
+          "actNo": "9050538240"
+        }
+      ],
+      "cashSend": [
+        {
+          "imageName": "eUF5jJRHnRNMoSdMfO9mTuzP1p8aGstersQg7gt2MXE\u003d",
+          "hasImage": "N",
+          "tiebNumber": "1",
+          "benRef": "Transport",
+          "myRef": "Transport",
+          "isFav": "N",
+          "lastTxnAmt": {
+            "curr": "R",
+            "amt": "200.00"
+          },
+          "lastTxnDate": "2017-10-22",
+          "benNam": "John",
+          "benId": "1",
+          "image": "",
+          "actNo": "0618421767",
+          "benSurNam": "Boni"
+        },
+        {
+          "imageName": "vaRuNSzGOmTAxeOuDDIRBw16-NQID_id95t_LDrdufw\u003d",
+          "hasImage": "N",
+          "tiebNumber": "0",
+          "benRef": "0616540398",
+          "myRef": "malise",
+          "isFav": "N",
+          "lastTxnAmt": {
+            "curr": "R",
+            "amt": "200.00"
+          },
+          "lastTxnDate": "2017-07-11",
+          "benNam": "Saurabh",
+          "benId": "1",
+          "image": "",
+          "actNo": "0616540398",
+          "benSurNam": "Deshmukh"
+        }
+      ],
+      "airTime": [
+        {
+          "imageName": "vaRuNSzGOmTAxeOuDDIRBw16-NQID_id95t_LDrdufw\u003d",
+          "hasImage": "N",
+          "tiebNumber": "0",
+          "benRef": "M",
+          "myRef": "MTN",
+          "isFav": "N",
+          "lastTxnAmt": {
+            "curr": "R",
+            "amt": "200.00"
+          },
+          "lastTxnDate": "2017-07-11",
+          "benNam": "Saurabh",
+          "benId": "1",
+          "image": "",
+          "actNo": "0616540398",
+          "benSurNam": "Deshmukh"
+        },
+        {
+          "imageName": "vaRuNSzGOmTAxeOuDDIRBw16-NQID_id95t_LDrdufw\u003d",
+          "hasImage": "N",
+          "tiebNumber": "0",
+          "benRef": "C",
+          "myRef": "Cell C",
+          "isFav": "N",
+          "lastTxnAmt": {
+            "curr": "R",
+            "amt": "200.00"
+          },
+          "lastTxnDate": "2017-07-11",
+          "benNam": "Bob",
+          "benId": "1",
+          "image": "",
+          "actNo": "0781234567",
+          "benSurNam": "Dylan"
+        },
+        {
+          "imageName": "vaRuNSzGOmTAxeOuDDIRBw16-NQID_id95t_LDrdufw\u003d",
+          "hasImage": "N",
+          "tiebNumber": "0",
+          "benRef": "V",
+          "myRef": "Vodacom",
+          "isFav": "N",
+          "lastTxnAmt": {
+            "curr": "R",
+            "amt": "200.00"
+          },
+          "lastTxnDate": "2017-07-11",
+          "benNam": "Kobe",
+          "benId": "1",
+          "image": "",
+          "actNo": "0841721234",
+          "benSurNam": "Bryant"
+        }
+      ],
+      "pmtType": "Payment",
+      "latestTransactionBenLst": [
+        {
+          "imageName":"mL7wFSYmXdehhIuCq1jwlHbDKx-FBInvQUwfh6gO3kw\u003d",
+          "hasImage":"Y",
+          "tiebNumber":"1",
+          "benRef":"V",
+          "myRef":"Vodacom",
+          "isFav":"N",
+          "bankName":null,
+          "accountType":null,
+          "lastTxnAmt":{
+            "curr":"R",
+            "amt":"5.00"
+          },
+          "lastTxnDate":"2018-06-28",
+          "benNam":"Kobe",
+          "benId":"18",
+          "txnTyp":null,
+          "image":"",
+          "actNo":"0841721234",
+          "benSurNam":"Bryant",
+          "shortName":null,
+          "streetAddress":null,
+          "country":null,
+          "countryDescription":null,
+          "state":null,
+          "city":null,
+          "lastMaintainedDate":null,
+          "lastMaintainedTime":null
+        }
+      ],
+      "electricity": [
+        {
+          "imageName": "HJozwsZYyoqOZVhuZgfChA\u003d\u003d",
+          "hasImage": "N",
+          "tiebNumber": "0",
+          "benRef": "Tshwane",
+          "myRef": "Tshwane",
+          "isFav": "N",
+          "lastTxnAmt": {
+            "curr": "R",
+            "amt": "200.00"
+          },
+          "lastTxnDate": "2017-07-07",
+          "benNam": "PIETERS VAN DER WALT",
+          "benId": "1",
+          "image": "",
+          "actNo": "01050020004"
+        },
+        {
+          "imageName": "q2oFZuWfINWdkQq31eKwOA\u003d\u003d",
+          "hasImage": "N",
+          "tiebNumber": "0",
+          "benRef": "Tshwane",
+          "myRef": "Tshwane",
+          "isFav": "N",
+          "lastTxnAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "lastTxnDate": "",
+          "benNam": "MRS M JONES",
+          "benId": "2",
+          "image": "",
+          "actNo": "01050020006"
+        }
+      ]
+    }
+  }
+}

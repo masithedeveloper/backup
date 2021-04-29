@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_fixed_deposit"
+    app:startDestination="@+id/fixedDepositOpenAccountFragment">
+
+    <fragment
+        android:id="@+id/fixedDepositOpenAccountFragment"
+        android:name="com.barclays.absa.banking.fixedDeposit.FixedDepositOpenAccountFragment"
+        android:label="FixedDepositOpenAccountFragment"
+        tools:layout="@layout/fixed_deposit_open_account_fragment">
+        <action
+            android:id="@+id/action_fixedDepositOpenAccountFragment_to_fixedDepositInvestmentTermFragment"
+            app:destination="@id/fixedDepositInvestmentTermFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <action
+            android:id="@+id/action_fixedDepositOpenAccountFragment_to_fixedDepositTermsAndConditionsFragment"
+            app:destination="@id/fixedDepositTermsAndConditionsFragment" />
+        <action
+            android:id="@+id/action_fixedDepositOpenAccountFragment_to_riskBasedApproachPersonalDetailsFragment"
+            app:destination="@id/riskBasedApproachPersonalDetailsFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+    <fragment
+        android:id="@+id/fixedDepositInvestmentTermFragment"
+        android:name="com.barclays.absa.banking.fixedDeposit.FixedDepositInvestmentTermFragment"
+        android:label="FixedDepositInvestmentTermFragment"
+        tools:layout="@layout/investment_term_fragment" >
+        <argument
+            android:name="minimumMonth"
+            app:argType="integer" />
+    </fragment>
+    <fragment
+        android:id="@+id/riskBasedApproachPersonalDetailsFragment"
+        android:name="com.barclays.absa.banking.riskBasedApproach.ui.RiskBasedApproachPersonalDetailsFragment"
+        android:label="RiskBasedApproachPersonalDetailsFragment"
+        tools:layout="@layout/risk_based_approach_personal_details_fragment">
+        <action
+            android:id="@+id/action_riskBasedApproachPersonalDetailsFragment_to_fixedDepositSourceOfFundsFragment"
+            app:destination="@id/fixedDepositSourceOfFundsFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <action
+            android:id="@+id/action_riskBasedApproachPersonalDetailsFragment_to_fixedDepositNewFixedDepositFragment"
+            app:destination="@id/fixedDepositNewFixedDepositFragment" />
+        <argument
+            android:name="productCodeExtra"
+            app:argType="string" />
+        <argument
+            android:name="destinationExtra"
+            app:argType="integer" />
+    </fragment>
+    <fragment
+        android:id="@+id/fixedDepositNewFixedDepositFragment"
+        android:name="com.barclays.absa.banking.fixedDeposit.FixedDepositNewFixedDepositFragment"
+        android:label="FixedDepositNewFixedDepositFragment"
+        tools:layout="@layout/fixed_deposit_new_fixed_deposit_fragment">
+        <action
+            android:id="@+id/action_fixedDepositNewFixedDepositFragment_to_fixedDepositNewFixedDepositDetailsFragment"
+            app:destination="@id/fixedDepositNewFixedDepositDetailsFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+    <fragment
+        android:id="@+id/fixedDepositNewFixedDepositDetailsFragment"
+        android:name="com.barclays.absa.banking.fixedDeposit.FixedDepositNewFixedDepositDetailsFragment"
+        android:label="FixedDepositNewFixedDepositDetailsFragment"
+        tools:layout="@layout/fixed_deposit_new_fixed_deposit_details_fragment">
+        <action
+            android:id="@+id/action_fixedDepositNewFixedDepositDetailsFragment_to_fixedDepositInvestmentTermFragment"
+            app:destination="@id/fixedDepositInvestmentTermFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <action
+            android:id="@+id/action_fixedDepositNewFixedDepositDetailsFragment_to_fixedDepositTermsAndConditionsFragment"
+            app:destination="@id/fixedDepositTermsAndConditionsFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <action
+            android:id="@+id/action_fixedDepositNewFixedDepositDetailsFragment_to_fixedDepositSourceOfFundsFragment"
+            app:destination="@id/fixedDepositSourceOfFundsFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+    <fragment
+        android:id="@+id/fixedDepositNewFixedDepositConfirmationFragment"
+        android:name="com.barclays.absa.banking.fixedDeposit.FixedDepositNewFixedDepositConfirmationFragment"
+        android:label="FixedDepositNewFixedDepositConfirmationFragment"
+        tools:layout="@layout/fixed_deposit_new_fixed_deposit_confirmation_fragment">
+        <action
+            android:id="@+id/action_fixedDepositNewFixedDepositConfirmationFragment_to_genericResultScreenFragment"
+            app:destination="@id/genericResultScreenFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+    <fragment
+        android:id="@+id/fixedDepositTermsAndConditionsFragment"
+        android:name="com.barclays.absa.banking.fixedDeposit.FixedDepositTermsAndConditionsFragment"
+        android:label="FixedDepositTermsAndConditionsFragment"
+        tools:layout="@layout/fixed_deposit_terms_and_conditions_fragment">
+        <action
+            android:id="@+id/action_fixedDepositTermsAndConditionsFragment_to_fixedDepositNewFixedDepositConfirmationFragment"
+            app:destination="@id/fixedDepositNewFixedDepositConfirmationFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <argument
+            android:name="showAgreeCheckBox"
+            app:argType="boolean" />
+    </fragment>
+    <fragment
+        android:id="@+id/fixedDepositSourceOfFundsFragment"
+        android:name="com.barclays.absa.banking.fixedDeposit.FixedDepositSourceOfFundsFragment"
+        android:label="FixedDepositSourceOfFundsFragment"
+        tools:layout="@layout/fixed_deposit_source_of_funds_fragment" />
+    <fragment
+        android:id="@+id/genericResultScreenFragment"
+        android:name="styleguide.screens.GenericResultScreenFragment"
+        android:label="GenericResultScreenFragment"
+        tools:layout="@layout/generic_results_screen_fragment" >
+        <argument
+            android:name="GenericResultScreenFragment"
+            app:argType="styleguide.screens.GenericResultScreenProperties" />
+        <argument
+            android:name="shouldOnlyAnimateOnce"
+            app:argType="boolean"
+            android:defaultValue="false" />
+    </fragment>
+</navigation>

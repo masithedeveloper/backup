@@ -1,0 +1,26 @@
+{
+  "header": {
+    "statuscode": "0",
+    "userAgent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Mobile Safari/537.36",
+    "wfpt": null,
+    "jsessionid": "_pCBTeXZCsAgGQaeZGZ_uy4",
+    "esessionid": "3095678f4743f745f8d6",
+    "xfpt": null,
+    "service": "SecondaryCardManagementFacade",
+    "operation": "UpdateSecondaryCardMandate",
+    "channel": "I",
+    "timestamp": "2020-06-19 09:23:19.598",
+    "sourceip": "22.248.64.185",
+    "accessAccount": "9050374197",
+    "userNumber": "1",
+    "nonce": "PZpBRGJlFIEZbby_CfHLOfGV59CWJvHSJbV6Pjgmmi0",
+    "language": "en",
+    "organization": "ABSA",
+    "brand": "ABSA",
+    "applicationId": null,
+    "applicationKeyId": null,
+    "requestToken": null,
+    "resultMessages": [],
+    "paginationContext": null
+  }
+}

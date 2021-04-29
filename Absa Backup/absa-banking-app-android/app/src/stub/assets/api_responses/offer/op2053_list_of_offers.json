@@ -1,0 +1,168 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES2053",
+      "resCde": "00000",
+      "resMsg": "Success",
+      "serVer": "2.0",
+      "expTrace": null
+    },
+    "payData": {
+      "bureauData": null,
+      "showApplyCreditCard": true,
+      "displayCreditCardGadget": {
+        "offersCreditCardEnum": "CREDIT_CARD_CLI",
+        "offersCreditNewValue": "0",
+        "offersCreditExistingValue": "10000.0",
+        "offersCreditUtilizedValue": "120.1",
+        "offersCreditUnUtilizedValue": "9879.9",
+        "offersCreditCardNumber": "4787692001466015",
+        "creditLimitIncreaseAmtForCLI": "20000.0",
+        "isFreshBureauDataAvailableWithCams": "true",
+        "incomeAndExpenseDTO": {
+          "totalGrossMonthlyIncome": "0.0",
+          "totalNetMonthlyIncome": "0.0",
+          "totalMonhtlyLivingExpenses": "34.0",
+          "totalMonthlyFixedDebtInstallment": null,
+          "telephoneExpense": null,
+          "insuranceExpense": null,
+          "securityExpense": null,
+          "bureauDebtInstalmentList": null
+        }
+      },
+      "applyFlexiFuneralData": {
+        "disableFlexi": "false",
+        "validAge": "true",
+        "validAgeMin": "18",
+        "validAgeMax": "70",
+        "findOutMorePdfUrl": "https://ib.absa.co.za/absa-online/assets/Assets/Richmedia/AFS/PDF/LearnMoreFlexiFuneralCover_ENG.pdf",
+        "termsAndConditionsPdfUrl": "https://ib.absa.co.za/absa-online/assets/Assets/Richmedia/AFS/PDF/AOL_FlexiFuneralPolicy_en.pdf",
+        "lowestPremium": "50.31"
+      },
+      "overdraftGadgets": {
+        "offersOverdraftEnum": "NEW_OVERDRAFT_LIMIT",
+        "existingOverdraftLimit": "0",
+        "newOverdraftLimit": "8000"
+      },
+      "applyFuneralData": {
+        "lowestPremium": "68.72",
+        "policyFee": "10"
+      },
+      "policyFee": "10",
+      "insurancePolicyHeaders": [
+        {
+          "coverAmount": "20000.0",
+          "outstandingPremiumAmount": "0.0",
+          "monthlyPremium": "36.85",
+          "loadingAmount": "0.0",
+          "sasPremium": "0.0",
+          "planCode": "3",
+          "planCounter": "3",
+          "spousePlanCounter": "3",
+          "spousePlanCode": "3",
+          "spouseSumAssured": "20000.0",
+          "spouseBenefitPremium": "7.26",
+          "firstHHorHO": "false"
+        },
+        {
+          "coverAmount": "40000.0",
+          "outstandingPremiumAmount": "0.0",
+          "monthlyPremium": "53.27",
+          "loadingAmount": "0.0",
+          "sasPremium": "0.0",
+          "planCode": "7",
+          "planCounter": "7",
+          "spousePlanCounter": "7",
+          "spousePlanCode": "7",
+          "spouseSumAssured": "40000.0",
+          "spouseBenefitPremium": "14.25",
+          "firstHHorHO": "false"
+        },
+        {
+          "coverAmount": "60000.0",
+          "outstandingPremiumAmount": "0.0",
+          "monthlyPremium": "68.62",
+          "loadingAmount": "0.0",
+          "sasPremium": "0.0",
+          "planCode": "11",
+          "planCounter": "11",
+          "spousePlanCounter": "11",
+          "spousePlanCode": "11",
+          "spouseSumAssured": "60000.0",
+          "spouseBenefitPremium": "21.25",
+          "firstHHorHO": "false"
+        },
+        {
+          "coverAmount": "80000.0",
+          "outstandingPremiumAmount": "0.0",
+          "monthlyPremium": "91.49",
+          "loadingAmount": "0.0",
+          "sasPremium": "0.0",
+          "planCode": "15",
+          "planCounter": "15",
+          "spousePlanCounter": "15",
+          "spousePlanCode": "15",
+          "spouseSumAssured": "80000.0",
+          "spouseBenefitPremium": "28.17",
+          "firstHHorHO": "false"
+        },
+        {
+          "coverAmount": "100000.0",
+          "outstandingPremiumAmount": "0.0",
+          "monthlyPremium": "114.37",
+          "loadingAmount": "0.0",
+          "sasPremium": "0.0",
+          "planCode": "19",
+          "planCounter": "19",
+          "spousePlanCounter": "19",
+          "spouseSumAssured": "100000.0",
+          "spouseBenefitPremium": "35.01",
+          "firstHHorHO": "false"
+        }
+      ],
+      "applyUltimateProtectorData": {
+        "disableUP": false,
+        "errorCode": "1",
+        "lowestPremium": "121.05",
+        "findOutMorePdfUrl": "https://ib.absa.co.za/absa-online/assets/Assets/Richmedia/PDF/Online/TC/UltimateProtectorLearnMoreEng_Both.pdf"
+      },
+      "applyUnitTrustData": {
+        "hasUnitTrustAccount": false,
+        "allFundsMinLumpSumAmt": "1000.0",
+        "allFundsMinDebitOrderAmt": "100.0",
+        "validateClientStatus": true
+      },
+      "applyLawForYou": {
+        "disableLawForYou": "false",
+        "validAge": "true",
+        "findOutMorePdfUrl": "https://ib.absa.co.za/absa-online/assets/Assets/Richmedia/LawForYou_Brochure.pdf",
+        "termsAndConditionsPdfUrl": "https://ib.absa.co.za/absa-online/assets/Assets/Richmedia/LawForYou_TC.pdf",
+        "coverFactsheetPdfUrl": "https://ib.absa.co.za/absa-online/assets/Assets/Richmedia/ABSA_Factsheet2018.pdf",
+        "lowestPremium": "45.0",
+        "debitOrderAuthTCPdfUrl": "https://ib.absa.co.za/absa-online/assets/Assets/Richmedia/LawForYou_TermsandConditions_ENG.pdf"
+      },
+      "freeCover": {
+        "status": null,
+        "appliedCount": "29",
+        "disableFreeCover": "false",
+        "findoutMoreURL": "https://ib.absa.co.za/absa-online/assets/Assets/Richmedia/AFS/PDF/Free_cover_AOL_Read_more.pdf",
+        "termsAndConditionsURL": "https://ib.absa.co.za/absa-online/assets/Assets/Richmedia/AFS/PDF/Free_cover_Absa_Online_TC.pdf"
+      },
+      "hasUnitTrustAccount": true,
+      "allFundsMinLumpSumAmt": 1000.0,
+      "allFundsMinDebitOrderAmt": 100.0,
+      "validateClientStatus": true,
+      "applyBusinessBankOverdraft": {
+        "disableApply": "false",
+        "vclOfferAmt": "25000",
+        "moreVCLInfoUrl": "https://www.absa.co.za/business/funding-my-business/short-medium-solutions/explore/",
+        "bcaUrl": "https://www.absa.co.za/legal-and-compliance/",
+        "offersBBOverdraftEnum": "OFFERS_BB_NEW_OVERDRAFT",
+        "existingBBOverdraftLimit": "0",
+        "utilizedOverdraftLimit": "0.0"
+      },
+      "txnStatus": null,
+      "txnMessage": null
+    }
+  }
+}

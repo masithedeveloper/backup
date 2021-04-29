@@ -1,0 +1,22 @@
+{
+  "successResponseModel" : {
+    "payData" : {
+      "referenceNumber" : "MklqZ3lxbnJrM1p6TkxRQjF1MjBhaUJCVHlBQldwYlc=",
+      "transactionVerificationType" : "SURECHECKV1",
+      "txnStatus" : "Success",
+      "txnMessage" : "Success",
+      "email" : "",
+      "accountOnHold" : false,
+      "transactionVerificationState" : null,
+      "retries" : 0,
+      "cellnumber" : "0721195548"
+    },
+    "payHdr" : {
+      "resCde" : "00000",
+      "serVer" : "2.0",
+      "expTrace" : null,
+      "resMsg" : "Success",
+      "resId" : "RES0812"
+    }
+  }
+}

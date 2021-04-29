@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scrollView"
+    style="@style/ScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/startApplicationHeadingTextView"
+            style="@style/LargeTextMediumDark"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/medium_space"
+            android:text="@string/new_to_bank_student_follow_to_open_account"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <styleguide.content.BulletItemView
+            android:id="@+id/ruleOneBulletItemView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/medium_space"
+            app:attribute_bulletImage="@drawable/ic_tick_black"
+            app:attribute_content="@string/new_to_bank_student_must_be_18_27_years_old"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/startApplicationHeadingTextView" />
+
+        <styleguide.content.BulletItemView
+            android:id="@+id/ruleThreeBulletItemView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/medium_space"
+            app:attribute_bulletImage="@drawable/ic_tick_black"
+            app:attribute_content="@string/new_to_bank_student_south_african_id"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/ruleOneBulletItemView" />
+
+        <styleguide.content.BulletItemView
+            android:id="@+id/ruleTwoBulletItemView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/medium_space"
+            app:attribute_bulletImage="@drawable/ic_tick_black"
+            app:attribute_content="@string/new_to_bank_student_proof_of_address"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/ruleThreeBulletItemView" />
+
+        <styleguide.content.BulletItemView
+            android:id="@+id/ruleFourBulletItemView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/medium_space"
+            app:attribute_bulletImage="@drawable/ic_tick_black"
+            app:attribute_content="@string/new_to_bank_student_must_be_fulltime"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/ruleTwoBulletItemView" />
+
+        <styleguide.content.BulletItemView
+            android:id="@+id/ruleFiveBulletItemView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/medium_space"
+            app:attribute_bulletImage="@drawable/ic_tick_black"
+            app:attribute_content="@string/new_to_bank_student_only_sa_citizen_can_apply"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/ruleFourBulletItemView" />
+
+        <styleguide.buttons.Button
+            android:id="@+id/startApplicationButton"
+            style="@style/PrimaryButton"
+            android:text="@string/relation_banking_start_application"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/ruleFourBulletItemView"
+            app:layout_constraintVertical_bias="1" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

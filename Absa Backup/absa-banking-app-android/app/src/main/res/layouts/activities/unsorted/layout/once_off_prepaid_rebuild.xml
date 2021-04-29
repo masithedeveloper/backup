@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/header_dark" />
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/fromAccountInputView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                app:attribute_hint_text="@string/airtime_mobile_prepaid_from_account_hint"
+                app:attribute_selector_type="LONG_LIST"
+                app:attribute_title_text="@string/airtime_mobile_prepaid_from_account_header" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/mobileNetworkInputView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:attribute_hint_text="@string/airtime_mobile_network_operator_hint"
+                app:attribute_selector_type="LONG_LIST"
+                app:attribute_title_text="@string/airtime_mobile_network_operator_header" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/mobileNumberInputView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:digits="0123456789 "
+                android:inputType="number"
+                android:visibility="gone"
+                app:attribute_editable="true"
+                app:attribute_hint_text="@string/airtime_mobile_number_header"
+                app:attribute_image="@drawable/ic_beneficiary_dark_add"
+                app:attribute_mask="### ### ####"
+                app:attribute_title_text="@string/airtime_mobile_number_hint" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/prepaidTypeInputView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                app:attribute_hint_text="@string/airtime_mobile_prepaid_type_hint"
+                app:attribute_selector_type="LONG_LIST"
+                app:attribute_title_text="@string/airtime_mobile_prepaid_type_header" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/amountInputView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                app:attribute_hint_text="@string/airtime_mobile_prepaid_amount_hint"
+                app:attribute_selector_type="LONG_LIST"
+                app:attribute_title_text="@string/airtime_mobile_prepaid_amount_header" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/ownAmountInputView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:maxLength="7"
+                android:visibility="gone"
+                app:attribute_editable="true"
+                app:attribute_hint_text="@string/enter_amt_hint"
+                app:attribute_selector_type="CURRENCY"
+                app:attribute_title_text="@string/enter_amt" />
+
+            <TextView
+                android:id="@+id/onceoffdisclaimerMsg"
+                style="@style/SmallTextRegularDark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="@dimen/medium_space"
+                android:text="@string/prepaid_note" />
+        </LinearLayout>
+    </ScrollView>
+
+    <styleguide.buttons.Button
+        android:id="@+id/btnContinue"
+        style="@style/PrimaryButton"
+        android:text="@string/continue_button" />
+</LinearLayout>

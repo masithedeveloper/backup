@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/parentCoordinatorLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/offer_full_header_height"
+        android:fitsSystemWindows="true"
+        tools:background="@drawable/ic_business_evolve_large">
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:id="@+id/collapsingToolbarLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fitsSystemWindows="true"
+            app:expandedTitleGravity="center"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed"
+            app:titleEnabled="false">
+
+            <TextView
+                android:id="@+id/headerTitleTextView"
+                style="@style/HeadingTextMediumLight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/medium_space"
+                android:layout_marginTop="@dimen/dimen_64dp"
+                android:layout_marginEnd="@dimen/medium_space"
+                android:maxLines="2"
+                app:autoSizeMinTextSize="@dimen/regular_text_size"
+                app:autoSizeTextType="uniform"
+                app:layout_collapseMode="parallax"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:text="Business Evolve\nAccount" />
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/fragmentToolbar"
+                style="@style/ToolbarDarkTheme"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/actionBarHeight"
+                android:layout_gravity="top"
+                android:layout_marginBottom="@dimen/dimen_48dp"
+                app:layout_collapseMode="pin"
+                app:titleTextColor="@color/white" />
+
+            <styleguide.bars.TabBarView
+                android:id="@+id/evolveAppbarTabBarView"
+                style="@style/Tab"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_48dp"
+                android:layout_gravity="bottom"
+                app:layout_collapseMode="pin"
+                app:tabTextAppearance="@style/LargeTextMediumLight" />
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/evolveProductViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

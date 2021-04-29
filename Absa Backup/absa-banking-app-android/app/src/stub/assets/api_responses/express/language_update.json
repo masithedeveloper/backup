@@ -1,0 +1,20 @@
+{
+  "header": {
+    "statuscode": "0",
+    "userAgent": "ANDROID",
+    "jsessionid": "jCoKiGd-G7avpZFro3ry51xeOShhxxQ28SYAt0Om",
+    "esessionid": "6ec10247-cdb1-3902-beda-749094c77af1",
+    "service": "LanguageFacade",
+    "operation": "ChangeLanguagePreference",
+    "channel": "S",
+    "timestamp": "2020-06-18 13:14:31.195",
+    "sourceip": "22.240.44.100",
+    "accessAccount": "4047510559",
+    "userNumber": "1",
+    "nonce": "SINWmh-lSYvK19badqzzTH04eFxHl2s7q922MvL9shw",
+    "language": "af",
+    "organization": "ABSA",
+    "brand": "ABSA",
+    "resultMessages": []
+  }
+}

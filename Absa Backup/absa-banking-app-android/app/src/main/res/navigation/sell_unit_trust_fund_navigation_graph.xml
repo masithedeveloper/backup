@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sell_unit_trust_fund_navigation_graph"
+    app:startDestination="@id/sellFundDetailFragment">
+
+    <fragment
+        android:id="@+id/sellFundDetailFragment"
+        android:name="com.barclays.absa.banking.unitTrusts.ui.switchAndRedeem.RedeemFundDetailFragment"
+        android:label="SellFundDetailFragment"
+        tools:layout="@layout/sell_fund_details_fragment">
+        <action
+            android:id="@+id/action_sellFundDetailFragment_to_sellFundSummaryFragment"
+            app:destination="@id/sellFundSummaryFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/sellFundSummaryFragment"
+        android:name="com.barclays.absa.banking.unitTrusts.ui.switchAndRedeem.RedeemFundSummaryFragment"
+        android:label="RedeemFundSummaryFragment"
+        tools:layout="@layout/sell_funds_summary_fragment">
+        <action
+            android:id="@+id/action_sellFundSummaryFragment_to_genericResultScreenFragment"
+            app:destination="@id/genericResultScreenFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/genericResultScreenFragment"
+        android:name="styleguide.screens.GenericResultScreenFragment"
+        android:label="GenericResultScreenFragment"
+        tools:layout="@layout/generic_results_screen_fragment" >
+        <argument
+            android:name="GenericResultScreenFragment"
+            app:argType="styleguide.screens.GenericResultScreenProperties" />
+    </fragment>
+</navigation>

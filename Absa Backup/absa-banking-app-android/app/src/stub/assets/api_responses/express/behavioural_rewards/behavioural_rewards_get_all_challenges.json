@@ -1,0 +1,79 @@
+{
+  "header": {
+    "statuscode": "0",
+    "userAgent": "ANDROID - 6.18.0",
+    "jsessionid": "QXX8xR13EAQupNB5-JSlhDGJ6jsdW6GmY1Qybans",
+    "esessionid": "9347a527-4423-3f3d-952d-e9b22a5fce7d",
+    "service": "BehaviouralRewardsChallengesFacade",
+    "operation": "GetAllChallenges",
+    "channel": "S",
+    "timestamp": "2020-11-12 13:41:03.160",
+    "sourceip": "22.240.44.100",
+    "accessAccount": "4048291326",
+    "userNumber": "1",
+    "nonce": "UcxsqsmrOMa44QdgcsupGrQRRY-sX1x8vPBdU6dUgMM",
+    "language": "en",
+    "organization": "ABSA",
+    "brand": "ABSA",
+    "resultMessages": []
+  },
+  "challenges": [
+    {
+      "longDescription": "Provide marketing consent and you or a friend, can enoy a free meal at Steers, Burger King, Wimpy or Spur",
+      "shortDescription": "Provide  Marketing consent",
+      "challengeId": "X.1",
+      "challengeStartDate": "2020-10-20",
+      "challengeEndDate": "2020-12-30",
+      "customerChallengeStatus": {
+        "status": "ACCEPTED",
+        "progress": "",
+        "customerChallengeEndDate": "2020-12-30",
+        "customerChallengeStartDate": "2020-10-20",
+        "acceptedOnDate": "2020-11-05",
+        "voucherAllocationStatus": "AVAILABLE"
+      },
+      "active": false
+    },
+    {
+      "longDescription": "Update your details and you or a friend, can enoy a free meal at Steers, Burger King, Wimpy or Spur",
+      "shortDescription": "Verify Details",
+      "challengeId": "X.1",
+      "challengeStartDate": "2020-10-20",
+      "challengeEndDate": "2020-12-30",
+      "customerChallengeStatus": {
+        "status": "COMPLETED",
+        "progress": "",
+        "customerChallengeEndDate": "2020-12-30",
+        "customerChallengeStartDate": "2020-10-20",
+        "acceptedOnDate": "2020-10-20",
+        "voucherAllocationStatus": "AVAILABLE",
+        "voucherForChallenge": {
+          "voucherPin": "IESGZ",
+          "voucherPartnerID": "De237df",
+          "voucherIssueDate": "2020-11-12 08:28:56",
+          "voucherType": "R50 Debonairs Voucher",
+          "voucherValue": "50",
+          "voucherExpiryDate": "2020-11-19 00:00:00",
+          "voucherStatus": "Active"
+        }
+      },
+      "active": true
+    },
+    {
+      "longDescription": "Send R100 or more using the Cash Send feature on your banking App and you or a friend, can enoy a free meal at Steers, Burger King, Wimpy or Spur",
+      "shortDescription": "Cash Send",
+      "challengeId": "X.4",
+      "challengeStartDate": "2020-11-10",
+      "challengeEndDate": "2020-12-30",
+      "customerChallengeStatus": {
+        "status": "COMPLETED",
+        "progress": "0.25",
+        "customerChallengeEndDate": "2020-12-25",
+        "customerChallengeStartDate": "2020-10-20",
+        "acceptedOnDate": "2020-11-12",
+        "voucherAllocationStatus": "NOT_ELIGIBLE"
+      },
+      "active": false
+    }
+  ]
+}

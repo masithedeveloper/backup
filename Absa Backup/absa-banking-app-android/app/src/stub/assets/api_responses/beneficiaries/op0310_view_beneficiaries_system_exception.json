@@ -1,0 +1,20 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0310",
+      "resCde": "SystemException",
+      "resMsg": "Oops! We\u0027re experiencing technical difficulties. Please try again shortly.",
+      "serVer": "2.0"
+    },
+    "payData": {
+      "totalRecords": 0,
+      "payLst": [],
+      "cashSend": [],
+      "airTime": [],
+      "pmtType": "Payment",
+      "latestTransactionBenLst": [],
+      "electricity": [],
+      "westernUnion": []
+    }
+  }
+}

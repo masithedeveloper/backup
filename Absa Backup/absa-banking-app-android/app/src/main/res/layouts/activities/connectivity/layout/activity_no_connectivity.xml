@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/background_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <ImageView
+            android:id="@+id/iv_connection_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="44dp"
+            android:layout_marginStart="@dimen/medium_space"
+            android:layout_marginTop="92dp"
+            android:layout_marginEnd="@dimen/medium_space"
+            android:contentDescription=""
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_maintanance"
+            tools:targetApi="lollipop" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            style="@style/TitleTextBoldDark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp"
+            android:text="@string/connectivity_network_unavailable"
+            app:layout_constraintStart_toStartOf="@+id/iv_connection_icon"
+            app:layout_constraintTop_toBottomOf="@+id/iv_connection_icon" />
+
+        <TextView
+            android:id="@+id/tv_information_1"
+            style="@style/NormalTextMediumDark"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp"
+            android:layout_marginEnd="@dimen/medium_space"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/tv_title"
+            app:layout_constraintTop_toBottomOf="@+id/tv_title"
+            tools:text="@string/connectivity_entersekt_message" />
+
+        <TextView
+            android:id="@+id/tv_information_2"
+            style="@style/NormalTextMediumDark"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_24dp"
+            android:layout_marginEnd="@dimen/medium_space"
+            android:ellipsize="none"
+            android:scrollHorizontally="false"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/tv_title"
+            app:layout_constraintTop_toBottomOf="@+id/tv_information_1"
+            tools:text="@string/connectivity_entersekt_instruction" />
+
+        <TextView
+            android:id="@+id/tv_information_3"
+            style="@style/NormalTextMediumDark"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/dimen_24dp"
+            android:layout_marginEnd="@dimen/medium_space"
+            android:layout_marginBottom="@dimen/dimen_8dp"
+            android:ellipsize="none"
+            android:gravity="center"
+            android:scrollHorizontally="false"
+            android:visibility="visible"
+            app:layout_constraintBottom_toTopOf="@+id/btn_call_to_action"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/btn_call_to_action"
+            tools:text="Info3"
+            tools:visibility="visible" />
+
+        <styleguide.buttons.Button
+            android:id="@+id/btn_call_to_action"
+            style="@style/PrimaryButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/connectivity_okay"
+            android:textAllCaps="false"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

@@ -1,0 +1,24 @@
+{
+  "successResponseModel":{
+    "payHdr":{
+      "resId":"RES0619",
+      "resCde":"00000",
+      "resMsg":"",
+      "serVer":"2.0"
+    },
+    "payData":{
+      "txnAmt":{
+        "curr":"R",
+        "amt":"5.00"
+      },
+      "txnStatus":"SUCCESS",
+      "txnMsg":"Transaction successful",
+      "frmAcctNo":"1965776155",
+      "frmAcctTyp":"SAVINGS",
+      "cellNo":"07175867259",
+      "networkProvider":"M",
+      "airtimeTyp":"Airtime",
+      "networkProviderName":"MTN"
+    }
+  }
+}

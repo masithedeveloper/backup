@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/rl_mainBackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:background="@android:color/black">
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/vp_update_background_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/transparent_toolbar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <styleguide.widgets.RoundedImageView
+            android:id="@+id/riv_updateProfilePic"
+            android:layout_width="@dimen/profile_pager_picture_size"
+            android:layout_height="@dimen/profile_pager_picture_size"
+            android:layout_marginTop="@dimen/dimen_32dp"
+            android:background="@drawable/ic_profile_img"
+            android:contentDescription="@string/edit_background"
+            android:scaleType="centerCrop"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/toolbar"
+            app:attribute_mask_drawable="@drawable/circle_mask" />
+
+        <TextView
+            android:id="@+id/tv_profileImageInformation"
+            style="@style/Text_Subheading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/dimen_12dp"
+            android:text="@string/edit_profile_picture"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/riv_updateProfilePic" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dimen_6dp"
+            android:layout_marginEnd="@dimen/dimen_12dp"
+            android:contentDescription="@string/edit_background"
+            android:src="@drawable/ic_edit_profile_image"
+            app:layout_constraintBottom_toTopOf="@+id/tv_profileImageInformation"
+            app:layout_constraintEnd_toEndOf="@+id/riv_updateProfilePic" />
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tl_edit_background"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/dimen_16dp"
+            android:background="@android:color/transparent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:tabBackground="@android:color/transparent"
+            app:tabIndicatorHeight="0dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

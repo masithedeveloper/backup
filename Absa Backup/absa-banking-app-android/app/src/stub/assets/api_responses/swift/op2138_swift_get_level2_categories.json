@@ -1,0 +1,32 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES2138",
+      "resCde": "00000",
+      "resMsg": "Success",
+      "serVer": "2.0",
+      "expTrace": null
+    },
+    "payData": {
+      "natureOfPayment": [
+        {
+          "categoryCode": "401",
+          "categoryDescription": "Gifts",
+          "subCategoryCode": "00",
+          "subCategoryDescription": "Gifts",
+          "categoryFlow": "IN",
+          "rulingDescription": "",
+          "rulingCode": "",
+          "transferType": "SWIFT",
+          "typeOfClient": "",
+          "foreignAmount": "",
+          "localCurrencyCode": "",
+          "localAmount": "",
+          "documentsDTO": null
+        }
+      ],
+      "txnStatus": "Success",
+      "txnMessage": "Success"
+    }
+  }
+}

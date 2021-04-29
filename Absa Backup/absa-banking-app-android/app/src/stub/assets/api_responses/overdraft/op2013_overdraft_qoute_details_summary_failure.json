@@ -1,0 +1,16 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "expTrace": null,
+      "resCde": "00000",
+      "resId": "RES2013",
+      "resMsg": "Success",
+      "serVer": "2.0"
+    },
+    "payData": {
+      "quoteDetails": null,
+      "txnMessage": "Oops! We're experiencing technical difficulties. Please try again shortly.",
+      "txnStatus": "Failure"
+    }
+  }
+}

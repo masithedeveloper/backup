@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<styleguide.content.SecondaryContentAndLabelView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/secondaryContentAndLabelView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="false"
+    app:attribute_is_primary_check_box_checked="false"
+    app:attribute_should_show_check_box="true"
+    tools:attribute_secondary_content="Arnold Schwarzenegger"
+    tools:attribute_secondary_label="Absa Bank | 9050832156" />

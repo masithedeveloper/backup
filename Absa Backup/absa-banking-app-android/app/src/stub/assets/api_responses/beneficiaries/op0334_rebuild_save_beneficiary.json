@@ -1,0 +1,49 @@
+{
+
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0334",
+      "resCde": "00000",
+      "resMsg": "",
+      "serVer": "2.0"
+    },
+    "payData": {
+      "addUpdBen": {
+        "benTyp": "payment",
+        "benNoticeTyp": "No",
+        "benNam": "Kenny",
+        "myRef": "Kenny",
+        "isFav": "No",
+        "benStatusTyp": "internal",
+        "bankNam": "ABSA Bank",
+        "branchNam": "ABSA",
+        "branchCd": "632005",
+        "actNo": "9050993953",
+        "actTyp": "Savings account",
+        "myNoticeTyp": "No",
+        "benRef": "Kenny",
+        "benRecipientNam": "Kenny",
+        "benId": "19",
+        "acctAtInst": "null",
+        "instNam": "Kenny"
+      },
+      "status": "SUCCESS",
+      "msg": "",
+      "ownDto": {
+        "emaillist": [
+          ""
+        ],
+        "cellNolist": [
+          "******4788"
+        ],
+        "faxinfolist": [
+          {
+            "faxCode": "",
+            "faxNumber": ""
+          }
+        ],
+        "actualCellNo": "0825554788"
+      }
+    }
+  }
+}

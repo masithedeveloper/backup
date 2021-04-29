@@ -1,0 +1,14 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0842",
+      "resCde": "00000",
+      "resMsg": "Success",
+      "serVer": "2.0"
+    },
+    "payData": {
+      "txnStatus": "Failure",
+      "txnMessage": "H0135 031-THE \"FROM\" ACCOUNT IS NOT PART OF YOUR OWN PORTFOL"
+    }
+  }
+}

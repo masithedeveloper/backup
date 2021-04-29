@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:parentTag="androidx.constraintlayout.widget.ConstraintLayout">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/backgroundImage"
+        android:layout_width="@dimen/image_size_large"
+        android:layout_height="@dimen/image_size_large"
+        android:layout_marginStart="@dimen/tiny_space"
+        android:background="@drawable/profile_picture_background_gradient"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription" />
+
+    <styleguide.widgets.RoundedImageView
+        android:id="@+id/profileImageRoundedImageView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/_12sdp"
+        android:contentDescription="@string/profile_image_content_description"
+        android:scaleType="centerCrop"
+        android:tint="@null"
+        app:attribute_mask_drawable="@drawable/circle_mask"
+        app:layout_constraintBottom_toBottomOf="@id/backgroundImage"
+        app:layout_constraintEnd_toEndOf="@id/backgroundImage"
+        app:layout_constraintStart_toStartOf="@id/backgroundImage"
+        app:layout_constraintTop_toTopOf="@id/backgroundImage"
+        tools:src="@drawable/small_card_content" />
+
+    <TextView
+        android:id="@+id/initialsTextView"
+        style="@style/Text_RobotoBold"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/_12sdp"
+        android:background="@drawable/round_beneficiary_background"
+        android:contentDescription="@string/profile_initials_content_description"
+        android:gravity="center"
+        android:textSize="@dimen/heading_text_size"
+        android:tint="@null"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@id/backgroundImage"
+        app:layout_constraintEnd_toEndOf="@id/backgroundImage"
+        app:layout_constraintStart_toStartOf="@id/backgroundImage"
+        app:layout_constraintTop_toTopOf="@id/backgroundImage"
+        tools:text="BM" />
+
+    <TextView
+        android:id="@+id/nameTextView"
+        style="@style/LargeTextMediumDark"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/small_space"
+        android:layout_marginTop="@dimen/normal_space"
+        android:layout_marginEnd="@dimen/medium_space"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/backgroundImage"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="James Guy" />
+
+    <TextView
+        android:id="@+id/accountDescriptionTextView"
+        style="@style/SmallTextRegularDark"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/small_space"
+        android:layout_marginTop="@dimen/extra_tiny_space"
+        android:layout_marginEnd="@dimen/medium_space"
+        android:layout_marginBottom="@dimen/normal_space"
+        android:textColor="@color/dark_grey_light_theme_text_color"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/backgroundImage"
+        app:layout_constraintTop_toBottomOf="@id/nameTextView"
+        tools:text="Personal Bank Account" />
+
+    <ImageView
+        android:id="@+id/alertImageView"
+        android:layout_width="@dimen/icon_size"
+        android:layout_height="@dimen/icon_size"
+        android:contentDescription="@string/alert"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/secondaryImageImageView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_alert"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/secondaryImageImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginEnd="@dimen/medium_space"
+        android:contentDescription="@string/right_arrow"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_arrow_right_dark"
+        tools:visibility="visible" />
+
+</merge>

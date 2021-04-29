@@ -1,0 +1,16 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES20140",
+      "resCde": "00000",
+      "resMsg": "Success",
+      "serVer": "2.0",
+      "expTrace": null
+    },
+    "payData": {
+      "cardNumber": "4483850000114377",
+      "txnStatus": "Success",
+      "txnMessage": "Success"
+    }
+  }
+}

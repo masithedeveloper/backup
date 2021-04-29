@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="@dimen/_261sdp"
+    android:layout_height="@dimen/_261sdp"
+    android:background="@drawable/rounded_rectangle_background">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/avafImageView"
+        android:layout_width="@dimen/_90sdp"
+        android:layout_height="@dimen/_45sdp"
+        android:layout_marginTop="@dimen/small_space"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_avaf_vehicle_transparent"
+        android:tint="@null"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/amountDescriptionTextView"
+        style="@style/SmallTextRegularDark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/foil"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/avafImageView"
+        tools:text="Current Balance" />
+
+    <TextView
+        android:id="@+id/amountTextView"
+        style="@style/HeadingTextMediumDark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/medium_space"
+        android:gravity="center"
+        app:autoSizeMaxTextSize="@dimen/heading_text_size"
+        app:autoSizeMinTextSize="@dimen/regular_text_size"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/amountDescriptionTextView"
+        tools:text="- R 150 320.00" />
+
+    <styleguide.buttons.Button
+        android:id="@+id/actionButton"
+        style="@style/PrimaryButtonRound"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/normal_space"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/amountTextView"
+        app:layout_constraintVertical_bias="0"
+        tools:text="Settlement"
+        tools:visibility="visible" />
+
+    <styleguide.buttons.FloatingActionButtonView
+        android:id="@+id/leftFloatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/normal_space"
+        android:visibility="gone"
+        app:attribute_content_description=""
+        app:attribute_icon="@drawable/ic_transfer_light"
+        app:attribute_is_light="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/rightFloatingActionButton"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/amountTextView"
+        app:layout_constraintVertical_bias="0"
+        tools:attribute_title_text="FAB Action 2"
+        tools:visibility="visible" />
+
+    <styleguide.buttons.FloatingActionButtonView
+        android:id="@+id/rightFloatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/small_space"
+        android:visibility="gone"
+        app:attribute_content_description=""
+        app:attribute_icon="@drawable/ic_document_dark"
+        app:attribute_is_light="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/leftFloatingActionButton"
+        app:layout_constraintTop_toTopOf="@id/leftFloatingActionButton"
+        tools:attribute_title_text="FAB Action 2"
+        tools:visibility="visible" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,157 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES2053",
+      "resCde": "00000",
+      "resMsg": "Success",
+      "serVer": "2.0",
+      "expTrace": null
+    },
+    "payData": {
+      "displayCreditCardGadget": {
+        "offersCreditCardEnum": "NONE",
+        "offersCreditNewValue": "0",
+        "offersCreditExistingValue": "0",
+        "offersCreditUtilizedValue": "0",
+        "offersCreditUnUtilizedValue": "0",
+        "offersCreditCardNumber": null,
+        "creditLimitIncreaseAmtForCLI": "0",
+        "isFreshBureauDataAvailableWithCams": "false",
+        "incomeAndExpenseDTO": null
+      },
+      "cliLimitsAndIncomeExpense": null,
+      "overdraftGadgets": {
+        "offersOverdraftEnum": "NONE",
+        "existingOverdraftLimit": "0",
+        "newOverdraftLimit": "0"
+      },
+      "applyUltimateProtectorData": {
+        "disableUP": false,
+        "lowestPremium": "82.44",
+        "findOutMorePdfUrl": "https://ib.absa.co.za/absa-online/assets/Assets/Richmedia/PDF/Online/TC/UltimateProtectorLearnMoreEng_Both.pdf"
+      },
+      "applyUnitTrustData": {
+        "hasUnitTrustAccount": false,
+        "allFundsMinLumpSumAmt": "1000.0",
+        "allFundsMinDebitOrderAmt": "100.0",
+        "validateClientStatus": true
+      },
+      "bureauData": null,
+      "fixedDepositData": {
+        "minimumDeposit": null
+      },
+      "hasUnitTrustAccount": false,
+      "allFundsMinLumpSumAmt": 1000.0,
+      "allFundsMinDebitOrderAmt": 100.0,
+      "validateClientStatus": true,
+      "marketingIndicators": {
+        "nonCreditIndicator": "Y",
+        "nonCreditSmsIndicator": "Y",
+        "nonCreditEmailIndicator": "Y",
+        "nonCreditAutoVoiceIndicator": "Y",
+        "nonCreditTeleIndicator": "Y",
+        "nonCreditPostIndicator": "Y",
+        "creditIndicator": "N",
+        "creditSmsIndicator": "N",
+        "creditEmailIndicator": "N",
+        "creditAutoVoiceIndicator": "N",
+        "creditTeleIndicator": "N",
+        "creditPostIndicator": "N"
+      },
+      "applyFuneralData": {
+        "lowestPremium": "39.69",
+        "policyFee": "10"
+      },
+      "applyLawForYou": {
+        "disableLawForYou": "false",
+        "validAge": "true",
+        "findOutMorePdfUrl": "https://ib.absa.co.za/absa-online/assets/Assets/Richmedia/LawForYou_Brochure.pdf",
+        "termsAndConditionsPdfUrl": "https://ib.absa.co.za/absa-online/assets/Assets/Richmedia/LawForYou_TC.pdf",
+        "coverFactsheetPdfUrl": "https://ib.absa.co.za/absa-online/assets/Assets/Richmedia/ABSA_Factsheet2018.pdf",
+        "lowestPremium": "45.0",
+        "debitOrderAuthTCPdfUrl": "https://ib.absa.co.za/absa-online/assets/Assets/Richmedia/LawForYou_TermsandConditions_ENG.pdf"
+      },
+      "freeCover": {
+        "status": null,
+        "appliedCount": "29",
+        "disableFreeCover": "false",
+        "findoutMoreURL": "https://ib.absa.co.za/absa-online/assets/Assets/Richmedia/AFS/PDF/Free_cover_AOL_Read_more.pdf",
+        "termsAndConditionsURL": "https://ib.absa.co.za/absa-online/assets/Assets/Richmedia/AFS/PDF/Free_cover_Absa_Online_TC.pdf"
+      },
+      "policyFee": "10",
+      "insurancePolicyHeaders": [
+        {
+          "coverAmount": "20000.0",
+          "outstandingPremiumAmount": "0.0",
+          "monthlyPremium": "39.69",
+          "loadingAmount": "0.0",
+          "sasPremium": "0.0",
+          "planCode": "3",
+          "planCounter": "3",
+          "spousePlanCounter": "3",
+          "spousePlanCode": "3",
+          "spouseSumAssured": "20000.0",
+          "spouseBenefitPremium": "11.65",
+          "firstHHorHO": "false"
+        },
+        {
+          "coverAmount": "40000.0",
+          "outstandingPremiumAmount": "0.0",
+          "monthlyPremium": "58.8",
+          "loadingAmount": "0.0",
+          "sasPremium": "0.0",
+          "planCode": "7",
+          "planCounter": "7",
+          "spousePlanCounter": "7",
+          "spousePlanCode": "7",
+          "spouseSumAssured": "40000.0",
+          "spouseBenefitPremium": "22.79",
+          "firstHHorHO": "false"
+        },
+        {
+          "coverAmount": "60000.0",
+          "outstandingPremiumAmount": "0.0",
+          "monthlyPremium": "76.84",
+          "loadingAmount": "0.0",
+          "sasPremium": "0.0",
+          "planCode": "11",
+          "planCounter": "11",
+          "spousePlanCounter": "11",
+          "spousePlanCode": "11",
+          "spouseSumAssured": "60000.0",
+          "spouseBenefitPremium": "33.89",
+          "firstHHorHO": "false"
+        },
+        {
+          "coverAmount": "80000.0",
+          "outstandingPremiumAmount": "0.0",
+          "monthlyPremium": "102.45",
+          "loadingAmount": "0.0",
+          "sasPremium": "0.0",
+          "planCode": "15",
+          "planCounter": "15",
+          "spousePlanCounter": "15",
+          "spousePlanCode": "15",
+          "spouseSumAssured": "80000.0",
+          "spouseBenefitPremium": "44.83",
+          "firstHHorHO": "false"
+        },
+        {
+          "coverAmount": "100000.0",
+          "outstandingPremiumAmount": "0.0",
+          "monthlyPremium": "114.37",
+          "loadingAmount": "0.0",
+          "sasPremium": "0.0",
+          "planCode": "19",
+          "planCounter": "19",
+          "spousePlanCounter": "19",
+          "spouseSumAssured": "100000.0",
+          "spouseBenefitPremium": "35.01",
+          "firstHHorHO": "false"
+        }
+      ],
+      "txnStatus": "Success",
+      "txnMessage": "Success"
+    }
+  }
+}

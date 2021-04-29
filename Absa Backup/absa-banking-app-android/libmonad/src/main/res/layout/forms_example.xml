@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/medium_space"
+        tools:ignore="HardcodedText">
+
+        <styleguide.forms.LargeInputView
+            android:id="@+id/large_input_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/small_space"
+            app:attribute_error_text="You messed up"
+            app:attribute_hint_text="hello hi"
+            app:attribute_selector_type="SHORT_LIST"
+            app:attribute_title_text="Hello"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/normal_input_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/small_space"
+            android:digits="1234567890 -()"
+            app:attribute_description_text="Your payments will begin on this date."
+            app:attribute_editable="true"
+            app:attribute_hint_text="Choose date"
+            app:attribute_image="@drawable/ic_calendar_dark"
+            app:attribute_mask="(###)-###-####-## #"
+            app:attribute_selector_type="NONE"
+            app:attribute_title_text="Payment Date"
+            app:layout_constraintTop_toBottomOf="@id/large_input_view" />
+
+        <styleguide.forms.SmallInputView
+            android:id="@+id/small_selector_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/small_space"
+            app:attribute_description_text="Send a notification for this payment"
+            app:attribute_hint_text="Select something"
+            app:attribute_selector_type="SHORT_LIST"
+            app:layout_constraintTop_toBottomOf="@id/normal_input_view" />
+
+        <styleguide.forms.RadioButtonView
+            android:id="@+id/radio_button_view1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:attribute_is_error_visible="true"
+            app:attribute_is_required="true"
+            app:attribute_view_error_message="This check box is required"
+            app:layout_constraintTop_toBottomOf="@id/small_selector_view" />
+
+        <styleguide.forms.RadioButtonView
+            android:id="@+id/radio_button_view2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:attribute_error_text="This error will show when the validate is invoked"
+            app:attribute_is_error_visible="false"
+            app:attribute_is_required="true"
+            app:attribute_view_error_message="This check box is required"
+            app:layout_constraintTop_toBottomOf="@id/radio_button_view1" />
+
+        <styleguide.forms.RadioButtonView
+            android:id="@+id/radio_button_view3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/small_space"
+            app:attribute_error_text="This error will show when the validate is invoked"
+            app:attribute_is_required="true"
+            app:attribute_view_error_message="This check box is required"
+            app:layout_constraintTop_toBottomOf="@id/radio_button_view2" />
+
+        <include
+            android:id="@+id/input_include"
+            layout="@layout/inputs_example"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/large_space"
+            app:layout_constraintTop_toBottomOf="@+id/radio_button_view3" />
+
+        <styleguide.forms.maskedEditText.MaskedEditText
+            android:id="@+id/masked_edit_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/medium_space"
+            android:hint="Enter masked number hint"
+            android:imeOptions="actionDone"
+            android:inputType="phone"
+            android:maxLength="28"
+            android:textColor="@color/grey"
+            android:textColorHint="@color/silver"
+            app:backgroundTint="@color/silver"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/input_include"
+            app:mask="(###) ### ####-## #" />
+
+        <styleguide.forms.KeypadView
+            android:id="@+id/keypad_view"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="@dimen/medium_space"
+            android:layout_marginEnd="@dimen/medium_space"
+            app:layout_constraintDimensionRatio="9:15"
+            app:layout_constraintBottom_toTopOf="@id/searchable_normal_input_view"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/masked_edit_text" />
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/searchable_normal_input_view"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/small_space"
+            app:attribute_editable="false"
+            app:attribute_hint_text="Select Account"
+            app:attribute_selector_type="SEARCHABLE_LONG_LIST"
+            app:attribute_title_text="Pay into this Account"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

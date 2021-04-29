@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bankConfirmationLetterNavGraph"
+    app:startDestination="@id/selectAccountFragment">
+
+    <fragment
+        android:id="@+id/selectAccountFragment"
+        android:name="com.barclays.absa.banking.bankConfirmationLetter.ui.SelectAccountFragment"
+        android:label="SelectAccountFragment"
+        tools:layout="@layout/fragment_select_account">
+        <action
+            android:id="@+id/action_selectAccountFragment_to_genericResultFragment"
+            app:destination="@id/genericResultFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/genericResultFragment"
+        android:name="styleguide.screens.GenericResultScreenFragment"
+        android:label="GenericResultScreenFragment"
+        tools:layout="@layout/generic_results_screen_fragment">
+        <action
+            android:id="@+id/action_genericResultFragment_to_selectAccountFragment"
+            app:destination="@id/selectAccountFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:launchSingleTop="true"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout"
+            app:popUpTo="@+id/selectAccountFragment"
+            app:popUpToInclusive="true" />
+        <argument
+            android:name="GenericResultScreenFragment"
+            app:argType="styleguide.screens.GenericResultScreenProperties" />
+    </fragment>
+</navigation>

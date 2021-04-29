@@ -1,0 +1,38 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES2118",
+      "resCde": "00000",
+      "resMsg": "Success",
+      "serVer": "2.0",
+      "expTrace": null
+    },
+    "payData": {
+      "creditLimits": [
+        {
+          "period": "12",
+          "amount": "91500.0"
+        },
+        {
+          "period": "24",
+          "amount": "171000.0"
+        },
+        {
+          "period": "48",
+          "amount": "297500.0"
+        },
+        {
+          "period": "54",
+          "amount": "323500.0"
+        },
+        {
+          "period": "60",
+          "amount": "332000.0"
+        }
+      ],
+      "requiresSettlement": "false",
+      "txnStatus": "Success",
+      "txnMessage": "Success"
+    }
+  }
+}

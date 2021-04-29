@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/shortcutViewConstraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <styleguide.buttons.FloatingActionButtonView
+        android:id="@+id/action1FloatingActionButtonView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        app:attribute_content_description="action"
+        app:attribute_icon="@drawable/ic_general_success"
+        app:attribute_is_light="false"
+        app:attribute_title_text="title"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/action2FloatingActionButtonView"
+        app:layout_constraintBottom_toTopOf="parent"
+        tools:visibility="invisible" />
+
+    <styleguide.buttons.FloatingActionButtonView
+        android:id="@+id/action2FloatingActionButtonView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        app:attribute_content_description="action"
+        app:attribute_icon="@drawable/ic_general_success"
+        app:attribute_is_light="false"
+        app:attribute_title_text="title"
+        app:layout_constraintStart_toEndOf="@id/action1FloatingActionButtonView"
+        app:layout_constraintTop_toTopOf="@id/action1FloatingActionButtonView"
+        app:layout_constraintEnd_toStartOf="@id/action3FloatingActionButtonView"
+        tools:visibility="invisible" />
+
+    <styleguide.buttons.FloatingActionButtonView
+        android:id="@+id/action3FloatingActionButtonView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        app:attribute_content_description="action"
+        app:attribute_icon="@drawable/ic_general_success"
+        app:attribute_is_light="false"
+        app:attribute_title_text="title"
+        app:layout_constraintStart_toEndOf="@id/action2FloatingActionButtonView"
+        app:layout_constraintTop_toTopOf="@id/action1FloatingActionButtonView"
+        app:layout_constraintEnd_toStartOf="@id/action4FloatingActionButtonView"
+        tools:visibility="invisible" />
+
+    <styleguide.buttons.FloatingActionButtonView
+        android:id="@+id/action4FloatingActionButtonView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        app:attribute_content_description="action"
+        app:attribute_icon="@drawable/ic_general_success"
+        app:attribute_is_light="false"
+        app:attribute_title_text="title"
+        app:layout_constraintStart_toEndOf="@id/action3FloatingActionButtonView"
+        app:layout_constraintTop_toTopOf="@id/action1FloatingActionButtonView"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:visibility="invisible" />
+
+    <styleguide.buttons.FloatingActionButtonView
+        android:id="@+id/action5FloatingActionButtonView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/small_space"
+        android:visibility="invisible"
+        app:attribute_content_description="action"
+        app:attribute_icon="@drawable/ic_general_success"
+        app:attribute_is_light="false"
+        app:attribute_title_text="title"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/action6FloatingActionButtonView"
+        app:layout_constraintBottom_toTopOf="parent"
+        tools:visibility="invisible" />
+
+    <styleguide.buttons.FloatingActionButtonView
+        android:id="@+id/action6FloatingActionButtonView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        app:attribute_content_description="action"
+        app:attribute_icon="@drawable/ic_general_success"
+        app:attribute_is_light="false"
+        app:attribute_title_text="title"
+        app:layout_constraintStart_toEndOf="@id/action5FloatingActionButtonView"
+        app:layout_constraintEnd_toStartOf="@id/action7FloatingActionButtonView"
+        app:layout_constraintTop_toTopOf="@id/action5FloatingActionButtonView"
+        tools:visibility="invisible" />
+
+    <styleguide.buttons.FloatingActionButtonView
+        android:id="@+id/action7FloatingActionButtonView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        app:attribute_content_description="action"
+        app:attribute_icon="@drawable/ic_general_success"
+        app:attribute_is_light="false"
+        app:attribute_title_text="title"
+        app:layout_constraintStart_toEndOf="@id/action6FloatingActionButtonView"
+        app:layout_constraintEnd_toStartOf="@id/action8FloatingActionButtonView"
+        app:layout_constraintTop_toTopOf="@id/action5FloatingActionButtonView"
+        tools:visibility="invisible" />
+
+    <styleguide.buttons.FloatingActionButtonView
+        android:id="@+id/action8FloatingActionButtonView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        app:attribute_content_description="action"
+        app:attribute_icon="@drawable/ic_general_success"
+        app:attribute_is_light="false"
+        app:attribute_title_text="title"
+        app:layout_constraintStart_toEndOf="@id/action7FloatingActionButtonView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/action5FloatingActionButtonView"
+        tools:visibility="invisible" />
+
+    <styleguide.buttons.FloatingActionButtonView
+        android:id="@+id/action9FloatingActionButtonView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:layout_marginTop="@dimen/small_space"
+        app:attribute_content_description="action"
+        app:attribute_icon="@drawable/ic_general_success"
+        app:attribute_is_light="false"
+        app:attribute_title_text="title"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/action10FloatingActionButtonView"
+        app:layout_constraintBottom_toTopOf="parent"
+        tools:visibility="invisible" />
+
+    <styleguide.buttons.FloatingActionButtonView
+        android:id="@+id/action10FloatingActionButtonView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        app:attribute_content_description="action"
+        app:attribute_icon="@drawable/ic_general_success"
+        app:attribute_is_light="false"
+        app:layout_constraintStart_toEndOf="@id/action9FloatingActionButtonView"
+        app:layout_constraintEnd_toStartOf="@id/action11FloatingActionButtonView"
+        app:layout_constraintTop_toTopOf="@id/action9FloatingActionButtonView"
+        app:attribute_title_text="title"
+        tools:visibility="invisible" />
+
+    <styleguide.buttons.FloatingActionButtonView
+        android:id="@+id/action11FloatingActionButtonView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        app:attribute_content_description="action"
+        app:attribute_icon="@drawable/ic_general_success"
+        app:attribute_is_light="false"
+        app:layout_constraintStart_toEndOf="@id/action10FloatingActionButtonView"
+        app:layout_constraintEnd_toStartOf="@id/action12FloatingActionButtonView"
+        app:layout_constraintTop_toTopOf="@id/action9FloatingActionButtonView"
+        app:attribute_title_text="title"
+        tools:visibility="invisible" />
+
+    <styleguide.buttons.FloatingActionButtonView
+        android:id="@+id/action12FloatingActionButtonView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        app:attribute_content_description="action"
+        app:attribute_icon="@drawable/ic_general_success"
+        app:attribute_is_light="false"
+        app:layout_constraintStart_toEndOf="@id/action11FloatingActionButtonView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/action9FloatingActionButtonView"
+        app:attribute_title_text="title"
+        tools:visibility="invisible" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

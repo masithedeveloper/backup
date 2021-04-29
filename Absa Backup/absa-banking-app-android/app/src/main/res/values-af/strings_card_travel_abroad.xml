@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="travel_abroad_title">Gebruik kaart tydens reise</string>
+    <string name="travel_abroad_success_result_title">Jy’s gereed</string>
+    <string name="travel_abroad_success_result_message">Onthou, hou aan om jou bankdienste-app te gebruik wanneer jy reis, aangesien dit die betroubaarste en veiligste manier is om buite Suid-Afrika te bank.\n\nGeniet jou reis.</string>
+    <string name="travel_abroad_success_cancel_result_message">Jou datums is opgedateer</string>
+    <string name="travel_abroad_failure_result_message">Reisdatums onsuksesvol opgedateer</string>
+    <string name="travel_abroad_enter_travel_dates_heading">Voer reisdatums in</string>
+    <string name="travel_abroad_select_departure_date">Kies vertrekdatum</string>
+    <string name="travel_abroad_temporary_lock_suggestion">Voordat jy vetrek, maak seker dat die blok op jou internasionale transaksies verwyder is</string>
+    <string name="travel_abroad_select_return_date">Kies terugkeerdatum</string>
+    <string name="travel_abroad_activate_button_text">Aktiveer</string>
+    <string name="travel_abroad_update_button_text">Opdateer</string>
+    <string name="travel_abroad_not_travelling_button_text">Ek reis nie meer nie</string>
+    <string name="travel_abroad_60_day_pop_up_message">As jy vir langer as 60 dae reis, reaktiveer jou kaart vir reis voordat jou aanvanklike 60 dae verstryk.</string>
+    <string name="travel_abroad_60_days_notice">As jy vir langer as 60 dae reis, sal jy jou kaart vir reisgebruik moet heraktiveer voor die eerste 60 dae in die buiteland eindig.</string>
+    <string name="travel_abroad_error_message">Kies asseblief die vertrekdatum eerste</string>
+    <string name="travel_abroad_please_note">Let wel</string>
+</resources>

@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/behavioural_rewards_navigation_graph"
+    app:startDestination="@id/behaviouralRewardsHubFragment">
+
+    <fragment
+        android:id="@+id/behaviouralRewardsHubFragment"
+        android:name="com.barclays.absa.banking.rewards.behaviouralRewards.ui.BehaviouralRewardsHubFragment"
+        android:label="BehaviouralRewardsHubFragment"
+        tools:layout="@layout/behavioural_rewards_hub_fragment">
+        <action
+            android:id="@+id/action_behaviouralRewardsHubFragment_to_behaviouralRewardsVoucherDetailsFragment"
+            app:destination="@id/behaviouralRewardsVoucherDetailsFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <action
+            android:id="@+id/action_behaviouralRewardsHubFragment_to_behaviouralRewardsClaimRewardFragment"
+            app:destination="@id/behaviouralRewardsClaimRewardFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <action
+            android:id="@+id/action_behaviouralRewardsHubFragment_to_behaviouralRewardsSpendFragment"
+            app:destination="@id/behaviouralRewardsSpendFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <action
+            android:id="@+id/action_behaviouralRewardsHubFragment_to_behaviouralRewardsChallengeTermsAndConditionsFragment"
+            app:destination="@id/behaviouralRewardsChallengeTermsAndConditionsFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <action
+            android:id="@+id/action_behaviouralRewardsHubFragment_to_behaviouralRewardsWaysToApplyFragment"
+            app:destination="@id/behaviouralRewardsWaysToApplyFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <action
+            android:id="@+id/action_behaviouralRewardsHubFragment_to_behaviouralRewardsManageDebitOrderFragment"
+            app:destination="@id/behaviouralRewardsManageDebitOrderFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <action
+            android:id="@+id/action_behaviouralRewardsHubFragment_to_behaviouralRewardsChallengeDetailsFragment"
+            app:destination="@id/behaviouralRewardsChallengeDetailsFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <action
+            android:id="@+id/action_behaviouralRewardsHubFragment_to_rewardsEarnRatesFragment"
+            app:destination="@id/behaviouralRewardsEarnRatesFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/behaviouralRewardsVoucherDetailsFragment"
+        android:name="com.barclays.absa.banking.rewards.behaviouralRewards.ui.BehaviouralRewardsVoucherDetailsFragment"
+        android:label="BehaviouralRewardsVoucherDetailsFragment"
+        tools:layout="@layout/behavioural_rewards_voucher_details_fragment">
+        <argument
+            android:name="customerHistoryVoucher"
+            app:argType="com.barclays.absa.banking.rewards.behaviouralRewards.ui.dto.CustomerHistoryVoucher"
+            app:nullable="false" />
+        <action
+            android:id="@+id/action_behaviouralRewardsVoucherDetailsFragment_to_behaviouralRewardsSendVoucherFragment"
+            app:destination="@id/behaviouralRewardsSendVoucherFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <action
+            android:id="@+id/action_behaviouralRewardsVoucherDetailsFragment_to_behaviouralRewardsHubFragment"
+            app:destination="@id/behaviouralRewardsHubFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <action
+            android:id="@+id/action_behaviouralRewardsVoucherDetailsFragment_to_behaviouralRewardsVoucherTermsAndConditionsFragment"
+            app:destination="@id/behaviouralRewardsVoucherTermsAndConditionsFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/behaviouralRewardsSendVoucherFragment"
+        android:name="com.barclays.absa.banking.rewards.behaviouralRewards.ui.BehaviouralRewardsSendVoucherFragment"
+        android:label="BehaviouralRewardsSendVoucherFragment"
+        tools:layout="@layout/behavioural_rewards_send_voucher_fragment">
+        <argument
+            android:name="customerHistoryVoucher"
+            app:argType="com.barclays.absa.banking.rewards.behaviouralRewards.ui.dto.CustomerHistoryVoucher"
+            app:nullable="false" />
+        <action
+            android:id="@+id/action_behaviouralRewardsSendVoucherFragment_to_behaviouralRewardsSendVoucherConfirmationFragment"
+            app:destination="@id/behaviouralRewardsSendVoucherConfirmationFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+    <fragment
+        android:id="@+id/behaviouralRewardsSendVoucherConfirmationFragment"
+        android:name="com.barclays.absa.banking.rewards.behaviouralRewards.ui.BehaviouralRewardsSendVoucherConfirmationFragment"
+        android:label="BehaviouralRewardsSendVoucherConfirmationFragment"
+        tools:layout="@layout/behavioural_rewards_send_voucher_confirmation_fragment">
+        <argument
+            android:name="shareVoucher"
+            app:argType="com.barclays.absa.banking.express.behaviouralRewards.shareVoucher.dto.BehaviouralRewardsShareVoucher"
+            app:nullable="false" />
+        <action
+            android:id="@+id/action_behaviouralRewardsSendVoucherConfirmationFragment_to_genericResultScreenFragment"
+            app:destination="@id/genericResultScreenFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+    <fragment
+        android:id="@+id/genericResultScreenFragment"
+        android:name="styleguide.screens.GenericResultScreenFragment"
+        android:label="GenericResultScreenFragment"
+        tools:layout="@layout/generic_results_screen_fragment">
+        <argument
+            android:name="GenericResultScreenFragment"
+            app:argType="styleguide.screens.GenericResultScreenProperties" />
+        <action
+            android:id="@+id/action_genericResultScreenFragment_to_behaviouralRewardsHubFragment"
+            app:destination="@id/behaviouralRewardsHubFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+    <fragment
+        android:id="@+id/behaviouralRewardsClaimRewardFragment"
+        android:name="com.barclays.absa.banking.rewards.behaviouralRewards.ui.BehaviouralRewardsClaimRewardFragment"
+        android:label="BehaviouralRewardsClaimRewardFragment"
+        tools:layout="@layout/behavioural_rewards_claim_reward_fragment">
+        <argument
+            android:name="behavioural_rewards_challenge"
+            app:argType="com.barclays.absa.banking.express.behaviouralRewards.shared.Challenge" />
+        <action
+            android:id="@+id/action_behaviouralRewardsClaimRewardFragment_to_behaviouralRewardsVoucherDetailsFragment"
+            app:destination="@id/behaviouralRewardsVoucherDetailsFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <action
+            android:id="@+id/action_behaviouralRewardsClaimRewardFragment_to_behaviouralRewardsHubFragment"
+            app:destination="@id/behaviouralRewardsHubFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+    <fragment
+        android:id="@+id/behaviouralRewardsChallengeDetailsFragment"
+        android:name="com.barclays.absa.banking.rewards.behaviouralRewards.ui.BehaviouralRewardsChallengeDetailsFragment"
+        android:label="BehaviouralRewardsChallengeDetailsFragment"
+        tools:layout="@layout/behavioural_rewards_challenge_details_fragment">
+        <argument
+            android:name="behavioural_rewards_challenge"
+            app:argType="com.barclays.absa.banking.express.behaviouralRewards.shared.Challenge" />
+        <action
+            android:id="@+id/action_behaviouralRewardsChallengeDetailsFragment_to_behaviouralRewardsMarketingConsentFragment"
+            app:destination="@id/behaviouralRewardsMarketingConsentFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <action
+            android:id="@+id/action_behaviouralRewardsChallengeDetailsFragment_to_behaviouralRewardsUpdatePersonalDetailsFragment"
+            app:destination="@id/behaviouralRewardsUpdatePersonalDetailsFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <action
+            android:id="@+id/action_behaviouralRewardsChallengeDetailsFragment_to_behaviouralRewardsHubFragment"
+            app:destination="@id/behaviouralRewardsHubFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+    <fragment
+        android:id="@+id/behaviouralRewardsMarketingConsentFragment"
+        android:name="com.barclays.absa.banking.rewards.behaviouralRewards.ui.BehaviouralRewardsMarketingConsentFragment"
+        android:label="BehaviouralRewardsMarketingConsentFragment"
+        tools:layout="@layout/behavioural_rewards_marketing_consent_fragment">
+        <argument
+            android:name="behavioural_rewards_challenge"
+            app:argType="com.barclays.absa.banking.express.behaviouralRewards.shared.Challenge" />
+        <action
+            android:id="@+id/action_behaviouralRewardsMarketingConsentFragment_to_behaviouralRewardsResultFragment"
+            app:destination="@id/behaviouralRewardsResultFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+    <fragment
+        android:id="@+id/behaviouralRewardsUpdatePersonalDetailsFragment"
+        android:name="com.barclays.absa.banking.rewards.behaviouralRewards.ui.BehaviouralRewardsUpdatePersonalDetailsFragment"
+        android:label="BehaviouralRewardsUpdatePersonalDetailsFragment"
+        tools:layout="@layout/behavioural_rewards_update_personal_details_fragment">
+        <argument
+            android:name="behavioural_rewards_challenge"
+            app:argType="com.barclays.absa.banking.express.behaviouralRewards.shared.Challenge" />
+        <action
+            android:id="@+id/action_behaviouralRewardsUpdatePersonalDetailsFragment_to_behaviouralRewardsResultFragment"
+            app:destination="@id/behaviouralRewardsResultFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+    <fragment
+        android:id="@+id/behaviouralRewardsSpendFragment"
+        android:name="com.barclays.absa.banking.rewards.behaviouralRewards.ui.BehaviouralRewardsSpendFragment"
+        android:label="BehaviouralRewardsSpendFragment"
+        tools:layout="@layout/behavioural_rewards_spend_fragment" />
+    <fragment
+        android:id="@+id/behaviouralRewardsChallengeTermsAndConditionsFragment"
+        android:name="com.barclays.absa.banking.rewards.behaviouralRewards.ui.BehaviouralRewardsChallengeTermsAndConditionsFragment"
+        android:label="BehaviouralRewardsChallengeTermsAndConditionsFragment"
+        tools:layout="@layout/behavioural_rewards_challenge_terms_and_conditions_fragment">
+        <argument
+            android:name="behavioural_rewards_challenge"
+            app:argType="com.barclays.absa.banking.express.behaviouralRewards.shared.Challenge" />
+        <action
+            android:id="@+id/action_behaviouralRewardsChallengeTermsAndConditionsFragment_to_behaviouralRewardsChallengeDetailsFragment"
+            app:destination="@id/behaviouralRewardsChallengeDetailsFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+    <fragment
+        android:id="@+id/behaviouralRewardsWaysToApplyFragment"
+        android:name="com.barclays.absa.banking.rewards.behaviouralRewards.ui.BehaviouralRewardsWaysToApplyFragment"
+        android:label="BehaviouralRewardsWaysToApplyFragment"
+        tools:layout="@layout/behavioural_rewards_apply_fragment" />
+    <fragment
+        android:id="@+id/behaviouralRewardsManageDebitOrderFragment"
+        android:name="com.barclays.absa.banking.rewards.behaviouralRewards.ui.BehaviouralRewardsManageDebitOrderFragment"
+        android:label="BehaviouralRewardsManageDebitOrderFragment" />
+    <fragment
+        android:id="@+id/behaviouralRewardsEarnRatesFragment"
+        android:name="com.barclays.absa.banking.rewards.behaviouralRewards.ui.BehaviouralRewardsEarnRatesFragment"
+        android:label="BehaviouralRewardsEarnRatesFragment" />
+    <fragment
+        android:id="@+id/behaviouralRewardsVoucherTermsAndConditionsFragment"
+        android:name="com.barclays.absa.banking.rewards.behaviouralRewards.ui.BehaviouralRewardsVoucherTermsAndConditionsFragment"
+        android:label="BehaviouralRewardsVoucherTermsAndConditionsFragment">
+        <argument
+            android:name="customerHistoryVoucher"
+            app:argType="com.barclays.absa.banking.rewards.behaviouralRewards.ui.dto.CustomerHistoryVoucher"
+            app:nullable="false" />
+    </fragment>
+    <fragment
+        android:id="@+id/behaviouralRewardsResultFragment"
+        android:name="com.barclays.absa.banking.rewards.behaviouralRewards.ui.BehaviouralRewardsResultFragment"
+        android:label="BehaviouralRewardsResultFragment">
+        <argument
+            android:name="behavioural_rewards_challenge"
+            app:argType="com.barclays.absa.banking.express.behaviouralRewards.shared.Challenge" />
+        <argument
+            android:name="description_text"
+            app:argType="string" />
+    </fragment>
+</navigation>

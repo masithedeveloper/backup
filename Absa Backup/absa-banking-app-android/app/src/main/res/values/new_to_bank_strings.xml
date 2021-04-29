@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- New To Bank-->
+    <string name="new_to_bank_thank_you_for_choosing_absa" translatable="false">Thank you for\nchoosing Absa!</string>
+    <string name="new_to_bank_account_heading" translatable="false">What type of account are you looking for?</string>
+    <string name="new_to_bank_type_of_account" translatable="false">What type of account do you want?</string>
+    <string name="new_to_bank_full_features" translatable="false">Full features</string>
+    <string name="new_to_bank_income_before_tax" translatable="false">What do you earn every month before tax?</string>
+    <string name="new_to_bank_select" translatable="false">Select</string>
+    <string name="new_to_bank_earn_every_month" translatable="false">What do you earn every month?</string>
+    <string name="new_to_bank_accounts" translatable="false">Accounts</string>
+    <string name="new_to_bank_choosing_an_account" translatable="false">Choosing an account</string>
+    <string name="new_to_bank_choose_account" translatable="false">Choose your account</string>
+    <string name="new_to_bank_choose_package" translatable="false">Choose your package</string>
+    <string name="new_to_bank_choose_account_type" translatable="false">Choose account type</string>
+    <string name="new_to_bank_select_income_range" translatable="false">Select income range</string>
+    <string name="new_to_bank_absa_rewards" translatable="false">Absa Rewards</string>
+    <string name="new_to_bank_get_cash_back_title" translatable="false">Get cash back!</string>
+    <string name="new_to_bank_cash_back_description" translatable="false">Join Absa Rewards and earn cash for doing your normal banking. Plus get amazing discounts from our partner stores.\n\nAll this for just R %s a month!</string>
+    <string name="new_to_bank_rewards_cost" translatable="false">Absa rewards costs only R %s per month!</string>
+    <string name="new_to_bank_pricing" translatable="false">Pricing</string>
+    <string name="new_to_bank_would_you_like_absa_rewards" translatable="false">Would you like Absa Rewards?</string>
+    <string name="new_to_bank_preferred_debit_order_day" translatable="false">Select your preferred debit order day</string>
+    <string name="new_to_bank_debit_order_day" translatable="false">Debit order day</string>
+    <string name="new_to_bank_visit_student_benefits" translatable="false">Visit the Student benefits page</string>
+    <string name="new_to_bank_student_benefits" translatable="false">Student benefits</string>
+
+    <string name="new_to_bank_tim_face" translatable="false">face</string>
+    <string name="new_to_bank_tim_left_eye_closed" translatable="false">Keep winking your left eye</string>
+    <string name="new_to_bank_tim_right_eye_closed" translatable="false">Keep winking your right eye</string>
+    <string name="new_to_bank_tim_smile" translatable="false">Smile, showing you teeth</string>
+    <string name="new_to_bank_tim_tilt_head_left" translatable="false">Tilt your head left, don\'t move your phone</string>
+    <string name="new_to_bank_tim_tilt_head_right" translatable="false">Tilt your head right, don\'t move your phone</string>
+    <string name="new_to_bank_tim_dont_smile" translatable="false">Look straight ahead, do not smile</string>
+    <string name="new_to_bank_tim_lift_chin" translatable="false">Please lift your chin slightly</string>
+
+    <string name="new_to_bank_premium_banking" translatable="false">Premium Banking</string>
+    <string name="new_to_bank_gold_value_bundle" translatable="false">Gold Value Bundle</string>
+    <string name="new_to_bank_flexi_value_bundle" translatable="false">Flexi Value Bundle</string>
+    <string name="new_to_bank_i_agree_to_terms_and_conditions" translatable="false">I agree to the <u>Terms &amp; Conditions</u></string>
+    <string name="new_to_bank_terms_and_conditions" translatable="false">Terms &amp; Conditions</string>
+    <string name="new_to_bank_rewards_special_offers" translatable="false">I want to receive Rewards communication on special offers and discounts.</string>
+    <string name="new_to_bank_debit_day" translatable="false">Debit day</string>
+    <string name="new_to_bank_package_range_heading" translatable="false">This package gets you a range of exclusive services and lifestyle benefits that will help you reach your financial goals.</string>
+    <string name="new_to_bank_apply_now" translatable="false">Apply now</string>
+    <string name="new_to_bank_earn_at_least" translatable="false">Earn at least R%s per month</string>
+
+    <string name="new_to_bank_lets_do_this" translatable="false">Let\'s do this!</string>
+    <string name="new_to_bank_start_banking_right_now" translatable="false">Start banking right now! Open a cheque account in just 5 minutes</string>
+    <string name="new_to_bank_we_can_open_your_account" translatable="false">Do you agree to the processing of your personal information by Absa and third parties, for verification purposes?</string>
+    <string name="new_to_bank_share_your_details_with_third_parties" translatable="false">Do you agree that we will collect and share your details with third parties, just for verification purposes.</string>
+    <string name="new_to_bank_i_agree_to_sharing_my_information" translatable="false">I agree to sharing my information</string>
+    <string name="new_to_bank_personal_client_agreement" translatable="false">I understand and agree to the\n<u>Personal Client Agreement</u></string>
+    <string name="new_to_bank_client_terms_link_text" translatable="false">Personal Client Agreement</string>
+    <string name="new_to_bank_agree_personal_client_agreement" translatable="false">I understand and agree to the Personal Client Agreement</string>
+    <string name="new_to_bank_i_give_permission_to_absa" translatable="false">I give permission to Absa to use my details to perform a credit assessment and verification</string>
+    <string name="new_to_bank_absa_make_use_of" translatable="false">Absa may make use of third parties to obtain information about me.\u002A</string>
+    <string name="new_to_bank_i_agree_to_all_the_above" translatable="false">I agree to all the above</string>
+    <string name="new_to_bank_verify_your_identity" translatable="false">Verify your identity</string>
+    <string name="new_to_bank_who_you_are" translatable="false">Who You Are</string>
+    <string name="new_to_bank_sa_id_number" translatable="false">SA ID Number</string>
+    <string name="new_to_bank_enter_your_id_number" translatable="false">Enter your ID number</string>
+    <string name="new_to_bank_surname_no_colon" translatable="false">Surname</string>
+    <string name="new_to_bank_enter_your_surname" translatable="false">Enter your surname</string>
+    <string name="new_to_bank_enter_your_cellphone_number" translatable="false">Enter your cellphone number</string>
+    <string name="new_to_bank_email_address_no_colon" translatable="false">Email address</string>
+    <string name="new_to_bank_enter_your_email_address" translatable="false">Enter your email address</string>
+    <string name="new_to_bank_unable_to_continue_description" translatable="false">Unfortunately, we are unable to continue with your application. We cannot verify your details. Please go to your nearest Absa branch to apply.</string>
+    <string name="new_to_bank_take_me_there" translatable="false">Take me there</string>
+    <string name="new_to_bank_thank_you" translatable="false">Thank you!</string>
+    <string name="new_to_bank_will_take_a_few_selfies" translatable="false">Now we will take a few selfies.This is just to verify who you are with Department of Home Affairs (DHA).</string>
+    <string name="new_to_bank_take_my_photos" translatable="false">Take selfies</string>
+    <string name="new_to_bank_now_take_a_photo_of_your_ID" translatable="false">Now take a photo of your ID. This is to verify who you are with Home Affairs.</string>
+    <string name="new_to_bank_what_kind_of_id_do_you_have" translatable="false">What kind of ID do you have?</string>
+    <string name="new_to_bank_sa_id_book" translatable="false">SA ID Book</string>
+    <string name="new_to_bank_sa_id_card" translatable="false">SA ID Card</string>
+    <string name="new_to_bank_south_african" translatable="false">South African</string>
+    <string name="new_to_bank_nationality" translatable="false">Nationality</string>
+    <string name="new_to_bank_please_confirm_your_personal_details" translatable="false">Please confirm your personal details are correct?</string>
+    <string name="new_to_bank_full_name" translatable="false">Full name</string>
+    <string name="new_to_bank_id_number" translatable="false">ID number</string>
+    <string name="new_to_bank_country_of_birth" translatable="false">Country of birth</string>
+    <string name="new_to_bank_gender" translatable="false">Gender</string>
+    <string name="new_to_bank_are_these_details_correct" translatable="false">Is this information about you correct?</string>
+    <string name="new_to_bank_incorrect" translatable="false">Incorrect</string>
+    <string name="new_to_bank_confirm" translatable="false">Confirm</string>
+
+    <string name="new_to_bank_confirm_your_residential_status" translatable="false">No problem! Please confirm your residential status.</string>
+    <string name="new_to_bank_residential_Status" translatable="false">Residential Status</string>
+    <string name="new_to_bank_residential_Status_hint" translatable="false">Choose Type</string>
+    <string name="new_to_bank_make_the_necessary_changes" translatable="false">Please make the necessary changes to your address and click continue when you are done</string>
+    <string name="new_to_bank_confirm_that_your_residential_address" translatable="false">Please confirm that your residential address is correct</string>
+    <string name="new_to_bank_address_line_1" translatable="false">Address Line 1</string>
+    <string name="new_to_bank_address_line_2" translatable="false">Address Line 2</string>
+    <string name="new_to_bank_suburb" translatable="false">Suburb</string>
+    <string name="new_to_bank_city_or_town" translatable="false">City/Town</string>
+    <string name="new_to_bank_Code" translatable="false">Code</string>
+    <string name="new_to_bank_continue" translatable="false">Continue</string>
+    <string name="new_to_bank_change_address" translatable="false">Change Address</string>
+    <string name="new_to_bank_great" translatable="false">Great!</string>
+    <string name="new_to_bank_show_accepted_documents" translatable="false">"●  ●  ● "Show accepted documents</string>
+    <string name="new_to_bank_we_need_a_photograph_of_a_proof" translatable="false">Now we need a photograph of a proof of a residence document.\n\nYou can use a municipality, Telkom or cell phone account statement as your proof of residence (not older than 3 months).</string>
+    <string name="new_to_bank_per_month" translatable="false">Per month</string>
+    <string name="new_to_bank_new_to_bank_tell_us_more" translatable="false">We\'re almost there. Please tell us a bit about what you do for a living</string>
+    <string name="new_to_bank_source_of_income" translatable="false">Source of Income</string>
+    <string name="new_to_bank_employment_type" translatable="false">Employment Type</string>
+    <string name="new_to_bank_employed_since" translatable="false">I have been employed since</string>
+    <string name="new_to_bank_are_you_registered_for_tax" translatable="false">Are you registered for tax?</string>
+    <string name="new_to_bank_are_you_a_foreign_tax_resident" translatable="false">Are you a foreign tax resident?</string>
+    <string name="new_to_bank_tell_me_about_new_products_and_offers" translatable="false">Tell me about new products and offers.</string>
+    <string name="new_to_bank_yes" translatable="false">Yes</string>
+    <string name="new_to_bank_no" translatable="false">No</string>
+    <string name="new_to_bank_next" translatable="false">Next</string>
+    <string name="new_to_bank_i_am_not_aware" translatable="false">I am not aware of any other information, which, should it become known to the bank, would affect the consideration of my application</string>
+    <string name="new_to_bank_tell_us_about_your_income" translatable="false">Finally, tell us more about your income and expenses</string>
+    <string name="new_to_bank_monthly_income_before_tax" translatable="false">My monthly income before tax</string>
+    <string name="new_to_bank_total_monthly_expenses" translatable="false">My total monthly expenses</string>
+    <string name="new_to_bank_how_will_you_fund_this_account" translatable="false">I will fund this account with my</string>
+    <string name="new_to_bank_information_supplied_is_true" translatable="false">The information I have supplied is true and correct</string>
+    <string name="new_to_bank_i_agree_to_all_of_the_above" translatable="false">I agree to all of the above</string>
+    <string name="new_to_bank_i_agree_rewards" translatable="false">I agree to the Absa Rewards Terms &amp; Conditions</string>
+    <string name="new_to_bank_i_agree_rewards_highlight" translatable="false">Absa Rewards Terms &amp; Conditions</string>
+    <string name="new_to_bank_rewards_communication" translatable="false">I want to receive Rewards communication about special offers and discounts.</string>
+    <string name="new_to_bank_submit_my_application" translatable="false">Submit my application</string>
+    <string name="new_to_bank_rand_symbol" translatable="false">R</string>
+    <string name="new_to_bank_welcome_to_the_family" translatable="false">Welcome to the family!</string>
+    <string name="new_to_bank_your_account_number_is" translatable="false">Your account number is:\n%s</string>
+    <string name="new_to_bank_your_account_has_been_created_but" translatable="false">Your account has been created but before you can start transacting you will need to:</string>
+    <string name="new_to_bank_account_created_line1" translatable="false">1. Arrange to get your bank card</string>
+    <string name="new_to_bank_account_created_line2" translatable="false">2. Set up your digital banking </string>
+    <string name="new_to_bank_account_created_line3" translatable="false">3. Activate your account (deposit some money into your account)</string>
+    <string name="new_to_bank_get_my_bank_card" translatable="false">Get my bank card</string>
+    <string name="new_to_bank_what_kind_of_card_would_you_like" translatable="false">What kind of card would you like?</string>
+    <string name="new_to_bank_personalised_card" translatable="false">Personalised card</string>
+    <string name="new_to_bank_standard_card" translatable="false">Standard card</string>
+    <string name="new_to_bank_branch_collection_copy" translatable="false">What branch would you like to collect your card from?</string>
+    <string name="new_to_bank_choose_a_city" translatable="false">Choose a city</string>
+    <string name="new_to_bank_choose_a_suburb" translatable="false">Choose a suburb</string>
+    <string name="new_to_bank_choose_a_branch" translatable="false">Choose a branch</string>
+    <string name="new_to_bank_set_up_my_security" translatable="false">Set up my security</string>
+    <string name="new_to_bank_absa_online_banking" translatable="false">Absa Online banking</string>
+    <string name="new_to_bank_absa_online_banking_description" translatable="false">Bank on our website. To access your accounts you will need to create a:</string>
+    <string name="new_to_bank_digital_pin" translatable="false">Digital pin</string>
+    <string name="new_to_bank_passcode" translatable="false">Passcode</string>
+    <string name="new_to_bank_password" translatable="false">Password</string>
+    <string name="new_to_bank_create_password" translatable="false">Create my password</string>
+    <string name="new_to_bank_set_pin" translatable="false">Set Pin</string>
+    <string name="new_to_bank_absa_banking_app" translatable="false">Absa Banking App</string>
+    <string name="new_to_bank_absa_banking_app_description" translatable="false">Bank on your phone. To login you will need to create a:</string>
+    <string name="new_to_bank_create_a_digital_pin" translatable="false">Create a digital PIN</string>
+    <string name="new_to_bank_confirm_a_digital_pin" translatable="false">Confirm digital PIN</string>
+    <string name="new_to_bank_digital_pin_set" translatable="false">Your digital PIN has been set</string>
+    <string name="new_to_bank_digital_password_set" translatable="false">Your password has been set</string>
+    <string name="new_to_bank_please_enter_5_digit_pin" translatable="false">Please enter a 5 digit PIN</string>
+    <string name="new_to_bank_create_a_digital_pin_description" translatable="false">Must be 5 digits. Try not to use sequential numbers or repeating numbers</string>
+    <string name="new_to_bank_create_password_description" translatable="false">Must be 8-12 characters and use at least one uppercase letter and one number.</string>
+    <string name="new_to_bank_confirm_password" translatable="false">Confirm Password</string>
+    <string name="new_to_bank_enter_password" translatable="false">Enter password</string>
+    <string name="new_to_bank_recommended_for_you" translatable="false">Recommended for you</string>
+    <string name="new_to_bank_products_and_pricing" translatable="false">Please visit absa.co.za to see all our products and all our fees.</string>
+    <string name="new_to_bank_show_more" translatable="false">Show me more options</string>
+    <string name="new_to_bank_select_day" translatable="false">Select day</string>
+    <string name="new_to_bank_please_enter_valid_id" translatable="false">Please enter a valid SA ID number</string>
+    <string name="new_to_bank_older_than_18_title" translatable="false">We have got something better for you</string>
+    <string name="new_to_bank_older_than_18" translatable="false">As you are under 18, we have an account that\'s perfect for you. Tell your parents or guardians to download the MegaU app to open an account for you.</string>
+    <string name="new_to_bank_please_enter_valid_surname" translatable="false">Please enter a valid surname</string>
+    <string name="new_to_bank_please_enter_valid_cellphone_number" translatable="false">Please enter a valid cellphone number</string>
+    <string name="new_to_bank_please_enter_valid_email" translatable="false">Please enter a valid email</string>
+    <string name="new_to_bank_please_enter_valid_address" translatable="false">Please enter a valid address</string>
+    <string name="new_to_bank_please_enter_valid_suburb" translatable="false">Please enter a valid suburb</string>
+    <string name="new_to_bank_please_enter_valid_city_town" translatable="false">Please enter a valid city or town</string>
+    <string name="new_to_bank_please_enter_valid_postal_code" translatable="false">Please select a valid postal code</string>
+    <string name="new_to_bank_dont_move_phone" translatable="false">Do not move your phone around too much</string>
+    <string name="new_to_bank_well_lit_area" translatable="false">Make sure that you are in a well-lit area and not directly underneath a light</string>
+    <string name="new_to_bank_remove_glasses" translatable="false">Remove glasses, hats or other items that may hide your face</string>
+    <string name="new_to_bank_follow_instructions_option" translatable="false">Follow instructions on the bottom of the screen</string>
+    <string name="new_to_bank_face_fits" translatable="false">Make sure your whole face fits onto the screen</string>
+    <string name="new_to_bank_follow_instructions" translatable="false">Follow the instructions at the top of the screen e.g. smile</string>
+    <string name="new_to_bank_how_to_take_selfies" translatable="false">Tips on how to successfully complete the selfies:</string>
+    <string name="new_to_bank_information_incorrect" translatable="false">This information is incorrect</string>
+    <string name="new_to_bank_yes_continue" translatable="false">Yes, continue</string>
+    <string name="new_to_bank_choose_account_title" translatable="false">To find the cheque account that\'s right for you, please tell us what you earn every month before tax?</string>
+
+    <string name="new_to_bank_income_by" translatable="false">I get my income by</string>
+    <string name="new_to_bank_employment_type_is" translatable="false">My employment type is</string>
+    <string name="new_to_bank_employment_since" translatable="false">I have been employed since</string>
+    <string name="new_to_bank_employment_field" translatable="false">My employment field is</string>
+    <string name="new_to_bank_employment_field_hint" translatable="false">Employment field</string>
+    <string name="new_to_bank_occupation_is" translatable="false">My occupation is</string>
+    <string name="new_to_bank_occupation" translatable="false">Occupation</string>
+
+    <string name="new_to_bank_job_level_is" translatable="false">My job level is</string>
+    <string name="new_to_bank_what_you_do" translatable="false">What You Do</string>
+
+    <string name="new_to_bank_get_a_cheque_account" translatable="false">Get a personal or business account using our app</string>
+    <string name="new_to_bank_where_you_are" translatable="false">Where You Are</string>
+    <string name="new_to_bank_make_your_application_easier" translatable="false">To make your application easier for you, let us know where you are</string>
+    <string name="new_to_bank_which_branch_are_you_in" translatable="false">Thank you. Please tell us which branch you are in?</string>
+    <string name="new_to_bank_not_in_branch" translatable="false">I’m not in a branch</string>
+    <string name="new_to_bank_in_branch" translatable="false">I’m currently in a branch</string>
+    <string name="new_to_bank_which_city" translatable="false">Which city are you in?</string>
+    <string name="new_to_bank_select_city" translatable="false">Select city</string>
+    <string name="new_to_bank_which_suburb" translatable="false">Which suburb?</string>
+    <string name="new_to_bank_select_suburb" translatable="false">Select suburb</string>
+    <string name="new_to_bank_which_branch" translatable="false">Which branch?</string>
+    <string name="new_to_bank_select_branch" translatable="false">Select branch</string>
+    <string-array name="new_to_bank_welcome_screen_items" translatable="false">
+        <item>All you may need is your RSA ID and physical proof of residence</item>
+        <item>Avoid paperwork, verify your identity using a few selfies</item>
+        <item>Save time, order your bank card right here on the App</item>
+        <item>Get accidental death cover for a year, free of charge</item>
+    </string-array>
+    <string name="new_to_bank_how_to_take_this_photo" translatable="false">How to take this photo:</string>
+    <string name="new_to_bank_Place_id_flat_instruction" translatable="false">Place your ID on a flat surface.</string>
+    <string name="new_to_bank_hold_your_phone_above_instruction" translatable="false">Hold your phone above your ID and fit your ID into the rectangle displayed.</string>
+    <string name="new_to_bank_take_photo" translatable="false">Take photo</string>
+    <!-- Surecheck strings -->
+    <string name="new_to_bank_confirm_cellphone_number_header" translatable="false">Confirm your cell phone number</string>
+    <string name="new_to_bank_phone_number_primary_surecheck_notice" translatable="false">Your cell phone number helps us keep your account safe. But first we need to make sure that this is really your number.</string>
+    <string name="new_to_bank_phone_number_secondary_surecheck_notice" translatable="false">We\'re going to send you a verification request on this cell phone number:</string>
+    <string name="new_to_bank_phone_number_surecheck_verification_request" translatable="false">Please accept the verification request</string>
+    <string name="new_to_bank_surecheck_keeping_you_secure" translatable="false">Keeping You Secure</string>
+    <string name="new_to_bank_surecheck_resend_validation" translatable="false">Resend verification</string>
+
+    <string name="new_to_bank_offer_note" translatable="false"><b>Note:</b> To get a cheque account with an overdraft, apply at your nearest branch or on absa.co.za.</string>
+    <string name="new_to_bank_more_information" translatable="false">For more information about %s, click here.</string>
+    <string name="new_to_bank_refer_absa_for_privacy_and_statement" translatable="false">Please refer to %s for our privacy notices and statement</string>
+    <string name="new_to_bank_more_information_about_student_account" translatable="false">For more information about the Student Account and it\'s benefits, %s</string>
+    <string name="new_to_bank_click_here" translatable="false">click here.</string>
+
+    <string name="new_to_bank_surecheck_verification" translatable="false">Verification Request</string>
+    <string name="new_to_bank_surecheck_header" translatable="false">SureCheck Verification</string>
+    <string name="new_to_bank_surecheck_text" translatable="false">To help keep your account secure, we have sent a SureCheck verification to your registered mobile number ending with %s.</string>
+
+    <string name="new_to_bank_where_you_live" translatable="false">Where You Live</string>
+    <string name="new_to_bank_check_your_address" translatable="false">To complete your application you will need to take a photo of your physical proof of residence document. You can use any of the following documents (not older than 3 months).</string>
+    <string name="new_to_bank_bills_examples" translatable="false">Municipal bill \nTelkom statement \nCell phone account statement </string>
+    <string name="new_to_bank_show_me_more" translatable="false">Show me more</string>
+    <string name="new_to_bank_place_your_document" translatable="false">Place your document on a flat surface</string>
+    <string name="new_to_bank_make_sure_it_fits" translatable="false">Hold your phone above your proof of residence document and make sure it fits into the rectangle</string>
+
+    <string name="new_to_bank_make_you_an_offer" translatable="false">Thanks %s. We\'re giving you free Absa Rewards until June 2019 so you can </string>
+    <string name="new_to_bank_get_cash_back_monthly" translatable="false">Get cash back monthly!</string>
+    <string name="new_to_bank_earn_when_you_swipe" translatable="false">You\'ll earn cash back whenever you swipe. Plus Enjoy amazing discounts from partner stores like:</string>
+    <string name="new_to_bank_join_absa_rewards_for_only" translatable="false">Yes, I\’d like to join Absa Rewards for only %s per month</string>
+    <string name="new_to_bank_deduct_my_account_on" translatable="false">Deduct the monthly fee from my account on</string>
+    <string name="new_to_bank_choose_day_for_deduction" translatable="false">Choose day for deduction</string>
+    <string name="new_to_bank_show_me_more_information" translatable="false">Show me more information</string>
+    <string name="new_to_bank_show_me_less_information" translatable="false">Show me less information</string>
+    <string name="new_to_bank_absa_rewards_description" translatable="false">Absa Rewards is a simple programme that rewards you for banking with Absa by putting cash in your pocket. Earning cash Rewards is easy – just use your Absa card for point-of-sale and online purchases.\n\nYou’ll earn cash Rewards on all qualifying transactions. You also get access to a range of value-added services, great offers and promotions from our Rewards partners.</string>
+    <string name="new_to_bank_what_you_earn" translatable="false">What you earn*:</string>
+    <string name="new_to_bank_rewards_card_purchases" translatable="false">As much as 1,5% on your Absa card purchases</string>
+    <string name="new_to_bank_rewards_participating_grocers" translatable="false">As much as 20% at participating grocers</string>
+    <string name="new_to_bank_rewards_sasol" translatable="false">As much as 15% from Absa at Sasol</string>
+    <string name="new_to_bank_rewards_partners" translatable="false">As much as 15% from Rewards partners</string>
+    <string name="new_to_bank_rewards_terms_and_conditions_apply" translatable="false">* Terms &amp; Conditions apply</string>
+    <string name="new_to_bank_medical_field_is" translatable="false">My medical field is</string>
+    <string name="new_to_bank_rewards_fee_message" translatable="false">After %s, you can deduct the monthly fee of %s from me on</string>
+    <string name="new_to_bank_medical_field" translatable="false">Medical field</string>
+    <string name="new_to_bank_which_country" translatable="false">Which country?</string>
+    <string name="new_to_bank_select_country" translatable="false">Select country</string>
+    <string name="new_to_bank_your_digital_profile" translatable="false">Your Digital Profile</string>
+
+    <!-- Address confirmation strings -->
+    <string name="new_to_bank_address_confirm_toolbar_title" translatable="false">Where You Live</string>
+    <string name="new_to_bank_address_confirmation_header" translatable="false">Can you confirm that you live here?</string>
+    <string name="new_to_bank_address_residential_status" translatable="false">My Residential Status</string>
+    <string name="new_to_bank_address_length_description_text" translatable="false">I have lived here since</string>
+    <string name="new_to_bank_address_length_hint_text" translatable="false">Choose Date</string>
+    <string name="new_to_bank_property_market_value_title" translatable="false">This property\u0027s market value</string>
+    <string name="new_to_bank_currency_string" translatable="false">R</string>
+    <string name="new_to_bank_residential_status_toolbar_title" translatable="false">Residential Status</string>
+    <string name="new_to_bank_market_value_error" translatable="false">Please enter a valid market value</string>
+    <string name="new_to_bank_residential_type_tenant" translatable="false">Tenant</string>
+    <string name="new_to_bank_residential_type_owner" translatable="false">Owner</string>
+    <string name="new_to_bank_postal_code_toolbar_title" translatable="false">Select Postal Code</string>
+    <string name="new_to_bank_address_invalid_date_error" translatable="false"> Please select a valid date</string>
+    <string name="new_to_bank_positive_button" translatable="false">OK</string>
+    <string name="new_to_bank_change_address_button_text" translatable="false">Change Address</string>
+    <string name="new_to_bank_address_suburb_incorrect_error" translatable="false">Postal Code Not Found. Please enter a valid Suburb</string>
+    <string name="new_to_bank_rewards_communication_to" translatable="false">Send this communication to me via</string>
+    <string name="new_to_bank_choose_preferred_method" translatable="false">Choose preferred method</string>
+    <string name="new_to_bank_new_products_and_offers" translatable="false">I\'m interested in hearing about new products and offers</string>
+    <string name="new_to_bank_method_of_communication" translatable="false">Method of Communication</string>
+
+    <!-- Error strings -->
+    <string name="new_to_bank_generic_header_unable_to_continue" translatable="false">Unable to continue</string>
+    <string name="new_to_bank_landing_connection_error_header" translatable="false">Unable to connect</string>
+    <string name="new_to_bank_error_something_went_wrong" translatable="false">Something went wrong</string>
+    <string name="new_to_bank_valid_password" translatable="false">Please enter a valid password</string>
+    <string name="new_to_bank_log_into_app" translatable="false">Log into the app</string>
+    <string name="new_to_bank_enter_address" translatable="false">Please enter an address</string>
+    <string name="new_to_bank_enter_city_town" translatable="false">Please enter a City/Town</string>
+    <string name="new_to_bank_enter_suburb" translatable="false">Please enter a suburb</string>
+    <string name="new_to_bank_select_postal_code" translatable="false">Please select a postal code</string>
+    <string name="new_to_bank_enter_market_value" translatable="false">Please enter market value</string>
+    <string name="new_to_bank_select_residental_status" translatable="false">Please select your residential status</string>
+    <string name="new_to_bank_choose_date" translatable="false">Please choose a date</string>
+    <string name="new_to_bank_checkbox_error" translatable="false">Please tick the box to indicate you agree to the Personal Client Agreement</string>
+    <string name="new_to_bank_confirm_id_error" translatable="false">Unfortunately, we cannot edit these details as they need to match with the Department of Home Affairs system. You can call our Contact Centre or visit your nearest branch to apply.</string>
+    <string name="new_to_bank_registration_maintenance_error" translatable="false">We had a problem connecting to our servers. Please try again after 01:00am.</string>
+
+    <string name="new_to_bank_welcome_to_absa" translatable="false">Welcome to Absa,\n%s!</string>
+    <string name="new_to_bank_account_details" translatable="false">Here are your account details:</string>
+    <string name="new_to_bank_account_number" translatable="false">Account Number</string>
+    <string name="new_to_bank_branch_code" translatable="false">Branch Code</string>
+    <string name="new_to_bank_date_and_time" translatable="false">Date &amp; Time</string>
+    <string name="new_to_bank_save_account_details" translatable="false">Save account details</string>
+    <string name="new_to_bank_complete_my_application" translatable="false">Complete my application</string>
+    <string name="new_to_bank_contact_you_within_48hours_description" translatable="false">We are currently checking your details and we will contact you within the next 4 hours*, then you can start using your account.\n\nPlease use your ID number or account number as your reference.\n\nIn the meantime, you can set up your account.</string>
+
+    <string name="new_to_bank_ready_set_go" translatable="false">Ready. Set. Go!</string>
+    <string name="new_to_bank_lets_start_banking" translatable="false">We\'re really excited to have you join our family. Now let\'s start banking.</string>
+    <string name="new_to_bank_all_thats_left_to_do" translatable="false">All that\'s left to do is:</string>
+    <string name="new_to_bank_arrange_to_collect_card" translatable="false">Arrange to collect your bank card</string>
+    <string name="new_to_bank_set_up_digital_profile" translatable="false">Set up your digital banking profile</string>
+    <string name="new_to_bank_deposit_to_activate_account" translatable="false">Deposit money to activate your account</string>
+
+    <string name="new_to_bank_from_which_branch_to_collect_card" translatable="false">From which branch would you like to collect your card?</string>
+    <string name="new_to_bank_preferred_city" translatable="false">Preferred city</string>
+    <string name="new_to_bank_preferred_suburb" translatable="false">Preferred suburb</string>
+    <string name="new_to_bank_preferred_branch" translatable="false">Preferred branch</string>
+
+    <string name="new_to_bank_benefits_show_more" translatable="false">Show me more</string>
+    <string name="new_to_bank_benefits_show_less" translatable="false">Show me less</string>
+
+    <string name="new_to_bank_good_news" translatable="false">Good news!</string>
+    <string name="new_to_bank_get_card_now" translatable="false">You can get your card right now from the %s branch.</string>
+    <string name="new_to_bank_get_standard_card" translatable="false">Get my standard card right now</string>
+    <string name="new_to_bank_get_standard_card_description" translatable="false">• This card will not have your name on it.\n• You can collect your card now\n• Once you have your card you can set up your digital banking</string>
+    <string name="new_to_bank_get_card_with_name" translatable="false">Or, you can get a card with your name on it.</string>
+    <string name="new_to_bank_order_personalised_card" translatable="false">Order a personalised card</string>
+    <string name="new_to_bank_order_personalised_card_description" translatable="false">• This card will have your name on it\n• The card will be ready in 3-5 working days from the branch of your choice\n• You will be able to set up and use our digital banking sites even before you get your card</string>
+    <string name="new_to_bank_order_where_to_collect_card" translatable="false">Where would you like to collect your personalised card?</string>
+    <string name="new_to_bank_branch_name" translatable="false">%s branch</string>
+    <string name="new_to_bank_a_different_branch" translatable="false">A different branch</string>
+    <string name="new_to_bank_please_select_branch" translatable="false">Please select branch</string>
+    <string name="new_to_bank_business_hours_only" translatable="false">* Business hours only</string>
+    <string name="new_to_bank_currently_checking_your_details" translatable="false">We are currently checking your details and we will contact you within the next 4 hours*, then you can start using your account.\n\nPlease use your ID number or account number as your reference.\n\nIn the meantime, you can set up your account.</string>
+    <string name="new_to_bank_use_photo_compliance" translatable="false">I agree that Absa may use my photo as provided by me to process this application.</string>
+    <string name="new_to_bank_card_has_been_ordered" translatable="false">Your card has been ordered</string>
+    <string name="new_to_bank_you_will_receive_sms" translatable="false">You will receive an SMS in 3 - 5 working days when your card is ready. Remember to take your ID document when you collect your card.</string>
+    <string name="new_to_bank_unable_to_order_your_card" translatable="false">Unable to order your card</string>
+    <string name="new_to_bank_set_up_my_digital_profile" translatable="false">Set up my digital profile</string>
+    <string name="new_to_bank_please_speak_to_consultant" translatable="false">Please speak to one of the consultants to get your card</string>
+    <string name="new_to_bank_absa_website_lower" translatable="false">absa.co.za</string>
+    <string name="new_to_bank_unsuccessful" translatable="false">Unsuccessful</string>
+    <string name="new_to_bank_application_was_unsuccessful" translatable="false">Unfortunately your application was unsuccessful. You can call our Contact Centre or visit your nearest branch to apply.</string>
+    <string name="new_to_bank_application_was_unsuccessful_in_branch" translatable="false">Unfortunately your application was unsuccessful. Please speak to a branch consultant for help.</string>
+    <string name="new_to_bank_image_saved" translatable="false">Image saved</string>
+    <string name="new_to_bank_if_you_go_back" translatable="false">If you go back now, all the data you\'ve entered so far will be lost and you will need to visit a branch to complete your application.</string>
+    <string name="new_to_bank_are_you_sure" translatable="false">Are you sure?</string>
+    <string name="new_to_bank_dismiss" translatable="false">Dismiss</string>
+    <string name="new_to_bank_unable_to_order_your_card_description" translatable="false">Please call our Contact Centre on 0860 100 372 to order your card. To get your card sooner, visit any branch to collect a standard card.\n\nOnce you have your card, remember to register for digital banking</string>
+    <string name="new_to_bank_thank_you_for_your_application" translatable="false">Thank you for your application</string>
+    <string name="new_to_bank_we_will_contact_you_within_3_hours" translatable="false">We will contact you within the next 3 hours* to finalise your account. You can also call 0860 100 372 and use your ID number as your reference.</string>
+    <string name="new_to_bank_front_facing_camera_error" translatable="false">There is no front facing camera on this device. Please go to your nearest Absa branch to apply for an account.</string>
+    <string name="new_to_bank_camera_access_error" translatable="false">Unable to access the camera. Please verify that you\'ve accepted the necessary permissions</string>
+    <string name="new_to_bank_cannot_continue_error" translatable="false">Unfortunately we cannot continue with your application. %s</string>
+    <string name="new_to_bank_already_absa_customer" translatable="false">It seems you\'re already an Absa customer</string>
+    <string name="new_to_bank_open_online_application" translatable="false">Open online application</string>
+    <string name="new_to_bank_visit_nearest_branch" translatable="false">Please visit your nearest branch to apply or click on the link below.</string>
+    <string name="new_to_bank_visit_nearest_branch_generic" translatable="false">You can call our Contact Centre or visit your nearest branch to apply.</string>
+    <string name="new_to_bank_speak_to_branch_consultant_generic" translatable="false">Please speak to a branch consultant for help.</string>
+    <string name="new_to_bank_unable_to_continue" translatable="false">Unable to continue</string>
+    <string name="new_to_bank_selfie_failure" translatable="false">Your face moved out of the screen. Let\'s start again so we can snap good selfies.</string>
+    <string name="new_to_bank_movement_failure" translatable="false">Your phone moved too much that time. Let\'s start again so we can snap good selfies.</string>
+    <string name="new_to_bank_please_try_again" translatable="false">Please try again</string>
+    <string name="new_to_bank_lets_try_that_again" translatable="false">Let\'s try that again.</string>
+    <string name="new_to_bank_scan_failure" translatable="false">Sorry there was a problem while trying to scan your ID.</string>
+    <string name="new_to_bank_speak_to_branch_consultant" translatable="false">Please speak to a branch consultant to apply or click on the link below.</string>
+    <string name="new_to_bank_selfie_process_restart" translatable="false">You will need to restart the process.</string>
+    <string name="new_to_bank_contact_us" translatable="false">Contact us</string>
+    <string name="new_to_bank_processing" translatable="false">Processing</string>
+    <string name="new_to_bank_save_your_account_details" translatable="false">Save your account details?</string>
+    <string name="new_to_bank_save_screenshot" translatable="false">We will save a screenshot of your account details under your photos.</string>
+    <string name="new_to_bank_processing_copy" translatable="false">To validate your identity we are comparing your selfies with your ID document photo</string>
+    <string name="new_to_bank_application_summary" translatable="false">Your Application Summary</string>
+    <string name="new_to_bank_income_and_expense_title" translatable="false">Your Income &amp; Expenses</string>
+    <string name="new_to_bank_thanks_for_checking_absa" translatable="false">Thank you for choosing Absa, your application is almost done.</string>
+    <string name="new_to_bank_account_type" translatable="false">Type of account</string>
+    <string name="new_to_bank_cost_per_month" translatable="false">Total cost per month</string>
+    <string name="new_to_bank_email" translatable="false">Email</string>
+    <string name="new_to_bank_sms" translatable="false">SMS</string>
+    <string name="new_to_bank_voice_recording" translatable="false">Voice recording</string>
+    <string name="new_to_bank_no_thanks" translatable="false">No, thanks</string>
+    <string name="new_to_bank_are_you_sure_offers" translatable="false">Are you sure? You can choose just how you hear about our offers:</string>
+    <string name="new_to_bank_offers" translatable="false">Be the first to hear about exciting new products, upgrade opportunities, fantastic offers and even more Rewards from Absa Group. Interested?</string>
+    <string name="new_to_bank_agree_terms_of_conditions" translatable="false">You are required to agree to the terms.</string>
+    <string name="new_to_bank_enter_amount" translatable="false">Enter amount</string>
+    <string name="new_to_bank_unable_to_process_application" translatable="false">Unable to process your application at this time</string>
+    <string name="new_to_bank_unable_to_process_in_branch" translatable="false">To process your application, please speak to a consultant. You will need your ID and Proof of Residence (e.g. a water or electricity bill) not older than 3 months.</string>
+    <string name="new_to_bank_unable_to_process_not_in_branch" translatable="false">To process your application, you can call our Contact Centre or visit your nearest branch with your ID and Proof of Residence (e.g. a water or electricity bill) not older than 3 months.</string>
+    <string name="new_to_bank_permissions_camera_rationale" translatable="false">In order to be able to take selfies, you need to allow access to your phone\'s camera.</string>
+    <string name="new_to_bank_min_age_error_message" translatable="false">You must be at least 18 years of age</string>
+    <string name="new_to_bank_min_max_age_error_message" translatable="false">You must be at least 18 years of age and not older than 27 years of age</string>
+    <string name="new_to_bank_not_appropriate_age_title" translatable="false">It seems you\'re not of the appropriate age</string>
+    <string name="new_to_bank_not_appropriate_age_message" translatable="false">Unfortunately we cannot continue with your application. Please click on the link below to choose another account</string>
+    <string name="new_to_bank_proof_of_residence_letter_option" translatable="false">University registration letter</string>
+    <string name="new_to_bank_source_of_funds_title" translatable="false">My account will be funded by</string>
+    <string name="new_to_bank_student_follow_to_open_account" translatable="false">Please make sure of the following to open a student account:</string>
+    <string name="new_to_bank_student_south_african_id" translatable="false">South African ID Booklet / Smart Card ID</string>
+    <string name="new_to_bank_student_must_be_18_27_years_old" translatable="false">Must be 18 - 27 years old</string>
+    <string name="new_to_bank_student_proof_of_address" translatable="false">Your proof of registration will be accepted as a proof of residence</string>
+    <string name="new_to_bank_student_must_be_fulltime" translatable="false">Must be a full-time student studying towards an undergraduate or postgraduate degree, or qualification of one year or more</string>
+    <string name="new_to_bank_student_only_sa_citizen_can_apply" translatable="false">Only South African citizens can apply</string>
+    <string name="new_to_bank_im_with_consultant_on_my_campus" translatable="false">I\'m with an Absa consultant on my campus</string>
+    <string name="new_to_bank_how_will_you_fund_account" translatable="false">We\'re almost there. Please tell us how will you fund the account</string>
+    <string name="new_to_bank_view_account_options" translatable="false">View account options</string>
+    <string name="new_to_bank_error_message" translatable="false">Please agree to using your photo to process this application to continue</string>
+    <string name="new_to_bank_cancel_process" translatable="false">Are you sure you want to cancel your Open an account process?</string>
+    <string name="new_to_bank_contact_centre_number" translatable="false">0800 227 592</string>
+    <string name="new_to_bank_contact_centre" translatable="false">Contact Centre</string>
+</resources>

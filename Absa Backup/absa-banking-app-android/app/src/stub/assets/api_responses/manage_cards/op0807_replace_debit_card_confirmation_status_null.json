@@ -1,0 +1,26 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0807",
+      "resCde": "00000",
+      "resMsg": "SUCCESS",
+      "serVer": "2.0",
+      "expTrace": null
+    },
+    "payData": {
+      "status": null,
+      "statusMessage": null,
+      "newDebitCardNumber": null,
+      "sureCheckFlag": "SURECHECKV2Required",
+      "tvnFlag": "SURECHECKV2Required",
+      "referenceNumber": "MA\u003d\u003d",
+      "corelationId": "MA\u003d\u003d",
+      "transactionDate": "2018-07-09 09:51:52",
+      "cellnumber": "******1106",
+      "email": "",
+      "notificationMethod": null,
+      "txnStatus": null,
+      "txnMessage": null
+    }
+  }
+}

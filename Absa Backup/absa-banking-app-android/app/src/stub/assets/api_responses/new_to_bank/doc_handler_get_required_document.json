@@ -1,0 +1,149 @@
+[
+  {
+    "RequiredDocuments": [
+      {
+        "DocumentInstance": null,
+        "AvailableSubTypes": [
+          {
+            "DisplayName": "Terms and Conditions document upload",
+            "Description": null,
+            "Id": "e5efd2c0-4b7a-4ffc-b3fb-454a68000b4e"
+          }
+        ],
+        "Description": "Terms and Conditions",
+        "DisplayName": "Terms and Conditions",
+        "DocumentTypeId": "539bf192-18fe-432c-bb11-7d700b812c2e",
+        "IsEditable": true
+      },
+      {
+        "DocumentInstance": null,
+        "AvailableSubTypes": [
+          {
+            "DisplayName": "South African Smart ID Card rear image upload",
+            "Description": null,
+            "Id": "2d81b4b2-1eaf-4281-b0d1-931e8299170d"
+          }
+        ],
+        "Description": "South African Smart ID Card rear image",
+        "DisplayName": "South African Smart ID Card rear image",
+        "DocumentTypeId": "54f5d2b3-5fbc-4cd1-bc22-c50a16941c03",
+        "IsEditable": true
+      },
+      {
+        "DocumentInstance": null,
+        "AvailableSubTypes": [
+          {
+            "DisplayName": "South African Smart ID Card front image upload",
+            "Description": null,
+            "Id": "2b6adc4f-3abf-4ac8-a313-c7667643a481"
+          }
+        ],
+        "Description": "South African Smart ID Card front image",
+        "DisplayName": "South African Smart ID Card front image",
+        "DocumentTypeId": "27f5c8f8-0c15-4b9a-a3ac-48d182db8db2",
+        "IsEditable": true
+      },
+      {
+        "DocumentInstance": null,
+        "AvailableSubTypes": [
+          {
+            "DisplayName": "Selfie",
+            "Description": null,
+            "Id": "7c513d7b-9357-4e3c-a4bb-8817c8b784c3"
+          }
+        ],
+        "Description": "Selfie",
+        "DisplayName": "Upload selfie",
+        "DocumentTypeId": "b45ab66d-0823-4b9a-b55a-850e6fb1ab96",
+        "IsEditable": true
+      },
+      {
+        "DocumentInstance": {
+          "InstanceId": "49ede8c4-ea79-44b8-b210-3c418f8bed30",
+          "ContentType": 2,
+          "Thumbnail": null,
+          "DocumentImage": null,
+          "DocumentSubTypeId": "b8b7e9fa-2f78-4215-a9c3-cfe667ffec63",
+          "Name": "Photo",
+          "Description": "Photo",
+          "Category": null,
+          "Status": 1,
+          "IsLocked": false
+        },
+        "AvailableSubTypes": [
+          {
+            "DisplayName": "This is me",
+            "Description": null,
+            "Id": "a8691627-9ada-4b71-bdb0-935cb1cd59b3"
+          },
+          {
+            "DisplayName": "Department of home affairs photo",
+            "Description": null,
+            "Id": "b8b7e9fa-2f78-4215-a9c3-cfe667ffec63"
+          }
+        ],
+        "Description": "Photo",
+        "DisplayName": "Photo",
+        "DocumentTypeId": "49ede8c4-ea79-44b8-b210-3c418f8bed30",
+        "IsEditable": true
+      },
+      {
+        "DocumentInstance": null,
+        "AvailableSubTypes": [
+          {
+            "DisplayName": "Proof Of Address Certificate",
+            "Description": null,
+            "Id": "1cb49e55-b98f-4b0d-985f-3d6cdb87e9c6"
+          },
+          {
+            "DisplayName": "Upload Proof Of Address",
+            "Description": null,
+            "Id": "795ca61e-f9e3-443d-ba58-82a94957276d"
+          }
+        ],
+        "Description": "Proof of Address",
+        "DisplayName": "This is for the proof of address upload",
+        "DocumentTypeId": "0bbe178e-54bb-4268-be8b-5ef431059e6c",
+        "IsEditable": true
+      },
+      {
+        "DocumentInstance": {
+          "InstanceId": "15932017-0840-4338-86ae-105c148d4acc",
+          "ContentType": 2,
+          "Thumbnail": null,
+          "DocumentImage": null,
+          "DocumentSubTypeId": "3038c786-eee8-40c7-bc81-b79502bc53f9",
+          "Name": "Proof of Identity",
+          "Description": "Proof of Identity",
+          "Category": null,
+          "Status": 1,
+          "IsLocked": false
+        },
+        "AvailableSubTypes": [
+          {
+            "DisplayName": "Green bar-coded identity document",
+            "Description": null,
+            "Id": "ac0969b1-6d70-490e-af5a-0169826dc77f"
+          },
+          {
+            "DisplayName": "SA ID card",
+            "Description": null,
+            "Id": "628c934d-17f3-44f5-94ad-44fad22dd169"
+          },
+          {
+            "DisplayName": "Department of Home Affairs Certificate",
+            "Description": null,
+            "Id": "3038c786-eee8-40c7-bc81-b79502bc53f9"
+          }
+        ],
+        "Description": "Proof of Identity",
+        "DisplayName": "Proof of Identity",
+        "DocumentTypeId": "15932017-0840-4338-86ae-105c148d4acc",
+        "IsEditable": true
+      }
+    ],
+    "CaseId": "ecd3a9a3-718e-484c-a3e9-02d637dc7802",
+    "DisplayName": "AXOBMOBAPP_9105265049088",
+    "IsEditable": true
+  }
+]

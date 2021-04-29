@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        style="@style/ScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <styleguide.buttons.Button
+                android:id="@+id/acceptQuoteButton"
+                style="@style/PrimaryButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/accept_quote"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/termsOfUseTextView"
+                app:layout_constraintVertical_bias="1" />
+
+            <TextView
+                android:id="@+id/termsOfUseTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/medium_space"
+                android:layout_marginTop="@dimen/medium_space"
+                android:layout_marginEnd="@dimen/medium_space"
+                android:paddingBottom="@dimen/normal_space"
+                android:text="@string/policy_declaration"
+                android:theme="@style/LargeTextRegularDark"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/quotationBottomDividerView" />
+
+            <View
+                android:id="@+id/quotationTopDividerView"
+                style="@style/DividerView"
+                android:layout_width="0dp"
+                android:layout_marginTop="@dimen/medium_space"
+                android:layout_marginBottom="@dimen/medium_space"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/totalMonthlyPremiumPrimaryContentAndLabelView" />
+
+            <View
+                android:id="@+id/quotationMiddleDividerView"
+                style="@style/DividerView"
+                android:layout_width="0dp"
+                android:layout_marginTop="@dimen/medium_space"
+                android:layout_marginBottom="@dimen/medium_space"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/serviceFeeSecondaryContentAndLabelView" />
+
+            <View
+                android:id="@+id/quotationBottomDividerView"
+                android:layout_width="0dp"
+                style="@style/DividerView"
+                android:layout_marginBottom="@dimen/medium_space"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/viewTermsOfUseButtonView" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/familyMembersRecyclerView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                app:layout_constraintBottom_toTopOf="@+id/serviceFeeSecondaryContentAndLabelView"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/spouseCoverSecondaryContentAndLabelView" />
+
+            <styleguide.buttons.OptionActionButtonView
+                android:id="@+id/viewTermsOfUseButtonView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:focusable="true"
+                app:attribute_caption="@string/terms_and_condition_funeral"
+                app:attribute_icon="@drawable/ic_download_dark"
+                app:attribute_show_arrow="true"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/quotationMiddleDividerView" />
+
+            <styleguide.content.PrimaryContentAndLabelView
+                android:id="@+id/totalMonthlyPremiumPrimaryContentAndLabelView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_primary_label="@string/total_monthly_premium"
+                app:attribute_should_show_check_box="false"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <styleguide.content.SecondaryContentAndLabelView
+                android:id="@+id/mainMemberSecondaryContentAndLabelView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_is_secondary_check_box_checked="false"
+                app:attribute_secondary_label="@string/debit_day"
+                app:attribute_should_show_check_box="false"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/quotationTopDividerView" />
+
+            <styleguide.content.SecondaryContentAndLabelView
+                android:id="@+id/spouseCoverSecondaryContentAndLabelView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                app:attribute_is_secondary_check_box_checked="false"
+                app:attribute_should_show_check_box="false"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/mainMemberSecondaryContentAndLabelView" />
+
+            <styleguide.content.SecondaryContentAndLabelView
+                android:id="@+id/serviceFeeSecondaryContentAndLabelView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_is_secondary_check_box_checked="false"
+                app:attribute_secondary_content="@string/service_fee_per_month"
+                app:attribute_secondary_label="@string/funeral_cover_service_fee"
+                app:attribute_should_show_check_box="false"
+                app:layout_constraintBottom_toTopOf="@id/quotationMiddleDividerView"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/familyMembersRecyclerView" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</layout>

@@ -1,0 +1,77 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0861",
+      "resCde": "00000",
+      "resMsg": "Success",
+      "serVer": "2.0",
+      "expTrace": null
+    },
+    "payData": {
+      "lookups": [
+        {
+          "itemCode": "01",
+          "groupCode": "POST MATRIC QUALIFICATION",
+          "cmsKey": null,
+          "defaultLabel": "CERTIFICATE 24 MONTHS"
+        },
+        {
+          "itemCode": "02",
+          "groupCode": "POST MATRIC QUALIFICATION",
+          "cmsKey": null,
+          "defaultLabel": "DIPLOMA 1 YEAR"
+        },
+        {
+          "itemCode": "03",
+          "groupCode": "POST MATRIC QUALIFICATION",
+          "cmsKey": null,
+          "defaultLabel": "DIPLOMA 2 YEARS"
+        },
+        {
+          "itemCode": "04",
+          "groupCode": "POST MATRIC QUALIFICATION",
+          "cmsKey": null,
+          "defaultLabel": "DIPLOMA 3 YEARS"
+        },
+        {
+          "itemCode": "05",
+          "groupCode": "POST MATRIC QUALIFICATION",
+          "cmsKey": null,
+          "defaultLabel": "DEGREE 3 \u0026 3+ YEARS"
+        },
+        {
+          "itemCode": "06",
+          "groupCode": "POST MATRIC QUALIFICATION",
+          "cmsKey": null,
+          "defaultLabel": "POST GRADUATE DIPLOMA 12 MONTHS"
+        },
+        {
+          "itemCode": "07",
+          "groupCode": "POST MATRIC QUALIFICATION",
+          "cmsKey": null,
+          "defaultLabel": "HONOURS"
+        },
+        {
+          "itemCode": "08",
+          "groupCode": "POST MATRIC QUALIFICATION",
+          "cmsKey": null,
+          "defaultLabel": "MASTERS"
+        },
+        {
+          "itemCode": "09",
+          "groupCode": "POST MATRIC QUALIFICATION",
+          "cmsKey": null,
+          "defaultLabel": "DOCTORATE"
+        },
+        {
+          "itemCode": "10",
+          "groupCode": "POST MATRIC QUALIFICATION",
+          "cmsKey": null,
+          "defaultLabel": "NONE OF THE ABOVE"
+        }
+      ],
+      "txnStatus": "Success",
+      "txnMessage": "Success"
+    }
+  }
+}

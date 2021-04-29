@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/will_navigation_graph"
+    app:startDestination="@id/willStartJourneyFragment">
+
+    <fragment
+        android:id="@+id/willStartJourneyFragment"
+        android:name="com.barclays.absa.banking.will.ui.WillStartJourneyFragment"
+        android:label="WillStartJourneyFragment"
+        tools:layout="@layout/will_start_journey_fragment">
+        <action
+            android:id="@+id/action_willStartJourneyFragment_to_genericResultScreenFragment"
+            app:destination="@id/genericResultScreenFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+    <fragment
+        android:id="@+id/genericResultScreenFragment"
+        android:name="styleguide.screens.GenericResultScreenFragment"
+        android:label="GenericResultScreenFragment"
+        tools:layout="@layout/generic_results_screen_fragment">
+        <action
+            android:id="@+id/action_genericResultScreenFragment_to_willStartJourneyFragment"
+            app:destination="@id/willStartJourneyFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <argument
+            android:name="GenericResultScreenFragment"
+            app:argType="styleguide.screens.GenericResultScreenProperties" />
+    </fragment>
+</navigation>

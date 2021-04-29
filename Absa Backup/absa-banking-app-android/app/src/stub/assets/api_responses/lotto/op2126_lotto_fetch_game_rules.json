@@ -1,0 +1,86 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES2126",
+      "resCde": "00000",
+      "resMsg": "Success",
+      "serVer": "2.0",
+      "expTrace": null
+    },
+    "payData": {
+      "lottoGameRules": [
+        {
+          "gameType": "Lotto",
+          "basePrice": 5,
+          "maximumTicketPrice": 1000,
+          "minimumBoards": 1,
+          "maximumBoards": 20,
+          "minimumPrimaryBalNumber": 6,
+          "maximumPrimaryBalNumber": 6,
+          "minimumSecondaryBalNumber": 0,
+          "maximumSecondaryBalNumber": 0,
+          "quickPickInd": true,
+          "multiplierInd": true,
+          "multiplierPrice": 2.5,
+          "maximumNoOfDraws": 10,
+          "primaryLowNumber": 1,
+          "primaryHighNumber": 52,
+          "secondaryLowNumber": 0,
+          "secondaryHighNumber": 0,
+          "nextDrawDate": "2019-10-08",
+          "lottoJackpots": [
+            {
+              "drawType": "LottoPlus2",
+              "jackpot": 9700000,
+              "jackpotType": "Estimated"
+            },
+            {
+              "drawType": "LottoPlus1",
+              "jackpot": 2200000,
+              "jackpotType": "Estimated"
+            },
+            {
+              "drawType": "Lotto",
+              "jackpot": 6.0E7,
+              "jackpotType": "Estimated"
+            }
+          ]
+        },
+        {
+          "gameType": "Powerball",
+          "basePrice": 5,
+          "maximumTicketPrice": 750,
+          "minimumBoards": 1,
+          "maximumBoards": 20,
+          "minimumPrimaryBalNumber": 5,
+          "maximumPrimaryBalNumber": 5,
+          "minimumSecondaryBalNumber": 1,
+          "maximumSecondaryBalNumber": 1,
+          "quickPickInd": true,
+          "multiplierInd": true,
+          "multiplierPrice": 2.5,
+          "maximumNoOfDraws": 10,
+          "primaryLowNumber": 1,
+          "primaryHighNumber": 50,
+          "secondaryLowNumber": 1,
+          "secondaryHighNumber": 20,
+          "nextDrawDate": "2019-10-11",
+          "lottoJackpots": [
+            {
+              "drawType": "PowerballPlus",
+              "jackpot": 1.56E7,
+              "jackpotType": "Estimated"
+            },
+            {
+              "drawType": "Powerball",
+              "jackpot": 3.0E7,
+              "jackpotType": "Estimated"
+            }
+          ]
+        }
+      ],
+      "txnStatus": "Success",
+      "txnMessage": "Success"
+    }
+  }
+}

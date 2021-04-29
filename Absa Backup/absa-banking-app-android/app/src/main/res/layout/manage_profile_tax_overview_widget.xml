@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:parentTag="androidx.constraintlayout.widget.ConstraintLayout">
+
+    <styleguide.content.SecondaryContentAndLabelView
+        android:id="@+id/taxCountryContentView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:attribute_secondary_label="@string/mange_profile_tax_overview_widget_registered_country"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:attribute_secondary_content="Japan" />
+
+    <styleguide.content.SecondaryContentAndLabelView
+        android:id="@+id/taxNumberContentView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:attribute_secondary_label="@string/mange_profile_tax_overview_widget_tax_number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/taxCountryContentView"
+        tools:attribute_secondary_content="1234" />
+
+    <styleguide.content.SecondaryContentAndLabelView
+        android:id="@+id/taxReasonContentView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:attribute_secondary_label="@string/mange_profile_tax_overview_widget_reason"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/taxNumberContentView"
+        app:layout_constraintVertical_bias="0"
+        tools:attribute_secondary_content="Unable to Provide Reason" />
+</merge>

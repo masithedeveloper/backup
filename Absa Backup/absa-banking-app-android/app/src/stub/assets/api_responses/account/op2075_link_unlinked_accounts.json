@@ -1,0 +1,43 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "expTrace": null,
+      "serVer": "2.0",
+      "resMsg": "Success",
+      "resCde": "00000",
+      "resId": "RES2075"
+    },
+    "payData": {
+      "accountList": [
+        {
+          "defaultDescription": "H0700 CANNOT DELINK ACCOUNT AS IT IS A NOMINATED ACCOUNT",
+          "accountNumber": "9051008218",
+          "accountType": "savingsAccount",
+          "accountName": "Savings account",
+          "action": "D",
+          "returnCode": "16"
+        },
+        {
+          "defaultDescription": "H0700 CANNOT DELINK ACCOUNT AS IT IS A NOMINATED ACCOUNT",
+          "accountNumber": "9051008218",
+          "accountType": "savingsAccount",
+          "accountName": "Savings account",
+          "action": "D",
+          "returnCode": "16"
+        },
+        {
+          "defaultDescription": "",
+          "accountNumber": "9051008219",
+          "accountType": "savingsAccount",
+          "accountName": "Savings Account",
+          "action": "D",
+          "returnCode": "0"
+        }
+      ],
+      "linkingSuccessful": "true",
+      "reorderSuccessful": "false",
+      "txnMessage": "Failure",
+      "txnStatus": "Failure"
+    }
+  }
+}

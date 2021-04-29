@@ -1,0 +1,45 @@
+{
+  "payHdr": {
+    "resId": null,
+    "resCde": "00000",
+    "resMsg": "success",
+    "serVer": "2.0",
+    "expTrace": null
+  },
+  "payData": {
+    "Description1": "Thanks",
+    "Description2": ", we want to offer you Absa Rewards.",
+    "Description3": "Get cash back monthly!",
+    "Description4": "You'll earn cash back whenever you swipe.",
+    "Description5": "Yes, I’d like to join Absa Rewards",
+    "Description6": "Absa Rewards is a simple programme that rewards you for banking with Absa by putting cash in your pocket. Earning Cash Rewards is easy – just use your Absa card for point-of-sale and online purchases.",
+    "Description7": "You’ll earn Cash Rewards on all qualifying transactions. You also get access to a range of value-added services, great offers and promotions from our Rewards partners.",
+    "Description8": "Deduct the monthly fee of",
+    "Description9": "from me on",
+
+    "packages": [{
+      "package": "Plus get amazing discounts from our partner stores like: ",
+      "bulletPoints": ["SPAR",
+        "Food Lover's Market",
+        "Woolies",
+        "Pick and Pay",
+        "Checkers",
+        "Sasol",
+        "Numetro",
+        "Travelstart",
+        "... and many more"
+      ]
+    },
+      {
+        "package": "What you earn*:",
+        "bulletPoints": [
+          "Earn as much as 1,5% on your Absa card purchases",
+          "Earn as much as 20% at participating grocers",
+          "Earn as much as 15% from Absa at Sasol",
+          "Earn as much as 15% from Rewards partners"
+        ],
+        "asterix": "Terms and conditions apply"
+      }
+    ]
+  }
+}

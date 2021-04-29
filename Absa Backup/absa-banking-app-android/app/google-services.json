@@ -1,0 +1,383 @@
+{
+  "project_info": {
+    "project_number": "603468065286",
+    "firebase_url": "https://absa-banking-app-a5abb.firebaseio.com",
+    "project_id": "absa-banking-app-a5abb",
+    "storage_bucket": "absa-banking-app-a5abb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:603468065286:android:bd5e520bfd466c61",
+        "android_client_info": {
+          "package_name": "com.barclays.absa.banking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "603468065286-sqk2hmfn4ick6r5ukg7i8jt65ibc3ku4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8JSOOSOMd6AFcZcQRrZLty88bWqo4m2U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:603468065286:android:3b4f16d3d3f64a1a",
+        "android_client_info": {
+          "package_name": "com.barclays.absa.banking.beta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "603468065286-sqk2hmfn4ick6r5ukg7i8jt65ibc3ku4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8JSOOSOMd6AFcZcQRrZLty88bWqo4m2U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:603468065286:android:dbd97639c454b75e",
+        "android_client_info": {
+          "package_name": "com.barclays.absa.banking.beta.hotfix"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "603468065286-sqk2hmfn4ick6r5ukg7i8jt65ibc3ku4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8JSOOSOMd6AFcZcQRrZLty88bWqo4m2U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:603468065286:android:6abca24d97967f0e",
+        "android_client_info": {
+          "package_name": "com.barclays.absa.banking.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "603468065286-sqk2hmfn4ick6r5ukg7i8jt65ibc3ku4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8JSOOSOMd6AFcZcQRrZLty88bWqo4m2U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:603468065286:android:1473c3e1dd0a1bde",
+        "android_client_info": {
+          "package_name": "com.barclays.absa.banking.sit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "603468065286-sqk2hmfn4ick6r5ukg7i8jt65ibc3ku4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8JSOOSOMd6AFcZcQRrZLty88bWqo4m2U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:603468065286:android:f14f8fcbc7fea830",
+        "android_client_info": {
+          "package_name": "com.barclays.absa.banking.stub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "603468065286-sqk2hmfn4ick6r5ukg7i8jt65ibc3ku4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8JSOOSOMd6AFcZcQRrZLty88bWqo4m2U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:603468065286:android:4cc77295c41fb3ec",
+        "android_client_info": {
+          "package_name": "com.barclays.absa.banking.uat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "603468065286-sqk2hmfn4ick6r5ukg7i8jt65ibc3ku4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8JSOOSOMd6AFcZcQRrZLty88bWqo4m2U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:603468065286:android:4cc77295c41fb3ec",
+        "android_client_info": {
+          "package_name": "com.barclays.absa.banking.uat2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "603468065286-sqk2hmfn4ick6r5ukg7i8jt65ibc3ku4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8JSOOSOMd6AFcZcQRrZLty88bWqo4m2U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:603468065286:android:4cc77295c41fb3ec",
+        "android_client_info": {
+          "package_name": "com.barclays.absa.banking.uat3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "603468065286-sqk2hmfn4ick6r5ukg7i8jt65ibc3ku4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8JSOOSOMd6AFcZcQRrZLty88bWqo4m2U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:603468065286:android:52cf1b4f499f73cd",
+        "android_client_info": {
+          "package_name": "com.barclays.absa.banking.uat.card"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "603468065286-sqk2hmfn4ick6r5ukg7i8jt65ibc3ku4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8JSOOSOMd6AFcZcQRrZLty88bWqo4m2U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:603468065286:android:30620aaf86b738ef",
+        "android_client_info": {
+          "package_name": "com.barclays.absa.banking.uat.core"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "603468065286-sqk2hmfn4ick6r5ukg7i8jt65ibc3ku4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8JSOOSOMd6AFcZcQRrZLty88bWqo4m2U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:603468065286:android:21f4be2e887d000d",
+        "android_client_info": {
+          "package_name": "com.barclays.absa.banking.uat.wimi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "603468065286-sqk2hmfn4ick6r5ukg7i8jt65ibc3ku4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8JSOOSOMd6AFcZcQRrZLty88bWqo4m2U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

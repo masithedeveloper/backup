@@ -1,0 +1,64 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0803",
+      "resCde": "00000",
+      "resMsg": "SUCCESS",
+      "serVer": "2.0"
+    },
+    "payData": {
+      "debitCardTypeList": [
+        {
+          "brandName": "Platinum Debit Card",
+          "brandNumber": "2811",
+          "brandType": "L"
+        },
+        {
+          "brandName": "Vanilla DT Chip Flag",
+          "brandNumber": "2157",
+          "brandType": "L"
+        },
+        {
+          "brandName": "M/C DB Chip Gold",
+          "brandNumber": "2428",
+          "brandType": "L"
+        },
+        {
+          "brandName": "Absa Cur Chip MCI DT",
+          "brandNumber": "2462",
+          "brandType": "L"
+        },
+        {
+          "brandName": "M/C DB Chip Silver",
+          "brandNumber": "2430",
+          "brandType": "L"
+        },
+        {
+          "brandName": "Elec Debt Absa Seku",
+          "brandNumber": "1584",
+          "brandType": "L"
+        },
+        {
+          "brandName": "Marhaba Debit Card",
+          "brandNumber": "2617",
+          "brandType": "L"
+        },
+        {
+          "brandName": "Silver Debit Card",
+          "brandNumber": "2812",
+          "brandType": "L"
+        },
+        {
+          "brandName": "Gold Debit Card",
+          "brandNumber": "2810",
+          "brandType": "L"
+        },
+        {
+          "brandName": "Visa Absa Gold",
+          "brandNumber": "2905",
+          "brandType": "L"
+        }
+      ]
+    }
+  }
+}

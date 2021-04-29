@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:background="@color/pink"
+    tools:parentTag="androidx.constraintlayout.widget.ConstraintLayout">
+
+    <View
+        android:id="@+id/card_icon_view"
+        android:layout_width="@dimen/small_card_width"
+        android:layout_height="@dimen/small_card_height"
+        android:layout_marginStart="@dimen/medium_space"
+        android:background="@drawable/small_card_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/card_type_text_view"
+        style="@style/LargeTextRegularDark"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/medium_space"
+        android:layout_marginTop="@dimen/medium_space"
+        android:layout_marginEnd="@dimen/tiny_space"
+        android:textColor="@color/dark_grey_light_theme_text_color"
+        app:layout_constraintStart_toEndOf="@id/card_icon_view"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Credit Card" />
+
+    <TextView
+        android:id="@+id/card_number_text_view"
+        style="@style/SmallTextRegularDark"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/medium_space"
+        android:layout_marginTop="@dimen/tiny_space"
+        android:layout_marginBottom="@dimen/medium_space"
+        android:textColor="@color/dark_grey_light_theme_text_color"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/card_icon_view"
+        app:layout_constraintTop_toBottomOf="@id/card_type_text_view"
+        tools:text="4901 3456 667" />
+
+    <ImageView
+        android:id="@+id/lockImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/tiny_space"
+        android:padding="@dimen/card_lock_padding"
+        android:scaleType="centerInside"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@+id/cardLockedTextView"
+        app:layout_constraintEnd_toStartOf="@+id/cardLockedTextView"
+        app:layout_constraintHorizontal_bias="1"
+        app:layout_constraintStart_toEndOf="@+id/card_type_text_view"
+        app:layout_constraintTop_toTopOf="@+id/cardLockedTextView"
+        app:srcCompat="@drawable/ic_pause_lock_red"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/cardLockedTextView"
+        style="@style/LargeTextRegularDark"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/medium_space"
+        android:layout_marginEnd="@dimen/medium_space"
+        android:textColor="@color/red"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Locked" />
+
+</merge>

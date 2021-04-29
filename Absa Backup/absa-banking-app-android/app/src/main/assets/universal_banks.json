@@ -1,0 +1,40 @@
+{
+  "universalBank": [
+    {
+      "bankName": "ABSA",
+      "branchName": "ABSA",
+      "branchCode": "632005",
+      "immediatePaymentAllowed": "false"
+    },
+    {
+      "bankName": "STANDARD BANK SA LTD",
+      "branchName": "STANDARD BANK SOUTH AFRICA",
+      "branchCode": "051001",
+      "immediatePaymentAllowed": "true"
+    },
+    {
+      "bankName": "NEDBANK",
+      "branchName": "NEDBANK SOUTH AFRICA",
+      "branchCode": "198765",
+      "immediatePaymentAllowed": "true"
+    },
+    {
+      "bankName": "CAPITEC BANK LIMITED",
+      "branchName": "CAPITEC BANK CPC",
+      "branchCode": "470010",
+      "immediatePaymentAllowed": "true"
+    },
+    {
+      "bankName": "DISCOVERY BANK",
+      "branchName": "DISCOVERY UNIVERSAL BRANCH",
+      "branchCode": "679000",
+      "immediatePaymentAllowed": "true"
+    },
+    {
+      "bankName": "FIRST NATIONAL BANK",
+      "branchName": "FNB UNIVERSAL BRANCH",
+      "branchCode": "250655",
+      "immediatePaymentAllowed": "true"
+    }
+  ]
+}

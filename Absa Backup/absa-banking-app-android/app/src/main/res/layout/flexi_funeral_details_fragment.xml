@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scrollView"
+    style="@style/ScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/debitDayNormalInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_selector_type="DATE"
+            app:attribute_title_text="@string/flexi_funeral_debit_day"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/policyStartDateNoticeTextView"
+            style="@style/SmallTextRegularDark"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/medium_space"
+            android:layout_marginTop="@dimen/small_space"
+            android:layout_marginEnd="@dimen/medium_space"
+            android:text="@string/flexi_funeral_policy_start_date_information"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/debitDayNormalInputView" />
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/accountNormalInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_hint_text="@string/flexi_funeral_account_to_debit_hint"
+            app:attribute_selector_type="LONG_LIST"
+            app:attribute_title_text="@string/flexi_funeral_account_to_debit"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/policyStartDateNoticeTextView" />
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/employmentStatusNormalInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_hint_text="@string/insurance_employment_status_hint"
+            app:attribute_selector_type="LONG_LIST"
+            app:attribute_title_text="@string/insurance_employment_status"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/accountNormalInputView" />
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/occupationNormalInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_hint_text="@string/insurance_occupation_hint"
+            app:attribute_selector_type="SEARCHABLE_LONG_LIST"
+            app:attribute_title_text="@string/insurance_occupation"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/employmentStatusNormalInputView" />
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/sourceOfFundsNormalInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_hint_text="@string/flexi_funeral_source_of_funds_hint"
+            app:attribute_selector_type="LONG_LIST"
+            app:attribute_title_text="@string/flexi_funeral_source_of_funds"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/occupationNormalInputView" />
+
+        <styleguide.content.HeadingView
+            android:id="@+id/terminatedPolicyHeadingView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/medium_space"
+            app:attribute_heading="@string/flexi_funeral_has_a_policy_been_terminated_description"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/sourceOfFundsNormalInputView" />
+
+        <styleguide.forms.RadioButtonView
+            android:id="@+id/terminatedPolicyRadioButtonView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_is_required="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/terminatedPolicyHeadingView" />
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/nameOfInsurerNormalInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:maxLength="100"
+            android:visibility="gone"
+            app:attribute_hint_text="@string/flexi_funeral_name_of_insurer_hint"
+            app:attribute_title_text="@string/flexi_funeral_name_of_insurer"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/terminatedPolicyRadioButtonView" />
+
+        <styleguide.content.HeadingView
+            android:id="@+id/policyPayeeHeadingView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/medium_space"
+            app:attribute_heading="@string/flexi_funeral_policy_payee"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/nameOfInsurerNormalInputView" />
+
+        <styleguide.forms.RadioButtonView
+            android:id="@+id/payeeRadioButtonView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_is_required="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/policyPayeeHeadingView" />
+
+        <TextView
+            android:id="@+id/pleaseNoteTextView"
+            style="@style/SmallTextMediumDark"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/medium_space"
+            android:text="@string/flexi_funeral_policy_annual_increase"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/payeeRadioButtonView" />
+
+        <styleguide.buttons.Button
+            android:id="@+id/continueButton"
+            style="@style/PrimaryButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/continue_button"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/pleaseNoteTextView"
+            app:layout_constraintVertical_bias="1" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

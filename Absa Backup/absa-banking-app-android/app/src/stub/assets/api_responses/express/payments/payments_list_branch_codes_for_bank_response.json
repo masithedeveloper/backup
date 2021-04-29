@@ -1,0 +1,4187 @@
+{
+  "header": {
+    "statuscode": "0",
+    "userAgent": "ANDROID - 6.20.0",
+    "jsessionid": "OxRuduC8ACNJ2TWVhJXC7FSxLzDCiv6FGbS-Omcw",
+    "esessionid": "e8786cbb-a2aa-3161-8317-fc187b32c628",
+    "service": "ExternalBankDetailsFacade",
+    "operation": "ListBranchCodesForBank",
+    "channel": "S",
+    "timestamp": "2021-01-22 08:00:34.277",
+    "sourceip": "22.240.44.100",
+    "accessAccount": "4047510559",
+    "userNumber": "1",
+    "nonce": "9DvPNNDfkJb5E0Jpd_W0zPZlJKQdnBkOlbLlNtM7eSA",
+    "language": "en",
+    "organization": "ABSA",
+    "brand": "ABSA",
+    "resultMessages": []
+  },
+  "branchCodes": [
+    {
+      "branchName": "PARKTOWN - 000355",
+      "bankCode": "000355",
+      "iipeligible": true
+    },
+    {
+      "branchName": "HARRISON ST. CLOSED 92-06-20 - 000405",
+      "bankCode": "000405",
+      "iipeligible": true
+    },
+    {
+      "branchName": "AE KINE CNT CLOSED 98-11-04 - 000453",
+      "bankCode": "000453",
+      "iipeligible": true
+    },
+    {
+      "branchName": "MARSHALLS CLOSED 98-10-10 - 000605",
+      "bankCode": "000605",
+      "iipeligible": true
+    },
+    {
+      "branchName": "CIB:BRANCH - 000653",
+      "bankCode": "000653",
+      "iipeligible": true
+    },
+    {
+      "branchName": "SELBY CLOSED 06-04-08 - 000705",
+      "bankCode": "000705",
+      "iipeligible": true
+    },
+    {
+      "branchName": "EB PWV OPC CLOSED 99-02-20 - 000753",
+      "bankCode": "000753",
+      "iipeligible": true
+    },
+    {
+      "branchName": "FERREIRASTOWN CLOSED 87-08-22 - 000805",
+      "bankCode": "000805",
+      "iipeligible": true
+    },
+    {
+      "branchName": "AE LOANS CNT CLOSED 99-02-20 - 000853",
+      "bankCode": "000853",
+      "iipeligible": true
+    },
+    {
+      "branchName": "NEWTOWN MINI CLOSED 87-03-20 - 000905",
+      "bankCode": "000905",
+      "iipeligible": true
+    },
+    {
+      "branchName": "KRAMERVILLE CLOSED 00-05-05 - 000955",
+      "bankCode": "000955",
+      "iipeligible": true
+    },
+    {
+      "branchName": "LIBRARY GARDENS - 001005",
+      "bankCode": "001005",
+      "iipeligible": true
+    },
+    {
+      "branchName": "NORTHGATE - 001106",
+      "bankCode": "001106",
+      "iipeligible": true
+    },
+    {
+      "branchName": "AE NEWGATE CLOSED 98-11-07 - 001153",
+      "bankCode": "001153",
+      "iipeligible": true
+    },
+    {
+      "branchName": "MIDRAND - 001155",
+      "bankCode": "001155",
+      "iipeligible": true
+    },
+    {
+      "branchName": "JEPPE ST CLOSED - 001205",
+      "bankCode": "001205",
+      "iipeligible": true
+    },
+    {
+      "branchName": "CLEARWATER - 001206",
+      "bankCode": "001206",
+      "iipeligible": true
+    },
+    {
+      "branchName": "AE DOBSONVILLE CLOSED 98-11-04 - 001253",
+      "bankCode": "001253",
+      "iipeligible": true
+    },
+    {
+      "branchName": "WOODMEAD - 001255",
+      "bankCode": "001255",
+      "iipeligible": true
+    },
+    {
+      "branchName": "TEMBISA - 001263",
+      "bankCode": "001263",
+      "iipeligible": true
+    },
+    {
+      "branchName": "ELOFF STREET - 001305",
+      "bankCode": "001305",
+      "iipeligible": true
+    },
+    {
+      "branchName": "AE HILLBROW CLOSED 98-11-04 - 001353",
+      "bankCode": "001353",
+      "iipeligible": true
+    },
+    {
+      "branchName": "KRUIS ST CLOSED 05-10-08 - 001405",
+      "bankCode": "001405",
+      "iipeligible": true
+    },
+    {
+      "branchName": "AE LC DVILLE CLOSED 99-02-20 - 001453",
+      "bankCode": "001453",
+      "iipeligible": true
+    },
+    {
+      "branchName": "CIB: WESTERN CAPE - 001509",
+      "bankCode": "001509",
+      "iipeligible": true
+    },
+    {
+      "branchName": "CIB: KWA-ZULU NATAL - 001526",
+      "bankCode": "001526",
+      "iipeligible": true
+    },
+    {
+      "branchName": "MOTORTOWN CLOSED 96-10-19 - 001605",
+      "bankCode": "001605",
+      "iipeligible": true
+    },
+    {
+      "branchName": "AE HLOAN H/O (CLOSED 99-02-20) - 000053",
+      "bankCode": "000053",
+      "iipeligible": true
+    },
+    {
+      "branchName": "RETAIL SERVICE CLOSED 03-07-12 - 000055",
+      "bankCode": "000055",
+      "iipeligible": true
+    },
+    {
+      "branchName": "JOHANNESBURG (CLOSED 98-04-18) - 000105",
+      "bankCode": "000105",
+      "iipeligible": true
+    },
+    {
+      "branchName": "JHB CITY FOREX CLOSED 98-09-05 - 000153",
+      "bankCode": "000153",
+      "iipeligible": true
+    },
+    {
+      "branchName": "CIB: JHB OPS HUB - 000155",
+      "bankCode": "000155",
+      "iipeligible": true
+    },
+    {
+      "branchName": "JOHANNESBURG - 000205",
+      "bankCode": "000205",
+      "iipeligible": true
+    },
+    {
+      "branchName": "CIB: SANDRAND SANDTON - 000253",
+      "bankCode": "000253",
+      "iipeligible": true
+    },
+    {
+      "branchName": "DUBE CLOSED 04-10-09 - 000255",
+      "bankCode": "000255",
+      "iipeligible": true
+    },
+    {
+      "branchName": "STOCK EXCH CLOSED 02-03-16 - 000305",
+      "bankCode": "000305",
+      "iipeligible": true
+    },
+    {
+      "branchName": "BRAMLEY - 004005",
+      "bankCode": "004005",
+      "iipeligible": true
+    },
+    {
+      "branchName": "MALL OF THE SOUTH - 004006",
+      "bankCode": "004006",
+      "iipeligible": true
+    },
+    {
+      "branchName": "CIB : TPS INV SER GLOB - 004055",
+      "bankCode": "004055",
+      "iipeligible": true
+    },
+    {
+      "branchName": "NORWOOD - 004105",
+      "bankCode": "004105",
+      "iipeligible": true
+    },
+    {
+      "branchName": "CIB: NORTHERN GAUTENG - 004145",
+      "bankCode": "004145",
+      "iipeligible": true
+    },
+    {
+      "branchName": "JAN SMUTS AVENUE - 004205",
+      "bankCode": "004205",
+      "iipeligible": true
+    },
+    {
+      "branchName": "MELROSE ARCH - 004206",
+      "bankCode": "004206",
+      "iipeligible": true
+    },
+    {
+      "branchName": "HOME LOANS - 004255",
+      "bankCode": "004255",
+      "iipeligible": true
+    },
+    {
+      "branchName": "ROSEBANK - 004305",
+      "bankCode": "004305",
+      "iipeligible": true
+    },
+    {
+      "branchName": "DIGITAL BANKING CLOSED - 004306",
+      "bankCode": "004306",
+      "iipeligible": true
+    },
+    {
+      "branchName": "YEOVILLE CLOSED 00-06-10 - 004405",
+      "bankCode": "004405",
+      "iipeligible": true
+    },
+    {
+      "branchName": "HILLBROW CLOSED 04-02-14 - 004505",
+      "bankCode": "004505",
+      "iipeligible": true
+    },
+    {
+      "branchName": "OPS:EAST RAND ATM SERVICES - 004560",
+      "bankCode": "004560",
+      "iipeligible": true
+    },
+    {
+      "branchName": "ELECTRONIC SETTLEMENT JHBG - 004586",
+      "bankCode": "004586",
+      "iipeligible": true
+    },
+    {
+      "branchName": "HILLBROW - 004605",
+      "bankCode": "004605",
+      "iipeligible": true
+    },
+    {
+      "branchName": "GAUTENG PROVINCE - 001653",
+      "bankCode": "001653",
+      "iipeligible": true
+    },
+    {
+      "branchName": "CITY & SUB CLOSED 00-03-04 - 001705",
+      "bankCode": "001705",
+      "iipeligible": true
+    },
+    {
+      "branchName": "EGOLI - 001805",
+      "bankCode": "001805",
+      "iipeligible": true
+    },
+    {
+      "branchName": "AE CARRINGT ST CLOSED 98-10-24 - 001840",
+      "bankCode": "001840",
+      "iipeligible": true
+    },
+    {
+      "branchName": "AE OK ELOFF ST CLOSED 98-11-04 - 001953",
+      "bankCode": "001953",
+      "iipeligible": true
+    },
+    {
+      "branchName": "AE INDUSTRIA CLOSED 98-11-04 - 002053",
+      "bankCode": "002053",
+      "iipeligible": true
+    },
+    {
+      "branchName": "STL ASSET MANAGEMENT - 002205",
+      "bankCode": "002205",
+      "iipeligible": true
+    },
+    {
+      "branchName": "CARLTON CENTRE - 002305",
+      "bankCode": "002305",
+      "iipeligible": true
+    },
+    {
+      "branchName": "OPS:VAAL CASH SERVICES - 002356",
+      "bankCode": "002356",
+      "iipeligible": true
+    },
+    {
+      "branchName": "KINE CNT CLOSED 85-07-19 - 002405",
+      "bankCode": "002405",
+      "iipeligible": true
+    },
+    {
+      "branchName": "AE BRAMLEY CLOSED 98-11-07 - 002453",
+      "bankCode": "002453",
+      "iipeligible": true
+    },
+    {
+      "branchName": "DIEPKLOOF CLOSED 00-10-07 - 002505",
+      "bankCode": "002505",
+      "iipeligible": true
+    },
+    {
+      "branchName": "AE BERGVLEI CLOSED 98-11-07 - 002653",
+      "bankCode": "002653",
+      "iipeligible": true
+    },
+    {
+      "branchName": "AE MIDRAND CLOSED 98-11-07 - 002753",
+      "bankCode": "002753",
+      "iipeligible": true
+    },
+    {
+      "branchName": "BUREAU SERVICES - 002756",
+      "bankCode": "002756",
+      "iipeligible": true
+    },
+    {
+      "branchName": "L GARDENS PMAS CLOSED - 002905",
+      "bankCode": "002905",
+      "iipeligible": true
+    },
+    {
+      "branchName": "AE BRAAMF CLOSED 98-11-07 - 002953",
+      "bankCode": "002953",
+      "iipeligible": true
+    },
+    {
+      "branchName": "MOBILE MONEY - 003153",
+      "bankCode": "003153",
+      "iipeligible": true
+    },
+    {
+      "branchName": "OPS:JOHANNESBURG CASH CENTRE - 003856",
+      "bankCode": "003856",
+      "iipeligible": true
+    },
+    {
+      "branchName": "OPC CENTRAL SERVICES - 003905",
+      "bankCode": "003905",
+      "iipeligible": true
+    },
+    {
+      "branchName": "TROYE OPC CLOSED 02-11-23 - 003955",
+      "bankCode": "003955",
+      "iipeligible": true
+    },
+    {
+      "branchName": "NORTHCLIFF CLOSED 2019-02-09 - 006305",
+      "bankCode": "006305",
+      "iipeligible": true
+    },
+    {
+      "branchName": "IPS PRETORIA DAY 2 CENTRE - 006353",
+      "bankCode": "006353",
+      "iipeligible": true
+    },
+    {
+      "branchName": "IPS JOHANNESBURG DAY 2 CENTRE - 006355",
+      "bankCode": "006355",
+      "iipeligible": true
+    },
+    {
+      "branchName": "TSAKANE - 006360",
+      "bankCode": "006360",
+      "iipeligible": true
+    },
+    {
+      "branchName": "SOUTHDALE - 006405",
+      "bankCode": "006405",
+      "iipeligible": true
+    },
+    {
+      "branchName": "STEELEDALE CLOSED 00-03-11 - 006505",
+      "bankCode": "006505",
+      "iipeligible": true
+    },
+    {
+      "branchName": "HYDE PARK - 006605",
+      "bankCode": "006605",
+      "iipeligible": true
+    },
+    {
+      "branchName": "SBV SELBY - 004660",
+      "bankCode": "004660",
+      "iipeligible": true
+    },
+    {
+      "branchName": "SIEMERT ST CLOSED 98-06-20 - 004705",
+      "bankCode": "004705",
+      "iipeligible": true
+    },
+    {
+      "branchName": "MAPONYA MALL - 004706",
+      "bankCode": "004706",
+      "iipeligible": true
+    },
+    {
+      "branchName": "BRAAMFONTEIN - 004805",
+      "bankCode": "004805",
+      "iipeligible": true
+    },
+    {
+      "branchName": "KAALFONTEIN - 004806",
+      "bankCode": "004806",
+      "iipeligible": true
+    },
+    {
+      "branchName": "CIVIC CNT CLOSED 98-05-23 - 004905",
+      "bankCode": "004905",
+      "iipeligible": true
+    },
+    {
+      "branchName": "SANRIDGE - 004906",
+      "bankCode": "004906",
+      "iipeligible": true
+    },
+    {
+      "branchName": "INDUSTRIA - 005005",
+      "bankCode": "005005",
+      "iipeligible": true
+    },
+    {
+      "branchName": "VAF: ACCESS FINANCE -005053",
+      "bankCode": "005053",
+      "iipeligible": true
+    },
+    {
+      "branchName": "NO. 5 ON SIMMONDS - 005055",
+      "bankCode": "005055",
+      "iipeligible": true
+    },
+    {
+      "branchName": "MALVERN - 005105",
+      "bankCode": "005105",
+      "iipeligible": true
+    },
+    {
+      "branchName": "ELECTRONIC SETTLEMENT DURBAN - 005183",
+      "bankCode": "005183",
+      "iipeligible": true
+    },
+    {
+      "branchName": "FORDSBURG - 005205",
+      "bankCode": "005205",
+      "iipeligible": true
+    },
+    {
+      "branchName": "JEPPETOWN CLOSED 00-06-03 - 005305",
+      "bankCode": "005305",
+      "iipeligible": true
+    },
+    {
+      "branchName": "AE SOUTHDALE CLOSED 98-11-07 - 005342",
+      "bankCode": "005342",
+      "iipeligible": true
+    },
+    {
+      "branchName": "BENROSE MINI CLOSED 85-11-05 - 005405",
+      "bankCode": "005405",
+      "iipeligible": true
+    },
+    {
+      "branchName": "END ST CLOSED 92-09-12 - 005505",
+      "bankCode": "005505",
+      "iipeligible": true
+    },
+    {
+      "branchName": "GOLD ST. CLOSED - 005605",
+      "bankCode": "005605",
+      "iipeligible": true
+    },
+    {
+      "branchName": "NR NON-METRO ATM SERVICES - 005660",
+      "bankCode": "005660",
+      "iipeligible": true
+    },
+    {
+      "branchName": "VILLAGE DEEP CLOSED 97-12-06 - 005705",
+      "bankCode": "005705",
+      "iipeligible": true
+    },
+    {
+      "branchName": "AE VEREENIG CLOSED 98-11-07 - 005737",
+      "bankCode": "005737",
+      "iipeligible": true
+    },
+    {
+      "branchName": "OPHIRTON  CLOSED 87-10-24 - 005805",
+      "bankCode": "005805",
+      "iipeligible": true
+    },
+    {
+      "branchName": "JHB CASH SERV CLOSED 25-7-2009 - 005837",
+      "bankCode": "005837",
+      "iipeligible": true
+    },
+    {
+      "branchName": "BOOYSENS CLOSED 04-07-17 - 005905",
+      "bankCode": "005905",
+      "iipeligible": true
+    },
+    {
+      "branchName": "ONDANGWA - 005972",
+      "bankCode": "005972",
+      "iipeligible": true
+    },
+    {
+      "branchName": "THE GLEN - 006005",
+      "bankCode": "006005",
+      "iipeligible": true
+    },
+    {
+      "branchName": "MELVILLE - 006105",
+      "bankCode": "006105",
+      "iipeligible": true
+    },
+    {
+      "branchName": "MILNER PARK CLOSED - 006205",
+      "bankCode": "006205",
+      "iipeligible": true
+    },
+    {
+      "branchName": "O.R. TAMBO - 006260",
+      "bankCode": "006260",
+      "iipeligible": true
+    },
+    {
+      "branchName": "MOKALA MALL - 006760",
+      "bankCode": "006760",
+      "iipeligible": true
+    },
+    {
+      "branchName": "PROTEA GARDENS - 006805",
+      "bankCode": "006805",
+      "iipeligible": true
+    },
+    {
+      "branchName": "ELECTRONIC SETTLEMENT CAPETOWN - 006981",
+      "bankCode": "006981",
+      "iipeligible": true
+    },
+    {
+      "branchName": "AUCKLAND PARK CLOSED 98-08-22 - 007005",
+      "bankCode": "007005",
+      "iipeligible": true
+    },
+    {
+      "branchName": "THE MALL CLOSED 86-11-15 - 007105",
+      "bankCode": "007105",
+      "iipeligible": true
+    },
+    {
+      "branchName": "MOBILE BANKING CENTRAL - 007154",
+      "bankCode": "007154",
+      "iipeligible": true
+    },
+    {
+      "branchName": "IPC: BRANCH MAINTENANCE JHB - 007155",
+      "bankCode": "007155",
+      "iipeligible": true
+    },
+    {
+      "branchName": "KILLARNEY - 007205",
+      "bankCode": "007205",
+      "iipeligible": true
+    },
+    {
+      "branchName": "CRESTA - 007254",
+      "bankCode": "007254",
+      "iipeligible": true
+    },
+    {
+      "branchName": "TRADE ROUTE MALL - 007260",
+      "bankCode": "007260",
+      "iipeligible": true
+    },
+    {
+      "branchName": "MONTROUX MINI CLOSED 03-06-14 - 007305",
+      "bankCode": "007305",
+      "iipeligible": true
+    },
+    {
+      "branchName": "WILKOPPIES - 007454",
+      "bankCode": "007454",
+      "iipeligible": true
+    },
+    {
+      "branchName": "ALEX MALL - 007554",
+      "bankCode": "007554",
+      "iipeligible": true
+    },
+    {
+      "branchName": "ONLINE BANKING - 007654",
+      "bankCode": "007654",
+      "iipeligible": true
+    },
+    {
+      "branchName": "OPS: WELKOM CASH SERVICES - 007660",
+      "bankCode": "007660",
+      "iipeligible": true
+    },
+    {
+      "branchName": "DUNKELD WEST CLOSED - 007705",
+      "bankCode": "007705",
+      "iipeligible": true
+    },
+    {
+      "branchName": "OPS: WELKOM ATM SERVICES - 007760",
+      "bankCode": "007760",
+      "iipeligible": true
+    },
+    {
+      "branchName": "AE MALELANE CLOSED 98-12-02 - 008552",
+      "bankCode": "008552",
+      "iipeligible": true
+    },
+    {
+      "branchName": "LOAN CENTRES CENTRAL - 008560",
+      "bankCode": "008560",
+      "iipeligible": true
+    },
+    {
+      "branchName": "BERGVLEI CLOSED 97-09-06 - 008805",
+      "bankCode": "008805",
+      "iipeligible": true
+    },
+    {
+      "branchName": "CIB: KZN PIETERMARITBURG - 008825",
+      "bankCode": "008825",
+      "iipeligible": true
+    },
+    {
+      "branchName": "MALL OF AFRICA - 009006",
+      "bankCode": "009006",
+      "iipeligible": true
+    },
+    {
+      "branchName": "ALEXANDRA - 009160",
+      "bankCode": "009160",
+      "iipeligible": true
+    },
+    {
+      "branchName": "OPS:JOHANNESBURG ATM SERVICES - 009405",
+      "bankCode": "009405",
+      "iipeligible": true
+    },
+    {
+      "branchName": "FOURWAYS CROSSING - 009953",
+      "bankCode": "009953",
+      "iipeligible": true
+    },
+    {
+      "branchName": "PRETORIA - 010045",
+      "bankCode": "010045",
+      "iipeligible": true
+    },
+    {
+      "branchName": "TSHWANE MID CITY - 010145",
+      "bankCode": "010145",
+      "iipeligible": true
+    },
+    {
+      "branchName": "LAUDUIM - 010345",
+      "bankCode": "010345",
+      "iipeligible": true
+    },
+    {
+      "branchName": "PRETORIA NORTH - 010445",
+      "bankCode": "010445",
+      "iipeligible": true
+    },
+    {
+      "branchName": "SILVERTON - 010545",
+      "bankCode": "010545",
+      "iipeligible": true
+    },
+    {
+      "branchName": "SUNNYSIDE - 010645",
+      "bankCode": "010645",
+      "iipeligible": true
+    },
+    {
+      "branchName": "ARCADIA - 010845",
+      "bankCode": "010845",
+      "iipeligible": true
+    },
+    {
+      "branchName": "CENTURION MALL - 010945",
+      "bankCode": "010945",
+      "iipeligible": true
+    },
+    {
+      "branchName": "RIETFONTEIN CLOSED 97-01-18 - 011045",
+      "bankCode": "011045",
+      "iipeligible": true
+    },
+    {
+      "branchName": "AE GERMISTON CLOSED 98-11-07 - 011142",
+      "bankCode": "011142",
+      "iipeligible": true
+    },
+    {
+      "branchName": "AE DAVEYTON CLOSED 98-11-07 - 011242",
+      "bankCode": "011242",
+      "iipeligible": true
+    },
+    {
+      "branchName": "VERMEULEN ST CLOSED - 011445",
+      "bankCode": "011445",
+      "iipeligible": true
+    },
+    {
+      "branchName": "HATFIELD - 011545",
+      "bankCode": "011545",
+      "iipeligible": true
+    },
+    {
+      "branchName": "GOLDEN WALK - 011642",
+      "bankCode": "011642",
+      "iipeligible": true
+    },
+    {
+      "branchName": "SOUTH END CLOSED 97-07-05 - 011742",
+      "bankCode": "011742",
+      "iipeligible": true
+    },
+    {
+      "branchName": "ROSSLYN CLOSED 00-02-19 - 011745",
+      "bankCode": "011745",
+      "iipeligible": true
+    },
+    {
+      "branchName": "BOKSBURG - 011842",
+      "bankCode": "011842",
+      "iipeligible": true
+    },
+    {
+      "branchName": "SCHOEMAN ST CLOSED - 011845",
+      "bankCode": "011845",
+      "iipeligible": true
+    },
+    {
+      "branchName": "RANDBURG CC CLOSED 02-08-17 - 011853",
+      "bankCode": "011853",
+      "iipeligible": true
+    },
+    {
+      "branchName": "PRINCES AVECLOSED 00-08-19 - 011942",
+      "bankCode": "011942",
+      "iipeligible": true
+    },
+    {
+      "branchName": "BENM GARDENS CLOSED 06-03-11 - 012005",
+      "bankCode": "012005",
+      "iipeligible": true
+    },
+    {
+      "branchName": "SBV WESTERN REGION - 012041",
+      "bankCode": "012041",
+      "iipeligible": true
+    },
+    {
+      "branchName": "MALL AT CARNIVAL - 012042",
+      "bankCode": "012042",
+      "iipeligible": true
+    },
+    {
+      "branchName": "SPRINGS - 012142",
+      "bankCode": "012142",
+      "iipeligible": true
+    },
+    {
+      "branchName": "NIGEL - 012242",
+      "bankCode": "012242",
+      "iipeligible": true
+    },
+    {
+      "branchName": "NEW MARKET - 012342",
+      "bankCode": "012342",
+      "iipeligible": true
+    },
+    {
+      "branchName": "MENLYN PARK - 012345",
+      "bankCode": "012345",
+      "iipeligible": true
+    },
+    {
+      "branchName": "KEMPTON PARK - 012442",
+      "bankCode": "012442",
+      "iipeligible": true
+    },
+    {
+      "branchName": "LYNNWOOD RIDGE - 012445",
+      "bankCode": "012445",
+      "iipeligible": true
+    },
+    {
+      "branchName": "ISANDO CLOSED 23-07-2011 - 012542",
+      "bankCode": "012542",
+      "iipeligible": true
+    },
+    {
+      "branchName": "HERCULES CLOSED 96-10-12 - 012545",
+      "bankCode": "012545",
+      "iipeligible": true
+    },
+    {
+      "branchName": "AE RANDBURG CLOSED 98-11-07 - 012553",
+      "bankCode": "012553",
+      "iipeligible": true
+    },
+    {
+      "branchName": "WADEVILLE CLOSED 01-07-14 - 012642",
+      "bankCode": "012642",
+      "iipeligible": true
+    },
+    {
+      "branchName": "CENTURION - 012645",
+      "bankCode": "012645",
+      "iipeligible": true
+    },
+    {
+      "branchName": "KEMPTON CITY CLOSED 96-12-07 - 012742",
+      "bankCode": "012742",
+      "iipeligible": true
+    },
+    {
+      "branchName": "OLIFANTFONTEIN CLOSED 96-11-23 - 012942",
+      "bankCode": "012942",
+      "iipeligible": true
+    },
+    {
+      "branchName": "LAKESIDE MALL - 013042",
+      "bankCode": "013042",
+      "iipeligible": true
+    },
+    {
+      "branchName": "SUNNINGHILL CLOSED 03-06-21 - 013053",
+      "bankCode": "013053",
+      "iipeligible": true
+    },
+    {
+      "branchName": "DUNSWART CLOSED 04-03-20 - 013142",
+      "bankCode": "013142",
+      "iipeligible": true
+    },
+    {
+      "branchName": "OPS: PRETORIA ATM SERVICES - 013145",
+      "bankCode": "013145",
+      "iipeligible": true
+    },
+    {
+      "branchName": "SPARTAN CLOSED 04-06-12 - 013242",
+      "bankCode": "013242",
+      "iipeligible": true
+    },
+    {
+      "branchName": "ALRODE CLOSED 04-04-17 - 013342",
+      "bankCode": "013342",
+      "iipeligible": true
+    },
+    {
+      "branchName": "CHURCH ST CC CLOSED 02-09-21 - 013345",
+      "bankCode": "013345",
+      "iipeligible": true
+    },
+    {
+      "branchName": "BROOKLYN - 011245",
+      "bankCode": "011245",
+      "iipeligible": true
+    },
+    {
+      "branchName": "AE ALRODE CLOSED 98-11-04 - 011342",
+      "bankCode": "011342",
+      "iipeligible": true
+    },
+    {
+      "branchName": "EPSOM DOWNS CLOSED 00-06-17 - 011355",
+      "bankCode": "011355",
+      "iipeligible": true
+    },
+    {
+      "branchName": "AE LC GERM CLOSED 99-02-20 - 011442",
+      "bankCode": "011442",
+      "iipeligible": true
+    },
+    {
+      "branchName": "FOCHVILLE CLOSED 00-07-22 - 014837",
+      "bankCode": "014837",
+      "iipeligible": true
+    },
+    {
+      "branchName": "AE KEMPSTAR CLOSED 98-11-04 - 014842",
+      "bankCode": "014842",
+      "iipeligible": true
+    },
+    {
+      "branchName": "GEZINA - 014845",
+      "bankCode": "014845",
+      "iipeligible": true
+    },
+    {
+      "branchName": "VEREENIG NTH CLOSED 00-11-04 - 014937",
+      "bankCode": "014937",
+      "iipeligible": true
+    },
+    {
+      "branchName": "AE BENONI CLOSED 98-11-07 - 014942",
+      "bankCode": "014942",
+      "iipeligible": true
+    },
+    {
+      "branchName": "AE MAMELODI CLOSED 98-11-28 - 014945",
+      "bankCode": "014945",
+      "iipeligible": true
+    },
+    {
+      "branchName": "AE SILVERTON CLOSED 98-11-21 - 015045",
+      "bankCode": "015045",
+      "iipeligible": true
+    },
+    {
+      "branchName": "LENASIA - 015137",
+      "bankCode": "015137",
+      "iipeligible": true
+    },
+    {
+      "branchName": "AE SPRINGS CLOSED 98-11-07 - 015142",
+      "bankCode": "015142",
+      "iipeligible": true
+    },
+    {
+      "branchName": "SEBOKENG MINI CLOSED - 015237",
+      "bankCode": "015237",
+      "iipeligible": true
+    },
+    {
+      "branchName": "AE ALBERTON CLOSED 98-11-04 - 015242",
+      "bankCode": "015242",
+      "iipeligible": true
+    },
+    {
+      "branchName": "AE BELLAOMBRE CLOSED 98-10-24 - 015245",
+      "bankCode": "015245",
+      "iipeligible": true
+    },
+    {
+      "branchName": "AE OLIFANTS CLOSED 98-11-28 - 015445",
+      "bankCode": "015445",
+      "iipeligible": true
+    },
+    {
+      "branchName": "OPS:RUSTENBURG ATM SERVICES - 015545",
+      "bankCode": "015545",
+      "iipeligible": true
+    },
+    {
+      "branchName": "FLORIDA - 015641",
+      "bankCode": "015641",
+      "iipeligible": true
+    },
+    {
+      "branchName": "IPS PRETORIA DAY 1 CENTRE - 015645",
+      "bankCode": "015645",
+      "iipeligible": true
+    },
+    {
+      "branchName": "ROODEPOORT CLOSED 99-10-09 - 015741",
+      "bankCode": "015741",
+      "iipeligible": true
+    },
+    {
+      "branchName": "JORISSEN POD CENTRE - 015742",
+      "bankCode": "015742",
+      "iipeligible": true
+    },
+    {
+      "branchName": "SBV PRETORIA - 015745",
+      "bankCode": "015745",
+      "iipeligible": true
+    },
+    {
+      "branchName": "KEY WEST - 015841",
+      "bankCode": "015841",
+      "iipeligible": true
+    },
+    {
+      "branchName": "IPS JOHANNESBURG DAY 1 CENTRE - 015842",
+      "bankCode": "015842",
+      "iipeligible": true
+    },
+    {
+      "branchName": "SOUTHGATE - 015937",
+      "bankCode": "015937",
+      "iipeligible": true
+    },
+    {
+      "branchName": "HARTBEESPOORT - 013445",
+      "bankCode": "013445",
+      "iipeligible": true
+    },
+    {
+      "branchName": "KATLEHONG - 013542",
+      "bankCode": "013542",
+      "iipeligible": true
+    },
+    {
+      "branchName": "JET PARK CLOSED 00-04-08 - 013742",
+      "bankCode": "013742",
+      "iipeligible": true
+    },
+    {
+      "branchName": "CSC-JOHANNESBURG CORPORATE - 014342",
+      "bankCode": "014342",
+      "iipeligible": true
+    },
+    {
+      "branchName": "AE VD WALT ST CLOSED 98-11-28 - 014345",
+      "bankCode": "014345",
+      "iipeligible": true
+    },
+    {
+      "branchName": "AE LENASIA CLOSED 98-11-04 - 014437",
+      "bankCode": "014437",
+      "iipeligible": true
+    },
+    {
+      "branchName": "CSC-JOHANNESBURG COMMERCIAL - 014442",
+      "bankCode": "014442",
+      "iipeligible": true
+    },
+    {
+      "branchName": "GOSS: BRANCH MAINT + PAYM PTA - 014445",
+      "bankCode": "014445",
+      "iipeligible": true
+    },
+    {
+      "branchName": "MEYERTON - 014537",
+      "bankCode": "014537",
+      "iipeligible": true
+    },
+    {
+      "branchName": "AE PRETORIA LC CLOSED 99-02-20 - 014545",
+      "bankCode": "014545",
+      "iipeligible": true
+    },
+    {
+      "branchName": "VEREENIGING - 014637",
+      "bankCode": "014637",
+      "iipeligible": true
+    },
+    {
+      "branchName": "CASTLE WALK - 014645",
+      "bankCode": "014645",
+      "iipeligible": true
+    },
+    {
+      "branchName": "VANDERBIJLPARK - 014737",
+      "bankCode": "014737",
+      "iipeligible": true
+    },
+    {
+      "branchName": "SINNOVILLE CLOSED 98-03-14 - 014745",
+      "bankCode": "014745",
+      "iipeligible": true
+    },
+    {
+      "branchName": "CRESTA CLOSED - 018205",
+      "bankCode": "018205",
+      "iipeligible": true
+    },
+    {
+      "branchName": "BEDFORD GARDENS - 018305",
+      "bankCode": "018305",
+      "iipeligible": true
+    },
+    {
+      "branchName": "EASTGATE - 018505",
+      "bankCode": "018505",
+      "iipeligible": true
+    },
+    {
+      "branchName": "SANDTON - 019205",
+      "bankCode": "019205",
+      "iipeligible": true
+    },
+    {
+      "branchName": "CAPE TOWN CLOSED 2012-02-11 - 020009",
+      "bankCode": "020009",
+      "iipeligible": true
+    },
+    {
+      "branchName": "CTOWN ABC CLOSED 98-12-05 - 020109",
+      "bankCode": "020109",
+      "iipeligible": true
+    },
+    {
+      "branchName": "CALLEDON ST CLOSED 87-06-02 - 020209",
+      "bankCode": "020209",
+      "iipeligible": true
+    },
+    {
+      "branchName": "HEERENGRACHT CLOSED - 020309",
+      "bankCode": "020309",
+      "iipeligible": true
+    },
+    {
+      "branchName": "LONG ST CLOSED 93-11-20 - 020409",
+      "bankCode": "020409",
+      "iipeligible": true
+    },
+    {
+      "branchName": "PLEIN ST CLOSED 04-02-21 - 020509",
+      "bankCode": "020509",
+      "iipeligible": true
+    },
+    {
+      "branchName": "MATADOR CLOSED 99-03-06 - 020709",
+      "bankCode": "020709",
+      "iipeligible": true
+    },
+    {
+      "branchName": "RANDFONTEIN CLOSED 00-07-08 - 015941",
+      "bankCode": "015941",
+      "iipeligible": true
+    },
+    {
+      "branchName": "OPS:CASH SUPPLY SERVICES - 015942",
+      "bankCode": "015942",
+      "iipeligible": true
+    },
+    {
+      "branchName": "MONTANA - 015945",
+      "bankCode": "015945",
+      "iipeligible": true
+    },
+    {
+      "branchName": "WESTONARIA - 016041",
+      "bankCode": "016041",
+      "iipeligible": true
+    },
+    {
+      "branchName": "SBV EASTERN CAPE - 016042",
+      "bankCode": "016042",
+      "iipeligible": true
+    },
+    {
+      "branchName": "FCS EASTERN CAPE - 016045",
+      "bankCode": "016045",
+      "iipeligible": true
+    },
+    {
+      "branchName": "CARLETONVILLE - 016141",
+      "bankCode": "016141",
+      "iipeligible": true
+    },
+    {
+      "branchName": "WONDERPARK - 016145",
+      "bankCode": "016145",
+      "iipeligible": true
+    },
+    {
+      "branchName": "KABOKWENI - 016245",
+      "bankCode": "016245",
+      "iipeligible": true
+    },
+    {
+      "branchName": "GREENSTONE - 016342",
+      "bankCode": "016342",
+      "iipeligible": true
+    },
+    {
+      "branchName": "EMALAHLENI - 016345",
+      "bankCode": "016345",
+      "iipeligible": true
+    },
+    {
+      "branchName": "OPS:NELSPRUIT ATM SERVICES - 016445",
+      "bankCode": "016445",
+      "iipeligible": true
+    },
+    {
+      "branchName": "CIB: EASTERN GAUTENG - 016542",
+      "bankCode": "016542",
+      "iipeligible": true
+    },
+    {
+      "branchName": "OPS:POLOKWANE ATM SERVICES - 016545",
+      "bankCode": "016545",
+      "iipeligible": true
+    },
+    {
+      "branchName": "WESTGATE - 016641",
+      "bankCode": "016641",
+      "iipeligible": true
+    },
+    {
+      "branchName": "OPS: WITBANK ATM SERVICES - 016645",
+      "bankCode": "016645",
+      "iipeligible": true
+    },
+    {
+      "branchName": "MBOMBELA - 016745",
+      "bankCode": "016745",
+      "iipeligible": true
+    },
+    {
+      "branchName": "BRUMA LAKE CLOSED 00-03-18 - 016755",
+      "bankCode": "016755",
+      "iipeligible": true
+    },
+    {
+      "branchName": "BARONGWA - 017045",
+      "bankCode": "017045",
+      "iipeligible": true
+    },
+    {
+      "branchName": "MALL OF THE NORTH - 017445",
+      "bankCode": "017445",
+      "iipeligible": true
+    },
+    {
+      "branchName": "JUBILEE MALL - 017645",
+      "bankCode": "017645",
+      "iipeligible": true
+    },
+    {
+      "branchName": "OPS: LOUIS TRICHARDT CASH SERV - 017745",
+      "bankCode": "017745",
+      "iipeligible": true
+    },
+    {
+      "branchName": "RUSTENBURG WEST - 017845",
+      "bankCode": "017845",
+      "iipeligible": true
+    },
+    {
+      "branchName": "RANDBURG - 018005",
+      "bankCode": "018005",
+      "iipeligible": true
+    },
+    {
+      "branchName": "SANDTON CITY - 018105",
+      "bankCode": "018105",
+      "iipeligible": true
+    },
+    {
+      "branchName": "CAPE TOWN CASH SERVICES - 025810",
+      "bankCode": "025810",
+      "iipeligible": true
+    },
+    {
+      "branchName": "THIBAULT SQUARE - 020909",
+      "bankCode": "020909",
+      "iipeligible": true
+    },
+    {
+      "branchName": "SET CTOWN CLOSED 00-11-25 - 021009",
+      "bankCode": "021009",
+      "iipeligible": true
+    },
+    {
+      "branchName": "MERRIMAN SQR CLOSED 04-07-24 - 021109",
+      "bankCode": "021109",
+      "iipeligible": true
+    },
+    {
+      "branchName": "OPS:CAPE TOWN ATM SERVICES - 021409",
+      "bankCode": "021409",
+      "iipeligible": true
+    },
+    {
+      "branchName": "BAYSIDE - 022209",
+      "bankCode": "022209",
+      "iipeligible": true
+    },
+    {
+      "branchName": "DE GRENDEL CLOSED 00-06-24 - 023009",
+      "bankCode": "023009",
+      "iipeligible": true
+    },
+    {
+      "branchName": "AE LOANS WYNBERG 99-02-20 - 023209",
+      "bankCode": "023209",
+      "iipeligible": true
+    },
+    {
+      "branchName": "CT FOREX CNT CLOSED 97-08-16 - 023309",
+      "bankCode": "023309",
+      "iipeligible": true
+    },
+    {
+      "branchName": "IPS CAPE TOWN DAY 1 CENTRE - 023310",
+      "bankCode": "023310",
+      "iipeligible": true
+    },
+    {
+      "branchName": "AE LC BELLVILLE CLOSE 99-02-2 - 023409",
+      "bankCode": "023409",
+      "iipeligible": true
+    },
+    {
+      "branchName": "AE BELLVILLE CLOSED 98-11-25 - 023509",
+      "bankCode": "023509",
+      "iipeligible": true
+    },
+    {
+      "branchName": "CTCRD CLOSED 02-11-12 - 023909",
+      "bankCode": "023909",
+      "iipeligible": true
+    },
+    {
+      "branchName": "CAPEGATE - 023910",
+      "bankCode": "023910",
+      "iipeligible": true
+    },
+    {
+      "branchName": "SBV GEORGE - 024010",
+      "bankCode": "024010",
+      "iipeligible": true
+    },
+    {
+      "branchName": "SEA POINT - 024109",
+      "bankCode": "024109",
+      "iipeligible": true
+    },
+    {
+      "branchName": "V & A WATERFRONT - 024110",
+      "bankCode": "024110",
+      "iipeligible": true
+    },
+    {
+      "branchName": "WOODSTOCK CLOSED 97-05-24 - 024209",
+      "bankCode": "024209",
+      "iipeligible": true
+    },
+    {
+      "branchName": "BERRY''S CORNER - 024210",
+      "bankCode": "024210",
+      "iipeligible": true
+    },
+    {
+      "branchName": "PAARDEN EIL CLOSED 00-09-09 - 024309",
+      "bankCode": "024309",
+      "iipeligible": true
+    },
+    {
+      "branchName": "WALMER - 024310",
+      "bankCode": "024310",
+      "iipeligible": true
+    },
+    {
+      "branchName": "MAITLAND CLOSED 00-09-23 - 024509",
+      "bankCode": "024509",
+      "iipeligible": true
+    },
+    {
+      "branchName": "WR NON-METRO ATM SERVICES - 024510",
+      "bankCode": "024510",
+      "iipeligible": true
+    },
+    {
+      "branchName": "NONQUBELA LINK - 024610",
+      "bankCode": "024610",
+      "iipeligible": true
+    },
+    {
+      "branchName": "VICTORIA RD CLOSED 06-03-18 - 024709",
+      "bankCode": "024709",
+      "iipeligible": true
+    },
+    {
+      "branchName": "OBSERVATORY CLOSED - 024809",
+      "bankCode": "024809",
+      "iipeligible": true
+    },
+    {
+      "branchName": "MOWBRAY CAPE TOWN - 024909",
+      "bankCode": "024909",
+      "iipeligible": true
+    },
+    {
+      "branchName": "RONDEBOSCH - 025009",
+      "bankCode": "025009",
+      "iipeligible": true
+    },
+    {
+      "branchName": "CLAREMONT - 025109",
+      "bankCode": "025109",
+      "iipeligible": true
+    },
+    {
+      "branchName": "KENILWORTH CLOSED - 025209",
+      "bankCode": "025209",
+      "iipeligible": true
+    },
+    {
+      "branchName": "CONSTANTIA - 025309",
+      "bankCode": "025309",
+      "iipeligible": true
+    },
+    {
+      "branchName": "PLUMSTEAD CLOSED 06-02-11 - 025409",
+      "bankCode": "025409",
+      "iipeligible": true
+    },
+    {
+      "branchName": "MUIZENBERG CLOSED - 025509",
+      "bankCode": "025509",
+      "iipeligible": true
+    },
+    {
+      "branchName": "BLUE ROUTE - 025609",
+      "bankCode": "025609",
+      "iipeligible": true
+    },
+    {
+      "branchName": "EPPING IND CLOSED 00-02-12 - 025710",
+      "bankCode": "025710",
+      "iipeligible": true
+    },
+    {
+      "branchName": "VINEYARD CLOSED - 025809",
+      "bankCode": "025809",
+      "iipeligible": true
+    },
+    {
+      "branchName": "VANGATE MALL - 025909",
+      "bankCode": "025909",
+      "iipeligible": true
+    },
+    {
+      "branchName": "KENILWORTH CENTRE - 026209",
+      "bankCode": "026209",
+      "iipeligible": true
+    },
+    {
+      "branchName": "MILNERTON - 026509",
+      "bankCode": "026509",
+      "iipeligible": true
+    },
+    {
+      "branchName": "PROMENADE - 026609",
+      "bankCode": "026609",
+      "iipeligible": true
+    },
+    {
+      "branchName": "GRASSY PARK CLOSED 06-02-18 - 028209",
+      "bankCode": "028209",
+      "iipeligible": true
+    },
+    {
+      "branchName": "IPC CAPE TOWN CLOSE 2015-04-18 - 028709",
+      "bankCode": "028709",
+      "iipeligible": true
+    },
+    {
+      "branchName": "IPS CAPE TOWN DAY 2 CENTRE - 028809",
+      "bankCode": "028809",
+      "iipeligible": true
+    },
+    {
+      "branchName": "AE MPLAIN CLOSED 98-11-25 - 028909",
+      "bankCode": "028909",
+      "iipeligible": true
+    },
+    {
+      "branchName": "AE WYNBERG CLOSED 98-11-25 - 029109",
+      "bankCode": "029109",
+      "iipeligible": true
+    },
+    {
+      "branchName": "AE NJUNCTION CLOSED 98-11-25 - 029309",
+      "bankCode": "029309",
+      "iipeligible": true
+    },
+    {
+      "branchName": "AE LC MPLAIN CLOSED 99-02-20 - 029409",
+      "bankCode": "029409",
+      "iipeligible": true
+    },
+    {
+      "branchName": "AE MOWBRAY CLOSED 98-11-25 - 029509",
+      "bankCode": "029509",
+      "iipeligible": true
+    },
+    {
+      "branchName": "AE GACRE CLOSED 98-11-25 - 029609",
+      "bankCode": "029609",
+      "iipeligible": true
+    },
+    {
+      "branchName": "AE PHILLIPI CLOSED 98-11-25 - 029809",
+      "bankCode": "029809",
+      "iipeligible": true
+    },
+    {
+      "branchName": "BRACKENFELL CLOSED 04-06-26 - 030310",
+      "bankCode": "030310",
+      "iipeligible": true
+    },
+    {
+      "branchName": "GOODWOOD CLOSED 98-01-10 - 031010",
+      "bankCode": "031010",
+      "iipeligible": true
+    },
+    {
+      "branchName": "PAROW CENTRE - 031110",
+      "bankCode": "031110",
+      "iipeligible": true
+    },
+    {
+      "branchName": "BELLVILLE CLOSED 98-05-09 - 031210",
+      "bankCode": "031210",
+      "iipeligible": true
+    },
+    {
+      "branchName": "BELLVILLE EAST CLOSED 00-10-21 - 031710",
+      "bankCode": "031710",
+      "iipeligible": true
+    },
+    {
+      "branchName": "BELLVILLE CASH SERVICES - 032610",
+      "bankCode": "032610",
+      "iipeligible": true
+    },
+    {
+      "branchName": "OPS:BELLVILLE ATM SERVICES - 032710",
+      "bankCode": "032710",
+      "iipeligible": true
+    },
+    {
+      "branchName": "AE KHAYELIT CLOSED 98-11-25 - 032810",
+      "bankCode": "032810",
+      "iipeligible": true
+    },
+    {
+      "branchName": "AE ELSRIVER CLOSED 98-11-25 - 032910",
+      "bankCode": "032910",
+      "iipeligible": true
+    },
+    {
+      "branchName": "AE KFONTEIN CLOSED 98-11-25 - 033010",
+      "bankCode": "033010",
+      "iipeligible": true
+    },
+    {
+      "branchName": "HELDERBERG - 033012",
+      "bankCode": "033012",
+      "iipeligible": true
+    },
+    {
+      "branchName": "AE STATION CLOSED 98-11-25 - 033110",
+      "bankCode": "033110",
+      "iipeligible": true
+    },
+    {
+      "branchName": "STRAND CLOSED 01-07-28 - 033112",
+      "bankCode": "033112",
+      "iipeligible": true
+    },
+    {
+      "branchName": "GOVAN MBEKI - 035410",
+      "bankCode": "035410",
+      "iipeligible": true
+    },
+    {
+      "branchName": "FISH HOEK - 036009",
+      "bankCode": "036009",
+      "iipeligible": true
+    },
+    {
+      "branchName": "SIMONSTOWN CLOSED - 036109",
+      "bankCode": "036109",
+      "iipeligible": true
+    },
+    {
+      "branchName": "PINELANDS - 036309",
+      "bankCode": "036309",
+      "iipeligible": true
+    },
+    {
+      "branchName": "KINGSMEAD - 040026",
+      "bankCode": "040026",
+      "iipeligible": true
+    },
+    {
+      "branchName": "BALLITO - 040027",
+      "bankCode": "040027",
+      "iipeligible": true
+    },
+    {
+      "branchName": "DURBAN ABC - 040126",
+      "bankCode": "040126",
+      "iipeligible": true
+    },
+    {
+      "branchName": "KINGSMEAD CLOSED 2009-10-17 - 040127",
+      "bankCode": "040127",
+      "iipeligible": true
+    },
+    {
+      "branchName": "COMMERCIAL RD CLOSED 98-09-19 - 040226",
+      "bankCode": "040226",
+      "iipeligible": true
+    },
+    {
+      "branchName": "SMITH ST WEST CLOSED 98-10-31 - 040426",
+      "bankCode": "040426",
+      "iipeligible": true
+    },
+    {
+      "branchName": "SBV EAST LONDON - 040427",
+      "bankCode": "040427",
+      "iipeligible": true
+    },
+    {
+      "branchName": "WEST END CLOSED - 040526",
+      "bankCode": "040526",
+      "iipeligible": true
+    },
+    {
+      "branchName": "MERCURY LANE CLOSED 86-07-14 - 040626",
+      "bankCode": "040626",
+      "iipeligible": true
+    },
+    {
+      "branchName": "SBV PIETERMARITZBURG - 040726",
+      "bankCode": "040726",
+      "iipeligible": true
+    },
+    {
+      "branchName": "MSUNDUZI - 040727",
+      "bankCode": "040727",
+      "iipeligible": true
+    },
+    {
+      "branchName": "ALBERT STREET - 040826",
+      "bankCode": "040826",
+      "iipeligible": true
+    },
+    {
+      "branchName": "STL:DURBAN ADMIN - 040926",
+      "bankCode": "040926",
+      "iipeligible": true
+    },
+    {
+      "branchName": "BRIDGE CITY - 040927",
+      "bankCode": "040927",
+      "iipeligible": true
+    },
+    {
+      "branchName": "GREYVILLE CLOSED 09-07-11 - 041026",
+      "bankCode": "041026",
+      "iipeligible": true
+    },
+    {
+      "branchName": "NGCOBO - 041027",
+      "bankCode": "041027",
+      "iipeligible": true
+    },
+    {
+      "branchName": "BLUFF - 041127",
+      "bankCode": "041127",
+      "iipeligible": true
+    },
+    {
+      "branchName": "ANTON LEMBEDE STREET - 041227",
+      "bankCode": "041227",
+      "iipeligible": true
+    },
+    {
+      "branchName": "OPS:DURBAN ATM SERVICES - 041426",
+      "bankCode": "041426",
+      "iipeligible": true
+    },
+    {
+      "branchName": "CIB: SANRAND RANDBURG - 041826",
+      "bankCode": "041826",
+      "iipeligible": true
+    },
+    {
+      "branchName": "ESIKHALENI - 041827",
+      "bankCode": "041827",
+      "iipeligible": true
+    },
+    {
+      "branchName": "AE ALBERT ST CLOSED 98-11-14 - 041926",
+      "bankCode": "041926",
+      "iipeligible": true
+    },
+    {
+      "branchName": "AE SMITH ST CLOSED 98-11-14 - 042226",
+      "bankCode": "042226",
+      "iipeligible": true
+    },
+    {
+      "branchName": "AE PINETOWN CLOSED 98-11-14 - 042326",
+      "bankCode": "042326",
+      "iipeligible": true
+    },
+    {
+      "branchName": "AE PINET LC CLOSED 99-02-20 - 042426",
+      "bankCode": "042426",
+      "iipeligible": true
+    },
+    {
+      "branchName": "OPS: MTHATHA CASH SERVICES - 042427",
+      "bankCode": "042427",
+      "iipeligible": true
+    },
+    {
+      "branchName": "GLENWOOD - 042526",
+      "bankCode": "042526",
+      "iipeligible": true
+    },
+    {
+      "branchName": "MUSGRAVE ROAD - 042626",
+      "bankCode": "042626",
+      "iipeligible": true
+    },
+    {
+      "branchName": "WINDERMERE - 042726",
+      "bankCode": "042726",
+      "iipeligible": true
+    },
+    {
+      "branchName": "DURBAN NORTH - 042826",
+      "bankCode": "042826",
+      "iipeligible": true
+    },
+    {
+      "branchName": "BEACH CLOSED 00-05-20 - 042926",
+      "bankCode": "042926",
+      "iipeligible": true
+    },
+    {
+      "branchName": "CONGELLA CLOSED - 043026",
+      "bankCode": "043026",
+      "iipeligible": true
+    },
+    {
+      "branchName": "CLAIRWOOD CLOSED 98-08-08 - 043126",
+      "bankCode": "043126",
+      "iipeligible": true
+    },
+    {
+      "branchName": "MOBENI CLOSED 00-05-13 - 043226",
+      "bankCode": "043226",
+      "iipeligible": true
+    },
+    {
+      "branchName": "BLUFF - 043326",
+      "bankCode": "043326",
+      "iipeligible": true
+    },
+    {
+      "branchName": "MAYDON WHARF CLOSED 87-02-20 - 043426",
+      "bankCode": "043426",
+      "iipeligible": true
+    },
+    {
+      "branchName": "BRIARDENE - 043626",
+      "bankCode": "043626",
+      "iipeligible": true
+    },
+    {
+      "branchName": "OVERPORT CITY - 043826",
+      "bankCode": "043826",
+      "iipeligible": true
+    },
+    {
+      "branchName": "OPS:P/SHEPSTONE ATM SERVICES - 040227",
+      "bankCode": "040227",
+      "iipeligible": true
+    },
+    {
+      "branchName": "SMITH ST EAST CLOSED 97-03-22 - 040326",
+      "bankCode": "040326",
+      "iipeligible": true
+    },
+    {
+      "branchName": "PHUTHADITJHABA - 040327",
+      "bankCode": "040327",
+      "iipeligible": true
+    },
+    {
+      "branchName": "AE DURBAN ABC CLOSED 98-11-14 - 046726",
+      "bankCode": "046726",
+      "iipeligible": true
+    },
+    {
+      "branchName": "AE CHATSWORTH CLOSED 98-11-14 - 046926",
+      "bankCode": "046926",
+      "iipeligible": true
+    },
+    {
+      "branchName": "NEWCASTLE MALL - 047027",
+      "bankCode": "047027",
+      "iipeligible": true
+    },
+    {
+      "branchName": "ULUNDI - 047126",
+      "bankCode": "047126",
+      "iipeligible": true
+    },
+    {
+      "branchName": "IPC: BRANCH MAINENANCE DBN - 047226",
+      "bankCode": "047226",
+      "iipeligible": true
+    },
+    {
+      "branchName": "AE CLAIRWOOD CLOSED 98-11-14 - 047326",
+      "bankCode": "047326",
+      "iipeligible": true
+    },
+    {
+      "branchName": "AE GALE PLACE CLOSED 98-11-14 - 047426",
+      "bankCode": "047426",
+      "iipeligible": true
+    },
+    {
+      "branchName": "DURBAN CASH SERVICES - 047526",
+      "bankCode": "047526",
+      "iipeligible": true
+    },
+    {
+      "branchName": "MIDLANDS - 047626",
+      "bankCode": "047626",
+      "iipeligible": true
+    },
+    {
+      "branchName": "OPS:PIETERMARITZBURG ATMSERVI - 047726",
+      "bankCode": "047726",
+      "iipeligible": true
+    },
+    {
+      "branchName": "QUEENSBURGH - 048126",
+      "bankCode": "048126",
+      "iipeligible": true
+    },
+    {
+      "branchName": "DBN LEDGER CEN CLOSED 08-10-11 - 048726",
+      "bankCode": "048726",
+      "iipeligible": true
+    },
+    {
+      "branchName": "SBV RICHARDS BAY - 048826",
+      "bankCode": "048826",
+      "iipeligible": true
+    },
+    {
+      "branchName": "OPS:EAST LONDON ATM SERVICES - 048926",
+      "bankCode": "048926",
+      "iipeligible": true
+    },
+    {
+      "branchName": "IPS DURBAN DAY 1 CENTRE - 049126",
+      "bankCode": "049126",
+      "iipeligible": true
+    },
+    {
+      "branchName": "OPS:RICHARDS BAY ATM SERVICES - 049226",
+      "bankCode": "049226",
+      "iipeligible": true
+    },
+    {
+      "branchName": "PINETOWN CS CLOSED 01-01-20 - 049426",
+      "bankCode": "049426",
+      "iipeligible": true
+    },
+    {
+      "branchName": "SBV PORT SHEPSTONE - 049526",
+      "bankCode": "049526",
+      "iipeligible": true
+    },
+    {
+      "branchName": "KIMBERLEY - 050002",
+      "bankCode": "050002",
+      "iipeligible": true
+    },
+    {
+      "branchName": "DOUGLAS - 050003",
+      "bankCode": "050003",
+      "iipeligible": true
+    },
+    {
+      "branchName": "EDENDALE KZN - 043827",
+      "bankCode": "043827",
+      "iipeligible": true
+    },
+    {
+      "branchName": "CHATSWORTH - 044126",
+      "bankCode": "044126",
+      "iipeligible": true
+    },
+    {
+      "branchName": "WESTMEAD CLOSED 00-04-15 - 044326",
+      "bankCode": "044326",
+      "iipeligible": true
+    },
+    {
+      "branchName": "NEWCASTLE CASH SERVICES - 044427",
+      "bankCode": "044427",
+      "iipeligible": true
+    },
+    {
+      "branchName": "PHOENIX - 044926",
+      "bankCode": "044926",
+      "iipeligible": true
+    },
+    {
+      "branchName": "CIB: CENTRAL GAUTENG - 045026",
+      "bankCode": "045026",
+      "iipeligible": true
+    },
+    {
+      "branchName": "AE LC SMITH STR CLOSE 99-02-20 - 045126",
+      "bankCode": "045126",
+      "iipeligible": true
+    },
+    {
+      "branchName": "THEKWINI - 045226",
+      "bankCode": "045226",
+      "iipeligible": true
+    },
+    {
+      "branchName": "WESTVILLE - 045426",
+      "bankCode": "045426",
+      "iipeligible": true
+    },
+    {
+      "branchName": "KLOOF - 045526",
+      "bankCode": "045526",
+      "iipeligible": true
+    },
+    {
+      "branchName": "PINETOWN - 045626",
+      "bankCode": "045626",
+      "iipeligible": true
+    },
+    {
+      "branchName": "HILLCREST - 045726",
+      "bankCode": "045726",
+      "iipeligible": true
+    },
+    {
+      "branchName": "NEW GERMANY - 045826",
+      "bankCode": "045826",
+      "iipeligible": true
+    },
+    {
+      "branchName": "CORNUBIA - 046227",
+      "bankCode": "046227",
+      "iipeligible": true
+    },
+    {
+      "branchName": "DBN STUDENT BC CLOSED - 046426",
+      "bankCode": "046426",
+      "iipeligible": true
+    },
+    {
+      "branchName": "AE OK WEST ST CLOSED 98-11-14 - 046626",
+      "bankCode": "046626",
+      "iipeligible": true
+    },
+    {
+      "branchName": "LADISMITH CAPE - 050113",
+      "bankCode": "050113",
+      "iipeligible": true
+    },
+    {
+      "branchName": "DE RUST CLOSED 01-10-27 - 050114",
+      "bankCode": "050114",
+      "iipeligible": true
+    },
+    {
+      "branchName": "MISGUND - 050115",
+      "bankCode": "050115",
+      "iipeligible": true
+    },
+    {
+      "branchName": "GRAAFF REINET - 050116",
+      "bankCode": "050116",
+      "iipeligible": true
+    },
+    {
+      "branchName": "CRADOCK - 050118",
+      "bankCode": "050118",
+      "iipeligible": true
+    },
+    {
+      "branchName": "ALICE - 050119",
+      "bankCode": "050119",
+      "iipeligible": true
+    },
+    {
+      "branchName": "BARKLEY EAST CLOSED 190112 - 050120",
+      "bankCode": "050120",
+      "iipeligible": true
+    },
+    {
+      "branchName": "TRINITY CLOSED 97-02-08 - 050121",
+      "bankCode": "050121",
+      "iipeligible": true
+    },
+    {
+      "branchName": "BRITSTOWN - 050004",
+      "bankCode": "050004",
+      "iipeligible": true
+    },
+    {
+      "branchName": "CALVINIA - 050006",
+      "bankCode": "050006",
+      "iipeligible": true
+    },
+    {
+      "branchName": "CERES - 050007",
+      "bankCode": "050007",
+      "iipeligible": true
+    },
+    {
+      "branchName": "BEAUFORT WEST - 050008",
+      "bankCode": "050008",
+      "iipeligible": true
+    },
+    {
+      "branchName": "HUGUENOT CLOSED - 050010",
+      "bankCode": "050010",
+      "iipeligible": true
+    },
+    {
+      "branchName": "CITRUSDAL - 050011",
+      "bankCode": "050011",
+      "iipeligible": true
+    },
+    {
+      "branchName": "BREDASDORP - 050012",
+      "bankCode": "050012",
+      "iipeligible": true
+    },
+    {
+      "branchName": "HEIDELBERG CP CLOSED 00-08-26 - 050013",
+      "bankCode": "050013",
+      "iipeligible": true
+    },
+    {
+      "branchName": "CALITZDORP - 050014",
+      "bankCode": "050014",
+      "iipeligible": true
+    },
+    {
+      "branchName": "HUMANSDORP - 050015",
+      "bankCode": "050015",
+      "iipeligible": true
+    },
+    {
+      "branchName": "ABERDEEN - 050016",
+      "bankCode": "050016",
+      "iipeligible": true
+    },
+    {
+      "branchName": "PORT ELIZABETH - 050017",
+      "bankCode": "050017",
+      "iipeligible": true
+    },
+    {
+      "branchName": "COLESBERG - 050018",
+      "bankCode": "050018",
+      "iipeligible": true
+    },
+    {
+      "branchName": "ADELAIDE CLOSED 00-12-09 - 050019",
+      "bankCode": "050019",
+      "iipeligible": true
+    },
+    {
+      "branchName": "ALIWAL NORTH - 050020",
+      "bankCode": "050020",
+      "iipeligible": true
+    },
+    {
+      "branchName": "EAST LONDON - 050021",
+      "bankCode": "050021",
+      "iipeligible": true
+    },
+    {
+      "branchName": "CEDARVILLE CLOSED 00-07-15 - 050022",
+      "bankCode": "050022",
+      "iipeligible": true
+    },
+    {
+      "branchName": "IXOPO - 050023",
+      "bankCode": "050023",
+      "iipeligible": true
+    },
+    {
+      "branchName": "MAFIKENG - 050040",
+      "bankCode": "050040",
+      "iipeligible": true
+    },
+    {
+      "branchName": "JAN KEMP - 050101",
+      "bankCode": "050101",
+      "iipeligible": true
+    },
+    {
+      "branchName": "HOPETOWN - 050103",
+      "bankCode": "050103",
+      "iipeligible": true
+    },
+    {
+      "branchName": "KAKAMAS - 050104",
+      "bankCode": "050104",
+      "iipeligible": true
+    },
+    {
+      "branchName": "CLANWILLIAM - 050106",
+      "bankCode": "050106",
+      "iipeligible": true
+    },
+    {
+      "branchName": "DE DOORNS - 050107",
+      "bankCode": "050107",
+      "iipeligible": true
+    },
+    {
+      "branchName": "CARNARVON - 050108",
+      "bankCode": "050108",
+      "iipeligible": true
+    },
+    {
+      "branchName": "PAARL CLOSED - 050110",
+      "bankCode": "050110",
+      "iipeligible": true
+    },
+    {
+      "branchName": "DARLING - 050111",
+      "bankCode": "050111",
+      "iipeligible": true
+    },
+    {
+      "branchName": "CALEDON - 050112",
+      "bankCode": "050112",
+      "iipeligible": true
+    },
+    {
+      "branchName": "KOKSTAD - 050122",
+      "bankCode": "050122",
+      "iipeligible": true
+    },
+    {
+      "branchName": "VRYBURG - 050201",
+      "bankCode": "050201",
+      "iipeligible": true
+    },
+    {
+      "branchName": "BARKLY WEST - 050202",
+      "bankCode": "050202",
+      "iipeligible": true
+    },
+    {
+      "branchName": "PETRUSVILLE - 050203",
+      "bankCode": "050203",
+      "iipeligible": true
+    },
+    {
+      "branchName": "KEIMOES - 050204",
+      "bankCode": "050204",
+      "iipeligible": true
+    },
+    {
+      "branchName": "LAMBERTS BAY - 050206",
+      "bankCode": "050206",
+      "iipeligible": true
+    },
+    {
+      "branchName": "PORTERVILLE - 050207",
+      "bankCode": "050207",
+      "iipeligible": true
+    },
+    {
+      "branchName": "DE AAR - 050208",
+      "bankCode": "050208",
+      "iipeligible": true
+    },
+    {
+      "branchName": "PAARL - 050210",
+      "bankCode": "050210",
+      "iipeligible": true
+    },
+    {
+      "branchName": "HOPEFIELD CLOSED 2008-09-06 - 050211",
+      "bankCode": "050211",
+      "iipeligible": true
+    },
+    {
+      "branchName": "GRABOUW - 050212",
+      "bankCode": "050212",
+      "iipeligible": true
+    },
+    {
+      "branchName": "MONTAGU - 050213",
+      "bankCode": "050213",
+      "iipeligible": true
+    },
+    {
+      "branchName": "GEORGE - 050214",
+      "bankCode": "050214",
+      "iipeligible": true
+    },
+    {
+      "branchName": "UNIONDALE - 050215",
+      "bankCode": "050215",
+      "iipeligible": true
+    },
+    {
+      "branchName": "JANSENVILLE - 050216",
+      "bankCode": "050216",
+      "iipeligible": true
+    },
+    {
+      "branchName": "NORTH END - 050217",
+      "bankCode": "050217",
+      "iipeligible": true
+    },
+    {
+      "branchName": "HANOVER - 050218",
+      "bankCode": "050218",
+      "iipeligible": true
+    },
+    {
+      "branchName": "BEDFORD EASTERN CAPE - 050219",
+      "bankCode": "050219",
+      "iipeligible": true
+    },
+    {
+      "branchName": "BURGERSDORP - 050220",
+      "bankCode": "050220",
+      "iipeligible": true
+    },
+    {
+      "branchName": "BUTTERWORTH - 050221",
+      "bankCode": "050221",
+      "iipeligible": true
+    },
+    {
+      "branchName": "LUSIKISIKI - 050222",
+      "bankCode": "050222",
+      "iipeligible": true
+    },
+    {
+      "branchName": "STUDENT BUSINESS CNT CLOSED - 050234",
+      "bankCode": "050234",
+      "iipeligible": true
+    },
+    {
+      "branchName": "MMABATHO CLOSED 01-05-19 - 050240",
+      "bankCode": "050240",
+      "iipeligible": true
+    },
+    {
+      "branchName": "STH MPUM OPC CLOSED 05-02-19 - 050250",
+      "bankCode": "050250",
+      "iipeligible": true
+    },
+    {
+      "branchName": "TAUNG CLOSED 01-08-04 - 050301",
+      "bankCode": "050301",
+      "iipeligible": true
+    },
+    {
+      "branchName": "KURUMAN - 050302",
+      "bankCode": "050302",
+      "iipeligible": true
+    },
+    {
+      "branchName": "PHILLIPSTOWN CLOSED 99-04-24 - 050303",
+      "bankCode": "050303",
+      "iipeligible": true
+    },
+    {
+      "branchName": "KENHARDT CLOSED 01-08-18 - 050304",
+      "bankCode": "050304",
+      "iipeligible": true
+    },
+    {
+      "branchName": "LOERIESFONTEIN - 050306",
+      "bankCode": "050306",
+      "iipeligible": true
+    },
+    {
+      "branchName": "TULBAGH - 050307",
+      "bankCode": "050307",
+      "iipeligible": true
+    },
+    {
+      "branchName": "FRAZERBURG CLOSED 97-01-11 - 050308",
+      "bankCode": "050308",
+      "iipeligible": true
+    },
+    {
+      "branchName": "MOORREESBURG - 050311",
+      "bankCode": "050311",
+      "iipeligible": true
+    },
+    {
+      "branchName": "HERMANUS - 050312",
+      "bankCode": "050312",
+      "iipeligible": true
+    },
+    {
+      "branchName": "RIVERSDALE - 050313",
+      "bankCode": "050313",
+      "iipeligible": true
+    },
+    {
+      "branchName": "KNYSNA - 050314",
+      "bankCode": "050314",
+      "iipeligible": true
+    },
+    {
+      "branchName": "JEFFREYS BAY - 050315",
+      "bankCode": "050315",
+      "iipeligible": true
+    },
+    {
+      "branchName": "CATHCART - 050320",
+      "bankCode": "050320",
+      "iipeligible": true
+    },
+    {
+      "branchName": "DUTYWA - 050321",
+      "bankCode": "050321",
+      "iipeligible": true
+    },
+    {
+      "branchName": "MATATIELE - 050322",
+      "bankCode": "050322",
+      "iipeligible": true
+    },
+    {
+      "branchName": "OPS:KIMBERLEY ATM SERVICES - 050334",
+      "bankCode": "050334",
+      "iipeligible": true
+    },
+    {
+      "branchName": "LEHURUTBHE CLOSED 99-09-18 - 050340",
+      "bankCode": "050340",
+      "iipeligible": true
+    },
+    {
+      "branchName": "SBV:WITBANK CLOSED 01-09-22 - 050350",
+      "bankCode": "050350",
+      "iipeligible": true
+    },
+    {
+      "branchName": "POSTMASBURG - 050402",
+      "bankCode": "050402",
+      "iipeligible": true
+    },
+    {
+      "branchName": "STRYDENBERG CLOSED - 050403",
+      "bankCode": "050403",
+      "iipeligible": true
+    },
+    {
+      "branchName": "MARYDALE CLOSED - 050404",
+      "bankCode": "050404",
+      "iipeligible": true
+    },
+    {
+      "branchName": "WORCESTER - 050407",
+      "bankCode": "050407",
+      "iipeligible": true
+    },
+    {
+      "branchName": "TYGER MANOR - 050410",
+      "bankCode": "050410",
+      "iipeligible": true
+    },
+    {
+      "branchName": "PIKETBERG - 050411",
+      "bankCode": "050411",
+      "iipeligible": true
+    },
+    {
+      "branchName": "RIVIERSONDEREND CLOSE 01-09-08 - 050412",
+      "bankCode": "050412",
+      "iipeligible": true
+    },
+    {
+      "branchName": "ROBERTSON - 050413",
+      "bankCode": "050413",
+      "iipeligible": true
+    },
+    {
+      "branchName": "MOSSEL BAY - 050414",
+      "bankCode": "050414",
+      "iipeligible": true
+    },
+    {
+      "branchName": "UITENHAGE - 050416",
+      "bankCode": "050416",
+      "iipeligible": true
+    },
+    {
+      "branchName": "STANLEY STREET - 050417",
+      "bankCode": "050417",
+      "iipeligible": true
+    },
+    {
+      "branchName": "MIDDELBURG EASTERN CAPE - 050418",
+      "bankCode": "050418",
+      "iipeligible": true
+    },
+    {
+      "branchName": "KING WILLIAMS TOWN - 050419",
+      "bankCode": "050419",
+      "iipeligible": true
+    },
+    {
+      "branchName": "DORDRECHT - 050420",
+      "bankCode": "050420",
+      "iipeligible": true
+    },
+    {
+      "branchName": "KOMGA - 050421",
+      "bankCode": "050421",
+      "iipeligible": true
+    },
+    {
+      "branchName": "MOUNT FRERE - 050422",
+      "bankCode": "050422",
+      "iipeligible": true
+    },
+    {
+      "branchName": "IPS WITBANK (CLOSED 18-09-08) - 050450",
+      "bankCode": "050450",
+      "iipeligible": true
+    },
+    {
+      "branchName": "HARTSWATER - 050501",
+      "bankCode": "050501",
+      "iipeligible": true
+    },
+    {
+      "branchName": "KATHU - 050502",
+      "bankCode": "050502",
+      "iipeligible": true
+    },
+    {
+      "branchName": "POFADDER - 050504",
+      "bankCode": "050504",
+      "iipeligible": true
+    },
+    {
+      "branchName": "SPRINGBOK - 050506",
+      "bankCode": "050506",
+      "iipeligible": true
+    },
+    {
+      "branchName": "MALMESBURY - 050507",
+      "bankCode": "050507",
+      "iipeligible": true
+    },
+    {
+      "branchName": "PRINCE ALBERT CLOSED 00-09-16 - 050508",
+      "bankCode": "050508",
+      "iipeligible": true
+    },
+    {
+      "branchName": "FRANSCHHOEK - 050510",
+      "bankCode": "050510",
+      "iipeligible": true
+    },
+    {
+      "branchName": "VREDENBURG - 050511",
+      "bankCode": "050511",
+      "iipeligible": true
+    },
+    {
+      "branchName": "SWELLENDAM - 050513",
+      "bankCode": "050513",
+      "iipeligible": true
+    },
+    {
+      "branchName": "STEYTLERVILLE - 050316",
+      "bankCode": "050316",
+      "iipeligible": true
+    },
+    {
+      "branchName": "GREENACRES - 050317",
+      "bankCode": "050317",
+      "iipeligible": true
+    },
+    {
+      "branchName": "HOFMEYR CLOSED 99-10-23 - 050318",
+      "bankCode": "050318",
+      "iipeligible": true
+    },
+    {
+      "branchName": "FORT BEAUFORT - 050319",
+      "bankCode": "050319",
+      "iipeligible": true
+    },
+    {
+      "branchName": "MTHATHA - 050621",
+      "bankCode": "050621",
+      "iipeligible": true
+    },
+    {
+      "branchName": "CHAPEL ST CLOSED 07-01-27 - 050702",
+      "bankCode": "050702",
+      "iipeligible": true
+    },
+    {
+      "branchName": "UPINGTON - 050704",
+      "bankCode": "050704",
+      "iipeligible": true
+    },
+    {
+      "branchName": "VREDENDAL - 050706",
+      "bankCode": "050706",
+      "iipeligible": true
+    },
+    {
+      "branchName": "SUTHERLAND CLOSED 01-08-11 - 050708",
+      "bankCode": "050708",
+      "iipeligible": true
+    },
+    {
+      "branchName": "WELLINGTON - 050710",
+      "bankCode": "050710",
+      "iipeligible": true
+    },
+    {
+      "branchName": "PLETTENBERG BAY - 050714",
+      "bankCode": "050714",
+      "iipeligible": true
+    },
+    {
+      "branchName": "NEWTON PARK CLOSED 99-11-04 - 050717",
+      "bankCode": "050717",
+      "iipeligible": true
+    },
+    {
+      "branchName": "SOMERSET EAST - 050718",
+      "bankCode": "050718",
+      "iipeligible": true
+    },
+    {
+      "branchName": "BISHO CLOSED 99-02-06 - 050719",
+      "bankCode": "050719",
+      "iipeligible": true
+    },
+    {
+      "branchName": "SALDANHA - 050811",
+      "bankCode": "050811",
+      "iipeligible": true
+    },
+    {
+      "branchName": "WILLOWMORE CLOSED 01-08-25 - 050814",
+      "bankCode": "050814",
+      "iipeligible": true
+    },
+    {
+      "branchName": "ALEXANDRIA - 050817",
+      "bankCode": "050817",
+      "iipeligible": true
+    },
+    {
+      "branchName": "STEYNSBURG - 050818",
+      "bankCode": "050818",
+      "iipeligible": true
+    },
+    {
+      "branchName": "LADY GREY - 050820",
+      "bankCode": "050820",
+      "iipeligible": true
+    },
+    {
+      "branchName": "VICTORIA WEST - 050908",
+      "bankCode": "050908",
+      "iipeligible": true
+    },
+    {
+      "branchName": "KHAYELITSHA - 050911",
+      "bankCode": "050911",
+      "iipeligible": true
+    },
+    {
+      "branchName": "GRAHAMSTOWN - 050917",
+      "bankCode": "050917",
+      "iipeligible": true
+    },
+    {
+      "branchName": "AE KWTOWN CLOSED 98-11-18 - 050919",
+      "bankCode": "050919",
+      "iipeligible": true
+    },
+    {
+      "branchName": "OUDTSHOORN - 050514",
+      "bankCode": "050514",
+      "iipeligible": true
+    },
+    {
+      "branchName": "BERRY''S CORNER CLOSED 00-05-27 - 050517",
+      "bankCode": "050517",
+      "iipeligible": true
+    },
+    {
+      "branchName": "NOUPOORT - 050518",
+      "bankCode": "050518",
+      "iipeligible": true
+    },
+    {
+      "branchName": "ELLIOT - 050520",
+      "bankCode": "050520",
+      "iipeligible": true
+    },
+    {
+      "branchName": "STUTTERHEIM - 050521",
+      "bankCode": "050521",
+      "iipeligible": true
+    },
+    {
+      "branchName": "PORT ST.JOHNS CLOSED - 050522",
+      "bankCode": "050522",
+      "iipeligible": true
+    },
+    {
+      "branchName": "ITSOSENG CLOSED - 050540",
+      "bankCode": "050540",
+      "iipeligible": true
+    },
+    {
+      "branchName": "SBV WITBANK - 050550",
+      "bankCode": "050550",
+      "iipeligible": true
+    },
+    {
+      "branchName": "MOTHIBISTAD CLOSED 01-05-12 - 050601",
+      "bankCode": "050601",
+      "iipeligible": true
+    },
+    {
+      "branchName": "LIMEACRES - 050602",
+      "bankCode": "050602",
+      "iipeligible": true
+    },
+    {
+      "branchName": "PRIESKA - 050604",
+      "bankCode": "050604",
+      "iipeligible": true
+    },
+    {
+      "branchName": "VAN RHYNSDORP CLOSED 01-09-15 - 050606",
+      "bankCode": "050606",
+      "iipeligible": true
+    },
+    {
+      "branchName": "RICHMOND - 050608",
+      "bankCode": "050608",
+      "iipeligible": true
+    },
+    {
+      "branchName": "STELLENBOSCH - 050610",
+      "bankCode": "050610",
+      "iipeligible": true
+    },
+    {
+      "branchName": "LAAIPLEK - 050611",
+      "bankCode": "050611",
+      "iipeligible": true
+    },
+    {
+      "branchName": "DPARTY ESTATE CLOSED 97-02-08 - 050617",
+      "bankCode": "050617",
+      "iipeligible": true
+    },
+    {
+      "branchName": "PEARSTON CLOSED 00-02-05 - 050618",
+      "bankCode": "050618",
+      "iipeligible": true
+    },
+    {
+      "branchName": "KLERKSDORP - 052038",
+      "bankCode": "052038",
+      "iipeligible": true
+    },
+    {
+      "branchName": "OPS:MAFIKENG CASH CENTRE - 052040",
+      "bankCode": "052040",
+      "iipeligible": true
+    },
+    {
+      "branchName": "AE QUEENSTOWN CLOSED 98-11-18 - 052220",
+      "bankCode": "052220",
+      "iipeligible": true
+    },
+    {
+      "branchName": "AE ENGCOBO CLOSED 98-11-18 - 052221",
+      "bankCode": "052221",
+      "iipeligible": true
+    },
+    {
+      "branchName": "MPUM PROV CLOSED 01-06-23 - 052252",
+      "bankCode": "052252",
+      "iipeligible": true
+    },
+    {
+      "branchName": "CIB: EASTERN CAPE PE - 052317",
+      "bankCode": "052317",
+      "iipeligible": true
+    },
+    {
+      "branchName": "AE EAST LONDON CLOSED 98-11-18 - 052321",
+      "bankCode": "052321",
+      "iipeligible": true
+    },
+    {
+      "branchName": "AE RUSTENBURG WEST 98-12-02 - 052346",
+      "bankCode": "052346",
+      "iipeligible": true
+    },
+    {
+      "branchName": "MACLEAR - 050920",
+      "bankCode": "050920",
+      "iipeligible": true
+    },
+    {
+      "branchName": "ENGCOBO CLOSED - 050921",
+      "bankCode": "050921",
+      "iipeligible": true
+    },
+    {
+      "branchName": "STANDARD BANK SOUTH AFRICA - 051001",
+      "bankCode": "051001",
+      "iipeligible": true
+    },
+    {
+      "branchName": "WILLISTON - 051008",
+      "bankCode": "051008",
+      "iipeligible": true
+    },
+    {
+      "branchName": "KIRKWOOD - 051017",
+      "bankCode": "051017",
+      "iipeligible": true
+    },
+    {
+      "branchName": "MOLTENO - 051020",
+      "bankCode": "051020",
+      "iipeligible": true
+    },
+    {
+      "branchName": "MAZAMBA CLOSED - 051022",
+      "bankCode": "051022",
+      "iipeligible": true
+    },
+    {
+      "branchName": "NCAPE PROVINCE CLOSED - 051102",
+      "bankCode": "051102",
+      "iipeligible": true
+    },
+    {
+      "branchName": "LAINGSBURG - 051108",
+      "bankCode": "051108",
+      "iipeligible": true
+    },
+    {
+      "branchName": "PORT ALFRED - 051117",
+      "bankCode": "051117",
+      "iipeligible": true
+    },
+    {
+      "branchName": "QUEENSTOWN - 051120",
+      "bankCode": "051120",
+      "iipeligible": true
+    },
+    {
+      "branchName": "FLAGSTAFF CLOSED 99-01-09 - 051122",
+      "bankCode": "051122",
+      "iipeligible": true
+    },
+    {
+      "branchName": "N CAPE OSC CLOSED 04-11-06 - 051202",
+      "bankCode": "051202",
+      "iipeligible": true
+    },
+    {
+      "branchName": "NORTH CAPE PR CLOSED 08-10-25 - 051302",
+      "bankCode": "051302",
+      "iipeligible": true
+    },
+    {
+      "branchName": "TARKASTAD CLOSED - 051320",
+      "bankCode": "051320",
+      "iipeligible": true
+    },
+    {
+      "branchName": "AE FLAGSTAFF CLOSED 98-11-18 - 051322",
+      "bankCode": "051322",
+      "iipeligible": true
+    },
+    {
+      "branchName": "N1 CITY - 051414",
+      "bankCode": "051414",
+      "iipeligible": true
+    },
+    {
+      "branchName": "UGIE - 051420",
+      "bankCode": "051420",
+      "iipeligible": true
+    },
+    {
+      "branchName": "AE MOUNT FRERE CLOSED 98-11-18 - 051422",
+      "bankCode": "051422",
+      "iipeligible": true
+    },
+    {
+      "branchName": "KUILS RIVER - 051514",
+      "bankCode": "051514",
+      "iipeligible": true
+    },
+    {
+      "branchName": "OPS:PORT ELIZABETH ATM SERVICE - 051517",
+      "bankCode": "051517",
+      "iipeligible": true
+    },
+    {
+      "branchName": "AE LUSIKISIKI CLOSED 98-11-18 - 051522",
+      "bankCode": "051522",
+      "iipeligible": true
+    },
+    {
+      "branchName": "CLEARY PARK - 051717",
+      "bankCode": "051717",
+      "iipeligible": true
+    },
+    {
+      "branchName": "AE MTHATHA CLOSED 98-11-18 - 051721",
+      "bankCode": "051721",
+      "iipeligible": true
+    },
+    {
+      "branchName": "STERKSPRUIT - 051820",
+      "bankCode": "051820",
+      "iipeligible": true
+    },
+    {
+      "branchName": "AE BUTTERWORTH CLOSED 98-11-18 - 051821",
+      "bankCode": "051821",
+      "iipeligible": true
+    },
+    {
+      "branchName": "AE P ST. JOHNS CLOSED 98-11-18 - 051921",
+      "bankCode": "051921",
+      "iipeligible": true
+    },
+    {
+      "branchName": "AE IDUTYWA CLOSED 98-11-18 - 052021",
+      "bankCode": "052021",
+      "iipeligible": true
+    },
+    {
+      "branchName": "KOMATIPOORT - 052352",
+      "bankCode": "052352",
+      "iipeligible": true
+    },
+    {
+      "branchName": "AE LC PE CLOSED 99-02-20 - 052417",
+      "bankCode": "052417",
+      "iipeligible": true
+    },
+    {
+      "branchName": "HAZYVIEW - 052452",
+      "bankCode": "052452",
+      "iipeligible": true
+    },
+    {
+      "branchName": "AE PE CLOSED 98-11-21 - 052517",
+      "bankCode": "052517",
+      "iipeligible": true
+    },
+    {
+      "branchName": "AE CHATHAM ST CLOSED 98-11-18 - 052521",
+      "bankCode": "052521",
+      "iipeligible": true
+    },
+    {
+      "branchName": "PONGOLA - 052524",
+      "bankCode": "052524",
+      "iipeligible": true
+    },
+    {
+      "branchName": "BLOEMHOF - 052538",
+      "bankCode": "052538",
+      "iipeligible": true
+    },
+    {
+      "branchName": "LICHTENBURG - 052539",
+      "bankCode": "052539",
+      "iipeligible": true
+    },
+    {
+      "branchName": "GROOT MARICO CLOSED - 052540",
+      "bankCode": "052540",
+      "iipeligible": true
+    },
+    {
+      "branchName": "AMERSFOORT - 052543",
+      "bankCode": "052543",
+      "iipeligible": true
+    },
+    {
+      "branchName": "BETHAL - 052544",
+      "bankCode": "052544",
+      "iipeligible": true
+    },
+    {
+      "branchName": "BRITS - 052546",
+      "bankCode": "052546",
+      "iipeligible": true
+    },
+    {
+      "branchName": "LEPHALALE - 052547",
+      "bankCode": "052547",
+      "iipeligible": true
+    },
+    {
+      "branchName": "POLOKWANE SQUARE - 052548",
+      "bankCode": "052548",
+      "iipeligible": true
+    },
+    {
+      "branchName": "LOUIS TRICHARDT - 052549",
+      "bankCode": "052549",
+      "iipeligible": true
+    },
+    {
+      "branchName": "HENDRINA - 052550",
+      "bankCode": "052550",
+      "iipeligible": true
+    },
+    {
+      "branchName": "CAROLINA - 052551",
+      "bankCode": "052551",
+      "iipeligible": true
+    },
+    {
+      "branchName": "BARBERTON - 052552",
+      "bankCode": "052552",
+      "iipeligible": true
+    },
+    {
+      "branchName": "AE NORTH END CLOSED 98-11-21 - 052617",
+      "bankCode": "052617",
+      "iipeligible": true
+    },
+    {
+      "branchName": "MTHATHA WEST - 052621",
+      "bankCode": "052621",
+      "iipeligible": true
+    },
+    {
+      "branchName": "MATLOSANA MALL - 052638",
+      "bankCode": "052638",
+      "iipeligible": true
+    },
+    {
+      "branchName": "SCHWEIZER RENEKE - 052639",
+      "bankCode": "052639",
+      "iipeligible": true
+    },
+    {
+      "branchName": "ZEERUST - 052640",
+      "bankCode": "052640",
+      "iipeligible": true
+    },
+    {
+      "branchName": "BALFOUR MPUMALANGA - 052643",
+      "bankCode": "052643",
+      "iipeligible": true
+    },
+    {
+      "branchName": "DELMAS - 052644",
+      "bankCode": "052644",
+      "iipeligible": true
+    },
+    {
+      "branchName": "RUSTENBURG - 052646",
+      "bankCode": "052646",
+      "iipeligible": true
+    },
+    {
+      "branchName": "GROBLERSDAL - 052647",
+      "bankCode": "052647",
+      "iipeligible": true
+    },
+    {
+      "branchName": "MOKOPANE - 052648",
+      "bankCode": "052648",
+      "iipeligible": true
+    },
+    {
+      "branchName": "MUSINA - 052649",
+      "bankCode": "052649",
+      "iipeligible": true
+    },
+    {
+      "branchName": "MIDDELBURG MPUMALANGA - 052650",
+      "bankCode": "052650",
+      "iipeligible": true
+    },
+    {
+      "branchName": "LYDENBURG - 052651",
+      "bankCode": "052651",
+      "iipeligible": true
+    },
+    {
+      "branchName": "E. CAPE OSC CLOSED 07-07-21 - 052717",
+      "bankCode": "052717",
+      "iipeligible": true
+    },
+    {
+      "branchName": "ORKNEY CLOSED 00-08-12 - 052738",
+      "bankCode": "052738",
+      "iipeligible": true
+    },
+    {
+      "branchName": "VENTERSDORP - 052739",
+      "bankCode": "052739",
+      "iipeligible": true
+    },
+    {
+      "branchName": "GREYLINGSTAD CLOSED - 052743",
+      "bankCode": "052743",
+      "iipeligible": true
+    },
+    {
+      "branchName": "DEVON CLOSED - 052744",
+      "bankCode": "052744",
+      "iipeligible": true
+    },
+    {
+      "branchName": "BURGERSFORT - 052751",
+      "bankCode": "052751",
+      "iipeligible": true
+    },
+    {
+      "branchName": "HOEDSPRUIT - 052752",
+      "bankCode": "052752",
+      "iipeligible": true
+    },
+    {
+      "branchName": "AE BERRY''S CNR CLOSED 98-11-21 - 052817",
+      "bankCode": "052817",
+      "iipeligible": true
+    },
+    {
+      "branchName": "POTCHEFSTROOM - 052838",
+      "bankCode": "052838",
+      "iipeligible": true
+    },
+    {
+      "branchName": "DELAREYVILLE - 052839",
+      "bankCode": "052839",
+      "iipeligible": true
+    },
+    {
+      "branchName": "HEIDELBERG GAUTENG - 052843",
+      "bankCode": "052843",
+      "iipeligible": true
+    },
+    {
+      "branchName": "ERMELO - 052844",
+      "bankCode": "052844",
+      "iipeligible": true
+    },
+    {
+      "branchName": "SUN CITY - 052846",
+      "bankCode": "052846",
+      "iipeligible": true
+    },
+    {
+      "branchName": "BABELEGI CLOSED 00-03-25 - 052847",
+      "bankCode": "052847",
+      "iipeligible": true
+    },
+    {
+      "branchName": "THOHOYANDOU - 052849",
+      "bankCode": "052849",
+      "iipeligible": true
+    },
+    {
+      "branchName": "BRONKHORSTSPRUIT - 052850",
+      "bankCode": "052850",
+      "iipeligible": true
+    },
+    {
+      "branchName": "AE BURGERSFORT CLOSED 98-12-02 - 052851",
+      "bankCode": "052851",
+      "iipeligible": true
+    },
+    {
+      "branchName": "RIVERSIDE MALL - 052852",
+      "bankCode": "052852",
+      "iipeligible": true
+    },
+    {
+      "branchName": "AE CLEARY PARK CLOSED 98-11-21 - 052917",
+      "bankCode": "052917",
+      "iipeligible": true
+    },
+    {
+      "branchName": "STILFONTEIN CLOSED - 052938",
+      "bankCode": "052938",
+      "iipeligible": true
+    },
+    {
+      "branchName": "STANDERTON - 052943",
+      "bankCode": "052943",
+      "iipeligible": true
+    },
+    {
+      "branchName": "EVANDER CLOSED 01-06-09 - 052944",
+      "bankCode": "052944",
+      "iipeligible": true
+    },
+    {
+      "branchName": "CENTRAL CITY - 052947",
+      "bankCode": "052947",
+      "iipeligible": true
+    },
+    {
+      "branchName": "KLIPFONTEIN CLOSED 01-05-26 - 052950",
+      "bankCode": "052950",
+      "iipeligible": true
+    },
+    {
+      "branchName": "PHALABORWA - 052952",
+      "bankCode": "052952",
+      "iipeligible": true
+    },
+    {
+      "branchName": "PORT ELIZABETH CASH SERVICES - 053017",
+      "bankCode": "053017",
+      "iipeligible": true
+    },
+    {
+      "branchName": "WOLMARANSSTAD - 053038",
+      "bankCode": "053038",
+      "iipeligible": true
+    },
+    {
+      "branchName": "MABOPANE CLOSED - 053040",
+      "bankCode": "053040",
+      "iipeligible": true
+    },
+    {
+      "branchName": "VOLKSRUST - 053043",
+      "bankCode": "053043",
+      "iipeligible": true
+    },
+    {
+      "branchName": "LEANDRA - 053044",
+      "bankCode": "053044",
+      "iipeligible": true
+    },
+    {
+      "branchName": "BELA-BELA - 053047",
+      "bankCode": "053047",
+      "iipeligible": true
+    },
+    {
+      "branchName": "WHITE RIVER - 053052",
+      "bankCode": "053052",
+      "iipeligible": true
+    },
+    {
+      "branchName": "OPS:MTHATHA CASH CENTRE - 053117",
+      "bankCode": "053117",
+      "iipeligible": true
+    },
+    {
+      "branchName": "SIYABUSWA - 053147",
+      "bankCode": "053147",
+      "iipeligible": true
+    },
+    {
+      "branchName": "AE THOHOYANDOU CLOSED 98-12-02 - 053149",
+      "bankCode": "053149",
+      "iipeligible": true
+    },
+    {
+      "branchName": "SABIE - 053152",
+      "bankCode": "053152",
+      "iipeligible": true
+    },
+    {
+      "branchName": "RUSTENBURG WEST CLOSED - 052746",
+      "bankCode": "052746",
+      "iipeligible": true
+    },
+    {
+      "branchName": "MODIMOLLE - 052747",
+      "bankCode": "052747",
+      "iipeligible": true
+    },
+    {
+      "branchName": "PIETERSB NORTH CLOSED 01-02-10 - 052748",
+      "bankCode": "052748",
+      "iipeligible": true
+    },
+    {
+      "branchName": "TZANEEN - 052749",
+      "bankCode": "052749",
+      "iipeligible": true
+    },
+    {
+      "branchName": "WITBANK - 052750",
+      "bankCode": "052750",
+      "iipeligible": true
+    },
+    {
+      "branchName": "BORDER OSC CLOSED 05-04-09 - 053521",
+      "bankCode": "053521",
+      "iipeligible": true
+    },
+    {
+      "branchName": "KRIEL - 053544",
+      "bankCode": "053544",
+      "iipeligible": true
+    },
+    {
+      "branchName": "PHOKENG CLOSED - 053546",
+      "bankCode": "053546",
+      "iipeligible": true
+    },
+    {
+      "branchName": "AE TEMBA CITY CLOSED 98-11-28 - 053547",
+      "bankCode": "053547",
+      "iipeligible": true
+    },
+    {
+      "branchName": "EAS MPUM OSC CLOSED 03-12-06 - 053552",
+      "bankCode": "053552",
+      "iipeligible": true
+    },
+    {
+      "branchName": "KIMBERLEY POD CLOSED 04-10-23 - 053610",
+      "bankCode": "053610",
+      "iipeligible": true
+    },
+    {
+      "branchName": "VINCENT PARK CLOSED 99-04-10 - 053621",
+      "bankCode": "053621",
+      "iipeligible": true
+    },
+    {
+      "branchName": "MOGWASE CLOSED - 053646",
+      "bankCode": "053646",
+      "iipeligible": true
+    },
+    {
+      "branchName": "AE GARANKUWA CLOSED 98-11-28 - 053647",
+      "bankCode": "053647",
+      "iipeligible": true
+    },
+    {
+      "branchName": "AE POLOKWANE CLOSED 98-12-02 - 053648",
+      "bankCode": "053648",
+      "iipeligible": true
+    },
+    {
+      "branchName": "A E NELSPRUIT CLOSED 98-12-02 - 053652",
+      "bankCode": "053652",
+      "iipeligible": true
+    },
+    {
+      "branchName": "E LONDON POD CLOSED 05-03-12 - 053710",
+      "bankCode": "053710",
+      "iipeligible": true
+    },
+    {
+      "branchName": "VINCENT PARK - 053721",
+      "bankCode": "053721",
+      "iipeligible": true
+    },
+    {
+      "branchName": "AE FORO SPAR CLOSED 98-12-02 - 053746",
+      "bankCode": "053746",
+      "iipeligible": true
+    },
+    {
+      "branchName": "AE OK MABOPANE CLOSED 98-11-28 - 053747",
+      "bankCode": "053747",
+      "iipeligible": true
+    },
+    {
+      "branchName": "IPS POLOKWANE DAY 1 CENTRE - 053748",
+      "bankCode": "053748",
+      "iipeligible": true
+    },
+    {
+      "branchName": "NELSPRUIT POD CLOSED 03-11-22 - 053752",
+      "bankCode": "053752",
+      "iipeligible": true
+    },
+    {
+      "branchName": "NEWCASTLE POD CLOSED - 053810",
+      "bankCode": "053810",
+      "iipeligible": true
+    },
+    {
+      "branchName": "SBV POLOKWANE - 053848",
+      "bankCode": "053848",
+      "iipeligible": true
+    },
+    {
+      "branchName": "BOLAND OSC CLOSED 04-11-20 - 053210",
+      "bankCode": "053210",
+      "iipeligible": true
+    },
+    {
+      "branchName": "NORTH WEST OSC CLOSED 03-08-16 - 053238",
+      "bankCode": "053238",
+      "iipeligible": true
+    },
+    {
+      "branchName": "OGIES CLOSED 01-04-21 - 053244",
+      "bankCode": "053244",
+      "iipeligible": true
+    },
+    {
+      "branchName": "MARBLE HALL - 053247",
+      "bankCode": "053247",
+      "iipeligible": true
+    },
+    {
+      "branchName": "AE PIETERSBURG CLOSED 98-02-12 - 053248",
+      "bankCode": "053248",
+      "iipeligible": true
+    },
+    {
+      "branchName": "GIYANI - 053249",
+      "bankCode": "053249",
+      "iipeligible": true
+    },
+    {
+      "branchName": "MALELANE - 053252",
+      "bankCode": "053252",
+      "iipeligible": true
+    },
+    {
+      "branchName": "PIET RETIEF - 053344",
+      "bankCode": "053344",
+      "iipeligible": true
+    },
+    {
+      "branchName": "AE KWAGGA PI CLOSED 98-12-02 - 053347",
+      "bankCode": "053347",
+      "iipeligible": true
+    },
+    {
+      "branchName": "AE JANE FURSE CLOSED 98-02-12 - 053350",
+      "bankCode": "053350",
+      "iipeligible": true
+    },
+    {
+      "branchName": "BUSHBUCKRIDGE - 053352",
+      "bankCode": "053352",
+      "iipeligible": true
+    },
+    {
+      "branchName": "PAARL POD CLOSED 04-11-30 - 053410",
+      "bankCode": "053410",
+      "iipeligible": true
+    },
+    {
+      "branchName": "CIB:JHB ZAR ITT HUB - 053421",
+      "bankCode": "053421",
+      "iipeligible": true
+    },
+    {
+      "branchName": "SECUNDA - 053444",
+      "bankCode": "053444",
+      "iipeligible": true
+    },
+    {
+      "branchName": "AE MABOPANE CLOSED 98-11-28 - 053447",
+      "bankCode": "053447",
+      "iipeligible": true
+    },
+    {
+      "branchName": "LIMPOPO OSC CLOSED 06-10-21 - 053448",
+      "bankCode": "053448",
+      "iipeligible": true
+    },
+    {
+      "branchName": "POTCH POD CLOSED 03-07-26 - 053510",
+      "bankCode": "053510",
+      "iipeligible": true
+    },
+    {
+      "branchName": "MTHATHA MALL - 055217",
+      "bankCode": "055217",
+      "iipeligible": true
+    },
+    {
+      "branchName": "JAGERSFONTEIN CLOSED 01-03-10 - 055232",
+      "bankCode": "055232",
+      "iipeligible": true
+    },
+    {
+      "branchName": "FICKSBURG - 055233",
+      "bankCode": "055233",
+      "iipeligible": true
+    },
+    {
+      "branchName": "BLOEM SOUTH CLOSED 00-08-05 - 055234",
+      "bankCode": "055234",
+      "iipeligible": true
+    },
+    {
+      "branchName": "ODENDAALSRUS - 055235",
+      "bankCode": "055235",
+      "iipeligible": true
+    },
+    {
+      "branchName": "HEILBRON - 055236",
+      "bankCode": "055236",
+      "iipeligible": true
+    },
+    {
+      "branchName": "FRANKFORT - 055333",
+      "bankCode": "055333",
+      "iipeligible": true
+    },
+    {
+      "branchName": "THEUNISSEN - 055335",
+      "bankCode": "055335",
+      "iipeligible": true
+    },
+    {
+      "branchName": "SBV NELSPRUIT - 053852",
+      "bankCode": "053852",
+      "iipeligible": true
+    },
+    {
+      "branchName": "PE CRD CLOSED 00-04-18 - 053917",
+      "bankCode": "053917",
+      "iipeligible": true
+    },
+    {
+      "branchName": "NORTHAM - 053946",
+      "bankCode": "053946",
+      "iipeligible": true
+    },
+    {
+      "branchName": "MOOKGOPHONG - 053948",
+      "bankCode": "053948",
+      "iipeligible": true
+    },
+    {
+      "branchName": "AE RIVER WALK CLOSED 98-12-02 - 054038",
+      "bankCode": "054038",
+      "iipeligible": true
+    },
+    {
+      "branchName": "AE NORTHAM CLOSED 98-12-02 - 054046",
+      "bankCode": "054046",
+      "iipeligible": true
+    },
+    {
+      "branchName": "THABAZIMBI - 054246",
+      "bankCode": "054246",
+      "iipeligible": true
+    },
+    {
+      "branchName": "PHAKAMILE MABIJA - 054252",
+      "bankCode": "054252",
+      "iipeligible": true
+    },
+    {
+      "branchName": "REGIONAL CASH HUB KLERKSORP - 054338",
+      "bankCode": "054338",
+      "iipeligible": true
+    },
+    {
+      "branchName": "SBV RUSTENBURG - 054346",
+      "bankCode": "054346",
+      "iipeligible": true
+    },
+    {
+      "branchName": "LOCH LOGAN - 054352",
+      "bankCode": "054352",
+      "iipeligible": true
+    },
+    {
+      "branchName": "OPS: BETHLEHEM ATM SERVICES - 054652",
+      "bankCode": "054652",
+      "iipeligible": true
+    },
+    {
+      "branchName": "SBV EAST LONDON CLOSE 08-09-13 - 054821",
+      "bankCode": "054821",
+      "iipeligible": true
+    },
+    {
+      "branchName": "AE BLOEM CLOSED 98-11-11 - 054834",
+      "bankCode": "054834",
+      "iipeligible": true
+    },
+    {
+      "branchName": "AE PHUTHA CLOSED 98-11-11 - 054933",
+      "bankCode": "054933",
+      "iipeligible": true
+    },
+    {
+      "branchName": "NELSPRUIT CROSSING - 054952",
+      "bankCode": "054952",
+      "iipeligible": true
+    },
+    {
+      "branchName": "BOSHOF CLOSED 01-07-21 - 055002",
+      "bankCode": "055002",
+      "iipeligible": true
+    },
+    {
+      "branchName": "EDENBURG CLOSED 97-04-12 - 055032",
+      "bankCode": "055032",
+      "iipeligible": true
+    },
+    {
+      "branchName": "BETHLEHEM - 055033",
+      "bankCode": "055033",
+      "iipeligible": true
+    },
+    {
+      "branchName": "BLOEMFONTEIN - 055034",
+      "bankCode": "055034",
+      "iipeligible": true
+    },
+    {
+      "branchName": "BRANDFORT CLOSED 01-03-24 - 055035",
+      "bankCode": "055035",
+      "iipeligible": true
+    },
+    {
+      "branchName": "BOTHAVILLE - 055036",
+      "bankCode": "055036",
+      "iipeligible": true
+    },
+    {
+      "branchName": "VREDE - 055043",
+      "bankCode": "055043",
+      "iipeligible": true
+    },
+    {
+      "branchName": "IPS PE (CLOSED 18-10-06) - 055117",
+      "bankCode": "055117",
+      "iipeligible": true
+    },
+    {
+      "branchName": "CLOCOLAN CLOSED 98-11-21 - 055133",
+      "bankCode": "055133",
+      "iipeligible": true
+    },
+    {
+      "branchName": "HENRY ST CLOSED 00-11-11 - 055134",
+      "bankCode": "055134",
+      "iipeligible": true
+    },
+    {
+      "branchName": "HENNENMAN CLOSED 01-05-05 - 055135",
+      "bankCode": "055135",
+      "iipeligible": true
+    },
+    {
+      "branchName": "EDENVILLE CLOSED - 055136",
+      "bankCode": "055136",
+      "iipeligible": true
+    },
+    {
+      "branchName": "KOPPIES CLOSED 01-02-24 - 055336",
+      "bankCode": "055336",
+      "iipeligible": true
+    },
+    {
+      "branchName": "SMITHFIELD - 055432",
+      "bankCode": "055432",
+      "iipeligible": true
+    },
+    {
+      "branchName": "HARRISMITH - 055433",
+      "bankCode": "055433",
+      "iipeligible": true
+    },
+    {
+      "branchName": "VIRGINIA - 055435",
+      "bankCode": "055435",
+      "iipeligible": true
+    },
+    {
+      "branchName": "KROONSTAD - 055436",
+      "bankCode": "055436",
+      "iipeligible": true
+    },
+    {
+      "branchName": "WEPENER CLOSED 00-11-18 - 055532",
+      "bankCode": "055532",
+      "iipeligible": true
+    },
+    {
+      "branchName": "KESTELL - 055533",
+      "bankCode": "055533",
+      "iipeligible": true
+    },
+    {
+      "branchName": "BRANDWAG - 055534",
+      "bankCode": "055534",
+      "iipeligible": true
+    },
+    {
+      "branchName": "WELKOM - 055535",
+      "bankCode": "055535",
+      "iipeligible": true
+    },
+    {
+      "branchName": "LINDLEY CLOSED 00-10-14 - 055536",
+      "bankCode": "055536",
+      "iipeligible": true
+    },
+    {
+      "branchName": "ZASTRON - 055632",
+      "bankCode": "055632",
+      "iipeligible": true
+    },
+    {
+      "branchName": "LADYBRAND - 055633",
+      "bankCode": "055633",
+      "iipeligible": true
+    },
+    {
+      "branchName": "WESSELSBRON - 055635",
+      "bankCode": "055635",
+      "iipeligible": true
+    },
+    {
+      "branchName": "MARQUARD CLOSED 97-10-04 - 055636",
+      "bankCode": "055636",
+      "iipeligible": true
+    },
+    {
+      "branchName": "REITZ - 055733",
+      "bankCode": "055733",
+      "iipeligible": true
+    },
+    {
+      "branchName": "WINBURG CLOSED 97-10-18 - 055735",
+      "bankCode": "055735",
+      "iipeligible": true
+    },
+    {
+      "branchName": "PARYS - 055736",
+      "bankCode": "055736",
+      "iipeligible": true
+    },
+    {
+      "branchName": "TWEELING CLOSED - 055833",
+      "bankCode": "055833",
+      "iipeligible": true
+    },
+    {
+      "branchName": "GOLDFIELDS CLOSED 97-03-08 - 055835",
+      "bankCode": "055835",
+      "iipeligible": true
+    },
+    {
+      "branchName": "PETRUS STEYN CLOSED 99-03-20 - 055836",
+      "bankCode": "055836",
+      "iipeligible": true
+    },
+    {
+      "branchName": "VILLIERS CLOSED 97-05-10 - 055933",
+      "bankCode": "055933",
+      "iipeligible": true
+    },
+    {
+      "branchName": "SASOLBURG - 055936",
+      "bankCode": "055936",
+      "iipeligible": true
+    },
+    {
+      "branchName": "WARDEN CLOSED 97-11-22 - 056033",
+      "bankCode": "056033",
+      "iipeligible": true
+    },
+    {
+      "branchName": "SENEKAL - 056036",
+      "bankCode": "056036",
+      "iipeligible": true
+    },
+    {
+      "branchName": "THABA NCHU - 056133",
+      "bankCode": "056133",
+      "iipeligible": true
+    },
+    {
+      "branchName": "VILJOENSKROON - 056136",
+      "bankCode": "056136",
+      "iipeligible": true
+    },
+    {
+      "branchName": "SELOSESHA CLOSED - 056233",
+      "bankCode": "056233",
+      "iipeligible": true
+    },
+    {
+      "branchName": "VREDEFORT CLOSED - 056236",
+      "bankCode": "056236",
+      "iipeligible": true
+    },
+    {
+      "branchName": "AE THABA NCHU CLOSED 98-11-11 - 056533",
+      "bankCode": "056533",
+      "iipeligible": true
+    },
+    {
+      "branchName": "AE OK WELKOM CLOSED 98-11-11 - 056535",
+      "bankCode": "056535",
+      "iipeligible": true
+    },
+    {
+      "branchName": "AE BOTSHABELO CLOSED 98-11-11 - 056633",
+      "bankCode": "056633",
+      "iipeligible": true
+    },
+    {
+      "branchName": "A E LADYSMITH CLOSED 98-11-11 - 057325",
+      "bankCode": "057325",
+      "iipeligible": true
+    },
+    {
+      "branchName": "AE RICHARDS B CLOSED 98-11-11 - 057330",
+      "bankCode": "057330",
+      "iipeligible": true
+    },
+    {
+      "branchName": "AE NEWCASTLE CLOSED 98-11-11 - 057424",
+      "bankCode": "057424",
+      "iipeligible": true
+    },
+    {
+      "branchName": "AE PMBG CLOSED 98-11-11 - 057425",
+      "bankCode": "057425",
+      "iipeligible": true
+    },
+    {
+      "branchName": "AE ISIPINGO CLOSED 98-11-11 - 057427",
+      "bankCode": "057427",
+      "iipeligible": true
+    },
+    {
+      "branchName": "DANNHAUSER - 057524",
+      "bankCode": "057524",
+      "iipeligible": true
+    },
+    {
+      "branchName": "PIETERMARITZBURG - 057525",
+      "bankCode": "057525",
+      "iipeligible": true
+    },
+    {
+      "branchName": "AMANZIMTOTI - 057527",
+      "bankCode": "057527",
+      "iipeligible": true
+    },
+    {
+      "branchName": "SOUTH COAST MALL - 057528",
+      "bankCode": "057528",
+      "iipeligible": true
+    },
+    {
+      "branchName": "KWADUKUZA MALL - 057529",
+      "bankCode": "057529",
+      "iipeligible": true
+    },
+    {
+      "branchName": "EMPANGENI - 057530",
+      "bankCode": "057530",
+      "iipeligible": true
+    },
+    {
+      "branchName": "GREYTOWN - 057531",
+      "bankCode": "057531",
+      "iipeligible": true
+    },
+    {
+      "branchName": "DUNDEE - 057624",
+      "bankCode": "057624",
+      "iipeligible": true
+    },
+    {
+      "branchName": "ESTCOURT - 057625",
+      "bankCode": "057625",
+      "iipeligible": true
+    },
+    {
+      "branchName": "SCOTTBURGH - 057627",
+      "bankCode": "057627",
+      "iipeligible": true
+    },
+    {
+      "branchName": "PORT SHEPSTONE - 057628",
+      "bankCode": "057628",
+      "iipeligible": true
+    },
+    {
+      "branchName": "VERULAM - 057629",
+      "bankCode": "057629",
+      "iipeligible": true
+    },
+    {
+      "branchName": "ESHOWE - 057630",
+      "bankCode": "057630",
+      "iipeligible": true
+    },
+    {
+      "branchName": "NEWCASTLE - 057724",
+      "bankCode": "057724",
+      "iipeligible": true
+    },
+    {
+      "branchName": "LADYSMITH KWA-ZULU NATAL - 057725",
+      "bankCode": "057725",
+      "iipeligible": true
+    },
+    {
+      "branchName": "UMKOMAAS CLOSED 01-04-14 - 057727",
+      "bankCode": "057727",
+      "iipeligible": true
+    },
+    {
+      "branchName": "UMZINTO CLOSED 01-07-07 - 057728",
+      "bankCode": "057728",
+      "iipeligible": true
+    },
+    {
+      "branchName": "TONGAAT - 057729",
+      "bankCode": "057729",
+      "iipeligible": true
+    },
+    {
+      "branchName": "MTUBATUBA - 057730",
+      "bankCode": "057730",
+      "iipeligible": true
+    },
+    {
+      "branchName": "UTRECHT - 057824",
+      "bankCode": "057824",
+      "iipeligible": true
+    },
+    {
+      "branchName": "MOOI RIVER - 057825",
+      "bankCode": "057825",
+      "iipeligible": true
+    },
+    {
+      "branchName": "PROSPECTON - 057827",
+      "bankCode": "057827",
+      "iipeligible": true
+    },
+    {
+      "branchName": "GATEWAY - 057829",
+      "bankCode": "057829",
+      "iipeligible": true
+    },
+    {
+      "branchName": "NONGOMA - 057830",
+      "bankCode": "057830",
+      "iipeligible": true
+    },
+    {
+      "branchName": "VRYHEID - 057924",
+      "bankCode": "057924",
+      "iipeligible": true
+    },
+    {
+      "branchName": "PMBG EASTCLOSED 04-03-13 - 057925",
+      "bankCode": "057925",
+      "iipeligible": true
+    },
+    {
+      "branchName": "ISIPINGO CLOSED 97-09-19 - 057927",
+      "bankCode": "057927",
+      "iipeligible": true
+    },
+    {
+      "branchName": "MANDENI - 057929",
+      "bankCode": "057929",
+      "iipeligible": true
+    },
+    {
+      "branchName": "MELMOTH - 057930",
+      "bankCode": "057930",
+      "iipeligible": true
+    },
+    {
+      "branchName": "RICHARDS BAY - 058030",
+      "bankCode": "058030",
+      "iipeligible": true
+    },
+    {
+      "branchName": "CENTENARY CLOSED 01-02-17 - 058225",
+      "bankCode": "058225",
+      "iipeligible": true
+    },
+    {
+      "branchName": "FREE STATE OSC CLOSED 08-09-18 - 058234",
+      "bankCode": "058234",
+      "iipeligible": true
+    },
+    {
+      "branchName": "HOWICK - 058325",
+      "bankCode": "058325",
+      "iipeligible": true
+    },
+    {
+      "branchName": "SBV KIMBERLEY - 058334",
+      "bankCode": "058334",
+      "iipeligible": true
+    },
+    {
+      "branchName": "AE ESHOWE CLOSED 98-11-11 - 057430",
+      "bankCode": "057430",
+      "iipeligible": true
+    },
+    {
+      "branchName": "POLOKWANE - 057448",
+      "bankCode": "057448",
+      "iipeligible": true
+    },
+    {
+      "branchName": "WILLOWTON - 059725",
+      "bankCode": "059725",
+      "iipeligible": true
+    },
+    {
+      "branchName": "NBS BANK - 076826",
+      "bankCode": "076826",
+      "iipeligible": false
+    },
+    {
+      "branchName": "ARANOS - 080071",
+      "bankCode": "080071",
+      "iipeligible": false
+    },
+    {
+      "branchName": "KEETMANSHOOP - 080371",
+      "bankCode": "080371",
+      "iipeligible": false
+    },
+    {
+      "branchName": "LUDERITZ - 080471",
+      "bankCode": "080471",
+      "iipeligible": false
+    },
+    {
+      "branchName": "MARIENTAL - 080671",
+      "bankCode": "080671",
+      "iipeligible": false
+    },
+    {
+      "branchName": "KATIMA MULILO - 080672",
+      "bankCode": "080672",
+      "iipeligible": false
+    },
+    {
+      "branchName": "REHOBOTH - 080871",
+      "bankCode": "080871",
+      "iipeligible": false
+    },
+    {
+      "branchName": "ROSH PINAH - 080971",
+      "bankCode": "080971",
+      "iipeligible": false
+    },
+    {
+      "branchName": "ONGWEDIVA - 081171",
+      "bankCode": "081171",
+      "iipeligible": false
+    },
+    {
+      "branchName": "GOBABIS - 082072",
+      "bankCode": "082072",
+      "iipeligible": false
+    },
+    {
+      "branchName": "SWAKOPMUND - 082172",
+      "bankCode": "082172",
+      "iipeligible": false
+    },
+    {
+      "branchName": "IPS BLOEMFONTEIN DAY 1 CENTRE - 058434",
+      "bankCode": "058434",
+      "iipeligible": true
+    },
+    {
+      "branchName": "SBV BLOEMFONTEIN - 058534",
+      "bankCode": "058534",
+      "iipeligible": true
+    },
+    {
+      "branchName": "AE EMPANGENI CLOSED 98-11-11 - 058630",
+      "bankCode": "058630",
+      "iipeligible": true
+    },
+    {
+      "branchName": "IPS KLERKSDORP CLOSED 18-09-15 - 058634",
+      "bankCode": "058634",
+      "iipeligible": true
+    },
+    {
+      "branchName": "OPS:BLOEMFONTEIN ATM SERVICES - 058734",
+      "bankCode": "058734",
+      "iipeligible": true
+    },
+    {
+      "branchName": "NORTH KZN OSC CLOSED 03-10-18 - 058824",
+      "bankCode": "058824",
+      "iipeligible": true
+    },
+    {
+      "branchName": "AE MANDINI CLOSED 98-11-11 - 058830",
+      "bankCode": "058830",
+      "iipeligible": true
+    },
+    {
+      "branchName": "OUTJO - 084673",
+      "bankCode": "084673",
+      "iipeligible": false
+    },
+    {
+      "branchName": "TSUMEB - 084773",
+      "bankCode": "084773",
+      "iipeligible": false
+    },
+    {
+      "branchName": "OSHAKATI - 084873",
+      "bankCode": "084873",
+      "iipeligible": false
+    },
+    {
+      "branchName": "WINDHOEK IBC - 085073",
+      "bankCode": "085073",
+      "iipeligible": false
+    },
+    {
+      "branchName": "RUNDU - 085173",
+      "bankCode": "085173",
+      "iipeligible": false
+    },
+    {
+      "branchName": "AUSSPANNPLATZ CASH CENTRE - 086072",
+      "bankCode": "086072",
+      "iipeligible": false
+    },
+    {
+      "branchName": "OSHIKANGO - 086572",
+      "bankCode": "086572",
+      "iipeligible": false
+    },
+    {
+      "branchName": "MAERUA - 086872",
+      "bankCode": "086872",
+      "iipeligible": false
+    },
+    {
+      "branchName": "OUTAPI - 087172",
+      "bankCode": "087172",
+      "iipeligible": false
+    },
+    {
+      "branchName": "STANDARD BANK NAMIBIA - 087373",
+      "bankCode": "087373",
+      "iipeligible": false
+    },
+    {
+      "branchName": "WALVIS BAY - 082272",
+      "bankCode": "082272",
+      "iipeligible": false
+    },
+    {
+      "branchName": "WINDHOEK - 082372",
+      "bankCode": "082372",
+      "iipeligible": false
+    },
+    {
+      "branchName": "AUSSPANNPLATZ - 082672",
+      "bankCode": "082672",
+      "iipeligible": false
+    },
+    {
+      "branchName": "GUSTAV VOIGTS CENTRE - 082772",
+      "bankCode": "082772",
+      "iipeligible": false
+    },
+    {
+      "branchName": "KATUTURA - 082972",
+      "bankCode": "082972",
+      "iipeligible": false
+    },
+    {
+      "branchName": "STANNIC DIVISION - 083072",
+      "bankCode": "083072",
+      "iipeligible": false
+    },
+    {
+      "branchName": "WINDHOEK OPERATIONS PROC CENT - 084072",
+      "bankCode": "084072",
+      "iipeligible": false
+    },
+    {
+      "branchName": "GROOTFONTEIN - 084073",
+      "bankCode": "084073",
+      "iipeligible": false
+    },
+    {
+      "branchName": "OKAHANDJA - 084273",
+      "bankCode": "084273",
+      "iipeligible": false
+    },
+    {
+      "branchName": "OMARURU - 084373",
+      "bankCode": "084373",
+      "iipeligible": false
+    },
+    {
+      "branchName": "OTAVI - 084473",
+      "bankCode": "084473",
+      "iipeligible": false
+    },
+    {
+      "branchName": "OTJIWARONGO - 084573",
+      "bankCode": "084573",
+      "iipeligible": false
+    }
+  ]
+}

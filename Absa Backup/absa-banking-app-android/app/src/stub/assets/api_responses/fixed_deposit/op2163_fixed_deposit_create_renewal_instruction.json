@@ -1,0 +1,34 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES2163",
+      "resCde": "00000",
+      "resMsg": "Success",
+      "serVer": "2.0",
+      "expTrace": null
+    },
+    "payData": {
+      "tdRenewalInstruction": {
+        "accountNumber": "2049688263",
+        "eventNo": "15",
+        "amount": "2000",
+        "term": "8",
+        "startDate": "2020-05-07",
+        "endDate": "2020-05-15",
+        "interestCapFreq": "0",
+        "capDay": "15",
+        "nextCapDate": "2020-05-15",
+        "productCode": "03040",
+        "islamicIndicator": "N"
+      },
+      "tdFundTransferInstruction": {
+        "amount": "1000",
+        "fromAccount": "9050999852",
+        "fromAccountStatementDescription": "test",
+        "toAccountStatementDescription": "test"
+      },
+      "txnStatus": "Success",
+      "txnMessage": "Success"
+    }
+  }
+}

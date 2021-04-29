@@ -1,0 +1,38 @@
+{
+  "successResponseModel" : {
+    "payData" : {
+      "showBene" : null,
+      "benId" : null,
+      "notificationMethod" : null,
+      "nickName" : null,
+      "cellNo" : null,
+      "accessPin" : null,
+      "txnMessage" : null,
+      "txnStatus" : " ",
+      "sureCheckFlag" : "SURECHECKV2_FALLBACKRequired",
+      "corelationId" : "U2VsZjkzMjI3MzMyMzU1MC4wMA==",
+      "tvnFlag" : "SURECHECKV2_FALLBACKRequired",
+      "referenceNumber" : "U2VsZjkzMjI3MzMyMzU1MC4wMA==",
+      "benName" : null,
+      "amt" : null,
+      "actNo" : null,
+      "acceptTerms" : "N",
+      "cellnumber" : "******5548",
+      "email" : "",
+      "firstName" : null,
+      "actType" : null,
+      "myRef" : null,
+      "transactionDate" : "2017-09-27 07:35:35",
+      "surname" : null,
+      "msg" : "",
+      "txnRef" : null
+    },
+    "payHdr" : {
+      "resCde" : "00000",
+      "serVer" : "2.0",
+      "expTrace" : null,
+      "resMsg" : "",
+      "resId" : "RES0614"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0882",
+      "resCde": "00000",
+      "resMsg": "Success",
+      "serVer": "2.0"
+    },
+    "payData": {
+      "benWesternUnionList": [
+        {
+          "id": "1",
+          "beneficiaryIFTType": "individual",
+          "beneficiaryShortName": "Ace",
+          "beneficiaryFirstName": "ANKUR",
+          "beneficiarySurname": "Upadhyaya",
+          "status": "CURRENT",
+          "eftNumber": "800027312C",
+          "tiebNumber": "0",
+          "cifkey": "SADEDVN001",
+          "transferType": "WesternUnion",
+          "sequenceNumber": 1,
+          "lastPayment": "R 0",
+          "beneficiaryCity": "melbourne",
+          "subType": "MTR",
+          "foreignCurrencyWithZAR": false,
+          "imageName": "8Oayrw0VZRTnMBrdH4c5MQY_LKimDp_-GTYojWVfiUE\u003d"
+        },
+        {
+          "id": "2",
+          "beneficiaryIFTType": "individual",
+          "beneficiaryShortName": "Sandy",
+          "beneficiaryFirstName": "Sandip",
+          "beneficiarySurname": "Sabale",
+          "status": "CURRENT",
+          "eftNumber": "8000273172",
+          "tiebNumber": "0",
+          "cifkey": "SADEDVN001",
+          "transferType": "WesternUnion",
+          "sequenceNumber": 2,
+          "lastPayment": "R 0",
+          "beneficiaryCity": "melbourne",
+          "subType": "MTR",
+          "foreignCurrencyWithZAR": false,
+          "imageName": "P60sf1m-3h6OUKFp4-abk3O1YYYm_hP-KW4P9ljk0Ns\u003d"
+        }
+      ],
+      "txnStatus": "Success",
+      "txnMessage": "Success"
+    }
+  }
+}

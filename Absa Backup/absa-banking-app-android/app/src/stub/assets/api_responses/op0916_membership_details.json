@@ -1,0 +1,123 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0916",
+      "resCde": "00000",
+      "resMsg": "",
+      "serVer": "2.0",
+      "expTrace": null
+    },
+    "payData": {
+      "txnRefID": null,
+      "fromAct": "4047094141",
+      "monthlyFee": {
+        "curr": "R",
+        "amt": "22.50"
+      },
+      "annualFee": {
+        "curr": "R",
+        "amt": "270.00"
+      },
+      "chargeFreqID": "0",
+      "orderFreqDate": "13",
+      "actList": [
+        {
+          "desc": "",
+          "acctNumber": "4047094141",
+          "availableBal": {
+            "curr": "R",
+            "amt": "0.00"
+          }
+        },
+        {
+          "desc": "",
+          "acctNumber": "9050812171",
+          "availableBal": {
+            "curr": "R",
+            "amt": "104,792.97"
+          }
+        },
+        {
+          "desc": "",
+          "acctNumber": "9050811921",
+          "availableBal": {
+            "curr": "R",
+            "amt": "375.52"
+          }
+        },
+        {
+          "desc": "",
+          "acctNumber": "9050806465",
+          "availableBal": {
+            "curr": "R",
+            "amt": "6,257.79"
+          }
+        },
+        {
+          "desc": "",
+          "acctNumber": "9050812189",
+          "availableBal": {
+            "curr": "R",
+            "amt": "104,804.01"
+          }
+        },
+        {
+          "desc": "",
+          "acctNumber": "9050814220",
+          "availableBal": {
+            "curr": "R",
+            "amt": "503.60"
+          }
+        },
+        {
+          "desc": "",
+          "acctNumber": "2049656123",
+          "availableBal": {
+            "curr": "R",
+            "amt": "1,044.87"
+          }
+        },
+        {
+          "desc": "",
+          "acctNumber": "2049656131",
+          "availableBal": {
+            "curr": "R",
+            "amt": "137.64"
+          }
+        },
+        {
+          "desc": "",
+          "acctNumber": "2049656393",
+          "availableBal": {
+            "curr": "R",
+            "amt": "1,208.83"
+          }
+        },
+        {
+          "desc": "",
+          "acctNumber": "2049656416",
+          "availableBal": {
+            "curr": "R",
+            "amt": "79.92"
+          }
+        },
+        {
+          "desc": "",
+          "acctNumber": "2049656432",
+          "availableBal": {
+            "curr": "R",
+            "amt": "1,308.42"
+          }
+        },
+        {
+          "desc": "",
+          "acctNumber": "9050880683",
+          "availableBal": {
+            "curr": "R",
+            "amt": "14,462.86"
+          }
+        }
+      ]
+    }
+  }
+}

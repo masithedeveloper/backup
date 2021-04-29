@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:animateLayoutChanges="true"
+            android:paddingBottom="@dimen/medium_space">
+
+            <ImageView
+                android:id="@+id/closeDialogImageView"
+                android:layout_width="@dimen/icon_size"
+                android:layout_height="@dimen/icon_size"
+                android:layout_margin="@dimen/small_space"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_cross_dark" />
+
+            <TextView
+                android:id="@+id/titleTextView"
+                style="@style/NormalTextMediumDark"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/medium_space"
+                android:layout_marginEnd="@dimen/small_space"
+                android:text="@string/card_filter_choose_filter"
+                app:layout_constraintBottom_toBottomOf="@+id/closeDialogImageView"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/closeDialogImageView"
+                app:layout_constraintTop_toTopOf="@+id/closeDialogImageView" />
+
+            <RadioGroup
+                android:id="@+id/filterPeriod"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/small_space"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/titleTextView">
+
+                <RadioButton
+                    android:id="@+id/radioMonthToDate"
+                    style="@style/LargeTextRegularDark"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/medium_space"
+                    android:layout_marginTop="@dimen/small_space"
+                    android:layout_marginEnd="@dimen/medium_space"
+                    android:button="@drawable/round_check_box_view_button"
+                    android:paddingStart="@dimen/small_space"
+                    android:paddingEnd="@dimen/small_space"
+                    android:text="@string/month_to_date" />
+
+                <RadioButton
+                    android:id="@+id/radioLastMonth"
+                    style="@style/LargeTextRegularDark"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/medium_space"
+                    android:layout_marginTop="@dimen/normal_space"
+                    android:layout_marginEnd="@dimen/medium_space"
+                    android:button="@drawable/round_check_box_view_button"
+                    android:paddingStart="@dimen/small_space"
+                    android:paddingEnd="@dimen/small_space"
+                    android:text="@string/last_month" />
+
+                <RadioButton
+                    android:id="@+id/radioPastThreeMonths"
+                    style="@style/LargeTextRegularDark"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/medium_space"
+                    android:layout_marginTop="@dimen/normal_space"
+                    android:layout_marginEnd="@dimen/medium_space"
+                    android:button="@drawable/round_check_box_view_button"
+                    android:paddingStart="@dimen/small_space"
+                    android:paddingEnd="@dimen/small_space"
+                    android:text="@string/past_3_months" />
+
+                <RadioButton
+                    android:id="@+id/radioCustom"
+                    style="@style/LargeTextRegularDark"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/medium_space"
+                    android:layout_marginTop="@dimen/normal_space"
+                    android:layout_marginEnd="@dimen/medium_space"
+                    android:button="@drawable/round_check_box_view_button"
+                    android:checked="true"
+                    android:paddingStart="@dimen/small_space"
+                    android:paddingEnd="@dimen/small_space"
+                    android:text="@string/custom_date" />
+            </RadioGroup>
+
+            <LinearLayout
+                android:id="@+id/customDateLinearLayout"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/filterPeriod">
+
+                <styleguide.forms.NormalInputView
+                    android:id="@+id/fromInputView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:attribute_editable="false"
+                    app:attribute_hint_text="@string/choose_date"
+                    app:attribute_image="@drawable/ic_calendar_dark"
+                    app:attribute_selector_type="NONE"
+                    app:attribute_title_text="@string/card_filter_from" />
+
+                <styleguide.forms.NormalInputView
+                    android:id="@+id/toInputView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:attribute_editable="false"
+                    app:attribute_hint_text="@string/choose_date"
+                    app:attribute_image="@drawable/ic_calendar_dark"
+                    app:attribute_selector_type="NONE"
+                    app:attribute_title_text="@string/card_filter_to" />
+            </LinearLayout>
+
+            <View
+                android:id="@+id/radioButtonDividerView"
+                style="@style/DividerView"
+                android:layout_width="0dp"
+                android:layout_marginTop="@dimen/normal_space"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/customDateLinearLayout" />
+
+            <RadioGroup
+                android:id="@+id/filterTypeRadioGroup"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/tiny_space"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/radioButtonDividerView">
+
+                <RadioButton
+                    android:id="@+id/allTransactionsRadioButton"
+                    style="@style/LargeTextRegularDark"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/medium_space"
+                    android:layout_marginTop="@dimen/small_space"
+                    android:layout_marginEnd="@dimen/medium_space"
+                    android:button="@drawable/round_check_box_view_button"
+                    android:checked="true"
+                    android:paddingStart="@dimen/small_space"
+                    android:paddingEnd="@dimen/small_space"
+                    android:text="@string/card_filter_all_transactions" />
+
+                <RadioButton
+                    android:id="@+id/moneyInRadioButton"
+                    style="@style/LargeTextRegularDark"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/medium_space"
+                    android:layout_marginTop="@dimen/normal_space"
+                    android:layout_marginEnd="@dimen/medium_space"
+                    android:button="@drawable/round_check_box_view_button"
+                    android:paddingStart="@dimen/small_space"
+                    android:paddingEnd="@dimen/small_space"
+                    android:text="@string/card_filter_money_in" />
+
+                <RadioButton
+                    android:id="@+id/moneyOutRadioButton"
+                    style="@style/LargeTextRegularDark"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/medium_space"
+                    android:layout_marginTop="@dimen/normal_space"
+                    android:layout_marginEnd="@dimen/medium_space"
+                    android:button="@drawable/round_check_box_view_button"
+                    android:paddingStart="@dimen/small_space"
+                    android:paddingEnd="@dimen/small_space"
+                    android:text="@string/card_filter_money_out" />
+
+                <RadioButton
+                    android:id="@+id/unclearedRadioButton"
+                    style="@style/LargeTextRegularDark"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/medium_space"
+                    android:layout_marginTop="@dimen/normal_space"
+                    android:layout_marginEnd="@dimen/medium_space"
+                    android:button="@drawable/round_check_box_view_button"
+                    android:paddingStart="@dimen/small_space"
+                    android:paddingEnd="@dimen/small_space"
+                    android:text="@string/card_filter_uncleared" />
+            </RadioGroup>
+
+            <styleguide.buttons.Button
+                android:id="@+id/doneButton"
+                style="@style/PrimaryButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/card_filter_done"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/filterTypeRadioGroup" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+</layout>

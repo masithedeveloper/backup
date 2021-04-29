@@ -1,0 +1,21 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES2044",
+      "resCde": "00000",
+      "resMsg": "Success",
+      "serVer": "2.0",
+      "expTrace": null
+    },
+    "payData": {
+      "result": "Processed",
+      "securityNotificationType": "SureCheck",
+      "cellNumber": null,
+      "resendsRemaining": "0",
+      "secondFactorState": null,
+      "otpRetriesLeft": "0",
+      "txnStatus": "Success",
+      "txnMessage": "Success"
+    }
+  }
+}

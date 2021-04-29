@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:background="@drawable/background_rounded_transparent_black">
+
+    <TextView
+        android:id="@+id/currentBalanceLabelTextView"
+        style="@style/SmallTextRegularLight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/medium_space"
+        android:text="@string/personal_loan_hub_current_balance"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/currentBalanceTextView"
+        style="@style/TitleTextBoldLight"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/medium_space"
+        android:layout_marginEnd="@dimen/medium_space"
+        android:gravity="center"
+        android:maxLines="1"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/currentBalanceLabelTextView"
+        tools:text="R -130 203.32" />
+
+    <TextView
+        android:id="@+id/availableAdvanceLabelTextView"
+        style="@style/SmallTextRegularLight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/medium_space"
+        android:layout_marginTop="@dimen/medium_space"
+        android:layout_marginEnd="@dimen/medium_space"
+        android:text="@string/personal_loan_hub_available_advance"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/currentBalanceTextView" />
+
+    <TextView
+        android:id="@+id/availableAdvanceOrArrearsAmountTextView"
+        style="@style/HeadingTextMediumLight"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/medium_space"
+        android:layout_marginEnd="@dimen/medium_space"
+        android:gravity="center"
+        android:maxLines="1"
+        android:paddingBottom="@dimen/small_space"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/availableAdvanceLabelTextView"
+        tools:text="R 32 323.23" />
+
+    <styleguide.buttons.Button
+        android:id="@+id/transferButton"
+        style="@style/FloatingWideActionButtonLight"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/medium_space"
+        android:layout_marginBottom="@dimen/medium_space"
+        android:text="@string/personal_loan_hub_transfer"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/availableAdvanceOrArrearsAmountTextView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

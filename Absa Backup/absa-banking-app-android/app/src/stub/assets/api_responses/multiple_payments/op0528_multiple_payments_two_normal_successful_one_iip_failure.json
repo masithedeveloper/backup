@@ -1,0 +1,77 @@
+{
+  "successResponseModel" : {
+    "payData" : {
+      "txnStatus" : "Success",
+      "sureCheckFlag" : null,
+      "payments" : [
+        {
+          "iipReferenceNo" : "",
+          "errorMsg" : "",
+          "benAccNo" : "4047669982",
+          "txnAmt" : {
+            "curr" : "R",
+            "amt" : "10.00"
+          },
+          "immediatePayment" : "false",
+          "nowFlg" : "NOW",
+          "benId" : "2",
+          "result" : "SUCCESS",
+          "benName" : "Abhishek",
+          "paymentDateTime" : "2019-02-07",
+          "validateMsg" : "",
+          "warningMsg" : ""
+        },
+        {
+          "iipReferenceNo" : "",
+          "errorMsg" : "",
+          "benAccNo" : "4047599052",
+          "txnAmt" : {
+            "curr" : "R",
+            "amt" : "20.00"
+          },
+          "immediatePayment" : "false",
+          "nowFlg" : "NOW",
+          "benId" : "6",
+          "result" : "SUCCESS",
+          "benName" : "Ben",
+          "paymentDateTime" : "2019-02-07",
+          "validateMsg" : "",
+          "warningMsg" : ""
+        },
+        {
+          "iipReferenceNo" : "1605F986B4",
+          "errorMsg" : "IIP failure",
+          "benAccNo" : "21393031",
+          "txnAmt" : {
+            "curr" : "R",
+            "amt" : "30.00"
+          },
+          "immediatePayment" : "true",
+          "nowFlg" : "NOW",
+          "benId" : "29",
+          "result" : "H0435 NO REPLY RECEIVED FOR IIP ENQUIRY",
+          "benName" : "Bidvest",
+          "paymentDateTime" : "2019-02-07",
+          "validateMsg" : "",
+          "warningMsg" : "H0435 NO REPLY RECEIVED FOR IIP ENQUIRY"
+        }
+      ],
+      "txnMessage" : "Success",
+      "tvnFlag" : null,
+      "referenceNumber" : null,
+      "notificationMethod" : null,
+      "corelationId" : null,
+      "cellnumber" : null,
+      "transactionDate" : null,
+      "paymentDateTime" : "2019-02-07-08:52",
+      "email" : null
+    },
+    "payHdr" : {
+      "resCde" : "00000",
+      "serVer" : "2.0",
+      "expTrace" : null,
+      "resMsg" : "Success",
+      "resId" : "RES0528"
+    }
+  }
+}

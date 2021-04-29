@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:parentTag="androidx.constraintlayout.widget.ConstraintLayout">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/backgroundView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/normal_space"
+        android:layout_marginTop="@dimen/small_space"
+        android:layout_marginEnd="@dimen/small_space"
+        android:background="@drawable/light_grey_rounded_rectangle"
+        android:paddingBottom="@dimen/normal_space"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/jackpotAmountTextView"
+            style="@style/TitleTextBoldDark"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/normal_space"
+            android:layout_marginTop="@dimen/large_space"
+            app:autoSizeMaxTextSize="@dimen/title_text_size"
+            app:autoSizeMinTextSize="@dimen/heading_text_size"
+            app:autoSizeStepGranularity="1px"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="R78 932 947" />
+
+        <TextView
+            android:id="@+id/availableJackpotTextView"
+            style="@style/SmallTextRegularDark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/tiny_space"
+            android:text="@string/estimated_jackpot"
+            app:layout_constraintStart_toStartOf="@id/jackpotAmountTextView"
+            app:layout_constraintTop_toBottomOf="@id/jackpotAmountTextView" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:id="@+id/lotteryBadgeImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/normal_space"
+        android:contentDescription="Lottery badge"
+        android:src="@drawable/lotto_plus_1"
+        android:tint="@null"
+        app:layout_constraintBottom_toTopOf="@+id/backgroundView"
+        app:layout_constraintStart_toStartOf="@id/backgroundView"
+        app:layout_constraintTop_toTopOf="@+id/backgroundView"
+        tools:ignore="HardcodedText" />
+
+</merge>

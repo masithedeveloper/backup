@@ -1,0 +1,14 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="243dp"
+    android:height="344dp"
+    android:viewportWidth="243"
+    android:viewportHeight="344">
+  <path
+      android:pathData="M0,16C0,7.163 7.163,0 16,0H227C235.837,0 243,7.163 243,16V185C233.611,185 226,192.611 226,202C226,211.389 233.611,219 243,219V328C243,336.837 235.837,344 227,344H16C7.163,344 0,336.837 0,328V219C9.389,219 17,211.389 17,202C17,192.611 9.389,185 0,185V16Z"
+      android:fillColor="@color/behavioural_rewards_voucher_item" />
+  <path
+      android:strokeWidth="1"
+      android:pathData="M41,201.5L202,201.5"
+      android:fillColor="#00000000"
+      android:strokeColor="#E5E5EA" />
+</vector>

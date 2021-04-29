@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:absaApp="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/passcodeScreenLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <styleguide.forms.RadioButtonView
+        android:id="@+id/environmentRadioButtonView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="-25dp"
+        android:layout_marginTop="@dimen/extra_extra_large_space"
+        android:scaleX="0.8"
+        android:scaleY="0.8"
+        android:visibility="gone"
+        absaApp:attribute_radio_margin="@dimen/tiny_space"
+        absaApp:layout_constraintStart_toStartOf="parent"
+        absaApp:layout_constraintTop_toTopOf="parent" />
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/header_dark_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        absaApp:layout_constraintEnd_toEndOf="parent"
+        absaApp:layout_constraintStart_toStartOf="parent"
+        absaApp:layout_constraintTop_toTopOf="parent"
+        tools:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/greetingMessageTextView"
+        style="@style/LargeTextMediumDark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/dimen_64dp"
+        android:layout_marginEnd="@dimen/dimen_64dp"
+        android:layout_weight="1"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:maxLines="1"
+        android:paddingStart="@dimen/small_space"
+        android:paddingEnd="@dimen/small_space"
+        absaApp:layout_constraintBottom_toBottomOf="@id/toolbar"
+        absaApp:layout_constraintEnd_toEndOf="parent"
+        absaApp:layout_constraintStart_toStartOf="parent"
+        absaApp:layout_constraintTop_toTopOf="@id/toolbar"
+        tools:background="@color/light_silver"
+        tools:text="John Doe" />
+
+    <!-- Create passcode / Re-enter passcode -->
+    <LinearLayout
+        android:id="@+id/createOrConfirmLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingStart="@dimen/medium_space"
+        android:paddingTop="@dimen/small_space"
+        android:paddingEnd="@dimen/medium_space"
+        android:paddingBottom="@dimen/small_space"
+        android:visibility="gone"
+        absaApp:layout_constraintTop_toBottomOf="@id/toolbar"
+        tools:visibility="visible">
+
+        <TextView
+            android:id="@+id/enterOrConfirmPasscodeTextView"
+            style="@style/TitleTextBoldDark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/enter_passcode_description" />
+
+        <TextView
+            android:id="@+id/enterOrConfirmPasscodeInstructionTextView"
+            style="@style/LargeTextRegularDark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/create_five_digit_code_for_app" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/instructionTextView"
+        style="@style/NormalTextRegularDark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/enter_passcode_description"
+        absaApp:layout_constraintBottom_toTopOf="@id/numericKeypad"
+        absaApp:layout_constraintEnd_toEndOf="parent"
+        absaApp:layout_constraintStart_toStartOf="parent"
+        absaApp:layout_constraintTop_toBottomOf="@id/createOrConfirmLayout"
+        absaApp:layout_constraintVertical_chainStyle="packed" />
+
+    <styleguide.forms.KeypadView
+        android:id="@+id/numericKeypad"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="@dimen/medium_space"
+        android:layout_marginTop="@dimen/keypad_indicator_space"
+        android:layout_marginEnd="@dimen/medium_space"
+        android:padding="@dimen/tiny_space"
+        absaApp:bottomLeftSpecialText="Special Action"
+        absaApp:layout_constraintBottom_toTopOf="@id/contactInfoViewLayout"
+        absaApp:layout_constraintDimensionRatio="9:15"
+        absaApp:layout_constraintEnd_toEndOf="parent"
+        absaApp:layout_constraintStart_toStartOf="parent"
+        absaApp:layout_constraintTop_toBottomOf="@id/instructionTextView" />
+
+    <TextView
+        android:id="@+id/visitOnlineTextView"
+        style="@style/SmallTextRegularDark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/accessibility_visit_website"
+        android:gravity="start|center_vertical"
+        android:maxLines="1"
+        android:padding="@dimen/tiny_space"
+        android:paddingStart="@dimen/small_space"
+        android:text="@string/absa_website"
+        android:textColor="@color/grey_light_theme_color"
+        absaApp:autoSizeMaxTextSize="100sp"
+        absaApp:autoSizeMinTextSize="12sp"
+        absaApp:autoSizeStepGranularity="2sp"
+        absaApp:autoSizeTextType="uniform"
+        absaApp:layout_constraintBottom_toBottomOf="parent"
+        absaApp:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/termsAndConditionsTextView"
+        style="@style/SmallTextRegularDark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:contentDescription="@string/talkback_read_terms_and_conditions"
+        android:gravity="end|center_vertical"
+        android:maxLines="1"
+        android:padding="@dimen/tiny_space"
+        android:paddingEnd="@dimen/small_space"
+        android:text="@string/logon_term_and_cond"
+        android:textColor="@color/grey_light_theme_color"
+        absaApp:autoSizeMaxTextSize="100sp"
+        absaApp:autoSizeMinTextSize="12sp"
+        absaApp:autoSizeStepGranularity="2sp"
+        absaApp:autoSizeTextType="uniform"
+        absaApp:layout_constraintBottom_toBottomOf="parent"
+        absaApp:layout_constraintEnd_toEndOf="parent" />
+
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/contactInfoViewLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        absaApp:barrierDirection="top"
+        absaApp:constraint_referenced_ids="visitOnlineTextView, termsAndConditionsTextView" />
+</androidx.constraintlayout.widget.ConstraintLayout>

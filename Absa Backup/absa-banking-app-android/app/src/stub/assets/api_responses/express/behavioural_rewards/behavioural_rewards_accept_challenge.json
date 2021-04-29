@@ -1,0 +1,20 @@
+{
+  "header": {
+    "statuscode": "0",
+    "userAgent": "ANDROID - 6.18.0",
+    "jsessionid": "SEIN4wWJtgdaL6IR0BqGg8Hs0KzuWu-LjdxcKMe9",
+    "esessionid": "1aed57a6-6b95-357a-a1a6-5699c3acb50d",
+    "service": "BehaviouralRewardsChallengesFacade",
+    "operation": "AcceptChallenge",
+    "channel": "S",
+    "timestamp": "2020-11-02 10:14:50.101",
+    "sourceip": "22.240.44.100",
+    "accessAccount": "4048291326",
+    "userNumber": "1",
+    "nonce": "4DM8guwxTJ4QuRUJDh4Ub57HzfriKlvjuxP_X7f3XuQ",
+    "language": "en",
+    "organization": "ABSA",
+    "brand": "ABSA",
+    "resultMessages": []
+  }
+}

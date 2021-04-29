@@ -1,0 +1,33 @@
+{
+  "successResponseModel": {
+    "payData": {
+      "txnStatus": "Success",
+      "aliasID": "lx5Ex06w1TQuNFOorFDmE3cx85ASvz6+GFBfcAe1LCc=",
+      "userNumber": "1",
+      "deviceList": [
+        {
+          "msisdn": "0836548761",
+          "manufacturer": "Google",
+          "nickname": "Nick",
+          "imie": "1234567890abcdef",
+          "model": "Pixel",
+          "channelID": "S",
+          "actionType": "A",
+          "secondFactorEnabled": true,
+          "primarySecondFactorDevice": true
+        }
+      ],
+      "reachedDeviceMaxLimit": "false",
+      "txnMessage": "Success",
+      "accessAccount": "4047662320",
+      "isIdNoRequired": "false"
+    },
+    "payHdr": {
+      "resCde": "00000",
+      "serVer": "2.0",
+      "expTrace": null,
+      "resMsg": "Success",
+      "resId": "RES0821"
+    }
+  }
+}

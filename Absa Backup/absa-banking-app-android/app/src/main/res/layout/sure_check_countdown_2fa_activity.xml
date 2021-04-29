@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ScrollView
+        style="@style/ScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <include
+                android:id="@+id/toolbar"
+                layout="@layout/header_dark"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/sureCheckHeader"
+                style="@style/TitleTextBoldDark"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/medium_space"
+                android:layout_marginTop="@dimen/medium_space"
+                android:layout_marginEnd="@dimen/medium_space"
+                android:gravity="center"
+                android:text="@string/surecheck_title"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+            <com.barclays.absa.banking.presentation.shared.widget.CountDownCircularView
+                android:id="@+id/countDownCircularView"
+                android:layout_width="@dimen/sure_check_countdown_square_width"
+                android:layout_height="@dimen/sure_check_countdown_square_width"
+                android:layout_marginTop="@dimen/medium_space"
+                android:radius="@dimen/sure_check_countdown_radius"
+                android:textSize="@dimen/sure_check_countdown_count_down_text_size"
+                app:count_down_duration="90"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/sureCheckHeader"
+                app:outline_color="@color/light_purple"
+                app:seconds_color="@color/dark_grey_light_theme_text_color"
+                app:seconds_text_size="@dimen/sure_check_countdown_seconds_text_size"
+                app:text_color="@color/black_light_theme_text_color" />
+
+            <TextView
+                android:id="@+id/remainingApprovalTextView"
+                style="@style/SmallTextRegularDark"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/small_space"
+                android:gravity="center"
+                android:text="@string/sure_check_remaining_for_approval"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/countDownCircularView" />
+
+            <styleguide.buttons.Button
+                android:id="@+id/resendSureCheckButton"
+                style="@style/PrimaryButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/resend_verification_request"
+                android:visibility="gone"
+                app:layout_constraintBottom_toTopOf="@+id/sureCheckDisclaimerTextView"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/remainingApprovalTextView"
+                app:layout_constraintVertical_bias="1"
+                tools:visibility="visible" />
+
+            <TextView
+                android:id="@+id/sureCheckDisclaimerTextView"
+                style="@style/NormalTextRegularDark"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginStart="@dimen/medium_space"
+                android:layout_marginEnd="@dimen/medium_space"
+                android:layout_marginBottom="@dimen/medium_space"
+                android:gravity="center"
+                android:text="@string/surecheck_2factor_fraud_warning"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintVertical_bias="1" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</layout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="confirm_donation">Confirm Donation</string>
+    <string name="success_string">Kaartlimiete suksesvol verander</string>
+    <string name="scan_card_instructions">Plaas jou kaart binne die raam om die kaartbesonderhede vas te lê. Let wel: as jy ’n vertikale of onbemande kaart het, moet jy jou besonderhede invoer</string>
+</resources>

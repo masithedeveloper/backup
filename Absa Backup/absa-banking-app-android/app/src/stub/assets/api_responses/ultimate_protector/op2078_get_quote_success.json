@@ -1,0 +1,83 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES2078",
+      "resCde": "00000",
+      "resMsg": "Success",
+      "serVer": "2.0",
+      "expTrace": null
+    },
+    "payData": {
+      "findOutMorePdfUrl": "https://ib.absa.co.za/absa-online/assets/Assets/Richmedia/PDF/Online/TC/UltimateProtectorLearnMoreEng_Both.pdf",
+      "termsAndConditionsPdfUrl": "https://ib.absa.co.za/absa-online/assets/Assets/Richmedia/PDF/Online/TC/UltimateProtector_TermsAndConditions.pdf",
+      "benefitPdfUrl": "https://ib.absa.co.za/absa-online/assets/Assets/Richmedia/PDF/Online/TC/UltimateProtectorLearnMoreEng_Accidental.pdf",
+      "sliderPremiums": [
+        {
+          "coverAmount": 100000,
+          "predictivePremium": 33.86,
+          "serviceFee": 10.0,
+          "totalPremium": 43.86
+        },
+        {
+          "coverAmount": 200000,
+          "predictivePremium": 45.94,
+          "serviceFee": 10.0,
+          "totalPremium": 55.94
+        },
+        {
+          "coverAmount": 300000,
+          "predictivePremium": 58.02,
+          "serviceFee": 10.0,
+          "totalPremium": 68.02
+        },
+        {
+          "coverAmount": 400000,
+          "predictivePremium": 70.1,
+          "serviceFee": 10.0,
+          "totalPremium": 80.1
+        },
+        {
+          "coverAmount": 500000,
+          "predictivePremium": 82.18,
+          "serviceFee": 10.0,
+          "totalPremium": 92.18
+        },
+        {
+          "coverAmount": 600000,
+          "predictivePremium": 94.27,
+          "serviceFee": 10.0,
+          "totalPremium": 104.27
+        },
+        {
+          "coverAmount": 700000,
+          "predictivePremium": 106.35,
+          "serviceFee": 10.0,
+          "totalPremium": 116.35
+        },
+        {
+          "coverAmount": 800000,
+          "predictivePremium": 118.43,
+          "serviceFee": 10.0,
+          "totalPremium": 128.43
+        },
+        {
+          "coverAmount": 900000,
+          "predictivePremium": 130.52,
+          "serviceFee": 10.0,
+          "totalPremium": 140.52
+        },
+        {
+          "coverAmount": 1000000,
+          "predictivePremium": 142.6,
+          "serviceFee": 10.0,
+          "totalPremium": 152.6
+        }
+      ],
+      "benefitQualifyText": "Based on your responses to the health questions, you qualify for Ultimate Protector Accidental Death and Accidental Disability.",
+      "benefitCoverText1": "Death resulting from accidental causes only.",
+      "benefitCoverText2": "Permanent disability that results from accidental causes only.",
+      "txnStatus": "Success",
+      "txnMessage": "Success"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "header": {
+    "statuscode": "0",
+    "userAgent": "ANDROID - 6.21.0",
+    "jsessionid": "wvm4lAjhUfK77VYhNuV3UaWZHUVzyjmQUOwmP1lJ",
+    "esessionid": "8af55aa6-2a7a-3a18-ab75-93ccad9a793b",
+    "service": "ManageLimitsFacade",
+    "operation": "ChangeUserLimits",
+    "channel": "S",
+    "timestamp": "2021-02-19 07:45:37.290",
+    "sourceip": "22.240.44.100",
+    "accessAccount": "4047510559",
+    "userNumber": "1",
+    "nonce": "DxLP7M8WBJGG7sp3m8Gdt39ZScurCHoDA7ZFZdCCqUs",
+    "language": "en",
+    "organization": "ABSA",
+    "brand": "ABSA",
+    "resultMessages": []
+  },
+  "interAccountTransferLimitAvailable": "10000.00",
+  "paymentLimitAvailable": "12000.00"
+}

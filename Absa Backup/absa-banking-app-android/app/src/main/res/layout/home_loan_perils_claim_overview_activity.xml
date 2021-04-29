@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/header_dark" />
+
+        <styleguide.bars.ProgressIndicatorView
+            android:id="@+id/perilsClaimsOverViewProgressIndicator"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/medium_space"
+            android:layout_marginEnd="@dimen/medium_space"
+            android:layout_marginStart="@dimen/medium_space"
+            app:attribute_next_step="4"
+            app:attribute_previous_step="3"
+            app:attribute_steps="4"
+            app:layout_constraintBottom_toTopOf="@+id/contactDetailsScrollView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/toolbar" />
+
+        <ScrollView
+            android:id="@+id/perilsClaimsOverViewScrollview"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="@dimen/medium_space"
+            app:layout_constraintBottom_toTopOf="@+id/claimOverviewContinueButton"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/toolbar">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <styleguide.content.HeadingView
+                    android:id="@+id/perilsClaimsOverHeadingView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:attribute_heading="@string/claim_details"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <styleguide.content.SecondaryContentAndLabelView
+                    android:id="@+id/policyTypeView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:attribute_secondary_label="@string/policy_text"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/perilsClaimsOverHeadingView" />
+
+                <styleguide.content.SecondaryContentAndLabelView
+                    android:id="@+id/incidentDateView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:attribute_secondary_label="@string/incident_date"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/policyTypeView" />
+
+                <styleguide.content.SecondaryContentAndLabelView
+                    android:id="@+id/propertyAddressView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:attribute_secondary_label="@string/insured_property"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/incidentDateView" />
+
+                <styleguide.content.SecondaryContentAndLabelView
+                    android:id="@+id/claimTypeView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:attribute_secondary_label="@string/type_of_claim"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/propertyAddressView" />
+
+                <styleguide.content.SecondaryContentAndLabelView
+                    android:id="@+id/itemAffectedStatusView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:attribute_secondary_label="@string/item_fixed_text_over_view"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/claimTypeView" />
+
+                <styleguide.content.SecondaryContentAndLabelView
+                    android:id="@+id/additionalDamagesView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:attribute_secondary_label="@string/additional_damages_one_line"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/itemAffectedStatusView" />
+
+                <styleguide.content.HeadingView
+                    android:id="@+id/contactsHeadingView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:attribute_heading="@string/contact_details"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/additionalDamagesView" />
+
+                <styleguide.content.SecondaryContentAndLabelView
+                    android:id="@+id/contactNumberView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:attribute_secondary_label="@string/phone_number"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/contactsHeadingView" />
+
+                <styleguide.content.SecondaryContentAndLabelView
+                    android:id="@+id/emailAddressView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:attribute_secondary_label="@string/email_address_home"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/contactNumberView" />
+
+                <styleguide.content.SecondaryContentAndLabelView
+                    android:id="@+id/alternativeContactPersonView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:attribute_secondary_label="@string/alternative_contact_optional"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/emailAddressView" />
+
+                <styleguide.content.SecondaryContentAndLabelView
+                    android:id="@+id/alternativeContactPersonNumberView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:attribute_secondary_label="@string/alternative_phone_optional"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/alternativeContactPersonView" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </ScrollView>
+
+        <styleguide.buttons.Button
+            android:id="@+id/claimOverviewContinueButton"
+            style="@style/PrimaryButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/medium_space"
+            android:text="@string/policy_details_confirmation"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/perilsClaimsOverViewScrollview" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

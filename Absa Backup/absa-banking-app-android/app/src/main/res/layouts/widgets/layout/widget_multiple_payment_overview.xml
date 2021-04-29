@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <styleguide.content.TitleAndDescriptionView
+        android:id="@+id/beneficiaryNameView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:attribute_description="@string/beneficiary_name_title"
+        app:attribute_description_size="@dimen/small_text_size"
+        app:attribute_title_size="@dimen/heading_text_size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <styleguide.content.SecondaryContentAndLabelView
+        android:id="@+id/accountNumberSecondaryContentAndLabelView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:attribute_secondary_label="@string/payment_account_number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/beneficiaryNameView" />
+
+    <styleguide.content.SecondaryContentAndLabelView
+        android:id="@+id/beneficiaryReferenceSecondaryContentAndLabelView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:attribute_secondary_label="@string/ben_reference"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/accountNumberSecondaryContentAndLabelView" />
+
+    <styleguide.content.LineItemView
+        android:id="@+id/amountLineItemView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:attribute_label_text="@string/payment_amount"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/beneficiaryReferenceSecondaryContentAndLabelView" />
+
+    <styleguide.content.SecondaryContentAndLabelView
+        android:id="@+id/futureDatedSecondaryContentAndLabelView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/payment_date"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/amountLineItemView" />
+
+    <View
+        style="@style/DividerView"
+        android:layout_width="0dp"
+        android:layout_marginTop="@dimen/small_space"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/futureDatedSecondaryContentAndLabelView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

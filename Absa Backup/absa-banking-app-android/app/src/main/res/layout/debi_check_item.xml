@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/contentConstraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?selectableItemBackground"
+        tools:ignore="UnusedAttribute">
+
+        <TextView
+            android:id="@+id/companyTextView"
+            style="@style/LargeTextRegularDark"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/medium_space"
+            android:paddingTop="@dimen/small_space"
+            android:paddingEnd="@dimen/medium_space"
+            android:paddingBottom="@dimen/small_space"
+            app:layout_constraintEnd_toStartOf="@id/pointerImageView"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Tester" />
+
+        <TextView
+            android:id="@+id/amendedTextView"
+            style="@style/SmallTextRegularDark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/medium_space"
+            android:paddingEnd="@dimen/medium_space"
+            android:paddingBottom="@dimen/small_space"
+            android:text="@string/debicheck_amended"
+            android:textColor="@color/primary_red"
+            android:textStyle="bold"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/companyTextView" />
+
+        <TextView
+            android:id="@+id/amountTextView"
+            style="@style/SmallTextRegularDark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/medium_space"
+            android:paddingEnd="@dimen/medium_space"
+            android:paddingBottom="@dimen/small_space"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/companyTextView"
+            tools:text="tester" />
+
+        <ImageView
+            android:id="@+id/pointerImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/medium_space"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_arrow_right_dark" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

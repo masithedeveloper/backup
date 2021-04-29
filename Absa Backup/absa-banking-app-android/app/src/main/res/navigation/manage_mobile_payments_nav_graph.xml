@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/manage_mobile_payments_nav_graph"
+    app:startDestination="@id/manageMobilePaymentsFragment">
+
+    <fragment
+        android:id="@+id/manageMobilePaymentsFragment"
+        android:name="com.barclays.absa.banking.card.ui.creditCard.hub.manageMobilePayments.ManageMobilePaymentsFragment"
+        android:label="ManageMobilePaymentsFragment"
+        tools:layout="@layout/manage_mobile_payment_fragment">
+        <action
+            android:id="@+id/action_manageMobilePaymentsFragment_to_updateSuccessResultScreenFragment"
+            app:destination="@id/updateSuccessResultScreenFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <action
+            android:id="@+id/action_manageMobilePaymentsFragment_to_updateFailureResultScreenFragment"
+            app:destination="@id/updateFailureResultScreenFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <action
+            android:id="@+id/action_manageMobilePaymentsFragment_to_manageMobilePaymentsScanToPayTermsOfUseFragment"
+            app:destination="@id/manageMobilePaymentsScanToPayTermsOfUseFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/updateSuccessResultScreenFragment"
+        android:name="styleguide.screens.GenericResultScreenFragment"
+        android:label="GenericResultScreenFragment"
+        tools:layout="@layout/generic_results_screen_fragment">
+        <argument
+            android:name="GenericResultScreenFragment"
+            app:argType="styleguide.screens.GenericResultScreenProperties" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/updateFailureResultScreenFragment"
+        android:name="styleguide.screens.GenericResultScreenFragment"
+        android:label="GenericResultScreenFragment"
+        tools:layout="@layout/generic_results_screen_fragment">
+        <argument
+            android:name="GenericResultScreenFragment"
+            app:argType="styleguide.screens.GenericResultScreenProperties" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/manageMobilePaymentsScanToPayTermsOfUseFragment"
+        android:name="com.barclays.absa.banking.card.ui.creditCard.hub.manageMobilePayments.ManageMobilePaymentsScanToPayTermsOfUseFragment"
+        android:label="ManageMobilePaymentsScanToPayTermsOfUseFragment"
+        tools:layout="@layout/fragment_scan_to_pay_terms_of_use">
+
+        <action
+            android:id="@+id/action_manageMobilePaymentsScanToPayTermsOfUseFragment_to_updateSuccessResultScreenFragment"
+            app:destination="@id/updateSuccessResultScreenFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout"
+            app:popUpTo="@id/manageMobilePaymentsScanToPayTermsOfUseFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_manageMobilePaymentsScanToPayTermsOfUseFragment_to_updateFailureResultScreenFragment"
+            app:destination="@id/updateFailureResultScreenFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout"
+            app:popUpTo="@id/manageMobilePaymentsScanToPayTermsOfUseFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+</navigation>

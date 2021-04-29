@@ -1,0 +1,18 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0120",
+      "resCde": "00000",
+      "resMsg": "SUCCESS",
+      "serVer": "2.0"
+    },
+    "payData": {
+      "jsonBeanList": [
+        {
+          "cardNumber": "4483850000042172",
+          "cardType": "Debit"
+        }
+      ]
+    }
+  }
+}

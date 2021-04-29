@@ -1,0 +1,10 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0104",
+      "resCde": "00000",
+      "resMsg": "",
+      "serVer": "2.0"
+    }
+  }
+}

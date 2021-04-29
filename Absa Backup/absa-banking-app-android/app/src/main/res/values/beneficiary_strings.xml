@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="add_beneficiary">Add beneficiary</string>
+    <string name="beneficiary_management_payments_title">Payments</string>
+    <string name="beneficiary_management_cashsend_title" translatable="false">CashSend</string>
+    <string name="beneficiary_management_prepaid_title">Prepaid</string>
+    <string name="beneficiary_details_institution_code">Institution code</string>
+    <string name="beneficiary_details_account_holder_name">Account holder name</string>
+    <string name="beneficiary_details_mobile_network_operator">Mobile network operator</string>
+    <string name="beneficiary_details_bank">Bank</string>
+    <string name="beneficiary_details_branch">Branch</string>
+    <string name="beneficiary_details_their_reference">Their reference</string>
+    <string name="beneficiary_details_my_reference">My reference</string>
+    <string name="beneficiary_details_their_notification">Their notification</string>
+    <string name="beneficiary_details_my_notification">My notification</string>
+    <string name="beneficiary_details_recent_transactions">Recent Transactions</string>
+    <string name="beneficiary_details_toolbar">Beneficiary details</string>
+    <string name="beneficiary_details_pay">Pay</string>
+    <string name="beneficiary_details_send_cash">Send cash</string>
+    <string name="beneficiary_details_buy">Buy</string>
+    <string name="beneficiary_edit_details_name">Name</string>
+    <string name="beneficiary_edit_details_network_operator">Mobile network operator</string>
+    <string name="beneficiary_edit_details_bank">Bank</string>
+    <string name="beneficiary_edit_details_branch">Branch</string>
+    <string name="beneficiary_edit_details_account_holder_name">Account holder name</string>
+    <string name="beneficiary_edit_details_institution_code">Institution code</string>
+    <string name="beneficiary_edit_details_account_type">Account type</string>
+    <string name="beneficiary_edit_details_account_number">Account number</string>
+    <string name="beneficiary_edit_details_their_reference">Their reference</string>
+    <string name="beneficiary_edit_details_my_reference">My reference</string>
+    <string name="beneficiary_edit_details_choose">Choose</string>
+    <string name="beneficiary_edit_details_save">Save</string>
+    <string name="beneficiary_edit_details_toolbar_title">Edit beneficiary</string>
+    <string name="beneficiary_edit_details_mobile_number">Mobile number</string>
+    <string name="beneficiary_edit_details_institution">Institution</string>
+
+    <string name="beneficiary_confirm_details">Confirm beneficiary details</string>
+
+    <!-- Notification method view -->
+    <string name="notification_method_beneficiary">Beneficiary Notification</string>
+    <string name="notification_method_self">My Notification</string>
+
+    <!-- Error messages -->
+    <string name="beneficiary_already_exists">Beneficiary already exists</string>
+    <string name="beneficiary_select_valid_account_type">Invalid beneficiary account type selected</string>
+</resources>

@@ -1,0 +1,12 @@
+{
+  "successResponseModel": {
+    "payData": null,
+    "payHdr": {
+      "resId": "RES2182",
+      "serVer": "2.0",
+      "expTrace": null,
+      "resMsg": "Failure",
+      "resCde": "00000"
+    }
+  }
+}

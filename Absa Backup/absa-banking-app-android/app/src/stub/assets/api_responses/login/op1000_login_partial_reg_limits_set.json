@@ -1,0 +1,67 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES1000",
+      "resCde": "00000",
+      "resMsg": "",
+      "serVer": "2.0",
+      "expTrace": null
+    },
+    "payData": {
+      "otpSeed": "",
+      "primarySecondFactorDevice": true,
+      "passwordLength": "0",
+      "passwordDigitList": null,
+      "deviceList": [],
+      "ival": "651444061919yeid",
+      "balNotYetClrdDt": null,
+      "accessPrivileges": {
+        "accessMessage": null,
+        "isOperator": "N",
+        "isInterAccountTransferAllowed": "Y",
+        "isBeneficiaryPaymentAllowed": "Y",
+        "isCashSendAllowed": "Y",
+        "isPrepaidAllowed": "Y"
+      },
+      "allActList": [],
+      "custProf": {
+        "reachedDeviceMaxLimit": "false",
+        "sessionId": "43751e4546cf74dca9c3",
+        "deviceLinkRequired": "false",
+        "clientType": "I",
+        "customerType": "",
+        "hasImage": "N",
+        "imageName": "L22bFOQhGDoJtEo6K9IBlzoqUJuHAbC8OZmV80oWl5w\u003d",
+        "accrtBalDt": "15/03/2019 10:09:37",
+        "custName": "A VENKATESHANA",
+        "lastLgnTm": "2019-03-15",
+        "surePhrase": "A VENKATESHANA",
+        "image": "",
+        "langCode": "E",
+        "custActsSize": "0",
+        "showRewardsLink": "Y",
+        "hasMCL": "false",
+        "authPassNotRegistered": "true",
+        "limitsNotSet": "false",
+        "alias": null,
+        "idNoRequired": "false",
+        "secondFactorSnoozed": false,
+        "secondFactorState": 20,
+        "secondFactorStateDate": "2019-03-15 00:00:00",
+        "secondFactorDaysLeft": 0,
+        "transactionalUser": true,
+        "cellNumber": "27817567205",
+        "numberOfAuthorisations": "0",
+        "mailboxProfileId": null,
+        "newMailboxProfileId": false
+      },
+      "payLst": [],
+      "cashSend": [],
+      "airTime": [],
+      "hasProfileSetup": "N",
+      "backgroundImage": null,
+      "accountImage": null,
+      "imageName": null
+    }
+  }
+}

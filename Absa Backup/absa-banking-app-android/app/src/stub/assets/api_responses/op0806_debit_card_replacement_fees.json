@@ -1,0 +1,25 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0806",
+      "resCde": "00000",
+      "resMsg": "SUCCESS",
+      "serVer": "2.0"
+    },
+    "payData": {
+      "replacementFeeApplicable": "Y",
+      "replacementFeeType": "RL",
+      "replacementFee": {
+        "curr": "R",
+        "amt": "66.00"
+      },
+      "cardDeliveryFeeApplicable": "N",
+      "cardDeliveryFeeType": "",
+      "cardDeliveryFee": {
+        "curr": "R",
+        "amt": "0.00"
+      },
+      "status": "SUCCESS"
+    }
+  }
+}

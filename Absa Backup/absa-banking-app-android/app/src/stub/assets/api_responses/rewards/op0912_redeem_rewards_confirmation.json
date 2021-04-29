@@ -1,0 +1,44 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0912",
+      "resCde": "00000",
+      "resMsg": "Success",
+      "serVer": "2.0",
+      "expTrace": null
+    },
+    "payData": {
+      "txnRefID": "15064860758829",
+      "redemptionCode": "RWTAIR",
+      "redemptionId": 40,
+      "networkProviderId": 0,
+      "networkName": "Virgin Airtime Voucher",
+      "voucherName": "VIRGIN R15",
+      "faceValue": {
+        "curr": "R",
+        "amt": "15.00"
+      },
+      "discount": {
+        "curr": "R",
+        "amt": ""
+      },
+      "accrualCost": {
+        "curr": "R",
+        "amt": "14.25"
+      },
+      "rewardsBalance": null,
+      "charity": null,
+      "retailVoucher": null,
+      "redemptionPartner": null,
+      "amt": {
+        "curr": "R",
+        "amt": "10.00"
+      },
+      "cardNo": null,
+      "actNo": null,
+      "cellNo": "0741000050",
+      "membershipNo": "160908001200",
+      "actDesc": null
+    }
+  }
+}

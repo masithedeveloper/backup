@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="plan_cover_premium">Plan, Dekking &amp; Premie</string>
+    <string name="law_for_you_city_and_postal_code">Stad &amp; poskode</string>
+    <string name="law_for_you_cover_up_to">Tot %s dekking teen %s p/m</string>
+    <string name="select_city_and_postal_code">Kies \'n Stad &amp; poskode</string>
+    <string name="law_for_you_agree_debit_order_terms">Ek stem in tot die Debietorder Bepalings &amp; Voorwaardes</string>
+    <string name="law_for_you_debit_order_terms">Debietorder Bepalings &amp; Voorwaardes</string>
+
+    <string name="law_for_you_i_agree_to_terms">Ek aanvaar die Bepalings &amp; Voorwaardes</string>
+    <string name="law_for_you_terms_and_conditions">Bepalings &amp; Voorwaardes</string>
+    <string name="law_for_you_cover_confirmation">%s (tot %s dekking)</string>
+    <string name="debit_days">Debietdae</string>
+    <string name="law_for_you_protect_yourself">Beskerm jouself teen onverwagte regsake</string>
+    <string name="law_for_you_from_as_little">Van so min as</string>
+    <string name="law_for_you_product_description">Soos \'n goeie regsvriend, is ons daartoe verbind om regsdienste van topgehalte te lewer wat jou gemoedsrus sal gee. Wetend dat kragtige regskenners aan jou kant is, sal jou vrese en bekommernisse hokslaan.\n\nMet Absa Law For You, is jy gedek op amper alle wettige velde, ongeag jou begroting.</string>
+    <string name="law_for_you_find_out_more">Vind meer uit</string>
+    <string name="law_for_you_total_monthly_premium">Totale maandlikse premie</string>
+    <string name="law_for_you_main_member">Hooflid</string>
+    <string name="law_for_you_employment_status">Werkstatus</string>
+    <string name="law_for_you_occupation">Beroep</string>
+    <string name="law_for_you_declaration_info">Ek verklaar hiermee dat:\n\n- Die inligting verstrek, waar en korrek is\n- Ek aanvaar die dekking sonder enige advies</string>
+    <string name="law_for_you_which_plan_message">Watter Law For You plan wil jy hȇ?</string>
+    <string name="law_for_you_principle_member">(Jy sal die hooflid van hierdie plan wees)</string>
+    <string name="law_for_you_compare_plans">Vergelyk planne</string>
+    <string name="law_for_you_when_policy_start">Wanneer wil jy hê die polis moet begin?</string>
+    <string name="law_for_you_source_of_funds">Bron van inkomste (Hoe sal jy dit finansier?)</string>
+    <string name="law_for_you_select_date">Kies datum</string>
+    <string name="law_for_you_select_source_of_funds">Kies bron van inkomste</string>
+    <string name="law_for_you_select_occupation">Kies beroep</string>
+    <string name="law_for_you_select_employment_status">Kies werkstatus</string>
+    <string name="law_for_you_select_day_of_month">Kies dag van maand</string>
+    <string name="law_for_you_select_account">Kies \'n rekening</string>
+    <string name="law_for_you_account_to_debit">Rekening om te debiteer</string>
+    <string name="law_for_you_debit_day">Debietdag</string>
+    <string name="law_for_you_employment_status_title">Werkstatus</string>
+    <string name="law_for_you_source_of_funds_title">Bron van Inkomste</string>
+
+    <string name="law_for_you_please_select_date">Kies asseblief \'n datum</string>
+    <string name="law_for_you_please_select_debit_day">Kies asseblief \'n debiet dag</string>
+    <string name="law_for_you_please_select_account_to_debit">Kies asseblief rekening om te debiteer</string>
+    <string name="law_for_you_please_select_employment_status">Kies asseblief werkstatus</string>
+    <string name="law_for_you_please_select_occupation">Kies asseblief beroep</string>
+    <string name="law_for_you_please_select_source_of_funds">Kies asseblief bron van inkomste</string>
+
+    <string name="law_for_you_application_approved">Jou %s Law For You-verwysingsnommer is: %s\n\nJou dekking begin op: %s\n\nJy sal \'n SMS en \'n e-pos ontvang met jou polisbesonderhede.\n\nLaw For You Inbelsentrum\n0861 662 529</string>
+    <string name="law_for_you_contact_call_centre">Kontak ons inbelsentrum vir hulp.\n\nLaw For You Inbelsentrum\n0861 662 529</string>
+
+    <!--Contact details error strings-->
+    <string name="law_for_you_enter_address_hint">Tik adres in</string>
+    <string name="law_for_you_enter_suburb_hint">Tik voorstad in</string>
+    <string name="law_for_you_select_city_hint">Kies stad</string>
+    <string name="law_for_you_enter_contact_number_hint">Tik Kontaknommer in</string>
+    <string name="law_for_you_enter_email_address_hint">Tik e-posadres in</string>
+
+    <!--Contact details error strings-->
+    <string name="law_for_you_enter_address_error">Tik asseblief \'n adres in</string>
+    <string name="law_for_you_enter_suburb_error">Tik asseblief \'n regte voorstad</string>
+    <string name="law_for_you_select_city_error">Kies stad &amp; poskode asseblief</string>
+    <string name="law_for_you_enter_contact_number_error">Tik asseblief \'n geldige selfoonnommer in</string>
+    <string name="law_for_you_enter_email_address_error">Tik asseblief \'n geldige e-posadres in</string>
+    <string name="please_accept_terms_and_conditions">Aanvaar asseblief bepalings en voorwaardes</string>
+
+</resources>

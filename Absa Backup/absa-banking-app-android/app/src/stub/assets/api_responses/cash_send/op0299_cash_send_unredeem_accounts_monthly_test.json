@@ -1,0 +1,322 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0299",
+      "resCde": "00000",
+      "resMsg": "",
+      "serVer": "2.0"
+    },
+    "payData": {
+      "cashsendUnredeemedTransactionDetails": [
+        {
+          "beneficiaryAccountNumber": "9050993953",
+          "beneficiaryName": "Kenny",
+          "beneficiarySurName": "Sigauke",
+          "beneficiaryNickName": "Kenny",
+          "beneficiaryId": "0",
+          "cellPhoneNumber": "0856224555",
+          "statementTxnDesc1": "Kenny",
+          "transactionCurrencyAmount": {
+            "amt": "520.00",
+            "curr": "R"
+          },
+          "transactionTypeCode": "",
+          "virtualServerId": "",
+          "sessionKeyId": "",
+          "transactionRefNo": "1",
+          "uniqueEFT": "800024B578",
+          "transactionDateTime": "07/28/2017",
+          "beneficiaryPayment": true,
+          "cashSendPlus": true,
+          "action": ""
+        },
+        {
+          "beneficiaryAccountNumber": "9050993953",
+          "beneficiaryName": "Kenny",
+          "beneficiarySurName": "Kenny",
+          "beneficiaryNickName": "Kenny",
+          "beneficiaryId": "0",
+          "cellPhoneNumber": "0724719353",
+          "statementTxnDesc1": "Kenny",
+          "transactionCurrencyAmount": {
+            "amt": "80.00",
+            "curr": "R"
+          },
+          "transactionTypeCode": "",
+          "virtualServerId": "",
+          "sessionKeyId": "",
+          "transactionRefNo": "2",
+          "uniqueEFT": "800024B23A",
+          "transactionDateTime": "07/27/2017",
+          "beneficiaryPayment": false,
+          "cashSendPlus": false,
+          "action": ""
+        },
+        {
+          "beneficiaryAccountNumber": "9050993953",
+          "beneficiaryName": "Kenny",
+          "beneficiarySurName": "Kenny",
+          "beneficiaryNickName": "Kenny",
+          "beneficiaryId": "0",
+          "cellPhoneNumber": "0724719353",
+          "statementTxnDesc1": "Kenny",
+          "transactionCurrencyAmount": {
+            "amt": "70.00",
+            "curr": "R"
+          },
+          "transactionTypeCode": "",
+          "virtualServerId": "",
+          "sessionKeyId": "",
+          "transactionRefNo": "1",
+          "uniqueEFT": "800024B23A",
+          "transactionDateTime": "07/26/2017",
+          "beneficiaryPayment": false,
+          "cashSendPlus": false,
+          "action": ""
+        },
+        {
+          "beneficiaryAccountNumber": "9050993953",
+          "beneficiaryName": "Saurabh",
+          "beneficiarySurName": "Deshmukh",
+          "beneficiaryNickName": "Saurabh",
+          "beneficiaryId": "0",
+          "cellPhoneNumber": "0616540398",
+          "statementTxnDesc1": "malise",
+          "transactionCurrencyAmount": {
+            "amt": "200.00",
+            "curr": "R"
+          },
+          "transactionTypeCode": "",
+          "virtualServerId": "",
+          "sessionKeyId": "",
+          "transactionRefNo": "4",
+          "uniqueEFT": "800023AFB6",
+          "transactionDateTime": "07/11/2017",
+          "beneficiaryPayment": false,
+          "cashSendPlus": false,
+          "action": ""
+        },
+        {
+          "beneficiaryAccountNumber": "9050993953",
+          "beneficiaryNickName": "Nicholas",
+          "beneficiaryId": "0",
+          "cellPhoneNumber": "0833051385",
+          "statementTxnDesc1": "na",
+          "transactionCurrencyAmount": {
+            "amt": "200.00",
+            "curr": "R"
+          },
+          "transactionTypeCode": "",
+          "virtualServerId": "",
+          "sessionKeyId": "",
+          "transactionRefNo": "1",
+          "uniqueEFT": "80002467AB",
+          "transactionDateTime": "07/07/2017",
+          "beneficiaryPayment": false,
+          "cashSendPlus": false,
+          "action": ""
+        },
+        {
+          "beneficiaryAccountNumber": "9050993953",
+          "beneficiaryNickName": "Saurabh",
+          "beneficiaryId": "0",
+          "cellPhoneNumber": "0624836647",
+          "statementTxnDesc1": "na",
+          "transactionCurrencyAmount": {
+            "amt": "200.0",
+            "curr": "R"
+          },
+          "transactionTypeCode": "",
+          "virtualServerId": "",
+          "sessionKeyId": "",
+          "transactionRefNo": "1",
+          "uniqueEFT": "80002467A1",
+          "transactionDateTime": "07/07/2017",
+          "beneficiaryPayment": false,
+          "cashSendPlus": false,
+          "action": ""
+        },
+        {
+          "beneficiaryAccountNumber": "9050993953",
+          "beneficiaryNickName": "Nicholas",
+          "beneficiaryId": "0",
+          "cellPhoneNumber": "0833051385",
+          "statementTxnDesc1": "NA",
+          "transactionCurrencyAmount": {
+            "amt": "200.00",
+            "curr": "R"
+          },
+          "transactionTypeCode": "",
+          "virtualServerId": "",
+          "sessionKeyId": "",
+          "transactionRefNo": "1",
+          "uniqueEFT": "8000246783",
+          "transactionDateTime": "07/07/2017",
+          "beneficiaryPayment": false,
+          "cashSendPlus": false,
+          "action": ""
+        },
+        {
+          "beneficiaryAccountNumber": "9050993953",
+          "beneficiaryNickName": "Saurabh",
+          "beneficiaryId": "0",
+          "cellPhoneNumber": "0711056219",
+          "statementTxnDesc1": "NA",
+          "transactionCurrencyAmount": {
+            "amt": "200.00",
+            "curr": "R"
+          },
+          "transactionTypeCode": "",
+          "virtualServerId": "",
+          "sessionKeyId": "",
+          "transactionRefNo": "1",
+          "uniqueEFT": "8000246779",
+          "transactionDateTime": "07/07/2017",
+          "beneficiaryPayment": false,
+          "cashSendPlus": false,
+          "action": ""
+        },
+        {
+          "beneficiaryAccountNumber": "9050993953",
+          "beneficiaryName": "Saurabh",
+          "beneficiarySurName": "Deshmukh",
+          "beneficiaryNickName": "Saurabh",
+          "beneficiaryId": "0",
+          "cellPhoneNumber": "0616540398",
+          "statementTxnDesc1": "malise",
+          "transactionCurrencyAmount": {
+            "amt": "70.00",
+            "curr": "R"
+          },
+          "transactionTypeCode": "",
+          "virtualServerId": "",
+          "sessionKeyId": "",
+          "transactionRefNo": "3",
+          "uniqueEFT": "800023AFB6",
+          "transactionDateTime": "07/07/2017",
+          "beneficiaryPayment": false,
+          "cashSendPlus": false,
+          "action": ""
+        },
+        {
+          "beneficiaryAccountNumber": "9050993953",
+          "beneficiaryName": "Saurabh",
+          "beneficiarySurName": "Deshmukh",
+          "beneficiaryNickName": "Saurabh",
+          "beneficiaryId": "0",
+          "cellPhoneNumber": "0616540398",
+          "statementTxnDesc1": "NA",
+          "transactionCurrencyAmount": {
+            "amt": "200.00",
+            "curr": "R"
+          },
+          "transactionTypeCode": "",
+          "virtualServerId": "",
+          "sessionKeyId": "",
+          "transactionRefNo": "2",
+          "uniqueEFT": "800023AFB6",
+          "transactionDateTime": "07/07/2017",
+          "beneficiaryPayment": false,
+          "cashSendPlus": false,
+          "action": ""
+        },
+        {
+          "beneficiaryAccountNumber": "9050993953",
+          "beneficiaryName": "Saurabh",
+          "beneficiarySurName": "Deshmukh",
+          "beneficiaryNickName": "Saurabh",
+          "beneficiaryId": "0",
+          "cellPhoneNumber": "0616540398",
+          "statementTxnDesc1": "NA",
+          "transactionCurrencyAmount": {
+            "amt": "200.00",
+            "curr": "R"
+          },
+          "transactionTypeCode": "",
+          "virtualServerId": "",
+          "sessionKeyId": "",
+          "transactionRefNo": "1",
+          "uniqueEFT": "800023AFB6",
+          "transactionDateTime": "07/07/2017",
+          "beneficiaryPayment": false,
+          "cashSendPlus": false,
+          "action": ""
+        },
+        {
+          "beneficiaryAccountNumber": "9050993953",
+          "beneficiaryNickName": "saurabh",
+          "beneficiaryId": "0",
+          "cellPhoneNumber": "0616540398",
+          "amt": "200.0",
+          "transactionCurrencyAmount": {
+            "amt": "50.00",
+            "curr": "R"
+          },
+          "transactionTypeCode": "",
+          "virtualServerId": "",
+          "sessionKeyId": "",
+          "transactionRefNo": "1",
+          "uniqueEFT": "80002465C1",
+          "transactionDateTime": "07/06/2017",
+          "beneficiaryPayment": false,
+          "cashSendPlus": false,
+          "action": ""
+        }
+      ],
+      "frmAcctList": [
+        {
+          "favorite": "Y",
+          "accessTypeBits": "1.0",
+          "isBalanceMasked": "Y",
+          "viewAcctHistoryAllowed": "Y",
+          "acctAccessBits": "64255.0",
+          "actNo": "9050993953",
+          "desc": "Savings account",
+          "curBal": {
+            "curr": "R",
+            "amt": "10,363.77"
+          },
+          "monthly": {
+            "curr": "R",
+            "amt": "505.69"
+          },
+          "avblBal": {
+            "curr": "R",
+            "amt": "10,313.77"
+          },
+          "typ": "savingsAccount",
+          "mkdActNo": "******3953",
+          "curr": "R",
+          "overDraftLimit": {
+            "curr": "R",
+            "amt": "0.00"
+          }
+        },
+        {
+          "favorite": "Y",
+          "accessTypeBits": "1.0",
+          "isBalanceMasked": "Y",
+          "viewAcctHistoryAllowed": "Y",
+          "acctAccessBits": "64255.0",
+          "actNo": "9050993953",
+          "desc": "Savings account 2",
+          "curBal": {
+            "curr": "R",
+            "amt": "10,363.77"
+          },
+          "avblBal": {
+            "curr": "R",
+            "amt": "10,313.77"
+          },
+          "typ": "savingsAccount",
+          "mkdActNo": "******3953",
+          "curr": "R",
+          "overDraftLimit": {
+            "curr": "R",
+            "amt": "0.00"
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0849",
+      "resCde": "FTR00849",
+      "resMsg": "For Absa idirect motor and household insurance, SMS \"insure\" to 43755. For life and funeral insurance, SMS \u0027Life\u0027 to 31513.",
+      "serVer": "2.0",
+      "expTrace": null
+    },
+    "payData": {
+      "jsonBeanList": null
+    }
+  }
+}

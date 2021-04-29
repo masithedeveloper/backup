@@ -1,0 +1,24 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES2067",
+      "resCde": "00000",
+      "resMsg": "Success",
+      "serVer": "2.0",
+      "expTrace": null
+    },
+    "payData": {
+      "successMessage": "SUCCESS",
+      "sureCheckFlag": null,
+      "tvnFlag": null,
+      "referenceNumber": null,
+      "corelationId": null,
+      "transactionDate": null,
+      "cellnumber": null,
+      "email": null,
+      "notificationMethod": null,
+      "txnStatus": "Success",
+      "txnMessage": "Success"
+    }
+  }
+}

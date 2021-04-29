@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/view_unit_trust_navigation_graph"
+    app:startDestination="@id/viewUnitTrustBuyMoreUnitStepOneFragment">
+
+    <fragment
+        android:id="@+id/viewUnitTrustBuyMoreUnitStepOneFragment"
+        android:name="com.barclays.absa.banking.unitTrusts.ui.view.ViewUnitTrustBuyMoreUnitStepOneFragment"
+        android:label="ViewUnitTrustBuyMoreUnitStepOneFragment"
+        tools:layout="@layout/view_unit_trust_buy_more_unit_step_one_fragment">
+        <action
+            android:id="@+id/action_viewUnitTrustBuyMoreUnitStepOneFragment_to_viewUnitTrustBuyMoreUnitStepTwoFragment"
+            app:destination="@id/viewUnitTrustBuyMoreUnitStepTwoFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/viewUnitTrustBuyMoreUnitStepTwoFragment"
+        android:name="com.barclays.absa.banking.unitTrusts.ui.view.ViewUnitTrustBuyMoreUnitStepTwoFragment"
+        android:label="ViewUnitTrustBuyMoreUnitStepTwoFragment"
+        tools:layout="@layout/view_unit_trust_buy_more_unit_step_two_fragment">
+        <action
+            android:id="@+id/action_viewUnitTrustBuyMoreUnitSteptwoFragment_to_viewUnitTrustBuyMoreUnitStepThreeFragment"
+            app:destination="@id/viewUnitTrustBuyMoreUnitStepThreeFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/viewUnitTrustBuyMoreUnitStepThreeFragment"
+        android:name="com.barclays.absa.banking.unitTrusts.ui.view.ViewUnitTrustBuyMoreUnitStepThreeFragment"
+        android:label="ViewUnitTrustBuyMoreUnitStepThreeFragment"
+        tools:layout="@layout/view_unit_trust_buy_more_unit_step_three_fragment">
+        <action
+            android:id="@+id/action_viewUnitTrustBuyMoreUnitStepThreeFragment_to_genericResultScreenFragment"
+            app:destination="@id/genericResultScreenFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/genericResultScreenFragment"
+        android:name="styleguide.screens.GenericResultScreenFragment"
+        android:label="GenericResultScreenFragment"
+        tools:layout="@layout/generic_results_screen_fragment" >
+        <argument
+            android:name="GenericResultScreenFragment"
+            app:argType="styleguide.screens.GenericResultScreenProperties" />
+    </fragment>
+
+</navigation>

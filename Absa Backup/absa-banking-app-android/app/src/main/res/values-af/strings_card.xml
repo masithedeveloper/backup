@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Stop and Replace Credit Card-->
+    <string name="stop_and_replace_whats_new_body">Gebruik \“Stop en Vervang Kaart\” onder die \“Kaart\” oortjie</string>
+    <string name="account_not_linked_to_portfolio">Koppel asseblief hierdie kaart aan u portefeulje via Absa Online of by u naaste tak.</string>
+    <string name="fraud_reason">Bedrog</string>
+    <string name="stolen_card_reason">Gesteelde kaart</string>
+    <string name="lost_card_reason">Verlore kaart</string>
+    <string name="card_retained_by_atm_reason">Kaart terug gehour deur OTM</string>
+    <string name="other_reason">Ander</string>
+    <string name="replacement_incident_date">Wanneer het dit gebeur?</string>
+    <string name="card_last_used_date">Wanneer was die kaart laas gebruik?</string>
+    <string name="stop_and_replace_assistance_message">Het u dringende hulp nodig om u kaart te stop? Skakel: \n 0800 111 155</string>
+    <string name="stop_and_replace_assistance_fraud_message">Het u dringende hulp nodig om u kaart te stop? Skakel: \nLocal 0860 557 557 \nAbroad +27 11 501 5089</string>
+    <string name="stop_and_replace_success_message_heading">Jou kaart is gestop en jou nuwe kaart is bestel.</string>
+    <string name="face_to_face_delivery_method">Persoonlike aflewering</string>
+    <string name="branch_collection_method">Haal af by tak</string>
+    <string name="branch_collection_method_confirm">Haal af by tak - %1$s</string>
+    <string name="replacement_details">Vervang besonderhede: </string>
+    <string name="credit_card_order_details">Bestel besonderhede: </string>
+    <string name="confirm_credit_card_replacement_details">Bevestig Besonderhede</string>
+    <string name="stop_and_replace_credit_card_warning">Jy gaan jou kredietkaart stop en \'n nuwe kaart bestel.</string>
+    <string name="stop_and_replace_irreversible">Sodra die kredietkaart gestop is kan dit nie weer gebruik word nie.</string>
+    <string name="stop_and_replace_discretionary">* Neem asseblief kennis dat daar sekere kostes betrokke kan wees.</string>
+    <string name="stop_and_replace_warning_assistance_message">Indien jy hulp verlang, skakel asseblief \n\nSuid Afrika 0800 11 11 11 \n Internasionaal +27 11 501 5050.</string>
+    <string name="stop_and_replace_success_message_subheading">Jou kredietkaart sal by jou geselekteerde tak afgelewer word. \n\n As jy enige bedrog of ongemagtigde transaksies vermoed, skakel asseblief: n\Plaaslik 0860 557 557n\Internasionaal: +27 11 501 5089.</string>
+    <string name="stop_and_replace_fraud_suspicion_message">As jy enige bedrog of ongemagtigde transaksies vermoed, skakel asseblief: \n Plaaslik 0860 557 557 \n Internasionaal: +27 11 501 5089.</string>
+    <string name="fraud_stop_and_replace_warning_assistance_message">Ndien u hulp nodig het, kontak asseblief die hulplyn by:\n\n 0860 557 557 (SA)\n+27 11 501 5089 (Internasionaal)</string>
+    <string name="confirm_credit_card_replacement">Bevesitg kredietkaart vervanging</string>
+    <string name="selected_reason_for_replacement">Kies</string>
+    <string name="credit_card_replacement_successful_message">U kaart is gestop en u nuwe kaart is bestel.</string>
+    <string name="credit_card_replacement_branch_collection_message">U nuwe Premium banking kaart sal\n afgewer word by (branch/address) binne die volgende paar\n dae.\n\n Indien u bedrog vermoed of ongemagtigde\n transaksies sien, kontak asseblief ons\n bedrog afdeling.</string>
+    <string name="credit_card_replacement_face_to_face_collection_message">\'n Vriendelike takkonsultant sal u so gou as moontlik kontak\n sodat u die nuwe kaart kan afhaal\n en aktiveer met ’n nuwe PIN. Indien u hulp benodig,\n kontak asseblief die hulplyn.\n\n As u bedrog vermoed of ongemagtigde transaksies sien, kontak asseblief ons\n bedrog afdeling.</string>
+    <string name="credit_card_replacement_failed">Ons kon nie u nuwe kaart bestel nie.</string>
+    <string name="credit_card_replacement_assistance_message">Indien u hulp nodig het,\nkontak asseblief die hulplyn by:\n\n+27 8600 08600 (SA)\n+27 11 501 5019 (Internasionaal)</string>
+    <string name="reason_for_replacing_card">Rede vir vervanging: </string>
+    <string name="to_stop_credit_card">Om \'n kredietkaart te stop, skakel asseblief die kredietkaartafdeling by: \nPlaaslik 0800 111 155 \nInternasionaal +27 11 501 5050</string>
+    <string name="stop_and_replace_checkbox_i_accept_fees">Ek aanvaar die verwante fooie</string>
+    <string name="stop_and_replace_replacement_fee">Vervangingsfooi</string>
+    <string name="replacement_card_last_used">Wanneer laas was die kaart gebruik?</string>
+    <string name="stop_and_replace_select_branch"><b>Kies %1$s</b></string>
+    <string name="credit_card_replacement_confirmation">Is jy seker dat jy jou stop end vervaningsproses kanselleer?</string>
+    <string name="credit_card_replacement_overview">Vervanging Oorsig</string>
+    <string name="stop_and_replace_select_branch_list">Kies \'n tak</string>
+    <string name="abroad_card_replacement_number">internasionale</string>
+    <string name="card_replacement_assistance">Bel vir hulp</string>
+    <string name="last_used_description">Voer die datum in wat u die vorige kredietkaart gebruik het</string>
+    <string name="incident_date_description">Voer die datum van die voorval in</string>
+    <string name="reason_for_replacement_description">Kies die rede vir die stop en vervanging van hierdie kaart</string>
+
+    <!--VCL-->
+    <string name="vcl_qualify_title">Kredietlimietverhoging</string>
+    <string name="vcl_qualify_header">Jy kwalifiseer moontlik vir tot %s</string>
+    <string name="vcl_tool_credit_card_hub">Jy kwalifiseer moontlik vir \'n &lt;b>kredietlimietverhoging &lt;/b> van tot&lt;b> %s &lt;/b>...</string>
+    <string name="vcl_welcome_congratulations">Geluk</string>
+    <string name="vcl_welcome_managed_account_well">Jy het jou rekening so goed bestuur dat jy dalk kwalifiseer vir \'n kredietlimietverhoging.</string>
+    <string name="vcl_welcome_get_started_button">Kom ons begin!</string>
+
+    <string name="vcl_terms_you_may_qualify">Jy kwalifiseer moontlik vir \'n kredietlimietverhoging van %1$s op jou kaart wat met %2$s eindig</string>
+    <string name="vcl_terms_text">Ek bevestig dat:\n\n1. Ek is nie insolvent nie.\n2. Ek is nie tans onder skuldberading nie.\n3. Ek het nie \'n hangende skuldberadingsaansoek nie.\n4. Ek verstaan dat my inkomste en uitgawes asook my kredietburo-kontroles gebruik sal word om te bepaal of ek vir \'n kredietlimietverhoging kwalifiseer.\n5. Ek is binne gemeenskap van goedere getroud en ek het my gade se toestemming ingevolge die Wet op Huweliksgoedere bekom voor ek hierdie ooreenkoms aangegaan het.\n6. Indien ek foutiewe inligting verskaf, kan Absa dit gebruik as verweer teen enige bewering van roekelose uitlening.</string>
+    <string name="vcl_terms_text_0">Ek bevestig dat:</string>
+    <string name="vcl_terms_text_1">Ek is nie insolvent nie.</string>
+    <string name="vcl_terms_text_2">Ek is nie tans onder skuldberading nie.</string>
+    <string name="vcl_terms_text_3">Ek het nie \'n hangende skuldberadingsaansoek nie.</string>
+    <string name="vcl_terms_text_4">Ek verstaan dat my inkomste en uitgawes asook my kredietburo-kontroles gebruik sal word om te bepaal of ek vir \'n kredietlimietverhoging kwalifiseer.</string>
+    <string name="vcl_terms_text_5">Ek het toestemming van my gade ontvang indien ek binne gemeenskap van goedere of, ingevolge buitelandse reg, getroud is of as getroud geag word.</string>
+    <string name="vcl_terms_text_6">Indien ek foutiewe inligting verskaf, kan Absa dit gebruik as verweer teen enige bewering van roekelose uitlening.</string>
+    <string name="vcl_terms_text_i_agree">Ek het al die verklarings hierbo gelees en verstaan, en ek bevestig dat dit korrek is.</string>
+
+    <string name="vcl_income_verification_title">Salaris- / Inkomsteverifiëring</string>
+    <string name="vcl_income_verification_into_which_account_title">In watter bank word jou salaris / inkomste gedeponeer?</string>
+    <string name="vcl_income_verification_into_account_number_title">Bevestig asb jou rekeningnommer waarin jou salaris / inkomste gedeponeer word</string>
+    <string name="vcl_income_verification_into_account_number">Rekeningnommer</string>
+    <string name="vcl_income_verification_into_account_number_hint">Die rekeningnommer waarin jou inkomste gedeponeer word</string>
+    <string name="vcl_income_verification_into_account_type">Rekeningtipe</string>
+    <string name="vcl_income_verification_into_account_select_type">Kies \'n rekeningtipe</string>
+    <string name="vcl_income_verification_into_bank_hint">Kies \'n bank</string>
+    <string name="vcl_income_verification_into_branch_hint">Kies tak naam of kode</string>
+    <string name="vcl_income_verification_email_address_title">E-posadres</string>
+    <string name="vcl_income_verification_assistance_absa_message">Om jou te help, kan ons jou inkomste deur jou Absa-bankstate verifieer indien jy jou rekeningnommer verskaf waarin jou salaris inbetaal word </string>
+    <string name="vcl_income_verification_grant_permission">Vir hierdie aansoek, gee ek Absa toestemming om die vereiste bankstate deur middel van ’n eksterne bankdatabasis te verkry</string>
+    <string name="vcl_income_verification_grant_permission_external">Vir hierdie aansoek, gee ek Absa toestemming om die vereiste bankstate deur middel van ’n eksterne bankdatabasis te verkry</string>
+    <string name="vcl_income_verification_account_number_hint">Sleutel jou rekeningnommer in</string>
+    <string name="vcl_income_verification_email_address_hint">Sleutel jou e-posadres in</string>
+    <string name="vcl_income_verification_tooltip">Let asseblief op dat indien toestemming geweier word dit die verifiëringsproses sal vertraag</string>
+    <string name="vcl_income_verification_branch_name">Tak</string>
+    <string name="vcl_income_verification_cancel_title">Is jy seker jy wil kanselleer?</string>
+    <string name="vcl_income_verification_cancel_message">As jy jou aansoek kanselleer, sal jy weer die proses moet begin</string>
+    <string name="vcl_income_verification">Ons benodig nog \'n paar dokumente om die aansoek te voltooi. Ons sal jou kontak met meer besonderhede.</string>
+    <string name="vcl_income_verification_toolbar_title">Kredietlimietverhoging</string>
+
+    <string name="vcl_income_title">Jou Inkomste</string>
+    <string name="vcl_income_gross_income_title">Totale Maandelikse Bruto Inkomste (salaris en enige addisionele inkomste)</string>
+    <string name="vcl_income_gross_income_hint">Voor enige aftrekkings</string>
+    <string name="vcl_income_gross_salary_title">Bruto maandelikse salaris/inkomste (voor enige aftrekkings)</string>
+    <string name="vcl_income_net_income_title">Netto maandelikse salaris/inkomste</string>
+    <string name="vcl_income_net_income_hint">Min belasting, pensioen, mediese fonds, ens.</string>
+    <string name="vcl_income_net_salary_title">Netto maandelikse salaris/inkomste (min belasting, pensioen, mediese fonds, ens.)</string>
+    <string name="vcl_income_expenses_title">Jou Uitgawes</string>
+    <string name="vcl_income_can_not_be_less">Bedrag mag nie minder wees as %s</string>
+    <string name="vcl_income_maintenance_expenses_title">Onderhoudskoste</string>
+    <string name="vcl_income_maintenance_expenses_hint">As gevolg van \'n hofbevel. Vir bv. kind of onderhoud van gade</string>
+    <string name="vcl_income_debt_instalments">Totale vaste maandelikse afbetalings</string>
+    <string name="vcl_income_debt_instalments_hint">Vir bv verband of huurgeld, voertuigfinansiering, lening, kredietkaart, kleinhandelsrekeninge, ens.</string>
+    <string name="vcl_income_total_monthly_living_expense">Totale maandelikse lewenskoste</string>
+    <string name="vcl_income_total_monthly_living_expense_hint">Vir bv kruideniersware, eiendomsbelasting en diensgeld, nuts- of water en ligte rekening, skoolgeld</string>
+    <string name="vcl_income_total_edit_header">Opdateer of bevestig jou maandelikse vaste skuldpaaiemente</string>
+    <string name="vcl_income_max_limit_error">Bedrag kan nie hoër wees as %s</string>
+
+    <string name="vcl_expenses_monthly_header">Opdateer of bevestig jou maandelikse lewenskoste</string>
+    <string name="vcl_expenses_monthly_living_expenses">Jou maandelikse lewenskoste</string>
+    <string name="vcl_expenses_groceries">Kruideniersware</string>
+    <string name="vcl_expenses_cellphone">Telefoon / Selfoon</string>
+    <string name="vcl_expenses_security">Sekuriteit</string>
+    <string name="vcl_expenses_insurance">Versekering</string>
+    <string name="vcl_expenses_rates_and_taxes">Munisipale eiendomsbelasting en diensgeld</string>
+    <string name="vcl_expenses_domestic">Koste van tuinier / Tuindienste</string>
+    <string name="vcl_expenses_entertainment">Vermaak</string>
+    <string name="vcl_expenses_education">Studiegeld</string>
+    <string name="vcl_expenses_transport">Vervoer- / Brandstofkoste (motorfinansiering uitgesluit) </string>
+    <string name="vcl_expenses_other">Ander uitgawes</string>
+    <string name="vcl_cancel_text">Is jy seker jy wil jou kredietlimietverhogingproses kanselleer?</string>
+
+    <string name="vcl_debt_installments_title">Jou vaste maandelikse afbetalings</string>
+    <string name="vcl_debt_sub_title">Dit is die nuutste bedrae wat by die kredietburo verkry was</string>
+    <string name="vcl_debt_total_monthly_expenses">Totale maandelikse lewenskoste</string>
+    <string name="vcl_debt_bond">Verband</string>
+    <string name="vcl_debt_vehicle_instalments">Finansiering / Voertuigafbetalings</string>
+    <string name="vcl_debt_loans">Lenings</string>
+    <string name="vcl_debt_credit_card">Kredietkaart</string>
+    <string name="vcl_debt_retail_accounts">Kleinhandelsrekeninge</string>
+    <string name="vcl_debt_other_expenses">Ander uitgawes</string>
+
+    <string name="vcl_verification_new_limit"><b>Jou nuwe limiet</b></string>
+    <string name="vcl_verification_reject">Verwerp verhoging</string>
+    <string name="vcl_verification_accept">Aanvaar verhoging</string>
+    <string name="vcl_verification_net_income">Netto inkomste</string>
+    <string name="vcl_verification_gross_income">Bruto inkomste</string>
+
+    <string name="vcl_request_documents_title">Dokumente benodig</string>
+    <string name="vcl_request_documents_body">Ons benodig nog \'n paar dokumente om jou aansoek te voltooi. Ons sal jou kontak met meer besonderhede.</string>
+
+    <string name="vcl_result_limit_increased_to">Jou kredietlimiet is na %s verhoog.</string>
+    <string name="vcl_result_limit_invalid">Ongeldige rekeningnommer</string>
+    <string name="vcl_result_increase_approved">Verhoging goedgekeur</string>
+    <string name="vcl_result_increase_failed">Verhoging misluk</string>
+    <string name="vcl_result_increase_pending_title">Verhoging wag op goedkeuring</string>
+    <string name="vcl_result_increase_pending_body">Jou kredietlimietverhoging van %s is voorlopig goedgekeur afhangend van inkomstenbepalings.\n\nIndien ons nie toegang tot jou bankstate verkry nie, sal ons jou kontak om die vereiste dokumente te stuur om jou rekening te verifieer.\n\nJou aansoek sal binne 2 tot 3 werksdae afgehandel word, nadat ons jou dokumente ontvang het.</string>
+    <string name="vcl_result_increase_declined_title">Kredietlimietverhoging is afgekeur</string>
+    <string name="vcl_result_increase_declined_body">Ongelukkig kan ons nie die gewenste kredietlimietverhoging aanbod nie.\n\nOns sal jou kontak oor toekomstige geleenthede.</string>
+
+    <string name="vcl_button_continue">Gaan voort</string>
+    <string name="vcl_button_cancel">Kanselleer</string>
+    <string name="vcl_account_number_error">Rekeningnommer kan nie leeg wees nie.</string>
+
+    <string name="vcl_offer_need_more_power">Wil jy jou kredietlimiet verhoog?</string>
+    <string name="vcl_offer_increase_limit">Jy kwalifiseer moontlik vir \'n kredietlimietverhoging van tot %s</string>
+    <string name="vcl_offer_manage_money">\'n Kredietlimietverhoging is jou kans om jou geld goed te bestuur</string>
+    <string name="vcl_offer_increase_buying_power">Verhoog jou koopkrag sodat jy groter dinge kan doen</string>
+    <string name="vcl_offer_competitive_interest">Hou aan om ons mededingende rentekoerse te geniet</string>
+
+    <!--Pause card -->
+    <string name="pause_card_temporary_lock">Tydelike sluiting</string>
+    <string name="pause_card_all_transactions">Alle transaksies</string>
+    <string name="pause_card_atm_transactions">OTM transaksies</string>
+    <string name="pause_card_online_purchases">Aanlyn aankope</string>
+    <string name="pause_card_in_store_transactions">In-die-winkel transaksies</string>
+    <string name="pause_card_digital_wallet">Digitale beursie</string>
+    <string name="pause_card_digital_title">Digitaal</string>
+    <string name="pause_card_selection_updated">Tydelike blok opgedateer</string>
+    <string name="pause_card_selection_updated_message">Ons het die veranderinge aan jou tydelike blok-keuses opgedateer</string>
+    <string name="pause_card_update_failure">Stelselfout</string>
+    <string name="pause_card_update_failure_message">Ons kan nie tans jou transaksie verifieer nie. \n\n Probeer asb later weer.</string>
+    <string name="pause_card_description_text">Sluit en ontsluit jou kaart hier. Slegs die gekose kaart en transaksietipe sal gesluit wees, jou ander rekening funksies sal nie geraak word nie.</string>
+    <string name="pause_card_selection_updated_successfully">Tydelike blok opgedateer</string>
+    <string name="pause_card_selection_updated_successfully_message">Ons het die veranderinge aan jou tydelike blok-keuses opgedateer</string>
+    <string name="pause_card_bottom_legal_message">Alle ander gekoppelde kaarte sal steeds aktief wees en moet apart gesluit of gestop word deur die stop kaart proses te volg.\n\nAs jy ongemagtigde transaksies sien, skakel asseblief die inbelsentrum.</string>
+    <string name="whats_new_pause_card_title">Tydelike sluiting</string>
+    <string name="whats_new_pause_card_description">Hierdie funksie laat jou toe om spesifike kaart funksies tydelik te blok.</string>
+
+    <string name="stop_and_replace_last_used_lable">Wanneer is hierdie kaart laas gebruik?</string>
+    <string name="stop_and_replace_accept_fees">Ek aanvaar die gepaardgaande fooie</string>
+
+    <!-- Credit card hub -->
+    <string name="credit_card_hub_credit_card">Kaart</string>
+    <string name="credit_card_hub_toolbar_title">Kredietkaart</string>
+    <string name="credit_card_hub_transactions_tab">Transaksies</string>
+    <string name="credit_card_hub_card_tab">Kaart</string>
+    <string name="credit_card_hub_insure_tab">Verseker</string>
+    <string name="credit_card_hub_contact_tab">Kontak</string>
+    <string name="credit_card_hub_details_tab">Besonderhede</string>
+    <string name="credit_card_hub_stop_and_replace">Stop en vervang</string>
+    <string name="credit_card_hub_temporary_lock">Tydelike sluiting</string>
+    <string name="credit_card_hub_transaction_limits">Kaart transaksie limiete</string>
+    <string name="credit_card_hub_when_travelling">Gebruik kaart wanneer jy reis</string>
+    <string name="credit_card_hub_credit_protection">Doen aansoek vir krediet beskerming</string>
+    <string name="credit_card_hub_monthly_premium">Gekwoteerde maandelikse premie</string>
+    <string name="credit_card_hub_credit_amount">Jou kredietrekeningbalans sal verseker word tot \'n maksimum waarde van R 100 000.00</string>
+    <string name="credit_card_hub_get_cover">Dek my</string>
+    <string name="credit_card_hub_found_out_more">Vind meer uit</string>
+    <string name="credit_card_hub_insurance_description">\'n Kredietbeskermingplan kan jou gesin se finansiële las verlig as jy afgedank word, permanent ongeskik raak of selfs ingeval van jou dood.</string>
+    <string name="credit_card_hub_south_africa">Suid Afrika</string>
+    <string name="credit_card_hub_international">Internasionaal</string>
+    <string name="credit_card_hub_south_africa_fraud_number">0860 557 557</string>
+    <string name="credit_card_hub_international_fraud_number">+27 11 501 5089</string>
+    <string name="credit_card_hub_technical_number">0861 462 273</string>
+    <string name="credit_card_hub_customer_fraud_hotline">Plaaslike kliënte bedrog hulpnommer:</string>
+    <string name="credit_card_hub_credit_account_title">Credit Account</string>
+    <string name="credit_card_hub_credit_limit">Kredietlimiet</string>
+    <string name="credit_card_hub_interest_rate">Rentekoerse</string>
+    <string name="credit_card_hub_daily_limit">Daaglikse limiet</string>
+    <string name="credit_card_hub_transaction_limit">Transaksie limiet</string>
+    <string name="credit_card_hub_you_can_spend">Spandeerbare bedrag</string>
+    <string name="credit_card_hub_current_balance">Huidige saldo: </string>
+    <string name="credit_card_hub_transfer">Plaas oor</string>
+    <string name="credit_card_hub_technical_hotline">Tegniese hulpnommer:</string>
+    <string name="credit_card_hub_pay">Betaal</string>
+    <string name="credit_card_hub_today">Vandag</string>
+    <string name="credit_card_hub_yesterday">Gister</string>
+
+    <!-- Filter -->
+    <string name="card_filter_choose_filter">Wys watter transaksies?</string>
+    <string name="card_filter_all_transactions">Alle transaksies</string>
+    <string name="card_filter_money_in">Geld in</string>
+    <string name="card_filter_money_out">Geld uit</string>
+    <string name="card_filter_uncleared">Onverwerkde</string>
+    <string name="card_filter_choose_date_range">Tussen watter datums?</string>
+    <string name="card_filter_from">Van</string>
+    <string name="card_filter_to">Tot</string>
+    <string name="card_filter_done">Klaar</string>
+    <string name="card_filter_title">Filter opsies</string>
+    <string name="manage_card_title">Bestuur Kaarte</string>
+    <string name="cards_toolbar">Kaarte</string>
+    <string name="credit_card_hub_due">betaalbaar</string>
+    <string name="manage_card_limit_more_error">Die ingevoerde perk mag nie meer as die maksimum perk wees nie.</string>
+    <string name="manage_card_limit_empty_error">Limiet kan nie leeg wees nie.</string>
+    <string name="manage_card_limit_empty_value_error">Waarde kan nie leeg wees nie.</string>
+    <string name="to_from_account_error">Uit rekening kan nie dieselfde wees as Na rekening nie</string>
+
+    <!--Increase digitalLimits -->
+    <string name="current_limit">Huidige limiet</string>
+    <string name="adjust_credit_limit_increase">Pas jou kredietlimiet aan</string>
+    <string name="vcl_adjust_current_limit">&lt;b> Huidige limiet &lt;/b> &lt;br /> %s  </string>
+    <string name="vcl_adjust_new_limit">Nuwe limiet</string>
+    <string name="vcl_adjust_title">Pas jou kredietlimiet aan</string>
+    <string name="vcl_adjust_new_min_limit">Min nuwe limiet</string>
+    <string name="vcl_adjust_new_max_limit">Maks nuwe limiet</string>
+    <string name="vcl_adjust_review_details">Hersien besonderhede</string>
+    <string name="vcl_adjust_limit_may_not_be_less">Bedrag kan nie minder as vooraf ingevulde waarde wees nie.</string>
+    <string name="vcl_adjust_limit_may_not_be_more">Bedrag kan nie hoër as vooraf ingevulde waarde wees nie.</string>
+    <string name="vcl_adjust_limit_error">Kies \'n waarde binne die reeks hieronder.</string>
+    <string name="vcl_increase_credit_limit">Kredietlimietverhoging</string>
+
+    <!--confirmation screen-->
+    <string name="vcl_confirm_screen_gross_income_label">Bruto inkomste</string>
+    <string name="vcl_confirm_screen_net_income_label">Netto inkomste</string>
+    <string name="vcl_confirm_screen_maintenance_expenses_label">Onderhoudskoste</string>
+    <string name="vcl_confirm_screen_total_monthly_fixed_instalments_label">Totale vaste maandelikse afbetalings</string>
+    <string name="vcl_confirm_screen_total_monthly_living_expenses_label">Totale maandelikse lewenskoste</string>
+    <string name="vcl_confirm_screen_title">Opsomming van aansoek</string>
+    <string name="reject_increase">Verwerp verhoging</string>
+    <string name="accept_increase">Aanvaar verhoging</string>
+    <string name="your_new_limit">Jou nuwe limiet</string>
+    <string name="vcl_banner_not_now">Nie nou nie</string>
+    <string name="vcl_lock">Gesluit</string>
+    <string name="travel_pause_state">Datums gekies vir reis:</string>
+    <string name="vcl_income_and_expenses_net_may_not_be_more_error">Netto maandelikse inkomste mag nie meer wees as bruto maandelikse inkomste nie.</string>
+    <string name="vcl_result_rejected_title">Kredietlimietverhoging Verwerp</string>
+    <string name="vcl_result_rejected_description">Jy het gekies om nie die kredietlimietverhoging te verhoog nie. Jy kan enige tyd weer aansoek doen.</string>
+    <string name="vcl_error_not_zero">Bedrag kan nie R 0.00 wees nie</string>
+
+    <string name="stop_card_heading">Stop kaart</string>
+
+    <!--Hot leads-->
+    <string name="hot_leads_call_me_back_application">Skakel my terug</string>
+    <string name="hot_leads_credit_card_intro_qualify_title">Jy kwalifiseer dalk vir ’n Absa-kredietkaart</string>
+    <string name="hot_leads_credit_card_intro_qualify_detail_title">Jy kwalifiseer dalk vir ’n Absa-kredietkaart.</string>
+    <string name="hot_leads_credit_card_affordability_check_title">Hierdie aanbod is onderhewig aan ’n bekostigbaarheidsbeoordeling.</string>
+    <string name="hot_leads_credit_card_before_we_begin">Voor ons begin</string>
+    <string name="hot_leads_confirmation">Ek bevestig dat:</string>
+    <string name="hot_leads_term_and_condition_number_1">Ek nie tans insolvent of onder skuldberading is nie en dat ek nie ’n hangende skuldberadingsaansoek het nie.</string>
+    <string name="hot_leads_term_and_condition_number_2">Ek Absa toestemming gee om ’n kredietbeoordeling en -verifikasie uit te voer. Absa kan ingevolge die privaatheidsbeleid inligting oor my kredietwaardigheid en -telling met derde partye deel.</string>
+    <string name="hot_leads_term_and_condition_number_3">Ek Absa toestemming gee om my besonderhede te gebruik en op te spoor vir identifikasieverifikasiedoeleindes ingevolge die Wet op die Finansiële Intelligensiesentrum en ander toepaslike wetgewing.</string>
+    <string name="hot_leads_continue_button_text">Gaan voort</string>
+    <string name="hot_leads_terms_and_conditions_confirmation_checkbox_message">Ek aanvaar hiermee al die bogenoemde</string>
+    <string name="hot_leads_call_me_back">Skakel my terug</string>
+    <string name="hot_leads_contact_method">By watter nommer kan ons jou skakel?</string>
+    <string name="hot_leads_cellphone_number">Selfoonnommer</string>
+    <string name="hot_leads_are_you_sure">Is jy seker?</string>
+    <string name="hot_leads_come_back_soon">Indien wel, kom gou weer terug!</string>
+    <string name="hot_leads_continue">Gaan voort</string>
+    <string name="hot_leads_success_title">Hou die foon byderhand!</string>
+    <string name="hot_leads_success_description">Een van ons agente sal jou binnekort skakel om jou aansoek te begin.</string>
+    <string name="hot_leads_failure_title">Ons kan die nou vir jou ’n kaart aanbied nie.</string>
+    <string name="hot_leads_failure_description">Skakel asseblief Transunion vir meer inligting rakende jou kredietgradering. Jy kan daarna weer aansoek doen sodra jy gereed is.\n\nSkakel Transunion by 0861 482 482</string>
+    <string name="hot_leads_system_error_description">Ons bedieners is tans nie beskikbaar nie. Moenie bekommerd wees nie, ons werk daaraan. Probeer asseblief later weer.</string>
+    <string name="hot_leads_accept_terms_and_conditions_title">Bepalings en voorwaardes geld.</string>
+    <string name="hot_leads_contact_number_error">Sleutel selfoonnommer in asseblief</string>
+    <string name="hot_leads_enter_your_cellphone_number">Voer jou selfoonnommer in</string>
+    <string name="hot_leads_see_more">Doen aansoek</string>
+
+    <!--View Card Details-->
+    <string name="title_activity_view_card_details">Besigtig kaartbesonderhede</string>
+    <string name="title_activity_card_details">Kaartbesonderhede</string>
+    <string name="slide_to_reveal_expiry">Skuif om vervaldatum te toon</string>
+    <string name="slide_to_reveal_cvv">Skuif om KVW te toon</string>
+    <string name="manage_card_no_cards_available">Geen kaarte</string>
+
+    <!--Secondry card-->
+    <string name="secondary_card_access_title">Sekondêre kaart</string>
+    <string name="secondary_card_manage_primary_card">Primêre kaart</string>
+    <string name="secondary_card_manage_secondary_card">Sekondêre kaart:</string>
+    <string name="secondary_card_manage_enable_access">Aktiveer toegang vir sekondêre kaart:</string>
+    <string name="secondary_card_summary">Primêre kaart</string>
+    <string name="secondary_card_summary_primary_card">Primêre Kaart</string>
+    <string name="secondary_card_summary_secondary_card">Sekondêre Kaart</string>
+    <string name="secondary_card_summary_mandate">Mandaat</string>
+    <string name="secondary_card_summary_date">Datum</string>
+    <string name="secondary_card_summary_time">Tyd</string>
+    <string name="secondary_card_terms_and_conditions_confirmation">Ek bevestig dat ek gelees het en verstaan dat ek, deur die gekose sekondêre kaarte te aktiveer, toestemming gee dat die sekondêre kaarthouer toegang het tot die goedgekeurde Absa Online-, bankdienste-app- en USSD-funksies op my kredietkaartrekening.</string>
+    <string name="secondary_card_terms_and_conditions_error_message">Lees en aanvaar die vrywaring om voort te gaan.</string>
+    <string name="secondary_card_account_hidden_message">Jy het nie die hoofkaarthouer se toestemming om hierdie rekening te besigtig nie. Die hoofkaarthouer kan op die App of Absa Online toestemming gee.</string>
+    <string name="secondary_card_success_title">Toegang vir sekondêre kaart suksesvol opgedateer</string>
+    <string name="secondary_card_updated_failed">Sekondêre kaartopdatering het misluk</string>
+</resources>

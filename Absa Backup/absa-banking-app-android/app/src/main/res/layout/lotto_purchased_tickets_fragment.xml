@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/lottoTabLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        style="@style/LottoTabLayoutStyle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/lottoTabItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lotto" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/lottoTabPowerball"
+            style="@style/BranchLocatorTabs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lotto_powerball" />
+
+    </com.google.android.material.tabs.TabLayout>
+
+    <styleguide.content.FilterAndSearchView
+        android:id="@+id/ticketFilterAndSearchView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/small_space"
+        android:layout_marginTop="@dimen/medium_space"
+        android:layout_marginEnd="@dimen/small_space"
+        app:attribute_calender_content_description="@string/lotto_calender_search_content_description"
+        app:attribute_search_content_description="@string/search_icon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/lottoTabLayout" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/lottoResultsRecyclerView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:paddingBottom="@dimen/medium_space"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ticketFilterAndSearchView" />
+
+    <LinearLayout
+        android:id="@+id/noLottoTicketsLinearLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/noTicketsLottieAnimationView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/extra_large_space"
+            android:visibility="gone"
+            app:lottie_autoPlay="true"
+            app:lottie_fileName="general_alert.json" />
+
+        <TextView
+            android:id="@+id/noLottoTicketTextView"
+            style="@style/LargeTextMediumDark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/medium_space"
+            android:gravity="center"
+            android:text="@string/lotto_no_tickets_alert" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

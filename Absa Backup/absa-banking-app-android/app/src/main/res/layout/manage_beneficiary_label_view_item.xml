@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <styleguide.content.SecondaryContentAndLabelView
+        android:id="@+id/beneficiaryLabelViewItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:attribute_is_secondary_check_box_checked="false"
+        app:attribute_should_show_check_box="false"
+        tools:attribute_secondary_content="40%"
+        tools:attribute_secondary_label="Mr Bill Jones" />
+
+</layout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollView"
+    style="@style/ScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/double_medium_space">
+
+        <styleguide.cards.OfferView
+            android:id="@+id/firstOfferView"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/account_card_height"
+            android:layout_marginStart="@dimen/small_space"
+            android:layout_marginTop="@dimen/tiny_space"
+            android:layout_marginEnd="@dimen/small_space"
+            android:visibility="gone"
+            app:attribute_button_text="@string/apply"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:attribute_image="@drawable/ic_business_evolve_small"
+            tools:visibility="visible" />
+
+        <styleguide.cards.OfferView
+            android:id="@+id/secondOfferView"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/account_card_height"
+            android:layout_marginStart="@dimen/small_space"
+            android:layout_marginTop="@dimen/tiny_space"
+            android:layout_marginEnd="@dimen/small_space"
+            android:visibility="gone"
+            app:attribute_button_text="@string/apply"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/firstOfferView"
+            tools:attribute_image="@drawable/ic_business_evolve_islamic_small"
+            tools:visibility="visible" />
+
+        <TextView
+            android:id="@+id/productsAndPricingTextView"
+            style="@style/SmallTextRegularDark"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/medium_space"
+            android:layout_marginTop="@dimen/medium_space"
+            android:layout_marginEnd="@dimen/medium_space"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/secondOfferView"
+            app:layout_constraintVertical_bias="1" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

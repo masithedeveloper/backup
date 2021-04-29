@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="homeOwnerPolicyDescriptions">
+        <item>HOUSEOWNERS COMPREHENSIVE</item>
+        <item>PROPERTY INSURANCE</item>
+        <item>AFFORDABLE HOUSE SCHEME</item>
+        <item>ABSA BROKER STAFF HOUSE OWNER</item>
+        <item>ABSA BROKER HOUSEOWNERS SCHEM</item>
+        <item>COMMUNITY BANK HOUSEOWNERS</item>
+        <item>No Frills Homeowners Ins.</item>
+        <item>SANLAM STAFF HOUSEOWNERS</item>
+        <item>SASOL HOUSEOWNERS SCHEME</item>
+        <item>SCITR HOUSEOWNERS SCHEME</item>
+        <item>ABSA STAFF HOUSEOWNERS</item>
+        <item>UNIBANK HOUSEOWNERS INSURANCE</item>
+        <item>VIRGIN MONEY SA HOC</item>
+        <item>ABSA MAKELAARS STAF SKEMA</item>
+        <item>EIENDOM VERSEKERING</item>
+        <item>ABSA MAKELAARS HUISEIENAARS</item>
+        <item>COMMUNITY BANK HUISEIENAARS</item>
+        <item>HUISEIENAARS</item>
+        <item>No Frills Huiseienaars Vers.</item>
+        <item>SANLAM PERSONEEL HUISEIENAARS</item>
+        <item>SASOL HUISEIENAARS SKEMA</item>
+        <item>SCITR HUISEIENAARS SKEMA</item>
+        <item>ABSA PERSONEEL HUISEIENAARS</item>
+        <item>UNIBANK HUISEIENAARS VERS.</item>
+        <item>VIRGIN MONEY SA HOC</item>
+    </string-array>
+
+    <string-array name="idTypes">
+        <item>ID nommer</item>
+        <item>Paspoort</item>
+    </string-array>
+
+    <string-array name="titles">
+        <item>Mej</item>
+        <item>Mnr</item>
+        <item>Mev</item>
+        <item>Me</item>
+    </string-array>
+
+    <string-array name="claimTypesLongTerm">
+        <item>Dood</item>
+        <item>Gestremdheid</item>
+        <item>Uitdiensstelling</item>
+        <item>Kritieke siekte</item>
+    </string-array>
+
+    <string-array name="claimTypeList">
+        <item>Storm</item>
+        <item>Ongelukskade</item>
+        <item>Indringing</item>
+    </string-array>
+
+    <string-array name="claimTypesShortTerm">
+        <item>Motor</item>
+        <item>Gebou</item>
+        <item>Huisinhoud</item>
+        <item>Alle risiko\'s</item>
+    </string-array>
+
+    <string-array name="typesOfClaims">
+        <item>Geiser</item>
+        <item>Loodgieterswerk</item>
+        <item>Storm</item>
+        <item>Ongelukskade</item>
+        <item>Indringing</item>
+    </string-array>
+
+    <string-array name="funeralCoverMemberGender">
+        <item>Manlik</item>
+        <item>Vroulik</item>
+    </string-array>
+
+    <string-array name="damagedItemsGeyser">
+        <item>Gebou</item>
+        <item>Matte en vloerbedekking</item>
+        <item>Kaste</item>
+        <item>Elektries</item>
+        <item>Plaveisel</item>
+        <item>Solar</item>
+    </string-array>
+
+    <string-array name="otherDamagedItems">
+        <item>Gebou</item>
+        <item>Matte en vloerbedekking</item>
+        <item>Afdakke</item>
+        <item>Kaste</item>
+        <item>Elektries</item>
+        <item>Glas</item>
+        <item>Plaveisel</item>
+        <item>Dakvenster</item>
+        <item>Leisteendak</item>
+        <item>Solar</item>
+        <item>Swembad</item>
+        <item>Grasdak</item>
+    </string-array>
+
+    <string-array name="unitTrustFilterOptions">
+        <item>Wys alle fondse</item>
+        <item>Kernfondse</item>
+        <item>Laerisikofondse</item>
+        <item>Lae-Mediumrisikofondse</item>
+        <item>Mediumrisikofondse</item>
+        <item>Medium-Hoërisikofondse</item>
+        <item>Hoërisikofondse</item>
+    </string-array>
+
+    <string-array name="account_types">
+        <item>Lopende rekening/Tjekrekening</item>
+        <item>Spaarrekening</item>
+        <item>Transmissierekening</item>
+        <item>Verbandrekening</item>
+        <item>Kredietkaartrekening</item>
+    </string-array>
+
+    <string-array name="ultimate_protector_title">
+        <item>Mej</item>
+        <item>Mnr</item>
+        <item>Mev</item>
+        <item>Me</item>
+    </string-array>
+
+    <string-array name="familyMemberCategory">
+        <item>Kinders</item>
+        <item>Ouers/Skoonouers</item>
+        <item>Uitgebreide familie</item>
+    </string-array>
+
+    <string-array name="familyMemberRelationshipParentsOrInLaws">
+        <item>Vader</item>
+        <item>Moeder</item>
+        <item>Stiefpa</item>
+        <item>Stiefma</item>
+        <item>Skoonpa</item>
+        <item>Skoonma</item>
+    </string-array>
+
+    <string-array name="familyMemberRelationshipExtendedFamily">
+        <item>Broer</item>
+        <item>Suster</item>
+        <item>Oom</item>
+        <item>Tannie</item>
+        <item>Niggie</item>
+        <item>Nefie</item>
+        <item>Neef/Niggie</item>
+    </string-array>
+
+    <string-array name="beneficiaryCategory">
+        <item>Gade</item>
+        <item>Kinders</item>
+        <item>Ouers/Skoonouers</item>
+        <item>Uitgebreide familie</item>
+    </string-array>
+
+    <string-array name="beneficiaryRelationshipChildren">
+        <item>Dogter</item>
+        <item>Seun</item>
+        <item>Spesialebehoeftekind</item>
+        <item>Student</item>
+    </string-array>
+
+    <string-array name="beneficiaryRelationshipParentsOrInLaws">
+        <item>Vader</item>
+        <item>Moeder</item>
+        <item>Stiefpa</item>
+        <item>Stiefma</item>
+        <item>Skoonpa</item>
+        <item>Skoonma</item>
+        <item>Grootouer</item>
+    </string-array>
+
+    <string-array name="beneficiaryRelationshipExtendedFamily">
+        <item>Broer</item>
+        <item>Suster</item>
+        <item>Oom</item>
+        <item>Tante</item>
+        <item>Niggie</item>
+        <item>Neef</item>
+        <item>Broers-/Susterskind</item>
+        <item>Ander</item>
+    </string-array>
+
+    <string-array name="freeCoverRelationshipExtendedFamily">
+        <item>Broer</item>
+        <item>Suster</item>
+        <item>Stiefbroer</item>
+        <item>Stiefsuster</item>
+        <item>Oom</item>
+        <item>Tante</item>
+        <item>Neef</item>
+        <item>Niggie</item>
+        <item>Ander</item>
+    </string-array>
+
+    <string-array name="relationships">
+        <item>Seun</item>
+        <item>Dogter</item>
+        <item>Kind met spesiale behoeftes</item>
+        <item>Student</item>
+        <item>Vader</item>
+        <item>Moeder</item>
+        <item>Stiefpa</item>
+        <item>Stiefma</item>
+        <item>Skoonpa</item>
+        <item>Skoonma</item>
+        <item>Grootouer</item>
+        <item>Broer</item>
+        <item>Suster</item>
+        <item>Stiefbroer</item>
+        <item>Stiefsuster</item>
+        <item>Oom</item>
+        <item>Tante</item>
+        <item>Nefie</item>
+        <item>Niggie</item>
+        <item>Gade</item>
+        <item>Broers-/Susterskind</item>
+        <item>Ander</item>
+    </string-array>
+
+    <string-array name="redemptionTypeOptions">
+        <item>Aantal eenhede</item>
+        <item>Randwaarde</item>
+        <item>Alle eenhede</item>
+    </string-array>
+
+    <string-array name="atmBranchLocatorWeekDays">
+        <item>Maandag</item>
+        <item>Dinsdag</item>
+        <item>Woensdag</item>
+        <item>Donderdag</item>
+        <item>Vrydag</item>
+    </string-array>
+
+    <string-array name="atmBranchLocatorWeekendDays">
+        <item>Saterdag</item>
+        <item>Sondag</item>
+    </string-array>
+
+    <string-array name="flexiFuneralFamilyMemberCategory">
+        <item>Gade</item>
+        <item>Kinders</item>
+        <item>Uitgebreide familie</item>
+    </string-array>
+
+    <string-array name="flexiFuneralRelationshipChildren">
+        <item>Dogter</item>
+        <item>Seun</item>
+    </string-array>
+
+    <string-array name="flexiFuneralRelationshipExtendedFamily">
+        <item>Vader</item>
+        <item>Moeder</item>
+        <item>Broer</item>
+        <item>Suster</item>
+        <item>Oom</item>
+        <item>Tante</item>
+        <item>Neef</item>
+        <item>Niggie</item>
+        <item>Broers-/Susterskind</item>
+        <item>Oupa</item>
+        <item>Ouma</item>
+        <item>Skoonpa</item>
+        <item>Skoonma</item>
+        <item>Tuinier of Opsigter/Oppasser</item>
+    </string-array>
+
+    <string-array name="flexiFuneralGender">
+        <item>Manlik</item>
+        <item>Vroulik</item>
+    </string-array>
+
+    <plurals name="numberOfMonths">
+        <item quantity="one">%d maand</item>
+        <item quantity="other">%d maande</item>
+    </plurals>
+
+    <plurals name="numberOfDays">
+        <item quantity="one">%d dag</item>
+        <item quantity="other">%d dae</item>
+    </plurals>
+
+    <string-array name="manage_profile_no_tax_number_reason_1">
+        <item>1</item>
+        <item>@string/manage_profile_reason_for_no_tax_number_one</item>
+    </string-array>
+
+    <string-array name="manage_profile_no_tax_number_reason_2">
+        <item>2</item>
+        <item>@string/manage_profile_reason_for_no_tax_number_two</item>
+    </string-array>
+
+    <string-array name="manage_profile_no_tax_number_reason_3">
+        <item>3</item>
+        <item>@string/manage_profile_reason_for_no_tax_number_three</item>
+    </string-array>
+</resources>

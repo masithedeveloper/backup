@@ -1,0 +1,935 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0915",
+      "resCde": "00000",
+      "resMsg": "SUCCESS",
+      "serVer": "2.0",
+      "expTrace": null
+    },
+    "payData": {
+      "jsonBean": [
+        {
+          "transactionDate": "2018-06-27",
+          "accountNumber": "4047488881",
+          "transactionDescription": "Redemption: Cash",
+          "rewardsEarned": {
+            "curr": "R",
+            "amt": "-150.00"
+          },
+          "transactionAmount": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "balanceAmount": {
+            "curr": "R",
+            "amt": "2646.70"
+          }
+        },
+        {
+          "transactionDate": "2018-06-27",
+          "accountNumber": "",
+          "transactionDescription": "Redemption: Sesego Cares",
+          "rewardsEarned": {
+            "curr": "R",
+            "amt": "-1.00"
+          },
+          "transactionAmount": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "balanceAmount": {
+            "curr": "R",
+            "amt": "2796.70"
+          }
+        },
+        {
+          "transactionDate": "2018-06-27",
+          "accountNumber": "",
+          "transactionDescription": "Redemption: World Vision Of Sa",
+          "rewardsEarned": {
+            "curr": "R",
+            "amt": "-1.00"
+          },
+          "transactionAmount": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "balanceAmount": {
+            "curr": "R",
+            "amt": "2797.70"
+          }
+        },
+        {
+          "transactionDate": "2018-06-27",
+          "accountNumber": "4047488881",
+          "transactionDescription": "Redemption: Cash",
+          "rewardsEarned": {
+            "curr": "R",
+            "amt": "-10.00"
+          },
+          "transactionAmount": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "balanceAmount": {
+            "curr": "R",
+            "amt": "2798.70"
+          }
+        },
+        {
+          "transactionDate": "2018-06-27",
+          "accountNumber": "",
+          "transactionDescription": "Redemption: MTN R30 CALL",
+          "rewardsEarned": {
+            "curr": "R",
+            "amt": "-28.50"
+          },
+          "transactionAmount": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "balanceAmount": {
+            "curr": "R",
+            "amt": "2808.70"
+          }
+        },
+        {
+          "transactionDate": "2018-06-27",
+          "accountNumber": "4047488881",
+          "transactionDescription": "Redemption: Cash",
+          "rewardsEarned": {
+            "curr": "R",
+            "amt": "-3.00"
+          },
+          "transactionAmount": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "balanceAmount": {
+            "curr": "R",
+            "amt": "2837.20"
+          }
+        },
+        {
+          "transactionDate": "2018-06-27",
+          "accountNumber": "",
+          "transactionDescription": "Redemption: CELLC R70 CHAT CARD",
+          "rewardsEarned": {
+            "curr": "R",
+            "amt": "-66.50"
+          },
+          "transactionAmount": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "balanceAmount": {
+            "curr": "R",
+            "amt": "2840.20"
+          }
+        },
+        {
+          "transactionDate": "2018-06-27",
+          "accountNumber": "",
+          "transactionDescription": "Redemption: Pick n Pay Smart Shopper",
+          "rewardsEarned": {
+            "curr": "R",
+            "amt": "-15.00"
+          },
+          "transactionAmount": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "balanceAmount": {
+            "curr": "R",
+            "amt": "2906.70"
+          }
+        },
+        {
+          "transactionDate": "2018-06-27",
+          "accountNumber": "",
+          "transactionDescription": "Redemption: VODACOM R55",
+          "rewardsEarned": {
+            "curr": "R",
+            "amt": "-52.25"
+          },
+          "transactionAmount": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "balanceAmount": {
+            "curr": "R",
+            "amt": "2921.70"
+          }
+        },
+        {
+          "transactionDate": "2018-06-27",
+          "accountNumber": "",
+          "transactionDescription": "Redemption: MTN R30 CALL",
+          "rewardsEarned": {
+            "curr": "R",
+            "amt": "-28.50"
+          },
+          "transactionAmount": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "balanceAmount": {
+            "curr": "R",
+            "amt": "2973.95"
+          }
+        },
+        {
+          "transactionDate": "2018-06-27",
+          "accountNumber": "",
+          "transactionDescription": "Redemption: Sesego Cares",
+          "rewardsEarned": {
+            "curr": "R",
+            "amt": "-100.00"
+          },
+          "transactionAmount": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "balanceAmount": {
+            "curr": "R",
+            "amt": "3002.45"
+          }
+        },
+        {
+          "transactionDate": "2018-06-26",
+          "accountNumber": "",
+          "transactionDescription": "Redemption: Nelson Mandela Children`s Hospital",
+          "rewardsEarned": {
+            "curr": "R",
+            "amt": "-100.00"
+          },
+          "transactionAmount": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "balanceAmount": {
+            "curr": "R",
+            "amt": "3102.45"
+          }
+        },
+        {
+          "transactionDate": "2018-06-25",
+          "accountNumber": "4047488881",
+          "transactionDescription": "Redemption: Cash",
+          "rewardsEarned": {
+            "curr": "R",
+            "amt": "-200.00"
+          },
+          "transactionAmount": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "balanceAmount": {
+            "curr": "R",
+            "amt": "3202.45"
+          }
+        },
+        {
+          "transactionDate": "2018-06-21",
+          "accountNumber": "",
+          "transactionDescription": "Redemption: VODACOM R29",
+          "rewardsEarned": {
+            "curr": "R",
+            "amt": "-27.55"
+          },
+          "transactionAmount": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "balanceAmount": {
+            "curr": "R",
+            "amt": "3402.45"
+          }
+        },
+        {
+          "transactionDate": "2018-06-21",
+          "accountNumber": "",
+          "transactionDescription": "Redemption: Nelson Mandela Children`s Hospital",
+          "rewardsEarned": {
+            "curr": "R",
+            "amt": "-37.00"
+          },
+          "transactionAmount": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "balanceAmount": {
+            "curr": "R",
+            "amt": "3430.00"
+          }
+        },
+        {
+          "transactionDate": "2018-06-21",
+          "accountNumber": "4047488881",
+          "transactionDescription": "Redemption: Cash",
+          "rewardsEarned": {
+            "curr": "R",
+            "amt": "-58.00"
+          },
+          "transactionAmount": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "balanceAmount": {
+            "curr": "R",
+            "amt": "3467.00"
+          }
+        },
+        {
+          "transactionDate": "2018-06-15",
+          "accountNumber": "",
+          "transactionDescription": "",
+          "rewardsEarned": {
+            "curr": "R",
+            "amt": "2.99"
+          },
+          "transactionAmount": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "balanceAmount": {
+            "curr": "R",
+            "amt": "3525.00"
+          }
+        },
+        {
+          "transactionDate": "2018-06-15",
+          "accountNumber": "",
+          "transactionDescription": "",
+          "rewardsEarned": {
+            "curr": "R",
+            "amt": "3.33"
+          },
+          "transactionAmount": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "balanceAmount": {
+            "curr": "R",
+            "amt": "3522.01"
+          }
+        },
+        {
+          "transactionDate": "2018-06-15",
+          "accountNumber": "",
+          "transactionDescription": "",
+          "rewardsEarned": {
+            "curr": "R",
+            "amt": "36.71"
+          },
+          "transactionAmount": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "balanceAmount": {
+            "curr": "R",
+            "amt": "3518.68"
+          }
+        },
+        {
+          "transactionDate": "2018-06-15",
+          "accountNumber": "",
+          "transactionDescription": "",
+          "rewardsEarned": {
+            "curr": "R",
+            "amt": "38.04"
+          },
+          "transactionAmount": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "balanceAmount": {
+            "curr": "R",
+            "amt": "3481.97"
+          }
+        },
+        {
+          "transactionDate": "2018-06-15",
+          "accountNumber": "",
+          "transactionDescription": "Sasol",
+          "rewardsEarned": {
+            "curr": "R",
+            "amt": "60.00"
+          },
+          "transactionAmount": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "balanceAmount": {
+            "curr": "R",
+            "amt": "3443.93"
+          }
+        },
+        {
+          "transactionDate": "2018-06-15",
+          "accountNumber": "",
+          "transactionDescription": "Sasol",
+          "rewardsEarned": {
+            "curr": "R",
+            "amt": "60.00"
+          },
+          "transactionAmount": {
+            "curr": "R",
+            "amt": "5.00"
+          },
+          "balanceAmount": {
+            "curr": "R",
+            "amt": "3383.93"
+          }
+        },
+        {
+          "transactionDate": "2018-06-15",
+          "accountNumber": "",
+          "transactionDescription": "Sasol",
+          "rewardsEarned": {
+            "curr": "R",
+            "amt": "45.00"
+          },
+          "transactionAmount": {
+            "curr": "R",
+            "amt": "3.00"
+          },
+          "balanceAmount": {
+            "curr": "R",
+            "amt": "3323.93"
+          }
+        },
+        {
+          "transactionDate": "2018-06-15",
+          "accountNumber": "",
+          "transactionDescription": "Sasol",
+          "rewardsEarned": {
+            "curr": "R",
+            "amt": "60.00"
+          },
+          "transactionAmount": {
+            "curr": "R",
+            "amt": "67.00"
+          },
+          "balanceAmount": {
+            "curr": "R",
+            "amt": "3278.93"
+          }
+        },
+        {
+          "transactionDate": "2018-06-15",
+          "accountNumber": "",
+          "transactionDescription": "Sasol",
+          "rewardsEarned": {
+            "curr": "R",
+            "amt": "60.00"
+          },
+          "transactionAmount": {
+            "curr": "R",
+            "amt": "90.00"
+          },
+          "balanceAmount": {
+            "curr": "R",
+            "amt": "3218.93"
+          }
+        },
+        {
+          "transactionDate": "2018-06-15",
+          "accountNumber": "",
+          "transactionDescription": "Sasol",
+          "rewardsEarned": {
+            "curr": "R",
+            "amt": "60.00"
+          },
+          "transactionAmount": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "balanceAmount": {
+            "curr": "R",
+            "amt": "3158.93"
+          }
+        },
+        {
+          "transactionDate": "2018-06-15",
+          "accountNumber": "",
+          "transactionDescription": "Cash Rewards from Absa",
+          "rewardsEarned": {
+            "curr": "R",
+            "amt": "240.09"
+          },
+          "transactionAmount": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "balanceAmount": {
+            "curr": "R",
+            "amt": "3098.93"
+          }
+        },
+        {
+          "transactionDate": "2018-06-15",
+          "accountNumber": "",
+          "transactionDescription": "Cash Rewards from Absa",
+          "rewardsEarned": {
+            "curr": "R",
+            "amt": "287.54"
+          },
+          "transactionAmount": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "balanceAmount": {
+            "curr": "R",
+            "amt": "2858.84"
+          }
+        },
+        {
+          "transactionDate": "2018-06-15",
+          "accountNumber": "",
+          "transactionDescription": "Sasol",
+          "rewardsEarned": {
+            "curr": "R",
+            "amt": "30.00"
+          },
+          "transactionAmount": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "balanceAmount": {
+            "curr": "R",
+            "amt": "2571.30"
+          }
+        },
+        {
+          "transactionDate": "2018-06-15",
+          "accountNumber": "",
+          "transactionDescription": "Sasol",
+          "rewardsEarned": {
+            "curr": "R",
+            "amt": "45.00"
+          },
+          "transactionAmount": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "balanceAmount": {
+            "curr": "R",
+            "amt": "2541.30"
+          }
+        },
+        {
+          "transactionDate": "2018-06-15",
+          "accountNumber": "",
+          "transactionDescription": "Sasol",
+          "rewardsEarned": {
+            "curr": "R",
+            "amt": "60.00"
+          },
+          "transactionAmount": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "balanceAmount": {
+            "curr": "R",
+            "amt": "2496.30"
+          }
+        },
+        {
+          "transactionDate": "2018-06-15",
+          "accountNumber": "",
+          "transactionDescription": "Sasol",
+          "rewardsEarned": {
+            "curr": "R",
+            "amt": "60.00"
+          },
+          "transactionAmount": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "balanceAmount": {
+            "curr": "R",
+            "amt": "2436.30"
+          }
+        },
+        {
+          "transactionDate": "2018-06-15",
+          "accountNumber": "",
+          "transactionDescription": "Sasol",
+          "rewardsEarned": {
+            "curr": "R",
+            "amt": "60.00"
+          },
+          "transactionAmount": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "balanceAmount": {
+            "curr": "R",
+            "amt": "2376.30"
+          }
+        },
+        {
+          "transactionDate": "2018-06-15",
+          "accountNumber": "",
+          "transactionDescription": "Sasol",
+          "rewardsEarned": {
+            "curr": "R",
+            "amt": "59.86"
+          },
+          "transactionAmount": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "balanceAmount": {
+            "curr": "R",
+            "amt": "2316.30"
+          }
+        },
+        {
+          "transactionDate": "2018-06-15",
+          "accountNumber": "",
+          "transactionDescription": "Cash Rewards from Absa",
+          "rewardsEarned": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "transactionAmount": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "balanceAmount": {
+            "curr": "R",
+            "amt": "2256.44"
+          }
+        },
+        {
+          "transactionDate": "2018-06-15",
+          "accountNumber": "",
+          "transactionDescription": "Cash Rewards from Absa",
+          "rewardsEarned": {
+            "curr": "R",
+            "amt": "620.34"
+          },
+          "transactionAmount": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "balanceAmount": {
+            "curr": "R",
+            "amt": "2256.44"
+          }
+        },
+        {
+          "transactionDate": "2018-06-15",
+          "accountNumber": "",
+          "transactionDescription": "Reversal - Redemption: Airtime - CELC, CHAT CARD",
+          "rewardsEarned": {
+            "curr": "R",
+            "amt": "33.25"
+          },
+          "transactionAmount": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "balanceAmount": {
+            "curr": "R",
+            "amt": "1636.10"
+          }
+        },
+        {
+          "transactionDate": "2018-06-15",
+          "accountNumber": "",
+          "transactionDescription": "Cash Rewards from Absa",
+          "rewardsEarned": {
+            "curr": "R",
+            "amt": "261.91"
+          },
+          "transactionAmount": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "balanceAmount": {
+            "curr": "R",
+            "amt": "1602.85"
+          }
+        },
+        {
+          "transactionDate": "2018-06-15",
+          "accountNumber": "",
+          "transactionDescription": "Sasol",
+          "rewardsEarned": {
+            "curr": "R",
+            "amt": "60.00"
+          },
+          "transactionAmount": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "balanceAmount": {
+            "curr": "R",
+            "amt": "1340.94"
+          }
+        },
+        {
+          "transactionDate": "2018-06-15",
+          "accountNumber": "",
+          "transactionDescription": "Sasol",
+          "rewardsEarned": {
+            "curr": "R",
+            "amt": "75.00"
+          },
+          "transactionAmount": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "balanceAmount": {
+            "curr": "R",
+            "amt": "1280.94"
+          }
+        },
+        {
+          "transactionDate": "2018-06-15",
+          "accountNumber": "",
+          "transactionDescription": "Reversal - Redemption: Cash",
+          "rewardsEarned": {
+            "curr": "R",
+            "amt": "100.00"
+          },
+          "transactionAmount": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "balanceAmount": {
+            "curr": "R",
+            "amt": "1205.94"
+          }
+        },
+        {
+          "transactionDate": "2018-06-15",
+          "accountNumber": "",
+          "transactionDescription": "Reversal - Redemption: Cash",
+          "rewardsEarned": {
+            "curr": "R",
+            "amt": "100.00"
+          },
+          "transactionAmount": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "balanceAmount": {
+            "curr": "R",
+            "amt": "1105.94"
+          }
+        },
+        {
+          "transactionDate": "2018-06-15",
+          "accountNumber": "",
+          "transactionDescription": "Backdated Rewards",
+          "rewardsEarned": {
+            "curr": "R",
+            "amt": "33.83"
+          },
+          "transactionAmount": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "balanceAmount": {
+            "curr": "R",
+            "amt": "1005.94"
+          }
+        },
+        {
+          "transactionDate": "2018-06-15",
+          "accountNumber": "",
+          "transactionDescription": "Cash Rewards from Absa",
+          "rewardsEarned": {
+            "curr": "R",
+            "amt": "569.17"
+          },
+          "transactionAmount": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "balanceAmount": {
+            "curr": "R",
+            "amt": "972.11"
+          }
+        },
+        {
+          "transactionDate": "2018-06-15",
+          "accountNumber": "",
+          "transactionDescription": "Sasol",
+          "rewardsEarned": {
+            "curr": "R",
+            "amt": "60.00"
+          },
+          "transactionAmount": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "balanceAmount": {
+            "curr": "R",
+            "amt": "402.94"
+          }
+        },
+        {
+          "transactionDate": "2018-06-15",
+          "accountNumber": "",
+          "transactionDescription": "Sasol",
+          "rewardsEarned": {
+            "curr": "R",
+            "amt": "75.00"
+          },
+          "transactionAmount": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "balanceAmount": {
+            "curr": "R",
+            "amt": "342.94"
+          }
+        },
+        {
+          "transactionDate": "2018-06-15",
+          "accountNumber": "",
+          "transactionDescription": "Reversal - Redemption: Cash",
+          "rewardsEarned": {
+            "curr": "R",
+            "amt": "50.00"
+          },
+          "transactionAmount": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "balanceAmount": {
+            "curr": "R",
+            "amt": "267.94"
+          }
+        },
+        {
+          "transactionDate": "2018-06-15",
+          "accountNumber": "",
+          "transactionDescription": "Reversal - Redemption: Cash",
+          "rewardsEarned": {
+            "curr": "R",
+            "amt": "10.99"
+          },
+          "transactionAmount": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "balanceAmount": {
+            "curr": "R",
+            "amt": "217.94"
+          }
+        },
+        {
+          "transactionDate": "2018-06-15",
+          "accountNumber": "",
+          "transactionDescription": "Reversal - Redemption: Cash",
+          "rewardsEarned": {
+            "curr": "R",
+            "amt": "50.00"
+          },
+          "transactionAmount": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "balanceAmount": {
+            "curr": "R",
+            "amt": "206.95"
+          }
+        },
+        {
+          "transactionDate": "2018-06-15",
+          "accountNumber": "",
+          "transactionDescription": "Reversal - Redemption: Cash",
+          "rewardsEarned": {
+            "curr": "R",
+            "amt": "40.00"
+          },
+          "transactionAmount": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "balanceAmount": {
+            "curr": "R",
+            "amt": "156.95"
+          }
+        },
+        {
+          "transactionDate": "2018-06-15",
+          "accountNumber": "",
+          "transactionDescription": "Reversal - Redemption: Cash",
+          "rewardsEarned": {
+            "curr": "R",
+            "amt": "399.00"
+          },
+          "transactionAmount": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "balanceAmount": {
+            "curr": "R",
+            "amt": "116.95"
+          }
+        },
+        {
+          "transactionDate": "2018-06-15",
+          "accountNumber": "",
+          "transactionDescription": "Reversal - Redemption: Cash",
+          "rewardsEarned": {
+            "curr": "R",
+            "amt": "700.00"
+          },
+          "transactionAmount": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "balanceAmount": {
+            "curr": "R",
+            "amt": "-282.05"
+          }
+        },
+        {
+          "transactionDate": "2018-06-15",
+          "accountNumber": "",
+          "transactionDescription": "Reversal - Redemption: Cash",
+          "rewardsEarned": {
+            "curr": "R",
+            "amt": "70.00"
+          },
+          "transactionAmount": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "balanceAmount": {
+            "curr": "R",
+            "amt": "-982.05"
+          }
+        },
+        {
+          "transactionDate": "2018-06-14",
+          "accountNumber": "4047488881",
+          "transactionDescription": "Redemption: Cash",
+          "rewardsEarned": {
+            "curr": "R",
+            "amt": "-1.00"
+          },
+          "transactionAmount": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "balanceAmount": {
+            "curr": "R",
+            "amt": "-1052.05"
+          }
+        }
+      ],
+      "fromDate": "2018-05-29",
+      "toDate": "2018-06-29"
+    }
+  }
+}

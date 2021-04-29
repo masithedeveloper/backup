@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:id="@+id/scrollView"
+            style="@style/ScrollView"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <styleguide.content.PrimaryContentAndLabelView
+                    android:id="@+id/totalAmountPrimaryContentAndLabelView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:attribute_primary_label="@string/international_payments_total_amount_due"
+                    tools:attribute_primary_content="R 1 027.67" />
+
+                <styleguide.content.SecondaryContentAndLabelView
+                    android:id="@+id/youSendSecondaryContentAndLabelView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:attribute_secondary_label="@string/payment_details_you_send"
+                    tools:attribute_secondary_content="R 1 000.00" />
+
+                <styleguide.content.SecondaryContentAndLabelView
+                    android:id="@+id/beneficiaryReceivesSecondaryContentAndLabelView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:attribute_secondary_content="$ 2.50"
+                    tools:attribute_secondary_label="@string/payment_details_beneficiary_receives" />
+
+                <styleguide.content.SecondaryContentAndLabelView
+                    android:id="@+id/payoutCurrencyContentAndLabelView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:attribute_secondary_label="@string/western_union_payout_currency_title"
+                    tools:attribute_secondary_content="USD" />
+
+                <styleguide.content.SecondaryContentAndLabelView
+                    android:id="@+id/fromAccountSecondaryContentAndLabelView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:attribute_secondary_label="@string/from_account_title"
+                    tools:attribute_secondary_content="Current Account (4901 1234 5678)" />
+
+                <View
+                    android:id="@+id/divider"
+                    style="@style/DividerView"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="@dimen/small_space"
+                    android:layout_marginBottom="@dimen/small_space" />
+
+                <styleguide.content.PrimaryContentAndLabelView
+                    android:id="@+id/beneficiaryPrimaryContentAndLabelView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:attribute_primary_content="Richard Geers Of War"
+                    tools:attribute_primary_label="@string/payment_details_beneficiary_title" />
+
+                <styleguide.content.SecondaryContentAndLabelView
+                    android:id="@+id/genderSecondaryContentAndLabelView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:attribute_secondary_label="@string/gender"
+                    tools:attribute_secondary_content="$ 2.50" />
+
+                <styleguide.content.SecondaryContentAndLabelView
+                    android:id="@+id/beneficiaryResidentialAddressSecondaryContentAndLabelView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:attribute_secondary_content="20 Labouchere Rd, South Perth WA 6151"
+                    tools:attribute_secondary_label="@string/beneficiary_residential_address_title" />
+
+                <View
+                    android:id="@+id/divider2"
+                    style="@style/DividerView"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="@dimen/small_space"
+                    android:layout_marginBottom="@dimen/small_space" />
+
+                <styleguide.content.SecondaryContentAndLabelView
+                    android:id="@+id/transactionRefNumberAddressSecondaryContentAndLabelView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:attribute_secondary_label="@string/payment_details_transaction_reference_title"
+                    tools:attribute_secondary_content="9123 00 789" />
+
+                <styleguide.content.SecondaryContentAndLabelView
+                    android:id="@+id/destinationCurrencyRateSecondaryContentAndLabelView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:attribute_secondary_label="@string/payment_details_destination_currency_title"
+                    tools:attribute_secondary_content="10.53" />
+
+                <styleguide.content.SecondaryContentAndLabelView
+                    android:id="@+id/foreignCurrencySecondaryContentAndLabelView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:attribute_secondary_label="@string/payment_details_foreign_currency_title"
+                    tools:attribute_secondary_content="AUD" />
+
+                <styleguide.content.SecondaryContentAndLabelView
+                    android:id="@+id/foreignAmountSecondaryContentAndLabelView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:attribute_secondary_label="@string/payment_details_foreign_amount_title"
+                    tools:attribute_secondary_content="53.28" />
+
+                <styleguide.content.SecondaryContentAndLabelView
+                    android:id="@+id/localCurrencySecondaryContentAndLabelView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:attribute_secondary_label="@string/payment_details_local_currency_title"
+                    tools:attribute_secondary_content="ZAR" />
+
+                <styleguide.content.SecondaryContentAndLabelView
+                    android:id="@+id/localAmountSecondaryContentAndLabelView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:attribute_secondary_label="@string/payment_details_local_amount_title"
+                    tools:attribute_secondary_content="1 000.00" />
+
+                <styleguide.content.SecondaryContentAndLabelView
+                    android:id="@+id/exchangeRateSecondaryContentAndLabelView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:attribute_secondary_label="@string/international_payments_exchange_rate"
+                    tools:attribute_secondary_content="10.10 ZAR - 1 AUD" />
+
+                <styleguide.content.SecondaryContentAndLabelView
+                    android:id="@+id/conversionRateInUSDSecondaryContentAndLabelView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:attribute_secondary_label="@string/international_payments_usd_conversion_rate"
+                    tools:attribute_secondary_content="1 AUD - 0.81 USD" />
+
+                <styleguide.content.SecondaryContentAndLabelView
+                    android:id="@+id/vatSecondaryContentAndLabelView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:attribute_secondary_label="@string/vat"
+                    tools:attribute_secondary_content="R 13.24" />
+
+                <styleguide.content.SecondaryContentAndLabelView
+                    android:id="@+id/commissionAmountSecondaryContentAndLabelView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:attribute_secondary_label="@string/payment_details_commission_amount_title"
+                    tools:attribute_secondary_content="R 94.54" />
+
+                <View
+                    android:id="@+id/divider3"
+                    style="@style/DividerView"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="@dimen/small_space"
+                    android:layout_marginBottom="@dimen/small_space" />
+
+                <styleguide.content.SecondaryContentAndLabelView
+                    android:id="@+id/originatingCountrySecondaryContentAndLabelView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:attribute_secondary_label="@string/payment_details_originating_country_title"
+                    tools:attribute_secondary_content="South Africa" />
+
+                <styleguide.content.SecondaryContentAndLabelView
+                    android:id="@+id/destinationCountrySecondaryContentAndLabelView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:attribute_secondary_label="@string/destination_country_title"
+                    tools:attribute_secondary_content="Australia" />
+
+                <styleguide.content.SecondaryContentAndLabelView
+                    android:id="@+id/destinationStateSecondaryContentAndLabelView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:attribute_secondary_label="@string/destination_state_title"
+                    tools:attribute_secondary_content="Western Australia" />
+
+                <styleguide.content.SecondaryContentAndLabelView
+                    android:id="@+id/destinationCitySecondaryContentAndLabelView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:attribute_secondary_label="@string/destination_city_title"
+                    tools:attribute_secondary_content="Perth" />
+
+                <styleguide.content.SecondaryContentAndLabelView
+                    android:id="@+id/natureOfPaymentSecondaryContentAndLabelView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:attribute_secondary_label="@string/payment_details_nature_of_payment_title"
+                    tools:attribute_secondary_content="Gift" />
+
+                <styleguide.content.SecondaryContentAndLabelView
+                    android:id="@+id/securityQuestionSecondaryContentAndLabelView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:attribute_secondary_label="@string/security_question_title"
+                    tools:attribute_secondary_content="What was my first dog's name?" />
+
+                <styleguide.content.SecondaryContentAndLabelView
+                    android:id="@+id/answerToSecurityQuestionSecondaryContentAndLabelView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:attribute_secondary_label="@string/payment_details_security_question_answer_title"
+                    tools:attribute_secondary_content="Snoopie" />
+
+                <View
+                    android:id="@+id/divider4"
+                    style="@style/DividerView"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="@dimen/small_space"
+                    android:layout_marginBottom="@dimen/small_space" />
+
+                <styleguide.forms.CheckBoxView
+                    android:id="@+id/declarationCheckBoxView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:attribute_description="@string/international_payments_i_have_read_declaration"
+                    app:attribute_is_required="true" />
+
+                <styleguide.buttons.Button
+                    android:id="@+id/payButton"
+                    style="@style/PrimaryButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/medium_space"
+                    android:text="@string/pay" />
+            </LinearLayout>
+        </ScrollView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

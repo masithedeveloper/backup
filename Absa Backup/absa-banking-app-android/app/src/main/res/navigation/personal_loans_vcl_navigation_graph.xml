@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_personal_loans_vcl"
+    app:startDestination="@+id/personalLoanApplyFragment">
+
+    <fragment
+        android:id="@+id/personalLoanApplyFragment"
+        android:name="com.barclays.absa.banking.personalLoan.ui.PersonalLoanApplyFragment"
+        android:label="PersonalLoanApplyFragment"
+        tools:layout="@layout/personal_loan_apply_fragment">
+
+        <action
+            android:id="@+id/action_personalLoanApplyFragment_to_personalLoanGenericResultScreenFragment"
+            app:destination="@id/personalLoanGenericResultScreenFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/personalLoanGenericResultScreenFragment"
+        android:name="styleguide.screens.GenericResultScreenFragment"
+        android:label="GenericResultScreenFragment"
+        tools:layout="@layout/generic_results_screen_fragment" >
+        <argument
+            android:name="GenericResultScreenFragment"
+            app:argType="styleguide.screens.GenericResultScreenProperties" />
+    </fragment>
+</navigation>

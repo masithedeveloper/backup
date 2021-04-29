@@ -1,0 +1,70 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scrollView"
+    style="@style/ScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <styleguide.content.HeadingAndActionView
+            android:id="@+id/marketingConsentActionView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_primary_action_color="@color/pink"
+            app:attribute_primary_action_text="@string/manage_profile_overview_edit_action"
+            app:attribute_primary_label_text="@string/manage_profile_hub_marketing_consent_title"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <styleguide.content.HeadingView
+            android:id="@+id/electronicMarketingConsentHeadingView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_heading="@string/manage_profile_marketing_consent_electronic_marketing_consent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/marketingConsentActionView" />
+
+        <styleguide.content.PrimaryContentAndLabelView
+            android:id="@+id/electronicPreferredCommunicationMethodContentAndLabelView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_primary_label="@string/manage_profile_marketing_consent_preferred_communication_method"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/electronicMarketingConsentHeadingView" />
+
+        <View
+            android:id="@+id/dividerView"
+            style="@style/DividerView"
+            android:layout_width="0dp"
+            android:layout_marginTop="@dimen/small_space"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/electronicPreferredCommunicationMethodContentAndLabelView" />
+
+        <styleguide.content.HeadingView
+            android:id="@+id/creditMarketingConsentHeadingView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/small_space"
+            app:attribute_heading="@string/manage_profile_marketing_consent_credit_marketing_consent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/dividerView" />
+
+        <styleguide.content.PrimaryContentAndLabelView
+            android:id="@+id/creditPreferredCommunicationMethodContentAndLabelView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_primary_label="@string/manage_profile_marketing_consent_preferred_communication_method"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/creditMarketingConsentHeadingView" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

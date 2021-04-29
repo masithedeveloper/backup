@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" android:enterFadeDuration="500" android:exitFadeDuration="500">
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@android:color/white" />
+            <size android:height="@dimen/medium_radius_sdp"
+                android:width="@dimen/medium_radius_sdp"/>
+        </shape>
+    </item>
+</selector>

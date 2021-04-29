@@ -1,0 +1,51 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="za.co.absa.presentation.uilib">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <application>
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity
+            android:name="styleguide.bars.TopTabExample"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="styleguide.cards.CardsExample"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="styleguide.buttons.ButtonExample"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="styleguide.bars.ProgressIndicatorExample"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="styleguide.forms.FormsExample"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="styleguide.content.ContentExample"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="styleguide.gradients.GradientsExample"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="styleguide.forms.MultiSelectCheckBoxActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

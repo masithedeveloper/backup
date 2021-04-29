@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="border_width">1dp</dimen>
+    <dimen name="divider_height">1dp</dimen>
+    <dimen name="badge_padding">2dp</dimen>
+    <dimen name="badge_margin">8dp</dimen>
+    <dimen name="smallest_radius_sdp">@dimen/_1sdp</dimen>
+    <dimen name="normal_radius">5dp</dimen>
+    <dimen name="medium_radius_sdp">@dimen/_6sdp</dimen>
+    <dimen name="large_radius_sdp">@dimen/_25sdp</dimen>
+    <dimen name="medium_thickness">9dp</dimen>
+    <dimen name="large_radius">15dp</dimen>
+    <dimen name="bullet_size">6dp</dimen>
+    <dimen name="button_rounded_radius">22dp</dimen>
+    <dimen name="messages_button_rounded_radius">20dp</dimen>
+    <dimen name="card_radius">8dp</dimen>
+
+    <!-- padding -->
+    <dimen name="normal_padding">8dp</dimen>
+
+    <!-- spaces -->
+    <dimen name="extra_tiny_space">3dp</dimen>
+    <dimen name="tiny_space">5dp</dimen>
+    <dimen name="small_space">10dp</dimen>
+    <dimen name="normal_space">15dp</dimen>
+    <dimen name="medium_space">20dp</dimen>
+    <dimen name="large_space">25dp</dimen>
+    <dimen name="extra_large_space">30dp</dimen>
+    <dimen name="double_medium_space">40dp</dimen>
+    <dimen name="triple_normal_space">45dp</dimen>
+    <dimen name="double_large_space">50dp</dimen>
+    <dimen name="extra_extra_large_space">60dp</dimen>
+    <dimen name="extra_large_space_65">65dp</dimen>
+    <dimen name="extra_large_space_80">80dp</dimen>
+    <dimen name="extra_large_space_120">120dp</dimen>
+    <dimen name="large_space_140">140dp</dimen>
+    <dimen name="large_space_160">160dp</dimen>
+
+    <dimen name="action_button_text_margin">72dp</dimen>
+
+    <!-- button dimensions -->
+    <dimen name="button_height_with_margin_bottom">68dp</dimen>
+    <dimen name="button_height_with_padding">52dp</dimen>
+    <dimen name="button_height">48dp</dimen>
+    <dimen name="circular_button_size">48dp</dimen>
+    <dimen name="fwab_button_radius">24dp</dimen>
+    <dimen name="fwab_button_width">210dp</dimen>
+    <dimen name="circular_button_shadow_size">50dp</dimen>
+    <dimen name="apply_button_radius">12.5dp</dimen>
+    <dimen name="apply_button_width">57dp</dimen>
+    <dimen name="apply_button_height">25dp</dimen>
+    <dimen name="arrow_size">32dp</dimen>
+    <dimen name="floating_action_button_radius">24dp</dimen>
+    <dimen name="floating_action_button_elevation">3dp</dimen>
+
+    <!--editText dimensions-->
+    <dimen name="filter_search_view_height">40dp</dimen>
+
+    <!-- card dimensions -->
+    <dimen name="offer_full_header_height">240dp</dimen>
+    <dimen name="account_card_height">189dp</dimen>
+    <dimen name="card_tiny_height">150dp</dimen>
+    <dimen name="card_min_height">160dp</dimen>
+    <dimen name="large_card_min_height">204dp</dimen>
+    <dimen name="small_card_width">56dp</dimen>
+    <dimen name="small_card_height">38dp</dimen>
+    <dimen name="card_elevation_tiny">1dp</dimen>
+    <dimen name="card_elevation_normal">2dp</dimen>
+    <dimen name="card_lock_padding">6dp</dimen>
+
+    <!-- text sizes -->
+    <dimen name="tiny_text_size">10sp</dimen>
+    <dimen name="small_text_size">13sp</dimen>
+    <dimen name="regular_text_size">15sp</dimen>
+    <dimen name="large_text_size">17sp</dimen>
+    <dimen name="heading_text_size">21sp</dimen>
+    <dimen name="title_text_size">27sp</dimen>
+    <dimen name="huge_text_size">31sp</dimen>
+
+    <!-- icons -->
+    <dimen name="icon_size_large">36dp</dimen>
+    <dimen name="icon_size">32dp</dimen>
+    <dimen name="icon_size_medium">24dp</dimen>
+    <dimen name="icon_size_small">20dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="bottom_navigation_height">64dp</dimen>
+    <dimen name="profile_image_size">@dimen/circular_button_size</dimen>
+    <dimen name="profile_image_size_large">@dimen/_52sdp</dimen>
+    <dimen name="image_size_large">@dimen/_62sdp</dimen>
+    <dimen name="profile_image_size_login">56dp</dimen>
+    <dimen name="actionBarHeight">48dp</dimen>
+    <dimen name="app_bar_default_top_margin">78dp</dimen>
+
+    <!-- tabs -->
+    <dimen name="tabHeight">49dp</dimen>
+
+    <!-- progress indicator -->
+    <dimen name="progress_indicator_radius">@dimen/normal_radius</dimen>
+    <dimen name="progress_indicator_height">2dp</dimen>
+    <dimen name="progress_indicator_margin">10dp</dimen>
+
+    <!--seekbar-->
+    <dimen name="seekbar_thumb_height">19dp</dimen>
+    <dimen name="seekbar_line_height">2dp</dimen>
+
+    <!-- selector view -->
+    <dimen name="selector_view_recycler_item_padding_top">0.5dp</dimen>
+    <dimen name="selector_view_recycler_item_padding">1dp</dimen>
+
+    <!-- radio button view -->
+    <dimen name="radio_button_view_padding_left">@dimen/medium_space</dimen>
+    <dimen name="radio_button_view_margin_top">@dimen/medium_space</dimen>
+
+    <!-- keypad -->
+    <dimen name="normal_space_sdp">@dimen/_10sdp</dimen>
+    <dimen name="button_text_size_sdp">@dimen/_20sdp</dimen>
+    <dimen name="smaller_text_size_sdp">@dimen/_6sdp</dimen>
+    <dimen name="small_text_size_sdp">@dimen/_10sdp</dimen>
+    <dimen name="keypad_button_spacing">@dimen/_16sdp</dimen>
+    <dimen name="keypad_indicator_spacing">@dimen/_10sdp</dimen>
+
+    <!-- ImageDescription ViewPager -->
+    <dimen name="pager_height">320dp</dimen>
+    <dimen name="pager_extended_carousel_height">400dp</dimen>
+    <dimen name="tab_layout_width">@dimen/_130sdp</dimen>
+    <dimen name="finger_button_size">24dp</dimen>
+
+    <!-- credit card graph -->
+    <dimen name="margin_around_graph">60dp</dimen>
+
+    <!--Tab layout-->
+    <dimen name="tab_layout_indicator_height">3dp</dimen>
+
+    <!--Scroll bar-->
+    <dimen name="scroll_bar_size">3dp</dimen>
+
+    <dimen name="max_fab_text_size">80dp</dimen>
+
+    <!--Offer-->
+    <dimen name="offer_card_height">160dp</dimen>
+
+    <dimen name="linking_loading_size">280dp</dimen>
+
+    <!--Article-->
+    <dimen name="article_image_size">90dp</dimen>
+
+    <!--Branch Locator-->
+    <dimen name="openListTextViewHeight">30dp</dimen>
+    <dimen name="openListImageViewHeight">15dp</dimen>
+    <dimen name="branchLocatorPeekHeight">45dp</dimen>
+    <dimen name="openListTextSize">@dimen/_13sdp</dimen>
+
+    <!--Behavioural Rewards-->
+    <dimen name="behavioural_banner_animation_height">150dp</dimen>
+    <dimen name="voucher_logo_image_size">70dp</dimen>
+    <dimen name="voucher_logo_image_size_large">@dimen/_90sdp</dimen>
+    <dimen name="voucher_selected_icon">38dp</dimen>
+    <dimen name="voucher_image_size">100dp</dimen>
+    <dimen name="view_pager_padding">58dp</dimen>
+    <dimen name="behavioural_rewards_card_radius">16dp</dimen>
+    <dimen name="available_rewards_image_size">52dp</dimen>
+    <dimen name="available_rewards_bottom_sheet_indicator_width">60dp</dimen>
+    <dimen name="available_rewards_bottom_sheet_indicator_height">8dp</dimen>
+    <dimen name="behavioural_rewards_toolbar_height">56dp</dimen>
+    <dimen name="behavioural_view_voucher_top_margin">22dp</dimen>
+
+    <!-- ViewPager Indicator-->
+    <dimen name="unselected_indicator_size">16dp</dimen>
+    <dimen name="selected_indicator_size">48dp</dimen>
+    <dimen name="indicator_size_multiplier">31dp</dimen>
+
+    <!--In app message-->
+    <dimen name="unread_indicator_size">12dp</dimen>
+    <dimen name="group_icon_indicator_size">32dp</dimen>
+
+    <dimen name="rounded_banner_height">70dp</dimen>
+
+    <!--transaction view-->
+    <dimen name="transaction_card_radius">8dp</dimen>
+
+    <!--Cluster-->
+    <dimen name="cluster_card_height">150dp</dimen>
+    <dimen name="cluster_get_more_offers_bottom_sheet_peek_height">65dp</dimen>
+</resources>

@@ -1,0 +1,386 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES2033",
+      "resCde": "00000",
+      "resMsg": "Success",
+      "serVer": "2.0",
+      "expTrace": null
+    },
+    "payData": {
+      "postalCodeList": [
+        {
+          "noStreetDeliveryIndicator": true,
+          "streetPostCode": "2191",
+          "postBoxCode": "2055",
+          "suburb": "FOURWAYS",
+          "town": "JOHANNESBURG",
+          "province": "GAUT",
+          "uniqueName": "FOURWAYS"
+        },
+        {
+          "noStreetDeliveryIndicator": true,
+          "streetPostCode": "2191",
+          "postBoxCode": "2055",
+          "suburb": "FOURWAYS EAST",
+          "town": "JOHANNESBURG",
+          "province": "GAUT",
+          "uniqueName": "FOURWAYS EAST"
+        },
+        {
+          "noStreetDeliveryIndicator": true,
+          "streetPostCode": "2191",
+          "postBoxCode": "2055",
+          "suburb": "FOURWAYS EXT 8",
+          "town": "JOHANNESBURG",
+          "province": "GAUT",
+          "uniqueName": "FOURWAYS EXT 08"
+        },
+        {
+          "noStreetDeliveryIndicator": true,
+          "streetPostCode": "2191",
+          "postBoxCode": "2055",
+          "suburb": "FOURWAYS EXT 10",
+          "town": "JOHANNESBURG",
+          "province": "GAUT",
+          "uniqueName": "FOURWAYS EXT 10"
+        },
+        {
+          "noStreetDeliveryIndicator": true,
+          "streetPostCode": "2191",
+          "postBoxCode": "2055",
+          "suburb": "FOURWAYS EXT 12",
+          "town": "JOHANNESBURG",
+          "province": "GAUT",
+          "uniqueName": "FOURWAYS EXT 12"
+        },
+        {
+          "noStreetDeliveryIndicator": true,
+          "streetPostCode": "2191",
+          "postBoxCode": "2055",
+          "suburb": "FOURWAYS EXT 15",
+          "town": "JOHANNESBURG",
+          "province": "GAUT",
+          "uniqueName": "FOURWAYS EXT 15"
+        },
+        {
+          "noStreetDeliveryIndicator": true,
+          "streetPostCode": "2191",
+          "postBoxCode": "2055",
+          "suburb": "FOURWAYS EXT 55",
+          "town": "JOHANNESBURG",
+          "province": "GAUT",
+          "uniqueName": "FOURWAYS EXT 55"
+        },
+        {
+          "noStreetDeliveryIndicator": true,
+          "streetPostCode": "2191",
+          "postBoxCode": "2055",
+          "suburb": "FOURWAYS EXT 8",
+          "town": "JOHANNESBURG",
+          "province": "GAUT",
+          "uniqueName": "FOURWAYS EXT 8"
+        },
+        {
+          "noStreetDeliveryIndicator": true,
+          "streetPostCode": "2191",
+          "postBoxCode": "2055",
+          "suburb": "FOURWAYS EXT 8",
+          "town": "JOHANNESBURG",
+          "province": "GAUT",
+          "uniqueName": "FOURWAYS EXT08"
+        },
+        {
+          "noStreetDeliveryIndicator": true,
+          "streetPostCode": "2191",
+          "postBoxCode": "2055",
+          "suburb": "FOURWAYS EXT 10",
+          "town": "JOHANNESBURG",
+          "province": "GAUT",
+          "uniqueName": "FOURWAYS EXT10"
+        },
+        {
+          "noStreetDeliveryIndicator": true,
+          "streetPostCode": "2191",
+          "postBoxCode": "2055",
+          "suburb": "FOURWAYS EXT 12",
+          "town": "JOHANNESBURG",
+          "province": "GAUT",
+          "uniqueName": "FOURWAYS EXT12"
+        },
+        {
+          "noStreetDeliveryIndicator": true,
+          "streetPostCode": "2191",
+          "postBoxCode": "2055",
+          "suburb": "FOURWAYS EXT 15",
+          "town": "JOHANNESBURG",
+          "province": "GAUT",
+          "uniqueName": "FOURWAYS EXT15"
+        },
+        {
+          "noStreetDeliveryIndicator": true,
+          "streetPostCode": "2191",
+          "postBoxCode": "2055",
+          "suburb": "FOURWAYS EXT 55",
+          "town": "JOHANNESBURG",
+          "province": "GAUT",
+          "uniqueName": "FOURWAYS EXT55"
+        },
+        {
+          "noStreetDeliveryIndicator": true,
+          "streetPostCode": "2191",
+          "postBoxCode": "2055",
+          "suburb": "FOURWAYS EXT 8",
+          "town": "JOHANNESBURG",
+          "province": "GAUT",
+          "uniqueName": "FOURWAYS EXT8"
+        },
+        {
+          "noStreetDeliveryIndicator": true,
+          "streetPostCode": "2191",
+          "postBoxCode": "2086",
+          "suburb": "FOURWAYS NORTH",
+          "town": "JOHANNESBURG",
+          "province": "GAUT",
+          "uniqueName": "FOURWAYS NOORD"
+        },
+        {
+          "noStreetDeliveryIndicator": true,
+          "streetPostCode": "2191",
+          "postBoxCode": "2086",
+          "suburb": "FOURWAYS NORTH",
+          "town": "JOHANNESBURG",
+          "province": "GAUT",
+          "uniqueName": "FOURWAYS NORTH"
+        },
+        {
+          "noStreetDeliveryIndicator": true,
+          "streetPostCode": "2191",
+          "postBoxCode": "2055",
+          "suburb": "FOURWAYS EXT 8",
+          "town": "JOHANNESBURG",
+          "province": "GAUT",
+          "uniqueName": "FOURWAYS UIT 08"
+        },
+        {
+          "noStreetDeliveryIndicator": true,
+          "streetPostCode": "2191",
+          "postBoxCode": "2055",
+          "suburb": "FOURWAYS EXT 10",
+          "town": "JOHANNESBURG",
+          "province": "GAUT",
+          "uniqueName": "FOURWAYS UIT 10"
+        },
+        {
+          "noStreetDeliveryIndicator": true,
+          "streetPostCode": "2191",
+          "postBoxCode": "2055",
+          "suburb": "FOURWAYS EXT 12",
+          "town": "JOHANNESBURG",
+          "province": "GAUT",
+          "uniqueName": "FOURWAYS UIT 12"
+        },
+        {
+          "noStreetDeliveryIndicator": true,
+          "streetPostCode": "2191",
+          "postBoxCode": "2055",
+          "suburb": "FOURWAYS EXT 15",
+          "town": "JOHANNESBURG",
+          "province": "GAUT",
+          "uniqueName": "FOURWAYS UIT 15"
+        },
+        {
+          "noStreetDeliveryIndicator": true,
+          "streetPostCode": "2191",
+          "postBoxCode": "2055",
+          "suburb": "FOURWAYS EXT 55",
+          "town": "JOHANNESBURG",
+          "province": "GAUT",
+          "uniqueName": "FOURWAYS UIT 55"
+        },
+        {
+          "noStreetDeliveryIndicator": true,
+          "streetPostCode": "2191",
+          "postBoxCode": "2055",
+          "suburb": "FOURWAYS EXT 8",
+          "town": "JOHANNESBURG",
+          "province": "GAUT",
+          "uniqueName": "FOURWAYS UIT 8"
+        },
+        {
+          "noStreetDeliveryIndicator": true,
+          "streetPostCode": "2191",
+          "postBoxCode": "2055",
+          "suburb": "FOURWAYS EXT 8",
+          "town": "JOHANNESBURG",
+          "province": "GAUT",
+          "uniqueName": "FOURWAYS UIT08"
+        },
+        {
+          "noStreetDeliveryIndicator": true,
+          "streetPostCode": "2191",
+          "postBoxCode": "2055",
+          "suburb": "FOURWAYS EXT 10",
+          "town": "JOHANNESBURG",
+          "province": "GAUT",
+          "uniqueName": "FOURWAYS UIT10"
+        },
+        {
+          "noStreetDeliveryIndicator": true,
+          "streetPostCode": "2191",
+          "postBoxCode": "2055",
+          "suburb": "FOURWAYS EXT 12",
+          "town": "JOHANNESBURG",
+          "province": "GAUT",
+          "uniqueName": "FOURWAYS UIT12"
+        },
+        {
+          "noStreetDeliveryIndicator": true,
+          "streetPostCode": "2191",
+          "postBoxCode": "2055",
+          "suburb": "FOURWAYS EXT 15",
+          "town": "JOHANNESBURG",
+          "province": "GAUT",
+          "uniqueName": "FOURWAYS UIT15"
+        },
+        {
+          "noStreetDeliveryIndicator": true,
+          "streetPostCode": "2191",
+          "postBoxCode": "2055",
+          "suburb": "FOURWAYS EXT 55",
+          "town": "JOHANNESBURG",
+          "province": "GAUT",
+          "uniqueName": "FOURWAYS UIT55"
+        },
+        {
+          "noStreetDeliveryIndicator": true,
+          "streetPostCode": "2191",
+          "postBoxCode": "2055",
+          "suburb": "FOURWAYS EXT 8",
+          "town": "JOHANNESBURG",
+          "province": "GAUT",
+          "uniqueName": "FOURWAYS UIT8"
+        },
+        {
+          "noStreetDeliveryIndicator": true,
+          "streetPostCode": "2191",
+          "postBoxCode": "20",
+          "suburb": "FOURWAYS EXT 8",
+          "town": "JOHANNESBURG",
+          "province": "GAUT",
+          "uniqueName": "FOURWAYS X 08"
+        },
+        {
+          "noStreetDeliveryIndicator": true,
+          "streetPostCode": "2191",
+          "postBoxCode": "2055",
+          "suburb": "FOURWAYS EXT 10",
+          "town": "JOHANNESBURG",
+          "province": "GAUT",
+          "uniqueName": "FOURWAYS X 10"
+        },
+        {
+          "noStreetDeliveryIndicator": true,
+          "streetPostCode": "2191",
+          "postBoxCode": "2055",
+          "suburb": "FOURWAYS EXT 12",
+          "town": "JOHANNESBURG",
+          "province": "GAUT",
+          "uniqueName": "FOURWAYS X 12"
+        },
+        {
+          "noStreetDeliveryIndicator": true,
+          "streetPostCode": "2191",
+          "postBoxCode": "2055",
+          "suburb": "FOURWAYS EXT 15",
+          "town": "JOHANNESBURG",
+          "province": "GAUT",
+          "uniqueName": "FOURWAYS X 15"
+        },
+        {
+          "noStreetDeliveryIndicator": true,
+          "streetPostCode": "2191",
+          "postBoxCode": "2055",
+          "suburb": "FOURWAYS EXT 55",
+          "town": "JOHANNESBURG",
+          "province": "GAUT",
+          "uniqueName": "FOURWAYS X 55"
+        },
+        {
+          "noStreetDeliveryIndicator": true,
+          "streetPostCode": "2191",
+          "postBoxCode": "2055",
+          "suburb": "FOURWAYS EXT 8",
+          "town": "JOHANNESBURG",
+          "province": "GAUT",
+          "uniqueName": "FOURWAYS X 8"
+        },
+        {
+          "noStreetDeliveryIndicator": true,
+          "streetPostCode": "2191",
+          "postBoxCode": "2055",
+          "suburb": "FOURWAYS EXT 8",
+          "town": "JOHANNESBURG",
+          "province": "GAUT",
+          "uniqueName": "FOURWAYS X08"
+        },
+        {
+          "noStreetDeliveryIndicator": true,
+          "streetPostCode": "2191",
+          "postBoxCode": "2055",
+          "suburb": "FOURWAYS EXT 10",
+          "town": "JOHANNESBURG",
+          "province": "GAUT",
+          "uniqueName": "FOURWAYS X10"
+        },
+        {
+          "noStreetDeliveryIndicator": true,
+          "streetPostCode": "2191",
+          "postBoxCode": "2055",
+          "suburb": "FOURWAYS EXT 12",
+          "town": "JOHANNESBURG",
+          "province": "GAUT",
+          "uniqueName": "FOURWAYS X12"
+        },
+        {
+          "noStreetDeliveryIndicator": true,
+          "streetPostCode": "2191",
+          "postBoxCode": "2055",
+          "suburb": "FOURWAYS EXT 55",
+          "town": "JOHANNESBURG",
+          "province": "GAUT",
+          "uniqueName": "FOURWAYS X55"
+        },
+        {
+          "noStreetDeliveryIndicator": true,
+          "streetPostCode": "2191",
+          "postBoxCode": "2055",
+          "suburb": "FOURWAYS EXT 8",
+          "town": "JOHANNESBURG",
+          "province": "GAUT",
+          "uniqueName": "FOURWAYS X8"
+        },
+        {
+          "noStreetDeliveryIndicator": true,
+          "streetPostCode": "2191",
+          "postBoxCode": "2086",
+          "suburb": "FOURWAYS NORTH",
+          "town": "JOHANNESBURG",
+          "province": "GAUT",
+          "uniqueName": "FOURWAYS-NOORD"
+        },
+        {
+          "noStreetDeliveryIndicator": true,
+          "streetPostCode": "2191",
+          "postBoxCode": "2055",
+          "suburb": "FOURWAYS EAST",
+          "town": "JOHANNESBURG",
+          "province": "GAUT",
+          "uniqueName": "FOURWAYS-OOS"
+        }
+      ],
+      "txnStatus": "Success",
+      "txnMessage": "Success"
+    }
+  }
+}

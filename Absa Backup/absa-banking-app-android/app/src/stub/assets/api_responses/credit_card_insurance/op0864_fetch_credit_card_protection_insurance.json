@@ -1,0 +1,27 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0864",
+      "resCde": "00000",
+      "resMsg": "Success",
+      "serVer": "2.0"
+    },
+    "payData": {
+      "creditProtection": {
+        "accountNo": "5311170000309017",
+        "accountType": "creditCard",
+        "age": "0",
+        "overDraftLimit": "NaN",
+        "monthlyPremium": "6.83",
+        "accountToBeDebited": "5311170000309017",
+        "frequency": "Monthly",
+        "dayOfDebit": "20180403",
+        "premiumAmount": "0",
+        "totalCoverAmount": "100000.0",
+        "monthlyPremiumPercentage": "0.0"
+      },
+      "txnStatus": "Success",
+      "txnMessage": "Success"
+    }
+  }
+}

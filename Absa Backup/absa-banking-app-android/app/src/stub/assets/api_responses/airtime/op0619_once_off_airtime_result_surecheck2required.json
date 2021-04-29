@@ -1,0 +1,19 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0619",
+      "resCde": "00000",
+      "resMsg": "",
+      "serVer": "2.0"
+    },
+    "payData": {
+      "sureCheckFlag": "SURECHECKV2Required",
+      "tvnFlag": "SURECHECKV2Required",
+      "referenceNumber": "OTA1MDk5Mzk1MzEwVk0wODI2NDUxMzU4",
+      "corelationId": "OTA1MDk5Mzk1MzEwVk0wODI2NDUxMzU4",
+      "transactionDate": "2017-07-31 11:02:17",
+      "cellnumber": "******4788",
+      "email": ""
+    }
+  }
+}

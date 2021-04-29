@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scrollView"
+    style="@style/ScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <styleguide.content.TitleAndDescriptionView
+            android:id="@+id/selectedFundTitleAndDescriptionView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_description="@string/switch_unit_trust_summary_selected_fund"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <styleguide.content.LineItemView
+            android:id="@+id/availableUnitsLineItemView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_label_text="@string/unit_trust_available_units"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/selectedFundTitleAndDescriptionView" />
+
+        <styleguide.content.LineItemView
+            android:id="@+id/availableBalanceLineItemView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_label_text="@string/redeem_fund_available_amount"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/availableUnitsLineItemView" />
+
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/switchToFundInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_hint_text="@string/switch_select_fund"
+            app:attribute_selector_type="SEARCHABLE_LONG_LIST"
+            app:attribute_title_text="@string/switch_to_fund"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/availableBalanceLineItemView" />
+
+        <styleguide.buttons.OptionActionButtonView
+            android:id="@+id/minimumDisclosureDocumentButtonView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/medium_space"
+            android:visibility="gone"
+            app:attribute_caption="@string/switch_fund_minimum_disclosure_document"
+            app:attribute_icon="@drawable/ic_document"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/switchToFundInputView" />
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/switchOptionsInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_hint_text="@string/switch_select_option"
+            app:attribute_selector_type="LONG_LIST"
+            app:attribute_title_text="@string/switch_to_option"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/minimumDisclosureDocumentButtonView" />
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/switchValueInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            app:attribute_description_text="@string/redeem_fund_instructions_rule"
+            app:attribute_hint_text="@string/switch_enter_value"
+            app:attribute_title_text="@string/switch_value"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/switchOptionsInputView" />
+
+        <TextView
+            android:id="@+id/investmentOptionsTextView"
+            style="@style/SmallTextMediumDark"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/medium_space"
+            android:layout_marginTop="@dimen/medium_space"
+            android:layout_marginEnd="@dimen/medium_space"
+            android:text="@string/buy_unit_trust_tax_title"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/switchValueInputView"
+            app:layout_goneMarginEnd="@dimen/medium_space" />
+
+        <styleguide.forms.RadioButtonView
+            android:id="@+id/investmentOptionsRadioButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/small_space"
+            app:attribute_is_required="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/investmentOptionsTextView" />
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/accountOptionsInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            app:attribute_description_text="@string/switch_income_clause"
+            app:attribute_hint_text="@string/switch_select_option"
+            app:attribute_selector_type="LONG_LIST"
+            app:attribute_title_text="@string/buy_unit_trust_tax_pay_into_this_account"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/investmentOptionsRadioButton" />
+
+        <styleguide.forms.CheckBoxView
+            android:id="@+id/newDebitOrderForFundCheckBox"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/medium_space"
+            android:layout_marginBottom="@dimen/small_space"
+            app:attribute_description="@string/switch_new_debit_order"
+            app:attribute_is_checked="false"
+            app:attribute_is_error_visible="false"
+            app:attribute_is_required="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/accountOptionsInputView"
+            app:layout_constraintVertical_bias="1" />
+
+        <styleguide.buttons.Button
+            android:id="@+id/nextButton"
+            style="@style/PrimaryButton"
+            android:layout_width="0dp"
+            android:text="@string/next"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/newDebitOrderForFundCheckBox"
+            app:layout_constraintVertical_bias="1" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

@@ -1,0 +1,12 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES1000",
+      "resCde": "Security/LogontoAbsaOnline/Error/ServiceNotActive",
+      "resMsg": "Security/LogontoAbsaOnline/Error/ServiceNotActive",
+      "serVer": "2.0",
+      "expTrace": null
+    },
+    "payData": null
+  }
+}

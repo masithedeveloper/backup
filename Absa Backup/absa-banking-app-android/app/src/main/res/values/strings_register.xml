@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ATM credentials screen -->
+    <string name="register_atm_screen_title" translatable="false">Register</string>
+    <string name="register_for_banking_text" translatable="false">Register for online banking</string>
+    <string name="register_cardnumber_hint" translatable="false">Enter your ATM card number</string>
+    <string name="register_atmpin_hint" translatable="false">Enter your ATM PIN</string>
+    <string name="register_atmpin_hint_text" translatable="false">ATM PIN</string>
+    <string name="register_atm_card_length_validation_error" translatable="false">Please enter a valid 16 digit card number</string>
+    <string name="register_atm_pin_length_validation_error" translatable="false">Please enter a valid ATM PIN</string>
+    <string name="register_atm_number_prompt" translatable="false">ATM card number</string>
+    <string name="register_business_error_message" translatable="false">Please register for online banking on absa.co.za or at your nearest Absa branch.</string>
+    <string name="register_business_profile" translatable="false">Business banking profile.</string>
+
+    <!-- Confirm details screen -->
+    <string name="register_contact_details_screen_title" translatable="false">Contact Details</string>
+    <string name="register_confirm_number_prompt" translatable="false">For security purposes we need to send you a message to confirm your cellphone number.</string>
+    <string name="register_confirm_email_prompt" translatable="false">For security purposes we need to send you a message.</string>
+    <string name="register_confirm_mobile_number_verify_prompt" translatable="false">Is this your cellphone number?</string>
+    <string name="register_confirm_email_verify_prompt" translatable="false">Press continue to verify your email address</string>
+
+    <!-- Camera Unavailable screen -->
+    <string name="register_camera_unavailable_screen_title" translatable="false">Camera Unavailable</string>
+    <string name="register_camera_unavailable_screen_description" translatable="false">Please open Settings > Absa Banking and allow camera access to use this feature.</string>
+    <string name="register_camera_unavailable_screen_open_settings" translatable="false">Open Settings</string>
+
+    <!-- Scan credit card overlay screen -->
+    <string name="scan_card_instructions">Place your card inside the frame to capture the card details. Please note: if you have a vertical or unembossed card you will need to enter your details manually</string>
+
+    <!-- Personal details screen -->
+    <string name="register_personal_details_title" translatable="false">Personal Details</string>
+    <string name="register_your_details" translatable="false">Your account details</string>
+    <string name="register_your_details_below" translatable="false">Below are the details that we have on record</string>
+    <string name="register_select_account_details" translatable="false">Select your access and billing account details</string>
+    <string name="register_add_your_details" translatable="false">Add your account details</string>
+    <string name="registration_title" translatable="false">Title</string>
+    <string name="register_first_name" translatable="false">First name</string>
+    <string name="register_surname" translatable="false">Surname</string>
+
+    <!-- Account details screen -->
+    <string name="select_account_for_digital_banking" translatable="false">Access account</string>
+    <string name="register_details_access_account_hint" translatable="false">Select your access account</string>
+    <string name="register_access_account_additional_information" translatable="false">Your access account will be used to log in to online banking.</string>
+    <string name="billing_account_digital_banking" translatable="false">Billing account</string>
+    <string name="register_details_billing_account_hint" translatable="false">Select your billing account</string>
+    <string name="register_why_access_billing" translatable="false"> \<u>Why do I need to choose an Access and Billing account?</u></string>
+    <string name="register_billing_account_additional_information" translatable="false"> Your billing account is where any online transaction fees will be charged.</string>
+    <string name="register_access_account_selector_title" translatable="false">Select access account</string>
+    <string name="register_billing_account_selector_title" translatable="false">Select billing account</string>
+    <string name="register_agree_to_terms_conditions" translatable="false">I agree to the Terms and Conditions</string>
+    <string name="register_terms_and_conditions_error_message" translatable="false">In order to continue, you need to accept the Personal Client Agreement</string>
+    <string name="register_terms_and_conditions_link_text" translatable="false">Terms and Conditions</string>
+    <string name="register_personal_client_terms_agreement" translatable="false">I have read and I agree to the Personal Client Agreement</string>
+    <string name="register_personal_client_terms_link_text" translatable="false">Personal Client Agreement</string>
+
+    <string name="confirm_number" translatable="false">Confirm your contact details</string>
+    <string name="confirm_number_message" translatable="false">For security purposes we need to send you a message to confirm your cellphone number.  According to our records, your cell phone number is:</string>
+    <string name="verify_mobile_number" translatable="false">Is this your cellphone number?</string>
+    <string name="this_is_not_my_number" translatable="false">This is not my number</string>
+    <string name="first_name" translatable="false">First name</string>
+    <string name="enter_your_first_name_hint" translatable="false">Enter your first name</string>
+    <string name="enter_your_surname_hint" translatable="false">Enter your surname</string>
+    <string name="enter_your_ID_or_passport_number_hint" translatable="false">Enter your ID and Passport number</string>
+    <string name="enter_your_title_hint" translatable="false">E.g, Mr/Ms</string>
+    <string name="billing_account_digital_banking_hint" translatable="false">Select your account for deductions</string>
+
+    <string name="add_your_personal_details" translatable="false">Add your personal details below </string>
+    <string name="select_access_account_details" translatable="false">Select your access and account details</string>
+
+    <string name="select_account_to_deduct_online_fees" translatable="false">Select an account to deduct all online fees from</string>
+    <string name="enter_unique_number_description" translatable="false">This number is displayed underneath the QR code on step 3 of your registration process on absa.co.za.</string>
+    <string name="enter_unique_number_hint" translatable="false">Enter your unique number</string>
+    <string name="resend_rvn_code" translatable="false">Resend RVN code</string>
+    <string name="enter_rvn_code" translatable="false">Please enter RVN code</string>
+    <string name="confirm_your_details" translatable="false">Confirm your details</string>
+    <string name="confirm_your_details_instruction" translatable="false">Please confirm all your details below</string>
+    <string name="rvn_instruction" translatable="false">A RVN has been sent to your registered mobile number via SMS. Please enter your RVN below.</string>
+    <string name="register_atm_pin_hint" translatable="false">Enter ATM PIN</string>
+    <string name="register_confirm_mobile_no" translatable="false">Is this your cellphone number?</string>
+    <string name="password_registration_screen" translatable="false">Password</string>
+    <string name="create_your_password" translatable="false">Create your password</string>
+    <string name="create_your_password_text" translatable="false">Create your Absa Online password.</string>
+    <string name="enter_your_password" translatable="false">Password</string>
+    <string name="enter_your_password_hint" translatable="false">Enter password</string>
+    <string name="confirm_your_password" translatable="false">Confirm Password</string>
+    <string name="numbers_and_letters_warning" translatable="false">Must contain both numbers and letters.</string>
+    <string name="character_limit_warning" translatable="false">Must be 8 to 12 characters long.</string>
+    <string name="no_special_characters" translatable="false"><![CDATA[Must not contain any special characters i.e. */?-&%#@!<>() or spaces.]]></string>
+    <string name="do_not_include_name" translatable="false">Must not contain your name.</string>
+    <string name="sequence_text" translatable="false">Must not contain a sequence like 123.</string>
+
+    <string name="five_digit_banking_pin_description" translatable="false">Create a 5-digit PIN that you will use to log in to your banking profile.</string>
+    <string name="enter_your_pin" translatable="false">5-Digit PIN</string>
+    <string name="confirm_your_pin" translatable="false">Confirm 5-Digit PIN</string>
+    <string name="enter_your_pin_hint" translatable="false">Enter PIN</string>
+    <string name="confirm_your_pin_hint" translatable="false">Enter PIN</string>
+    <string name="surephrase_text" translatable="false">SurePhrase</string>
+    <string name="what_is_surephrase" translatable="false">What is Surephrase?</string>
+    <string name="create_your_pin" translatable="false">Digital banking PIN</string>
+
+    <string name="congratulations_subtext_register" translatable="false">You will use the details below to log in to online banking. Please remember the details below and do not share them with anyone.</string>
+    <string name="congratulations_register_text" translatable="false">You are registered for online banking</string>
+    <string name="congratulations_register_partial_text" translatable="false">You are partially registered for online banking</string>
+    <string name="account_limits" translatable="false">Account limits</string>
+    <string name="account_limits_title" translatable="false">Account Limits</string>
+    <string name="payments_daily_limits" translatable="false">Payments daily limit</string>
+    <string name="inter_account_transfer_daily_limit" translatable="false">Inter-account transfer daily limit</string>
+    <string name="accounts_limits_description" translatable="false">Please note you will only be able to increase these limits after 10 days on Absa Online.</string>
+    <string name="your_account_number_register" translatable="false">Account number</string>
+    <string name="your_password_register" translatable="false">Password</string>
+    <string name="surephrase_fix_lint_crying" translatable="false">%s %s</string>
+    <string name="success_string">Card limits successfully updated</string>
+    <string name="register_partial_title" translatable="false">Continue with partial registration</string>
+    <string name="register_partial_description" translatable="false">You may continue with registration, but you will not be able to transact until your contact information is up to date.\n\nPlease contact Absa or visit your nearest branch to update your contact information.</string>
+    <string name="register_select_account_hint" translatable="false">Select your account for deductions</string>
+    <string name="register_your_details_title" translatable="false">Add your details</string>
+    <string name="register_select_account" translatable="false">Select your access and account details</string>
+    <string name="account_limit_not_set" translatable="false">Not set</string>
+
+    <string name="already_register_digital_profile" translatable="false">It seems you already have an online banking profile. All you need to do is log into your account and link your phone.</string>
+    <string name="confirm_donation">Confirm Donation</string>
+    <string name="password_reset_failed" translatable="false">Password reset failed</string>
+    <string name="password_reset_failed_explanation" translatable="false">Please try again. If the problem persists, you may need to visit Absa online banking (https://www.absa.co.za) to reset your password.</string>
+</resources>

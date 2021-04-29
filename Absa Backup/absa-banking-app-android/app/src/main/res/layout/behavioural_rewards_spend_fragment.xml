@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scrollView"
+    style="@style/ScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <styleguide.buttons.OptionActionButtonView
+            android:id="@+id/redeemCashActionButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:attribute_caption="@string/cash"
+            app:attribute_icon="@drawable/ic_cash"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <styleguide.buttons.OptionActionButtonView
+            android:id="@+id/buyAirtimeActionButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:attribute_caption="@string/airtime"
+            app:attribute_icon="@drawable/ic_mobile_dark"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/redeemCashActionButton" />
+
+        <styleguide.buttons.OptionActionButtonView
+            android:id="@+id/reedeemVouchersActionButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            app:attribute_caption="@string/vouchers"
+            app:attribute_icon="@drawable/ic_voucher_dark"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buyAirtimeActionButton" />
+
+        <styleguide.buttons.OptionActionButtonView
+            android:id="@+id/redeemShoppingPointsActionButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:attribute_caption="@string/redeeming_shopping_points"
+            app:attribute_icon="@drawable/ic_shopping_dark"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/reedeemVouchersActionButton" />
+
+        <styleguide.buttons.OptionActionButtonView
+            android:id="@+id/donateToCharityActionButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:attribute_caption="@string/donate_to_charity"
+            app:attribute_icon="@drawable/ic_heart_dark"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/redeemShoppingPointsActionButton" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

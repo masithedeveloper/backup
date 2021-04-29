@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fixed_deposit_payout_details_navigation_graph"
+    app:startDestination="@id/fixedDepositInterestPayoutDetailsFragment">
+
+    <fragment
+        android:id="@+id/fixedDepositInterestPayoutDetailsFragment"
+        android:name="com.barclays.absa.banking.fixedDeposit.FixedDepositInterestPayoutDetailsFragment"
+        android:label="FixedDepositInterestPayoutDetailsFragment"
+        tools:layout="@layout/fixed_deposit_interest_payout_details_fragment">
+        <action
+            android:id="@+id/action_fixedDepositInterestPayoutDetailsFragment_to_fixedDepositInterestPayoutConfirmationFragment"
+            app:destination="@id/fixedDepositInterestPayoutConfirmationFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+    <fragment
+        android:id="@+id/fixedDepositInterestPayoutConfirmationFragment"
+        android:name="com.barclays.absa.banking.fixedDeposit.FixedDepositInterestPayoutConfirmationFragment"
+        android:label="FixedDepositInterestPayoutConfirmationFragment"
+        tools:layout="@layout/fixed_deposit_interest_payout_confirmation_fragment">
+        <action
+            android:id="@+id/action_fixedDepositInterestPayoutConfirmationFragment_to_genericResultScreenFragment"
+            app:destination="@id/genericResultScreenFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+    <fragment
+        android:id="@+id/genericResultScreenFragment"
+        android:name="styleguide.screens.GenericResultScreenFragment"
+        android:label="GenericResultScreenFragment"
+        tools:layout="@layout/generic_results_screen_fragment">
+        <argument
+            android:name="GenericResultScreenFragment"
+            app:argType="styleguide.screens.GenericResultScreenProperties" />
+    </fragment>
+</navigation>

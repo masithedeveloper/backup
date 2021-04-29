@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <styleguide.bars.CollapsingAppBarView
+            android:id="@+id/collapsing_appbar_view"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:fitsSystemWindows="true"
+            android:visibility="visible"
+            app:attribute_app_bar_title="@string/current_account"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <styleguide.widgets.OfferBannerView
+            android:id="@+id/OfferBannerView"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:visibility="invisible"
+            app:attribute_apply_button_text="@string/apply_now"
+            app:attribute_background_drawable="@drawable/ic_overdraft_vcl_large"
+            app:attribute_offer_content_text="@string/overdraft_intro_qualify_title"
+            app:attribute_offer_title_text="@string/need_emergency_funds"
+            app:attribute_primary_button_text="@string/find_out_more"
+            app:attribute_secondary_button_text="@string/overdraft_offer_not_now"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <styleguide.widgets.OfferBannerView
+            android:id="@+id/moneyMarketOfferBannerView"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:visibility="invisible"
+            app:attribute_background_drawable="@drawable/orbit_banner"
+            app:attribute_offer_content_text="@string/money_market_banner_title"
+            app:attribute_offer_title_text="@string/money_market_banner_content"
+            app:attribute_primary_button_text="@string/find_out_more"
+            app:attribute_secondary_button_text="@string/overdraft_offer_not_now"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

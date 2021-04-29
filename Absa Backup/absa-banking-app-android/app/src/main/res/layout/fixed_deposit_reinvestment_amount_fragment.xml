@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    style="@style/ScrollView">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <styleguide.forms.LargeInputView
+            android:id="@+id/amountInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:maxLength="20"
+            app:attribute_hint_text="@string/fixed_deposit_investment_amount"
+            app:attribute_selector_type="CURRENCY_DECIMAL"
+            app:attribute_title_text="@string/fixed_deposit_investment_amount"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:attribute_description_text="Additional funds required: R 80 500.00 " />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/additionalFundsConstraintLayout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/amountInputView"
+            tools:visibility="visible">
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/fromAccountNormalInputView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_hint_text="@string/choose_an_account"
+                app:attribute_selector_type="LONG_LIST"
+                app:attribute_title_text="@string/from_account_title"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/fromAccountReferenceNormalInputView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:digits="@string/allowed_reference_digits"
+                android:inputType="textCapWords"
+                android:maxLength="20"
+                app:attribute_editable="true"
+                app:attribute_hint_text="@string/fixed_deposit_enter_reference"
+                app:attribute_title_text="@string/fixed_deposit_from_account_reference"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/fromAccountNormalInputView" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/toAccountReferenceNormalInputView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:digits="@string/allowed_reference_digits"
+                android:inputType="textCapWords"
+                android:maxLength="20"
+                app:attribute_editable="true"
+                app:attribute_hint_text="@string/fixed_deposit_enter_reference"
+                app:attribute_title_text="@string/fixed_deposit_to_account_reference"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/fromAccountReferenceNormalInputView" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <styleguide.buttons.Button
+            android:id="@+id/nextButton"
+            style="@style/PrimaryButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/next"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/additionalFundsConstraintLayout"
+            app:layout_constraintVertical_bias="1" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

@@ -1,0 +1,52 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0332",
+      "resCde": "00000",
+      "resMsg": "",
+      "serVer": "2.0",
+      "expTrace": null
+    },
+    "payData": {
+      "addUpdBen": {
+        "tiebNumber": null,
+        "benTyp": "cashsend",
+        "shortName": "John De Verve",
+        "benSurNam": "Apple",
+        "benNoticeTyp": "No",
+        "cellNo": "0885555512",
+        "benNam": "John De Verve",
+        "myRef": "ref",
+        "isFav": null,
+        "networkProv": null,
+        "benStatusTyp": null,
+        "bankNam": null,
+        "branchNam": null,
+        "branchCd": null,
+        "actNo": null,
+        "actTyp": null,
+        "myNoticeTyp": "No",
+        "myMobile": null,
+        "myEmail": null,
+        "myFaxCode": null,
+        "myFaxNum": null,
+        "myRecipientNam": null,
+        "benRef": null,
+        "benMobile": null,
+        "benEmail": null,
+        "benFaxCode": null,
+        "benFaxNum": null,
+        "benRecipientNam": null,
+        "benId": "1",
+        "networkProviderName": null,
+        "acctAtInst": null,
+        "instNam": null,
+        "hasImage": "N"
+      },
+      "status": "Success",
+      "txnRefNo": "15281929613260",
+      "msg": null,
+      "ownDto": null
+    }
+  }
+}

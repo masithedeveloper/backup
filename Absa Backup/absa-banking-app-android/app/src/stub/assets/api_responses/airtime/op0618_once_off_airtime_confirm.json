@@ -1,0 +1,23 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0618",
+      "resCde": "00000",
+      "resMsg": "",
+      "serVer": "2.0"
+    },
+    "payData": {
+      "txnAmt": {
+        "curr": "R",
+        "amt": "10.00"
+      },
+      "txnRefNo": "15014916941125",
+      "frmAcctNo": "9050993953",
+      "frmAcctTyp": "Savings account",
+      "cellNo": "0826451358",
+      "networkProvider": "VM",
+      "airtimeTyp": "Airtime",
+      "networkProviderName": "Virgin Mobile"
+    }
+  }
+}

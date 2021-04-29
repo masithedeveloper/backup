@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:parentTag="androidx.constraintlayout.widget.ConstraintLayout">
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="@dimen/circular_button_size"
+        android:layout_height="@dimen/circular_button_size"
+        android:layout_margin="@dimen/_2sdp"
+        app:borderWidth="0dp"
+        app:elevation="6dp"
+        app:fabCustomSize="@dimen/circular_button_size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:pressedTranslationZ="0dp" />
+
+    <TextView
+        android:id="@+id/title_text_view"
+        style="@style/SmallTextRegularDark"
+        android:layout_width="@dimen/max_fab_text_size"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/small_space"
+        android:gravity="center"
+        android:lines="2"
+        android:maxLines="2"
+        android:textColor="@color/dark_grey_light_theme_text_color"
+        app:autoSizeMaxTextSize="@dimen/small_text_size"
+        app:autoSizeMinTextSize="10sp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/floatingActionButton"
+        tools:ignore="MissingPrefix"
+        tools:text="Pay" />
+
+</merge>

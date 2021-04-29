@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <styleguide.buttons.OptionActionButtonView
+            android:id="@+id/payNewBeneficiaryLink"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:attribute_caption="@string/pay_new_receipient"
+            app:attribute_icon="@drawable/ic_pay_new" />
+
+        <styleguide.buttons.OptionActionButtonView
+            android:id="@+id/makeOnceOffLink"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:attribute_caption="@string/onceoff_payment"
+            app:attribute_icon="@drawable/ic_once_off" />
+
+        <styleguide.buttons.OptionActionButtonView
+            android:id="@+id/multipleBeneficiaryPaymentLink"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:attribute_caption="@string/pay_multiple"
+            app:attribute_icon="@drawable/ic_multiple_beneficiary" />
+
+        <styleguide.buttons.OptionActionButtonView
+            android:id="@+id/internationalPaymentsLink"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            app:attribute_caption="@string/international_payment_menu_item"
+            app:attribute_icon="@drawable/ic_international_payments" />
+
+        <View
+            android:id="@+id/recentTransactionsTopDivider"
+            style="@style/DividerView"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="@dimen/small_space"
+            android:layout_marginBottom="@dimen/small_space" />
+
+        <styleguide.content.HeadingView
+            android:id="@+id/recentTransactionHeadingView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_10dp"
+            android:layout_marginBottom="@dimen/dimen_10dp"
+            android:visibility="gone"
+            app:attribute_heading="@string/recent" />
+
+        <LinearLayout
+            android:id="@+id/recentTransactionView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dimen_10dp"
+            android:orientation="vertical"
+            android:visibility="gone" />
+
+        <View
+            android:id="@+id/recentTransactionsBottomDivider"
+            style="@style/DividerView"
+            android:layout_width="match_parent"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/listing_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_10dp"
+            android:divider="@drawable/divider_vertical"
+            android:orientation="vertical"
+            android:showDividers="middle|end"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:id="@+id/recent_paid_container_main"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="@drawable/divider_vertical"
+                android:orientation="vertical"
+                android:showDividers="middle"
+                android:visibility="visible">
+
+                <TextView
+                    style="@style/TextView_HeaderGrey"
+                    android:text="@string/recent_beneficiary" />
+
+                <LinearLayout
+                    android:id="@+id/recent_tras_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" />
+            </LinearLayout>
+
+            <TextView
+                style="@style/TextView_HeaderGrey"
+                android:text="@string/saved_beneficiaries" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/no_ben_found_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/large_space"
+            android:visibility="gone">
+
+            <TextView
+                style="@style/NormalTextMediumDark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="@dimen/medium_space"
+                android:text="@string/no_ben_title_msg"
+                android:textColor="@color/dark_grey_light_theme_text_color" />
+
+            <TextView
+                style="@style/SmallTextMediumDark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="@dimen/medium_space"
+                android:gravity="center_horizontal"
+                android:text="@string/no_ben_details_msg"
+                android:textColor="@color/dark_grey_light_theme_text_color" />
+
+            <styleguide.buttons.Button
+                android:id="@+id/addNewBeneficiaryButton"
+                style="@style/PrimaryButton"
+                android:text="@string/add_new_payment_ben_bnt_txt" />
+        </LinearLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/noBeneficiaryFoundSwitchingContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            tools:visibility="visible">
+
+            <ImageView
+                android:id="@+id/addNewBeneficiaryImageView"
+                android:layout_width="@dimen/dimen_80dp"
+                android:layout_height="@dimen/dimen_80dp"
+                android:layout_margin="@dimen/large_space"
+                android:tint="@null"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_add_beneficiary" />
+
+            <styleguide.content.SecondaryContentAndLabelView
+                android:id="@+id/addNewBeneficiaryDescriptionLabel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_secondary_content="@string/payment_beneficiaries_get_started"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/addNewBeneficiaryImageView" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+</layout>

@@ -1,0 +1,43 @@
+{
+  "payHdr": {
+    "expTrace": "null",
+    "resCde": "00000",
+    "resId": "null",
+    "resMsg": "success",
+    "serVer": "2.0"
+  },
+  "payData": {
+    "headerText": "Hierdie is opsionele bygevoegde dienste. Kies dié wat jy graag wil insluit en een van ons bankiers sal jou kontak.",
+    "footerText": "*Opsies wat aan Sjaria voldoen is beskikbaar",
+    "options": [
+      {
+        "title": "Kort- en langtermybefondsingsoplossings",
+        "desc": "(Oortrekking, Kredietkaarte, Wentellenings, Termynlenings)",
+        "key": "rewardsVas1",
+        "value": "SHORT_AND_MEDIUM_TERM_FUNDING",
+        "visible": "true"
+      },
+      {
+        "title": "Batefinansiering*",
+        "desc": "(Kommersiële Batefinansiering, Kommersiële Eiendomsfinansiering)",
+        "key": "rewardsVas2",
+        "value": "ASSET_FINANCE",
+        "visible": "true"
+      },
+      {
+        "title": "Doen en ontvang betalings*",
+        "desc": "(Handelaarsoplossings, betalingsaanvaardingoplossings)",
+        "key": "rewardsVas3",
+        "value": "MAKE_AND_RECEIVE_PAYMENTS",
+        "visible": "true"
+      },
+      {
+        "title": "Spaar- en beleggingsprodukte*",
+        "desc": "(Kennisdeposito’s, termynbeleggings, Islamic-beleggings)",
+        "key": "rewardsVas4",
+        "value": "SAVING_AND_INVESTMENT_PRODUCTS",
+        "visible": "true"
+      }
+    ]
+  }
+}

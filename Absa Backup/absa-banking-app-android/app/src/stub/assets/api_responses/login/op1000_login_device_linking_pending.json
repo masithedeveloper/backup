@@ -1,0 +1,71 @@
+{
+  "successResponseModel" : {
+    "payData" : {
+      "allActList" : [
+
+      ],
+      "custProf" : {
+        "accrtBalDt" : "06\/04\/2017 03:11:44",
+        "langCode" : "E",
+        "clientType" : "I",
+        "surePhrase" : "J NOBREGA",
+        "limitsNotSet" : "false",
+        "deviceLinkRequired" : "true",
+        "custActsSize" : "0",
+        "lastLgnTm" : "2017-04-06",
+        "hasMCL" : "false",
+        "imageName" : "QaHyL0PuFiIrJrlx6-OgD1VK77x6WItH4whdsaw4Ifo=",
+        "reachedDeviceMaxLimit" : "false",
+        "image" : "",
+        "sessionId" : "3edcf43f0576459721df",
+        "showRewardsLink" : "Y",
+        "custName" : "J NOBREGA",
+        "customerType" : "F",
+        "idNoRequired" : "true",
+        "hasImage" : "N"
+      },
+      "payLst" : [
+
+      ],
+      "airTime" : [
+
+      ],
+      "deviceList" : [
+
+      ],
+      "hasProfileSetup" : "N",
+      "cashSend" : [
+
+      ],
+      "passwordDigitList" : [
+        {
+          "index" : "1",
+          "name" : "B4c092178"
+        },
+        {
+          "index" : "5",
+          "name" : "c26a72b"
+        },
+        {
+          "index" : "7",
+          "name" : "B2233dc9e"
+        }
+      ],
+      "ival" : "630292069103fbyq",
+      "passwordLength" : "9",
+      "accessPrivileges" : {
+        "isOperator" : "N",
+        "isInterAccountTransferAllowed" : "Y",
+        "isCashSendAllowed" : "Y",
+        "isBeneficiaryPaymentAllowed" : "Y",
+        "isPrepaidAllowed" : "Y"
+      }
+    },
+    "payHdr" : {
+      "resCde" : "00000",
+      "serVer" : "2.0",
+      "resMsg" : "DEVICE LINKING PENDING",
+      "resId" : "RES1000"
+    }
+  }
+}

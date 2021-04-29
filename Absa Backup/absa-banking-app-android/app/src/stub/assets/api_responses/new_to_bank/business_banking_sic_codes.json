@@ -1,0 +1,67 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES2100",
+      "resCde": "00000",
+      "resMsg": "Success",
+      "serVer": "2.0",
+      "expTrace": null
+    },
+    "payData": {
+      "codesLookupDetails": [
+        {
+          "codesLookupType": "SIC_CODE",
+          "itemCode": "1",
+          "engCodeDescription": "AGRICULTURE_HUNTING_FORESTRY_AND_FISHING"
+        },
+        {
+          "codesLookupType": "SIC_CODE",
+          "itemCode": "2",
+          "engCodeDescription": "MINING_AND_QUARRYING"
+        },
+        {
+          "codesLookupType": "SIC_CODE",
+          "itemCode": "3",
+          "engCodeDescription": "MANUFACTURING"
+        },
+        {
+          "codesLookupType": "SIC_CODE",
+          "itemCode": "4",
+          "engCodeDescription": "ELECTRICITY_GAS_AND_WATER_SUPPLY"
+        },
+        {
+          "codesLookupType": "SIC_CODE",
+          "itemCode": "5",
+          "engCodeDescription": "CONSTRUCTION"
+        },
+        {
+          "codesLookupType": "SIC_CODE",
+          "itemCode": "6",
+          "engCodeDescription": "WHOLESALE_AND_RETAIL_TRADE_REPAIR_MOTOR_VEHICLES_MOTOR_CYCLES_HOUSEHOLD_GOODS_HOTELS_AND_RESTAURANTS"
+        },
+        {
+          "codesLookupType": "SIC_CODE",
+          "itemCode": "7",
+          "engCodeDescription": "TRANSPORT_STORAGE_AND_COMMUNICATION"
+        },
+        {
+          "codesLookupType": "SIC_CODE",
+          "itemCode": "8",
+          "engCodeDescription": "FINANCIAL_INTERMEDIATION_INSURANCE_REAL_ESTATE_AND_BUSINESS_SERVICES"
+        },
+        {
+          "codesLookupType": "SIC_CODE",
+          "itemCode": "9",
+          "engCodeDescription": "COMMUNITY_SOCIAL_AND_PERSONAL_SERVICES"
+        },
+        {
+          "codesLookupType": "SIC_CODE",
+          "itemCode": "0",
+          "engCodeDescription": "EXTERRITORIAL_ORGANISATIONS_REPRESENTATIVES_OF_FOREIGN_GOVERNMENTS"
+        }
+      ],
+      "txnStatus": "Success",
+      "txnMessage": "Success"
+    }
+  }
+}

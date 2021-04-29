@@ -1,0 +1,171 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES2001",
+      "resCde": "00000",
+      "resMsg": "",
+      "serVer": "2.0",
+      "expTrace": null
+    },
+    "payData": {
+      "passwordLength": "9",
+      "passwordDigitList": [
+        {
+          "index": "0",
+          "name": "B7b3d62f0",
+          "value": null
+        },
+        {
+          "index": "2",
+          "name": "a3ed61fc",
+          "value": null
+        },
+        {
+          "index": "7",
+          "name": "B5f2573b2",
+          "value": null
+        }
+      ],
+      "deviceList": [],
+      "ival": "692644051257xgvu",
+      "balNotYetClrdDt": "2017-04-17 22:40",
+      "accessPrivileges": {
+        "accessMessage": null,
+        "isOperator": "N",
+        "isInterAccountTransferAllowed": "Y",
+        "isBeneficiaryPaymentAllowed": "Y",
+        "isCashSendAllowed": "Y",
+        "isPrepaidAllowed": "Y"
+      },
+      "allActList": [
+        {
+          "favorite": "N",
+          "accessTypeBits": "2.0",
+          "isBalanceMasked": "N",
+          "viewAcctHistoryAllowed": "Y",
+          "acctAccessBits": "65535.0",
+          "actNo": "4047662320",
+          "desc": "Current account",
+          "image": null,
+          "curBal": {
+            "curr": "R",
+            "amt": "-1,043.74"
+          },
+          "avblBal": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "typ": "currentAccount",
+          "mkdActNo": "******2320",
+          "curr": "R",
+          "overDraftLimit": {
+            "curr": "R",
+            "amt": "0.00"
+          }
+        },
+        {
+          "favorite": "N",
+          "accessTypeBits": "1.0",
+          "isBalanceMasked": "N",
+          "viewAcctHistoryAllowed": "Y",
+          "acctAccessBits": "64159.0",
+          "actNo": "9050984427",
+          "desc": "Savings account",
+          "image": null,
+          "curBal": {
+            "curr": "R",
+            "amt": "1,499.01"
+          },
+          "avblBal": {
+            "curr": "R",
+            "amt": "1,499.01"
+          },
+          "typ": "savingsAccount",
+          "mkdActNo": "******4427",
+          "curr": "R",
+          "overDraftLimit": {
+            "curr": "R",
+            "amt": "0.00"
+          }
+        }
+      ],
+      "custProf": {
+        "reachedDeviceMaxLimit": "false",
+        "sessionId": "2a07b222f79c3e52b72f",
+        "deviceLinkRequired": "false",
+        "clientType": "I",
+        "customerType": "E",
+        "hasImage": "N",
+        "imageName": "7j93ZDLIdulUUXRA5KlH1kcNu23GDP8faofDIb8ntKU=",
+        "accrtBalDt": "17/04/2017 22:40:26",
+        "custName": "j maqabe",
+        "lastLgnTm": "2017-04-17",
+        "surePhrase": "j maqabe",
+        "image": "",
+        "langCode": "E",
+        "custActsSize": "2",
+        "showRewardsLink": "Y",
+        "hasMCL": "false",
+        "authPassNotRegistered": null,
+        "limitsNotSet": "false",
+        "alias": null,
+        "idNoRequired": "true",
+        "secondFactorSnoozed": false,
+        "secondFactorState": 20,
+        "secondFactorStateDate": "2017-04-17 00:00:00",
+        "secondFactorDaysLeft": 0
+      },
+      "payLst": [
+        {
+          "imageName": "cESJkDyAfb3JK2O3cn9PWVTFBOiiw68CBbHqbCJFskI=",
+          "hasImage": "N",
+          "tiebNumber": "0",
+          "benRef": null,
+          "myRef": null,
+          "isFav": "Y",
+          "bankName": null,
+          "accountType": null,
+          "lastTxnAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "lastTxnDate": "",
+          "benNam": "Ewert Cloete",
+          "benId": "1",
+          "txnTyp": "external",
+          "image": "",
+          "actNo": "11960973",
+          "benSurNam": null
+        }
+      ],
+      "cashSend": [],
+      "airTime": [
+        {
+          "imageName": "VnmTwvR93aDdJ-PapYNK7i1nGxbAlzRsJ4g2ukn7rC0=",
+          "hasImage": "N",
+          "tiebNumber": "0",
+          "benRef": null,
+          "myRef": null,
+          "isFav": "Y",
+          "bankName": null,
+          "accountType": null,
+          "lastTxnAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "lastTxnDate": "",
+          "benNam": "Vodacom TestA",
+          "benId": "1",
+          "txnTyp": "prepaid",
+          "image": "",
+          "actNo": "0721331778",
+          "benSurNam": null
+        }
+      ],
+      "hasProfileSetup": "N",
+      "backgroundImage": null,
+      "accountImage": null,
+      "imageName": null
+    }
+  }
+}

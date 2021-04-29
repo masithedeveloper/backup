@@ -1,0 +1,60 @@
+/*
+ *  Copyright (c) 2019 Absa Bank Limited, All Rights Reserved.
+ *
+ *  This code is confidential to Absa Bank Limited and shall not be disclosed
+ *  outside the Bank without the prior written permission of the Absa Legal
+ *
+ *  In the event that such disclosure is permitted the code shall not be copied
+ *  or distributed other than on a need-to-know basis and any recipients may be
+ *  required to sign a confidentiality undertaking in favor of Absa Bank
+ *  Limited
+ *
+ */
+
+// Top-level build file where you can add configuration options common to all sub-projects/modules
+
+buildscript {
+    ext {
+        dagger_version = '2.27'
+        kotlin_version = '1.4.32'
+        new_relic_version = '5.28.0'
+        safe_args_version = "2.1.0"
+        espressoVersion = "3.2.0"
+        lottieVersion = "3.0.1"
+        ext.retrofit_version = '2.9.0'
+    }
+
+    repositories {
+        google()
+        jcenter()
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:4.1.0'
+        classpath 'com.google.gms:google-services:4.3.4'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        classpath "org.jetbrains.kotlin:kotlin-android-extensions:$kotlin_version"
+        classpath "androidx.navigation:navigation-safe-args-gradle-plugin:$safe_args_version"
+
+        def task = getGradle().getStartParameter().getTaskRequests().toString()
+        if (task.contains("Release") || task.contains("Prod")) {
+            classpath "com.newrelic.agent.android:agent-gradle-plugin:$new_relic_version"
+        }
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        mavenCentral()
+    }
+
+    tasks.withType(org.jetbrains.kotlin.gradle.tasks.KotlinCompile).all {
+        kotlinOptions {
+            jvmTarget = "1.8"
+        }
+    }
+}
+

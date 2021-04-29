@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/grp1">
+        <item
+            android:id="@+id/i_changed_my_mind"
+            android:title="@string/changed_mind" />
+        <item
+            android:id="@+id/suspicious_transaction"
+            android:title="@string/suspicious_transaction" />
+        <item
+            android:id="@+id/what_is_2fa"
+            android:title="@string/what_is_surecheck" />
+    </group>
+</menu>

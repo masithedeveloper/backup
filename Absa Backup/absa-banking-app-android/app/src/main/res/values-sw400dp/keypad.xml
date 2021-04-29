@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="keyboard_button_new_size">@dimen/_52sdp</dimen>
+    <dimen name="profile_pager_picture_new_size">100dp</dimen>
+    <dimen name="keyboard_column_width_size">108dp</dimen>
+    <dimen name="keyboard_button_bottom_margin">24dp</dimen>
+    <string name="size">C</string>
+</resources>

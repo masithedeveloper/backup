@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cashSendPlusCancellationNavGraph"
+    app:startDestination="@id/cashSendPlusCancellationFragment">
+
+    <fragment
+        android:id="@+id/cashSendPlusCancellationFragment"
+        android:name="com.barclays.absa.banking.cashSendPlus.ui.CashSendPlusCancellationFragment"
+        android:label="CashSendPlusCancellationFragment"
+        tools:layout="@layout/cash_send_plus_cancellation_fragment">
+        <action
+            android:id="@+id/action_cashSendPlusCancellationFragment_to_genericResultFragment"
+            app:destination="@id/genericResultFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/genericResultFragment"
+        android:name="styleguide.screens.GenericResultScreenFragment"
+        android:label="GenericResultScreenFragment"
+        tools:layout="@layout/generic_results_screen_fragment">
+        <argument
+            android:name="GenericResultScreenFragment"
+            app:argType="styleguide.screens.GenericResultScreenProperties" />
+    </fragment>
+</navigation>

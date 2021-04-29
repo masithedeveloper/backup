@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="cash_send_min_max">Jy kan tussen R 50.00 en R 3 000.00 stuur</string>
+    <string name="cash_send_success_text">Jy het sopas vir %s  %s gestuur na %s.</string>
+    <string name="select_account_toolbar_title">Kies Rekening</string>
+    <string name="select_account_hint">Kies rekening</string>
+    <string name="confirm_cash_send">Bevestig CashSend</string>
+    <string name="cash_send_beneficiary_placeholder">Marian Reed</string>
+    <string name="cash_send_mobile_number_placeholder">072 123 1234</string>
+    <string name="cash_send_from_account_label">Uit rekening</string>
+    <string name="cash_send_mobile_number_label">Selfoonnommer</string>
+    <string name="cash_send_beneficiary_label">Begunstigde</string>
+    <string name="cash_send_amount_Label">Bedrag</string>
+    <string name="cash_send_atm_access_pin_label">OTM-toegangspin</string>
+    <string name="cash_send_confirm">Bevestig CashSend</string>
+    <string name="cash_send_atm_pin_placeholder" >123456</string>
+    <string name="cash_send_beneficiary_name_placeholder" >Marian Payment</string>
+    <string name="cash_send_success">CashSend suksesvol</string>
+    <string name="cash_send_fail">CashSend onsuksesvol</string>
+    <string name="recipient_label">Begunstigde</string>
+    <string name="cash_send_reference_label">My verwysing</string>
+    <string name="account_selection_error">Geen rekeninge beskikbaar nie</string>
+    <string name="cash_send_change_pin">Verander OTM PIN</string>
+    <string name="cash_send_unredeemed_sent_on_date">Gestuur op</string>
+    <string name="cash_send_unredeemed_sent_on_placeholder" translatable="false">13 June 2018</string>
+    <string name="today">Vandag</string>
+    <string name="yesterday">Gister</string>
+
+    <string name="balance_exceeded">Balans oorskry.</string>
+    <string name="you_have_available">Jy het %s beskikbaar.</string>
+    <string name="cash_send_invalid_phone_number">Kies asseblief geldige telefoonnommer</string>
+    <string name="cash_send_cash_at_absa_atm">Jy gaan die PIN gebruik om jou kontant by enige Absa OTM te onttrek.</string>
+    <string name="cash_send_cash_at_absa_atm_receiver">Die ontvanger sal die PIN gebruik om die kontant by enige Absa OTM te onttrek.</string>
+
+    <string name="cash_send_recipient_surname">Begunstigde se van</string>
+    <string name="cash_send_enter_recipient_surname">Tik die begunstigde se van in</string>
+    <string name="cash_send_recipient_mobile_number">Begunstigde selfoonnommer</string>
+    <string name="cash_send_recipient_enter_mobile_number">Tik die begunstigde se selfoonnommer in</string>
+
+    <string name="cash_send_beneficiary_name">Begunstigde se naam</string>
+    <string name="cash_send_enter_beneficiary_name">Voer begunstigde se naam in</string>
+    <string name="cash_send_beneficiary_surname">Begunstigde van</string>
+    <string name="cash_send_enter_beneficiary_surname">Tik die begunstigde se van in</string>
+    <string name="cash_send_beneficiary_mobile_number">Begunstigde se selfoonnommer</string>
+    <string name="cash_send_enter_beneficiary_mobile_number">Tik die begunstigde se selfoonnommer in</string>
+    <string name="cash_send_minimum_amount">Bedrag moet meer wees as R 0.00</string>
+
+    <string name="cash_send_atm_pin_text">Die OTM toegangs-PIN is %s</string>
+    <string name="cash_send_share_atm_pin">Deel Cashsend toegangs-PIN</string>
+
+    <string name="cash_send_unable_to_auth_header">Kan nie hierdie transaksie goedkeur nie</string>
+    <string name="cash_send_unable_to_auth_sub_message">Die gebruiker mag nie hierdie transaksie goedkeur nie</string>
+    <string name="edit_cashsend_enter_new_pin">Voer jou nuwe PIN in</string>
+
+    <string name="cash_send_failure_text">Ons het tans probleme met die koppel aan ons bedieners. Jou geld is nie gestuur nie. Probeer asseblief weer later.</string>
+    <string name="cashsend_more_than_available_limit">Die bedrag is meer as jou beskikbare betaallimiet</string>
+    <string name="cashsend_daily_limit_exceeded">Jy het jou beskikbare CashSend limiet vir vandag bereik.\n\nProbeer asseblief more weer..</string>
+
+    <string name="cash_send_enter_recipient_name_error">Voer \'n geldige naam in.</string>
+    <string name="cash_send_enter_recipient_surname_error">Voer \'n geldige van in.</string>
+    <string name="cash_send_enter_recipient_mobile_number_error">Voer \'n geldige selfoonnommer in.</string>
+    <string name="cash_send_available_amount">R 0.00 Beskikbaar</string>
+</resources>

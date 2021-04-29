@@ -1,0 +1,34 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0330",
+      "resCde": "00000",
+      "resMsg": "",
+      "serVer": "2.0"
+    },
+    "payData": {
+      "addUpdBen": {
+        "benTyp": "payment",
+        "benNoticeTyp": "No",
+        "benNam": "Test Bene",
+        "myRef": "Test",
+        "isFav": "null",
+        "benStatusTyp": "internal",
+        "bankNam": "STANDARD BANK SA LTD",
+        "branchNam": "STANDARD BANK SOUTH AFRICA",
+        "branchCd": "051001",
+        "actNo": "904382739",
+        "actTyp": "Cheque account",
+        "myNoticeTyp": "No",
+        "benRef": "Test ",
+        "benRecipientNam": "Test Bene",
+        "benId": "14",
+        "acctAtInst": "null",
+        "instNam": "null",
+        "hasImage": "N"
+      },
+      "status": "SUCCESS",
+      "msg": ""
+    }
+  }
+}

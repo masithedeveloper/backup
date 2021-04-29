@@ -1,0 +1,62 @@
+{
+  "successResponseModel" : {
+    "payData" : {
+      "futurePayments" : [
+        {
+          "amount" : {
+            "curr" : "R",
+            "amt" : "1.00"
+          },
+          "beneficiaryName" : "Morne",
+          "fromAccountName" : null,
+          "beneficiarySurname" : null,
+          "beneficiaryAccountNumber" : "4047662320",
+          "futureDatedType" : "BENEFICIARY",
+          "paymentID" : null,
+          "fromAccountNo" : "9050993539",
+          "multiNumber" : "1",
+          "beneficiaryID" : "1"
+        },
+        {
+          "amount" : {
+            "curr" : "R",
+            "amt" : "1.00"
+          },
+          "beneficiaryName" : "Morne",
+          "fromAccountName" : null,
+          "beneficiarySurname" : null,
+          "beneficiaryAccountNumber" : "4047662320",
+          "futureDatedType" : "BENEFICIARY",
+          "paymentID" : null,
+          "fromAccountNo" : "9050993539",
+          "multiNumber" : "2",
+          "beneficiaryID" : "1"
+        },
+        {
+          "amount" : {
+            "curr" : "R",
+            "amt" : "1.00"
+          },
+          "beneficiaryName" : "Max",
+          "fromAccountName" : null,
+          "beneficiarySurname" : null,
+          "beneficiaryAccountNumber" : "4047561453",
+          "futureDatedType" : "BENEFICIARY",
+          "paymentID" : null,
+          "fromAccountNo" : "9050993539",
+          "multiNumber" : "1",
+          "beneficiaryID" : "3"
+        }
+      ],
+      "txnMessage" : "Success",
+      "txnStatus" : "Success"
+    },
+    "payHdr" : {
+      "resCde" : "00000",
+      "serVer" : "2.0",
+      "expTrace" : null,
+      "resMsg" : "Success",
+      "resId" : null
+    }
+  }
+}

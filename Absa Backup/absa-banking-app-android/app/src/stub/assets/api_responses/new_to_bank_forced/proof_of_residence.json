@@ -1,0 +1,38 @@
+{
+  "payHdr": {
+    "resId": null,
+    "resCde": "00000",
+    "resMsg": "success",
+    "serVer": "2.0",
+    "expTrace": null
+  },
+  "payData": {
+    "Description": "Proof of residence",
+    "packages": [{
+      "package": "Proof of residence documents",
+      "bulletPoints": ["Utility bill, e.g. municipal water and lights account or property managing agent statement",
+        "Bank statement from another bank on an official bank document or form",
+        "Municipal councillor's letter",
+        "Tax certificate",
+        "Recent active lease or rental agreement",
+        "Municipal rates and taxes invoice not older than 3 months",
+        "Account statement from a NCR(National Credit Regulator) registered service provider(NCR number must be visible / recorded on the document)",
+        "Security service providers registered with PSIRA(Private Security Industry Regulatory Authority), e.g.Chubb, ADT(PSIRA number must be visible / recorded on the document)",
+        "Telephone or cellular telephone statement",
+        "Official SARS document(not eFiling documentation)",
+        "Valid television license renewal letter",
+        "Television license renewal / confirmation letter",
+        "Subscription TV, e.g.MultiChoice statement",
+        "Home loan statement from another financial institution",
+        "Long / short term insurance policy documents from another Financial Services Provider(FBS number must be visible / recorded on the document)",
+        "Motor vehicle registration / license documents",
+        "Body corporate / governing body letter or statement",
+        "Official employer letter for employees residing on company / institution premises",
+        "Official university / technikon / college or tertiary institution registration letter",
+        "Affidavit to confirm address(only applicable to individuals)",
+        "Posted traffic fine from a Metro police department (E - toll statements are not accepted)",
+        "Medical aid statement or policy document(policy number must be visible on the document)"
+      ]
+    }]
+  }
+}

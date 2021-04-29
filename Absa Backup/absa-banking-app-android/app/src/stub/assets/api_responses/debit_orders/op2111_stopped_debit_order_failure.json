@@ -1,0 +1,16 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES2111",
+      "resCde": "00000",
+      "resMsg": "Success",
+      "serVer": "2.0",
+      "expTrace": null
+    },
+    "payData": {
+      "stopPayments": null,
+      "txnStatus": "Failure",
+      "txnMessage": " THERE ARE NO STOP PAYMENTS FOR THE ENQUIRY PERIOD"
+    }
+  }
+}

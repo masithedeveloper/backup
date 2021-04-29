@@ -1,0 +1,29 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0880",
+      "resCde": "00000",
+      "resMsg": "Success",
+      "serVer": "2.0",
+      "expTrace": null
+    },
+    "payData": {
+      "replacementInfo": "None of the counter parties/parties/related parties to this transaction, the country of origin, the country of destination pertaining to goods/services can be linked to any of the following countries Iran, North Korea, Crimea, Syria, Sudan (North and /or South), and Cuba",
+      "creditCardReasonDTOlist": [{
+        "reasonCode": "0",
+        "reasonDescription": "Lost card"
+      }, {
+        "reasonCode": "1",
+        "reasonDescription": "Stolen card"
+      }, {
+        "reasonCode": "3",
+        "reasonDescription": "Fraud"
+      }, {
+        "reasonCode": "5",
+        "reasonDescription": "Other"
+      }],
+      "txnStatus": "Success",
+      "txnMessage": "Success"
+    }
+  }
+}

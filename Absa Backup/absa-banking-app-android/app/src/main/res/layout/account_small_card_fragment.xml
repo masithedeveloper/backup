@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/headingTextView"
+            style="@style/LargeTextMediumDark"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/small_space"
+            android:paddingBottom="@dimen/extra_tiny_space"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="RtlSymmetry"
+            tools:text="Insurance"
+            tools:visibility="visible" />
+
+        <styleguide.cards.AccountView
+            android:id="@+id/accountView"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/account_card_small_height"
+            android:layout_marginBottom="@dimen/small_space"
+            app:layout_constraintTop_toBottomOf="@id/headingTextView"
+            app:layout_goneMarginTop="@dimen/small_space" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

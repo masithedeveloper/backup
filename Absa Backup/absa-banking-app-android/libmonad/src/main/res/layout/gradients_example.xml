@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:parentTag="androidx.constraintlayout.widget.ConstraintLayout">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/gradients_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <View
+                android:id="@+id/gradient_orange_dark_orange"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/card_min_height"
+                android:background="@drawable/gradient_orange_dark_orange" />
+
+            <View
+                android:id="@+id/gradient_light_red_warm_red"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/card_min_height"
+                android:background="@drawable/gradient_light_red_warm_red" />
+
+            <View
+                android:id="@+id/gradient_light_pink_dark_pink"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/card_min_height"
+                android:background="@drawable/gradient_light_pink_dark_pink" />
+
+            <View
+                android:id="@+id/gradient_dark_pink_light_red"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/card_min_height"
+                android:background="@drawable/gradient_dark_pink_light_red" />
+
+            <View
+                android:id="@+id/gradient_purple_dark_purple"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/card_min_height"
+                android:background="@drawable/gradient_purple_dark_purple" />
+
+            <View
+                android:id="@+id/gradient_dark_silver_dark_grey"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/card_min_height"
+                android:background="@drawable/gradient_dark_silver_dark_grey" />
+
+        </LinearLayout>
+    </ScrollView>
+</merge>
+

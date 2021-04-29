@@ -1,0 +1,151 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES2177",
+      "resCde": "00000",
+      "resMsg": "Success",
+      "serVer": "2.0",
+      "expTrace": null
+    },
+    "payData": {
+      "customerInformation": {
+        "personalInformation": {
+          "cifKey": null,
+          "title": "03",
+          "firstName": "GADIJA",
+          "initials": "G",
+          "lastName": "MEYER",
+          "dateOfBirth": "19430223",
+          "gender": "2",
+          "identityNo": "4302230392082",
+          "identityType": "01",
+          "maritalStatus": "2",
+          "maritalContract": null,
+          "dependents": "1",
+          "correspondenceLanguage": "E",
+          "homeLanguage": "A",
+          "clientType": "00101",
+          "clientNationality": "IND01",
+          "countryOfOrigin": null,
+          "countryOfResidence": null,
+          "countryOfBirth": "IN001",
+          "clntAgrmntAccepted": "Y",
+          "residentialStatus": "C"
+        },
+        "contactInformation": {
+          "clientType": null,
+          "preferredContactMethod": "01",
+          "homeTelephoneCode": "011",
+          "homeNumber": "3000000",
+          "faxHomeCode": "",
+          "homeFaxNumber": "",
+          "cellNumber": "0835601840",
+          "email": "ABC@IMSTEST.CO.ZA",
+          "marketingUpdatesFlag": null,
+          "smsMarketingInd": null,
+          "teleMarketingInd": null,
+          "emailMarketingInd": null,
+          "mailMarkeitingInd": null,
+          "workTelephoneCode": "011",
+          "workNumber": "2003420",
+          "workTelephoneExtn": null,
+          "faxWorkCode": "011",
+          "workFaxNumber": "3265163",
+          "creditDefaultsDevileryInd": null
+        },
+        "employmentInformation": {
+          "clientType": null,
+          "highestLvlOfEducation": "",
+          "postMetricInd": "N",
+          "occupationStatus": "01",
+          "occupation": "01",
+          "occupationLevel": "01",
+          "occupationSector": "01",
+          "sectorDescription": null,
+          "doubleTaxCountry": null,
+          "exmptionAgreementIndicator": "",
+          "employerAddressDTO": {
+            "addressLine1": "ABACUS",
+            "addressLine2": "65 WESLEY STR",
+            "suburbRsa": "",
+            "town": "SANDTON",
+            "postalCode": "2196",
+            "country": ""
+          },
+          "workTelephoneCode": "011",
+          "workNumber": "2003420",
+          "workTelephoneExtn": null,
+          "faxWorkCode": "011",
+          "workFaxNumber": "3265163"
+        },
+        "nextOfKinDetails": {
+          "surname": "JANE",
+          "firstName": "HABANA",
+          "relationship": "01",
+          "homeTelephoneCode": "",
+          "homeTelephoneNumber": "",
+          "workTelephoneCode": "011",
+          "workTelephoneNumber": "3510121",
+          "cellphoneNumber": "",
+          "participantTitle": null,
+          "participantInitials": null,
+          "participantSurname": null,
+          "email": "",
+          "clientType": null
+        },
+        "marketingIndicator": {
+          "nonCreditIndicator": "Y",
+          "nonCreditSmsIndicator": "Y",
+          "nonCreditEmailIndicator": "Y",
+          "nonCreditAutoVoiceIndicator": "Y",
+          "nonCreditTeleIndicator": "Y",
+          "nonCreditPostIndicator": "Y",
+          "creditIndicator": "Y",
+          "creditSmsIndicator": "Y",
+          "creditEmailIndicator": "Y",
+          "creditAutoVoiceIndicator": null,
+          "creditTeleIndicator": "Y",
+          "creditPostIndicator": "Y"
+        },
+        "postalAddress": {
+          "addressLine1": "34 LEMAR STR",
+          "addressLine2": "",
+          "suburbRsa": "",
+          "town": "RANDBURG",
+          "postalCode": "2194",
+          "country": ""
+        },
+        "residentialAddress": {
+          "addressLine1": "34 LEMAR STR",
+          "addressLine2": "",
+          "suburbRsa": "",
+          "town": "RANDBURG",
+          "postalCode": "2194",
+          "country": "IN001"
+        },
+        "financialInformation": {
+          "clientType": null,
+          "monthlyIncome": "20",
+          "taxRefNo": null,
+          "socialGrantFlag": "N",
+          "debtCounsellingFlag": "Y",
+          "debtCounsellingDate": "7082019",
+          "creditWorthinessFlag": "Y",
+          "debtCounsellingConsentFlag": "N",
+          "debtCounsellingConsentDate": "",
+          "sourceOfIncome": "20",
+          "sourceOfFunds": "",
+          "saIncomeTaxNumber": "",
+          "areYouRegisteredSaTax": "N",
+          "areYouRegisteredForeignTax": "N",
+          "reasonNotGivenSaTaxNumber": "",
+          "isSaTaxNoAvailable": "",
+          "foreignCountryCount": "0",
+          "foreignCountryTaxDetails": []
+        }
+      },
+      "txnStatus": "Success",
+      "txnMessage": "Success"
+    }
+  }
+}

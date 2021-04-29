@@ -1,0 +1,52 @@
+{
+  "header": {
+    "statuscode": "0",
+    "userAgent": "ANDROID - 6.21.0",
+    "wfpt": null,
+    "jsessionid": "HKF1nu9Z07XYndAn2KQkKu5O3DxMyoVveMs0Ql8s",
+    "esessionid": null,
+    "xfpt": null,
+    "service": "SaveAndInvestProductsFacade",
+    "operation": "GetProductDetailsInfo",
+    "channel": null,
+    "timestamp": "2021-02-23 13:49:27.682",
+    "sourceip": "22.240.44.100",
+    "accessAccount": "9051153469",
+    "userNumber": "1",
+    "nonce": "e7FdWeFgUW7TSRJekuV1460En0qNUZrBykKkP9LahKU",
+    "language": "en",
+    "organization": null,
+    "brand": null,
+    "applicationId": null,
+    "applicationKeyId": null,
+    "requestToken": null,
+    "resultMessages": [],
+    "paginationContext": null
+  },
+  "saveAndInvestProduct": {
+    "productCodeAndCRPCode": {
+      "productCode": "09005",
+      "crpCode": "SVO0900500"
+    },
+    "productName": "Depositor Plus",
+    "crpName": "Depositor Plus",
+    "categoryName": "Demand Savings",
+    "categoryCode": "aocds001",
+    "minInvestmentAmount": 15000.0,
+    "minimumNotice": "",
+    "minInvestmentPeriod": "",
+    "maxInvestmentPeriod": "",
+    "reinvestmentEnabled": " ",
+    "reinvestmentOptions": "",
+    "receiveInterestFrequency": "Monthly",
+    "capitalisationDay": "N",
+    "liquidityOptions": "",
+    "interestRate": "5.7% - 6.7%",
+    "productDescription": "Depositor Plus",
+    "preferredSavingsFrequency": "Once-off deposit,Once-off deposit plus monthly deposit",
+    "additionalPaymentViaDebitOrder": "2",
+    "maxInvestmentAmount": 9999999999999.99,
+    "interestCapitalizationDay": null,
+    "ecMaxInvestmentAmount": 9999999999999.00
+  }
+}

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/manage_beneficiaries_nav_graph"
+    app:startDestination="@+id/add_beneficiary_fragment">
+
+    <fragment
+        android:id="@+id/add_beneficiary_fragment"
+        android:name="com.barclays.absa.banking.policy_beneficiaries.ui.AddBeneficiaryFragment">
+        <action
+            android:id="@+id/addBeneficiaryFragment_to_beneficiaryDetailsFragment"
+            app:destination="@+id/beneficiary_details_fragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+
+        <action
+            android:id="@+id/addBeneficiaryFragment_to_beneficiaryAllocationFragment"
+            app:destination="@+id/beneficiary_allocation_fragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <action
+            android:id="@+id/action_add_beneficiary_fragment_to_beneficiary_confirmation_fragment"
+            app:destination="@id/beneficiary_confirmation_fragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/beneficiary_details_fragment"
+        android:name="com.barclays.absa.banking.policy_beneficiaries.ui.BeneficiaryDetailsFragment">
+        <action
+            android:id="@+id/beneficiaryDetailsFragment_to_BeneficiaryContactDetailsFragment"
+            app:destination="@+id/beneficiary_contact_details_fragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <action
+            android:id="@+id/beneficiaryDetailsFragment_to_BeneficiaryAllocationFragment"
+            app:destination="@+id/beneficiary_allocation_fragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <action
+            android:id="@+id/action_beneficiary_details_fragment_to_beneficiary_confirmation_fragment"
+            app:destination="@id/beneficiary_confirmation_fragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/beneficiary_contact_details_fragment"
+        android:name="com.barclays.absa.banking.policy_beneficiaries.ui.BeneficiaryContactDetailsFragment">
+        <action
+            android:id="@+id/beneficiaryContactDetailsFragment_to_BeneficiaryAllocationFragment"
+            app:destination="@+id/beneficiary_allocation_fragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/beneficiary_allocation_fragment"
+        android:name="com.barclays.absa.banking.policy_beneficiaries.ui.BeneficiaryAllocationFragment">
+        <action
+            android:id="@+id/beneficiaryAllocationFragment_to_BeneficiaryConfirmationFragment"
+            app:destination="@+id/beneficiary_confirmation_fragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/beneficiary_confirmation_fragment"
+        android:name="com.barclays.absa.banking.policy_beneficiaries.ui.BeneficiaryConfirmationFragment">
+        <action
+            android:id="@+id/beneficiaryConfirmationFragment_to_GenericResultScreenFragment"
+            app:destination="@+id/genericResultFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/genericResultFragment"
+        android:name="styleguide.screens.GenericResultScreenFragment">
+        <argument
+            android:name="GenericResultScreenFragment"
+            app:argType="styleguide.screens.GenericResultScreenProperties" />
+    </fragment>
+
+</navigation>

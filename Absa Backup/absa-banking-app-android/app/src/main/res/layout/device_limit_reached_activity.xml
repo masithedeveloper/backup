@@ -1,0 +1,31 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ScrollView
+        style="@style/ScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <include
+                android:id="@+id/toolbar"
+                layout="@layout/header_dark" />
+
+            <styleguide.content.SecondaryContentAndLabelView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:attribute_secondary_content="@string/manage_device"
+                app:attribute_secondary_label="@string/prelogon_manage_device_message_text" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/devicesRecyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/medium_space" />
+        </LinearLayout>
+    </ScrollView>
+</layout>

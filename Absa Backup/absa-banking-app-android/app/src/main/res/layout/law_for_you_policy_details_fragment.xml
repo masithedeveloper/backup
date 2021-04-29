@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    style="@style/ScrollView">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/policyDateNormalInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_editable="false"
+            app:attribute_hint_text="@string/law_for_you_select_date"
+            app:attribute_selector_type="DATE"
+            app:attribute_title_text="@string/law_for_you_when_policy_start"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/debitDayNormalInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_editable="false"
+            app:attribute_hint_text="@string/law_for_you_select_day_of_month"
+            app:attribute_selector_type="DATE"
+            app:attribute_title_text="@string/law_for_you_debit_day"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/policyDateNormalInputView" />
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/accountSelectNormalInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_hint_text="@string/law_for_you_select_account"
+            app:attribute_selector_type="LONG_LIST"
+            app:attribute_title_text="@string/law_for_you_account_to_debit"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/debitDayNormalInputView" />
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/occupationStatusNormalInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_hint_text="@string/law_for_you_select_employment_status"
+            app:attribute_selector_type="LONG_LIST"
+            app:attribute_title_text="@string/law_for_you_employment_status"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/accountSelectNormalInputView" />
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/occupationNormalInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            app:attribute_hint_text="@string/law_for_you_select_occupation"
+            app:attribute_selector_type="SEARCHABLE_LONG_LIST"
+            app:attribute_title_text="@string/law_for_you_occupation"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/occupationStatusNormalInputView"
+            tools:visibility="visible" />
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/sourceOfFundsNormalInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_hint_text="@string/law_for_you_select_source_of_funds"
+            app:attribute_selector_type="LONG_LIST"
+            app:attribute_title_text="@string/law_for_you_source_of_funds"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/occupationNormalInputView" />
+
+        <styleguide.forms.CheckBoxView
+            android:id="@+id/iAgreePolicyDetailsCheckBoxView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_description="@string/law_for_you_agree_debit_order_terms"
+            app:attribute_is_required="true"
+            app:layout_constraintBottom_toTopOf="@id/continueButton"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/sourceOfFundsNormalInputView"
+            app:layout_constraintVertical_bias="1"
+            app:layout_constraintVertical_chainStyle="packed" />
+
+        <styleguide.buttons.Button
+            android:id="@+id/continueButton"
+            style="@style/PrimaryButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/continue_button"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/iAgreePolicyDetailsCheckBoxView" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

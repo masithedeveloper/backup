@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="transfer_from_account">Uit rekening</string>
+    <string name="transfer_to_account">Na rekening</string>
+
+    <string name="transfer_fund_amount_text">Bedrag</string>
+    <string name="transfer_fund_available_balance">Beskikbare saldo</string>
+    <string name="transfer_fund_to_account">Kies die rekening om na oor te plaas</string>
+
+    <string name="plz_sel_acc_from">Kies asseblief rekening om van oor te plaas</string>
+    <string name="plz_sel_acc_to">Kies asseblief rekening om heen oor te plaas</string>
+
+    <string name="enter_amount_hint">Voer die bedrag in wat oorgeplaas word</string>
+    <string name="transfer_error_msg">Jou oorplasing was onsuksesvol</string>
+    <string name="enter_amount">Voer bedrag in</string>
+    <string name="please_select_a_different_account">Kies asseblief \'n ander rekening.</string>
+    <string name="account">Rekening</string>
+    <string name="transfer_fund_result_substring">%s oorgedra vanaf %s na %s</string>
+    <string name="transfer_avaf_fund_result_substring">Gaan asseblief oor \'n paar minute jou saldo en transaksiegeskiedenis na\n\n%s oorgeplaas van %s na %s</string>
+    <string name="transfer_reference_default">Plaas oor vanaf %s na %s</string>
+    <string name="future_dated_transfer_fund_result_substring">%1s sal vanaf %2s oorgeplaas word na %3s op %4s</string>
+    <string name="transfer_successful">Oordrag suksesvol</string>
+    <string name="transfer_in_progress">Oorplasing word verwerk</string>
+    <string name="transfer_confirm_request_title">Bevestig Versoek</string>
+    <string name="choose_account_transfer_hint">Kies rekening</string>
+    <string name="account_to_pay_to">Kies rekening</string>
+    <string name="please_enter_amount_to_transfer">Voer bedrag in</string>
+    <string name="please_select_a_to_account">Kies asseblief rekening om heen oor te plaas</string>
+    <string name="please_select_a_from_account">Kies asseblief rekening om van oor te plaas</string>
+    <string name="rewards_redemption_successful">Jou beloningverlossing was suksesvol</string>
+    <string name="rewards_redemption_unsuccessful">Jou beloningverlossing was onsuksesvol</string>
+    <string name="rewards_redemption_successful_title">Beloningverlossing suksesvol</string>
+    <string name="rewards_redemption_unsuccessful_title">Beloningverlossing onsuksesvol</string>
+    <string name="transfer_from_account_reference">Van verwysing</string>
+    <string name="transfer_to_account_reference">Na verwysing</string>
+    <string name="transfer_enter_valid_reference">Tik \'n geldige verwysing in</string>
+    <string name="transfer_date">Oorplasingsdatum</string>
+    <string name="normal_transfer">Normaal</string>
+    <string name="future_dated_transfer">Vooruitgedateerde oorplasing</string>
+    <string name="transfer_type">Oorplasingstipe</string>
+    <string name="select_transfer_future_date">Kies asseblief die oordragdatum</string>
+    <string name="future_dated_transfer_successful">Oorplasingskedule suksesvol</string>
+    <string name="no_from_accounts">Jammer, jy het geen rekeninge om oorplasings van te maak</string>
+    <string name="no_to_accounts">Jammer, jy het geen rekeninge om oorplasings na te maak</string>
+    <string name="avaf_transfer_delay_header">Oorplasings na AVBF-rekenings neem dalk \'n paar sekondes om op die huidige saldo te wys</string>
+    <string name="avaf_transfer_payment_confirmation_note"><b>Nota:</b> Betalings wat in hierdie rekening gemaak word verlaag slegs die uitstaande saldo</string>
+    <string name="avaf_transfer_please_note">Let wel</string>
+    <string name="avaf_transfer_transfer_delay_note">Jou oorplasing neem dalk \'n paar sekondes om op die saldo te wys</string>
+    <string name="do_another_transfer">Doen nog \'n oorplasing</string>
+    <string name="transfer_available">R %s beskikbaar</string>
+    <string name="transfer_amount_exceeds_balance">Bedrag kan nie meer as R %s wees nie</string>
+    <string name="transfer_authorization_outstanding">magtiging uitstaande</string>
+    <string name="transfer_authorization_response_message">OORPLASING AAN DIE GANG</string>
+    <string name="transfer_whats_new_title">Oorplasings na jou Voertuigfinansiering-rekening</string>
+    <string name="transfer_whats_new_description">Jy kan nou tussenrekeningoorplasings uit jou tjek- of spaarrekening na jou Voertuigfinansiering-rekening maak en jou transaksiegeskiedenis en saldo\'s besigtig.</string>
+</resources>

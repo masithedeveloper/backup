@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    style="@style/ScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/taxCountryNormalInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_hint_text="@string/manage_profile_edit_foreign_tax_details_tax_country_placeholder"
+            app:attribute_selector_type="SEARCHABLE_LONG_LIST"
+            app:attribute_title_text="@string/manage_profile_edit_foreign_tax_details_tax_country_label"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/taxNumberNormalInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:maxLength="40"
+            app:attribute_editable="true"
+            app:attribute_hint_text="@string/manage_profile_edit_foreign_tax_details_tax_number_placeholder"
+            app:attribute_title_text="@string/manage_profile_edit_foreign_tax_details_tax_number_title"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/taxCountryNormalInputView" />
+
+        <styleguide.forms.CheckBoxView
+            android:id="@+id/hasForeignTaxNumberCheckboxView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_description="@string/manage_profile_edit_foreign_tax_i_dont_have_a_tax_number"
+            app:attribute_is_required="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/taxNumberNormalInputView" />
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/reasonNormalInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            app:attribute_hint_text="@string/manage_profile_edit_foreign_tax_details_reason_placeholder"
+            app:attribute_selector_type="LONG_LIST"
+            app:attribute_title_text="@string/manage_profile_edit_foreign_tax_details_reason_label"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/hasForeignTaxNumberCheckboxView"
+            tools:visibility="visible" />
+
+        <styleguide.buttons.Button
+            android:id="@+id/doneButton"
+            style="@style/PrimaryButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/manage_profile_edit_foreign_tax_details_done_button"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/reasonNormalInputView"
+            app:layout_constraintVertical_bias="1" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

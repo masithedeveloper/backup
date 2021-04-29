@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:parentTag="androidx.constraintlayout.widget.ConstraintLayout">
+
+    <LinearLayout
+        android:id="@+id/calendarLinearLayout"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/filter_search_view_height"
+        android:layout_marginEnd="@dimen/small_space"
+        android:background="@drawable/light_search_and_filter_background"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center_vertical"
+        app:layout_constraintEnd_toStartOf="@+id/searchImageView"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:id="@+id/calenderImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/tiny_space"
+            app:srcCompat="@drawable/ic_calendar_dark"
+            app:tint="@color/graphite_light_theme_item_color" />
+
+        <TextView
+            android:id="@+id/searchTextView"
+            style="@style/Text_RobotoMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/small_space"
+            android:background="@android:color/transparent"
+            android:textColor="@color/graphite_light_theme_item_color"
+            android:textSize="@dimen/regular_text_size" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/searchImageView"
+        android:layout_width="@dimen/filter_search_view_height"
+        android:layout_height="@dimen/filter_search_view_height"
+        android:layout_marginStart="@dimen/small_space"
+        android:background="@drawable/light_search_and_filter_background"
+        android:padding="@dimen/tiny_space"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/ic_search_dark"
+        app:tint="@color/graphite_light_theme_item_color" />
+</merge>

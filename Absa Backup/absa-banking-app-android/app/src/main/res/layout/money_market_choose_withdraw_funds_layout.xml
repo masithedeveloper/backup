@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<styleguide.content.BulletItemView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:attribute_content="@string/money_market_choose_product_transfer_funds"
+    app:attribute_text_style="@style/SmallTextRegularDark" />

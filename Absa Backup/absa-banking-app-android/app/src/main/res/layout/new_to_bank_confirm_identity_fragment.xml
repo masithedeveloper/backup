@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        style="@style/ScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/confirmPersonalDetailsTextView"
+                style="@style/LargeTextRegularDark"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/medium_space"
+                android:layout_marginStart="@dimen/medium_space"
+                android:layout_marginTop="@dimen/medium_space"
+                android:text="@string/new_to_bank_are_these_details_correct"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <styleguide.content.PrimaryContentAndLabelView
+                android:id="@+id/fullNamePrimaryContentAndLabelView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/small_space"
+                app:attribute_primary_label="@string/new_to_bank_full_name"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/confirmPersonalDetailsTextView" />
+
+            <styleguide.content.PrimaryContentAndLabelView
+                android:id="@+id/idNumberPrimaryContentAndLabelView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:maxLength="16"
+                app:attribute_primary_label="@string/new_to_bank_id_number"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/fullNamePrimaryContentAndLabelView" />
+
+            <styleguide.content.PrimaryContentAndLabelView
+                android:id="@+id/countryOfBirthPrimaryContentAndLabelView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_primary_label="@string/new_to_bank_country_of_birth"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/idNumberPrimaryContentAndLabelView" />
+
+            <styleguide.content.PrimaryContentAndLabelView
+                android:id="@+id/genderPrimaryContentAndLabelView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_primary_label="@string/new_to_bank_gender"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/countryOfBirthPrimaryContentAndLabelView" />
+
+            <View
+                android:id="@+id/divider"
+                style="@style/DividerView"
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_marginTop="@dimen/small_space"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/genderPrimaryContentAndLabelView" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/nationalityTypeNormalInputView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_hint_text="@string/new_to_bank_nationality"
+                app:attribute_selector_type="LONG_LIST"
+                app:attribute_title_text="@string/new_to_bank_nationality"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/divider" />
+
+            <styleguide.buttons.Button
+                android:id="@+id/incorrectButton"
+                style="@style/SecondaryButton"
+                android:layout_marginEnd="@dimen/medium_space"
+                android:layout_marginStart="@dimen/medium_space"
+                android:layout_marginTop="@dimen/extra_large_space"
+                android:text="@string/new_to_bank_information_incorrect"
+                app:layout_constraintBottom_toTopOf="@+id/yesContinueButton"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/nationalityTypeNormalInputView"
+                app:layout_constraintVertical_bias="1" />
+
+            <styleguide.buttons.Button
+                android:id="@+id/yesContinueButton"
+                style="@style/PrimaryButton"
+                android:text="@string/new_to_bank_yes_continue"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintVertical_bias="1" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</layout>

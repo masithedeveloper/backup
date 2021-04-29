@@ -1,0 +1,59 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES2066",
+      "resCde": "00000",
+      "resMsg": "Success",
+      "serVer": "2.0",
+      "expTrace": null
+    },
+    "payData": {
+      "utDebitAccountDTO": [
+        {
+          "accountBalance": "8.7454544687E9",
+          "availableBalance": "8.7454544687E9",
+          "existingOverdraftLimit": "0",
+          "unclearedAmt": "0.0",
+          "accountType": "currentAccount",
+          "accountNumber": "4047520976",
+          "acctAccessBits": "65535",
+          "acctAccessTypeBits": "2",
+          "accountHolder": "T CHEQUE",
+          "bankName": "ABSA BANK",
+          "bankCode": "632005",
+          "desc": "Current Account"
+        },
+        {
+          "accountBalance": "1.005479478E7",
+          "availableBalance": "1.005474478E7",
+          "existingOverdraftLimit": "0",
+          "unclearedAmt": "0.0",
+          "accountType": "savingsAccount",
+          "accountNumber": "4047695911",
+          "acctAccessBits": "47871",
+          "acctAccessTypeBits": "1",
+          "accountHolder": "T CHEQUE",
+          "bankName": "ABSA BANK",
+          "bankCode": "632005",
+          "desc": "Savings Account"
+        },
+        {
+          "accountBalance": "100605.57",
+          "availableBalance": "100555.57",
+          "existingOverdraftLimit": "0",
+          "unclearedAmt": "0.0",
+          "accountType": "savingsAccount",
+          "accountNumber": "4047703760",
+          "acctAccessBits": "64255",
+          "acctAccessTypeBits": "1",
+          "accountHolder": "T CHEQUE",
+          "bankName": "ABSA BANK",
+          "bankCode": "632005",
+          "desc": "Savings Account"
+        }
+      ],
+      "txnStatus": "Success",
+      "txnMessage": "Success"
+    }
+  }
+}

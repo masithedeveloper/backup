@@ -1,0 +1,36 @@
+{
+  "header": {
+    "statuscode": "0",
+    "userAgent": "ANDROID - 6.18.0",
+    "jsessionid": "ycOv5-xOLlqIv9mt5zYoijgiUmRyV0k0OIMc5RNf",
+    "esessionid": "cfbca8d9-158d-38c3-b1fb-3bcfef75694a",
+    "service": "BehaviouralRewardsChallengesFacade",
+    "operation": "GetProgressOfChallenge",
+    "channel": "S",
+    "timestamp": "2020-11-13 07:19:47.902",
+    "sourceip": "22.240.44.100",
+    "accessAccount": "4048291326",
+    "userNumber": "1",
+    "nonce": "fbi806N1lA1AZpVn5SGxQK4jDrczBJg2AJFc1Ui7Jng",
+    "language": "en",
+    "organization": "ABSA",
+    "brand": "ABSA",
+    "resultMessages": []
+  },
+  "challenge": {
+    "longDescription": "Provide marketing consent and you or a friend, can enoy a free meal at Steers, Burger King, Wimpy or Spur",
+    "shortDescription": "Provide  Marketing consent",
+    "challengeId": "X.1",
+    "challengeStartDate": "2020-10-20",
+    "challengeEndDate": "2020-12-30",
+    "customerChallengeStatus": {
+      "status": "COMPLETED",
+      "progress": "",
+      "customerChallengeEndDate": "2020-12-30",
+      "customerChallengeStartDate": "2020-10-20",
+      "acceptedOnDate": "2020-11-13",
+      "voucherAllocationStatus": "AVAILABLE"
+    },
+    "active": true
+  }
+}

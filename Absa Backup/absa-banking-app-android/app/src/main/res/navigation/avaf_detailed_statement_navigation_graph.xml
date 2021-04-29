@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/avaf_detailed_statement_navigation_graph"
+    app:startDestination="@id/avafDocumentInfoFragment">
+
+    <fragment
+        android:id="@+id/avafDetailedStatementRequestFragment"
+        android:name="com.barclays.absa.banking.avaf.documentRequest.ui.detailedStatement.AvafDetailedStatementRequestFragment"
+        android:label="AvafDetailedStatementRequestFragment"
+        tools:layout="@layout/avaf_document_request_base_fragment">
+        <action
+            android:id="@+id/action_avafDetailedStatementRequestFragment_to_avafDetailedStatementConfirmationFragment"
+            app:destination="@id/avafDetailedStatementConfirmationFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <argument
+            android:name="offerInfo"
+            app:argType="com.barclays.absa.banking.avaf.documentRequest.ui.AvafOfferInfo" />
+    </fragment>
+    <fragment
+        android:id="@+id/avafDetailedStatementConfirmationFragment"
+        android:name="com.barclays.absa.banking.avaf.documentRequest.ui.detailedStatement.AvafDetailedStatementConfirmationFragment"
+        android:label="AvafDetailedStatementConfirmationFragment"
+        tools:layout="@layout/avaf_document_request_confirmation_fragment">
+        <argument
+            android:name="documentRequestDetails"
+            app:argType="com.barclays.absa.banking.avaf.documentRequest.ui.DocumentRequestDetails" />
+        <action
+            android:id="@+id/action_avafDetailedStatementConfirmationFragment_to_documentReqResultFragment"
+            app:destination="@id/documentReqResultFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+    <fragment
+        android:id="@+id/documentReqResultFragment"
+        android:name="styleguide.screens.GenericResultScreenFragment"
+        android:label="settlementQuoteResultFragment"
+        tools:layout="@layout/generic_results_screen_fragment">
+        <argument
+            android:name="GenericResultScreenFragment"
+            app:argType="styleguide.screens.GenericResultScreenProperties" />
+    </fragment>
+    <fragment
+        android:id="@+id/avafDocumentInfoFragment"
+        android:name="com.barclays.absa.banking.avaf.documentRequest.ui.AvafDocumentInfoFragment"
+        android:label="avaf_document_info_fragment"
+        tools:layout="@layout/avaf_document_info_fragment">
+        <action
+            android:id="@+id/action_avafDocumentInfoFragment_to_avafDetailedStatementRequestFragment"
+            app:destination="@id/avafDetailedStatementRequestFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+</navigation>

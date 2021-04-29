@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" android:enterFadeDuration="300" android:exitFadeDuration="300">
+    <item android:state_focused="true">
+        <shape android:shape="oval">
+            <solid android:color="@color/pink" />
+            <size android:width="@dimen/circular_button_size" android:height="@dimen/circular_button_size" />
+        </shape>
+    </item>
+    <item android:state_pressed="true">
+        <shape android:shape="oval">
+            <solid android:color="@color/light_grey" />
+            <size android:width="@dimen/circular_button_size" android:height="@dimen/circular_button_size" />
+        </shape>
+    </item>
+    <item android:state_enabled="true">
+        <shape android:shape="oval">
+            <solid android:color="@android:color/white" />
+            <size android:width="@dimen/circular_button_size" android:height="@dimen/circular_button_size" />
+        </shape>
+    </item>
+    <item android:state_enabled="false">
+        <shape android:shape="oval">
+            <solid android:color="@color/grey" />
+            <size android:width="@dimen/circular_button_size" android:height="@dimen/circular_button_size" />
+        </shape>
+    </item>
+</selector>

@@ -1,0 +1,16 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="@dimen/lotto_bonus_ball_size"
+    android:height="@dimen/lotto_bonus_ball_size"
+    android:viewportWidth="38"
+    android:viewportHeight="38">
+    <path
+        android:fillColor="#B9282F"
+        android:pathData="M18.9208,33.9208C10.6366,33.9208 3.9208,27.2051 3.9208,18.9208C3.9208,10.6366 10.6366,3.9208 18.9208,3.9208C27.2051,3.9208 33.9208,10.6366 33.9208,18.9208C33.9208,27.2051 27.2051,33.9208 18.9208,33.9208ZM11.794,10.0891C9.8992,10.8502 8.6577,12.6869 8.6577,14.7288L8.6577,23.1129C8.6577,25.1548 9.8992,26.9915 11.794,27.7526C14.1696,28.7069 16.5452,29.184 18.9208,29.184C21.2965,29.184 23.6721,28.7069 26.0477,27.7526C27.9424,26.9915 29.184,25.1548 29.184,23.1129L29.184,14.7287C29.184,12.6869 27.9424,10.8502 26.0477,10.0891C23.6721,9.1348 21.2965,8.6577 18.9208,8.6577C16.5452,8.6577 14.1696,9.1348 11.794,10.0891Z"
+        android:strokeWidth="1" />
+    <path
+        android:fillColor="#00000000"
+        android:fillType="evenOdd"
+        android:pathData="M19,19m-18,0a18,18 0,1 1,36 0a18,18 0,1 1,-36 0"
+        android:strokeWidth="2"
+        android:strokeColor="#B7272E" />
+</vector>

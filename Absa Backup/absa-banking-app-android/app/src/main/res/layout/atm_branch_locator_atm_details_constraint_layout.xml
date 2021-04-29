@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/atmDetailsConstraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:windowBackground"
+        android:clipToPadding="true"
+        app:behavior_peekHeight="@dimen/branchLocatorPeekHeight"
+        app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior">
+
+        <ImageView
+            android:id="@+id/atmOpenListImageView"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/openListImageViewHeight"
+            android:background="?android:windowBackground"
+            android:padding="@dimen/tiny_space"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/atm_branch_locator_open_list_button" />
+
+        <TextView
+            android:id="@+id/atmSwipeUpTextView"
+            style="@style/SmallTextRegularDark"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/openListTextViewHeight"
+            android:gravity="center_horizontal"
+            android:textSize="@dimen/openListTextSize"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/atmOpenListImageView"
+            tools:text="@string/swipe_up" />
+
+        <androidx.core.widget.NestedScrollView
+            android:id="@+id/scrollView"
+            style="@style/ScrollView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/atmSwipeUpTextView">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/atmDetailsSubConstraintLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <include
+                    android:id="@+id/atmDetails"
+                    layout="@layout/atm_branch_locator_item"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/atmDetailsCloseImageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_marginEnd="@dimen/small_space"
+                    android:padding="@dimen/small_space"
+                    app:layout_constraintBottom_toBottomOf="@id/atmDetails"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="@id/atmDetails"
+                    app:srcCompat="@drawable/ic_cross_dark" />
+
+                <styleguide.buttons.Button
+                    android:id="@+id/atmGetDirectionsButton"
+                    style="@style/PrimaryButton"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/medium_space"
+                    android:layout_marginTop="@dimen/normal_space"
+                    android:layout_marginEnd="@dimen/medium_space"
+                    android:text="@string/get_directions"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/atmDetails" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.core.widget.NestedScrollView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

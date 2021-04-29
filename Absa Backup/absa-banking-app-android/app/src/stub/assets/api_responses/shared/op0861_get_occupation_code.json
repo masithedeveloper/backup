@@ -1,0 +1,431 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES2022",
+      "resCde": "00000",
+      "resMsg": "Success",
+      "serVer": "2.0",
+      "expTrace": null
+    },
+    "payData": {
+      "lookups": [
+        {
+          "itemCode": "15",
+          "groupCode": "OCC CODE",
+          "cmsKey": null,
+          "defaultLabel": "ACCOUNTANT"
+        },
+        {
+          "itemCode": "71",
+          "groupCode": "OCC CODE",
+          "cmsKey": null,
+          "defaultLabel": "ACTUARY"
+        },
+        {
+          "itemCode": "02",
+          "groupCode": "OCC CODE",
+          "cmsKey": null,
+          "defaultLabel": "ADMINISTRATION"
+        },
+        {
+          "itemCode": "19",
+          "groupCode": "OCC CODE",
+          "cmsKey": null,
+          "defaultLabel": "ANAESTHETIST"
+        },
+        {
+          "itemCode": "16",
+          "groupCode": "OCC CODE",
+          "cmsKey": null,
+          "defaultLabel": "ARCHITECT"
+        },
+        {
+          "itemCode": "69",
+          "groupCode": "OCC CODE",
+          "cmsKey": null,
+          "defaultLabel": "ARTICLES FOR LAW"
+        },
+        {
+          "itemCode": "08",
+          "groupCode": "OCC CODE",
+          "cmsKey": null,
+          "defaultLabel": "BIOKINETICIST"
+        },
+        {
+          "itemCode": "20",
+          "groupCode": "OCC CODE",
+          "cmsKey": null,
+          "defaultLabel": "CARDIOLOGIST"
+        },
+        {
+          "itemCode": "09",
+          "groupCode": "OCC CODE",
+          "cmsKey": null,
+          "defaultLabel": "CHARTERED ACCOUNTANT"
+        },
+        {
+          "itemCode": "51",
+          "groupCode": "OCC CODE",
+          "cmsKey": null,
+          "defaultLabel": "CHIROPRACTOR"
+        },
+        {
+          "itemCode": "03",
+          "groupCode": "OCC CODE",
+          "cmsKey": null,
+          "defaultLabel": "CLERICAL"
+        },
+        {
+          "itemCode": "57",
+          "groupCode": "OCC CODE",
+          "cmsKey": null,
+          "defaultLabel": "DENTAL TECHNICIAN"
+        },
+        {
+          "itemCode": "12",
+          "groupCode": "OCC CODE",
+          "cmsKey": null,
+          "defaultLabel": "DENTIST"
+        },
+        {
+          "itemCode": "21",
+          "groupCode": "OCC CODE",
+          "cmsKey": null,
+          "defaultLabel": "DERMATOLOGIST"
+        },
+        {
+          "itemCode": "18",
+          "groupCode": "OCC CODE",
+          "cmsKey": null,
+          "defaultLabel": "ENGINEER"
+        },
+        {
+          "itemCode": "44",
+          "groupCode": "OCC CODE",
+          "cmsKey": null,
+          "defaultLabel": "ENTREPRENEUR"
+        },
+        {
+          "itemCode": "06",
+          "groupCode": "OCC CODE",
+          "cmsKey": null,
+          "defaultLabel": "FARMER"
+        },
+        {
+          "itemCode": "45",
+          "groupCode": "OCC CODE",
+          "cmsKey": null,
+          "defaultLabel": "FISHERMAN"
+        },
+        {
+          "itemCode": "54",
+          "groupCode": "OCC CODE",
+          "cmsKey": null,
+          "defaultLabel": "GASTROENTEROLOGIST"
+        },
+        {
+          "itemCode": "53",
+          "groupCode": "OCC CODE",
+          "cmsKey": null,
+          "defaultLabel": "HOMEOPATH"
+        },
+        {
+          "itemCode": "17",
+          "groupCode": "OCC CODE",
+          "cmsKey": null,
+          "defaultLabel": "LAWYER/ADVOCATE"
+        },
+        {
+          "itemCode": "38",
+          "groupCode": "OCC CODE",
+          "cmsKey": null,
+          "defaultLabel": "MAXILLO-FACIAL &amp; ORAL-SURG (DENTAL)"
+        },
+        {
+          "itemCode": "99",
+          "groupCode": "OCC CODE",
+          "cmsKey": null,
+          "defaultLabel": "MEDICAL"
+        },
+        {
+          "itemCode": "11",
+          "groupCode": "OCC CODE",
+          "cmsKey": null,
+          "defaultLabel": "MEDICAL DOCTOR"
+        },
+        {
+          "itemCode": "62",
+          "groupCode": "OCC CODE",
+          "cmsKey": null,
+          "defaultLabel": "NEPHROLOGIST"
+        },
+        {
+          "itemCode": "23",
+          "groupCode": "OCC CODE",
+          "cmsKey": null,
+          "defaultLabel": "NEUROLOGIST"
+        },
+        {
+          "itemCode": "24",
+          "groupCode": "OCC CODE",
+          "cmsKey": null,
+          "defaultLabel": "NUEROSURGEON"
+        },
+        {
+          "itemCode": "25",
+          "groupCode": "OCC CODE",
+          "cmsKey": null,
+          "defaultLabel": "OBSTETRICIAN AND GYNAECOLOGIST"
+        },
+        {
+          "itemCode": "61",
+          "groupCode": "OCC CODE",
+          "cmsKey": null,
+          "defaultLabel": "OCCUPATIONAL THERAPIST"
+        },
+        {
+          "itemCode": "67",
+          "groupCode": "OCC CODE",
+          "cmsKey": null,
+          "defaultLabel": "ONCOLOGIST"
+        },
+        {
+          "itemCode": "26",
+          "groupCode": "OCC CODE",
+          "cmsKey": null,
+          "defaultLabel": "OPHTHALMOLOGIST"
+        },
+        {
+          "itemCode": "59",
+          "groupCode": "OCC CODE",
+          "cmsKey": null,
+          "defaultLabel": "OPTOMETRIST"
+        },
+        {
+          "itemCode": "39",
+          "groupCode": "OCC CODE",
+          "cmsKey": null,
+          "defaultLabel": "ORAL MEDICINE AND PERIODONTIST"
+        },
+        {
+          "itemCode": "40",
+          "groupCode": "OCC CODE",
+          "cmsKey": null,
+          "defaultLabel": "ORAL PATHOLOGIST"
+        },
+        {
+          "itemCode": "41",
+          "groupCode": "OCC CODE",
+          "cmsKey": null,
+          "defaultLabel": "ORTHODONTIST"
+        },
+        {
+          "itemCode": "27",
+          "groupCode": "OCC CODE",
+          "cmsKey": null,
+          "defaultLabel": "ORTHOPAEDIC SURGEON"
+        },
+        {
+          "itemCode": "10",
+          "groupCode": "OCC CODE",
+          "cmsKey": null,
+          "defaultLabel": "OTHER"
+        },
+        {
+          "itemCode": "28",
+          "groupCode": "OCC CODE",
+          "cmsKey": null,
+          "defaultLabel": "OTORHI NOLARYNOLOGIST"
+        },
+        {
+          "itemCode": "63",
+          "groupCode": "OCC CODE",
+          "cmsKey": null,
+          "defaultLabel": "PAEDIATRIC CARDIOLOGIST"
+        },
+        {
+          "itemCode": "64",
+          "groupCode": "OCC CODE",
+          "cmsKey": null,
+          "defaultLabel": "PAEDIATRIC SURGEON"
+        },
+        {
+          "itemCode": "29",
+          "groupCode": "OCC CODE",
+          "cmsKey": null,
+          "defaultLabel": "PAEDIATRICIAN"
+        },
+        {
+          "itemCode": "30",
+          "groupCode": "OCC CODE",
+          "cmsKey": null,
+          "defaultLabel": "PATHOLOGIST"
+        },
+        {
+          "itemCode": "52",
+          "groupCode": "OCC CODE",
+          "cmsKey": null,
+          "defaultLabel": "PERIODONTIST"
+        },
+        {
+          "itemCode": "13",
+          "groupCode": "OCC CODE",
+          "cmsKey": null,
+          "defaultLabel": "PHARMACIST"
+        },
+        {
+          "itemCode": "22",
+          "groupCode": "OCC CODE",
+          "cmsKey": null,
+          "defaultLabel": "PHYSICIAN"
+        },
+        {
+          "itemCode": "55",
+          "groupCode": "OCC CODE",
+          "cmsKey": null,
+          "defaultLabel": "PHYSIOTHERAPIST"
+        },
+        {
+          "itemCode": "50",
+          "groupCode": "OCC CODE",
+          "cmsKey": null,
+          "defaultLabel": "PILOT"
+        },
+        {
+          "itemCode": "31",
+          "groupCode": "OCC CODE",
+          "cmsKey": null,
+          "defaultLabel": "PLASTIC SURGEON"
+        },
+        {
+          "itemCode": "56",
+          "groupCode": "OCC CODE",
+          "cmsKey": null,
+          "defaultLabel": "PODIATRIST"
+        },
+        {
+          "itemCode": "07",
+          "groupCode": "OCC CODE",
+          "cmsKey": null,
+          "defaultLabel": "PRODUCTION"
+        },
+        {
+          "itemCode": "01",
+          "groupCode": "OCC CODE",
+          "cmsKey": null,
+          "defaultLabel": "PROFESSIONAL"
+        },
+        {
+          "itemCode": "46",
+          "groupCode": "OCC CODE",
+          "cmsKey": null,
+          "defaultLabel": "PROFESSIONAL SPORTSMAN"
+        },
+        {
+          "itemCode": "42",
+          "groupCode": "OCC CODE",
+          "cmsKey": null,
+          "defaultLabel": "PROSTHODONTIST"
+        },
+        {
+          "itemCode": "32",
+          "groupCode": "OCC CODE",
+          "cmsKey": null,
+          "defaultLabel": "PSYCHIATRIST"
+        },
+        {
+          "itemCode": "58",
+          "groupCode": "OCC CODE",
+          "cmsKey": null,
+          "defaultLabel": "PSYCHOLOGIST"
+        },
+        {
+          "itemCode": "60",
+          "groupCode": "OCC CODE",
+          "cmsKey": null,
+          "defaultLabel": "PULMONOLOGIST"
+        },
+        {
+          "itemCode": "33",
+          "groupCode": "OCC CODE",
+          "cmsKey": null,
+          "defaultLabel": "RADIOLOGIST AND ELECTRO-THERAPIST"
+        },
+        {
+          "itemCode": "49",
+          "groupCode": "OCC CODE",
+          "cmsKey": null,
+          "defaultLabel": "RELIGIOUS"
+        },
+        {
+          "itemCode": "04",
+          "groupCode": "OCC CODE",
+          "cmsKey": null,
+          "defaultLabel": "SALES PERSON"
+        },
+        {
+          "itemCode": "05",
+          "groupCode": "OCC CODE",
+          "cmsKey": null,
+          "defaultLabel": "SERVICE"
+        },
+        {
+          "itemCode": "65",
+          "groupCode": "OCC CODE",
+          "cmsKey": null,
+          "defaultLabel": "SPORT MEDICINE"
+        },
+        {
+          "itemCode": "34",
+          "groupCode": "OCC CODE",
+          "cmsKey": null,
+          "defaultLabel": "SURGEON"
+        },
+        {
+          "itemCode": "47",
+          "groupCode": "OCC CODE",
+          "cmsKey": null,
+          "defaultLabel": "TECHNICIAN"
+        },
+        {
+          "itemCode": "35",
+          "groupCode": "OCC CODE",
+          "cmsKey": null,
+          "defaultLabel": "THORACIC SURGEON"
+        },
+        {
+          "itemCode": "48",
+          "groupCode": "OCC CODE",
+          "cmsKey": null,
+          "defaultLabel": "TRADESMAN"
+        },
+        {
+          "itemCode": "36",
+          "groupCode": "OCC CODE",
+          "cmsKey": null,
+          "defaultLabel": "UROLOGIST"
+        },
+        {
+          "itemCode": "66",
+          "groupCode": "OCC CODE",
+          "cmsKey": null,
+          "defaultLabel": "VASCULAR SURGEON"
+        },
+        {
+          "itemCode": "37",
+          "groupCode": "OCC CODE",
+          "cmsKey": null,
+          "defaultLabel": "VENERIOLOGIST"
+        },
+        {
+          "itemCode": "14",
+          "groupCode": "OCC CODE",
+          "cmsKey": null,
+          "defaultLabel": "VETERINARY SURGEON"
+        }
+      ],
+      "txnStatus": "Success",
+      "txnMessage": "Success"
+    }
+  }
+}

@@ -1,0 +1,1685 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resMsg": "Success",
+      "resCde": "00000",
+      "expTrace": null,
+      "serVer": "2.0",
+      "resId": "RES0883"
+    },
+    "payData": {
+      "getAllWUCountriesDTO": {
+        "iFTCountries": [
+          {
+            "countryCode": "UG",
+            "countryDescription": "Uganda",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "BG",
+            "countryDescription": "Bulgaria",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "PF",
+            "countryDescription": "French Polynesia",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "IL",
+            "countryDescription": "Israel",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "ZW",
+            "countryDescription": "Zimbabwe",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "Y",
+            "states": null
+          },
+          {
+            "countryCode": "KG",
+            "countryDescription": "Kyrghyz Republic",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "X",
+            "states": null
+          },
+          {
+            "countryCode": "BY",
+            "countryDescription": "Belarus",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "X",
+            "states": null
+          },
+          {
+            "countryCode": "CR",
+            "countryDescription": "Costa Rica",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "X",
+            "states": null
+          },
+          {
+            "countryCode": "C2",
+            "countryDescription": "Cyprus (Northern)",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "KE",
+            "countryDescription": "Kenya",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "Y",
+            "states": null
+          },
+          {
+            "countryCode": "MX",
+            "countryDescription": "Mexico",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "X",
+            "states": null
+          },
+          {
+            "countryCode": "DM",
+            "countryDescription": "Dominica",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "NE",
+            "countryDescription": "Niger",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "Y",
+            "states": null
+          },
+          {
+            "countryCode": "BN",
+            "countryDescription": "Brunei Darussalam",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "ST",
+            "countryDescription": "Sao Tome And Principe",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "XD",
+            "countryDescription": "St. Thomas",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "CL",
+            "countryDescription": "Chile",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "SV",
+            "countryDescription": "El Salvador",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "X",
+            "states": null
+          },
+          {
+            "countryCode": "TG",
+            "countryDescription": "Togo",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "Y",
+            "states": null
+          },
+          {
+            "countryCode": "TH",
+            "countryDescription": "Thailand",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "X",
+            "states": null
+          },
+          {
+            "countryCode": "OM",
+            "countryDescription": "Oman",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "UA",
+            "countryDescription": "Ukraine",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "X",
+            "states": null
+          },
+          {
+            "countryCode": "KZ",
+            "countryDescription": "Kazakhstan",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "X",
+            "states": null
+          },
+          {
+            "countryCode": "IE",
+            "countryDescription": "Ireland",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "GW",
+            "countryDescription": "Guinea-Bissau",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "Y",
+            "states": null
+          },
+          {
+            "countryCode": "AT",
+            "countryDescription": "Austria",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "GU",
+            "countryDescription": "Guam",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "TO",
+            "countryDescription": "Tonga",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "X",
+            "states": null
+          },
+          {
+            "countryCode": "NO",
+            "countryDescription": "Norway",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "X",
+            "states": null
+          },
+          {
+            "countryCode": "QZ",
+            "countryDescription": "Greece US Military Base",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "FJ",
+            "countryDescription": "Fiji",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "X",
+            "states": null
+          },
+          {
+            "countryCode": "US",
+            "countryDescription": "United States",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "RU",
+            "countryDescription": "Russia",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "X",
+            "states": null
+          },
+          {
+            "countryCode": "MK",
+            "countryDescription": "Macedonia",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "X",
+            "states": null
+          },
+          {
+            "countryCode": "KR",
+            "countryDescription": "Korea",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "X",
+            "states": null
+          },
+          {
+            "countryCode": "AL",
+            "countryDescription": "Albania",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "QU",
+            "countryDescription": "Kuwait US Military Base",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "GA",
+            "countryDescription": "Gabon",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "Y",
+            "states": null
+          },
+          {
+            "countryCode": "ES",
+            "countryDescription": "Spain",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "X",
+            "states": null
+          },
+          {
+            "countryCode": "MR",
+            "countryDescription": "Mauritania",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "Y",
+            "states": null
+          },
+          {
+            "countryCode": "ID",
+            "countryDescription": "Indonesia",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "X",
+            "states": null
+          },
+          {
+            "countryCode": "QN",
+            "countryDescription": "Korea US Military Base",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "X",
+            "states": null
+          },
+          {
+            "countryCode": "SR",
+            "countryDescription": "Suriname",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "BR",
+            "countryDescription": "Brazil",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "CV",
+            "countryDescription": "Cape Verde",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "Y",
+            "states": null
+          },
+          {
+            "countryCode": "XZ",
+            "countryDescription": "North Ireland",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "AN",
+            "countryDescription": "Curacao/Netherlands Antilles",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "UZ",
+            "countryDescription": "Uzbekistan",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "X",
+            "states": null
+          },
+          {
+            "countryCode": "JM",
+            "countryDescription": "Jamaica",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "X",
+            "states": null
+          },
+          {
+            "countryCode": "PS",
+            "countryDescription": "Palestinian Authority",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "RO",
+            "countryDescription": "Romania",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "X",
+            "states": null
+          },
+          {
+            "countryCode": "NL",
+            "countryDescription": "Netherlands",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "X",
+            "states": null
+          },
+          {
+            "countryCode": "MA",
+            "countryDescription": "Morocco",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "MM",
+            "countryDescription": "Myanmar",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "BS",
+            "countryDescription": "Bahamas",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "X",
+            "states": null
+          },
+          {
+            "countryCode": "YE",
+            "countryDescription": "Yemen",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "JP",
+            "countryDescription": "Japan",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "X",
+            "states": null
+          },
+          {
+            "countryCode": "MO",
+            "countryDescription": "Macau",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "TC",
+            "countryDescription": "Turks and Caicos Islands",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "SO",
+            "countryDescription": "Somalia",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "LK",
+            "countryDescription": "Sri Lanka",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "BB",
+            "countryDescription": "Barbados",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "SI",
+            "countryDescription": "Slovenia",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "CH",
+            "countryDescription": "Switzerland",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "TT",
+            "countryDescription": "Trinidad and Tobago",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "MC",
+            "countryDescription": "Monaco",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "IS",
+            "countryDescription": "Iceland",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "X",
+            "states": null
+          },
+          {
+            "countryCode": "BT",
+            "countryDescription": "Bhutan",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "SN",
+            "countryDescription": "Senegal",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "Y",
+            "states": null
+          },
+          {
+            "countryCode": "ET",
+            "countryDescription": "Ethiopia",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "Y",
+            "states": null
+          },
+          {
+            "countryCode": "CF",
+            "countryDescription": "Central African Republic",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "Y",
+            "states": null
+          },
+          {
+            "countryCode": "TR",
+            "countryDescription": "Turkey",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "GP",
+            "countryDescription": "Guadeloupe",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "AS",
+            "countryDescription": "American Samoa",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "LV",
+            "countryDescription": "Latvia",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "GH",
+            "countryDescription": "Ghana",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "X",
+            "states": null
+          },
+          {
+            "countryCode": "TV",
+            "countryDescription": "Tuvalu",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "PL",
+            "countryDescription": "Poland",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "QY",
+            "countryDescription": "Qatar US Military Base",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "MY",
+            "countryDescription": "Malaysia",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "MW",
+            "countryDescription": "Malawi",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "Y",
+            "states": null
+          },
+          {
+            "countryCode": "XT",
+            "countryDescription": "Portugal US Military Base",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "X",
+            "states": null
+          },
+          {
+            "countryCode": "LT",
+            "countryDescription": "Lithuania",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "BF",
+            "countryDescription": "Burkina Faso",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "Y",
+            "states": null
+          },
+          {
+            "countryCode": "SL",
+            "countryDescription": "Sierra Leone",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "Y",
+            "states": null
+          },
+          {
+            "countryCode": "QS",
+            "countryDescription": "Cuba US Military Base",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "KN",
+            "countryDescription": "Saint Kitts And Nevis",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "CO",
+            "countryDescription": "Colombia",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "X",
+            "states": null
+          },
+          {
+            "countryCode": "HR",
+            "countryDescription": "Croatia",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "PE",
+            "countryDescription": "Peru",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "X",
+            "states": null
+          },
+          {
+            "countryCode": "B1",
+            "countryDescription": "Bonaire",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "QX",
+            "countryDescription": "Iraq US Military Base",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "HU",
+            "countryDescription": "Hungary",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "MQ",
+            "countryDescription": "Martinique",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "GQ",
+            "countryDescription": "Equatorial Guinea",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "CY",
+            "countryDescription": "Cyprus",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "AE",
+            "countryDescription": "United Arab Emirates",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "X",
+            "states": null
+          },
+          {
+            "countryCode": "PG",
+            "countryDescription": "Papua New Guinea",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "GY",
+            "countryDescription": "Guyana",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "LR",
+            "countryDescription": "Liberia",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "Y",
+            "states": null
+          },
+          {
+            "countryCode": "NP",
+            "countryDescription": "Nepal",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "WS",
+            "countryDescription": "Samoa",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "AF",
+            "countryDescription": "Afghanistan",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "CM",
+            "countryDescription": "Cameroon",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "Y",
+            "states": null
+          },
+          {
+            "countryCode": "PR",
+            "countryDescription": "Puerto Rico",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "GF",
+            "countryDescription": "French Guiana",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "QO",
+            "countryDescription": "Germany US Military Base",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "X",
+            "states": null
+          },
+          {
+            "countryCode": "BI",
+            "countryDescription": "Burundi",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "Y",
+            "states": null
+          },
+          {
+            "countryCode": "CI",
+            "countryDescription": "Ivory Coast",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "Y",
+            "states": null
+          },
+          {
+            "countryCode": "XB",
+            "countryDescription": "BAHRAIN US MILITARY BASE",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "QT",
+            "countryDescription": "Netherlands US Military Base",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "X",
+            "states": null
+          },
+          {
+            "countryCode": "XN",
+            "countryDescription": "Turkey US Military Base",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "HK",
+            "countryDescription": "Hong Kong",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "EG",
+            "countryDescription": "Egypt",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "X",
+            "states": null
+          },
+          {
+            "countryCode": "VC",
+            "countryDescription": "Saint Vincent And The Grenadines",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "AW",
+            "countryDescription": "Aruba",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "X",
+            "states": null
+          },
+          {
+            "countryCode": "HN",
+            "countryDescription": "Honduras",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "X",
+            "states": null
+          },
+          {
+            "countryCode": "IQ",
+            "countryDescription": "Iraq",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "MS",
+            "countryDescription": "Montserrat",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "CG",
+            "countryDescription": "Congo-Brazzaville",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "Y",
+            "states": null
+          },
+          {
+            "countryCode": "FK",
+            "countryDescription": "Falkland Islands (Malvinas)",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "AA",
+            "countryDescription": "Kyrghyz Republic US Military Base",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "X",
+            "states": null
+          },
+          {
+            "countryCode": "GM",
+            "countryDescription": "Gambia",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "Y",
+            "states": null
+          },
+          {
+            "countryCode": "JO",
+            "countryDescription": "Jordan",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "X",
+            "states": null
+          },
+          {
+            "countryCode": "ME",
+            "countryDescription": "Montenegro",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "XQ",
+            "countryDescription": "England",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "KI",
+            "countryDescription": "Kiribati",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "LY",
+            "countryDescription": "Libyan Arab Jamahiriya",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "X",
+            "states": null
+          },
+          {
+            "countryCode": "XV",
+            "countryDescription": "Tinian, CMNI",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "DJ",
+            "countryDescription": "Djibouti",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "Y",
+            "states": null
+          },
+          {
+            "countryCode": "MU",
+            "countryDescription": "Mauritius",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "EC",
+            "countryDescription": "Ecuador",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "QV",
+            "countryDescription": "Djibouti US Military Base",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "Y",
+            "states": null
+          },
+          {
+            "countryCode": "VN",
+            "countryDescription": "Vietnam",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "ER",
+            "countryDescription": "Eritrea",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "Y",
+            "states": null
+          },
+          {
+            "countryCode": "MG",
+            "countryDescription": "Madagascar",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "Y",
+            "states": null
+          },
+          {
+            "countryCode": "TJ",
+            "countryDescription": "Tajikistan",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "X",
+            "states": null
+          },
+          {
+            "countryCode": "XE",
+            "countryDescription": "UAE US MILITARY BASE",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "QW",
+            "countryDescription": "United Kingdom US Military Base",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "AI",
+            "countryDescription": "Anguilla",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "KH",
+            "countryDescription": "Cambodia",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "VE",
+            "countryDescription": "Venezuela",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "X",
+            "states": null
+          },
+          {
+            "countryCode": "XP",
+            "countryDescription": "Afghanistan US Military Base",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "SK",
+            "countryDescription": "Slovakia",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "AG",
+            "countryDescription": "Antigua And Barbuda",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "HT",
+            "countryDescription": "Haiti",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "X",
+            "states": null
+          },
+          {
+            "countryCode": "ML",
+            "countryDescription": "Mali",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "Y",
+            "states": null
+          },
+          {
+            "countryCode": "XF",
+            "countryDescription": "Kosovo US Military Base",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "TM",
+            "countryDescription": "Turkmenistan",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "X",
+            "states": null
+          },
+          {
+            "countryCode": "XR",
+            "countryDescription": "Wales",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "CN",
+            "countryDescription": "China",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "X",
+            "states": null
+          },
+          {
+            "countryCode": "MT",
+            "countryDescription": "Malta",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "BZ",
+            "countryDescription": "Belize",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "X",
+            "states": null
+          },
+          {
+            "countryCode": "FR",
+            "countryDescription": "France",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "ZM",
+            "countryDescription": "Zambia",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "Y",
+            "states": null
+          },
+          {
+            "countryCode": "QA",
+            "countryDescription": "Qatar",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "GR",
+            "countryDescription": "Greece",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "X",
+            "states": null
+          },
+          {
+            "countryCode": "BA",
+            "countryDescription": "Bosnia and Herzegovina",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "LB",
+            "countryDescription": "Lebanon",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "NZ",
+            "countryDescription": "New Zealand",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "LA",
+            "countryDescription": "Lao, People's Democratic Republic",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "K1",
+            "countryDescription": "Kosovo",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "GT",
+            "countryDescription": "Guatemala",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "X",
+            "states": null
+          },
+          {
+            "countryCode": "XW",
+            "countryDescription": "Rota, CMNI",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "LC",
+            "countryDescription": "Saint Lucia",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "SB",
+            "countryDescription": "Solomon Islands",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "SA",
+            "countryDescription": "Saudi Arabia",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "X",
+            "states": null
+          },
+          {
+            "countryCode": "QQ",
+            "countryDescription": "Belgium US Military Base",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "GB",
+            "countryDescription": "United Kingdom",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "X",
+            "states": null
+          },
+          {
+            "countryCode": "NI",
+            "countryDescription": "Nicaragua",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "X",
+            "states": null
+          },
+          {
+            "countryCode": "CZ",
+            "countryDescription": "Czech Republic",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "PK",
+            "countryDescription": "Pakistan",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "X",
+            "states": null
+          },
+          {
+            "countryCode": "PT",
+            "countryDescription": "Portugal",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "X",
+            "states": null
+          },
+          {
+            "countryCode": "SE",
+            "countryDescription": "Sweden",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "IT",
+            "countryDescription": "Italy",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "X",
+            "states": null
+          },
+          {
+            "countryCode": "IN",
+            "countryDescription": "India",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "X",
+            "states": null
+          },
+          {
+            "countryCode": "CD",
+            "countryDescription": "Democratic Repblic of Congo",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "Y",
+            "states": null
+          },
+          {
+            "countryCode": "LU",
+            "countryDescription": "Luxembourg",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "X",
+            "states": null
+          },
+          {
+            "countryCode": "LI",
+            "countryDescription": "Liechtenstein",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "TN",
+            "countryDescription": "Tunisia",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "X",
+            "states": null
+          },
+          {
+            "countryCode": "BH",
+            "countryDescription": "Bahrain",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "GD",
+            "countryDescription": "Grenada",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "BD",
+            "countryDescription": "Bangladesh",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "KM",
+            "countryDescription": "Comoros",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "Y",
+            "states": null
+          },
+          {
+            "countryCode": "MD",
+            "countryDescription": "Moldova",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "X",
+            "states": null
+          },
+          {
+            "countryCode": "NU",
+            "countryDescription": "Niue",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "MZ",
+            "countryDescription": "Mozambique",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "Y",
+            "states": null
+          },
+          {
+            "countryCode": "QM",
+            "countryDescription": "Japan US Military Base",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "X",
+            "states": null
+          },
+          {
+            "countryCode": "YT",
+            "countryDescription": "Mayotte",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "VU",
+            "countryDescription": "Vanuatu",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "MH",
+            "countryDescription": "Marshall Islands",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "PH",
+            "countryDescription": "Philippines",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "X",
+            "states": null
+          },
+          {
+            "countryCode": "XS",
+            "countryDescription": "Scotland",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "TZ",
+            "countryDescription": "Tanzania",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "Y",
+            "states": null
+          },
+          {
+            "countryCode": "XU",
+            "countryDescription": "Saipan, CMNI",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "SC",
+            "countryDescription": "Seychelles",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "Y",
+            "states": null
+          },
+          {
+            "countryCode": "AO",
+            "countryDescription": "Angola",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "Y",
+            "states": null
+          },
+          {
+            "countryCode": "VI",
+            "countryDescription": "Virgin Islands (US)",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "QR",
+            "countryDescription": "Honduras US Military Base",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "X",
+            "states": null
+          },
+          {
+            "countryCode": "EE",
+            "countryDescription": "Estonia",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "VG",
+            "countryDescription": "Virgin Islands, British",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "BO",
+            "countryDescription": "Bolivia",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "PY",
+            "countryDescription": "Paraguay",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "DZ",
+            "countryDescription": "Algeria",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "BE",
+            "countryDescription": "Belgium",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "CA",
+            "countryDescription": "Canada",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "X",
+            "states": null
+          },
+          {
+            "countryCode": "GE",
+            "countryDescription": "Georgia",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "XY",
+            "countryDescription": "Guam US Military Base",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "MP",
+            "countryDescription": "Northern Mariana Islands",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "NG",
+            "countryDescription": "Nigeria",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "Y",
+            "states": null
+          },
+          {
+            "countryCode": "KW",
+            "countryDescription": "Kuwait",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "DE",
+            "countryDescription": "Germany",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "X",
+            "states": null
+          },
+          {
+            "countryCode": "YU",
+            "countryDescription": "Serbia",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "X",
+            "states": null
+          },
+          {
+            "countryCode": "BW",
+            "countryDescription": "Botswana",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "Y",
+            "states": null
+          },
+          {
+            "countryCode": "FM",
+            "countryDescription": "Micronesia",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "MN",
+            "countryDescription": "Mongolia",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "GI",
+            "countryDescription": "Gibraltar",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "BJ",
+            "countryDescription": "Benin",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "Y",
+            "states": null
+          },
+          {
+            "countryCode": "MV",
+            "countryDescription": "Maldives",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "AR",
+            "countryDescription": "Argentina",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "X",
+            "states": null
+          },
+          {
+            "countryCode": "AZ",
+            "countryDescription": "Azerbaijan",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "CK",
+            "countryDescription": "Cook Islands",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "QP",
+            "countryDescription": "Italy US Military Base",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "X",
+            "states": null
+          },
+          {
+            "countryCode": "TP",
+            "countryDescription": "East Timor",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "FI",
+            "countryDescription": "Finland",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "UY",
+            "countryDescription": "Uruguay",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "AU",
+            "countryDescription": "Australia",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "RE",
+            "countryDescription": "Reunion Island",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "TW",
+            "countryDescription": "Taiwan",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "X",
+            "states": null
+          },
+          {
+            "countryCode": "TD",
+            "countryDescription": "Chad",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "Y",
+            "states": null
+          },
+          {
+            "countryCode": "SG",
+            "countryDescription": "Singapore",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "X",
+            "states": null
+          },
+          {
+            "countryCode": "DK",
+            "countryDescription": "Denmark",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "PW",
+            "countryDescription": "Palau",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "BL",
+            "countryDescription": "Saint Barthelemy",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "PA",
+            "countryDescription": "Panama",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          },
+          {
+            "countryCode": "GN",
+            "countryDescription": "Guinea",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "Y",
+            "states": null
+          },
+          {
+            "countryCode": "RW",
+            "countryDescription": "Rwanda",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "Y",
+            "states": null
+          },
+          {
+            "countryCode": "DO",
+            "countryDescription": "Dominican Republic",
+            "cMACountryIndicator": "",
+            "displayQuestionsAndAwnsers": "",
+            "states": null
+          }
+        ]
+      },
+      "txnStatus": "Success",
+      "txnMessage": "Success"
+    }
+  }
+}

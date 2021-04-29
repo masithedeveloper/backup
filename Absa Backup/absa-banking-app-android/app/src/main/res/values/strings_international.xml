@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="international_banking_menu_item">International Banking</string>
+    <string name="international_payment_menu_item">International Payment</string>
+    <string name="international_banking_activity_title">International banking</string>
+    <string name="international_payments_how_does_this_work">How does this work?</string>
+    <string name="international_payments_pay_someone_new">Pay someone new</string>
+    <string name="international_payments_recent_beneficiaries">Recently Paid Beneficiaries</string>
+
+    <string name="how_does_this_work_step_one_title">Send money to anyone in the world in 3 steps</string>
+    <string name="how_does_this_work_step_two_title">Create and pay a beneficiary</string>
+    <string name="how_does_this_work_step_three_title">Receive the Money Transfer Control Number</string>
+    <string name="how_does_this_work_step_four_title">Send the Money Transfer Control Number</string>
+
+    <string name="how_does_this_work_step_one_description">There is no need for documents, and with over 500 000 Agent locations worldwide in over 200 countries and territories, sending money to someone internationally has never been easier.</string>
+    <string name="how_does_this_work_step_two_description">Easily create a beneficiary and complete the payment process</string>
+    <string name="how_does_this_work_step_three_description">You will receive the Western Union MTCN (Money Transfer Control Number) via SMS within one hour</string>
+    <string name="how_does_this_work_step_four_description">Send this MTCN to your beneficiary to be able to redeem the funds from a Western Union agent in their current location</string>
+
+    <string name="how_does_this_work_step_one_text">Create and pay a beneficiary</string>
+    <string name="send_money_anywhere_in_the_world_in_three_steps">Send money to\nanyone in the world\nin 3 steps</string>
+    <string name="how_this_works">How this works</string>
+    <string name="international_how_this_works_toolbar">How it works</string>
+    <string name="international_disclaimer_description">Western Union payments will be made under your Single Discretionary Allowance* of R1 million per year.\n\nThere is no need for documents, and the currency you buy is reported under the Reserve Bank reporting category of “Gift (401)”.</string>
+    <string name="western_union_payment_infomration">Western Union Payment Information</string>
+    <string name="continue_button_international">Continue</string>
+    <string name="individuals_and_corporations_text">1. To individuals and not corporations\n2. A max. of R30 000 per payment\n3. A max. of $8 000 per day\n4. A min. of $10 per transaction</string>
+    <string name="what_you_need_text">Your beneficiary’s:\n1. Permanent physical address\n2. Full names as displayed in their ID/Passport\n3. Current location</string>
+    <string name="how_does_this_work_step_three_text">Send this MTCN to your beneficiary to be able to redeem the funds from a Western Union agent in their current location.</string>
+    <string name="how_does_this_work_step_two_text">Receive a Money Transfer Control Number (MTCN)</string>
+    <string name="how_this_works_what_is_a_mtcn">What’s a Money Transfer Control Number (MTCN)?</string>
+    <string name="how_this_works_what_is_a_description">After you send money, you\'ll get a receipt and each receipt includes a unique tracking number (MTCN), which is a 10-digit number assigned to every money transfer you make. Your receiver will need the tracking number (MTCN) to pick up the money.</string>
+    <string name="how_this_works_things_to_remember">Things to remember</string>
+    <string name="how_this_works_requires_passport">Your beneficiary needs the MTCN and their ID/Passport to collect funds.</string>
+    <string name="how_this_works_payments_via_western_union">Payments are through Western Union and can only be:</string>
+    <string name="how_this_works_what_you_need">What you need</string>
+    <string name="how_this_works_urgent_assistance">Urgent Assistance</string>
+    <string name="how_this_works_south_africa">South Africa</string>
+    <string name="how_this_works_local_number" translatable="false">0860 151 151</string>
+    <string name="how_this_works_international">International</string>
+    <string name="how_this_works_international_number" translatable="false">+27 11 335 4019</string>
+    <string name="i_acknowledge_this_is_an_international_payment">I acknowledge that this is a gift payment.</string>
+    <string name="acknowledge_that_this_is_a_gift_error">Please acknowledge that this is a gift payment</string>
+    <string name="name_input_view_description">If Name/s are not stated exactly as in ID/Passport, collection can be refused.</string>
+    <string name="name_input_view_hint">Enter First Name/s</string>
+    <string name="name_input_view_title">First name/s as per ID/Passport</string>
+    <string name="surname_input_view_description">If Surname/s are not stated exactly as in ID/Passport, collection can be refused.</string>
+    <string name="surname_input_view_hint">Enter Surname/s</string>
+    <string name="surname_input_view_title">Surname/s as per ID/Passport</string>
+    <string name="beneficiary_details_disclaimer_text">SA Resident temporarily abroad - Someone who is abroad for a short period of time (for holiday, business, etc.) and will return to South Africa.\n\nNon-SA resident abroad - Someone who lives abroad permanently.</string>
+    <string name="beneficiary_details_continue_text">Continue</string>
+    <string name="beneficiary_residential_status">%s Residential Status</string>
+    <string name="international_payments_personal_info_text">%s Personal Information</string>
+    <string name="full_names_as_per_password_text">Full names as per ID/Passport</string>
+    <string name="beneficiary_gender_text">%s Gender</string>
+    <string name="residential_status_text">%s Residential Status</string>
+    <string name="confirm_beneficiary_toolbar_text">Confirm beneficiary details</string>
+    <string name="please_enter_beneficiary_names">Please enter the %s names</string>
+    <string name="please_enter_beneficiary_surnames">Please enter the %s surname</string>
+    <string name="please_select_a_gender">Please select a gender</string>
+    <string name="please_select_a_residential_status">Please select a residential status</string>
+    <string name="international_are_you_sure_you_want_to_cancel">Are you sure you want to cancel this payment?</string>
+    <string name="enter_beneficiary_address_hint">Enter %s address</string>
+    <string name="beneficiary_residential_address_title">%s residential address</string>
+    <string name="select_destination_country_hint">Select destination country</string>
+    <string name="destination_country_title">Destination country</string>
+    <string name="select_destination_state_hint">Select destination state</string>
+    <string name="destination_state_title">Destination state</string>
+    <string name="select_destination_city_hint">Select destination city</string>
+    <string name="destination_city_title">Destination city</string>
+    <string name="enter_a_security_question_hint">Enter a security question</string>
+    <string name="security_question_title">Security question</string>
+    <string name="enter_security_answer_hint">Enter an answer to your security question</string>
+    <string name="enter_security_answer_title">Security answer</string>
+    <string name="international_payment_details_title">Payment details</string>
+    <string name="please_enter_a_valid_address">Please enter an Address</string>
+    <string name="please_select_a_valid_country">Please select a country</string>
+    <string name="please_enter_a_valid_state">Please enter a state</string>
+    <string name="please_select_a_valid_city">Please select a city</string>
+    <string name="please_select_a_valid_state">Please select a State</string>
+    <string name="pelase_enter_a_security_question">Please enter a security question</string>
+    <string name="please_enter_a_security_answer">Please enter a security answer</string>
+    <string name="please_enter_a_valid_city">Please enter a valid City</string>
+    <string name="calculate_exchange_rate">Calculate exchange rate</string>
+
+    <string name="international_payments_amount_to_send">Amount to send</string>
+    <string name="international_payments_currency_to_send">Currency To Send</string>
+    <string name="international_payments_total_amount_due_by_you">Total amount due by you</string>
+    <string name="international_payments_total_due_includes">Total amount due by you includes VAT and commission fees.</string>
+    <string name="international_payments_enter_amount">Enter amount</string>
+    <string name="international_payments_exchange_rate">Exchange rate</string>
+    <string name="international_payments_usd_conversion_rate">USD conversion rate</string>
+    <string name="international_payments_i_have_read_declaration">I have read and accept the Reserve Bank Declaration</string>
+    <string name="international_payments_declaration_hyperlink">Reserve Bank Declaration</string>
+
+    <string name="international_payments_continue">Continue</string>
+    <string name="international_payments_go_back">Go back</string>
+    <string name="international_payments_cancel_title">Are you sure you want to cancel?</string>
+    <string name="international_payments_cancel_message">If you cancel, all details will be lost and you will have to start the process again. Would you like to proceed?</string>
+    <string name="international_payments_enter_an_amount">Please enter an amount</string>
+
+    <!--Result screens-->
+    <string name="international_payment_result_please_note">Please note</string>
+    <string name="international_payment_result_payment_unsuccessful">Your payment was unsuccessful</string>
+    <string name="international_payment_result_payment_unsuccessful_joint_account">You cannot make international payments using a joint account. Please use another account to make a payment.</string>
+    <string name="international_payment_result_beneficiary_saved">Beneficiary saved</string>
+    <string name="international_payment_result_beneficiary_not_saved">Beneficiary not saved</string>
+    <string name="international_payment_result_payment_processing">Payment processing</string>
+    <string name="international_payment_result_save_beneficiary">Save beneficiary</string>
+    <string name="international_payment_result_last_payment_pending">Last payment pending</string>
+    <string name="international_payment_save_beneficiary_for_future_payments">Do you want save the beneficiary?</string>
+    <string name="international_payment_save_beneficiary_for_future_payments_description">We do not automatically save beneficiaries for once off payments. Please go back and save this beneficiary should you require for future payments.</string>
+    <string name="international_payment_result_payment_notice_times">Transaction hours (Central Africa Time) are:\n\nMonday to Friday\n08:00 - 17:00\n\nSaturdays\n08:00 - 12:00\n\nUnavailable on Sundays and public holidays.</string>
+    <string name="international_payment_result_payment_beneficiary_details_captured">Beneficiary details successfully captured. On %s</string>
+    <string name="international_payment_result_transaction_successfully_submitted">On %1$s\n\nYour transaction has been successfully submitted under payment reference %2$s. The proof of payment can be viewed on Absa Online Banking website.\n\n<b>You will receive the Western Union MTCN (Money Transfer Control Number) via SMS within the hour. Please share the MTCN with the beneficiary.</b>\n\nTo manage your beneficiaries, please go to Absa Online.</string>
+    <string name="international_payment_result_last_payment_pending_description">You will not be able to make another Western Union payment, as your last payment is still processing. Please try again in 1 hour.</string>
+
+    <string name="international_payments_confirmation_title">Continue payment?</string>
+    <string name="international_payments_confirmation_message">You will not be able to edit these payment details if you wish to continue. Do you want to continue?</string>
+    <string name="declaration_text">By accepting I declare that: \n\n• I have read the Terms of Use and know and understand the contents thereof;\n• I have read the Regulatory and Compliance legal terms and understand the contents thereof.\n• The information furnished above is in all respects both true and correct.
+\n• The currency applied for will only be used for the specific purpose stated herein.
+\n• The documentation presented in support of this transaction is in all respect authentic.
+\n• I have been informed of the limit applicable to this transaction and confirm that this limit has not been exceeded as a result of the conclusion of this transaction.
+\n• I consent to this information being provided to the South Africa Revenue service and/or the Financial Intelligence Center.
+\n• None of the counter parties/parties/related parties to this transaction, the country of origin, the country of destination pertaining to goods/services can be linked to any of the following countries Iran, North Korea, Crimea, Syria, Sudan (North and /or South), and Cuba. I hereby confirm that the bank will prohibit the transaction, instruction or accounts I may be applying for. I confirm further that the bank may also have to end its relationship with me without warning. I confirm that the bank is not responsible for any losses or damages that I may suffer because of any action in this regard.
+\n• I will retain the supporting documentation related to this transaction for a period of 5 (five) years, for inspection purposes by the Financial Surveillance Department of the South African Reserve Bank.
+\n• I fully understand that should I be required to and not submit the supporting documents related to the transaction, to the bank within the given time frames, the transaction will be cancelled.
+\n• I fully understand that the above provision constitutes an acknowledgement of facts and its effect will limit my right to claim that such fact is not accurate.</string>
+    <string name="international_payments_confirm_beneficiaries">Confirm Details</string>
+    <string name="international_payments_beneficiary_address_information">%s address information</string>
+    <string name="international_payments_amount_cannot_be_more_than">Amount cannot be more than %s. Please decrease your amount.</string>
+    <string name="international_payments_the_payment_exceeds_your_available_balance">Please enter a valid amount</string>
+    <string name="international_payments_confirm_details">Confirm details</string>
+    <string name="international_payments_reserve_bank_error">Please read and accept the Reserve Bank Declaration</string>
+    <string name="international_payments_recently_paid_beneficiaries">Recently paid beneficiaries</string>
+    <string name="international_payments_minimum_amount_error">Amount cannot be less than %s. Please increase your amount.</string>
+    <string name="international_payments_maximum_amount_error">Amount cannot more than %s. Please decrease your amount.</string>
+    <string name="international_payments_beneficiary_details">Beneficiary details</string>
+    <string name="western_union_once_off_payment">About this once-off payment</string>
+    <string name="western_union_once_off_payments_body">You will not be able to pay this person again if you don\'t create a beneficiary. Would you still like to continue?</string>
+    <string name="international_payments_once_off_payment">Once-off payment</string>
+    <string name="international_payments_unable_to_calculate_amount">Unable to calculate total amount</string>
+    <string name="international_payments_unable_to_calculate_extended_description">We are having trouble completing this action right now. Please try again later.</string>
+    <string name="international_payments_unable_to_calculate_description">We are having trouble completing this action. Please try again.</string>
+    <string name="international_payments_transfer_limit">The amount is more than your current daily payment limit. If you continue, we\'ll update your limit but you can always change it back later.</string>
+    <string name="international_payments_transfer_limit_heading">Update daily payment limit?</string>
+    <string name="international_payments_payment_unsuccessful">Your payment was unsuccessful</string>
+    <string name="international_payments_fica_error">You are not FICA compliant. Please use a verified FICA account to make international payments.</string>
+
+    <string name="international_payments_recipient">Recipient</string>
+    <string name="international_payments_beneficiary">Beneficiary</string>
+    <string name="international_payments_recipients">recipients</string>
+    <string name="international_payments_beneficiaries">beneficiaries</string>
+
+    <string name="international_payments_toolbar">%s details</string>
+    <string name="international_beneficiary_address">%s Address</string>
+    <string name="international_payments_city">%s City</string>
+    <string name="international_payments_state">%s State</string>
+    <string name="international_payments_country">%s Country</string>
+    <string name="international_payment_details_beneficiary_receives">%s receives</string>
+
+    <string name="international_payment_result_transaction_successfully_string_to_make_bold">You will receive the Western Union MTCN (Money Transfer Control Number) via SMS within the hour. Please share the MTCN with the beneficiary.</string>
+    <string name="international_payment_result_transaction_successfully_submitted_with_security_question">On %1$s\n\nYour transaction has been successfully submitted under payment reference %2$s. The proof of payment can be viewed on Absa Online Banking website.\n\nYou will receive the Western Union MTCN (Money Transfer Control Number) via SMS within the hour. Please share the MTCN and security question and answer with the recipient.\n\nTo manage your beneficiaries, please go to Absa Online.</string>
+    <string name="international_payment_result_transaction_successfully_submitted_with_security_question_text_to_bold">You will receive the Western Union MTCN (Money Transfer Control Number) via SMS within the hour. Please share the MTCN and security question and answer with the recipient.</string>
+    <string name="international_payments_you_have_no_beneficiaries">You do not have any international payment beneficiaries.</string>
+    <string name="international_try_again">Try again</string>
+    <string name="international_payments_you_cannot_continue">You cannot continue with your payment</string>
+    <string name="international_payments_currency_not_supported">Currency not currently supported, please select another currency</string>
+
+    <string name="international_payments_swift_english_only_notice">Hierdie funksie is tans slegs in Engels beskikbaar as gevolg van regulatoriese en verslagdoeningsdoeleindes. Ons vra om verskoning vir enige ongerief.</string>
+    <string name="western_union_payout_currency_title">Payout Currency</string>
+
+    <string name="western_union_send_currency_description">The currency you want to send to the beneficiary</string>
+    <string name="western_union_payout_currency_description">The currency you want the beneficiary to be paid in</string>
+</resources>

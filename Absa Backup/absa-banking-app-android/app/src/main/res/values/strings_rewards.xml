@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="rewards_earn_rates_disclaimer">Your Rewards Tier is determined by your Rewards score for that calendar month. This is re-calculated every month to make sure you always earn the Rewards you deserve through the way you bank.</string>
+    <string name="rewards_level">Tier Level %s</string>
+    <string name="rewards_account">Rewards Account</string>
+    <string name="cash">Cash</string>
+    <string name="vouchers_or_tickets">Vouchers / Tickets</string>
+    <string name="pay_from">Pay from</string>
+    <string name="save">Save</string>
+    <string name="rewards_fee_per_month">%s per month</string>
+    <string name="rewards_fee_per_annum">%s per annum</string>
+
+    <string name="absa_reward_products">Absa Rewards products</string>
+    <string name="reward_products"><b>Rewards products</b></string>
+    <string name="absa_reward_vouchers">Vouchers</string>
+
+    <!-- Successful Unsuccessful Apply Rewards -->
+    <string name="your_rewards_account_active">Your Rewards account is active</string>
+    <string name="start_earning_rewards">You can now start earning rewards.</string>
+    <string name="please_contact_us">For Rewards enquiries, please contact us.</string>
+    <string name="rewards_email_subject" translatable="false">Absa Rewards Application query from App</string>
+    <string name="send_email_popup_title" translatable="false">Send mail...</string>
+    <string name="rewards_account_unsuccessful">Rewards account application unsuccessful</string>
+    <string name="call">Call</string>
+    <string name="email_the_rewards_team">Email the Rewards Team</string>
+    <string name="vouchers">Vouchers</string>
+
+    <!--Apply for rewards contact information-->
+    <string name="title_contact_information">Contact information</string>
+    <string name="home_telephone">Home telephone</string>
+    <string name="enter_home_telephone">Enter home telephone</string>
+    <string name="work_telephone">Work telephone</string>
+    <string name="enter_work_telephone">Enter work telephone</string>
+    <string name="preferred_language">Preferred language</string>
+    <string name="where_should_we_send">Where should we send your Rewards Statements?</string>
+    <string name="may_we_send_you_information">May we send you information on special offers and promotions?</string>
+    <string name="where_may_we_send">Where may we send marketing to?</string>
+    <string name="to_my_email">To my email</string>
+    <string name="to_my_address">To my address</string>
+    <string name="dont_send">Don’t send</string>
+    <string name="yes_please">Yes, please</string>
+    <string name="direct_mail">Direct mail</string>
+    <string name="telephone">Telephone</string>
+    <string name="sms">Sms</string>
+    <string name="validate_marketing_method">Please select how we send you marketing information?</string>
+
+    <!--Donate to charity-->
+    <string name="donate_to_charity">Donate to charity</string>
+    <string name="select_charity">Select charity</string>
+    <string name="donate_to_charity_list_title">Which charity do you want to donate to?</string>
+    <string name="how_much_do_you_want">How much do you want to donate?</string>
+    <string name="donate_to_charity_minimum_amount">Minimum of R 1.00</string>
+    <string name="thanks_for_showing_some_love">Thanks for showing some love</string>
+    <string name="make_another_donation">Make another donation</string>
+    <string name="your_donation_has_been_sent">Your donation has been sent to %s.</string>
+    <string name="your_donation_was_unsuccessful">Your donation was unsuccessful</string>
+    <string name="charity_donation_overview_title">Charity Donation Overview</string>
+    <string name="you_are_donating">You are donating</string>
+    <string name="donate_to_charity_message">%1$s to %2$s</string>
+    <string name="donate">Donate</string>
+
+    <!-- Apply for Absa Rewards -->
+    <string name="apply_now">Apply now</string>
+    <string name="agree_to_rewards_terms_use">I agree to the Absa Rewards Terms of Use.</string>
+    <string name="terms_of_use">Terms of Use</string>
+    <string name="no_points_no_bucks">No points. No bucks. Just real</string>
+    <string name="cash_rewards">Cash Rewards.</string>
+
+    <!--apply for rewards membership fee-->
+    <string name="how_would_you_like_to_pay">How would you like to pay for your Rewards membership?</string>
+    <string name="select_day">Select day</string>
+    <string name="account_debit_message">Your account will be debited %1$s per %2$s.</string>
+    <string name="next_debit_order_message">Your next debit order will be %s.</string>
+    <string name="year">year</string>
+    <string name="month">month</string>
+    <string name="yearly_amt">Yearly\n%s</string>
+    <string name="monthly_amt">Monthly\n%s</string>
+
+    <!--purchase Vourcher-->
+    <string name="voucher_purchase_overview_title">Voucher purchase overview</string>
+    <string name="voucher_purchase_overview_message"> %1$s voucher for %2$s</string>
+    <string name="your_voucher_sent">Your voucher will be sent via SMS to</string>
+    <string name="voucher_purchase_overview_info">Please present this voucher code at the partner.</string>
+    <string name="buy_voucher">Buy Voucher</string>
+    <string name="how_much_you_want_to_buy">How much do you want to buy?</string>
+    <string name="minimum_voucher_amount_hint">Minimum of R 50.00</string>
+    <string name="where_do_we_send_mall_voucher">Where do we send your mall voucher?</string>
+    <string name="voucher_amount">Amount to pay</string>
+    <string name="what_voucher_buy">Which voucher would you like to buy?</string>
+    <string name="your_points_are_on_their_way">Your points are on \n their way.</string>
+    <string name="your_points_may_take">Your %1$s points may take up to 3 business days to reflect.</string>
+    <string name="redeem_more_points">Redeem more points</string>
+    <string name="your_points_conversion_was_unsuccessful">Your point conversion was unsuccessful</string>
+    <string name="please_select_retail_partner">Please select valid retail partner</string>
+    <string name="where_do_we_send_voucher">Where do we send your voucher?</string>
+    <string name="max_rewards_points_error">Amount should be less than available rewards points</string>
+    <string name="redeem_voucher_success_status">Your voucher \n is on its way</string>
+    <string name="redeem_voucher_success_message">We\'ve sent your voucher \n to %1$s</string>
+    <string name="redeem_voucher_error_message">Voucher Redemption Unsuccessful</string>
+    <string name="buy_another_voucher">Buy another voucher</string>
+
+    <!--Apply for rewards postal information-->
+    <string name="postal_information">Postal Information</string>
+    <string name="postal_address_title">Postal address</string>
+    <string name="postal_address_hint">Address line 1</string>
+    <string name="postal_address2_hint">Address line 2</string>
+    <string name="suburb">Suburb</string>
+    <string name="city">City</string>
+    <string name="code">Code</string>
+    <string name="suburb_city_error_message">Suburb/City field is mandatory in order to proceed with the application</string>
+
+    <!--Apply Reward Overview-->
+    <string name="complete_application">Complete application</string>
+    <string name="reward_information">The Cash Rewards you earn are updated once a month on the last business day of the month – this amount is calculated on your transactions from the 16th of the previous month to the 15th of the current month. A detailed statement will be issued biannually.</string>
+    <string name="your_statements_sent_via">Your statements will be sent via</string>
+    <string name="receive_marketing_material_via"> You agreed to receive marketing material via</string>
+    <string name="membership_fees">Membership fees</string>
+    <string name="application_overview">Application Overview</string>
+    <string name="annual_debit_order">- Annual debit Order</string>
+    <string name="monthly_debit_order">- Monthly debit Order</string>
+    <string name="not_provided">Not provided</string>
+
+    <string name="absa_reward_shopping_points">Shopping \nPoints</string>
+    <string name="absa_reward_available_rewards">Available Rewards</string>
+    <string name="would_you_like_to_earn_real_cash_rewards">Would you like to earn real Cash Rewards?</string>
+    <string name="apply_for_absa_rewards">Apply for ABSA Rewards</string>
+    <string name="check_box_terms_condition_alert">To apply for Absa rewards make sure you read the terms and conditions.</string>
+
+    <!--Convert to points-->
+    <string name="convert_to_points_title">Convert To Points</string>
+    <string name="convert_to_points_list_title">Which retail partner do you want to buy for?</string>
+    <string name="select_retail_partner">Select retail partner</string>
+    <string name="membership_card_number">Membership card number</string>
+    <string name="enter_card_number">Enter card number</string>
+    <string name="points_quantity_message">How much do you want to convert to points?</string>
+    <string name="minimum_points">Minimum of R %.2f</string>
+    <string name="send_points_info_to_message">Where do we send your points information to?</string>
+    <string name="sms_to_cell_no_message">During the conversion process you will receive SMS communication to the cellphone number provided above.</string>
+    <string name="convert_to_points_info">Convert to points information</string>
+    <string name="redeeming_shopping_points">Shopping Points</string>
+    <string name="action_ok_got_it" tools:ignore="Typos">Ok, got it</string>
+    <string name="convert_to_points_time_info"><![CDATA[It may take up to <b>3 business days</b> to complete partner membership or account balance adjustments.]]></string>
+    <string name="convert_to_points_info_1">Successful redemptions or conversions to partner points are not reversible.</string>
+    <string name="convert_to_points_info_2">It is your responsibility to ensure that you provide the correct partner membership card or account numbers. Absa will not  be liable if you provide incorrect information.</string>
+    <string name="convert_to_points_info_3">During the conversion process you will receive a SMS communication to the cellphone number provided.</string>
+    <string name="convert_to_points_info_4"><![CDATA[Partner-specific additional values that will be applied during the conversion process are available at <a href="https://www.absa.co.za/personal/bank/absa-rewards/explore/"><b>absa.co.za/rewards</b></a>.]]></string>
+    <string name="rewards_quantity">rewards quantity</string>
+    <string name="select_partner">Select retail partner</string>
+    <string name="points_overview">Points overview</string>
+    <string name="rewards_members_get_an">Rewards members get an</string>
+    <string name="extra_15">extra 15%</string>
+    <string name="you_are_converting">You are converting</string>
+    <string name="converting_to_smart_shopper">Converting to points may take 3 days to reflect. You will receive SMS communication to the cellphone number provided.</string>
+    <string name="converting_points">%1$s to %2$s points.</string>
+    <string name="redeem_points">Redeem points</string>
+    <string name="points_pattern" translatable="false">Points</string>
+    <string name="rewards_cancel">CANCEL</string>
+    <string name="rewards_earned">Rewards Earned</string>
+    <string name="rewards_redeemed">Rewards Redeemed</string>
+    <string name="rewards_balance">Rewards balance</string>
+    <string name="rewards_profile">Rewards Profile</string>
+    <string name="absa_rewards_description">You can now view your Rewards tier and rates, PLUS there are even more ways to redeem your Cash Rewards.  Tap “Buy” to redeem.</string>
+    <string name="buy_airtime_with_rewards">Buy airtime with Absa Rewards</string>
+    <string name="absa_rewards_text">Absa Rewards</string>
+    <string name="rewards_available">Rewards available</string>
+
+    <!-- Rewards -->
+    <string name="cash_rewards_available">Absa Cash Rewards available</string>
+    <string name="voucher">Voucher</string>
+    <string name="select_voucher">Select voucher</string>
+    <string name="confirm_purchase">Confirm Purchase</string>
+    <string name="you_are_buying">You are buying a</string>
+    <string name="redeem_airtime_disclaimer">"All airtime vouchers are charged at discounted prices. Ensure that the cellphone number provided is correct as the purchase cannot be reversed. Absa will not be liable for an incorrect cellphone number or service provider selected.\n\n If you have changed your cellphone service provider, prepaid airtime at your old service provider will be lost. Supplied number will be required to be RICA-complaint as of 1 July 2011."</string>
+    <string name="select_network_warning">Please select network type first.</string>
+    <string name="tier">Tier</string>
+    <string name="details">Details</string>
+    <string name="redeem_rewards">Redeem Rewards</string>
+    <string name="redeem">Redeem</string>
+    <string name="rewards_monthly">Monthly</string>
+    <string name="debit_date">Debit date</string>
+    <string name="debit_day">Debit day</string>
+    <string name="pay_from_account_hint">e.g. Current Account (4093 4566 68)</string>
+    <string name="debit_date_hint_monthly">e.g. 1st of every month</string>
+    <string name="debit_order_frequency_hint">Yearly</string>
+
+    <string name="cash_spent">Cash spent</string>
+    <string name="membership_details">Membership details</string>
+    <string name="total_earnings">Total cash back earned</string>
+    <string name="total_redeems">Total cash back spent</string>
+    <string name="pay_subscription_from">Pay subscription from</string>
+    <string name="debit_order_frequency">Debit order frequency</string>
+    <string name="monthly">Monthly</string>
+    <string name="yearly">Yearly</string>
+    <string name="first">1st</string>
+    <string name="fifteenth">15th</string>
+    <string name="twentieth">20th</string>
+    <string name="twenty_fifth">25th</string>
+    <string name="last_day_of_the_month">Last day of the month</string>
+    <string name="choose_my_own_day">Choose my own day</string>
+    <string name="membership_details_updated">Membership details have been updated successfully</string>
+    <string name="max_date_selection_error_message">Sorry, you cannot choose a date in the future.</string>
+    <string name="min_date_selection_error_message">Sorry, you cannot use a date older than 6 months</string>
+    <string name="when_swiping_card">When swiping your card, you earn:</string>
+    <string name="with_your_debit_card">On your debit card</string>
+    <string name="on_your_credit_card">On your credit card</string>
+    <string name="for_your_fuel_purchase">For your purchases at Sasol, you earn:</string>
+    <string name="your_tier_level">Your Tier level</string>
+    <string name="your_earn_rates_are">Your earn rates are:</string>
+    <string name="earn_rate_disclaimer">Your Rewards Tier is determined by your Rewards score for that calendar month. This is re-calculated every month to make sure you always earn the Rewards you deserve through the way you bank.</string>
+    <string name="error_select_charity_to_donate_to">Please select a charity to donate to</string>
+    <string name="error_please_enter_valid_amount">Amount should be less than available rewards balance</string>
+    <string name="error_more_than_r1">Please enter an amount more than R 1.00</string>
+    <string name="redeem_rewards_charity">Charity</string>
+    <string name="redeem_rewards_amount">Amount</string>
+    <string name="earn_rates">Earn Rates</string>
+
+    <string name="account_formatting_rewards" translatable="false">%s (%s)</string>
+    <string name="account_available_balance">%s available</string>
+    <string name="donation_successful">Donation Successful</string>
+    <string name="donation_description">Your donation has been sent to %s</string>
+    <string name="donate_home_button">Home</string>
+    <string name="airtime_redeemed">Airtime Redeemed</string>
+    <string name="cash_rewards_from_absa">cash rewards from absa</string>
+    <string name="cash_redeemed">Cash Redeemed</string>
+
+    <!--Redeem shopping points-->
+    <string name="retail_partner_to_convert_to">Which retail partner do you want to convert to?</string>
+    <string name="redeem_shopping_points">Redeem Shopping Points</string>
+    <string name="redeem_amount_availabe">%s available</string>
+    <string name="number_to_send_points_to">Which number do we send your points to?</string>
+    <string name="redeem_points_enter_mobile_number">Enter mobile number</string>
+    <string name="conversion_process_disclaimer">During the conversion process you will receive SMS communications to the cellphone number provided above.</string>
+    <string name="retail_partner">Retail Partner</string>
+    <string name="cell_number_of_recipient">Cell number of recipient</string>
+    <string name="converting_to_points">Converting to Points may take 3 days to reflect. You will receive SMS communications to the cellphone number provided.</string>
+    <string name="your_points_may_take_up_to">Your points may take up to 3 business days to reflect.</string>
+    <string name="points_unsuccessfully_redeemed">Your points were unsuccessfully redeemed.</string>
+    <string name="absa_rewards" translatable="false">absa.co.za/rewards</string>
+    <string name="partner_membership_or_account_balance">Partner membership or account balance adjustments may take up to 3 business days to complete. \n\nSuccessful redemptions or conversions to partner points are not reversible \n\nIt is your responsibility to ensure that you provide the correct partner membership card or account numbers. Absa will not be liable if you provide incorrect information \n\nDuring the conversion process you will receive SMS communications to the cellphone number provided. \n\nPartner-specific additional values that will be applied during the conversion process are available at absa.co.za/rewards.</string>
+    <string name="redeem_amount_minimum">Minimum of R 10.00</string>
+    <string name="redeem_amount_minimum_value">Minimum of R %s</string>
+    <string name="rewards_account_value" translatable="false">%s (%s)</string>
+    <string name="convert_points">Convert points</string>
+    <string name="confirm_points">Confirm Points</string>
+    <string name="donate_to_charity_toolbar">Donate to Charity</string>
+    <string name="donate_to_charity_toolbar_confirm">Confirm Donation</string>
+    <string name="rewards_make_another_donation">Make another donation</string>
+
+    <string name="donation_unsuccessful">Donation Unsuccessful</string>
+    <string name="donate_unsuccessful_message">Your donation to %s was unsuccessful.</string>
+    <string name="invalid_card_number">Invalid card number</string>
+    <string name="redeem_rewards_invalid_amount">Invalid amount</string>
+    <string name="donate_from_account">From Account</string>
+    <string name="rewards_ok">OK. Got it!</string>
+    <string name="bank_earn_rates">Bank Earn Rates</string>
+    <string name="fuel_purchase">For fuel purchases at Sasol you earn</string>
+    <string name="grocery_earn_rates_heading">Grocery earn rates</string>
+    <string name="rewards_select_account">Select Account</string>
+    <string name="select_account_rewards_details">Select Account</string>
+    <string name="voucher_insufficient_funds">You have insufficient funds to redeem your voucher</string>
+    <string name="voucher_selection_error">Select the voucher you would like to get</string>
+    <string name="voucher_cellphone_error">Enter the cellphone number to continue</string>
+    <string name="voucher_cellphone_hint">Enter cellphone number</string>
+    <string name="voucher_hint_text">Choose a voucher</string>
+    <string name="voucher_title_text">Voucher</string>
+    <string name="voucher_cell_number_title">Cell number of recipient</string>
+    <string name="redeem_voucher">Redeem Voucher</string>
+    <string name="confirm_voucher">Confirm Voucher</string>
+    <string name="discounted_voucher_amount">Discounted Amount</string>
+
+    <string name="debit_details_updated">Debit details have been updated successfully</string>
+</resources>

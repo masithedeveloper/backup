@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:background="@color/light_grey">
+
+    <TextView
+        android:id="@+id/tv_title"
+        style="@style/LargeTextRegularDark"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/normal_space"
+        android:layout_marginTop="@dimen/large_space"
+        android:text="@string/touch_id_for_absa"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/fingerPrintImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/normal_space"
+        android:layout_marginEnd="@dimen/small_space"
+        android:tint="@color/graphite"
+        app:layout_constraintBottom_toTopOf="@+id/contentTextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/contentTextView"
+        app:srcCompat="@drawable/ic_fingerprint" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/fingerPrintSuccessImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/normal_space"
+        android:layout_marginEnd="@dimen/small_space"
+        android:contentDescription="@null"
+        android:tint="@color/color_green_connected"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/contentTextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/contentTextView"
+        app:srcCompat="@drawable/ic_fingerprint" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/fingerPrintFailureImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/normal_space"
+        android:layout_marginEnd="@dimen/small_space"
+        android:contentDescription="@null"
+        android:tint="@color/red"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/contentTextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/contentTextView"
+        app:srcCompat="@drawable/ic_fingerprint" />
+
+    <TextView
+        android:id="@+id/contentTextView"
+        style="@style/SmallTextRegularDark"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/small_space"
+        android:layout_marginTop="@dimen/normal_space"
+        android:layout_marginEnd="@dimen/small_space"
+        android:layout_marginBottom="@dimen/large_space"
+        android:contentDescription="@string/talkback_fingerprint_description"
+        android:text="@string/log_in_using_your_fingerprint"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/fingerPrintImageView"
+        app:layout_constraintTop_toBottomOf="@+id/tv_title" />
+</androidx.constraintlayout.widget.ConstraintLayout>

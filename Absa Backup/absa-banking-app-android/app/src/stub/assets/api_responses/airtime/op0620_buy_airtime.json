@@ -1,0 +1,1329 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0620",
+      "resCde": "00000",
+      "resMsg": "",
+      "serVer": "2.0",
+      "expTrace": null
+    },
+    "payData": {
+      "benDetl": {
+        "hasImage": "N",
+        "benStatusType": "Active",
+        "uniqueEFT": "800024B06E",
+        "benNotice": "NO",
+        "myNotice": "NO",
+        "benRecNam": "",
+        "myRecNam": "",
+        "benTyp": "prepaid",
+        "benImg": "",
+        "benId": "9",
+        "benNo": "-1",
+        "favStarInd": "false",
+        "benNam": "Emeka",
+        "actNo": "0844605838",
+        "myRef": "Cell C",
+        "myNoticeTyp": "",
+        "myNoticeDtl": "",
+        "benRef": "C",
+        "benNoticeTyp": "",
+        "benNoticeDtl": "",
+        "immediatePaymentAllowed": "false",
+        "imageName": "jbnQHcVOE3RZqVNuK3c6zShkvVfEZ4rnmm6GdGWKEvg\u003d"
+      },
+      "networkProviderJsonBean": [
+        {
+          "fbVouchers": null,
+          "smsvouchers": [
+          ],
+          "dataBundlevouchers": [
+          ],
+          "blackBrryvouchers": [
+          ],
+          "institutionDescription": "MTN15",
+          "image": null,
+          "netProviderName": "MTN15",
+          "institutionCode": "MTN15",
+          "vouchers": [
+            {
+              "curncy": "R",
+              "sequenceNumber": 15,
+              "amount": "1499",
+              "ownAmount": false,
+              "voucherDesc": "50GB",
+              "voucherInstitutionCode": "MTN15"
+            }
+          ],
+          "minRcAmt": {
+            "curncy": "R",
+            "sequenceNumber": 15,
+            "amount": "1499",
+            "ownAmount": false,
+            "voucherDesc": "",
+            "voucherInstitutionCode": null
+          },
+          "maxRcAmt": {
+            "curncy": "R",
+            "sequenceNumber": 15,
+            "amount": "1499",
+            "ownAmount": false,
+            "voucherDesc": "",
+            "voucherInstitutionCode": null
+          },
+          "dataBundleMonthlyVouchers": [
+          ],
+          "whatsappDataBundleVouchers": null,
+          "youtubeDataBundleVouchers": null,
+          "twitterDataBundleVouchers": null,
+          "facebookDataBundleVouchers": null
+        },
+        {
+          "fbVouchers": null,
+          "smsvouchers": [
+          ],
+          "dataBundlevouchers": [
+          ],
+          "blackBrryvouchers": [
+          ],
+          "institutionDescription": "VM",
+          "image": null,
+          "netProviderName": "Virgin Mobile",
+          "institutionCode": "VM",
+          "vouchers": [
+            {
+              "curncy": "R",
+              "sequenceNumber": 1,
+              "amount": "10",
+              "ownAmount": false,
+              "voucherDesc": "",
+              "voucherInstitutionCode": "VM"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 2,
+              "amount": "15",
+              "ownAmount": false,
+              "voucherDesc": "",
+              "voucherInstitutionCode": "VM"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 3,
+              "amount": "35",
+              "ownAmount": false,
+              "voucherDesc": "",
+              "voucherInstitutionCode": "VM"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 4,
+              "amount": "50",
+              "ownAmount": false,
+              "voucherDesc": "",
+              "voucherInstitutionCode": "VM"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 5,
+              "amount": "80",
+              "ownAmount": false,
+              "voucherDesc": "",
+              "voucherInstitutionCode": "VM"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 6,
+              "amount": "120",
+              "ownAmount": false,
+              "voucherDesc": "",
+              "voucherInstitutionCode": "VM"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 7,
+              "amount": "180",
+              "ownAmount": false,
+              "voucherDesc": "",
+              "voucherInstitutionCode": "VM"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 8,
+              "amount": "300",
+              "ownAmount": false,
+              "voucherDesc": "",
+              "voucherInstitutionCode": "VM"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 9,
+              "amount": "500",
+              "ownAmount": false,
+              "voucherDesc": "",
+              "voucherInstitutionCode": "VM"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 10,
+              "amount": "Own",
+              "ownAmount": true,
+              "voucherDesc": "",
+              "voucherInstitutionCode": "VM"
+            }
+          ],
+          "minRcAmt": {
+            "curncy": "R",
+            "sequenceNumber": 1,
+            "amount": "10",
+            "ownAmount": false,
+            "voucherDesc": "",
+            "voucherInstitutionCode": null
+          },
+          "maxRcAmt": {
+            "curncy": "R",
+            "sequenceNumber": 9,
+            "amount": "500",
+            "ownAmount": false,
+            "voucherDesc": "",
+            "voucherInstitutionCode": null
+          },
+          "dataBundleMonthlyVouchers": [
+          ],
+          "whatsappDataBundleVouchers": null,
+          "youtubeDataBundleVouchers": null,
+          "twitterDataBundleVouchers": null,
+          "facebookDataBundleVouchers": null
+        },
+        {
+          "fbVouchers": null,
+          "smsvouchers": [
+            {
+              "curncy": "R",
+              "sequenceNumber": 1,
+              "amount": "10",
+              "ownAmount": false,
+              "voucherDesc": "SMS 20",
+              "voucherInstitutionCode": "VSB"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 2,
+              "amount": "25",
+              "ownAmount": false,
+              "voucherDesc": "SMS 50",
+              "voucherInstitutionCode": "VSB"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 3,
+              "amount": "33",
+              "ownAmount": false,
+              "voucherDesc": "SMS 100",
+              "voucherInstitutionCode": "VSB"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 4,
+              "amount": "45",
+              "ownAmount": false,
+              "voucherDesc": "SMS 200",
+              "voucherInstitutionCode": "VSB"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 5,
+              "amount": "67.50",
+              "ownAmount": true,
+              "voucherDesc": "SMS 300",
+              "voucherInstitutionCode": "VSB"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 6,
+              "amount": "112.5",
+              "ownAmount": true,
+              "voucherDesc": "SMS 500",
+              "voucherInstitutionCode": "VSB"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 7,
+              "amount": "225",
+              "ownAmount": false,
+              "voucherDesc": "SMS 1000",
+              "voucherInstitutionCode": "VSB"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 8,
+              "amount": "337.5",
+              "ownAmount": true,
+              "voucherDesc": "SMS 1500",
+              "voucherInstitutionCode": "VSB"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 9,
+              "amount": "450",
+              "ownAmount": false,
+              "voucherDesc": "SMS 2000",
+              "voucherInstitutionCode": "VSB"
+            }
+          ],
+          "dataBundlevouchers": [
+            {
+              "curncy": "R",
+              "sequenceNumber": 1,
+              "amount": "12",
+              "ownAmount": false,
+              "voucherDesc": "50MB",
+              "voucherInstitutionCode": "VDV"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 2,
+              "amount": "29",
+              "ownAmount": false,
+              "voucherDesc": "150MB",
+              "voucherInstitutionCode": "VDV"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 3,
+              "amount": "55",
+              "ownAmount": false,
+              "voucherDesc": "325MB",
+              "voucherInstitutionCode": "VDV"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 4,
+              "amount": "79",
+              "ownAmount": false,
+              "voucherDesc": "500MB",
+              "voucherInstitutionCode": "VDV"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 5,
+              "amount": "99",
+              "ownAmount": false,
+              "voucherDesc": "1GB",
+              "voucherInstitutionCode": "VDV"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 7,
+              "amount": "229",
+              "ownAmount": false,
+              "voucherDesc": "3GB",
+              "voucherInstitutionCode": "VDV"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 8,
+              "amount": "349",
+              "ownAmount": false,
+              "voucherDesc": "5GB",
+              "voucherInstitutionCode": "VDV"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 9,
+              "amount": "469",
+              "ownAmount": false,
+              "voucherDesc": "10GB",
+              "voucherInstitutionCode": "VDV"
+            }
+          ],
+          "blackBrryvouchers": [
+          ],
+          "institutionDescription": "V",
+          "image": null,
+          "netProviderName": "Vodacom",
+          "institutionCode": "V",
+          "vouchers": [
+            {
+              "curncy": "R",
+              "sequenceNumber": 1,
+              "amount": "5",
+              "ownAmount": false,
+              "voucherDesc": "",
+              "voucherInstitutionCode": "V"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 2,
+              "amount": "12",
+              "ownAmount": false,
+              "voucherDesc": "",
+              "voucherInstitutionCode": "V"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 3,
+              "amount": "29",
+              "ownAmount": false,
+              "voucherDesc": "",
+              "voucherInstitutionCode": "V"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 4,
+              "amount": "55",
+              "ownAmount": false,
+              "voucherDesc": "",
+              "voucherInstitutionCode": "V"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 5,
+              "amount": "110",
+              "ownAmount": false,
+              "voucherDesc": "",
+              "voucherInstitutionCode": "V"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 6,
+              "amount": "275",
+              "ownAmount": false,
+              "voucherDesc": "",
+              "voucherInstitutionCode": "V"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 7,
+              "amount": "1000",
+              "ownAmount": false,
+              "voucherDesc": "",
+              "voucherInstitutionCode": "V"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 8,
+              "amount": "Own",
+              "ownAmount": true,
+              "voucherDesc": "",
+              "voucherInstitutionCode": "V"
+            }
+          ],
+          "minRcAmt": {
+            "curncy": "R",
+            "sequenceNumber": 1,
+            "amount": "5",
+            "ownAmount": false,
+            "voucherDesc": "",
+            "voucherInstitutionCode": null
+          },
+          "maxRcAmt": {
+            "curncy": "R",
+            "sequenceNumber": 7,
+            "amount": "1000",
+            "ownAmount": false,
+            "voucherDesc": "",
+            "voucherInstitutionCode": null
+          },
+          "dataBundleMonthlyVouchers": [
+            {
+              "curncy": "R",
+              "sequenceNumber": 1,
+              "amount": "29",
+              "ownAmount": false,
+              "voucherDesc": "50MB x 3 months",
+              "voucherInstitutionCode": "VDM1"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 2,
+              "amount": "119",
+              "ownAmount": false,
+              "voucherDesc": "100MB x 6 months",
+              "voucherInstitutionCode": "VDM2"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 3,
+              "amount": "219",
+              "ownAmount": false,
+              "voucherDesc": "250MB x 6 months",
+              "voucherInstitutionCode": "VDM3"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 4,
+              "amount": "339",
+              "ownAmount": false,
+              "voucherDesc": "500MB x 6 months",
+              "voucherInstitutionCode": "VDM4"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 5,
+              "amount": "899",
+              "ownAmount": false,
+              "voucherDesc": "1GB x 12 months",
+              "voucherInstitutionCode": "VDM5"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 6,
+              "amount": "1399",
+              "ownAmount": false,
+              "voucherDesc": "2GB x 12 months",
+              "voucherInstitutionCode": "VDM6"
+            }
+          ],
+          "whatsappDataBundleVouchers": null,
+          "youtubeDataBundleVouchers": null,
+          "twitterDataBundleVouchers": null,
+          "facebookDataBundleVouchers": null
+        },
+        {
+          "fbVouchers": [
+            {
+              "curncy": "R",
+              "sequenceNumber": 1,
+              "amount": "29",
+              "ownAmount": false,
+              "voucherDesc": "300 MB",
+              "voucherInstitutionCode": "TMBFB1"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 2,
+              "amount": "39",
+              "ownAmount": false,
+              "voucherDesc": "500 MB",
+              "voucherInstitutionCode": "TMBFB2"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 3,
+              "amount": "99",
+              "ownAmount": false,
+              "voucherDesc": "800 MB",
+              "voucherInstitutionCode": "TMBFB3"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 4,
+              "amount": "139",
+              "ownAmount": false,
+              "voucherDesc": "1.5 GB",
+              "voucherInstitutionCode": "TMBFB4"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 5,
+              "amount": "189",
+              "ownAmount": false,
+              "voucherDesc": "3 GB",
+              "voucherInstitutionCode": "TMBFB5"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 6,
+              "amount": "289",
+              "ownAmount": false,
+              "voucherDesc": "6 GB",
+              "voucherInstitutionCode": "TMBFB6"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 7,
+              "amount": "389",
+              "ownAmount": false,
+              "voucherDesc": "11.5 GB",
+              "voucherInstitutionCode": "TMBFB7"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 8,
+              "amount": "589",
+              "ownAmount": false,
+              "voucherDesc": "18 GB",
+              "voucherInstitutionCode": "TMBFB8"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 9,
+              "amount": "689",
+              "ownAmount": false,
+              "voucherDesc": "28 GB",
+              "voucherInstitutionCode": "TMBFB9"
+            }
+          ],
+          "smsvouchers": [
+          ],
+          "dataBundlevouchers": [
+            {
+              "curncy": "R",
+              "sequenceNumber": 1,
+              "amount": "7.30",
+              "ownAmount": false,
+              "voucherDesc": "25MB",
+              "voucherInstitutionCode": "TMB1"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 2,
+              "amount": "14.65",
+              "ownAmount": false,
+              "voucherDesc": "50MB",
+              "voucherInstitutionCode": "TMB2"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 3,
+              "amount": "29.25",
+              "ownAmount": false,
+              "voucherDesc": "100MB",
+              "voucherInstitutionCode": "TMB3"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 4,
+              "amount": "39.50",
+              "ownAmount": false,
+              "voucherDesc": "250MB",
+              "voucherInstitutionCode": "TMB4"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 5,
+              "amount": "69.60",
+              "ownAmount": false,
+              "voucherDesc": "500MB",
+              "voucherInstitutionCode": "TMB5"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 6,
+              "amount": "100",
+              "ownAmount": false,
+              "voucherDesc": "1GB + 1GB Night Surfer",
+              "voucherInstitutionCode": "TMB6"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 7,
+              "amount": "140",
+              "ownAmount": false,
+              "voucherDesc": "2GB + 2GB Night Surfer",
+              "voucherInstitutionCode": "TMB7"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 8,
+              "amount": "201",
+              "ownAmount": false,
+              "voucherDesc": "3GB + 3GB Night Surfer",
+              "voucherInstitutionCode": "TMB8"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 9,
+              "amount": "301",
+              "ownAmount": false,
+              "voucherDesc": "5GB + 5GB Night Surfer",
+              "voucherInstitutionCode": "TMB9"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 10,
+              "amount": "505",
+              "ownAmount": false,
+              "voucherDesc": "10GB + 10GB Night Surfer",
+              "voucherInstitutionCode": "TMB10"
+            }
+          ],
+          "blackBrryvouchers": [
+          ],
+          "institutionDescription": "TMB",
+          "image": null,
+          "netProviderName": "Telkom Mobile",
+          "institutionCode": "TMB",
+          "vouchers": [
+            {
+              "curncy": "R",
+              "sequenceNumber": 1,
+              "amount": "5",
+              "ownAmount": false,
+              "voucherDesc": "",
+              "voucherInstitutionCode": "TMB"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 2,
+              "amount": "10",
+              "ownAmount": false,
+              "voucherDesc": "",
+              "voucherInstitutionCode": "TMB"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 3,
+              "amount": "20",
+              "ownAmount": false,
+              "voucherDesc": "",
+              "voucherInstitutionCode": "TMB"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 4,
+              "amount": "50",
+              "ownAmount": false,
+              "voucherDesc": "",
+              "voucherInstitutionCode": "TMB"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 5,
+              "amount": "1000",
+              "ownAmount": false,
+              "voucherDesc": "",
+              "voucherInstitutionCode": "TMB"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 6,
+              "amount": "Own",
+              "ownAmount": true,
+              "voucherDesc": "",
+              "voucherInstitutionCode": "TMB"
+            }
+          ],
+          "minRcAmt": {
+            "curncy": "R",
+            "sequenceNumber": 1,
+            "amount": "5",
+            "ownAmount": false,
+            "voucherDesc": "",
+            "voucherInstitutionCode": null
+          },
+          "maxRcAmt": {
+            "curncy": "R",
+            "sequenceNumber": 5,
+            "amount": "1000",
+            "ownAmount": false,
+            "voucherDesc": "",
+            "voucherInstitutionCode": null
+          },
+          "dataBundleMonthlyVouchers": [
+          ],
+          "whatsappDataBundleVouchers": null,
+          "youtubeDataBundleVouchers": null,
+          "twitterDataBundleVouchers": null,
+          "facebookDataBundleVouchers": null
+        },
+        {
+          "fbVouchers": null,
+          "smsvouchers": [
+            {
+              "curncy": "R",
+              "sequenceNumber": 1,
+              "amount": "5",
+              "ownAmount": false,
+              "voucherDesc": "15 SMS",
+              "voucherInstitutionCode": "MTNSMS1"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 3,
+              "amount": "17",
+              "ownAmount": false,
+              "voucherDesc": "50 SMS",
+              "voucherInstitutionCode": "MTNSMS3"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 4,
+              "amount": "30",
+              "ownAmount": false,
+              "voucherDesc": "100 SMS",
+              "voucherInstitutionCode": "MTNSMS4"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 5,
+              "amount": "50",
+              "ownAmount": false,
+              "voucherDesc": "200 SMS",
+              "voucherInstitutionCode": "MTNSMS5"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 6,
+              "amount": "75",
+              "ownAmount": false,
+              "voucherDesc": "300 SMS",
+              "voucherInstitutionCode": "MTNSMS6"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 7,
+              "amount": "114",
+              "ownAmount": false,
+              "voucherDesc": "500 SMS",
+              "voucherInstitutionCode": "MTNSMS7"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 8,
+              "amount": "420",
+              "ownAmount": false,
+              "voucherDesc": "2000 SMS",
+              "voucherInstitutionCode": "MTNSMS8"
+            }
+          ],
+          "dataBundlevouchers": [
+            {
+              "curncy": "R",
+              "sequenceNumber": 1,
+              "amount": "10",
+              "ownAmount": false,
+              "voucherDesc": "40MB",
+              "voucherInstitutionCode": "MTN1"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 2,
+              "amount": "20",
+              "ownAmount": false,
+              "voucherDesc": "100MB",
+              "voucherInstitutionCode": "MTN2"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 3,
+              "amount": "29",
+              "ownAmount": false,
+              "voucherDesc": "150MB",
+              "voucherInstitutionCode": "MTN3"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 4,
+              "amount": "39",
+              "ownAmount": false,
+              "voucherDesc": "200MB",
+              "voucherInstitutionCode": "MTN4"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 5,
+              "amount": "60",
+              "ownAmount": false,
+              "voucherDesc": "350MB",
+              "voucherInstitutionCode": "MTN5"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 6,
+              "amount": "75",
+              "ownAmount": false,
+              "voucherDesc": "500MB",
+              "voucherInstitutionCode": "MTN6"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 7,
+              "amount": "89",
+              "ownAmount": false,
+              "voucherDesc": "750MB",
+              "voucherInstitutionCode": "MTN7"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 8,
+              "amount": "99",
+              "ownAmount": false,
+              "voucherDesc": "1GB",
+              "voucherInstitutionCode": "MTN8"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 9,
+              "amount": "149",
+              "ownAmount": false,
+              "voucherDesc": "1.5GB",
+              "voucherInstitutionCode": "MTN9"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 10,
+              "amount": "189",
+              "ownAmount": false,
+              "voucherDesc": "2GB",
+              "voucherInstitutionCode": "MTN10"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 11,
+              "amount": "229",
+              "ownAmount": false,
+              "voucherDesc": "3GB",
+              "voucherInstitutionCode": "MTN11"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 12,
+              "amount": "399",
+              "ownAmount": false,
+              "voucherDesc": "6GB",
+              "voucherInstitutionCode": "MTN12"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 13,
+              "amount": "469",
+              "ownAmount": false,
+              "voucherDesc": "10GB",
+              "voucherInstitutionCode": "MTN13"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 14,
+              "amount": "699",
+              "ownAmount": false,
+              "voucherDesc": "20GB",
+              "voucherInstitutionCode": "MTN14"
+            }
+          ],
+          "blackBrryvouchers": [
+          ],
+          "institutionDescription": "M",
+          "image": null,
+          "netProviderName": "MTN",
+          "institutionCode": "M",
+          "vouchers": [
+            {
+              "curncy": "R",
+              "sequenceNumber": 1,
+              "amount": "5",
+              "ownAmount": false,
+              "voucherDesc": "",
+              "voucherInstitutionCode": "M"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 2,
+              "amount": "12",
+              "ownAmount": false,
+              "voucherDesc": "",
+              "voucherInstitutionCode": "M"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 3,
+              "amount": "25",
+              "ownAmount": false,
+              "voucherDesc": "",
+              "voucherInstitutionCode": "M"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 4,
+              "amount": "30",
+              "ownAmount": false,
+              "voucherDesc": "",
+              "voucherInstitutionCode": "M"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 5,
+              "amount": "60",
+              "ownAmount": false,
+              "voucherDesc": "",
+              "voucherInstitutionCode": "M"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 6,
+              "amount": "180",
+              "ownAmount": false,
+              "voucherDesc": "",
+              "voucherInstitutionCode": "M"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 7,
+              "amount": "1000",
+              "ownAmount": false,
+              "voucherDesc": "",
+              "voucherInstitutionCode": "M"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 8,
+              "amount": "Own",
+              "ownAmount": true,
+              "voucherDesc": "",
+              "voucherInstitutionCode": "M"
+            }
+          ],
+          "minRcAmt": {
+            "curncy": "R",
+            "sequenceNumber": 1,
+            "amount": "5",
+            "ownAmount": false,
+            "voucherDesc": "",
+            "voucherInstitutionCode": null
+          },
+          "maxRcAmt": {
+            "curncy": "R",
+            "sequenceNumber": 7,
+            "amount": "1000",
+            "ownAmount": false,
+            "voucherDesc": "",
+            "voucherInstitutionCode": null
+          },
+          "dataBundleMonthlyVouchers": [
+          ],
+          "whatsappDataBundleVouchers": [
+            {
+              "curncy": "R",
+              "sequenceNumber": 1,
+              "amount": "2",
+              "ownAmount": false,
+              "voucherDesc": "50MB",
+              "voucherInstitutionCode": "MTNWA"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 2,
+              "amount": "5",
+              "ownAmount": false,
+              "voucherDesc": "100MB",
+              "voucherInstitutionCode": "MTNWA"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 3,
+              "amount": "10",
+              "ownAmount": false,
+              "voucherDesc": "250MB",
+              "voucherInstitutionCode": "MTNWA"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 4,
+              "amount": "30",
+              "ownAmount": false,
+              "voucherDesc": "1GB",
+              "voucherInstitutionCode": "MTNWA"
+            }
+          ],
+          "youtubeDataBundleVouchers": [
+            {
+              "curncy": "R",
+              "sequenceNumber": 1,
+              "amount": "5",
+              "ownAmount": false,
+              "voucherDesc": "100MB",
+              "voucherInstitutionCode": "MTNYT"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 2,
+              "amount": "20",
+              "ownAmount": false,
+              "voucherDesc": "500MB",
+              "voucherInstitutionCode": "MTNYT"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 3,
+              "amount": "50",
+              "ownAmount": false,
+              "voucherDesc": "1GB",
+              "voucherInstitutionCode": "MTNYT"
+            }
+          ],
+          "twitterDataBundleVouchers": [
+            {
+              "curncy": "R",
+              "sequenceNumber": 1,
+              "amount": "5",
+              "ownAmount": false,
+              "voucherDesc": "100MB",
+              "voucherInstitutionCode": "MTNTW"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 2,
+              "amount": "20",
+              "ownAmount": false,
+              "voucherDesc": "500MB",
+              "voucherInstitutionCode": "MTNTW"
+            }
+          ],
+          "facebookDataBundleVouchers": [
+            {
+              "curncy": "R",
+              "sequenceNumber": 1,
+              "amount": "5",
+              "ownAmount": false,
+              "voucherDesc": "100MB",
+              "voucherInstitutionCode": "MTNFB"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 2,
+              "amount": "20",
+              "ownAmount": false,
+              "voucherDesc": "500MB",
+              "voucherInstitutionCode": "MTNFB"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 3,
+              "amount": "50",
+              "ownAmount": false,
+              "voucherDesc": "1GB",
+              "voucherInstitutionCode": "MTNFB"
+            }
+          ]
+        },
+        {
+          "fbVouchers": null,
+          "smsvouchers": [
+            {
+              "curncy": "R",
+              "sequenceNumber": 2,
+              "amount": "15",
+              "ownAmount": false,
+              "voucherDesc": "50 SMS",
+              "voucherInstitutionCode": "CSMS2"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 3,
+              "amount": "30",
+              "ownAmount": false,
+              "voucherDesc": "100 SMS",
+              "voucherInstitutionCode": "CSMS3"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 4,
+              "amount": "45",
+              "ownAmount": false,
+              "voucherDesc": "200 SMS",
+              "voucherInstitutionCode": "CSMS4"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 5,
+              "amount": "65",
+              "ownAmount": false,
+              "voucherDesc": "300 SMS",
+              "voucherInstitutionCode": "CSMS5"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 6,
+              "amount": "105",
+              "ownAmount": false,
+              "voucherDesc": "500 SMS",
+              "voucherInstitutionCode": "CSMS6"
+            }
+          ],
+          "dataBundlevouchers": [
+            {
+              "curncy": "R",
+              "sequenceNumber": 3,
+              "amount": "29",
+              "ownAmount": false,
+              "voucherDesc": "100MB",
+              "voucherInstitutionCode": "CD3"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 5,
+              "amount": "80",
+              "ownAmount": false,
+              "voucherDesc": "750MB + 1GB night data",
+              "voucherInstitutionCode": "CD5"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 6,
+              "amount": "100",
+              "ownAmount": false,
+              "voucherDesc": "1GB + 2GB night data",
+              "voucherInstitutionCode": "CD6"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 7,
+              "amount": "149",
+              "ownAmount": false,
+              "voucherDesc": "1.5GB + 3GB night data",
+              "voucherInstitutionCode": "CD7"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 8,
+              "amount": "199",
+              "ownAmount": false,
+              "voucherDesc": "2GB + 4GB night data",
+              "voucherInstitutionCode": "CD8"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 9,
+              "amount": "249",
+              "ownAmount": false,
+              "voucherDesc": "3GB + 5GB night data",
+              "voucherInstitutionCode": "CD9"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 10,
+              "amount": "299",
+              "ownAmount": false,
+              "voucherDesc": "6GB + 7GB night data",
+              "voucherInstitutionCode": "CD10"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 11,
+              "amount": "399",
+              "ownAmount": false,
+              "voucherDesc": "7GB + 10GB night data",
+              "voucherInstitutionCode": "CD11"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 12,
+              "amount": "499",
+              "ownAmount": false,
+              "voucherDesc": "10GB + 15GB night data",
+              "voucherInstitutionCode": "CD12"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 13,
+              "amount": "29",
+              "ownAmount": false,
+              "voucherDesc": "1GB WhatsApp Bundle",
+              "voucherInstitutionCode": "CD13"
+            }
+          ],
+          "blackBrryvouchers": [
+          ],
+          "institutionDescription": "C",
+          "image": null,
+          "netProviderName": "Cell C",
+          "institutionCode": "C",
+          "vouchers": [
+            {
+              "curncy": "R",
+              "sequenceNumber": 1,
+              "amount": "5",
+              "ownAmount": false,
+              "voucherDesc": "",
+              "voucherInstitutionCode": "C"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 2,
+              "amount": "10",
+              "ownAmount": false,
+              "voucherDesc": "",
+              "voucherInstitutionCode": "C"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 3,
+              "amount": "35",
+              "ownAmount": false,
+              "voucherDesc": "",
+              "voucherInstitutionCode": "C"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 4,
+              "amount": "70",
+              "ownAmount": false,
+              "voucherDesc": "",
+              "voucherInstitutionCode": "C"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 5,
+              "amount": "150",
+              "ownAmount": false,
+              "voucherDesc": "",
+              "voucherInstitutionCode": "C"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 6,
+              "amount": "300",
+              "ownAmount": false,
+              "voucherDesc": "",
+              "voucherInstitutionCode": "C"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 7,
+              "amount": "500",
+              "ownAmount": false,
+              "voucherDesc": "",
+              "voucherInstitutionCode": "C"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 8,
+              "amount": "1000",
+              "ownAmount": false,
+              "voucherDesc": "",
+              "voucherInstitutionCode": "C"
+            },
+            {
+              "curncy": "R",
+              "sequenceNumber": 9,
+              "amount": "Own",
+              "ownAmount": true,
+              "voucherDesc": "",
+              "voucherInstitutionCode": "C"
+            }
+          ],
+          "minRcAmt": {
+            "curncy": "R",
+            "sequenceNumber": 1,
+            "amount": "5",
+            "ownAmount": false,
+            "voucherDesc": "",
+            "voucherInstitutionCode": null
+          },
+          "maxRcAmt": {
+            "curncy": "R",
+            "sequenceNumber": 8,
+            "amount": "1000",
+            "ownAmount": false,
+            "voucherDesc": "",
+            "voucherInstitutionCode": null
+          },
+          "dataBundleMonthlyVouchers": [
+          ],
+          "whatsappDataBundleVouchers": null,
+          "youtubeDataBundleVouchers": null,
+          "twitterDataBundleVouchers": null,
+          "facebookDataBundleVouchers": null
+        }
+      ],
+      "smsproviderDTO": {
+        "netProviderName": "Vodacom",
+        "amount": {
+          "amt": "49",
+          "curr": "R"
+        }
+      }
+    }
+  }
+}

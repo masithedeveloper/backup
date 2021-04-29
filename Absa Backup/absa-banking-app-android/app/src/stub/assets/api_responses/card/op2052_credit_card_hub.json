@@ -1,0 +1,250 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES2052",
+      "resCde": "00000",
+      "resMsg": "Success",
+      "serVer": "2.0",
+      "expTrace": null
+    },
+    "payData": {
+      "travelNotification": {
+        "referralStartDate": "0",
+        "referralEndDate": "0",
+        "cardNumber": "4787692001498018"
+      },
+      "creditCardAccountDTO": {
+        "creditCardAccountnumbers": "4787692001466015",
+        "creditLimitIncreaseAmtForCLI": "60000.0",
+        "existingCreditLimitOfCreditCard": "10000.0"
+      },
+      "creditCardApplyStatusEnum": "SUCCESS",
+      "account": {
+        "id": "0",
+        "allowPayment": false,
+        "accountName": "CREDIT ACCOUNT",
+        "accountNo": "4787692001466015",
+        "hostProductType": null,
+        "available": {
+          "curr": "R",
+          "amt": "9,879.90"
+        },
+        "balance": {
+          "curr": "R",
+          "amt": "-120.10"
+        },
+        "unclearedAmt": "0.0",
+        "limit": null,
+        "openedDate": 1498082400000,
+        "options": null,
+        "accessBits": "0",
+        "accessTypeBits": "0",
+        "powerOfAttorney": false,
+        "status": null,
+        "product": null,
+        "productType": null,
+        "branch": null,
+        "corp": null,
+        "dateClosed": null,
+        "existingOverdraftLimit": "0",
+        "accountBalance": {
+          "curr": "R",
+          "amt": "-120.10"
+        },
+        "availableBalance": {
+          "curr": "R",
+          "amt": "9,879.90"
+        },
+        "productCode": null,
+        "withdrawalPerc": null,
+        "noticePeriod": null,
+        "liqEffDateOut": null,
+        "perEffDateOut": null,
+        "effDateFalg": false,
+        "noticePeriodDays": null,
+        "liquidityPreference": null,
+        "investTerm": null,
+        "investAmount": null,
+        "rateOption": null,
+        "nettposition": 0.0,
+        "accountTypeId": null,
+        "accountTypeName": "creditCard",
+        "accountTypedescription": "KREDIET KAART REKENING",
+        "drInterestRate": "20.5",
+        "crInterestRate": "0.25",
+        "creditLimit": "10000",
+        "expiryDate": "2021-06-07",
+        "arrearAmount": {
+          "curr": "R",
+          "amt": "0.00"
+        },
+        "fullAmountPayable": {
+          "curr": "R",
+          "amt": "44.44"
+        },
+        "fullAmountPayableLastStatementDate": null,
+        "fullAmountPayableExcludingPayments": null,
+        "minimumAmountPayable": {
+          "curr": "R",
+          "amt": "44.44"
+        },
+        "paymentDueDate": "2018-09-13",
+        "straightBalance": {
+          "curr": "R",
+          "amt": "-120.10"
+        },
+        "budgetedBalance": {
+          "curr": "R",
+          "amt": "0.00"
+        },
+        "authorisedAmount": {
+          "curr": "R",
+          "amt": "0.00"
+        },
+        "authorisedAmountUnclearedDeposits": null
+      },
+      "cardNumber": "4787692001466015",
+      "cardType": "CC",
+      "cashWithdrawalLimit": "1000.00",
+      "posLimit": "9999999.00",
+      "cashWithdrawalMaxLimit": "25000.00",
+      "posMaxLimit": "25000.00",
+      "accountActivityListClearedTrue": [],
+      "accountActivityListClearedFalse": [
+        {
+          "transactionCategory": null,
+          "txnStatus": "",
+          "txnPrt": "CREDIT FACILITY SERVICE FEE 876982340632CBPX0003",
+          "drAmt": {
+            "curr": "R",
+            "amt": "-25.22"
+          },
+          "crAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "suppGrpCode": null,
+          "tariffIndex": null,
+          "receiptNumber": null,
+          "electricDebts": null,
+          "electricFixedCosts": null,
+          "electricTokens": null,
+          "dt": "2018-08-24",
+          "bal": {
+            "curr": "-",
+            "amt": "-"
+          },
+          "refNo": ""
+        },
+        {
+          "transactionCategory": null,
+          "txnStatus": "",
+          "txnPrt": "MONTHLY ACCOUNT FEE 876982340632CBPX0004",
+          "drAmt": {
+            "curr": "R",
+            "amt": "-50.44"
+          },
+          "crAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "suppGrpCode": null,
+          "receiptNumber": null,
+          "electricDebts": null,
+          "electricFixedCosts": null,
+          "electricTokens": null,
+          "dt": "2018-08-24",
+          "bal": {
+            "curr": "-",
+            "amt": "-"
+          },
+          "refNo": ""
+        }
+      ],
+      "enquirePauseCardRespDTO": {
+        "cardNumber": "4787692001466015",
+        "allTransactions": "N",
+        "internationalAtmTransactions": "N",
+        "internationalPosTransactions": "Y",
+        "localAtmTransactions": "N",
+        "localPosTransactions": "N",
+        "onlinePurchases": "N",
+        "digitalWallet": "N"
+      },
+      "lifeInsurance": {
+        "coverAmount": "0.0",
+        "outstandingPremiumAmount": "0.0",
+        "monthlyPremium": "0.0",
+        "loadingAmount": "0.0",
+        "sasPremium": "0.0",
+        "planCounter": "0",
+        "spousePlanCounter": "0",
+        "spouseSumAssured": "0.0",
+        "spouseBenefitPremium": "0.0",
+        "firstHHorHO": "false",
+        "totalCoverAmount": "0.0",
+        "totalPremium": "0.0",
+        "screenId": "0",
+        "policyExist": "false",
+        "policyNumber": null,
+        "commencementDate": null,
+        "rolePlayers": [
+          {
+            "title": null,
+            "initials": null,
+            "firstName": "DENOVEN",
+            "surname": "MINNAAR",
+            "gender": null,
+            "dateOfBirth": null,
+            "coverAmount": null,
+            "premiumAmount": null,
+            "relationship": null,
+            "benefitCode": null,
+            "benefitCounter": null,
+            "descriptionEnglish": null,
+            "descriptionAfrican": null
+          }
+        ]
+      },
+      "fromDate": "",
+      "toDate": "",
+      "incomeAndExpenseData": {
+        "bureauDebtInstalmentList": [
+          {
+            "bureauCategory": "AA",
+            "bureauCategoryAmount": "100.0"
+          }
+        ],
+        "totalGrossMonthlyIncome": "34.0",
+        "totalNetMonthlyIncome": "0.0",
+        "totalMonhtlyLivingExpenses": "34.0",
+        "totalMonthlyFixedDebtInstallment": "100.0",
+        "telephoneExpense": "0.0",
+        "insuranceExpense": "0.0",
+        "securityExpense": "0.0"
+      },
+      "displayCreditCardGadget": {
+        "offersCreditCardEnum": "CREDIT_CARD_CLI",
+        "offersCreditNewValue": "0",
+        "offersCreditExistingValue": "40000.0",
+        "offersCreditUtilizedValue": "2546.79",
+        "offersCreditUnUtilizedValue": "37453.21",
+        "offersCreditCardNumber": "5239092110934022",
+        "creditLimitIncreaseAmtForCLI": "105000.0",
+        "isFreshBureauDataAvailableWithCams": "false",
+        "incomeAndExpenseDTO": {
+          "totalGrossMonthlyIncome": "84263.0",
+          "totalNetMonthlyIncome": "47887.0",
+          "totalMonhtlyLivingExpenses": "26899.0",
+          "totalMonthlyFixedDebtInstallment": null,
+          "telephoneExpense": null,
+          "insuranceExpense": null,
+          "securityExpense": null,
+          "bureauDebtInstalmentList": null
+        }
+      },
+      "txnStatus": "Success",
+      "txnMessage": "Success"
+    }
+  }
+}

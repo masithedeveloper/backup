@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        style="@style/ScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <styleguide.content.TitleAndDescriptionView
+                android:id="@+id/createPinTitleAndDescriptionView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_description="@string/five_digit_banking_pin_description"
+                app:attribute_title="@string/create_your_pin"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/enterPinNormalInputView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/small_space"
+                android:inputType="numberPassword"
+                android:maxLength="5"
+                android:maxLines="1"
+                android:singleLine="true"
+                app:attribute_editable="true"
+                app:attribute_hint_text="@string/enter_your_pin_hint"
+                app:attribute_image="@drawable/ic_check_dark"
+                app:attribute_selector_type="NONE"
+                app:attribute_title_text="@string/enter_your_pin"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/createPinTitleAndDescriptionView" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/confirmPinNormalInputView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:inputType="numberPassword"
+                android:maxLength="5"
+                android:maxLines="1"
+                android:singleLine="true"
+                app:attribute_editable="true"
+                app:attribute_hint_text="@string/confirm_your_pin_hint"
+                app:attribute_image="@drawable/ic_check_dark"
+                app:attribute_selector_type="NONE"
+                app:attribute_title_text="@string/confirm_your_pin"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/enterPinNormalInputView" />
+
+            <styleguide.content.SecondaryContentAndLabelView
+                android:id="@+id/clientSurePhraseContentLabelView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/medium_space"
+                app:attribute_secondary_label="@string/surephrase_text"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/confirmPinNormalInputView"
+                tools:text="JohnDoe" />
+
+            <styleguide.buttons.OptionActionButtonView
+                android:id="@+id/whatIsSurecheckPhraseButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:focusable="true"
+                app:attribute_caption="@string/what_is_surephrase"
+                app:attribute_icon="@drawable/ic_help_dark"
+                app:attribute_show_arrow="false"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/clientSurePhraseContentLabelView" />
+
+            <styleguide.buttons.Button
+                android:id="@+id/nextButton"
+                style="@style/PrimaryButton"
+                android:layout_width="0dp"
+                android:layout_marginTop="@dimen/medium_space"
+                android:text="@string/next"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/whatIsSurecheckPhraseButton"
+                app:layout_constraintVertical_bias="1" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</layout>

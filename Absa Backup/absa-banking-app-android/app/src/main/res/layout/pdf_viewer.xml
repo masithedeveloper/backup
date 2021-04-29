@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.barclays.absa.banking.shared.viewer.PinchToZoomRecyclerView
+        android:id="@+id/pdfPageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/pale_grey"
+        android:fadeScrollbars="false"
+        android:orientation="vertical"
+        android:scrollbarSize="@dimen/_10sdp"
+        android:scrollbarThumbVertical="@color/pdf_viewer_overlay_color"
+        android:scrollbars="vertical"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+
+    <ImageView
+        android:id="@+id/shareImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_margin="@dimen/_20sdp"
+        android:background="@color/pdf_viewer_overlay_color"
+        android:padding="@dimen/_5sdp"
+        android:src="@drawable/ic_share_box_arrow"
+        app:tint="@color/white" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_32sdp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginStart="@dimen/extra_extra_large_space"
+        android:layout_marginEnd="@dimen/extra_extra_large_space"
+        android:layout_marginBottom="@dimen/small_space"
+        android:background="@drawable/pdf_viewer_controls_background"
+        android:elevation="@dimen/_4sdp"
+        android:paddingStart="@dimen/normal_space"
+        android:paddingEnd="@dimen/normal_space">
+
+        <TextView
+            android:id="@+id/pageIndexTextView"
+            style="@style/NormalTextRegularDark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:layout_width="@dimen/_1sdp"
+            android:layout_height="0dp"
+            android:background="@color/pale_grey"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/zoomOutImageButton"
+            app:layout_constraintStart_toEndOf="@id/pageIndexTextView"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/zoomOutImageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/medium_space"
+            android:background="@null"
+            android:src="@drawable/ic_zoom_out"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/zoomInImageButton"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/zoomInImageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:src="@drawable/ic_zoom_in"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        style="@style/ScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/idNumberNormalInputView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:digits="0123456789 "
+                android:imeOptions="actionNext"
+                android:inputType="number"
+                app:attribute_editable="true"
+                app:attribute_hint_text="@string/enter_id_number"
+                app:attribute_mask="###### #### ## #"
+                app:attribute_title_text="@string/new_to_bank_sa_id_number"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/surnameNormalInputView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ '"
+                android:imeOptions="actionNext"
+                android:inputType="textCapWords|textVisiblePassword"
+                android:maxLength="30"
+                app:attribute_editable="true"
+                app:attribute_hint_text="@string/new_to_bank_enter_your_surname"
+                app:attribute_title_text="@string/new_to_bank_surname_no_colon"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/idNumberNormalInputView" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/cellphoneNormalInputView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:digits="0123456789 "
+                android:imeOptions="actionNext"
+                android:inputType="phone"
+                app:attribute_editable="true"
+                app:attribute_hint_text="@string/new_to_bank_enter_your_cellphone_number"
+                app:attribute_mask="### ### ####"
+                app:attribute_title_text="@string/cellphone_number"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/surnameNormalInputView" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/emailAddressNormalInputView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:imeOptions="actionDone"
+                app:attribute_editable="true"
+                app:attribute_hint_text="@string/new_to_bank_enter_your_email_address"
+                app:attribute_title_text="@string/new_to_bank_email_address_no_colon"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cellphoneNormalInputView" />
+
+            <styleguide.forms.CheckBoxView
+                android:id="@+id/agreeToTermsCheckBoxView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/large_space"
+                app:attribute_description="@string/new_to_bank_agree_personal_client_agreement"
+                app:attribute_is_required="true"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/emailAddressNormalInputView" />
+
+            <styleguide.forms.CheckBoxView
+                android:id="@+id/iAgreeTermsAndConditionsCheckBox"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_description="@string/relationship_banking_business_evolve_terms_of_use"
+                app:attribute_is_required="true"
+                app:layout_constraintBottom_toTopOf="@+id/nextButton"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/agreeToTermsCheckBoxView" />
+
+            <styleguide.buttons.Button
+                android:id="@+id/nextButton"
+                style="@style/PrimaryButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/medium_space"
+                android:text="@string/next"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/iAgreeTermsAndConditionsCheckBox"
+                app:layout_constraintVertical_bias="1" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</layout>

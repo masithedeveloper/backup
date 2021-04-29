@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="customise_login_screen_title">Pas aanmeldskerm aan</string>
+    <string name="customise_login_screen_message">Kies die transaksies wat jy wil toevoeg tot jou aanmeldskerm hieronder.\n\nDie volgende keer wanneer jy inskakel op jou app, kan jy met \'n klik direk na jou gunsteling transaksie gaan.</string>
+    <string name="customise_login_screen_transaction_list">Transaksielys</string>
+    <string name="customise_login_screen_discard_changes_title">Ignoreer veranderinge?</string>
+    <string name="customise_login_screen_discard_changes_message">Jou aanmeldskermveranderinge sal verlore gaan as jy nie stoor nie.</string>
+</resources>

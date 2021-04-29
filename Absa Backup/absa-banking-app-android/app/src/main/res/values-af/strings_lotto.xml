@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lotto_select_account_to_pay_with">Met watter rekening wil jy graag speel?</string>
+    <string name="lotto_select_account_to_pay_from_hint">Kies asseblief ’n rekening om uit te betaal</string>
+    <string name="lotto_your_number">Jou selfoonnommer</string>
+    <string name="lotto_number_description">Selfoonnommer sal gebruik word om wenners te kontak wat R 50 000 en meer gewen het.</string>
+    <string name="lotto_i_agree_terms_and_conditions">Ek aanvaar die Bepalings &amp; Voorwaardes</string>
+    <string name="lotto_terms_and_conditions">Bepalings &amp; Voorwaardes</string>
+    <string name="lotto_step_indicator_text">Stap %1$s/%2$s: %3$s</string>
+    <string name="lotto_current_total">Huidige Totaal:</string>
+    <string name="lotto_purchase_ticket">Koop kaartjie</string>
+    <string name="lotto_enter_valid_number">Vul asseblief \'n geldige telefoonnommer in</string>
+    <string name="lotto_conditions_error_message">Aanvaar asseblief bepalings en voorwaardes</string>
+    <string name="lotto_select_account">Kies asseblief \'n rekening</string>
+    <string name="lotto_play_lotto">Speel Lotto</string>
+    <string name="lotto_view_lotto_results">Besigtig trekking uitslae</string>
+    <string name="lotto_purchased_tickets">Gekoopte kaartjies</string>
+    <string name="lotto_add_a_board">Voeg bord by</string>
+    <string name="lotto_board">Bord</string>
+    <string name="lotto_per_draw">per trekking</string>
+    <string name="lotto_new_draw">Volgende trekking</string>
+    <string name="lotto_complete_game_boards">Voltooi ten minste 2 spelborde</string>
+    <string name="lotto_complete_game_boards_step_indicator">Kies jou borde vir jou kaartjie</string>
+    <string name="lotto_additional_games">Wil jy vir enige addisionele speletjies inskryf?</string>
+    <string name="lotto_times_to_play">Hoeveel spelborde wil jy speel?</string>
+    <string name="lotto_boards_to_play">Hoeveel borde wil jy graag speel?</string>
+    <string name="lotto_draws_to_enter">Vir hoeveel trekkinge wil jy inskryf?</string>
+    <string name="lotto_play_the_lotto">Speel die Lotto</string>
+    <string name="lotto_play_powerball">Speel PowerBall</string>
+    <string name="lotto_new_ticket">Nuwe Kaartjie</string>
+    <string name="lotto_per_board">%s per bord</string>
+    <string name="lotto_save_board">Stoor bord</string>
+    <string name="lotto_board_name">Bord %s</string>
+    <string name="lotto_choose_your_powerball">Kies jou PowerBall</string>
+    <string name="lotto_clear">Herstel</string>
+    <string name="lotto_success_description">Jy het sopas ’n kaartjie gekoop vir die komende %1$s trekking op %2$s.\nVerw: %3$s\n\nPhanda Phusha Play!</string>
+    <string name="lotto_entries">Lotto Inskrywings</string>
+    <string name="lotto_purchase_successful">Lotto Aankoop Suksesvol</string>
+    <string name="lotto_powerball_purchase_successful">PowerBall Aankoop Suksesvol</string>
+    <string name="lotto_lotto_tickets">Lotto Kaartjies</string>
+    <string name="lotto_lotto_ticket">%s Kaartjie</string>
+    <string name="lotto_powerball_ticket">PowerBall Kaartjies</string>
+    <string name="lotto_results">Uitslae:</string>
+    <string name="lotto_results_date">%1$s Uitslae %2$s</string>
+    <string name="lotto_no_tickets_alert">Geen lotto kaartjies vir geselekteerde reeks nie</string>
+    <string name="lotto_draw_information">Trekkingsinligting</string>
+    <string name="lotto_replay_ticket">Herspeel Kaartjie</string>
+    <string name="lotto_choose_numbers_title">Kies %s nommers</string>
+    <string name="lotto_game_results">Speluitslae</string>
+    <string name="lotto_place_bet">Stel jou spel op</string>
+    <string name="lotto_confirm_ticket">Bevestig jou kaartjie</string>
+    <string name="lotto_choose_additional">Kies addisionele spel</string>
+    <string name="lotto_not_available_header">Nie beskikbbaar</string>
+    <string name="lotto_not_available_content">Jammer, Lotto is nie beskikbaar op die oomblik nie. Die werksure is ...</string>
+
+    <string name="lotto_ticket">Kaartjie</string>
+    <string name="lotto_draws">Trekkings</string>
+    <string name="lotto_draw">Trekking</string>
+    <string name="lotto_boards">Borde</string>
+
+    <string name="lotto_number_of_entries">Aantal Inskrywings</string>
+    <string name="lotto_closed">%1$s inskrywings het toe gemaak en sal more oggend her-open om %2$s.</string>
+    <string name="lotto_unable_complete_purchase">Unable to complete %s purchase</string>
+
+    <string name="lotto_close_soon">%1$s inskrywings maak vandag om %2$s toe.</string>
+
+    <string name="lotto_second">Sekonde</string>
+    <string name="lotto_seconds">Sekondes</string>
+    <string name="lotto_hour">Uur</string>
+    <string name="lotto_minute">Minuut</string>
+    <string name="lotto_hours">Ure</string>
+    <string name="lotto_minutes">Minute</string>
+    <string name="lotto_days">Dae</string>
+    <string name="lotto_day">Dag</string>
+    <string name="lotto_draw_in_progress">Trekking aan die gang</string>
+
+    <string name="lotto_draw_results">Trekuitslae:</string>
+    <string name="lotto_winnings">Lotto winnings</string>
+    <string name="lotto_ticket_boards">Kaartjieborde</string><!---->
+    <string name="lotto_game_type_and_number_of_draws">%s (%d Trekkinge)</string>
+    <string name="lotto_number_of_boards">%d Borde</string>
+    <string name="lotto_select_draw">Kies ’n trekking</string>
+    <string name="lotto_please_select_all_balls">Kies asseblief al die Lotto balle.</string>
+
+    <string name="lotto_play_responsibly">Speel asseblief verantwoordelik</string>
+    <string name="lotto_discard_board_message">Is jy seker jy wil die spelbord weggooi?</string>
+    <string name="lotto_discard_changes_board_message">Is jy seker jy wil jou veranderinge weggooi?</string>
+    <string name="lotto_discard_changes_board_title">Gooid veranderinge weg?</string>
+    <string name="lotto_discard_board_title">Gooi spelbord weg?</string>
+    <string name="lotto_upcoming_draw_results">Komende Trekuitslae:</string>
+
+    <string name="lotto_draw_tickets">Trekking  Kaartjies</string>
+    <string name="lotto_draw_no">Trekking #%s</string>
+    <string name="lotto_active_lotto_entries">%s aktiewe inskrywings</string>
+    <string name="lotto_please_complete_board">Voltooi asseblief Bord %s</string>
+    <string name="lotto_minimum_boards_played">\'n Minimum van twee borde moet gespeel word</string>
+    <string name="lotto_purchase_limit_exceeded">Lotto aankoop limiete oorskry</string>
+    <string name="lotto_purchase_draw_number">Trekking %d (%s)</string>
+    <string name="lotto_client_agreement_have_accepted">Ek het voorheen tot die %s ingestem.</string>
+    <string name="lotto_ticket_reference">Kaartjieverwysingsnommer</string>
+
+    <string name="lotto_no_winner">Geen wenners\n-</string>
+    <string name="lotto_one_winner">%1$s Wenner van\n%2$s</string>
+    <string name="lotto_multiple_winners">%1$s Wenner:\n%2$s</string>
+    <string name="lotto_div_label">Div %1$s:\nPas %2$s</string>
+    <string name="lotto_winners">Lotto wenners</string>
+    <string name="lotto_powerball_winners">PowerBall wenners</string>
+    <string name="lotto_total_pool">Totale poel</string>
+    <string name="lotto_rollover_amount">Oorgroot bedrag</string>
+
+    <string name="lotto_unavailable">Lotto nie beskikbaar nie</string>
+    <string name="lotto_non_citizen_error_message">Ongelukkig is die lotto-funksie slegs beskikbaar vir Suid-Afrikaanse burgers met \'n geldige ID-dokument.</string>
+</resources>

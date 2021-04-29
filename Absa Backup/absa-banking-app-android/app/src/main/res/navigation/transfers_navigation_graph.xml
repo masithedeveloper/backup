@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_transfers"
+    app:startDestination="@+id/transferFundsFragment">
+
+    <fragment
+        android:id="@+id/transferFundsFragment"
+        android:name="com.barclays.absa.banking.transfer.TransferFundsFragment"
+        android:label="TransferFundsFragment"
+        tools:layout="@layout/transfer_funds_fragment">
+        <action
+            android:id="@+id/action_transferFundsFragment_to_transferFundsConfirmationFragment"
+            app:destination="@id/transferFundsConfirmationFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/transferFundsConfirmationFragment"
+        android:name="com.barclays.absa.banking.transfer.TransferFundsConfirmationFragment"
+        android:label="TransferFundsConfirmationFragment"
+        tools:layout="@layout/transfer_funds_confirmation_fragment">
+        <action
+            android:id="@+id/action_transferFundsConfirmationFragment_to_genericResultScreenFragment"
+            app:destination="@id/genericResultScreenFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/genericResultScreenFragment"
+        android:name="styleguide.screens.GenericResultScreenFragment"
+        android:label="GenericResultScreenFragment"
+        app:enterAnim="@anim/fadein"
+        app:exitAnim="@anim/fadeout"
+        app:popEnterAnim="@anim/fadein"
+        app:popExitAnim="@anim/fadeout"
+        tools:layout="@layout/generic_results_screen_fragment">
+        <argument
+            android:name="GenericResultScreenFragment"
+            app:argType="styleguide.screens.GenericResultScreenProperties" />
+        <action
+            android:id="@+id/action_genericResultScreenFragment_to_transferFundsFragment"
+            app:destination="@id/transferFundsFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+</navigation>

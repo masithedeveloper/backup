@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        style="@style/ScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <styleguide.content.BeneficiaryView
+                android:id="@+id/beneficiaryView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_is_header="true"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/beneficiaryResidentialAddressInputView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:inputType="textCapWords"
+                android:maxLength="50"
+                app:attribute_editable="true"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/beneficiaryView"
+                tools:attribute_hint_text="@string/enter_beneficiary_address_hint"
+                tools:attribute_title_text="@string/beneficiary_residential_address_title" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/destinationCountryInputView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_editable="false"
+                app:attribute_hint_text="@string/select_destination_country_hint"
+                app:attribute_selector_type="LONG_LIST"
+                app:attribute_title_text="@string/destination_country_title"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/beneficiaryResidentialAddressInputView" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/selectDestinationStateLargeInputView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                app:attribute_editable="false"
+                app:attribute_hint_text="@string/select_destination_state_hint"
+                app:attribute_selector_type="LONG_LIST"
+                app:attribute_title_text="@string/destination_state_title"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/destinationCountryInputView"
+                tools:visibility="visible" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/selectDestinationCityLargeInputView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                app:attribute_editable="false"
+                app:attribute_hint_text="@string/select_destination_city_hint"
+                app:attribute_selector_type="LONG_LIST"
+                app:attribute_title_text="@string/destination_city_title"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/selectDestinationStateLargeInputView"
+                tools:visibility="visible" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/enterDestinationCityInputView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:inputType="textCapWords"
+                android:maxLength="35"
+                android:visibility="gone"
+                app:attribute_hint_text="@string/select_destination_city_hint"
+                app:attribute_title_text="@string/destination_city_title"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/selectDestinationCityLargeInputView"
+                tools:visibility="visible" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/securityQuestionInputView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:inputType="textCapSentences"
+                android:visibility="gone"
+                app:attribute_hint_text="@string/enter_a_security_question_hint"
+                app:attribute_title_text="@string/security_question_title"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/enterDestinationCityInputView"
+                tools:visibility="visible" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/securityAnswerInputView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:inputType="textCapSentences"
+                android:maxLength="20"
+                android:visibility="gone"
+                app:attribute_hint_text="@string/enter_security_answer_hint"
+                app:attribute_title_text="@string/enter_security_answer_title"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/securityQuestionInputView"
+                tools:visibility="visible" />
+
+            <styleguide.buttons.Button
+                android:id="@+id/continueButton"
+                style="@style/PrimaryButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/next"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/securityAnswerInputView"
+                app:layout_constraintVertical_bias="1" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</layout>

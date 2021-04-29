@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:id="@+id/scrollView"
+            style="@style/ScrollView"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:fillViewport="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <styleguide.content.TitleAndDescriptionView
+                    android:id="@+id/primary_content_and_label_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:attribute_description="@string/vcl_terms_text_0"
+                    app:attribute_should_show_check_box="false"
+                    app:attribute_title="@string/vcl_terms_you_may_qualify"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <styleguide.content.NumberedListItem
+                    android:id="@+id/termOneListItem"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:attribute_content="@string/vcl_terms_text_1"
+                    app:attribute_number="1."
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/primary_content_and_label_view" />
+
+                <styleguide.content.NumberedListItem
+                    android:id="@+id/termTwoListItem"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:attribute_content="@string/vcl_terms_text_2"
+                    app:attribute_number="2."
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/termOneListItem" />
+
+                <styleguide.content.NumberedListItem
+                    android:id="@+id/termThreeListItem"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:attribute_content="@string/vcl_terms_text_3"
+                    app:attribute_number="3."
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/termTwoListItem" />
+
+                <styleguide.content.NumberedListItem
+                    android:id="@+id/termFourListItem"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:attribute_content="@string/vcl_terms_text_4"
+                    app:attribute_number="4."
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/termThreeListItem" />
+
+                <styleguide.content.NumberedListItem
+                    android:id="@+id/termFiveListItem"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:attribute_content="@string/vcl_terms_text_5"
+                    app:attribute_number="5."
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/termFourListItem" />
+
+                <styleguide.content.NumberedListItem
+                    android:id="@+id/termSixListItem"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:attribute_content="@string/vcl_terms_text_6"
+                    app:attribute_number="6."
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/termFiveListItem" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/termSixListItem"
+                    app:layout_constraintVertical_bias="1">
+
+                    <View
+                        android:id="@+id/dividerView"
+                        style="@style/DividerView"
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="@dimen/medium_space" />
+
+                    <styleguide.forms.CheckBoxView
+                        android:id="@+id/acceptTermsCheckBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="0dp"
+                        app:attribute_description="@string/vcl_terms_text_i_agree"
+                        app:attribute_is_checked="false"
+                        app:attribute_is_error_visible="false"
+                        app:attribute_is_required="true"
+                        tools:attribute_view_error_message="" />
+
+                    <styleguide.buttons.Button
+                        android:id="@+id/continueButton"
+                        style="@style/PrimaryButton"
+                        android:enabled="false"
+                        android:text="@string/continue_button" />
+                </LinearLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </ScrollView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

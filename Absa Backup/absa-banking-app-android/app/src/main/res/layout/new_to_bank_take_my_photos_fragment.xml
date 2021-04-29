@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ScrollView style="@style/ScrollView">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <styleguide.content.TitleAndDescriptionView
+                android:id="@+id/contentTitleAndDescriptionView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_description="@string/new_to_bank_will_take_a_few_selfies"
+                app:attribute_title="@string/new_to_bank_thank_you"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <styleguide.content.HeadingView
+                android:id="@+id/selfieHeading"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_heading="@string/new_to_bank_how_to_take_selfies"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/contentTitleAndDescriptionView" />
+
+            <styleguide.buttons.OptionActionButtonView
+                android:id="@+id/instructionsOptionActionButtonView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/extra_extra_large_space"
+                android:clickable="false"
+                app:attribute_caption="@string/new_to_bank_follow_instructions"
+                app:attribute_icon="@drawable/ic_tick_black_24"
+                app:attribute_show_arrow="false"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/selfieHeading" />
+
+            <styleguide.buttons.OptionActionButtonView
+                android:id="@+id/faceFitsOptionActionButtonView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/extra_extra_large_space"
+                android:clickable="false"
+                app:attribute_caption="@string/new_to_bank_face_fits"
+                app:attribute_icon="@drawable/ic_tick_black_24"
+                app:attribute_show_arrow="false"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/instructionsOptionActionButtonView" />
+
+            <styleguide.buttons.OptionActionButtonView
+                android:id="@+id/sunglassesOptionActionButtonView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/extra_extra_large_space"
+                android:clickable="false"
+                app:attribute_caption="@string/new_to_bank_remove_glasses"
+                app:attribute_icon="@drawable/ic_tick_black_24"
+                app:attribute_show_arrow="false"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/faceFitsOptionActionButtonView" />
+
+            <styleguide.buttons.OptionActionButtonView
+                android:id="@+id/followInstructionsOptionActionButtonView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/extra_extra_large_space"
+                android:clickable="false"
+                app:attribute_caption="@string/new_to_bank_follow_instructions_option"
+                app:attribute_icon="@drawable/ic_tick_black_24"
+                app:attribute_show_arrow="false"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/sunglassesOptionActionButtonView" />
+
+            <styleguide.buttons.OptionActionButtonView
+                android:id="@+id/dontMoveAroundOptionActionButtonView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/extra_extra_large_space"
+                android:clickable="false"
+                app:attribute_caption="@string/new_to_bank_dont_move_phone"
+                app:attribute_icon="@drawable/ic_tick_black_24"
+                app:attribute_show_arrow="false"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/followInstructionsOptionActionButtonView" />
+
+            <styleguide.buttons.OptionActionButtonView
+                android:id="@+id/wellLitAreaOptionActionButtonView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/extra_extra_large_space"
+                android:clickable="false"
+                app:attribute_caption="@string/new_to_bank_well_lit_area"
+                app:attribute_icon="@drawable/ic_tick_black_24"
+                app:attribute_show_arrow="false"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/dontMoveAroundOptionActionButtonView" />
+
+            <View
+                android:id="@+id/complianceDividerView"
+                style="@style/DividerView"
+                android:layout_width="0dp"
+                android:layout_marginTop="@dimen/medium_space"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/wellLitAreaOptionActionButtonView" />
+
+            <styleguide.content.DescriptionView
+                android:id="@+id/complianceDescriptionView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/small_space"
+                android:gravity="start"
+                android:textSize="@dimen/small_text_size"
+                android:visibility="gone"
+                app:attribute_description="@string/new_to_bank_use_photo_compliance"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/complianceDividerView"
+                tools:visibility="visible" />
+
+            <styleguide.forms.CheckBoxView
+                android:id="@+id/newToBankSelfiePrivacyConsentCheckBox"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_description="@string/new_to_bank_use_photo_compliance"
+                app:attribute_is_required="true"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/complianceDescriptionView" />
+
+            <styleguide.buttons.Button
+                android:id="@+id/takeMyPhotosButton"
+                style="@style/PrimaryButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/small_space"
+                android:text="@string/new_to_bank_take_my_photos"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/newToBankSelfiePrivacyConsentCheckBox" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</layout>

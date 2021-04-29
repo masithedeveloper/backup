@@ -1,0 +1,15 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0808",
+      "resCde": "00000",
+      "resMsg": "SUCCESS",
+      "serVer": "2.0"
+    },
+    "payData": {
+      "txnStatus": "SUCCESS",
+      "txnMsg": "SUCCESS",
+      "cashSendPlus": false
+    }
+  }
+}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="customise_login_screen_title">Customise log in screen</string>
+    <string name="customise_login_screen_message">Choose the transactions you want to add to your log in screen below.\n\nThe next time you open your app you can go straight to a favourite transaction with just a tap.</string>
+    <string name="customise_login_screen_transaction_list">Transaction list</string>
+    <string name="customise_login_screen_discard_changes_title">Discard changes?</string>
+    <string name="customise_login_screen_discard_changes_message">Your log in screen changes will be lost if you don\'t save.</string>
+</resources>

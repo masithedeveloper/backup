@@ -1,0 +1,27 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0333",
+      "resCde": "00000",
+      "resMsg": "",
+      "serVer": "2.0"
+    },
+    "payData": {
+      "addUpdBen": {
+        "benTyp": "prepaid",
+        "benNoticeTyp": "No",
+        "cellNo": "0829802027",
+        "benNam": "AOL change 3",
+        "myRef": "prepaid",
+        "isFav": "N",
+        "networkProv": "VSB",
+        "myNoticeTyp": "No",
+        "benId": "168",
+        "networkProviderName": "Vodacom",
+        "hasImage": "Y"
+      },
+      "status": "SUCCESS",
+      "msg": ""
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0859",
+      "resCde": "00000",
+      "resMsg": "Success",
+      "serVer": "2.0"
+    },
+    "payData": {
+      "rolePlayerDetails": [
+        {
+          "initials": "tr",
+          "surname": "rtrtr",
+          "gender": "M",
+          "dateOfBirth": "1991-06-04",
+          "coverAmount": "20000.0",
+          "premiumAmount": "21.59",
+          "relationship": "BROT",
+          "benefitCode": "FP2",
+          "benefitCounter": "1",
+          "descriptionEnglish": "Extended Family Members",
+          "descriptionAfrican": "Addisinele Famillie-lid"
+        }
+      ],
+      "txnStatus": "Success",
+      "txnMessage": "Success"
+    }
+  }
+}

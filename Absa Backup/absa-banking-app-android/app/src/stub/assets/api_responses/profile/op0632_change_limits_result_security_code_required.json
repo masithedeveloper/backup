@@ -1,0 +1,29 @@
+{
+  "successResponseModel": {
+    "payData": {
+      "futureDatedTransfer": null,
+      "txnStatus": null,
+      "txnMsg": null,
+      "sureCheckFlag": "SecurityCode",
+      "txnRefID": null,
+      "tvnFlag": "SecurityCode",
+      "referenceNumber": null,
+      "notificationMethod": null,
+      "txnMessage": null,
+      "corelationId": null,
+      "cellnumber": null,
+      "recurringPayment": null,
+      "interAccountTransfer": null,
+      "transactionDate": null,
+      "payment": null,
+      "email": null
+    },
+    "payHdr": {
+      "resCde": "00000",
+      "serVer": "2.0",
+      "expTrace": null,
+      "resMsg": "",
+      "resId": "RES0632"
+    }
+  }
+}

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ultimate_protector_navigation_graph"
+    app:startDestination="@id/ultimateProtectorApplyFragment">
+
+    <fragment
+        android:id="@+id/ultimateProtectorApplyFragment"
+        android:name="com.barclays.absa.banking.ultimateProtector.ui.UltimateProtectorApplyFragment"
+        tools:layout="@layout/ultimate_protector_apply_fragment">
+        <action
+            android:id="@+id/action_ultimateProtectorApplyFragment_to_ultimateProtectorStepOneFragment"
+            app:destination="@id/ultimateProtectorStepOneFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/ultimateProtectorStepOneFragment"
+        android:name="com.barclays.absa.banking.ultimateProtector.ui.UltimateProtectorStepOneFragment"
+        tools:layout="@layout/ultimate_protector_step_one_fragment">
+        <action
+            android:id="@+id/action_ultimateProtectorStepOneFragment_to_ultimateProtectorStepTwoFragment"
+            app:destination="@id/ultimateProtectorStepTwoFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/ultimateProtectorStepTwoFragment"
+        android:name="com.barclays.absa.banking.ultimateProtector.ui.UltimateProtectorStepTwoFragment"
+        tools:layout="@layout/ultimate_protector_step_two_fragment">
+        <action
+            android:id="@+id/action_ultimateProtectorStepTwoFragment_to_ultimateProtectorStepThreeFragment"
+            app:destination="@id/ultimateProtectorStepThreeFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/ultimateProtectorStepThreeFragment"
+        android:name="com.barclays.absa.banking.ultimateProtector.ui.UltimateProtectorStepThreeFragment"
+        tools:layout="@layout/ultimate_protector_step_three_fragment">
+        <action
+            android:id="@+id/action_ultimateProtectorStepThreeFragment_to_ultimateProtectorStepFourFragment"
+            app:destination="@id/ultimateProtectorStepFourFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/ultimateProtectorStepFourFragment"
+        android:name="com.barclays.absa.banking.ultimateProtector.ui.UltimateProtectorStepFourFragment"
+        tools:layout="@layout/ultimate_protector_step_four_fragment">
+        <action
+            android:id="@+id/action_ultimateProtectorStepFourFragment_to_ultimateProtectorStepFiveFragment"
+            app:destination="@id/ultimateProtectorStepFiveFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/ultimateProtectorStepFiveFragment"
+        android:name="com.barclays.absa.banking.ultimateProtector.ui.UltimateProtectorStepFiveFragment"
+        tools:layout="@layout/ultimate_protector_step_five_fragment">
+        <action
+            android:id="@+id/action_ultimateProtectorStepFiveFragment_to_ultimateProtectorStepSixFragment"
+            app:destination="@id/ultimateProtectorStepSixFragment" />
+        <action
+            android:id="@+id/action_ultimateProtectorStepFiveFragment_to_ultimateProtectorStepFiveBeneficiaryFragment"
+            app:destination="@id/ultimateProtectorStepFiveBeneficiaryFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/ultimateProtectorStepFiveBeneficiaryFragment"
+        android:name="com.barclays.absa.banking.ultimateProtector.ui.UltimateProtectorStepFiveBeneficiaryFragment"
+        tools:layout="@layout/ultimate_protector_step_five_beneficiary_fragment">
+        <action
+            android:id="@+id/action_ultimateProtectorStepFiveBeneficiaryFragment_to_ultimateProtectorStepSixFragment"
+            app:destination="@id/ultimateProtectorStepSixFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/ultimateProtectorStepSixFragment"
+        android:name="com.barclays.absa.banking.ultimateProtector.ui.UltimateProtectorStepSixFragment"
+        tools:layout="@layout/ultimate_protector_step_six_fragment">
+        <action
+            android:id="@+id/action_ultimateProtectorStepSixFragment_to_GenericResultScreenFragment"
+            app:destination="@+id/genericResultFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/genericResultFragment"
+        android:name="styleguide.screens.GenericResultScreenFragment"
+        tools:layout="@layout/ultimate_protector_step_six_fragment" >
+        <argument
+            android:name="GenericResultScreenFragment"
+            app:argType="styleguide.screens.GenericResultScreenProperties" />
+    </fragment>
+
+</navigation>

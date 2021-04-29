@@ -1,0 +1,35 @@
+{
+  "successResponseModel": {
+    "payData": {
+      "displayCreditCardGadget": {
+        "offersCreditCardEnum": "CREDIT_CARD_CLI",
+        "offersCreditExistingValue": "19000.0",
+        "offersCreditNewValue": "0",
+        "offersCreditUnUtilizedValue": "19000.0",
+        "offersCreditUtilizedValue": "0.0",
+        "offersCreditCardNumber": "9050889116",
+        "creditLimitIncreaseAmtForCLI": "38000.0",
+        "isFreshBureauDataAvailableWithCams": "true",
+        "incomeAndExpenseDTO": {
+          "bureauDebtInstalmentList": null,
+          "insuranceExpense": null,
+          "securityExpense": null,
+          "telephoneExpense": null,
+          "totalGrossMonthlyIncome": "72000.0",
+          "totalMonhtlyLivingExpenses": "0.0",
+          "totalNetMonthlyIncome": "52000.0",
+          "totalMonthlyFixedDebtInstallment": null
+        }
+      },
+      "txnStatus": "Success",
+      "txnMessage": "Success"
+    },
+    "payHdr": {
+      "resCde": "00000",
+      "resMsg": "Success",
+      "serVer": "2.0",
+      "expTrace": null,
+      "resId": "RES0846"
+    }
+  }
+}

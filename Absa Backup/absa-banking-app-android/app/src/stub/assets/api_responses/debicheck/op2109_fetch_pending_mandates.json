@@ -1,0 +1,116 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES2109",
+      "resCde": "00000",
+      "resMsg": "Success",
+      "serVer": "2.0",
+      "expTrace": null
+    },
+    "payData": {
+      "mandates" : [
+        {
+          "mandateId" : null,
+          "initialAmount" : "0.0",
+          "rejectReason" : null,
+          "collectionDay" : "30",
+          "adjustmentAmount" : "0.0",
+          "mandateReferenceNumber" : "",
+          "debitType" : null,
+          "firstCollectDate" : "1 Dec 2019",
+          "adjustmentCategory" : "R",
+          "initialAmountCcy" : "ZAR",
+          "frequency" : null,
+          "installmentAmountCcy" : null,
+          "creditorName" : "ABSA VF",
+          "collectionDayTranslation" : null,
+          "debitValueType" : "VARIABLE",
+          "dateAdjustmentRuleInd" : "N",
+          "mandateRequestTransactionId" : "00162019-10-28000000032",
+          "debtorAccNo" : "9051146561",
+          "debitOrderDate" : null,
+          "debtorAccType" : "SVGS",
+          "clientReference" : null,
+          "accepted" : false,
+          "maxCollectAmountCcy" : "ZAR",
+          "amendmentChangedItems" : [
+
+          ],
+          "creationDate" : "2019-10-28T10:38:19",
+          "installmentAmount" : "5988.51",
+          "contractRefNo" : "00074687704",
+          "adjustmentRate" : "0.0",
+          "success" : false,
+          "creditorShortName" : "ABSA VF",
+          "maxCollectAmount" : "8981.77",
+          "payerDebtorAcc" : null,
+          "vendor" : null,
+          "mandateType" : "INITIATIONS",
+          "trackingInd" : "T",
+          "amendmentReason" : ""
+        },
+        {
+          "mandateId" : null,
+          "initialAmount" : "10910.62",
+          "rejectReason" : null,
+          "collectionDay" : "25",
+          "adjustmentAmount" : "0.0",
+          "mandateReferenceNumber" : "0016201910233341921710",
+          "debitType" : null,
+          "firstCollectDate" : "2019-11-25",
+          "adjustmentCategory" : "R",
+          "initialAmountCcy" : "ZAR",
+          "frequency" : null,
+          "installmentAmountCcy" : null,
+          "creditorName" : "ABSA VF",
+          "collectionDayTranslation" : null,
+          "debitValueType" : "VARIABLE",
+          "dateAdjustmentRuleInd" : "",
+          "mandateRequestTransactionId" : "00162019-10-28000000036",
+          "debtorAccNo" : "9051146561",
+          "debitOrderDate" : null,
+          "debtorAccType" : "SVGS",
+          "clientReference" : null,
+          "accepted" : false,
+          "maxCollectAmountCcy" : "ZAR",
+          "amendmentChangedItems" : [
+            {
+              "changedFieldName" : "installment amount",
+              "oldChangedFieldValue" : "5979.68",
+              "newChangedfieldValue" : "10910.62"
+            },
+            {
+              "changedFieldName" : "first collection amount",
+              "oldChangedFieldValue" : "",
+              "newChangedfieldValue" : "10910.62"
+            },
+            {
+              "changedFieldName" : "first collection date",
+              "oldChangedFieldValue" : "",
+              "newChangedfieldValue" : "2019-11-25"
+            },
+            {
+              "changedFieldName" : " maximum installment amount",
+              "oldChangedFieldValue" : "8968.52",
+              "newChangedfieldValue" : "16364.93"
+            }
+          ],
+          "creationDate" : "2019-10-28T10:48:16",
+          "installmentAmount" : "10910.62",
+          "contractRefNo" : "00074687216",
+          "adjustmentRate" : "0.0",
+          "success" : false,
+          "creditorShortName" : "ABSA VF",
+          "maxCollectAmount" : "16364.93",
+          "payerDebtorAcc" : null,
+          "vendor" : null,
+          "mandateType" : "AMENDMENTS",
+          "trackingInd" : "T",
+          "amendmentReason" : "MD16"
+        }
+      ],
+      "txnStatus": "Success",
+      "txnMessage": "Success"
+    }
+  }
+}

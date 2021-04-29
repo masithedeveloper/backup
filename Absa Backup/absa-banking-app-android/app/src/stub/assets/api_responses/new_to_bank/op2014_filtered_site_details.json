@@ -1,0 +1,4073 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES20140",
+      "resCde": "00000",
+      "resMsg": "Success",
+      "serVer": "2.0",
+      "expTrace": null
+    },
+    "payData": {
+      "siteFilteredDetailsDTOList": [
+        {
+          "town": "115 MUSGRAVE ROAD DURBAN",
+          "suburb": "MUSGRAVE CENTRE",
+          "siteCode": "000008072",
+          "siteName": "MUSGRAVE CENTRE"
+        },
+        {
+          "town": "ABERDEEN",
+          "suburb": null,
+          "siteCode": "000008695",
+          "siteName": "ABERDEEN"
+        },
+        {
+          "town": "ACORNHOEK",
+          "suburb": "GREENVALLEY FARM",
+          "siteCode": "000008909",
+          "siteName": "ACORNHOEK"
+        },
+        {
+          "town": "ADELAIDE",
+          "suburb": null,
+          "siteCode": "000008696",
+          "siteName": "ADELAIDE"
+        },
+        {
+          "town": "AKASIA",
+          "suburb": "CNR BRITS AND CLARISSA ROAD",
+          "siteCode": "000006069",
+          "siteName": "WONDERPARK"
+        },
+        {
+          "town": "ALBERTINIA",
+          "suburb": null,
+          "siteCode": "000008697",
+          "siteName": "ALBERTINIA"
+        },
+        {
+          "town": "ALBERTON",
+          "suburb": null,
+          "siteCode": "000008083",
+          "siteName": "ALBERTON"
+        },
+        {
+          "town": "ALBERTON",
+          "suburb": "CNR HEIDELBERG & SWARTKOPPIES",
+          "siteCode": "000005387",
+          "siteName": "NEW MARKET"
+        },
+        {
+          "town": "ALEXANDRA, SANDTON",
+          "suburb": "LONDON ROAD FAR EAST BANK",
+          "siteCode": "000003067",
+          "siteName": "ALEX MALL"
+        },
+        {
+          "town": "ALEXANDRIA",
+          "suburb": null,
+          "siteCode": "000008635",
+          "siteName": "ALEXANDRIA"
+        },
+        {
+          "town": "ALIWAL NORTH",
+          "suburb": null,
+          "siteCode": "000008636",
+          "siteName": "ALIWAL NORTH"
+        },
+        {
+          "town": "ASPEN HILLS",
+          "suburb": "CO SWARTKOPPIES & KLIP RIVER",
+          "siteCode": "000008086",
+          "siteName": "MALL OF THE SOUTH"
+        },
+        {
+          "town": "ATHLONE",
+          "suburb": "7TH AVENUE",
+          "siteCode": "000008248",
+          "siteName": "ATHLONE"
+        },
+        {
+          "town": "ATHLONE",
+          "suburb": "CNR BOSDUIF & HEIDEVELD ROAD",
+          "siteCode": "000006081",
+          "siteName": "VANGATE"
+        },
+        {
+          "town": "ATLASVILLE",
+          "suburb": "C/O FINCH & REIER ROAD",
+          "siteCode": "000006300",
+          "siteName": "ATLASVILLE BOKSBURG"
+        },
+        {
+          "town": "ATTERIDGEVILLE",
+          "suburb": "CNR MOSALO & PHUDUFUDU STREETS",
+          "siteCode": "000006127",
+          "siteName": "ATTERIDGEVILLE"
+        },
+        {
+          "town": "AUCKLAND PARK",
+          "suburb": "KINGSWAY, 1ST FLOOR",
+          "siteCode": "000003259",
+          "siteName": "UNIVERSITY OF JHB STUDENT BUREAU"
+        },
+        {
+          "town": "AUCKLAND PARK",
+          "suburb": "HENLEY ROAD",
+          "siteCode": "000006551",
+          "siteName": "ABSA SABC"
+        },
+        {
+          "town": "AUCKLANDPARK",
+          "suburb": "9 LOTHBURY ROAD",
+          "siteCode": "000002567",
+          "siteName": "PRIVATE ASSIST"
+        },
+        {
+          "town": "BALLITO",
+          "suburb": "BALLITO DRIVE",
+          "siteCode": "000008243",
+          "siteName": "BALLITO"
+        },
+        {
+          "town": "BARBERTON",
+          "suburb": "GENERAL & VAN NIEKERK STREET",
+          "siteCode": "000008533",
+          "siteName": "BARBERTON"
+        },
+        {
+          "town": "BARKLY EAST",
+          "suburb": null,
+          "siteCode": "000008698",
+          "siteName": "BARKLY EAST"
+        },
+        {
+          "town": "BARRYDALE",
+          "suburb": null,
+          "siteCode": "000008699",
+          "siteName": "BARRYDALE"
+        },
+        {
+          "town": "BEACON BAY",
+          "suburb": "BEACON BAY RETAIL PARK",
+          "siteCode": "000006161",
+          "siteName": "BEACON BAY"
+        },
+        {
+          "town": "BEAUFORT WEST",
+          "suburb": null,
+          "siteCode": "000008615",
+          "siteName": "BEAUFORT WEST"
+        },
+        {
+          "town": "BEDFORDVIEW",
+          "suburb": "BRADFORD ROAD",
+          "siteCode": "000008095",
+          "siteName": "EASTGATE, BEDFORDVIEW"
+        },
+        {
+          "town": "BEDFORDVIEW",
+          "suburb": "BEDFORD CENTRE, SMITH STREET",
+          "siteCode": "000004653",
+          "siteName": "BEDFORD CENTRE"
+        },
+        {
+          "town": "BEDFORDVIEW",
+          "suburb": "BRADFORD ROAD",
+          "siteCode": "000008241",
+          "siteName": "EASTGATE SUITE"
+        },
+        {
+          "town": "BEDFORDVIEW",
+          "suburb": "BRADFORD ROAD",
+          "siteCode": "000000893",
+          "siteName": "EASTGATE INTERNATIONAL BANKING"
+        },
+        {
+          "town": "BELA-BELA",
+          "suburb": "CNR POTGIETER AND MARX STREETS",
+          "siteCode": "000008594",
+          "siteName": "BELA-BELA"
+        },
+        {
+          "town": "BELFAST",
+          "suburb": null,
+          "siteCode": "000008536",
+          "siteName": "BELFAST"
+        },
+        {
+          "town": "BELHAR",
+          "suburb": "BELHAR DRIVE,",
+          "siteCode": "000006717",
+          "siteName": "BELHAR"
+        },
+        {
+          "town": "BELLVILLE",
+          "suburb": "14 STRAND ROAD",
+          "siteCode": "000008883",
+          "siteName": "SANBEL, BELLVILLE"
+        },
+        {
+          "town": "BELLVILLE",
+          "suburb": "313 DURBAN ROAD",
+          "siteCode": "000008239",
+          "siteName": "SANTYGER"
+        },
+        {
+          "town": "BELLVILLE",
+          "suburb": "TYGERVALLEY OFFICE PARK NO. 2",
+          "siteCode": "000008374",
+          "siteName": "TYGERVALLEY SUITE"
+        },
+        {
+          "town": "BELLVILLE",
+          "suburb": null,
+          "siteCode": "000008047",
+          "siteName": "BELLVILLE"
+        },
+        {
+          "town": "BELLVILLE",
+          "suburb": null,
+          "siteCode": "000006401",
+          "siteName": "SANLAMHOF"
+        },
+        {
+          "town": "BENONI",
+          "suburb": "TOM JONES STREET LAKESIDE MALL",
+          "siteCode": "000008025",
+          "siteName": "LAKESIDE MALL"
+        },
+        {
+          "town": "BENONI",
+          "suburb": null,
+          "siteCode": "000008312",
+          "siteName": "TOM JONES STREET, BENONI"
+        },
+        {
+          "town": "BERGVILLE",
+          "suburb": null,
+          "siteCode": "000004670",
+          "siteName": "BERGVILLE"
+        },
+        {
+          "town": "BETHAL",
+          "suburb": null,
+          "siteCode": "000008427",
+          "siteName": "BETHAL"
+        },
+        {
+          "town": "BETHLEHEM",
+          "suburb": null,
+          "siteCode": "000008419",
+          "siteName": "BETHLEHEM"
+        },
+        {
+          "town": "BISHO",
+          "suburb": "INDEPENDENCE AVENUE",
+          "siteCode": "000006163",
+          "siteName": "BHISHO"
+        },
+        {
+          "town": "BIZANA",
+          "suburb": "CNR CHURCH, MAIN & HOPE STR",
+          "siteCode": "000006342",
+          "siteName": "BIZANA"
+        },
+        {
+          "town": "BLACKHEATH",
+          "suburb": "231 BEYERS NAUDE DRIVE",
+          "siteCode": "000008534",
+          "siteName": "VERDI CENTRE"
+        },
+        {
+          "town": "BLOEMFONTEIN",
+          "suburb": "CNR HENRY AND FIRST AVE",
+          "siteCode": "000008508",
+          "siteName": "LOCH LOGAN"
+        },
+        {
+          "town": "BLOEMFONTEIN",
+          "suburb": "FLEURDAL",
+          "siteCode": "000006205",
+          "siteName": "FLEURDAL"
+        },
+        {
+          "town": "BLOEMFONTEIN",
+          "suburb": "BRANDWAG",
+          "siteCode": "000006206",
+          "siteName": "MIMOSA MALL, BLOEMFONTEIN"
+        },
+        {
+          "town": "BLOEMFONTEIN",
+          "suburb": "BENADE DRIVE FICHARDT PARK",
+          "siteCode": "000006209",
+          "siteName": "FICHARDT PARK, BLOEMFONTEIN"
+        },
+        {
+          "town": "BLOEMFONTEIN",
+          "suburb": "ROCKLANDS",
+          "siteCode": "000000862",
+          "siteName": "PHAHAMENG"
+        },
+        {
+          "town": "BLOEMFONTEIN",
+          "suburb": "DONALD MURRAY ST",
+          "siteCode": "000008376",
+          "siteName": "BLOEMFONTEIN SUITE"
+        },
+        {
+          "town": "BLOEMFONTEIN",
+          "suburb": "NELSON MANDELA & DONALD STREET",
+          "siteCode": "000002515",
+          "siteName": "PRIVATE BANK - BLOEMFONTEIN"
+        },
+        {
+          "town": "BLOEMFONTEIN",
+          "suburb": "HEIDEDAL",
+          "siteCode": "000006593",
+          "siteName": "HEIDEDAL"
+        },
+        {
+          "town": "BLOEMFONTEIN",
+          "suburb": "BRANDWAG,",
+          "siteCode": "000008618",
+          "siteName": "BRANDWAG, BLOEMFONTEIN"
+        },
+        {
+          "town": "BLOEMFONTEIN",
+          "suburb": null,
+          "siteCode": "000008018",
+          "siteName": "BLOEMFONTEIN"
+        },
+        {
+          "town": "BLOEMHOF",
+          "suburb": null,
+          "siteCode": "000008637",
+          "siteName": "BLOEMHOF"
+        },
+        {
+          "town": "BLUFF DURBAN",
+          "suburb": "TARA ROAD",
+          "siteCode": "000008214",
+          "siteName": "ABSA BLUFF"
+        },
+        {
+          "town": "BOCHUM",
+          "suburb": null,
+          "siteCode": "000006607",
+          "siteName": "SENWABARWANA"
+        },
+        {
+          "town": "BOKSBURG",
+          "suburb": "CNR COMMISSIONER & BURG STREET",
+          "siteCode": "000008084",
+          "siteName": "BOKSBURG"
+        },
+        {
+          "town": "BOKSBURG",
+          "suburb": "C/O BENTEL AND NORTHRAND ROADS",
+          "siteCode": "000008242",
+          "siteName": "EAST RAND MALL"
+        },
+        {
+          "town": "BOKSBURG",
+          "suburb": "SUNWARD PARK,",
+          "siteCode": "000006579",
+          "siteName": "SUNWARD PARK"
+        },
+        {
+          "town": "BOKSBURG",
+          "suburb": "1ST FLR EASTLANDS OFFICE PARK",
+          "siteCode": "000008146",
+          "siteName": "EASTLANDS, BOKSBURG EAST"
+        },
+        {
+          "town": "BONNIEVALE",
+          "suburb": null,
+          "siteCode": "000008539",
+          "siteName": "BONNIEVALE"
+        },
+        {
+          "town": "BOTHAVILLE",
+          "suburb": null,
+          "siteCode": "000008540",
+          "siteName": "BOTHAVILLE"
+        },
+        {
+          "town": "BOTLOKWA",
+          "suburb": "SHOP NUMBER 15, MATOKS",
+          "siteCode": "000006140",
+          "siteName": "BOTLOKWA"
+        },
+        {
+          "town": "BOTSHABELO",
+          "suburb": "J MOKGOTHU HIGHWAY & 1ST STR",
+          "siteCode": "000009991",
+          "siteName": "BOTSHABELO MALL SALES"
+        },
+        {
+          "town": "BOTSHABELO",
+          "suburb": "RE A HOLA SHOPPING CENTRE",
+          "siteCode": "000000265",
+          "siteName": "BOTSHABELO"
+        },
+        {
+          "town": "BRAAMFONTEIN",
+          "suburb": "CNR BERTHA & JORISSEN STREET",
+          "siteCode": "000006546",
+          "siteName": "JORISSEN PLACE"
+        },
+        {
+          "town": "BRAAMFONTEIN",
+          "suburb": "1 JAN SMUTS AVENUE",
+          "siteCode": "000003267",
+          "siteName": "WITS MATRIX STUDENT BUREAU"
+        },
+        {
+          "town": "BRAAMFONTEIN",
+          "suburb": null,
+          "siteCode": "000008057",
+          "siteName": "BRAAMFONTEIN"
+        },
+        {
+          "town": "BRACKENFELL",
+          "suburb": "OKAVANGO ROAD",
+          "siteCode": "000008077",
+          "siteName": "CAPEGATE"
+        },
+        {
+          "town": "BRACKENFELL",
+          "suburb": "CENTRE OLD PAARL ROAD",
+          "siteCode": "000008859",
+          "siteName": "BRACKENFELL"
+        },
+        {
+          "town": "BRACKENHURST",
+          "suburb": "CNR R FRANKEL & H ALBERTS STR",
+          "siteCode": "000006578",
+          "siteName": "BRACKEN CITY"
+        },
+        {
+          "town": "BRAKPAN",
+          "suburb": null,
+          "siteCode": "000008436",
+          "siteName": "BRAKPAN"
+        },
+        {
+          "town": "BRANDFORT",
+          "suburb": null,
+          "siteCode": "000008638",
+          "siteName": "BRANDFORT"
+        },
+        {
+          "town": "BREDASDORP",
+          "suburb": null,
+          "siteCode": "000008639",
+          "siteName": "BREDASDORP"
+        },
+        {
+          "town": "BRITS",
+          "suburb": "R511 HENDRIK VERWOERD AVENUE",
+          "siteCode": "000008841",
+          "siteName": "BRITS MALL"
+        },
+        {
+          "town": "BRITS",
+          "suburb": null,
+          "siteCode": "000008525",
+          "siteName": "BRITS"
+        },
+        {
+          "town": "BRIXTON",
+          "suburb": null,
+          "siteCode": "000008868",
+          "siteName": "BRIXTON, JOHANNESBURG"
+        },
+        {
+          "town": "BRONKHORSTSPRUIT",
+          "suburb": "KRUGER STREET",
+          "siteCode": "000008541",
+          "siteName": "BRONKHORSTSPRUIT"
+        },
+        {
+          "town": "BROOKLYN",
+          "suburb": "CNR FEHRSEN & MIDDLE STREETS",
+          "siteCode": "000006145",
+          "siteName": "BROOKLYN MALL"
+        },
+        {
+          "town": "BRYANSTON",
+          "suburb": "C/O WILLIAM NICOL & WEDGEWOOD",
+          "siteCode": "000004401",
+          "siteName": "NICOLWAY"
+        },
+        {
+          "town": "BRYANSTON",
+          "suburb": "CNR 10 W NICOL & BALY CLAIR",
+          "siteCode": "000005346",
+          "siteName": "BRYANSTON"
+        },
+        {
+          "town": "BULTFONTEIN",
+          "suburb": null,
+          "siteCode": "000008542",
+          "siteName": "BULTFONTEIN"
+        },
+        {
+          "town": "BURGERSDORP",
+          "suburb": null,
+          "siteCode": "000008768",
+          "siteName": "BURGERSDORP"
+        },
+        {
+          "town": "BURGERSFORT",
+          "suburb": "CNR MARONI & D WINTERBACH ST",
+          "siteCode": "000008641",
+          "siteName": "BURGERSFORT"
+        },
+        {
+          "town": "BUSHBUCKRIDGE",
+          "suburb": null,
+          "siteCode": "000004785",
+          "siteName": "BUSHBUCKRIDGE"
+        },
+        {
+          "town": "BUTTERWORTH",
+          "suburb": "CNR HIGH AND BELL STREET",
+          "siteCode": "000006195",
+          "siteName": "BUTTERWORTH"
+        },
+        {
+          "town": "CALEDON",
+          "suburb": null,
+          "siteCode": "000008543",
+          "siteName": "CALEDON"
+        },
+        {
+          "town": "CALVINIA",
+          "suburb": null,
+          "siteCode": "000008623",
+          "siteName": "CALVINIA NORTHERN CAPE"
+        },
+        {
+          "town": "CAPE TOWN",
+          "suburb": "SEA POINT",
+          "siteCode": "000008101",
+          "siteName": "SEA POINT"
+        },
+        {
+          "town": "CAPE TOWN",
+          "suburb": "ROGGE BAY",
+          "siteCode": "000006253",
+          "siteName": "ROGGE BAY"
+        },
+        {
+          "town": "CAPE TOWN",
+          "suburb": "VICTORIA & ALFRED WATERFRONT",
+          "siteCode": "000006927",
+          "siteName": "WATERFRONT"
+        },
+        {
+          "town": "CAPE TOWN",
+          "suburb": "136 ADDERLEY STREET",
+          "siteCode": "000008497",
+          "siteName": "ADDERLEY STREET, CAPE TOWN"
+        },
+        {
+          "town": "CAPE TOWN",
+          "suburb": "WOODSTOCK",
+          "siteCode": "000008860",
+          "siteName": "WOODSTOCK"
+        },
+        {
+          "town": "CAPE TOWN",
+          "suburb": "CNR RIEBEECK & ADDERLEY STREET",
+          "siteCode": "000008449",
+          "siteName": "HEERENGRACHT, CAPE TOWN"
+        },
+        {
+          "town": "CAPE TOWN",
+          "suburb": "G/FLOOR 25 ST GEORGES MALL",
+          "siteCode": "000002523",
+          "siteName": "PRIV BNK PENINSULA"
+        },
+        {
+          "town": "CAPE TOWN",
+          "suburb": "AIRPORT SHOP 14",
+          "siteCode": "000008158",
+          "siteName": "CAPE TOWN INTERNATIONAL AIRPORT"
+        },
+        {
+          "town": "CARLETONVILLE",
+          "suburb": null,
+          "siteCode": "000008491",
+          "siteName": "CARLETONVILLE"
+        },
+        {
+          "town": "CARLETONVILLE",
+          "suburb": "STATION ROAD",
+          "siteCode": "000005949",
+          "siteName": "CARLETONVILLE MALL"
+        },
+        {
+          "town": "CARNARVON",
+          "suburb": null,
+          "siteCode": "000008702",
+          "siteName": "CARNARVON"
+        },
+        {
+          "town": "CAROLINA",
+          "suburb": null,
+          "siteCode": "000008544",
+          "siteName": "CAROLINA"
+        },
+        {
+          "town": "CENTURION",
+          "suburb": "1263 HEUWEL STREET",
+          "siteCode": "000002543",
+          "siteName": "PRIVATE BANK CENTURION"
+        },
+        {
+          "town": "CENTURION",
+          "suburb": "1263 HEUWEL STREET",
+          "siteCode": "000008106",
+          "siteName": "CENTURION"
+        },
+        {
+          "town": "CENTURION",
+          "suburb": "CNR LENCHEN & OLD JOHANNESBURG",
+          "siteCode": "000006128",
+          "siteName": "CENTURION LIFESTYLE CENTRE"
+        },
+        {
+          "town": "CENTURION",
+          "suburb": "LOWER LEVEL, HEUWEL STREET",
+          "siteCode": "000006885",
+          "siteName": "CENTURION MALL"
+        },
+        {
+          "town": "CENTURION",
+          "suburb": "C/O CANTONMENT & CRADOCK ROAD",
+          "siteCode": "000008521",
+          "siteName": "LYTTELTON"
+        },
+        {
+          "town": "CENTURY CITY",
+          "suburb": "CENTURY BOULEVARD",
+          "siteCode": "000004698",
+          "siteName": "CANAL WALK"
+        },
+        {
+          "town": "CENTURY CITY",
+          "suburb": "6 BRIDGE WAY",
+          "siteCode": "000002524",
+          "siteName": "P/B BRIDGEPARK EAST C/CITY"
+        },
+        {
+          "town": "CERES",
+          "suburb": null,
+          "siteCode": "000008496",
+          "siteName": "CERES"
+        },
+        {
+          "town": "CHATSWORTH",
+          "suburb": "CHATSWORTH CENTRE",
+          "siteCode": "000008186",
+          "siteName": "CHATSWORTH, DURBAN"
+        },
+        {
+          "town": "CHRISTIANA",
+          "suburb": null,
+          "siteCode": "000008642",
+          "siteName": "CHRISTIANA"
+        },
+        {
+          "town": "CITRUSDAL",
+          "suburb": null,
+          "siteCode": "000008703",
+          "siteName": "CITRUSDAL"
+        },
+        {
+          "town": "CLANWILLIAM",
+          "suburb": null,
+          "siteCode": "000004656",
+          "siteName": "CLANWILLIAM"
+        },
+        {
+          "town": "CLAREMONT",
+          "suburb": null,
+          "siteCode": "000008254",
+          "siteName": "CLAREMONT"
+        },
+        {
+          "town": "CLAREMONT",
+          "suburb": "MAIN ROAD",
+          "siteCode": "000006290",
+          "siteName": "MOWBRAY"
+        },
+        {
+          "town": "CLEARY PARK",
+          "suburb": "STANFORD ROAD",
+          "siteCode": "000006167",
+          "siteName": "CLEARY PARK"
+        },
+        {
+          "town": "COFIMVABA",
+          "suburb": null,
+          "siteCode": "000008350",
+          "siteName": "COFIMVABA"
+        },
+        {
+          "town": "COLESBERG",
+          "suburb": null,
+          "siteCode": "000008704",
+          "siteName": "COLESBERG"
+        },
+        {
+          "town": "CONSTANTIA",
+          "suburb": "SPAANSCHEMAT VILLAGE",
+          "siteCode": "000006269",
+          "siteName": "CONSTANTIA"
+        },
+        {
+          "town": "COSMO CITY",
+          "suburb": "C/O MALIBONGWE & DAWN ROAD",
+          "siteCode": "000004406",
+          "siteName": "COSMO MALL"
+        },
+        {
+          "town": "CRADOCK",
+          "suburb": null,
+          "siteCode": "000008616",
+          "siteName": "CRADOCK"
+        },
+        {
+          "town": "CRESTA",
+          "suburb": "CNR BEYERS NAUDE DRIVE",
+          "siteCode": "000008392",
+          "siteName": "CRESTA, RANDBURG"
+        },
+        {
+          "town": "DALPARK BRAKPAN",
+          "suburb": "CNR AIRPORT & HEIDELBERG ROAD",
+          "siteCode": "000003912",
+          "siteName": "CARNIVAL MALL"
+        },
+        {
+          "town": "DAN PIENAAR",
+          "suburb": "25 GRAAFF REINET STREET",
+          "siteCode": "000006338",
+          "siteName": "PRELLERPLEIN"
+        },
+        {
+          "town": "DAVEYTON",
+          "suburb": "CNR TURNTUN AND EISSELEN STR",
+          "siteCode": "000006575",
+          "siteName": "DAVEYTON"
+        },
+        {
+          "town": "DE AAR",
+          "suburb": null,
+          "siteCode": "000008646",
+          "siteName": "DE AAR"
+        },
+        {
+          "town": "DE DOORNS",
+          "suburb": null,
+          "siteCode": "000008705",
+          "siteName": "DE DOORNS"
+        },
+        {
+          "town": "DELAREYVILLE",
+          "suburb": null,
+          "siteCode": "000008545",
+          "siteName": "DELAREYVILLE"
+        },
+        {
+          "town": "DELMAS",
+          "suburb": null,
+          "siteCode": "000008546",
+          "siteName": "DELMAS"
+        },
+        {
+          "town": "DENDRON",
+          "suburb": "135 REPUBLIC ROAD",
+          "siteCode": "000006616",
+          "siteName": "DENDRON"
+        },
+        {
+          "town": "DESPATCH",
+          "suburb": null,
+          "siteCode": "000008760",
+          "siteName": "DESPATCH"
+        },
+        {
+          "town": "DEWETSDORP",
+          "suburb": null,
+          "siteCode": "000008647",
+          "siteName": "DEWETSDORP"
+        },
+        {
+          "town": "DIEPSLOOT WEST",
+          "suburb": null,
+          "siteCode": "000006617",
+          "siteName": "DIEPSLOOT"
+        },
+        {
+          "town": "DOBSONVILLE",
+          "suburb": "ROODEPOORT ROAD",
+          "siteCode": "000008291",
+          "siteName": "DOBSONVILLE"
+        },
+        {
+          "town": "DOUGLAS",
+          "suburb": "CNR ARNOT & LOCH ROPER STREET",
+          "siteCode": "000008794",
+          "siteName": "DOUGLAS"
+        },
+        {
+          "town": "DUNDEE",
+          "suburb": null,
+          "siteCode": "000008547",
+          "siteName": "DUNDEE"
+        },
+        {
+          "town": "DUNSWART",
+          "suburb": "54 ATLAS ROAD",
+          "siteCode": "000008791",
+          "siteName": "DUNSWART"
+        },
+        {
+          "town": "DURBAN",
+          "suburb": "DURBAN NORTH",
+          "siteCode": "000008097",
+          "siteName": "DURBAN NORTH"
+        },
+        {
+          "town": "DURBAN",
+          "suburb": "78 FIELD STREET",
+          "siteCode": "000004798",
+          "siteName": "FIELD STREET"
+        },
+        {
+          "town": "DURBAN",
+          "suburb": "GLENWOOD",
+          "siteCode": "000008887",
+          "siteName": "DAVENPORT"
+        },
+        {
+          "town": "DURBAN",
+          "suburb": "LA LUCIA",
+          "siteCode": "000008253",
+          "siteName": "LA LUCIA"
+        },
+        {
+          "town": "DURBAN",
+          "suburb": "169 WOOD ROAD,MONTCLAIR",
+          "siteCode": "000006242",
+          "siteName": "MONTCLAIR"
+        },
+        {
+          "town": "DURBAN",
+          "suburb": "163 LILIAN NGOYI ROAD",
+          "siteCode": "000006229",
+          "siteName": "WINDERMERE"
+        },
+        {
+          "town": "DURBAN",
+          "suburb": "OVERPORT CITY, BEREA",
+          "siteCode": "000006227",
+          "siteName": "OVERPORT CITY"
+        },
+        {
+          "town": "DURBAN",
+          "suburb": null,
+          "siteCode": "000008856",
+          "siteName": "KINGSMEAD, DURBAN"
+        },
+        {
+          "town": "DURBAN",
+          "suburb": "37 VICTORIA STREET",
+          "siteCode": "000008177",
+          "siteName": "ALBERT STREET, DURBAN"
+        },
+        {
+          "town": "DURBAN",
+          "suburb": "437 SMITH STREET",
+          "siteCode": "000008407",
+          "siteName": "437 SMITH STREET"
+        },
+        {
+          "town": "DURBAN",
+          "suburb": null,
+          "siteCode": "000008016",
+          "siteName": "DURBAN CITY"
+        },
+        {
+          "town": "DURBAN",
+          "suburb": "GLENWOOD",
+          "siteCode": "000008949",
+          "siteName": "STUDENT BUREAU - DURBAN"
+        },
+        {
+          "town": "DURBANVILLE",
+          "suburb": "CNR OXFORD & WELLINGTON STREET",
+          "siteCode": "000008602",
+          "siteName": "DURBANVILLE"
+        },
+        {
+          "town": "EAST LONDON",
+          "suburb": "VINCENT",
+          "siteCode": "000008878",
+          "siteName": "FRERE SQUARE, EAST LONDON"
+        },
+        {
+          "town": "EAST LONDON",
+          "suburb": "VINCENT PARK CENTRE",
+          "siteCode": "000002518",
+          "siteName": "PBD EAST LONDON"
+        },
+        {
+          "town": "EAST LONDON",
+          "suburb": "VINCENT",
+          "siteCode": "000006088",
+          "siteName": "VINCENT PARK"
+        },
+        {
+          "town": "EAST LONDON",
+          "suburb": null,
+          "siteCode": "000008017",
+          "siteName": "EAST LONDON"
+        },
+        {
+          "town": "EAST LYNNE",
+          "suburb": "62 BAVIAANSPOORT ROAD",
+          "siteCode": "000008604",
+          "siteName": "DERDEPOORT, PRETORIA"
+        },
+        {
+          "town": "EDEN GLEN",
+          "suburb": "HARRIS STREET",
+          "siteCode": "000008113",
+          "siteName": "EDEN GLEN"
+        },
+        {
+          "town": "EDENVALE",
+          "suburb": "VAN RIEBEECK AVENUE",
+          "siteCode": "000006200",
+          "siteName": "GREENSTONE MALL"
+        },
+        {
+          "town": "EDENVALE",
+          "suburb": "LOWER GROUND VAN RIEBEECK AVE",
+          "siteCode": "000008056",
+          "siteName": "EDENVALE"
+        },
+        {
+          "town": "EERSTE RIVER",
+          "suburb": "PLEIN STREET",
+          "siteCode": "000006598",
+          "siteName": "EERSTE RIVER"
+        },
+        {
+          "town": "ELUKWATINI",
+          "suburb": "MAIN ROAD",
+          "siteCode": "000000837",
+          "siteName": "ELUKWATINI"
+        },
+        {
+          "town": "EMALAHLENI",
+          "suburb": null,
+          "siteCode": "000008597",
+          "siteName": "MANDELA DRIVE"
+        },
+        {
+          "town": "EMALAHLENI",
+          "suburb": "CNR OR TAMBO & MANDELA STREETS",
+          "siteCode": "000008432",
+          "siteName": "EMALAHLENI"
+        },
+        {
+          "town": "EMALAHLENI",
+          "suburb": "CNR OR TAMBO & N MANDELA STR",
+          "siteCode": "000002520",
+          "siteName": "PRIVATE BANK EMALAHLENI"
+        },
+        {
+          "town": "EMPANGENI",
+          "suburb": null,
+          "siteCode": "000008649",
+          "siteName": "EMPANGENI"
+        },
+        {
+          "town": "EMPANGENI",
+          "suburb": null,
+          "siteCode": "000006588",
+          "siteName": "15 MAXWELL STREET, EMPANGENI"
+        },
+        {
+          "town": "EMPANGENI",
+          "suburb": null,
+          "siteCode": "000007171",
+          "siteName": "UNIVERSITY OF ZULULAND"
+        },
+        {
+          "town": "EPPING",
+          "suburb": "VIKING BUSINESS PARK",
+          "siteCode": "000008940",
+          "siteName": "EPPING"
+        },
+        {
+          "town": "EQUESTRIA",
+          "suburb": "C/O S VERMOOTEN & LYNNWOOD RD",
+          "siteCode": "000006960",
+          "siteName": "THE GROVE"
+        },
+        {
+          "town": "ERASMUSKLOOF, EXT 4",
+          "suburb": "CNR DELMAS & NOSSOB STREET",
+          "siteCode": "000006468",
+          "siteName": "KRYGKOR"
+        },
+        {
+          "town": "ERMELO",
+          "suburb": null,
+          "siteCode": "000008067",
+          "siteName": "ERMELO"
+        },
+        {
+          "town": "ERVEN R883 EXT 11 MENLYN PTA",
+          "suburb": "CNR DALLAS & ARAMIST AVENUE",
+          "siteCode": "000008877",
+          "siteName": "MENLYN MAINE"
+        },
+        {
+          "town": "ESHOWE",
+          "suburb": "27 OSBORNE ROAD",
+          "siteCode": "000006589",
+          "siteName": "ESHOWE"
+        },
+        {
+          "town": "ESIKHAWINI TOWNSHIP",
+          "suburb": "SHOPPING CENTRE",
+          "siteCode": "000008008",
+          "siteName": "ESIKHAWINI"
+        },
+        {
+          "town": "ESTCOURT",
+          "suburb": null,
+          "siteCode": "000008648",
+          "siteName": "ESTCOURT"
+        },
+        {
+          "town": "ESTER PARK EXT 9",
+          "suburb": "C/O C R SWART & KELVIN ROAD",
+          "siteCode": "000006064",
+          "siteName": "FESTIVAL MALL"
+        },
+        {
+          "town": "EVANDER",
+          "suburb": "MCGILL DRIVE",
+          "siteCode": "000008853",
+          "siteName": "EVANDER"
+        },
+        {
+          "town": "EVATON",
+          "suburb": "CNR GOLDEN HIGHWAY&EASTON ROAD",
+          "siteCode": "000006126",
+          "siteName": "EVATON PLAZA"
+        },
+        {
+          "town": "FAERIE GLEN",
+          "suburb": "ATTERBURY & SELIKAATS CAUSEWAY",
+          "siteCode": "000006537",
+          "siteName": "FAERIE GLEN"
+        },
+        {
+          "town": "FAIRVIEW, PORT ELIZABETH",
+          "suburb": "C/O W MOFFETT & OVERBAAKENS RD",
+          "siteCode": "000002519",
+          "siteName": "PRIVATE BANK - PORT ELIZABETH"
+        },
+        {
+          "town": "FICKSBURG",
+          "suburb": null,
+          "siteCode": "000008650",
+          "siteName": "FICKSBURG"
+        },
+        {
+          "town": "FISH HOEK",
+          "suburb": "MAIN ROAD",
+          "siteCode": "000008900",
+          "siteName": "FISH HOEK"
+        },
+        {
+          "town": "FLORIDA",
+          "suburb": null,
+          "siteCode": "000008091",
+          "siteName": "FLORIDA"
+        },
+        {
+          "town": "FLORIDA",
+          "suburb": "ONTDEKKERS ROAD",
+          "siteCode": "000006572",
+          "siteName": "FLORA CENTRE"
+        },
+        {
+          "town": "FOCHVILLE",
+          "suburb": null,
+          "siteCode": "000008622",
+          "siteName": "FOCHVILLE"
+        },
+        {
+          "town": "FORDSBURG",
+          "suburb": null,
+          "siteCode": "000008474",
+          "siteName": "FORDSBURG"
+        },
+        {
+          "town": "FORT BEAUFORT",
+          "suburb": "GROVE PLAZA",
+          "siteCode": "000008108",
+          "siteName": "FORT BEAUFORT"
+        },
+        {
+          "town": "FRANKFORT",
+          "suburb": null,
+          "siteCode": "000008651",
+          "siteName": "FRANKFORT"
+        },
+        {
+          "town": "FRANSCHHOEK",
+          "suburb": null,
+          "siteCode": "000008769",
+          "siteName": "FRANSCHHOEK"
+        },
+        {
+          "town": "FRASERBURG",
+          "suburb": null,
+          "siteCode": "000008747",
+          "siteName": "FRASERBURG"
+        },
+        {
+          "town": "GA-RANKUWA",
+          "suburb": "MOLEFE MAKINTA HIGHWAY",
+          "siteCode": "000001607",
+          "siteName": "GA-RANKUWA"
+        },
+        {
+          "town": "GANSBAAI",
+          "suburb": null,
+          "siteCode": "000006597",
+          "siteName": "GANSBAAI"
+        },
+        {
+          "town": "GARDENS",
+          "suburb": "MILL STREET",
+          "siteCode": "000006928",
+          "siteName": "GARDENS CAPE TOWN"
+        },
+        {
+          "town": "GEORGE",
+          "suburb": "KNYSNA ROAD",
+          "siteCode": "000006035",
+          "siteName": "GARDEN ROUTE MALL"
+        },
+        {
+          "town": "GEORGE",
+          "suburb": "106 YORK STREET",
+          "siteCode": "000002514",
+          "siteName": "PRIVATE BANK - GEORGE"
+        },
+        {
+          "town": "GEORGE",
+          "suburb": null,
+          "siteCode": "000008038",
+          "siteName": "GEORGE"
+        },
+        {
+          "town": "GERMISTON",
+          "suburb": "141 VICTORIA STREET",
+          "siteCode": "000008486",
+          "siteName": "GOLDEN WALK"
+        },
+        {
+          "town": "GERMISTON",
+          "suburb": null,
+          "siteCode": "000008042",
+          "siteName": "GERMISTON"
+        },
+        {
+          "town": "GIYANI",
+          "suburb": "80 MALAMULELE ROAD",
+          "siteCode": "000006565",
+          "siteName": "GIYANI"
+        },
+        {
+          "town": "GONUBIE",
+          "suburb": "35 MAIN ROAD",
+          "siteCode": "000006164",
+          "siteName": "GONUBIE"
+        },
+        {
+          "town": "GOODWOOD",
+          "suburb": "LOUWTJIE ROTHMAN STREET",
+          "siteCode": "000008285",
+          "siteName": "N1 CITY, GOODWOOD"
+        },
+        {
+          "town": "GOODWOOD",
+          "suburb": "VOORTREKKER ROAD",
+          "siteCode": "000008405",
+          "siteName": "GOODWOOD"
+        },
+        {
+          "town": "GRAAFF REINET",
+          "suburb": null,
+          "siteCode": "000008644",
+          "siteName": "GRAAFF REINET"
+        },
+        {
+          "town": "GRABOUW",
+          "suburb": "43 MAIN ROAD",
+          "siteCode": "000004699",
+          "siteName": "GRABOUW RURAL"
+        },
+        {
+          "town": "GRAHAMSTOWN",
+          "suburb": null,
+          "siteCode": "000008273",
+          "siteName": "GRAHAMSTOWN"
+        },
+        {
+          "town": "GREENACRES",
+          "suburb": "RING ROAD",
+          "siteCode": "000008992",
+          "siteName": "GREENACRES"
+        },
+        {
+          "town": "GREENFIELDS",
+          "suburb": "CNR CLOVER & SETTLERS ROAD",
+          "siteCode": "000006154",
+          "siteName": "GREENFIELDS"
+        },
+        {
+          "town": "GREYTOWN",
+          "suburb": null,
+          "siteCode": "000008652",
+          "siteName": "GREYTOWN"
+        },
+        {
+          "town": "GROBLERSDAL",
+          "suburb": "CNR MARK & NORTH AVENUE",
+          "siteCode": "000008551",
+          "siteName": "GROBLERSDAL"
+        },
+        {
+          "town": "GUGULETHU",
+          "suburb": "CORNER NY1 & NY3",
+          "siteCode": "000006941",
+          "siteName": "GUGULETHU"
+        },
+        {
+          "town": "HAMMANSKRAAL",
+          "suburb": "C/O JUBILEE & HARRY GWALA ROAD",
+          "siteCode": "000006552",
+          "siteName": "JUBILEE MALL"
+        },
+        {
+          "town": "HARRISMITH",
+          "suburb": null,
+          "siteCode": "000008552",
+          "siteName": "HARRISMITH"
+        },
+        {
+          "town": "HARTBEESFONTEIN",
+          "suburb": null,
+          "siteCode": "000006252",
+          "siteName": "HARTBEESFONTEIN"
+        },
+        {
+          "town": "HARTBEESPOORT",
+          "suburb": "1029 MAGALIES BOULERVARD",
+          "siteCode": "000008913",
+          "siteName": "HARTBEESPOORT"
+        },
+        {
+          "town": "HARTENBOS",
+          "suburb": "ERF R14",
+          "siteCode": "000006074",
+          "siteName": "LANGEBERG MALL"
+        },
+        {
+          "town": "HARTENBOS MOSSEL BAY",
+          "suburb": "KAAP DE GOEDE HOOP AVENUE",
+          "siteCode": "000006973",
+          "siteName": "HARTENBOS"
+        },
+        {
+          "town": "HARTSWATER",
+          "suburb": null,
+          "siteCode": "000008654",
+          "siteName": "HARTSWATER"
+        },
+        {
+          "town": "HATFIELD",
+          "suburb": "1102 BURNETT STREET",
+          "siteCode": "000008971",
+          "siteName": "STUDENT BUREAU PRETORIA"
+        },
+        {
+          "town": "HAZEL PARK GERMISTON",
+          "suburb": "CNR 6TH AVE & WEBBER STREET",
+          "siteCode": "000008398",
+          "siteName": "LAMBTON COURT"
+        },
+        {
+          "town": "HAZYVIEW",
+          "suburb": "MAIN ROAD WHITE RIVER",
+          "siteCode": "000008362",
+          "siteName": "HAZYVIEW"
+        },
+        {
+          "town": "HEIDELBERG",
+          "suburb": "JACOB STREET",
+          "siteCode": "000006822",
+          "siteName": "NBS EXTERNAL SALES BALFOUR"
+        },
+        {
+          "town": "HEIDELBERG",
+          "suburb": null,
+          "siteCode": "000008710",
+          "siteName": "HEIDELBERG, WESTERN CAPE"
+        },
+        {
+          "town": "HEIDELBERG",
+          "suburb": "CNR N3 & R42",
+          "siteCode": "000008511",
+          "siteName": "HEIDELBERG"
+        },
+        {
+          "town": "HEILBRON",
+          "suburb": null,
+          "siteCode": "000008553",
+          "siteName": "HEILBRON"
+        },
+        {
+          "town": "HENDRINA",
+          "suburb": null,
+          "siteCode": "000008653",
+          "siteName": "HENDRINA"
+        },
+        {
+          "town": "HENNENMAN",
+          "suburb": null,
+          "siteCode": "000008554",
+          "siteName": "HENNENMAN"
+        },
+        {
+          "town": "HERMANUS",
+          "suburb": null,
+          "siteCode": "000008755",
+          "siteName": "HERMANUS"
+        },
+        {
+          "town": "HIGHLANDS NORTH EXT",
+          "suburb": "2 BALFOUR CLOSE",
+          "siteCode": "000008201",
+          "siteName": "BALFOUR PARK, HIGHLANDS NORTH, JHB"
+        },
+        {
+          "town": "HILLCREST",
+          "suburb": "CNR OLD MAIN AND INANDA ROAD",
+          "siteCode": "000008197",
+          "siteName": "HILLCREST"
+        },
+        {
+          "town": "HILLCREST, PRETORIA",
+          "suburb": "LOURIE PLACE, 177 DYER ROAD",
+          "siteCode": "000002544",
+          "siteName": "PRIVATE BANK HILLCREST PRETORIA"
+        },
+        {
+          "town": "HOEDSPRUIT",
+          "suburb": null,
+          "siteCode": "000006354",
+          "siteName": "HOEDSPRUIT"
+        },
+        {
+          "town": "HOOPSTAD",
+          "suburb": null,
+          "siteCode": "000008656",
+          "siteName": "HOOPSTAD"
+        },
+        {
+          "town": "HOPETOWN",
+          "suburb": null,
+          "siteCode": "000006057",
+          "siteName": "HOPETOWN"
+        },
+        {
+          "town": "HOUTBAY",
+          "suburb": "PRINCESS STREET",
+          "siteCode": "000006271",
+          "siteName": "HOUT BAY"
+        },
+        {
+          "town": "HOWICK",
+          "suburb": null,
+          "siteCode": "000006097",
+          "siteName": "HOWICK"
+        },
+        {
+          "town": "HUMANSDORP",
+          "suburb": null,
+          "siteCode": "000008655",
+          "siteName": "HUMANSDORP"
+        },
+        {
+          "town": "HYDE PARK",
+          "suburb": "CNR WILLIAM NICOL & JAN SMUTS",
+          "siteCode": "000008216",
+          "siteName": "HYDE PARK, JOHANNESBURG"
+        },
+        {
+          "town": "IDUTYWA",
+          "suburb": "RICHARDSON ROAD",
+          "siteCode": "000006955",
+          "siteName": "DUTYWA"
+        },
+        {
+          "town": "IRENE",
+          "suburb": "CNR JOHN VORSTER & KAREE STR",
+          "siteCode": "000006129",
+          "siteName": "SOUTHDOWNS"
+        },
+        {
+          "town": "IRENE",
+          "suburb": "CNR R21 H/WAY & NELLMAPIUS DR",
+          "siteCode": "000006984",
+          "siteName": "IRENE"
+        },
+        {
+          "town": "ISANDO",
+          "suburb": "36 ELECTRON AVENUE",
+          "siteCode": "000008915",
+          "siteName": "ISANDO"
+        },
+        {
+          "town": "ISIPINGO",
+          "suburb": null,
+          "siteCode": "000006283",
+          "siteName": "PROSPECTON"
+        },
+        {
+          "town": "IXOPO",
+          "suburb": "CNR MARGARET AND EAST STREET",
+          "siteCode": "000008912",
+          "siteName": "IXOPO"
+        },
+        {
+          "town": "JAN KEMPDORP",
+          "suburb": null,
+          "siteCode": "000008657",
+          "siteName": "JAN KEMPDORP"
+        },
+        {
+          "town": "JANE FURSE",
+          "suburb": "819 MAIN ROAD",
+          "siteCode": "000006158",
+          "siteName": "JANE FURSE"
+        },
+        {
+          "town": "JEFFREYS BAY",
+          "suburb": null,
+          "siteCode": "000008782",
+          "siteName": "JEFFREYS BAY"
+        },
+        {
+          "town": "JOHANNESBURG",
+          "suburb": "CNR CARR & MARIAM MAKEBA STR",
+          "siteCode": "000008094",
+          "siteName": "NEWTOWN JUNCTION"
+        },
+        {
+          "town": "JOHANNESBURG",
+          "suburb": null,
+          "siteCode": "000001201",
+          "siteName": "NON-RESIDENT HUB"
+        },
+        {
+          "town": "JOHANNESBURG",
+          "suburb": "CNR JEPPE AND VON WIELLIGH STR",
+          "siteCode": "000008377",
+          "siteName": "MLS CORPORATE"
+        },
+        {
+          "town": "JOHANNESBURG",
+          "suburb": "CNR JEPPE AND VON WIELLIGH STR",
+          "siteCode": "000008378",
+          "siteName": "MLS COLLECTIONS"
+        },
+        {
+          "town": "JOHANNESBURG",
+          "suburb": "CNR JEPPE AND VON WIELLIGHSTR",
+          "siteCode": "000008379",
+          "siteName": "MLS AVIATION"
+        },
+        {
+          "town": "JOHANNESBURG",
+          "suburb": null,
+          "siteCode": "000006573",
+          "siteName": "MAIN STREET"
+        },
+        {
+          "town": "JOHANNESBURG",
+          "suburb": null,
+          "siteCode": "000008035",
+          "siteName": "ABSA TOWERS NORTH"
+        },
+        {
+          "town": "JOHANNESBURG",
+          "suburb": null,
+          "siteCode": "000008425",
+          "siteName": "GANDHI SQUARE JOHANNESBURG"
+        },
+        {
+          "town": "JOHANNESBURG",
+          "suburb": "AUCKLAND PARK",
+          "siteCode": "000008743",
+          "siteName": "CAMPUS SQUARE"
+        },
+        {
+          "town": "JOUBERTINA",
+          "suburb": null,
+          "siteCode": "000008658",
+          "siteName": "JOUBERTINA"
+        },
+        {
+          "town": "JOUBERTON",
+          "suburb": null,
+          "siteCode": "000006648",
+          "siteName": "JOUBERTON"
+        },
+        {
+          "town": "JOZINI",
+          "suburb": "MAIN ROAD",
+          "siteCode": "000008383",
+          "siteName": "JOZINI"
+        },
+        {
+          "town": "JUKSKEI EXT 86",
+          "suburb": "ERF 3621 & 3622",
+          "siteCode": "000005990",
+          "siteName": "MALL OF AFRICA"
+        },
+        {
+          "town": "KABOKWENI",
+          "suburb": "CNR KABOKWENI & PLASTON ROAD",
+          "siteCode": "000006191",
+          "siteName": "KABOKWENI"
+        },
+        {
+          "town": "KAKAMAS",
+          "suburb": null,
+          "siteCode": "000008659",
+          "siteName": "KAKAMAS"
+        },
+        {
+          "town": "KAMAQHEKEZA",
+          "suburb": "KAMAQHEKEZA SHOPPING CENTRE",
+          "siteCode": "000000282",
+          "siteName": "KAMAQHEKEZA"
+        },
+        {
+          "town": "KANYAMAZANE",
+          "suburb": "KANYAMAZANE SHOPPING CENTRE",
+          "siteCode": "000006034",
+          "siteName": "KANYAMAZANE"
+        },
+        {
+          "town": "KAREEDOUW",
+          "suburb": null,
+          "siteCode": "000006168",
+          "siteName": "KAREEDOUW"
+        },
+        {
+          "town": "KATHU",
+          "suburb": null,
+          "siteCode": "000008660",
+          "siteName": "KATHU"
+        },
+        {
+          "town": "KATLEHONG",
+          "suburb": "CNR HOSPITAL & LETSOHO STREET",
+          "siteCode": "000006133",
+          "siteName": "KATLEHONG"
+        },
+        {
+          "town": "KEMPTON PARK",
+          "suburb": "KEMPTON PARK",
+          "siteCode": "000008046",
+          "siteName": "KEMPTON PARK"
+        },
+        {
+          "town": "KEMPTONPARK",
+          "suburb": "GLEN MARAIS,",
+          "siteCode": "000006582",
+          "siteName": "GLEN MARAIS"
+        },
+        {
+          "town": "KEMPTONPARK",
+          "suburb": "BERCHLEIGH NORTH,",
+          "siteCode": "000006581",
+          "siteName": "BIRCHLEIGH"
+        },
+        {
+          "town": "KENILWORTH",
+          "suburb": "DONCASTER ROAD",
+          "siteCode": "000008991",
+          "siteName": "KENILWORTH"
+        },
+        {
+          "town": "KHAYELITSHA STATION",
+          "suburb": "KHAYELITSHA SHOPPING CENTRE",
+          "siteCode": "000006055",
+          "siteName": "KHAYELITSHA MALL"
+        },
+        {
+          "town": "KILLARNEY",
+          "suburb": "CNR RIVIERA & RIVER STREET",
+          "siteCode": "000008975",
+          "siteName": "KILLARNEY MALL, KILLARNEY"
+        },
+        {
+          "town": "KIMBERLEY",
+          "suburb": "GALASHEWE",
+          "siteCode": "000008096",
+          "siteName": "GALESHEWE"
+        },
+        {
+          "town": "KIMBERLEY",
+          "suburb": "80 BULTFONTEIN ROAD",
+          "siteCode": "000002535",
+          "siteName": "PRIVATE BANK KIMBERLEY"
+        },
+        {
+          "town": "KIMBERLEY",
+          "suburb": null,
+          "siteCode": "000008904",
+          "siteName": "KIMBERLEY"
+        },
+        {
+          "town": "KIMBERLEY",
+          "suburb": null,
+          "siteCode": "000006221",
+          "siteName": "PHAKAMILE MABIJA STR KIMBERLEY"
+        },
+        {
+          "town": "KIMBERLEY",
+          "suburb": "CNR OLIVIER & MACDOUGALL STR",
+          "siteCode": "000006070",
+          "siteName": "DIAMOND PAVILLION"
+        },
+        {
+          "town": "KING WILLIAM'S TOWN",
+          "suburb": "CNR ALEXANDRA AND FLEET STREET",
+          "siteCode": "000006345",
+          "siteName": "STONE TOWERS KWT"
+        },
+        {
+          "town": "KING WILLIAMS TOWN",
+          "suburb": null,
+          "siteCode": "000008661",
+          "siteName": "KING WILLIAMS TOWN"
+        },
+        {
+          "town": "KIRKWOOD",
+          "suburb": null,
+          "siteCode": "000008713",
+          "siteName": "KIRKWOOD"
+        },
+        {
+          "town": "KLEINMOND",
+          "suburb": "MAIN ROAD",
+          "siteCode": "000006909",
+          "siteName": "KLEINMOND"
+        },
+        {
+          "town": "KLERKSDORP",
+          "suburb": "N12",
+          "siteCode": "000006612",
+          "siteName": "MATLOSANA MALL"
+        },
+        {
+          "town": "KLERKSDORP",
+          "suburb": "WILKOPPIES,",
+          "siteCode": "000002511",
+          "siteName": "PRIVATE BANK - KLERKSDORP"
+        },
+        {
+          "town": "KLERKSDORP",
+          "suburb": null,
+          "siteCode": "000008556",
+          "siteName": "KLERKSDORP"
+        },
+        {
+          "town": "KLIPTOWN EXT 5",
+          "suburb": "CHRIS HANI ROAD",
+          "siteCode": "000006615",
+          "siteName": "MAPONYA MALL"
+        },
+        {
+          "town": "KLOOF",
+          "suburb": "MALL 33 VILLAGE ROAD",
+          "siteCode": "000006608",
+          "siteName": "KLOOF"
+        },
+        {
+          "town": "KNYSNA",
+          "suburb": "CNR MAIN & GRAY STREETS",
+          "siteCode": "000008901",
+          "siteName": "KNYSNA"
+        },
+        {
+          "town": "KOKSTAD",
+          "suburb": "MAIN STREET",
+          "siteCode": "000008793",
+          "siteName": "KOKSTAD"
+        },
+        {
+          "town": "KOMATIPOORT",
+          "suburb": "RISSIK STREET",
+          "siteCode": "000008505",
+          "siteName": "KOMATIPOORT"
+        },
+        {
+          "town": "KOPPIES",
+          "suburb": "15 CHURCH STREET",
+          "siteCode": "000008662",
+          "siteName": "KOPPIES"
+        },
+        {
+          "town": "KOSTER",
+          "suburb": null,
+          "siteCode": "000008631",
+          "siteName": "KOSTER"
+        },
+        {
+          "town": "KRAAIFONTEIN",
+          "suburb": "VAN RIEBEECK STREET",
+          "siteCode": "000006925",
+          "siteName": "KRAAIFONTEIN"
+        },
+        {
+          "town": "KRIEL",
+          "suburb": "BRONWYN STREET",
+          "siteCode": "000008780",
+          "siteName": "KRIEL"
+        },
+        {
+          "town": "KROONSTAD",
+          "suburb": "CROSS STREET",
+          "siteCode": "000008558",
+          "siteName": "KROONSTAD"
+        },
+        {
+          "town": "KROONSTAD",
+          "suburb": null,
+          "siteCode": "000006592",
+          "siteName": "BRAND STREET, KROONSTAD"
+        },
+        {
+          "town": "KRUGERSDORP",
+          "suburb": "CNR PAARDEKRAAL & VILJOEN ST",
+          "siteCode": "000004832",
+          "siteName": "KEY WEST"
+        },
+        {
+          "town": "KRUGERSDORP",
+          "suburb": "1 BURGER STREET",
+          "siteCode": "000008026",
+          "siteName": "KRUGERSDORP"
+        },
+        {
+          "town": "KUILS RIVER",
+          "suburb": "82B VAN RIEBEECK ROAD",
+          "siteCode": "000008884",
+          "siteName": "KUILS RIVER"
+        },
+        {
+          "town": "KUILSRIVER",
+          "suburb": "POLKADRAAI ROAD,",
+          "siteCode": "000006883",
+          "siteName": "ZEVENWACHT"
+        },
+        {
+          "town": "KURUMAN",
+          "suburb": null,
+          "siteCode": "000008557",
+          "siteName": "KURUMAN"
+        },
+        {
+          "town": "KWAGGAFONTEIN",
+          "suburb": "MOKOBOLA MAIN ROAD",
+          "siteCode": "000006156",
+          "siteName": "KWAGGA PLAZA"
+        },
+        {
+          "town": "KWAMASHU DURBAN",
+          "suburb": "BRIDGE CITY MALL",
+          "siteCode": "000006980",
+          "siteName": "BRIDGE CITY"
+        },
+        {
+          "town": "LA LUCIA",
+          "suburb": "NOLLSWORTH CRESCENT",
+          "siteCode": "000002512",
+          "siteName": "P/BNK: KZN MIDLANDS"
+        },
+        {
+          "town": "LA LUCIA",
+          "suburb": "NOLLSWORTH PARK",
+          "siteCode": "000002509",
+          "siteName": "P/BNK: KZN NORTH"
+        },
+        {
+          "town": "LA LUCIA UMHLANGA",
+          "suburb": "NOLLWORTH CRESCENT",
+          "siteCode": "000001486",
+          "siteName": "P/BNK: KZN SOUTH"
+        },
+        {
+          "town": "LADYBRAND",
+          "suburb": null,
+          "siteCode": "000008663",
+          "siteName": "LADYBRAND"
+        },
+        {
+          "town": "LADYSMITH",
+          "suburb": null,
+          "siteCode": "000006027",
+          "siteName": "MINI BULK CENTRE LADYSMITH"
+        },
+        {
+          "town": "LADYSMITH",
+          "suburb": null,
+          "siteCode": "000008036",
+          "siteName": "150 MURCHISON STREET, LADYSMITH"
+        },
+        {
+          "town": "LAINGSBURG",
+          "suburb": null,
+          "siteCode": "000008714",
+          "siteName": "LAINGSBURG"
+        },
+        {
+          "town": "LANGEBAAN",
+          "suburb": "BREE STREET",
+          "siteCode": "000006930",
+          "siteName": "LANGEBAAN"
+        },
+        {
+          "town": "LANGENHOVENPARK",
+          "suburb": "JAN SPIES AVENUE",
+          "siteCode": "000002374",
+          "siteName": "LANGENHOVENPARK"
+        },
+        {
+          "town": "LANSDOWNE",
+          "suburb": "531 LANSDOWNE ROAD",
+          "siteCode": "000006051",
+          "siteName": "LANSDOWNE"
+        },
+        {
+          "town": "LAUDIUM",
+          "suburb": null,
+          "siteCode": "000006226",
+          "siteName": "LAUDIUM"
+        },
+        {
+          "town": "LEBOWAKGOMO",
+          "suburb": "MAIN ROAD",
+          "siteCode": "000006604",
+          "siteName": "LEBOWAKGOMO"
+        },
+        {
+          "town": "LEEUDORINGSTAD",
+          "suburb": null,
+          "siteCode": "000008664",
+          "siteName": "LEEUDORINGSTAD"
+        },
+        {
+          "town": "LENASIA",
+          "suburb": "AVENUE",
+          "siteCode": "000008144",
+          "siteName": "LENASIA"
+        },
+        {
+          "town": "LENASIA",
+          "suburb": "K53 NIRVANA ROAD",
+          "siteCode": "000006090",
+          "siteName": "TRADE ROUTE MALL LENASIA"
+        },
+        {
+          "town": "LEPHALALE",
+          "suburb": null,
+          "siteCode": "000008608",
+          "siteName": "LEPHALALE"
+        },
+        {
+          "town": "LETSITELE",
+          "suburb": "1ST AVENUE",
+          "siteCode": "000006437",
+          "siteName": "LETSITELE"
+        },
+        {
+          "town": "LIBODE",
+          "suburb": "MAIN ROAD",
+          "siteCode": "000006040",
+          "siteName": "LIBODE"
+        },
+        {
+          "town": "LICHTENBURG",
+          "suburb": null,
+          "siteCode": "000008645",
+          "siteName": "COLIGNY EXTENDED COUNTER"
+        },
+        {
+          "town": "LICHTENBURG",
+          "suburb": "64 DR NELSON MANDELA DRIVE",
+          "siteCode": "000008560",
+          "siteName": "LICHTENBURG"
+        },
+        {
+          "town": "LIMPOPO",
+          "suburb": "SIYABUSWA",
+          "siteCode": "000006644",
+          "siteName": "SIYABUSWA"
+        },
+        {
+          "town": "LIMPOPO",
+          "suburb": "APEL",
+          "siteCode": "000006147",
+          "siteName": "APEL"
+        },
+        {
+          "town": "LOUIS TRICHARDT",
+          "suburb": "AND C/O SHONGODZWI",
+          "siteCode": "000008561",
+          "siteName": "LOUIS TRICHARDT"
+        },
+        {
+          "town": "LUSIKISIKI",
+          "suburb": "MAIN STREET",
+          "siteCode": "000006343",
+          "siteName": "LUSIKISIKI"
+        },
+        {
+          "town": "LUTZVILLE",
+          "suburb": null,
+          "siteCode": "000008632",
+          "siteName": "LUTZVILLE"
+        },
+        {
+          "town": "LYDENBURG",
+          "suburb": null,
+          "siteCode": "000008562",
+          "siteName": "LYDENBURG"
+        },
+        {
+          "town": "LYNNWOOD MANOR",
+          "suburb": "CNR DAVENTRY & LYNNWOOD ROAD",
+          "siteCode": "000008624",
+          "siteName": "GLENFAIR"
+        },
+        {
+          "town": "MABOPANE",
+          "suburb": "CENTRAL ROAD",
+          "siteCode": "000004916",
+          "siteName": "MABOPANE"
+        },
+        {
+          "town": "MADADENI",
+          "suburb": "4737 MADADENI STREET",
+          "siteCode": "000006649",
+          "siteName": "MADADENI"
+        },
+        {
+          "town": "MAFIKENG",
+          "suburb": null,
+          "siteCode": "000008563",
+          "siteName": "MAHIKENG"
+        },
+        {
+          "town": "MALAMULELE",
+          "suburb": "MAIN STREET",
+          "siteCode": "000000870",
+          "siteName": "MALAMULELE"
+        },
+        {
+          "town": "MALELANE",
+          "suburb": null,
+          "siteCode": "000008626",
+          "siteName": "MALELANE"
+        },
+        {
+          "town": "MALMESBURY",
+          "suburb": "50 VOORTREKKER ROAD",
+          "siteCode": "000008499",
+          "siteName": "MALMESBURY"
+        },
+        {
+          "town": "MALVERN",
+          "suburb": "OLD MAIN ROAD",
+          "siteCode": "000008896",
+          "siteName": "QUEENSBURGH"
+        },
+        {
+          "town": "MALVERN",
+          "suburb": null,
+          "siteCode": "000006289",
+          "siteName": "MALVERN"
+        },
+        {
+          "town": "MAMELODI",
+          "suburb": "CNR TSAMAY & J MALUKEKE ROAD",
+          "siteCode": "000006181",
+          "siteName": "MAMELODI EAST"
+        },
+        {
+          "town": "MAMELODI CROSSING",
+          "suburb": "MAMELODI WEST",
+          "siteCode": "000008075",
+          "siteName": "MAMELODI"
+        },
+        {
+          "town": "MANDENI",
+          "suburb": "MANDENI PLAZA SHOPPING CENTRE",
+          "siteCode": "000000883",
+          "siteName": "MANDENI"
+        },
+        {
+          "town": "MANGUZI",
+          "suburb": "MAIN ROAD",
+          "siteCode": "000001603",
+          "siteName": "MANGUZI"
+        },
+        {
+          "town": "MANKWENG",
+          "suburb": "UNIVERSITY ROAD",
+          "siteCode": "000006605",
+          "siteName": "MANKWENG"
+        },
+        {
+          "town": "MARBLE HALL",
+          "suburb": "148 RAILWAY ROAD",
+          "siteCode": "000008564",
+          "siteName": "MARBLE HALL"
+        },
+        {
+          "town": "MARGATE",
+          "suburb": "MARINE DRIVE",
+          "siteCode": "000008886",
+          "siteName": "MARGATE"
+        },
+        {
+          "town": "MARIKANA",
+          "suburb": "MAIN ROAD",
+          "siteCode": "000008996",
+          "siteName": "MARIKANA"
+        },
+        {
+          "town": "MARQUARD",
+          "suburb": null,
+          "siteCode": "000008125",
+          "siteName": "MARQUARD"
+        },
+        {
+          "town": "MATATIELE",
+          "suburb": null,
+          "siteCode": "000000756",
+          "siteName": "MATATIELE"
+        },
+        {
+          "town": "MAYVILLE",
+          "suburb": "MORTIMER AND VAN RENSBURG STR",
+          "siteCode": "000006568",
+          "siteName": "MAYVILLE"
+        },
+        {
+          "town": "MDANTSANE",
+          "suburb": "SANDILE ROAD",
+          "siteCode": "000000876",
+          "siteName": "MDANTSANE"
+        },
+        {
+          "town": "MEADOWRIDGE",
+          "suburb": "FIRGROVE AVENUE",
+          "siteCode": "000006272",
+          "siteName": "MEADOWRIDGE"
+        },
+        {
+          "town": "MELKBOSSTRAND",
+          "suburb": null,
+          "siteCode": "000006931",
+          "siteName": "MELKBOSSTRAND"
+        },
+        {
+          "town": "MENLOPARK",
+          "suburb": "CNR ATTERBURY & LOIS AVENUE",
+          "siteCode": "000008692",
+          "siteName": "MENLYN PARK, MENLYN, PRETORIA"
+        },
+        {
+          "town": "MENLYN",
+          "suburb": "134 ARAMIST AVENUE",
+          "siteCode": "000008372",
+          "siteName": "MENLYN SQUARE SUITE"
+        },
+        {
+          "town": "MEYERTON",
+          "suburb": null,
+          "siteCode": "000008512",
+          "siteName": "MEYERTON"
+        },
+        {
+          "town": "MIDDELBURG",
+          "suburb": null,
+          "siteCode": "000006105",
+          "siteName": "MIDCENTRAL"
+        },
+        {
+          "town": "MIDDELBURG",
+          "suburb": "CNR MANDELA & SAMORA MACHEL ST",
+          "siteCode": "000008565",
+          "siteName": "MIDDELBURG MALL"
+        },
+        {
+          "town": "MIDDELBURG",
+          "suburb": null,
+          "siteCode": "000008667",
+          "siteName": "MIDDELBURG, EASTERN CAPE"
+        },
+        {
+          "town": "MIDRAND",
+          "suburb": "CNR NEW & LEVER ROADS",
+          "siteCode": "000003956",
+          "siteName": "SAN RIDGE SQUARE"
+        },
+        {
+          "town": "MIDRAND",
+          "suburb": "CO PRETORIA RD & ALEXANDRA STR",
+          "siteCode": "000008920",
+          "siteName": "MIDRAND"
+        },
+        {
+          "town": "MILNERTON",
+          "suburb": "BLOUBERG",
+          "siteCode": "000006151",
+          "siteName": "TABLE BAY MALL"
+        },
+        {
+          "town": "MITCHELLS PLAIN",
+          "suburb": "CNR MORGENSTER & AZ BERMAN RD",
+          "siteCode": "000001191",
+          "siteName": "PROMENADE"
+        },
+        {
+          "town": "MITCHELLS PLAIN",
+          "suburb": "CNR MORGENSTER & VANGUARD DR",
+          "siteCode": "000006263",
+          "siteName": "WESTGATE MALL"
+        },
+        {
+          "town": "MITCHELLS PLAIN",
+          "suburb": "SYMPHONY WALK",
+          "siteCode": "000008203",
+          "siteName": "MITCHELLS PLAIN"
+        },
+        {
+          "town": "MKHUHLU",
+          "suburb": "KRUGER PARK ROAD R536",
+          "siteCode": "000000991",
+          "siteName": "MKHUHLU"
+        },
+        {
+          "town": "MKUZE",
+          "suburb": "CNR FALCON & EAGLE STREET",
+          "siteCode": "000000587",
+          "siteName": "MKUZI"
+        },
+        {
+          "town": "MMABATHO",
+          "suburb": "SEKAME ROAD",
+          "siteCode": "000006445",
+          "siteName": "MEGA CITY MAFIKENG"
+        },
+        {
+          "town": "MMABATHO",
+          "suburb": "NELSON MANDELA DRIVE",
+          "siteCode": "000006208",
+          "siteName": "MMABATHO CROSSING MAHIKENG"
+        },
+        {
+          "town": "MODIMOLLE",
+          "suburb": null,
+          "siteCode": "000008571",
+          "siteName": "MODIMOLLE"
+        },
+        {
+          "town": "MOGWASE",
+          "suburb": "22 RAILWAY ROAD",
+          "siteCode": "000000407",
+          "siteName": "MOGWASE"
+        },
+        {
+          "town": "MOKOPANE",
+          "suburb": "MOKOPANE MALL",
+          "siteCode": "000006362",
+          "siteName": "MOKOPANE MALL"
+        },
+        {
+          "town": "MOKOPANE",
+          "suburb": null,
+          "siteCode": "000008582",
+          "siteName": "MOKOPANE"
+        },
+        {
+          "town": "MONAVONI, PRETORIA",
+          "suburb": "OLIEVENHOUTBOSCH",
+          "siteCode": "000006019",
+          "siteName": "FOREST HILL"
+        },
+        {
+          "town": "MONDEOR",
+          "suburb": "C/O COLUMBINE & RIFLE RANGE RD",
+          "siteCode": "000008210",
+          "siteName": "SOUTHGATE MALL"
+        },
+        {
+          "town": "MONTAGU",
+          "suburb": null,
+          "siteCode": "000008566",
+          "siteName": "MONTAGU"
+        },
+        {
+          "town": "MONTAGUE GARDENS",
+          "suburb": "MONTAGUE DRIVE",
+          "siteCode": "000008938",
+          "siteName": "MONTAGUE GARDENS, WESTERN CAPE"
+        },
+        {
+          "town": "MONTANA",
+          "suburb": "ZAMBEZI ROAD",
+          "siteCode": "000008799",
+          "siteName": "KOLONNADE, PRETORIA"
+        },
+        {
+          "town": "MONTANA",
+          "suburb": "CNR ZAMBEZI & DR VAN DER MERWE",
+          "siteCode": "000006180",
+          "siteName": "MONTANA"
+        },
+        {
+          "town": "MONTANA",
+          "suburb": "CNR ZAMBESI & DR VD MERWE ST",
+          "siteCode": "000002510",
+          "siteName": "PRIVATE BANK MONTANA"
+        },
+        {
+          "town": "MONUMENT PARK",
+          "suburb": "SKILPAD AVENUE",
+          "siteCode": "000008995",
+          "siteName": "MONUMENT PARK"
+        },
+        {
+          "town": "MOORREESBURG",
+          "suburb": null,
+          "siteCode": "000008567",
+          "siteName": "MOORREESBURG"
+        },
+        {
+          "town": "MOSSEL BAY",
+          "suburb": null,
+          "siteCode": "000008668",
+          "siteName": "MOSSEL BAY"
+        },
+        {
+          "town": "MOUNT EDGCOMBE DURBAN",
+          "suburb": "FLANDERS ROAD",
+          "siteCode": "000004365",
+          "siteName": "CORNUBIA MALL"
+        },
+        {
+          "town": "MOUNT FRERE",
+          "suburb": "MAIN STREET",
+          "siteCode": "000006076",
+          "siteName": "MOUNT FRERE"
+        },
+        {
+          "town": "MQANDULI",
+          "suburb": "MAIN STREET",
+          "siteCode": "000006641",
+          "siteName": "MQANDULI"
+        },
+        {
+          "town": "MTHATHA",
+          "suburb": "876 ERROL SPRING AVENUE",
+          "siteCode": "000006952",
+          "siteName": "MTHATHA MALL"
+        },
+        {
+          "town": "MTHATHA",
+          "suburb": null,
+          "siteCode": "000006949",
+          "siteName": "SUTHERLAND STREET MTHATHA"
+        },
+        {
+          "town": "MTHATHA",
+          "suburb": "CNR YORK AND VICTORIA STREET",
+          "siteCode": "000006340",
+          "siteName": "MTHATHA"
+        },
+        {
+          "town": "MTUBATUBA",
+          "suburb": null,
+          "siteCode": "000006584",
+          "siteName": "MTUBATUBA"
+        },
+        {
+          "town": "MULDERSDRIFT",
+          "suburb": "CNR N14 & HENDRIK POTGIETER DR",
+          "siteCode": "000000389",
+          "siteName": "CRADLESTONE MALL"
+        },
+        {
+          "town": "MURRAYSBURG",
+          "suburb": null,
+          "siteCode": "000006975",
+          "siteName": "MURRAYSBURG"
+        },
+        {
+          "town": "MUSINA",
+          "suburb": "6 NATIONAL ROAD",
+          "siteCode": "000008666",
+          "siteName": "MUSINA"
+        },
+        {
+          "town": "NABOOMSPRUIT",
+          "suburb": null,
+          "siteCode": "000008569",
+          "siteName": "NABOOMSPRUIT"
+        },
+        {
+          "town": "NELSON MANDELA DRIVE VAALWATER",
+          "suburb": "VAALWATER OASIS SHOPPING CNTR",
+          "siteCode": "000006439",
+          "siteName": "VAALWATER"
+        },
+        {
+          "town": "NELSPRUIT",
+          "suburb": "CNR MADIBA & S MACHEL DRIV",
+          "siteCode": "000003129",
+          "siteName": "NELSPRUIT CROSSINGS"
+        },
+        {
+          "town": "NELSPRUIT",
+          "suburb": "20 PAUL KRUGER STREET",
+          "siteCode": "000002545",
+          "siteName": "PRIVATE BANK NELSPRUIT"
+        },
+        {
+          "town": "NELSPRUIT",
+          "suburb": null,
+          "siteCode": "000006107",
+          "siteName": "BROWN STREET"
+        },
+        {
+          "town": "NELSPRUIT",
+          "suburb": "N4 ROAD",
+          "siteCode": "000006100",
+          "siteName": "ILANGA MALL"
+        },
+        {
+          "town": "NELSPRUIT",
+          "suburb": null,
+          "siteCode": "000008568",
+          "siteName": "NELSPRUIT"
+        },
+        {
+          "town": "NELSPRUIT",
+          "suburb": "WHITE RIVER ROAD",
+          "siteCode": "000006492",
+          "siteName": "RIVERSIDE MALL"
+        },
+        {
+          "town": "NELSPRUIT PLAZA NELSPRUIT",
+          "suburb": "CORNER BESTER AND HENSHALL STR",
+          "siteCode": "000003664",
+          "siteName": "NELSPRUIT PLAZA"
+        },
+        {
+          "town": "NEW BRIGHTON, PORT ELIZABETH",
+          "suburb": "C/O UITENHAGE & SPONDO STREET",
+          "siteCode": "000008766",
+          "siteName": "KENAKO MALL"
+        },
+        {
+          "town": "NEW MUCKLENEUK",
+          "suburb": "417 VEAL STREET",
+          "siteCode": "000008611",
+          "siteName": "BROOKLYN, PRETORIA"
+        },
+        {
+          "town": "NEWCASTLE",
+          "suburb": "C/O OAK AVENUE & LADYSMITH RD",
+          "siteCode": "000006238",
+          "siteName": "NEWCASTLE MALL"
+        },
+        {
+          "town": "NEWCASTLE",
+          "suburb": null,
+          "siteCode": "000008570",
+          "siteName": "NEWCASTLE,31 VOORTREKKER STREET"
+        },
+        {
+          "town": "NEWCASTLE",
+          "suburb": "2 WHYTE STREET",
+          "siteCode": "000002513",
+          "siteName": "PRIVATE BANK - NEWCASTLE"
+        },
+        {
+          "town": "NGCOBO",
+          "suburb": null,
+          "siteCode": "000006950",
+          "siteName": "HIGH STREET NGCOBO"
+        },
+        {
+          "town": "NIGEL",
+          "suburb": null,
+          "siteCode": "000008488",
+          "siteName": "NIGEL"
+        },
+        {
+          "town": "NKANDLA",
+          "suburb": "SHEZI STREET",
+          "siteCode": "000008209",
+          "siteName": "NKANDLA"
+        },
+        {
+          "town": "NO 668/LT ROAD D4075",
+          "suburb": null,
+          "siteCode": "000005699",
+          "siteName": "MAAKE PLAZA"
+        },
+        {
+          "town": "NONGOMA",
+          "suburb": "MAIN ROAD,",
+          "siteCode": "000006586",
+          "siteName": "NONGOMA"
+        },
+        {
+          "town": "NOORDHOEK",
+          "suburb": "BULLER LOUW ROAD",
+          "siteCode": "000006104",
+          "siteName": "LONGBEACH MALL"
+        },
+        {
+          "town": "NORTHAM",
+          "suburb": "1235 PROVINCIAL ROAD",
+          "siteCode": "000006075",
+          "siteName": "NORTHAM"
+        },
+        {
+          "town": "NORTHERN KZN",
+          "suburb": "NQUTHU PLAZA",
+          "siteCode": "000006626",
+          "siteName": "NQUTU"
+        },
+        {
+          "town": "NORTHMEAD",
+          "suburb": "ROAD",
+          "siteCode": "000006577",
+          "siteName": "NORTHMEAD SQUARE"
+        },
+        {
+          "town": "NORWOOD",
+          "suburb": "C/O 6TH & HAMLIN AVENUE",
+          "siteCode": "000006302",
+          "siteName": "NORWOOD"
+        },
+        {
+          "town": "NTABANKULU",
+          "suburb": null,
+          "siteCode": "000006101",
+          "siteName": "NTABANKULU"
+        },
+        {
+          "town": "NTABANKULU",
+          "suburb": null,
+          "siteCode": "000006951",
+          "siteName": "MAIN STREET NTABANKULU"
+        },
+        {
+          "town": "OAKDENE",
+          "suburb": "GLENEAGLE STREET",
+          "siteCode": "000008976",
+          "siteName": "THE GLEN"
+        },
+        {
+          "town": "OAKFIELDS NORTHMEAD EXT 4",
+          "suburb": "CNR OAK & MALVA STREET",
+          "siteCode": "000006292",
+          "siteName": "OAKFIELDS"
+        },
+        {
+          "town": "ODENDAALSRUS",
+          "suburb": null,
+          "siteCode": "000008572",
+          "siteName": "ODENDAALSRUS"
+        },
+        {
+          "town": "OGIES",
+          "suburb": "VOORTREKKER STREET",
+          "siteCode": "000006061",
+          "siteName": "OGIES"
+        },
+        {
+          "town": "OLIEVENHOUTBOSCH CENTURION",
+          "suburb": "C/O R55 MAIN RD & JAKALASI STR",
+          "siteCode": "000006623",
+          "siteName": "OLIEVENHOUTBOSCH"
+        },
+        {
+          "town": "OR TAMBO AIRPORT",
+          "suburb": "SHOP A017",
+          "siteCode": "000006574",
+          "siteName": "OR TAMBO INTERNATIONAL MEZZANINE"
+        },
+        {
+          "town": "ORANGE FARM",
+          "suburb": "STRETFORD STATION",
+          "siteCode": "000006060",
+          "siteName": "EYETHU MALL"
+        },
+        {
+          "town": "ORKNEY",
+          "suburb": null,
+          "siteCode": "000008634",
+          "siteName": "ORKNEY"
+        },
+        {
+          "town": "OTTOSDAL",
+          "suburb": "23A VOORTREKKER STREET",
+          "siteCode": "000008669",
+          "siteName": "OTTOSDAL"
+        },
+        {
+          "town": "OUDTSHOORN",
+          "suburb": null,
+          "siteCode": "000008573",
+          "siteName": "OUDTSHOORN"
+        },
+        {
+          "town": "PAARDENEILAND",
+          "suburb": null,
+          "siteCode": "000008917",
+          "siteName": "PAARDENEILAND"
+        },
+        {
+          "town": "PAARL",
+          "suburb": "DRAKENSTEIN",
+          "siteCode": "000006031",
+          "siteName": "PAARL MALL"
+        },
+        {
+          "town": "PAARL",
+          "suburb": null,
+          "siteCode": "000008501",
+          "siteName": "PAARL"
+        },
+        {
+          "town": "PARKSTATION",
+          "suburb": "RISSIK STREET",
+          "siteCode": "000006554",
+          "siteName": "PARK STATION"
+        },
+        {
+          "town": "PARKTOWN",
+          "suburb": "C/O ST DAVIDS AND GIRTON ROAD",
+          "siteCode": "000006500",
+          "siteName": "PARKTOWN"
+        },
+        {
+          "town": "PAROW",
+          "suburb": "HENNIE WINTERBACH STREET",
+          "siteCode": "000005988",
+          "siteName": "PANORAMA"
+        },
+        {
+          "town": "PAROW",
+          "suburb": "TYGERBERG HOSPITAL",
+          "siteCode": "000008979",
+          "siteName": "STUDENT BUREAU-TYGERBERG"
+        },
+        {
+          "town": "PAROW",
+          "suburb": "CNR DE LAREY & VOORTREKKER RD",
+          "siteCode": "000006595",
+          "siteName": "PAROW CENTRE"
+        },
+        {
+          "town": "PAROW",
+          "suburb": "21 MCINTYRE ROAD",
+          "siteCode": "000008418",
+          "siteName": "PAROW"
+        },
+        {
+          "town": "PARYS",
+          "suburb": null,
+          "siteCode": "000008574",
+          "siteName": "PARYS"
+        },
+        {
+          "town": "PATENSIE",
+          "suburb": null,
+          "siteCode": "000008670",
+          "siteName": "PATENSIE"
+        },
+        {
+          "town": "PAULPIETERSBURG",
+          "suburb": null,
+          "siteCode": "000008672",
+          "siteName": "PAULPIETERSBURG"
+        },
+        {
+          "town": "PETRUSBURG",
+          "suburb": null,
+          "siteCode": "000008721",
+          "siteName": "PETRUSBURG"
+        },
+        {
+          "town": "PHALABORWA",
+          "suburb": "CNR MANDELA AND PALM STREET",
+          "siteCode": "000008629",
+          "siteName": "BA-PHALABORWA"
+        },
+        {
+          "town": "PHOENIX",
+          "suburb": "PARTHENON STREET",
+          "siteCode": "000006119",
+          "siteName": "PHOENIX"
+        },
+        {
+          "town": "PHOKENG",
+          "suburb": "SUN CITY ROAD",
+          "siteCode": "000006473",
+          "siteName": "PHOKENG"
+        },
+        {
+          "town": "PHUTHADITJHABA",
+          "suburb": "SETSING PHASE 2",
+          "siteCode": "000006276",
+          "siteName": "SETSING CRESCENT"
+        },
+        {
+          "town": "PHUTHADITJHABA",
+          "suburb": "CNR SETAI & MOTLOUNG STREET",
+          "siteCode": "000008742",
+          "siteName": "PHUTHADITJHABA"
+        },
+        {
+          "town": "PIET RETIEF",
+          "suburb": null,
+          "siteCode": "000008578",
+          "siteName": "PIET RETIEF"
+        },
+        {
+          "town": "PIETERMARITZBURG",
+          "suburb": "HAYFIELDS",
+          "siteCode": "000004000",
+          "siteName": "HAYFIELDS"
+        },
+        {
+          "town": "PIETERMARITZBURG",
+          "suburb": "RAISETHORPE",
+          "siteCode": "000006033",
+          "siteName": "RAISETHORPE"
+        },
+        {
+          "town": "PIETERMARITZBURG",
+          "suburb": "EDENDALE",
+          "siteCode": "000007737",
+          "siteName": "EDENDALE"
+        },
+        {
+          "town": "PIETERMARITZBURG",
+          "suburb": "CHATTERTON ROAD",
+          "siteCode": "000008170",
+          "siteName": "CHATTERTON ROAD, PIETERMARITZBURG"
+        },
+        {
+          "town": "PIETERMARITZBURG",
+          "suburb": null,
+          "siteCode": "000008024",
+          "siteName": "LONGMARKET STREET PMB"
+        },
+        {
+          "town": "PIETERMARITZBURG",
+          "suburb": null,
+          "siteCode": "000006096",
+          "siteName": "CHURCH STREET PIETERMARITZBURG"
+        },
+        {
+          "town": "PIETERMARITZBURG",
+          "suburb": "SANCTUARY ROAD",
+          "siteCode": "000006094",
+          "siteName": "LIBERTY MALL - PIETERMARITZBURG"
+        },
+        {
+          "town": "PIKETBERG",
+          "suburb": null,
+          "siteCode": "000008579",
+          "siteName": "PIKETBERG"
+        },
+        {
+          "town": "PINELANDS",
+          "suburb": "LOGAN DRIVE",
+          "siteCode": "000006926",
+          "siteName": "PINELANDS"
+        },
+        {
+          "town": "PINETOWN",
+          "suburb": "17 KINGS ROAD",
+          "siteCode": "000004527",
+          "siteName": "ABSA PINECREST CENTRE PINETOWN"
+        },
+        {
+          "town": "PINETOWN",
+          "suburb": null,
+          "siteCode": "000008445",
+          "siteName": "PINETOWN"
+        },
+        {
+          "town": "PINETOWN",
+          "suburb": "NEW GERMANY",
+          "siteCode": "000008939",
+          "siteName": "NEW GERMANY"
+        },
+        {
+          "town": "PLETTENBERG BAY",
+          "suburb": "MAIN STREET",
+          "siteCode": "000008934",
+          "siteName": "PLETTENBERG BAY"
+        },
+        {
+          "town": "PLUMSTEAD",
+          "suburb": "MAIN ROAD",
+          "siteCode": "000004521",
+          "siteName": "PLUMSTEAD"
+        },
+        {
+          "town": "POLOKWANE",
+          "suburb": "76 SCHOEMAN STREET",
+          "siteCode": "000002540",
+          "siteName": "PRIVATE BANK POLOKWANE"
+        },
+        {
+          "town": "POLOKWANE",
+          "suburb": "BENDOR EXT 99",
+          "siteCode": "000004581",
+          "siteName": "MALL OF THE NORTH"
+        },
+        {
+          "town": "POLOKWANE",
+          "suburb": "LIMPOPO MALL",
+          "siteCode": "000006603",
+          "siteName": "PICK 'N PAY CENTRE, POLOKWANE"
+        },
+        {
+          "town": "POLOKWANE",
+          "suburb": "CNR GRIMM & THABO MBEKI STREET",
+          "siteCode": "000006606",
+          "siteName": "SAVANNAH"
+        },
+        {
+          "town": "POLOKWANE",
+          "suburb": "70 HANS VAN RENSBURG STREET",
+          "siteCode": "000008576",
+          "siteName": "POLOKWANE"
+        },
+        {
+          "town": "POLOKWANE",
+          "suburb": "52 LANDROS MARE STREET",
+          "siteCode": "000008032",
+          "siteName": "LANDDROS MARE,PIETERSBURG"
+        },
+        {
+          "town": "PONGOLA",
+          "suburb": "NEW REPUBLIC STREET",
+          "siteCode": "000008754",
+          "siteName": "PONGOLA"
+        },
+        {
+          "town": "PORT ALFRED",
+          "suburb": null,
+          "siteCode": "000008935",
+          "siteName": "PORT ALFRED"
+        },
+        {
+          "town": "PORT EDWARD",
+          "suburb": "OWEN ELLIS DRIVE",
+          "siteCode": "000006370",
+          "siteName": "PORT EDWARD"
+        },
+        {
+          "town": "PORT ELIZABETH",
+          "suburb": "CNR NYARA & TYINIRA STREET",
+          "siteCode": "000000763",
+          "siteName": "MOTHERWELL"
+        },
+        {
+          "town": "PORT ELIZABETH",
+          "suburb": "LINTON GRANGE",
+          "siteCode": "000003499",
+          "siteName": "LINTON GRANGE"
+        },
+        {
+          "town": "PORT ELIZABETH",
+          "suburb": "NEWTON PARK",
+          "siteCode": "000008375",
+          "siteName": "PORT ELIZABETH SUITE"
+        },
+        {
+          "town": "PORT ELIZABETH",
+          "suburb": "NEWTON PARK",
+          "siteCode": "000008858",
+          "siteName": "NEWTONPARK"
+        },
+        {
+          "town": "PORT ELIZABETH",
+          "suburb": "NORTH END",
+          "siteCode": "000008408",
+          "siteName": "NORTH END, PORT ELIZABETH"
+        },
+        {
+          "town": "PORT ELIZABETH",
+          "suburb": "51 GOVAN MBEKI AVENUE",
+          "siteCode": "000008015",
+          "siteName": "PORT ELIZABETH"
+        },
+        {
+          "town": "PORT SHEPSTONE",
+          "suburb": null,
+          "siteCode": "000008041",
+          "siteName": "46 AIKEN STREET, PORT SHEPSTONE"
+        },
+        {
+          "town": "PORT ST JOHNS",
+          "suburb": null,
+          "siteCode": "000006953",
+          "siteName": "PORT ST JOHNS"
+        },
+        {
+          "town": "PORTERVILLE",
+          "suburb": null,
+          "siteCode": "000008671",
+          "siteName": "PORTERVILLE"
+        },
+        {
+          "town": "PORTION 1 TSAKANE",
+          "suburb": "CNR MODJOAJI&MALANDELA STREET",
+          "siteCode": "000006521",
+          "siteName": "TSAKANE MALL"
+        },
+        {
+          "town": "POSTMASBURG",
+          "suburb": null,
+          "siteCode": "000008674",
+          "siteName": "POSTMASBURG"
+        },
+        {
+          "town": "POTCHEFSTROOM",
+          "suburb": "C/O MOOI RIVER & POTGIETER STR",
+          "siteCode": "000006235",
+          "siteName": "MOOI RIVER MALL POTCHEFSTROOM"
+        },
+        {
+          "town": "POTCHEFSTROOM",
+          "suburb": null,
+          "siteCode": "000008051",
+          "siteName": "POTCHEFSTROOM"
+        },
+        {
+          "town": "POTCHEFSTROOM",
+          "suburb": "94 TOM STREET",
+          "siteCode": "000008528",
+          "siteName": "TOM ST. POTCHEFSTROOM"
+        },
+        {
+          "town": "PRETORIA",
+          "suburb": "HARDIE MULLER ST ROSSLYN",
+          "siteCode": "000008895",
+          "siteName": "ROSSLYN"
+        },
+        {
+          "town": "PRETORIA",
+          "suburb": "HATFIELD",
+          "siteCode": "000008675",
+          "siteName": "HATFIELD, PRETORIA"
+        },
+        {
+          "town": "PRETORIA",
+          "suburb": null,
+          "siteCode": "000008871",
+          "siteName": "MADIBA STREET, PRETORIA"
+        },
+        {
+          "town": "PRETORIA",
+          "suburb": "SUNNYSIDE",
+          "siteCode": "000008082",
+          "siteName": "SUNNYSIDE, PRETORIA"
+        },
+        {
+          "town": "PRETORIA",
+          "suburb": "GEZINA",
+          "siteCode": "000008470",
+          "siteName": "BEN SWART STREET, WONDERBOOM SOUTH"
+        },
+        {
+          "town": "PRETORIA",
+          "suburb": "HALL A, D F MALAN RYLAAN",
+          "siteCode": "000006231",
+          "siteName": "TSHWANE MARKET"
+        },
+        {
+          "town": "PRETORIA",
+          "suburb": "BLOED STREET",
+          "siteCode": "000006908",
+          "siteName": "BLOED STREET MALL"
+        },
+        {
+          "town": "PRETORIA",
+          "suburb": "HERCULES",
+          "siteCode": "000008469",
+          "siteName": "HERCULES, PRETORIA"
+        },
+        {
+          "town": "PRETORIA",
+          "suburb": "SILVERTON",
+          "siteCode": "000008468",
+          "siteName": "SILVERTON"
+        },
+        {
+          "town": "PRETORIA",
+          "suburb": "230 VAN DER WALT STREET",
+          "siteCode": "000008461",
+          "siteName": "LILIAN NGOYI STREET, PRETORIA"
+        },
+        {
+          "town": "PRETORIA",
+          "suburb": "ARCADIA",
+          "siteCode": "000008522",
+          "siteName": "ARCADIA, PRETORIA"
+        },
+        {
+          "town": "PRETORIA",
+          "suburb": null,
+          "siteCode": "000008013",
+          "siteName": "THABO SEHUME STREET, PRETORIA"
+        },
+        {
+          "town": "PRETORIA NORTH",
+          "suburb": null,
+          "siteCode": "000008845",
+          "siteName": "PRETORIA NORTH"
+        },
+        {
+          "town": "PRETORIA WEST",
+          "suburb": "CNR QUAGGA AND CHURCH STREET",
+          "siteCode": "000006569",
+          "siteName": "QUAGGA CENTRE"
+        },
+        {
+          "town": "PRETORIA WEST",
+          "suburb": null,
+          "siteCode": "000008365",
+          "siteName": "PRETORIA SHOW"
+        },
+        {
+          "town": "PRETORIUSPARK",
+          "suburb": "GARSFONTEIN ROAD",
+          "siteCode": "000008073",
+          "siteName": "WOODLANDS"
+        },
+        {
+          "town": "PRIESKA",
+          "suburb": null,
+          "siteCode": "000008614",
+          "siteName": "PRIESKA"
+        },
+        {
+          "town": "PRIMROSE",
+          "suburb": "92 RIETFONTEIN STREET",
+          "siteCode": "000006580",
+          "siteName": "PRIMROSE"
+        },
+        {
+          "town": "PRINCE ALBERT",
+          "suburb": null,
+          "siteCode": "000008724",
+          "siteName": "PRINS ALBERT"
+        },
+        {
+          "town": "PROTEA GARDENS",
+          "suburb": "CHRIS HANI ROAD",
+          "siteCode": "000006089",
+          "siteName": "PROTEA GARDENS"
+        },
+        {
+          "town": "PROTEA GLEN",
+          "suburb": "C/O 558 & PROTEA BOULEVARD",
+          "siteCode": "000004402",
+          "siteName": "PROTEA GLEN"
+        },
+        {
+          "town": "QUEENSTOWN",
+          "suburb": null,
+          "siteCode": "000008677",
+          "siteName": "QUEENSTOWN"
+        },
+        {
+          "town": "QUEENSTOWN",
+          "suburb": null,
+          "siteCode": "000006085",
+          "siteName": "CATHCART ROAD"
+        },
+        {
+          "town": "QUEENSWOOD",
+          "suburb": "FONTANTA ROAD",
+          "siteCode": "000006534",
+          "siteName": "QUEENSWOOD"
+        },
+        {
+          "town": "RANDBURG",
+          "suburb": "FERNDALE",
+          "siteCode": "000008446",
+          "siteName": "RANDBURG"
+        },
+        {
+          "town": "RANDBURG",
+          "suburb": "NORTHUMBERLAND ROAD NORTHGATE",
+          "siteCode": "000008988",
+          "siteName": "NORTHUMBERLAND ROAD, NORTHGATE"
+        },
+        {
+          "town": "RANDFONTEIN",
+          "suburb": "72 MAIN REEF ROAD",
+          "siteCode": "000008493",
+          "siteName": "RANDFONTEIN"
+        },
+        {
+          "town": "RANDPARK RIDGE",
+          "suburb": "JOHN VORSTER & KAYBURNE AVE",
+          "siteCode": "000006995",
+          "siteName": "RANDPARK RIDGE"
+        },
+        {
+          "town": "RAWSONVILLE",
+          "suburb": null,
+          "siteCode": "000006418",
+          "siteName": "RAWSONVILLE"
+        },
+        {
+          "town": "RAYTON",
+          "suburb": "1 TREUNICHT STREET",
+          "siteCode": "000006149",
+          "siteName": "RAYTON"
+        },
+        {
+          "town": "REITZ",
+          "suburb": null,
+          "siteCode": "000008678",
+          "siteName": "REITZ"
+        },
+        {
+          "town": "RIEBEECK WEST",
+          "suburb": null,
+          "siteCode": "000006408",
+          "siteName": "RIEBEECK WEST"
+        },
+        {
+          "town": "RIETFONTEIN",
+          "suburb": "FRATES AND MICHAEL BRINK",
+          "siteCode": "000006567",
+          "siteName": "JACARANDA CENTRE"
+        },
+        {
+          "town": "RIVERSDAL",
+          "suburb": null,
+          "siteCode": "000008679",
+          "siteName": "RIVERSDAL"
+        },
+        {
+          "town": "RIVIERSONDEREND",
+          "suburb": null,
+          "siteCode": "000008727",
+          "siteName": "RIVIERSONDEREND"
+        },
+        {
+          "town": "RIVONIA",
+          "suburb": "RIVONIA BOULEVARD & 10TH AVE",
+          "siteCode": "000008849",
+          "siteName": "RIVONIA"
+        },
+        {
+          "town": "ROBERTSON",
+          "suburb": null,
+          "siteCode": "000008581",
+          "siteName": "ROBERTSON"
+        },
+        {
+          "town": "RONDEBOSCH",
+          "suburb": "CNR BELMONT & MAIN ROADS",
+          "siteCode": "000008981",
+          "siteName": "STUDENT BUREAU - RONDEBOSCH"
+        },
+        {
+          "town": "ROODEPOORT",
+          "suburb": "HORISON",
+          "siteCode": "000008993",
+          "siteName": "HORISON"
+        },
+        {
+          "town": "ROODEPOORT",
+          "suburb": "120 ONTDEKKERS ROAD",
+          "siteCode": "000008257",
+          "siteName": "WESTGATE BANKING MALL L25"
+        },
+        {
+          "town": "ROODEPOORT",
+          "suburb": null,
+          "siteCode": "000008044",
+          "siteName": "ROODEPOORT"
+        },
+        {
+          "town": "ROOIHUISKRAAL",
+          "suburb": "H VERWOERD & ROOIHUISKRAAL RD",
+          "siteCode": "000008758",
+          "siteName": "MALL @ REDS"
+        },
+        {
+          "town": "ROSEBANK",
+          "suburb": "50 BATH AVENUE",
+          "siteCode": "000008054",
+          "siteName": "ROSEBANK MALL"
+        },
+        {
+          "town": "RUSTENBURG",
+          "suburb": "TLHABANE",
+          "siteCode": "000006663",
+          "siteName": "TLHABANE"
+        },
+        {
+          "town": "RUSTENBURG",
+          "suburb": "1 AUGRABIES AVENUE",
+          "siteCode": "000006526",
+          "siteName": "WATERFALL MALL"
+        },
+        {
+          "town": "RUSTENBURG",
+          "suburb": "CNR B NAUDE & N MANDELA DR",
+          "siteCode": "000002541",
+          "siteName": "PRIVATE BANK RUSTENBURG"
+        },
+        {
+          "town": "RUSTENBURG",
+          "suburb": null,
+          "siteCode": "000005357",
+          "siteName": "BOITEKONG"
+        },
+        {
+          "town": "RUSTENBURG",
+          "suburb": "MANDELA DRIVE",
+          "siteCode": "000008583",
+          "siteName": "RUSTENBURG"
+        },
+        {
+          "town": "RUSTENBURG",
+          "suburb": "THABO MBEKI DRIVE",
+          "siteCode": "000006590",
+          "siteName": "RUSTENBURG PLAZA"
+        },
+        {
+          "town": "RUSTENBURG",
+          "suburb": null,
+          "siteCode": "000008423",
+          "siteName": "BOOM STREET,RUSTENBURG"
+        },
+        {
+          "town": "SABIE",
+          "suburb": null,
+          "siteCode": "000006957",
+          "siteName": "SABIE"
+        },
+        {
+          "town": "SALDANHA",
+          "suburb": "64 SALDANHA ROAD",
+          "siteCode": "000008600",
+          "siteName": "SALDANHA"
+        },
+        {
+          "town": "SANDTON",
+          "suburb": "FOURWAYS",
+          "siteCode": "000008196",
+          "siteName": "FOURWAYS"
+        },
+        {
+          "town": "SANDTON",
+          "suburb": "SANDTON CITY RIVONIA ROAD",
+          "siteCode": "000008371",
+          "siteName": "SANDTON SUITE"
+        },
+        {
+          "town": "SANDTON",
+          "suburb": "15 ALICE LANE",
+          "siteCode": "000006109",
+          "siteName": "PRIVATE BANK SANDTON"
+        },
+        {
+          "town": "SANDTON",
+          "suburb": "15 ALICE LANE",
+          "siteCode": "000005368",
+          "siteName": "PROFFESSIONAL PVT"
+        },
+        {
+          "town": "SANDTON",
+          "suburb": "15 ALICE LANE",
+          "siteCode": "000005374",
+          "siteName": "PREMIER RETAIL PVT"
+        },
+        {
+          "town": "SANDTON",
+          "suburb": "RIVONIA STREET,SANDTON CITY",
+          "siteCode": "000008055",
+          "siteName": "SANDTON CITY BRANCH"
+        },
+        {
+          "town": "SANDTON JOHANNESBURG",
+          "suburb": "CNR BENMORE RD & GRAYSTON DR",
+          "siteCode": "000006583",
+          "siteName": "BENMORE GARDENS"
+        },
+        {
+          "town": "SANNIESHOF",
+          "suburb": null,
+          "siteCode": "000008680",
+          "siteName": "SANNIESHOF"
+        },
+        {
+          "town": "SASOLBURG",
+          "suburb": null,
+          "siteCode": "000008513",
+          "siteName": "SASOLBURG"
+        },
+        {
+          "town": "SAULSPOORT",
+          "suburb": "MORULENG MALL",
+          "siteCode": "000008060",
+          "siteName": "MORULENG"
+        },
+        {
+          "town": "SCHOEMANSDAL",
+          "suburb": null,
+          "siteCode": "000000606",
+          "siteName": "SCHOEMANSDAL"
+        },
+        {
+          "town": "SCHWEIZER RENEKE",
+          "suburb": null,
+          "siteCode": "000008584",
+          "siteName": "SCHWEIZER-RENEKE"
+        },
+        {
+          "town": "SCOTTBURGH",
+          "suburb": "CNR OLD MAIN RD & MARGARET AVE",
+          "siteCode": "000006328",
+          "siteName": "SCOTTBURGH"
+        },
+        {
+          "town": "SEBOKENG SOUTH",
+          "suburb": "THABONG",
+          "siteCode": "000001542",
+          "siteName": "SEBOKENG"
+        },
+        {
+          "town": "SECUNDA",
+          "suburb": "HEUNIS STREET",
+          "siteCode": "000006117",
+          "siteName": "PRIVATE BANK SECUNDA"
+        },
+        {
+          "town": "SECUNDA",
+          "suburb": "EMBALENHLE DRIVE",
+          "siteCode": "000006193",
+          "siteName": "EMBALENHLE"
+        },
+        {
+          "town": "SECUNDA",
+          "suburb": "NICO DIEDERICKS STREET",
+          "siteCode": "000008014",
+          "siteName": "SECUNDA"
+        },
+        {
+          "town": "SECUNDA MALL",
+          "suburb": "SHOP 32",
+          "siteCode": "000006108",
+          "siteName": "SECUNDA MALL"
+        },
+        {
+          "town": "SEDGEFIELD",
+          "suburb": null,
+          "siteCode": "000006048",
+          "siteName": "SEDGEFIELD"
+        },
+        {
+          "town": "SENEKAL",
+          "suburb": null,
+          "siteCode": "000008585",
+          "siteName": "SENEKAL"
+        },
+        {
+          "town": "SHALLCROSS",
+          "suburb": "90 SHALLCROSS ROAD",
+          "siteCode": "000006079",
+          "siteName": "SHALLCROSS"
+        },
+        {
+          "town": "SHELLY BEACH",
+          "suburb": null,
+          "siteCode": "000006248",
+          "siteName": "SHELLY BEACH"
+        },
+        {
+          "town": "SHERWOOD",
+          "suburb": "WALKER DRIVE",
+          "siteCode": "000008174",
+          "siteName": "BAY WEST MALL"
+        },
+        {
+          "town": "SIDWELL",
+          "suburb": null,
+          "siteCode": "000008990",
+          "siteName": "KEMPSTON ROAD, PORT ELIZABETH"
+        },
+        {
+          "town": "SINOVILLE",
+          "suburb": "119 BRAC AVENUE",
+          "siteCode": "000008784",
+          "siteName": "SINOVILLE"
+        },
+        {
+          "town": "SOMERSET EAST",
+          "suburb": null,
+          "siteCode": "000008681",
+          "siteName": "SOMERSET EAST"
+        },
+        {
+          "town": "SOMERSET WEST",
+          "suburb": "HABITAT CENTRE",
+          "siteCode": "000006620",
+          "siteName": "HELDERBERG"
+        },
+        {
+          "town": "SOMERSET WEST",
+          "suburb": "SOMERSET MALL SHOPPING COMPLEX",
+          "siteCode": "000006929",
+          "siteName": "SOMERSET MALL"
+        },
+        {
+          "town": "SOMERSET WEST",
+          "suburb": null,
+          "siteCode": "000008749",
+          "siteName": "SOMERSET WEST"
+        },
+        {
+          "town": "SOSHANGUVE",
+          "suburb": "BLOCK BB, BUITEKANT STREET",
+          "siteCode": "000006630",
+          "siteName": "SOSHANGUVE PICK N PAY"
+        },
+        {
+          "town": "SOUTH BOULEVARD",
+          "suburb": "BLOCK D FIRST FLOOR",
+          "siteCode": "000002516",
+          "siteName": "PRIVATE BANK - BRUMA"
+        },
+        {
+          "town": "SOUTHDALE",
+          "suburb": "73 ALAMEIN ROAD",
+          "siteCode": "000008454",
+          "siteName": "SOUTHDALE"
+        },
+        {
+          "town": "SOUTHERNWOOD",
+          "suburb": "GATELY STREET",
+          "siteCode": "000006153",
+          "siteName": "SOUTHERNWOOD"
+        },
+        {
+          "town": "SOWETO",
+          "suburb": "JABULANI",
+          "siteCode": "000006038",
+          "siteName": "JABULANI"
+        },
+        {
+          "town": "SPARTAN",
+          "suburb": null,
+          "siteCode": "000000264",
+          "siteName": "SECURITY BRANCH PRIVATE BANK"
+        },
+        {
+          "town": "SPRINGBOK",
+          "suburb": null,
+          "siteCode": "000008682",
+          "siteName": "SPRINGBOK NORTHERN CAPE"
+        },
+        {
+          "town": "SPRINGS",
+          "suburb": null,
+          "siteCode": "000008395",
+          "siteName": "SPRINGS"
+        },
+        {
+          "town": "SPRINGS",
+          "suburb": "CASSELDALE EXT 4",
+          "siteCode": "000006293",
+          "siteName": "SPRINGS MALL BRANCH"
+        },
+        {
+          "town": "STANDERTON",
+          "suburb": null,
+          "siteCode": "000008846",
+          "siteName": "STANDERTON"
+        },
+        {
+          "town": "STANGER",
+          "suburb": "CNR REYNOLDS & ROOD STR",
+          "siteCode": "000008235",
+          "siteName": "STANGER"
+        },
+        {
+          "town": "STELLA",
+          "suburb": "88 STELLA STREET",
+          "siteCode": "000008729",
+          "siteName": "STELLA"
+        },
+        {
+          "town": "STELLENBOSCH",
+          "suburb": "C/O STRAND & SAFFRAAN STREET",
+          "siteCode": "000006924",
+          "siteName": "DIE BOORD"
+        },
+        {
+          "town": "STELLENBOSCH",
+          "suburb": "BLOCK B ADAM TAS ROAD",
+          "siteCode": "000002526",
+          "siteName": "PRIVATE BANK STELLENBOSCH"
+        },
+        {
+          "town": "STELLENBOSCH",
+          "suburb": "ANDRINGA STREET",
+          "siteCode": "000006599",
+          "siteName": "EIKESTAD MALL"
+        },
+        {
+          "town": "STELLENBOSCH",
+          "suburb": "VICTORIA STREET",
+          "siteCode": "000008980",
+          "siteName": "STUDENT LIFESTYLE CENT STELLENBOSCH"
+        },
+        {
+          "town": "STELLENBOSCH",
+          "suburb": "170 DORP STREET",
+          "siteCode": "000002502",
+          "siteName": "AW UHNW STELLENBOSCH"
+        },
+        {
+          "town": "STELLENBOSCH",
+          "suburb": "CNR PLEIN & RYNEVELD STREET",
+          "siteCode": "000008502",
+          "siteName": "STELLENBOSCH"
+        },
+        {
+          "town": "STERKSPRUIT",
+          "suburb": null,
+          "siteCode": "000002372",
+          "siteName": "STERKSPRUIT"
+        },
+        {
+          "town": "STILBAY",
+          "suburb": "BUITEKANT STREET",
+          "siteCode": "000006172",
+          "siteName": "STILBAAI"
+        },
+        {
+          "town": "STRAND",
+          "suburb": null,
+          "siteCode": "000008503",
+          "siteName": "STRAND"
+        },
+        {
+          "town": "STRIJDOMPARK",
+          "suburb": "CNR MALIBONGWE & ROCKY ROADS",
+          "siteCode": "000008865",
+          "siteName": "STRIJDOMPARK"
+        },
+        {
+          "town": "STRUBENS VALLEY",
+          "suburb": "HENDRIK POTGIETER AVE",
+          "siteCode": "000008007",
+          "siteName": "CLEARWATER MALL"
+        },
+        {
+          "town": "STRUBENSVALLEY",
+          "suburb": "EXT 12",
+          "siteCode": "000002500",
+          "siteName": "PRIVATE BANK STRUBENS VALLEY"
+        },
+        {
+          "town": "SUMMERSTRAND",
+          "suburb": "8TH AVENUE",
+          "siteCode": "000006083",
+          "siteName": "SUMMERSTRAND"
+        },
+        {
+          "town": "SUNNINGHILL",
+          "suburb": "3 EDISON CRESENT",
+          "siteCode": "000005249",
+          "siteName": "SUNNINGHILL"
+        },
+        {
+          "town": "SWARTRUGGENS",
+          "suburb": null,
+          "siteCode": "000006948",
+          "siteName": "SWARTRUGGENS"
+        },
+        {
+          "town": "SWELLENDAM",
+          "suburb": null,
+          "siteCode": "000008683",
+          "siteName": "SWELLENDAM"
+        },
+        {
+          "town": "TABLE VIEW",
+          "suburb": "RAATS DRIVE",
+          "siteCode": "000008759",
+          "siteName": "TABLE VIEW"
+        },
+        {
+          "town": "TAUNGSTATION",
+          "suburb": "TAUNG FORUM BUILDING",
+          "siteCode": "000008997",
+          "siteName": "TAUNG"
+        },
+        {
+          "town": "TEMBISA",
+          "suburb": "BIRCH ACRES EXT 36",
+          "siteCode": "000006365",
+          "siteName": "BIRCH ACRES MALL"
+        },
+        {
+          "town": "THABA NCHU",
+          "suburb": "MAIN AND BRIDGE STREET",
+          "siteCode": "000002373",
+          "siteName": "THABANCHU"
+        },
+        {
+          "town": "THABAZIMBI",
+          "suburb": null,
+          "siteCode": "000008619",
+          "siteName": "THABAZIMBI"
+        },
+        {
+          "town": "THEUNISSEN",
+          "suburb": null,
+          "siteCode": "000008684",
+          "siteName": "THEUNISSEN"
+        },
+        {
+          "town": "THOHOYANDOU",
+          "suburb": "SIBASA ROAD",
+          "siteCode": "000007735",
+          "siteName": "THOHOYANDOU WEST"
+        },
+        {
+          "town": "THOHOYANDOU",
+          "suburb": "CNR DEPT OF LABOUR & TSHANDUKO",
+          "siteCode": "000008820",
+          "siteName": "THOHOYANDOU"
+        },
+        {
+          "town": "THOHOYANDOU",
+          "suburb": null,
+          "siteCode": "000005746",
+          "siteName": "THAVHANI"
+        },
+        {
+          "town": "THREE RIVERS",
+          "suburb": "C/O NILE & THAMES AVENUE",
+          "siteCode": "000006932",
+          "siteName": "RIVERSQUARE DRIE RIVIERE"
+        },
+        {
+          "town": "THULAMAHASHE TOWNSHIP",
+          "suburb": null,
+          "siteCode": "000008818",
+          "siteName": "THULAMAHASHE"
+        },
+        {
+          "town": "TOKAI",
+          "suburb": "TOKAI ROAD",
+          "siteCode": "000001767",
+          "siteName": "BLUE ROUTE MALL"
+        },
+        {
+          "town": "TOKAI",
+          "suburb": "TOKAI SHOPPING CENTRE",
+          "siteCode": "000008200",
+          "siteName": "TOKAI"
+        },
+        {
+          "town": "TONGAAT",
+          "suburb": null,
+          "siteCode": "000008796",
+          "siteName": "TONGAAT"
+        },
+        {
+          "town": "TRICHARDT",
+          "suburb": null,
+          "siteCode": "000006921",
+          "siteName": "TRICHARDT"
+        },
+        {
+          "town": "TROMPSBURG",
+          "suburb": null,
+          "siteCode": "000008733",
+          "siteName": "TROMPSBURG"
+        },
+        {
+          "town": "TULBAGH",
+          "suburb": null,
+          "siteCode": "000004592",
+          "siteName": "TULBAGH RURAL"
+        },
+        {
+          "town": "TYGERVALLEY",
+          "suburb": "WILLIE VAN SCHOOR AVENUE",
+          "siteCode": "000006596",
+          "siteName": "TYGERVALLEY CENTRE, BELLVILLE"
+        },
+        {
+          "town": "TZANEEN",
+          "suburb": null,
+          "siteCode": "000005787",
+          "siteName": "TZANEEN CASH CENTRE"
+        },
+        {
+          "town": "TZANEEN",
+          "suburb": null,
+          "siteCode": "000008587",
+          "siteName": "TZANEEN"
+        },
+        {
+          "town": "TZANEEN",
+          "suburb": "73 AGATHA STREET",
+          "siteCode": "000006484",
+          "siteName": "LETABA BOULEVARD"
+        },
+        {
+          "town": "UITENHAGE",
+          "suburb": null,
+          "siteCode": "000008435",
+          "siteName": "UITENHAGE"
+        },
+        {
+          "town": "ULUNDI",
+          "suburb": "MKABAYI STREET",
+          "siteCode": "000008246",
+          "siteName": "ULUNDI"
+        },
+        {
+          "town": "UMBILO",
+          "suburb": "CNR TEIGNMOUTH AND HILLER ROAD",
+          "siteCode": "000006233",
+          "siteName": "UMBILO"
+        },
+        {
+          "town": "UMBOGINTWENI",
+          "suburb": "C/O MOSS KOLINK & N2",
+          "siteCode": "000008297",
+          "siteName": "GALLERIA"
+        },
+        {
+          "town": "UMHLANGA",
+          "suburb": "314-317 UMHLANGA DRIVE",
+          "siteCode": "000008373",
+          "siteName": "UMHLANGA RIDGE SUITE"
+        },
+        {
+          "town": "UMHLANGA ROCKS",
+          "suburb": "314/317 UMHLANGA ROCKS DRIVE",
+          "siteCode": "000008924",
+          "siteName": "UMHLANGA RIDGE"
+        },
+        {
+          "town": "UMHLATHUZE, RICHARDS BAY",
+          "suburb": "AND MARK STRASSE STREET",
+          "siteCode": "000008676",
+          "siteName": "RICHARDS BAY"
+        },
+        {
+          "town": "UMLAZI",
+          "suburb": "50 MANGOSUTHU HIGHWAY",
+          "siteCode": "000006080",
+          "siteName": "UMLAZI"
+        },
+        {
+          "town": "UMTHATHA",
+          "suburb": "NELSON MANDELA DRIVE",
+          "siteCode": "000006204",
+          "siteName": "MTHATHA PLAZA"
+        },
+        {
+          "town": "UNIONDALE",
+          "suburb": null,
+          "siteCode": "000008734",
+          "siteName": "UNIONDALE"
+        },
+        {
+          "town": "UPINGTON",
+          "suburb": null,
+          "siteCode": "000008685",
+          "siteName": "UPINGTON"
+        },
+        {
+          "town": "VALHALLA",
+          "suburb": "42 BROADWAY EAST STREET",
+          "siteCode": "000008627",
+          "siteName": "VALHALLA"
+        },
+        {
+          "town": "VAN RHYNSDORP",
+          "suburb": null,
+          "siteCode": "000006783",
+          "siteName": "VAN RHYNSDORP"
+        },
+        {
+          "town": "VANDERBIJLPARK",
+          "suburb": "F W BEYERS STREET",
+          "siteCode": "000008076",
+          "siteName": "VANDERBIJLPARK"
+        },
+        {
+          "town": "VANDERBIJLPARK",
+          "suburb": "CNR BARRAGE AND ROSSINI BLVD",
+          "siteCode": "000006082",
+          "siteName": "VAAL MALL"
+        },
+        {
+          "town": "VELDDRIF",
+          "suburb": null,
+          "siteCode": "000006415",
+          "siteName": "VELDDRIF"
+        },
+        {
+          "town": "VENTERSDORP",
+          "suburb": null,
+          "siteCode": "000008686",
+          "siteName": "VENTERSDORP"
+        },
+        {
+          "town": "VEREENIGING",
+          "suburb": "CENTURION BUILDING",
+          "siteCode": "000002539",
+          "siteName": "PRIVATE BANK VEREENIGING"
+        },
+        {
+          "town": "VEREENIGING",
+          "suburb": "CNR LESLIE & MERRIMAN STREET",
+          "siteCode": "000008023",
+          "siteName": "VEREENIGING"
+        },
+        {
+          "town": "VERULAM",
+          "suburb": null,
+          "siteCode": "000008797",
+          "siteName": "VERULAM"
+        },
+        {
+          "town": "VICTORIA WEST",
+          "suburb": null,
+          "siteCode": "000008736",
+          "siteName": "VICTORIA WEST"
+        },
+        {
+          "town": "VILJOENSKROON",
+          "suburb": null,
+          "siteCode": "000008633",
+          "siteName": "VILJOENSKROON"
+        },
+        {
+          "town": "VILLIERS",
+          "suburb": null,
+          "siteCode": "000008628",
+          "siteName": "VILLIERS"
+        },
+        {
+          "town": "VILLIERSDORP",
+          "suburb": null,
+          "siteCode": "000008737",
+          "siteName": "VILLIERSDORP"
+        },
+        {
+          "town": "VINCENT, EAST LONDON",
+          "suburb": "RIVERS ROAD",
+          "siteCode": "000006946",
+          "siteName": "HEMINGWAYS MALL"
+        },
+        {
+          "town": "VIRGINIA",
+          "suburb": null,
+          "siteCode": "000008590",
+          "siteName": "VIRGINIA"
+        },
+        {
+          "town": "VOLKSRUST",
+          "suburb": null,
+          "siteCode": "000008589",
+          "siteName": "VOLKSRUST"
+        },
+        {
+          "town": "VOSLOORUS",
+          "suburb": "C/O BIERMAN & BRICKFIELD ROAD",
+          "siteCode": "000006212",
+          "siteName": "CHRIS HANI"
+        },
+        {
+          "town": "VREDE",
+          "suburb": null,
+          "siteCode": "000008687",
+          "siteName": "VREDE"
+        },
+        {
+          "town": "VREDENBURG",
+          "suburb": null,
+          "siteCode": "000008881",
+          "siteName": "VREDENBURG"
+        },
+        {
+          "town": "VREDENDAL",
+          "suburb": null,
+          "siteCode": "000008923",
+          "siteName": "VREDENDAL"
+        },
+        {
+          "town": "VRYBURG",
+          "suburb": null,
+          "siteCode": "000008431",
+          "siteName": "VRYBURG"
+        },
+        {
+          "town": "VRYHEID",
+          "suburb": null,
+          "siteCode": "000008593",
+          "siteName": "VRYHEID"
+        },
+        {
+          "town": "WALMER",
+          "suburb": "MAIN ROAD",
+          "siteCode": "000004522",
+          "siteName": "WALMER PARK"
+        },
+        {
+          "town": "WALMER",
+          "suburb": "CNR 6TH AVENUE & HEUGH ROAD",
+          "siteCode": "000006169",
+          "siteName": "WALMER SIXTH AVENUE"
+        },
+        {
+          "town": "WARDEN",
+          "suburb": null,
+          "siteCode": "000008739",
+          "siteName": "WARDEN"
+        },
+        {
+          "town": "WARRENTON",
+          "suburb": null,
+          "siteCode": "000008690",
+          "siteName": "WARRENTON"
+        },
+        {
+          "town": "WATERFALL",
+          "suburb": "141 INANDA ROAD",
+          "siteCode": "000005389",
+          "siteName": "WATERCREST MALL"
+        },
+        {
+          "town": "WATERKLOOF GLEN EXT 2, PTA",
+          "suburb": "CNR ARAMIST & COROBAY AVE",
+          "siteCode": "000002538",
+          "siteName": "PRIVATE BANK MENLYN MAINE"
+        },
+        {
+          "town": "WAVERLEY",
+          "suburb": "HERTZOG STREET",
+          "siteCode": "000008950",
+          "siteName": "WAVERLEY"
+        },
+        {
+          "town": "WELKOM",
+          "suburb": "61 BOK STREET",
+          "siteCode": "000006591",
+          "siteName": "HYPERMARKET, WELKOM"
+        },
+        {
+          "town": "WELKOM",
+          "suburb": null,
+          "siteCode": "000008027",
+          "siteName": "WELKOM"
+        },
+        {
+          "town": "WELLINGTON",
+          "suburb": null,
+          "siteCode": "000008504",
+          "siteName": "WELLINGTON"
+        },
+        {
+          "town": "WESFLEUR",
+          "suburb": "CNR ARION & WESFLEUR STREETS",
+          "siteCode": "000008081",
+          "siteName": "ATLANTIS"
+        },
+        {
+          "town": "WESSELBRON",
+          "suburb": null,
+          "siteCode": "000008688",
+          "siteName": "WESSELSBRON"
+        },
+        {
+          "town": "WESTGATE",
+          "suburb": "120 ONTDEKKERS ROAD",
+          "siteCode": "000006571",
+          "siteName": "WESTGATE CENTRE"
+        },
+        {
+          "town": "WESTONARIA",
+          "suburb": null,
+          "siteCode": "000008520",
+          "siteName": "WESTONARIA"
+        },
+        {
+          "town": "WESTVILLE",
+          "suburb": "JACK MARTIN DRIVE",
+          "siteCode": "000008199",
+          "siteName": "PAVILION,WESTVILLE"
+        },
+        {
+          "town": "WESTVILLE",
+          "suburb": "BUCKINGHAM TERRACE",
+          "siteCode": "000006230",
+          "siteName": "WESTVILLE"
+        },
+        {
+          "town": "WHITE RIVER",
+          "suburb": "KRUGER PARK ROAD",
+          "siteCode": "000008598",
+          "siteName": "WITRIVIER"
+        },
+        {
+          "town": "WILKOPPIES",
+          "suburb": "65 AMETIS STREET",
+          "siteCode": "000006594",
+          "siteName": "WILKOPPIES"
+        },
+        {
+          "town": "WILLOWMORE",
+          "suburb": null,
+          "siteCode": "000008689",
+          "siteName": "WILLOWMORE"
+        },
+        {
+          "town": "WINBURG",
+          "suburb": null,
+          "siteCode": "000008740",
+          "siteName": "WINBURG"
+        },
+        {
+          "town": "WITBANK",
+          "suburb": "NELSON MANDELA DRIVE",
+          "siteCode": "000006202",
+          "siteName": "HIGHVELD MALL"
+        },
+        {
+          "town": "WITBANK",
+          "suburb": "KLIPFONTEIN,",
+          "siteCode": "000008394",
+          "siteName": "KLIPFONTEIN"
+        },
+        {
+          "town": "WOLMARANSSTAD",
+          "suburb": null,
+          "siteCode": "000008596",
+          "siteName": "WOLMARANSSTAD"
+        },
+        {
+          "town": "WOLSELEY",
+          "suburb": null,
+          "siteCode": "000008507",
+          "siteName": "WOLSELEY"
+        },
+        {
+          "town": "WORCESTER",
+          "suburb": "MOUNTAIN MILL DRIVE",
+          "siteCode": "000006072",
+          "siteName": "MOUNTAIN MILL"
+        },
+        {
+          "town": "WORCESTER",
+          "suburb": "29A STOCKENSTROM STREET",
+          "siteCode": "000008426",
+          "siteName": "WORCESTER"
+        },
+        {
+          "town": "WYNBERG",
+          "suburb": "3RD STREET",
+          "siteCode": "000006219",
+          "siteName": "ALEXANDRA"
+        },
+        {
+          "town": "YEOVILLE",
+          "suburb": "C/O KENMERE AVENUE",
+          "siteCode": "000006301",
+          "siteName": "YEOVILLE"
+        },
+        {
+          "town": "ZASTRON",
+          "suburb": null,
+          "siteCode": "000008741",
+          "siteName": "ZASTRON"
+        },
+        {
+          "town": "ZEERUST",
+          "suburb": null,
+          "siteCode": "000008599",
+          "siteName": "ZEERUST"
+        }
+      ],
+      "txnStatus": "Success",
+      "txnMessage": "Success"
+    }
+  }
+}

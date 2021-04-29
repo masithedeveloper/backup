@@ -1,0 +1,35 @@
+{
+  "successResponseModel":{
+    "payHdr":{
+      "resId":"RES0912",
+      "resCde":"00000",
+      "resMsg":"Success",
+      "serVer":"2.0"
+    },
+    "payData":{
+      "txnRefID":"15214555611299",
+      "redemptionCode":"RWTRET",
+      "redemptionId":78,
+      "networkProviderId":0,
+      "faceValue":{
+        "curr":"R",
+        "amt":""
+      },
+      "discount":{
+        "curr":"R",
+        "amt":""
+      },
+      "accrualCost":{
+        "curr":"R",
+        "amt":""
+      },
+      "retailVoucher":"Sandton City",
+      "amt":{
+        "curr":"R",
+        "amt":"50.00"
+      },
+      "cellNo":"0832178599",
+      "membershipNo":"160217000123"
+    }
+  }
+}

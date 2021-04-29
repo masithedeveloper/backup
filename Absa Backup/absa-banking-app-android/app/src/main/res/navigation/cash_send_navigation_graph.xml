@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cashSendNavGraph"
+    app:startDestination="@id/cashSendFragment">
+
+    <fragment
+        android:id="@+id/cashSendFragment"
+        android:name="com.barclays.absa.banking.expressCashSend.ui.CashSendFragment"
+        android:label="CashSendFragment"
+        app:enterAnim="@anim/fadein"
+        app:exitAnim="@anim/fadeout"
+        app:popEnterAnim="@anim/fadein"
+        app:popExitAnim="@anim/fadeout"
+        tools:layout="@layout/cash_send_fragment">
+
+        <action
+            android:id="@+id/action_cashSendFragment_to_cashSendDetailFragment"
+            app:destination="@id/cashSendDetailFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+
+        <action
+            android:id="@+id/action_cashSendFragment_to_cashSendToNewBeneficiaryFragment"
+            app:destination="@id/cashSendToNewBeneficiaryFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <action
+            android:id="@+id/action_cashSendFragment_to_cashSendUnredeemedTransactionsFragment"
+            app:destination="@id/cashSendUnredeemedTransactionsFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/cashSendExistingBeneficiaryFragment"
+        android:name="com.barclays.absa.banking.expressCashSend.ui.CashSendExistingBeneficiaryFragment"
+        android:label="CashSendOnceOffFragment"
+        app:enterAnim="@anim/fadein"
+        app:exitAnim="@anim/fadeout"
+        app:popEnterAnim="@anim/fadein"
+        app:popExitAnim="@anim/fadeout"
+        tools:layout="@layout/cash_send_existing_beneficiary_fragment">
+        <action
+            android:id="@+id/action_cashSendExistingBeneficiaryFragment_to_cashSendOnceOffConfirmFragment"
+            app:destination="@id/cashSendOnceOffConfirmFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <action
+            android:id="@+id/action_cashSendExistingBeneficiaryFragment_to_cashSendDetailFragment"
+            app:destination="@id/cashSendDetailFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/cashSendOnceOffConfirmFragment"
+        android:name="com.barclays.absa.banking.expressCashSend.ui.CashSendOnceOffConfirmFragment"
+        android:label="CashSendOnceOffFragment"
+        app:enterAnim="@anim/fadein"
+        app:exitAnim="@anim/fadeout"
+        app:popEnterAnim="@anim/fadein"
+        app:popExitAnim="@anim/fadeout"
+        tools:layout="@layout/cash_send_once_off_confirm_fragment">
+        <argument
+            android:name="ATM_PIN"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_cashSendOnceOffConfirmFragment_to_cashSendResultFragment"
+            app:destination="@id/cashSendResultFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/cashSendDetailFragment"
+        android:name="com.barclays.absa.banking.expressCashSend.ui.CashSendDetailsFragment"
+        android:label="CashSendDetailFragment"
+        app:enterAnim="@anim/fadein"
+        app:exitAnim="@anim/fadeout"
+        app:popEnterAnim="@anim/fadein"
+        app:popExitAnim="@anim/fadeout"
+        tools:layout="@layout/cash_send_details_fragment">
+        <action
+            android:id="@+id/action_cashSendDetailFragment_to_cashSendOnceOffConfirmFragment"
+            app:destination="@id/cashSendOnceOffConfirmFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <action
+            android:id="@+id/action_cashSendDetailFragment_to_cashSendExistingBeneficiaryFragment"
+            app:destination="@id/cashSendExistingBeneficiaryFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/cashSendResultFragment"
+        android:name="com.barclays.absa.banking.expressCashSend.ui.CashSendResultFragment"
+        android:label="CashSendResultFragment"
+        tools:layout="@layout/cash_send_result_fragment" />
+
+    <fragment
+        android:id="@+id/cashSendToNewBeneficiaryFragment"
+        android:name="com.barclays.absa.banking.expressCashSend.ui.CashSendToNewBeneficaryFragment"
+        android:label="CashSendToNewBeneficiaryFragment">
+        <action
+            android:id="@+id/action_cashSendToNewBeneficiaryFragment_to_cashSendDetailFragment"
+            app:destination="@id/cashSendDetailFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <action
+            android:id="@+id/action_cashSendToNewBeneficiaryFragment_to_cashSendGenericResultScreenFragment"
+            app:destination="@id/cashSendGenericResultScreenFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/cashSendGenericResultScreenFragment"
+        android:name="styleguide.screens.GenericResultScreenFragment"
+        android:label="GenericResultScreenFragment"
+        tools:layout="@layout/generic_results_screen_fragment">
+        <argument
+            android:name="GenericResultScreenFragment"
+            app:argType="styleguide.screens.GenericResultScreenProperties" />
+        <action
+            android:id="@+id/action_cashSendGenericResultScreenFragment_to_cashSendDetailFragment"
+            app:destination="@+id/cashSendDetailFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/cashSendUnredeemedTransactionsFragment"
+        android:name="com.barclays.absa.banking.expressCashSend.ui.CashSendUnredeemedTransactionsFragment"
+        android:label="CashSendUnredeemedTransactionsFragment">
+        <action
+            android:id="@+id/action_cashSendFragment_to_caseSendUnredeemedDetailsFragment"
+            app:destination="@id/cashSendUnredeemedDetailsFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/cashSendUnredeemedDetailsFragment"
+        android:name="com.barclays.absa.banking.expressCashSend.ui.CashSendUnredeemedDetailsFragment"
+        android:label="CaseSendUnredeemedDetailsFragment">
+        <argument
+            android:name="accountNumberToDisplay"
+            app:argType="string" />
+        <argument
+            android:name="accountNumber"
+            app:argType="string" />
+        <argument
+            android:name="isCashSendPlus"
+            app:argType="boolean" />
+        <argument
+            android:name="unredeemedTransaction"
+            app:argType="com.barclays.absa.banking.express.cashSend.unredeemedCashSendTransactions.dto.CashSendPaymentTransaction" />
+        <action
+            android:id="@+id/action_cashSendUnredeemedDetailsFragment_to_cashSendUnredeemedPinChangeDialogFragment"
+            app:destination="@id/cashSendUnredeemedPinChangeDialogFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+
+    <dialog
+        android:id="@+id/cashSendUnredeemedPinChangeDialogFragment"
+        android:name="com.barclays.absa.banking.expressCashSend.ui.CashSendUnredeemedPinChangeDialogFragment"
+        android:label="CashSendToNewBeneficiaryFragment">
+        <argument
+            android:name="sendSMS"
+            app:argType="boolean" />
+    </dialog>
+
+</navigation>

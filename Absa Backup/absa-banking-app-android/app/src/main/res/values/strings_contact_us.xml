@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="contact_us_report_fraud">Report Fraud</string>
+    <string name="call_me_back">Call me back</string>
+    <string name="system_error">System Error</string>
+    <string name="contact_absa">Contact Absa</string>
+    <string name="call_verified">Call verified</string>
+    <string name="confirm_call_back">Confirm Call Back</string>
+    <string name="security_code">Security code</string>
+    <string name="call_back_is_unavailable">Call back is unavailable at this time. Please contact us below or try again later.</string>
+    <string name="our_call_volumes_are_high">Our call volumes are high at the moment. Absa will call you in approximately 20 minutes.\n\nAs soon as you speak to an Absa consultant they will give you a security code.\n\nPlease enter the security code below to your verify call.</string>
+    <string name="your_call_is_not_secure_description">The security code that you entered is incorrect.\n\nDo not share any personal information in this call.</string>
+    <string name="your_call_is_not_secure">Your call is not secure!</string>
+    <string name="your_call_is_secure">Your call is secure</string>
+    <string name="do_not_share_any_personal_information">Do not share any personal information until you have entered this security code.</string>
+    <string name="enter_security_code">Enter security code</string>
+    <string name="more_contact_information">More contact information</string>
+    <string name="security_code_description">As soon as you speak to an Absa consultant they will give you a security code.\n\nPlease enter the security code below to your verify call.</string>
+    <string name="cellphone_number_ending">Absa will call your cellphone number ending %s</string>
+    <string name="cellphone_number_ending_no_number">Absa will call your cellphone number</string>
+    <string name="report_fraud_description">Absa will call you back right away on a secure line.\n\nYou will need to enter a security code given to you by the call centre agent, to secure your call.</string>
+    <string name="contact_us_attempts">Incorrect details entered. Your session will be locked after %s incorrect attempts.</string>
+</resources>

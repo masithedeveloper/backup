@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="locate_a_branch_atm">Vind \'n Tak/OTM</string>
+    <string name="get_details_or_directions_for_any_branch_or_atm">Kry besonderhede of aanwysings vir enige tak of OTM</string>
+    <string name="open_the_list">Maak die lys oop</string>
+    <string name="swipe_up">Maak oop</string>
+    <string name="get_directions">Kry Aanwysings</string>
+    <string name="absa_website_url">www.absa.co.za</string>
+    <string name="operating_hours_branch_locator">Bedryfsure</string>
+    <string name="monday">Maandag</string>
+    <string name="tuesday">Dinsdag</string>
+    <string name="wednesday">Woensdag</string>
+    <string name="thursday">Donderdag</string>
+    <string name="friday">Vrydag</string>
+    <string name="saturday">Saterdag</string>
+    <string name="sunday">Sondag</string>
+    <string name="atm_branch_locator_open">Oop</string>
+    <string name="atm_branch_locator_closed">Toe</string>
+    <string name="atm_branch_locator_closing_soon">Amper toemaaktyd</string>
+    <string name="atm_branch_locator_Branch">Tak</string>
+    <string name="atm_branch_locator_ATM">OTM</string>
+    <string name="atm_and_branch_locator">OTM-en Takliggings</string>
+    <string name="atm_and_branch_locator_location_permission_check">Absa het toegang tot jou ligging nodig om nabygeleë OTMe en takke op te spoor.</string>
+    <string name="location_access_denied_title">Geen ligging toegang</string>
+    <string name="location_access_denied_description">Die Absa Banking App het nie toegang om jou foon se ligging te gebruik nie.\n\nGaan asseblief na die foon se  Settings > Apps > Absa Banking > Permissions > Location toe en skakel Absa Banking App se liggingtoegang aan.</string>
+    <string name="gps_network_not_enabled">GPS netwerk nie aangeskakel nie</string>
+</resources>

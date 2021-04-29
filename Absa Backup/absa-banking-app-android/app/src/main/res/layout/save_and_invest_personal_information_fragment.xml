@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <styleguide.forms.NormalInputView
+        android:id="@+id/employmentStatusNormalInputView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:attribute_hint_text="@string/depositor_plus_employment_status"
+        app:attribute_selector_type="LONG_LIST"
+        app:attribute_title_text="@string/depositor_plus_employment_status"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <styleguide.forms.NormalInputView
+        android:id="@+id/occupationNormalInputView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:attribute_hint_text="@string/depositor_plus_occupation"
+        app:attribute_selector_type="LONG_LIST"
+        app:attribute_title_text="@string/depositor_plus_occupation"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/employmentStatusNormalInputView" />
+
+    <styleguide.forms.NormalInputView
+        android:id="@+id/sourceOfIncomeNormalInputView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:attribute_hint_text="@string/depositor_plus_please_select_source_of_income"
+        app:attribute_selector_type="LONG_LIST"
+        app:attribute_title_text="@string/depositor_plus_source_of_income"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/occupationNormalInputView" />
+
+    <styleguide.forms.NormalInputView
+        android:id="@+id/fundsNormalInputView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:attribute_hint_text="@string/depositor_plus_fund"
+        app:attribute_selector_type="LONG_LIST"
+        app:attribute_title_text="@string/depositor_plus_fund"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/sourceOfIncomeNormalInputView" />
+
+    <Button
+        android:id="@+id/nextButton"
+        style="@style/PrimaryButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sourceOfIncomeNormalInputView"
+        app:layout_constraintVertical_bias="1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

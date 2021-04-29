@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:width="@dimen/small_space">
+            <solid android:color="@color/greyish_brown" />
+            <corners android:radius="@dimen/tiny_space" />
+
+        </shape>
+    </item>
+    <item android:left="@dimen/small_space">
+        <shape>
+            <solid android:color="@color/silver_grey" />
+            <corners
+                android:bottomRightRadius="@dimen/tiny_space"
+                android:topRightRadius="@dimen/tiny_space" />
+        </shape>
+    </item>
+</layer-list>

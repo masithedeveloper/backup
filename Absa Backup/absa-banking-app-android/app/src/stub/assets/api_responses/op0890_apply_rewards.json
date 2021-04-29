@@ -1,0 +1,53 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0890",
+      "resCde": "00000",
+      "resMsg": "",
+      "serVer": "2.0",
+      "expTrace": null
+    },
+    "payData": {
+      "allActList": null,
+      "balNotYetClrdDt": null,
+      "suburb": "BETHAL",
+      "homeFax": "",
+      "acHomeFax": "",
+      "officeFax": "",
+      "acOfficeFax": "",
+      "corrTitle": "",
+      "solicitIndicator": "02",
+      "monthlyAmt": {
+        "curr": "R",
+        "amt": "22.50"
+      },
+      "yearlyAmt": {
+        "curr": "R",
+        "amt": "270.00"
+      },
+      "spokenLanguageCode": "",
+      "spokenLanguageName": "",
+      "writtenLanguageCode": "",
+      "writtenLanguageName": "",
+      "email": "siddhesh.chendvankar@absa.co.za",
+      "orderActList": [
+
+      ],
+      "homeTel": "0115630338",
+      "workTel": "0111234567",
+      "cellNo": "0744629132",
+      "addressLine1": "ARCHSID STREET1",
+      "addressLine2": "STREET2",
+      "city": "BETHAL",
+      "postalCode": "2309",
+      "customerType": "00101",
+      "langCode": "E",
+      "resAddressLine1": "ABSA",
+      "resAddressLine2": "STREET2",
+      "resSuburb": "BETHAL",
+      "resCity": "BETHAL",
+      "resPostalCode": "2309",
+      "countryOfResidence": "SO003"
+    }
+  }
+}

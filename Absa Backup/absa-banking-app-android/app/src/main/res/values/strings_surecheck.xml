@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="sure_check_help">Help</string>
+    <string name="sure_check_reason_for_rejection">Reason for rejecting</string>
+    <string name="sure_check_rejection_title">This transaction will be rejected and reported for fraud</string>
+    <string name="sure_check_footer_message">Only ever confirm transactions you have started</string>
+    <string name="sure_check_auth_fingerprint_error">Fingerprint not recognized. Please try again.</string>
+    <string name="sure_check_auth_fingerprint_last_error">Please use your passcode to log in</string>
+    <string name="sure_check_auth_dialog_intial_message">Place your finger on the sensor</string>
+    <string name="sure_check_fraud_hotline">Fraud hotline</string>
+    <string name="sure_check_name_value_origin_device">From</string>
+
+    <string name="sure_check_contact_support">Contact support</string>
+    <string name="sure_check_contact_support_number">08600 08600</string>
+
+    <string name="sure_check_security_code">Security code</string>
+    <string name="sure_check_atm_card_number">ATM Card number</string>
+    <string name="sure_check_make_my_primary_device_title">Make this your verification device?</string>
+    <string name="sure_check_make_my_primary_device_sub_title">Your verification device will be delinked.</string>
+    <string name="sure_check_atm_card_pin">PIN</string>
+    <string name="sure_check_cancel_flow_message">Are you sure you want to cancel?</string>
+    <string name="sure_check_cancel_flow_message_title">Cancel</string>
+
+    <string name="sure_check_device_not_available_title">Select a reason</string>
+    <string name="sure_check_device_not_available_caption">Please select a possible reason for not receiving your verification</string>
+
+    <string name="sure_check_request_activity_footer_message">2-factor authentication helps protect your account from fraud</string>
+    <string name="sure_check_remaining_for_approval">remaining for approval</string>
+    <string name="sure_check_request_activity_title">Verification required</string>
+    <string name="sure_check_approval_message">Please approve the verification request sent to your primary device</string>
+
+    <string name="sure_check_rvn">RVN</string>
+    <string name="sure_check_tvn">TVN</string>
+    <string name="sure_check_title_content_rvn">RVN</string>
+    <string name="sure_check_title_content_tvn">TVN</string>
+    <string name="sure_check_enter_code_rvn">RVN code</string>
+    <string name="sure_check_enter_code_tvn">TVN code</string>
+    <string name="sure_check_toolbar_title_rvn">Confirm RVN</string>
+    <string name="sure_check_toolbar_title_tvn">Confirm TVN</string>
+    <string name="sure_check_resend_button_rvn">Resend RVN</string>
+    <string name="sure_check_resend_button_tvn">Resend TVN</string>
+    <string name="sure_check_enter_code_hint_rvn">Please enter your RVN code</string>
+    <string name="sure_check_enter_code_hint_tvn">Please enter your TVN code</string>
+
+    <string name="sure_check_connectivity_restored_message">Network restored; now connected to%s%s</string>
+    <string name="sure_check_rejected_copy">You\'ve rejected this transaction and reported it as fraud.</string>
+    <string name="sure_check_suspicious_transaction_title">Suspicious Transaction</string>
+
+</resources>

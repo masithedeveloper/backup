@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:parentTag="androidx.constraintlayout.widget.ConstraintLayout">
+
+    <TextView
+        android:id="@+id/initialsTextView"
+        style="@style/Text_RobotoBold"
+        android:layout_width="@dimen/profile_image_size_large"
+        android:layout_height="@dimen/profile_image_size_large"
+        android:layout_marginTop="@dimen/medium_space"
+        android:background="@drawable/round_beneficiary_background"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:textSize="@dimen/heading_text_size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="BM" />
+
+    <styleguide.widgets.RoundedImageView
+        android:id="@+id/roundedImageView"
+        android:layout_width="@dimen/profile_image_size_large"
+        android:layout_height="@dimen/profile_image_size_large"
+        android:layout_marginTop="@dimen/medium_space"
+        android:clickable="true"
+        android:focusable="true"
+        android:scaleType="centerCrop"
+        android:visibility="gone"
+        app:attribute_mask_drawable="@drawable/circle_mask"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:src="@drawable/small_card_content" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/nameTextView"
+        style="@style/HeadingTextMediumDark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/small_space"
+        android:layout_marginTop="@dimen/small_space"
+        android:layout_marginEnd="@dimen/small_space"
+        android:gravity="center"
+        android:maxLines="1"
+        app:autoSizeMaxTextSize="@dimen/heading_text_size"
+        app:autoSizeMinTextSize="@dimen/regular_text_size"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/initialsTextView"
+        tools:text="Credit Card" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/accountNumberTextView"
+        style="@style/SmallTextRegularDark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/small_space"
+        android:layout_marginTop="@dimen/tiny_space"
+        android:layout_marginEnd="@dimen/small_space"
+        android:layout_marginBottom="@dimen/medium_space"
+        android:gravity="center"
+        android:textColor="@color/dark_grey_light_theme_text_color"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nameTextView"
+        tools:text="Virgin Mobile - 012 345 6789" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/lastPaymentTextView"
+        style="@style/SmallTextRegularDark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/small_space"
+        android:layout_marginTop="@dimen/small_space"
+        android:layout_marginEnd="@dimen/small_space"
+        android:layout_marginBottom="@dimen/medium_space"
+        android:gravity="center"
+        android:textColor="@color/dark_grey_light_theme_text_color"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/accountNumberTextView"
+        tools:text="R 2 345 500.00 paid on 12 Jun 2018" />
+
+</merge>

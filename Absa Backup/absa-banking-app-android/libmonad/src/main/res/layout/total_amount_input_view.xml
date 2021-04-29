@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mergeOnClickLister"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:parentTag="androidx.constraintlayout.widget.ConstraintLayout">
+
+    <TextView
+        android:id="@+id/title_text_view"
+        style="@style/SmallTextMediumDark"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/medium_space"
+        android:layout_marginTop="@dimen/extra_large_space"
+        android:layout_marginEnd="@dimen/medium_space"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Payment Date" />
+
+    <styleguide.forms.maskedEditText.MaskedEditText
+        android:id="@+id/value_edit_text"
+        style="@style/TitleTextBoldDark"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/medium_space"
+        android:layout_marginEnd="@dimen/small_space"
+        android:background="@android:color/transparent"
+        android:maxLines="1"
+        android:paddingTop="@dimen/small_space"
+        android:paddingBottom="@dimen/normal_padding"
+        android:textColor="@color/black_light_theme_text_color"
+        android:textColorHint="@color/input_view_text_color"
+        android:textCursorDrawable="@drawable/cursor_drawable_purple"
+        app:layout_constraintEnd_toStartOf="@+id/icon_view"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title_text_view"
+        app:layout_goneMarginEnd="@dimen/medium_space"
+        app:layout_goneMarginTop="@dimen/extra_large_space"
+        tools:text="R 150.00" />
+
+    <View
+        android:id="@+id/contactPlaceHolder"
+        android:layout_width="@dimen/icon_size"
+        android:layout_height="@dimen/icon_size"
+        android:layout_marginEnd="@dimen/medium_space"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title_text_view" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/icon_view"
+        android:layout_width="@dimen/icon_size"
+        android:layout_height="@dimen/icon_size"
+        android:layout_marginEnd="@dimen/medium_space"
+        android:contentDescription="@string/custom_icon_for_view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title_text_view"
+        app:layout_goneMarginTop="@dimen/large_space"
+        app:srcCompat="@drawable/ic_calendar_dark"
+        app:tint="?attr/colorControlNormal" />
+
+    <View
+        android:id="@+id/bottom_divider"
+        style="@style/DividerView"
+        android:layout_width="0dp"
+        android:layout_height="1.5dp"
+        android:layout_marginStart="@dimen/medium_space"
+        android:layout_marginEnd="@dimen/tiny_space"
+        android:layout_marginBottom="@dimen/large_space"
+        android:background="@color/silver"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toStartOf="@+id/contactPlaceHolder"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/value_edit_text"
+        app:layout_goneMarginEnd="@dimen/medium_space" />
+
+    <TextView
+        android:id="@+id/description_text_view"
+        style="@style/SmallTextRegularDark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/medium_space"
+        android:layout_marginTop="@dimen/small_space"
+        android:layout_marginEnd="@dimen/medium_space"
+        android:layout_marginBottom="@dimen/small_space"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bottom_divider"
+        tools:text="Label" />
+
+    <TextView
+        android:id="@+id/error_text_view"
+        style="@style/SmallTextRegularDark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/medium_space"
+        android:layout_marginTop="@dimen/small_space"
+        android:layout_marginEnd="@dimen/medium_space"
+        android:layout_marginBottom="@dimen/small_space"
+        android:textColor="@color/primary_red"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bottom_divider"
+        tools:text="Label" />
+
+    <View
+        android:id="@+id/divider_view"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/large_space"
+        android:clickable="true"
+        android:focusable="true"
+        android:visibility="gone"
+        app:layout_constraintTop_toBottomOf="@+id/bottom_divider" />
+
+    <include
+        layout="@layout/selector_view_short_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="@dimen/medium_space"
+        android:layout_marginEnd="@dimen/medium_space"
+        android:visibility="gone"
+        app:layout_constraintTop_toBottomOf="@+id/divider_view" />
+
+</merge>

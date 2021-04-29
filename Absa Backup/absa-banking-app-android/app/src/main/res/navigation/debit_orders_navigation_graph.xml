@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/debit_orders_navigation_graph"
+    app:startDestination="@id/stoppedDebitOrdersFragment">
+    <fragment
+        android:id="@+id/stoppedDebitOrdersFragment"
+        android:name="com.barclays.absa.banking.debiCheck.ui.StoppedDebitOrdersFragment"
+        tools:layout="@layout/stopped_debit_orders_fragment">
+        <action
+            android:id="@+id/action_debitOrdersPagerItemFragment_to_debitOrderTransactionDetailsFragment"
+            app:destination="@id/debitOrderTransactionDetailsFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <action
+            android:id="@+id/action_stoppedDebitOrdersFragment_to_debitOrderTransactionDetailsFragment"
+            app:destination="@id/debitOrderTransactionDetailsFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout"
+            app:popUpTo="@+id/stoppedDebitOrdersFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/debitOrderTransactionDetailsFragment"
+        android:name="com.barclays.absa.banking.debiCheck.ui.DebitOrderTransactionDetailsFragment"
+        android:label="DebitOrderTransactionDetailsFragment">
+        <action
+            android:id="@+id/action_debitOrderTransactionDetailsFragment_to_stoppedDebitOrderInformationFragment"
+            app:destination="@id/stoppedDebitOrderInformationFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <action
+            android:id="@+id/action_debitOrderTransactionDetailsFragment_to_reverseDebitOrderInformationFragment"
+            app:destination="@id/reverseDebitOrderInformationFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <argument
+            android:name="debitOrder"
+            app:argType="com.barclays.absa.banking.boundary.model.debitOrder.DebitOrderDetailsResponse" />
+        <argument
+            android:name="isStoppedDebitOrder"
+            app:argType="boolean" />
+    </fragment>
+    <fragment
+        android:id="@+id/stoppedDebitOrderInformationFragment"
+        android:name="com.barclays.absa.banking.debiCheck.ui.StoppedDebitOrderInformationFragment"
+        android:label="StoppedDebitOrderInformationFragment">
+        <action
+            android:id="@+id/action_stoppedDebitOrderInformationFragment_to_debitOrderResultsFragment"
+            app:destination="@id/debitOrderResultsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/reverseDebitOrderInformationFragment"
+        android:name="com.barclays.absa.banking.debiCheck.ui.ReverseDebitOrderInformationFragment"
+        android:label="ReverseDebitOrderInformationFragment">
+        <action
+            android:id="@+id/action_reverseDebitOrderInformationFragment_to_debitOrderReversePaymentFragment"
+            app:destination="@id/debitOrderReversePaymentFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+    <fragment
+        android:id="@+id/debitOrderReversePaymentFragment"
+        android:name="com.barclays.absa.banking.debiCheck.ui.DebitOrderReversePaymentFragment"
+        android:label="DebitOrderReversePaymentFragments">
+        <action
+            android:id="@+id/action_debitOrderReversePaymentFragment_to_debitOrderResultsFragment"
+            app:destination="@id/debitOrderResultsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/debitOrderResultsFragment"
+        android:name="styleguide.screens.GenericResultScreenFragment"
+        android:label="DebitOrderResultsFragment"
+        tools:layout="@layout/generic_results_screen_fragment">
+        <action
+            android:id="@+id/action_debitOrderResultsFragment_to_reverseDebitOrderInformationFragment"
+            app:destination="@id/reverseDebitOrderInformationFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <argument
+            android:name="GenericResultScreenFragment"
+            app:argType="styleguide.screens.GenericResultScreenProperties" />
+        <argument
+            android:name="shouldOnlyAnimateOnce"
+            app:argType="boolean" />
+    </fragment>
+</navigation>

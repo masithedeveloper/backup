@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ll_backgroundContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/medium_space">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:padding="@dimen/medium_space">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/iv_img_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="@dimen/medium_space"
+            android:tint="@color/graphite"
+            app:lottie_autoPlay="true" />
+
+        <TextView
+            android:id="@+id/tv_payment_status"
+            style="@style/HeadingTextMediumDark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="@dimen/dimen_16dp"
+            android:gravity="center_horizontal"
+            android:text="@string/payment_successMsg"
+            tools:text="Your payment was successful" />
+
+        <TextView
+            android:id="@+id/tv_error_msg"
+            style="@style/NormalTextRegularDark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tv_reference_number"
+            style="@style/Text_Caption"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:visibility="visible" />
+    </LinearLayout>
+
+    <styleguide.buttons.Button
+        android:id="@+id/make_another_payment_btn"
+        style="@style/SecondaryButton"
+        android:layout_marginBottom="0dp"
+        android:text="@string/btn_another_payment" />
+
+    <styleguide.buttons.Button
+        android:id="@+id/btn_home"
+        style="@style/PrimaryButton"
+        android:text="@string/done" />
+</LinearLayout>

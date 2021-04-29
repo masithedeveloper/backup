@@ -1,0 +1,314 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:fitsSystemWindows="true">
+
+    <styleguide.content.ProfileView
+        android:id="@+id/profileView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleX="0"
+        android:scaleY="0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:scaleX="1"
+        tools:scaleY="1" />
+
+    <View
+        android:id="@+id/profileDividerView"
+        style="@style/DividerView"
+        android:layout_width="0dp"
+        android:layout_marginTop="@dimen/small_space"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profileView" />
+
+    <ScrollView
+        style="@style/ScrollView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/profileDividerView">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/menuConstraintLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleY="0"
+            tools:scaleY="0">
+
+            <View
+                android:id="@+id/exploreDividerView"
+                style="@style/DividerView"
+                android:layout_width="0dp"
+                android:layout_marginTop="@dimen/small_space"
+                android:visibility="gone"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <styleguide.buttons.OptionActionButtonView
+                android:id="@+id/cardsActionButtonView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_caption="@string/navigation_menu_cards"
+                app:attribute_icon="@drawable/ic_cards_dark"
+                app:attribute_show_arrow="false"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/exploreDividerView" />
+
+            <styleguide.buttons.OptionActionButtonView
+                android:id="@+id/beneficiaryActionButtonView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_caption="@string/navigation_menu_beneficiaries"
+                app:attribute_icon="@drawable/ic_beneficiaries_dark"
+                app:attribute_show_arrow="false"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cardsActionButtonView" />
+
+            <styleguide.buttons.OptionActionButtonView
+                android:id="@+id/debitOrdersActionButtonView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_caption="@string/navigation_menu_debi_check"
+                app:attribute_icon="@drawable/ic_debicheck_dark"
+                app:attribute_show_arrow="false"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/beneficiaryActionButtonView" />
+
+            <styleguide.buttons.OptionActionButtonView
+                android:id="@+id/authorisationsActionButtonView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_caption="@string/authorisations"
+                app:attribute_icon="@drawable/ic_list_dark"
+                app:attribute_show_arrow="false"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/debitOrdersActionButtonView" />
+
+            <styleguide.buttons.OptionActionButtonView
+                android:id="@+id/manageDigitalLimitsActionButtonView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_caption="@string/navigation_menu_digital_limits"
+                app:attribute_icon="@drawable/ic_lock_dark"
+                app:attribute_show_arrow="false"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/authorisationsActionButtonView" />
+
+            <styleguide.buttons.OptionActionButtonView
+                android:id="@+id/internationalPaymentsActionButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                app:attribute_caption="@string/international_banking_menu_item"
+                app:attribute_icon="@drawable/ic_international_payments"
+                app:attribute_show_arrow="false"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/manageDigitalLimitsActionButtonView" />
+
+            <View
+                android:id="@+id/documentsDividerView"
+                style="@style/DividerView"
+                android:layout_width="0dp"
+                android:layout_marginTop="@dimen/small_space"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/internationalPaymentsActionButton" />
+
+            <styleguide.buttons.OptionActionButtonView
+                android:id="@+id/documentsActionButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/small_space"
+                app:attribute_caption="@string/documents_menu_item"
+                app:attribute_icon="@drawable/ic_document_dark"
+                app:attribute_show_arrow="true"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/documentsDividerView" />
+
+            <View
+                android:id="@+id/settingsDividerView"
+                style="@style/DividerView"
+                android:layout_width="0dp"
+                android:layout_marginTop="@dimen/small_space"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/documentsActionButton" />
+
+            <styleguide.buttons.OptionActionButtonView
+                android:id="@+id/manageAccountsActionButtonView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                app:attribute_caption="@string/navigation_menu_accounts_settings"
+                app:attribute_icon="@drawable/ic_manage_accounts_dark"
+                app:attribute_show_arrow="false"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/settingsDividerView" />
+
+            <styleguide.buttons.OptionActionButtonView
+                android:id="@+id/settingsActionButtonView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/small_space"
+                app:attribute_caption="@string/navigation_menu_app_preferences"
+                app:attribute_icon="@drawable/ic_settings_dark"
+                app:attribute_show_arrow="false"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/manageAccountsActionButtonView" />
+
+            <styleguide.buttons.OptionActionButtonView
+                android:id="@+id/manageDevicesActionButtonView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/small_space"
+                app:attribute_caption="@string/manage_devices"
+                app:attribute_icon="@drawable/ic_mobile_dark"
+                app:attribute_show_arrow="false"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/settingsActionButtonView" />
+
+            <styleguide.buttons.OptionActionButtonView
+                android:id="@+id/securityActionButtonView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_caption="@string/navigation_menu_security"
+                app:attribute_icon="@drawable/ic_secure_dark"
+                app:attribute_show_arrow="false"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/manageDevicesActionButtonView" />
+
+            <View
+                android:id="@+id/othersDividerView"
+                style="@style/DividerView"
+                android:layout_width="0dp"
+                android:layout_marginTop="@dimen/small_space"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/securityActionButtonView" />
+
+            <styleguide.buttons.OptionActionButtonView
+                android:id="@+id/whatsNewActionButtonView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_caption="@string/navigation_menu_whats_new"
+                app:attribute_icon="@drawable/ic_whats_new_dark"
+                app:attribute_show_arrow="false"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/othersDividerView" />
+
+            <styleguide.buttons.OptionActionButtonView
+                android:id="@+id/whatsAppActionButtonView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_caption="@string/navigation_chat_banking_menu"
+                app:attribute_icon="@drawable/ic_chat_banking"
+                app:attribute_show_arrow="false"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/whatsNewActionButtonView" />
+
+            <styleguide.buttons.OptionActionButtonView
+                android:id="@+id/helpActionButtonView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_caption="@string/navigation_menu_help"
+                app:attribute_icon="@drawable/ic_help_dark"
+                app:attribute_show_arrow="false"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/whatsAppActionButtonView" />
+
+            <styleguide.buttons.OptionActionButtonView
+                android:id="@+id/feedbackActionButtonView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_caption="@string/navigation_menu_feedback"
+                app:attribute_icon="@drawable/ic_feedback_dark"
+                app:attribute_show_arrow="false"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/helpActionButtonView" />
+
+            <styleguide.buttons.OptionActionButtonView
+                android:id="@+id/callMeBackOptionActionButtonView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_caption="@string/report_fraud"
+                app:attribute_icon="@drawable/ic_call_dark"
+                app:attribute_show_arrow="false"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/feedbackActionButtonView" />
+
+            <View
+                android:id="@+id/contactUsDividerView"
+                style="@style/DividerView"
+                android:layout_width="0dp"
+                android:layout_marginTop="@dimen/small_space"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/callMeBackOptionActionButtonView" />
+
+            <styleguide.buttons.OptionActionButtonView
+                android:id="@+id/contactUsActionButtonView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/small_space"
+                app:attribute_caption="@string/navigation_menu_contact_us"
+                app:attribute_icon="@drawable/ic_call_dark"
+                app:attribute_show_arrow="false"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/contactUsDividerView" />
+
+            <styleguide.buttons.OptionActionButtonView
+                android:id="@+id/branchLocatorActionButtonView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_caption="@string/navigation_menu_branch_locator"
+                app:attribute_icon="@drawable/ic_location_dark"
+                app:attribute_show_arrow="false"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/contactUsActionButtonView" />
+
+            <TextView
+                android:id="@+id/lastLoginTextView"
+                style="@style/SmallTextMediumDark"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginBottom="34dp"
+                android:gravity="center_horizontal"
+                android:paddingTop="@dimen/tiny_space"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/branchLocatorActionButtonView"
+                app:layout_constraintVertical_bias="1"
+                tools:text="App version: 5.2.1\nLast Login 2017-08-02" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

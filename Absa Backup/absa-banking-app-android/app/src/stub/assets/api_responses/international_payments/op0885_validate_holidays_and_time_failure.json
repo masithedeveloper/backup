@@ -1,0 +1,18 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0885",
+      "resCde": "00000",
+      "resMsg": "Success",
+      "serVer": "2.0"
+    },
+    "payData": {
+      "respDTO": {
+        "allowSWIFT": false,
+        "allowWU": false
+      },
+      "txnStatus": "Failure",
+      "txnMessage": "Payments/SendOrReceiveWesternUnionTransfer/Validation/CloseTime"
+    }
+  }
+}

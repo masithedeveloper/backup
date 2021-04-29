@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="personal_loan_title">Personal Loan</string>
+    <string name="personal_loan_preapproved_amount_description">You may qualify for a personal loan of up to %s</string>
+    <string name="personal_loan_non_preapproved_description">Set your dreams in motion with a personal loan</string>
+    <string name="personal_loan_description">We offer a wide range of personal loans up to R350 000.00, with flexible repayment terms of up to 84 months.\n\nSubject to either a credit or affordability assessment.</string>
+    <string name="personal_loan_learn_more">Learn more about personal loans at <u>absa.co.za</u></string>
+    <string name="personal_loan_call_to_confirm_your_details"> Absa will call you to confirm your details.</string>
+    <string name="persoal_loan_service_failure_title">Service Unavailable</string>
+    <string name="persoal_loan_service_failure_description">Unfortunately this service is not available at this time. Please contact Absa to continue.</string>
+    <string name="personal_loan_success_title">Application Received</string>
+    <string name="personal_loan_success_description_within_operating_hours">Absa will call you to confirm your details.</string>
+    <string name="personal_loan_success_description_outside_operating_hours">Absa will call you during operating hours to confirm your details.\n\n08:00 – 16:30 (Mon – Fri)\n08:00 – 13:00 (Sat)</string>
+    <string name="personal_loan_unable_to_continue_title">Unable to continue</string>
+    <string name="personal_loan_unable_to_continue_description">Unfortunately you are unable to continue your application on the app. Please visit your nearest branch to apply for a personal loan.</string>
+    <string name="personal_loan_link">https://www.absa.co.za/personal/loans/for-myself/personal-loan/</string>
+    <string name="personal_loan_clickable_hyperlink">absa.co.za</string>
+    <string name="personal_loan_call_absa_personal_loan">Call Absa Personal Loans</string>
+    <string name="personal_loan_call_number" translatable="false">0860 100 372</string>
+    <!--Personal loans hub-->
+    <string name="personal_loan_hub_account_number">Account number</string>
+    <string name="personal_loan_hub_available_advance">Available advance</string>
+    <string name="personal_loan_hub_instalment">Instalment</string>
+    <string name="personal_loan_hub_interest_rate">Interest rate</string>
+    <string name="personal_loan_hub_contract_date">Contract date</string>
+    <string name="personal_loan_hub_term">Term</string>
+    <string name="personal_loan_hub_remaining_term">Remaining term</string>
+    <string name="personal_loan_hub_repayment_day">Repayment day</string>
+    <string name="personal_loan_hub_product_description">Product description lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</string>
+    <string name="personal_loan_hub_current_balance">Current Balance</string>
+    <string name="personal_loan_hub_transfer">Transfer</string>
+    <string name="personal_loan_hub_info_tab">Info</string>
+    <string name="personal_loan_hub_arrears_amount">Arrears Amount</string>
+    <string name="personal_loan_hub_months">months</string>
+    <string name="personal_loan_hub_toolbar_title">Personal Loan</string>
+    <string name="personal_loan_hub_current_balance_not_available">Not available</string>
+    <string name="personal_loan_hub_statements">Statements</string>
+</resources>

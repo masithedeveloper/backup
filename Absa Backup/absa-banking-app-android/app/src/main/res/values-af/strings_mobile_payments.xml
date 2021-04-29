@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mobile_payments_title_mobile_payments">Mobiele betalings</string>
+    <string name="mobile_payments_scan_to_pay_successful">Suksesvol</string>
+    <string name="mobile_payments_scan_to_pay_successful_message">Jou instellings vir QR\u00a0Betalings is suksesvol opgedateer.</string>
+    <string name="mobile_payments_scan_to_pay_unsuccessful">Onsuksesvol</string>
+    <string name="mobile_payments_scan_to_pay_unsuccessful_message">Jou QR\u00a0Betalings instellings kon nie opgedateer word nie. Probeer asseblief later weer.</string>
+    <string name="mobile_payments_scan_to_pay_unsuccessful_invalid_card_message">Jou QR\u00a0Betalings instellings kon nie opgedateer word nie vir hierdie kaart. Kontak ons asseblief by 0800 111 155 vir meer inligting.</string>
+    <string name="mobile_payments_message">Kies watter funksie jy vir hierdie kaart wil aktiveer. Let daarop dat hierdie funksie jou toelaat om betalings met jou mobiele toestel te doen.</string>
+</resources>

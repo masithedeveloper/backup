@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lotto_select_account_to_pay_with">Which account would you like to pay with?</string>
+    <string name="lotto_select_account_to_pay_from_hint">Please select an account to pay from.</string>
+    <string name="lotto_your_number">Your mobile number</string>
+    <string name="lotto_number_description">Mobile number will be used to contact winners of R50 000 or more.</string>
+    <string name="lotto_i_agree_terms_and_conditions">I agree to the Terms &amp; Conditions</string>
+    <string name="lotto_terms_and_conditions">Terms &amp; Conditions</string>
+    <string name="lotto_step_indicator_text">Step %1$s/%2$s: %3$s</string>
+    <string name="lotto_current_total">Current Total:</string>
+    <string name="lotto_purchase_ticket">Purchase ticket</string>
+    <string name="lotto_enter_valid_number">Please enter valid phone number</string>
+    <string name="lotto_conditions_error_message">Please accept terms and conditions</string>
+    <string name="lotto_select_account">Please select account</string>
+    <string name="lotto_quick_pick" translatable="false">Quick Pick</string>
+    <string name="lotto_lotto_quick_pick" translatable="false">Lotto Quick Pick</string>
+    <string name="lotto_powerball_quick_pick" translatable="false">PowerBall Quick Pick</string>
+    <string name="lotto_play_lotto">Play Lotto</string>
+    <string name="lotto_view_lotto_results">View draw results</string>
+    <string name="lotto_purchased_tickets">Purchased tickets</string>
+    <string name="lotto_powerball" translatable="false">PowerBall</string>
+    <string name="lotto_powerball_plus" translatable="false">PowerBall Plus</string>
+    <string name="lotto" translatable="false">Lotto</string>
+    <string name="lotto_plus_one" translatable="false">Lotto Plus 1</string>
+    <string name="lotto_plus_two" translatable="false">Lotto Plus 2</string>
+    <string name="lotto_add_a_board">Add a board</string>
+    <string name="lotto_board">Board</string>
+    <string name="lotto_per_draw">per draw</string>
+    <string name="lotto_new_draw">Next Draw</string>
+    <string name="lotto_complete_game_boards">Complete at least 2 game boards</string>
+    <string name="lotto_complete_game_boards_step_indicator">Complete game boards</string>
+    <string name="lotto_additional_games">Would you like to enter additional games?</string>
+    <string name="lotto_times_to_play">How many times would you like to play?</string>
+    <string name="lotto_boards_to_play">How many boards would you like to play?</string>
+    <string name="lotto_draws_to_enter">How many draws would you like to enter?</string>
+    <string name="lotto_play_the_lotto">Play the Lotto</string>
+    <string name="lotto_play_powerball">Play PowerBall</string>
+    <string name="lotto_new_ticket">New Ticket</string>
+    <string name="lotto_lotto_and_powerball" translatable="false">Lotto &amp; PowerBall</string>
+    <string name="lotto_per_board">%s per board</string>
+    <string name="lotto_save_board">Save board</string>
+    <string name="lotto_board_name">Board %s</string>
+    <string name="lotto_choose_your_powerball">Choose your PowerBall</string>
+    <string name="lotto_clear">Clear</string>
+    <string name="lotto_success_description">You have bought a ticket for the upcoming %1$s on %2$s.\nRef: %3$s\n\nPhanda Phusha Play!</string>
+    <string name="lotto_entries">Lotto Entries</string>
+    <string name="lotto_purchase_successful">Lotto Purchase Successful</string>
+    <string name="lotto_powerball_purchase_successful">PowerBall Purchase Successful</string>
+    <string name="lotto_result_screen_image" translatable="false">Result screen image</string>
+    <string name="lotto_lotto_tickets">Lotto Tickets</string>
+    <string name="lotto_lotto_ticket">%s Ticket</string>
+    <string name="lotto_powerball_ticket">PowerBall Tickets</string>
+    <string name="lotto_results">Results:</string>
+    <string name="lotto_results_date">%1$s Results %2$s</string>
+    <string name="lotto_no_tickets_alert">No lotto ticket for selected range</string>
+    <string name="lotto_calender_search_content_description" translatable="false">Calender search icon</string>
+    <string name="lotto_draw_information">Draw Information</string>
+    <string name="lotto_replay_ticket">Replay Ticket</string>
+    <string name="lotto_choose_numbers_title">Choose %s Numbers</string>
+    <string name="lotto_action_button_title" translatable="false">Lotto &amp; PowerBall</string>
+    <string name="lotto_game_results">Game Results</string>
+    <string name="lotto_place_bet">Set up your game</string>
+    <string name="lotto_confirm_ticket">Confirm your ticket</string>
+    <string name="lotto_choose_additional">Choose additional game</string>
+    <string name="lotto_not_available_header">Not available</string>
+    <string name="lotto_not_available_content">Sorry, Lotto is not available at the moment. Operating hours are ...</string>
+    <string name="lotto_menu_entry" translatable="false">Lotto &amp; PowerBall</string>
+
+    <string name="lotto_ticket">Ticket</string>
+    <string name="lotto_draws">Draws</string>
+    <string name="lotto_draw">Draw</string>
+    <string name="lotto_boards">Boards</string>
+
+    <string name="lotto_ticket_description" translatable="false">%1$s • %2$s %3$s • %4$s %5$s\n%6$s</string>
+    <string name="lotto_ticket_description_no_amount" translatable="false">%1$s %2$s • %3$s %4$s\n%5$s</string>
+    <string name="lotto_number_of_entries">Number of Entries</string>
+    <string name="lotto_closed">%1$s entries have closed and will re-open at %2$s.</string>
+    <string name="lotto_unable_complete_purchase">Unable to complete %s purchase</string>
+
+    <string name="lotto_close_soon">%1$s entries close today at %2$s</string>
+
+    <string name="lotto_second">Second</string>
+    <string name="lotto_seconds">Seconds</string>
+    <string name="lotto_hour">Hour</string>
+    <string name="lotto_minute">Minute</string>
+    <string name="lotto_hours">Hours</string>
+    <string name="lotto_minutes">Minutes</string>
+    <string name="lotto_days">Days</string>
+    <string name="lotto_day">Day</string>
+    <string name="lotto_draw_in_progress">Draw in Progress</string>
+
+    <string name="lotto_draw_results">Draw Results:</string>
+    <string name="lotto_winnings">Lotto winnings</string>
+    <string name="lotto_ticket_boards">Ticket boards</string>
+    <string name="lotto_game_type_and_number_of_draws">%s (%d Draws)</string>
+    <string name="lotto_number_of_boards">%d Boards</string>
+    <string name="lotto_select_draw">Select a draw</string>
+    <string name="lotto_please_select_all_balls">Please select all lotto balls.</string>
+
+    <string name="lotto_play_responsibly">Please play responsibly</string>
+    <string name="lotto_discard_board_message">Would you like to discard this game board?</string>
+    <string name="lotto_discard_changes_board_message">Would you like to discard your changes?</string>
+    <string name="lotto_discard_changes_board_title">Discard changes?</string>
+    <string name="lotto_discard_board_title">Discard game board?</string>
+    <string name="lotto_upcoming_draw_results">Upcoming draw results</string>
+
+    <string name="lotto_draw_tickets">Draw Tickets</string>
+    <string name="lotto_draw_no">Draw #%s</string>
+    <string name="lotto_active_lotto_entries">%s active entries</string>
+    <string name="lotto_please_complete_board">Please complete Board %s</string>
+    <string name="lotto_minimum_boards_played">A minimum of 2 boards must be played</string>
+    <string name="lotto_purchase_limit_exceeded">Lotto purchase limit exceeded</string>
+    <string name="lotto_purchase_draw_number">Draw %d (%s)</string>
+    <string name="lotto_client_agreement_have_accepted">I have accepted the <u> %s </u> previously.</string>
+    <string name="lotto_ticket_reference">Ticket reference number</string>
+
+    <string name="lotto_no_winner">No winners\n-</string>
+    <string name="lotto_one_winner">%1$s Winner of\n%2$s</string>
+    <string name="lotto_multiple_winners">%1$s Winner:\n%2$s</string>
+    <string name="lotto_div_label">Div %1$s:\nMatch %2$s</string>
+    <string name="lotto_winners">Lotto winners</string>
+    <string name="lotto_powerball_winners">PowerBall winners</string>
+    <string name="lotto_total_pool">Total pool</string>
+    <string name="lotto_rollover_amount">Rollover amount</string>
+
+    <string name="lotto_plus_powerball" translatable="false">+ PowerBall</string>
+    <string name="lotto_plus_bonus" translatable="false">+ Bonus</string>
+
+    <string name="lotto_unavailable">Lotto unavailable</string>
+    <string name="lotto_non_citizen_error_message">Unfortunately the lotto feature is only available for South African citizens with a valid ID document.</string>
+</resources>

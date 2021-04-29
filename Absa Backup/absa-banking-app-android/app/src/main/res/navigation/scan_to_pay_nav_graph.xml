@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scan_to_pay_nav_graph"
+    app:startDestination="@id/scanToPayCardActivationListFragment">
+
+    <fragment
+        android:id="@+id/scanToPayScanningFragment"
+        android:name="com.barclays.absa.banking.virtualpayments.scan2Pay.ui.views.ScanToPayScanningFragment"
+        android:label="scanToPayScanningFragment"
+        tools:layout="@layout/fragment_scan_to_pay_scanning">
+        <action
+            android:id="@+id/action_scanToPayScanningFragment_to_scanToPayUniqueCodeFragment"
+            app:destination="@id/scanToPayUniqueCodeFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <action
+            android:id="@+id/action_scanToPayScanningFragment_to_scanToPayPaymentFragment"
+            app:destination="@id/scanToPayPaymentFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout"
+            app:popUpToInclusive="false" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/scanToPayUniqueCodeFragment"
+        android:name="com.barclays.absa.banking.virtualpayments.scan2Pay.ui.views.ScanToPayUniqueCodeFragment"
+        android:label="scanToPayUniqueCodeFragment"
+        tools:layout="@layout/fragment_unique_code_payment">
+        <action
+            android:id="@+id/action_scanToPayUniqueCodeFragment_to_scanToPayPaymentFragment"
+            app:destination="@id/scanToPayPaymentFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/scanToPayCardActivationListFragment"
+        android:name="com.barclays.absa.banking.virtualpayments.scan2Pay.ui.views.ScanToPayCardActivationListFragment"
+        android:label="ScanToPayCardActivationListFragment"
+        tools:layout="@layout/fragment_scan_to_pay_card_activation_list">
+        <action
+            android:id="@+id/action_scanToPayCardActivationListFragment_to_scanToPayCardActivatedFragment"
+            app:destination="@id/scanToPayCardActivatedFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout"
+            app:popUpTo="@id/scanToPayCardActivationListFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_scanToPayCardActivationListFragment_to_scanToPayScanningFragment"
+            app:destination="@id/scanToPayScanningFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout"
+            app:popUpTo="@id/scanToPayCardActivationListFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_scanToPayCardActivationListFragment_to_emptyListGenericResultScreenFragment"
+            app:destination="@id/emptyListGenericResultScreenFragment"
+            app:popUpTo="@id/scanToPayCardActivationListFragment"
+            app:popUpToInclusive="true" />
+        <argument
+            android:name="activateAnotherCard"
+            app:argType="boolean" />
+        <action
+            android:id="@+id/action_scanToPayCardActivationListFragment_to_scanToPayTermsOfUseFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout"
+            app:destination="@id/scanToPayTermsOfUseFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/scanToPayCardActivatedFragment"
+        android:name="com.barclays.absa.banking.virtualpayments.scan2Pay.ui.views.ScanToPayCardActivatedFragment"
+        android:label="ScanToPayCardActivatedFragment"
+        tools:layout="@layout/fragment_scan_to_pay_card_activated">
+        <action
+            android:id="@+id/action_scanToPayCardActivatedFragment_to_scanToPayScanningFragment"
+            app:destination="@id/scanToPayScanningFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout"
+            app:popUpTo="@id/scanToPayCardActivatedFragment"
+            app:popUpToInclusive="true" />
+        <argument
+            android:name="lastCardActivated"
+            app:argType="boolean" />
+        <action
+            android:id="@+id/action_scanToPayCardActivatedFragment_to_scanToPayCardActivationListFragment"
+            app:destination="@id/scanToPayCardActivationListFragment"
+            app:popUpTo="@id/scanToPayCardActivatedFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/scanToPayPaymentSplitFragment"
+        android:name="com.barclays.absa.banking.virtualpayments.scan2Pay.ui.views.ScanToPayPaymentSplitFragment"
+        android:label="ScanToPayPaymentSplitFragment"
+        tools:layout="@layout/fragment_scan_to_pay_payment_split" />
+    <fragment
+        android:id="@+id/scanToPayPaymentFragment"
+        android:name="com.barclays.absa.banking.virtualpayments.scan2Pay.ui.views.ScanToPayPaymentFragment"
+        android:label="ScanToPayPaymentFragment"
+        tools:layout="@layout/fragment_scan_to_pay_payment">
+        <action
+            android:id="@+id/action_scanToPayPaymentFragment_to_scanToPayPaymentSplitFragment"
+            app:destination="@id/scanToPayPaymentSplitFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <action
+            android:id="@+id/action_scanToPayPaymentFragment_to_genericResultScreenFragment"
+            app:destination="@id/genericResultScreenFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <action
+            android:id="@+id/action_scanToPayPaymentFragment_to_scanToPayAuthCardSelectionFragment"
+            app:destination="@id/scanToPayAuthCardSelectionFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/genericResultScreenFragment"
+        android:name="styleguide.screens.GenericResultScreenFragment"
+        android:label="GenericResultScreenFragment"
+        tools:layout="@layout/generic_results_screen_fragment">
+        <argument
+            android:name="GenericResultScreenFragment"
+            app:argType="styleguide.screens.GenericResultScreenProperties" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/emptyListGenericResultScreenFragment"
+        android:name="styleguide.screens.GenericResultScreenFragment"
+        android:label="GenericResultScreenFragment"
+        tools:layout="@layout/generic_results_screen_fragment">
+        <argument
+            android:name="GenericResultScreenFragment"
+            app:argType="styleguide.screens.GenericResultScreenProperties" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/scanToPayTermsOfUseFragment"
+        android:name="com.barclays.absa.banking.virtualpayments.scan2Pay.ui.views.ScanToPayTermsOfUseFragment"
+        android:label="ScanToPayTermsOfUseFragment"
+        tools:layout="@layout/fragment_scan_to_pay_terms_of_use"/>
+    <fragment
+        android:id="@+id/scanToPayAuthCardSelectionFragment"
+        android:name="com.barclays.absa.banking.virtualpayments.scan2Pay.ui.views.ScanToPayAuthCardSelectionFragment"
+        android:label="ScanToPayAuthCardSelectionFragment"
+        tools:layout="@layout/fragment_scan_to_pay_auth_card_selection" />
+
+</navigation>

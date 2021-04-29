@@ -1,0 +1,293 @@
+{
+  "header": {
+    "statuscode": "0",
+    "service": "TransactionHistoryFacade",
+    "operation": "GetTransactionHistory",
+    "timestamp": "2020-02-10 06:14:32.906",
+    "resultMessages": [
+    ]
+  },
+  "transactionHistory": {
+    "availableBalance": "5047205684436.71",
+    "currentBalance": "55047205684436.71",
+    "firstLineTxAmount": "84.23",
+    "firstLineTxBalanceAmount": "3734238754306.32",
+    "fromAccount": 4047995967,
+    "sortFields": [
+      {
+        "name": "transactionDate",
+        "sortDirection": "DESC",
+        "stringContainsNumericData": false,
+      "nameIsForEnum": false
+    }, {
+      "name": "lineNumber",
+      "sortDirection": "DESC",
+      "stringContainsNumericData": false,
+      "nameIsForEnum": false
+    }],
+    "fromAccountName": "Current account",
+    "fromAccountType": "Current",
+    "fromDate": "2020-02-06",
+    "toDate": "2020-03-05",
+    "unclearedEffectsAmount": "0.00",
+    "unclearedEffectsEnabled": false,
+    "unclearedEffectsExist": false,
+    "powerOfAttorney": false,
+    "stampedTransactionHistory": false,
+    "accountHistoryLines": [{
+      "balanceAmount": "5047205684436.71",
+      "descriptionLine1": "CASH DEP BRANCH     TEST CENTR",
+      "descriptionLine2": "",
+      "descriptionLine3": "",
+      "lineNumber": 22,
+      "transactionAmount": "999999999999.00",
+      "transactionDate": "2020-03-03",
+      "transactionDescription": "CASH DEP BRANCH     TEST CENTR",
+      "transactionFee": "0.00",
+      "transactionCategory": 1
+    }, {
+      "balanceAmount": "5047205684437.71",
+      "descriptionLine1": "CASH DEP BRANCH     TEST CENTR",
+      "descriptionLine2": "",
+      "descriptionLine3": "",
+      "lineNumber": 21,
+      "transactionAmount": "999999999999.00",
+      "transactionDate": "2020-03-03",
+      "transactionDescription": "CASH DEP BRANCH     TEST CENTR",
+      "transactionFee": "0.00",
+      "transactionCategory": 1
+    }, {
+      "balanceAmount": "5047205684438.71",
+      "descriptionLine1": "CASH DEP BRANCH     TEST CENTR",
+      "descriptionLine2": "",
+      "descriptionLine3": "",
+      "lineNumber": 20,
+      "transactionAmount": "999999999999.00",
+      "transactionDate": "2020-03-03",
+      "transactionDescription": "CASH DEP BRANCH     TEST CENTR",
+      "transactionFee": "0.00",
+      "transactionCategory": 0
+    }, {
+      "balanceAmount": "5047205684439.71",
+      "descriptionLine1": "CASH DEP BRANCH     TEST CENTR",
+      "descriptionLine2": "",
+      "descriptionLine3": "",
+      "lineNumber": 19,
+      "transactionAmount": "999999999999.00",
+      "transactionDate": "2020-03-03",
+      "transactionDescription": "CASH DEP BRANCH     TEST CENTR",
+      "transactionFee": "0.00",
+      "transactionCategory": 0
+    }, {
+      "balanceAmount": "5047205684440.71",
+      "descriptionLine1": "CASH DEP BRANCH     TEST CENTR",
+      "descriptionLine2": "",
+      "descriptionLine3": "",
+      "lineNumber": 18,
+      "transactionAmount": "999999999999.00",
+      "transactionDate": "2020-03-03",
+      "transactionDescription": "CASH DEP BRANCH     TEST CENTR",
+      "transactionFee": "0.00",
+      "transactionCategory": 0
+    }, {
+      "balanceAmount": "5047205684441.71",
+      "descriptionLine1": "CASH DEP BRANCH     TEST CENTR",
+      "descriptionLine2": "",
+      "descriptionLine3": "",
+      "lineNumber": 17,
+      "transactionAmount": "999999999999.00",
+      "transactionDate": "2020-03-03",
+      "transactionDescription": "CASH DEP BRANCH     TEST CENTR",
+      "transactionFee": "0.00",
+      "transactionCategory": 0
+    }, {
+      "balanceAmount": "4047205684442.71",
+      "descriptionLine1": "CASH DEP BRANCH     TEST CENTR",
+      "descriptionLine2": "",
+      "descriptionLine3": "",
+      "lineNumber": 16,
+      "transactionAmount": "99999999999.00",
+      "transactionDate": "2020-03-03",
+      "transactionDescription": "CASH DEP BRANCH     TEST CENTR",
+      "transactionFee": "0.00",
+      "transactionCategory": 0
+    }, {
+      "balanceAmount": "3947205684443.71",
+      "descriptionLine1": "CASH DEP BRANCH     TEST CENTR",
+      "descriptionLine2": "",
+      "descriptionLine3": "",
+      "lineNumber": 15,
+      "transactionAmount": "99999999999.00",
+      "transactionDate": "2020-03-03",
+      "transactionDescription": "CASH DEP BRANCH     TEST CENTR",
+      "transactionFee": "0.00",
+      "transactionCategory": 0
+    }, {
+      "balanceAmount": "3847205684444.71",
+      "descriptionLine1": "CASH DEP BRANCH     TEST CENTR",
+      "descriptionLine2": "",
+      "descriptionLine3": "",
+      "lineNumber": 14,
+      "transactionAmount": "9999999999.00",
+      "transactionDate": "2020-03-03",
+      "transactionDescription": "CASH DEP BRANCH     TEST CENTR",
+      "transactionFee": "0.00",
+      "transactionCategory": 0
+    }, {
+      "balanceAmount": "3837205684445.71",
+      "descriptionLine1": "CASH DEP BRANCH     TEST CENTR",
+      "descriptionLine2": "",
+      "descriptionLine3": "",
+      "lineNumber": 13,
+      "transactionAmount": "999999999999.00",
+      "transactionDate": "2020-03-03",
+      "transactionDescription": "CASH DEP BRANCH     TEST CENTR",
+      "transactionFee": "0.00",
+      "transactionCategory": 0
+    }, {
+      "balanceAmount": "2837205684446.71",
+      "descriptionLine1": "IBANK PAYMENT TO",
+      "descriptionLine2": "ABSA BANK Thando2",
+      "descriptionLine3": "",
+      "lineNumber": 12,
+      "transactionAmount": "-900000000000.00",
+      "transactionDate": "2020-03-03",
+      "transactionDescription": "IBANK PAYMENT TO ABSA BANK Thando2",
+      "transactionFee": "0.00",
+      "transactionCategory": 0
+    }, {
+      "balanceAmount": "737205684446.71",
+      "descriptionLine1": "MONTHLY ACC FEE",
+      "descriptionLine2": "(EFFEC 01032020) SEE CHARGE STATEMENT DETAIL",
+      "descriptionLine3": "",
+      "lineNumber": 11,
+      "transactionAmount": "-50.00",
+      "transactionDate": "2020-03-02",
+      "transactionDescription": "MONTHLY ACC FEE (EFFEC 01032020) SEE CHARGE STATEMENT DETAIL",
+      "transactionFee": "0.00",
+      "transactionCategory": 0
+    }, {
+      "balanceAmount": "3737205684496.71",
+      "descriptionLine1": "INVESTMNT INTEREST",
+      "descriptionLine2": "ABSA BANK 2049677824",
+      "descriptionLine3": "",
+      "lineNumber": 10,
+      "transactionAmount": "37.54",
+      "transactionDate": "2020-03-01",
+      "transactionDescription": "INVESTMNT INTEREST ABSA BANK 2049677824",
+      "transactionFee": "0.00",
+      "transactionCategory": 0
+    }, {
+      "balanceAmount": "3737205684459.17",
+      "descriptionLine1": "INVESTMNT INTEREST",
+      "descriptionLine2": "ABSA BANK 2049677654",
+      "descriptionLine3": "",
+      "lineNumber": 9,
+      "transactionAmount": "41.46",
+      "transactionDate": "2020-03-01",
+      "transactionDescription": "INVESTMNT INTEREST ABSA BANK 2049677654",
+      "transactionFee": "0.00",
+      "transactionCategory": 0
+    }, {
+      "balanceAmount": "3737205684417.71",
+      "descriptionLine1": "INVESTMNT INTEREST",
+      "descriptionLine2": "ABSA BANK 2049677840",
+      "descriptionLine3": "",
+      "lineNumber": 8,
+      "transactionAmount": "12.87",
+      "transactionDate": "2020-03-01",
+      "transactionDescription": "INVESTMNT INTEREST ABSA BANK 2049677840",
+      "transactionFee": "0.00",
+      "transactionCategory": 0
+    }, {
+      "balanceAmount": "3737205684404.84",
+      "descriptionLine1": "INVESTMNT INTEREST",
+      "descriptionLine2": "ABSA BANK 2049677646",
+      "descriptionLine3": "",
+      "lineNumber": 7,
+      "transactionAmount": "103.67",
+      "transactionDate": "2020-03-01",
+      "transactionDescription": "INVESTMNT INTEREST ABSA BANK 2049677646",
+      "transactionFee": "0.00",
+      "transactionCategory": 0
+    }, {
+      "balanceAmount": "3737205684301.17",
+      "descriptionLine1": "INVESTMNT INTEREST",
+      "descriptionLine2": "ABSA BANK 2049677701",
+      "descriptionLine3": "",
+      "lineNumber": 6,
+      "transactionAmount": "450.89",
+      "transactionDate": "2020-03-01",
+      "transactionDescription": "INVESTMNT INTEREST ABSA BANK 2049677701",
+      "transactionFee": "0.00",
+      "transactionCategory": 0
+    }, {
+      "balanceAmount": "737205683850.28",
+      "descriptionLine1": "CREDIT INTEREST",
+      "descriptionLine2": "",
+      "descriptionLine3": "",
+      "lineNumber": 5,
+      "transactionAmount": "2966929421.16",
+      "transactionDate": "2020-03-01",
+      "transactionDescription": "CREDIT INTEREST",
+      "transactionFee": "0.00",
+      "transactionCategory": 0
+    }, {
+      "balanceAmount": "3734238754429.12",
+      "descriptionLine1": "INVESTMNT INTEREST",
+      "descriptionLine2": "ABSA BANK 2049678595",
+      "descriptionLine3": "",
+      "lineNumber": 4,
+      "transactionAmount": "77.86",
+      "transactionDate": "2020-02-26",
+      "transactionDescription": "INVESTMNT INTEREST ABSA BANK 2049678595",
+      "transactionFee": "0.00",
+      "transactionCategory": 0
+    }, {
+      "balanceAmount": "3734238754351.26",
+      "descriptionLine1": "INVESTMNT INTEREST",
+      "descriptionLine2": "ABSA BANK 2049677612",
+      "descriptionLine3": "",
+      "lineNumber": 3,
+      "transactionAmount": "1.03",
+      "transactionDate": "2020-02-21",
+      "transactionDescription": "INVESTMNT INTEREST ABSA BANK 2049677612",
+      "transactionFee": "0.00",
+      "transactionCategory": 0
+    }, {
+      "balanceAmount": "3734238754350.23",
+      "descriptionLine1": "INVESTMNT INTEREST",
+      "descriptionLine2": "ABSA BANK 2049677612",
+      "descriptionLine3": "",
+      "lineNumber": 2,
+      "transactionAmount": "10.21",
+      "transactionDate": "2020-02-18",
+      "transactionDescription": "INVESTMNT INTEREST ABSA BANK 2049677612",
+      "transactionFee": "0.00",
+      "transactionCategory": 0
+    }, {
+      "balanceAmount": "3734238754340.02",
+      "descriptionLine1": "INVESTMNT INTEREST",
+      "descriptionLine2": "ABSA BANK 2049677654",
+      "descriptionLine3": "",
+      "lineNumber": 1,
+      "transactionAmount": "33.70",
+      "transactionDate": "2020-02-14",
+      "transactionDescription": "INVESTMNT INTEREST ABSA BANK 2049677654",
+      "transactionFee": "0.00",
+      "transactionCategory": 0
+    }, {
+      "balanceAmount": "3734238754306.32",
+      "descriptionLine1": "INVESTMNT INTEREST",
+      "descriptionLine2": "ABSA BANK 2049677646",
+      "descriptionLine3": "",
+      "lineNumber": 0,
+      "transactionAmount": "84.23",
+      "transactionDate": "2020-02-14",
+      "transactionDescription": "INVESTMNT INTEREST ABSA BANK 2049677646",
+      "transactionFee": "0.00",
+      "transactionCategory": 0
+    }]
+  },
+  "pendingProxyTransactionLines": []
+}

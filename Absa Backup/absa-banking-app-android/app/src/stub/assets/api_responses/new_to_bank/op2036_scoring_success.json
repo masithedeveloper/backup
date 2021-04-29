@@ -1,0 +1,17 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES2036",
+      "resCde": "00000",
+      "resMsg": "Success",
+      "serVer": "2.0",
+      "expTrace": null
+    },
+    "payData": {
+      "scoringStatus": "PRE_APPROVED",
+      "accountNumber": "4048023187",
+      "txnStatus": "Success",
+      "txnMessage": "Success"
+    }
+  }
+}

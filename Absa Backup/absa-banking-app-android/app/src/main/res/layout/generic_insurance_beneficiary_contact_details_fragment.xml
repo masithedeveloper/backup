@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scrollView"
+    style="@style/ScrollView">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/addressLineOneNormalInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:digits="@string/manage_policy_beneficiaries_allowed_characters_digits"
+            android:maxLength="50"
+            app:attribute_hint_text="@string/manage_policy_beneficiary_address_line_1_hint"
+            app:attribute_selector_type="NONE"
+            app:attribute_title_text="@string/manage_policy_beneficiaries_address"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/addressLineTwoNormalInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:digits="@string/manage_policy_beneficiaries_allowed_characters_digits"
+            android:maxLength="50"
+            app:attribute_hint_text="@string/manage_policy_beneficiary_address_line_2_hint"
+            app:attribute_selector_type="NONE"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/addressLineOneNormalInputView" />
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/suburbNormalInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:digits="@string/manage_policy_beneficiaries_allowed_characters"
+            android:maxLength="50"
+            app:attribute_hint_text="@string/manage_policy_beneficiaries_suburb_hint"
+            app:attribute_selector_type="NONE"
+            app:attribute_title_text="@string/manage_policy_beneficiaries_suburb"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/addressLineTwoNormalInputView" />
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/cityNormalInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:maxLength="50"
+            app:attribute_hint_text="@string/manage_policy_beneficiaries_city_hint"
+            app:attribute_selector_type="LONG_LIST"
+            app:attribute_title_text="@string/manage_policy_beneficiaries_city_postal_code"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/suburbNormalInputView" />
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/contactNumberNormalInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:maxLength="12"
+            app:attribute_mask="### ### ####"
+            app:attribute_hint_text="@string/manage_policy_beneficiaries_number_hint"
+            app:attribute_title_text="@string/manage_policy_beneficiaries_contact_number"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/cityNormalInputView" />
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/emailAddressNumberNormalInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:maxLength="50"
+            app:attribute_hint_text="@string/manage_policy_beneficiaries_email_address_hint"
+            app:attribute_selector_type="NONE"
+            app:attribute_title_text="@string/manage_policy_beneficiaries_email_address"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/contactNumberNormalInputView" />
+
+        <Button
+            android:id="@+id/continueButton"
+            style="@style/PrimaryButton"
+            android:text="@string/continue_button"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/emailAddressNumberNormalInputView"
+            app:layout_constraintVertical_bias="1" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

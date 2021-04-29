@@ -1,0 +1,98 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0842",
+      "resCde": "00000",
+      "resMsg": "Success",
+      "serVer": "2.0"
+    },
+    "payData": {
+      "account": {
+        "id": "0",
+        "allowPayment": false,
+        "accountName": "CREDIT ACCOUNT",
+        "accountNo": "5471200032756012",
+        "hostProductType": null,
+        "available": {
+          "curr": "R",
+          "amt": "299,770.00"
+        },
+        "balance": {
+          "curr": "R",
+          "amt": "4,500.00"
+        },
+        "unclearedAmt": "500.0",
+        "limit": "10,000",
+        "openedDate": 1486591200000,
+        "options": null,
+        "accessBits": "0",
+        "accessTypeBits": "0",
+        "powerOfAttorney": false,
+        "status": null,
+        "product": null,
+        "productType": null,
+        "branch": null,
+        "corp": null,
+        "dateClosed": null,
+        "accountBalance": {
+          "curr": "R",
+          "amt": "4,500.00"
+        },
+        "availableBalance": {
+          "curr": "R",
+          "amt": "4,500.00"
+        },
+        "existingOverdraftLimit": "0",
+        "productCode": null,
+        "withdrawalPerc": null,
+        "noticePeriod": null,
+        "liqEffDateOut": null,
+        "perEffDateOut": null,
+        "effDateFalg": false,
+        "noticePeriodDays": null,
+        "liquidityPreference": null,
+        "investTerm": null,
+        "investAmount": null,
+        "rateOption": null,
+        "nettposition": 0.0,
+        "accountTypeId": null,
+        "accountTypeName": "creditCard",
+        "accountTypedescription": "CREDIT CARD",
+        "drInterestRate": "20.75",
+        "crInterestRate": "0.2",
+        "creditLimit": "10,000",
+        "expiryDate": "2020-02-01",
+        "arrearAmount": {
+          "curr": "R",
+          "amt": "0.00"
+        },
+        "fullAmountPayable": {
+          "curr": "R",
+          "amt": "0.00"
+        },
+        "fullAmountPayableLastStatementDate": null,
+        "fullAmountPayableExcludingPayments": null,
+        "minimumAmountPayable": {
+          "curr": "R",
+          "amt": "200.00"
+        },
+        "paymentDueDate": "2017-05-10",
+        "straightBalance": {
+          "curr": "R",
+          "amt": "154,835.05"
+        },
+        "budgetedBalance": {
+          "curr": "R",
+          "amt": "0.00"
+        },
+        "authorisedAmount": {
+          "curr": "R",
+          "amt": "0.00"
+        },
+        "authorisedAmountUnclearedDeposits": null
+      },
+      "txnStatus": "Success",
+      "txnMessage": "Success"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "header": {
+    "statuscode": "0",
+    "userAgent": "ANDROID - 6.18.1",
+    "wfpt": null,
+    "jsessionid": "mQbVe3ZNnr2UNA2tYwX69tmY01Ji_QdkBDJvCEH8",
+    "esessionid": null,
+    "xfpt": null,
+    "service": "SaveAndInvestAccountFacade",
+    "operation": "ExistingCustomerCreateAndLinkAccountDetails",
+    "channel": null,
+    "timestamp": "2020-12-01 09:53:28.777",
+    "sourceip": "22.147.145.112",
+    "accessAccount": "9051153469",
+    "userNumber": "1",
+    "nonce": "iEeyzB0j96i1W7Z7Zd-PwDbTQDGx3WZyv33ZBSx2DCA",
+    "language": "en",
+    "organization": null,
+    "brand": null,
+    "applicationId": null,
+    "applicationKeyId": null,
+    "requestToken": null,
+    "resultMessages": [],
+    "paginationContext": null
+  },
+  "createAndLinkAccountOutputVO": {
+    "accountNumber": 9051363652,
+    "accountCreated": true,
+    "payOutIndicator": "Y",
+    "accountLinked": true
+  }
+}

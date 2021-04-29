@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        style="@style/ScrollView"
+        android:background="?android:windowBackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <styleguide.content.DescriptionView
+                android:id="@+id/tellUsAboutIncomeDescriptionView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/medium_space"
+                android:gravity="start"
+                app:attribute_description="@string/new_to_bank_tell_us_about_your_income"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/totalMonthlyIncomeNormalInputView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_hint_text="@string/new_to_bank_rand_symbol"
+                app:attribute_selector_type="CURRENCY"
+                app:attribute_title_text="@string/new_to_bank_monthly_income_before_tax"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tellUsAboutIncomeDescriptionView" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/totalMonthlyExpensesNormalInputView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_hint_text="@string/new_to_bank_rand_symbol"
+                app:attribute_selector_type="CURRENCY"
+                app:attribute_title_text="@string/new_to_bank_total_monthly_expenses"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/totalMonthlyIncomeNormalInputView" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/accountFundingMethodNormalInputView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_hint_text="@string/new_to_bank_how_will_you_fund_this_account"
+                app:attribute_selector_type="LONG_LIST"
+                app:attribute_title_text="@string/new_to_bank_how_will_you_fund_this_account"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/totalMonthlyExpensesNormalInputView" />
+
+            <styleguide.buttons.Button
+                android:id="@+id/submitButton"
+                style="@style/PrimaryButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/next"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/accountFundingMethodNormalInputView"
+                app:layout_constraintVertical_bias="1" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</layout>

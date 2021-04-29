@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/header_dark" />
+
+        <styleguide.bars.ProgressIndicatorView
+            android:id="@+id/claimsDetailsProgressIndicator"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/medium_space"
+            android:layout_marginEnd="@dimen/medium_space"
+            android:layout_marginStart="@dimen/medium_space"
+            app:attribute_next_step="2"
+            app:attribute_previous_step="1"
+            app:attribute_steps="4"
+            app:layout_constraintBottom_toTopOf="@+id/claimsContentScrollView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/toolbar" />
+
+        <ScrollView
+            android:id="@+id/claimsContentScrollView"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="@dimen/medium_space"
+            app:layout_constraintBottom_toTopOf="@+id/continueButton"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/toolbar">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <styleguide.forms.NormalInputView
+                    android:id="@+id/incidentDateNormalInputView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:attribute_editable="false"
+                    app:attribute_hint_text="@string/incident_date"
+                    app:attribute_image="@drawable/ic_calendar_dark"
+                    app:attribute_selector_type="DATE"
+                    app:attribute_title_text="@string/incident_date" />
+
+                <styleguide.forms.NormalInputView
+                    android:id="@+id/insuredPropertyAddressNormalInputView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:attribute_editable="false"
+                    app:attribute_hint_text="@string/insured_property"
+                    app:attribute_selector_type="SHORT_LIST"
+                    app:attribute_title_text="@string/insured_property" />
+
+                <styleguide.forms.NormalInputView
+                    android:id="@+id/typeOfClaimNormalInputView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:attribute_editable="false"
+                    app:attribute_hint_text="@string/select_one"
+                    app:attribute_selector_type="SHORT_LIST"
+                    app:attribute_title_text="@string/type_of_claim" />
+
+                <styleguide.bars.ToggleView
+                    android:id="@+id/itemAffectedToggleView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:attribute_toggle_text="@string/item_fixed_text" />
+
+                <styleguide.bars.ToggleView
+                    android:id="@+id/additionalDamagesToggleView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:attribute_toggle_text="@string/additional_damages_over_view" />
+
+                <styleguide.forms.RoundedSelectorView
+                    android:id="@+id/additionalDamagesRoundedSelectorView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    app:attribute_hint_text="@string/select_one_more"
+                    app:attribute_selector_type="LONG_LIST" />
+
+                <TextView
+                    android:id="@+id/excessAmountPayableTextView"
+                    style="@style/SmallTextRegularDark"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/medium_space"
+                    android:layout_marginStart="@dimen/medium_space"
+                    android:text="@string/excess_amount_payable" />
+
+                <styleguide.buttons.OptionActionButtonView
+                    android:id="@+id/downloadExcessActionButtonView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/medium_space"
+                    android:clickable="true"
+                    android:focusable="true"
+                    app:attribute_caption="@string/excess_document"
+                    app:attribute_icon="@drawable/ic_document"
+                    app:attribute_show_arrow="true" />
+            </LinearLayout>
+
+        </ScrollView>
+
+        <styleguide.buttons.Button
+            android:id="@+id/continueButton"
+            style="@style/PrimaryButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/medium_space"
+            android:enabled="false"
+            android:text="@string/continue_button"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/claimsContentScrollView" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

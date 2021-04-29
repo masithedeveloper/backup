@@ -1,0 +1,89 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0861",
+      "resCde": "00000",
+      "resMsg": "Success",
+      "serVer": "2.0",
+      "expTrace": null
+    },
+    "payData": {
+      "lookups": [
+        {
+          "itemCode": "A",
+          "groupCode": "HOME LANG",
+          "cmsKey": null,
+          "defaultLabel": "AFRIKAANS"
+        },
+        {
+          "itemCode": "D",
+          "groupCode": "HOME LANG",
+          "cmsKey": null,
+          "defaultLabel": "NDEBELE"
+        },
+        {
+          "itemCode": "E",
+          "groupCode": "HOME LANG",
+          "cmsKey": null,
+          "defaultLabel": "ENGLISH"
+        },
+        {
+          "itemCode": "G",
+          "groupCode": "HOME LANG",
+          "cmsKey": null,
+          "defaultLabel": "TSONGA"
+        },
+        {
+          "itemCode": "N",
+          "groupCode": "HOME LANG",
+          "cmsKey": null,
+          "defaultLabel": "NORTH SOTHO"
+        },
+        {
+          "itemCode": "O",
+          "groupCode": "HOME LANG",
+          "cmsKey": null,
+          "defaultLabel": "OTHER"
+        },
+        {
+          "itemCode": "S",
+          "groupCode": "HOME LANG",
+          "cmsKey": null,
+          "defaultLabel": "SOUTH SOTHO"
+        },
+        {
+          "itemCode": "T",
+          "groupCode": "HOME LANG",
+          "cmsKey": null,
+          "defaultLabel": "TSWANA"
+        },
+        {
+          "itemCode": "V",
+          "groupCode": "HOME LANG",
+          "cmsKey": null,
+          "defaultLabel": "VENDA"
+        },
+        {
+          "itemCode": "W",
+          "groupCode": "HOME LANG",
+          "cmsKey": null,
+          "defaultLabel": "SWAZI"
+        },
+        {
+          "itemCode": "X",
+          "groupCode": "HOME LANG",
+          "cmsKey": null,
+          "defaultLabel": "XHOSA"
+        },
+        {
+          "itemCode": "Z",
+          "groupCode": "HOME LANG",
+          "cmsKey": null,
+          "defaultLabel": "ZULU"
+        }
+      ],
+      "txnStatus": "Success",
+      "txnMessage": "Success"
+    }
+  }
+}

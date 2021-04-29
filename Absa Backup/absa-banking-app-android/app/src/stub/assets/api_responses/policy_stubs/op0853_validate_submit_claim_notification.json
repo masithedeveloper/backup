@@ -1,0 +1,21 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0853",
+      "resCde": "00000",
+      "resMsg": "SUCCESS",
+      "serVer": "2.0"
+    },
+    "payData": {
+      "policyNumber": "6511498241",
+      "claimType": "Motor",
+      "claimDescription": "Testing",
+      "occuranceDate": "26 July 2017",
+      "contactNumber": "0713196179",
+      "emailId": "",
+      "contactTime": "Morning (8:00-12:00)",
+      "txnRefID": "15010734696762",
+      "policyType": "ST"
+    }
+  }
+}

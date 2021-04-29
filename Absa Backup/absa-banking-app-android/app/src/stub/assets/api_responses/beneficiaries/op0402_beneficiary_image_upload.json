@@ -1,0 +1,17 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0402",
+      "resCde": "00000",
+      "resMsg": "",
+      "serVer": "2.0"
+    },
+    "payData": {
+      "status": "Success",
+      "imageName": "6YIxRUoOYoSksOYSH3UqCh-nXxX-uPc0ztfhlQNsiLo\u003d",
+      "benId": "8bfc2369-8d37-4e49-9dcd-b398d2522a0f",
+      "benType": "Payment",
+      "imageTimeStamp": "2017-07-20T10:56:42.593+0200"
+    }
+  }
+}

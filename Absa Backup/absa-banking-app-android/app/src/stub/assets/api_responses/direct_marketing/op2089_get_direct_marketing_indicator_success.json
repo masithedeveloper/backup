@@ -1,0 +1,29 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES2089",
+      "resCde": "00000",
+      "resMsg": "Success",
+      "serVer": "2.0",
+      "expTrace": null
+    },
+    "payData": {
+      "marketingIndicator": {
+        "nonCreditIndicator": "N",
+        "nonCreditSmsIndicator": "N",
+        "nonCreditEmailIndicator": "N",
+        "nonCreditAutoVoiceIndicator": "N",
+        "nonCreditTeleIndicator": "N",
+        "nonCreditPostIndicator": "N",
+        "creditIndicator": "N",
+        "creditSmsIndicator": "N",
+        "creditEmailIndicator": "N",
+        "creditAutoVoiceIndicator": "N",
+        "creditTeleIndicator": "N",
+        "creditPostIndicator": "N"
+      },
+      "txnStatus": "Success",
+      "txnMessage": "Success"
+    }
+  }
+}

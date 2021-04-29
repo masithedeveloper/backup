@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        style="@style/ScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/descriptionHeader"
+                style="@style/LargeTextRegularDark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/medium_space"
+                android:layout_marginEnd="@dimen/medium_space"
+                android:gravity="center"
+                android:lines="2"
+                android:maxLines="2"
+                android:textColor="@color/dark_grey_light_theme_text_color"
+                app:autoSizeMaxTextSize="@dimen/title_text_size"
+                app:autoSizeMinTextSize="@dimen/regular_text_size"
+                app:autoSizeTextType="uniform"
+                app:layout_constraintBottom_toTopOf="@+id/descriptionContent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:text="Welcome to the new Absa"
+                tools:visibility="visible" />
+
+            <TextView
+                android:id="@+id/descriptionContent"
+                style="@style/NormalTextRegularDark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/medium_space"
+                android:layout_marginTop="@dimen/small_space"
+                android:layout_marginEnd="@dimen/medium_space"
+                android:gravity="center"
+                android:lines="7"
+                android:maxLines="7"
+                android:textColor="@color/dark_grey_light_theme_text_color"
+                app:autoSizeMaxTextSize="@dimen/large_text_size"
+                app:autoSizeMinTextSize="@dimen/tiny_text_size"
+                app:autoSizeTextType="uniform"
+                app:layout_constraintBottom_toTopOf="@+id/contentImage"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/descriptionHeader"
+                tools:text="Absa has a new logo and look. \n \n We\'ve updated the Absa app to make banking on the go simpler than ever before."
+                tools:visibility="visible" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/contentImage"
+                android:layout_width="@dimen/_60sdp"
+                android:layout_height="@dimen/_60sdp"
+                android:layout_marginStart="@dimen/medium_space"
+                android:layout_marginTop="@dimen/small_space"
+                android:layout_marginEnd="@dimen/medium_space"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/descriptionContent"
+                app:srcCompat="@drawable/ic_swift_whats_new"
+                tools:visibility="visible" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</layout>

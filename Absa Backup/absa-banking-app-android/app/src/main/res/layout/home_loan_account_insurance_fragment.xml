@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/insuranceDetailsScrollView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/contactUsContainer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <styleguide.content.TitleAndDescriptionView
+                    android:id="@+id/needInsuranceTitleView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:attribute_description="@string/request_insurance_suggestion"
+                    app:attribute_title="@string/need_insurance"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <styleguide.content.ContactView
+                    android:id="@+id/callCentreContactView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:focusable="true"
+                    app:attribute_label_text="@string/contact"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/needInsuranceTitleView" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/propertyInsuranceContainer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/medium_space"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/contactUsContainer">
+
+                <styleguide.content.TitleAndDescriptionView
+                    android:id="@+id/propertyInsuranceTitleView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:attribute_title="@string/property_insurance"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <styleguide.content.LineItemView
+                    android:id="@+id/premiumAmountView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:attribute_label_text="@string/premium"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/propertyInsuranceTitleView" />
+
+                <styleguide.content.LineItemView
+                    android:id="@+id/coverAmountView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:attribute_label_text="@string/cover_amount"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/premiumAmountView" />
+
+                <styleguide.content.LineItemView
+                    android:id="@+id/statusView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:attribute_label_text="@string/policy_status"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/coverAmountView" />
+
+                <styleguide.content.LineItemView
+                    android:id="@+id/premiumFrequencyView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:attribute_label_text="@string/premium_frequency"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/statusView" />
+
+                <styleguide.content.LineItemView
+                    android:id="@+id/startDatView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:attribute_label_text="@string/policy_start_date"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/premiumFrequencyView" />
+
+                <styleguide.content.LineItemView
+                    android:id="@+id/endDateView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:attribute_label_text="@string/renewal_date"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/startDatView" />
+
+                <styleguide.buttons.Button
+                    android:id="@+id/submitClaimButton"
+                    style="@style/PrimaryButton"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/medium_space"
+                    android:layout_marginBottom="@dimen/medium_space"
+                    android:text="@string/txt_submit_claim"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/endDateView" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

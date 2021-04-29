@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="rewards_fee_per_month">per maand</string>
+    <string name="rewards_fee_per_annum">per jaar</string>
+    <string name="rewards_earn_rates_disclaimer">Jou Rewards-Vlak word deur jou Rewards-telling vir daardie kalendermaand bepaal. Dit word elke maand herbereken om seker te maak jy kry die Rewards wat jy verdien die manier waarop jy bank.</string>
+    <string name="rewards_level">Belonings vlak %s</string>
+    <string name="rewards_account">Rewards Rekening</string>
+    <string name="cash">Kontant</string>
+    <string name="vouchers_or_tickets">Geskenkbewyse / Kaartjies</string>
+    <string name="pay_from">Betaal van</string>
+    <string name="save">Stoor</string>
+
+    <string name="absa_reward_products" >Absa Rewards-produkte</string>
+    <string name="reward_products"><b>Rewards-produkte</b></string>
+    <string name="absa_reward_vouchers">Bewyse</string>
+
+    <string name="absa_reward_shopping_points">Inkopie-punte</string>
+    <string name="absa_reward_available_rewards">Beskikbare Rewards</string>
+    <string name="would_you_like_to_earn_real_cash_rewards">Wil jy graag egte Kontant Rewards verdien</string>
+    <string name="apply_for_absa_rewards">Doen aansoek vir ABSA Rewards</string>
+    <string name="vouchers">Geskenkbewyse</string>
+    <string name="redeem_voucher_error_message">Jou aankoop was onsuksesvol</string>
+    <string name="discounted_voucher_amount">Discounted Amount</string>
+
+    <!--Convert to points-->
+    <string name="convert_to_points_title">Skakel Om Na Punte</string>
+    <string name="convert_to_points_list_title">Van watter kleinhandelsvennoot wil jy koop?</string>
+    <string name="select_retail_partner">Kies kleinhandelsvennoot</string>
+    <string name="membership_card_number">Lidmaatskapkaartnommer</string>
+    <string name="enter_card_number">Voer kaartnommer in</string>
+    <string name="points_quantity_message">Hoeveel wil jy na punte omskakel?</string>
+    <string name="minimum_points">Minimum van R %s</string>
+    <string name="send_points_info_to_message">Waarheen moet ons jou punte-inligting stuur?</string>
+    <string name="sms_to_cell_no_message">Jy sal tydens die omskakelingsproses SMS-kommunikasie ontvang na die selfoonnommer wat bo verskaf is.</string>
+    <string name="conversion_process_disclaimer">Jy sal tydens die omskakelingsproses SMS-kommunikasie ontvang na die selfoonnommer wat bo verskaf is.</string>
+    <string name="convert_to_points_info">Inligting oor omskakeling na punte</string>
+    <string name="redeeming_shopping_points">Inkopie-punte</string>
+    <string name="action_ok_got_it">Reg, ek verstaan</string>
+    <string name="convert_to_points_time_info"><![CDATA[Dit kan tot <b>3 besigheidsdae</b> duur om vennootlidmaatskap- of rekeningsaldo-aanpassings te voltooi.]]></string>
+    <string name="convert_to_points_info_1">Suksesvolle ruilings of omskakeling na vennootpunte is onomkeerbaar.</string>
+    <string name="convert_to_points_info_2">Jy is verantwoordelik om die korrekte vennootlidmaatskapkaart- of rekeningnommers te voorsien. Absa is nie aanspreeklik as jy foutiewe inligting voorsien nie.</string>
+    <string name="convert_to_points_info_3">Jy sal gedurende die omskakelingsproses SMS-kommunikasie ontvang na die selfoonnommer wat verskaf is.</string>
+    <string name="convert_to_points_info_4"><![CDATA[Vennoot-spesifieke bykomende waardes wat gedurende die omskakelingsproses toegepas word, is beskikbaar by<a href="https://www.absa.co.za/personal/bank/absa-rewards/explore/"><b>absa.co.za/rewards</b></a>.]]></string>
+    <string name="select_partner">Kies kleinhandelsvennoot</string>
+    <string name="points_overview">Punte-oorsig</string>
+    <string name="rewards_members_get_an">Rewards-lede kry</string>
+    <string name="extra_15">15% ekstra</string>
+    <string name="you_are_converting">Jy skakel</string>
+    <string name="converting_to_smart_shopper">Die omskakeling na Smart Shopper-punte kan 3 dae neem om te reflekteer. Jy sal SMS-kommunikasie ontvang na die selfoonnommer wat verskaf is.</string>
+    <string name="converting_points">1$s om na %2$s punte.</string>
+    <string name="redeem_points">Ruil punte</string>
+    <string name="please_use_increments_of">Gebruik asseblief veelvoude van %s</string>
+
+    <!--Mall voucher-->
+    <string name="how_much_you_want_to_buy">Hoeveel wil jy koop?</string>
+    <string name="minimum_voucher_amount_hint">Minimum van R 1</string>
+    <string name="where_do_we_send_mall_voucher">Waarheen moet ons jou sentrum-koopbewys stuur?</string>
+    <string name="your_points_are_on_their_way">Jou punte is op pad.</string>
+    <string name="your_points_may_take">Jou %1$s-punte kan tot 3 dae neem om te reflekteer.</string>
+    <string name="redeem_more_points">Redeem more points</string>
+    <string name="your_points_conversion_was_unsuccessful">Jou omskakeling na punte was onsuksesvol</string>
+
+    <!--Donate to charity -->
+    <string name="donate_to_charity">Skenk aan liefdadigheid</string>
+    <string name="select_charity">Kies liefdadigheidsorganisasie</string>
+    <string name="donate_to_charity_list_title">Aan watter liefdadigheidsorganisasie wil jy skenk?</string>
+    <string name="how_much_do_you_want">Hoeveel wil jy skenk?</string>
+    <string name="donate_to_charity_minimum_amount"> van R 1.00</string>
+    <string name="thanks_for_showing_some_love">Dankie vir jou weldaad</string>
+    <string name="make_another_donation">Jou skenking is aan Kindersorg gestuur.</string>
+    <string name="your_donation_has_been_sent">Jou skenking is aan %s gestuur.</string>
+    <string name="your_donation_was_unsuccessful">Jou skenking was onsuksesvol</string>
+    <string name="charity_donation_overview_title">Oorsig van liefdadigheidskenkings</string>
+    <string name="you_are_donating">Jy skenk</string>
+    <string name="donate_to_charity_message">%1$s om na %2$s</string>
+    <string name="donate">Skenk</string>
+    <string name="donate_home_button">huis</string>
+
+
+    <!-- Apply for Absa Rewards -->
+    <string name="no_points_no_bucks">Geen punte. Geen bokke. Net ware</string>
+    <string name="cash_rewards">Kontant-Rewards</string>
+    <string name="apply_now">Doen aansoek</string>
+    <string name="agree_to_rewards_terms_use">Ek stem in tot die Absa Rewards-gebruiksvoorwaardes.</string>
+    <string name="terms_of_use">gebruiksvoorwaardes</string>
+
+    <!--apply for rewards membership fee-->
+    <string name="how_would_you_like_to_pay">Hoe wil jy vir jou Rewards-lidmaatskap betaal?</string>
+    <string name="select_day">Kies dag</string>
+    <string name="account_debit_message">Jou rekening sal met %1$s per %2$s gedebiteer word.</string>
+    <string name="next_debit_order_message">Jou volgende debietorder sal %s wees.</string>
+    <string name="year">jaar</string>
+    <string name="month">maand</string>
+    <string name="yearly_amt">Jaarliks\n%s"</string>
+    <string name="monthly_amt">Maandeliks\n%s</string>
+
+    <!--purchase Vourcher-->
+    <string name="voucher_purchase_overview_title">Oorsig van bewys-aankope</string>
+    <string name="voucher_purchase_overview_message">Kleinhandelsbewys vir %1$s vir die bedrag van %2$s.</string>
+    <string name="your_voucher_sent">Jou bewys word per SMS gestuur na </string>
+    <string name="voucher_purchase_overview_info">Vertoon hierdie koepon by vennoot.</string>
+    <string name="buy_voucher">Koop \'n bewys</string>
+    <string name="what_voucher_buy">Watter bewys wil jy koop?</string>
+    <string name="please_select_retail_partner">Kies asseblief \'n geldige kleinhandelsvennoot</string>
+    <string name="where_do_we_send_voucher">Waarheen moet ons die koopbewys stuur?</string>
+    <string name="max_rewards_points_error">Bedrag moet minder as beskikbare Rewards-punte wees</string>
+    <string name="redeem_voucher_success_status">Jou koopbewys is oppad</string>
+    <string name="redeem_voucher_success_message">Die koopbewys is gestuur na \n %1$s</string>
+    <string name="buy_another_voucher">Koop nog \'n bewys</string>
+    <string name="voucher_amount">Bedrag om te betaal</string>
+
+    <!--Apply for rewards postal information-->
+    <string name="postal_information">Pos-inligting</string>
+    <string name="postal_address_title">Posadres</string>
+    <string name="postal_address_hint">Adresreël 1</string>
+    <string name="postal_address2_hint">Adresreël 2</string>
+    <string name="suburb">Voorstad</string>
+    <string name="city">Stad</string>
+    <string name="code">Kode</string>
+    <string name="suburb_city_error_message">Voorstad/Stad velde is verpligtend om voort te gaan met die aansoek</string>
+
+    <!--Apply for rewards contact information-->
+    <string name="title_contact_information">kontakbesonderhede</string>
+    <string name="home_telephone">Huistelefoon</string>
+    <string name="enter_home_telephone">Voer huistelefoon in</string>
+    <string name="work_telephone">Werktelefoon</string>
+    <string name="enter_work_telephone">Voer werktelefoon in</string>
+    <string name="preferred_language">Taalvoorkeur</string>
+    <string name="where_should_we_send">Waarheen moet ons jou Rewards-state stuur?</string>
+    <string name="may_we_send_you_information">Mag ons vir jou inligting oor spesiale aanbiedinge en promosies stuur?</string>
+    <string name="where_may_we_send">Waarheen mag ons bemarkingsmateriaal stuur?</string>
+    <string name="to_my_email">Na my e-pos</string>
+    <string name="to_my_address">Na my adres</string>
+    <string name="dont_send">Moenie stuur nie</string>
+    <string name="yes_please">Ja, asseblief</string>
+    <string name="direct_mail">Direkte pos</string>
+    <string name="telephone">Telefoon</string>
+    <string name="sms">SMS</string>
+    <string name="validate_marketing_method">Kies asseblief minstens een bemarkingsmetode</string>
+
+    <!-- Successful Unsuccessful Apply Rewards -->
+    <string name="your_rewards_account_active">Jou Rewards-rekening is aktief</string>
+    <string name="start_earning_rewards">Jy kan nou begin Rewards verdien.</string>
+    <string name="please_contact_us">Skakel ons asseblief vir Rewards-navrae.</string>
+    <string name="rewards_account_unsuccessful">Rewards-rekening-aansoek onsuksesvol</string>
+    <string name="call">Skakel</string>
+    <string name="email_the_rewards_team">E-pos die Rewards-span</string>
+
+    <!--Apply Reward Overview-->
+    <string name="reward_information">Die kontant Rewards wat jy verdien word eenkeer per maand op die laaste besigheidsdag van die maand opgedateer.
+Hierdie bedrag word bereken op jou transaksies van die 16de van die vorige maand tot die 15de van die huidige maand. \'n Uitvoerige staat word twee keer per jaar uitgereik.</string>
+    <string name="your_statements_sent_via">Jou state sal gestuur word per</string>
+    <string name="receive_marketing_material_via">Jy het ingestem om bemarkingsmateriaal te ontvang per</string>
+    <string name="membership_fees">Lidfooie</string>
+    <string name="complete_application">Voltooi aansoek</string>
+    <string name="debit_date">Debiet-datum</string>
+    <string name="application_overview">Oorsig van aansoek</string>
+    <string name="annual_debit_order">- Jaarlikse debietorder</string>
+    <string name="monthly_debit_order">- Maandelikse debietorder</string>
+    <string name="not_provided">Nie voorsien nie</string>
+
+    <string name="rewards_cancel">KANSELLEER</string>
+    <string name="rewards_earned">Rewards verdien</string>
+    <string name="rewards_redeemed">Rewards verlos</string>
+    <string name="rewards_balance">Rewards saldo</string>
+    <string name="rewards_available">Rewards beskikbaar</string>
+    <string name="absa_rewards_text">Absa Rewards</string>
+
+
+    <!-- Rewards -->
+    <string name="cash_rewards_available">Absa Kontant-Rewards beskikbaar</string>
+    <string name="voucher">Koopbewys</string>
+    <string name="select_voucher">Kies Koopbewys</string>
+    <string name="confirm_purchase">Bevestig aankoop</string>
+    <string name="you_are_buying">Jy koop \'n</string>
+    <string name="redeem_airtime_disclaimer">"Alle lugtydbewyse word teen afslagpryse gehef. Maak seker dat die selfoonnommer wat verskaf word korrek is aangesien die kopie nie omgeswaai kan word nie. Absa sal nie aanspreeklik wees vir ’n foutiewe selfoonnommer of as ’n verkeerde diensverskaffer geselekteer word nie.\n\n As jy jou selfoondiensverskaffer verander het, sal die vooruitbetaalde lugtyd by jou vorige verskaffer verbeur word. Die nommer wat verskaf word, moet vanaf 1 Julie 2011 aan RICA voldoen."</string>
+    <string name="title_buy_hub">Wat wil jy koop?</string>
+    <string name="prepaid_mobile">Prepaid-lugtyd</string>
+    <string name="prepaid_electricity">Prepaid-elektrisiteit</string>
+    <string name="any_suggestion">Het jy enige voorstelle?</string>
+    <string name="if_any_suggestion_text">Is daar enigiets anders wat jy wil koop? Stuur vir ons jou voorstelle</string>
+    <string name="tier">Vlak</string>
+    <string name="details">Besonderhede</string>
+    <string name="cash_spent">Kontant bestee</string>
+    <string name="membership_details">Lidmaatskapbesonderhede</string>
+    <string name="total_earnings">Totale kontant terug verdien</string>
+    <string name="total_redeems">Totaal kontant terug spandeer</string>
+    <string name="pay_subscription_from">Betaal ledelgeld van</string>
+    <string name="debit_order_frequency">Debietorderfrekwensie</string>
+    <string name="debit_day">Debietdag</string>
+    <string name="monthly">Maandeliks</string>
+    <string name="yearly">Jaarliks</string>
+    <string name="rewards_monthly">Maandeliks</string>
+    <string name="first">1ste</string>
+    <string name="fifteenth">15de</string>
+    <string name="twentieth">20ste</string>
+    <string name="twenty_fifth">25ste</string>
+    <string name="last_day_of_the_month">Laaste dag van die maand</string>
+    <string name="choose_my_own_day">Kies my eie dag</string>
+    <string name="membership_details_updated">Lidmaatskapbesonderhede is suksesvol opgedateer</string>
+    <string name="max_date_selection_error_message">Jammer, jy kan nie \'n datum in die toekoms kies nie.</string>
+    <string name="min_date_selection_error_message">Jammer, jy kan nie \'n datum ouer as 6 maande gebruik nie.</string>
+    <string name="earn_rates">Verdienstekoerse</string>
+    <string name="when_swiping_card">Gebruik you kaart en verdien:</string>
+    <string name="with_your_debit_card">Op jou debiet kaart</string>
+    <string name="on_your_credit_card">Op jou kredietkaart</string>
+    <string name="for_your_fuel_purchase">Vir jou brandstofaankope by Sasol verdien jy:</string>
+    <string name="grocery_earn_rates_heading">Kruideniersware verdienstekoerse</string>
+    <string name="your_tier_level">Rewards vlak</string>
+    <string name="your_earn_rates_are">Jou verdienstekoers is:</string>
+    <string name="earn_rate_disclaimer">Jou Rewards-vlak word bepaal deur jou Rewards-telling vir daardie kalendermaand. Dit word elke maand herbereken om seker te maak jy kry die Rewards wat jy verdien vir die manier waarop jy bank.</string>
+    <string name="excess_document">Bybetalingsdokument</string>
+    <string name="rewards_quantity">belonings hoeveelheid</string>
+    <string name="rewards_profile">Beloon Profiel</string>
+    <string name="absa_rewards_description">U kan nou u Beloningsvlak en -koerse sien, PLUS, daar is nog meer maniere om u kontantbelonings te verlos. Tik "Koop" om te los.</string>
+
+    <string name="pay_from_account_hint">Lopende Rekening (4093 4566 678)</string>
+    <string name="debit_date_hint_monthly">1ste van elke maand</string>
+    <string name="debit_order_frequency_hint">Jaarliks</string>
+    <string name="error_select_charity_to_donate_to">Aan watter liefdadigheidsorganisasie wil jy skenk?</string>
+    <string name="error_please_enter_valid_amount">Bedrag moet minder as beskikbare Rewards-punte wees</string>
+    <string name="error_more_than_r1">Minimum R 1.00</string> <!--confirm that this is not wrong... placeholder until we find the right one-->
+    <string name="account_available_balance">%s beskikbaar</string>
+    <string name="donate_to_charity_toolbar">Bevestig Skenking</string>
+    <string name="rewards_make_another_donation">Maak nog \'n skenking</string>
+
+    <string name="airtime_redeemed">Lugtyd Verlos</string>
+    <string name="cash_rewards_from_absa">Absa Kontant Rewards</string>
+    <string name="cash_redeemed">Kontant Verlos</string>
+    <string name="redeem_amount_availabe">%s beskikbaar</string>
+    <string name="redeem_amount_minimum">Minimum van R 10.00</string>
+    <string name="redeem_amount_minimum_value">Minimum van R %s</string>
+    <string name="rewards_account_value">Rewards Rekening (%s)</string>
+    <string name="cell_number_of_recipient">Selfoonnommer van begunstigde</string>
+    <string name="convert_points">Skakel om na punte</string>
+    <string name="confirm_points">Bevestig Punte</string>
+    <string name="donate_to_charity_toolbar_confirm">Bevestig Skenking</string>
+    <string name="partner_membership_or_account_balance">"Vennoot lidmaatskap- of rekeningbalansaanpassings kan tot drie werksdae neem om te voltooi. \n\nSuksesvolle aflossings of omskakelings na vennootpunte is nie omkeerbaar nie. \n\nDit is jou verantwoordelikheid om te verseker dat jy die korrekte vennoot se lidmaatskapkaart of rekeningnommers verskaf. Absa sal nie aanspreeklik wees as u verkeerde inligting verskaf nie. \n\nTydens die omskakelingsproses sal jy SMS’e op die selfoonnommer wat jy verskaf het ontvang. \n\nVennootspesifieke bykomende waardes wat tydens die omskakelingsproses toegepas sal word, is by absa.co.za/rewards beskikbaar."</string>
+
+    <string name="donation_unsuccessful">Skenking Onsuksesvol</string>
+    <string name="donate_unsuccessful_message">Jou skenking aan %s was onsuksesvol.</string>
+    <string name="invalid_card_number">Tik asseblief ŉ geldige kaart nommer in"</string>
+    <string name="redeem_rewards_invalid_amount">Sleutel asseblief geldige bedrag in.</string>
+    <string name="redeem_rewards_charity">Liefdadigheid</string>
+    <string name="redeem_rewards_amount">Bedrag</string>
+    <string name="donate_from_account">Uit rekening</string>
+    <string name="donation_successful">Skenking Suksesvol</string>
+    <string name="donation_description">Jou donasie is aan %s gestuur.</string>
+    <string name="redeem_rewards">Verlos Belonings</string>
+    <string name="redeem_shopping_points">Ruil Inkopiepunte</string>
+    <string name="rewards_ok">OK. Reg so!</string>
+    <string name="retail_partner_to_convert_to">Watter handelsvennoot wil jy na omskakel?</string>
+    <string name="number_to_send_points_to">Na watter selfoonnommer moet ons jou punte toe stuur?</string>
+
+    <!--Redeem shopping points-->
+    <string name="redeem_points_enter_mobile_number">Voer selfoonnommer in</string>
+    <string name="retail_partner">kleinhandelsvennoot</string>
+    <string name="converting_to_points">Omskakeling na punte kan tot 3 dae neem om te reflekteer. Jy sal SMS-kommunikasie ontvang op die selfoonnommer.</string>
+    <string name="your_points_may_take_up_to">Dit kan tot 3 besigheidsdae vat vir die punte om te reflekteer.</string>
+    <string name="points_unsuccessfully_redeemed">Jou punte kon nie omgeskakel word nie.</string>
+
+    <string name="bank_earn_rates">Bank Verdienstetariewe</string>
+    <string name="fuel_purchase">Vir brandstofaankope by Sasol verdien jy</string>
+    <string name="rewards_select_account">Kies Rekening</string>
+    <string name="select_account_rewards_details">Kies Rekening</string>
+
+
+    <string name="redeem_voucher">Verlos \'n koopbewys</string>
+    <string name="voucher_title_text">Koopbewys</string>
+    <string name="voucher_hint_text">Kies \'n koopbewys</string>
+    <string name="voucher_selection_error">Kies asseblief \'n koopbewys</string>
+    <string name="voucher_insufficient_funds">You have insuffient funds to redeem your voucher</string>
+    <string name="voucher_cell_number_title">Selfoonnommer van begunstigde</string>
+    <string name="voucher_cellphone_error">Voer \'n geldige selfoonnommer in</string>
+    <string name="confirm_voucher">Bevestig koopbewys</string>
+    <string name="voucher_cellphone_hint">Voer selfoonnommer in</string>
+
+    <string name="debit_details_updated">Debietbesonderhede is suksesvol opgedateer</string>
+</resources>

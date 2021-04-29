@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/business_banking_navigation_graph"
+    app:startDestination="@id/businessBankingOffersFragment">
+
+    <fragment
+        android:id="@+id/businessBankingOffersFragment"
+        android:name="com.barclays.absa.banking.businessBanking.ui.BusinessBankOffersFragment"
+        tools:layout="@layout/new_to_bank_account_offers_fragment">
+
+        <action
+            android:id="@+id/action_businessBankingOffersFragment_to_ProductInfoFragment"
+            app:destination="@+id/productInfoFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/productInfoFragment"
+        android:name="com.barclays.absa.banking.businessBanking.ui.ProductInformationFragment"
+        tools:layout="@layout/product_information_fragment" />
+</navigation>

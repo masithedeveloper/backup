@@ -1,0 +1,64 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/medium_space"
+    tools:context="com.barclays.absa.banking.expressCashSend.ui.CashSendUnredeemedPinChangeDialogFragment">
+
+    <TextView
+        android:id="@+id/unredeemedPinDialogHeaderTextView"
+        style="@style/LargeTextRegularDark"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/medium_space"
+        android:layout_marginTop="@dimen/medium_space"
+        android:layout_marginEnd="@dimen/medium_space"
+        android:text="@string/edit_cashsend_enter_new_pin"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <styleguide.forms.NormalInputView
+        android:id="@+id/unredeemedPinDialogNormalInputView"
+        style="@style/LargeTextMediumDark"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/medium_space"
+        android:layout_marginTop="@dimen/medium_space"
+        android:layout_marginEnd="@dimen/medium_space"
+        android:imeOptions="actionDone"
+        android:inputType="number"
+        android:maxLength="6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/unredeemedPinDialogHeaderTextView" />
+
+    <TextView
+        android:id="@+id/unredeemedPinDialogNegativeTextView"
+        style="@style/LargeTextRegularDark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/medium_space"
+        android:layout_marginEnd="@dimen/double_large_space"
+        android:layout_marginBottom="@dimen/medium_space"
+        android:text="@string/cancel"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/unredeemedPinDialogPositiveTextView"
+        app:layout_constraintTop_toBottomOf="@+id/unredeemedPinDialogNormalInputView" />
+
+    <TextView
+        android:id="@+id/unredeemedPinDialogPositiveTextView"
+        style="@style/LargeTextRegularDark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/medium_space"
+        android:layout_marginEnd="@dimen/medium_space"
+        android:layout_marginBottom="@dimen/medium_space"
+        android:text="@string/done"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/unredeemedPinDialogNormalInputView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

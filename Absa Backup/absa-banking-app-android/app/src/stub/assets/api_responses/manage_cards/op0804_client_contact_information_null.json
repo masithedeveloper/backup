@@ -1,0 +1,13 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0804",
+      "resCde": "00000",
+      "resMsg": "SUCCESS",
+      "serVer": "2.0"
+    },
+    "payData": {
+      "clientContactInfoDTO": null
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0843",
+      "resCde": "00000",
+      "resMsg": "Success",
+      "serVer": "2.0"
+    },
+    "payData": {
+      "mandates": null,
+      "sureCheckFlag": "SURECHECKV2Required",
+      "tvnFlag": "SURECHECKV2Required",
+      "referenceNumber": "U2VsZjkzMjI3MzMyMzU1MC4wMA==",
+      "corelationId": "",
+      "transactionDate": "2018-03-06 10:27:56",
+      "cellnumber": "******8571",
+      "email": "Rach**************@****.**.**",
+      "notificationMethod": "S",
+      "txnStatus": "Success",
+      "txnMessage": "Success"
+    }
+  }
+}

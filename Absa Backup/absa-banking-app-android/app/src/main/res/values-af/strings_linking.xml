@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="reenter_passcode">Re-enter passcode</string>
+    <string name="too_many_attempts">Too many fingerprint attempts!</string>
+    <string name="linking_register_digital_banking">Registeer vir digitale bankdienste</string>
+    <!-- face scan strings -->
+    <string name="linking_enter_id_number_hint">eg. 8901130000009</string>
+    <string name="linking_no_sa_id_number">Ek het nie ‘n Suid-Afrikaanse ID nommer nie</string>
+    <string name="linking_camera_permission_request_instruction">Let daarop dat dit ‘n biometriese gesigskandering is, nie ‘n selfie nie. Jy kan nie jou gesig sien nie en jy hoef die foon nie perfek voor jou gesig te plaas nie\n\nLeer meer</string>
+    <string name="linking_camera_permission_request_title">Skandeer jou gesig om jou identiteit te verifieer</string>
+    <string name="linking_camera_permission_terms_conditions">Ek gee toestemming dat Absa my biometriese data gebruik om my identiteit te verifieer sodat ek toegang tot my rekening kan kry. Ek het die Privaatheidsverklaring gelees.</string>
+    <string name="linking_camera_permission_terms_conditions_clickable_text">Privaatheidsverklaring</string>
+    <string name="linking_scan_face">Skandeer gesig</string>
+    <string name="linking_verify_identity">Verifieer jou ideniteit</string>
+    <string name="linking_error_camera_permission_title">Laat kamera toegang toe</string>
+    <string name="linking_error_camera_permission_message">Laat toegang tot die kamera op hierdie toestel toe om jou gesig te skandeer</string>
+    <string name="linking_error_open_settings">Maak verstellings oop</string>
+    <string name="linking_error_not_receiving_surecheck">Ontvang nie ‘n verifikasie nie?</string>
+    <string name="linking_error_some_wifi_networks_block_notifications">Sommige WiFi netwerke blokkeer kennisgewings</string>
+    <string name="linking_error_please_check_your_connection">Gaan jou netwerkverbinding na en probeer weer. Probeer om jou WiFi af te skakel en probeer via datanetwerk te koppel. Geen data word deur die Absa Aanlyn App gehef nie.</string>
+    <string name="linking_processing">Verwerking...</string>
+    <string name="linking_processing_message">Gee ons ‘n paar oomblikke.</string>
+    <string name="linking_choose_a_profile_title_text">Watter van jou profiele wil jy aan hierdie toestel koppel?</string>
+    <string name="linking_identity_fragment_toolbar_title">Laat ons begin</string>
+    <string name="linking_id_fragment_title">Ons het die koppeling van jou toestel baie makliker gemaak</string>
+    <string name="linking_only_south_african_ids_accepted_for_now">Slegs Suid Afrikaanse ID’s word vir eers aanvaar</string>
+    <string name="linking_enter_your_id_number">Sleutel jou ID nommer in</string>
+    <string name="linking_surecheck_I_do_not_have_my_device">Ek het nie ‘n Suid-Afrikaanse ID nommer nie</string>
+    <string name="linking_verification_device_updated">Hierdie is nou jou verifikasietoestel</string>
+    <string name="linking_this_is_now_your_verification_device">Hierdie toestel is nou jou verifikasietoestel en jy sal hier versoeke ontvang om jou transaksies te verifieer.</string>
+    <string name="linking_we_couldnt_continue_linking_this_account">Kan nie voortgaan nie</string>
+    <string name="linking_learn_more">Leer meer</string>
+    <!--  TODO: Not in MVP One  -->
+    <string name="linking_you_dont_have_an_active_account_title">You don\'t have an active Absa account</string>
+    <string name="linking_open_an_account">Open an account</string>
+    <string name="linking_not_now">Not now</string>
+    <string name="linking_how_to_scan_your_face">Hoe om jou gesig te skandeer</string>
+    <string name="linking_how_to_scan_your_face_text">Verwyder eers jou hoed en bril\n\nVermy direkte helder lig, want dit kan verhoed dat die skandeer nie jou gesig opspoor nie.\n\nJou skandering sal vergelyk word met die beeld wat deur die Departement van Binnelandse Sake gehou word, of wat ons gestoor het.</string>
+    <string name="linking_we_could_not_verify_your_identity">Ons kon nie jou identiteit verifieer nie</string>
+    <string name="linking_submitting">Indiening</string>
+    <string name="linking_verifying">Verifiëring</string>
+    <string name="linking_complete">Voltooi</string>
+    <string name="linking_please_try_again">Probeer asseblief weer</string>
+    <string name="linking_use_bio_authentication">Gebruik asseblief jou Suid-Afrikaanse ID om die toestel to verkoppel</string>
+    <string name="linking_you_have_maxed_outyour_retries">Jy het jou toegelate pogings opgebruik</string>
+    <string name="linking_when_you_are_ready_try_again">Probeer asseblief weer wanneer jy gereed is.</string>
+    <string name="linking_your_face_scan_did_not_work">Jou gesigsskandering het nie gewerk nie</string>
+    <string name="linking_we_could_not_verify_your_identity_using_your_face_scan">Ons kon nie op die oomblik jou identiteit verifieer nie.\n\nProbeer asseblief weer.</string>
+    <string name="linking_already_linked_devices_wont_be_shown">Rekeninge wat reeds aan hierdie toestel gekoppel is, sal nie in die bogenoemde lys verskyn nie.</string>
+    <string name="linking_dont_see_account">Ek sien nie my rekening nie</string>
+
+    <string name="linking_try_another_profile_button">Probeer ’n ander profiel</string>
+    <string name="linking_unable_to_link_account">Kan nie hierdie profiel koppel nie</string>
+    <string name="linking_account_closed_error">Hierdie rekening is gesluit.\n\nSkakel gerus ons inbelsentrum vir meer inligting en hulp.</string>
+
+    <string name="linking_please_note_text_to_highlight">Let daarop</string>
+
+    <string name="linking_your_session_timed_out">Tyd het uitgehardloop</string>
+    <string name="linking_please_do_not_talk">Moet asseblief nie praat terwyl jy ‘n gesigskandering doen nie</string>
+    <string name="linking_too_light">Omgevingslig te sterk. Probeer om om te draai en weer te skandeer</string>
+    <string name="linking_surecheck_change_primary_description">Jou verifikasietoestel sal gebruik word om transaksies te bevestig en om jou rekening te beveilig</string>
+    <string name="linking_we_could_not_verify_your_identity_masked_error">Dit lyk asof daar ‘n problem is. Skakel ons gerus of besoek jou naaste tak vir hulp.</string>
+
+    <string name="linking_surecheck_v_one_message">Keur die verifikasieboodskap goed wat na die selfoonnommer gestuur is\n\n%s</string>
+    <string name="linking_tvn_email_message">Sleutel asseblied die TVN in wat ons gestuur het na die e-pos adres wat eindig in:\n\n%s</string>
+    <string name="linking_tvn_sms_message">Sleutel asseblied die TVN in wat ons gestuur het na die selnommer wat eindig in:\n\n%s</string>
+    <string name="linking_enter_verification_code">Sleutel verifikasie kode in</string>
+
+</resources>

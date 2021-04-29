@@ -1,0 +1,15 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0811",
+      "resCde": "00000",
+      "resMsg": null,
+      "serVer": "2.0",
+      "expTrace": null
+    },
+    "payData": {
+      "rewardsMembershipNumber": "160830003836",
+      "rewardsMembershipTier": 2
+    }
+  }
+}

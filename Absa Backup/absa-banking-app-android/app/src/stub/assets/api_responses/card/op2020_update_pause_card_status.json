@@ -1,0 +1,20 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "expTrace": null,
+      "serVer": "2.0",
+      "resMsg": "Success",
+      "resCde": "00000",
+      "resId": "RES2020"
+    },
+    "payData": {
+      "updatePauseCardRespDTO": {
+        "authorisationOutstanding": false,
+        "cardNumber": null,
+        "cardUpdated": false
+      },
+      "txnMessage": "Success",
+      "txnStatus": "Success"
+    }
+  }
+}

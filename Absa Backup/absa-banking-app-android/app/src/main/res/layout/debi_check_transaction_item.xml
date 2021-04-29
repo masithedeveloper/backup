@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <styleguide.cards.TransactionView
+        android:id="@+id/debi_check_transaction_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/medium_space"
+        android:layout_marginTop="@dimen/tiny_space"
+        android:layout_marginEnd="@dimen/medium_space"
+        android:layout_marginBottom="@dimen/tiny_space"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?selectableItemBackground" />
+</layout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="business_banking_account">Business Banking Account</string>
+    <string name="personal_banking_account">Personal Banking Account</string>
+    <string name="selected_beneficiaries_toolbar">Selected Beneficiaries</string>
+</resources>

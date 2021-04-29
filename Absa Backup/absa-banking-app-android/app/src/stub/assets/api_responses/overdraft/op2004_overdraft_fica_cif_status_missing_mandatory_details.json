@@ -1,0 +1,15 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES2004",
+      "resCde": "00000",
+      "resMsg": "Success",
+      "serVer": "2.0"
+    },
+    "payData": {
+      "status": "N",
+      "txnStatus": "Failure",
+      "txnMessage": "Some of the mandatory details are missing from your profile. In order to proceed with the application process, you need to update your details. Please logon to Absa online to update your details or alternatively, visit your nearest branch."
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "header": {
+    "statuscode": "0",
+    "service": "AuthenticationFacade",
+    "operation": "RefreshToken",
+    "timestamp": "2020-02-18 13:53:26.602",
+    "resultMessages": []
+  },
+  "accessToken": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6InhyYXMifQ.eyJzdWIiOiI0MDQ3NTEwNTU5LTEiLCJhdWQiOiI2NjQyODRlNi01ZjM4LTNjMTEtYTM1Yy02MmVjZDEyZjk5OWIiLCJzY29wZSI6ImlkcCB4dG1zIiwiaXNzIjoiaHR0cDovL3phZHJuYnJhcHAxMzI2OjkwOTcveHJhcy8iLCJhYnNhLnRva2VuLmhpbnQiOiJhY2Nlc3NfdG9rZW4iLCJleHAiOjE1ODIwMjY4OTYsInRva2VuX3R5cGUiOiJCZWFyZXIiLCJpYXQiOjE1ODIwMjY3NzYsImNsaWVudF9pZCI6IjY2NDI4NGU2LTVmMzgtM2MxMS1hMzVjLTYyZWNkMTJmOTk5YiIsInVzZXJuYW1lIjoiNDA0NzUxMDU1OS0xIn0.SxKWQMgPAVjNxu6QRnaHxJyudA23VAZ2El7L4ajeiBkYMbNHuCF4GzlXiI9eqv7T8DbdvhL4C7ZXTl-tow1Ni7udc_Duw4cpFAJnuAqImZkNCFsgCWMo4TKmRbvVRjU20EZ2aCGDrRzBCkAUw20J4wboxLGwM4lz9sif_mJTmxpJJbvTqpcejo1Rtlb3HGPKbjhd6F2eFJyOF2KWiro8CsGv8G0qe3BaYXeijnbJ2cpP2aO_OKrP9agSnU2eVlmXIUtrj6pxYJh6-6QzEQ0j9zBOVMK7uvqhm1wtHehyK01sm4bseGU96QkN3nUeKWUX9EPV3_0VQc9xWvaOuODS4A",
+  "expiresInSeconds": "60"
+}

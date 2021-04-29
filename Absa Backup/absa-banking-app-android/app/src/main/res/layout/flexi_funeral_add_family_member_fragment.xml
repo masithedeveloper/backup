@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scrollView"
+    style="@style/ScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/initialsNormalInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:digits="@string/flexi_funeral_normalInputView_allowed_characters"
+            android:inputType="textCapWords|textVisiblePassword"
+            android:maxLength="10"
+            app:attribute_editable="true"
+            app:attribute_hint_text="@string/flexi_funeral_initials_hint"
+            app:attribute_title_text="@string/flexi_funeral_initials_title"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/surnameNormalInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:digits="@string/flexi_funeral_normalInputView_allowed_characters"
+            android:inputType="textCapWords|textVisiblePassword"
+            android:maxLength="50"
+            app:attribute_editable="true"
+            app:attribute_hint_text="@string/flexi_funeral_surname_hint"
+            app:attribute_title_text="@string/insurance_surname_title"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/initialsNormalInputView" />
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/categoryNormalInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_hint_text="@string/insurance_category_hint"
+            app:attribute_selector_type="LONG_LIST"
+            app:attribute_title_text="@string/insurance_category"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/surnameNormalInputView" />
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/relationshipNormalInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_hint_text="@string/insurance_relationship_hint"
+            app:attribute_selector_type="LONG_LIST"
+            app:attribute_title_text="@string/insurance_relationship_title"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/categoryNormalInputView" />
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/genderNormalInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            app:attribute_hint_text="@string/insurance_gender_hint"
+            app:attribute_selector_type="LONG_LIST"
+            app:attribute_title_text="@string/insurance_gender_title"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/relationshipNormalInputView" />
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/dateOfBirthNormalInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_hint_text="@string/insurance_date_of_birth_hint"
+            app:attribute_selector_type="DATE"
+            app:attribute_title_text="@string/insurance_date_of_birth_title"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/genderNormalInputView" />
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/coverAmountNormalInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_hint_text="@string/flexi_funeral_choose_your_cover"
+            app:attribute_selector_type="LONG_LIST"
+            app:attribute_title_text="@string/flexi_funeral_how_much_cover_would_you_like"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/dateOfBirthNormalInputView" />
+
+        <styleguide.buttons.Button
+            android:id="@+id/addFamilyMemberButton"
+            style="@style/PrimaryButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/flexi_funeral_add_family_member"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/coverAmountNormalInputView"
+            app:layout_constraintVertical_bias="1" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

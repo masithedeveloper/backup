@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ScrollView"
+    style="@style/ScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/mainContainerConstraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <styleguide.buttons.OptionActionButtonView
+            android:id="@+id/whatIsUnitTrustButtonView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_caption="@string/buy_unit_trust_what_is_unit_trust"
+            app:attribute_icon="@drawable/ic_menu_dark"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <styleguide.buttons.OptionActionButtonView
+            android:id="@+id/whatWillItCostButtonView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_caption="@string/buy_unit_trust_what_will_it_cost"
+            app:attribute_icon="@drawable/ic_cash"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/whatIsUnitTrustButtonView" />
+
+        <styleguide.buttons.OptionActionButtonView
+            android:id="@+id/riskConsiderationButtonView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_caption="@string/buy_unit_trust_risk_consideration"
+            app:attribute_icon="@drawable/ic_more_dark_circle"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/whatWillItCostButtonView" />
+
+        <styleguide.buttons.OptionActionButtonView
+            android:id="@+id/dividentTaxButtonView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_caption="@string/buy_unit_trust_divident_tax"
+            app:attribute_icon="@drawable/ic_branch_dark"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/riskConsiderationButtonView" />
+
+        <styleguide.buttons.OptionActionButtonView
+            android:id="@+id/contactDetailsButtonView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_caption="@string/buy_unit_trust_contact_details"
+            app:attribute_icon="@drawable/ic_call_dark"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/dividentTaxButtonView" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

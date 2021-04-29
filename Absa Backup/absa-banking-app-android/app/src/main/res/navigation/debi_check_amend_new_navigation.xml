@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/debi_check_navigation"
+    app:startDestination="@+id/debiCheckDetailsFragment">
+    <fragment
+        android:id="@+id/debiCheckDetailsFragment"
+        android:name="com.barclays.absa.banking.debiCheck.ui.DebiCheckMandateDetailsFragment"
+        android:label="DebiCheckMandateDetailsFragment"
+        tools:layout="@layout/debi_check_order_details_activity">
+        <action
+            android:id="@+id/action_debiCheckDetailsFragment_to_debiCheckReasonForRejectFragment"
+            app:destination="@id/debiCheckReasonForRejectFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+    <fragment
+        android:id="@+id/debiCheckReasonForRejectFragment"
+        android:name="com.barclays.absa.banking.debiCheck.ui.DebiCheckReasonsFragment"
+        android:label="DebiCheckReasonForDisputeFragment"
+        tools:layout="@layout/debi_check_reason_for_dispute_fragment"/>
+</navigation>

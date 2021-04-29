@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootConstraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/resultImageView"
+        layout="@layout/generic_result_image_view"
+        android:visibility="gone"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <styleguide.content.CenteredTitleView
+        android:id="@+id/titleCenteredTitleView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/medium_space"
+        android:visibility="gone"
+        app:attribute_title="@string/offer_no_offers_title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/resultImageView" />
+
+    <styleguide.content.DescriptionView
+        android:id="@+id/contentDescriptionView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/tiny_space"
+        android:gravity="center"
+        android:visibility="gone"
+        app:attribute_description="@string/offer_no_offers_description"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleCenteredTitleView" />
+
+    <styleguide.content.HeadingView
+        android:id="@+id/exploreHeadingView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:attribute_heading="@string/recommended_for_you_header"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/contentDescriptionView" />
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/scrollView"
+        style="@style/ScrollView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:animateLayoutChanges="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/exploreHeadingView">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/double_medium_space">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/exploreHubRecyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:nestedScrollingEnabled="false"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/small_space"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+            <styleguide.content.HeadingView
+                android:id="@+id/stayInTouchHeadingView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                app:attribute_heading="@string/stay_in_touch" />
+
+            <styleguide.cards.AlertView
+                android:id="@+id/directMarketingAlertView"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/button_height"
+                android:layout_marginStart="@dimen/medium_space"
+                android:layout_marginTop="@dimen/medium_space"
+                android:layout_marginEnd="@dimen/medium_space"
+                android:visibility="gone"
+                app:attribute_button_text="@string/more"
+                app:attribute_image="@color/transaction_card_dark_background_color"
+                app:attribute_is_dark="true"
+                tools:visibility="visible" />
+
+            <styleguide.cards.OfferView
+                android:id="@+id/directMarketingOfferView"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/large_space_140"
+                android:visibility="gone"
+                app:attribute_button_text="@string/more"
+                app:attribute_is_dark="true" />
+
+            <styleguide.content.HeadingView
+                android:id="@+id/fraudNotificationHeadingView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                app:attribute_heading="@string/fraud_notification_need_to_know"
+                tools:visibility="visible" />
+
+            <styleguide.cards.SmallRoundedBannerView
+                android:id="@+id/fraudNotificationAlertView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/medium_space"
+                android:layout_marginTop="@dimen/small_space"
+                android:layout_marginEnd="@dimen/medium_space"
+                android:visibility="gone"
+                tools:visibility="visible" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

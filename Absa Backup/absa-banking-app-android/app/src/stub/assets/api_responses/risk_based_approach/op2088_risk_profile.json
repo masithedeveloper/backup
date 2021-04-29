@@ -1,0 +1,17 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES2088",
+      "resCde": "00000",
+      "resMsg": "Success",
+      "serVer": "2.0",
+      "expTrace": null
+    },
+    "payData": {
+      "riskRating": "M",
+      "riskAcceptable": true,
+      "txnStatus": "Success",
+      "txnMessage": "Success"
+    }
+  }
+}

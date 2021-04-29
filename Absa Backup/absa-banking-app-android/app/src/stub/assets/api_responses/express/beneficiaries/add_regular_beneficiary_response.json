@@ -1,0 +1,40 @@
+{
+  "header": {
+    "statuscode": "0",
+    "userAgent": "ANDROID - 6.20.0",
+    "jsessionid": "Cx953Hk7UylZoxa1MTjZxMpn9EAw6288XCdb4Yb2",
+    "esessionid": "fbd6c6c9-dc4c-33c7-a9c4-306870849b17",
+    "service": "RegularBeneficiaryManagementFacade",
+    "operation": "AddRegularBeneficiary",
+    "channel": "S",
+    "timestamp": "2021-02-09 15:24:58.777",
+    "sourceip": "22.240.44.100",
+    "accessAccount": "4047510559",
+    "userNumber": "1",
+    "nonce": "kT3d9a3CjlQoMvAQcmEHm-kh-oysISIOjdj5MCFvisY",
+    "language": "en",
+    "organization": "ABSA",
+    "brand": "ABSA",
+    "resultMessages": []
+  },
+  "typeOfBeneficiary": "I",
+  "instructionType": "VP",
+  "sourceAccountReference": "test source",
+  "targetAccountReference": "test target",
+  "targetAccountNumber": "4047995967",
+  "beneficiaryName": "Shane",
+  "bankNameOrInstitutionName": "Absa",
+  "clearingCodeOrInstitutionCode": "632005",
+  "targetAccountType": "CURRENT_ACCOUNT",
+  "beneficiaryNotification": {
+    "notificationMethod": "N"
+  },
+  "ownNotification": {
+    "notificationMethod": "N"
+  },
+  "lastMaintenanceDateAndTime": "2021-02-09 15:24:58:035",
+  "cifKey": "MADIDNJ001",
+  "tieBreaker": "3",
+  "beneficiaryNumber": 42,
+  "uniqueEFTNumber": "80004B6484"
+}

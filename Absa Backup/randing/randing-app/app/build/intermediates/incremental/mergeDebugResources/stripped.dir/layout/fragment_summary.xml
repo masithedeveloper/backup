@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.summary.SummaryFragment"
+    tools:theme="@style/Theme.App">
+
+    <TextView
+        android:id="@+id/tv_balance_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/balance"
+        android:textAppearance="@style/TextAppearance.App.Subtitle1"
+        android:textColor="?attr/colorOnBackground"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.money.randing.ui.common.TypingTextView
+        android:id="@+id/tv_balance_amount"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.App.Headline1"
+        android:textColor="?attr/colorOnBackground"
+        app:layout_constraintTop_toBottomOf="@+id/tv_balance_label"
+        tools:text="R73,589.00" />
+
+    <TextView
+        android:id="@+id/tv_negative_amount"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:textAlignment="textEnd"
+        android:textAppearance="@style/TextAppearance.App.Subtitle1"
+        android:textColor="@color/colorNegative"
+        app:layout_constraintEnd_toStartOf="@+id/tv_positive_amount"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_balance_amount"
+        tools:text="R30,000.00" />
+
+    <TextView
+        android:id="@+id/tv_positive_amount"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textAppearance="@style/TextAppearance.App.Subtitle1"
+        android:textColor="@color/colorPositive"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tv_negative_amount"
+        app:layout_constraintTop_toBottomOf="@id/tv_balance_amount"
+        tools:text="R20,000.00" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_people"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        android:clipToPadding="false"
+        android:layoutAnimation="@anim/item_layout_animation"
+        android:overScrollMode="never"
+        android:paddingBottom="80dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_positive_amount"
+        tools:layoutAnimation="@null"
+        tools:listitem="@layout/view_item_person"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/tv_empty"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/no_pending_debts"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.App.Headline3"
+        android:textColor="@color/low_emphasis_color"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_positive_amount"
+        tools:text="You have not registered any movement yet."
+        tools:visibility="visible" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

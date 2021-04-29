@@ -1,0 +1,22 @@
+{
+  "payHdr": {
+    "resCde": "00000",
+    "expTrace": null,
+    "serVer": "2.0",
+    "resMsg": "Success",
+    "resId": "RES0843"
+  },
+  "payData": {
+    "txnStatus": "Failure",
+    "referenceNumber": null,
+    "mandates": null,
+    "corelationId": null,
+    "txnMessage": "Pain009 not found",
+    "email": null,
+    "sureCheckFlag": null,
+    "tvnFlag": null,
+    "notificationMethod": null,
+    "transactionDate": null,
+    "cellnumber": null
+  }
+}

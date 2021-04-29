@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/containerConstraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <styleguide.bars.CollapsingAppBarView
+            android:id="@+id/collapsingAppbarView"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:fitsSystemWindows="true"
+            app:attribute_app_bar_title="@string/credit_card_hub_toolbar_title"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <styleguide.widgets.OfferBannerView
+            android:id="@+id/offerBannerView"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:visibility="invisible"
+            app:attribute_apply_button_text="@string/apply_now"
+            app:attribute_background_drawable="@drawable/vcl_offer_header_item"
+            app:attribute_offer_content_text="@string/vcl_offer_increase_limit"
+            app:attribute_offer_title_text="@string/vcl_offer_need_more_power"
+            app:attribute_primary_button_text="@string/find_out_more"
+            app:attribute_secondary_button_text="@string/hide"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

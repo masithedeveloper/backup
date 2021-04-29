@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:parentTag="androidx.constraintlayout.widget.ConstraintLayout">
+
+    <TextView
+        android:id="@+id/accountNameTextView"
+        style="@style/LargeTextRegularDark"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/normal_space"
+        android:layout_marginEnd="@dimen/small_space"
+        app:layout_constraintEnd_toStartOf="@+id/accountSwitcher"
+        app:layout_constraintStart_toEndOf="@+id/accountMenuIcon"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Current Account" />
+
+    <TextView
+        android:id="@+id/accountNumberTextView"
+        style="@style/SmallTextRegularDark"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/tiny_space"
+        android:layout_marginEnd="@dimen/small_space"
+        android:layout_marginBottom="@dimen/normal_space"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/accountSwitcher"
+        app:layout_constraintStart_toEndOf="@+id/accountMenuIcon"
+        app:layout_constraintTop_toBottomOf="@+id/accountNameTextView"
+        tools:text="1234 5678 12" />
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/accountSwitcher"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:theme="@style/ToggleItem"
+        android:layout_marginStart="@dimen/medium_space"
+        android:layout_marginEnd="@dimen/medium_space"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/accountMenuIcon"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/small_space"
+        android:paddingBottom="@dimen/small_space"
+        android:paddingStart="@dimen/medium_space"
+        android:paddingEnd="@dimen/medium_space"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_account_menu_icon" />
+</merge>

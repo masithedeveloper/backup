@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        style="@style/ScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <styleguide.content.TitleAndDescriptionView
+                android:id="@+id/getCardBankingTitleAndDescriptionView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_description="@string/new_to_bank_lets_start_banking"
+                app:attribute_title="@string/new_to_bank_ready_set_go"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <styleguide.content.DescriptionView
+                android:id="@+id/allThatsLeftDescriptionView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                app:attribute_description="@string/new_to_bank_all_thats_left_to_do"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/getCardBankingTitleAndDescriptionView" />
+
+            <ImageView
+                android:id="@+id/arrangeCardImageView"
+                android:layout_width="@dimen/image_size_large"
+                android:layout_height="@dimen/image_size_large"
+                android:tint="@null"
+                android:layout_marginStart="@dimen/double_medium_space"
+                android:layout_marginTop="@dimen/medium_space"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/allThatsLeftDescriptionView"
+                app:srcCompat="@drawable/ic_bank_card_1" />
+
+            <TextView
+                android:id="@+id/arrangeCardDescriptionView"
+                style="@style/LargeTextRegularDark"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/double_medium_space"
+                android:layout_marginStart="@dimen/small_space"
+                android:text="@string/new_to_bank_arrange_to_collect_card"
+                app:layout_constraintBottom_toBottomOf="@id/arrangeCardImageView"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/arrangeCardImageView"
+                app:layout_constraintTop_toTopOf="@id/arrangeCardImageView" />
+
+            <ImageView
+                android:id="@+id/bankingProfileImageView"
+                android:layout_width="@dimen/image_size_large"
+                android:layout_height="@dimen/image_size_large"
+                android:layout_marginEnd="@dimen/double_medium_space"
+                android:tint="@null"
+                android:layout_marginTop="@dimen/medium_space"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/arrangeCardImageView"
+                app:srcCompat="@drawable/ic_bank_card_2" />
+
+            <TextView
+                android:id="@+id/bankingProfileDescriptionView"
+                style="@style/LargeTextRegularDark"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/small_space"
+                android:layout_marginStart="@dimen/double_medium_space"
+                android:text="@string/new_to_bank_set_up_digital_profile"
+                app:layout_constraintBottom_toBottomOf="@id/bankingProfileImageView"
+                app:layout_constraintEnd_toStartOf="@id/bankingProfileImageView"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@id/bankingProfileImageView" />
+
+            <ImageView
+                android:id="@+id/depositMoneyImageView"
+                android:layout_width="@dimen/image_size_large"
+                android:layout_height="@dimen/image_size_large"
+                android:layout_marginStart="@dimen/double_medium_space"
+                android:tint="@null"
+                android:layout_marginTop="@dimen/medium_space"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/bankingProfileImageView"
+                app:srcCompat="@drawable/ic_bank_card_3" />
+
+            <TextView
+                android:id="@+id/depositMoneyDescriptionView"
+                style="@style/LargeTextRegularDark"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/double_medium_space"
+                android:layout_marginStart="@dimen/small_space"
+                android:text="@string/new_to_bank_deposit_to_activate_account"
+                app:layout_constraintBottom_toBottomOf="@id/depositMoneyImageView"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/depositMoneyImageView"
+                app:layout_constraintTop_toTopOf="@id/depositMoneyImageView" />
+
+            <styleguide.buttons.Button
+                android:id="@+id/getCardButton"
+                style="@style/PrimaryButton"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/button_height"
+                android:text="@string/new_to_bank_get_my_bank_card"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/depositMoneyDescriptionView"
+                app:layout_constraintVertical_bias="1" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</layout>

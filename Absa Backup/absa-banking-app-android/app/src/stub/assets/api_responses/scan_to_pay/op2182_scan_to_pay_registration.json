@@ -1,0 +1,17 @@
+{
+  "successResponseModel": {
+    "payData": {
+      "isCardUpdated": "true",
+      "isRegistered": "true",
+      "txnStatus": "Success",
+      "txnMessage": "Success "
+    },
+    "payHdr": {
+      "resId": "RES2182",
+      "serVer": "2.0",
+      "expTrace": null,
+      "resMsg": "Success",
+      "resCde": "00000"
+    }
+  }
+}

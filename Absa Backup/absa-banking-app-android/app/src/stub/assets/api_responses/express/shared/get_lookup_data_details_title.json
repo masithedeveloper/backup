@@ -1,0 +1,203 @@
+{
+  "header":    {
+    "statuscode": "0",
+    "userAgent": "ANDROID",
+    "jsessionid": "yKeZ7T-YI37xuTrOH09uQP01_Xx9k-dqeQ_3413E",
+    "esessionid": "7b94c028-f162-31ed-b829-06f9744dc619",
+    "service": "SavedApplicationsFacade",
+    "operation": "GetSavedApplicationsDetails",
+    "channel": "S",
+    "timestamp": "2020-08-13 18:03:30.570",
+    "sourceip": "22.241.133.158",
+    "accessAccount": "4048037891",
+    "userNumber": "1",
+    "nonce": "WDJlxKHkkttXU57Zd35-H4GlmXQ0v33PesMeDBP-CTQ",
+    "language": "en",
+    "organization": "ABSA",
+    "brand": "ABSA",
+    "applicationId": "AXOBMOBAPP",
+    "resultMessages": [],
+    "paginationContext": {
+      "moreToCome": false,
+      "batchSize": 9999,
+      "batchSizeLimit": 9999,
+      "recordIdentity": "0",
+      "totalNoOfRecords": 1
+    }
+  },
+  "groupCode": "TITLE",
+  "lookupsVOs":    [
+    {
+      "code": "01",
+      "value": "Mr"
+    },
+    {
+      "code": "02",
+      "value": "Mrs"
+    },
+    {
+      "code": "03",
+      "value": "Miss"
+    },
+    {
+      "code": "04",
+      "value": "Professor"
+    },
+    {
+      "code": "05",
+      "value": "Doctor"
+    },
+    {
+      "code": "06",
+      "value": "Reverend"
+    },
+    {
+      "code": "07",
+      "value": "Estate Late"
+    },
+    {
+      "code": "08",
+      "value": "Major"
+    },
+    {
+      "code": "09",
+      "value": "Colonel"
+    },
+    {
+      "code": "10",
+      "value": "General"
+    },
+    {
+      "code": "11",
+      "value": "Brigadier"
+    },
+    {
+      "code": "12",
+      "value": "Captain"
+    },
+    {
+      "code": "13",
+      "value": "Chief"
+    },
+    {
+      "code": "14",
+      "value": "Brigadier-general"
+    },
+    {
+      "code": "15",
+      "value": "Sir"
+    },
+    {
+      "code": "16",
+      "value": "Lady"
+    },
+    {
+      "code": "18",
+      "value": "Paramount Chief"
+    },
+    {
+      "code": "19",
+      "value": "Lord"
+    },
+    {
+      "code": "20",
+      "value": "Advocate"
+    },
+    {
+      "code": "21",
+      "value": "Ms"
+    },
+    {
+      "code": "22",
+      "value": "Judge"
+    },
+    {
+      "code": "23",
+      "value": "Rabbi"
+    },
+    {
+      "code": "24",
+      "value": "Insolvent Estate"
+    },
+    {
+      "code": "25",
+      "value": "Pastor"
+    },
+    {
+      "code": "26",
+      "value": "Sergeant"
+    },
+    {
+      "code": "27",
+      "value": "Constable"
+    },
+    {
+      "code": "28",
+      "value": "Father"
+    },
+    {
+      "code": "29",
+      "value": "Lieutenant"
+    },
+    {
+      "code": "30",
+      "value": "Sister"
+    },
+    {
+      "code": "31",
+      "value": "Eerwaarde"
+    },
+    {
+      "code": "33",
+      "value": "Admiral"
+    },
+    {
+      "code": "34",
+      "value": "Major General"
+    },
+    {
+      "code": "35",
+      "value": "Lieutenant General"
+    },
+    {
+      "code": "36",
+      "value": "Lieutenant Colonel"
+    },
+    {
+      "code": "37",
+      "value": "Minister"
+    },
+    {
+      "code": "38",
+      "value": "President"
+    },
+    {
+      "code": "39",
+      "value": "The Honourable"
+    },
+    {
+      "code": "40",
+      "value": "Warrant Officer"
+    },
+    {
+      "code": "41",
+      "value": "Commissioner"
+    },
+    {
+      "code": "42",
+      "value": "Inspector"
+    },
+    {
+      "code": "43",
+      "value": "Superintendent/senior Superintendent"
+    },
+    {
+      "code": "44",
+      "value": "Director"
+    },
+    {
+      "code": "45",
+      "value": "Sergeant Major"
+    }
+  ]
+}

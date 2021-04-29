@@ -1,0 +1,40 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES2160",
+      "resCde": "00000",
+      "resMsg": "Success",
+      "serVer": "2.0",
+      "expTrace": null
+    },
+    "payData": {
+      "tdRenewalInstructionDetails": {
+        "accountNumber": "2049687796",
+        "maturityDate": "2020-07-30",
+        "minMaturityDate": "2020-08-07",
+        "maxMaturityDate": "2025-08-30",
+        "depositBalance": "1500",
+        "minimumDeposit": "1000",
+        "productCode": "03040",
+        "automaticRenewal": "false",
+        "isMatured": "false",
+        "islamicIndicator": "N",
+        "minTerm": "8",
+        "maxTerm": "1857",
+        "eventNo": "",
+        "productCategory": null,
+        "amount": "",
+        "term": "0",
+        "startDate": null,
+        "endDate": null,
+        "status": null,
+        "capDay": "",
+        "capFreq": "",
+        "submittedOn": null,
+        "nextCapDate": null
+      },
+      "txnStatus": "Success",
+      "txnMessage": "Success"
+    }
+  }
+}

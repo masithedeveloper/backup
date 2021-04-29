@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:parentTag="androidx.constraintlayout.widget.ConstraintLayout">
+
+    <styleguide.content.PrimaryContentAndLabelView
+        android:id="@+id/taxCountryContent"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:attribute_primary_label="@string/manage_profile_tax_confirmation_tax_country_label"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:attribute_primary_content="Japan" />
+
+    <styleguide.content.PrimaryContentAndLabelView
+        android:id="@+id/taxNumberContent"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:attribute_primary_label="@string/manage_profile_tax_confirmation_tax_number_label"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/taxCountryContent"
+        tools:attribute_primary_content="None" />
+
+    <styleguide.content.PrimaryContentAndLabelView
+        android:id="@+id/reasonContentView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:attribute_primary_label="@string/manage_profile_tax_confirmation_reason_label"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/taxNumberContent"
+        tools:attribute_primary_content="Unable to provide reason" />
+
+    <View
+        android:id="@+id/divider"
+        style="@style/DividerView"
+        android:layout_width="0dp"
+        android:layout_marginTop="@dimen/small_space"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/reasonContentView" />
+</merge>

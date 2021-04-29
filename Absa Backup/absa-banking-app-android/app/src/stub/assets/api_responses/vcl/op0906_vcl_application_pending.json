@@ -1,0 +1,26 @@
+{
+  "successResponseModel": {
+    "payData": {
+      "respDTO": {
+        "cliapplicationResult": "PENDING"
+      },
+      "tvnFlag": null,
+      "email": null,
+      "corelationId": null,
+      "notificationMethod": null,
+      "referenceNumber": null,
+      "cellnumber": null,
+      "transactionDate": null,
+      "sureCheckFlag": null,
+      "txnStatus": "Success",
+      "txnMessage": "Success"
+    },
+    "payHdr": {
+      "resCde": "00000",
+      "resMsg": "Success",
+      "serVer": "2.0",
+      "expTrace": null,
+      "resId": "RES0906"
+    }
+  }
+}

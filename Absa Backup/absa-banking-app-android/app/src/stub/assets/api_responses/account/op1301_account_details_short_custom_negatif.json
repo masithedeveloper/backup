@@ -1,0 +1,128 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES1301",
+      "resCde": "00000",
+      "resMsg": "",
+      "serVer": "2.0"
+    },
+    "payData": {
+      "acntDetails": {
+        "balance": {
+          "curr": "R",
+          "amt": "1050.0"
+        },
+        "unclearedBalance": {
+          "curr": "R",
+          "amt": "0.00"
+        },
+        "availableBalance": {
+          "curr": "R",
+          "amt": "1000.0"
+        },
+        "mkdActNo": "9050993953",
+        "actNo": "9050993953",
+        "isBalanceMasked": "N",
+        "viewAcctHistoryAllowed": "true",
+        "desc": "Savings account",
+        "curr": "R",
+        "typ": "savingsAccount"
+      },
+      "chqueNotYtClrdDt": "2017-07-14 14:15:51",
+      "fromDt": "2017-07-01",
+      "toDt": "2017-07-19",
+      "actActvLst": [
+        {
+          "txnStatus": "",
+          "txnPrt": "8-credit",
+          "drAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "crAmt": {
+            "curr": "R",
+            "amt": "500.00"
+          },
+          "dt": "2017-07-07",
+          "bal": {
+            "curr": "R",
+            "amt": "-1050"
+          },
+          "refNo": ""
+        },
+        {
+          "txnStatus": "",
+          "txnPrt": "9-credit",
+          "drAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "crAmt": {
+            "curr": "R",
+            "amt": "450.00"
+          },
+          "dt": "2017-07-06",
+          "bal": {
+            "curr": "R",
+            "amt": "-1550"
+          },
+          "refNo": ""
+        },
+        {
+          "txnStatus": "",
+          "txnPrt": "10-credit",
+          "drAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "crAmt": {
+            "curr": "R",
+            "amt": "1000.00"
+          },
+          "dt": "2017-07-05",
+          "bal": {
+            "curr": "R",
+            "amt": "-2000"
+          },
+          "refNo": ""
+        },
+        {
+          "txnStatus": "",
+          "txnPrt": "11-credit",
+          "drAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "crAmt": {
+            "curr": "R",
+            "amt": "7000.00"
+          },
+          "dt": "2017-07-04",
+          "bal": {
+            "curr": "R",
+            "amt": "-3000"
+          },
+          "refNo": ""
+        },
+        {
+          "txnStatus": "",
+          "txnPrt": "12-credit",
+          "drAmt": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "crAmt": {
+            "curr": "R",
+            "amt": "10.00"
+          },
+          "dt": "2017-07-03",
+          "bal": {
+            "curr": "R",
+            "amt": "-10000.00"
+          },
+          "refNo": ""
+        }
+      ]
+    }
+  }
+}

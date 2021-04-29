@@ -1,0 +1,27 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0786",
+      "resCde": "00000",
+      "resMsg": "Success",
+      "serVer": "2.0"
+    },
+    "payData": {
+      "ownNotificationDTO": {
+        "emaillist": [
+          "gaurav.dua@absa.co.za"
+        ],
+        "cellNolist": [
+          "******6179"
+        ],
+        "faxinfolist": [
+          {
+            "faxCode": "",
+            "faxNumber": ""
+          }
+        ],
+        "actualCellNo": "0713196179"
+      }
+    }
+  }
+}

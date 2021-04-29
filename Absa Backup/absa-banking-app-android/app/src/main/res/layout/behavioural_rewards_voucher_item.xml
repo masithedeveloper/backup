@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/parentConstraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/medium_space"
+    android:layout_marginTop="@dimen/normal_space"
+    android:layout_marginEnd="@dimen/medium_space"
+    android:background="@drawable/ic_behavioural_card"
+    android:paddingStart="@dimen/large_space"
+    android:paddingTop="@dimen/medium_space"
+    android:paddingEnd="@dimen/large_space"
+    android:paddingBottom="@dimen/medium_space">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="@dimen/voucher_logo_image_size"
+        android:layout_height="@dimen/voucher_logo_image_size"
+        android:layout_marginStart="@dimen/small_space"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_absa_full_logo_red"
+        android:tint="@null"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/containerLinearLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/medium_space"
+        android:layout_marginEnd="@dimen/small_space"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="@+id/logoImageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/logoImageView"
+        app:layout_constraintTop_toTopOf="@+id/logoImageView">
+
+        <TextView
+            android:id="@+id/voucherTitleTextView"
+            style="@style/NormalTextMediumDark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="R50 McDonalds Meal Voucher" />
+
+        <TextView
+            android:id="@+id/voucherStatusTextView"
+            style="@style/SmallTextRegularDark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/small_space"
+            android:textColor="@color/behavioural_rewards_hint_color"
+            tools:text="R50 McDonalds Meal Voucher" />
+
+    </LinearLayout>
+
+    <styleguide.buttons.Button
+        android:id="@+id/voucherButton"
+        style="@style/BehaviouralRewardsRoundedButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/behavioural_view_voucher_top_margin"
+        android:layout_marginBottom="@dimen/normal_space"
+        android:text="@string/behavioural_rewards_challenges_view_voucher"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/containerLinearLayout" />
+</androidx.constraintlayout.widget.ConstraintLayout>

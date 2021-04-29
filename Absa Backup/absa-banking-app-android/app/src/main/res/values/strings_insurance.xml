@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--funeral cover-->
+    <string name="funeral_cover_apply_now">Apply now</string>
+    <string name="funeral_cover_find_out_more">Find out more</string>
+    <string name="funeral_cover_detailed_message_one">Get cover for you and your family.</string>
+    <string name="funeral_cover_detailed_message_two">Receive double pay-out on accidental death of the main member.</string>
+    <string name="funeral_cover_buy_hub_message">The dignity you and your family deserve</string>
+    <string name="funeral_cover_buy_hub_message_offers">The peace of mind you and your family deserve</string>
+    <string name="funeral_cover_buy_hub_funeral_sub_message">From as little as</string>
+    <string name="funeral_per_month">per month</string>
+    <string name="funeral_cover_title">Funeral Cover</string>
+    <string name="funeral_cover">The dignity your family &lt;br&gt; deserves from as little &lt;br&gt; as &lt;b&gt;R%1s per month&lt;/b&gt;</string>
+    <string name="add_cover_spouse">Get cover for <b>you and your family</b></string>
+    <string name="double_benefit_funeral">Receive <b>double pay-out</b> on accidental death of the main member</string>
+    <string name="find_out_more"><u>Find out more</u></string>
+    <string name="tailored_for_you">Tailored for you</string>
+    <string name="dignity_of_family">The dignity your family deserves</string>
+    <string name="debicheck_debit_order_details">Debit Order Details</string>
+    <string name="account_to_debit">Account to debit</string>
+    <string name="unit_trust_select_account">Select Account</string>
+    <string name="debit_day_funeral">Debit day</string>
+    <string name="estate_late">Estate late</string>
+    <string name="we_will_debit_your_account">We will debit your account</string>
+    <string name="policy_date_funeral">Policy Start Date</string>
+    <string name="source_of_funds">Source of funds</string>
+    <string name="yearly_increase">5% yearly increase</string>
+    <string name="quotation">Quotation</string>
+    <string name="main_member">%1s(Main Member)</string>
+    <string name="view_terms_and_conditions"><u>View terms &amp; conditions</u></string>
+    <string name="total_monthly_premium"><b>Total monthly premium</b></string>
+    <string name="spouse_partner">Spouse/Partner</string>
+    <string name="accept_quote">Accept Quote</string>
+    <string name="apply_now_funeral">Apply now</string>
+    <string name="declaration_funeral_quote"><b>I hereby declare that:</b> \n- The information supplied is true and \n  correct \n- I accept the cover without any advisory \n- I accept the policy terms and conditions</string>
+    <string name="contact_center_funeral">For enquiries or help call</string>
+    <string name="contact_center_funeral_tel" translatable="false"><b>086 022 7253</b></string>
+    <string name="funeral_cover_member_and_spouse_title">Main Member, Spouse &amp; Family</string>
+    <string name="funeral_cover_member_title">Main Member</string>
+    <string name="member_cover_title">%1s, how much cover would you like?</string>
+    <string name="add_cover_for_your_spouse">Add cover for your spouse or partner?</string>
+    <string name="choose_cover">Choose your cover</string>
+    <string name="member_cover_disclaimer">Children and extended family members can be added after the policy start date by logging onto your ABSA Online Banking profile.</string>
+    <string name="try_later_text">We are working on it so please try again a little later.</string>
+    <string name="this_policy_will_start_on">This policy will start on the 1st of next month.</string>
+    <string name="do_you_want_to_increase_your_and_premium">Increase cover and premium by 5% every year.</string>
+    <string name="life_policy_contact" translatable="false">086 022 7253</string>
+    <string name="short_policy_contact" translatable="false">086 010 0876</string>
+    <string name="short_term_absa_i_direct_contact" translatable="false">086 010 9693</string>
+    <string name="short_term_hoc_contact" translatable="false">086 010 0876</string>
+    <string name="support_center_number" translatable="false">08600 08600</string>
+    <string name="credit_card_due_date">Due date:</string>
+    <string name="offers">Offers</string>
+    <string name="at">at</string>
+    <string name="initials_funeral">Initials</string>
+    <string name="salary_wages"><b>SALARY</b></string>
+    <string name="offers_text">Look what we have <b>just for you</b> this month!</string>
+    <string name="funds_text">Funds used to pay this cover</string>
+    <string name="terms_and_condition_funeral">Terms &amp; Conditions</string>
+    <string name="tailored_products_text">Get tailored products</string>
+    <string name="funeral_cover_tailored_for_you_text">Funeral cover tailored for you.</string>
+    <string name="funeral_cover_age_limit_message">Unfortunately, you are unable to apply for this policy as it is only available for those from the ages of 18 to 65.</string>
+    <string name="funeral_cover_age_below_limit_message" translatable="false">Client age is less than min entry age</string>
+    <string name="funeral_cover_age_greater_limit_message" translatable="false">Client age is greater than max entry age</string>
+    <string name="enter_member_initials">Enter member‘s initials</string>
+    <string name="enter_member_surname">Enter member‘s surname</string>
+    <string name="member_category">Category</string>
+    <string name="member_category_hint">Select category</string>
+    <string name="family_member_details">Family member details</string>
+    <string name="relationship">Relationship</string>
+    <string name="select_relationship">Select relationship</string>
+    <string name="add_family_member_text">Add this family member</string>
+    <string name="add_other_family_member">Add other family members</string>
+    <string name="select_gender">Select gender</string>
+    <string name="delete_member_message">This will remove %s from your quote.</string>
+    <string name="funeral_cover_delete_family_member">Delete this family member</string>
+    <string name="member_children_age_limit_message">Child must be younger than 18 years</string>
+    <string name="member_student_age_limit_message">Students and special children must be younger than 21 years</string>
+    <string name="member_special_child_age_limit_message">Special needs child must be younger than 21 years</string>
+    <string name="member_parents_inlaws_age_limit_message">Parent/Inlaw must be younger than 75 years</string>
+    <string name="extended_family_member_age_limit_message">Extended family must be younger than 75 years</string>
+    <string name="brother">Brother</string>
+    <string name="daughter">Daughter</string>
+    <string name="father_in_law">Father-in-law</string>
+    <string name="father">Father</string>
+    <string name="mother_in_law">Mother-in-law</string>
+    <string name="mother">Mother</string>
+    <string name="other">Other</string>
+    <string name="step_father">Stepfather</string>
+    <string name="sister">Sister</string>
+    <string name="step_mother">Stepmother</string>
+    <string name="son">Son</string>
+    <string name="special_child">Special needs child</string>
+    <string name="student">Student</string>
+    <string name="uncle">Uncle</string>
+    <string name="niece">Niece</string>
+    <string name="nephew">Nephew</string>
+    <string name="aunt">Aunt</string>
+    <string name="cousin">Cousin</string>
+    <string name="children">Children</string>
+    <string name="parents_in_laws">Parents/Inlaws</string>
+    <string name="extended_family">Extended family</string>
+    <string name="member_save_changes">Save changes</string>
+    <string name="main_member_cover_title">How much cover would you like?</string>
+    <string name="insure_other">Insure others</string>
+    <string name="funeral_first_postfix" translatable="false">st</string>
+    <string name="funeral_second_postfix" translatable="false">nd</string>
+    <string name="funeral_third_postfix" translatable="false">rd</string>
+    <string name="funeral_nth_postfix" translatable="false">th</string>
+    <string name="policy_details_overview">Policy details overview</string>
+    <string name="funeral_cover_service_fee">per month</string>
+    <string name="spouse_cover">Spouse cover</string>
+    <string name="main_member_heading">Main member</string>
+    <string name="for_further_assistance">For further assistance</string>
+    <string name="call_centre">Call Centre</string>
+    <string name="life_insurance_contact_number" translatable="false">086 010 6236</string>
+    <string name="absa_will_call_you_back">Absa will phone you on</string>
+    <string name="confirm_call_me_back">Confirm call me back</string>
+    <string name="cover_at">cover @</string>
+    <string name="main_member_accidental_cover">Main member accidental death</string>
+    <string name="call_centre_times">Mon-Fri 08:00 to 17:00,\nSat 09:00 to 13:00</string>
+    <string name="property_insurance">Property Insurance</string>
+    <string name="additional_damages_over_view">Any additional damages to property?</string>
+    <string name="excess_amount_payable">All excess amounts are payable to the service provider before repairs are performed.</string>
+    <string name="plan_details">Plan Details</string>
+    <string name="view_terms_and_conditions_no_under_line">View Terms and Conditions</string>
+    <string name="email_hint" translatable="false">name@company.com</string>
+    <string name="claim_notification_received">Your reference number is your policy number.\n\nWe will contact you to explain the rest of the claim submission process.\n\nFor any enquiries, please call %s.</string>
+    <string name="claim_notification_not_registered">Please contact this number for further \nassistance: %s.</string>
+    <string name="select_claim_type_error_message">Please select claim type</string>
+    <string name="select_one_more">Select one or more</string>
+    <string name="policy_confirmation">Confirmation</string>
+    <string name="policy_details_confirmation">Confirm</string>
+    <string name="policy_start">Policy start date</string>
+    <string name="policy_declaration">By accepting the quote, I hereby declare that:\n\n- The information supplied is true and correct. \n- I accept the cover without any advisory. \n- I accept the policy Terms &amp; Conditions.</string>
+    <string name="service_fee_per_month">Service fee</string>
+    <string name="select_day_of_debit">Select debit day</string>
+    <string name="funeral_failure_message">Your changes could not be saved. Please try again later or call  %s for assistance.</string>
+    <string name="additional_damages_to_property">Additional damages to property</string>
+    <string name="enter_name_and_surname">Enter name and surname</string>
+    <string name="enter_phone_number">Enter phone number</string>
+    <string name="quote_credit_protection">For a quote please call our contact centre on 086 022 7253</string>
+    <string name="select_source_of_funds">Select source of funds</string>
+    <string name="cover_for_partner">Cover spouse/partner for</string>
+    <string name="funeral_debit_order_frequency">Debit order frequency</string>
+    <string name="policy_description">FUNERAL COVER @ ABSA ONLINE</string>
+    <string name="add_family_member">Add family member</string>
+    <string name="select_member_date_of_birth">Select member\'s date of birth</string>
+    <string name="date_of_birth">Date of birth</string>
+    <string name="remove_family_member">Remove this member?</string>
+    <string name="max_number_of_children">Max 6 children allowed</string>
+    <string name="max_number_of_parents_in_laws">Max 4 parents/inlaws allowed</string>
+    <string name="max_number_of_extended_family">Max 8 extended family members allowed</string>
+    <string name="max_children_error_message">Max number of children allowed exceeded</string>
+    <string name="max_parent_error_message">Max number of parents/inlaws allowed exceeded</string>
+    <string name="max_extended_family_error_message">Max number of extended family member allowed exceeded</string>
+    <string name="initials_required">Initials are required</string>
+    <string name="surname_required">Surname is required</string>
+    <string name="relationship_required">Relationship is a required field</string>
+    <string name="date_of_birth_required">Date of birth is required</string>
+    <string name="funeral_back_confirm_message">If you go back, all the data you\'ve entered so far will be lost.</string>
+    <string name="failed_to_load_member_quote">Failed to retrieve the family member quote, please try again later</string>
+    <string name="gender_error_message">Gender is a required field</string>
+    <string name="cover_service_fee">R %s service fee will be included</string>
+    <string name="tell_us_more_about_it">Tell us more about it...</string>
+    <string name="monthly_premium">Monthly premium</string>
+    <string name="min_contact_length">A name should have at least 4 characters</string>
+    <string name="family_member_surname">Surname</string>
+    <string name="edit_family_member">Edit Family Member</string>
+    <string name="action_coould_not_be_completed">This action could not be completed right now</string>
+    <string name="would_you_like_to_try">Would you like to try again?</string>
+    <string name="student_age_message">Student must be younger than 21 years</string>
+    <string name="policy_members_limit">Maximum reached for this policy</string>
+    <string name="cannot_add_more">Cannot add more members</string>
+    <string name="limit_reached_for_category">Max limit reached for selected category</string>
+    <string name="application_approved">Application approved</string>
+    <string name="manage_payment_details">Manage payment details</string>
+    <string name="edit_payment_details">Edit payment details</string>
+    <string name="payment_bank_name">Bank name</string>
+    <string name="payment_account_number">Account number</string>
+    <string name="payment_account_type">Account type</string>
+    <string name="branch_code">Branch code</string>
+    <string name="next_premium_deduction">Next premium deduction date</string>
+    <string name="which_bank_the_account_is_at">Which bank is the account at?</string>
+    <string name="account_to_debited">Account to debit</string>
+    <string name="day_of_debit">Debit day</string>
+    <string name="account_holder_name">Account holder name</string>
+    <string name="authorize_bank_to_debit">I hereby authorise Absa Life Limited to draw on my account the monthly premium for the cover I have selected.</string>
+    <string name="annual_increase_text">Annual premium increase rate (%)</string>
+    <string name="succes_text">Success</string>
+    <string name="policy_payment_details_changed">Your payment details have been updated successfully.</string>
+    <string name="transmission_account">Transmission Account</string>
+    <string name="credit_card_account">Credit Card Account</string>
+    <string name="bond_account">Bond Account</string>
+    <string name="current_cheque_account">Current Account/Cheque</string>
+    <string name="payment_required_field_error">This field is required</string>
+    <string name="remove_member_button_text">Remove family member</string>
+    <string name="unit_trust">Unit Trust</string>
+    <string name="accounts_unit_trust">Accounts</string>
+    <string name="unit_trust_contact_us"> Contact Us</string>
+    <string name="unit_trust_account_number">Account number</string>
+    <string name="unit_trust_account_balance">Account balance</string>
+    <string name="unit_trust_account_units">Account units</string>
+    <string name="unit_trust_available_units">Available units</string>
+    <string name="unit_trust_need_help">Need Help?</string>
+    <string name="unit_trust_call_centre">Call Centre</string>
+    <string name="unit_trust_account_overview_label">Account overview</string>
+    <string name="unit_trust_more_funds_label">Show All</string>
+    <string name="unit_trust_call_centre_number" translatable="false">086 011 1456</string>
+    <string name="unit_trust_email" translatable="false">utenquiries@absa.co.za</string>
+    <string name="unit_trust_email_csi">Email us</string>
+    <string name="fund_fact_text">Minimum Disclosure Document</string>
+    <string name="unit_trust_only_english_note_text" translatable="false">Note: Fund information only available in English.</string>
+    <string name="fund_overview">Overview</string>
+    <string name="fund_information">Information</string>
+    <string name="account_units">Account units</string>
+    <string name="all_funds_in_account">All Funds In Account</string>
+    <string name="view_unit_trust_fund_label">Funds</string>
+    <string name="funeral_policy_number" formatted="false">Policy number: %1$s\nYour cover will start: %2$s.\n\n%3$s</string>
+    <string name="account_to_debit_hint">Enter account number</string>
+    <string name="select_branch_hint">Select branch</string>
+    <string name="account_type_hint">Select account type</string>
+    <string name="account_holder_name_hint">Enter account holder name</string>
+    <string name="buy_unit_trust_start_journey_description">Diversify your investment portfolio with Unit Trusts - the best way to tap into a wide range of investment markets, both locally and offshore.\n\nStart investing from as little as R %s per month.\n\nBe sure to read the Minimum Disclosure Document (Fund Fact Sheet) to learn more about the risk profile of each fund.</string>
+    <string name="buy_unit_trust_start_journey_header">You don\'t \nneed to look \nlike an \ninvestor to \nbe one</string>
+    <string name="buy_unit_trust_what_is_unit_trust">What is a unit trust?</string>
+    <string name="buy_unit_trust_what_will_it_cost">What will it cost me?</string>
+    <string name="buy_unit_trust_risk_consideration">Risk considerations</string>
+    <string name="buy_unit_trust_divident_tax">Dividend withholding tax</string>
+    <string name="buy_unit_trust_contact_details">Contact details</string>
+    <string name="learn_more_text">Learn more</string>
+    <string name="buy_unit_trust_fees_and_charges">Fees and charges</string>
+    <string name="note_text">Note: You will need your tax number to apply</string>
+    <string name="buy_unit_trust_what_is_unit_trust_description">A Fund is an investment vehicle which is made up of various bonds, shares and other types of investments (‘underlying instruments’).\n\nEach fund is managed by an Asset Manager. The fund pools investor’s money together and invest it into a fund.\n\nA fund is made up of units which are priced daily. The daily price is called a Net Asset Value (NAV).\n\nFor example, if you invest R 1 000 in a fund whose units cost R10.83, you will own 92.34 units (R 1 000/10.83 = 92.34 units)\n\nAsset Managers aim to grow the value of the units. When the price per unit grows, the value of your investment grows and vice versa.\n\nFor a more technical explanation see Unit Trusts.</string>
+    <string name="buy_unit_trust_cost_description_One">Funds are designed to be affordable for everyone. That\'s why you can choose how much you want to invest and how you want to invest it, be it one large deposit, smaller deposits every month or a mix of the two.\n\nIf you want to invest a lump sum, you can start from just R %1$s.\n\nTo invest monthly, you can get started from as little as R %2$s per month.</string>
+    <string name="buy_unit_trust_cost_description_Two">Absa charges a management fee applicable to the fund.\n\nFor more information on applicable fees please refer to the funds’ Minimum Disclosure Document.</string>
+    <string name="buy_unit_trust_cost_description">The risk of the fund is determined by the volatility of the underlying instruments which determines the level of stability of returns from that particular fund.\n\nEach fund has particular risk profile based on the type of the underlying instruments held in the fund.\n\nThe funds risk profile range from low, medium to high, depending on the risk profile of a particular fund.\n\nGenerally a higher risk profile fund is expected to generate higher returns over a long term.\n\nPlease review each fund’s Minimum Disclosure Document for more information regarding the risk profile of the funds.\n\nNote: Past performance is not indicative of future performance. Return on the funds are not guaranteed.</string>
+    <string name="buy_unit_trust_dividend_tax_description">Dividend Withholding Tax (DWT) is a tax on dividends paid to investors and is triggered on payment of a dividend by a South African company or a Foreign Company with shares listed on a South African Exchange.\n\nThe DWT is withheld by the Absa Fund Managers at a rate of 20 per cent and paid over to SARS.</string>
+    <string name="buy_unit_trust_contact_us_description">If you require any advice regarding making an investment decision, please contact your financial advisor.</string>
+    <string name="buy_unit_trust_contact_financial_advisor">Speak to an Absa financial advisor</string>
+    <string name="buy_unit_trust_financial_advisor_number" translatable="false">011 225 1797</string>
+    <string name="buy_unit_trust_tax_implication">Tax implications</string>
+    <string name="buy_unit_trust_tax_implication_description_one">You may get taxed on interest received from your investments.</string>
+    <string name="buy_unit_trust_tax_implication_description_two">You also pay Capital Gains Tax on profits made when you sell your units for a higher price than you bought them for.</string>
+    <string name="buy_unit_trust_tax_implication_description_three">The amount you pay will depend on your income tax bracket, age and any rebates that are applicable to you.</string>
+    <string name="buy_unit_trust_explore_title">Investments</string>
+    <string name="buy_unit_trust_explore_description">Grow your wealth with Unit Trusts</string>
+    <string name="buy_unit_trust_unable_to_continue_message">We need updated versions of your FICA documents. Visit Absa Online to upload your documents and try again later.\n\nPlease call the Unit Trust call centre on 0860 111 456</string>
+    <string name="buy_unit_trust_investment_method">Investment method</string>
+    <string name="buy_unit_trust_investment_method_from_which_account">Debit from which account?</string>
+    <string name="buy_unit_trust_investment_method_minimum_amount_hint">%s minimum</string>
+    <string name="buy_unit_trust_investment_method_increase_yearly_by">Increase debit order yearly by</string>
+    <string name="buy_unit_trust_investment_method_source_of_funds">Main source of funds</string>
+    <string name="buy_unit_trust_investment_method_debit_order">Debit order</string>
+    <string name="buy_unit_trust_investment_method_lump_sum">Lump sum</string>
+    <string name="buy_unit_trust_investment_method_debit_day">Debit day</string>
+    <string name="buy_unit_trust_tax_title">What would you like to do with the income you gain from the investment?</string>
+    <string name="buy_unit_trust_tax_into_account_description">All income less than %s will automatically be re-invested into the fund.</string>
+    <string name="buy_unit_trust_tax_pay_into_this_account">Pay into this account</string>
+    <string name="buy_unit_trust_tax_registered_for_sa_tax">Are you registered for tax in SA?</string>
+    <string name="buy_unit_trust_tax_enter_tax_number">Enter tax number</string>
+    <string name="buy_unit_trust_tax_income_tax_number">SA income tax number</string>
+    <string name="buy_unit_trust_tax_registered_for_foreign_tax">Are you registered for foreign tax?</string>
+    <string name="buy_unit_trust_tax_foreign_tax_number">Foreign tax number</string>
+    <string name="buy_unit_trust_tax_select_country">Select country</string>
+    <string name="buy_unit_trust_tax_foreign_tax_country">Foreign tax country</string>
+    <string name="buy_unit_trust_tax_pay_into_my_account">Pay into my account</string>
+    <string name="buy_unit_trust_tax_reinvest_into_fund">Reinvest into this fund</string>
+    <string name="buy_unit_trust_summary_selected_account">Account selected</string>
+    <string name="buy_unit_trust_summary_income_from_investment">Income from investment</string>
+    <string name="buy_unit_trust_summary_automatic_increase">Automatic annual increase</string>
+    <string name="buy_unit_trust_summary_debit_amount">Debit order amount</string>
+    <string name="buy_unit_trust_summary_debit_day">Debit day</string>
+    <string name="buy_unit_trust_summary_debit_account">Debit order account</string>
+    <string name="buy_unit_trust_summary_selected_fund">Selected fund</string>
+    <string name="buy_unit_trust_legal_terms">Legal Terms</string>
+    <string name="buy_more_units_mdd">Minimum Disclosure Document (Fund Fact Sheet)</string>
+    <string name="buy_unit_trust_tax_declaration_form">Tax Declaration Form</string>
+    <string name="buy_unit_trust_terms_of_use_1">I have read and accept the %s applicable to my selected investment.</string>
+    <string name="buy_unit_trust_terms_of_use_2">I confirm that I have read and understood the %s applicable to my selected investment.</string>
+    <string name="buy_unit_trust_terms_of_use_3">I hereby agree that the information provided may be shared between Absa Bank Limited entities to the extent required for tax reporting purposes.</string>
+    <string name="buy_unit_trust_terms_of_use_4">I declare that the information provided is, to the best of my knowledge and belief, accurate and complete.</string>
+    <string name="buy_unit_trust_terms_of_use_5">I declare that if I am not liable for Dividend Withholding Tax, I will email Absa Fund Managers a completed Tax Declaration Form to utenquiries@absa.co.za</string>
+    <string name="buy_unit_trust_terms_of_use">I agree to the above terms.</string>
+    <string name="buy_unit_trust_invest_in_fund">Invest in fund</string>
+    <string name="buy_unit_trust_details">Details</string>
+    <string name="buy_unit_trust_view_mdd" translatable="false"><u>View MDD (Fund Fact Sheet)</u></string>
+    <string name="unit_trust_fund_risk_type">Risk type</string>
+    <string name="unit_trust_fund_term">Preferable minimum term</string>
+    <string name="unit_trust_fund_find_out_more">Find out more</string>
+    <string name="unit_trust_funds_title">Select A Fund To Start</string>
+    <string name="unit_trust_buy_new_funds_title">Select A Fund</string>
+    <string name="unit_trust_funds_toolbar_title">Filter By</string>
+    <string name="unit_trust_funds_mdd">MDD</string>
+    <string name="unit_trust_funds_legal_terms">Legal Terms</string>
+    <string name="unit_trust_funds_tax_declaration_form">Tax Declaration Form</string>
+    <string name="buy_unit_trust_terms_and_conditions">Terms &amp; Conditions</string>
+    <string name="unit_trust_fund_filter_title">Filter By</string>
+    <string name="unit_trust_debit_order_title">Yearly Debit Order Increase</string>
+    <string name="buy_unit_trust_find_information_investment_period" translatable="false">%1$s risk investment plan. Minimum preferable term of %2$s</string>
+    <string name="buy_unit_trust_fund_information_investment_amount" translatable="false">Invest from R %1$s or make a monthly contribution of R %2$s</string>
+    <string name="buy_unit_trust_fund_information_shares" translatable="false">Suitable for investors who seek exposure to the top 40 listed equity shares</string>
+    <string name="buy_unit_trust_fund_information_title" translatable="false">Fund information</string>
+    <string name="buy_unit_trust_salary_wages">Salary / Wages</string>
+    <string name="buy_unit_trust_investment_method_min_amount">R %s minimum debit order allowed</string>
+    <string name="buy_unit_trust_investment_method_max_amount">Maximum debit order allowed is %s</string>
+    <string name="buy_unit_trust_investment_method_max_amount_lumps_sum">Maximum lump sum order allowed is %s</string>
+    <string name="buy_unit_trust_investment_method_min_amount_lump_sum">R %s minimum lump sum allowed</string>
+    <string name="buy_unit_trust_start_journey_button_text">Start the journey</string>
+    <string name="buy_unit_trust_invest_in_fund_button" translatable="false">Invest in fund</string>
+    <string name="unit_trusts_link">Unit Trusts</string>
+    <string name="buy_unit_trust_enter_tax_number">Please enter your %s tax number</string>
+    <string name="summary">Summary</string>
+    <string name="foreign">foreign</string>
+    <string name="buy_unit_trust_success_title">Account created</string>
+    <string name="buy_unit_trust_success_result">Your Absa Unit Trust account has been added to your portfolio.\n\nAccount number: %1$s \n\nYou will get a confirmation email with all the fund details once your payment has been processed.</string>
+    <string name="buy_unit_trust_lump_sum">Lump sum</string>
+    <string name="buy_unit_trust_debit_oder">Debit order</string>
+    <string name="buy_unit_trust_debit_description">The debit order amount cannot be withdrawn from the fund within 40 working days after the debit date.</string>
+    <string name="buy_unit_trust_insufficient_fund">Insufficient funds in selected account.</string>
+    <string name="buy_unit_trust_unsuccessful_description">The system seems to be down.\n\nPlease try again later or call our Call Centre on 086 011 1456</string>
+    <string name="ultimate_protector_explore_title">Life Cover</string>
+    <string name="ultimate_protector_explore_description">Safeguard your family\'s financial future</string>
+    <string name="ultimate_protector_apply_description">Make sure your family is taken care of in the event of your death or disability with the Ultimate Protector life cover policy.\n\nGet cover from as little as R %1$s per month.\n\nNo medicals, no paperwork!</string>
+    <string name="ultimate_protector_life_cover">Life cover</string>
+    <string name="ultimate_protector_pdf" translatable="false">PDF</string>
+    <string name="buy_unit_trust_employee_status_header">Employment status</string>
+    <string name="buy_unit_trust_occupation_header">Occupation</string>
+    <string name="buy_unit_trust_unable_to_continue_message_rba">To proceed with your application, please \ncall the Unit Trust Call Centre on \n086 011 1456</string>
+    <string name="buy_unit_trust_how_will_fund_header">How will you fund this?</string>
+    <string name="view_unit_trust_buy_more_units">Buy more units</string>
+    <string name="view_unit_trust_buy_new_fund">Buy a new fund</string>
+    <string name="view_unit_trust_buy_details">Buy details</string>
+    <string name="view_unit_trust_summary_selected_fund">Buy more units into this fund</string>
+    <string name="view_unit_trust_investment_method_from_which_account">From which account?</string>
+    <string name="view_unit_trust_investment_method_from_account">From account</string>
+    <string name="view_unit_trust_account_holder_name">Unit trust account holder</string>
+    <string name="view_unit_trust_account_number">Unit trust account number</string>
+    <string name="unit_trust_please_note_body">All instructions received <b>on or before 15:00</b> every working day will be traded at the ruling prices and valued <b>after 15:00</b> on that working day.\n\nInstructions received <b>after 15:00</b> will be processed the next working day.\n\nSaturdays, Sundays and public holidays are not seen as working days for the purposes of Unit Trust transactions.</string>
+    <string name="buy_more_unit_error">The fund is currently capped, therefore unavailable to buy more units.\n\nPlease choose another fund or call the Unit Trust office for assistance on 086 011 1456</string>
+    <string name="buy_more_unit_select_account">Debit from which account?</string>
+    <string name="buy_more_unit_enter_amount">Enter amount</string>
+    <string name="view_unit_trust_successfull_buy_units">You have successfully purchased more units of the %s.\n\nYou will get a confirmation with all the fund details once your payment has been processed.</string>
+    <string name="beneficiary_payout">This policy will be paid out to my</string>
+    <string name="buy_unit_trust_choose_unit_trust_account_toolbar_title">Choose Unit Trust Account</string>
+    <string name="unit_trust_risk_funds_splitter">risk funds</string>
+    <string name="please_call_unit_trust_call_centre">Please call the Unit Trust Call Centre on\n0860 111 456</string>
+    <string name="buy_new_fund_success_title">Success</string>
+    <string name="buy_new_fund_success_message">Your fund has been added to Absa Unit Trust account %s\n\nYou will get a confirmation email with all the fund details once your payment has been processed.</string>
+    <string name="is_required">%s is required</string>
+
+    <!--Generic strings-->
+    <string name="insurance_title">Title</string>
+    <string name="insurance_beneficiary_title_hint">Select beneficiary title</string>
+    <string name="insurance_first_name">First name</string>
+    <string name="insurance_beneficiary_name_hint">Enter beneficiary first name</string>
+    <string name="insurance_beneficiary_surname_hint">Enter beneficiary surname</string>
+    <string name="insurance_surname_title">Surname</string>
+    <string name="insurance_category">Category</string>
+    <string name="insurance_category_hint">Select category</string>
+    <string name="insurance_relationship_title">Relationship</string>
+    <string name="insurance_relationship_hint">Select relationship</string>
+    <string name="insurance_date_of_birth_hint">Select date of birth</string>
+    <string name="insurance_date_of_birth_title">Date of birth</string>
+    <string name="insurance_gender_title">Gender</string>
+    <string name="insurance_gender_hint">Select gender</string>
+
+    <string name="insurance_employment_status">Employment status</string>
+    <string name="insurance_employment_status_hint">Select employment status</string>
+    <string name="insurance_occupation">Occupation</string>
+    <string name="insurance_occupation_hint">Select occupation</string>
+
+    <string name="insurance_beneficiary">Beneficiary</string>
+    <string name="insurance_deceased_estate">Deceased Estate</string>
+    <string name="insurance_beneficiary_details">Beneficiary details</string>
+
+    <string name="insurance_information_supplied_is_true_and_correct">The info supplied is true and correct</string>
+    <string name="insurance_terms_and_conditions">I agree to the Terms &amp; Conditions</string>
+    <string name="insurance_terms_and_conditions_clickable">Terms &amp; Conditions</string>
+    <string name="insurance_declaration_text">I hereby declare that:</string>
+
+    <string name="insurance_policy_underwriting_description">Underwritten by Absa Life (Absa Life Limited, registration number 1992/001738/06)</string>
+</resources>

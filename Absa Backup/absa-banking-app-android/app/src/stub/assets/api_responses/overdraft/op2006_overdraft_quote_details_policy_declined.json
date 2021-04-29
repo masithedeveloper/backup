@@ -1,0 +1,24 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES2006",
+      "resCde": "00000",
+      "resMsg": "Success",
+      "serVer": "2.0"
+    },
+    "payData": {
+      "respDTO": {
+        "qmsDTO": {
+          "odAmount": "0",
+          "systemDecision": "P",
+          "systemResult": "POLICY DECLINE",
+          "quoteStatus": false,
+          "applicationReferenceNumber": "42001291678",
+          "productCode": "11033"
+        }
+      },
+      "txnStatus": "Success",
+      "txnMessage": "Success"
+    }
+  }
+}

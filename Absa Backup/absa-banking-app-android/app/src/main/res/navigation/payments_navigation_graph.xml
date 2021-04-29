@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/payments_navigation_graph"
+    app:startDestination="@+id/paymentHubFragment">
+    <fragment
+        android:id="@+id/paymentHubFragment"
+        android:name="com.barclays.absa.banking.paymentsRewrite.ui.PaymentsHubFragment"
+        android:label="@string/pay"
+        tools:layout="@layout/payment_hub_fragment">
+        <action
+            android:id="@+id/action_paymentHubFragment_to_paymentTabsFragment"
+            app:destination="@+id/paymentTabsFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <action
+            android:id="@+id/action_paymentHubFragment_to_paymentDetailsFragment"
+            app:destination="@id/paymentDetailsFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <action
+            android:id="@+id/action_paymentHubFragment_to_multiplePaymentBeneficiarySelectionFragment"
+            app:destination="@id/multiplePaymentBeneficiarySelectionFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <action
+            android:id="@+id/action_paymentHubFragment_to_futureDatedPaymentsFragment"
+            app:destination="@id/futureDatedPaymentsFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+    <fragment
+        android:id="@+id/paymentTabsFragment"
+        android:name="com.barclays.absa.banking.paymentsRewrite.ui.PaymentTabsFragment"
+        android:label="@string/beneficiary_details"
+        tools:layout="@layout/payment_tabs_fragment">
+        <action
+            android:id="@+id/action_paymentTabsFragment_to_beneficiaryDetailsConfirmationFragment"
+            app:destination="@id/beneficiaryDetailsConfirmationFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <action
+            android:id="@+id/action_paymentTabsFragment_to_beneficiaryAlreadyExistsFragment"
+            app:destination="@id/beneficiaryAlreadyExistsFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <action
+            android:id="@+id/action_paymentTabsFragment_to_onceOffAlreadyExistsFragment"
+            app:destination="@id/onceOffAlreadyExistsFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+    <fragment
+        android:id="@+id/privateBeneficiaryDetailsFragment"
+        android:name="com.barclays.absa.banking.paymentsRewrite.ui.PrivateBeneficiaryDetailsFragment"
+        android:label="@string/beneficiary_details"
+        tools:layout="@layout/private_beneficiary_details_fragment">
+        <action
+            android:id="@+id/action_beneficiaryDetailsFragment_to_beneficiaryDetailsConfirmationFragment"
+            app:destination="@id/beneficiaryDetailsConfirmationFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+    <fragment
+        android:id="@+id/beneficiaryDetailsConfirmationFragment"
+        android:name="com.barclays.absa.banking.paymentsRewrite.ui.BeneficiaryDetailsConfirmationFragment"
+        android:label="@string/recipient_label"
+        tools:layout="@layout/beneficiary_details_confirmation_fragment">
+        <action
+            android:id="@+id/action_beneficiaryDetailsConfirmationFragment_to_paymentDetailsFragment"
+            app:destination="@id/paymentDetailsFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+    <fragment
+        android:id="@+id/billPaymentBeneficiaryDetailsFragment"
+        android:name="com.barclays.absa.banking.paymentsRewrite.ui.BillPaymentBeneficiaryDetailsFragment"
+        android:label="@string/beneficiary_details"
+        tools:layout="@layout/bill_payment_details_fragment">
+        <action
+            android:id="@+id/action_billPaymentBeneficiaryDetailsFragment_to_beneficiaryDetailsConfirmationFragment"
+            app:destination="@id/beneficiaryDetailsConfirmationFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+    <fragment
+        android:id="@+id/paymentDetailsFragment"
+        android:name="com.barclays.absa.banking.paymentsRewrite.ui.PaymentDetailsFragment"
+        android:label="@string/payment_details"
+        tools:layout="@layout/payment_details_fragment">
+        <action
+            android:id="@+id/action_paymentDetailsFragment_to_paymentConfirmationFragment"
+            app:destination="@id/paymentConfirmationFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <action
+            android:id="@+id/action_paymentDetailsFragment_to_multiplePaymentSelectedBeneficiariesFragment2"
+            app:destination="@id/multiplePaymentSelectedBeneficiariesFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <action
+            android:id="@+id/action_paymentDetailsFragment_to_paymentHubFragment"
+            app:destination="@id/paymentHubFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+    <fragment
+        android:id="@+id/paymentConfirmationFragment"
+        android:name="com.barclays.absa.banking.paymentsRewrite.ui.PaymentConfirmationFragment"
+        android:label="@string/confirm_payment"
+        tools:layout="@layout/payment_confirmation_fragment" />
+    <fragment
+        android:id="@+id/multiplePaymentBeneficiarySelectionFragment"
+        android:name="com.barclays.absa.banking.paymentsRewrite.ui.multiple.MultiplePaymentBeneficiarySelectionFragment"
+        android:label="@string/select_beneficiaries"
+        tools:layout="@layout/multiple_payment_beneficiary_selection_fragment">
+        <action
+            android:id="@+id/action_multiplePaymentBeneficiarySelectionFragment_to_multiplePaymentSelectedBeneficiariesFragment"
+            app:destination="@id/multiplePaymentSelectedBeneficiariesFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+    <fragment
+        android:id="@+id/multiplePaymentSelectedBeneficiariesFragment"
+        android:name="com.barclays.absa.banking.paymentsRewrite.ui.multiple.MultiplePaymentSelectedBeneficiariesFragment"
+        android:label="@string/selected_beneficiaries_toolbar"
+        tools:layout="@layout/multiple_payments_selected_beneficiaries_fragment">
+        <action
+            android:id="@+id/action_multiplePaymentSelectedBeneficiariesFragment_to_paymentDetailsFragment"
+            app:destination="@id/paymentDetailsFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <action
+            android:id="@+id/action_multiplePaymentSelectedBeneficiariesFragment_to_multiplePaymentsConfirmationFragment"
+            app:destination="@id/multiplePaymentsConfirmationFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <action
+            android:id="@+id/action_multiplePaymentSelectedBeneficiariesFragment_to_importantNoticeFragment"
+            app:destination="@id/importantNoticeFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <action
+            android:id="@+id/action_multiplePaymentSelectedBeneficiariesFragment_to_multiplePaymentsImmediateInterbankPaymentFragment"
+            app:destination="@id/multiplePaymentsImmediateInterbankPaymentFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+    <fragment
+        android:id="@+id/multiplePaymentsConfirmationFragment"
+        android:name="com.barclays.absa.banking.paymentsRewrite.ui.multiple.MultiplePaymentsConfirmationFragment"
+        android:label="@string/confirm_payment"
+        tools:layout="@layout/multiple_payments_confirmation_fragment">
+        <action
+            android:id="@+id/action_multiplePaymentsConfirmationFragment_to_genericResultScreenFragment"
+            app:destination="@id/genericResultScreenFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <action
+            android:id="@+id/action_multiplePaymentsConfirmationFragment_to_multiplePaymentsReviewFragment"
+            app:destination="@id/multiplePaymentsReviewFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <action
+            android:id="@+id/action_multiplePaymentsConfirmationFragment_to_multiplePaymentsResultFragment"
+            app:destination="@id/multiplePaymentsResultFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+    <fragment
+        android:id="@+id/genericResultScreenFragment"
+        android:name="styleguide.screens.GenericResultScreenFragment"
+        android:label="GenericResultScreenFragment"
+        tools:layout="@layout/generic_results_screen_fragment">
+
+        <argument
+            android:name="GenericResultScreenFragment"
+            app:argType="styleguide.screens.GenericResultScreenProperties" />
+    </fragment>
+    <fragment
+        android:id="@+id/beneficiaryAlreadyExistsFragment"
+        android:name="com.barclays.absa.banking.paymentsRewrite.ui.BeneficiaryAlreadyExistsFragment"
+        android:label="@string/recipient_title"
+        tools:layout="@layout/beneficiary_already_exists_fragment">
+
+        <action
+            android:id="@+id/action_beneficiaryAlreadyExistsFragment_to_beneficiaryDetailsConfirmationFragment"
+            app:destination="@id/beneficiaryDetailsConfirmationFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <action
+            android:id="@+id/action_beneficiaryAlreadyExistsFragment_to_paymentDetailsFragment"
+            app:destination="@id/paymentDetailsFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+    <fragment
+        android:id="@+id/futureDatedPaymentsFragment"
+        android:name="com.barclays.absa.banking.paymentsRewrite.ui.FutureDatedPaymentsFragment"
+        android:label="@string/future_dated_payment"
+        tools:laout="@layout/future_dated_payments_fragment" />
+    <fragment
+        android:id="@+id/importantNoticeFragment"
+        android:name="com.barclays.absa.banking.paymentsRewrite.ui.ImportantNoticeFragment"
+        android:label="@string/important_notice_heading"
+        tools:layout="@layout/important_notice_fragment" />
+    <fragment
+        android:id="@+id/multiplePaymentsImmediateInterbankPaymentFragment"
+        android:name="com.barclays.absa.banking.paymentsRewrite.ui.multiple.MultiplePaymentsImmediateInterbankPaymentFragment"
+        android:label="@string/iip_header"
+        tools:layout="@layout/immediate_interbank_payment_fragment">
+        <action
+            android:id="@+id/action_multiplePaymentsImmediateInterbankPaymentFragment_to_multiplePaymentsConfirmationFragment"
+            app:destination="@id/multiplePaymentsConfirmationFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+    <fragment
+        android:id="@+id/multiplePaymentsReviewFragment"
+        android:name="com.barclays.absa.banking.paymentsRewrite.ui.multiple.MultiplePaymentsReviewFragment"
+        android:label="@string/payments_review_payment"
+        tools:layout="@layout/multiple_payments_review_fragment">
+
+        <action
+            android:id="@+id/action_multiplePaymentsReviewFragment_to_multiplePaymentsReviewAlertFragment"
+            app:destination="@id/multiplePaymentsReviewAlertFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <action
+            android:id="@+id/action_multiplePaymentsReviewFragment_to_multiplePaymentsResultFragment"
+            app:destination="@id/multiplePaymentsResultFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+    <fragment
+        android:id="@+id/multiplePaymentsReviewAlertFragment"
+        android:name="com.barclays.absa.banking.paymentsRewrite.ui.multiple.MultiplePaymentsReviewAlertFragment"
+        android:label="@string/payments_review_payment"
+        tools:layout="@layout/multiple_payments_review_alert_fragment">
+
+        <argument
+            android:name="sequenceNumber"
+            app:argType="integer" />
+    </fragment>
+    <fragment
+        android:id="@+id/multiplePaymentsResultFragment"
+        android:name="com.barclays.absa.banking.paymentsRewrite.ui.multiple.MultiplePaymentsResultFragment"
+        tools:layout="@layout/multiple_payments_result_fragment">
+        <action
+            android:id="@+id/action_multiplePaymentsResultFragment_to_importantNoticeFragment"
+            app:destination="@id/importantNoticeFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+    <fragment
+        android:id="@+id/onceOffAlreadyExistsFragment"
+        android:name="com.barclays.absa.banking.paymentsRewrite.ui.OnceOffAlreadyExistsFragment"
+        tools:layout="@layout/once_off_already_exists_fragment">
+
+        <action
+            android:id="@+id/action_onceOffAlreadyExistsFragment_to_beneficiaryDetailsConfirmationFragment"
+            app:destination="@id/beneficiaryDetailsConfirmationFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+
+</navigation>

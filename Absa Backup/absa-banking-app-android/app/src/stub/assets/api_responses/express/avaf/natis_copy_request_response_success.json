@@ -1,0 +1,25 @@
+{
+  "header": {
+    "statuscode": "0",
+    "userAgent": "ANDROID - 6.17.0",
+    "jsessionid": "KZC04TVFfcOk8PvofRYUbZaKUEPtlEffDtRQvWH5",
+    "esessionid": "0d8f4c1b-0993-39a2-9871-a242fa4035ec",
+    "service": "AVAFDocumentsFacade",
+    "operation": "GetAVAFENatis",
+    "channel": "S",
+    "timestamp": "2020-09-16 17:18:26.661",
+    "sourceip": "22.240.44.100",
+    "accessAccount": "4048363698",
+    "userNumber": "1",
+    "nonce": "0MmAdBCqBcbk9snXK0JRkoRWCRvdFGytXLeN-R67eJs",
+    "language": "en",
+    "organization": "ABSA",
+    "brand": "ABSA",
+    "resultMessages": [
+      {
+        "responseSeverity": "I",
+        "responseMessage": "AVAF/Success/Email/Message mongezi.nombewu@absa.africa"
+      }
+    ]
+  }
+}

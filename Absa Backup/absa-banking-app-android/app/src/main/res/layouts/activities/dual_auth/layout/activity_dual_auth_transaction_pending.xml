@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:id="@+id/mainBackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/double_medium_space"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/resultImageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:tint="@color/graphite"
+                app:lottie_autoPlay="true"
+                app:lottie_fileName="general_success.json" />
+
+            <TextView
+                android:id="@+id/tv_authTitle"
+                style="@style/HeadingTextMediumDark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/medium_space"
+                android:layout_marginEnd="@dimen/medium_space"
+                android:layout_marginStart="@dimen/medium_space"
+                android:layout_marginTop="@dimen/double_medium_space"
+                android:gravity="center_horizontal"
+                tools:text="Pending authorisation title message" />
+
+            <TextView
+                android:id="@+id/tv_authExpiryMessage"
+                style="@style/NormalTextMediumDark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/medium_space"
+                android:layout_marginEnd="@dimen/medium_space"
+                android:layout_marginStart="@dimen/medium_space"
+                android:gravity="center_horizontal"
+                android:text="@string/auth_expire_message" />
+
+            <TextView
+                android:id="@+id/tv_authContactMessage"
+                style="@style/NormalTextMediumDark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/medium_space"
+                android:layout_marginStart="@dimen/medium_space"
+                android:gravity="center_horizontal"
+                android:text="@string/auth_contact_message" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical">
+
+            <styleguide.buttons.Button
+                android:id="@+id/btn_authPrimary"
+                style="@style/SecondaryButton"
+                android:layout_marginBottom="@dimen/small_space"
+                tools:text="Primary option" />
+
+            <styleguide.buttons.Button
+                android:id="@+id/btn_homeOption"
+                style="@style/PrimaryButton"
+                android:layout_marginTop="@dimen/small_space"
+                android:text="@string/home" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</layout>

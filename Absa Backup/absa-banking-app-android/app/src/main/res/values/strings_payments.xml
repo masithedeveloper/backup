@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="recent">Recent</string>
+    <string name="onceoff_payment">Once-off payment</string>
+    <string name="pay_multiple">Pay multiple</string>
+    <string name="payment_their_reference_title">Their reference</string>
+    <string name="payment_their_reference_hint_text">Enter their reference</string>
+    <string name="payment_notification_title">Payment notification</string>
+    <string name="payment_select_notification_hint_text">Select payment notification</string>
+    <string name="title_private_tab">PAY SOMEONE</string>
+    <string name="title_public_tab">PAY A BILL</string>
+    <string name="select_institution">Select institution</string>
+    <string name="institution">Institution</string>
+    <string name="institution_name">Institution name</string>
+    <string name="enter_account_holder_name">Enter name of account holder</string>
+    <string name="account_holder">Account Holder Name</string>
+    <string name="enter_bill_account_number">Enter your bill account number</string>
+    <string name="bill_account_number">Bill Account Number</string>
+    <string name="enter_reference_my_statement">Enter reference for my statement</string>
+    <string name="reference_for_my_statement">Reference for my statement</string>
+    <string name="enter_beneficiary_name">Enter beneficiary name</string>
+    <string name="beneficiary_name">Beneficiary name</string>
+    <string name="select_bank">Select a bank</string>
+    <string name="bank">Bank</string>
+    <string name="branch">Branch</string>
+    <string name="account_type">Account Type</string>
+    <string name="enter_account_number">Enter account number</string>
+    <string name="account_number">Account Number</string>
+    <string name="payment_notification">Payment notification</string>
+    <string name="normal_24_48">Normal (24 to 48 hours to reflect)</string>
+    <string name="payment_date">Payment date</string>
+    <string name="beneficiary_name_title">Beneficiary</string>
+    <string name="payment_amount">Amount</string>
+    <string name="from_account_title">From account</string>
+    <string name="their_notification">Their notification</string>
+    <string name="beneficiary_payment_type">Payment type</string>
+    <string name="beneficiary_payment_date">Payment date</string>
+    <string name="pay_button_title">Pay</string>
+    <string name="beneficiary_notification">Beneficiary Notification</string>
+    <string name="my_notification">My Notification</string>
+    <string name="email_address_payment_notification">Email Address</string>
+    <string name="notification_email">Email</string>
+    <string name="notification_sms">SMS</string>
+    <string name="notification_fax">Fax</string>
+    <string name="notification_none">None</string>
+    <string name="auth_title">Your payment will be made as soon as it is authorised.\n\nPlease note that this transaction will expire at 00:00 tonight.</string>
+    <string name="payment_error_title">Error</string>
+    <string name="payment_pending">Payment pending authorisation</string>
+    <string name="payment_success_message">%s paid to %s, \naccount number %s</string>
+    <string name="iip_payment_successful_message">%s payment to %s, account number %s was successful.</string>
+    <string name="iip_payment_successfully_scheduled_message">%s payment to %s, account number %s was successfully scheduled.\n\nYour IIP Reference Number is %s.</string>
+    <string name="total_payment_amount">Total payment amount</string>
+    <string name="total_cash_send_amount">Total CashSend amount</string>
+    <string name="payment_success_title">Payments successful</string>
+    <string name="payment_failure_title">Payments failed</string>
+    <string name="multiple_payments_available_balance_error_message">Available account balance exceeded. Please pick a different account to pay from, change the amounts to pay or remove beneficiaries.</string>
+    <string name="multiple_payments_important_notice_title">Important notices</string>
+    <string name="available_title">available</string>
+    <string name="ok_button_text">OK</string>
+    <string name="empty_amount_dialog_text">Some of your beneficiaries don\'t have payment amounts entered. Please fill in these missing</string>
+    <string name="important_notice_heading">Important notice</string>
+    <string name="important_notice_cut_off_heading">Payment cut-off times</string>
+    <string name="important_notice_iip_message">Note that the transactions that were submitted as an immediate interbank payment will be processed after one hour. This payment can still be returned by the system if there are insufficient funds at the time of the payment.</string>
+    <string name="important_notice_payment_message1">1. Payment cut-off times are governed by Interbank clearing rules to which all SA banks adhere.</string>
+    <string name="important_notice_payment_message2">2. We do not validate the account name to confirm that the account number and name correspond.
+        \n\n3. A credit transfer will be processed according to the account number entered.
+        \n\n4. The total payment amount excludes future-dated payments.</string>
+
+    <string name="payment_successful_title">Successful payments</string>
+    <string name="future_dated_success_title">Future dated successful payments</string>
+    <string name="unsuccessful_payments">Unsuccessful normal payments</string>
+    <string name="future_dated_unsuccess_title">Unsuccessful Future dated payments</string>
+    <string name="payments_immediate_unsuccessful_title">Unsuccessful immediate interbank payments</string>
+    <string name="contact_support_title">Contact Support</string>
+    <string name="unable_to_complete_payments">Unable to complete Payments</string>
+    <string name="multiple_payments_failure">We are having trouble connecting to our servers right now. Your payments was not made. Please try again later.</string>
+    <string name="iip_text">When an Immediate Interbank Payment (IIP) is used the transaction cannot be revoked, set aside or cancelled, as payment takes place immediately. IIP is more expensive than regular transactions, which is subject to a time delay. \'What are the charges?\' will display the fee of the transaction. If we deem it necessary to implement measures to combat fraud we can change the terms of IIP and delay immediate access of funds to beneficiaries. We will provide advance notice on our website. </string>
+    <string name="multiple_payments_selected_beneficiaries_activity_navigation_title">Pay Multiple</string>
+    <string name="validation_error_reference">Please enter a valid reference</string>
+    <string name="validation_error_account">Please select an account</string>
+    <string name="validation_error_account_number">Please enter a valid account number</string>
+    <string name="validation_error_account_type">Please select a valid account type</string>
+    <string name="validation_error_choose_bank">Please choose a bank</string>
+    <string name="validation_error_choose_branch">Please choose a branch</string>
+    <string name="validation_error_beneficiary_name">Please enter a valid beneficiary name</string>
+    <string name="validation_error_choose_institution">Please select an institution</string>
+    <string name="validation_error_account_holder_name">Please enter valid account holder name</string>
+    <string name="validation_error_payment_amount">Please enter a valid payment amount</string>
+    <string name="validation_error_payment_type">Please select a payment type</string>
+    <string name="current_account">Current Account</string>
+    <string name="savings_account">Savings Account</string>
+    <string name="online_share_sharing">Online Share Trading</string>
+    <string name="payment_transaction_successful">Transaction successful</string>
+    <string name="enter_your_reference">Enter their reference</string>
+    <string name="enter_my_reference">Enter reference for my statement</string>
+    <string name="payments_please_select_date">Please select date</string>
+
+    <!-- Beneficiary switching -->
+    <string name="payments_import_beneficiaries_offer_title">Import beneficiaries from another bank account</string>
+    <string name="payments_import_beneficiaries_take_photo">Take a photograph to import beneficiaries</string>
+    <string name="payments_import_beneficiaries_explanation_title">Import your beneficiaries from another bank account by simply taking a photo</string>
+    <string name="payments_import_beneficiaries_explanation_body">Import beneficiaries from Standard Bank, FNB, Capitec or Nedbank. \n\nLog into your internet banking or app.\n\nGo to the beneficiary that you want to import.\n\nTake a photo or screenshot of only the beneficiary information on the screen.\n\nYou can turn your camera on its side to fit all your beneficiary details in the shot.</string>
+    <string name="payments_import_beneficiaries_supported_banks">Supported banks</string>
+    <string name="payments_import_beneficiaries_screen_title">Import beneficiary</string>
+    <string name="payments_import_beneficiaries_button_text">@string/payments_import_beneficiaries_screen_title</string>
+    <string name="payments_import_beneficiaries_take_photo_instruction_heading">Take a photograph of your beneficiary</string>
+    <string name="payments_import_beneficiaries_take_photo_instruction_body">Hold your phone straight in front of the screen.\n\nEnsure that all of the beneficiary information is on the photograph.</string>
+    <string name="payments_import_beneficiaries_take_photo_button_content_description">Take photo</string>
+    <string name="payment_beneficiaries_get_started">Add a beneficiary to get started.\n\nImport a beneficiary by taking a photograph of a beneficiary in another bank account.</string>
+    <string name="payment_taking_photograph_hyperlink">by taking a photograph</string>
+    <string name="payments_select_from_gallery">Select from gallery</string>
+    <string name="payments_take_photo">Take a photo</string>
+    <string name="beneficiary_import_check_details_message">Please verify that the information imported is correct.\n\nAbsa cannot be held responsible for incorrect information captured.</string>
+    <string name="beneficiary_import_error_message_title">Could not read photo</string>
+    <string name="beneficiary_import_alert_title">Import a beneficiary</string>
+    <string name="beneficiary_import_more">More</string>
+    <string name="beneficiary_import_hold_your_phone">Hold your phone straight in front of the screen.</string>
+    <string name="beneficiary_import_keep_browser">Keep the browser and surrounding images out of view.</string>
+    <string name="beneficiary_import_ensure_photograph">Ensure the photograph is not blurry.</string>
+    <string name="beneficiary_import_select_picture">Select a picture or screenshot</string>
+
+    <!-- Error messages -->
+    <string name="iip_payment_limit_exceeeded">Amount entered exceeds the payment limit.</string>
+
+    <string name="update_payment_limit">Update payment limits?</string>
+    <string name="update_payment_limit_message">The amount is more than your current limits. If you continue, we\'ll update your limit but you can always change it back later.</string>
+    <string name="payment_universal">Universal</string>
+
+    <!--IIP Strings-->
+    <string name="iip">Immediate Interbank Payment</string>
+    <string name="iip_terms_header">SHOW IIP TERMS OF USE</string>
+    <string name="iip_header">Immediate Interbank Payment</string>
+    <string name="iip_reference">IIP Reference</string>
+    <string name="iip_reference_number">Your IIP Reference Number is %s</string>
+    <string name="accept_iip_terms">I accept the IIP terms of use</string>
+    <string name="iip_alert_info_msg">When an Immediate Interbank Payment (IIP) is used the transaction cannot be revoked, set aside or cancelled as the payment takes place immediately. An IIP will be more expensive than regular transactions which are subject to a time delay. The fees for IIP transactions are available on the Absa website (www.absa.co.za) under “What are the charges?”. We can change the terms of IIP and delay access of the funds to beneficiaries if we deem it necessary to implement measures to combat fraud. We will give you notice in advance on our website of any such changes</string>
+    <string name="payment_notice">2. We do not validate the account name to confirm that the account number and name correspond.
+        \n\n3. A credit transfer will be processed according to the account number entered.
+        \n\n4. The total payment amount excludes future-dated payments.</string>
+    <string name="iip_message">When an Immediate Interbank Payment (IIP) is used the transaction cannot be revoked, set aside or cancelled as the payment takes place immediately. An IIP will be more expensive than regular transactions which are subject to a time delay.
+    \n\nThe fees for IIP transactions are available on the Absa website (www.absa.co.za) under "What are the charges?”. We can change the terms of IIP and delay access of the funds to beneficiaries if we deem it necessary to implement measures to combat fraud. We will give you notice in advance on our website of any such changes.</string>
+
+    <!-- Payment details screen -->
+    <string name="payment_type">Type of payment</string>
+    <string name="normal">Normal</string>
+    <string name="future_dated_payment">Future Dated Payment</string>
+    <string name="future_dated_payment_error_message">A future dated payment exists for this beneficiary</string>
+    <string name="amount_available">%1$s available</string>
+
+    <string name="payments_future_payments">Future payments</string>
+    <string name="payments_please_select_transaction">Please select a transaction you would like to view.</string>
+    <string name="payments_make_future_dated_payment">Make a future dated payment</string>
+    <string name="payments_immediate_payment_total">Immediate Interbank payment total</string>
+    <string name="payments_iip_credit_card_error">Sorry you cannot perform Immediate Interbank Payments from a credit card</string>
+
+    <!-- Beneficiary already exists screen -->
+    <string name="recipient_title">Recipient</string>
+    <string name="recipient_account_number_description">You already have a beneficiary with the account number %s</string>
+    <string name="last_payment_date">Last payment date</string>
+    <string name="add_beneficiary_anyway">Add new beneficiary anyway</string>
+    <string name="beneficiary_exists">Beneficiary already exists</string>
+
+    <string name="payments_review_payment">Review Payment</string>
+    <string name="payments_review_alert">Review alert</string>
+    <string name="payments_review_alerts">Please review the alerts to continue</string>
+    <string name="payments_number_of_alerts">You have %s alerts below</string>
+    <string name="payments_all_alerts_reviewed">All alerts have been reviewed</string>
+    <string name="payments_are_you_sure">Are you sure you want to pay %s now?</string>
+    <string name="payments_removed_from_batch">This payment will be removed from the batch</string>
+    <string name="payments_select_option">Please select an option</string>
+    <string name="payments_no_alert">No alert</string>
+    <string name="payments_alert_reviewed">Alert reviewed</string>
+    <string name="payments_transaction_removed">Transaction removed</string>
+    <string name="payments_immediate_payments">Immediate Interbank payments</string>
+    <string name="payments_already_made_once_off">You\'ve already made a once‑off payment to this account</string>
+    <string name="payments_already_made_once_off_description">Account number %s\n\nTo make this payment, please add this recipient as a beneficiary.</string>
+
+</resources>

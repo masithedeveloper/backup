@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="stay_in_touch">Stay in touch</string>
+    <string name="hear_about_more_exciting_offers">Hear about more exciting offers</string>
+    <string name="would_you_like_to_hear">Would you like to hear about any exciting products, upgrade opportunities or some fantastic offers from Absa Group?</string>
+    <string name="choose_to_hear_about_our_offers">Are you sure? You can choose just how you hear about our offers:</string>
+    <string name="voice_recording">Voice recording</string>
+    <string name="your_details_have_been_updated">Your details have been updated</string>
+    <string name="unable_to_save_changes">Unable to save some changes</string>
+    <string name="unable_to_save_changes_description">We\'re having trouble saving details of your accounts. Our team is working on this. Please try again later. </string>
+</resources>

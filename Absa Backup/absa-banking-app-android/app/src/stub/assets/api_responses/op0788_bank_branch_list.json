@@ -1,0 +1,150 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0788",
+      "resCde": "00000",
+      "resMsg": "",
+      "serVer": "2.0"
+    },
+    "payData": {
+      "bankName": "BANK WINDHOEK",
+      "branchDtls": [
+        {
+          "branchName": "JOHANNESBURG",
+          "branchCode": "480105",
+          "immediatePaymentAllowed": "false"
+        },
+        {
+          "branchName": "GOBABIS",
+          "branchCode": "481172",
+          "immediatePaymentAllowed": "false"
+        },
+        {
+          "branchName": "KARASBURG",
+          "branchCode": "481271",
+          "immediatePaymentAllowed": "false"
+        },
+        {
+          "branchName": "KEETMANSHOOP",
+          "branchCode": "481371",
+          "immediatePaymentAllowed": "false"
+        },
+        {
+          "branchName": "MARIENTAL",
+          "branchCode": "481471",
+          "immediatePaymentAllowed": "false"
+        },
+        {
+          "branchName": "ORANJEMUND",
+          "branchCode": "481571",
+          "immediatePaymentAllowed": "false"
+        },
+        {
+          "branchName": "OTJIWARONGO",
+          "branchCode": "481573",
+          "immediatePaymentAllowed": "false"
+        },
+        {
+          "branchName": "OUTJO",
+          "branchCode": "481673",
+          "immediatePaymentAllowed": "false"
+        },
+        {
+          "branchName": "SWAKOPMUND",
+          "branchCode": "481772",
+          "immediatePaymentAllowed": "false"
+        },
+        {
+          "branchName": "WALVIS BAAI",
+          "branchCode": "481872",
+          "immediatePaymentAllowed": "false"
+        },
+        {
+          "branchName": "WINDHOEK",
+          "branchCode": "481972",
+          "immediatePaymentAllowed": "false"
+        },
+        {
+          "branchName": "VEHICLE \u0026 ASSET",
+          "branchCode": "482072",
+          "immediatePaymentAllowed": "false"
+        },
+        {
+          "branchName": "KUDU (WINDHOEK)",
+          "branchCode": "482172",
+          "immediatePaymentAllowed": "false"
+        },
+        {
+          "branchName": "KATIMA- MULILO",
+          "branchCode": "482273",
+          "immediatePaymentAllowed": "false"
+        },
+        {
+          "branchName": "CENTRAL-ADMIN BRANCH ( WHK )",
+          "branchCode": "482372",
+          "immediatePaymentAllowed": "false"
+        },
+        {
+          "branchName": "GROOTFONTEIN",
+          "branchCode": "482473",
+          "immediatePaymentAllowed": "false"
+        },
+        {
+          "branchName": "OSHAKATI",
+          "branchCode": "482673",
+          "immediatePaymentAllowed": "false"
+        },
+        {
+          "branchName": "OKAHANDJA",
+          "branchCode": "482773",
+          "immediatePaymentAllowed": "false"
+        },
+        {
+          "branchName": "CASH CENTRE",
+          "branchCode": "482872",
+          "immediatePaymentAllowed": "false"
+        },
+        {
+          "branchName": "KATUTURA ( WHK )",
+          "branchCode": "482972",
+          "immediatePaymentAllowed": "false"
+        },
+        {
+          "branchName": "TSUMEB",
+          "branchCode": "483073",
+          "immediatePaymentAllowed": "false"
+        },
+        {
+          "branchName": "RUNDU",
+          "branchCode": "483173",
+          "immediatePaymentAllowed": "false"
+        },
+        {
+          "branchName": "IBS ( WHK )",
+          "branchCode": "483272",
+          "immediatePaymentAllowed": "false"
+        },
+        {
+          "branchName": "ONDANGWA",
+          "branchCode": "483373",
+          "immediatePaymentAllowed": "false"
+        },
+        {
+          "branchName": "MICRO FINANCE AND SME",
+          "branchCode": "483472",
+          "immediatePaymentAllowed": "false"
+        },
+        {
+          "branchName": "TREASURY ( WHK )",
+          "branchCode": "483572",
+          "immediatePaymentAllowed": "false"
+        },
+        {
+          "branchName": "HEAD OFFICE FINANCE",
+          "branchCode": "483672",
+          "immediatePaymentAllowed": "false"
+        }
+      ]
+    }
+  }
+}

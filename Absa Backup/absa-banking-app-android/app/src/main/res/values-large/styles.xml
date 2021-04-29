@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<!-- Black -->
+	<style name="FontLargeBlack" parent="@android:style/TextAppearance.Large">
+		<item name="android:textColor">#333333</item>
+		<item name="android:typeface">sans</item>
+		<item name="android:textSize">@dimen/dimen_18sp</item>
+	</style>
+
+	<!-- White -->
+	<style name="FontLargeWhite" parent="@android:style/TextAppearance.Large">
+		<item name="android:textColor">#FFFFFF</item>
+		<item name="android:typeface">sans</item>
+		<item name="android:textSize">@dimen/dimen_18sp</item>
+	</style>
+</resources>

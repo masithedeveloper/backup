@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#45B672" />
+            <corners android:radius="@dimen/dimen_5dp" />
+        </shape>
+    </item>
+    <item
+        android:drawable="@drawable/covid_banner"
+        android:left="@dimen/dimen_6dp"
+        android:right="@dimen/dimen_6dp" />
+</layer-list>

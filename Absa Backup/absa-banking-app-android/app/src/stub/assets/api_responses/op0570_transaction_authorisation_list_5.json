@@ -1,0 +1,209 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0570",
+      "resCde": "00000",
+      "resMsg": "SUCCESS",
+      "serVer": "2.0"
+    },
+    "payData": {
+      "txnTypeList": [
+        {
+          "transactionTypeCode": "CSPC",
+          "transactionType": "CashSend Plus Registration",
+          "transactionDate": "2020-06-15-15.46.51.784197",
+          "amount": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "accountNumber": "",
+          "selectedOperator": "1",
+          "operatorName": "B GOPALSP",
+          "authUser": "0",
+          "authUserName": null,
+          "outstandingAuth": "1",
+          "actionCode": "",
+          "productCode": "",
+          "authFlag": false,
+          "rejectFlag": true,
+          "txnDate": "2020-06-15-15.46.51.784197"
+        },
+        {
+          "transactionTypeCode": "CSPD",
+          "transactionType": "CashSend Plus De-registration",
+          "transactionDate": "2020-06-15-15.46.51.784197",
+          "amount": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "accountNumber": "",
+          "selectedOperator": "1",
+          "operatorName": "B GOPALSP",
+          "authUser": "0",
+          "authUserName": null,
+          "outstandingAuth": "1",
+          "actionCode": "",
+          "productCode": "",
+          "authFlag": false,
+          "rejectFlag": true,
+          "txnDate": "2020-06-15-15.46.51.784197"
+        },
+        {
+          "transactionTypeCode": "CPLS",
+          "transactionType": "CashSend Plus",
+          "transactionDate": "2020-06-15-15.46.51.784197",
+          "amount": {
+            "curr": "R",
+            "amt": "1500.00"
+          },
+          "accountNumber": "Cheque account 4048908723",
+          "selectedOperator": "1",
+          "operatorName": "B GOPALSP",
+          "authUser": "0",
+          "authUserName": null,
+          "outstandingAuth": "1",
+          "actionCode": "",
+          "productCode": "",
+          "authFlag": false,
+          "rejectFlag": true,
+          "txnDate": "2020-06-15-15.46.51.784197"
+        },
+        {
+          "transactionTypeCode": "CSPU",
+          "transactionType": "CashSend Plus Limits",
+          "transactionDate": "2020-06-15-15.46.51.784197",
+          "amount": {
+            "curr": "R",
+            "amt": "5000.00"
+          },
+          "accountNumber": "",
+          "selectedOperator": "1",
+          "operatorName": "B GOPALSP",
+          "authUser": "0",
+          "authUserName": null,
+          "outstandingAuth": "1",
+          "actionCode": "",
+          "productCode": "",
+          "authFlag": false,
+          "rejectFlag": true,
+          "txnDate": "2020-06-15-15.46.51.784197"
+        },
+        {
+          "transactionTypeCode": "CDPM",
+          "transactionType": "Pay Beneficiary",
+          "transactionDate": "2018-02-11-00.57.04.255487",
+          "amount": {
+            "curr": "R",
+            "amt": "15.00"
+          },
+          "accountNumber": "",
+          "selectedOperator": "2",
+          "operatorName": "Boss",
+          "authUser": "0",
+          "outstandingAuth": "1",
+          "actionCode": "",
+          "productCode": "",
+          "authFlag": false,
+          "rejectFlag": true,
+          "txnDate": "2018-02-11-00.57.04.255487"
+        },
+        {
+          "transactionTypeCode": "CDPM",
+          "transactionType": "Pay Beneficiary",
+          "transactionDate": "2018-02-11-00.57.04.376078",
+          "amount": {
+            "curr": "R",
+            "amt": "22.00"
+          },
+          "accountNumber": "",
+          "selectedOperator": "2",
+          "operatorName": "Boss",
+          "authUser": "0",
+          "outstandingAuth": "1",
+          "actionCode": "",
+          "productCode": "",
+          "authFlag": false,
+          "rejectFlag": true,
+          "txnDate": "2018-02-11-00.57.04.376078"
+        },
+        {
+          "transactionTypeCode": "CDPM",
+          "transactionType": "Pay Beneficiary",
+          "transactionDate": "2018-02-11-01.00.18.132493",
+          "amount": {
+            "curr": "R",
+            "amt": "33.00"
+          },
+          "accountNumber": "",
+          "selectedOperator": "2",
+          "operatorName": "Boss",
+          "authUser": "0",
+          "outstandingAuth": "1",
+          "actionCode": "",
+          "productCode": "",
+          "authFlag": false,
+          "rejectFlag": true,
+          "txnDate": "2018-02-11-01.00.18.132493"
+        },
+        {
+          "transactionTypeCode": "CDPM",
+          "transactionType": "Prepaid",
+          "transactionDate": "2018-02-11-01.01.24.976929",
+          "amount": {
+            "curr": "R",
+            "amt": "44.00"
+          },
+          "accountNumber": "",
+          "selectedOperator": "2",
+          "operatorName": "Just something",
+          "authUser": "0",
+          "outstandingAuth": "1",
+          "actionCode": "",
+          "productCode": "",
+          "authFlag": false,
+          "rejectFlag": true,
+          "txnDate": "2018-02-11-01.01.24.976929"
+        },
+        {
+          "transactionTypeCode": "CDPM",
+          "transactionType": "Pay Beneficiary",
+          "transactionDate": "2018-02-11-08.58.51.082352",
+          "amount": {
+            "curr": "R",
+            "amt": "23.00"
+          },
+          "accountNumber": "",
+          "selectedOperator": "2",
+          "operatorName": "Boss",
+          "authUser": "0",
+          "outstandingAuth": "1",
+          "actionCode": "",
+          "productCode": "",
+          "authFlag": false,
+          "rejectFlag": true,
+          "txnDate": "2018-02-11-08.58.51.082352"
+        },
+        {
+          "transactionTypeCode": "CPLS",
+          "transactionType": "Delete CashSend Plus",
+          "transactionDate": "2020-09-04-14.59.26.552981",
+          "amount": {
+            "curr": "R",
+            "amt": "30.00"
+          },
+          "accountNumber": "D",
+          "selectedOperator": "1",
+          "operatorName": "B GOPALSP",
+          "authUser": "1",
+          "authUserName": "B GOPALSP",
+          "outstandingAuth": "1",
+          "actionCode": "D",
+          "productCode": "",
+          "authFlag": false,
+          "rejectFlag": true,
+          "txnDate": "2020-09-04-14.59.26.552981"
+        }
+      ]
+    }
+  }
+}

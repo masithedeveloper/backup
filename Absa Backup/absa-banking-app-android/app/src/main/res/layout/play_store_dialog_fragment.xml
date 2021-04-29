@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:animateLayoutChanges="true"
+        android:paddingStart="@dimen/medium_space"
+        android:paddingEnd="@dimen/medium_space"
+        android:background="@color/play_store_dialog_background_color"
+        android:paddingBottom="@dimen/normal_space">
+
+        <TextView
+            android:id="@+id/titleTextView"
+            style="@style/LargeTextRegularDark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/small_space"
+            android:layout_marginTop="@dimen/normal_space"
+            android:layout_marginEnd="@dimen/small_space"
+            android:gravity="center"
+            android:text="@string/what_do_you_think"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/messageTextView"
+            style="@style/SmallTextRegularDark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/normal_space"
+            android:gravity="center"
+            android:paddingStart="@dimen/medium_space"
+            android:paddingEnd="@dimen/medium_space"
+            android:text="@string/rate_us"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/titleTextView" />
+
+        <RatingBar
+            android:id="@+id/ratingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/medium_space"
+            android:stepSize="1"
+            android:theme="@style/RatingBar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/messageTextView" />
+
+        <TextView
+            android:id="@+id/maybeLaterTextView"
+            style="@style/NormalTextMediumLight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/medium_space"
+            android:text="@string/maybe_later"
+            android:textColor="@color/bright_purple"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_goneMarginEnd="0dp"
+            android:layout_marginEnd="@dimen/normal_space"
+            app:layout_constraintEnd_toStartOf="@+id/submitTextView"
+            app:layout_constraintHorizontal_bias="1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/ratingBar" />
+
+        <TextView
+            android:id="@+id/submitTextView"
+            style="@style/NormalTextRegularLight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/medium_space"
+            android:layout_marginStart="@dimen/normal_space"
+            android:visibility="gone"
+            android:text="@string/submit"
+            android:textColor="@color/bright_purple"
+            android:textStyle="bold"
+            tools:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/ratingBar" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

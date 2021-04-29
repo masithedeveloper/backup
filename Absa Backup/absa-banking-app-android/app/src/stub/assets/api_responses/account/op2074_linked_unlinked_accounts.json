@@ -1,0 +1,49 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES2074",
+      "resCde": "00000",
+      "resMsg": "Success",
+      "serVer": "2.0",
+      "expTrace": null
+    },
+    "payData": {
+      "accountList": [
+        {
+          "accountNumber": "4047520976",
+          "accountType": "currentAccount",
+          "accountName": "Current account",
+          "accountLinked": true,
+          "accessAccount": true,
+          "linkingOrUnlinkingPossible": true
+        },
+        {
+          "accountNumber": "3001378348",
+          "accountType": "personalLoan",
+          "accountName": "Personal Loan account",
+          "accountLinked": true,
+          "accessAccount": false,
+          "linkingOrUnlinkingPossible": true
+        },
+        {
+          "accountNumber": "4047695911",
+          "accountType": "savingsAccount",
+          "accountName": "Savings account",
+          "accountLinked": true,
+          "accessAccount": false,
+          "linkingOrUnlinkingPossible": false
+        },
+        {
+          "accountNumber": "4047703760",
+          "accountType": "savingsAccount",
+          "accountName": "Savings account",
+          "accountLinked": true,
+          "accessAccount": false,
+          "linkingOrUnlinkingPossible": true
+        }
+      ],
+      "txnStatus": "Success",
+      "txnMessage": "Success"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "header": {
+    "statuscode": "0",
+    "userAgent": "ANDROID - 6.18.1",
+    "wfpt": null,
+    "jsessionid": "hNByCQ1dztIT9nfqGluq57LaJ5zUUnsf1VTOaVWj",
+    "esessionid": null,
+    "xfpt": null,
+    "service": "CustomerScreeningFacade",
+    "operation": "GetRiskRatingDetails",
+    "channel": null,
+    "timestamp": "2020-11-23 15:31:35.735",
+    "sourceip": "22.147.145.112",
+    "accessAccount": "9051153469",
+    "userNumber": "1",
+    "nonce": "mEu72fvv68QahqArTbQm9Ksq0Cxa2DbktysQlQRHJYI",
+    "language": "en",
+    "organization": null,
+    "brand": null,
+    "applicationId": null,
+    "applicationKeyId": null,
+    "requestToken": null,
+    "resultMessages": [],
+    "paginationContext": null
+  },
+  "riskRating": "M",
+  "rBAServiceStatus": "Success"
+}

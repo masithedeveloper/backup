@@ -1,0 +1,77 @@
+{
+  "successResponseModel" : {
+    "payData" : {
+      "txnStatus" : "Success",
+      "sureCheckFlag" : null,
+      "payments" : [
+        {
+          "iipReferenceNo" : "",
+          "errorMsg" : "",
+          "benAccNo" : "43297854",
+          "txnAmt" : {
+            "curr" : "R",
+            "amt" : "2.00"
+          },
+          "immediatePayment" : "true",
+          "nowFlg" : "NOW",
+          "benId" : "12",
+          "result" : "SUCCESS",
+          "benName" : "Standard Test",
+          "paymentDateTime" : "2018-02-08",
+          "validateMsg" : "",
+          "warningMsg" : ""
+        },
+        {
+          "iipReferenceNo" : "",
+          "errorMsg" : "",
+          "benAccNo" : "4047662320",
+          "txnAmt" : {
+            "curr" : "R",
+            "amt" : "3.00"
+          },
+          "immediatePayment" : "false",
+          "nowFlg" : "NOW",
+          "benId" : "1",
+          "result" : "SUCCESS",
+          "benName" : "Morne",
+          "paymentDateTime" : "2018-02-08",
+          "validateMsg" : "",
+          "warningMsg" : ""
+        },
+        {
+          "iipReferenceNo" : "",
+          "errorMsg" : "",
+          "benAccNo" : "4047599052",
+          "txnAmt" : {
+            "curr" : "R",
+            "amt" : "1.00"
+          },
+          "immediatePayment" : "false",
+          "nowFlg" : "OWN",
+          "benId" : "11",
+          "result" : "SUCCESS",
+          "benName" : "Greg",
+          "paymentDateTime" : "2018-02-09-21:08",
+          "validateMsg" : "",
+          "warningMsg" : "Future-dated payment scheduled successfully. This payment can still be returned if there are insufficient funds at the time the payment is processed or if the transaction is cancelled before the payment date."
+        }
+      ],
+      "txnMessage" : "Success",
+      "tvnFlag" : null,
+      "referenceNumber" : null,
+      "notificationMethod" : null,
+      "corelationId" : null,
+      "cellnumber" : null,
+      "transactionDate" : null,
+      "paymentDateTime" : "2018-02-08-23:08",
+      "email" : null
+    },
+    "payHdr" : {
+      "resCde" : "00000",
+      "serVer" : "2.0",
+      "expTrace" : null,
+      "resMsg" : "Success",
+      "resId" : "RES0528"
+    }
+  }
+}

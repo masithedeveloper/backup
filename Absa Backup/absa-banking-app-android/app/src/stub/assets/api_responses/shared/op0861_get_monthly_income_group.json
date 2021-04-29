@@ -1,0 +1,143 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0861",
+      "resCde": "00000",
+      "resMsg": "Success",
+      "serVer": "2.0",
+      "expTrace": null
+    },
+    "payData": {
+      "lookups": [
+        {
+          "itemCode": "01",
+          "groupCode": "MONTHLY INCOME GROUP",
+          "cmsKey": null,
+          "defaultLabel": "R0-499"
+        },
+        {
+          "itemCode": "02",
+          "groupCode": "MONTHLY INCOME GROUP",
+          "cmsKey": null,
+          "defaultLabel": "R500-999"
+        },
+        {
+          "itemCode": "03",
+          "groupCode": "MONTHLY INCOME GROUP",
+          "cmsKey": null,
+          "defaultLabel": "R1000-1999"
+        },
+        {
+          "itemCode": "04",
+          "groupCode": "MONTHLY INCOME GROUP",
+          "cmsKey": null,
+          "defaultLabel": "R2000-2999"
+        },
+        {
+          "itemCode": "05",
+          "groupCode": "MONTHLY INCOME GROUP",
+          "cmsKey": null,
+          "defaultLabel": "R3000-3999"
+        },
+        {
+          "itemCode": "06",
+          "groupCode": "MONTHLY INCOME GROUP",
+          "cmsKey": null,
+          "defaultLabel": "R4000-4999"
+        },
+        {
+          "itemCode": "07",
+          "groupCode": "MONTHLY INCOME GROUP",
+          "cmsKey": null,
+          "defaultLabel": "R5000-5999"
+        },
+        {
+          "itemCode": "08",
+          "groupCode": "MONTHLY INCOME GROUP",
+          "cmsKey": null,
+          "defaultLabel": "R6000-6999"
+        },
+        {
+          "itemCode": "09",
+          "groupCode": "MONTHLY INCOME GROUP",
+          "cmsKey": null,
+          "defaultLabel": "R7000-7999"
+        },
+        {
+          "itemCode": "10",
+          "groupCode": "MONTHLY INCOME GROUP",
+          "cmsKey": null,
+          "defaultLabel": "R8000-8999"
+        },
+        {
+          "itemCode": "11",
+          "groupCode": "MONTHLY INCOME GROUP",
+          "cmsKey": null,
+          "defaultLabel": "R9000-9999"
+        },
+        {
+          "itemCode": "12",
+          "groupCode": "MONTHLY INCOME GROUP",
+          "cmsKey": null,
+          "defaultLabel": "R10000-11999"
+        },
+        {
+          "itemCode": "13",
+          "groupCode": "MONTHLY INCOME GROUP",
+          "cmsKey": null,
+          "defaultLabel": "R12000-14999"
+        },
+        {
+          "itemCode": "14",
+          "groupCode": "MONTHLY INCOME GROUP",
+          "cmsKey": null,
+          "defaultLabel": "R15000-19999"
+        },
+        {
+          "itemCode": "15",
+          "groupCode": "MONTHLY INCOME GROUP",
+          "cmsKey": null,
+          "defaultLabel": "R20000-24999"
+        },
+        {
+          "itemCode": "16",
+          "groupCode": "MONTHLY INCOME GROUP",
+          "cmsKey": null,
+          "defaultLabel": "R25000-33999"
+        },
+        {
+          "itemCode": "17",
+          "groupCode": "MONTHLY INCOME GROUP",
+          "cmsKey": null,
+          "defaultLabel": "R34000-41999"
+        },
+        {
+          "itemCode": "18",
+          "groupCode": "MONTHLY INCOME GROUP",
+          "cmsKey": null,
+          "defaultLabel": "R42000-62999"
+        },
+        {
+          "itemCode": "19",
+          "groupCode": "MONTHLY INCOME GROUP",
+          "cmsKey": null,
+          "defaultLabel": "R63000-84999"
+        },
+        {
+          "itemCode": "20",
+          "groupCode": "MONTHLY INCOME GROUP",
+          "cmsKey": null,
+          "defaultLabel": "R85000-124999"
+        },
+        {
+          "itemCode": "21",
+          "groupCode": "MONTHLY INCOME GROUP",
+          "cmsKey": null,
+          "defaultLabel": "R125000+"
+        }
+      ],
+      "txnStatus": "Success",
+      "txnMessage": "Success"
+    }
+  }
+}

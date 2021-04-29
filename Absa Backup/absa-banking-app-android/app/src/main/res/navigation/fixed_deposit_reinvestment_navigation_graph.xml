@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fixed_deposit_reinvestment_navigation_graph"
+    app:startDestination="@id/fixedDepositReinvestInstructionsFragment">
+
+    <fragment
+        android:id="@+id/fixedDepositReinvestInstructionsFragment"
+        android:name="com.barclays.absa.banking.fixedDeposit.FixedDepositReinvestInstructionsFragment"
+        android:label="FixedDepositReinvestInstructionsFragment"
+        tools:layout="@layout/fixed_deposit_reinvest_instructions_fragment">
+        <action
+            android:id="@+id/action_fixedDepositReinvestInstructionsFragment_to_fixedDepositReinvestConfirmationFragment"
+            app:destination="@id/fixedDepositReinvestConfirmationFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <action
+            android:id="@+id/action_fixedDepositReinvestInstructionsFragment_to_fixedDepositReinvestmentAmountFragment"
+            app:destination="@id/fixedDepositReinvestmentAmountFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+    <fragment
+        android:id="@+id/fixedDepositReinvestConfirmationFragment"
+        android:name="com.barclays.absa.banking.fixedDeposit.FixedDepositReinvestConfirmationFragment"
+        android:label="FixedDepositReinvestConfirmationFragment"
+        tools:layout="@layout/fixed_deposit_reinvest_confirmation_fragment">
+        <action
+            android:id="@+id/action_fixedDepositReinvestConfirmationFragment_to_genericResultScreenFragment"
+            app:destination="@id/genericResultScreenFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <argument
+            android:name="interestRate"
+            app:argType="string" />
+        <argument
+            android:name="capFrequency"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/genericResultScreenFragment"
+        android:name="styleguide.screens.GenericResultScreenFragment"
+        android:label="GenericResultScreenFragment"
+        tools:layout="@layout/generic_results_screen_fragment">
+        <argument
+            android:name="GenericResultScreenFragment"
+            app:argType="styleguide.screens.GenericResultScreenProperties" />
+    </fragment>
+    <fragment
+        android:id="@+id/fixedDepositReinvestmentAmountFragment"
+        android:name="com.barclays.absa.banking.fixedDeposit.FixedDepositReinvestmentAmountFragment"
+        android:label="FixedDepositReinvestmentAmountFragment"
+        tools:layout="@layout/fixed_deposit_reinvestment_amount_fragment">
+        <action
+            android:id="@+id/action_fixedDepositReinvestmentAmountFragment_to_fixedDepositReinvestmentTermFragment"
+            app:destination="@id/fixedDepositReinvestmentTermFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <action
+            android:id="@+id/action_fixedDepositReinvestmentAmountFragment_to_genericResultScreenFragment"
+            app:destination="@id/genericResultScreenFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+    <fragment
+        android:id="@+id/fixedDepositReinvestmentTermFragment"
+        android:name="com.barclays.absa.banking.fixedDeposit.FixedDepositReinvestmentTermFragment"
+        android:label="FixedDepositReinvestmentTermFragment"
+        tools:layout="@layout/fixed_deposit_reinvestment_term_fragment">
+        <action
+            android:id="@+id/action_fixedDepositReinvestmentTermFragment_to_fixedDepositReinvestmentPaymentFrequencyFragment"
+            app:destination="@id/fixedDepositReinvestmentPaymentFrequencyFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <action
+            android:id="@+id/action_fixedDepositReinvestmentTermFragment_to_fixedDepositInvestmentTermFragment2"
+            app:destination="@id/fixedDepositInvestmentTermFragment2"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+    <fragment
+        android:id="@+id/fixedDepositReinvestmentPaymentFrequencyFragment"
+        android:name="com.barclays.absa.banking.fixedDeposit.FixedDepositReinvestmentPaymentFrequencyFragment"
+        android:label="FixedDepositReinvestmentPaymentFrequencyFragment"
+        tools:layout="@layout/fixed_deposit_reinvestment_payment_frequency_fragment">
+        <action
+            android:id="@+id/action_fixedDepositReinvestmentPaymentFrequencyFragment_to_fixedDepositReinvestConfirmationFragment"
+            app:destination="@id/fixedDepositReinvestConfirmationFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <action
+            android:id="@+id/action_fixedDepositReinvestmentPaymentFrequencyFragment_to_genericResultScreenFragment"
+            app:destination="@id/genericResultScreenFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+    <fragment
+        android:id="@+id/fixedDepositInvestmentTermFragment2"
+        android:name="com.barclays.absa.banking.fixedDeposit.FixedDepositInvestmentTermFragment"
+        android:label="FixedDepositInvestmentTermFragment"
+        tools:layout="@layout/investment_term_fragment" >
+        <argument
+            android:name="minimumMonth"
+            app:argType="integer"
+            android:defaultValue="0" />
+    </fragment>
+</navigation>

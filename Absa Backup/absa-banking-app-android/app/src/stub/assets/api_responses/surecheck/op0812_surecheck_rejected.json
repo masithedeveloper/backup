@@ -1,0 +1,17 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0812",
+      "resCde": "00000",
+      "resMsg": "Success",
+      "serVer": "2.0"
+    },
+    "payData": {
+      "accountOnHold": false,
+      "transactionVerificationState": "Rejected",
+      "retries": 0,
+      "txnStatus": "Failure",
+      "txnMessage": "You selected the rejection option on your App. The transaction has been cancelled"
+    }
+  }
+}

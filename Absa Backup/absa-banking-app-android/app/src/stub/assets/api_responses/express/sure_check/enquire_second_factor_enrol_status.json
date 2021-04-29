@@ -1,0 +1,29 @@
+{
+  "header": {
+    "statuscode": "0",
+    "userAgent": "ANDROID - 6.19.0",
+    "jsessionid": "l7U-f1icFcBsea_Sw-zX8iQQrhMVvtHp20CfK0Tv",
+    "esessionid": "dd634202-7167-36f8-8e36-ed1d03a4ec3f",
+    "service": "ManageMobileDevicesFacade",
+    "operation": "RetrieveUpdatedSecondFactorEnrolStatus",
+    "channel": "S",
+    "timestamp": "2021-01-06 11:57:26.778",
+    "sourceip": "22.147.145.101",
+    "accessAccount": "5471200031761062",
+    "userNumber": "1",
+    "nonce": "LY_8E2V7pZme0bYBHGF2VKb98qKMjTvl1uMbbcAe8GA",
+    "language": "en",
+    "organization": "ABSA",
+    "brand": "ABSA",
+    "resultMessages": []
+  },
+  "secondFactorEnrolStatus": {
+    "state": "SURECHECKV2",
+    "stateDate": "2020-12-15",
+    "snoozed": false,
+    "stateDaysLeft": 0,
+    "enrolledForSecondFactor": "Y",
+    "is2FAActive": false,
+    "enrolledFor2FA": false
+  }
+}

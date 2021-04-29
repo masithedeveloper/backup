@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.core.widget.NestedScrollView
+            android:id="@+id/policy_details_scroll_view"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <styleguide.content.TitleAndDescriptionView
+                    android:id="@+id/monthly_premium_view"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:attribute_description="@string/premium"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <View
+                    android:id="@+id/details_divider_view"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/dimen_1dp"
+                    android:layout_marginStart="@dimen/medium_space"
+                    android:layout_marginEnd="@dimen/medium_space"
+                    android:background="@color/grey"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/monthly_premium_view" />
+
+                <styleguide.content.LineItemView
+                    android:id="@+id/account_number_view"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:attribute_label_text="@string/policy_number"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/details_divider_view" />
+
+                <styleguide.content.LineItemView
+                    android:id="@+id/status_view"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:attribute_label_text="@string/policy_status"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/account_number_view" />
+
+                <styleguide.content.LineItemView
+                    android:id="@+id/premium_frequency_view"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:attribute_label_text="@string/premium_frequency"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/status_view" />
+
+                <styleguide.content.LineItemView
+                    android:id="@+id/start_date_view"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:attribute_label_text="@string/policy_start_date"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/premium_frequency_view" />
+
+                <styleguide.content.LineItemView
+                    android:id="@+id/end_date_view"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:attribute_label_text="@string/renewal_date"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/start_date_view" />
+
+                <View
+                    android:id="@+id/cover_divider_view"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/dimen_1dp"
+                    android:layout_marginStart="@dimen/medium_space"
+                    android:layout_marginEnd="@dimen/medium_space"
+                    android:background="@color/grey"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/end_date_view" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/policyComponentsRecyclerView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/cover_divider_view" />
+
+                <styleguide.content.SecondaryContentAndLabelView
+                    android:id="@+id/accidental_death_benefit_cover_view"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    app:attribute_should_show_check_box="false"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/policyComponentsRecyclerView" />
+
+                <styleguide.content.SecondaryContentAndLabelView
+                    android:id="@+id/spouse_death_benefit_cover_view"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    app:attribute_should_show_check_box="false"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/accidental_death_benefit_cover_view" />
+
+                <styleguide.content.SecondaryContentAndLabelView
+                    android:id="@+id/service_fee_view"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:attribute_secondary_content="@string/service_fee_per_month"
+                    app:attribute_should_show_check_box="false"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/spouse_death_benefit_cover_view" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

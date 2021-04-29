@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="depositor_plus_title">Depositor Plus</string>
+    <string name="depositor_plus_account_title">This Depositor Plus account</string>
+    <string name="depositor_plus_apply_header">The more you save the more you earn.</string>
+    <string name="depositor_plus_apply_description">The more you save, the more you earn with Depositor Plus, and you have immediate access to your savings.</string>
+    <string name="depositor_plus_what_you_need_to_know">What you need to know:</string>
+    <string name="depositor_plus_initial_minimum_amount">The minimum amount required is <b>%s.</b></string>
+    <string name="depositor_plus_additional_deposits">Additional deposits are allowed.</string>
+    <string name="depositor_plus_tiered_interest_rates">Tiered interest rates.</string>
+    <string name="depositor_plus_no_monthly_fee">No monthly admin fee.</string>
+    <string name="depositor_plus_find_out_more">Find out more</string>
+    <string name="depositor_plus_personal_information">Personal Information</string>
+    <string name="depositor_plus_employment_status">Employment status</string>
+    <string name="depositor_plus_occupation">Occupation</string>
+    <string name="depositor_plus_fund">How will you fund this account?</string>
+
+    <string name="depositor_plus_setup_your_account">Setup your account</string>
+    <string name="depositor_plus_new_account_name">New account name</string>
+    <string name="depositor_plus_account_to_debit">Account to debit</string>
+    <string name="depositor_plus_account_to_debit_error">Insufficient funds: %1$s</string>
+    <string name="depositor_plus_initial_deposit">Initial deposit</string>
+    <string name="depositor_plus_initial_deposit_hint">Enter deposit amount</string>
+    <string name="depositor_plus_minimum_initial_deposit">R 15 000.00 minimum initial deposit</string>
+    <string name="depositor_plus_initial_deposit_error">The minimum required is %s</string>
+    <string name="depositor_plus_maximum_amount_error">The maximum allowed is %s</string>
+    <string name="depositor_plus_account_reference">Reference</string>
+    <string name="depositor_plus_enter_reference">Please enter a reference</string>
+    <string name="depositor_plus_add_monthly_contribution">Add monthly contribution</string>
+    <string name="depositor_plus_choose_account">Choose an account</string>
+    <string name="depositor_plus_monthly_contribution_amount">Monthly contribution amount</string>
+    <string name="depositor_plus_account">Account</string>
+    <string name="depositor_plus_recurring_deposit_frequency">Recurring deposit frequency</string>
+    <string name="depositor_plus_recurring_debit_day">Debit day</string>
+    <string name="depositor_plus_recurring_start_day">Recurring deposit start date</string>
+    <string name="depositor_plus_recurring_end_day">Recurring deposit end date</string>
+    <string name="depositor_plus_recurring_payment_reference">Recurring deposit reference</string>
+    <string name="depositor_plus_initial_deposit_reference">Initial deposit reference</string>
+    <string name="depositor_plus_number_of_monthly_deposits">Number of monthly deposits</string>
+    <string name="depositor_plus_enter_number_of_monthly_deposits">Enter number of monthly deposits</string>
+
+    <string name="depositor_plus_interest_payout_details">Interest payout details</string>
+    <string name="depositor_plus_another_bank_account">Another bank account</string>
+    <string name="depositor_plus_limit_increase_success_message">Because amount was more than your current daily transfer limit. We have updated your limit for you.</string>
+    <string name="depositor_plus_transfer_limit_increase_message">The initial deposit is more than your current daily transfer limit. If you continue, we\'ll update your limit but you can always change it back later.</string>
+    <string name="depositor_plus_interest_payment_account">Interest payment account</string>
+    <string name="depositor_plus_select_account">Select account</string>
+    <string name="depositor_plus_interest_payment_info">This is the account that the interest that you earn will be paid into.</string>
+    <string name="depositor_plus_select_account_type">Select account type</string>
+    <string name="depositor_plus_disclaimer">I declare that the above accounts are mine and that I authorise the bank to debit or credit them, on or after the date specified with the agreed amount.</string>
+    <string name="depositor_plus_bank">Bank</string>
+    <string name="depositor_plus_choose_bank">Choose a bank</string>
+    <string name="depositor_plus_select_bank">Select a bank</string>
+    <string name="depositor_plus_account_type">Account type</string>
+    <string name="depositor_plus_cheque_account">Cheque account</string>
+    <string name="depositor_plus_savings_account">Savings account</string>
+    <string name="depositor_plus_choose_account_type">Choose account type</string>
+    <string name="depositor_plus_account_number">Account number</string>
+    <string name="depositor_plus_enter_account_number">Enter account number</string>
+    <string name="depositor_plus_branch_code">Branch code</string>
+    <string name="depositor_plus_choose_branch_code">Choose a branch</string>
+    <string name="depositor_plus_select_branch_code">Select branch code</string>
+    <string name="depositor_plus_source_of_funds">Source of funds</string>
+    <string name="depositor_plus_source_of_income">Source of income</string>
+    <string name="depositor_plus_from_account">From account</string>
+    <string name="depositor_plus_recurring_payment_amount">Recurring deposit amount</string>
+
+    <string name="depositor_plus_summary">Summary</string>
+    <string name="depositor_plus_terms_and_conditions">Terms &amp; Conditions</string>
+    <string name="depositor_plus_agree_terms_and_conditions">I have read and agree to the Terms and Conditions.</string>
+    <string name="depositor_plus_account_successfully_opened">Account successfully opened</string>
+    <string name="depositor_plus_success_message">Depositor Plus account number %1$s opened</string>
+    <string name="depositor_plus_application">Depositor Plus Application</string>
+    <string name="depositor_plus_saved_application">Continue with saved application?</string>
+    <string name="depositor_plus_new_application">Start a new application</string>
+    <string name="depositor_plus_monthly">Monthly</string>
+
+    <string name="depositor_plus_select_five">Select up to 5 options.</string>
+    <string name="depositor_plus_please_select_employment_status">Please select employment status</string>
+    <string name="depositor_plus_please_select_occupation">Please select occupation</string>
+    <string name="depositor_plus_please_select_source_of_funds">Please select source of funds</string>
+    <string name="depositor_plus_please_select_source_of_income">Please select source of income</string>
+    <string name="depositor_plus_please_enter_account_name">Please enter an account name</string>
+    <string name="depositor_plus_please_enter_amount">Please enter an amount</string>
+    <string name="depositor_plus_please_select_an_account">Please select an account</string>
+    <string name="depositor_plus_please_enter_reference">Please enter a reference</string>
+    <string name="depositor_plus_please_enter_number_of_payments">Please enter number of payments</string>
+    <string name="depositor_plus_number_of_payments_minimum">Please enter a minimum of %s</string>
+    <string name="depositor_plus_number_of_payments_maximum">Please enter a maximum of %s</string>
+    <string name="depositor_plus_please_select_start_date">Please select a start date</string>
+    <string name="depositor_plus_please_select_end_date">Please select an end date</string>
+    <string name="depositor_plus_minimum_recurring_amount">%s minimum recurring payment amount</string>
+    <string name="depositor_plus_please_choose_interest_payment_account">Please choose interest payment account</string>
+    <string name="depositor_plus_please_choose_bank">Please choose a bank</string>
+    <string name="depositor_plus_please_choose_account_type">Please choose an account type</string>
+    <string name="depositor_plus_please_enter_account_number">Please enter an account number</string>
+    <string name="depositor_plus_please_choose_branch_code">Please choose a branch code</string>
+    <string name="depositor_plus_please_accept_disclaimer">Please accept these terms to proceed</string>
+
+    <string name="depositor_plus_unable_to_process">We were unable to process your application.</string>
+    <string name="depositor_plus_contact_private_banker">Please call us below or contact your Private Banker for assistance.</string>
+    <string name="depositor_plus_visit_nearest_branch">You can call us below for assistance or visit your nearest branch. Bring along your ID and Proof of residence (eg. water/electricity bill) no older than 3 months.</string>
+    <string name="depositor_plus_call_centre">Call Centre</string>
+    <string name="depositor_plus_open_account_call_centre_number" translatable="false">0860 111 515</string>
+    <string name="depositor_plus_private_call_centre_number" translatable="false">0860 553 553</string>
+    <string name="depositor_plus_interest_rate">Interest rate p.a</string>
+
+    <string name="depositor_plus_account_opened_success">Account successfully opened</string>
+    <string name="depositor_plus_account_opened_success_message">%1$s account number %2$s opened.</string>
+    <string name="depositor_plus_account_opened_success_link_unsuccessful">Account successfully opened. Account link unsuccessful</string>
+    <string name="depositor_plus_account_opened_success_link_profile">%1$s account number %2$s opened.\n\nTo view your account on app please link it to your profile.</string>
+    <string name="depositor_plus_account_opened_success_fund_account">Account successfully opened. Please fund your account</string>
+    <string name="depositor_plus_account_opened_please_transfer">%1$s account number %2$s opened.\n\nPlease transfer at least %3$s to activate the account.</string>
+    <string name="depositor_plus_account_link_account">Link account</string>
+    <string name="depositor_plus_transfer_funds">Transfer funds</string>
+    <string name="depositor_plus_something_went_wrong">Something went wrong</string>
+    <string name="depositor_plus_error_opening_account">There was a technical error opening your account. Please try again later.</string>
+    <string name="depositor_plus_technical_error_processing">There was a technical error while processing your application. Please try again later. Alternatively call us below to open your account.</string>
+    <string name="depositor_plus_accept_personal_client_agreement">I have read and agree to the %s</string>
+
+    <string name="depositor_plus_whats_new_title">Start saving with a depositor plus account</string>
+    <string name="depositor_plus_whats_new_content">The more you save, the more you earn with Depositor Plus, and you have immediate access to your savings. Go to the explore hub to open an account now.</string>
+    <string name="depositor_plus_marketing_channel_error">Please select a marketing channel</string>
+    <string name="depositor_plus_cif_error_header">Your profile is out of date</string>
+    <string name="depositor_plus_cif_error_message">Your profile information needs to be updated. Please update your details by calling us below or by visiting your nearest branch.</string>
+</resources>

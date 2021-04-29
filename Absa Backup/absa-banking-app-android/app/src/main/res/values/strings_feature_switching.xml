@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="feature_switching_law_for_you" translatable="false">Law for you</string>
+    <string name="feature_switching_funeral_cover">Funeral Cover</string>
+    <string name="feature_switching_apply_rewards">Apply for Rewards</string>
+    <string name="feature_switching_stop_replace_credit_card">Stop and Replace Credit Card</string>
+    <string name="feature_switching_archived_statement">Archived Statements</string>
+    <string name="feature_switching_stamped_statement">Stamped Statements</string>
+    <string name="feature_switching_multiple_payments">Multiple Payments</string>
+    <string name="feature_switching_authorisations">Business Banking Authorizations</string>
+    <string name="feature_switching_international_payments">International Payments</string>
+    <string name="feature_switching_swift">SWIFT</string>
+    <string name="feature_switching_tax_certificates">Tax Certificates</string>
+    <string name="feature_switching_debit_orders">DebiCheck Debit Order Authorizations</string>
+    <string name="feature_switching_beneficiary_switching">Beneficiary Switching</string>
+    <string name="feature_switching__apply_for_overdraft">Apply for Overdraft</string>
+    <string name="feature_switching_apply_for_vcl">Apply for VCL</string>
+    <string name="feature_switching_pin_retrieval">Pin Retrieval</string>
+    <string name="feature_switching_apply_for_credit_protection">Apply for Credit Protection</string>
+    <string name="feature_switching_voucher_purchase">Fixed Amount Voucher Purchase</string>
+    <string name="feature_switching_rewards">Rewards</string>
+    <string name="feature_switching_ntb_registration">NTBRegistration</string>
+    <string name="feature_switching_prepaid_airtime">Prepaid Data/Airtime</string>
+    <string name="feature_switching_prepaid_electricity">Prepaid Electricity</string>
+    <string name="feature_switching_temporary_lock">Temporary Lock</string>
+    <string name="feature_switching_add_new_beneficiary">Add New Beneficiary</string>
+    <string name="feature_switching_fixed_deposit">Fixed Deposit</string>
+    <string name="feature_switching_apply_fixed_deposit">Apply for Fixed Deposit Account</string>
+    <string name="feature_switching_travel_abroad">Travel Abroad</string>
+    <string name="feature_switching_unit_trust">Unit Trust</string>
+    <string name="feature_switching_buy_unit_trust">Buy Unit Trust</string>
+    <string name="feature_switching_click_to_call">Click to Call</string>
+    <string name="feature_switching_manage_accounts">Manage Accounts</string>
+    <string name="feature_switching_in_app_messages">In App Notifications</string>
+    <string name="feature_switching_change_payment_details">Change Payment Details</string>
+    <string name="feature_switching_funeral_add_member">Funeral Cover Add Family Member</string>
+    <string name="feature_switching_fixed_deposit_hub">Fixed Deposit Hub</string>
+    <string name="feature_switching_ultimate_protector">Ultimate Protector</string>
+    <string name="feature_switching_inter_account_transfer">Inter-Account Transfer Future Dated Payments</string>
+    <string name="feature_switching_branch_qr_scan">Branch QR Code Scanning</string>
+    <string name="feature_switching_atm_branch_locator">ATM &amp; Branch Locator</string>
+    <string name="feature_switching_apply_for_personal_loan_vcl">Apply for Personal Loan</string>
+    <string name="feature_switching_view_your_will">View your Will</string>
+    <string name="feature_switching_apply_personal_loan_hub">Personal Loan</string>
+    <string name="feature_switching_manage_profile">Manage Profile</string>
+    <string name="feature_switching_currency_investment_accounts">Currency Investment Accounts</string>
+    <string name="feature_switching_absa_vehicle_and_asset_finance">Absa Vehicle And Asset Finance</string>
+    <string name="feature_switching_apply_flexi_funeral">Flexi Funeral Cover</string>
+    <string name="feature_switching_business_bank_account">Business Bank Account</string>
+    <string name="feature_switching_secondary_card">Secondary Card</string>
+</resources>

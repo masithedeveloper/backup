@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="manage_device_current_verification_device">Current &amp; Verification device</string>
+    <string name="manage_device_current_device">Current device</string>
+    <string name="manage_device_verification_device">Verification device</string>
+
+    <string name="manage_device_device_list_caption">Select a device to change your verification device, delink a device or edit your device\'s name.</string>
+    <string name="manage_device_device_list_title">Linked Devices</string>
+
+    <string name="manage_device_make_this_your_verification_device">Make this my Verification device</string>
+    <string name="manage_device_device_title">Device</string>
+    <string name="manage_device_nickname_item_label">Nickname</string>
+    <string name="manage_device_device_item_label">Device</string>
+    <string name="manage_device_status_item_label">Status</string>
+
+    <string name="manage_device_nickname_error">Please enter a valid Nickname</string>
+    <string name="manage_device_device_already_verification_device">This device is already your verification device</string>
+    <string name="manage_device_server_failure">Server failure</string>
+
+    <string name="manage_device_manufacturer_name_apple" translatable="false">Apple</string>
+
+    <string name="change_verification_device_response_text">change your online banking verification device?</string>
+
+</resources>

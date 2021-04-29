@@ -1,0 +1,1651 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES2072",
+      "resCde": "00000",
+      "resMsg": "Success",
+      "expTrace": null,
+      "serVer": "2.0"
+    },
+    "payData": {
+      "productCode": "03040",
+      "shortName": "Fixed Deposit",
+      "categoryCode": "aoctd001",
+      "categoryName": "Term Deposit",
+      "effectiveDate": "20181210",
+      "interestRateTable": [
+        {
+          "fromBalance": null,
+          "toBalance": null,
+          "rate": null,
+          "termDepositAmountRangeMin": "R1000-R9999",
+          "termDepositAmountRangeMax": "R10000-R99999",
+          "termDepositAmountRangeMinInterestTable": [
+            {
+              "daysFrom": "8",
+              "daysTo": "31",
+              "categoryRateMonthly": "3.73",
+              "categoryRateQuaterly": "3.72",
+              "categoryRateHalfYearly": "3.72",
+              "categoryRateAnnually": "3.72",
+              "categoryRateMaturity": "3.72"
+            },
+            {
+              "daysFrom": "32",
+              "daysTo": "59",
+              "categoryRateMonthly": "3.72",
+              "categoryRateQuaterly": "3.72",
+              "categoryRateHalfYearly": "3.72",
+              "categoryRateAnnually": "3.72",
+              "categoryRateMaturity": "3.72"
+            },
+            {
+              "daysFrom": "60",
+              "daysTo": "89",
+              "categoryRateMonthly": "3.72",
+              "categoryRateQuaterly": "3.72",
+              "categoryRateHalfYearly": "3.72",
+              "categoryRateAnnually": "3.72",
+              "categoryRateMaturity": "3.73"
+            },
+            {
+              "daysFrom": "90",
+              "daysTo": "119",
+              "categoryRateMonthly": "3.75",
+              "categoryRateQuaterly": "3.72",
+              "categoryRateHalfYearly": "3.72",
+              "categoryRateAnnually": "3.72",
+              "categoryRateMaturity": "3.75"
+            },
+            {
+              "daysFrom": "120",
+              "daysTo": "149",
+              "categoryRateMonthly": "3.75",
+              "categoryRateQuaterly": "3.72",
+              "categoryRateHalfYearly": "3.72",
+              "categoryRateAnnually": "3.72",
+              "categoryRateMaturity": "3.77"
+            },
+            {
+              "daysFrom": "150",
+              "daysTo": "179",
+              "categoryRateMonthly": "3.75",
+              "categoryRateQuaterly": "3.72",
+              "categoryRateHalfYearly": "3.72",
+              "categoryRateAnnually": "3.72",
+              "categoryRateMaturity": "3.78"
+            },
+            {
+              "daysFrom": "180",
+              "daysTo": "209",
+              "categoryRateMonthly": "9.66",
+              "categoryRateQuaterly": "4.81",
+              "categoryRateHalfYearly": "4.87",
+              "categoryRateAnnually": "4.78",
+              "categoryRateMaturity": "4.87"
+            },
+            {
+              "daysFrom": "210",
+              "daysTo": "239",
+              "categoryRateMonthly": "7.64",
+              "categoryRateQuaterly": "3.95",
+              "categoryRateHalfYearly": "4.01",
+              "categoryRateAnnually": "3.92",
+              "categoryRateMaturity": "4.03"
+            },
+            {
+              "daysFrom": "240",
+              "daysTo": "269",
+              "categoryRateMonthly": "7.84",
+              "categoryRateQuaterly": "4.0",
+              "categoryRateHalfYearly": "4.06",
+              "categoryRateAnnually": "3.97",
+              "categoryRateMaturity": "4.09"
+            },
+            {
+              "daysFrom": "270",
+              "daysTo": "299",
+              "categoryRateMonthly": "8.34",
+              "categoryRateQuaterly": "4.05",
+              "categoryRateHalfYearly": "4.11",
+              "categoryRateAnnually": "4.02",
+              "categoryRateMaturity": "4.16"
+            },
+            {
+              "daysFrom": "300",
+              "daysTo": "329",
+              "categoryRateMonthly": "8.54",
+              "categoryRateQuaterly": "4.1",
+              "categoryRateHalfYearly": "4.16",
+              "categoryRateAnnually": "4.07",
+              "categoryRateMaturity": "4.23"
+            },
+            {
+              "daysFrom": "330",
+              "daysTo": "364",
+              "categoryRateMonthly": "8.54",
+              "categoryRateQuaterly": "4.15",
+              "categoryRateHalfYearly": "4.21",
+              "categoryRateAnnually": "4.12",
+              "categoryRateMaturity": "4.3"
+            },
+            {
+              "daysFrom": "365",
+              "daysTo": "394",
+              "categoryRateMonthly": "5.36",
+              "categoryRateQuaterly": "0.04",
+              "categoryRateHalfYearly": "0.1",
+              "categoryRateAnnually": "0.23",
+              "categoryRateMaturity": "0.23"
+            },
+            {
+              "daysFrom": "395",
+              "daysTo": "544",
+              "categoryRateMonthly": "0.04",
+              "categoryRateQuaterly": "0.1",
+              "categoryRateHalfYearly": "0.23",
+              "categoryRateAnnually": "0.23",
+              "categoryRateMaturity": "0.23"
+            },
+            {
+              "daysFrom": "545",
+              "daysTo": "577",
+              "categoryRateMonthly": "0.04",
+              "categoryRateQuaterly": "0.1",
+              "categoryRateHalfYearly": "0.23",
+              "categoryRateAnnually": "0.23",
+              "categoryRateMaturity": "0.23"
+            },
+            {
+              "daysFrom": "578",
+              "daysTo": "729",
+              "categoryRateMonthly": "0.04",
+              "categoryRateQuaterly": "0.1",
+              "categoryRateHalfYearly": "0.23",
+              "categoryRateAnnually": "0.23",
+              "categoryRateMaturity": "0.23"
+            },
+            {
+              "daysFrom": "730",
+              "daysTo": "759",
+              "categoryRateMonthly": "0.04",
+              "categoryRateQuaterly": "0.1",
+              "categoryRateHalfYearly": "0.25",
+              "categoryRateAnnually": "0.25",
+              "categoryRateMaturity": "0.25"
+            },
+            {
+              "daysFrom": "760",
+              "daysTo": "1094",
+              "categoryRateMonthly": "7.35",
+              "categoryRateQuaterly": "3.63",
+              "categoryRateHalfYearly": "3.69",
+              "categoryRateAnnually": "3.84",
+              "categoryRateMaturity": "3.84"
+            },
+            {
+              "daysFrom": "1095",
+              "daysTo": "1124",
+              "categoryRateMonthly": "3.63",
+              "categoryRateQuaterly": "3.69",
+              "categoryRateHalfYearly": "3.85",
+              "categoryRateAnnually": "3.85",
+              "categoryRateMaturity": "3.85"
+            },
+            {
+              "daysFrom": "1125",
+              "daysTo": "1459",
+              "categoryRateMonthly": "11.48",
+              "categoryRateQuaterly": "5.67",
+              "categoryRateHalfYearly": "5.73",
+              "categoryRateAnnually": "5.89",
+              "categoryRateMaturity": "5.89"
+            },
+            {
+              "daysFrom": "1460",
+              "daysTo": "1825",
+              "categoryRateMonthly": "5.67",
+              "categoryRateQuaterly": "5.73",
+              "categoryRateHalfYearly": "5.9",
+              "categoryRateAnnually": "5.9",
+              "categoryRateMaturity": "5.9"
+            },
+            {
+              "daysFrom": "1826",
+              "daysTo": "1857",
+              "categoryRateMonthly": "5.67",
+              "categoryRateQuaterly": "5.73",
+              "categoryRateHalfYearly": "5.9",
+              "categoryRateAnnually": "5.9",
+              "categoryRateMaturity": "5.9"
+            }
+          ],
+          "termDepositAmountRangeMaxInterestTable": [
+            {
+              "daysFrom": "8",
+              "daysTo": "31",
+              "categoryRateMonthly": "4.73",
+              "categoryRateQuaterly": "4.72",
+              "categoryRateHalfYearly": "4.72",
+              "categoryRateAnnually": "4.72",
+              "categoryRateMaturity": "4.72"
+            },
+            {
+              "daysFrom": "32",
+              "daysTo": "59",
+              "categoryRateMonthly": "4.72",
+              "categoryRateQuaterly": "4.72",
+              "categoryRateHalfYearly": "4.72",
+              "categoryRateAnnually": "4.72",
+              "categoryRateMaturity": "4.72"
+            },
+            {
+              "daysFrom": "60",
+              "daysTo": "89",
+              "categoryRateMonthly": "4.72",
+              "categoryRateQuaterly": "4.72",
+              "categoryRateHalfYearly": "4.72",
+              "categoryRateAnnually": "4.72",
+              "categoryRateMaturity": "4.73"
+            },
+            {
+              "daysFrom": "90",
+              "daysTo": "119",
+              "categoryRateMonthly": "4.75",
+              "categoryRateQuaterly": "4.72",
+              "categoryRateHalfYearly": "4.72",
+              "categoryRateAnnually": "4.72",
+              "categoryRateMaturity": "4.75"
+            },
+            {
+              "daysFrom": "120",
+              "daysTo": "149",
+              "categoryRateMonthly": "4.75",
+              "categoryRateQuaterly": "4.72",
+              "categoryRateHalfYearly": "4.72",
+              "categoryRateAnnually": "4.72",
+              "categoryRateMaturity": "4.77"
+            },
+            {
+              "daysFrom": "150",
+              "daysTo": "179",
+              "categoryRateMonthly": "4.75",
+              "categoryRateQuaterly": "4.72",
+              "categoryRateHalfYearly": "4.72",
+              "categoryRateAnnually": "4.72",
+              "categoryRateMaturity": "4.78"
+            },
+            {
+              "daysFrom": "180",
+              "daysTo": "209",
+              "categoryRateMonthly": "9.94",
+              "categoryRateQuaterly": "5.09",
+              "categoryRateHalfYearly": "5.15",
+              "categoryRateAnnually": "5.06",
+              "categoryRateMaturity": "5.15"
+            },
+            {
+              "daysFrom": "210",
+              "daysTo": "239",
+              "categoryRateMonthly": "8.64",
+              "categoryRateQuaterly": "4.95",
+              "categoryRateHalfYearly": "5.01",
+              "categoryRateAnnually": "4.92",
+              "categoryRateMaturity": "5.03"
+            },
+            {
+              "daysFrom": "240",
+              "daysTo": "269",
+              "categoryRateMonthly": "8.84",
+              "categoryRateQuaterly": "5.0",
+              "categoryRateHalfYearly": "5.06",
+              "categoryRateAnnually": "4.97",
+              "categoryRateMaturity": "5.09"
+            },
+            {
+              "daysFrom": "270",
+              "daysTo": "299",
+              "categoryRateMonthly": "9.34",
+              "categoryRateQuaterly": "5.05",
+              "categoryRateHalfYearly": "5.11",
+              "categoryRateAnnually": "5.02",
+              "categoryRateMaturity": "5.16"
+            },
+            {
+              "daysFrom": "300",
+              "daysTo": "329",
+              "categoryRateMonthly": "9.54",
+              "categoryRateQuaterly": "5.1",
+              "categoryRateHalfYearly": "5.16",
+              "categoryRateAnnually": "5.07",
+              "categoryRateMaturity": "5.23"
+            },
+            {
+              "daysFrom": "330",
+              "daysTo": "364",
+              "categoryRateMonthly": "9.54",
+              "categoryRateQuaterly": "5.15",
+              "categoryRateHalfYearly": "5.21",
+              "categoryRateAnnually": "5.12",
+              "categoryRateMaturity": "5.3"
+            },
+            {
+              "daysFrom": "365",
+              "daysTo": "394",
+              "categoryRateMonthly": "10.6",
+              "categoryRateQuaterly": "5.28",
+              "categoryRateHalfYearly": "5.34",
+              "categoryRateAnnually": "5.47",
+              "categoryRateMaturity": "5.47"
+            },
+            {
+              "daysFrom": "395",
+              "daysTo": "544",
+              "categoryRateMonthly": "5.28",
+              "categoryRateQuaterly": "5.34",
+              "categoryRateHalfYearly": "5.47",
+              "categoryRateAnnually": "5.47",
+              "categoryRateMaturity": "5.47"
+            },
+            {
+              "daysFrom": "545",
+              "daysTo": "577",
+              "categoryRateMonthly": "5.28",
+              "categoryRateQuaterly": "5.34",
+              "categoryRateHalfYearly": "5.47",
+              "categoryRateAnnually": "5.47",
+              "categoryRateMaturity": "5.47"
+            },
+            {
+              "daysFrom": "578",
+              "daysTo": "729",
+              "categoryRateMonthly": "5.28",
+              "categoryRateQuaterly": "5.34",
+              "categoryRateHalfYearly": "5.47",
+              "categoryRateAnnually": "5.47",
+              "categoryRateMaturity": "5.47"
+            },
+            {
+              "daysFrom": "730",
+              "daysTo": "759",
+              "categoryRateMonthly": "5.28",
+              "categoryRateQuaterly": "5.34",
+              "categoryRateHalfYearly": "5.49",
+              "categoryRateAnnually": "5.49",
+              "categoryRateMaturity": "5.49"
+            },
+            {
+              "daysFrom": "760",
+              "daysTo": "1094",
+              "categoryRateMonthly": "8.35",
+              "categoryRateQuaterly": "4.63",
+              "categoryRateHalfYearly": "4.69",
+              "categoryRateAnnually": "4.84",
+              "categoryRateMaturity": "4.84"
+            },
+            {
+              "daysFrom": "1095",
+              "daysTo": "1124",
+              "categoryRateMonthly": "4.63",
+              "categoryRateQuaterly": "4.69",
+              "categoryRateHalfYearly": "4.85",
+              "categoryRateAnnually": "4.85",
+              "categoryRateMaturity": "4.85"
+            },
+            {
+              "daysFrom": "1125",
+              "daysTo": "1459",
+              "categoryRateMonthly": "11.48",
+              "categoryRateQuaterly": "5.67",
+              "categoryRateHalfYearly": "5.73",
+              "categoryRateAnnually": "5.89",
+              "categoryRateMaturity": "5.89"
+            },
+            {
+              "daysFrom": "1460",
+              "daysTo": "1825",
+              "categoryRateMonthly": "5.67",
+              "categoryRateQuaterly": "5.73",
+              "categoryRateHalfYearly": "5.9",
+              "categoryRateAnnually": "5.9",
+              "categoryRateMaturity": "5.9"
+            },
+            {
+              "daysFrom": "1826",
+              "daysTo": "1857",
+              "categoryRateMonthly": "5.67",
+              "categoryRateQuaterly": "5.73",
+              "categoryRateHalfYearly": "5.9",
+              "categoryRateAnnually": "5.9",
+              "categoryRateMaturity": "5.9"
+            }
+          ]
+        },
+        {
+          "fromBalance": null,
+          "toBalance": null,
+          "rate": null,
+          "termDepositAmountRangeMin": "R100000-R174999",
+          "termDepositAmountRangeMax": "R175000-R249999",
+          "termDepositAmountRangeMinInterestTable": [
+            {
+              "daysFrom": "8",
+              "daysTo": "31",
+              "categoryRateMonthly": "4.7",
+              "categoryRateQuaterly": "4.69",
+              "categoryRateHalfYearly": "4.69",
+              "categoryRateAnnually": "4.69",
+              "categoryRateMaturity": "4.69"
+            },
+            {
+              "daysFrom": "32",
+              "daysTo": "59",
+              "categoryRateMonthly": "4.69",
+              "categoryRateQuaterly": "4.69",
+              "categoryRateHalfYearly": "4.69",
+              "categoryRateAnnually": "4.69",
+              "categoryRateMaturity": "4.69"
+            },
+            {
+              "daysFrom": "60",
+              "daysTo": "89",
+              "categoryRateMonthly": "4.69",
+              "categoryRateQuaterly": "4.69",
+              "categoryRateHalfYearly": "4.69",
+              "categoryRateAnnually": "4.69",
+              "categoryRateMaturity": "4.7"
+            },
+            {
+              "daysFrom": "90",
+              "daysTo": "119",
+              "categoryRateMonthly": "4.72",
+              "categoryRateQuaterly": "4.69",
+              "categoryRateHalfYearly": "4.69",
+              "categoryRateAnnually": "4.69",
+              "categoryRateMaturity": "4.72"
+            },
+            {
+              "daysFrom": "120",
+              "daysTo": "149",
+              "categoryRateMonthly": "4.72",
+              "categoryRateQuaterly": "4.69",
+              "categoryRateHalfYearly": "4.69",
+              "categoryRateAnnually": "4.69",
+              "categoryRateMaturity": "4.74"
+            },
+            {
+              "daysFrom": "150",
+              "daysTo": "179",
+              "categoryRateMonthly": "4.72",
+              "categoryRateQuaterly": "4.69",
+              "categoryRateHalfYearly": "4.69",
+              "categoryRateAnnually": "4.69",
+              "categoryRateMaturity": "4.75"
+            },
+            {
+              "daysFrom": "180",
+              "daysTo": "209",
+              "categoryRateMonthly": "9.97",
+              "categoryRateQuaterly": "5.12",
+              "categoryRateHalfYearly": "5.18",
+              "categoryRateAnnually": "5.09",
+              "categoryRateMaturity": "5.18"
+            },
+            {
+              "daysFrom": "210",
+              "daysTo": "239",
+              "categoryRateMonthly": "8.73",
+              "categoryRateQuaterly": "5.04",
+              "categoryRateHalfYearly": "5.1",
+              "categoryRateAnnually": "5.01",
+              "categoryRateMaturity": "5.12"
+            },
+            {
+              "daysFrom": "240",
+              "daysTo": "269",
+              "categoryRateMonthly": "8.93",
+              "categoryRateQuaterly": "5.09",
+              "categoryRateHalfYearly": "5.15",
+              "categoryRateAnnually": "5.06",
+              "categoryRateMaturity": "5.18"
+            },
+            {
+              "daysFrom": "270",
+              "daysTo": "299",
+              "categoryRateMonthly": "9.43",
+              "categoryRateQuaterly": "5.14",
+              "categoryRateHalfYearly": "5.2",
+              "categoryRateAnnually": "5.11",
+              "categoryRateMaturity": "5.25"
+            },
+            {
+              "daysFrom": "300",
+              "daysTo": "329",
+              "categoryRateMonthly": "9.63",
+              "categoryRateQuaterly": "5.19",
+              "categoryRateHalfYearly": "5.25",
+              "categoryRateAnnually": "5.16",
+              "categoryRateMaturity": "5.32"
+            },
+            {
+              "daysFrom": "330",
+              "daysTo": "364",
+              "categoryRateMonthly": "9.63",
+              "categoryRateQuaterly": "5.24",
+              "categoryRateHalfYearly": "5.3",
+              "categoryRateAnnually": "5.21",
+              "categoryRateMaturity": "5.39"
+            },
+            {
+              "daysFrom": "365",
+              "daysTo": "394",
+              "categoryRateMonthly": "10.85",
+              "categoryRateQuaterly": "5.53",
+              "categoryRateHalfYearly": "5.59",
+              "categoryRateAnnually": "5.72",
+              "categoryRateMaturity": "5.72"
+            },
+            {
+              "daysFrom": "395",
+              "daysTo": "544",
+              "categoryRateMonthly": "5.53",
+              "categoryRateQuaterly": "5.59",
+              "categoryRateHalfYearly": "5.72",
+              "categoryRateAnnually": "5.72",
+              "categoryRateMaturity": "5.72"
+            },
+            {
+              "daysFrom": "545",
+              "daysTo": "577",
+              "categoryRateMonthly": "5.53",
+              "categoryRateQuaterly": "5.59",
+              "categoryRateHalfYearly": "5.72",
+              "categoryRateAnnually": "5.72",
+              "categoryRateMaturity": "5.72"
+            },
+            {
+              "daysFrom": "578",
+              "daysTo": "729",
+              "categoryRateMonthly": "5.53",
+              "categoryRateQuaterly": "5.59",
+              "categoryRateHalfYearly": "5.72",
+              "categoryRateAnnually": "5.72",
+              "categoryRateMaturity": "5.72"
+            },
+            {
+              "daysFrom": "730",
+              "daysTo": "759",
+              "categoryRateMonthly": "5.53",
+              "categoryRateQuaterly": "5.59",
+              "categoryRateHalfYearly": "5.74",
+              "categoryRateAnnually": "5.74",
+              "categoryRateMaturity": "5.74"
+            },
+            {
+              "daysFrom": "760",
+              "daysTo": "1094",
+              "categoryRateMonthly": "8.97",
+              "categoryRateQuaterly": "5.25",
+              "categoryRateHalfYearly": "5.31",
+              "categoryRateAnnually": "5.46",
+              "categoryRateMaturity": "5.46"
+            },
+            {
+              "daysFrom": "1095",
+              "daysTo": "1124",
+              "categoryRateMonthly": "5.25",
+              "categoryRateQuaterly": "5.31",
+              "categoryRateHalfYearly": "5.47",
+              "categoryRateAnnually": "5.47",
+              "categoryRateMaturity": "5.47"
+            },
+            {
+              "daysFrom": "1125",
+              "daysTo": "1459",
+              "categoryRateMonthly": "11.95",
+              "categoryRateQuaterly": "6.14",
+              "categoryRateHalfYearly": "6.2",
+              "categoryRateAnnually": "6.36",
+              "categoryRateMaturity": "6.36"
+            },
+            {
+              "daysFrom": "1460",
+              "daysTo": "1825",
+              "categoryRateMonthly": "6.14",
+              "categoryRateQuaterly": "6.2",
+              "categoryRateHalfYearly": "6.37",
+              "categoryRateAnnually": "6.37",
+              "categoryRateMaturity": "6.37"
+            },
+            {
+              "daysFrom": "1826",
+              "daysTo": "1857",
+              "categoryRateMonthly": "6.14",
+              "categoryRateQuaterly": "6.2",
+              "categoryRateHalfYearly": "6.37",
+              "categoryRateAnnually": "6.37",
+              "categoryRateMaturity": "6.37"
+            }
+          ],
+          "termDepositAmountRangeMaxInterestTable": [
+            {
+              "daysFrom": "8",
+              "daysTo": "31",
+              "categoryRateMonthly": "4.73",
+              "categoryRateQuaterly": "4.72",
+              "categoryRateHalfYearly": "4.72",
+              "categoryRateAnnually": "4.72",
+              "categoryRateMaturity": "4.72"
+            },
+            {
+              "daysFrom": "32",
+              "daysTo": "59",
+              "categoryRateMonthly": "4.72",
+              "categoryRateQuaterly": "4.72",
+              "categoryRateHalfYearly": "4.72",
+              "categoryRateAnnually": "4.72",
+              "categoryRateMaturity": "4.72"
+            },
+            {
+              "daysFrom": "60",
+              "daysTo": "89",
+              "categoryRateMonthly": "4.72",
+              "categoryRateQuaterly": "4.72",
+              "categoryRateHalfYearly": "4.72",
+              "categoryRateAnnually": "4.72",
+              "categoryRateMaturity": "4.73"
+            },
+            {
+              "daysFrom": "90",
+              "daysTo": "119",
+              "categoryRateMonthly": "4.75",
+              "categoryRateQuaterly": "4.72",
+              "categoryRateHalfYearly": "4.72",
+              "categoryRateAnnually": "4.72",
+              "categoryRateMaturity": "4.75"
+            },
+            {
+              "daysFrom": "120",
+              "daysTo": "149",
+              "categoryRateMonthly": "4.75",
+              "categoryRateQuaterly": "4.72",
+              "categoryRateHalfYearly": "4.72",
+              "categoryRateAnnually": "4.72",
+              "categoryRateMaturity": "4.77"
+            },
+            {
+              "daysFrom": "150",
+              "daysTo": "179",
+              "categoryRateMonthly": "4.75",
+              "categoryRateQuaterly": "4.72",
+              "categoryRateHalfYearly": "4.72",
+              "categoryRateAnnually": "4.72",
+              "categoryRateMaturity": "4.78"
+            },
+            {
+              "daysFrom": "180",
+              "daysTo": "209",
+              "categoryRateMonthly": "10.02",
+              "categoryRateQuaterly": "5.17",
+              "categoryRateHalfYearly": "5.23",
+              "categoryRateAnnually": "5.14",
+              "categoryRateMaturity": "5.23"
+            },
+            {
+              "daysFrom": "210",
+              "daysTo": "239",
+              "categoryRateMonthly": "8.76",
+              "categoryRateQuaterly": "5.07",
+              "categoryRateHalfYearly": "5.13",
+              "categoryRateAnnually": "5.04",
+              "categoryRateMaturity": "5.15"
+            },
+            {
+              "daysFrom": "240",
+              "daysTo": "269",
+              "categoryRateMonthly": "8.96",
+              "categoryRateQuaterly": "5.12",
+              "categoryRateHalfYearly": "5.18",
+              "categoryRateAnnually": "5.09",
+              "categoryRateMaturity": "5.21"
+            },
+            {
+              "daysFrom": "270",
+              "daysTo": "299",
+              "categoryRateMonthly": "9.46",
+              "categoryRateQuaterly": "5.17",
+              "categoryRateHalfYearly": "5.23",
+              "categoryRateAnnually": "5.14",
+              "categoryRateMaturity": "5.28"
+            },
+            {
+              "daysFrom": "300",
+              "daysTo": "329",
+              "categoryRateMonthly": "9.66",
+              "categoryRateQuaterly": "5.22",
+              "categoryRateHalfYearly": "5.28",
+              "categoryRateAnnually": "5.19",
+              "categoryRateMaturity": "5.35"
+            },
+            {
+              "daysFrom": "330",
+              "daysTo": "364",
+              "categoryRateMonthly": "9.66",
+              "categoryRateQuaterly": "5.27",
+              "categoryRateHalfYearly": "5.33",
+              "categoryRateAnnually": "5.24",
+              "categoryRateMaturity": "5.42"
+            },
+            {
+              "daysFrom": "365",
+              "daysTo": "394",
+              "categoryRateMonthly": "11.1",
+              "categoryRateQuaterly": "5.78",
+              "categoryRateHalfYearly": "5.84",
+              "categoryRateAnnually": "5.97",
+              "categoryRateMaturity": "5.97"
+            },
+            {
+              "daysFrom": "395",
+              "daysTo": "544",
+              "categoryRateMonthly": "5.78",
+              "categoryRateQuaterly": "5.84",
+              "categoryRateHalfYearly": "5.97",
+              "categoryRateAnnually": "5.97",
+              "categoryRateMaturity": "5.97"
+            },
+            {
+              "daysFrom": "545",
+              "daysTo": "577",
+              "categoryRateMonthly": "5.78",
+              "categoryRateQuaterly": "5.84",
+              "categoryRateHalfYearly": "5.97",
+              "categoryRateAnnually": "5.97",
+              "categoryRateMaturity": "5.97"
+            },
+            {
+              "daysFrom": "578",
+              "daysTo": "729",
+              "categoryRateMonthly": "5.78",
+              "categoryRateQuaterly": "5.84",
+              "categoryRateHalfYearly": "5.97",
+              "categoryRateAnnually": "5.97",
+              "categoryRateMaturity": "5.97"
+            },
+            {
+              "daysFrom": "730",
+              "daysTo": "759",
+              "categoryRateMonthly": "5.78",
+              "categoryRateQuaterly": "5.84",
+              "categoryRateHalfYearly": "5.99",
+              "categoryRateAnnually": "5.99",
+              "categoryRateMaturity": "5.99"
+            },
+            {
+              "daysFrom": "760",
+              "daysTo": "1094",
+              "categoryRateMonthly": "9.0",
+              "categoryRateQuaterly": "5.28",
+              "categoryRateHalfYearly": "5.34",
+              "categoryRateAnnually": "5.49",
+              "categoryRateMaturity": "5.49"
+            },
+            {
+              "daysFrom": "1095",
+              "daysTo": "1124",
+              "categoryRateMonthly": "5.28",
+              "categoryRateQuaterly": "5.34",
+              "categoryRateHalfYearly": "5.5",
+              "categoryRateAnnually": "5.5",
+              "categoryRateMaturity": "5.5"
+            },
+            {
+              "daysFrom": "1125",
+              "daysTo": "1459",
+              "categoryRateMonthly": "11.98",
+              "categoryRateQuaterly": "6.17",
+              "categoryRateHalfYearly": "6.23",
+              "categoryRateAnnually": "6.39",
+              "categoryRateMaturity": "6.39"
+            },
+            {
+              "daysFrom": "1460",
+              "daysTo": "1825",
+              "categoryRateMonthly": "6.17",
+              "categoryRateQuaterly": "6.23",
+              "categoryRateHalfYearly": "6.4",
+              "categoryRateAnnually": "6.4",
+              "categoryRateMaturity": "6.4"
+            },
+            {
+              "daysFrom": "1826",
+              "daysTo": "1857",
+              "categoryRateMonthly": "6.17",
+              "categoryRateQuaterly": "6.23",
+              "categoryRateHalfYearly": "6.4",
+              "categoryRateAnnually": "6.4",
+              "categoryRateMaturity": "6.4"
+            }
+          ]
+        },
+        {
+          "fromBalance": null,
+          "toBalance": null,
+          "rate": null,
+          "termDepositAmountRangeMin": "R250000-R499999",
+          "termDepositAmountRangeMax": "R500000-R999999",
+          "termDepositAmountRangeMinInterestTable": [
+            {
+              "daysFrom": "8",
+              "daysTo": "31",
+              "categoryRateMonthly": "4.73",
+              "categoryRateQuaterly": "4.72",
+              "categoryRateHalfYearly": "4.72",
+              "categoryRateAnnually": "4.72",
+              "categoryRateMaturity": "4.72"
+            },
+            {
+              "daysFrom": "32",
+              "daysTo": "59",
+              "categoryRateMonthly": "4.72",
+              "categoryRateQuaterly": "4.72",
+              "categoryRateHalfYearly": "4.72",
+              "categoryRateAnnually": "4.72",
+              "categoryRateMaturity": "4.72"
+            },
+            {
+              "daysFrom": "60",
+              "daysTo": "89",
+              "categoryRateMonthly": "4.72",
+              "categoryRateQuaterly": "4.72",
+              "categoryRateHalfYearly": "4.72",
+              "categoryRateAnnually": "4.72",
+              "categoryRateMaturity": "4.73"
+            },
+            {
+              "daysFrom": "90",
+              "daysTo": "119",
+              "categoryRateMonthly": "4.75",
+              "categoryRateQuaterly": "4.72",
+              "categoryRateHalfYearly": "4.72",
+              "categoryRateAnnually": "4.72",
+              "categoryRateMaturity": "4.75"
+            },
+            {
+              "daysFrom": "120",
+              "daysTo": "149",
+              "categoryRateMonthly": "4.75",
+              "categoryRateQuaterly": "4.72",
+              "categoryRateHalfYearly": "4.72",
+              "categoryRateAnnually": "4.72",
+              "categoryRateMaturity": "4.77"
+            },
+            {
+              "daysFrom": "150",
+              "daysTo": "179",
+              "categoryRateMonthly": "4.75",
+              "categoryRateQuaterly": "4.72",
+              "categoryRateHalfYearly": "4.72",
+              "categoryRateAnnually": "4.72",
+              "categoryRateMaturity": "4.78"
+            },
+            {
+              "daysFrom": "180",
+              "daysTo": "209",
+              "categoryRateMonthly": "10.04",
+              "categoryRateQuaterly": "5.19",
+              "categoryRateHalfYearly": "5.25",
+              "categoryRateAnnually": "5.16",
+              "categoryRateMaturity": "5.25"
+            },
+            {
+              "daysFrom": "210",
+              "daysTo": "239",
+              "categoryRateMonthly": "8.77",
+              "categoryRateQuaterly": "5.08",
+              "categoryRateHalfYearly": "5.14",
+              "categoryRateAnnually": "5.05",
+              "categoryRateMaturity": "5.16"
+            },
+            {
+              "daysFrom": "240",
+              "daysTo": "269",
+              "categoryRateMonthly": "8.97",
+              "categoryRateQuaterly": "5.13",
+              "categoryRateHalfYearly": "5.19",
+              "categoryRateAnnually": "5.1",
+              "categoryRateMaturity": "5.22"
+            },
+            {
+              "daysFrom": "270",
+              "daysTo": "299",
+              "categoryRateMonthly": "9.47",
+              "categoryRateQuaterly": "5.18",
+              "categoryRateHalfYearly": "5.24",
+              "categoryRateAnnually": "5.15",
+              "categoryRateMaturity": "5.29"
+            },
+            {
+              "daysFrom": "300",
+              "daysTo": "329",
+              "categoryRateMonthly": "9.67",
+              "categoryRateQuaterly": "5.23",
+              "categoryRateHalfYearly": "5.29",
+              "categoryRateAnnually": "5.2",
+              "categoryRateMaturity": "5.36"
+            },
+            {
+              "daysFrom": "330",
+              "daysTo": "364",
+              "categoryRateMonthly": "9.67",
+              "categoryRateQuaterly": "5.28",
+              "categoryRateHalfYearly": "5.34",
+              "categoryRateAnnually": "5.25",
+              "categoryRateMaturity": "5.43"
+            },
+            {
+              "daysFrom": "365",
+              "daysTo": "394",
+              "categoryRateMonthly": "11.35",
+              "categoryRateQuaterly": "6.03",
+              "categoryRateHalfYearly": "6.09",
+              "categoryRateAnnually": "6.22",
+              "categoryRateMaturity": "6.22"
+            },
+            {
+              "daysFrom": "395",
+              "daysTo": "544",
+              "categoryRateMonthly": "6.03",
+              "categoryRateQuaterly": "6.09",
+              "categoryRateHalfYearly": "6.22",
+              "categoryRateAnnually": "6.22",
+              "categoryRateMaturity": "6.22"
+            },
+            {
+              "daysFrom": "545",
+              "daysTo": "577",
+              "categoryRateMonthly": "6.03",
+              "categoryRateQuaterly": "6.09",
+              "categoryRateHalfYearly": "6.22",
+              "categoryRateAnnually": "6.22",
+              "categoryRateMaturity": "6.22"
+            },
+            {
+              "daysFrom": "578",
+              "daysTo": "729",
+              "categoryRateMonthly": "6.03",
+              "categoryRateQuaterly": "6.09",
+              "categoryRateHalfYearly": "6.22",
+              "categoryRateAnnually": "6.22",
+              "categoryRateMaturity": "6.22"
+            },
+            {
+              "daysFrom": "730",
+              "daysTo": "759",
+              "categoryRateMonthly": "6.03",
+              "categoryRateQuaterly": "6.09",
+              "categoryRateHalfYearly": "6.24",
+              "categoryRateAnnually": "6.24",
+              "categoryRateMaturity": "6.24"
+            },
+            {
+              "daysFrom": "760",
+              "daysTo": "1094",
+              "categoryRateMonthly": "9.05",
+              "categoryRateQuaterly": "5.33",
+              "categoryRateHalfYearly": "5.39",
+              "categoryRateAnnually": "5.54",
+              "categoryRateMaturity": "5.54"
+            },
+            {
+              "daysFrom": "1095",
+              "daysTo": "1124",
+              "categoryRateMonthly": "5.33",
+              "categoryRateQuaterly": "5.39",
+              "categoryRateHalfYearly": "5.55",
+              "categoryRateAnnually": "5.55",
+              "categoryRateMaturity": "5.55"
+            },
+            {
+              "daysFrom": "1125",
+              "daysTo": "1459",
+              "categoryRateMonthly": "11.98",
+              "categoryRateQuaterly": "6.17",
+              "categoryRateHalfYearly": "6.23",
+              "categoryRateAnnually": "6.39",
+              "categoryRateMaturity": "6.39"
+            },
+            {
+              "daysFrom": "1460",
+              "daysTo": "1825",
+              "categoryRateMonthly": "6.17",
+              "categoryRateQuaterly": "6.23",
+              "categoryRateHalfYearly": "6.4",
+              "categoryRateAnnually": "6.4",
+              "categoryRateMaturity": "6.4"
+            },
+            {
+              "daysFrom": "1826",
+              "daysTo": "1857",
+              "categoryRateMonthly": "6.17",
+              "categoryRateQuaterly": "6.23",
+              "categoryRateHalfYearly": "6.4",
+              "categoryRateAnnually": "6.4",
+              "categoryRateMaturity": "6.4"
+            }
+          ],
+          "termDepositAmountRangeMaxInterestTable": [
+            {
+              "daysFrom": "8",
+              "daysTo": "31",
+              "categoryRateMonthly": "4.77",
+              "categoryRateQuaterly": "4.76",
+              "categoryRateHalfYearly": "4.76",
+              "categoryRateAnnually": "4.76",
+              "categoryRateMaturity": "4.76"
+            },
+            {
+              "daysFrom": "32",
+              "daysTo": "59",
+              "categoryRateMonthly": "4.76",
+              "categoryRateQuaterly": "4.76",
+              "categoryRateHalfYearly": "4.76",
+              "categoryRateAnnually": "4.76",
+              "categoryRateMaturity": "4.76"
+            },
+            {
+              "daysFrom": "60",
+              "daysTo": "89",
+              "categoryRateMonthly": "4.76",
+              "categoryRateQuaterly": "4.76",
+              "categoryRateHalfYearly": "4.76",
+              "categoryRateAnnually": "4.76",
+              "categoryRateMaturity": "4.77"
+            },
+            {
+              "daysFrom": "90",
+              "daysTo": "119",
+              "categoryRateMonthly": "4.79",
+              "categoryRateQuaterly": "4.76",
+              "categoryRateHalfYearly": "4.76",
+              "categoryRateAnnually": "4.76",
+              "categoryRateMaturity": "4.79"
+            },
+            {
+              "daysFrom": "120",
+              "daysTo": "149",
+              "categoryRateMonthly": "4.79",
+              "categoryRateQuaterly": "4.76",
+              "categoryRateHalfYearly": "4.76",
+              "categoryRateAnnually": "4.76",
+              "categoryRateMaturity": "4.81"
+            },
+            {
+              "daysFrom": "150",
+              "daysTo": "179",
+              "categoryRateMonthly": "4.79",
+              "categoryRateQuaterly": "4.76",
+              "categoryRateHalfYearly": "4.76",
+              "categoryRateAnnually": "4.76",
+              "categoryRateMaturity": "4.82"
+            },
+            {
+              "daysFrom": "180",
+              "daysTo": "209",
+              "categoryRateMonthly": "10.04",
+              "categoryRateQuaterly": "5.19",
+              "categoryRateHalfYearly": "5.25",
+              "categoryRateAnnually": "5.16",
+              "categoryRateMaturity": "5.25"
+            },
+            {
+              "daysFrom": "210",
+              "daysTo": "239",
+              "categoryRateMonthly": "8.81",
+              "categoryRateQuaterly": "5.12",
+              "categoryRateHalfYearly": "5.18",
+              "categoryRateAnnually": "5.09",
+              "categoryRateMaturity": "5.2"
+            },
+            {
+              "daysFrom": "240",
+              "daysTo": "269",
+              "categoryRateMonthly": "9.01",
+              "categoryRateQuaterly": "5.17",
+              "categoryRateHalfYearly": "5.23",
+              "categoryRateAnnually": "5.14",
+              "categoryRateMaturity": "5.26"
+            },
+            {
+              "daysFrom": "270",
+              "daysTo": "299",
+              "categoryRateMonthly": "9.51",
+              "categoryRateQuaterly": "5.22",
+              "categoryRateHalfYearly": "5.28",
+              "categoryRateAnnually": "5.19",
+              "categoryRateMaturity": "5.33"
+            },
+            {
+              "daysFrom": "300",
+              "daysTo": "329",
+              "categoryRateMonthly": "9.71",
+              "categoryRateQuaterly": "5.27",
+              "categoryRateHalfYearly": "5.33",
+              "categoryRateAnnually": "5.24",
+              "categoryRateMaturity": "5.4"
+            },
+            {
+              "daysFrom": "330",
+              "daysTo": "364",
+              "categoryRateMonthly": "9.71",
+              "categoryRateQuaterly": "5.32",
+              "categoryRateHalfYearly": "5.38",
+              "categoryRateAnnually": "5.29",
+              "categoryRateMaturity": "5.47"
+            },
+            {
+              "daysFrom": "365",
+              "daysTo": "394",
+              "categoryRateMonthly": "11.6",
+              "categoryRateQuaterly": "6.28",
+              "categoryRateHalfYearly": "6.34",
+              "categoryRateAnnually": "6.47",
+              "categoryRateMaturity": "6.47"
+            },
+            {
+              "daysFrom": "395",
+              "daysTo": "544",
+              "categoryRateMonthly": "6.28",
+              "categoryRateQuaterly": "6.34",
+              "categoryRateHalfYearly": "6.47",
+              "categoryRateAnnually": "6.47",
+              "categoryRateMaturity": "6.47"
+            },
+            {
+              "daysFrom": "545",
+              "daysTo": "577",
+              "categoryRateMonthly": "6.28",
+              "categoryRateQuaterly": "6.34",
+              "categoryRateHalfYearly": "6.47",
+              "categoryRateAnnually": "6.47",
+              "categoryRateMaturity": "6.47"
+            },
+            {
+              "daysFrom": "578",
+              "daysTo": "729",
+              "categoryRateMonthly": "6.28",
+              "categoryRateQuaterly": "6.34",
+              "categoryRateHalfYearly": "6.47",
+              "categoryRateAnnually": "6.47",
+              "categoryRateMaturity": "6.47"
+            },
+            {
+              "daysFrom": "730",
+              "daysTo": "759",
+              "categoryRateMonthly": "6.28",
+              "categoryRateQuaterly": "6.34",
+              "categoryRateHalfYearly": "6.49",
+              "categoryRateAnnually": "6.49",
+              "categoryRateMaturity": "6.49"
+            },
+            {
+              "daysFrom": "760",
+              "daysTo": "1094",
+              "categoryRateMonthly": "9.1",
+              "categoryRateQuaterly": "5.38",
+              "categoryRateHalfYearly": "5.44",
+              "categoryRateAnnually": "5.59",
+              "categoryRateMaturity": "5.59"
+            },
+            {
+              "daysFrom": "1095",
+              "daysTo": "1124",
+              "categoryRateMonthly": "5.38",
+              "categoryRateQuaterly": "5.44",
+              "categoryRateHalfYearly": "5.6",
+              "categoryRateAnnually": "5.6",
+              "categoryRateMaturity": "5.6"
+            },
+            {
+              "daysFrom": "1125",
+              "daysTo": "1459",
+              "categoryRateMonthly": "11.98",
+              "categoryRateQuaterly": "6.17",
+              "categoryRateHalfYearly": "6.23",
+              "categoryRateAnnually": "6.39",
+              "categoryRateMaturity": "6.39"
+            },
+            {
+              "daysFrom": "1460",
+              "daysTo": "1825",
+              "categoryRateMonthly": "6.17",
+              "categoryRateQuaterly": "6.23",
+              "categoryRateHalfYearly": "6.4",
+              "categoryRateAnnually": "6.4",
+              "categoryRateMaturity": "6.4"
+            },
+            {
+              "daysFrom": "1826",
+              "daysTo": "1857",
+              "categoryRateMonthly": "6.17",
+              "categoryRateQuaterly": "6.23",
+              "categoryRateHalfYearly": "6.4",
+              "categoryRateAnnually": "6.4",
+              "categoryRateMaturity": "6.4"
+            }
+          ]
+        },
+        {
+          "fromBalance": null,
+          "toBalance": null,
+          "rate": null,
+          "termDepositAmountRangeMin": "R1000000-R14999999",
+          "termDepositAmountRangeMax": "R15000000-R9999999999",
+          "termDepositAmountRangeMinInterestTable": [
+            {
+              "daysFrom": "8",
+              "daysTo": "31",
+              "categoryRateMonthly": "4.85",
+              "categoryRateQuaterly": "4.84",
+              "categoryRateHalfYearly": "4.84",
+              "categoryRateAnnually": "4.84",
+              "categoryRateMaturity": "4.84"
+            },
+            {
+              "daysFrom": "32",
+              "daysTo": "59",
+              "categoryRateMonthly": "4.84",
+              "categoryRateQuaterly": "4.84",
+              "categoryRateHalfYearly": "4.84",
+              "categoryRateAnnually": "4.84",
+              "categoryRateMaturity": "4.84"
+            },
+            {
+              "daysFrom": "60",
+              "daysTo": "89",
+              "categoryRateMonthly": "4.84",
+              "categoryRateQuaterly": "4.84",
+              "categoryRateHalfYearly": "4.84",
+              "categoryRateAnnually": "4.84",
+              "categoryRateMaturity": "4.85"
+            },
+            {
+              "daysFrom": "90",
+              "daysTo": "119",
+              "categoryRateMonthly": "4.87",
+              "categoryRateQuaterly": "4.84",
+              "categoryRateHalfYearly": "4.84",
+              "categoryRateAnnually": "4.84",
+              "categoryRateMaturity": "4.87"
+            },
+            {
+              "daysFrom": "120",
+              "daysTo": "149",
+              "categoryRateMonthly": "4.87",
+              "categoryRateQuaterly": "4.84",
+              "categoryRateHalfYearly": "4.84",
+              "categoryRateAnnually": "4.84",
+              "categoryRateMaturity": "4.89"
+            },
+            {
+              "daysFrom": "150",
+              "daysTo": "179",
+              "categoryRateMonthly": "4.87",
+              "categoryRateQuaterly": "4.84",
+              "categoryRateHalfYearly": "4.84",
+              "categoryRateAnnually": "4.84",
+              "categoryRateMaturity": "4.9"
+            },
+            {
+              "daysFrom": "180",
+              "daysTo": "209",
+              "categoryRateMonthly": "10.08",
+              "categoryRateQuaterly": "5.23",
+              "categoryRateHalfYearly": "5.29",
+              "categoryRateAnnually": "5.2",
+              "categoryRateMaturity": "5.29"
+            },
+            {
+              "daysFrom": "210",
+              "daysTo": "239",
+              "categoryRateMonthly": "8.82",
+              "categoryRateQuaterly": "5.13",
+              "categoryRateHalfYearly": "5.19",
+              "categoryRateAnnually": "5.1",
+              "categoryRateMaturity": "5.21"
+            },
+            {
+              "daysFrom": "240",
+              "daysTo": "269",
+              "categoryRateMonthly": "9.02",
+              "categoryRateQuaterly": "5.18",
+              "categoryRateHalfYearly": "5.24",
+              "categoryRateAnnually": "5.15",
+              "categoryRateMaturity": "5.27"
+            },
+            {
+              "daysFrom": "270",
+              "daysTo": "299",
+              "categoryRateMonthly": "9.52",
+              "categoryRateQuaterly": "5.23",
+              "categoryRateHalfYearly": "5.29",
+              "categoryRateAnnually": "5.2",
+              "categoryRateMaturity": "5.34"
+            },
+            {
+              "daysFrom": "300",
+              "daysTo": "329",
+              "categoryRateMonthly": "9.72",
+              "categoryRateQuaterly": "5.28",
+              "categoryRateHalfYearly": "5.34",
+              "categoryRateAnnually": "5.25",
+              "categoryRateMaturity": "5.41"
+            },
+            {
+              "daysFrom": "330",
+              "daysTo": "364",
+              "categoryRateMonthly": "9.72",
+              "categoryRateQuaterly": "5.33",
+              "categoryRateHalfYearly": "5.39",
+              "categoryRateAnnually": "5.3",
+              "categoryRateMaturity": "5.48"
+            },
+            {
+              "daysFrom": "365",
+              "daysTo": "394",
+              "categoryRateMonthly": "11.85",
+              "categoryRateQuaterly": "6.53",
+              "categoryRateHalfYearly": "6.59",
+              "categoryRateAnnually": "6.72",
+              "categoryRateMaturity": "6.72"
+            },
+            {
+              "daysFrom": "395",
+              "daysTo": "544",
+              "categoryRateMonthly": "6.53",
+              "categoryRateQuaterly": "6.59",
+              "categoryRateHalfYearly": "6.72",
+              "categoryRateAnnually": "6.72",
+              "categoryRateMaturity": "6.72"
+            },
+            {
+              "daysFrom": "545",
+              "daysTo": "577",
+              "categoryRateMonthly": "6.53",
+              "categoryRateQuaterly": "6.59",
+              "categoryRateHalfYearly": "6.72",
+              "categoryRateAnnually": "6.72",
+              "categoryRateMaturity": "6.72"
+            },
+            {
+              "daysFrom": "578",
+              "daysTo": "729",
+              "categoryRateMonthly": "6.53",
+              "categoryRateQuaterly": "6.59",
+              "categoryRateHalfYearly": "6.72",
+              "categoryRateAnnually": "6.72",
+              "categoryRateMaturity": "6.72"
+            },
+            {
+              "daysFrom": "730",
+              "daysTo": "759",
+              "categoryRateMonthly": "6.53",
+              "categoryRateQuaterly": "6.59",
+              "categoryRateHalfYearly": "6.74",
+              "categoryRateAnnually": "6.74",
+              "categoryRateMaturity": "6.74"
+            },
+            {
+              "daysFrom": "760",
+              "daysTo": "1094",
+              "categoryRateMonthly": "9.23",
+              "categoryRateQuaterly": "5.51",
+              "categoryRateHalfYearly": "5.57",
+              "categoryRateAnnually": "5.72",
+              "categoryRateMaturity": "5.72"
+            },
+            {
+              "daysFrom": "1095",
+              "daysTo": "1124",
+              "categoryRateMonthly": "5.51",
+              "categoryRateQuaterly": "5.57",
+              "categoryRateHalfYearly": "5.73",
+              "categoryRateAnnually": "5.73",
+              "categoryRateMaturity": "5.73"
+            },
+            {
+              "daysFrom": "1125",
+              "daysTo": "1459",
+              "categoryRateMonthly": "11.98",
+              "categoryRateQuaterly": "6.17",
+              "categoryRateHalfYearly": "6.23",
+              "categoryRateAnnually": "6.39",
+              "categoryRateMaturity": "6.39"
+            },
+            {
+              "daysFrom": "1460",
+              "daysTo": "1825",
+              "categoryRateMonthly": "6.17",
+              "categoryRateQuaterly": "6.23",
+              "categoryRateHalfYearly": "6.4",
+              "categoryRateAnnually": "6.4",
+              "categoryRateMaturity": "6.4"
+            },
+            {
+              "daysFrom": "1826",
+              "daysTo": "1857",
+              "categoryRateMonthly": "6.17",
+              "categoryRateQuaterly": "6.23",
+              "categoryRateHalfYearly": "6.4",
+              "categoryRateAnnually": "6.4",
+              "categoryRateMaturity": "6.4"
+            }
+          ],
+          "termDepositAmountRangeMaxInterestTable": [
+            {
+              "daysFrom": "8",
+              "daysTo": "31",
+              "categoryRateMonthly": "4.85",
+              "categoryRateQuaterly": "4.84",
+              "categoryRateHalfYearly": "4.84",
+              "categoryRateAnnually": "4.84",
+              "categoryRateMaturity": "4.84"
+            },
+            {
+              "daysFrom": "32",
+              "daysTo": "59",
+              "categoryRateMonthly": "4.84",
+              "categoryRateQuaterly": "4.84",
+              "categoryRateHalfYearly": "4.84",
+              "categoryRateAnnually": "4.84",
+              "categoryRateMaturity": "4.84"
+            },
+            {
+              "daysFrom": "60",
+              "daysTo": "89",
+              "categoryRateMonthly": "4.84",
+              "categoryRateQuaterly": "4.84",
+              "categoryRateHalfYearly": "4.84",
+              "categoryRateAnnually": "4.84",
+              "categoryRateMaturity": "4.85"
+            },
+            {
+              "daysFrom": "90",
+              "daysTo": "119",
+              "categoryRateMonthly": "4.87",
+              "categoryRateQuaterly": "4.84",
+              "categoryRateHalfYearly": "4.84",
+              "categoryRateAnnually": "4.84",
+              "categoryRateMaturity": "4.87"
+            },
+            {
+              "daysFrom": "120",
+              "daysTo": "149",
+              "categoryRateMonthly": "4.87",
+              "categoryRateQuaterly": "4.84",
+              "categoryRateHalfYearly": "4.84",
+              "categoryRateAnnually": "4.84",
+              "categoryRateMaturity": "4.89"
+            },
+            {
+              "daysFrom": "150",
+              "daysTo": "179",
+              "categoryRateMonthly": "4.87",
+              "categoryRateQuaterly": "4.84",
+              "categoryRateHalfYearly": "4.84",
+              "categoryRateAnnually": "4.84",
+              "categoryRateMaturity": "4.9"
+            },
+            {
+              "daysFrom": "180",
+              "daysTo": "209",
+              "categoryRateMonthly": "10.14",
+              "categoryRateQuaterly": "5.29",
+              "categoryRateHalfYearly": "5.35",
+              "categoryRateAnnually": "5.26",
+              "categoryRateMaturity": "5.35"
+            },
+            {
+              "daysFrom": "210",
+              "daysTo": "239",
+              "categoryRateMonthly": "8.82",
+              "categoryRateQuaterly": "5.13",
+              "categoryRateHalfYearly": "5.19",
+              "categoryRateAnnually": "5.1",
+              "categoryRateMaturity": "5.21"
+            },
+            {
+              "daysFrom": "240",
+              "daysTo": "269",
+              "categoryRateMonthly": "9.02",
+              "categoryRateQuaterly": "5.18",
+              "categoryRateHalfYearly": "5.24",
+              "categoryRateAnnually": "5.15",
+              "categoryRateMaturity": "5.27"
+            },
+            {
+              "daysFrom": "270",
+              "daysTo": "299",
+              "categoryRateMonthly": "9.52",
+              "categoryRateQuaterly": "5.23",
+              "categoryRateHalfYearly": "5.29",
+              "categoryRateAnnually": "5.2",
+              "categoryRateMaturity": "5.34"
+            },
+            {
+              "daysFrom": "300",
+              "daysTo": "329",
+              "categoryRateMonthly": "9.72",
+              "categoryRateQuaterly": "5.28",
+              "categoryRateHalfYearly": "5.34",
+              "categoryRateAnnually": "5.25",
+              "categoryRateMaturity": "5.41"
+            },
+            {
+              "daysFrom": "330",
+              "daysTo": "364",
+              "categoryRateMonthly": "9.72",
+              "categoryRateQuaterly": "5.33",
+              "categoryRateHalfYearly": "5.39",
+              "categoryRateAnnually": "5.3",
+              "categoryRateMaturity": "5.48"
+            },
+            {
+              "daysFrom": "365",
+              "daysTo": "394",
+              "categoryRateMonthly": "12.35",
+              "categoryRateQuaterly": "7.03",
+              "categoryRateHalfYearly": "7.09",
+              "categoryRateAnnually": "7.22",
+              "categoryRateMaturity": "7.22"
+            },
+            {
+              "daysFrom": "395",
+              "daysTo": "544",
+              "categoryRateMonthly": "7.03",
+              "categoryRateQuaterly": "7.09",
+              "categoryRateHalfYearly": "7.22",
+              "categoryRateAnnually": "7.22",
+              "categoryRateMaturity": "7.22"
+            },
+            {
+              "daysFrom": "545",
+              "daysTo": "577",
+              "categoryRateMonthly": "7.03",
+              "categoryRateQuaterly": "7.09",
+              "categoryRateHalfYearly": "7.22",
+              "categoryRateAnnually": "7.22",
+              "categoryRateMaturity": "7.22"
+            },
+            {
+              "daysFrom": "578",
+              "daysTo": "729",
+              "categoryRateMonthly": "7.03",
+              "categoryRateQuaterly": "7.09",
+              "categoryRateHalfYearly": "7.22",
+              "categoryRateAnnually": "7.22",
+              "categoryRateMaturity": "7.22"
+            },
+            {
+              "daysFrom": "730",
+              "daysTo": "759",
+              "categoryRateMonthly": "7.03",
+              "categoryRateQuaterly": "7.09",
+              "categoryRateHalfYearly": "7.24",
+              "categoryRateAnnually": "7.24",
+              "categoryRateMaturity": "7.24"
+            },
+            {
+              "daysFrom": "760",
+              "daysTo": "1094",
+              "categoryRateMonthly": "9.23",
+              "categoryRateQuaterly": "5.51",
+              "categoryRateHalfYearly": "5.57",
+              "categoryRateAnnually": "5.72",
+              "categoryRateMaturity": "5.72"
+            },
+            {
+              "daysFrom": "1095",
+              "daysTo": "1124",
+              "categoryRateMonthly": "5.51",
+              "categoryRateQuaterly": "5.57",
+              "categoryRateHalfYearly": "5.73",
+              "categoryRateAnnually": "5.73",
+              "categoryRateMaturity": "5.73"
+            },
+            {
+              "daysFrom": "1125",
+              "daysTo": "1459",
+              "categoryRateMonthly": "11.98",
+              "categoryRateQuaterly": "6.17",
+              "categoryRateHalfYearly": "6.23",
+              "categoryRateAnnually": "6.39",
+              "categoryRateMaturity": "6.39"
+            },
+            {
+              "daysFrom": "1460",
+              "daysTo": "1825",
+              "categoryRateMonthly": "6.17",
+              "categoryRateQuaterly": "6.23",
+              "categoryRateHalfYearly": "6.4",
+              "categoryRateAnnually": "6.4",
+              "categoryRateMaturity": "6.4"
+            },
+            {
+              "daysFrom": "1826",
+              "daysTo": "1857",
+              "categoryRateMonthly": "6.17",
+              "categoryRateQuaterly": "6.23",
+              "categoryRateHalfYearly": "6.4",
+              "categoryRateAnnually": "6.4",
+              "categoryRateMaturity": "6.4"
+            }
+          ]
+        }
+      ],
+      "checksum": "D9C0F55F245F0E7CFFA48054598DFD0D",
+      "txnStatus": "Success",
+      "txnMessage": "Success"
+    }
+  }
+}

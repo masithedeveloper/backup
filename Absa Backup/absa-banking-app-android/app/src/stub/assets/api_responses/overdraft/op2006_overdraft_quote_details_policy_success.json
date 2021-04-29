@@ -1,0 +1,32 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES2006",
+      "resCde": "00000",
+      "resMsg": "Success",
+      "serVer": "2.0",
+      "expTrace": null
+    },
+    "payData": {
+      "respDTO": {
+        "qmsDTO": {
+          "odAmount": "7000",
+          "quoteRefNumber": "68817",
+          "systemDecision": "S",
+          "recommendedOdDesc": "FIXED",
+          "systemResult": "PRE APPROVED",
+          "rejectReason": "A",
+          "storageReference": null,
+          "quoteStatus": true,
+          "quote": null,
+          "applicationReferenceNumber": "42001272026",
+          "productCode": "11032",
+          "accountNumber": null,
+          "accountName": null
+        }
+      },
+      "txnStatus": "Success",
+      "txnMessage": "Success"
+    }
+  }
+}

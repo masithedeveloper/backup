@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            style="@style/ScrollView"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toTopOf="@+id/clButtonLayout"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/contentConstraintLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:animateLayoutChanges="true"
+                android:paddingBottom="@dimen/medium_space">
+
+                <androidx.constraintlayout.widget.Guideline
+                    android:id="@+id/topGuideline"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:orientation="horizontal"
+                    app:layout_constraintGuide_percent="0.14" />
+
+                <include
+                    android:id="@+id/resultImageView"
+                    layout="@layout/generic_result_image_view" />
+
+                <TextView
+                    android:id="@+id/noticeMessageTextView"
+                    style="@style/TitleTextBoldDark"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/medium_space"
+                    android:layout_marginTop="@dimen/normal_space"
+                    android:layout_marginEnd="@dimen/medium_space"
+                    android:gravity="center"
+                    tools:text="@string/is_surecheck_device_available"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/resultImageView" />
+
+                <TextView
+                    android:id="@+id/subMessageTextView"
+                    style="@style/LargeTextRegularDark"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/medium_space"
+                    android:layout_marginTop="@dimen/normal_space"
+                    android:layout_marginEnd="@dimen/medium_space"
+                    android:gravity="center"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/noticeMessageTextView"
+                    tools:text="Here may be more description" />
+
+
+                <TextView
+                    android:id="@+id/bottomMessageTextView"
+                    style="@style/NormalTextRegularDark"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/medium_space"
+                    android:layout_marginTop="@dimen/normal_space"
+                    android:layout_marginEnd="@dimen/medium_space"
+                    android:gravity="center"
+                    android:text="@string/logging_you_in"
+                    android:visibility="gone"
+                    app:layout_constraintVertical_bias="1"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/subMessageTextView" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </ScrollView>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/clButtonLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/medium_space"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <styleguide.buttons.Button
+                android:id="@+id/topActionButton"
+                style="@style/SecondaryButton"
+                android:layout_width="0dp"
+                android:contentDescription="@string/yes"
+                android:text="@string/yes"
+                app:layout_constraintBottom_toTopOf="@+id/bottomActionButton"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <styleguide.buttons.Button
+                android:id="@+id/bottomActionButton"
+                style="@style/PrimaryButton"
+                android:layout_width="0dp"
+                android:layout_marginTop="@dimen/small_space"
+                android:contentDescription="@string/no"
+                android:text="@string/no"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <styleguide.buttons.Button
+                android:id="@+id/bottomActionButtonSecondary"
+                style="@style/SecondaryButton"
+                android:layout_width="0dp"
+                android:layout_marginTop="@dimen/small_space"
+                android:contentDescription="@string/no"
+                android:text="@string/no"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

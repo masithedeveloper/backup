@@ -1,0 +1,165 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    style="@style/ScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/cellphoneNormalInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:digits="0123456789 "
+            android:inputType="number"
+            app:attribute_mask="### ### ####"
+            app:attribute_title_text="@string/manage_profile_overview_cellphone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/homePhoneNormalInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:digits="0123456789 "
+            android:inputType="number"
+            app:attribute_mask="### ### ####"
+            app:attribute_title_text="@string/manage_profile_overview_home_phone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cellphoneNormalInputView" />
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/homeFaxNormalInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:digits="0123456789 "
+            android:inputType="number"
+            android:visibility="gone"
+            app:attribute_mask="### ### ####"
+            app:attribute_title_text="@string/manage_profile_contact_details_overview_home_fax_optional_label"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/homePhoneNormalInputView" />
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/emailAddressNormalInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:maxLength="40"
+            app:attribute_title_text="@string/manage_profile_overview_email_address"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/homeFaxNormalInputView" />
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/preferredCommunicationNormalInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_selector_type="LONG_LIST"
+            app:attribute_title_text="@string/manage_profile_contact_details_overview_preferred_communication_method_label"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/emailAddressNormalInputView" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/postalAddressConstraintLayout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/preferredCommunicationNormalInputView">
+
+            <styleguide.content.HeadingAndActionView
+                android:id="@+id/postalAddressHeadingAndActionView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/small_space"
+                app:attribute_primary_action_color="@color/pink"
+                app:attribute_primary_action_text="@string/manage_profile_overview_edit_action"
+                app:attribute_primary_label_text="@string/manage_profile_address_details_overview_postal_address_title"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:attribute_primary_content="Wow" />
+
+            <TextView
+                android:id="@+id/addressLine1TextView"
+                style="@style/LargeTextRegularDark"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/medium_space"
+                android:layout_marginTop="@dimen/small_space"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/postalAddressHeadingAndActionView"
+                tools:text="6007 Candia" />
+
+            <TextView
+                android:id="@+id/addressLine2TextView"
+                style="@style/LargeTextRegularDark"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/medium_space"
+                android:layout_marginTop="@dimen/small_space"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/addressLine1TextView"
+                tools:text="6007 Candia street" />
+
+            <TextView
+                android:id="@+id/suburbTextView"
+                style="@style/LargeTextRegularDark"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/medium_space"
+                android:layout_marginTop="@dimen/small_space"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/addressLine2TextView"
+                tools:text="Bruma" />
+
+            <TextView
+                android:id="@+id/cityTextView"
+                style="@style/LargeTextRegularDark"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/medium_space"
+                android:layout_marginTop="@dimen/small_space"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/suburbTextView"
+                tools:text="Johannesburg" />
+
+            <TextView
+                android:id="@+id/postalCodeTextView"
+                style="@style/LargeTextRegularDark"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/medium_space"
+                android:layout_marginTop="@dimen/small_space"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cityTextView"
+                tools:text="2198" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <styleguide.buttons.Button
+            android:id="@+id/continueButton"
+            style="@style/PrimaryButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:text="@string/manage_profile_edit_other_continue_button_text"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/postalAddressConstraintLayout"
+            app:layout_constraintVertical_bias="1" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

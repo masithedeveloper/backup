@@ -1,0 +1,24 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0621",
+      "resCde": "00000",
+      "resMsg": "",
+      "serVer": "2.0"
+    },
+    "payData": {
+      "benNam": "Emeka",
+      "txnAmt": {
+        "curr": "R",
+        "amt": "99.00"
+      },
+      "txnRefNo": "15014851021779",
+      "frmAcctNo": "9050993953",
+      "frmAcctTyp": "Savings account",
+      "cellNo": "0844605838",
+      "networkProvider": "CD5",
+      "airtimeTyp": "Data bundle (30 days)",
+      "networkProviderName": "Cell C"
+    }
+  }
+}

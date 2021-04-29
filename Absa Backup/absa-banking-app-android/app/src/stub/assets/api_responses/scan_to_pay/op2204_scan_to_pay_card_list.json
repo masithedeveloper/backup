@@ -1,0 +1,229 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES2204",
+      "resCde": "00000",
+      "resMsg": "Success",
+      "serVer": "2.0",
+      "expTrace": null
+    },
+    "payData": {
+      "cards": [
+        {
+          "cardNumber": "4483850000141065",
+          "type": "DR",
+          "scheme": "Visa",
+          "brandNumber": "0002626",
+          "trackAndTraceDate": "20191022",
+          "holdDate": "0",
+          "holdCode": "0",
+          "closeDate": "0",
+          "expiryDate": "0",
+          "friendlyName": "",
+          "cardHolderName": "S   ABSATEST",
+          "closeReason": "",
+          "closeSubReason": "",
+          "indA": "",
+          "indB": "",
+          "active": "",
+          "linkedAccount": [
+            {
+              "accountNumber": "4047510266",
+              "accountType": "CQ",
+              "accountName": "CHEQUES"
+            },
+            {
+              "accountNumber": "4047510274",
+              "accountType": "CQ",
+              "accountName": "CHEQUES"
+            },
+            {
+              "accountNumber": "4047559602",
+              "accountType": "CQ",
+              "accountName": "CHEQUES"
+            },
+            {
+              "accountNumber": "9050700378",
+              "accountType": "SA",
+              "accountName": "SAVINGS"
+            },
+            {
+              "accountNumber": "9050700386",
+              "accountType": "SA",
+              "accountName": "SAVINGS"
+            }
+          ],
+          "featureDetails": [
+            {
+              "name": "ScanToPay",
+              "type": "Payment",
+              "status": "Enabled",
+              "_default": null
+            }
+          ]
+        },
+        {
+          "cardNumber": "4550270022098011",
+          "type": "CR",
+          "scheme": "Visa",
+          "brandNumber": "0000000",
+          "trackAndTraceDate": "20180803",
+          "holdDate": "0",
+          "holdCode": "0",
+          "closeDate": "0",
+          "expiryDate": "0",
+          "friendlyName": "",
+          "cardHolderName": "S   ABSATEST",
+          "closeReason": "",
+          "closeSubReason": "",
+          "indA": "Y",
+          "indB": "P",
+          "active": "",
+          "linkedAccount": [
+            {
+              "accountNumber": "0",
+              "accountType": "",
+              "accountName": ""
+            },
+            {
+              "accountNumber": "0",
+              "accountType": "",
+              "accountName": ""
+            },
+            {
+              "accountNumber": "0",
+              "accountType": "",
+              "accountName": ""
+            },
+            {
+              "accountNumber": "0",
+              "accountType": "",
+              "accountName": ""
+            },
+            {
+              "accountNumber": "",
+              "accountType": "",
+              "accountName": ""
+            }
+          ],
+          "featureDetails": [
+            {
+              "name": "ScanToPay",
+              "type": "Payment",
+              "status": "Disabled",
+              "_default": null
+            }
+          ]
+        },
+        {
+          "cardNumber": "4787692001611016",
+          "type": "CR",
+          "scheme": "Visa",
+          "brandNumber": "0000000",
+          "trackAndTraceDate": "20181116",
+          "holdDate": "0",
+          "holdCode": "0",
+          "closeDate": "0",
+          "expiryDate": "0",
+          "friendlyName": "",
+          "cardHolderName": "S   ABSATEST",
+          "closeReason": "",
+          "closeSubReason": "",
+          "indA": "Y",
+          "indB": "P",
+          "active": "",
+          "linkedAccount": [
+            {
+              "accountNumber": "4047510266",
+              "accountType": "CQ",
+              "accountName": "CHEQUES"
+            },
+            {
+              "accountNumber": "0",
+              "accountType": "",
+              "accountName": ""
+            },
+            {
+              "accountNumber": "0",
+              "accountType": "",
+              "accountName": ""
+            },
+            {
+              "accountNumber": "0",
+              "accountType": "",
+              "accountName": ""
+            },
+            {
+              "accountNumber": "0",
+              "accountType": "",
+              "accountName": ""
+            }
+          ],
+          "featureDetails": [
+            {
+              "name": "ScanToPay",
+              "type": "Payment",
+              "status": "Disabled",
+              "_default": null
+            }
+          ]
+        },
+        {
+          "cardNumber": "4787692002256027",
+          "type": "CR",
+          "scheme": "Visa",
+          "brandNumber": "0000000",
+          "trackAndTraceDate": "20200229",
+          "holdDate": "0",
+          "holdCode": "0",
+          "closeDate": "0",
+          "expiryDate": "0",
+          "friendlyName": "",
+          "cardHolderName": "S   ABSATEST",
+          "closeReason": "",
+          "closeSubReason": "",
+          "indA": "N",
+          "indB": "S",
+          "active": "",
+          "linkedAccount": [
+            {
+              "accountNumber": "4787692002256027",
+              "accountType": "CA",
+              "accountName": "CREDIT CRD"
+            },
+            {
+              "accountNumber": "0",
+              "accountType": "",
+              "accountName": ""
+            },
+            {
+              "accountNumber": "0",
+              "accountType": "",
+              "accountName": ""
+            },
+            {
+              "accountNumber": "0",
+              "accountType": "",
+              "accountName": ""
+            },
+            {
+              "accountNumber": "0",
+              "accountType": "",
+              "accountName": ""
+            }
+          ],
+          "featureDetails": [
+            {
+              "name": "ScanToPay",
+              "type": "Payment",
+              "status": "Disabled",
+              "_default": null
+            }
+          ]
+        }
+      ],
+      "txnStatus": "Success",
+      "txnMessage": "Success"
+    }
+  }
+}

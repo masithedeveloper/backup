@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/dimen_16dp">
+
+        <TextView
+            android:id="@+id/tv_dialogTitle"
+            style="@style/Text_Subheading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/already_register_dialog_title"
+            android:textColor="@color/color_FF59595B" />
+
+        <TextView
+            android:id="@+id/tv_dialogMessage"
+            style="@style/Text_Body"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_8dp"
+            android:text="@string/already_register_dialog_msg"
+            android:textColor="@color/color_FF59595B" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end">
+
+            <styleguide.buttons.Button
+                android:id="@+id/btn_dismissButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:background="@color/color_00000000"
+                android:gravity="right|center"
+                android:text="@string/ok"
+                android:textColor="@color/color_FF59595B" />
+
+            <styleguide.buttons.Button
+                android:id="@+id/btn_retry"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:layout_gravity="end"
+                android:background="@color/color_00000000"
+                android:gravity="right|center"
+                android:text="@string/retry"
+                android:textColor="@color/color_FF59595B" />
+        </LinearLayout>
+    </LinearLayout>
+</layout>

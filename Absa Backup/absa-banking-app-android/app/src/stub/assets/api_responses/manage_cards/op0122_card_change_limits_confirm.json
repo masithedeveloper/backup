@@ -1,0 +1,31 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0122",
+      "resCde": "00000",
+      "resMsg": "SUCCESS",
+      "serVer": "2.0"
+    },
+    "payData": {
+      "newATMLimit": {
+        "curr": "R",
+        "amt": "100"
+      },
+      "newPOSLimit": {
+        "curr": "R",
+        "amt": "100"
+      },
+      "oldATMLimit": {
+        "curr": "R",
+        "amt": "1000"
+      },
+      "oldPOSLimit": {
+        "curr": "R",
+        "amt": "1000"
+      },
+      "cardNumber": "4483850000042172",
+      "cardType": "Debit",
+      "txnRefID": "15014956461848"
+    }
+  }
+}

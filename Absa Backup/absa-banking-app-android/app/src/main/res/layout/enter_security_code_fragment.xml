@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <styleguide.content.DescriptionView
+            android:id="@+id/securityCodeDescription"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/medium_space"
+            android:gravity="start"
+            app:attribute_description="@string/security_code_description"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/securityCodeNormalInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_hint_text="@string/enter_security_code"
+            app:attribute_selector_type="NONE"
+            app:attribute_editable="true"
+            app:attribute_title_text="@string/security_code"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/securityCodeDescription" />
+
+        <styleguide.content.DescriptionView
+            android:id="@+id/securityCodeWarningDescriptionView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/medium_space"
+            android:gravity="start"
+            android:textSize="@dimen/small_text_size"
+            app:attribute_description="@string/do_not_share_any_personal_information"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/securityCodeNormalInputView" />
+
+        <styleguide.buttons.Button
+            android:id="@+id/confirmButton"
+            style="@style/PrimaryButton"
+            android:layout_width="0dp"
+            android:enabled="false"
+            android:layout_marginTop="@dimen/medium_space"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:text="@string/confirm"
+            app:layout_constraintTop_toBottomOf="@id/securityCodeWarningDescriptionView"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

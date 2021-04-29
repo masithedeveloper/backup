@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="law_for_you_title" translatable="false">Law For You</string>
+    <string name="plan_cover_premium">Plan, Cover &amp; Premium</string>
+    <string name="law_for_you_city_and_postal_code">City &amp; postal code</string>
+    <string name="law_for_you_cover_up_to">Up to %s cover at %s p/m</string>
+    <string name="select_city_and_postal_code">Select City &amp; Postal Code</string>
+    <string name="law_for_you_agree_debit_order_terms">I agree to the Debit Order Terms &amp; Conditions</string>
+    <string name="law_for_you_debit_order_terms">Debit Order Terms &amp; Conditions</string>
+
+    <string name="law_for_you_i_agree_to_terms">I agree to the Terms &amp; Conditions</string>
+    <string name="law_for_you_terms_and_conditions">Terms &amp; Conditions</string>
+    <string name="law_for_you_cover_confirmation">%s (up to %s cover)</string>
+    <string name="debit_days">Debit Days</string>
+    <string name="law_for_you_protect_yourself">Protect yourself against unexpected legal matters</string>
+    <string name="law_for_you_from_as_little">From as little as</string>
+    <string name="law_for_you_product_description">As your caring friend in the law, we are dedicated to providing top quality legal services that give you peace of mind, knowing that you have powerful legal experts on your side who can send your worries and fears packing.\n\nWith Absa Law For You, we’ve got you covered on almost all things legal, regardless of your budget.</string>
+    <string name="law_for_you_find_out_more">Find out more</string>
+    <string name="law_for_you_total_monthly_premium">Total monthly premium</string>
+    <string name="law_for_you_main_member">Main member</string>
+    <string name="law_for_you_employment_status">Employment status</string>
+    <string name="law_for_you_occupation">Occupation</string>
+    <string name="law_for_you_declaration_info">I hearby declare that:\n\n- The info supplied is true and correct\n- I accept the cover without any advisory</string>
+    <string name="law_for_you_which_plan_message">Which Law For You plan do you want?</string>
+    <string name="law_for_you_principle_member">(You will be the principal member of this policy)</string>
+    <string name="law_for_you_compare_plans">Compare plans</string>
+    <string name="law_for_you_when_policy_start">When do you want the policy to start?</string>
+    <string name="law_for_you_source_of_funds">Source of funds (How will you fund this?)</string>
+    <string name="law_for_you_select_date">Select date</string>
+    <string name="law_for_you_select_source_of_funds">Select source of funds</string>
+    <string name="law_for_you_select_occupation">Select occupation</string>
+    <string name="law_for_you_select_employment_status">Select employment status</string>
+    <string name="law_for_you_select_day_of_month">Select day of the month</string>
+    <string name="law_for_you_select_account">Select account</string>
+    <string name="law_for_you_account_to_debit">Account to debit</string>
+    <string name="law_for_you_debit_day">Debit day</string>
+    <string name="law_for_you_employment_status_title">Employment Status</string>
+    <string name="law_for_you_source_of_funds_title">Source of Funds</string>
+
+    <string name="law_for_you_please_select_date">Please select date</string>
+    <string name="law_for_you_please_select_debit_day">Please select debit day</string>
+    <string name="law_for_you_please_select_account_to_debit">Please select account to debit</string>
+    <string name="law_for_you_please_select_employment_status">Please select employment status</string>
+    <string name="law_for_you_please_select_occupation">Please select occupation</string>
+    <string name="law_for_you_please_select_source_of_funds">Please select source of funds</string>
+
+    <string name="law_for_you_application_approved">Your %s Law for You reference number: %s\n\nYour cover will start: %s\n\nYou will get a confirmation sms and email with your policy details.\n\nLaw For You Call Centre\n0861 662 529</string>
+    <string name="law_for_you_contact_call_centre">Please contact our call centre for assistance.\n\nLaw For You Call Centre\n0861 662 529</string>
+
+    <!--Contact details-->
+    <string name="law_for_you_enter_address_hint">Enter address</string>
+    <string name="law_for_you_enter_suburb_hint">Enter suburb</string>
+    <string name="law_for_you_select_city_hint">Select city</string>
+    <string name="law_for_you_enter_contact_number_hint">Enter contact number</string>
+    <string name="law_for_you_enter_email_address_hint">Enter email address</string>
+
+    <!--Contact details error strings-->
+    <string name="law_for_you_enter_address_error">Please enter an address</string>
+    <string name="law_for_you_enter_suburb_error">Please enter a correct suburb</string>
+    <string name="law_for_you_select_city_error">Please select a city and postal code</string>
+    <string name="law_for_you_enter_contact_number_error">Please enter a valid cell number</string>
+    <string name="law_for_you_enter_email_address_error">Please enter a valid email address</string>
+    <string name="please_accept_terms_and_conditions">Please accept terms and conditions</string>
+
+</resources>

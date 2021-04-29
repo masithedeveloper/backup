@@ -1,0 +1,137 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0861",
+      "resCde": "00000",
+      "resMsg": "Success",
+      "serVer": "2.0",
+      "expTrace": null
+    },
+    "payData": {
+      "lookups": [
+        {
+          "itemCode": "01",
+          "groupCode": "EMPLOY SECTOR",
+          "cmsKey": null,
+          "defaultLabel": "AGRICULTURE"
+        },
+        {
+          "itemCode": "02",
+          "groupCode": "EMPLOY SECTOR",
+          "cmsKey": null,
+          "defaultLabel": "CATERING \u0026 ENTERTAINMENT"
+        },
+        {
+          "itemCode": "03",
+          "groupCode": "EMPLOY SECTOR",
+          "cmsKey": null,
+          "defaultLabel": "CIVIL SERVICE"
+        },
+        {
+          "itemCode": "04",
+          "groupCode": "EMPLOY SECTOR",
+          "cmsKey": null,
+          "defaultLabel": "CONSTRUCTION"
+        },
+        {
+          "itemCode": "05",
+          "groupCode": "EMPLOY SECTOR",
+          "cmsKey": null,
+          "defaultLabel": "EDUCATION"
+        },
+        {
+          "itemCode": "06",
+          "groupCode": "EMPLOY SECTOR",
+          "cmsKey": null,
+          "defaultLabel": "FINANCE"
+        },
+        {
+          "itemCode": "07",
+          "groupCode": "EMPLOY SECTOR",
+          "cmsKey": null,
+          "defaultLabel": "HEALTH"
+        },
+        {
+          "itemCode": "08",
+          "groupCode": "EMPLOY SECTOR",
+          "cmsKey": null,
+          "defaultLabel": "INDUSTRY"
+        },
+        {
+          "itemCode": "09",
+          "groupCode": "EMPLOY SECTOR",
+          "cmsKey": null,
+          "defaultLabel": "LEGAL PROFESSION"
+        },
+        {
+          "itemCode": "10",
+          "groupCode": "EMPLOY SECTOR",
+          "cmsKey": null,
+          "defaultLabel": "MEDIA"
+        },
+        {
+          "itemCode": "11",
+          "groupCode": "EMPLOY SECTOR",
+          "cmsKey": null,
+          "defaultLabel": "NATURE RESOURCE"
+        },
+        {
+          "itemCode": "12",
+          "groupCode": "EMPLOY SECTOR",
+          "cmsKey": null,
+          "defaultLabel": "ARMED FORCES"
+        },
+        {
+          "itemCode": "13",
+          "groupCode": "EMPLOY SECTOR",
+          "cmsKey": null,
+          "defaultLabel": "SCIENCE/COMPUTING"
+        },
+        {
+          "itemCode": "14",
+          "groupCode": "EMPLOY SECTOR",
+          "cmsKey": null,
+          "defaultLabel": "SECURITY"
+        },
+        {
+          "itemCode": "15",
+          "groupCode": "EMPLOY SECTOR",
+          "cmsKey": null,
+          "defaultLabel": "SELLING"
+        },
+        {
+          "itemCode": "16",
+          "groupCode": "EMPLOY SECTOR",
+          "cmsKey": null,
+          "defaultLabel": "TRANSPORTATION"
+        },
+        {
+          "itemCode": "17",
+          "groupCode": "EMPLOY SECTOR",
+          "cmsKey": null,
+          "defaultLabel": "WELFARE"
+        },
+        {
+          "itemCode": "18",
+          "groupCode": "EMPLOY SECTOR",
+          "cmsKey": null,
+          "defaultLabel": "OTHER"
+        },
+        {
+          "itemCode": "19",
+          "groupCode": "EMPLOY SECTOR",
+          "cmsKey": null,
+          "defaultLabel": "PLATINUM MINING"
+        },
+        {
+          "itemCode": "20",
+          "groupCode": "EMPLOY SECTOR",
+          "cmsKey": null,
+          "defaultLabel": "MOTOR MANUFACTURING"
+        }
+      ],
+      "txnStatus": "Success",
+      "txnMessage": "Success"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="bank_confirmation_letter">Bankbevestigingsbrief</string>
+    <string name="bank_confirmation_letter_select_account">Kies rekening</string>
+    <string name="choose_account_you_need_a_confirmation_letter">Kies die rekening waarvoor jy \'n bevestigingsbrief nodig het</string>
+    <string name="bank_confirmation_letter_current_account">Lopende rekening</string>
+    <string name="bank_confirmation_letter_savings_account">Spaarrekening</string>
+    <string name="bank_confirmation_letter_ok_got_it">OK, het dit</string>
+    <string name="bank_confirmation_letter_unsuccessful_title">Onsuksesvol</string>
+    <string name="bank_confirmation_letter_unsuccessful_description">Ongelukkig was jou versoek onsuksesvol.\n\nVir hulp bel ons op 0800 227 592</string>
+    <string name="bank_confirmation_letter_something_went_wrong_title">Daar het iets skeef geloop</string>
+    <string name="bank_confirmation_letter_something_went_wrong_description">Ons sukkel om die dokument oop te maak.\n\nProbeer asseblief weer later of kontak ons inbelsentrum op 0800 227 592 vir verdere bystand.</string>
+</resources>

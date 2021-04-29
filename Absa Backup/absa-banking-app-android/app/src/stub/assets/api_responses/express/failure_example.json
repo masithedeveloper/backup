@@ -1,0 +1,11 @@
+{
+  "header": {
+    "statuscode": "1",
+    "resultMessages": [
+      {
+        "responseSeverity": "S",
+        "responseMessage": "Absa HMAC Verification failed"
+      }
+    ]
+  }
+}

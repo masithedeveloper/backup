@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/header_dark" />
+
+    <FrameLayout
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.barclays.absa.banking.presentation.adapters.SectionListViewPrepaid
+            android:id="@+id/beneficiarySectionListView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:cacheColorHint="#00000000" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/listEmptyTextView"
+        style="@style/LargeTextRegularDark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/medium_space"
+        android:text="@string/no_search_results_found"
+        android:visibility="gone" />
+</LinearLayout>
+

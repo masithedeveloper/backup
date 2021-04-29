@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:background="@color/pink"
+    tools:parentTag="androidx.constraintlayout.widget.ConstraintLayout">
+
+    <TextView
+        android:id="@+id/initialsTextView"
+        style="@style/Text_RobotoBold"
+        android:layout_width="@dimen/profile_image_size"
+        android:layout_height="@dimen/profile_image_size"
+        android:layout_marginStart="@dimen/medium_space"
+        android:layout_marginTop="@dimen/normal_space"
+        android:layout_marginBottom="@dimen/normal_space"
+        android:background="@drawable/round_beneficiary_background"
+        android:gravity="center"
+        android:textSize="@dimen/heading_text_size"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="BM" />
+
+    <styleguide.widgets.RoundedImageView
+        android:id="@+id/roundedImageView"
+        android:layout_width="@dimen/profile_image_size"
+        android:layout_height="@dimen/profile_image_size"
+        android:layout_marginBottom="@dimen/normal_space"
+        android:layout_marginStart="@dimen/medium_space"
+        android:layout_marginTop="@dimen/normal_space"
+        android:scaleType="centerCrop"
+        android:tint="@null"
+        android:visibility="gone"
+        app:attribute_mask_drawable="@drawable/circle_mask"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:src="@drawable/small_card_content" />
+
+    <TextView
+        android:id="@+id/nameTextView"
+        style="@style/LargeTextRegularDark"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/small_space"
+        android:maxLines="1"
+        android:layout_marginEnd="@dimen/medium_space"
+        android:textColor="@color/dark_grey_light_theme_text_color"
+        app:autoSizeMaxTextSize="@dimen/large_text_size"
+        app:autoSizeMinTextSize="@dimen/regular_text_size"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toTopOf="@+id/accountNumberTextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/initialsTextView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed"
+        tools:text="Credit Card" />
+
+    <TextView
+        android:id="@+id/accountNumberTextView"
+        style="@style/SmallTextRegularDark"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/small_space"
+        android:layout_marginTop="@dimen/tiny_space"
+        android:layout_marginEnd="@dimen/medium_space"
+        android:maxLines="2"
+        android:textColor="@color/dark_grey_light_theme_text_color"
+        app:autoSizeMaxTextSize="@dimen/small_text_size"
+        app:autoSizeMinTextSize="@dimen/tiny_text_size"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/initialsTextView"
+        app:layout_constraintTop_toBottomOf="@+id/nameTextView"
+        tools:text="4901 3456 667" />
+
+</merge>

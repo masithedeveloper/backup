@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <styleguide.content.DescriptionView
+            android:id="@+id/what_branch_description_view"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/medium_space"
+            android:gravity="start"
+            app:attribute_description="@string/new_to_bank_branch_collection_copy"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/choose_city_normal_input_view"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_hint_text="@string/new_to_bank_choose_a_city"
+            app:attribute_title_text="@string/new_to_bank_choose_a_city"
+            app:attribute_selector_type="SHORT_LIST"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/what_branch_description_view" />
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/choose_suburb_normal_input_view"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_hint_text="@string/new_to_bank_choose_a_suburb"
+            app:attribute_title_text="@string/new_to_bank_choose_a_suburb"
+            app:attribute_selector_type="SHORT_LIST"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/choose_city_normal_input_view" />
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/choose_branch_normal_input_view"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_hint_text="@string/new_to_bank_choose_a_branch"
+            app:attribute_title_text="@string/new_to_bank_choose_a_branch"
+            app:attribute_selector_type="SHORT_LIST"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/next_button"
+            app:layout_constraintVertical_bias="0"
+            app:layout_constraintTop_toBottomOf="@id/choose_suburb_normal_input_view" />
+
+        <styleguide.buttons.Button
+            android:id="@+id/next_button"
+            style="@style/PrimaryButton"
+            android:text="@string/new_to_bank_set_up_my_security"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

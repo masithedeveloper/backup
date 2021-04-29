@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:parentTag="androidx.constraintlayout.widget.ConstraintLayout">
+
+    <SeekBar
+        android:id="@+id/sliding_seekbar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:paddingBottom="@dimen/tiny_space"
+        android:progressDrawable="@drawable/seekbar_indicator"
+        android:thumb="@drawable/seekbar_thumb"
+        android:maxHeight="@dimen/seekbar_line_height"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/start_text_view"
+        style="@style/NormalTextRegularDark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/normal_space"
+        app:layout_constraintStart_toStartOf="@+id/sliding_seekbar"
+        app:layout_constraintTop_toBottomOf="@+id/sliding_seekbar"
+        tools:text="Start" />
+
+    <TextView
+        android:id="@+id/end_text_view"
+        style="@style/NormalTextRegularDark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/normal_space"
+        app:layout_constraintEnd_toEndOf="@+id/sliding_seekbar"
+        app:layout_constraintTop_toBottomOf="@+id/sliding_seekbar"
+        tools:text="End" />
+</merge>

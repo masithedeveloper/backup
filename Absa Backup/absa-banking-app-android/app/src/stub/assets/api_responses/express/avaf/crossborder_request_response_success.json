@@ -1,0 +1,25 @@
+{
+  "header": {
+    "statuscode": "0",
+    "userAgent": "ANDROID - 6.17.1",
+    "jsessionid": "WW8_sXtEAHcj77J2kgpej0-S54_oEom4wW9j-7Fo",
+    "esessionid": "42a9dd78-7382-3bb1-900b-a7cf7130dc69",
+    "service": "AVAFDocumentsFacade",
+    "operation": "GetAVAFCrossBorderLetter",
+    "channel": "S",
+    "timestamp": "2020-10-20 10:23:44.004",
+    "sourceip": "22.147.145.101",
+    "accessAccount": "4047959579",
+    "userNumber": "1",
+    "nonce": "aMYMzxyPzuX3KSf0Ba-08Go7wHfVrhpoVadLnsFmF1s",
+    "language": "en",
+    "organization": "ABSA",
+    "brand": "ABSA",
+    "resultMessages": [
+      {
+        "responseSeverity": "I",
+        "responseMessage": "Your copy of the cross-border letter will be sent to mongezi.nombewu@absa.africa on 20 October 2020."
+      }
+    ]
+  }
+}

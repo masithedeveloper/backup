@@ -1,0 +1,20 @@
+{
+  "header": {
+    "statuscode": "0",
+    "userAgent": "ANDROID - 6.20.0",
+    "jsessionid": "fO4QYc-X8kfK2DbERRl_MYWLidiw88berLEWu8AB",
+    "esessionid": "21fa6521-859f-34a0-868d-8409f9141fe1",
+    "service": "CashSendPaymentFacade",
+    "operation": "ResendCashSendWithdrawalNumber",
+    "channel": "S",
+    "timestamp": "2021-02-03 09:52:52.041",
+    "sourceip": "22.240.44.100",
+    "accessAccount": "4047510559",
+    "userNumber": "1",
+    "nonce": "8nyPIFAiyKb9ZYsimRM_GuvyUfE1ahE3-6FymLdC-E0",
+    "language": "en",
+    "organization": "ABSA",
+    "brand": "ABSA",
+    "resultMessages": []
+  }
+}

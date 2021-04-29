@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/lawForYouNavigationGraph"
+    app:startDestination="@id/lawForYouApplyNowFragment">
+
+    <fragment
+        android:id="@+id/lawForYouApplyNowFragment"
+        android:name="com.barclays.absa.banking.lawForYou.ui.LawForYouApplyNowFragment"
+        android:label="LawForYouApplyNowFragment"
+        tools:layout="@layout/law_for_you_apply_now_fragment">
+        <action
+            android:id="@+id/action_lawForYouApplyNowFragment_to_lawForYouPlanCoverPremiumFragment"
+            app:destination="@id/lawForYouPlanCoverPremiumFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/lawForYouPlanCoverPremiumFragment"
+        android:name="com.barclays.absa.banking.lawForYou.ui.LawForYouPlanCoverPremiumFragment"
+        android:label="@string/plan_cover_premium"
+        tools:layout="@layout/law_for_you_plan_cover_premium_fragment">
+        <action
+            android:id="@+id/action_lawForYouPlanCoverPremiumFragment_to_lawForYouContactDetailsFragment"
+            app:destination="@+id/lawForYouContactDetailsFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+    <fragment
+        android:id="@+id/lawForYouContactDetailsFragment"
+        android:name="com.barclays.absa.banking.lawForYou.ui.LawForYouContactDetailsFragment"
+        android:label="@string/contact_details"
+        app:enterAnim="@anim/fadein"
+        app:exitAnim="@anim/fadeout"
+        app:popEnterAnim="@anim/fadein"
+        app:popExitAnim="@anim/fadeout"
+        tools:layout="@layout/law_for_you_contact_details_fragment">
+        <action
+            android:id="@+id/action_lawForYouContactDetailsFragment_to_lawForYouPolicyDetailsFragment"
+            app:destination="@+id/lawForYouPolicyDetailsFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+    <fragment
+        android:id="@+id/lawForYouPolicyDetailsFragment"
+        android:name="com.barclays.absa.banking.lawForYou.ui.LawForYouPolicyDetailsFragment"
+        android:label="LawForYouPolicyDetailsFragment"
+        app:enterAnim="@anim/fadein"
+        app:exitAnim="@anim/fadeout"
+        app:popEnterAnim="@anim/fadein"
+        app:popExitAnim="@anim/fadeout"
+        tools:layout="@layout/law_for_you_policy_details_fragment">
+        <action
+            android:id="@+id/action_lawForYouPolicyDetailsFragment_to_lawForYouConfirmationFragment"
+            app:destination="@id/lawForYouConfirmationFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+    <fragment
+        android:id="@+id/lawForYouConfirmationFragment"
+        android:name="com.barclays.absa.banking.lawForYou.ui.LawForYouConfirmationFragment"
+        android:label="LawForYouConfirmationFragment"
+        tools:layout="@layout/law_for_you_confirmation_fragment">
+        <action
+            android:id="@+id/action_lawForYouConfirmationFragment_to_genericResultScreenFragment"
+            app:destination="@id/genericResultScreenFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+    <fragment
+        android:id="@+id/genericResultScreenFragment"
+        android:name="styleguide.screens.GenericResultScreenFragment"
+        android:label="GenericResultScreenFragment"
+        tools:layout="@layout/generic_results_screen_fragment">
+        <argument
+            android:name="GenericResultScreenFragment"
+            app:argType="styleguide.screens.GenericResultScreenProperties" />
+    </fragment>
+</navigation>

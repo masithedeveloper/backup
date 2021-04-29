@@ -1,0 +1,68 @@
+/*
+ *  Copyright (c) 2019 Absa Bank Limited, All Rights Reserved.
+ *
+ *  This code is confidential to Absa Bank Limited and shall not be disclosed
+ *  outside the Bank without the prior written permission of the Absa Legal
+ *
+ *  In the event that such disclosure is permitted the code shall not be copied
+ *  or distributed other than on a need-to-know basis and any recipients may be
+ *  required to sign a confidentiality undertaking in favor of Absa Bank
+ *  Limited
+ *
+ */
+
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-kapt'
+apply plugin: 'kotlin-android-extensions'
+
+android {
+    compileSdkVersion 30
+
+    defaultConfig {
+        minSdkVersion 21
+        targetSdkVersion 30
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildFeatures {
+        viewBinding true
+        dataBinding = true
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
+    }
+
+}
+
+dependencies {
+    def appcompat_version = "1.2.0"
+
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    api project(':libsdp')
+    api 'androidx.constraintlayout:constraintlayout:2.0.4'
+    api "androidx.appcompat:appcompat:$appcompat_version"
+    api "androidx.appcompat:appcompat-resources:$appcompat_version"
+    api 'com.google.android.material:material:1.2.1'
+    api 'androidx.cardview:cardview:1.0.0'
+    api "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
+    api 'androidx.lifecycle:lifecycle-extensions:2.2.0'
+    api "com.airbnb.android:lottie:$lottieVersion"
+    api 'androidx.legacy:legacy-support-v4:1.0.0'
+    api 'androidx.lifecycle:lifecycle-common-java8:2.2.0'
+}
+
+repositories {
+    mavenCentral()
+}

@@ -1,0 +1,154 @@
+{
+  "header": {
+    "statuscode": "0",
+    "userAgent": "ANDROID - 6.20.0",
+    "jsessionid": "UnhcUZXg8SIqYAh4loPfFj_fcmqbm_AbTqyW-dac",
+    "esessionid": "fa3cae31-8d4a-35bf-a595-dee946f84a14",
+    "service": "ExternalBankDetailsFacade",
+    "operation": "ListBankNames",
+    "channel": "S",
+    "timestamp": "2021-01-22 07:12:14.784",
+    "sourceip": "22.240.44.100",
+    "accessAccount": "4047510559",
+    "userNumber": "1",
+    "nonce": "eptjrGPXIjWXgKKKi-rqK9VN9GRc4F36pxGlI6nznzg",
+    "language": "en",
+    "organization": "ABSA",
+    "brand": "ABSA",
+    "resultMessages": []
+  },
+  "bankNames": [
+    {
+      "bankNames": "AFRICAN BANK"
+    },
+    {
+      "bankNames": "ALBARAKA BANK"
+    },
+    {
+      "bankNames": "BANK WINDHOEK"
+    },
+    {
+      "bankNames": "BANK ZERO MUTUAL BANK"
+    },
+    {
+      "bankNames": "BIDVEST BANK LIMITED"
+    },
+    {
+      "bankNames": "BNP PARIBAS"
+    },
+    {
+      "bankNames": "CAPITEC BANK LIMITED"
+    },
+    {
+      "bankNames": "CITIBANK"
+    },
+    {
+      "bankNames": "DISCOVERY BANK"
+    },
+    {
+      "bankNames": "FBC FIDELITY BANK LIMITED"
+    },
+    {
+      "bankNames": "FINBOND MUTUAL BANK"
+    },
+    {
+      "bankNames": "FINBOND MUTUAL BANK EPE"
+    },
+    {
+      "bankNames": "FIRST NATIONAL BANK"
+    },
+    {
+      "bankNames": "GRINDROD BANK LIMITED"
+    },
+    {
+      "bankNames": "GROBANK LTD"
+    },
+    {
+      "bankNames": "HABIB OVERSEAS BANK LIMITED"
+    },
+    {
+      "bankNames": "HBZ BANK LIMITED"
+    },
+    {
+      "bankNames": "INVESTEC BANK LIMITED"
+    },
+    {
+      "bankNames": "J.P.MORGAN CHASE BANK N.A."
+    },
+    {
+      "bankNames": "MERCANTILE BANK LTD"
+    },
+    {
+      "bankNames": "NEDBANK"
+    },
+    {
+      "bankNames": "NEDBANK BOND"
+    },
+    {
+      "bankNames": "NEDBANK LESOTHO LTD"
+    },
+    {
+      "bankNames": "NEDBANK LTD INC. BOE BANK"
+    },
+    {
+      "bankNames": "NEDBANK NAMIBIA"
+    },
+    {
+      "bankNames": "NEDBANK SWAZILAND LTD"
+    },
+    {
+      "bankNames": "OLYMPUS MOBILE BANK"
+    },
+    {
+      "bankNames": "PEOPLES BANK - PEP BANK"
+    },
+    {
+      "bankNames": "PEOPLES BANK LTD INC NBS"
+    },
+    {
+      "bankNames": "PERM/PEOPLES BANK"
+    },
+    {
+      "bankNames": "SA RESERVE BANK"
+    },
+    {
+      "bankNames": "SASFIN BANK"
+    },
+    {
+      "bankNames": "SOCIETE GENERALE JHB BRANCH"
+    },
+    {
+      "bankNames": "SOUTH AFRICAN POST OFFICE LTD"
+    },
+    {
+      "bankNames": "STANDARD BANK SA LTD"
+    },
+    {
+      "bankNames": "STANDARD BANK SWAZILAND LIMITE"
+    },
+    {
+      "bankNames": "STANDARD CHARTERED BANK SA"
+    },
+    {
+      "bankNames": "STANDARD LESOTHO BANK LTD"
+    },
+    {
+      "bankNames": "STATE BANK OF INDIA"
+    },
+    {
+      "bankNames": "THE HONGKONG AND SHANGHAI BANK"
+    },
+    {
+      "bankNames": "TYMEBANK OF TYMEBANK LTD"
+    },
+    {
+      "bankNames": "UBANK BANK LIMITED"
+    },
+    {
+      "bankNames": "UNIBANK"
+    },
+    {
+      "bankNames": "VBS MUTUAL BANK"
+    }
+  ]
+}

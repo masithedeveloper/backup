@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabLayout"
+        style="@style/TabLayout_grey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:tabIndicatorHeight="0dp" />
+
+    <LinearLayout
+        android:id="@+id/cl_constraint_set"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:animateLayoutChanges="true"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/_8sdp"
+        android:paddingBottom="@dimen/_8sdp">
+
+        <LinearLayout
+            android:id="@+id/cl_date_search"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_20sdp"
+            android:layout_marginEnd="@dimen/_20sdp"
+            android:layout_weight="1"
+            android:background="@drawable/light_search_and_filter_background"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toStartOf="@+id/iv_search"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/iv_calender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/dimen_8dp"
+                android:tint="@color/graphite_light_theme_item_color"
+                app:layout_constraintStart_toStartOf="parent"
+                app:srcCompat="@drawable/ic_calendar_dark" />
+
+            <TextView
+                android:id="@+id/et_account_date_range"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:editable="false"
+                android:ems="10"
+                android:focusable="false"
+                android:inputType="textPersonName"
+                android:padding="@dimen/dimen_8dp"
+                android:textColor="@color/graphite_light_theme_item_color"
+                app:layout_constraintBottom_toBottomOf="@+id/iv_calender"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/iv_calender"
+                app:layout_constraintTop_toTopOf="@+id/iv_calender"
+                tools:text="14 Mar 2018 - 13 Apr 2018" />
+
+            <ImageView
+                android:id="@+id/iv_search"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/dimen_8dp"
+                android:padding="@dimen/dimen_8dp"
+                android:tint="@color/graphite_light_theme_item_color"
+                app:layout_constraintBottom_toBottomOf="@+id/cl_date_search"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/cl_date_search"
+                app:srcCompat="@drawable/ic_search_grey" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

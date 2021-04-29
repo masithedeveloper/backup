@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scrollView"
+    style="@style/ScrollView">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/containerConstraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/accountNameNormalInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:digits="@string/allowed_reference_account_names"
+            android:inputType="textCapWords"
+            android:maxLength="15"
+            app:attribute_editable="true"
+            app:attribute_hint_text="@string/depositor_plus_new_account_name"
+            app:attribute_title_text="@string/depositor_plus_new_account_name"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/initialDepositNormalInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:maxLength="22"
+            app:attribute_description_text="@string/depositor_plus_minimum_initial_deposit"
+            app:attribute_hint_text="@string/depositor_plus_initial_deposit_hint"
+            app:attribute_selector_type="CURRENCY_DECIMAL"
+            app:attribute_title_text="@string/depositor_plus_initial_deposit"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/accountNameNormalInputView" />
+
+        <styleguide.content.LineItemView
+            android:id="@+id/interestRateLineItemView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_label_text="@string/depositor_plus_interest_rate"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/initialDepositNormalInputView" />
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/investmentTermNormalInputView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            app:attribute_hint_text="@string/future_plan_choose_investment_term"
+            app:attribute_selector_type="GENERIC_SELECTOR"
+            app:attribute_title_text="@string/fixed_deposit_investment_term"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/interestRateLineItemView" />
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/maturityDateNormalInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            app:attribute_description_text="@string/future_plan_maturity_disclaimer"
+            app:attribute_editable="false"
+            app:attribute_hint_text="@string/future_plan_maturity_date_hint"
+            app:attribute_selector_type="DATE"
+            app:attribute_title_text="@string/fixed_deposit_maturity_date"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/investmentTermNormalInputView" />
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/accountToDebitNormalInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_hint_text="@string/choose_an_account"
+            app:attribute_selector_type="LONG_LIST"
+            app:attribute_title_text="@string/depositor_plus_account_to_debit"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/maturityDateNormalInputView" />
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/referenceNormalInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:digits="@string/allowed_reference_account_names"
+            android:inputType="textCapWords"
+            android:maxLength="20"
+            app:attribute_editable="true"
+            app:attribute_hint_text="@string/depositor_plus_enter_reference"
+            app:attribute_title_text="@string/depositor_plus_initial_deposit_reference"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/accountToDebitNormalInputView" />
+
+        <styleguide.forms.CheckBoxView
+            android:id="@+id/recurringDepositCheckBoxView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/medium_space"
+            app:attribute_description="@string/depositor_plus_add_monthly_contribution"
+            app:attribute_is_required="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/referenceNormalInputView" />
+
+        <TextView
+            android:id="@+id/monthlyContributionDetailsTextView"
+            style="@style/NormalTextMediumDark"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/medium_space"
+            android:layout_marginTop="@dimen/extra_large_space"
+            android:text="@string/future_plan_monthly_contribution_details_section_title"
+            android:visibility="gone"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/recurringDepositCheckBoxView" />
+
+        <androidx.constraintlayout.widget.Group
+            android:id="@+id/recurringPaymentConstraintGroup"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:visibility="gone"
+            app:constraint_referenced_ids="amountNormalInputView, accountNormalInputView, numberOfPaymentsNormalInputView, recurringStartDateNormalInputView, recurringEndDateNormalInputView,recurringReferenceNormalInputView " />
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/amountNormalInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:maxLength="22"
+            app:attribute_hint_text="@string/depositor_plus_monthly_contribution_amount"
+            app:attribute_selector_type="CURRENCY_DECIMAL"
+            app:attribute_title_text="@string/depositor_plus_monthly_contribution_amount"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/monthlyContributionDetailsTextView" />
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/accountNormalInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_hint_text="@string/choose_an_account"
+            app:attribute_selector_type="LONG_LIST"
+            app:attribute_title_text="@string/depositor_plus_account_to_debit"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/amountNormalInputView" />
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/numberOfPaymentsNormalInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:digits="1234567890"
+            android:inputType="numberDecimal"
+            app:attribute_editable="true"
+            app:attribute_hint_text="@string/depositor_plus_enter_number_of_monthly_deposits"
+            app:attribute_title_text="@string/depositor_plus_number_of_monthly_deposits"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/accountNormalInputView" />
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/recurringStartDateNormalInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_editable="false"
+            app:attribute_hint_text="@string/depositor_plus_recurring_start_day"
+            app:attribute_selector_type="DATE"
+            app:attribute_title_text="@string/depositor_plus_recurring_start_day"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/numberOfPaymentsNormalInputView" />
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/recurringEndDateNormalInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_editable="false"
+            app:attribute_hint_text="@string/depositor_plus_recurring_end_day"
+            app:attribute_selector_type="DATE"
+            app:attribute_title_text="@string/depositor_plus_recurring_end_day"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/recurringStartDateNormalInputView" />
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/recurringReferenceNormalInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:digits="@string/allowed_reference_account_names"
+            android:inputType="textCapWords"
+            android:maxLength="20"
+            app:attribute_editable="true"
+            app:attribute_hint_text="@string/depositor_plus_enter_reference"
+            app:attribute_title_text="@string/depositor_plus_recurring_payment_reference"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/recurringEndDateNormalInputView" />
+
+        <Button
+            android:id="@+id/nextButton"
+            style="@style/PrimaryButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/next"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/recurringReferenceNormalInputView"
+            app:layout_constraintVertical_bias="1" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

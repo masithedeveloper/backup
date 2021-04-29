@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    style="@style/ScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <styleguide.buttons.OptionActionButtonView
+            android:id="@+id/sendCashToMyselfView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_caption="@string/send_cash_myself"
+            app:attribute_icon="@drawable/ic_cashsend_dark_new"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <styleguide.buttons.OptionActionButtonView
+            android:id="@+id/sendCashToSomeoneNewView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_caption="@string/send_cash_new"
+            app:attribute_icon="@drawable/ic_cashsend_dark_new"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/sendCashToMyselfView" />
+
+        <styleguide.buttons.OptionActionButtonView
+            android:id="@+id/onceOffView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_caption="@string/send_cash_once_off"
+            app:attribute_icon="@drawable/ic_cashsend_dark_new"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/sendCashToSomeoneNewView" />
+
+        <styleguide.buttons.OptionActionButtonView
+            android:id="@+id/sendMultipleButtonView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            app:attribute_caption="@string/cash_send_plus_send_multiple"
+            app:attribute_icon="@drawable/ic_cashsend_dark_new"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/onceOffView" />
+
+        <View
+            android:id="@+id/dividerView1"
+            style="@style/DividerView"
+            android:layout_width="0dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/sendMultipleButtonView" />
+
+        <styleguide.buttons.OptionActionButtonView
+            android:id="@+id/unredeemedView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_caption="@string/unredeemed_layout_string"
+            app:attribute_icon="@drawable/ic_menu_dark"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/dividerView1" />
+
+        <View
+            android:id="@+id/dividerView2"
+            style="@style/DividerView"
+            android:layout_width="0dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/unredeemedView" />
+
+        <androidx.constraintlayout.widget.Group
+            android:id="@+id/recentBeneficiariesGroup"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:visibility="gone"
+            app:constraint_referenced_ids="comingSoonDisclaimer, recentCashSendDividerView"
+            app:layout_constraintTop_toBottomOf="@+id/dividerView2" />
+
+        <androidx.constraintlayout.widget.Group
+            android:id="@+id/recentBeneficiaryGroup"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:constraint_referenced_ids="resentCashSendHeadingView, recentBeneficiariesRecyclerView" />
+
+        <styleguide.content.HeadingView
+            android:id="@+id/resentCashSendHeadingView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/medium_space"
+            app:attribute_heading="@string/recent_cash_send"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/dividerView2" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recentBeneficiariesRecyclerView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/resentCashSendHeadingView" />
+
+        <TextView
+            android:id="@+id/comingSoonDisclaimer"
+            style="@style/NormalTextRegularDark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/cashsend_no_results"
+            android:textColor="@color/grey"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/recentBeneficiariesRecyclerView" />
+
+        <View
+            android:id="@+id/recentCashSendDividerView"
+            style="@style/DividerView"
+            android:layout_width="0dp"
+            android:layout_marginTop="@dimen/medium_space"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/comingSoonDisclaimer" />
+
+        <styleguide.content.HeadingView
+            android:id="@+id/cashSendBeneficiariesHeadingView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_heading="@string/cash_send_beneficiaries"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/recentCashSendDividerView" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/beneficiariesRecyclerView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cashSendBeneficiariesHeadingView" />
+
+        <androidx.constraintlayout.widget.Group
+            android:id="@+id/noBeneficiariesGroup"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:visibility="gone"
+            app:constraint_referenced_ids="addNewBeneficiaryImageView, addNewBeneficiaryDescriptionLabel" />
+
+        <ImageView
+            android:id="@+id/addNewBeneficiaryImageView"
+            android:layout_width="@dimen/dimen_80dp"
+            android:layout_height="@dimen/dimen_80dp"
+            android:layout_margin="@dimen/large_space"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cashSendBeneficiariesHeadingView"
+            app:srcCompat="@drawable/ic_add_beneficiary" />
+
+        <TextView
+            android:id="@+id/addNewBeneficiaryDescriptionLabel"
+            style="@style/LargeTextRegularDark"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/medium_space"
+            android:gravity="center"
+            android:text="@string/no_ben_details_msg_cashsend"
+            android:textColor="@color/foil"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/addNewBeneficiaryImageView" />
+
+        <styleguide.cards.AlertView
+            android:id="@+id/bannerAlertView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:animateLayoutChanges="true"
+            android:scaleType="centerCrop"
+            android:visibility="gone"
+            app:attribute_image="@drawable/cash_send_plus_primary_alert_banner"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:visibility="visible" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

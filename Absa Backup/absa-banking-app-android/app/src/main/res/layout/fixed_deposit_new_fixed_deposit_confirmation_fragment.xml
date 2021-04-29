@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        style="@style/ScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <styleguide.content.PrimaryContentAndLabelView
+                android:id="@+id/accountNamePrimaryContentAndLabelView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:attribute_primary_label="@string/fixed_deposit_account_name"
+                tools:attribute_primary_content="Fixed Dep 205 633" />
+
+            <View
+                style="@style/DividerView"
+                android:layout_width="match_parent"
+                android:layout_marginTop="@dimen/tiny_space"
+                android:layout_marginBottom="@dimen/tiny_space" />
+
+            <styleguide.content.PrimaryContentAndLabelView
+                android:id="@+id/captialInvestmentPrimaryContentAndLabelView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:attribute_primary_label="@string/fixed_deposit_investment_amount"
+                tools:attribute_primary_content="R 150 000.00" />
+
+            <styleguide.content.SecondaryContentAndLabelView
+                android:id="@+id/investmentTermSecondaryContentAndLabelView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:attribute_secondary_label="@string/fixed_deposit_investment_term"
+                tools:attribute_secondary_content="60 Months" />
+
+            <styleguide.content.SecondaryContentAndLabelView
+                android:id="@+id/interestRateSecondaryContentAndLabelView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:attribute_secondary_label="@string/fixed_deposit_interest_rate_per_annum"
+                tools:attribute_secondary_content="10.05 %" />
+
+            <styleguide.content.SecondaryContentAndLabelView
+                android:id="@+id/interestPaymentFrequencySecondaryContentAndLabelView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:attribute_secondary_label="@string/fixed_deposit_interest_payment_frequency"
+                tools:attribute_secondary_content="Monthly" />
+
+            <styleguide.content.SecondaryContentAndLabelView
+                android:id="@+id/interestPaymentDaySecondaryContentAndLabelView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:attribute_secondary_label="@string/fixed_deposit_interest_payment_day"
+                tools:attribute_secondary_content="18" />
+
+            <styleguide.content.SecondaryContentAndLabelView
+                android:id="@+id/maturityDateSecondaryContentAndLabelView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:attribute_secondary_label="@string/fixed_deposit_maturity_date"
+                tools:attribute_secondary_content="18 Nov 2023" />
+
+            <View
+                style="@style/DividerView"
+                android:layout_width="match_parent"
+                android:layout_marginTop="@dimen/tiny_space"
+                android:layout_marginBottom="@dimen/tiny_space" />
+
+            <styleguide.content.SecondaryContentAndLabelView
+                android:id="@+id/fromAccountSecondaryContentAndLabelView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:attribute_secondary_label="@string/from_account_title"
+                tools:attribute_secondary_content="Current Account (4092 3456 678)" />
+
+            <styleguide.content.SecondaryContentAndLabelView
+                android:id="@+id/fromReferenceTermSecondaryContentAndLabelView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:attribute_secondary_label="@string/fixed_deposit_from_reference"
+                tools:attribute_secondary_content="Fixed Dep 205 633" />
+
+            <styleguide.content.SecondaryContentAndLabelView
+                android:id="@+id/toReferenceTermSecondaryContentAndLabelView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:attribute_secondary_label="@string/fixed_deposit_to_reference"
+                tools:attribute_secondary_content="Fixed Dep 205 633" />
+
+            <View
+                style="@style/DividerView"
+                android:layout_width="match_parent"
+                android:layout_marginTop="@dimen/tiny_space"
+                android:layout_marginBottom="@dimen/tiny_space" />
+
+            <styleguide.content.SecondaryContentAndLabelView
+                android:id="@+id/payInterestIntoSecondaryContentAndLabelView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:attribute_secondary_label="@string/fixed_deposit_pay_interest_into"
+                tools:attribute_secondary_content="Another Account" />
+
+            <styleguide.content.SecondaryContentAndLabelView
+                android:id="@+id/bankSecondaryContentAndLabelView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:attribute_secondary_label="@string/bank"
+                tools:attribute_secondary_content="Absa" />
+
+            <styleguide.content.SecondaryContentAndLabelView
+                android:id="@+id/branchSecondaryContentAndLabelView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:attribute_secondary_label="@string/branch"
+                tools:attribute_secondary_content="632 055" />
+
+            <styleguide.content.SecondaryContentAndLabelView
+                android:id="@+id/accountTypeSecondaryContentAndLabelView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:attribute_secondary_label="@string/account_type"
+                tools:attribute_secondary_content="Cheque Account" />
+
+            <styleguide.content.SecondaryContentAndLabelView
+                android:id="@+id/accountNumberSecondaryContentAndLabelView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:attribute_secondary_label="@string/account_number"
+                tools:attribute_secondary_content="Cheque Account" />
+
+            <styleguide.content.SecondaryContentAndLabelView
+                android:id="@+id/paymentReferenceSecondaryContentAndLabelView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:attribute_secondary_label="@string/fixed_deposit_payment_reference"
+                tools:attribute_secondary_content="Fixed Dep" />
+
+            <styleguide.buttons.Button
+                android:id="@+id/nextButton"
+                style="@style/PrimaryButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/confirm" />
+
+        </LinearLayout>
+    </ScrollView>
+</layout>

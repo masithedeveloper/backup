@@ -1,0 +1,51 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0528",
+      "resCde": "00000",
+      "resMsg": "Success",
+      "serVer": "2.0"
+    },
+    "payData": {
+      "paymentDateTime": "2018-02-12-11:43",
+      "txnStatus": "Success",
+      "txnMessage": "Success",
+      "payments": [
+        {
+          "txnAmt": {
+            "curr": "R",
+            "amt": "20.00"
+          },
+          "benId": "199",
+          "validateMsg": "",
+          "errorMsg": "",
+          "warningMsg": "",
+          "nowFlg": "NOW",
+          "benAccNo": "9050579531",
+          "benName": "7 Spaniel Puppies",
+          "result": "SUCCESS",
+          "iipReferenceNo": "",
+          "paymentDateTime": "2018-02-12",
+          "immediatePayment": "false"
+        },
+        {
+          "txnAmt": {
+            "curr": "R",
+            "amt": "20.00"
+          },
+          "benId": "401",
+          "validateMsg": "",
+          "errorMsg": "",
+          "warningMsg": "",
+          "nowFlg": "NOW",
+          "benAccNo": "9050993555",
+          "benName": "9050993555",
+          "result": "SUCCESS",
+          "iipReferenceNo": "",
+          "paymentDateTime": "2018-02-12",
+          "immediatePayment": "false"
+        }
+      ]
+    }
+  }
+}

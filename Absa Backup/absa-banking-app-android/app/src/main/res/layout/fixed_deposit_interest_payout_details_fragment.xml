@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    style="@style/ScrollView">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/payInterestIntoNormalInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_description_text="@string/fixed_deposit_interest_disclaimer"
+            app:attribute_hint_text="@string/choose_an_account"
+            app:attribute_selector_type="LONG_LIST"
+            app:attribute_title_text="@string/fixed_deposit_pay_interest_into"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/otherBankDetailsConstraintLayout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/payInterestIntoNormalInputView"
+            tools:visibility="visible">
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/bankNormalInputView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_hint_text="@string/select_bank"
+                app:attribute_selector_type="LONG_LIST"
+                app:attribute_title_text="@string/bank"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/branchNormalInputView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_hint_text="@string/select_branch"
+                app:attribute_selector_type="LONG_LIST"
+                app:attribute_title_text="@string/branch"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/bankNormalInputView" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/accountTypeNormalInputView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_hint_text="@string/account_type_hint"
+                app:attribute_selector_type="LONG_LIST"
+                app:attribute_title_text="@string/fixed_deposit_account_type"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/branchNormalInputView" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/accountNumberNormalInputView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:digits="0123456789 "
+                android:inputType="number"
+                app:attribute_hint_text="@string/enter_account_number"
+                app:attribute_mask="#### #### #### #### #### ####"
+                app:attribute_selector_type="NONE"
+                app:attribute_title_text="@string/accountNumber"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/accountTypeNormalInputView" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/toAccountReferenceNormalInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:digits="@string/allowed_reference_digits"
+            android:inputType="textCapWords"
+            android:maxLength="20"
+            app:attribute_editable="true"
+            app:attribute_hint_text="@string/fixed_deposit_enter_reference"
+            app:attribute_title_text="@string/fixed_deposit_to_account_reference"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/otherBankDetailsConstraintLayout" />
+
+        <styleguide.content.LineItemView
+            android:id="@+id/nextPayoutLineItemView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/tiny_space"
+            app:attribute_label_text="@string/fixed_deposit_next_payout"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/toAccountReferenceNormalInputView" />
+
+        <styleguide.content.LineItemView
+            android:id="@+id/capitalisationFrequencyLineItemView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/tiny_space"
+            app:attribute_label_text="@string/fixed_deposit_capitalisation_frequency"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/nextPayoutLineItemView" />
+
+        <styleguide.buttons.Button
+            android:id="@+id/nextButton"
+            style="@style/PrimaryButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/double_medium_space"
+            android:text="@string/next"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/capitalisationFrequencyLineItemView"
+            app:layout_constraintVertical_bias="1" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

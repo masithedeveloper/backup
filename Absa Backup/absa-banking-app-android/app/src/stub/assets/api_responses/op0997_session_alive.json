@@ -1,0 +1,12 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0997",
+      "resCde": "00000",
+      "serVer": "2.0"
+    },
+    "payData": {
+      "keepSessionAliveFlag": "true"
+    }
+  }
+}

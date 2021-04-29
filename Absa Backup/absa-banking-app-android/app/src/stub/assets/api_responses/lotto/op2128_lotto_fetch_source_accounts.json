@@ -1,0 +1,27 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES2128",
+      "resCde": "00000",
+      "resMsg": "Success",
+      "serVer": "2.0",
+      "expTrace": null
+    },
+    "payData": {
+      "sourceAccounts": [
+        {
+          "accountNumber": "9050872577",
+          "accountName": "Savings account",
+          "accountType": "Savings"
+        },
+        {
+          "accountNumber": "4048284800",
+          "accountName": "Cheque Account",
+          "accountType": "currentAccount"
+        }
+      ],
+      "txnStatus": "Success",
+      "txnMessage": "Success"
+    }
+  }
+}

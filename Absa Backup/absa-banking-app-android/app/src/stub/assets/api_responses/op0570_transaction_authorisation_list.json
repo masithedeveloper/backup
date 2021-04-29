@@ -1,0 +1,495 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0570",
+      "resCde": "00000",
+      "resMsg": "SUCCESS",
+      "serVer": "2.0",
+      "expTrace": null
+    },
+    "payData": {
+      "txnTypeList": [
+        {
+          "transactionTypeCode": "CSPC",
+          "transactionType": "CashSend Plus Registration",
+          "transactionDate": "2020-06-15-15.46.51.784197",
+          "amount": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "accountNumber": "",
+          "selectedOperator": "1",
+          "operatorName": "B GOPALSP",
+          "authUser": "0",
+          "authUserName": null,
+          "outstandingAuth": "1",
+          "actionCode": "",
+          "productCode": "",
+          "authFlag": false,
+          "rejectFlag": true,
+          "txnDate": "2020-06-15-15.46.51.784197"
+        },
+        {
+          "transactionTypeCode": "CSPD",
+          "transactionType": "CashSend Plus De-Registration",
+          "transactionDate": "2020-06-15-15.46.51.784197",
+          "amount": {
+            "curr": "R",
+            "amt": "0.00"
+          },
+          "accountNumber": "",
+          "selectedOperator": "1",
+          "operatorName": "B GOPALSP",
+          "authUser": "0",
+          "authUserName": null,
+          "outstandingAuth": "1",
+          "actionCode": "",
+          "productCode": "",
+          "authFlag": false,
+          "rejectFlag": true,
+          "txnDate": "2020-06-15-15.46.51.784197"
+        },
+        {
+          "transactionTypeCode": "CPLS",
+          "transactionType": "CashSend Plus",
+          "transactionDate": "2020-06-15-15.46.51.784197",
+          "amount": {
+            "curr": "R",
+            "amt": "1500.00"
+          },
+          "accountNumber": "",
+          "selectedOperator": "1",
+          "operatorName": "B GOPALSP",
+          "authUser": "0",
+          "authUserName": null,
+          "outstandingAuth": "1",
+          "actionCode": "",
+          "productCode": "",
+          "authFlag": false,
+          "rejectFlag": true,
+          "txnDate": "2020-06-15-15.46.51.784197"
+        },
+        {
+          "transactionTypeCode": "CSPU",
+          "transactionType": "CashSend Plus Limits",
+          "transactionDate": "2020-06-15-15.46.51.784197",
+          "amount": {
+            "curr": "R",
+            "amt": "5000.00"
+          },
+          "accountNumber": "",
+          "selectedOperator": "1",
+          "operatorName": "B GOPALSP",
+          "authUser": "0",
+          "authUserName": null,
+          "outstandingAuth": "1",
+          "actionCode": "",
+          "productCode": "",
+          "authFlag": false,
+          "rejectFlag": true,
+          "txnDate": "2020-06-15-15.46.51.784197"
+        },
+        {
+          "transactionTypeCode": "XOTR",
+          "transactionType": "Inter Account Transfer",
+          "transactionDate": "2019-09-17-10.50.12.336826",
+          "amount": {
+            "curr": "R",
+            "amt": "500.00"
+          },
+          "accountNumber": "",
+          "selectedOperator": "2",
+          "operatorName": "Bus 2",
+          "authUser": "0",
+          "authUserName": null,
+          "outstandingAuth": "1",
+          "actionCode": "",
+          "productCode": "",
+          "authFlag": false,
+          "rejectFlag": true,
+          "txnDate": "2019-09-17-10.50.12.336826"
+        },
+        {
+          "transactionTypeCode": "CLRM",
+          "transactionType": "Cash Send",
+          "transactionDate": "2019-09-17-11.54.54.064006",
+          "amount": {
+            "curr": "R",
+            "amt": "100.00"
+          },
+          "accountNumber": "I",
+          "selectedOperator": "2",
+          "operatorName": "Bus 2",
+          "authUser": "0",
+          "authUserName": null,
+          "outstandingAuth": "1",
+          "actionCode": "I",
+          "productCode": "",
+          "authFlag": false,
+          "rejectFlag": true,
+          "txnDate": "2019-09-17-11.54.54.064006"
+        },
+        {
+          "transactionTypeCode": "CDPM",
+          "transactionType": "Pay Beneficiary",
+          "transactionDate": "2019-09-17-12.03.18.295142",
+          "amount": {
+            "curr": "R",
+            "amt": "99.99"
+          },
+          "accountNumber": "",
+          "selectedOperator": "2",
+          "operatorName": "Bus 2",
+          "authUser": "0",
+          "authUserName": null,
+          "outstandingAuth": "1",
+          "actionCode": "",
+          "productCode": "",
+          "authFlag": false,
+          "rejectFlag": true,
+          "txnDate": "2019-09-17-12.03.18.295142"
+        },
+        {
+          "transactionTypeCode": "IIP",
+          "transactionType": "Immediate Interbank Payment",
+          "transactionDate": "2019-09-17-12.15.43.125946",
+          "amount": {
+            "curr": "R",
+            "amt": "99.99"
+          },
+          "accountNumber": "",
+          "selectedOperator": "2",
+          "operatorName": "Bus 2",
+          "authUser": "0",
+          "authUserName": null,
+          "outstandingAuth": "1",
+          "actionCode": "",
+          "productCode": "",
+          "authFlag": false,
+          "rejectFlag": true,
+          "txnDate": "2019-09-17-12.15.43.125946"
+        },
+        {
+          "transactionTypeCode": "IIP",
+          "transactionType": "Immediate Interbank Payment",
+          "transactionDate": "2019-09-17-12.17.15.807787",
+          "amount": {
+            "curr": "R",
+            "amt": "89.99"
+          },
+          "accountNumber": "",
+          "selectedOperator": "2",
+          "operatorName": "Bus 2",
+          "authUser": "0",
+          "authUserName": null,
+          "outstandingAuth": "1",
+          "actionCode": "",
+          "productCode": "",
+          "authFlag": false,
+          "rejectFlag": true,
+          "txnDate": "2019-09-17-12.17.15.807787"
+        },
+        {
+          "transactionTypeCode": "OOPO",
+          "transactionType": "Pay Once-off",
+          "transactionDate": "2019-09-17-12.23.11.664495",
+          "amount": {
+            "curr": "R",
+            "amt": "101.99"
+          },
+          "accountNumber": "",
+          "selectedOperator": "2",
+          "operatorName": "Bus 2",
+          "authUser": "0",
+          "authUserName": null,
+          "outstandingAuth": "1",
+          "actionCode": "",
+          "productCode": "",
+          "authFlag": false,
+          "rejectFlag": true,
+          "txnDate": "2019-09-17-12.23.11.664495"
+        },
+        {
+          "transactionTypeCode": "CELR",
+          "transactionType": "Prepaid",
+          "transactionDate": "2019-09-17-12.42.01.661228",
+          "amount": {
+            "curr": "R",
+            "amt": "149.00"
+          },
+          "accountNumber": "",
+          "selectedOperator": "2",
+          "operatorName": "Bus 2",
+          "authUser": "0",
+          "authUserName": null,
+          "outstandingAuth": "1",
+          "actionCode": "",
+          "productCode": "",
+          "authFlag": false,
+          "rejectFlag": true,
+          "txnDate": "2019-09-17-12.42.01.661228"
+        },
+        {
+          "transactionTypeCode": "XOTR",
+          "transactionType": "Inter Account Transfer",
+          "transactionDate": "2019-09-17-12.47.36.871422",
+          "amount": {
+            "curr": "R",
+            "amt": "59.99"
+          },
+          "accountNumber": "",
+          "selectedOperator": "2",
+          "operatorName": "Bus 2",
+          "authUser": "0",
+          "authUserName": null,
+          "outstandingAuth": "1",
+          "actionCode": "",
+          "productCode": "",
+          "authFlag": false,
+          "rejectFlag": true,
+          "txnDate": "2019-09-17-12.47.36.871422"
+        },
+        {
+          "transactionTypeCode": "XOTR",
+          "transactionType": "Inter Account Transfer",
+          "transactionDate": "2019-09-17-12.48.08.227382",
+          "amount": {
+            "curr": "R",
+            "amt": "66.99"
+          },
+          "accountNumber": "",
+          "selectedOperator": "2",
+          "operatorName": "Bus 2",
+          "authUser": "0",
+          "authUserName": null,
+          "outstandingAuth": "1",
+          "actionCode": "",
+          "productCode": "",
+          "authFlag": false,
+          "rejectFlag": true,
+          "txnDate": "2019-09-17-12.48.08.227382"
+        },
+        {
+          "transactionTypeCode": "XOTR",
+          "transactionType": "Inter Account Transfer",
+          "transactionDate": "2019-09-17-12.48.37.678877",
+          "amount": {
+            "curr": "R",
+            "amt": "47.89"
+          },
+          "accountNumber": "",
+          "selectedOperator": "2",
+          "operatorName": "Bus 2",
+          "authUser": "0",
+          "authUserName": null,
+          "outstandingAuth": "1",
+          "actionCode": "",
+          "productCode": "",
+          "authFlag": false,
+          "rejectFlag": true,
+          "txnDate": "2019-09-17-12.48.37.678877"
+        },
+        {
+          "transactionTypeCode": "CDPM",
+          "transactionType": "Pay Beneficiary",
+          "transactionDate": "2019-09-17-12.50.03.786981",
+          "amount": {
+            "curr": "R",
+            "amt": "78.99"
+          },
+          "accountNumber": "",
+          "selectedOperator": "2",
+          "operatorName": "Bus 2",
+          "authUser": "0",
+          "authUserName": null,
+          "outstandingAuth": "1",
+          "actionCode": "",
+          "productCode": "",
+          "authFlag": false,
+          "rejectFlag": true,
+          "txnDate": "2019-09-17-12.50.03.786981"
+        },
+        {
+          "transactionTypeCode": "CDPM",
+          "transactionType": "Pay Beneficiary",
+          "transactionDate": "2019-09-17-12.51.17.888870",
+          "amount": {
+            "curr": "R",
+            "amt": "32.75"
+          },
+          "accountNumber": "",
+          "selectedOperator": "2",
+          "operatorName": "Bus 2",
+          "authUser": "0",
+          "authUserName": null,
+          "outstandingAuth": "1",
+          "actionCode": "",
+          "productCode": "",
+          "authFlag": false,
+          "rejectFlag": true,
+          "txnDate": "2019-09-17-12.51.17.888870"
+        },
+        {
+          "transactionTypeCode": "CDPM",
+          "transactionType": "Pay Beneficiary",
+          "transactionDate": "2019-09-17-12.51.43.205182",
+          "amount": {
+            "curr": "R",
+            "amt": "25.55"
+          },
+          "accountNumber": "",
+          "selectedOperator": "2",
+          "operatorName": "Bus 2",
+          "authUser": "0",
+          "authUserName": null,
+          "outstandingAuth": "1",
+          "actionCode": "",
+          "productCode": "",
+          "authFlag": false,
+          "rejectFlag": true,
+          "txnDate": "2019-09-17-12.51.43.205182"
+        },
+        {
+          "transactionTypeCode": "CLRM",
+          "transactionType": "Cash Send",
+          "transactionDate": "2019-09-17-12.52.26.662987",
+          "amount": {
+            "curr": "R",
+            "amt": "150.00"
+          },
+          "accountNumber": "I",
+          "selectedOperator": "2",
+          "operatorName": "Bus 2",
+          "authUser": "0",
+          "authUserName": null,
+          "outstandingAuth": "1",
+          "actionCode": "I",
+          "productCode": "",
+          "authFlag": false,
+          "rejectFlag": true,
+          "txnDate": "2019-09-17-12.52.26.662987"
+        },
+        {
+          "transactionTypeCode": "CLRM",
+          "transactionType": "Cash Send",
+          "transactionDate": "2019-09-17-12.53.50.818797",
+          "amount": {
+            "curr": "R",
+            "amt": "200.00"
+          },
+          "accountNumber": "I",
+          "selectedOperator": "2",
+          "operatorName": "Bus 2",
+          "authUser": "0",
+          "authUserName": null,
+          "outstandingAuth": "1",
+          "actionCode": "I",
+          "productCode": "",
+          "authFlag": false,
+          "rejectFlag": true,
+          "txnDate": "2019-09-17-12.53.50.818797"
+        },
+        {
+          "transactionTypeCode": "CLRM",
+          "transactionType": "Cash Send",
+          "transactionDate": "2019-09-17-12.55.56.546754",
+          "amount": {
+            "curr": "R",
+            "amt": "500.00"
+          },
+          "accountNumber": "I",
+          "selectedOperator": "2",
+          "operatorName": "Bus 2",
+          "authUser": "0",
+          "authUserName": null,
+          "outstandingAuth": "1",
+          "actionCode": "I",
+          "productCode": "",
+          "authFlag": false,
+          "rejectFlag": true,
+          "txnDate": "2019-09-17-12.55.56.546754"
+        },
+        {
+          "transactionTypeCode": "CELR",
+          "transactionType": "Prepaid",
+          "transactionDate": "2019-09-17-12.56.42.782312",
+          "amount": {
+            "curr": "R",
+            "amt": "33.00"
+          },
+          "accountNumber": "",
+          "selectedOperator": "2",
+          "operatorName": "Bus 2",
+          "authUser": "0",
+          "authUserName": null,
+          "outstandingAuth": "1",
+          "actionCode": "",
+          "productCode": "",
+          "authFlag": false,
+          "rejectFlag": true,
+          "txnDate": "2019-09-17-12.56.42.782312"
+        },
+        {
+          "transactionTypeCode": "CELR",
+          "transactionType": "Prepaid",
+          "transactionDate": "2019-09-17-12.57.22.057526",
+          "amount": {
+            "curr": "R",
+            "amt": "499.00"
+          },
+          "accountNumber": "",
+          "selectedOperator": "2",
+          "operatorName": "Bus 2",
+          "authUser": "0",
+          "authUserName": null,
+          "outstandingAuth": "1",
+          "actionCode": "",
+          "productCode": "",
+          "authFlag": false,
+          "rejectFlag": true,
+          "txnDate": "2019-09-17-12.57.22.057526"
+        },
+        {
+          "transactionTypeCode": "IIP",
+          "transactionType": "Immediate Interbank Payment",
+          "transactionDate": "2019-09-17-12.58.03.721460",
+          "amount": {
+            "curr": "R",
+            "amt": "500.00"
+          },
+          "accountNumber": "",
+          "selectedOperator": "2",
+          "operatorName": "Bus 2",
+          "authUser": "0",
+          "authUserName": null,
+          "outstandingAuth": "1",
+          "actionCode": "",
+          "productCode": "",
+          "authFlag": false,
+          "rejectFlag": true,
+          "txnDate": "2019-09-17-12.58.03.721460"
+        },
+        {
+          "transactionTypeCode": "CPLS",
+          "transactionType": "Delete CashSend Plus",
+          "transactionDate": "2020-09-04-14.59.26.552981",
+          "amount": {
+            "curr": "R",
+            "amt": "30.00"
+          },
+          "accountNumber": "D",
+          "selectedOperator": "1",
+          "operatorName": "B GOPALSP",
+          "authUser": "1",
+          "authUserName": "B GOPALSP",
+          "outstandingAuth": "1",
+          "actionCode": "D",
+          "productCode": "",
+          "authFlag": false,
+          "rejectFlag": true,
+          "txnDate": "2020-09-04-14.59.26.552981"
+        }
+      ]
+    }
+  }
+}

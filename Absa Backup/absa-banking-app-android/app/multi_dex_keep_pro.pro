@@ -1,0 +1,55 @@
+-keep class com.newrelic.** { *; }
+-keep class com.google.firebase.** { *; }
+-keep class com.firebase.jobdispatcher.** { *; }
+-keep class androidx.core.content.FileProvider
+-keep class androidx.lifecycle.**
+-keep class com.adobe.mobile.MobileConfig
+-keep class com.adobe.mobile.Analytics
+-keep class com.adobe.mobile.Messages$*
+-keep class com.imimobile.connect.core.d.** { *; }
+-keep class com.imimobile.connect.core.ICLogger { *; }
+-keep class com.imimobile.connect.core.ICConfig { *; }
+-keep class com.imimobile.connect.core.internal
+-keep class com.imimobile.connect.core.IMIconnect$*
+-keep class com.imimobile.connect.core.internal.policy.PolicyUpdateJobIntentService
+-keep class com.imimobile.connect.core.internal.policy.a.c.If
+-keep class com.imimobile.connect.core.internal.policy.a.b.c.if
+-keep class com.imimobile.connect.core.internal.policy.a.d.ı
+-keep class com.imimobile.connect.core.internal.policy.ɩ
+-keep class com.imimobile.connect.core.internal.d.e.І
+-keep class com.imimobile.connect.core.internal.d.e.If$*
+-keep class com.imimobile.connect.core.internal.d.e.If.*
+-keep class com.barclays.absa.banking.framework.SessionManager { *; }
+-keep class com.barclays.absa.banking.presentation.sessionTimeout.SessionTimeoutManager$*
+-keep class com.barclays.absa.banking.presentation.launch.SplashActivity
+-keep class com.barclays.absa.banking.newToBank.NewToBankActivity
+-keep class com.barclays.absa.banking.framework.app.BMBApplication$*
+-keep class com.barclays.absa.banking.framework.app.BMBApplication.*$*
+-keep class com.barclays.absa.banking.framework.twoFactorAuthentication.TransaktHandler$*
+-keep class com.barclays.absa.banking.framework.twoFactorAuthentication.TransaktSdkAuthReceiver$*
+-keep class com.barclays.absa.banking.framework.twoFactorAuthentication.VerificationRequestProcessor
+-keep class androidx.appcompat.app.AppCompatViewInflater
+-keep class androidx.appcompat.widget.FitWindowsLinearLayout
+-keep class androidx.constraintlayout.widget.ConstraintLayout { *; }
+-keep class com.barclays.absa.utils.SharedPreferenceService
+-keep class com.barclays.absa.utils.ISharedPreferenceService
+-keep class com.airbnb.lottie.LottieAnimationView
+-keep class com.barclays.absa.banking.framework.data.database.**
+-keep class com.barclays.absa.banking.presentation.launch.SplashScreenPresenter$1
+-keep class com.google.android.gms.common.internal.zzd
+-keep class com.google.android.gms.common.api.internal.LifecycleActivity
+-keep class com.google.android.gms.common.api.internal.zzc
+-keep class com.barclays.absa.utils.fileUtils.FileReaderUtils
+-keep class com.fasterxml.jackson.databind.**
+-keep class com.fasterxml.jackson.core.util.TextBuffer
+-keep class com.barclays.absa.banking.framework.featureSwitching.FeatureSwitchingStates
+-keep class com.barclays.absa.banking.framework.featureSwitching.FeatureSwitchingCache$*
+-keep class androidx.databinding.DataBinderMapperImpl
+-keep class androidx.databinding.ViewDataBinding
+-keep class com.adobe.mobile.AnalyticsTrackState
+-keep class com.imimobile.connect.core.internal.*
+-keep class com.imimobile.connect.core.internal.k.*
+-keep class com.barclays.absa.utils.CommonUtils
+-keep class com.fasterxml.jackson.databind.deser.BeanDeserializerFactory
+-keep class com.trusteer.otrf.x.** { *; }
+-dontwarn org.eclipse.jetty.**

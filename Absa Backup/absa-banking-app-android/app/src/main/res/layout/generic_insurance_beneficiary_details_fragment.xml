@@ -1,0 +1,96 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scrollView"
+    style="@style/ScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/titleNormalInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_hint_text="@string/insurance_beneficiary_title_hint"
+            app:attribute_selector_type="LONG_LIST"
+            app:attribute_title_text="@string/insurance_title"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/firstNameNormalInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_hint_text="@string/insurance_beneficiary_name_hint"
+            android:digits="@string/free_cover_normalInputView_allowed_characters"
+            app:attribute_editable="true"
+            app:attribute_title_text="@string/insurance_first_name"
+            android:inputType="textCapWords|textVisiblePassword"
+            android:maxLength="50"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/titleNormalInputView" />
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/surnameNormalInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_hint_text="@string/insurance_beneficiary_surname_hint"
+            app:attribute_title_text="@string/insurance_surname_title"
+            android:digits="@string/free_cover_normalInputView_allowed_characters"
+            app:attribute_editable="true"
+            android:inputType="textCapWords|textVisiblePassword"
+            android:maxLength="50"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/firstNameNormalInputView" />
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/categoryNormalInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_hint_text="@string/insurance_category_hint"
+            app:attribute_selector_type="LONG_LIST"
+            app:attribute_title_text="@string/insurance_category"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/surnameNormalInputView" />
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/relationshipNormalInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_hint_text="@string/insurance_relationship_hint"
+            app:attribute_selector_type="LONG_LIST"
+            app:attribute_title_text="@string/insurance_relationship_title"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/categoryNormalInputView" />
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/dateOfBirthNormalInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_hint_text="@string/insurance_date_of_birth_hint"
+            app:attribute_selector_type="DATE"
+            app:attribute_title_text="@string/insurance_date_of_birth_title"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/relationshipNormalInputView" />
+
+        <styleguide.buttons.Button
+            android:id="@+id/continueButton"
+            style="@style/PrimaryButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/continue_button"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/dateOfBirthNormalInputView"
+            app:layout_constraintVertical_bias="1" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

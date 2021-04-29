@@ -1,0 +1,102 @@
+{
+      "successResponseModel": {
+        "payHdr": {
+          "resId": "RES0850",
+          "resCde": "00000",
+          "resMsg": "SUCCESS",
+          "serVer": "2.0",
+          "expTrace": null
+        },
+        "payData": {
+          "inceptionDate": "2020-04-01",
+          "expiryDate": "2110-12-12",
+          "rolePlayerJsonBean": [
+            {
+              "firstName": "",
+              "surName": "",
+              "dateOfBirth": "",
+              "coverAmount": {
+                "curr": "R",
+                "amt": "20,000"
+              },
+              "premiumAmount": {
+                "curr": "R",
+                "amt": "58.06"
+              },
+              "description": "Funeral-Member",
+              "isMainMember": "true",
+              "title": ""
+            }
+          ],
+          "componentsJsonBean": [
+            null
+          ],
+          "dtoJsonBean": {
+            "policyDescription": "Enhanced Flexi Funeral",
+            "policyNumber": "6633691175",
+            "coverAmount": {
+              "curr": "R",
+              "amt": ""
+            },
+            "premiumAmount": {
+              "curr": "R",
+              "amt": ""
+            },
+            "policyStatus": "",
+            "policyType": "Exergy",
+            "processingType": "",
+            "manageClaims": "",
+            "financialInstitRef": null,
+            "productCode": null,
+            "renewDate": null
+          },
+          "claimTypeST": null,
+          "numberOfBenefits": 2,
+          "noOfRolePlayers": 2,
+          "policyFee": {
+            "curr": "",
+            "amt": ""
+          },
+          "paymentDTO": {
+            "sourceOfFund": "20",
+            "bankName": "ABSA Bank",
+            "accountHolderName": "Account - 4048161511",
+            "accountNumber": "4048161511",
+            "accountType": "savingsAccount",
+            "branchName": "Absa Electronic Settlement Cnt",
+            "branchCode": "632005",
+            "nextPremiumDate": "2020-06-01",
+            "premiumFrequency": "Monthly",
+            "annualPremiumIncreaseRate": "5.0"
+          },
+          "wsCoverDetailsList": null,
+          "lifeBeneficiaries": [
+            {
+              "title": "60",
+              "firstName": "JAPAN",
+              "surname": "BONSAI",
+              "initials": "BJ",
+              "idType": null,
+              "idNumber": null,
+              "dateOfBirth": "1990-12-12",
+              "relationship": "0",
+              "lifeClientCode": "26DAF674-E286-467D-9E61-AB7C00C749DD",
+              "cellphoneNumber": null,
+              "emailAddress": null,
+              "address": {
+                "addressLine1": "",
+                "addressLine2": "",
+                "suburbRsa": "",
+                "town": "",
+                "postalCode": ""
+              },
+              "roleNumber": null,
+              "allocation": "100",
+              "fullName": " JAPAN BONSAI"
+            }
+          ],
+          "maxBenAllowed": "5",
+          "noOfBeneficiaries": "1"
+        }
+      }
+    }

@@ -1,0 +1,36 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0619",
+      "resCde": "00000",
+      "resMsg": "Transaction timed out. Try again later.",
+      "serVer": "2.0",
+      "expTrace": null
+    },
+    "payData": {
+      "benNam": null,
+      "txnAmt": {
+        "curr": "R",
+        "amt": "35.00"
+      },
+      "txnRefNo": null,
+      "txnStatus": "FAILURE",
+      "txnMsg": "Transaction timed out. Try again later.",
+      "frmAcctNo": "9050993539",
+      "frmAcctTyp": "Savings account",
+      "cellNo": "0731110007",
+      "networkProvider": "M",
+      "airtimeTyp": "Airtime",
+      "networkProviderName": "MTN",
+      "sureCheckFlag": null,
+      "tvnFlag": null,
+      "referenceNumber": null,
+      "corelationId": null,
+      "transactionDate": null,
+      "cellnumber": null,
+      "email": null,
+      "notificationMethod": null,
+      "txnMessage": null
+    }
+  }
+}

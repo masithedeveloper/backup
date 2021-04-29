@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="risk_based_approach_employment_status">Employment status</string>
+    <string name="risk_based_approach_update_personal_information">Please update your personal information</string>
+    <string name="risk_based_approach_employment_status_hint">Choose your employment status</string>
+    <string name="risk_based_approach_occupation">Occupation</string>
+    <string name="risk_based_approach_occupation_hint">Choose your occupation</string>
+    <string name="risk_based_approach_source_of_funds_hint">Choose a source of funds</string>
+    <string name="risk_based_approach_occupation_error_message">Please choose an occupation</string>
+    <string name="risk_based_approach_employment_status_error_message">Please choose an employment status</string>
+    <string name="risk_based_approach_source_of_funds_error_message">Please choose a source of funds</string>
+    <string name="risk_based_approach_unable_to_continue">Unfortunately your application request can not be completed via the app. Please visit your nearest branch for more information.</string>
+    <string name="risk_based_approach_select_employment_status">Select Employment status</string>
+    <string name="risk_based_approach_select_occupation">Select Occupation</string>
+    <string name="risk_based_approach_select_source_of_funds">Select Source Of Funds</string>
+    <string name="risk_based_approach_personal_details_toolbar_title">Personal details</string>
+    <string name="risk_based_approach_failure_private">We require additional information to complete your application. Please contact your Banker or call 0861 000 734 for assistance.</string>
+    <string name="risk_based_approach_failure_message">To process your application, please visit your nearest branch with your ID and Proof of Residence (e.g. a water or electricity bill) not older than 3 months.</string>
+    <string name="risk_based_approach_casa_failure_message">Your Absa profile needs to be updated\n\nPlease visit a branch to update your profile information to proceed.</string>
+    <string name="risk_based_approach_fica_failure_message">Your Absa profile needs to be updated\n\nPlease logon to Absa Online, or visit a branch to update your profile information to proceed.</string>
+</resources>

@@ -1,0 +1,14 @@
+{
+  "payHdr": {
+    "resMsg": "",
+    "resId": "RES0572",
+    "resCde": "00000",
+    "serVer": "2.0",
+    "expTrace": null
+  },
+  "payData": {
+    "authStatusCode": "accept",
+    "txnStatus": "SUCCESS",
+    "txnMsg": "Payment scheduled. Please note this transaction was submitted as a future-dated payment. This payment can still be returned by the System if there are insufficient funds in the account on the payment date, or if the customer cancels the transaction before the payment date"
+  }
+}

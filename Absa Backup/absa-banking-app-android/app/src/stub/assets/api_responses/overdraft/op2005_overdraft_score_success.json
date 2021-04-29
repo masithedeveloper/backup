@@ -1,0 +1,26 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES2005",
+      "resCde": "00000",
+      "resMsg": "Success",
+      "serVer": "2.0",
+      "expTrace": null
+    },
+    "payData": {
+      "preApprovedInd": "Y",
+      "income": "50000",
+      "approvedAmount": "5000",
+      "expenses": "3000",
+      "cppAmount": 23.0,
+      "totalMonthlyGrossIncome": "80000",
+      "totalMonthlyNetIncome": "80000",
+      "totalMonthlyLivingExpenses": "3000",
+      "totalMonthlyDisableIncome": "50000",
+      "customerBureauCommitments": "3000",
+      "customerMaintenanceExpenses": "3000",
+      "txnStatus": "Success",
+      "txnMessage": "Success"
+    }
+  }
+}

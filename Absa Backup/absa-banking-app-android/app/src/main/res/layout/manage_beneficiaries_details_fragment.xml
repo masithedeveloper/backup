@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scrollView"
+    style="@style/ScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/titleNormalInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:maxLength="50"
+            app:attribute_hint_text="@string/manage_policy_beneficiaries_title_hint"
+            app:attribute_selector_type="SEARCHABLE_LONG_LIST"
+            app:attribute_title_text="@string/manage_policy_beneficiaries_title"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/firstNameNormalInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:digits="@string/manage_policy_beneficiaries_allowed_characters"
+            android:inputType="textCapWords|textVisiblePassword"
+            android:maxLength="50"
+            app:attribute_hint_text="@string/manage_policy_beneficiaries_first_name_hint"
+            app:attribute_title_text="@string/manage_policy_beneficiaries_first_name"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/titleNormalInputView" />
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/surnameNormalInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:digits="@string/manage_policy_beneficiaries_allowed_characters"
+            android:inputType="textCapWords|textVisiblePassword"
+            android:maxLength="50"
+            app:attribute_hint_text="@string/manage_policy_beneficiaries_surname_hint"
+            app:attribute_title_text="@string/ultimate_protector_surname"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/firstNameNormalInputView" />
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/categoryNormalInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:maxLength="50"
+            app:attribute_hint_text="@string/manage_policy_beneficiaries_category_hint"
+            app:attribute_selector_type="LONG_LIST"
+            app:attribute_title_text="@string/relationship_category"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/surnameNormalInputView" />
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/relationshipNormalInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:maxLength="50"
+            android:visibility="gone"
+            app:attribute_hint_text="@string/manage_policy_beneficiaries_relationship_hint"
+            app:attribute_selector_type="LONG_LIST"
+            app:attribute_title_text="@string/relationship"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/categoryNormalInputView" />
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/dateOfBirthNormalInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:maxLength="50"
+            app:attribute_editable="false"
+            app:attribute_hint_text="@string/manage_policy_beneficiaries_date_of_birth_hint"
+            app:attribute_selector_type="DATE"
+            app:attribute_title_text="@string/date_of_birth"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/relationshipNormalInputView" />
+
+        <styleguide.content.HeadingView
+            android:id="@+id/identificationHeadingView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_heading="@string/manage_policy_beneficiaries_identification_type"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/dateOfBirthNormalInputView" />
+
+        <styleguide.forms.RadioButtonView
+            android:id="@+id/identificationRadioButtonView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/identificationHeadingView" />
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/identificationNormalInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:digits="@string/allowed_reference_digits"
+            android:maxLength="50"
+            android:visibility="gone"
+            app:attribute_hint_text="@string/manage_policy_beneficiaries_number_hint"
+            app:attribute_selector_type="NONE"
+            app:attribute_title_text="@string/manage_policy_beneficiaries_identification_number"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/identificationRadioButtonView" />
+
+        <styleguide.forms.NormalInputView
+            android:id="@+id/sourceOfFundsNormalInputView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:maxLength="50"
+            android:visibility="gone"
+            app:attribute_selector_type="LONG_LIST"
+            app:attribute_title_text="@string/manage_policy_beneficiaries_source_of_funds"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/identificationNormalInputView" />
+
+        <styleguide.buttons.Button
+            android:id="@+id/continueButton"
+            style="@style/PrimaryButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/continue_button"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/sourceOfFundsNormalInputView"
+            app:layout_constraintVertical_bias="1" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

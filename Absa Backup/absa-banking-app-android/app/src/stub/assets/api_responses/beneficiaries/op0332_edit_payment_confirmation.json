@@ -1,0 +1,52 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0332",
+      "resCde": "00000",
+      "resMsg": "",
+      "serVer": "2.0",
+      "expTrace": null
+    },
+    "payData": {
+      "addUpdBen": {
+        "tiebNumber": "0",
+        "benTyp": "payment",
+        "shortName": null,
+        "benSurNam": null,
+        "benNoticeTyp": "S",
+        "cellNo": null,
+        "benNam": "Jdj",
+        "myRef": "Je",
+        "isFav": null,
+        "networkProv": null,
+        "benStatusTyp": "Active",
+        "bankNam": "ABSA BANK",
+        "branchNam": "632005",
+        "branchCd": "632005",
+        "actNo": "9050571541",
+        "actTyp": "",
+        "myNoticeTyp": "No",
+        "myMobile": "******1778",
+        "myEmail": "prashant.xaa.sharma@barclayscorp.com",
+        "myFaxCode": "2711",
+        "myFaxNum": "5077948",
+        "myRecipientNam": null,
+        "benRef": "Je",
+        "benMobile": "0731110005",
+        "benEmail": null,
+        "benFaxCode": "",
+        "benFaxNum": null,
+        "benRecipientNam": "Jdj",
+        "benId": "403",
+        "networkProviderName": null,
+        "acctAtInst": "",
+        "instNam": "Jdj",
+        "hasImage": "N"
+      },
+      "status": "Success",
+      "txnRefNo": "15275918365697",
+      "msg": null,
+      "ownDto": null
+    }
+  }
+}

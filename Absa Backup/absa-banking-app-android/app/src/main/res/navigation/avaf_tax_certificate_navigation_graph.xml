@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/avaf_tax_certificate_navigation_graph"
+    app:startDestination="@id/certificateFragment">
+
+    <fragment
+        android:id="@+id/certificateFragment"
+        android:name="com.barclays.absa.banking.avaf.documentRequest.ui.certificates.AvafCertificateFragment"
+        android:label="fragment_certificate"
+        tools:layout="@layout/avaf_document_request_base_fragment">
+        <action
+            android:id="@+id/action_certificateFragment_to_certificateConfirmationFragment"
+            app:destination="@id/certificateConfirmationFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+    </fragment>
+    <fragment
+        android:id="@+id/certificateConfirmationFragment"
+        android:name="com.barclays.absa.banking.avaf.documentRequest.ui.certificates.AvafCertificateConfirmationFragment"
+        android:label="fragment_certificate_confirmation"
+        tools:layout="@layout/avaf_document_request_confirmation_fragment">
+        <action
+            android:id="@+id/action_certificateConfirmationFragment_to_documentReqResultFragment"
+            app:destination="@id/documentReqResultFragment"
+            app:enterAnim="@anim/fadein"
+            app:exitAnim="@anim/fadeout"
+            app:popEnterAnim="@anim/fadein"
+            app:popExitAnim="@anim/fadeout" />
+        <argument
+            android:name="documentDetails"
+            app:argType="com.barclays.absa.banking.avaf.documentRequest.ui.DocumentRequestDetails" />
+    </fragment>
+    <fragment
+        android:id="@+id/documentReqResultFragment"
+        android:name="styleguide.screens.GenericResultScreenFragment"
+        android:label="settlementQuoteResultFragment"
+        tools:layout="@layout/generic_results_screen_fragment">
+        <argument
+            android:name="GenericResultScreenFragment"
+            app:argType="styleguide.screens.GenericResultScreenProperties" />
+    </fragment>
+</navigation>

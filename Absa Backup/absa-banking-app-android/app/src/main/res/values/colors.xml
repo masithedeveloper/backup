@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bottom_sheet_title">#2B8BB5</color>
+    <color name="dim_background">#323232</color>
+    <!--Pre styleguide colors-->
+    <color name="color_0D222222">#0D222222</color>
+    <color name="color_33969696">#33969696</color>
+    <color name="color_400074A6">#400074A6</color>
+    <color name="color_40FFFFFF">#40FFFFFF</color>
+    <color name="color_48FFFFFF">#48FFFFFF</color>
+    <color name="color_61222222">#61222222</color>
+    <color name="color_76FFFFFF">#76FFFFFF</color>
+    <color name="color_881075A5">#881075A5</color>
+
+    <color name="color_42000000">#42000000</color>
+    <color name="color_8A000000">#8A000000</color>
+    <color name="color_B3000000">#B3000000</color>
+
+    <color name="color_8A222222">#8A222222</color>
+    <color name="color_8AFFFFFF">#8AFFFFFF</color>
+    <color name="color_960074A6">#960074A6</color>
+    <color name="divider">#1F222222</color>
+    <color name="color_1F222222">#1F222222</color>
+    <color name="color_FF555555">#FF555555</color>
+    <color name="color_55000000">#55000000</color>
+    <color name="color_1FFFFFFF">#1FFFFFFF</color>
+    <color name="color_DE222222">#DE222222</color>
+    <color name="color_FF009688">#FF009688</color>
+    <color name="color_FF222222">#FF222222</color>
+    <color name="color_FF424242">#FF424242</color>
+    <color name="color_FFAAAAAA">#FFAAAAAA</color>
+    <color name="color_FF767676">#FF767676</color>
+    <color name="color_FFCCCCCC">#FFCCCCCC</color>
+    <color name="color_FFF4F4F4">#FFF4F4F4</color>
+    <color name="color_FFF4511E">#FFF4511E</color>
+    <color name="color_FFFF3333">#FFFF3333</color>
+
+    <!-- 2FA style guide (and their Zeplin names) -->
+    <color name="color_00B2B2B2">#00B2B2B2</color> <!-- #greyish -->
+    <color name="color_002E3034">#002E3034</color> <!-- #charcoal_grey_0 -->
+    <color name="color_003D4859">#003D4859</color> <!-- #slate_0 -->
+    <color name="color_FF2E3135">#FF2E3135</color> <!-- #charcoal_grey -->
+    <color name="color_FFA31E29">#FFA31E29</color> <!-- #rouge_two -->
+    <color name="color_FFFBFBFB">#FFFBFBFB</color>
+    <color name="color_FB999999">#FB999999</color> <!-- #warm_grey_98 -->
+    <color name="color_FFEDEDED">#FFEDEDED</color> <!-- #white_three -->
+    <color name="white_three">#FFEDEDED</color>
+    <color name="color_FFCA4E57">#FFCA4E57</color> <!-- #deep_rose -->
+    <color name="color_FF324E5C">#FF324E5C</color> <!-- #dark_grey_blue_three -->
+    <color name="color_FF20506F">#FF20506F</color> <!-- #dark_slate_blue -->
+    <color name="color_FF8A1922">#FF8A1922</color> <!-- Maroon Dark -->
+    <color name="color_FF798A93">#FF798A93</color> <!--bluish_grey-->
+    <color name="color_FF5B6A72">#FF5B6A72</color>
+    <color name="color_FF07B8E9">#FF07B8E9</color><!--Bright Blue-->
+    <color name="color_FF07B8F9">#4a90e2</color>
+    <color name="color_FFA1222D">#FFA1222D</color><!-- #rouge_three -->
+    <color name="color_FF556584">#FF556584</color><!-- #darkGreyBlue (auth blue) -->
+    <color name="color_FF62BC7B">#FF62BC7B</color><!-- #darkGreyBlue [auth green (accept) ] -->
+    <color name="color_FF59BF75">#FF59BF75</color><!-- #darkGreyBlue [auth green (accept) ] -->
+    <color name="color_88AAAAAA">#88AAAAAA</color>
+
+    <!--Brand bible-->
+    <color name="color_00000000">#00000000</color>  <!-- Transparent -->
+    <color name="color_D5000000">#D5000000</color>  <!--  Black opacity 84%-->
+    <color name="color_FF000000">#FF000000</color>  <!-- Black -->
+    <color name="color_FF262F3C">#FF262F3C</color>  <!-- Purple Dark -->
+    <color name="color_FF374154">#FF374154</color>  <!-- Purple Light / #dark_grey_blue_two -->
+    <color name="color_FF414042">#FF414042</color>
+    <color name="color_FF54727E">#FF54727E</color>
+    <color name="color_FF59595B">#FF59595B</color>
+    <color name="color_FF666666">#FF666666</color>  <!-- Dark Grey -->
+    <color name="color_FF72A309">#FF72A309</color>  <!-- Green -->
+    <color name="color_FF808285">#FF808285</color>
+    <color name="color_FF999999">#FF999999</color>  <!-- Grey 500 -->
+    <color name="color_FFCC3333">#FFCC3333</color>  <!-- Red -->
+    <color name="color_FFE3E3E3">#FFE3E3E3</color>  <!-- Grey 25% -->
+    <color name="color_FFE5801D">#FFE5801D</color>
+    <color name="color_FAAAAAAA">#aaaaaa</color>
+    <color name="color_FFE6E7E8">#FFE6E7E8</color>
+    <color name="color_FFF5F5F5">#FFF5F5F5</color>  <!-- Light Grey 10% -->
+    <color name="color_FFFFBE10">#FFFFBE10</color>  <!-- Yellow -->
+    <color name="color_33FFFFFF">#33FFFFFF</color>  <!-- White 20 opacity -->
+    <color name="color_22FFFFFF">#22FFFFFF</color>  <!-- White 20 opacity -->
+    <color name="color_FFFFFFFF">#FFFFFFFF</color>  <!-- White -->
+    <color name="color_FF878787">#FF878787</color>  <!-- off White1 -->
+    <color name="color_FF979797">#FF979797</color>  <!-- off White2 -->
+    <color name="color_80FFFFFF">#80FFFFFF</color>  <!-- White 50%-->
+    <color name="color_FF4A90E2">#FF4A90E2</color>
+
+    <!-- keep alive -->
+    <color name="color_green_connected">#72A309</color>
+    <color name="color_red_not_connected">#FF0000</color>
+    <color name="color_FFF1F1F1">#FFF1F1F1</color>
+
+    <color name="color_FFF9F9F9">#FFF9F9F9</color>
+
+    <color name="color_FFF8F8F8">#FFF8F8F8</color>
+
+    <!--debi rejection background-->
+    <color name="color_F6F6F6">#f6f6f6</color>
+
+    <color name="sure_check_background">#d9d50032</color>
+    <color name="progress_indicator_overlay">#66000000</color>
+</resources>

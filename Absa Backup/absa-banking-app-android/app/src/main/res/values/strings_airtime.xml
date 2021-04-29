@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="for_new_beneficiary">For new beneficiary</string>
+    <string name="with_absa_rewards">With Absa Rewards</string>
+    <string name="recent_paid_beneficiaries">Recent paid beneficiaries</string>
+
+    <!-- new beneficiary strings -->
+    <string name="airtime_beneficiary_select_mobile_network">Select the mobile network operator you want</string>
+    <string name="airtime_beneficiary_add_photo_description">Add a photo</string>
+    <string name="airtime_beneficiary_add_contact_description">Select contact from phonebook</string>
+    <string name="airtime_mobile_number_header">Mobile number</string>
+    <string name="airtime_mobile_number_hint">Enter mobile number</string>
+    <string name="airtime_beneficiary_name_header">Name</string>
+    <string name="airtime_beneficiary_name_hint">Enter beneficiary name</string>
+    <string name="airtime_mobile_select_number">Select Number</string>
+    <string name="airtime_mobile_network_operator_header">Mobile network operator</string>
+    <string name="airtime_mobile_network_operator_hint">Select network operator</string>
+
+    <!-- mobile network strings -->
+    <string name="airtime_mobile_network_vodacom">Vodacom</string>
+    <string name="airtime_mobile_network_mtn">MTN</string>
+    <string name="airtime_mobile_network_cellc">Cell C</string>
+    <string name="airtime_mobile_network_telkom">Telkom Mobile</string>
+    <string name="airtime_mobile_network_virgin">Virgin Mobile</string>
+    <string name="airtime_mobile_network_error">At least one selection is required</string>
+
+    <!-- purchase details strings -->
+    <string name="airtime_mobile_prepaid_type_header">Prepaid Type</string>
+    <string name="airtime_mobile_prepaid_type_hint">Select Prepaid Type</string>
+    <string name="airtime_mobile_prepaid_amount_header">Amount</string>
+    <string name="airtime_mobile_prepaid_amount_hint">Select prepaid amount</string>
+    <string name="airtime_select_account_to_purchase_from">Select account to purchase from</string>
+    <string name="airtime_mobile_prepaid_from_account_header">From Account</string>
+    <string name="airtime_mobile_prepaid_from_account_hint">Select account</string>
+    <string name="airtime_mobile_prepaid_legal_text">Please note that Absa will not be held liable if you choose the incorrect service provider or key in an incorrect cellphone number. Prepaid purchases are irreversible</string>
+
+    <!-- purchase details overview strings -->
+    <string name="airtime_beneficiary_details_header">Beneficiary details</string>
+    <string name="airtime_beneficiary_name_label">Name</string>
+    <string name="airtime_beneficiary_phone_number_label">Mobile number</string>
+    <string name="airtime_beneficiary_provider_label">Mobile network operator</string>
+    <string name="airtime_purchase_amount_label">Purchase amount</string>
+    <string name="airtime_prepaid_type_label">Prepaid type</string>
+    <string name="airtime_from_account_label">From account</string>
+
+    <!-- buy airtime with rewards strings -->
+    <string name="prepaid_purchase_details">Purchase details</string>
+    <string name="prepaid_cash_rewards_available">Absa cash rewards available</string>
+    <string name="prepaid_mobile_number">Mobile number</string>
+    <string name="prepaid_enter_mobile_number">Enter mobile number</string>
+    <string name="rewards_icon">An image icon for rewards</string>
+    <string name="prepaid_mobile_network_operator">Mobile network operator</string>
+    <string name="prepaid_select_network_operator">Select network operator</string>
+    <string name="prepaid_voucher">Voucher</string>
+    <string name="prepaid_select_voucher">Select voucher</string>
+    <string name="prepaid_buy">Buy</string>
+    <string name="prepaid_from_account">From account</string>
+    <string name="prepaid_confirm_purchase">Confirm purchase</string>
+    <string name="prepaid_you_are_buying_a">You are buying a</string>
+    <string name="airtime_buy_prepaid">Buy Prepaid</string>
+    <string name="existing_bundle_error_message">This mobile number is already subscribed to this product. Please contact your Network Provider for further information.</string>
+</resources>

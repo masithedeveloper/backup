@@ -1,0 +1,32 @@
+{
+  "header": {
+    "statuscode": "0",
+    "userAgent": "PostmanRuntime/7.26.1",
+    "wfpt": null,
+    "jsessionid": "4becuVGiuQ4k27ZkFssLRVVCuMnI5i_T7tCIODz1",
+    "esessionid": null,
+    "xfpt": null,
+    "service": "CustomerDataValidationFacade",
+    "operation": "ValidatePersonalInformationDetails",
+    "channel": null,
+    "timestamp": "2020-08-12 14:25:19.490",
+    "sourceip": "22.241.133.158",
+    "accessAccount": null,
+    "userNumber": null,
+    "nonce": "joC2guYa1XLtQUCTw5jd6o7l5iPQfJiytLo1yP8OfP0",
+    "language": "en",
+    "organization": null,
+    "brand": null,
+    "applicationId": null,
+    "applicationKeyId": null,
+    "requestToken": null,
+    "resultMessages": [],
+    "paginationContext": null
+  },
+  "cvsValidationOutputVO": {
+    "cvsFieldValidationMessage": null,
+    "statusCode": 0
+  },
+  "resultMessage": null,
+  "referenceNumber": "B3Z-3JW-1JG-308"
+}

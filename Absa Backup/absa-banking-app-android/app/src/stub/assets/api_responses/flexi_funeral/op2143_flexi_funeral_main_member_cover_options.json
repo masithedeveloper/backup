@@ -1,0 +1,43 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES2143",
+      "resCde": "00000",
+      "resMsg": "Success",
+      "serVer": "2.0",
+      "expTrace": null
+    },
+    "payData": {
+      "policyFee": null,
+      "quotes": [
+        {
+          "coverAmount": "20000.0",
+          "monthlyPremium": "73.31",
+          "planCode": "10000002"
+        },
+        {
+          "coverAmount": "40000.0",
+          "monthlyPremium": "100.69",
+          "planCode": "10000004"
+        },
+        {
+          "coverAmount": "60000.0",
+          "monthlyPremium": "124.53",
+          "planCode": "10000006"
+        },
+        {
+          "coverAmount": "80000.0",
+          "monthlyPremium": "158.98",
+          "planCode": "10000008"
+        },
+        {
+          "coverAmount": "100000.0",
+          "monthlyPremium": "189.89",
+          "planCode": "10000010"
+        }
+      ],
+      "txnStatus": "Success",
+      "txnMessage": "Success"
+    }
+  }
+}

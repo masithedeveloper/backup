@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/ScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/estateLateDescriptionTextView"
+            style="@style/SmallTextRegularDark"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/medium_space"
+            android:text="@string/manage_policy_beneficiaries_estate_late_message"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <styleguide.content.SecondaryContentAndLabelView
+            android:id="@+id/beneficiaryNameLabelView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_is_secondary_check_box_checked="false"
+            app:attribute_secondary_label="@string/beneficiary_name"
+            app:attribute_should_show_check_box="false"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/estateLateDescriptionTextView" />
+
+        <styleguide.content.SecondaryContentAndLabelView
+            android:id="@+id/relationshipLabelView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_is_secondary_check_box_checked="false"
+            app:attribute_secondary_label="@string/relationship"
+            app:attribute_should_show_check_box="false"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/beneficiaryNameLabelView" />
+
+        <styleguide.content.SecondaryContentAndLabelView
+            android:id="@+id/sourceOfFundsLabelView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_is_secondary_check_box_checked="false"
+            app:attribute_secondary_label="@string/source_of_funds"
+            app:attribute_should_show_check_box="false"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/relationshipLabelView" />
+
+        <styleguide.content.SecondaryContentAndLabelView
+            android:id="@+id/dateOfBirthLabelView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_is_secondary_check_box_checked="false"
+            app:attribute_secondary_label="@string/date_of_birth"
+            app:attribute_should_show_check_box="false"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/sourceOfFundsLabelView" />
+
+        <styleguide.content.SecondaryContentAndLabelView
+            android:id="@+id/identificationTypeLabelView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_is_secondary_check_box_checked="false"
+            app:attribute_secondary_label="@string/manage_policy_beneficiary_identification_type"
+            app:attribute_should_show_check_box="false"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/dateOfBirthLabelView" />
+
+        <styleguide.content.SecondaryContentAndLabelView
+            android:id="@+id/identificationNumberLabelView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_is_secondary_check_box_checked="false"
+            app:attribute_secondary_label="@string/manage_policy_beneficiary_identification_number"
+            app:attribute_should_show_check_box="false"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/identificationTypeLabelView" />
+
+        <styleguide.content.SecondaryContentAndLabelView
+            android:id="@+id/addressLabelView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_is_secondary_check_box_checked="false"
+            app:attribute_secondary_label="@string/address"
+            app:attribute_should_show_check_box="false"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/identificationNumberLabelView" />
+
+        <styleguide.content.SecondaryContentAndLabelView
+            android:id="@+id/contactNumberLabelView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_is_secondary_check_box_checked="false"
+            app:attribute_secondary_label="@string/manage_policy_beneficiary_contact_number"
+            app:attribute_should_show_check_box="false"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/addressLabelView" />
+
+        <styleguide.content.SecondaryContentAndLabelView
+            android:id="@+id/emailAddressLabelView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:attribute_is_secondary_check_box_checked="false"
+            app:attribute_secondary_label="@string/manage_policy_beneficiary_email_address"
+            app:attribute_should_show_check_box="false"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/contactNumberLabelView" />
+
+        <View
+            android:id="@+id/divider"
+            style="@style/DividerView"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_1dp"
+            android:layout_marginTop="@dimen/small_space"
+            android:background="@color/silver_grey"
+            app:layout_constraintTop_toBottomOf="@id/emailAddressLabelView" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/beneficiariesRecyclerView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/divider"
+            tools:itemCount="3"
+            tools:listitem="@layout/manage_beneficiary_label_view_item" />
+
+        <styleguide.buttons.Button
+            android:id="@+id/confirmButton"
+            style="@style/PrimaryButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/medium_space"
+            android:layout_marginBottom="@dimen/medium_space"
+            android:text="@string/confirm"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/beneficiariesRecyclerView"
+            app:layout_constraintVertical_bias="1.0" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

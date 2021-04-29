@@ -1,0 +1,14 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0813",
+      "resCde": "00000",
+      "resMsg": null,
+      "serVer": "2.0",
+      "expTrace": null
+    },
+    "payData": {
+      "alias": "160830003836"
+    }
+  }
+}

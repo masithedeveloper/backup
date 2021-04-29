@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="stopped_debit_orders">Debietorders wat gestop is</string>
+    <string name="debit_order_select_account_description">Kies \’n rekening om al jou onlangse debietorders te besigtig</string>
+    <string name="debit_order_select_account">Kies rekening</string>
+    <string name="debit_order_select_account_number">Kies rekening</string>
+    <string name="select_recent_debit_orders">Onlangse debietorders</string>
+    <string name="no_stopped_debit_orders">Jy het geen debietorders nie</string>
+    <string name="no_debit_orders_found">Jy het geen onlangse debietorders nie. Net debietorders van die laaste 40 dae sal wys.</string>
+
+    <string name="recently_stopped_debit_order_select_account">Kies ’n rekening om jou debietorders wat onlangs gestop is, te besigtig.</string>
+    <string name="recent_stopped_debit_order">Debietorders wat onlangs gestop is</string>
+
+    <string name="debit_order_company">Maatskappy</string>
+    <string name="debit_order_amount">Amount</string>
+    <string name="debit_order_payment_date">Betaaldatum</string>
+    <string name="reference">Verwysing</string>
+    <string name="stop_debit_order">Stop debietorder</string>
+    <string name="reverse_payment">Swaai betaling om</string>
+
+    <string name="debit_order_information_title">Belangrike inligting</string>
+    <string name="stopped_debit_order_information_description">Jou debietorders wat gestop is, sal op die lys vir debietorders wat gestop is wys.</string>
+    <string name="stopped_debit_order_information_first_bullet">Jy kan \’n debietorder wat gestop is, omswaai.</string>
+    <string name="stopped_debit_order_information_second_bullet">Om \’n debietorder permanent te stop, moet jy dit by die diensverskaffer kanselleer.</string>
+    <string name="stopped_debit_order_information_third_bullet">Onthou, \’n debietorder wat gestop is, kan jou kredietgradering negatief raak.</string>
+    <string name="stopped_debit_order_information_forth_bullet">Na gelang van jou diensverskaffer, sal \’n instruksie om \’n debietorder te stop dalk nie die debietorder stop nie.</string>
+
+    <string name="reverse_debit_order_information_description">Wanneer jy \’n debietorderbetaling omswaai, sal jy nie die debietorder voor die volgende betaling kan stop nie.</string>
+    <string name="reverse_debit_order_information_first_bullet">Jy kan net een debietorderbetaling op \’n slag omswaai.</string>
+    <string name="reverse_debit_order_information_second_bullet">Onbetaalde debietorders kan jou kredietgradering negatief raak.</string>
+    <string name="reverse_debit_order_information_third_bullet">As jy vermoed dat die debietorder bedrog is, stel ons voor dat jy die betaling instruksie stop voordat jy dit omswaai.</string>
+    <string name="reverse_debit_order_information_forth_bullet">Sodra jy \’n betaling omswaai, sal dit van jou transaksielys af verdwyn.</string>
+
+    <string name="reverse_payment_title">Swaai Betaling Om</string>
+    <string name="select_reason_for_reversal">Kies rede vir omswaaiing</string>
+    <string name="select_reason_for_reversal_hint">Kies rede vir omswaaiing</string>
+    <string name="select_reason_for_reversal_error">Kies asseblief rede vir omswaaiing.</string>
+    <string name="accept_declaration_error">Aanvaar asseblief vrywaring.</string>
+    <string name="debit_order_reversal_terms">Ek stem hiermee in om verantwoordelikheid te neem vir enige eis, deur my of enige ander derde party, hoe dit ook al mag ontstaan, met betrekking tot die kreditering van hierdie betaling deur Absa (of enige ander bank).</string>
+
+    <string name="debit_order_reversal_reason_one">Ek het nie hierdie debietorder gemagtig nie.</string>
+    <string name="debit_order_reversal_reason_two">Die bedrag verskil van die bedrag waartoe ek ingestem het, of die bedrag is op die verkeerde datum ingevorder.</string>
+    <string name="debit_order_reversal_reason_third">Ek het die krediteur opdrag gegee om hierdie debietorder te kanselleer.</string>
+
+    <string name="debit_order_stopped">Debietorder is gestop</string>
+    <string name="debit_order_stopped_success_message">Daar is \’n instruksie ingedien om hierdie debietorder te stop. Kontak jou diensverskaffer om hierdie debietorder permanent te stop.</string>
+    <string name="debit_order_reversed">Debietorder omgeswaai</string>
+    <string name="debit_order_reversed_success_message">Ons het %s op jou rekening terugbetaal.</string>
+
+    <string name="debicheck_debit_orders">Debietorders</string>
+    <string name="debit_orders_contact_call_center">Skakel ons inbelsentrum</string>
+    <string name="debit_order_dispute_amount">Hierdie debietorder oorskry die limiet van %s vir debietorderstaking of -omswaaiing in die app. E-pos gerus debitorder@absa.africa of besoek jou naaste tak om hierdie debietorder te staak of om te swaai.</string>
+</resources>

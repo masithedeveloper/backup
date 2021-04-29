@@ -1,0 +1,43 @@
+{
+  "payHdr": {
+    "expTrace": "null",
+    "resCde": "00000",
+    "resId": "null",
+    "resMsg": "success",
+    "serVer": "2.0"
+  },
+  "payData": {
+    "headerText": "These are optional added services. Select the ones that you would like to include and one of our Bankers will contact you.",
+    "footerText": "*Shari'ah-compliant options available",
+    "options": [
+      {
+        "title": "Short-and-medium term funding solutions",
+        "desc": "(Overdraft, Credit Cards, Revolving Loans, Term Loans)",
+        "key": "rewardsVas1",
+        "value": "SHORT_AND_MEDIUM_TERM_FUNDING",
+        "visible": "true"
+      },
+      {
+        "title": "Asset Finance*",
+        "desc": "(Commercial Asset Finance, Commercial Property Finance)",
+        "key": "rewardsVas2",
+        "value": "ASSET_FINANCE",
+        "visible": "true"
+      },
+      {
+        "title": "Make and receive payments*",
+        "desc": "(Merchant solutions, payment acceptance solutions)",
+        "key": "rewardsVas3",
+        "value": "MAKE_AND_RECEIVE_PAYMENTS",
+        "visible": "true"
+      },
+      {
+        "title": "Savings and investment products*",
+        "desc": "(Notice deposits, term investments, Islamic investments)",
+        "key": "rewardsVas4",
+        "value": "SAVING_AND_INVESTMENT_PRODUCTS",
+        "visible": "true"
+      }
+    ]
+  }
+}

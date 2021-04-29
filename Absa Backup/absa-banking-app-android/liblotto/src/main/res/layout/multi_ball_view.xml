@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/multiBallLinearLayout"
+    android:layout_width="0dp"
+    android:layout_height="@dimen/lotto_board_size"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:weightSum="6"
+    tools:layout_width="match_parent">
+
+    <lotto.LottoBallView
+        android:id="@+id/ball1ImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <lotto.LottoBallView
+        android:id="@+id/ball2ImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <lotto.LottoBallView
+        android:id="@+id/ball3ImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <lotto.LottoBallView
+        android:id="@+id/ball4ImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <lotto.LottoBallView
+        android:id="@+id/ball5ImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <lotto.LottoBallView
+        android:id="@+id/ball6ImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+</LinearLayout>

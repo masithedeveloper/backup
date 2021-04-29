@@ -1,0 +1,28 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES0857",
+      "resCde": "00000",
+      "resMsg": "Success",
+      "serVer": "2.0"
+    },
+    "payData": {
+      "txnStatus": "Success",
+      "txnMessage": "Success",
+      "submitClaimsFNOLDTO": {
+        "claimType": "Bursting of geyser",
+        "hasTheItemAffectedBeenFixed": "NO",
+        "insuredProperty": "randburg , ,NORTHCLIFF EXT 3 ,JOHANNESBURG ,2195",
+        "anyAdditionalDamageToProperty": "NO",
+        "dateOfIncident": "2017-10-20",
+        "emailAddress": "gaurav.dua@absa.co.za",
+        "contactNumber": "0713196179",
+        "policyNumber": "6511498241",
+        "claimNumber": "798169",
+        "duplicateClaims": "N",
+        "causeCode": "GEYSER",
+        "claimCategory": "Geyser"
+      }
+    }
+  }
+}

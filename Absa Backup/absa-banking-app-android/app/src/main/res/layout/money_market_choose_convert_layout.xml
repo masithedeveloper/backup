@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <styleguide.content.BulletItemView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:attribute_content="@string/money_market_choose_product_account_number"
+        app:attribute_text_style="@style/SmallTextRegularDark" />
+
+    <styleguide.content.BulletItemView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:attribute_content="@string/money_market_choose_product_capital_guaranteed"
+        app:attribute_text_style="@style/SmallTextRegularDark" />
+
+    <styleguide.content.BulletItemView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:attribute_content="@string/money_market_choose_product_interest_rates"
+        app:attribute_text_style="@style/SmallTextRegularDark" />
+
+    <styleguide.content.BulletItemView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:attribute_content="@string/money_market_choose_product_deposit_online"
+        app:attribute_text_style="@style/SmallTextRegularDark" />
+
+    <styleguide.content.BulletItemView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:attribute_content="@string/money_market_choose_product_use_existing_card"
+        app:attribute_text_style="@style/SmallTextRegularDark" />
+
+    <TextView
+        style="@style/SmallTextRegularDark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/medium_space"
+        android:layout_marginTop="@dimen/medium_space"
+        android:layout_marginEnd="@dimen/medium_space"
+        android:text="@string/money_market_choose_product_notice_past_performance" />
+</LinearLayout>

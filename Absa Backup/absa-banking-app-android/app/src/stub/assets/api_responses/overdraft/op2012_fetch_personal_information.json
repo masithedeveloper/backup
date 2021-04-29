@@ -1,0 +1,69 @@
+{
+  "successResponseModel": {
+    "payHdr": {
+      "resId": "RES2012",
+      "resCde": "00000",
+      "resMsg": "SUCCESS",
+      "serVer": "2.0",
+      "expTrace": null
+    },
+    "payData": {
+      "customerInformation": {
+        "firstName": "NOMSA JUDITH",
+        "initials": "NJ",
+        "lastName": "ABSA TEST",
+        "dateOfBirth": "19480415",
+        "gender": null,
+        "identityNo": "4804151484186",
+        "identityType": "01",
+        "clientType": "00101",
+        "postalAddress": {
+          "addressLine1": "270 REPUBLIC RD",
+          "addressLine2": "",
+          "suburbRsa": "",
+          "town": "GLENVISTA",
+          "postalCode": "2091",
+          "country": null
+        },
+        "residentialAddress": {
+          "addressLine1": "153 RIETHAAN STREET",
+          "addressLine2": "234 Bodma Street",
+          "suburbRsa": "Centurion",
+          "town": "JOHANNESBURG",
+          "postalCode": "2001",
+          "country": "SA003"
+        },
+        "cellNumber": "0710000000",
+        "email": "ABC@IMSTEST.CO.ZA",
+        "sourceOfIncome": "20",
+        "employmentInformation": {
+          "highestLvlOfEducation": "05",
+          "postMetricInd": "Y",
+          "occupationStatus": "01",
+          "occupation": "06",
+          "occupationLevel": "03",
+          "occupationSector": "01",
+          "sectorDescription": "",
+          "doubleTaxCountry": "",
+          "exmptionAgreementIndicator": "",
+          "employerAddressDTO": {
+            "addressLine1": "FARMER BROWN",
+            "addressLine2": "180 COMMISSIONER STREET",
+            "suburbRsa": "",
+            "town": "JOHANNESBURG",
+            "postalCode": "2001",
+            "country": ""
+          },
+          "workTelephoneCode": "011",
+          "workNumber": "2123450",
+          "workTelephoneExtn": "",
+          "faxWorkCode": "",
+          "workFaxNumber": ""
+        },
+        "preferredContactMethod": "01"
+      },
+      "txnStatus": "Success",
+      "txnMessage": "Success"
+    }
+  }
+}

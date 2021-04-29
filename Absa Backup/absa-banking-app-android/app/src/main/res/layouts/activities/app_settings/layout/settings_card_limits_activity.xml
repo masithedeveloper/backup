@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ScrollView style="@style/ScrollView">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <include
+                android:id="@+id/toolbar"
+                layout="@layout/header_dark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <styleguide.content.CardView
+                android:id="@+id/cardView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginEnd="@dimen/medium_space"
+                android:layout_marginStart="@dimen/medium_space"
+                android:layout_marginTop="@dimen/small_space"
+                android:background="@color/absolute" />
+
+            <styleguide.content.PrimaryContentAndLabelView
+                android:id="@+id/newLimitPrimaryContentAndLabelView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/medium_space"
+                android:visibility="gone"
+                app:attribute_primary_label="@string/overall_credit_limit"
+                tools:attribute_primary_content="R 10 000.00" />
+
+            <styleguide.buttons.Button
+                android:id="@+id/increaseLimitButton"
+                style="@style/PrimaryButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:text="@string/vcl_increase_credit_limit"
+                android:visibility="gone" />
+
+            <View
+                android:id="@+id/overallCreditLimitDivider"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginEnd="@dimen/medium_space"
+                android:layout_marginStart="@dimen/medium_space"
+                android:layout_marginTop="@dimen/small_space"
+                android:background="@color/absolute"
+                android:visibility="gone" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/atmWithdrawalLimitNormalInputView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/tiny_space"
+                android:inputType="number"
+                app:attribute_editable="true"
+                app:attribute_selector_type="CURRENCY"
+                app:attribute_title_text="@string/title_atm_withdrawal_limit" />
+
+            <styleguide.bars.SliderView
+                android:id="@+id/atmWithdrawalLimitSlider"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/medium_space"
+                android:layout_marginStart="@dimen/medium_space"
+                android:layout_marginTop="@dimen/medium_space"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:attribute_end_text="@string/card_limits_max_limit_rand"
+                tools:attribute_max_value="150"
+                tools:attribute_start_text="@string/card_limits_min_limit_rand" />
+
+            <styleguide.forms.NormalInputView
+                android:id="@+id/pointOfSaleDailyLimitNormalInputView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/tiny_space"
+                android:inputType="number"
+                app:attribute_editable="true"
+                app:attribute_selector_type="CURRENCY"
+                app:attribute_title_text="@string/card_cl_pos" />
+
+            <styleguide.bars.SliderView
+                android:id="@+id/pointOfSaleDailyLimitSlider"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/medium_space"
+                android:layout_marginStart="@dimen/medium_space"
+                android:layout_marginTop="@dimen/medium_space"
+                app:attribute_max_value="150"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:attribute_end_text="@string/card_limits_max_limit_rand"
+                tools:attribute_start_text="@string/card_limits_min_limit_rand" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <styleguide.buttons.Button
+                android:id="@+id/saveButton"
+                style="@style/PrimaryButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:text="@string/action_save" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</layout>

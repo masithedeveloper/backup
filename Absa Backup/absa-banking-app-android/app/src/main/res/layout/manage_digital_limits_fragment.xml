@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ScrollView style="@style/ScrollView">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <styleguide.content.TitleAndDescriptionView
+                android:id="@+id/dailyPaymentLimitTitleAndDescription"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:attribute_description="@string/payment_daily_limit"
+                app:attribute_title="@string/currency"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <styleguide.bars.ProgressIndicatorView
+                android:id="@+id/dailyPaymentLimitProgressIndicatorView"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/progress_indicator_height"
+                android:layout_marginEnd="@dimen/medium_space"
+                android:layout_marginStart="@dimen/medium_space"
+                android:background="@drawable/progress_indicator_background"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/dailyPaymentLimitTitleAndDescription" />
+
+            <TextView
+                android:id="@+id/dailyPaymentAvailableDescriptionView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/medium_space"
+                android:layout_marginStart="@dimen/medium_space"
+                android:layout_marginTop="@dimen/medium_space"
+                android:gravity="start"
+                android:text="@string/currency_rand_available"
+                android:textColor="@color/graphite_light_theme_item_color"
+                android:textSize="@dimen/small_text_size"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/dailyPaymentLimitProgressIndicatorView" />
+
+            <TextView
+                android:id="@+id/dailyPaymentUsedDescriptionView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/medium_space"
+                android:layout_marginStart="@dimen/medium_space"
+                android:layout_marginTop="@dimen/tiny_space"
+                android:gravity="start"
+                android:text="@string/currency_rand_used"
+                android:textColor="@color/grey_light_theme_color"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/dailyPaymentAvailableDescriptionView" />
+
+            <styleguide.content.TitleAndDescriptionView
+                android:id="@+id/dailyAccountTransferLimitTitleAndDescription"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/small_text_size"
+                app:attribute_description="@string/interaccount_transfer_daily_limit"
+                app:attribute_title="@string/currency"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/dailyPaymentUsedDescriptionView" />
+
+            <styleguide.bars.ProgressIndicatorView
+                android:id="@+id/dailyAccountTransferLimitProgressIndicatorView"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/progress_indicator_height"
+                android:layout_marginEnd="@dimen/medium_space"
+                android:layout_marginStart="@dimen/medium_space"
+                android:background="@drawable/progress_indicator_background"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/dailyAccountTransferLimitTitleAndDescription" />
+
+            <TextView
+                android:id="@+id/dailyAccountTransferAvailableDescriptionView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/medium_space"
+                android:layout_marginStart="@dimen/medium_space"
+                android:layout_marginTop="@dimen/medium_space"
+                android:gravity="start"
+                android:text="@string/currency_rand_available"
+                android:textColor="@color/graphite_light_theme_item_color"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/dailyAccountTransferLimitProgressIndicatorView" />
+
+            <TextView
+                android:id="@+id/dailyAccountTransferUsedDescriptionView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/medium_space"
+                android:layout_marginStart="@dimen/medium_space"
+                android:layout_marginTop="@dimen/tiny_space"
+                android:gravity="start"
+                android:text="@string/currency_rand_used"
+                android:textColor="@color/grey_light_theme_color"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/dailyAccountTransferAvailableDescriptionView" />
+
+            <styleguide.content.TitleAndDescriptionView
+                android:id="@+id/recurringPaymentLimitTitleAndDescription"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/medium_space"
+                app:attribute_description="@string/recurring_payment_transaction_limit"
+                app:attribute_title="@string/currency"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/dailyAccountTransferUsedDescriptionView" />
+
+            <styleguide.content.TitleAndDescriptionView
+                android:id="@+id/futureDatedPaymentLimitTitleAndDescription"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/medium_space"
+                app:attribute_description="@string/future_dated_payment_limit"
+                app:attribute_title="@string/currency"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/recurringPaymentLimitTitleAndDescription" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+</layout>

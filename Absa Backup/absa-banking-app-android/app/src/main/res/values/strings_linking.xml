@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="linking_pin" translatable="false">PIN</string>
+    <string name="linking_account_number" translatable="false">Account number</string>
+    <string name="linking_user_number" translatable="false">User number</string>
+
+    <string name="linking_enter_your_access" translatable="false">Enter your access account number</string>
+    <string name="linking_enter_your_pin" translatable="false">Enter your PIN</string>
+    <string name="linking_enter_your_user_number" translatable="false">Enter your user number</string>
+    <string name="linking_link_device" translatable="false">Link Device</string>
+    <string name="link_users" translatable="false">Users</string>
+    <string name="reenter_passcode" translatable="false">Re-enter your 5-digit app passcode</string>
+    <string name="linking_passcode_toolbar_header" translatable="false">Passcode</string>
+    <string name="linking_enable_fingerprint" translatable="false">Enable Fingerprint</string>
+
+    <string name="linking_register_digital_banking">Register for digital banking</string>
+
+    <string name="linking_create_passcode_header" translatable="false">Create Passcode</string>
+    <string name="linking_create_passcode_description" translatable="false">You will use your passcode to log into this device.</string>
+    <string name="linking_enter_passcode" translatable="false">Create a 5-digit app passcode</string>
+    <string name="enter_a_five_digit_passcode" translatable="false">Enter Passcode</string>
+    <string name="linking_reenter_your_five_digit_app_passcode" translatable="false">Re-enter passcode</string>
+
+    <string name="touch_id_for_absa" translatable="false">Fingerprint ID for Absa banking</string>
+    <string name="log_in_using_your_fingerprint" translatable="false">Log in using your fingerprint.</string>
+    <string name="absa_website" translatable="false"><u>absa.co.za</u></string>
+
+    <string name="hold_your_phone_camera" translatable="false">Hold your phone camera in front of the QR code to scan</string>
+    <string name="if_your_cannot_scan_the_qr_code" translatable="false">If you cannot scan the QR code, you may enter the unique number instead.</string>
+
+    <!-- client agreement strings -->
+    <string name="personal_agreement" translatable="false">Personal Client Agreement</string>
+    <string name="business_agreement" translatable="false">Business Client Agreement</string>
+    <string name="too_many_attempts">Too many fingerprint attempts!</string>
+    <string name="linking_please_contact" translatable="false">Please contact:</string>
+    <string name="passcode_login_fingerprint_dialog_cancel" translatable="false">Cancel</string>
+    <!-- face scan strings -->
+    <string name="linking_enter_id_number_hint">eg. 7901010000002</string>
+    <string name="linking_no_sa_id_number">I don’t have an SA ID number</string>
+    <string name="linking_camera_permission_request_instruction">Please note this is a facial biometric scan, not a selfie. You won\'t be able to see your face and you don’t need to position the phone perfectly in front of your face. \n\nLearn more</string>
+    <string name="linking_camera_permission_request_title">Scan your face to verify your identity</string>
+    <string name="linking_camera_permission_terms_conditions">I agree to Absa using my biometric data to verify my identity so I can access my account. I have read the Privacy Statement.</string>
+    <string name="linking_camera_permission_terms_conditions_clickable_text">Privacy Statement</string>
+    <string name="linking_scan_face">Scan face</string>
+    <string name="linking_verify_identity">Verify your identity</string>
+    <string name="linking_error_camera_permission_title">Please enable camera access to proceed</string>
+    <string name="linking_error_camera_permission_message">In order to link your account you need to enable the camera on this device</string>
+    <string name="linking_error_open_settings">Open Settings</string>
+    <string name="linking_processing_message">Give us a few moments.</string>
+
+    <string name="linking_choose_alternative_method_title" translatable="false">Choose and alternative verification method</string>
+    <string name="linking_please_approve_verification_message_title" translatable="false">Please approve he verification message sent to the cellphone number:</string>
+    <string name="linking_resend_request_button_text" translatable="false">Resend request</string>
+    <string name="linking_enter_verification_code_hint_text" translatable="false">Enter verification code</string>
+    <string name="linking_verification_code_title_text" translatable="false">Verification Code</string>
+    <string name="linking_verification_text_message_label" translatable="false">Text message</string>
+    <string name="linking_verification_text_message_description_label" translatable="false">We\'ll send a verification message to the cell number ending *** *** 1234</string>
+    <string name="linking_verification_email_description_label" translatable="false">Email</string>
+    <string name="linking_verification_email_description_text" translatable="false">We\'ll send a verification message to the email address ri*****@absa.co.za</string>
+    <string name="linking_error_not_receiving_surecheck">Haven’t received verification?</string>
+    <string name="linking_error_some_wifi_networks_block_notifications">Some WiFi networks block notifications</string>
+    <string name="linking_error_please_check_your_connection">Please check your network connection and try again. Try turning your WiFi off and connecting via a data network instead.\nYou won\'t be charged for any data used by the Absa Banking app.</string>
+
+    <string name="linking_choose_a_profile" translatable="false">Choose a profile</string>
+    <string name="linking_choose_a_profile_title_text">Which of your profiles would you like to link to this device?</string>
+    <string name="linking_identity_fragment_toolbar_title">Let’s get started</string>
+    <string name="linking_id_fragment_title">We’ve made linking your device a lot easier</string>
+    <string name="linking_only_south_african_ids_accepted_for_now">Only South African ID’s are accepted for now</string>
+    <string name="linking_enter_your_id_number">Enter your ID Number</string>
+
+    <string name="linking_surecheck_v_one_message">Please approve the verification message sent to the cellphone number:\n\n%s</string>
+    <string name="linking_tvn_email_message">Please enter the RVN we sent to email address:\n\n%s</string>
+    <string name="linking_tvn_sms_message">Please enter the RVN we sent to the cell number ending:\n\n%s</string>
+    <string name="linking_enter_verification_code">Enter verification code</string>
+    <string name="linking_processing">Processing...</string>
+    <string name="linking_surecheck_I_do_not_have_my_device">I do not have my device</string>
+    <string name="linking_identity_technical_error" translatable="false">We could not verify your identity at this time.\nPlease try again later.</string>
+    <string name="linking_identity_use_old_flow" translatable="false">We could not verify your identity at this time.\nPlease try linking using your account number.</string>
+    <string name="linking_you_dont_have_an_active_account_title">You don\'t have an active Absa account</string>
+    <string name="linking_open_an_account">Open an account</string>
+    <string name="linking_you_dont_have_an_active_account_content" translatable="false">You don\'t have an active Absa account linked to your ID number\n\nWould you like to open account now?</string>
+    <string name="linking_not_now">Not now</string>
+    <string name="linking_verification_device_updated">This is now your verification device</string>
+    <string name="linking_this_is_now_your_verification_device">You will receive requests here to verify your transactions.</string>
+    <string name="linking_we_couldnt_continue_linking_this_account">We couldn\'t continue linking this account</string>
+    <string name="linking_learn_more">Learn more</string>
+    <string name="linking_how_to_scan_your_face">How to scan your face</string>
+    <string name="linking_how_to_scan_your_face_text">Please remember to remove your hats and glasses.\n\nPlease ensure you avoid bright light environments as this may prevent the scanner from reading your face.\n\nThe scan will match your image to The Department of Home Affairs or with what we have stored.</string>
+    <string name="linking_we_could_not_verify_your_identity">We could not verify your identity</string>
+    <string name="linking_we_could_not_verify_your_identity_masked_error">There seems to be a problem. Please call us or visit your nearest branch for assistance.</string>
+    <string name="linking_revert_to_existing_process" translatable="false">existing process</string>
+    <string name="linking_submitting">Submitting</string>
+    <string name="linking_verifying">Verifying</string>
+    <string name="linking_complete">Complete</string>
+    <string name="linking_please_try_again">Please try again</string>
+    <string name="linking_use_bio_authentication">Please use your South African ID number to link this device.</string>
+
+    <string name="linking_progress_first_step" translatable="false">".%1$s."</string>
+    <string name="linking_progress_second_step" translatable="false">"..%1$s.."</string>
+    <string name="linking_progress_third_step" translatable="false">"...%1$s..."</string>
+    <string name="linking_surecheck_change_primary_description">Your verification device will be used to confirm transactions and secure your account.</string>
+    <string name="linking_you_have_maxed_outyour_retries">You\'ve maxed out your re-tries</string>
+    <string name="linking_when_you_are_ready_try_again">When you\'re ready, please start again.</string>
+    <string name="linking_your_face_scan_did_not_work">Your face scan didn’t work</string>
+    <string name="linking_your_session_timed_out">Your session timed out</string>
+    <string name="linking_please_do_not_talk">Please do not talk while doing face scan</string>
+    <string name="linking_too_light">Ambient light too strong, please try turning around and scanning again</string>
+    <string name="linking_we_could_not_verify_your_identity_using_your_face_scan">We could not verify your identity using your face scan.\n\nPlease try again.</string>
+    <string name="linking_please_contact_us_to_help_reset_password" translatable="false">You can reset your password on Absa online. For assistance please contact us.</string>
+    <string name="linking_already_linked_devices_wont_be_shown">Accounts already linked to this device will not appear in the list above.</string>
+    <string name="linking_dont_see_account">I don\'t see my account</string>
+    <string name="linking_try_another_profile_button">Try another profile</string>
+    <string name="linking_unable_to_link_account">Unable to link this profile</string>
+    <string name="linking_account_closed_error">This account has been closed.\n\nFor more information and assistance please contact our call centre.</string>
+
+    <string name="linking_please_note_text_to_highlight">Please note</string>
+
+    <string name="linking_pin_revoked_title" translatable="false">PIN Revoked</string>
+    <string name="linking_pin_revoked_message" translatable="false">Your Absa Online Banking PIN has been revoked.\n\nPlease reset it before linking your device</string>
+    <string name="linking_unable_to_link_this_account_heading" translatable="false">Unable to link this profile</string>
+    <string name="linking_unable_to_link_this_account_description" translatable="false">This account is already linked on this device.</string>
+
+</resources>
